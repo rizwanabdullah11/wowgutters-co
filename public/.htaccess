@@ -1,0 +1,22 @@
+# Hostinger (Apache / LiteSpeed) — static Next.js export (out/)
+# Copied into out/ on build. Ensures index.html is used and JS/CSS MIME types are OK.
+
+DirectoryIndex index.html
+
+<IfModule mod_mime.c>
+  AddType application/javascript .js
+  AddType text/css .css
+  AddType application/json .json
+</IfModule>
+
+# Prevent aggressive caching of quote scripts (Hostinger/LiteSpeed).
+<IfModule mod_headers.c>
+  <FilesMatch "^(wow-quote-form-init|wow-quote-config|wow-cta-dialog-init)\\.js$">
+    Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+  </FilesMatch>
+</IfModule>
+
+# Avoid directory listing
+Options -Indexes

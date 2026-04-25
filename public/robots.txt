@@ -1,0 +1,35 @@
+# robots.txt for WOW Gutters
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Allow AI crawlers — CRITICAL for AI platform visibility
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Gemini
+Allow: /
+
+# Default rule — allow everything except admin/private areas
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /dashboard/
+Disallow: /_next/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://wowgutters.pro/sitemap.xml
