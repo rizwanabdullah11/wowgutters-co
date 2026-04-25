@@ -2,45 +2,34 @@
 
 import { useState } from 'react';
 import { ChevronDown, MessageCircle, Phone, Mail, CheckCircle } from 'lucide-react';
-import { colors } from '@/constants/colors';
 import Link from 'next/link';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
 
 export const AREA_FAQS = [
   {
-    question: "How frequently should my gutters be cleared?",
-    answer: "For optimal performance, we advise having your gutters cleared biannually, ideally during spring and autumn. Properties surrounded by dense foliage or exposed to heavy weather may require more regular checks. Our specialists can evaluate your home and advise the perfect maintenance interval.",
+    question: "How often should gutters be cleaned?",
+    answer: "Gutters should be cleaned at least twice a year, typically in the spring and autumn. However, if you have overhanging trees or frequent storms, more frequent cleaning may be necessary.",
     icon: "🗓️"
   },
   {
-    question: "Do I need to be at home during the service?",
-    answer: "Absolutely not! We provide flexible booking slots to suit your lifestyle. While most tasks take between 1 and 3 hours, we are more than happy to carry out our work while your property is unattended, provided we have external access. Just let us know what works best for you.",
-    icon: "⏰"
-  },
-  {
-    question: "Will the process leave a mess?",
-    answer: "We promise a spotless finish! By employing industrial-grade vacuum technology, all debris is sucked directly into enclosed containers. We take care to protect the surrounding areas and ensure everything is pristine before we leave, so the only noticeable difference is perfectly functioning guttering.",
+    question: "Why is gutter cleaning important?",
+    answer: "Clogged gutters can lead to water damage, roof leaks, foundation issues, and even pest infestations. Regular cleaning helps prevent costly repairs.",
     icon: "✨"
   },
   {
-    question: "Are you available to work over the weekend?",
-    answer: "Yes, indeed! We operate seven days a week, covering both weekends and bank holidays. Recognising that weekends are typically more manageable for our clients, our dedicated team remains fully accessible. We can also arrange evening visits if required.",
-    icon: "📅"
+    question: "What are the signs that my gutters need cleaning?",
+    answer: "Overflowing water, sagging gutters, visible plant growth, or water stains on your walls are all indicators your gutters are blocked.",
+    icon: "🏠"
   },
   {
-    question: "What payment methods do you accept?",
-    answer: "For your ease, we take an array of payment options including cash, major credit and debit cards, contactless methods, and direct bank transfers. Payment is only required once you are completely satisfied with the completed work, and a full invoice will be supplied.",
-    icon: "💳"
-  },
-  {
-    question: "Is ladder access always necessary?",
-    answer: "Our approach varies based on the unique demands of your property. Predominantly, we utilise high-reach vacuum poles that safely operate from ground level up to four storeys high. In cases where manual repairs are needed, our fully insured and trained operatives are equipped with traditional safety ladders.",
+    question: "Can I clean my gutters myself?",
+    answer: "While it’s possible, professional gutter cleaning ensures thorough removal of debris, safe access to hard-to-reach areas, and early detection of damage.",
     icon: "🪜"
   },
   {
-    question: "Do you also clean windows?",
-    answer: "While our core expertise lies in comprehensive gutter clearing and repairs, our skillset encompasses exterior washing solutions. This includes rejuvenating fascias, soffits, conservatories, and uPVC installations. Above all, we are dedicated guttering specialists focused on safeguarding your home from water ingress.",
-    icon: "🏠"
+    question: "How much does gutter cleaning cost?",
+    answer: "Costs vary based on the property size, gutter condition, and accessibility, but typical residential cleanings range from £50–£150.",
+    icon: "💳"
   }
 ];
 
@@ -71,13 +60,13 @@ export default function AreaFAQ() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-white/10 px-6 py-3 rounded-full mb-6 border border-white/20 backdrop-blur-sm">
             <MessageCircle className="w-5 h-5 text-white" />
-            <span className="text-white font-bold text-sm tracking-wider uppercase">Got Questions?</span>
+            <span className="text-white font-bold text-sm tracking-wider uppercase">Faq</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
-            Commonly Asked <span className="text-white">Questions</span>
+            Gutter General <span className="text-white">Questions</span>
           </h2>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Find prompt answers regarding our procedures and scheduling. If your query isn't covered here, our support team is just a call away!
+            Find answers to the most common gutter cleaning questions.
           </p>
         </div>
 
@@ -131,9 +120,9 @@ export default function AreaFAQ() {
             <div className="sticky top-8 space-y-6">
               {/* Still Have Questions Card */}
               <div className="bg-[#19C58B] rounded-2xl p-8 text-white shadow-2xl">
-                <h3 className="text-2xl font-black mb-4">Need Further Clarity?</h3>
+                <h3 className="text-2xl font-black mb-4">Get Your FREE Instant Quote</h3>
                 <p className="text-white/90 mb-6 leading-relaxed">
-                  Our knowledgeable representatives are eager to assist. Reach out to us directly for tailored advice and rapid responses.
+                  We&apos;ll text you your quote and you&apos;ll even be able to book-in online.
                 </p>
                 
                 <div className="space-y-4">
@@ -195,7 +184,7 @@ export default function AreaFAQ() {
         {/* Bottom CTA */}
         <div className="text-center mt-16">
           <Link href="/help" className="inline-flex items-center gap-2 text-white font-bold text-lg hover:underline">
-            View All Questions & Answers
+            FREE Instant quote
             <ChevronDown className="w-5 h-5 rotate-[-90deg]" />
           </Link>
         </div>

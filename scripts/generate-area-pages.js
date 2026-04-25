@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 const fs = require('fs');
 const path = require('path');
 
@@ -124,7 +125,9 @@ const areas = {
   ],
 };
 
-// Template for page generation
+// Template for legacy /areas page generation.
+// The area page wording/headings live in components/areas/AreaPage.tsx so every
+// generated area receives the same updated content structure with its own area name.
 const generatePageContent = (slug, name, postcodes, county) => {
   return `import AreaPage from '@/components/areas/AreaPage';
 
@@ -178,11 +181,11 @@ Object.keys(areas).forEach((region) => {
     fs.writeFileSync(pageFile, content, 'utf8');
     
     totalCreated++;
-    console.log(`✅ Created: /areas/${area.slug}`);
+    console.log(`Created legacy page: /areas/${area.slug} -> /gutter-cleaning-${area.slug}/`);
   });
 });
 
-console.log(`\n🎉 Successfully created ${totalCreated} area pages!`);
-console.log('\n📍 All pages are now accessible at:');
-console.log('   yoursite.com/areas/[area-name]');
-console.log('\n🚀 Pages will automatically appear in your sitemap and be indexed by Google!');
+console.log(`\nSuccessfully created ${totalCreated} legacy area pages.`);
+console.log('\nCanonical area URLs use:');
+console.log('   yoursite.com/gutter-cleaning-[area-name]/');
+console.log('\nShared page copy is controlled by components/areas/AreaPage.tsx and AreaFAQ.tsx.');
