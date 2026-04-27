@@ -1,5 +1,6 @@
 import { colors } from '@/constants/colors';
 import { Phone, Headphones, Users, Clock, Shield } from 'lucide-react';
+import Link from 'next/link';
 
 export default function HelpIsHere() {
   const teamMembers = [
@@ -89,15 +90,15 @@ export default function HelpIsHere() {
               className="px-6 py-2 text-sm font-semibold rounded-full"
               style={{ backgroundColor: colors.cta, color: colors.white }}
             >
-              Expert Support Team
+              Local Support Team
             </span>
           </div>
           
           <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: colors.white }}>
-            Help is here....
+            Need Gutter Help Today?
           </h2>
           <p className="text-xl mb-6 max-w-3xl mx-auto leading-relaxed" style={{ color: colors.white }}>
-            Your complete gutter maintenance solution is just a call away!
+            Speak with WOW Gutters LTD for gutter cleaning, downpipe clearing, repairs and roofline cleaning.
           </p>
           
           {/* Call to Action */}
@@ -105,7 +106,7 @@ export default function HelpIsHere() {
             <div className="flex items-center justify-center gap-3 mb-4">
               <Phone className="w-8 h-8" style={{ color: colors.cta }} />
               <span className="text-lg font-semibold" style={{ color: colors.white }}>
-                Call Now for Immediate Help
+                Call Now for Gutter Advice
               </span>
             </div>
             <a 
@@ -152,10 +153,10 @@ export default function HelpIsHere() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h3 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: colors.text }}>
-            Meet Our Expert Team
+            Meet Your Local Gutter Team
           </h3>
           <p className="text-lg" style={{ color: colors.textLight }}>
-            Professional, qualified, and ready to help
+            Friendly technicians ready to help keep your property protected
           </p>
         </div>
 
@@ -218,13 +219,13 @@ export default function HelpIsHere() {
           {/* Text Content */}
           <div className="text-center md:text-left flex-1 max-w-2xl">
             <span className="inline-block px-4 py-1.5 rounded-full text-xs font-bold tracking-wider uppercase mb-4" style={{ backgroundColor: 'rgba(255,255,255,0.15)', color: colors.white }}>
-              Fast & Reliable
+              Free Quote Available
             </span>
             <h4 className="text-3xl md:text-4xl lg:text-5xl font-black mb-4 tracking-tight leading-tight" style={{ color: colors.white }}>
-              Ready to Get Started?
+              Ready to Clear Your Gutters?
             </h4>
             <p className="text-lg md:text-xl text-white/90 font-medium">
-              Our expert team is standing by to help with all your gutter maintenance needs. Get a quote or call us directly!
+              Get your free quote today, or call us directly to discuss gutter cleaning, repairs and exterior cleaning for your property.
             </p>
           </div>
 
@@ -240,14 +241,14 @@ export default function HelpIsHere() {
               </div>
               Call Now
             </a>
-            <a 
+            <Link
               href="/quote"
               className="px-8 py-4 rounded-xl font-bold border-2 transition-all duration-300 flex items-center justify-center gap-3 hover:bg-white hover:text-green-800 hover:border-white"
               style={{ borderColor: 'rgba(255,255,255,0.4)', color: colors.white }}
             >
               <Users className="w-5 h-5 opacity-80" />
               Get a Quote
-            </a>
+            </Link>
           </div>
 
         </div>

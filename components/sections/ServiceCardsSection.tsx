@@ -8,7 +8,7 @@ const cards = [
     backgroundImage: '/gutter-inspection.jfif',
     imageAlt: 'Gutter inspection illustration',
     title: 'Inspect',
-    description: 'Detailed roof and gutter checks to spot early signs of wear before they become expensive repairs.',
+    description: 'Careful roofline and gutter checks to find leaks, blockages and weak points before they become costly.',
     buttonText: 'Book a Free Inspection',
     link: '/help/inspect',
     accentColor: '#19C58B',
@@ -19,7 +19,7 @@ const cards = [
     backgroundImage: '/gutter-cleaning.jpeg',
     imageAlt: 'Gutter cleaning illustration',
     title: 'Unblock',
-    description: 'Powerful vacuum gutter cleaning and downpipe unblocking that keeps rainwater flowing safely away from your home.',
+    description: 'High-reach gutter vacuum cleaning and downpipe unblocking to keep rainwater flowing safely away.',
     buttonText: 'Get Unblocking',
     link: '/help/unblock',
     accentColor: '#14B27D',
@@ -30,7 +30,7 @@ const cards = [
     backgroundImage: '/gutter-repair.jfif',
     imageAlt: 'Gutter repair illustration',
     title: 'Repair',
-    description: 'Reliable gutter repairs for leaks, misaligned joints and damaged brackets to prevent future water damage.',
+    description: 'Gutter repairs for leaking joints, loose clips, sagging sections and damaged brackets.',
     buttonText: 'Request Repair',
     link: '/help/repair',
     accentColor: '#8DC63F',
@@ -41,7 +41,7 @@ const cards = [
     backgroundImage: '/roof-cleaning.JPG',
     imageAlt: 'Roof and exterior cleaning image',
     title: 'Clean',
-    description: 'Professional roof and exterior cleaning to remove moss, algae and staining for a fresher, longer-lasting finish.',
+    description: 'Roof, fascia, soffit and exterior cleaning to remove moss, algae, staining and built-up grime.',
     buttonText: 'Book Cleaning',
     link: '/help/clean',
     accentColor: '#FF6B35',
@@ -62,9 +62,9 @@ export default function ServiceCardsSection() {
         {/* Header */}
         <div className="how-help-header">
           <span className="how-help-eyebrow">OUR SERVICES</span>
-          <h2 className="how-help-title">How Can We Help You?</h2>
+          <h2 className="how-help-title">Gutter Services for Every Property</h2>
           <p className="how-help-subtitle">
-            From routine inspections to emergency repairs — we've got every gutter need covered.
+            From blocked gutter cleaning to roofline repairs, we keep Birmingham properties protected from water damage.
           </p>
         </div>
 
@@ -124,12 +124,12 @@ export default function ServiceCardsSection() {
                       <h3 className="how-help-card-title">{card.title}</h3>
                       
                       <div className="back-features">
-                        <h4 className="back-features-title" style={{ color: card.accentColor }}>WHAT'S INCLUDED:</h4>
+                        <h4 className="back-features-title" style={{ color: card.accentColor }}>WHAT&apos;S INCLUDED:</h4>
                         <ul className="back-features-list">
                           <li>✓ Professional assessment</li>
-                          <li>✓ Same-day bookings available</li>
-                          <li>✓ Before & after photos</li>
-                          <li>✓ Full insurance coverage</li>
+                          <li>✓ Flexible bookings available</li>
+                          <li>✓ Clear advice before work starts</li>
+                          <li>✓ Fully insured service</li>
                         </ul>
                       </div>
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     'Professional gutter cleaning using high-reach vacuum systems. Clears moss, leaves & blockages safely from the ground. Same-day available. Free quote today.',
   alternates: {
-    canonical: 'https://wowgutters.pro/services/gutter-cleaning/',
+    canonical: 'https://wowgutters.co.uk/services/gutter-cleaning/',
   },
 };
 

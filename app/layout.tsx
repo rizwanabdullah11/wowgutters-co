@@ -8,7 +8,7 @@ import MaybeStaticQuoteDialog from "@/components/MaybeStaticQuoteDialog";
 import IosViewportStabilizer from "@/components/IosViewportStabilizer";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://wowgutters.pro'),
+  metadataBase: new URL('https://wowgutters.co.uk'),
   title: {
     default: "Gutter Cleaning Birmingham & West Midlands | WOW Gutters — Free Quote",
     template: "%s | WOW Gutters"
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     "fascia cleaning",
     "soffit cleaning"
   ],
-  authors: [{ name: "WOW Gutters", url: "https://wowgutters.pro" }],
+  authors: [{ name: "WOW Gutters", url: "https://wowgutters.co.uk" }],
   creator: "WOW Gutters",
   publisher: "WOW Gutters",
   formatDetection: {
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://wowgutters.pro",
+    url: "https://wowgutters.co.uk",
     siteName: "WOW Gutters",
     title: "Gutter Cleaning Birmingham & West Midlands | WOW Gutters — Free Quote",
     description: "Expert gutter cleaning across Birmingham & West Midlands. Ground-level vacuum technology, same-day booking, fully insured. Get your free quote in 60 seconds.",
@@ -91,7 +91,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://wowgutters.pro",
+    canonical: "https://wowgutters.co.uk",
   },
   category: "Home Services",
 };
@@ -105,12 +105,12 @@ export default function RootLayout({
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://wowgutters.pro/#business",
+    "@id": "https://wowgutters.co.uk/#business",
     "name": "WOW Gutters Ltd",
     "description": "Professional gutter cleaning, repairs, roof cleaning and exterior maintenance across Birmingham and the West Midlands. Ground-level vacuum technology, same-day booking, fully insured.",
-    "image": "https://wowgutters.pro/assets/wow-gutter-logo2.png",
-    "logo": "https://wowgutters.pro/assets/wow-gutter-logo2.png",
-    "url": "https://wowgutters.pro",
+    "image": "https://wowgutters.co.uk/assets/wow-gutter-logo2.png",
+    "logo": "https://wowgutters.co.uk/assets/wow-gutter-logo2.png",
+    "url": "https://wowgutters.co.uk",
     "telephone": "+447421433910",
     "email": "support@wowgutters.co.uk",
     "priceRange": "££",
@@ -195,7 +195,7 @@ export default function RootLayout({
       "@type": "LocalBusiness",
       "name": "WOW Gutters",
       "telephone": "+447421433910",
-      "url": "https://wowgutters.pro"
+      "url": "https://wowgutters.co.uk"
     },
     "areaServed": {
       "@type": "Country",
@@ -257,7 +257,7 @@ export default function RootLayout({
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://wowgutters.pro"
+        "item": "https://wowgutters.co.uk"
       }
     ]
   };

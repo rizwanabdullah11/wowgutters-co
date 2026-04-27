@@ -1,6 +1,5 @@
 'use client';
 import React, { useState } from 'react';
-import { colors } from '@/constants/colors';
 import { ArrowRight, HelpCircle } from 'lucide-react';
 
 const categories = [
@@ -50,10 +49,10 @@ export default function QuestionsAnswers() {
         
         {/* Header */}
         <div className="qa-header">
-          <span className="qa-eyebrow">HELP CENTRE</span>
-          <h2 className="qa-title">Latest Questions & Answers</h2>
+          <span className="qa-eyebrow">GUTTER HELP</span>
+          <h2 className="qa-title">Common Gutter Cleaning Questions</h2>
           <p className="qa-desc">
-            Check out our help centre where we answer some of the most common questions.
+            Clear answers about gutter cleaning, downpipe blockages, repairs, roof cleaning and regular maintenance.
           </p>
         </div>
 
@@ -105,8 +104,8 @@ export default function QuestionsAnswers() {
                 className="qa-sidebar-img"
               />
               <div className="qa-sidebar-content">
-                <span className="qa-sidebar-eyebrow">NEED MORE HELP?</span>
-                <h3 className="qa-sidebar-title">Still need help?</h3>
+                <span className="qa-sidebar-eyebrow">NEED ADVICE?</span>
+                <h3 className="qa-sidebar-title">Ask our local team</h3>
 
                 <div className="qa-sidebar-search">
                   <input
@@ -120,7 +119,7 @@ export default function QuestionsAnswers() {
                 </div>
 
                 <button className="qa-sidebar-btn">
-                  Go to Help Centre
+                  Visit Help Centre
                   <ArrowRight className="w-4 h-4" />
                 </button>
               </div>

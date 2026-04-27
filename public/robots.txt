@@ -32,4 +32,4 @@ Disallow: /_next/
 Disallow: /admin/
 
 # Sitemap location
-Sitemap: https://wowgutters.pro/sitemap.xml
+Sitemap: https://wowgutters.co.uk/sitemap.xml

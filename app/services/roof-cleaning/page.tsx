@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     'Safe moss removal & roof cleaning across the West Midlands. Soft-wash technique protects your tiles. Long-lasting results. Book a free inspection today.',
   alternates: {
-    canonical: 'https://wowgutters.pro/services/roof-cleaning/',
+    canonical: 'https://wowgutters.co.uk/services/roof-cleaning/',
   },
 };
 

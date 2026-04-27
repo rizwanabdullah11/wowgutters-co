@@ -1,7 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { colors } from '@/constants/colors';
-import { MapPin, ArrowRight, Search, Navigation } from 'lucide-react';
+import { MapPin, Search, Navigation } from 'lucide-react';
 
 const locations = [
   { name: 'Birmingham', coordinates: '52.4862,-1.8904' },
@@ -40,9 +39,9 @@ export default function FindLocalTeam() {
             <span className="local-team-line"></span>
           </div>
           
-          <h2 className="local-team-title">Service Areas</h2>
+          <h2 className="local-team-title">Find Gutter Cleaning Near You</h2>
           <p className="local-team-desc">
-            Professional gutter services across the West Midlands and surrounding areas.
+            Local gutter cleaners covering Birmingham, the West Midlands and surrounding towns.
           </p>
         </div>
 
@@ -56,7 +55,7 @@ export default function FindLocalTeam() {
               <Search className="search-icon-left" />
               <input
                 type="text"
-                placeholder="Start typing your town or city..."
+                placeholder="Search your town or city..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="local-team-input"
@@ -80,7 +79,7 @@ export default function FindLocalTeam() {
                 })
               ) : (
                 <div className="local-team-empty">
-                  No locations found matching "{searchQuery}"
+                  No locations found matching &quot;{searchQuery}&quot;
                 </div>
               )}
             </div>

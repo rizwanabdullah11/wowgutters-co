@@ -46,7 +46,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     title: `Gutter Cleaning ${areaName} | WOW Gutters`,
     description: `Professional gutter cleaning and repair services in ${areaName} and surrounding areas. Get a free quote today!`,
     alternates: {
-      canonical: `https://wowgutters.pro${areaPath(areaSlug)}`,
+      canonical: `https://wowgutters.co.uk${areaPath(areaSlug)}`,
     },
   };
 }

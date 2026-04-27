@@ -4,7 +4,7 @@ export default function SEOMeta({
   title,
   description,
   canonicalUrl,
-  ogImageUrl = 'https://wowgutters.pro/assets/wow-gutter-logo2.png',
+  ogImageUrl = 'https://wowgutters.co.uk/assets/wow-gutter-logo2.png',
   ogType = 'website',
   noindex = false,
 }: {

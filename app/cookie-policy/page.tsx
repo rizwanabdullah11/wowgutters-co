@@ -9,8 +9,8 @@ export default function CookiePolicy() {
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       <SEOMeta
         title="Cookie Policy | WOW Gutters"
-        description="Read the WOW Gutters cookie policy and learn how cookies are used to improve your experience on wowgutters.pro."
-        canonicalUrl="https://wowgutters.pro/cookie-policy"
+        description="Read the WOW Gutters cookie policy and learn how cookies are used to improve your experience on wowgutters.co.uk."
+        canonicalUrl="https://wowgutters.co.uk/cookie-policy"
       />
       <SchemaMarkup
         id="schema-cookie-webpage"
@@ -18,7 +18,7 @@ export default function CookiePolicy() {
           '@context': 'https://schema.org',
           '@type': 'WebPage',
           name: 'Cookie Policy',
-          url: 'https://wowgutters.pro/cookie-policy',
+          url: 'https://wowgutters.co.uk/cookie-policy',
         }}
       />
       {/* Hero Section */}

@@ -27,7 +27,7 @@ export default function CommercialPage() {
         <meta property="og:title" content="Commercial Gutter Cleaning Services - WowGutters" />
         <meta property="og:description" content="Professional gutter maintenance for businesses with flexible scheduling and maintenance contracts." />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://wowgutters.pro/commercial" />
+        <link rel="canonical" href="https://wowgutters.co.uk/commercial" />
       </Head>
       {/* Hero Section with Video Background */}
       <section className="relative overflow-hidden" style={{ height: '70vh', minHeight: '500px' }}>

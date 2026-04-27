@@ -40,18 +40,18 @@ export default function CommercialBanner() {
               <div className="commercial-sparkle">✨</div>
             </div>
             <h3 className="commercial-title">
-              Dedicated Commercial Gutter Solutions
+              Commercial Gutter Cleaning Birmingham
             </h3>
             <p className="commercial-description">
-              Professional gutter cleaning services tailored for businesses, offices, retail spaces, and commercial properties. 
-              <span className="commercial-highlight"> Same-day service available.</span>
+              Reliable gutter and downpipe cleaning for shops, offices, rental properties, schools and commercial buildings.
+              <span className="commercial-highlight"> Flexible visits available.</span>
             </p>
             
             {/* Features list */}
             <div className="commercial-features">
               <div className="commercial-feature-item">
                 <span className="feature-check">✓</span>
-                <span>Flexible scheduling</span>
+                <span>Out-of-hours options</span>
               </div>
               <div className="commercial-feature-item">
                 <span className="feature-check">✓</span>
@@ -59,7 +59,7 @@ export default function CommercialBanner() {
               </div>
               <div className="commercial-feature-item">
                 <span className="feature-check">✓</span>
-                <span>Competitive rates</span>
+                <span>Planned maintenance</span>
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@ export default function CommercialBanner() {
           {/* Right side - CTA */}
           <div className="commercial-cta-section">
             <Link href="/commercial" className="commercial-cta-btn">
-              <span className="cta-btn-text">Explore Commercial Services</span>
+              <span className="cta-btn-text">View Commercial Services</span>
               <div className="cta-btn-icon-wrapper">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="cta-btn-arrow">
                   <path d="M5 12h14M12 5l7 7-7 7" />
@@ -79,8 +79,8 @@ export default function CommercialBanner() {
             {/* Trust indicators */}
             <div className="commercial-trust">
               <div className="trust-item">
-                <span className="trust-number">500+</span>
-                <span className="trust-label">Businesses</span>
+                <span className="trust-number">7 Days</span>
+                <span className="trust-label">Available</span>
               </div>
               <div className="trust-divider"></div>
               <div className="trust-item">

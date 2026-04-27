@@ -17,22 +17,22 @@ export default function HeroSection() {
   // Rotating headlines — location-first for local SEO
   const heroHeadlines = [
     {
-      prefix: 'Gutter Cleaning in',
-      service: 'Birmingham',
-      highlight: '& West Midlands',
-      bottom: 'Book Today',
+      prefix: 'Trusted',
+      service: 'Gutter Cleaning',
+      highlight: 'Birmingham',
+      bottom: 'For Homes & Businesses',
     },
     {
-      prefix: 'Same-Day',
-      service: 'Gutter',
-      highlight: '& Roof',
-      bottom: 'Cleaning',
+      prefix: 'Local',
+      service: 'Roofline',
+      highlight: 'Experts',
+      bottom: 'Fully Insured',
     },
     {
-      prefix: 'Get Your',
+      prefix: 'Request Your',
       service: 'FREE',
-      highlight: 'Quote',
-      bottom: 'in 60 Seconds',
+      highlight: 'Instant Quote',
+      bottom: 'Book Online',
     }
   ];
 
@@ -140,7 +140,7 @@ export default function HeroSection() {
 
             {/* Subtext */}
             <p className="hero-subtitle animate-fade-in-up delay-200">
-              Rated 4.9★ by over 2,600 customers. Same-day booking across Birmingham, Coventry, Wolverhampton, Solihull, Worcester & 10 more areas — no ladders, no mess.
+              Professional gutter cleaning, downpipe clearing, fascia and soffit cleaning, and roof cleaning across Birmingham and the West Midlands. Clean gutters, safer drainage, and reliable local service from WOW Gutters LTD.
             </p>
 
             {/* CTA Row */}

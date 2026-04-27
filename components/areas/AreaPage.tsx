@@ -55,7 +55,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
         <meta property="og:title" content={`Gutter Cleaning ${formattedArea} - WowGutters`} />
         <meta property="og:description" content={`Professional gutter services in ${formattedArea}. Same-day booking available. Free quotes.`} />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href={`https://wowgutters.pro/gutter-cleaning-${areaName}/`} />
+        <link rel="canonical" href={`https://wowgutters.co.uk/gutter-cleaning-${areaName}/`} />
       </Head>
       {/* 1) Premium Hero Section matching Home Page */}
       <section className="area-hero-section">

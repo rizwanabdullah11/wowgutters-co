@@ -23,7 +23,7 @@ export default function OAPDiscount() {
         <meta name="keywords" content="oap discount, senior citizen discount, pensioner gutter cleaning, elderly discount gutters, west midlands oap services" />
         <meta property="og:title" content="OAP Discount - Senior Citizen Gutter Cleaning" />
         <meta property="og:description" content="Special discounts for senior citizens on professional gutter cleaning services." />
-        <link rel="canonical" href="https://wowgutters.pro/oap-discount" />
+        <link rel="canonical" href="https://wowgutters.co.uk/oap-discount" />
       </Head>
       {/* Hero Section */}
       <section className="relative py-20 px-4" style={{ background: colors.primaryGradient }}>

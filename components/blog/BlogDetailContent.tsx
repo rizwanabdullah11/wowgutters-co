@@ -39,21 +39,21 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
     'author': {
       '@type': post.author ? 'Person' : 'Organization',
       'name': post.author || 'WOW Gutters LTD',
-      'url': 'https://wowgutters.pro'
+      'url': 'https://wowgutters.co.uk'
     },
     'publisher': {
       '@type': 'Organization',
       'name': 'WOW Gutters LTD',
       'logo': {
         '@type': 'ImageObject',
-        'url': 'https://wowgutters.pro/logo.png'
+        'url': 'https://wowgutters.co.uk/logo.png'
       }
     },
     'datePublished': post.date,
     'dateModified': post.lastUpdated || post.date,
     'mainEntityOfPage': {
       '@type': 'WebPage',
-      '@id': `https://wowgutters.pro/blog/${post.id}`
+      '@id': `https://wowgutters.co.uk/blog/${post.id}`
     }
   };
 

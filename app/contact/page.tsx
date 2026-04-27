@@ -17,7 +17,7 @@ export default function Contact() {
         <meta property="og:title" content="Contact WowGutters - Professional Gutter Services" />
         <meta property="og:description" content="Get in touch for professional gutter services. Same-day booking available. Call 07421 433910 or request a free quote online." />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://wowgutters.pro/contact" />
+        <link rel="canonical" href="https://wowgutters.co.uk/contact" />
       </Head>
       <section className="relative overflow-hidden border-b border-gray-100 bg-gradient-to-br from-emerald-50 via-white to-slate-100">
         <div className="mx-auto grid max-w-7xl gap-10 px-4 py-8 sm:px-6 lg:grid-cols-2 lg:items-start lg:py-10">

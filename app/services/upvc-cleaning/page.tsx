@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     'Professional uPVC cleaning in Birmingham for fascias, soffits, frames & conservatories using purified water for a bright, streak-free finish. Free quote today.',
   alternates: {
-    canonical: 'https://wowgutters.pro/services/upvc-cleaning/',
+    canonical: 'https://wowgutters.co.uk/services/upvc-cleaning/',
   },
 };
 

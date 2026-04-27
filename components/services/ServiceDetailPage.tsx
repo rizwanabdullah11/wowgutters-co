@@ -49,7 +49,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         <meta property="og:title" content={`${service.name} Services - WowGutters`} />
         <meta property="og:description" content={service.heroDescription.substring(0, 160)} />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href={`https://wowgutters.pro/services/${service.id}`} />
+        <link rel="canonical" href={`https://wowgutters.co.uk/services/${service.id}`} />
       </Head>
       {/* Premium Hero Section */}
       <section className="service-hero-section">

@@ -60,7 +60,7 @@ export default function GutterCleaningCalculator() {
         <meta name="keywords" content="gutter cleaning calculator, gutter cleaning cost, gutter cleaning price, west midlands gutter prices, birmingham gutter cost" />
         <meta property="og:title" content="Gutter Cleaning Price Calculator - WowGutters" />
         <meta property="og:description" content="Calculate your gutter cleaning cost instantly with our free online calculator." />
-        <link rel="canonical" href="https://wowgutters.pro/gutter-cleaning-calculator" />
+        <link rel="canonical" href="https://wowgutters.co.uk/gutter-cleaning-calculator" />
       </Head>
       <div className="max-w-3xl mx-auto">
         <div className="bg-white rounded-lg shadow-md p-8">

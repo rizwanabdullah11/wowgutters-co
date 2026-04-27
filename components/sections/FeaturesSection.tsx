@@ -7,15 +7,15 @@ const topFeatures = [
     title: 'We Unblock Downpipes',
     subtitle: 'INCLUDED AS STANDARD',
     description:
-      'Outlet and downpipe unblocking is included as standard to keep rainwater moving away from your property.',
+      'We clear outlets and check downpipes so rainwater can drain away from your property properly.',
     accent: '#3B82F6',
   },
   {
     icon: <ArrowUp className="w-5 h-5" />,
-    title: 'Reach Gutters up to 40ft High!',
+    title: 'High-Reach Gutter Cleaning',
     subtitle: 'HIGH ACCESS SPECIALISTS',
     description:
-      'Our high-reach equipment allows safe cleaning of tall gutters, including hard-to-reach lines above extensions.',
+      'Our gutter vacuum equipment reaches awkward and higher gutter lines without unnecessary disruption.',
     accent: '#19C58B',
   },
   {
@@ -23,7 +23,7 @@ const topFeatures = [
     title: 'Gutters Over Your Conservatory',
     subtitle: 'SPECIALIST ACCESS',
     description:
-      'We use specialist access tools to clean over conservatories and awkward rooflines without unnecessary risk.',
+      'We use specialist access tools to clean over conservatories, porches and awkward rooflines.',
     accent: '#F97316',
   },
 ];
@@ -31,18 +31,18 @@ const topFeatures = [
 const bottomFeatures = [
   {
     icon: <PoundSterling className="w-5 h-5" />,
-    title: 'Low-Cost Gutter Cleaning',
-    subtitle: 'SAVE MONEY',
+    title: 'Fair Gutter Cleaning Prices',
+    subtitle: 'CLEAR VALUE',
     description:
-      'Fair, transparent pricing designed to keep professional gutter care affordable without compromising quality.',
+      'Straightforward prices designed to keep professional gutter care affordable and worthwhile.',
     accent: '#8B5CF6',
   },
   {
     icon: <UserCheck className="w-5 h-5" />,
-    title: 'Fully Trained & Insured',
+    title: 'Trained & Insured Team',
     subtitle: 'PEACE OF MIND',
     description:
-      'Every technician is trained, experienced and insured so your property is always in safe hands.',
+      'Every technician works with care, experience and insurance for extra peace of mind.',
     accent: '#19C58B',
   },
   {
@@ -108,16 +108,16 @@ export default function FeaturesSection() {
         <div className="flex items-center justify-center gap-3 mb-5">
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
           <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primary }}>
-            Our Features
+            Service Benefits
           </span>
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
         </div>
 
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-center mb-4" style={{ color: colors.text }}>
-          What Makes Us Different
+          Practical Benefits of Our Gutter Cleaning
         </h2>
         <p className="text-center text-base sm:text-lg mb-12 max-w-2xl mx-auto" style={{ color: colors.textLight }}>
-          Six practical advantages that make our gutter cleaning service safer, cleaner and more reliable.
+          Everything is designed to make gutter cleaning simple, safe and effective for your property.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">

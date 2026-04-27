@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Commercial Gutter Cleaning Birmingham | Business Services',
   description: 'Professional commercial gutter cleaning for businesses in Birmingham & West Midlands. Flexible scheduling, fully insured. Call 07421 433910.',
   alternates: {
-    canonical: 'https://wowgutters.pro/services/commercial-gutter-cleaning/',
+    canonical: 'https://wowgutters.co.uk/services/commercial-gutter-cleaning/',
   },
 };
 
