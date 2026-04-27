@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     default: "WOW Gutters | Gutter Cleaning & Roofline Services",
     template: "%s | WOW Gutters"
   },
-  description: "Professional gutter cleaning, repairs, inspections, roof cleaning and exterior cleaning. Fully insured team and fast quotes from WOW Gutters.",
+  description: "Professional gutter cleaning, repairs, inspections, roof cleaning and exterior cleaning. Fast quotes and same-day booking from WOW Gutters.",
   keywords: SEO_KEYWORD_LINKS.map((k) => k.label),
   authors: [{ name: "WOW Gutters", url: "https://wowgutters.co.uk" }],
   creator: "WOW Gutters",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     url: "https://wowgutters.co.uk",
     siteName: "WOW Gutters",
     title: "WOW Gutters | Gutter Cleaning & Roofline Services",
-    description: "Professional gutter cleaning, repairs, inspections, roof cleaning and exterior cleaning. Fully insured team and fast quotes from WOW Gutters.",
+    description: "Professional gutter cleaning, repairs, inspections, roof cleaning and exterior cleaning. Fast quotes and same-day booking from WOW Gutters.",
     images: [
       {
         url: "/assets/wow-gutter-logo2.png",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "WOW Gutters | Gutter Cleaning & Roofline Services",
-    description: "Professional gutter cleaning, repairs, inspections, roof cleaning and exterior cleaning. Fully insured team and fast quotes from WOW Gutters.",
+    description: "Professional gutter cleaning, repairs, inspections, roof cleaning and exterior cleaning. Fast quotes and same-day booking from WOW Gutters.",
     images: ["/assets/wow-gutter-logo2.png"],
     creator: "@wowgutters",
   },
@@ -84,14 +84,16 @@ export default function RootLayout({
   const addressCity = (process.env.NEXT_PUBLIC_BUSINESS_CITY || '').trim();
   const addressRegion = (process.env.NEXT_PUBLIC_BUSINESS_REGION || '').trim();
   const addressPostcode = (process.env.NEXT_PUBLIC_BUSINESS_POSTCODE || '').trim();
+  const gbpCidUrl = (process.env.NEXT_PUBLIC_GBP_CID_URL || '').trim();
+  const trustpilotUrl = (process.env.NEXT_PUBLIC_TRUSTPILOT_URL || '').trim();
 
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "@id": "https://wowgutters.co.uk/#business",
     "name": "WOW Gutters Ltd",
-    "description": "Professional gutter cleaning, repairs, roof cleaning and exterior maintenance. Fully insured team and fast quotes.",
-    "image": "https://wowgutters.co.uk/assets/wow-gutter-logo2.png",
+    "description": "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, no ladders, 4-storey reach, same-day booking, 1-year guarantee.",
+    "image": "https://wowgutters.co.uk/gutter-cleaning.jpeg",
     "logo": "https://wowgutters.co.uk/assets/wow-gutter-logo2.png",
     "url": "https://wowgutters.co.uk",
     "telephone": "+447421433910",
@@ -100,44 +102,54 @@ export default function RootLayout({
     "address": {
       "@type": "PostalAddress",
       ...(addressLine1 ? { "streetAddress": [addressLine1, addressLine2].filter(Boolean).join(', ') } : {}),
-      ...(addressCity ? { "addressLocality": addressCity } : {}),
-      ...(addressRegion ? { "addressRegion": addressRegion } : {}),
+      ...(addressCity ? { "addressLocality": addressCity } : { "addressLocality": "Birmingham" }),
+      ...(addressRegion ? { "addressRegion": addressRegion } : { "addressRegion": "West Midlands" }),
       ...(addressPostcode ? { "postalCode": addressPostcode } : {}),
       "addressCountry": "GB"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.4862,
+      "longitude": -1.8904
     },
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "20:00"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Saturday",
-        "opens": "09:00",
-        "closes": "18:00"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Sunday",
-        "opens": "10:00",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "08:00",
         "closes": "18:00"
       }
     ],
-    "areaServed": ["United Kingdom"],
+    "areaServed": [
+      "Birmingham",
+      "Solihull",
+      "Sutton Coldfield",
+      "Wolverhampton",
+      "Walsall",
+      "Dudley",
+      "West Bromwich",
+      "Coventry",
+      "Halesowen",
+      "Stourbridge",
+      "Redditch",
+      "Tamworth",
+      "Bromsgrove",
+      "Smethwick"
+    ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Gutter & Roof Services",
       "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gutter Cleaning" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gutter Repairs" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Cleaning" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Exterior UPVC Cleaning" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gutter Cleaning Birmingham" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Cleaning Birmingham" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Downpipe Unblocking" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fascia & Soffit Cleaning" } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Gutter Cleaning" } }
       ]
     },
     "sameAs": [
+      ...(gbpCidUrl ? [gbpCidUrl] : []),
+      ...(trustpilotUrl ? [trustpilotUrl] : []),
       "https://www.facebook.com/wowgutters",
       "https://www.instagram.com/wowgutters",
       "https://twitter.com/wowgutters",
@@ -147,7 +159,7 @@ export default function RootLayout({
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
-      "reviewCount": "2696",
+      "reviewCount": "2600",
       "bestRating": "5"
     }
   };
@@ -157,10 +169,7 @@ export default function RootLayout({
     "@type": "Service",
     "serviceType": "Gutter Cleaning and Maintenance",
     "provider": {
-      "@type": "LocalBusiness",
-      "name": "WOW Gutters",
-      "telephone": "+447421433910",
-      "url": "https://wowgutters.co.uk"
+      "@id": "https://wowgutters.co.uk/#business"
     },
     "areaServed": {
       "@type": "Country",

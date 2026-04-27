@@ -191,7 +191,7 @@ export default function About() {
               <p className="text-gray-300 leading-relaxed text-lg">
                 Our procedures are not only drastically safer but considerably faster, guaranteeing
                 your roofline remains clear without disruptive scaffolding or dangerous climbing.
-                Fully insured and unwavering in our pursuit of 5-star customer gratification.
+                Same Day Booking and unwavering in our pursuit of 5-star customer gratification.
               </p>
 
 

@@ -22,7 +22,7 @@ export default function CommercialPage() {
     <div className="min-h-screen bg-gray-50">
       <Head>
         <title>Commercial Gutter Cleaning Services | WOW Gutters</title>
-        <meta name="description" content="Professional commercial gutter cleaning for businesses, offices & commercial properties. Flexible scheduling, maintenance contracts & fully insured service." />
+        <meta name="description" content="Professional commercial gutter cleaning for businesses, offices & commercial properties. Flexible scheduling, maintenance contracts & same day booking service." />
         <meta name="keywords" content="commercial gutter cleaning, business gutter services, office gutter cleaning, commercial property maintenance, commercial gutter maintenance contracts" />
         <meta property="og:title" content="Commercial Gutter Cleaning Services - WowGutters" />
         <meta property="og:description" content="Professional gutter maintenance for businesses with flexible scheduling and maintenance contracts." />

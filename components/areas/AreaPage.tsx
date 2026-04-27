@@ -188,7 +188,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
           {/* Left Text */}
           <div className="flex-[1.2] text-[#0f172a]">
             <h2 className="text-3xl md:text-5xl font-bold mb-8 leading-tight">
-              Best Gutter Cleaning {formattedArea}-Fully Insured Local Experts
+              Best Gutter Cleaning {formattedArea}-Same Day Booking Local Experts
             </h2>
 
             <div className="text-slate-600 leading-relaxed space-y-6 text-lg">

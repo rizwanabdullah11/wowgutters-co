@@ -77,7 +77,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
       <p>We accept cash, card, and bank transfer — and all our work is backed by full public liability insurance for your complete peace of mind.</p>
 
-      <h2>Fully Insured & Certified Professionals</h2>
+      <h2>Same Day Booking & Certified Professionals</h2>
       <p>WOW Gutters Ltd is fully bonded and carries comprehensive public liability insurance. Our team is trained and certified in safe working practices for high-reach exterior cleaning, and we conduct a full risk assessment before any dome cleaning project begins. You're in safe hands from the first call to the final photo.</p>
 
       <h2>Get Your Dome Restored Today</h2>
@@ -555,7 +555,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Why Annual Maintenance is the Smart Choice</h2>
       <p>The average cost of a professional gutter clean is a tiny fraction of the cost of a new roof or foundation repair. By scheduling an annual visit from WOW Gutters, you're essentially buying an insurance policy for your home's structural health.</p>
 
-      <p>Our team is fully insured and bonded, and we pride ourselves on being the most reliable gutter service in the UK. Don't wait for the next storm to test your home's defenses—get the WOW treatment today.</p>
+      <p>Our team is fully bonded, and we pride ourselves on being the most reliable gutter service in the UK. Don't wait for the next storm to test your home's defenses—get the WOW treatment today.</p>
     `
   }
 ];

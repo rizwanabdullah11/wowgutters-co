@@ -127,7 +127,7 @@ export default function Contact() {
         title="Professional Gutter Services"
         subtitle="Gutter Cleaning • Repairs • Maintenance"
         mainParagraph1="Looking for reliable gutter cleaning, repair, or maintenance? WOW Gutters provides professional gutter services to help protect your property from water damage with fast, efficient, and affordable solutions."
-        mainParagraph2="We understand that gutter problems can't wait. That's why we offer same-day booking, free quotes, and flexible scheduling to work around your busy life. Whether you need routine maintenance, emergency repairs, or a complete gutter inspection, our fully insured team delivers quality results you can trust."
+        mainParagraph2="We understand that gutter problems can't wait. That's why we offer same-day booking, free quotes, and flexible scheduling to work around your busy life. Whether you need routine maintenance, emergency repairs, or a complete gutter inspection, our team delivers quality results you can trust."
         processTitle="How to Get Started:"
         processSteps={[
           { text: 'Contact us by phone, email, or WhatsApp' },

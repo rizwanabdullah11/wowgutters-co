@@ -129,7 +129,7 @@ export default function ServiceCardsSection() {
                           <li>✓ Professional assessment</li>
                           <li>✓ Flexible bookings available</li>
                           <li>✓ Clear advice before work starts</li>
-                          <li>✓ Fully insured service</li>
+                          <li>✓ Same Day Booking</li>
                         </ul>
                       </div>
 

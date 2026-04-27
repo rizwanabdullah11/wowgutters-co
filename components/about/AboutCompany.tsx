@@ -38,7 +38,7 @@ export default function AboutCompany() {
             </p>
 
             <p className="text-gray-300 leading-relaxed">
-              Trust WOW Gutter Cleaning - we're fully insured and certified to protect you and your property.
+              Trust WOW Gutter Cleaning - we're same day booking and certified to protect you and your property.
             </p>
           </div>
 

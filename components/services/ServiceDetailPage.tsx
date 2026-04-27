@@ -76,7 +76,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         <div className="service-hero-content">
           <div className="hero-badge animate-fade-in-up">
             <ShieldCheck className="w-4 h-4" style={{ color: colors.primary }} />
-            <span className="hero-badge-text">Professional Service • Fully Insured</span>
+            <span className="hero-badge-text">Professional Service • Same-Day Booking</span>
           </div>
 
           <h1 className="hero-title animate-fade-in-up delay-100">

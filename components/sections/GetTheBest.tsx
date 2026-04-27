@@ -5,7 +5,7 @@ import { ArrowRight, CheckCircle } from 'lucide-react';
 const guarantees = [
   'Free instant quote',
   'Professional cleaning',
-  'Fully insured team',
+  'Same Day Booking',
   'Clear local pricing',
 ];
 
