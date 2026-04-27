@@ -20,13 +20,13 @@ export default function HeroSection() {
       prefix: 'Trusted',
       service: 'Gutter Cleaning',
       highlight: 'Specialists',
-      bottom: 'Fast • Safe • Fully Insured',
+      bottom: 'Fast • Safe • Same Day Booking',
     },
     {
       prefix: 'Local',
       service: 'Roofline',
       highlight: 'Experts',
-      bottom: 'Fully Insured',
+      bottom: 'Same Day Booking',
     },
     {
       prefix: 'Request Your',

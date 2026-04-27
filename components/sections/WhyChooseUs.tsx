@@ -21,7 +21,7 @@ const reasons = [
   },
   {
     icon: <Shield className="w-5 h-5" />,
-    title: 'Fully Insured',
+    title: 'Same Day Booking',
     subtitle: 'PEACE OF MIND',
     description:
       'Your home or business is protected by an insured team using safe, professional working methods.',

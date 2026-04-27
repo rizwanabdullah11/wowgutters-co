@@ -139,8 +139,8 @@ export default function CommercialPage() {
                 description: 'Regular maintenance programs tailored to your business needs and budget.'
               },
               {
-                title: '🛡️ Fully Insured',
-                description: 'Complete insurance coverage for commercial properties and liability protection.'
+                title: '🛡️ Same Day Booking',
+                description: 'Same day booking for commercial properties and liability protection.'
               },
               {
                 title: '⏰ Flexible Scheduling',

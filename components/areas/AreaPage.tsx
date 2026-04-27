@@ -50,7 +50,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
     <main className="bg-white area-page-wrapper">
       <Head>
         <title>Gutter Cleaning {formattedArea} | Professional Service | WowGutters</title>
-        <meta name="description" content={`Professional gutter cleaning, repairs & maintenance in ${formattedArea}. Same-day booking, fully insured, 450+ happy customers. Free quotes available. Call 07421 433910.`} />
+        <meta name="description" content={`Professional gutter cleaning, repairs & maintenance in ${formattedArea}. Same-day booking, 450+ happy customers. Free quotes available. Call 07421 433910.`} />
         <meta name="keywords" content={`gutter cleaning ${areaName}, ${areaName} gutter services, gutter repair ${areaName}, ${areaName} gutter maintenance, professional gutters ${areaName}`} />
         <meta property="og:title" content={`Gutter Cleaning ${formattedArea} - WowGutters`} />
         <meta property="og:description" content={`Professional gutter services in ${formattedArea}. Same-day booking available. Free quotes.`} />
@@ -80,7 +80,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
         <div className="area-hero-content">
           <div className="hero-badge animate-fade-in-up">
             <ShieldCheck className="w-4 h-4" style={{ color: colors.primary }} />
-            <span className="hero-badge-text">Local {formattedArea} Specialists • Fully Insured</span>
+            <span className="hero-badge-text">Local {formattedArea} Specialists • Same Day Booking</span>
           </div>
 
           <h1 className="hero-title animate-fade-in-up delay-100">

@@ -140,8 +140,8 @@ export default function UnblockPage() {
                     description: 'High-powered vacuum systems and specialized tools for thorough cleaning.'
                   },
                   {
-                    title: 'Fully Insured',
-                    description: 'Complete insurance coverage for your peace of mind and property protection.'
+                    title: 'Same Day Booking',
+                    description: 'Same day booking for urgent gutter unblocking needs.'
                   },
                   {
                     title: 'No Mess Guarantee',

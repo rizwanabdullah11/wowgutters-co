@@ -61,8 +61,8 @@ export default function HelpIsHere() {
     },
     {
       icon: <Shield className="w-6 h-6" />,
-      title: 'Fully Insured',
-      description: 'Complete protection'
+      title: 'Same Day Booking',
+      description: 'Same day booking for urgent gutter needs'
     }
   ];
 

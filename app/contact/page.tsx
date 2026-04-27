@@ -150,7 +150,7 @@ export default function Contact() {
         highlightBoxes={[
           { icon: '✅', title: 'Free Quotes', desc: 'No-obligation estimates for all services' },
           { icon: '🚀', title: 'Fast Response', desc: 'Same-day booking and quick turnaround' },
-          { icon: '🛡️', title: 'Fully Insured', desc: 'Complete protection for your property' }
+          { icon: '🛡️', title: 'Same Day Booking', desc: 'Same day booking for urgent gutter needs' }
         ]}
         ctaTitle="Ready to Get Started?"
         ctaDescription="Contact us today for professional gutter services. Our friendly team is standing by to answer your questions and provide a free quote for your property."

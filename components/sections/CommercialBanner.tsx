@@ -55,7 +55,7 @@ export default function CommercialBanner() {
               </div>
               <div className="commercial-feature-item">
                 <span className="feature-check">✓</span>
-                <span>Fully insured</span>
+                <span>Same Day Booking</span>
               </div>
               <div className="commercial-feature-item">
                 <span className="feature-check">✓</span>
