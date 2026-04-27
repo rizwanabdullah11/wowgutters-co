@@ -3,6 +3,7 @@
 import { ArrowRight } from 'lucide-react';
 
 import { colors } from '@/constants/colors';
+import SeoLinkify from '@/components/SeoLinkify';
 
 export default function ProfessionalServices() {
   return (
@@ -53,10 +54,8 @@ export default function ProfessionalServices() {
               className="text-base sm:text-lg leading-relaxed mb-5"
               style={{ color: colors.textLight }}
             >
-              <strong style={{ color: colors.text }}>WOW Gutters LTD</strong> provides professional
-              gutter cleaning for homes, landlords and businesses. We clear leaves, moss, silt and
-              downpipe debris so rainwater can flow properly and your property stays protected from
-              damp and water damage.
+              <strong style={{ color: colors.text }}>WOW Gutters LTD</strong>{' '}
+              <SeoLinkify text="provides professional gutter cleaning for homes, landlords and businesses. We clear leaves, moss, silt and downpipe debris so rainwater can flow properly and your property stays protected from damp and water damage." />
             </p>
 
             {/* Body Copy — Paragraph 2 */}
@@ -64,10 +63,7 @@ export default function ProfessionalServices() {
               className="text-base sm:text-lg leading-relaxed mb-8"
               style={{ color: colors.textLight }}
             >
-              Our team uses high-reach gutter vacuum equipment, ladders where needed, and proven
-              cleaning methods for safe, thorough results. From blocked gutters and downspouts to
-              fascia, soffit and roof cleaning, we help keep your exterior drainage system in good
-              working order all year round.
+              <SeoLinkify text="Our team uses high-reach gutter vacuum equipment, ladders where needed, and proven cleaning methods for safe, thorough results. From blocked gutters and downspouts to fascia, soffit and roof cleaning, we help keep your exterior drainage system in good working order all year round." />
             </p>
 
             {/* Key Benefits */}

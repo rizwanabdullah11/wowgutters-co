@@ -6,39 +6,16 @@ import WhatsAppChatPopup from "@/components/WhatsAppChatPopup";
 import ContentProtection from "@/components/ContentProtection";
 import MaybeStaticQuoteDialog from "@/components/MaybeStaticQuoteDialog";
 import IosViewportStabilizer from "@/components/IosViewportStabilizer";
+import { SEO_KEYWORD_LINKS } from "@/constants/seoKeywordLinks";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://wowgutters.co.uk'),
   title: {
-    default: "Gutter Cleaning Birmingham & West Midlands | WOW Gutters — Free Quote",
+    default: "WOW Gutters | Gutter Cleaning & Roofline Services",
     template: "%s | WOW Gutters"
   },
-  description: "Expert gutter cleaning across Birmingham & West Midlands. Ground-level vacuum technology, same-day booking, fully insured. Get your free quote in 60 seconds.",
-  keywords: [
-    "gutter cleaning",
-    "gutter cleaning birmingham",
-    "gutter cleaning west midlands",
-    "gutter repairs",
-    "gutter maintenance",
-    "professional gutter services",
-    "vacuum gutter cleaning",
-    "no ladder gutter cleaning",
-    "conservatory cleaning",
-    "roof cleaning",
-    "UPVC cleaning",
-    "commercial gutter cleaning",
-    "residential gutter cleaning",
-    "gutter inspection",
-    "hot wash cleaning",
-    "gutter cleaning near me",
-    "local gutter cleaners",
-    "gutter cleaning prices",
-    "gutter cleaning cost",
-    "blocked gutters",
-    "gutter clearance",
-    "fascia cleaning",
-    "soffit cleaning"
-  ],
+  description: "Professional gutter cleaning, repairs, inspections, roof cleaning and exterior cleaning. Fully insured team and fast quotes from WOW Gutters.",
+  keywords: SEO_KEYWORD_LINKS.map((k) => k.label),
   authors: [{ name: "WOW Gutters", url: "https://wowgutters.co.uk" }],
   creator: "WOW Gutters",
   publisher: "WOW Gutters",
@@ -64,8 +41,8 @@ export const metadata: Metadata = {
     locale: "en_GB",
     url: "https://wowgutters.co.uk",
     siteName: "WOW Gutters",
-    title: "Gutter Cleaning Birmingham & West Midlands | WOW Gutters — Free Quote",
-    description: "Expert gutter cleaning across Birmingham & West Midlands. Ground-level vacuum technology, same-day booking, fully insured. Get your free quote in 60 seconds.",
+    title: "WOW Gutters | Gutter Cleaning & Roofline Services",
+    description: "Professional gutter cleaning, repairs, inspections, roof cleaning and exterior cleaning. Fully insured team and fast quotes from WOW Gutters.",
     images: [
       {
         url: "/assets/wow-gutter-logo2.png",
@@ -77,8 +54,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gutter Cleaning Birmingham & West Midlands | WOW Gutters — Free Quote",
-    description: "Expert gutter cleaning across Birmingham & West Midlands. Ground-level vacuum technology, same-day booking, fully insured. Get your free quote in 60 seconds.",
+    title: "WOW Gutters | Gutter Cleaning & Roofline Services",
+    description: "Professional gutter cleaning, repairs, inspections, roof cleaning and exterior cleaning. Fully insured team and fast quotes from WOW Gutters.",
     images: ["/assets/wow-gutter-logo2.png"],
     creator: "@wowgutters",
   },
@@ -102,12 +79,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   // Structured Data for SEO
+  const addressLine1 = (process.env.NEXT_PUBLIC_BUSINESS_ADDRESS_LINE1 || '').trim();
+  const addressLine2 = (process.env.NEXT_PUBLIC_BUSINESS_ADDRESS_LINE2 || '').trim();
+  const addressCity = (process.env.NEXT_PUBLIC_BUSINESS_CITY || '').trim();
+  const addressRegion = (process.env.NEXT_PUBLIC_BUSINESS_REGION || '').trim();
+  const addressPostcode = (process.env.NEXT_PUBLIC_BUSINESS_POSTCODE || '').trim();
+
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "@id": "https://wowgutters.co.uk/#business",
     "name": "WOW Gutters Ltd",
-    "description": "Professional gutter cleaning, repairs, roof cleaning and exterior maintenance across Birmingham and the West Midlands. Ground-level vacuum technology, same-day booking, fully insured.",
+    "description": "Professional gutter cleaning, repairs, roof cleaning and exterior maintenance. Fully insured team and fast quotes.",
     "image": "https://wowgutters.co.uk/assets/wow-gutter-logo2.png",
     "logo": "https://wowgutters.co.uk/assets/wow-gutter-logo2.png",
     "url": "https://wowgutters.co.uk",
@@ -116,14 +99,11 @@ export default function RootLayout({
     "priceRange": "££",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Birmingham",
-      "addressRegion": "West Midlands",
+      ...(addressLine1 ? { "streetAddress": [addressLine1, addressLine2].filter(Boolean).join(', ') } : {}),
+      ...(addressCity ? { "addressLocality": addressCity } : {}),
+      ...(addressRegion ? { "addressRegion": addressRegion } : {}),
+      ...(addressPostcode ? { "postalCode": addressPostcode } : {}),
       "addressCountry": "GB"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 52.4862,
-      "longitude": -1.8904
     },
     "openingHoursSpecification": [
       {
@@ -145,22 +125,7 @@ export default function RootLayout({
         "closes": "18:00"
       }
     ],
-    "areaServed": [
-      "Birmingham",
-      "Coventry",
-      "Wolverhampton",
-      "Dudley",
-      "Sandwell",
-      "Solihull",
-      "Walsall",
-      "Worcester",
-      "Redditch",
-      "Bromsgrove",
-      "Kidderminster",
-      "Malvern",
-      "Evesham",
-      "Droitwich Spa"
-    ],
+    "areaServed": ["United Kingdom"],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Gutter & Roof Services",

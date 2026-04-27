@@ -3,6 +3,7 @@
 import { colors } from '@/constants/colors';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import SeoLinkify from '@/components/SeoLinkify';
 
 interface ProcessStep {
   text: string;
@@ -73,11 +74,11 @@ export default function ServiceSEOSection({
           {/* Left Column */}
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              {mainParagraph1}
+              <SeoLinkify text={mainParagraph1} />
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed">
-              {mainParagraph2}
+              <SeoLinkify text={mainParagraph2} />
             </p>
 
             <div className="bg-gradient-to-br from-gray-50 to-white rounded-xl p-6 border border-gray-200">

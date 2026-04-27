@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import AreaPage from '@/components/areas/AreaPage';
 import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
+import { buildMetadata } from '@/lib/seo';
+import { SEO_KEYWORD_LINKS } from '@/constants/seoKeywordLinks';
 
 interface PageProps {
   params: Promise<{
@@ -42,13 +44,16 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 
   const areaName = formatAreaName(areaSlug);
 
-  return {
+  return buildMetadata({
     title: `Gutter Cleaning ${areaName} | WOW Gutters`,
-    description: `Professional gutter cleaning and repair services in ${areaName} and surrounding areas. Get a free quote today!`,
-    alternates: {
-      canonical: `https://wowgutters.co.uk${areaPath(areaSlug)}`,
-    },
-  };
+    description: `Professional gutter cleaning, repairs and inspections in ${areaName}. Get a free quote today.`,
+    canonicalPath: areaPath(areaSlug),
+    keywords: [
+      ...SEO_KEYWORD_LINKS.map((k) => k.label),
+      `gutter cleaning ${areaName.toLowerCase()}`,
+      `gutter repairs ${areaName.toLowerCase()}`,
+    ],
+  });
 }
 
 export default async function SingleSegmentAreaPage(props: PageProps) {

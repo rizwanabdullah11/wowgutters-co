@@ -8,6 +8,7 @@ import Image from 'next/image';
 import logo from '@/assets/wow-gutters-logo1.png';
 import { colors } from '@/constants/colors';
 import { areaPath } from '@/lib/areaSlugs';
+import SeoKeywordLinks from '@/components/SeoKeywordLinks';
 import { 
   Phone, Mail, MapPin, Star, ArrowUp, 
   Facebook, Twitter, Instagram, Linkedin, Youtube,
@@ -178,6 +179,10 @@ export default function Footer() {
                     ))}
                   </ul>
                 </div>
+              </div>
+
+              <div className="footer-seo-keywords">
+                <SeoKeywordLinks />
               </div>
 
               <hr className="footer-divider" />
@@ -397,6 +402,48 @@ export default function Footer() {
         .footer-link:hover .link-arrow {
           opacity: 1;
           transform: translateX(0);
+        }
+
+        /* SEO keyword links */
+        .footer-seo-keywords {
+          margin: -24px 0 60px;
+        }
+        .wow-seo-keywords {
+          border: 1px solid rgba(255,255,255,0.10);
+          background: rgba(255,255,255,0.04);
+          border-radius: 18px;
+          padding: 18px 18px 14px;
+        }
+        .wow-seo-keywords__title {
+          color: white;
+          font-weight: 800;
+          letter-spacing: 0.6px;
+          font-size: 0.95rem;
+          margin-bottom: 10px;
+        }
+        .wow-seo-keywords__list {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+        }
+        .wow-seo-keywords__link {
+          display: inline-flex;
+          align-items: center;
+          padding: 8px 12px;
+          border-radius: 999px;
+          background: rgba(255,255,255,0.06);
+          border: 1px solid rgba(255,255,255,0.10);
+          color: rgba(255,255,255,0.85);
+          text-decoration: none;
+          font-size: 0.9rem;
+          font-weight: 600;
+          transition: all 0.2s ease;
+        }
+        .wow-seo-keywords__link:hover {
+          background: rgba(25, 197, 139, 0.22);
+          border-color: rgba(25, 197, 139, 0.35);
+          color: white;
+          transform: translateY(-1px);
         }
 
         /* BOTTOM ROW */
