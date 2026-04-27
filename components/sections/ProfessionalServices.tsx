@@ -45,7 +45,7 @@ export default function ProfessionalServices() {
               className="text-3xl sm:text-4xl md:text-5xl font-black mb-6 leading-tight"
               style={{ color: colors.text }}
             >
-              Birmingham Gutter Cleaning You Can Rely On
+              Gutter Cleaning You Can Rely On
             </h2>
 
             {/* Body Copy — Paragraph 1 */}
@@ -54,9 +54,9 @@ export default function ProfessionalServices() {
               style={{ color: colors.textLight }}
             >
               <strong style={{ color: colors.text }}>WOW Gutters LTD</strong> provides professional
-              gutter cleaning for homes, landlords and businesses across Birmingham and the West
-              Midlands. We clear leaves, moss, silt and downpipe debris so rainwater can flow
-              properly and your property stays protected from damp and water damage.
+              gutter cleaning for homes, landlords and businesses. We clear leaves, moss, silt and
+              downpipe debris so rainwater can flow properly and your property stays protected from
+              damp and water damage.
             </p>
 
             {/* Body Copy — Paragraph 2 */}

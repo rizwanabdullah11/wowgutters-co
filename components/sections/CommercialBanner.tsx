@@ -40,7 +40,7 @@ export default function CommercialBanner() {
               <div className="commercial-sparkle">✨</div>
             </div>
             <h3 className="commercial-title">
-              Commercial Gutter Cleaning Birmingham
+              Commercial Gutter Cleaning
             </h3>
             <p className="commercial-description">
               Reliable gutter and downpipe cleaning for shops, offices, rental properties, schools and commercial buildings.

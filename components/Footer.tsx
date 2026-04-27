@@ -92,7 +92,7 @@ export default function Footer() {
             <div className="footer-logo-box">
               <Image
                 src={logo}
-                alt="WOW Gutters logo — Birmingham & West Midlands professional gutter cleaning"
+                alt="WOW Gutters logo — professional gutter cleaning and roofline services"
                 width={320}
                 height={150}
                 sizes="(max-width: 900px) 240px, 320px"
@@ -102,7 +102,7 @@ export default function Footer() {
             </div>
             <div className="footer-brand-text">
               <h2 className="footer-company-name">WOW Gutters</h2>
-              <p className="footer-company-tagline">Professional Gutter Services in Birmingham &amp; West Midlands</p>
+              <p className="footer-company-tagline">Professional Gutter Cleaning &amp; Roofline Services</p>
               <div className="footer-ratings">
                 <span className="rating-text">Rated 4.9★ by 2,696+ customers</span>
               </div>

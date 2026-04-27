@@ -64,7 +64,7 @@ export default function ServiceCardsSection() {
           <span className="how-help-eyebrow">OUR SERVICES</span>
           <h2 className="how-help-title">Gutter Services for Every Property</h2>
           <p className="how-help-subtitle">
-            From blocked gutter cleaning to roofline repairs, we keep Birmingham properties protected from water damage.
+            From blocked gutter cleaning to roofline repairs, we help protect your property from water damage.
           </p>
         </div>
 

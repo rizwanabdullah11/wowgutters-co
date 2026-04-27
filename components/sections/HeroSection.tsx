@@ -19,8 +19,8 @@ export default function HeroSection() {
     {
       prefix: 'Trusted',
       service: 'Gutter Cleaning',
-      highlight: 'Birmingham',
-      bottom: 'For Homes & Businesses',
+      highlight: 'Specialists',
+      bottom: 'Fast • Safe • Fully Insured',
     },
     {
       prefix: 'Local',
@@ -89,7 +89,7 @@ export default function HeroSection() {
             playsInline
             preload="metadata"
             poster="/gutter-cleaning.jpeg"
-            aria-label="WOW Gutters professional gutter cleaning service in Birmingham & West Midlands"
+            aria-label="WOW Gutters professional gutter cleaning and roofline services"
             className="hero-video"
             key={currentVideoIndex}
             onError={(e) => {
@@ -100,7 +100,7 @@ export default function HeroSection() {
             {/* Fallback image for browsers that don't support video */}
             <img
               src="/gutter-cleaning.jpeg"
-              alt="Professional gutter cleaning Birmingham — WOW Gutters"
+              alt="Professional gutter cleaning and roofline services — WOW Gutters"
               className="hero-video"
             />
           </video>
@@ -140,7 +140,7 @@ export default function HeroSection() {
 
             {/* Subtext */}
             <p className="hero-subtitle animate-fade-in-up delay-200">
-              Professional gutter cleaning, downpipe clearing, fascia and soffit cleaning, and roof cleaning across Birmingham and the West Midlands. Clean gutters, safer drainage, and reliable local service from WOW Gutters LTD.
+              Professional gutter cleaning, downpipe clearing, fascia and soffit cleaning, and roof cleaning. Clean gutters, safer drainage, and reliable service from WOW Gutters LTD.
             </p>
 
             {/* CTA Row */}
@@ -272,27 +272,27 @@ export default function HeroSection() {
         }
 
         .title-prefix {
-          font-size: clamp(2.5rem, 5vw, 4.5rem);
-          font-weight: 900;
+          font-size: clamp(2.1rem, 4.2vw, 3.6rem);
+          font-weight: 800;
         }
         .title-service {
-          font-size: clamp(2.5rem, 5vw, 4.5rem);
-          font-weight: 900;
+          font-size: clamp(2.1rem, 4.2vw, 3.6rem);
+          font-weight: 800;
           color: #19C58B;
         }
         .title-secondary {
-          font-size: clamp(2.5rem, 5vw, 4.5rem);
-          font-weight: 900;
+          font-size: clamp(2.1rem, 4.2vw, 3.6rem);
+          font-weight: 800;
         }
         .title-highlight {
-          font-size: clamp(2.5rem, 5vw, 4.5rem);
-          font-weight: 900;
+          font-size: clamp(2.1rem, 4.2vw, 3.6rem);
+          font-weight: 800;
           color: #2DD4BF;
         }
         .title-bottom {
           display: block;
-          font-size: clamp(3.5rem, 7vw, 6.5rem);
-          font-weight: 900;
+          font-size: clamp(2.7rem, 5.6vw, 5.2rem);
+          font-weight: 850;
           margin-top: 8px;
         }
 
@@ -352,7 +352,7 @@ export default function HeroSection() {
         .btn-label {
           color: white;
           font-size: clamp(1.2rem, 2.2vw, 1.5rem);
-          font-weight: 800;
+          font-weight: 750;
           letter-spacing: 0.3px;
         }
         .btn-free {

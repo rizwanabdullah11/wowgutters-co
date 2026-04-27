@@ -25,7 +25,7 @@ export default function About() {
 
   const stats = [
     { value: '2,600+', label: '5-Star Reviews', icon: Star },
-    { value: '14+', label: 'West Midlands Areas Served', icon: Users },
+    { value: '14+', label: 'Local Areas Served', icon: Users },
     { value: '40ft', label: 'Ground-Level Vacuum Reach', icon: Award },
     { value: '4.9/5', label: 'Average Customer Rating', icon: Clock }
   ];
@@ -67,11 +67,11 @@ export default function About() {
   return (
     <main className="bg-white about-page-wrapper">
       <Head>
-        <title>About WOW Gutters — Birmingham & West Midlands Gutter Specialists</title>
-        <meta name="description" content="WOW Gutters Ltd — Birmingham and West Midlands' most-reviewed professional gutter cleaning company. 4.9★ from 2,600+ customers. Fully insured, ladder-free service." />
-        <meta name="keywords" content="about wow gutters, gutter cleaning birmingham, west midlands gutter specialists, professional gutter service, ladder free gutter cleaning" />
-        <meta property="og:title" content="About WOW Gutters — Birmingham & West Midlands Gutter Specialists" />
-        <meta property="og:description" content="Trusted gutter cleaning specialists serving Birmingham, Coventry, Wolverhampton, Solihull & the West Midlands — 4.9★ from 2,600+ customers." />
+        <title>About WOW Gutters | Gutter Cleaning & Roofline Specialists</title>
+        <meta name="description" content="Learn about WOW Gutters LTD. Fully insured, ladder-free gutter cleaning, downpipe clearing, and roofline services. Rated 4.9★ by 2,600+ customers." />
+        <meta name="keywords" content="about wow gutters, gutter cleaning, roofline specialists, downpipe clearing, fascia soffit cleaning, ladder free gutter cleaning" />
+        <meta property="og:title" content="About WOW Gutters | Gutter Cleaning & Roofline Specialists" />
+        <meta property="og:description" content="Fully insured, ladder-free gutter cleaning and roofline services. Rated 4.9★ by 2,600+ customers." />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://wowgutters.co.uk/about" />
       </Head>
@@ -105,11 +105,11 @@ export default function About() {
             <span className="title-prefix">About</span>{' '}
             <span className="title-service" style={{ color: colors.primary }}>WOW Gutters</span>
             <br />
-            <span className="title-secondary">Birmingham & West Midlands' Trusted Gutter Specialists</span>
+            <span className="title-secondary">Trusted Gutter Cleaning & Roofline Specialists</span>
           </h1>
 
           <p className="hero-subtitle animate-fade-in-up delay-200">
-            Rated 4.9★ by over 2,600 customers across Birmingham, Coventry, Wolverhampton, Solihull and the wider West Midlands. Fully insured, ladder-free vacuum technology — same-day bookings available.
+            Rated 4.9★ by over 2,600 customers. Fully insured, ladder-free vacuum technology — fast bookings available.
           </p>
 
           <div className="hero-cta-row animate-fade-in-up delay-300">

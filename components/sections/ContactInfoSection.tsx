@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Image from 'next/image';
-import logo from '@/assets/wow-gutter-logo.png';
+import logo from '@/assets/wow-gutters-logo1.png';
 import { Phone, Mail, Facebook, Youtube, Twitter, Instagram, MessageCircle, Search, FileText, HelpCircle, MapPin, Map, Navigation } from 'lucide-react';
 
 export default function ContactInfoSection() {
@@ -32,7 +32,7 @@ export default function ContactInfoSection() {
             <div className="contact-logo-wrap">
               <Image
                 src={logo}
-                alt="WOW Gutters logo — professional gutter cleaning Birmingham & West Midlands"
+                alt="WOW Gutters logo — professional gutter cleaning and roofline services"
                 width={260}
                 height={100}
                 sizes="(max-width: 768px) 180px, 260px"
@@ -128,14 +128,14 @@ export default function ContactInfoSection() {
               </div>
               <h3 className="search-title">Find Gutter Cleaning Near You</h3>
               <p className="search-desc">
-                Enter your town or city to check local gutter cleaning coverage around Birmingham and the West Midlands.
+                Enter your town or city to check local gutter cleaning coverage near you.
               </p>
             </div>
             
             <div className="search-input-wrap">
               <input
                 type="text"
-                placeholder="E.g. Birmingham..."
+                placeholder="E.g. your town..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="search-input"

@@ -285,7 +285,7 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
                   </div>
                 </div>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  {post.authorBio || `Written by ${post.author}, Senior Gutter Technician at WOW Gutters. Thousands of gutter cleans, repairs and inspections completed across Birmingham, Coventry, Wolverhampton, Solihull and the wider West Midlands. All WOW Gutters blog content is reviewed for technical accuracy before publication.`}
+                  {post.authorBio || `Written by ${post.author}, Senior Gutter Technician at WOW Gutters. Our blog content is reviewed for technical accuracy and written to help homeowners understand gutter cleaning, repairs, and roofline maintenance.`}
                 </p>
                 {post.lastUpdated && (
                   <p className="mt-3 text-xs text-gray-500">
