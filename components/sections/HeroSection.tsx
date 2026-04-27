@@ -2,39 +2,38 @@
 
 import { useEffect, useRef, useState } from 'react';
 
+// Keep these outside the component so they are stable in production builds.
+const HERO_VIDEOS = ['/gutter-final-video.mp4', '/gutter-cleaning-video.mp4'] as const;
+
+// Rotating headlines — location-first for local SEO
+const HERO_HEADLINES = [
+  {
+    prefix: 'Trusted',
+    service: 'Gutter Cleaning',
+    highlight: 'Specialists',
+    bottom: 'Fast • Safe • Same Day Booking',
+  },
+  {
+    prefix: 'Local',
+    service: 'Roofline',
+    highlight: 'Experts',
+    bottom: 'Same Day Booking',
+  },
+  {
+    prefix: 'Request Your',
+    service: 'FREE',
+    highlight: 'Instant Quote',
+    bottom: 'Book Online',
+  },
+] as const;
+
 export default function HeroSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [headlineIndex, setHeadlineIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
-
-  // Video sources
-  const videos = [
-    '/gutter-final-video.mp4',
-    '/gutter-cleaning-video.mp4'
-  ];
-
-  // Rotating headlines — location-first for local SEO
-  const heroHeadlines = [
-    {
-      prefix: 'Trusted',
-      service: 'Gutter Cleaning',
-      highlight: 'Specialists',
-      bottom: 'Fast • Safe • Same Day Booking',
-    },
-    {
-      prefix: 'Local',
-      service: 'Roofline',
-      highlight: 'Experts',
-      bottom: 'Same Day Booking',
-    },
-    {
-      prefix: 'Request Your',
-      service: 'FREE',
-      highlight: 'Instant Quote',
-      bottom: 'Book Online',
-    }
-  ];
+  const headlineTimeoutRef = useRef<number | null>(null);
+  const headlineIntervalRef = useRef<number | null>(null);
 
   useEffect(() => {
     // Force play the video on mount
@@ -45,26 +44,46 @@ export default function HeroSection() {
     }
   }, []);
 
+  // Headline switching (use a stable interval + internal timeout for animation)
   useEffect(() => {
-    const switchInterval = window.setInterval(() => {
-      setIsAnimating(true);
-      setTimeout(() => {
-        setHeadlineIndex((prev) => (prev + 1) % heroHeadlines.length);
-        setIsAnimating(false);
-      }, 500); // Wait for fade out
-    }, 3500);
+    // Ensure we never create multiple timers (production builds sometimes remount during route transitions).
+    if (headlineIntervalRef.current) {
+      window.clearInterval(headlineIntervalRef.current);
+    }
 
-    return () => window.clearInterval(switchInterval);
-  }, [heroHeadlines.length]);
+    headlineIntervalRef.current = window.setInterval(() => {
+      setIsAnimating(true);
+
+      if (headlineTimeoutRef.current) {
+        window.clearTimeout(headlineTimeoutRef.current);
+      }
+
+      headlineTimeoutRef.current = window.setTimeout(() => {
+        setHeadlineIndex((prev) => (prev + 1) % HERO_HEADLINES.length);
+        setIsAnimating(false);
+      }, 450);
+    }, 3200);
+
+    return () => {
+      if (headlineIntervalRef.current) {
+        window.clearInterval(headlineIntervalRef.current);
+        headlineIntervalRef.current = null;
+      }
+      if (headlineTimeoutRef.current) {
+        window.clearTimeout(headlineTimeoutRef.current);
+        headlineTimeoutRef.current = null;
+      }
+    };
+  }, []);
 
   // Switch videos every 15 seconds
   useEffect(() => {
     const videoSwitchInterval = setInterval(() => {
-      setCurrentVideoIndex((prev) => (prev + 1) % videos.length);
+      setCurrentVideoIndex((prev) => (prev + 1) % HERO_VIDEOS.length);
     }, 15000); // Switch every 15 seconds
 
     return () => clearInterval(videoSwitchInterval);
-  }, [videos.length]);
+  }, []);
 
   // Play video when it changes
   useEffect(() => {
@@ -96,7 +115,7 @@ export default function HeroSection() {
               (e.target as HTMLVideoElement).style.display = 'none';
             }}
           >
-            <source src={videos[currentVideoIndex]} type="video/mp4" />
+            <source src={HERO_VIDEOS[currentVideoIndex]} type="video/mp4" />
             {/* Fallback image for browsers that don't support video */}
             <img
               src="/gutter-cleaning.jpeg"
@@ -121,19 +140,19 @@ export default function HeroSection() {
             {/* Dynamic Headline */}
             <h1 className="hero-title animate-fade-in-up delay-100">
               <div className={`headline-slider ${isAnimating ? 'headline-hidden' : 'headline-visible'}`}>
-                <span className="title-prefix">{heroHeadlines[headlineIndex].prefix}</span>{' '}
-                <span className="title-service">{heroHeadlines[headlineIndex].service}</span>
-                {heroHeadlines[headlineIndex].highlight && (
+                <span className="title-prefix">{HERO_HEADLINES[headlineIndex].prefix}</span>{' '}
+                <span className="title-service">{HERO_HEADLINES[headlineIndex].service}</span>
+                {HERO_HEADLINES[headlineIndex].highlight && (
                   <>
                     {' '}
                     <span className="title-highlight">
-                      {heroHeadlines[headlineIndex].highlight}
+                      {HERO_HEADLINES[headlineIndex].highlight}
                     </span>
                   </>
                 )}
                 <br />
                 <span className="title-bottom">
-                  {heroHeadlines[headlineIndex].bottom}
+                  {HERO_HEADLINES[headlineIndex].bottom}
                 </span>
               </div>
             </h1>
