@@ -51,7 +51,7 @@ export default function BlogPage() {
         <meta property="og:title" content="Gutter Cleaning Blog Birmingham — Expert Tips & Guides" />
         <meta property="og:description" content="Expert gutter cleaning tips, maintenance guides and industry insights from Birmingham & West Midlands' trusted gutter specialists." />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://wowgutters.pro/blog" />
+        <link rel="canonical" href="https://wowgutters.co.uk/blog" />
       </Head>
       {/* Premium Hero Section */}
       <section className="blog-hero-section">

@@ -29,7 +29,7 @@ export default function NeighbourhoodDiscount() {
         <meta name="keywords" content="neighbourhood discount, gutter cleaning discount, group discount gutters, west midlands gutter deals, save on gutter cleaning" />
         <meta property="og:title" content="Neighbourhood Discount - Save on Gutter Cleaning" />
         <meta property="og:description" content="Save money with our neighbourhood discount on professional gutter cleaning services." />
-        <link rel="canonical" href="https://wowgutters.pro/neighbourhood-discount" />
+        <link rel="canonical" href="https://wowgutters.co.uk/neighbourhood-discount" />
       </Head>
       {/* Hero Section */}
       <section className="relative py-20 px-4" style={{ background: colors.primaryGradient }}>

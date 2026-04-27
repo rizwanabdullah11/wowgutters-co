@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     'Reliable gutter repairs in Birmingham — leaking joints, broken brackets, sagging gutters fixed same day. 6-month guarantee. Stocked vans, no delays. Call now.',
   alternates: {
-    canonical: 'https://wowgutters.pro/services/gutter-repairs/',
+    canonical: 'https://wowgutters.co.uk/services/gutter-repairs/',
   },
 };
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     'Free gutter & roof inspection in Birmingham — expert camera assessment, honest advice, no obligation. Same-day bookings available. Call 07421 433910.',
   alternates: {
-    canonical: 'https://wowgutters.pro/services/inspection/',
+    canonical: 'https://wowgutters.co.uk/services/inspection/',
   },
 };
 

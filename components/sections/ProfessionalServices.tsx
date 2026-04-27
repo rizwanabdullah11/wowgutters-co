@@ -32,7 +32,7 @@ export default function ProfessionalServices() {
                 className="text-xs font-bold tracking-[0.2em] uppercase"
                 style={{ color: colors.primary }}
               >
-                Professional Gutter Services
+                Local Gutter Cleaning Specialists
               </span>
               <span
                 className="h-px w-10"
@@ -45,7 +45,7 @@ export default function ProfessionalServices() {
               className="text-3xl sm:text-4xl md:text-5xl font-black mb-6 leading-tight"
               style={{ color: colors.text }}
             >
-              Welcome to WOW Gutters
+              Birmingham Gutter Cleaning You Can Rely On
             </h2>
 
             {/* Body Copy — Paragraph 1 */}
@@ -53,12 +53,10 @@ export default function ProfessionalServices() {
               className="text-base sm:text-lg leading-relaxed mb-5"
               style={{ color: colors.textLight }}
             >
-              <strong style={{ color: colors.text }}>WOW Gutters</strong> is{' '}
-              <strong style={{ color: colors.text }}>Birmingham and West Midlands'
-              most-reviewed</strong> gutter cleaning company, with{' '}
-              <strong style={{ color: colors.text }}>over 2,600 five-star reviews</strong>{' '}
-              from homeowners across Coventry, Wolverhampton, Solihull, Worcester,
-              Redditch and beyond.
+              <strong style={{ color: colors.text }}>WOW Gutters LTD</strong> provides professional
+              gutter cleaning for homes, landlords and businesses across Birmingham and the West
+              Midlands. We clear leaves, moss, silt and downpipe debris so rainwater can flow
+              properly and your property stays protected from damp and water damage.
             </p>
 
             {/* Body Copy — Paragraph 2 */}
@@ -66,12 +64,10 @@ export default function ProfessionalServices() {
               className="text-base sm:text-lg leading-relaxed mb-8"
               style={{ color: colors.textLight }}
             >
-              We use professional{' '}
-              <strong style={{ color: colors.text }}>ground-level vacuum technology</strong>{' '}
-              that reaches gutters up to <strong style={{ color: colors.text }}>40ft high</strong> — no ladders,
-              no scaffolding, no mess. Our <strong style={{ color: colors.text }}>fully insured</strong> technicians
-              complete most jobs in a single visit, with <strong style={{ color: colors.text }}>same-day bookings</strong> available
-              across all our service areas.
+              Our team uses high-reach gutter vacuum equipment, ladders where needed, and proven
+              cleaning methods for safe, thorough results. From blocked gutters and downspouts to
+              fascia, soffit and roof cleaning, we help keep your exterior drainage system in good
+              working order all year round.
             </p>
 
             {/* Key Benefits */}
@@ -80,7 +76,7 @@ export default function ProfessionalServices() {
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: colors.primary }} fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-sm font-semibold" style={{ color: colors.text }}>Same Day Booking</span>
+                <span className="text-sm font-semibold" style={{ color: colors.text }}>Fast Booking</span>
               </div>
               <div className="flex items-start gap-2">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: colors.primary }} fill="currentColor" viewBox="0 0 20 20">
@@ -92,13 +88,13 @@ export default function ProfessionalServices() {
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: colors.primary }} fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-sm font-semibold" style={{ color: colors.text }}>No Hidden Fees</span>
+                <span className="text-sm font-semibold" style={{ color: colors.text }}>Clear Pricing</span>
               </div>
               <div className="flex items-start gap-2">
                 <svg className="w-5 h-5 mt-0.5 flex-shrink-0" style={{ color: colors.primary }} fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-sm font-semibold" style={{ color: colors.text }}>100% Satisfaction</span>
+                <span className="text-sm font-semibold" style={{ color: colors.text }}>Local Experts</span>
               </div>
             </div>
 

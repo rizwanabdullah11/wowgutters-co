@@ -7,24 +7,24 @@ const ACCENTS = ['#3B82F6', '#F97316', '#19C58B', '#8B5CF6'];
 const reasons = [
   {
     icon: <CheckCircle className="w-5 h-5" />,
-    title: 'Fully Stocked Vans',
-    subtitle: 'NO DELAYS',
+    title: 'Local Technicians',
+    subtitle: 'BIRMINGHAM COVERAGE',
     description:
-      'Our vans carry common gutter parts and repair materials, so most jobs are completed on the first visit without delays.',
+      'Our team covers Birmingham and nearby towns with practical knowledge of local homes and rooflines.',
   },
   {
     icon: <Award className="w-5 h-5" />,
-    title: 'Trusted Service',
-    subtitle: 'TOP RATED',
+    title: 'Honest Service',
+    subtitle: 'CLEAR ADVICE',
     description:
-      'Trusted by homeowners and businesses for consistent five-star service, honest advice and reliable workmanship.',
+      'We explain what your gutters need before work starts, with straightforward pricing and no pressure.',
   },
   {
     icon: <Shield className="w-5 h-5" />,
-    title: '6 Month Guarantee',
-    subtitle: 'FULLY GUARANTEED',
+    title: 'Fully Insured',
+    subtitle: 'PEACE OF MIND',
     description:
-      'Every qualifying repair includes a 6-month workmanship guarantee, giving you confidence the fix will last.',
+      'Your home or business is protected by an insured team using safe, professional working methods.',
   },
   {
     icon: <Wrench className="w-5 h-5" />,
@@ -44,16 +44,16 @@ export default function WhyChooseUs() {
         <div className="flex items-center justify-center gap-3 mb-5">
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
           <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primary }}>
-            Our Advantages
+            Why Choose WOW Gutters
           </span>
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
         </div>
 
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-center mb-4" style={{ color: colors.text }}>
-          Why Choose Us?
+          Why Choose Our Gutter Cleaning Service?
         </h2>
         <p className="text-center text-base sm:text-lg mb-12 max-w-2xl mx-auto" style={{ color: colors.textLight }}>
-          Built around quality, safety and reliable results from your first quote to final clean-up.
+          Built around careful cleaning, safe access, reliable drainage and helpful local support.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
@@ -93,7 +93,7 @@ export default function WhyChooseUs() {
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full text-white font-semibold text-base sm:text-lg transition-opacity duration-200 hover:opacity-90 shadow-lg"
             style={{ background: colors.primaryGradient }}
           >
-            Ready to experience the difference? Get Started
+            Get Your Free Gutter Cleaning Quote
           </Link>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { colors } from '@/constants/colors';
-import { ArrowRight, Users, Star, ThumbsUp, Award } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 const reviews = [
   { name: 'Graham B.', initial: 'G', date: '11 days ago', rating: 5, text: 'Highly recommended, friendly service.', response: null, bgColor: '#6B7280' },
@@ -23,14 +23,14 @@ export default function ReviewsSection() {
         <div className="flex items-center justify-center gap-3 mb-5">
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
           <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primary }}>
-            Customer Reviews
+            Local Customer Feedback
           </span>
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
         </div>
 
         <div className="flex items-end justify-between mb-10">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-black" style={{ color: colors.text }}>
-            Latest Reviews…
+            What Customers Say About WOW Gutters
           </h2>
           <Link
             href="/reviews"
@@ -50,9 +50,9 @@ export default function ReviewsSection() {
             S
           </div>
           <div className="flex-1">
-            <h3 className="text-lg font-black" style={{ color: colors.text }}>Excellent — WOW Gutter Maintenance</h3>
+            <h3 className="text-lg font-black" style={{ color: colors.text }}>Trusted gutter cleaning and roofline care</h3>
             <div className="flex items-center gap-2 mt-1">
-              <span className="text-sm font-bold" style={{ color: colors.textLight }}>Based on 2,696 reviews</span>
+              <span className="text-sm font-bold" style={{ color: colors.textLight }}>Reliable service for homes and businesses</span>
             </div>
           </div>
           <button

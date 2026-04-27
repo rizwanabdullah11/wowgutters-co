@@ -24,7 +24,7 @@ export default function GutterGallery() {
         <meta name="keywords" content="gutter cleaning photos, before after gutters, gutter gallery, west midlands gutter work, professional gutter cleaning results" />
         <meta property="og:title" content="Gutter Gallery - Before & After Photos" />
         <meta property="og:description" content="View our professional gutter cleaning before and after photos from across the West Midlands." />
-        <link rel="canonical" href="https://wowgutters.pro/the-gutter-gallery" />
+        <link rel="canonical" href="https://wowgutters.co.uk/the-gutter-gallery" />
       </Head>
       {/* Hero Section */}
       <section className="relative py-20 px-4" style={{ background: colors.primaryGradient }}>

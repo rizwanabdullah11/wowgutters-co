@@ -1,5 +1,4 @@
 import React from 'react';
-import { colors } from '@/constants/colors';
 import { Sparkles, Home, Droplets, ArrowRight, Flame } from 'lucide-react';
 import Link from 'next/link';
 
@@ -30,22 +29,22 @@ export default function HotWashBanner() {
               <div className="hot-wash-badge-row">
                 <span className="hot-wash-new-badge">
                   <Flame className="w-4 h-4" />
-                  NEW SERVICE
+                  EXTERIOR CLEANING
                 </span>
-                <span className="hot-wash-eyebrow">PREMIUM UPGRADE</span>
+                <span className="hot-wash-eyebrow">DEEP CLEAN OPTION</span>
               </div>
               
               <h2 className="hot-wash-title">
-                Experience the Power of <br/>
+                Restore Your Exterior With <br/>
                 <span className="hot-wash-highlight">Hot Wash Cleaning</span>
               </h2>
               
               <p className="hot-wash-desc">
-                We've upgraded our system! Incredible exterior cleaning power using our superheated, 100% purified water system. Cuts through grime, algae, and dirt instantly for a longer-lasting clean.
+                Hot wash cleaning helps lift stubborn grime, algae and dirt from exterior surfaces for a brighter finish on gutters, fascias, soffits, frames and conservatories.
               </p>
               
               <Link href="/hot-wash" className="hot-wash-cta">
-                Discover Hot Wash
+                Explore Hot Wash Cleaning
                 <span className="hot-wash-cta-icon">
                   <ArrowRight className="w-5 h-5" />
                 </span>

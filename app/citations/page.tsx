@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
 
-const SITE_URL = 'https://wowgutters.pro';
+const SITE_URL = 'https://wowgutters.co.uk';
 
 function env(name: string) {
   return (process.env[name] || '').trim();

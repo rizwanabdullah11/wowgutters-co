@@ -73,7 +73,7 @@ export default function About() {
         <meta property="og:title" content="About WOW Gutters — Birmingham & West Midlands Gutter Specialists" />
         <meta property="og:description" content="Trusted gutter cleaning specialists serving Birmingham, Coventry, Wolverhampton, Solihull & the West Midlands — 4.9★ from 2,600+ customers." />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://wowgutters.pro/about" />
+        <link rel="canonical" href="https://wowgutters.co.uk/about" />
       </Head>
       {/* Premium Hero Section */}
       <section className="about-hero-section">

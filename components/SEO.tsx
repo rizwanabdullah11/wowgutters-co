@@ -17,7 +17,7 @@ export function generateSEOMetadata({
   ogImage = '/assets/wow-gutter-logo2.png',
   noindex = false,
 }: SEOProps): Metadata {
-  const baseUrl = 'https://wowgutters.pro';
+  const baseUrl = 'https://wowgutters.co.uk';
   const fullTitle = `${title} | WOW Gutters`;
   
   return {
@@ -125,7 +125,7 @@ export function generateServiceSchema(serviceName: string, description: string) 
       '@type': 'LocalBusiness',
       name: 'WOW Gutters',
       telephone: '+447421433910',
-      url: 'https://wowgutters.pro',
+      url: 'https://wowgutters.co.uk',
     },
     areaServed: {
       '@type': 'Country',

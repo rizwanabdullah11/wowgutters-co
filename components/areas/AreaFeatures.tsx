@@ -9,23 +9,23 @@ export default function AreaFeatures({ formattedArea = "your area" }: AreaFeatur
   const features = [
     {
       icon: Wrench,
-      title: "Industry-Leading Technology",
-      desc: `Our local operatives in ${formattedArea} deploy the most advanced, high-velocity vacuum equipment available, guaranteeing a meticulous and safe clearance from ground level.`
+      title: "Expertise You Can Trust",
+      desc: `Our team of trained professionals specializes in safe and effective roof cleaning methods.`
     },
     {
       icon: Award,
-      title: "Highly Acclaimed Standards",
-      desc: `We pride ourselves on delivering an unparalleled standard of care. Our stellar track record in ${formattedArea} establishes us as frontrunners in property maintenance.`
+      title: "Customized Solutions",
+      desc: `We tailor our services to meet the specific needs of your roof, ensuring optimal results.`
     },
     {
       icon: Truck,
-      title: "Fully Equipped Fleets",
-      desc: `The WOW Gutters vehicles operating in ${formattedArea} arrive comprehensively stocked with premium components, enabling us to address urgent repairs on the very first visit.`
+      title: "Affordable Pricing",
+      desc: `Quality roof cleaning near you doesn’t have to break the bank. We offer competitive rates without compromising on quality.`
     },
     {
       icon: ShieldCheck,
-      title: "Comprehensive 6-Month Coverage",
-      desc: `We stand firmly behind our workmanship. Any repair carried out in ${formattedArea} is fortified by a robust 6-month warranty, providing you with absolute assurance.`
+      title: "Eco-Friendly Practices",
+      desc: `We use environmentally friendly cleaning solutions to protect your roof and the surrounding environment.`
     }
   ];
 
@@ -44,6 +44,11 @@ export default function AreaFeatures({ formattedArea = "your area" }: AreaFeatur
 
       <div className="py-20 px-4 object-cover" style={{ background: colors.primaryGradient || colors.primary }}>
         <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 sm:gap-8">
+          <div className="sm:col-span-2 lg:col-span-4 text-center text-white">
+            <h2 className="text-4xl md:text-5xl font-black tracking-tight">
+              Why Choose Our Roof Cleaning Service in {formattedArea}?
+            </h2>
+          </div>
           {features.map((feature, i) => (
             <div key={i} className="flex flex-col items-center text-center text-white">
 

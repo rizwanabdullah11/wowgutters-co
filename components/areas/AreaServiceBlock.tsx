@@ -38,7 +38,7 @@ export default function AreaServiceBlock({
 
         {/* Center Text (2) */}
         <div className="flex-1 text-center md:text-left">
-          <h2 className="text-3xl md:text-4xl font-black text-gray-900 mb-6 uppercase tracking-tight leading-tight">
+          <h2 className="text-3xl md:text-4xl font-black text-gray-900 mb-6 tracking-tight leading-tight">
             {title}
           </h2>
           <div className="space-y-4 text-gray-600 font-medium text-base sm:text-lg leading-relaxed">

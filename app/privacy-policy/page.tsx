@@ -15,7 +15,7 @@ export default function PrivacyPolicy() {
       <SEOMeta
         title="Privacy Policy | WOW Gutters"
         description="Read the WOW Gutters privacy policy. Learn how we protect your data when you request gutter cleaning, repairs, or inspections in Birmingham & West Midlands."
-        canonicalUrl="https://wowgutters.pro/privacy-policy"
+        canonicalUrl="https://wowgutters.co.uk/privacy-policy"
       />
       <SchemaMarkup
         id="schema-privacy-webpage"
@@ -23,7 +23,7 @@ export default function PrivacyPolicy() {
           '@context': 'https://schema.org',
           '@type': 'WebPage',
           name: 'Privacy Policy',
-          url: 'https://wowgutters.pro/privacy-policy',
+          url: 'https://wowgutters.co.uk/privacy-policy',
         }}
       />
       {/* Hero Section */}

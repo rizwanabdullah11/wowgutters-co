@@ -75,7 +75,7 @@ export default function QuotePage() {
         <meta property="og:title" content="Free Gutter Quote - WowGutters West Midlands" />
         <meta property="og:description" content="Get your free gutter cleaning quote today with same-day booking available across the West Midlands." />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://wowgutters.pro/quote" />
+        <link rel="canonical" href="https://wowgutters.co.uk/quote" />
       </Head>
       <style jsx>{`
         @keyframes fadeInUp {

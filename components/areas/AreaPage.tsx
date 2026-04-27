@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
 import Head from 'next/head';
 import { colors } from '@/constants/colors';
 import Link from 'next/link';
-import { ShieldCheck, PenTool, CheckCircle, MapPin, Phone } from 'lucide-react';
+import { ShieldCheck, PenTool, Phone } from 'lucide-react';
 import AreaServiceBlock from '@/components/areas/AreaServiceBlock';
 import AreaServicesRange from '@/components/areas/AreaServicesRange';
 import AreaFAQ from '@/components/areas/AreaFAQ';
@@ -55,7 +55,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
         <meta property="og:title" content={`Gutter Cleaning ${formattedArea} - WowGutters`} />
         <meta property="og:description" content={`Professional gutter services in ${formattedArea}. Same-day booking available. Free quotes.`} />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href={`https://wowgutters.pro/gutter-cleaning-${areaName}/`} />
+        <link rel="canonical" href={`https://wowgutters.co.uk/gutter-cleaning-${areaName}/`} />
       </Head>
       {/* 1) Premium Hero Section matching Home Page */}
       <section className="area-hero-section">
@@ -84,14 +84,14 @@ export default function AreaPage({ areaName }: AreaPageProps) {
           </div>
 
           <h1 className="hero-title animate-fade-in-up delay-100">
-            <span className="title-prefix">Professional</span>{' '}
-            <span className="title-service" style={{ color: colors.primary }}>Gutter Cleaning</span>
+            <span className="title-prefix">Trusted Gutter Cleaning</span>{' '}
+            <span className="title-service" style={{ color: colors.primary }}>{formattedArea}</span>
             <br />
-            <span className="title-secondary">in {formattedArea}</span>
+            <span className="title-secondary">Services for Homes & Businesses</span>
           </h1>
 
           <p className="hero-subtitle animate-fade-in-up delay-200">
-            Relied upon by domestic residents and commercial landlords throughout {formattedArea} and its neighbouring districts to aggressively defend their estates against water ingress. Impressively fast, utterly dependable, and universally five-star recommended.
+            Welcome to the most reliable Gutter Cleaning {formattedArea}. To residences and businesses all around the area, we provide expert gutter and downspout cleaning.
           </p>
 
           <div className="hero-cta-row animate-fade-in-up delay-300">
@@ -188,16 +188,21 @@ export default function AreaPage({ areaName }: AreaPageProps) {
           {/* Left Text */}
           <div className="flex-[1.2] text-[#0f172a]">
             <h2 className="text-3xl md:text-5xl font-bold mb-8 leading-tight">
-              Professional <br />
-              <span style={{ color: colors.primary }}>{formattedArea} Gutter Services</span>
+              Best Gutter Cleaning {formattedArea}-Fully Insured Local Experts
             </h2>
 
             <div className="text-slate-600 leading-relaxed space-y-6 text-lg">
               <p>
-                <strong className="text-slate-900">WOW Gutter</strong> delivers unmatched property maintenance throughout {formattedArea} and its adjacent community zones. Our skilled technicians are highly proficient in comprehensive clearance tasks, targeted leak fixes, alleviating choked downspouts, and intensive fascia rejuvenation.
+                Providing great Gutter Cleaning Service that ensure your gutters are in good operating order and safeguard your house from water damage gives us at WOW Gutters Ltd tremendous pride. We provide expert services including gutter vacuuming, soffit and fascia cleaning, and gutter maintenance at Downspout cleaning. We have no jobs too big or too little.
               </p>
               <p>
-                We integrate state-of-the-art suction apparatus that empowers us to eradicate lodged debris from altitudes reaching four storeys—all achieved with both feet firmly on the ground. This agility allows us to effortlessly navigate restrictive gaps or stretch over large conservatories. In addition, we always carry the appropriate traditional access tools, ensuring that awkward mechanical repairs are finalised without delay.
+                Get in touch with us right now to find out more about our Local Gutter Cleaning! We apply cutting-edge technologies including gutter vacuums created expressly for clearing blocked gutters.
+              </p>
+              <p>
+                They aid in thorough removal of leaves, moss, and downspout debris from gutters. Important is the search term &quot;Gutter Cleaning Near Me.&quot; We at WOW Gutters LTD are here to assist! By stopping water from harming your walls, foundations, and roof, gutter protection helps to preserve your home.
+              </p>
+              <p>
+                They don&apos;t function effectively when blocked with debris and leaves, though. Regularly cleaning them is critical. WOW Gutters LTD provides professional service with the most recent tools and methods. Regular maintenance will be covered in this article along with its value, recommended frequency, costs, and how WOW Gutters LTD can help with high-quality equipment and services-even for larger buildings.
               </p>
               <div className="p-6 rounded-xl bg-[#f1f5f9] border border-slate-200 mt-8">
                 <p className="text-slate-800 font-medium flex items-center gap-3 text-xl mb-4">
@@ -234,39 +239,70 @@ export default function AreaPage({ areaName }: AreaPageProps) {
 
       {/* New Service Blocks matching the detailed designs */}
       <AreaServiceBlock
-        title={`EXPERT CLEARANCE IN ${formattedArea.toUpperCase()}`}
+        title={`#1 Residential Gutter Cleaning Service in ${formattedArea}`}
         descriptions={[
-          `We are the leading authority for exterior maintenance inside ${formattedArea}. We fully acknowledge that ascending ladders to scoop out sludge is highly undesirable, incredibly messy, and fraught with peril—which is precisely why our team is here to assist.`,
-          `Refrain from balancing precariously at height; allow our operatives to engage the heavy lifting. Our intervention is famously swift and free from scattered debris, leaning heavily on market-leading, high-velocity vacuums engineered to devour every trace of organic matter suffocating your home's roofline.`
+          `WOW Gutters Ltd offers Expert Local Gutter Cleaning to keep your gutters maintained for homes in ${formattedArea}. Our knowledgeable staff not only removes obstructions but also does little repairs and locks loose joints for a fair cost. Using ladders and brushes, we manually remove leaves, moss, and trash, therefore helping to prevent blockages and associated expensive problems. We also Clean Downspout to assure you of steady water flow and peace of mind.`,
+          `Part of house maintenance that is absolutely vital is keeping your Gutter debris removal ${formattedArea}. It lessens costly repairs and helps stop water damage. Frequent removal of organic materials lets rainwater run away from your house, therefore shielding your yard, foundation, and roof. Hiring professionals for repairs and upkeep including Downspout Cleaning will help to protect your house. Don't wait for damage to develop; ensure your system is clean and operating as it will help to prevent future problems and maintain the best possible state of your property.`
         ]}
         iconSrc="/gutter-cleaning-icon.png"
         backgroundColor="bg-white"
-        buttonText="Get A Quote"
+        buttonText="GET A FREE QUOTE"
         phoneNumber="07421 433910"
       />
 
       <AreaServiceBlock
-        title={`DEDICATED UPKEEP FOR ${formattedArea.toUpperCase()}`}
+        title={`Commercial Gutter Cleaning ${formattedArea}`}
         descriptions={[
-          `Positioned as the go-to regional specialists for definitive remedial work within ${formattedArea}.`,
-          `Our acclaimed, top-tier structural assistance remains heavily sought-after simply because identifying a dependable, transparent operative is notoriously difficult.`,
-          `A WOW Gutters representative will rapidly isolate the core defect causing your leaks. Furthermore, because our fleet patrols carrying a vast inventory of bespoke brackets, joints, and seals, we reliably conclude the vast majority of interventions right there and then.`
+          `Keeping your business running smoothly and avoiding damp issues inside or outside your building is certainly a priority-but when problems arise, WOW Gutters LTD is here to help.`,
+          `We offer Local Gutter Cleaning ${formattedArea} to remove debris, moss, and leaves from your building, helping operations stay uninterrupted throughout the year.`,
+          `Our team handles gutters, fascia board, and soffit maintenance in addition to all aspects of Gutter Repair Service.`,
+          `Maintaining a business structure involves more than just keeping the gutters in check. Routine maintenance is crucial in ${formattedArea} to stop costly repairs and water damage. Branches, leaves, and other trash can over time block the natural rainwater flow. When this happens, overflow can lead to significant problems. Hiring professionals to clear blockages ensures proper drainage and protects both the building and the surrounding environment. Schedule Local Gutter Cleaning Service today to help keep your commercial property safe and in optimal condition. Don't wait for small issues to become major ones.`
         ]}
         iconSrc="/gutter-repair-icon.png"
         backgroundColor="bg-gray-50"
-        buttonText="Get A Quote"
+        buttonText="GET A FREE QUOTE"
         phoneNumber="07421 433910"
       />
 
       <AreaServiceBlock
-        title={`COMPREHENSIVE ZERO-COST EVALUATION`}
+        title={`Domestic Gutter Cleaning ${formattedArea}`}
         descriptions={[
-          `Before you are ever asked to authorise any monetary commitment inside ${formattedArea}, you can exploit our complimentary visual health check, a signature offering constructed by WOW Gutters. An established surveyor covering ${formattedArea} will diligently observe your setup to ascertain if any corrective intervention is legitimately required.`,
-          `To absolutely guarantee your peace of mind and avert concealed shocks, this meticulous appraisal is run by a verified local pro. It encompasses a close scrutiny of your overlapping tiles, mortar integrity, connected fascias, immediate valleys, and primary flow channels.`
+          `At WOW Gutters LTD, we provide Gutter Cleaner Services that include clearing out your gutters and Fascia and soffit cleaning. Plus, We also incorporate complementary window washing with every gutter or fascia job!`,
+          `We use high-reach vacuum systems, ensuring no mess is left behind and your home stays just as we found it. This method lets us access tricky areas like over conservatories, porches, and roofs with ease.`,
+          `Maintaining your home means ensuring all parts-including drainage systems-function properly. Our Local Gutter Cleaning ${formattedArea} ensures efficient water flow and protects your property from potential issues. Guiding rainfall away from your home depends entirely on gutters, which run along the roof edge. Stopped by debris or leaves, they can inflict expensive damage. Booking a professional Gutter Cleaning Service helps protect your property by ensuring your system is clean and inspected. Arrange a visit in ${formattedArea} today to maintain your home's safety and prevent future problems.`
         ]}
         iconSrc="/gutter-cleaning-icon.png" /* Temporary fallback due to quota */
         backgroundColor="bg-[#e4e4e4]"
-        buttonText="Book Now"
+        buttonText="GET A FREE QUOTE"
+        phoneNumber="07421 433910"
+      />
+
+      <AreaServiceBlock
+        title="Full Gutter Service (Gutters, Soffits & Fascias)"
+        descriptions={[
+          `Taking care of your house means looking after all parts of it, including the gutters, soffits, and fascias. A full Gutter Inspection takes care of all these things to keep your home in great shape.`,
+          `Gutters: The channels gutters create from your roof gather rainwater and point it away from your property.`,
+          `Soffits: Your roof's planks beneath the eaves are called soffits. They drive out pests and assist with ventilation.`,
+          `Fascias: Running along the edge of your roof, fascias are long planks designed to hold the gutters in place.`,
+          `To ensure rainwater flows correctly and everything is safe, a complete Local Gutter Clean Service fixes and cleans these areas. This maintains your house looking good and helps stop damage to it. Getting this service routinely helps to keep your house dry and safe.`
+        ]}
+        iconSrc="/gutter-repair-icon.png"
+        backgroundColor="bg-white"
+        buttonText="GET A FREE QUOTE"
+        phoneNumber="07421 433910"
+      />
+
+      <AreaServiceBlock
+        title={`5* Gutter Cleaning Service ${formattedArea}`}
+        descriptions={[
+          `We know the value of appropriate maintenance, hence we offer a range of services to keep your drainage systems free and in good condition. Our knowledgeable staff will check your configuration, clear any trash or obstacles, and do any required repairs to guarantee everything runs as it should.`,
+          `Employing the most modern technologies and methods, we provide efficient and effective maintenance solutions. We promise to provide first-rate service regardless of your location or nearby.`,
+          `Count on our reliable and reasonably priced staff to maintain blockages free from in your gutters and to preserve your house. Our main goal is to stop trash from building up so you might help avoid expensive repairs. Plan your downspout, gutter, or roof cleaning service now to guarantee a safer, healthier house. Don't wait for little issues to become big ones!`,
+          `From residential roof washing to commercial properties, our Roof Cleaning Company ${formattedArea} is known for quality, care, and customer satisfaction. We use advanced roof cleaning chemicals and safe roof wash methods to ensure no damage to your roof or tiles. Whether you're searching for Roof Cleaning Near Me or need urgent moss removal from roof, we've got you covered. Choose your local experts for reliable, efficient, and long-lasting roof maintenance service. Let's keep your Roof Clean ${formattedArea} and strong all year round.`
+        ]}
+        iconSrc="/gutter-cleaning-icon.png"
+        backgroundColor="bg-gray-50"
+        buttonText="GET A FREE QUOTE"
         phoneNumber="07421 433910"
       />
 
@@ -301,7 +337,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
                   className="flex items-center justify-between gap-3 rounded-lg px-2 py-1.5 hover:bg-[#e6f9f1] transition-colors"
                 >
                   <span className="text-[15px] md:text-base text-[#1c2a44] font-semibold">
-                    "{question}"
+                    &quot;{question}&quot;
                   </span>
                   <a
                     href={`${whatsappBaseUrl}?text=${encodeURIComponent(`Hi, I am in ${formattedArea}. ${question}`)}`}

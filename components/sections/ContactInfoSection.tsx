@@ -2,8 +2,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import logo from '@/assets/wow-gutter-logo.png';
-import { colors } from '@/constants/colors';
-import { Phone, Mail, Facebook, Youtube, Twitter, Instagram, MessageCircle, Smartphone, Search, FileText, HelpCircle, ThumbsUp, MapPin, Map, Navigation } from 'lucide-react';
+import { Phone, Mail, Facebook, Youtube, Twitter, Instagram, MessageCircle, Search, FileText, HelpCircle, MapPin, Map, Navigation } from 'lucide-react';
 
 export default function ContactInfoSection() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -41,8 +40,8 @@ export default function ContactInfoSection() {
               />
             </div>
             <div className="contact-header-text">
-              <span className="contact-eyebrow">REACH OUT TODAY</span>
-              <h2 className="contact-title">Get in Touch</h2>
+              <span className="contact-eyebrow">BOOK YOUR CLEAN</span>
+              <h2 className="contact-title">Contact WOW Gutters</h2>
             </div>
           </div>
 
@@ -82,7 +81,7 @@ export default function ContactInfoSection() {
           )}
 
           <div className="contact-socials">
-            <p className="contact-social-label">Follow our updates</p>
+            <p className="contact-social-label">Follow WOW Gutters updates</p>
             <div className="contact-social-row">
               <a href="https://www.facebook.com/wowgutters" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on Facebook" className="social-pill"><Facebook className="w-5 h-5"/></a>
               <a href="https://www.youtube.com/@wowgutters" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on YouTube" className="social-pill"><Youtube className="w-5 h-5"/></a>
@@ -127,16 +126,16 @@ export default function ContactInfoSection() {
               <div className="search-icon-circle">
                 <Navigation className="w-6 h-6 text-white" />
               </div>
-              <h3 className="search-title">Find Your Local Team</h3>
+              <h3 className="search-title">Find Gutter Cleaning Near You</h3>
               <p className="search-desc">
-                Enter your Town or City to connect directly with your independent local gutter engineer.
+                Enter your town or city to check local gutter cleaning coverage around Birmingham and the West Midlands.
               </p>
             </div>
             
             <div className="search-input-wrap">
               <input
                 type="text"
-                placeholder="E.g. Nottingham..."
+                placeholder="E.g. Birmingham..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="search-input"

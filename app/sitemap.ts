@@ -5,7 +5,7 @@ export const dynamic = 'force-static';
 export const revalidate = false;
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://wowgutters.pro';
+  const baseUrl = 'https://wowgutters.co.uk';
   
   // Static pages
   const staticPages = [

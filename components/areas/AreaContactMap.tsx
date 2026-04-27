@@ -20,11 +20,11 @@ export default function AreaContactMap() {
           CALL US TODAY!
         </h2>
         <p className="text-white sm:text-lg mb-6 font-medium tracking-wide">
-          We are here for all of you gutter maintenance needs.
+          Please give us a call on 07421 433910.
         </p>
         
         <a 
-          href="tel:01283454453"
+          href="tel:07421433910"
           className="bg-[#0f172a] hover:bg-[#1e293b] text-white text-[15px] font-bold px-8 py-3 rounded shadow-md transition-colors"
         >
           Call Now: 07421 433910

@@ -3,10 +3,10 @@ import Link from 'next/link';
 import { ArrowRight, CheckCircle } from 'lucide-react';
 
 const guarantees = [
-  'Price match guarantee',
-  'Professional service',
+  'Free instant quote',
+  'Professional cleaning',
   'Fully insured team',
-  'No hidden costs',
+  'Clear local pricing',
 ];
 
 export default function GetTheBest() {
@@ -18,7 +18,7 @@ export default function GetTheBest() {
         <div className="flex items-center justify-center gap-3 mb-5">
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
           <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primary }}>
-            Best Value Promise
+            Free Quote Promise
           </span>
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
         </div>
@@ -55,13 +55,13 @@ export default function GetTheBest() {
                 GET THE BEST FOR LESS
               </p>
               <h2 className="text-3xl sm:text-4xl font-black mb-3" style={{ color: colors.text }}>
-                Get The Best For Less!
+                Get a Professional Gutter Clean for Less
               </h2>
               <p className="text-base italic mb-5" style={{ color: colors.textLight }}>
-                Our professional service is cheaper than you might think.
+                Keeping your gutters clear can cost less than repairing water damage later.
               </p>
               <p className="text-sm leading-relaxed mb-6" style={{ color: colors.textLight }}>
-                Our price guarantee ensures you get the best value. Find a comparable quote for less? We'll beat it — guaranteed.
+                We keep pricing simple for homeowners, landlords and businesses. Request a free quote, choose a convenient booking time, and let our local team take care of the mess.
               </p>
 
               {/* Guarantees */}
@@ -95,7 +95,7 @@ export default function GetTheBest() {
 
               <div className="mt-6 pt-5 border-t border-gray-100">
                 <p className="text-sm font-medium" style={{ color: colors.textLight }}>
-                  Trusted by 450+ satisfied customers across the region
+                  Serving Birmingham, Solihull, Coventry, Wolverhampton and wider West Midlands areas
                 </p>
               </div>
             </div>

@@ -12,9 +12,9 @@ const gutterServices = [
     title: 'Gutter Cleaning',
     subtitle: 'POWERFUL & EFFECTIVE',
     description:
-      'Professional gutter cleaning using high-reach vacuum systems to clear moss, leaves and debris before overflow causes water damage.',
+      'Local gutter cleaning using high-reach vacuum systems to remove leaves, moss and debris before overflow causes damage.',
     backContent: {
-      features: ['High-reach vacuum system', 'Before & after photos', 'Debris disposal included', 'Same-day book available'],
+      features: ['High-reach vacuum system', 'Debris removal included', 'Downpipe checks', 'Flexible appointments'],
       price: 'From £45'
     },
     image: '/gutter-cleaning.jpeg',
@@ -24,7 +24,7 @@ const gutterServices = [
     title: 'Roof Cleaning & Moss Removal',
     subtitle: 'SAFE LOW-PRESSURE METHODS',
     description:
-      'Safe roof cleaning and moss removal with controlled treatment methods that protect tiles and restore your roof appearance.',
+      'Safe roof cleaning and moss removal to help protect tiles, improve appearance and reduce blocked gutter problems.',
     backContent: {
       features: ['Soft washing technique', 'Moss treatment', 'Tile protection', 'Long-lasting results'],
       price: 'From £150'
@@ -36,7 +36,7 @@ const gutterServices = [
     title: 'Exterior uPVC Cleaning',
     subtitle: 'HOT PURIFIED WATER',
     description:
-      'Exterior uPVC cleaning for fascias, soffits, frames and conservatories using purified water for a bright, streak-free finish.',
+      'Exterior uPVC cleaning for fascias, soffits, frames and conservatories for a brighter, fresher finish.',
     backContent: {
       features: ['Purified water system', 'Streak-free finish', 'Fascias & soffits', 'Conservatory cleaning'],
       price: 'From £60'
@@ -48,9 +48,9 @@ const gutterServices = [
     title: 'Free Gutter Inspection',
     subtitle: 'EXPERT CHECK — NO CHARGE',
     description:
-      'Book a free roof and gutter inspection to identify leaks, blockages and weak points early, with honest advice and no pressure.',
+      'Book a gutter inspection to identify leaks, blockages, loose parts and weak points early, with honest advice.',
     backContent: {
-      features: ['Camera inspection', 'Detailed report', 'No obligation quote', 'Expert recommendations'],
+      features: ['Visual inspection', 'Clear advice', 'No obligation quote', 'Expert recommendations'],
       price: 'FREE'
     },
     image: '/gutter-inspection.png',
@@ -60,7 +60,7 @@ const gutterServices = [
     title: 'Gutter Repairs',
     subtitle: '6-MONTH GUARANTEE',
     description:
-      'Fast gutter repairs for leaking joints, broken brackets and sagging sections, completed by trained engineers with stocked vans.',
+      'Gutter repairs for leaking joints, broken brackets and sagging sections, completed by trained local technicians.',
     backContent: {
       features: ['6-month guarantee', 'Same-day repairs', 'Quality materials', 'Leak-proof joints'],
       price: 'From £80'
@@ -72,7 +72,7 @@ const gutterServices = [
     title: 'Gutter Installation',
     subtitle: 'QUALITY uPVC SYSTEMS',
     description:
-      'New uPVC gutter and downpipe installations measured and fitted for smooth rainwater flow, clean finish and long-term reliability.',
+      'uPVC gutter and downpipe installations measured and fitted for smooth rainwater flow and a clean finish.',
     backContent: {
       features: ['Quality uPVC systems', 'Professional fitting', '10-year warranty', 'Custom measurements'],
       price: 'From £300'
@@ -108,13 +108,13 @@ export default function GutterServicesRange() {
         <div className="flex items-center justify-center gap-3 mb-5">
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
           <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primary }}>
-            Our Services
+          Gutter Services
           </span>
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
         </div>
 
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-center mb-12" style={{ color: colors.text }}>
-          Our Range of Gutter Services
+          Full Gutter, Roofline & Exterior Cleaning Services
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -218,7 +218,7 @@ export default function GutterServicesRange() {
 
                     <div className="flex flex-col flex-1">
                       <h4 className="text-sm font-bold mb-3" style={{ color: ACCENTS[i] }}>
-                        WHAT'S INCLUDED:
+                        SERVICE INCLUDES:
                       </h4>
                       <ul className="space-y-2.5 mb-auto">
                         {service.backContent.features.map((feature, idx) => (
