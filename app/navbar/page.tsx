@@ -46,7 +46,7 @@ export default function Navbar() {
           top: var(--vv-top, 0px);
           left: 0;
           right: 0;
-          z-index: 9999;
+          z-index: 967;
           padding-top: env(safe-area-inset-top, 0px);
         }
 

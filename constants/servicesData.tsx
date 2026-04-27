@@ -66,7 +66,7 @@ export const servicesData: ServiceDetail[] = [
     name: 'Gutter Repairs',
     icon: '🔧',
     heroImage: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920',
-    heroVideo: '/gutter-final-video.mp4',
+    heroVideo: '/gutter-repair%20(2).mp4',
     heroTitle: 'Professional Gutter Repair Services',
     heroDescription: 'Expert gutter repair services for damaged, leaking, or sagging gutters. Our trained technicians will restore your gutters to perfect working condition.',
     sections: [
