@@ -15,6 +15,14 @@ export const metadata: Metadata = {
     template: "%s | WOW Gutters"
   },
   description: "Professional gutter cleaning, repairs, inspections, roof cleaning and exterior cleaning. Fast quotes and same-day booking from WOW Gutters.",
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", type: "image/png" },
+    ],
+  },
   keywords: SEO_KEYWORD_LINKS.map((k) => k.label),
   authors: [{ name: "WOW Gutters", url: "https://wowgutters.co.uk" }],
   creator: "WOW Gutters",
