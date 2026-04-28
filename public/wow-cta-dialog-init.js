@@ -1,5 +1,10 @@
 (function () {
   function openDialog() {
+    try {
+      if (typeof window.wowTrack === "function") {
+        window.wowTrack("quote_open", { source: "cta_dialog" });
+      }
+    } catch (_) {}
     var d = document.getElementById("wow-cta-dialog");
     if (!d) {
       window.location.href = "/quote/embed/";
@@ -14,6 +19,11 @@
   function closeDialog() {
     var d = document.getElementById("wow-cta-dialog");
     if (d && typeof d.close === "function") d.close();
+    try {
+      if (typeof window.wowTrack === "function") {
+        window.wowTrack("quote_close", { source: "cta_dialog" });
+      }
+    } catch (_) {}
   }
   function isQuoteMarketingHref(href) {
     if (!href) return false;
@@ -35,6 +45,14 @@
       var openEl = e.target.closest("[data-static-quote-open],[data-wow-open-cta]");
       if (openEl) {
         e.preventDefault();
+        try {
+          if (typeof window.wowTrack === "function") {
+            window.wowTrack("cta_clicked", {
+              cta_label: openEl.getAttribute("data-analytics-label") || "quote_open",
+              cta_location: safeLocation(),
+            });
+          }
+        } catch (_) {}
         openDialog();
         return;
       }
@@ -62,4 +80,12 @@
     } catch (_) {}
   });
   window.wowOpenCtaDialog = openDialog;
+
+  function safeLocation() {
+    try {
+      return window.location && window.location.pathname ? window.location.pathname : "";
+    } catch (_) {
+      return "";
+    }
+  }
 })();

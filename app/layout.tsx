@@ -78,6 +78,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const ga4MeasurementId = (process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID || "").trim();
+  const gtmId = (process.env.NEXT_PUBLIC_GTM_ID || "").trim();
+  const analyticsDebug = (process.env.NODE_ENV !== "production") ? "1" : "";
+
   // Structured Data for SEO
   const addressLine1 = (process.env.NEXT_PUBLIC_BUSINESS_ADDRESS_LINE1 || '').trim();
   const addressLine2 = (process.env.NEXT_PUBLIC_BUSINESS_ADDRESS_LINE2 || '').trim();
@@ -267,6 +271,23 @@ export default function RootLayout({
           strategy="beforeInteractive" is stripped from the output, which
           would break the quote modal. Do NOT convert these to <Script>.
         */}
+        {/* Analytics config + click tracking (safe no-op if GA ID not set) */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){window.__WOW_ANALYTICS__={gaId:${JSON.stringify(ga4MeasurementId)},gtmId:${JSON.stringify(gtmId)},debug:${JSON.stringify(analyticsDebug)}};})();`,
+          }}
+        />
+        {ga4MeasurementId ? (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga4MeasurementId}`}></script>
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('js', new Date());gtag('config', ${JSON.stringify(ga4MeasurementId)}, { send_page_view: true });})();`,
+              }}
+            />
+          </>
+        ) : null}
+        <script src="/wow-analytics.js?v=20260428"></script>
         <script src="/wow-quote-config.js?v=20260421"></script>
         <script
           dangerouslySetInnerHTML={{

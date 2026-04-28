@@ -167,6 +167,8 @@ export default function HeroSection() {
               <button
                 type="button"
                 data-static-quote-open
+                data-analytics-event="quote_open"
+                data-analytics-label="hero_primary"
                 aria-haspopup="dialog"
                 aria-controls="wow-cta-dialog"
                 className="hero-primary-btn"
