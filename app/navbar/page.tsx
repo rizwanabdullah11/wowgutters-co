@@ -150,7 +150,7 @@ export default function Navbar() {
             </div>
             <div className="hidden md:flex gap-4">
               <Link href="/reviews" className="hover:underline">Review Us</Link>
-              <Link href="/request" className="hover:underline">Request a Call</Link>
+              <Link href="/quote" className="hover:underline">Request a Call</Link>
               <Link href="/help" className="hover:underline">Help Centre</Link>
             </div>
           </div>

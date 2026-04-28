@@ -9,6 +9,27 @@ DirectoryIndex index.html
   AddType application/json .json
 </IfModule>
 
+# Next.js static export routing:
+# - With `trailingSlash: true`, routes are exported as /route/index.html.
+# - These rewrites make direct navigation (and refresh) work on Apache/LiteSpeed.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Canonicalize: add trailing slash for directory-style routes
+  # (skip real files like /sitemap.xml, /robots.txt, images, etc.)
+  RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]{1,6}$
+  RewriteCond %{REQUEST_URI} !/$
+  RewriteRule ^(.+)$ $1/ [R=301,L]
+
+  # Serve /route/ -> /route/index.html when present
+  RewriteCond %{REQUEST_FILENAME} -d [OR]
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteRule ^ - [L]
+
+  RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}index.html -f
+  RewriteRule ^(.+)$ $1/index.html [L]
+</IfModule>
+
 # Prevent aggressive caching of quote scripts (Hostinger/LiteSpeed).
 <IfModule mod_headers.c>
   <FilesMatch "^(wow-quote-form-init|wow-quote-config|wow-cta-dialog-init)\\.js$">
