@@ -25,7 +25,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
 
-  const canonicalPath = `https://wowgutters.co.uk/gutter-cleaning-${params.slug}`;
+  const canonicalPath = `https://wowgutters.co.uk/gutter-cleaning-${params.slug}/`;
 
   return {
     title: `Gutter Cleaning ${areaName} | WOW Gutters`,

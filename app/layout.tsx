@@ -76,7 +76,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://wowgutters.co.uk",
+    canonical: "https://wowgutters.co.uk/",
   },
   category: "Home Services",
 };

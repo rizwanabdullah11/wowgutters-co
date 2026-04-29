@@ -11,7 +11,22 @@ type BuildMetadataInput = {
 function toAbsoluteUrl(pathname: string) {
   const base = 'https://wowgutters.co.uk';
   if (!pathname) return base;
-  return `${base}${pathname.startsWith('/') ? '' : '/'}${pathname}`;
+  const joined = `${base}${pathname.startsWith('/') ? '' : '/'}${pathname}`;
+
+  // This site is exported with `trailingSlash: true`, so canonical URLs should
+  // match the final URL shape (avoid unnecessary redirects + duplicates).
+  try {
+    const u = new URL(joined);
+    const isFileLike = /\.[a-zA-Z0-9]{1,6}$/.test(u.pathname);
+    if (!isFileLike && !u.pathname.endsWith('/')) {
+      u.pathname = `${u.pathname}/`;
+      return u.toString().replace(/\/$/, '/') // keep single trailing slash
+        .replace(/\/\?/, '/?');
+    }
+    return u.toString();
+  } catch {
+    return joined;
+  }
 }
 
 export function buildMetadata(input: BuildMetadataInput): Metadata {

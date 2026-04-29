@@ -7,6 +7,9 @@ DirectoryIndex index.html
   AddType application/javascript .js
   AddType text/css .css
   AddType application/json .json
+  AddType application/xml .xml
+  AddType text/plain .txt
+  AddType image/svg+xml .svg
 </IfModule>
 
 # Next.js static export routing:
@@ -21,13 +24,18 @@ DirectoryIndex index.html
   RewriteCond %{REQUEST_URI} !/$
   RewriteRule ^(.+)$ $1/ [R=301,L]
 
-  # Serve /route/ -> /route/index.html when present
-  RewriteCond %{REQUEST_FILENAME} -d [OR]
-  RewriteCond %{REQUEST_FILENAME} -f
+  # If the request maps to a real file or directory, serve it as-is
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
   RewriteRule ^ - [L]
 
-  RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}index.html -f
-  RewriteRule ^(.+)$ $1/index.html [L]
+  # Serve /route(/) -> /route/index.html when present (avoid double slashes)
+  RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+  RewriteRule ^(.+?)/?$ $1/index.html [L]
+
+  # Serve / -> /index.html
+  RewriteCond %{DOCUMENT_ROOT}/index.html -f
+  RewriteRule ^$ index.html [L]
 </IfModule>
 
 # Prevent aggressive caching of quote scripts (Hostinger/LiteSpeed).
