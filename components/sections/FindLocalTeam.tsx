@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { MapPin, Search, Navigation } from 'lucide-react';
 
 const locations = [
-  { name: 'Birmingham', coordinates: '52.4862,-1.8904' },
+  { name: 'Your area', coordinates: '52.4862,-1.8904' },
   { name: 'Coventry', coordinates: '52.4068,-1.5197' },
   { name: 'Wolverhampton', coordinates: '52.5865,-2.1285' },
   { name: 'Dudley', coordinates: '52.5120,-2.0890' },
@@ -21,7 +21,7 @@ const locations = [
 
 export default function FindLocalTeam() {
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedLocation, setSelectedLocation] = useState('Birmingham, UK');
+  const [selectedLocation, setSelectedLocation] = useState('United Kingdom');
 
   const filtered = locations.filter(
     (loc) => searchQuery === '' || loc.name.toLowerCase().includes(searchQuery.toLowerCase())
@@ -41,7 +41,7 @@ export default function FindLocalTeam() {
           
           <h2 className="local-team-title">Find Gutter Cleaning Near You</h2>
           <p className="local-team-desc">
-            Local gutter cleaners covering Birmingham, the West Midlands and surrounding towns.
+            Find local gutter cleaning coverage in your town or city.
           </p>
         </div>
 

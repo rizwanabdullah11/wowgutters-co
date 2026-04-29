@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "node scripts/clean-next.mjs && next build && node scripts/postexport-fix-index.mjs",
+    "dev": "next dev --webpack",
+    "build": "node scripts/clean-next.mjs && next build && node scripts/postexport-fix-index.mjs && node scripts/assert-jsonld-export.mjs",
     "start": "next start",
     "serve": "npx serve out -p 3000",
-    "lint": "eslint"
+    "lint": "eslint",
+    "marketing:check": "node scripts/marketing/check-config.mjs",
+    "marketing:tracking-plan": "node scripts/marketing/generate-tracking-plan.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.577.0",

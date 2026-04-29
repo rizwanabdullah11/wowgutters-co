@@ -121,7 +121,7 @@ export default function InspectionPage() {
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
-                  <span>Fully Insured</span>
+                  <span>Same Day Booking</span>
                 </div>
               </div>
             </div>

@@ -7,6 +7,35 @@ DirectoryIndex index.html
   AddType application/javascript .js
   AddType text/css .css
   AddType application/json .json
+  AddType application/xml .xml
+  AddType text/plain .txt
+  AddType image/svg+xml .svg
+</IfModule>
+
+# Next.js static export routing:
+# - With `trailingSlash: true`, routes are exported as /route/index.html.
+# - These rewrites make direct navigation (and refresh) work on Apache/LiteSpeed.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Canonicalize: add trailing slash for directory-style routes
+  # (skip real files like /sitemap.xml, /robots.txt, images, etc.)
+  RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]{1,6}$
+  RewriteCond %{REQUEST_URI} !/$
+  RewriteRule ^(.+)$ $1/ [R=301,L]
+
+  # If the request maps to a real file or directory, serve it as-is
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Serve /route(/) -> /route/index.html when present (avoid double slashes)
+  RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+  RewriteRule ^(.+?)/?$ $1/index.html [L]
+
+  # Serve / -> /index.html
+  RewriteCond %{DOCUMENT_ROOT}/index.html -f
+  RewriteRule ^$ index.html [L]
 </IfModule>
 
 # Prevent aggressive caching of quote scripts (Hostinger/LiteSpeed).

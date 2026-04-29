@@ -380,6 +380,11 @@
         if (step < TOTAL) {
           step++;
           syncStep();
+          try {
+            if (typeof window.wowTrack === 'function') {
+              window.wowTrack('quote_step_completed', { step: step - 1, next_step: step });
+            }
+          } catch (_) {}
         } else {
           /* send (message format) */
           var msg = buildQuoteMessage();
@@ -412,6 +417,16 @@
 
           submitQuote(msg, subj).then(function () {
             showSuccess();
+            try {
+              if (typeof window.wowTrack === 'function') {
+                var steps = getStepFieldValues();
+                window.wowTrack('quote_submitted', {
+                  property_type: steps.property_type,
+                  storeys: steps.storeys,
+                  work_needed: steps.work_needed,
+                });
+              }
+            } catch (_) {}
           }).catch(function (err) {
             restoreButton();
             if (typeof console !== 'undefined' && console.error) console.error('Quote submit failed', err);

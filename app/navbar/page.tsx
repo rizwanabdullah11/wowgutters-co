@@ -46,7 +46,7 @@ export default function Navbar() {
           top: var(--vv-top, 0px);
           left: 0;
           right: 0;
-          z-index: 9999;
+          z-index: 967;
           padding-top: env(safe-area-inset-top, 0px);
         }
 
@@ -150,7 +150,7 @@ export default function Navbar() {
             </div>
             <div className="hidden md:flex gap-4">
               <Link href="/reviews" className="hover:underline">Review Us</Link>
-              <Link href="/request" className="hover:underline">Request a Call</Link>
+              <Link href="/quote" className="hover:underline">Request a Call</Link>
               <Link href="/help" className="hover:underline">Help Centre</Link>
             </div>
           </div>

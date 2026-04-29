@@ -209,7 +209,7 @@ export const allFAQs: FAQItem[] = [
   {
     id: 'roof-cleaning-safety',
     question: 'Is roof cleaning safe?',
-    answer: 'Yes, when done by professionals. Our team uses proper safety equipment, harnesses, and follows strict safety protocols. We\'re fully insured and trained for working at height.',
+    answer: 'Yes, when done by professionals. Our team uses proper safety equipment, harnesses, and follows strict safety protocols. We\'re same day booking and trained for working at height.',
     category: 'Roof Cleaning',
     icon: '⚠️'
   },

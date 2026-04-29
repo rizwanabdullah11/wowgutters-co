@@ -4,9 +4,9 @@ import ServiceDetailPage from '@/components/services/ServiceDetailPage';
 import { getServiceById } from '@/constants/servicesData';
 
 export const metadata: Metadata = {
-  title: 'Exterior uPVC Cleaning Birmingham — Fascias, Soffits & Conservatories | WOW Gutters',
+  title: 'Exterior uPVC Cleaning — Fascias, Soffits & Conservatories | WOW Gutters',
   description:
-    'Professional uPVC cleaning in Birmingham for fascias, soffits, frames & conservatories using purified water for a bright, streak-free finish. Free quote today.',
+    'Professional uPVC cleaning for fascias, soffits, frames & conservatories using purified water for a bright, streak-free finish. Get a free quote today.',
   alternates: {
     canonical: 'https://wowgutters.co.uk/services/upvc-cleaning/',
   },

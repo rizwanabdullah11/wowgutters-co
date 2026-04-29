@@ -8,9 +8,9 @@ const reasons = [
   {
     icon: <CheckCircle className="w-5 h-5" />,
     title: 'Local Technicians',
-    subtitle: 'BIRMINGHAM COVERAGE',
+    subtitle: 'LOCAL COVERAGE',
     description:
-      'Our team covers Birmingham and nearby towns with practical knowledge of local homes and rooflines.',
+      'Our team covers nearby towns with practical knowledge of local homes and rooflines.',
   },
   {
     icon: <Award className="w-5 h-5" />,
@@ -21,7 +21,7 @@ const reasons = [
   },
   {
     icon: <Shield className="w-5 h-5" />,
-    title: 'Fully Insured',
+    title: 'Same Day Booking',
     subtitle: 'PEACE OF MIND',
     description:
       'Your home or business is protected by an insured team using safe, professional working methods.',

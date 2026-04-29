@@ -26,6 +26,17 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* Make all hyperlinks bold site-wide (override component utilities) */
+a,
+a:visited {
+  font-weight: 700 !important;
+}
+
+/* Ensure nested elements inside links stay bold too */
+a * {
+  font-weight: inherit !important;
+}
+
 html {
   width: 100%;
   overflow-x: hidden;

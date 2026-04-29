@@ -45,11 +45,11 @@ export default function BlogPage() {
   return (
     <main className="bg-white blog-page-wrapper">
       <Head>
-        <title>Gutter Cleaning Blog Birmingham — Expert Tips & Guides | WOW Gutters</title>
-        <meta name="description" content="Expert gutter cleaning tips, maintenance guides and industry insights from WOW Gutters — Birmingham and West Midlands' most-reviewed gutter specialists." />
-        <meta name="keywords" content="gutter cleaning blog, gutter maintenance tips, gutter repair advice, birmingham gutter cleaning, west midlands gutters, water damage prevention" />
-        <meta property="og:title" content="Gutter Cleaning Blog Birmingham — Expert Tips & Guides" />
-        <meta property="og:description" content="Expert gutter cleaning tips, maintenance guides and industry insights from Birmingham & West Midlands' trusted gutter specialists." />
+        <title>Gutter Cleaning Blog | Expert Tips & Guides | WOW Gutters</title>
+        <meta name="description" content="Expert gutter cleaning tips, maintenance guides and industry insights from WOW Gutters. Learn how to prevent blockages, leaks, and water damage." />
+        <meta name="keywords" content="gutter cleaning blog, gutter maintenance tips, gutter repair advice, water damage prevention, downpipe cleaning, roofline maintenance" />
+        <meta property="og:title" content="Gutter Cleaning Blog | Expert Tips & Guides" />
+        <meta property="og:description" content="Expert gutter cleaning tips, maintenance guides and industry insights from WOW Gutters." />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://wowgutters.co.uk/blog" />
       </Head>
@@ -81,11 +81,11 @@ export default function BlogPage() {
 
           <h1 className="hero-title animate-fade-in-up delay-100">
             <span className="title-prefix">WOW Gutters Blog —</span>{' '}
-            <span className="title-service" style={{ color: colors.primary }}>Birmingham & West Midlands</span>
+            <span className="title-service" style={{ color: colors.primary }}>Expert Tips & Guides</span>
           </h1>
 
           <p className="hero-subtitle animate-fade-in-up delay-200">
-            Expert gutter cleaning tips, maintenance guides, and local insights from Birmingham's trusted gutter specialists
+            Expert gutter cleaning tips, maintenance guides, and practical advice to help protect your property from water damage.
           </p>
 
           {/* Search Bar */}

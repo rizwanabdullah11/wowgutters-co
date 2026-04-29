@@ -4,9 +4,9 @@ import ServiceDetailPage from '@/components/services/ServiceDetailPage';
 import { getServiceById } from '@/constants/servicesData';
 
 export const metadata: Metadata = {
-  title: 'Gutter Repairs Birmingham — Same Day, 6-Month Guarantee | WOW Gutters',
+  title: 'Gutter Repairs — Same Day, 6-Month Guarantee | WOW Gutters',
   description:
-    'Reliable gutter repairs in Birmingham — leaking joints, broken brackets, sagging gutters fixed same day. 6-month guarantee. Stocked vans, no delays. Call now.',
+    'Reliable gutter repairs — leaking joints, broken brackets, sagging gutters fixed fast. 6-month guarantee. Stocked vans, no delays. Call now.',
   alternates: {
     canonical: 'https://wowgutters.co.uk/services/gutter-repairs/',
   },

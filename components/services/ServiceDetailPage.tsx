@@ -43,9 +43,9 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
   return (
     <main className="bg-white service-page-wrapper">
       <Head>
-        <title>{service.name} Services West Midlands | WowGutters Professional Service</title>
-        <meta name="description" content={`Professional ${service.name.toLowerCase()} services across Birmingham, Coventry & West Midlands. ${service.heroDescription.substring(0, 150)}...`} />
-        <meta name="keywords" content={`${service.name.toLowerCase()}, ${service.name.toLowerCase()} west midlands, ${service.name.toLowerCase()} birmingham, professional ${service.name.toLowerCase()}, gutter services`} />
+        <title>Professional {service.name} | WOW Gutters</title>
+        <meta name="description" content={`Professional ${service.name.toLowerCase()} with WOW Gutters. ${service.heroDescription.substring(0, 150)}...`} />
+        <meta name="keywords" content={`${service.name.toLowerCase()}, professional ${service.name.toLowerCase()}, gutter services, roofline services, free quote`} />
         <meta property="og:title" content={`${service.name} Services - WowGutters`} />
         <meta property="og:description" content={service.heroDescription.substring(0, 160)} />
         <meta property="og:type" content="website" />
@@ -76,7 +76,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         <div className="service-hero-content">
           <div className="hero-badge animate-fade-in-up">
             <ShieldCheck className="w-4 h-4" style={{ color: colors.primary }} />
-            <span className="hero-badge-text">Professional Service • Fully Insured</span>
+            <span className="hero-badge-text">Professional Service • Same-Day Booking</span>
           </div>
 
           <h1 className="hero-title animate-fade-in-up delay-100">
@@ -446,19 +446,17 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
               </div>
             </div>
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
-              <h3 className="text-2xl font-bold mb-6">Popular Service Areas</h3>
-              <div className="grid grid-cols-2 gap-4">
-                {['Birmingham', 'Coventry', 'Wolverhampton', 'Dudley', 'Sandwell', 'Solihull', 'Walsall', 'Worcester', 'Redditch', 'Bromsgrove', 'Kidderminster', 'Malvern'].map((area, index) => (
-                  <Link 
-                    key={index}
-                    href={areaPath(area.toLowerCase().replace(/\s+/g, '-'))}
-                    className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
-                  >
-                    <ArrowRight className="w-4 h-4" style={{ color: colors.primary }} />
-                    <span>{area}</span>
-                  </Link>
-                ))}
-              </div>
+              <h3 className="text-2xl font-bold mb-3">Check availability near you</h3>
+              <p className="text-gray-300 mb-6">
+                Enter your town or city to see coverage and request a fast quote.
+              </p>
+              <Link
+                href="/#find-local-team"
+                className="inline-flex items-center gap-2 rounded-full px-5 py-3 font-bold text-white shadow-lg hover:opacity-95 transition-opacity"
+                style={{ backgroundImage: colors.primaryGradient }}
+              >
+                Find local team <ArrowRight className="w-4 h-4" />
+              </Link>
             </div>
           </div>
         </div>

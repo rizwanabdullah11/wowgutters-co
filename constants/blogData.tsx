@@ -3,6 +3,7 @@ export interface BlogPost {
   title: string;
   excerpt: string;
   image: string;
+  heroVideo?: string;
   date: string;
   views: string;
   content?: string;
@@ -76,12 +77,103 @@ export const blogPosts: BlogPost[] = [
       </ul>
       <p>We accept cash, card, and bank transfer — and all our work is backed by full public liability insurance for your complete peace of mind.</p>
 
-      <h2>Fully Insured & Certified Professionals</h2>
+      <h2>Same Day Booking & Certified Professionals</h2>
       <p>WOW Gutters Ltd is fully bonded and carries comprehensive public liability insurance. Our team is trained and certified in safe working practices for high-reach exterior cleaning, and we conduct a full risk assessment before any dome cleaning project begins. You're in safe hands from the first call to the final photo.</p>
 
       <h2>Get Your Dome Restored Today</h2>
       <p>Don't let years of grime diminish the beauty and dignity of your building's most prominent feature. Whether your dome is green with algae or black with pollution, our team can restore it — safely, efficiently, and to a standard you'll be proud to show off.</p>
       <p>Contact WOW Gutters Ltd for a free, no-obligation quote and discover why property owners across the UK trust us with their most challenging exterior cleaning projects.</p>
+    `
+  },
+  {
+    id: 'gutter-repairs-guide',
+    title: 'Gutter Repairs: How to Spot Damage Early (Plus Before/After & Video)',
+    excerpt: 'Leaking joints, sagging sections, and broken brackets don’t just look bad — they can cause damp, staining, and expensive water damage. Here’s how to spot common gutter problems early, what a professional repair includes, and real before/after media from WOW Gutters.',
+    image: '/gutter-repair-after.jpeg',
+    heroVideo: '/gutter-repair%20(2).mp4',
+    date: 'April 27th, 2026',
+    lastUpdated: 'April 2026',
+    views: '9,999',
+    author: 'WOW Gutter Experts',
+    authorRole: 'Gutter Repair Specialists at WOW Gutters',
+    category: 'Repairs',
+    quickAnswer: 'Most gutter problems start with small leaks at joints, loose brackets, or a bad fall (slope). If you see dripping seams, overflow in light rain, or gutters pulling away from the fascia, book repairs early — it’s usually far cheaper than fixing damp, rotten fascia boards, or damaged brickwork later.',
+    content: `
+      <h2>Gutter Repairs: The Warning Signs Most Homeowners Miss</h2>
+      <p>Gutters fail slowly. The early signs are easy to ignore — until your walls stain, your fascia boards soften, or you start seeing damp patches internally.</p>
+
+      <h3>Common gutter repair problems</h3>
+      <ul>
+        <li><strong>Leaking joints:</strong> Failed seals, cracked connectors, or small gaps that drip constantly.</li>
+        <li><strong>Sagging gutters:</strong> Loose or broken brackets cause standing water and extra weight.</li>
+        <li><strong>Poor fall (slope):</strong> Water pools instead of flowing to the downpipe.</li>
+        <li><strong>Cracks and holes:</strong> Weathering, impacts, or old repairs that have failed.</li>
+      </ul>
+
+      <h2>How to tell if your gutters need repair (fast checks)</h2>
+      <ul>
+        <li><strong>Drips from seams:</strong> Water dripping from joints even after rain has stopped.</li>
+        <li><strong>Overflow in light rain:</strong> If it overflows quickly, you likely have a blockage or poor fall.</li>
+        <li><strong>Gutters pulling away:</strong> A visible gap between gutter and fascia is usually bracket failure or rotten timber.</li>
+        <li><strong>Staining on brickwork:</strong> Green or black marks under the gutter line often mean persistent leakage.</li>
+        <li><strong>Pooling water:</strong> Standing water inside the run is a slope/alignment issue.</li>
+      </ul>
+
+      <h2>Why gutter repairs matter (what damage looks like later)</h2>
+      <p>A small leak can soak the same patch of wall over and over again. Over time, this can cause:</p>
+      <ul>
+        <li><strong>Damp patches:</strong> moisture ingress around windows and inside corners</li>
+        <li><strong>Rotten fascia boards:</strong> timber behind the gutter becomes soft and fails to hold brackets</li>
+        <li><strong>Foundation splashback:</strong> constant water at the base of the wall can lead to erosion and rising damp</li>
+        <li><strong>Internal mould:</strong> persistent damp increases mould risk, especially in colder months</li>
+      </ul>
+
+      <h2>Before &amp; After: Real Repair Results</h2>
+      <p>Here’s a quick example of a damaged gutter line before repair and the finished result after our team restored the system.</p>
+      <img src="/gutter-repair-before.png" alt="Gutter before repair" />
+      <img src="/gutter-repair-after.jpeg" alt="Gutter after repair" />
+
+      <h2>What causes gutter leaks and sagging?</h2>
+      <ul>
+        <li><strong>Age &amp; UV exposure:</strong> uPVC expands/contracts and seals harden over time.</li>
+        <li><strong>Debris weight:</strong> wet leaves and silt add weight, pulling brackets loose.</li>
+        <li><strong>Bad alignment:</strong> incorrect fall causes water to sit in the gutter run.</li>
+        <li><strong>Storm movement:</strong> wind can twist joints and loosen fixings.</li>
+        <li><strong>DIY patch repairs:</strong> surface silicone often fails and traps more debris.</li>
+      </ul>
+
+      <h2>What a professional gutter repair usually includes</h2>
+      <ul>
+        <li><strong>Joint reseal or replacement:</strong> Correct seals and connectors (not just surface silicone).</li>
+        <li><strong>Bracket replacement:</strong> Re-secure sagging runs and set the correct alignment.</li>
+        <li><strong>Flow test:</strong> Confirm water runs cleanly to the downpipe.</li>
+        <li><strong>Advice:</strong> What caused the problem and how to prevent it returning.</li>
+      </ul>
+
+      <h2>How much do gutter repairs cost in the UK?</h2>
+      <p>Repair pricing depends on access, how many joints/brackets are affected, and whether any section needs replacing. In most cases, fixing a leak or sag early is far cheaper than replacing damaged fascias or repainting stained walls.</p>
+
+      <h2>DIY vs professional repairs</h2>
+      <p>Minor clearing at ground level can help, but working at height is risky and many “quick fixes” fail. A professional repair focuses on the <strong>root cause</strong> (seal failure, bracket spacing, fall angle, section movement) rather than just covering symptoms.</p>
+
+      <h2>How to prevent repairs in future</h2>
+      <ul>
+        <li><strong>Clear debris:</strong> keep gutters free of leaves and silt before heavy rain season.</li>
+        <li><strong>Check after storms:</strong> a quick visual check catches loose brackets early.</li>
+        <li><strong>Keep downpipes flowing:</strong> partial blockages increase back-pressure at joints.</li>
+        <li><strong>Don’t ignore small drips:</strong> slow leaks cause the most hidden damage.</li>
+      </ul>
+
+      <h2>Gutter repair FAQ</h2>
+      <h3>Can leaking joints be repaired without replacing the gutter?</h3>
+      <p>Often yes. Many leaks are seal/joint related and can be repaired by resealing or replacing connectors.</p>
+      <h3>Why do my gutters overflow even after cleaning?</h3>
+      <p>Overflow can be caused by poor fall, a partially blocked downpipe, or a sag point where water pools and spills.</p>
+      <h3>How quickly should I repair sagging gutters?</h3>
+      <p>As soon as possible. Sagging holds water, adds weight, and accelerates bracket failure.</p>
+
+      <h2>Need a quote?</h2>
+      <p>If your gutters are leaking, overflowing, or pulling away from the house, it’s worth fixing early. WOW Gutters can advise and repair quickly with a clear quote.</p>
     `
   },
   {
@@ -463,7 +555,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Why Annual Maintenance is the Smart Choice</h2>
       <p>The average cost of a professional gutter clean is a tiny fraction of the cost of a new roof or foundation repair. By scheduling an annual visit from WOW Gutters, you're essentially buying an insurance policy for your home's structural health.</p>
 
-      <p>Our team is fully insured and bonded, and we pride ourselves on being the most reliable gutter service in the UK. Don't wait for the next storm to test your home's defenses—get the WOW treatment today.</p>
+      <p>Our team is fully bonded, and we pride ourselves on being the most reliable gutter service in the UK. Don't wait for the next storm to test your home's defenses—get the WOW treatment today.</p>
     `
   }
 ];

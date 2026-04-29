@@ -5,7 +5,7 @@ import { ArrowRight, CheckCircle } from 'lucide-react';
 const guarantees = [
   'Free instant quote',
   'Professional cleaning',
-  'Fully insured team',
+  'Same Day Booking',
   'Clear local pricing',
 ];
 
@@ -95,7 +95,7 @@ export default function GetTheBest() {
 
               <div className="mt-6 pt-5 border-t border-gray-100">
                 <p className="text-sm font-medium" style={{ color: colors.textLight }}>
-                  Serving Birmingham, Solihull, Coventry, Wolverhampton and wider West Midlands areas
+                  Available in many local areas — ask for a fast quote
                 </p>
               </div>
             </div>

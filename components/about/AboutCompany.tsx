@@ -38,7 +38,7 @@ export default function AboutCompany() {
             </p>
 
             <p className="text-gray-300 leading-relaxed">
-              Trust WOW Gutter Cleaning - we're fully insured and certified to protect you and your property.
+              Trust WOW Gutter Cleaning - we're same day booking and certified to protect you and your property.
             </p>
           </div>
 
@@ -46,7 +46,7 @@ export default function AboutCompany() {
           <div className="flex justify-center lg:justify-end">
             <img
               src="/wow-gutter-logo.jpg"
-              alt="WOW Gutter Cleaning logo — Birmingham & West Midlands gutter specialists"
+              alt="WOW Gutter Cleaning logo — gutter cleaning and roofline specialists"
               className="object-contain w-full max-w-md h-auto"
             />
           </div>

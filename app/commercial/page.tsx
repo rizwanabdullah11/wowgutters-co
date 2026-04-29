@@ -21,9 +21,9 @@ export default function CommercialPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Commercial Gutter Cleaning Services | WowGutters West Midlands</title>
-        <meta name="description" content="Professional commercial gutter cleaning for businesses, offices & commercial properties. Flexible scheduling, maintenance contracts & fully insured service across West Midlands." />
-        <meta name="keywords" content="commercial gutter cleaning, business gutter services, office gutter cleaning, commercial property maintenance, west midlands commercial gutters" />
+        <title>Commercial Gutter Cleaning Services | WOW Gutters</title>
+        <meta name="description" content="Professional commercial gutter cleaning for businesses, offices & commercial properties. Flexible scheduling, maintenance contracts & same day booking service." />
+        <meta name="keywords" content="commercial gutter cleaning, business gutter services, office gutter cleaning, commercial property maintenance, commercial gutter maintenance contracts" />
         <meta property="og:title" content="Commercial Gutter Cleaning Services - WowGutters" />
         <meta property="og:description" content="Professional gutter maintenance for businesses with flexible scheduling and maintenance contracts." />
         <meta property="og:type" content="website" />
@@ -139,8 +139,8 @@ export default function CommercialPage() {
                 description: 'Regular maintenance programs tailored to your business needs and budget.'
               },
               {
-                title: '🛡️ Fully Insured',
-                description: 'Complete insurance coverage for commercial properties and liability protection.'
+                title: '🛡️ Same Day Booking',
+                description: 'Same day booking for commercial properties and liability protection.'
               },
               {
                 title: '⏰ Flexible Scheduling',
@@ -202,7 +202,7 @@ export default function CommercialPage() {
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 From understanding the signs of gutter damage to learning about the latest cleaning technologies, 
                 we share our expertise to help you make informed decisions about your commercial property maintenance 
-                across the West Midlands.
+                and long-term upkeep.
               </p>
               
               <div className="space-y-3 mb-8">
@@ -268,7 +268,7 @@ export default function CommercialPage() {
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 From office buildings to retail centers, we provide complete gutter maintenance solutions with 
                 detailed reporting, emergency response options, and contract pricing for regular clients across 
-                the West Midlands.
+                multiple local areas.
               </p>
               
               <div className="space-y-3 mb-8">

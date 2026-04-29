@@ -449,7 +449,7 @@ export default function TermsAndConditions() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Shield className="w-5 h-5" style={{ color: colors.primary }} />
-                  <span className="font-semibold">Fully Insured</span>
+                  <span className="font-semibold">Same Day Booking</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />

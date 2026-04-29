@@ -11,9 +11,9 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Head>
-        <title>Contact WowGutters - Get Your Free Quote | West Midlands Gutter Services</title>
-        <meta name="description" content="Contact WowGutters for professional gutter cleaning, repairs & maintenance. Call 07421 433910 or get a free quote online. Same-day booking available across West Midlands." />
-        <meta name="keywords" content="contact wowgutters, gutter cleaning contact, west midlands gutters, birmingham gutter service, free gutter quote, gutter cleaning phone number" />
+        <title>Contact WOW Gutters | Get a Free Quote</title>
+        <meta name="description" content="Contact WOW Gutters for professional gutter cleaning, repairs & maintenance. Call 07421 433910 or get a free quote online. Fast booking available." />
+        <meta name="keywords" content="contact wow gutters, gutter cleaning contact, gutter repair contact, free gutter quote, gutter cleaning phone number" />
         <meta property="og:title" content="Contact WowGutters - Professional Gutter Services" />
         <meta property="og:description" content="Get in touch for professional gutter services. Same-day booking available. Call 07421 433910 or request a free quote online." />
         <meta property="og:type" content="website" />
@@ -125,9 +125,9 @@ export default function Contact() {
       {/* SEO Content Section */}
       <ServiceSEOSection
         title="Professional Gutter Services"
-        subtitle="West Midlands"
-        mainParagraph1="Looking for reliable gutter cleaning, repair, or maintenance services in the West Midlands? WowGutters provides professional gutter services across Birmingham, Coventry, Wolverhampton, and surrounding areas. Our experienced team is ready to help protect your property from water damage with fast, efficient, and affordable gutter solutions."
-        mainParagraph2="We understand that gutter problems can't wait. That's why we offer same-day booking, free quotes, and flexible scheduling to work around your busy life. Whether you need routine maintenance, emergency repairs, or a complete gutter inspection, our fully insured team delivers quality results you can trust."
+        subtitle="Gutter Cleaning • Repairs • Maintenance"
+        mainParagraph1="Looking for reliable gutter cleaning, repair, or maintenance? WOW Gutters provides professional gutter services to help protect your property from water damage with fast, efficient, and affordable solutions."
+        mainParagraph2="We understand that gutter problems can't wait. That's why we offer same-day booking, free quotes, and flexible scheduling to work around your busy life. Whether you need routine maintenance, emergency repairs, or a complete gutter inspection, our team delivers quality results you can trust."
         processTitle="How to Get Started:"
         processSteps={[
           { text: 'Contact us by phone, email, or WhatsApp' },
@@ -150,7 +150,7 @@ export default function Contact() {
         highlightBoxes={[
           { icon: '✅', title: 'Free Quotes', desc: 'No-obligation estimates for all services' },
           { icon: '🚀', title: 'Fast Response', desc: 'Same-day booking and quick turnaround' },
-          { icon: '🛡️', title: 'Fully Insured', desc: 'Complete protection for your property' }
+          { icon: '🛡️', title: 'Same Day Booking', desc: 'Same day booking for urgent gutter needs' }
         ]}
         ctaTitle="Ready to Get Started?"
         ctaDescription="Contact us today for professional gutter services. Our friendly team is standing by to answer your questions and provide a free quote for your property."

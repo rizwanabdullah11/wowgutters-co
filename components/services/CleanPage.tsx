@@ -144,8 +144,8 @@ export default function CleanPage() {
                     description: 'Environmentally safe cleaning products that are effective yet gentle.'
                   },
                   {
-                    title: 'Fully Insured',
-                    description: 'Complete insurance coverage for all cleaning work and property protection.'
+                    title: 'Same Day Booking',
+                    description: 'Same day booking for urgent roof cleaning needs.'
                   },
                   {
                     title: 'Long-Lasting Results',

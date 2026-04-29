@@ -26,12 +26,6 @@ const achievements = [
     description: 'Offering same-day booking to meet urgent gutter cleaning and repair needs'
   },
   {
-    year: '2022',
-    title: 'Fully Insured',
-    organization: 'Public Liability Coverage',
-    description: 'Complete insurance protection for your peace of mind on every job'
-  },
-  {
     year: '2021',
     title: 'Professional Team',
     organization: 'Trained Specialists',

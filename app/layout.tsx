@@ -6,39 +6,24 @@ import WhatsAppChatPopup from "@/components/WhatsAppChatPopup";
 import ContentProtection from "@/components/ContentProtection";
 import MaybeStaticQuoteDialog from "@/components/MaybeStaticQuoteDialog";
 import IosViewportStabilizer from "@/components/IosViewportStabilizer";
+import { SEO_KEYWORD_LINKS } from "@/constants/seoKeywordLinks";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://wowgutters.co.uk'),
   title: {
-    default: "Gutter Cleaning Birmingham & West Midlands | WOW Gutters — Free Quote",
+    default: "WOW Gutters | Gutter Cleaning & Roofline Services",
     template: "%s | WOW Gutters"
   },
-  description: "Expert gutter cleaning across Birmingham & West Midlands. Ground-level vacuum technology, same-day booking, fully insured. Get your free quote in 60 seconds.",
-  keywords: [
-    "gutter cleaning",
-    "gutter cleaning birmingham",
-    "gutter cleaning west midlands",
-    "gutter repairs",
-    "gutter maintenance",
-    "professional gutter services",
-    "vacuum gutter cleaning",
-    "no ladder gutter cleaning",
-    "conservatory cleaning",
-    "roof cleaning",
-    "UPVC cleaning",
-    "commercial gutter cleaning",
-    "residential gutter cleaning",
-    "gutter inspection",
-    "hot wash cleaning",
-    "gutter cleaning near me",
-    "local gutter cleaners",
-    "gutter cleaning prices",
-    "gutter cleaning cost",
-    "blocked gutters",
-    "gutter clearance",
-    "fascia cleaning",
-    "soffit cleaning"
-  ],
+  description: "Professional gutter cleaning, repairs, inspections, roof cleaning and exterior cleaning. Fast quotes and same-day booking from WOW Gutters.",
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", type: "image/png" },
+    ],
+  },
+  keywords: SEO_KEYWORD_LINKS.map((k) => k.label),
   authors: [{ name: "WOW Gutters", url: "https://wowgutters.co.uk" }],
   creator: "WOW Gutters",
   publisher: "WOW Gutters",
@@ -64,8 +49,8 @@ export const metadata: Metadata = {
     locale: "en_GB",
     url: "https://wowgutters.co.uk",
     siteName: "WOW Gutters",
-    title: "Gutter Cleaning Birmingham & West Midlands | WOW Gutters — Free Quote",
-    description: "Expert gutter cleaning across Birmingham & West Midlands. Ground-level vacuum technology, same-day booking, fully insured. Get your free quote in 60 seconds.",
+    title: "WOW Gutters | Gutter Cleaning & Roofline Services",
+    description: "Professional gutter cleaning, repairs, inspections, roof cleaning and exterior cleaning. Fast quotes and same-day booking from WOW Gutters.",
     images: [
       {
         url: "/assets/wow-gutter-logo2.png",
@@ -77,8 +62,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gutter Cleaning Birmingham & West Midlands | WOW Gutters — Free Quote",
-    description: "Expert gutter cleaning across Birmingham & West Midlands. Ground-level vacuum technology, same-day booking, fully insured. Get your free quote in 60 seconds.",
+    title: "WOW Gutters | Gutter Cleaning & Roofline Services",
+    description: "Professional gutter cleaning, repairs, inspections, roof cleaning and exterior cleaning. Fast quotes and same-day booking from WOW Gutters.",
     images: ["/assets/wow-gutter-logo2.png"],
     creator: "@wowgutters",
   },
@@ -91,7 +76,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://wowgutters.co.uk",
+    canonical: "https://wowgutters.co.uk/",
   },
   category: "Home Services",
 };
@@ -101,14 +86,26 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const ga4MeasurementId = (process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID || "").trim();
+  const gtmId = (process.env.NEXT_PUBLIC_GTM_ID || "").trim();
+  const analyticsDebug = (process.env.NODE_ENV !== "production") ? "1" : "";
+
   // Structured Data for SEO
+  const addressLine1 = (process.env.NEXT_PUBLIC_BUSINESS_ADDRESS_LINE1 || '').trim();
+  const addressLine2 = (process.env.NEXT_PUBLIC_BUSINESS_ADDRESS_LINE2 || '').trim();
+  const addressCity = (process.env.NEXT_PUBLIC_BUSINESS_CITY || '').trim();
+  const addressRegion = (process.env.NEXT_PUBLIC_BUSINESS_REGION || '').trim();
+  const addressPostcode = (process.env.NEXT_PUBLIC_BUSINESS_POSTCODE || '').trim();
+  const gbpCidUrl = (process.env.NEXT_PUBLIC_GBP_CID_URL || '').trim();
+  const trustpilotUrl = (process.env.NEXT_PUBLIC_TRUSTPILOT_URL || '').trim();
+
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "@id": "https://wowgutters.co.uk/#business",
     "name": "WOW Gutters Ltd",
-    "description": "Professional gutter cleaning, repairs, roof cleaning and exterior maintenance across Birmingham and the West Midlands. Ground-level vacuum technology, same-day booking, fully insured.",
-    "image": "https://wowgutters.co.uk/assets/wow-gutter-logo2.png",
+    "description": "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, no ladders, 4-storey reach, same-day booking, 1-year guarantee.",
+    "image": "https://wowgutters.co.uk/gutter-cleaning.jpeg",
     "logo": "https://wowgutters.co.uk/assets/wow-gutter-logo2.png",
     "url": "https://wowgutters.co.uk",
     "telephone": "+447421433910",
@@ -116,8 +113,10 @@ export default function RootLayout({
     "priceRange": "££",
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Birmingham",
-      "addressRegion": "West Midlands",
+      ...(addressLine1 ? { "streetAddress": [addressLine1, addressLine2].filter(Boolean).join(', ') } : {}),
+      ...(addressCity ? { "addressLocality": addressCity } : { "addressLocality": "Birmingham" }),
+      ...(addressRegion ? { "addressRegion": addressRegion } : { "addressRegion": "West Midlands" }),
+      ...(addressPostcode ? { "postalCode": addressPostcode } : {}),
       "addressCountry": "GB"
     },
     "geo": {
@@ -128,51 +127,41 @@ export default function RootLayout({
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "07:00",
-        "closes": "20:00"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Saturday",
-        "opens": "09:00",
-        "closes": "18:00"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Sunday",
-        "opens": "10:00",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "08:00",
         "closes": "18:00"
       }
     ],
     "areaServed": [
       "Birmingham",
-      "Coventry",
-      "Wolverhampton",
-      "Dudley",
-      "Sandwell",
       "Solihull",
+      "Sutton Coldfield",
+      "Wolverhampton",
       "Walsall",
-      "Worcester",
+      "Dudley",
+      "West Bromwich",
+      "Coventry",
+      "Halesowen",
+      "Stourbridge",
       "Redditch",
+      "Tamworth",
       "Bromsgrove",
-      "Kidderminster",
-      "Malvern",
-      "Evesham",
-      "Droitwich Spa"
+      "Smethwick"
     ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Gutter & Roof Services",
       "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gutter Cleaning" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gutter Repairs" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Cleaning" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Exterior UPVC Cleaning" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gutter Cleaning Birmingham" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Cleaning Birmingham" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Downpipe Unblocking" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fascia & Soffit Cleaning" } },
         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Gutter Cleaning" } }
       ]
     },
     "sameAs": [
+      ...(gbpCidUrl ? [gbpCidUrl] : []),
+      ...(trustpilotUrl ? [trustpilotUrl] : []),
       "https://www.facebook.com/wowgutters",
       "https://www.instagram.com/wowgutters",
       "https://twitter.com/wowgutters",
@@ -182,7 +171,7 @@ export default function RootLayout({
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
-      "reviewCount": "2696",
+      "reviewCount": "2600",
       "bestRating": "5"
     }
   };
@@ -192,10 +181,7 @@ export default function RootLayout({
     "@type": "Service",
     "serviceType": "Gutter Cleaning and Maintenance",
     "provider": {
-      "@type": "LocalBusiness",
-      "name": "WOW Gutters",
-      "telephone": "+447421433910",
-      "url": "https://wowgutters.co.uk"
+      "@id": "https://wowgutters.co.uk/#business"
     },
     "areaServed": {
       "@type": "Country",
@@ -293,6 +279,23 @@ export default function RootLayout({
           strategy="beforeInteractive" is stripped from the output, which
           would break the quote modal. Do NOT convert these to <Script>.
         */}
+        {/* Analytics config + click tracking (safe no-op if GA ID not set) */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){window.__WOW_ANALYTICS__={gaId:${JSON.stringify(ga4MeasurementId)},gtmId:${JSON.stringify(gtmId)},debug:${JSON.stringify(analyticsDebug)}};})();`,
+          }}
+        />
+        {ga4MeasurementId ? (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga4MeasurementId}`}></script>
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('js', new Date());gtag('config', ${JSON.stringify(ga4MeasurementId)}, { send_page_view: true });})();`,
+              }}
+            />
+          </>
+        ) : null}
+        <script src="/wow-analytics.js?v=20260428"></script>
         <script src="/wow-quote-config.js?v=20260421"></script>
         <script
           dangerouslySetInnerHTML={{

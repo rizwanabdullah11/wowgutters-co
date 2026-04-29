@@ -303,7 +303,7 @@ export default function RepairPage() {
                 <p className="text-lg font-bold mb-3 text-gray-600 uppercase tracking-wide">Before Repair</p>
                 <div className="rounded-2xl overflow-hidden shadow-2xl" style={{ maxHeight: '250px' }}>
                   <img 
-                    src="/gutter-repair-before.jpeg" 
+                    src="/gutter-repair-before.png" 
                     alt="Damaged Gutter Before Repair - Leaking and Broken" 
                     className="w-full h-full object-cover"
                     style={{ maxHeight: '250px' }}
