@@ -4,9 +4,9 @@ import BirminghamGutterPageSchema from '@/components/areas/BirminghamGutterPageS
 import BirminghamGutterCleaningPage from '@/components/areas/BirminghamGutterCleaningPage';
 
 export const metadata: Metadata = buildMetadata({
-  absoluteTitle: 'Gutter Cleaning Birmingham | WOW Gutters Ltd',
+  absoluteTitle: 'Gutter Cleaning Birmingham | Professional, Safe & Guaranteed | WOW Gutters Ltd',
   description:
-    "WOW Gutters Ltd is Birmingham's trusted gutter cleaning specialist — ground-level vacuum system, no ladders, up to 4 storeys, before & after photos. Same-day booking available. Call 07421 433910.",
+    'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
   canonicalPath: '/gutter-cleaning-birmingham/',
   keywords: [
     'gutter cleaning Birmingham',

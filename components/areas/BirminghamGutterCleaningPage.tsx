@@ -697,7 +697,7 @@ export default function BirminghamGutterCleaningPage() {
         </div>
       </section>
 
-      <AreaBlogSnippet />
+      <AreaBlogSnippet locality="Birmingham" />
       <AreaRecentWork />
       <AreaContactMap variant="birmingham" />
       <ContactInfoSection />

@@ -465,7 +465,10 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
       <AreaFAQ />
       <AreaFacts />
       <AreaBlogSnippet />
-      <AreaFeatures formattedArea={service.name} />
+      <AreaFeatures
+        serviceLabel={service.name}
+        featureSet={service.id === 'roof-cleaning' ? 'roof' : 'gutter'}
+      />
       <AreaRecentWork />
       <AreaReviews />
       <AreaContactMap />

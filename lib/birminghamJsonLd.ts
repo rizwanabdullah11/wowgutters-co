@@ -12,7 +12,7 @@ export function getBirminghamGutterPageJsonLd() {
         '@id': 'https://wowgutters.co.uk/#business',
         name: 'WOW Gutters Ltd',
         description:
-          "Birmingham's trusted gutter cleaning specialist. Ground-level vacuum system, no ladders, up to 4-storey reach, before & after photos, 1-year service guarantee.",
+          'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum, before & after photos, 1-year guarantee, fully insured. Call 07421 433910.',
         url: PAGE_URL,
         telephone: '+447421433910',
         email: 'support@wowgutters.co.uk',
@@ -71,7 +71,7 @@ export function getBirminghamGutterPageJsonLd() {
         name: 'Gutter Cleaning Birmingham',
         serviceType: 'Gutter cleaning',
         description:
-          'Professional ground-level vacuum gutter cleaning for homes and businesses in Birmingham. No ladders, up to 4 storeys, before & after photos, downpipes cleared, 1-year guarantee.',
+          'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum, no ladders, up to 4 storeys, before & after photos, downpipes cleared, 1-year guarantee.',
         provider: { '@id': 'https://wowgutters.co.uk/#business' },
         areaServed: { '@type': 'City', name: 'Birmingham' },
         url: PAGE_URL,

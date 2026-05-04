@@ -368,7 +368,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
       <AreaBlogSnippet />
 
       {/* Inserted Features Section directly after WhatsApp */}
-      <AreaFeatures formattedArea={formattedArea} />
+      <AreaFeatures locality={formattedArea} featureSet="gutter" />
 
       {/* New Footer/Bottom Components */}
       <AreaRecentWork />

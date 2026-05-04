@@ -31,9 +31,9 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 
   if (params.slug === 'birmingham') {
     return {
-      title: { absolute: 'Gutter Cleaning Birmingham | WOW Gutters Ltd' },
+      title: { absolute: 'Gutter Cleaning Birmingham | Professional, Safe & Guaranteed | WOW Gutters Ltd' },
       description:
-        "WOW Gutters Ltd is Birmingham's trusted gutter cleaning specialist — ground-level vacuum, no ladders, up to 4 storeys, before & after photos. Call 07421 433910.",
+        'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
       alternates: { canonical: canonicalPath },
     };
   }

@@ -51,7 +51,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services/upvc-cleaning',
     '/services/hot-wash-cleaning',
     '/services/drain-cleaning',
-    '/services/free-gutter-inspection',
     '/services/water-butt',
     '/services/commercial',
     '/services/conservatory',
