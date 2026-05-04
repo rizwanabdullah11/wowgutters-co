@@ -105,7 +105,7 @@ export default function RootLayout({
     "@type": "LocalBusiness",
     "@id": "https://wowgutters.co.uk/#business",
     "name": "WOW Gutters Ltd",
-    "description": "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, no ladders, 4-storey reach, same-day booking, 1-year guarantee.",
+    "description": "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, no ladders, 4-storey reach, same-day booking.",
     "image": "https://wowgutters.co.uk/gutter-cleaning.jpeg",
     "logo": "https://wowgutters.co.uk/assets/wow-gutter-logo2.png",
     "url": "https://wowgutters.co.uk",

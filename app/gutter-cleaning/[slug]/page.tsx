@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import AreaPage from '@/components/areas/AreaPage';
-import { AREA_SLUGS } from '@/lib/areaSlugs';
+import BirminghamGutterCleaningPage from '@/components/areas/BirminghamGutterCleaningPage';
+import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
 
 interface PageProps {
   params: Promise<{
@@ -25,7 +26,16 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
 
-  const canonicalPath = `https://wowgutters.co.uk/gutter-cleaning-${params.slug}/`;
+  const canonicalPath = `https://wowgutters.co.uk${areaPath(params.slug)}`;
+
+  if (params.slug === 'birmingham') {
+    return {
+      title: 'Gutter Cleaning Birmingham | Professional, Safe & Guaranteed | WOW Gutters',
+      description:
+        "WOW Gutters Ltd is Birmingham's trusted gutter cleaning specialist — ground-level vacuum, no ladders, up to 4 storeys, before & after photos. Call 07421 433910.",
+      alternates: { canonical: canonicalPath },
+    };
+  }
 
   return {
     title: `Gutter Cleaning ${areaName} | WOW Gutters`,
@@ -40,6 +50,9 @@ export default async function GutterCleaningAreaPage(props: PageProps) {
   const params = await props.params;
   if (!slugSet.has(params.slug)) {
     notFound();
+  }
+  if (params.slug === 'birmingham') {
+    return <BirminghamGutterCleaningPage />;
   }
   return <AreaPage areaName={params.slug} />;
 }
