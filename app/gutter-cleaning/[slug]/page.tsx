@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import AreaPage from '@/components/areas/AreaPage';
 import BirminghamGutterCleaningPage from '@/components/areas/BirminghamGutterCleaningPage';
+import BirminghamGutterPageSchema from '@/components/areas/BirminghamGutterPageSchema';
 import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
 
 interface PageProps {
@@ -30,7 +31,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 
   if (params.slug === 'birmingham') {
     return {
-      title: 'Gutter Cleaning Birmingham | Professional, Safe & Guaranteed | WOW Gutters',
+      title: { absolute: 'Gutter Cleaning Birmingham | WOW Gutters Ltd' },
       description:
         "WOW Gutters Ltd is Birmingham's trusted gutter cleaning specialist — ground-level vacuum, no ladders, up to 4 storeys, before & after photos. Call 07421 433910.",
       alternates: { canonical: canonicalPath },
@@ -38,7 +39,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   }
 
   return {
-    title: `Gutter Cleaning ${areaName} | WOW Gutters`,
+    title: `Gutter Cleaning ${areaName}`,
     description: `Professional gutter cleaning and repair services in ${areaName} and surrounding areas. Get a free quote today!`,
     alternates: {
       canonical: canonicalPath,
@@ -52,7 +53,12 @@ export default async function GutterCleaningAreaPage(props: PageProps) {
     notFound();
   }
   if (params.slug === 'birmingham') {
-    return <BirminghamGutterCleaningPage />;
+    return (
+      <>
+        <BirminghamGutterPageSchema />
+        <BirminghamGutterCleaningPage />
+      </>
+    );
   }
   return <AreaPage areaName={params.slug} />;
 }

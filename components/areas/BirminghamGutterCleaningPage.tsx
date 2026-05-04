@@ -5,7 +5,8 @@
  */
 import { useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { ShieldCheck, Phone, Check, Building2, Home, Warehouse } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
+import { ShieldCheck, Phone, Check, Building2, Home, Warehouse, Cable, Images, Shield } from 'lucide-react';
 import { colors } from '@/constants/colors';
 import { areaPath } from '@/lib/areaSlugs';
 import AreaServicesRange from '@/components/areas/AreaServicesRange';
@@ -13,18 +14,14 @@ import BirminghamFAQ from '@/components/areas/BirminghamFAQ';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
-import AreaFeatures from '@/components/areas/AreaFeatures';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
 
-/** PDF: top trust strip */
-const PDF_TRUST_LINE_1 = [
-  '4.9 from 2,696+ reviews',
-  'Vacuum system — no ladders',
-  '4-storey reach',
-  '7 days a week',
-] as const;
-
-const PDF_HERO_PILLS = ['No ladders', 'Before & after photos', 'Fully insured'] as const;
+/** Hero USP tags with icons. */
+const HERO_USP_PILLS: { label: string; Icon: LucideIcon }[] = [
+  { label: 'No ladders', Icon: Cable },
+  { label: 'Before & after photos', Icon: Images },
+  { label: 'Fully insured', Icon: Shield },
+];
 
 const PDF_BENEFITS = [
   {
@@ -220,32 +217,22 @@ export default function BirminghamGutterCleaningPage() {
             </span>
           </h1>
 
-          <div className="flex flex-wrap justify-center gap-2 mb-4 max-w-3xl animate-fade-in-up delay-150">
-            {PDF_TRUST_LINE_1.map((chip) => (
+          <div className="flex flex-wrap justify-center gap-2 mb-6 max-w-2xl animate-fade-in-up delay-150">
+            {HERO_USP_PILLS.map(({ label, Icon }) => (
               <span
-                key={chip}
-                className="text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-full bg-white/10 border border-white/20 text-white/95"
+                key={label}
+                className="inline-flex items-center gap-1.5 text-[11px] sm:text-xs font-bold uppercase tracking-wide px-3 py-2 rounded-md bg-black/30 border border-white/20 text-white"
               >
-                {chip}
+                <Icon className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0" style={{ color: colors.primary }} aria-hidden />
+                {label}
               </span>
             ))}
           </div>
 
-          <div className="flex flex-wrap justify-center gap-2 mb-6 max-w-2xl animate-fade-in-up delay-175">
-            {PDF_HERO_PILLS.map((p) => (
-              <span
-                key={p}
-                className="text-xs font-bold uppercase tracking-wide px-3 py-1 rounded-md bg-black/25 border border-white/15 text-white"
-              >
-                {p}
-              </span>
-            ))}
-          </div>
-
-          <p className="hero-subtitle animate-fade-in-up delay-200">
-            WOW Gutters Ltd is Birmingham&apos;s trusted gutter cleaning specialist. We use a ground-level vacuum system — no
-            ladders, no damage, no mess. Up to 4-storey reach, before &amp; after photos on every job
-            guarantee.
+          <p className="hero-subtitle hidden md:block">
+            WOW Gutters Ltd is Birmingham&apos;s trusted gutter cleaning specialist. We use a ground-level vacuum system —
+            no ladders, no damage, no mess. Up to 4-storey reach, before &amp; after photos on every job, and a 1-year
+            service guarantee. Fully insured.
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch justify-center gap-4 w-full max-w-xl animate-fade-in-up delay-300">
@@ -571,7 +558,7 @@ export default function BirminghamGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/services/free-gutter-inspection"
+              href="/services/inspection"
               className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">Free gutter inspection</h3>
@@ -581,7 +568,7 @@ export default function BirminghamGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/services/commercial-gutter-cleaning"
+              href="/services/commercial"
               className="group p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">
@@ -593,7 +580,7 @@ export default function BirminghamGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/services/conservatory-cleaning"
+              href="/services/conservatory"
               className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">
@@ -610,8 +597,6 @@ export default function BirminghamGutterCleaningPage() {
 
       <BirminghamFAQ />
 
-      <AreaFeatures formattedArea="Birmingham" />
-
       <section className="py-16 md:py-20 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
@@ -623,7 +608,7 @@ export default function BirminghamGutterCleaningPage() {
                 What Birmingham customers say about WOW Gutters
               </h2>
               <p className="text-slate-600 mt-2">
-                4.9 based on 2,696+ verified Google reviews. Fully insured· Before &amp; after photos · 7
+                4.9 based on 2,696+ verified Google reviews. Fully insured · 1-year guarantee · Before &amp; after photos · 7
                 days a week.
               </p>
             </div>
@@ -714,7 +699,7 @@ export default function BirminghamGutterCleaningPage() {
 
       <AreaBlogSnippet />
       <AreaRecentWork />
-      <AreaContactMap />
+      <AreaContactMap variant="birmingham" />
       <ContactInfoSection />
 
       <style>{`
@@ -725,7 +710,8 @@ export default function BirminghamGutterCleaningPage() {
           display: flex;
           align-items: center;
           justify-content: center;
-          overflow: hidden;
+          overflow-x: hidden;
+          overflow-y: visible;
           background-color: #0f172a;
         }
         .hero-video-wrapper { position: absolute; inset: 0; z-index: 1; }
@@ -761,10 +747,15 @@ export default function BirminghamGutterCleaningPage() {
           font-weight: 900;
         }
         .hero-subtitle {
-          color: rgba(255, 255, 255, 0.85);
+          color: rgba(255, 255, 255, 0.92);
           font-size: clamp(1.05rem, 2vw, 1.2rem);
-          max-width: 720px; margin: 0 0 1.25rem 0;
-          line-height: 1.6; font-weight: 500;
+          max-width: 720px;
+          margin: 0 0 1.35rem 0;
+          line-height: 1.58;
+          font-weight: 500;
+          text-wrap: balance;
+          text-shadow: 0 1px 2px rgba(0,0,0,0.65), 0 2px 16px rgba(0,0,0,0.45);
+          opacity: 1;
         }
         .hero-primary-btn-link { text-decoration: none; }
         .hero-primary-btn {
@@ -785,8 +776,22 @@ export default function BirminghamGutterCleaningPage() {
         .hero-wave-bottom svg { width: 100%; height: 60px; display: block; }
 
         @media (max-width: 768px) {
-          .area-hero-section { min-height: 90svh; align-items: flex-start; }
-          .area-hero-content { max-width: 100%; padding: 76px 16px 120px; }
+          .area-hero-section {
+            min-height: 90svh;
+            align-items: flex-start;
+            padding-bottom: 6rem;
+          }
+          .area-hero-content {
+            max-width: 100%;
+            padding: 76px 16px 9rem;
+            flex: 0 1 auto;
+          }
+          .hero-subtitle {
+            font-size: 1rem;
+            line-height: 1.55;
+            padding: 0 2px;
+            margin-bottom: 1.5rem;
+          }
           .hero-badge { padding: 8px 16px; }
           .hero-badge-text { font-size: 0.8rem; }
           .hero-primary-btn { padding: 14px 20px; }
@@ -795,12 +800,18 @@ export default function BirminghamGutterCleaningPage() {
         .animate-fade-in-up { opacity: 0; animation: bhamFadeInUp 0.8s ease forwards; }
         .delay-100 { animation-delay: 0.1s; }
         .delay-150 { animation-delay: 0.15s; }
-        .delay-175 { animation-delay: 0.175s; }
         .delay-200 { animation-delay: 0.2s; }
         .delay-300 { animation-delay: 0.3s; }
         @keyframes bhamFadeInUp {
           from { opacity: 0; transform: translateY(20px); }
           to { opacity: 1; transform: translateY(0); }
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .animate-fade-in-up {
+            opacity: 1;
+            animation: none;
+            transform: none;
+          }
         }
       `}</style>
     </main>
