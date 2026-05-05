@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
 import Head from 'next/head';
 import { colors } from '@/constants/colors';
 import Link from 'next/link';
-import { ShieldCheck, PenTool, Phone } from 'lucide-react';
+import { ShieldCheck, Phone } from 'lucide-react';
 import AreaServiceBlock from '@/components/areas/AreaServiceBlock';
 import AreaServicesRange from '@/components/areas/AreaServicesRange';
 import AreaFAQ from '@/components/areas/AreaFAQ';
@@ -15,6 +15,7 @@ import AreaReviews from '@/components/areas/AreaReviews';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaFeatures from '@/components/areas/AreaFeatures';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
+import QuoteContactCard from '@/components/shared/QuoteContactCard';
 
 interface AreaPageProps {
   areaName: string;
@@ -215,24 +216,9 @@ export default function AreaPage({ areaName }: AreaPageProps) {
             </div>
           </div>
 
-          {/* Right Lead Form Card, mimicking Home page dynamic style */}
-          <div className="w-full lg:w-[480px] shrink-0">
-            <div className="bg-white p-10 rounded-3xl border border-gray-100 text-center shadow-2xl relative overflow-hidden transform transition-all duration-300 hover:shadow-3xl hover:-translate-y-2 group">
-              {/* Subtle top color bar */}
-              <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r" style={{ backgroundImage: colors.primaryGradient }} />
-
-              <h3 className="text-4xl font-black text-gray-900 mb-3 leading-tight mt-4">
-                Get Your FREE <br /> Quote Now
-              </h3>
-              <p className="text-gray-500 font-medium mb-8">
-                Takes less than 60 seconds to complete
-              </p>
-              <Link href="/quote" className="block w-full">
-                <button className="w-full flex items-center justify-center gap-3 py-5 rounded-full text-white font-bold text-lg transition-transform duration-200 group-hover:scale-105 shadow-xl" style={{ background: colors.primaryGradient }}>
-                  Get Started <PenTool className="w-5 h-5" />
-                </button>
-              </Link>
-            </div>
+          {/* Right Lead Form Card */}
+          <div className="w-full lg:w-[430px] shrink-0">
+            <QuoteContactCard />
           </div>
         </div>
       </section>

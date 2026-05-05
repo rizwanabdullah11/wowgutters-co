@@ -11,6 +11,7 @@ import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
+import QuoteContactCard from '@/components/shared/QuoteContactCard';
 
 export default function CityGutterCleaningPage({ data }: { data: CityGutterLandingData }) {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -270,16 +271,8 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
           <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
             {data.ctaHeading ?? `Book your gutter clean in ${data.city} — free quote in 60 seconds`}
           </h2>
-          <p className="text-slate-600 mb-8 text-lg">
-            Call <a className="font-bold underline" href="tel:07421433910">07421 433910</a> or request a quote online.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/quote" className="rounded-full px-8 py-4 font-black text-white shadow-lg hover:opacity-95 transition-opacity" style={{ background: colors.primaryGradient }}>
-              Get my free quote
-            </Link>
-            <a href="mailto:support@wowgutters.co.uk" className="rounded-full px-8 py-4 font-black border-2 border-slate-300 text-slate-800 hover:bg-slate-50 transition-colors">
-              support@wowgutters.co.uk
-            </a>
+          <div className="mt-8 flex justify-center">
+            <QuoteContactCard />
           </div>
         </div>
       </section>
