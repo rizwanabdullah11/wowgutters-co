@@ -7,42 +7,36 @@ export default function HelpIsHere() {
     {
       name: 'Luke',
       role: 'Senior Technician',
-      image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200',
       bgColor: '#DC2626',
       status: 'Available'
     },
     {
       name: 'Sarah',
       role: 'Customer Service',
-      image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200',
       bgColor: '#2563EB',
       status: 'Available'
     },
     {
       name: 'Jordan',
       role: 'Gutter Specialist',
-      image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200',
       bgColor: '#2563EB',
       status: 'On Call'
     },
     {
       name: 'Michael',
       role: 'Team Leader',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200',
       bgColor: '#1F2937',
       status: 'Available'
     },
     {
       name: 'Ian',
       role: 'Repair Expert',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200',
       bgColor: '#2563EB',
       status: 'Available'
     },
     {
       name: 'Emma',
       role: 'Quality Manager',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200',
       bgColor: '#1F2937',
       status: 'Available'
     }
@@ -168,11 +162,9 @@ export default function HelpIsHere() {
                   className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden border-4 bg-white shadow-md mx-auto group-hover:scale-105 transition-transform duration-300 group-hover:shadow-lg"
                   style={{ borderColor: member.bgColor }}
                 >
-                  <img 
-                    src={member.image} 
-                    alt={member.name}
-                    className="w-full h-full object-cover"
-                  />
+                  <div className="w-full h-full flex items-center justify-center text-white text-3xl md:text-4xl font-black" style={{ backgroundColor: member.bgColor }}>
+                    {member.name.charAt(0)}
+                  </div>
                 </div>
                 
                 {/* Status Indicator */}

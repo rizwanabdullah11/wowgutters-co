@@ -198,7 +198,7 @@ export default function BirminghamGutterCleaningPage() {
               (e.target as HTMLVideoElement).style.display = 'none';
             }}
           >
-            <source src="/gutter-final-video.mp4" type="video/mp4" />
+            <source src="https://wowgutters.co.uk/gutter-final-video.mp4" type="video/mp4" />
           </video>
           <div className="area-hero-overlay" />
         </div>

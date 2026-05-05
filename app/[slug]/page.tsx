@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import BirminghamGutterPageSchema from '@/components/areas/BirminghamGutterPageSchema';
 import AreaPage from '@/components/areas/AreaPage';
 import BirminghamGutterCleaningPage from '@/components/areas/BirminghamGutterCleaningPage';
+import AreaPageSchema from '@/components/areas/AreaPageSchema';
 import { renderCityLanding } from '@/components/areas/CityGutterCleaningRoutes';
 import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
 import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
@@ -50,10 +51,11 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 
   if (areaSlug === 'birmingham') {
     return buildMetadata({
-      absoluteTitle: 'Gutter Cleaning Birmingham | Professional, Safe & Guaranteed | WOW Gutters Ltd',
+      absoluteTitle: 'Gutter Cleaning Birmingham | Professional, Safe & Guaranteed | WOW Gutters',
       description:
         'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
       canonicalPath: areaPath(areaSlug),
+      ogImagePath: '/og/birmingham.jpg',
       keywords: [
         'gutter cleaning Birmingham',
         'gutter vacuum Birmingham',
@@ -69,6 +71,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       absoluteTitle: cityLanding.titleTag,
       description: cityLanding.metaDescription,
       canonicalPath: areaPath(areaSlug),
+      ogImagePath: `/og/${areaSlug}.jpg`,
       keywords: [
         `gutter cleaning ${cityLanding.city.toLowerCase()}`,
         ...SEO_KEYWORD_LINKS.map((k) => k.label),
@@ -80,6 +83,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     title: `Gutter Cleaning ${areaName}`,
     description: `Professional gutter cleaning, repairs and inspections in ${areaName}. Get a free quote today.`,
     canonicalPath: areaPath(areaSlug),
+    ogImagePath: `/og/${areaSlug}.jpg`,
     keywords: [
       ...SEO_KEYWORD_LINKS.map((k) => k.label),
       `gutter cleaning ${areaName.toLowerCase()}`,
@@ -108,5 +112,10 @@ export default async function SingleSegmentAreaPage(props: PageProps) {
   const maybeCity = renderCityLanding(areaSlug);
   if (maybeCity) return maybeCity;
 
-  return <AreaPage areaName={areaSlug} />;
+  return (
+    <>
+      <AreaPageSchema slug={areaSlug} />
+      <AreaPage areaName={areaSlug} />
+    </>
+  );
 }

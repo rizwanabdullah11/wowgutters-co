@@ -3,9 +3,12 @@ import { notFound } from 'next/navigation';
 import AreaPage from '@/components/areas/AreaPage';
 import BirminghamGutterCleaningPage from '@/components/areas/BirminghamGutterCleaningPage';
 import BirminghamGutterPageSchema from '@/components/areas/BirminghamGutterPageSchema';
+import AreaPageSchema from '@/components/areas/AreaPageSchema';
 import { renderCityLanding } from '@/components/areas/CityGutterCleaningRoutes';
 import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
 import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
+import { buildMetadata } from '@/lib/seo';
+import { SEO_KEYWORD_LINKS } from '@/constants/seoKeywordLinks';
 
 interface PageProps {
   params: Promise<{
@@ -29,33 +32,44 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
 
-  const canonicalPath = `https://wowgutters.co.uk${areaPath(params.slug)}`;
-
   if (params.slug === 'birmingham') {
-    return {
-      title: { absolute: 'Gutter Cleaning Birmingham | Professional, Safe & Guaranteed | WOW Gutters Ltd' },
+    return buildMetadata({
+      absoluteTitle: 'Gutter Cleaning Birmingham | Professional, Safe & Guaranteed | WOW Gutters Ltd',
       description:
         'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
-      alternates: { canonical: canonicalPath },
-    };
+      canonicalPath: areaPath(params.slug),
+      keywords: [
+        'gutter cleaning birmingham',
+        'gutter vacuum birmingham',
+        'blocked gutters birmingham',
+        ...SEO_KEYWORD_LINKS.map((k) => k.label),
+      ],
+    });
   }
 
   const cityLanding = CITY_GUTTER_LANDINGS[params.slug];
   if (cityLanding) {
-    return {
-      title: { absolute: cityLanding.titleTag },
+    return buildMetadata({
+      absoluteTitle: cityLanding.titleTag,
       description: cityLanding.metaDescription,
-      alternates: { canonical: canonicalPath },
-    };
+      canonicalPath: areaPath(params.slug),
+      keywords: [
+        `gutter cleaning ${cityLanding.city.toLowerCase()}`,
+        ...SEO_KEYWORD_LINKS.map((k) => k.label),
+      ],
+    });
   }
 
-  return {
+  return buildMetadata({
     title: `Gutter Cleaning ${areaName}`,
     description: `Professional gutter cleaning and repair services in ${areaName} and surrounding areas. Get a free quote today!`,
-    alternates: {
-      canonical: canonicalPath,
-    },
-  };
+    canonicalPath: areaPath(params.slug),
+    keywords: [
+      ...SEO_KEYWORD_LINKS.map((k) => k.label),
+      `gutter cleaning ${areaName.toLowerCase()}`,
+      `gutter repairs ${areaName.toLowerCase()}`,
+    ],
+  });
 }
 
 export default async function GutterCleaningAreaPage(props: PageProps) {
@@ -75,5 +89,10 @@ export default async function GutterCleaningAreaPage(props: PageProps) {
   const maybeCity = renderCityLanding(params.slug);
   if (maybeCity) return maybeCity;
 
-  return <AreaPage areaName={params.slug} />;
+  return (
+    <>
+      <AreaPageSchema slug={params.slug} />
+      <AreaPage areaName={params.slug} />
+    </>
+  );
 }

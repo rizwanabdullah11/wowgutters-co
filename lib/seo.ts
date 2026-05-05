@@ -33,7 +33,7 @@ function toAbsoluteUrl(pathname: string) {
 }
 
 export function buildMetadata(input: BuildMetadataInput): Metadata {
-  const ogImage = input.ogImagePath ?? '/assets/wow-gutter-logo2.png';
+  const ogImage = input.ogImagePath ?? '/og/default.jpg';
   const canonical = input.canonicalPath ? toAbsoluteUrl(input.canonicalPath) : undefined;
 
   const titleForTags = input.absoluteTitle ?? input.title ?? 'WOW Gutters';

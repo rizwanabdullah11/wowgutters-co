@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     description: "Professional gutter cleaning, repairs, inspections, roof cleaning and exterior cleaning. Fast quotes and same-day booking from WOW Gutters.",
     images: [
       {
-        url: "/assets/wow-gutter-logo2.png",
+        url: "/og/default.jpg",
         width: 1200,
         height: 630,
         alt: "WOW Gutters - Professional Gutter Cleaning Services",
@@ -64,15 +64,14 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "WOW Gutters | Gutter Cleaning & Roofline Services",
     description: "Professional gutter cleaning, repairs, inspections, roof cleaning and exterior cleaning. Fast quotes and same-day booking from WOW Gutters.",
-    images: ["/assets/wow-gutter-logo2.png"],
-    creator: "@wowgutters",
+    images: ["/og/default.jpg"],
   },
   verification: {
-    google: "your-google-verification-code",
-    yandex: "your-yandex-verification-code",
+    google: process.env.GOOGLE_VERIFICATION_CODE || undefined,
     other: {
-      // Replace with real code from Bing Webmaster Tools: https://www.bing.com/webmasters
-      "msvalidate.01": "your-bing-verification-code",
+      ...(process.env.BING_VERIFICATION_CODE
+        ? { "msvalidate.01": process.env.BING_VERIFICATION_CODE }
+        : {}),
     },
   },
   alternates: {
@@ -99,10 +98,11 @@ export default function RootLayout({
   const addressPostcode = (process.env.NEXT_PUBLIC_BUSINESS_POSTCODE || '').trim();
   const gbpCidUrl = (process.env.NEXT_PUBLIC_GBP_CID_URL || '').trim();
   const trustpilotUrl = (process.env.NEXT_PUBLIC_TRUSTPILOT_URL || '').trim();
+  const bingVerificationCode = (process.env.BING_VERIFICATION_CODE || '').trim();
 
   const organizationSchema = {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
+    "@type": "HomeAndConstructionBusiness",
     "@id": "https://wowgutters.co.uk/#business",
     "name": "WOW Gutters Ltd",
     "description": "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, no ladders, 4-storey reach, same-day booking.",
@@ -128,8 +128,20 @@ export default function RootLayout({
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-        "opens": "08:00",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "07:00",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "10:00",
         "closes": "18:00"
       }
     ],
@@ -171,10 +183,29 @@ export default function RootLayout({
     ],
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "2600",
+      "ratingValue": "5.0",
+      "reviewCount": "2700",
       "bestRating": "5"
     }
+  };
+
+  const videoObjectSchema = {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "WOW Gutters — Professional Gutter Cleaning Service",
+    "description":
+      "See our ground-level vacuum gutter cleaning system in action. No ladders, no mess, before & after photo proof on every job. Serving Birmingham and the West Midlands.",
+    "thumbnailUrl": "https://wowgutters.co.uk/gutter-cleaning.jpeg",
+    "contentUrl": "https://wowgutters.co.uk/gutter-final-video.mp4",
+    "uploadDate": "2025-01-15",
+    "publisher": {
+      "@type": "Organization",
+      "name": "WOW Gutters Ltd",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://wowgutters.co.uk/assets/wow-gutter-logo2.png",
+      },
+    },
   };
 
   const serviceSchema = {
@@ -253,7 +284,9 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* Bing Webmaster Verification */}
-        <meta name="msvalidate.01" content="your-bing-verification-code" />
+        {bingVerificationCode ? (
+          <meta name="msvalidate.01" content={bingVerificationCode} />
+        ) : null}
         
         {/* Structured Data — plain <script> so next/script doesn't strip it from static export */}
         <script
@@ -272,6 +305,12 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(breadcrumbSchema),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(videoObjectSchema),
           }}
         />
         {/*

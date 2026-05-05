@@ -4,7 +4,7 @@ import FreeInspectionRedirect from './FreeInspectionRedirect';
 const CANONICAL = 'https://wowgutters.co.uk/services/inspection/';
 
 export const metadata: Metadata = {
-  title: 'Free Gutter Inspection | WOW Gutters',
+  title: 'Free Gutter Inspection',
   description:
     'Free roof and gutter inspection — expert assessment, honest advice, no obligation. This page redirects to our main inspection service.',
   alternates: {

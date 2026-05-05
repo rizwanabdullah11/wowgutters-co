@@ -12,6 +12,7 @@ import AreaContactMap from '@/components/areas/AreaContactMap';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
+import NearbyAreas from '@/components/areas/NearbyAreas';
 
 export default function CityGutterCleaningPage({ data }: { data: CityGutterLandingData }) {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -67,7 +68,7 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
               (e.target as HTMLVideoElement).style.display = 'none';
             }}
           >
-            <source src="/gutter-final-video.mp4" type="video/mp4" />
+            <source src="https://wowgutters.co.uk/gutter-final-video.mp4" type="video/mp4" />
           </video>
           <div className="area-hero-overlay" />
         </div>
@@ -189,6 +190,7 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
           ) : null}
         </div>
       </section>
+      <NearbyAreas area={data.slug} />
 
       <section className="relative overflow-hidden border-t border-white/10 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] py-20 px-4">
         <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center gap-10 md:flex-row md:items-center md:justify-between">

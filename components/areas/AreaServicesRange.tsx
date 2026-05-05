@@ -75,7 +75,7 @@ const gutterServices = [
       price: 'From £300'
     },
     image: '/gutter-installation.png',
-    link: '/quote',
+    link: '/services/gutter-installation/',
   },
 ];
 
