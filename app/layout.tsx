@@ -6,7 +6,6 @@ import WhatsAppChatPopup from "@/components/WhatsAppChatPopup";
 import ContentProtection from "@/components/ContentProtection";
 import MaybeStaticQuoteDialog from "@/components/MaybeStaticQuoteDialog";
 import IosViewportStabilizer from "@/components/IosViewportStabilizer";
-import { SEO_KEYWORD_LINKS } from "@/constants/seoKeywordLinks";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://wowgutters.co.uk'),
@@ -23,7 +22,6 @@ export const metadata: Metadata = {
       { url: "/apple-touch-icon.png", type: "image/png" },
     ],
   },
-  keywords: SEO_KEYWORD_LINKS.map((k) => k.label),
   authors: [{ name: "WOW Gutters", url: "https://wowgutters.co.uk" }],
   creator: "WOW Gutters",
   publisher: "WOW Gutters",
@@ -145,15 +143,21 @@ export default function RootLayout({
         "closes": "18:00"
       }
     ],
+    "openingHours": [
+      "Mo-Fr 07:00-20:00",
+      "Sa 09:00-18:00",
+      "Su 10:00-18:00"
+    ],
     "areaServed": [
       "Birmingham",
+      "Coventry",
+      "Wolverhampton",
+      "Worcester",
       "Solihull",
       "Sutton Coldfield",
-      "Wolverhampton",
       "Walsall",
       "Dudley",
       "West Bromwich",
-      "Coventry",
       "Halesowen",
       "Stourbridge",
       "Redditch",

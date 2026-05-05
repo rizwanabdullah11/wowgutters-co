@@ -8,7 +8,6 @@ import { renderCityLanding } from '@/components/areas/CityGutterCleaningRoutes';
 import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
 import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
 import { buildMetadata } from '@/lib/seo';
-import { SEO_KEYWORD_LINKS } from '@/constants/seoKeywordLinks';
 
 interface PageProps {
   params: Promise<{
@@ -56,12 +55,6 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
         'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
       canonicalPath: areaPath(areaSlug),
       ogImagePath: '/og/birmingham.jpg',
-      keywords: [
-        'gutter cleaning Birmingham',
-        'gutter vacuum Birmingham',
-        'blocked gutters Birmingham',
-        ...SEO_KEYWORD_LINKS.map((k) => k.label),
-      ],
     });
   }
 
@@ -72,10 +65,6 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       description: cityLanding.metaDescription,
       canonicalPath: areaPath(areaSlug),
       ogImagePath: `/og/${areaSlug}.jpg`,
-      keywords: [
-        `gutter cleaning ${cityLanding.city.toLowerCase()}`,
-        ...SEO_KEYWORD_LINKS.map((k) => k.label),
-      ],
     });
   }
 
@@ -84,11 +73,6 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     description: `Professional gutter cleaning, repairs and inspections in ${areaName}. Get a free quote today.`,
     canonicalPath: areaPath(areaSlug),
     ogImagePath: `/og/${areaSlug}.jpg`,
-    keywords: [
-      ...SEO_KEYWORD_LINKS.map((k) => k.label),
-      `gutter cleaning ${areaName.toLowerCase()}`,
-      `gutter repairs ${areaName.toLowerCase()}`,
-    ],
   });
 }
 

@@ -7,7 +7,6 @@ type BuildMetadataInput = {
   absoluteTitle?: string;
   description: string;
   canonicalPath?: string; // e.g. "/services/gutter-cleaning"
-  keywords?: string[];
   ogImagePath?: string; // default: "/assets/wow-gutter-logo2.png"
 };
 
@@ -44,7 +43,6 @@ export function buildMetadata(input: BuildMetadataInput): Metadata {
   return {
     title: titleField,
     description: input.description,
-    keywords: input.keywords,
     alternates: canonical ? { canonical } : undefined,
     openGraph: {
       title: titleForTags,
@@ -67,7 +65,6 @@ export function buildMetadata(input: BuildMetadataInput): Metadata {
       title: titleForTags,
       description: input.description,
       images: [ogImage],
-      creator: '@wowgutters',
     },
   };
 }

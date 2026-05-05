@@ -4,15 +4,32 @@ import { useState } from 'react';
 import { ChevronDown, MessageCircle, Phone, Mail, CheckCircle } from 'lucide-react';
 import Link from 'next/link';
 import { BIRMINGHAM_AREA_FAQS } from '@/constants/birminghamFaqs';
+import SchemaMarkup from '@/components/seo/SchemaMarkup';
 
 export default function BirminghamFAQ() {
   const [openIdx, setOpenIdx] = useState<number | null>(0);
 
   return (
-    <section
-      className="py-20 px-4 relative overflow-hidden"
-      style={{ background: 'linear-gradient(135deg, #0d6e4e 0%, #19C58B 50%, #14B27D 100%)' }}
-    >
+    <>
+      <SchemaMarkup
+        id="schema-birmingham-faqpage"
+        data={{
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: BIRMINGHAM_AREA_FAQS.map((faq) => ({
+            '@type': 'Question',
+            name: faq.question,
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: faq.answer,
+            },
+          })),
+        }}
+      />
+      <section
+        className="py-20 px-4 relative overflow-hidden"
+        style={{ background: 'linear-gradient(135deg, #0d6e4e 0%, #19C58B 50%, #14B27D 100%)' }}
+      >
       <div className="absolute inset-0 opacity-10">
         <div
           className="absolute inset-0"
@@ -146,5 +163,6 @@ export default function BirminghamFAQ() {
         </div>
       </div>
     </section>
+    </>
   );
 }
