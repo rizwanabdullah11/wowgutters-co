@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation';
 import BirminghamGutterPageSchema from '@/components/areas/BirminghamGutterPageSchema';
 import AreaPage from '@/components/areas/AreaPage';
 import BirminghamGutterCleaningPage from '@/components/areas/BirminghamGutterCleaningPage';
+import { renderCityLanding } from '@/components/areas/CityGutterCleaningRoutes';
+import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
 import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
 import { buildMetadata } from '@/lib/seo';
 import { SEO_KEYWORD_LINKS } from '@/constants/seoKeywordLinks';
@@ -61,6 +63,19 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     });
   }
 
+  const cityLanding = CITY_GUTTER_LANDINGS[areaSlug];
+  if (cityLanding) {
+    return buildMetadata({
+      absoluteTitle: cityLanding.titleTag,
+      description: cityLanding.metaDescription,
+      canonicalPath: areaPath(areaSlug),
+      keywords: [
+        `gutter cleaning ${cityLanding.city.toLowerCase()}`,
+        ...SEO_KEYWORD_LINKS.map((k) => k.label),
+      ],
+    });
+  }
+
   return buildMetadata({
     title: `Gutter Cleaning ${areaName}`,
     description: `Professional gutter cleaning, repairs and inspections in ${areaName}. Get a free quote today.`,
@@ -89,6 +104,9 @@ export default async function SingleSegmentAreaPage(props: PageProps) {
       </>
     );
   }
+
+  const maybeCity = renderCityLanding(areaSlug);
+  if (maybeCity) return maybeCity;
 
   return <AreaPage areaName={areaSlug} />;
 }
