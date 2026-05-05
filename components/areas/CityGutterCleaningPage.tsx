@@ -11,7 +11,7 @@ import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
-import QuoteContactCard from '@/components/shared/QuoteContactCard';
+import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
 
 export default function CityGutterCleaningPage({ data }: { data: CityGutterLandingData }) {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -106,7 +106,7 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
             </Link>
             <a
               href="tel:07421433910"
-              className="hero-primary-btn-link hidden md:flex flex-1 min-h-[56px] items-center justify-center gap-2 rounded-full border-2 border-white/40 text-white font-bold text-lg hover:bg-white/10 transition-colors"
+              className="hero-primary-btn-link hidden md:flex flex-1 min-h-[56px] items-center justify-center gap-2 rounded-full border-2 border-white/40 text-white font-bold text-md hover:bg-white/10 transition-colors"
             >
               <Phone className="w-5 h-5" />
               07421 433910
@@ -122,12 +122,17 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
       </section>
 
       <section className="py-16 px-4 bg-white border-b border-slate-100">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-6 text-center">{data.whyTitle}</h2>
-          <div className="text-slate-600 text-lg leading-relaxed space-y-5">
-            {data.whyBody.map((p) => (
-              <p key={p}>{p}</p>
-            ))}
+          <div className="flex flex-col lg:flex-row gap-8 lg:items-start">
+            <div className="flex-1 rounded-2xl border border-slate-200 bg-white p-6 md:p-8 shadow-sm text-slate-600 text-lg leading-relaxed space-y-5">
+              {data.whyBody.map((p) => (
+                <p key={p}>{p}</p>
+              ))}
+            </div>
+            <div className="w-full lg:w-auto shrink-0 flex justify-center lg:justify-end">
+              <AreaServiceQuoteCard buttonLabel="Book Now" />
+            </div>
           </div>
         </div>
       </section>
@@ -149,13 +154,18 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
       <section className="py-16 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-8 text-center">{data.propertyTypesTitle}</h2>
-          <div className="rounded-2xl border border-slate-200 overflow-hidden bg-white shadow-sm">
-            {data.propertyTypes.map((row) => (
-              <div key={row.label} className="p-6 border-b border-slate-100 last:border-0">
-                <p className="font-black text-slate-900">{row.label}</p>
-                <p className="text-slate-600 mt-2">{row.detail}</p>
-              </div>
-            ))}
+          <div className="flex flex-col lg:flex-row gap-8 lg:items-start">
+            <div className="flex-1 rounded-2xl border border-slate-200 overflow-hidden bg-white shadow-sm">
+              {data.propertyTypes.map((row) => (
+                <div key={row.label} className="p-6 border-b border-slate-100 last:border-0">
+                  <p className="font-black text-slate-900">{row.label}</p>
+                  <p className="text-slate-600 mt-2">{row.detail}</p>
+                </div>
+              ))}
+            </div>
+            <div className="w-full lg:w-auto shrink-0 flex justify-center lg:justify-end">
+              <AreaServiceQuoteCard buttonLabel="Book Now" />
+            </div>
           </div>
         </div>
       </section>
@@ -272,7 +282,7 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
             {data.ctaHeading ?? `Book your gutter clean in ${data.city} — free quote in 60 seconds`}
           </h2>
           <div className="mt-8 flex justify-center">
-            <QuoteContactCard />
+            <AreaServiceQuoteCard />
           </div>
         </div>
       </section>

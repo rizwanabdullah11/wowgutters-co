@@ -1,6 +1,6 @@
 import { colors } from '@/constants/colors';
-import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import { Button } from '@/components/ui/button';
 import { ChevronRight } from 'lucide-react';
 
 interface AreaServiceBlockProps {
@@ -10,6 +10,42 @@ interface AreaServiceBlockProps {
   buttonText?: string;
   phoneNumber?: string;
   backgroundColor?: string;
+}
+
+type AreaServiceQuoteCardProps = {
+  buttonLabel?: string;
+  helperText?: string;
+  phoneNumber?: string;
+  className?: string;
+};
+
+export function AreaServiceQuoteCard({
+  buttonLabel = 'Get A Quote',
+  helperText = 'Want to speak to someone?',
+  phoneNumber = '07421 433910',
+  className = '',
+}: AreaServiceQuoteCardProps) {
+  return (
+    <div className={`w-full md:w-[280px] text-center flex flex-col items-center justify-center p-6 bg-white rounded-2xl shadow-lg border border-gray-100 ${className}`}>
+      <Link href="/quote" className="w-full block mb-5">
+        <Button
+          className="w-full text-white font-bold text-lg py-6 rounded-lg shadow-md transition-transform hover:-translate-y-1 hover:shadow-lg flex items-center justify-center gap-2"
+          style={{ backgroundColor: colors.primary }}
+        >
+          <ChevronRight className="w-5 h-5" /> {buttonLabel}
+        </Button>
+      </Link>
+
+      <p className="text-gray-500 font-semibold mb-2">{helperText}</p>
+      <a
+        href={`tel:${phoneNumber.replace(/\s+/g, '')}`}
+        className="text-2xl sm:text-3xl font-black transition-colors hover:text-green-600 whitespace-nowrap"
+        style={{ color: colors.primary }}
+      >
+        {phoneNumber}
+      </a>
+    </div>
+  );
 }
 
 export default function AreaServiceBlock({
@@ -49,24 +85,12 @@ export default function AreaServiceBlock({
         </div>
 
         {/* Right CTA (3) */}
-        <div className="w-full md:w-[280px] shrink-0 text-center flex flex-col items-center justify-center p-6 bg-white rounded-2xl shadow-lg border border-gray-100">
-          <Link href="/quote" className="w-full block mb-5">
-            <Button 
-              className="w-full text-white font-bold text-lg py-6 rounded-lg shadow-md transition-transform hover:-translate-y-1 hover:shadow-lg flex items-center justify-center gap-2"
-              style={{ backgroundColor: colors.primary }}
-            >
-              <ChevronRight className="w-5 h-5" /> {buttonText}
-            </Button>
-          </Link>
-          
-          <p className="text-gray-500 font-semibold mb-2">Want to speak to someone?</p>
-          <a 
-            href={`tel:${phoneNumber.replace(/\s+/g, '')}`}
-            className="text-2xl sm:text-3xl font-black transition-colors hover:text-green-600"
-            style={{ color: colors.primary }}
-          >
-            {phoneNumber}
-          </a>
+        <div className="w-full md:w-auto shrink-0 flex justify-center">
+          <AreaServiceQuoteCard
+            buttonLabel={buttonText}
+            helperText="Want to speak to someone?"
+            phoneNumber={phoneNumber}
+          />
         </div>
 
       </div>

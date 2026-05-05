@@ -6,6 +6,7 @@ import { colors } from '@/constants/colors';
 import Link from 'next/link';
 import { ShieldCheck, Phone } from 'lucide-react';
 import AreaServiceBlock from '@/components/areas/AreaServiceBlock';
+import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
 import AreaServicesRange from '@/components/areas/AreaServicesRange';
 import AreaFAQ from '@/components/areas/AreaFAQ';
 import AreaFacts from '@/components/areas/AreaFacts';
@@ -15,7 +16,6 @@ import AreaReviews from '@/components/areas/AreaReviews';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaFeatures from '@/components/areas/AreaFeatures';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
-import QuoteContactCard from '@/components/shared/QuoteContactCard';
 
 interface AreaPageProps {
   areaName: string;
@@ -184,7 +184,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
         <div className="absolute top-0 left-0 right-0 h-10 w-full overflow-hidden leading-[0]">
         </div>
 
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 items-center relative z-10">
+        <div className="max-w-7xl mx-auto relative z-10">
 
           {/* Left Text */}
           <div className="flex-[1.2] text-[#0f172a]">
@@ -216,10 +216,13 @@ export default function AreaPage({ areaName }: AreaPageProps) {
             </div>
           </div>
 
-          {/* Right Lead Form Card */}
-          <div className="w-full lg:w-[430px] shrink-0">
-            <QuoteContactCard />
-          </div>
+        </div>
+      </section>
+
+      {/* Separate right-side quote box section */}
+      <section className="py-8 px-4 bg-white">
+        <div className="max-w-7xl mx-auto flex justify-center lg:justify-end">
+          <AreaServiceQuoteCard buttonLabel="Book Now" />
         </div>
       </section>
 
