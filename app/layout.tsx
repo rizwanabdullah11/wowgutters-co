@@ -98,101 +98,6 @@ export default function RootLayout({
   const trustpilotUrl = (process.env.NEXT_PUBLIC_TRUSTPILOT_URL || '').trim();
   const bingVerificationCode = (process.env.BING_VERIFICATION_CODE || '').trim();
 
-  const organizationSchema = {
-    "@context": "https://schema.org",
-    "@type": "HomeAndConstructionBusiness",
-    "@id": "https://wowgutters.co.uk/#business",
-    "name": "WOW Gutters Ltd",
-    "description": "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, no ladders, 4-storey reach, same-day booking.",
-    "image": "https://wowgutters.co.uk/gutter-cleaning.jpeg",
-    "logo": "https://wowgutters.co.uk/assets/wow-gutter-logo2.png",
-    "url": "https://wowgutters.co.uk",
-    "telephone": "+447421433910",
-    "email": "support@wowgutters.co.uk",
-    "priceRange": "££",
-    "address": {
-      "@type": "PostalAddress",
-      ...(addressLine1 ? { "streetAddress": [addressLine1, addressLine2].filter(Boolean).join(', ') } : {}),
-      ...(addressCity ? { "addressLocality": addressCity } : { "addressLocality": "Birmingham" }),
-      ...(addressRegion ? { "addressRegion": addressRegion } : { "addressRegion": "West Midlands" }),
-      ...(addressPostcode ? { "postalCode": addressPostcode } : {}),
-      "addressCountry": "GB"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 52.4862,
-      "longitude": -1.8904
-    },
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-        "opens": "07:00",
-        "closes": "20:00"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Saturday",
-        "opens": "09:00",
-        "closes": "18:00"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Sunday",
-        "opens": "10:00",
-        "closes": "18:00"
-      }
-    ],
-    "openingHours": [
-      "Mo-Fr 07:00-20:00",
-      "Sa 09:00-18:00",
-      "Su 10:00-18:00"
-    ],
-    "areaServed": [
-      "Birmingham",
-      "Coventry",
-      "Wolverhampton",
-      "Worcester",
-      "Solihull",
-      "Sutton Coldfield",
-      "Walsall",
-      "Dudley",
-      "West Bromwich",
-      "Halesowen",
-      "Stourbridge",
-      "Redditch",
-      "Tamworth",
-      "Bromsgrove",
-      "Smethwick"
-    ],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Gutter & Roof Services",
-      "itemListElement": [
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gutter Cleaning Birmingham" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Roof Cleaning Birmingham" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Downpipe Unblocking" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fascia & Soffit Cleaning" } },
-        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial Gutter Cleaning" } }
-      ]
-    },
-    "sameAs": [
-      ...(gbpCidUrl ? [gbpCidUrl] : []),
-      ...(trustpilotUrl ? [trustpilotUrl] : []),
-      "https://www.facebook.com/wowgutters",
-      "https://www.instagram.com/wowgutters",
-      "https://twitter.com/wowgutters",
-      "https://www.linkedin.com/company/wow-gutters",
-      "https://www.youtube.com/@wowgutters"
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "2700",
-      "bestRating": "5"
-    }
-  };
-
   const videoObjectSchema = {
     "@context": "https://schema.org",
     "@type": "VideoObject",
@@ -212,78 +117,6 @@ export default function RootLayout({
     },
   };
 
-  const serviceSchema = {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Gutter Cleaning and Maintenance",
-    "provider": {
-      "@id": "https://wowgutters.co.uk/#business"
-    },
-    "areaServed": {
-      "@type": "Country",
-      "name": "United Kingdom"
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Gutter Services",
-      "itemListElement": [
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Gutter Cleaning",
-            "description": "Professional gutter cleaning services for residential and commercial properties"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Gutter Repairs",
-            "description": "Expert gutter repair and maintenance services"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Conservatory Cleaning",
-            "description": "Professional conservatory roof and window cleaning"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "Commercial Gutter Cleaning",
-            "description": "Commercial gutter cleaning services for businesses"
-          }
-        },
-        {
-          "@type": "Offer",
-          "itemOffered": {
-            "@type": "Service",
-            "name": "UPVC Cleaning",
-            "description": "Professional UPVC fascia and soffit cleaning"
-          }
-        }
-      ]
-    }
-  };
-
-  const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://wowgutters.co.uk"
-      }
-    ]
-  };
-
   return (
     <html lang="en">
       <head>
@@ -293,24 +126,6 @@ export default function RootLayout({
         ) : null}
         
         {/* Structured Data — plain <script> so next/script doesn't strip it from static export */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(organizationSchema),
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(serviceSchema),
-          }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(breadcrumbSchema),
-          }}
-        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

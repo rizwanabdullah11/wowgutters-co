@@ -1,9 +1,35 @@
-import { BIRMINGHAM_AREA_FAQS } from '@/constants/birminghamFaqs';
+/**
+ * Generate comprehensive JSON-LD schema for area pages
+ * Includes: LocalBusiness, Service, FAQPage, and BreadcrumbList
+ */
 
-const PAGE_URL = 'https://wowgutters.co.uk/gutter-cleaning-birmingham/';
+// Standard area FAQs used across all area pages
+const AREA_FAQS = [
+  {
+    question: "How often should gutters be cleaned?",
+    answer: "Gutters should be cleaned at least twice a year, typically in the spring and autumn. However, if you have overhanging trees or frequent storms, more frequent cleaning may be necessary.",
+  },
+  {
+    question: "Why is gutter cleaning important?",
+    answer: "Clogged gutters can lead to water damage, roof leaks, foundation issues, and even pest infestations. Regular cleaning helps prevent costly repairs.",
+  },
+  {
+    question: "What are the signs that my gutters need cleaning?",
+    answer: "Overflowing water, sagging gutters, visible plant growth, or water stains on your walls are all indicators your gutters are blocked.",
+  },
+  {
+    question: "Can I clean my gutters myself?",
+    answer: "While it's possible, professional gutter cleaning ensures thorough removal of debris, safe access to hard-to-reach areas, and early detection of damage.",
+  },
+  {
+    question: "How much does gutter cleaning cost?",
+    answer: "Costs vary based on the property size, gutter condition, and accessibility, but typical residential cleanings range from £50–£150.",
+  }
+];
 
-/** LocalBusiness + Service + FAQPage + Breadcrumbs for Birmingham gutter landing (server-rendered). */
-export function getBirminghamGutterPageJsonLd() {
+export function getAreaPageJsonLd(areaSlug: string, areaName: string) {
+  const pageUrl = `https://wowgutters.co.uk/gutter-cleaning-${areaSlug}/`;
+  
   return {
     '@context': 'https://schema.org',
     '@graph': [
@@ -11,8 +37,7 @@ export function getBirminghamGutterPageJsonLd() {
         '@type': 'LocalBusiness',
         '@id': 'https://wowgutters.co.uk/#business',
         name: 'WOW Gutters Ltd',
-        description:
-          'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum, before & after photos, 1-year guarantee, fully insured. Call 07421 433910.',
+        description: `Professional gutter cleaning in ${areaName}. Ground-level vacuum, before & after photos, 1-year guarantee, fully insured. Call 07421 433910.`,
         url: 'https://wowgutters.co.uk/',
         telephone: '+447421433910',
         email: 'support@wowgutters.co.uk',
@@ -24,17 +49,12 @@ export function getBirminghamGutterPageJsonLd() {
         },
         address: {
           '@type': 'PostalAddress',
-          addressLocality: 'Birmingham',
+          addressLocality: areaName,
           addressRegion: 'West Midlands',
           addressCountry: 'GB',
         },
-        geo: {
-          '@type': 'GeoCoordinates',
-          latitude: 52.4862,
-          longitude: -1.8904,
-        },
         areaServed: [
-          { '@type': 'City', name: 'Birmingham' },
+          { '@type': 'City', name: areaName },
           { '@type': 'AdministrativeArea', name: 'West Midlands' },
         ],
         openingHoursSpecification: [
@@ -67,18 +87,17 @@ export function getBirminghamGutterPageJsonLd() {
       },
       {
         '@type': 'Service',
-        '@id': `${PAGE_URL}#gutter-cleaning-service`,
-        name: 'Gutter Cleaning Birmingham',
+        '@id': `${pageUrl}#gutter-cleaning-service`,
+        name: `Gutter Cleaning ${areaName}`,
         serviceType: 'Gutter cleaning',
-        description:
-          'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum, no ladders, up to 4 storeys, before & after photos, downpipes cleared, 1-year guarantee.',
+        description: `Professional gutter cleaning in ${areaName}. Ground-level vacuum, no ladders, up to 4 storeys, before & after photos, downpipes cleared, 1-year guarantee.`,
         provider: { '@id': 'https://wowgutters.co.uk/#business' },
-        areaServed: { '@type': 'City', name: 'Birmingham' },
-        url: PAGE_URL,
+        areaServed: { '@type': 'City', name: areaName },
+        url: pageUrl,
       },
       {
         '@type': 'FAQPage',
-        mainEntity: BIRMINGHAM_AREA_FAQS.map((faq) => ({
+        mainEntity: AREA_FAQS.map((faq) => ({
           '@type': 'Question',
           name: faq.question,
           acceptedAnswer: {
@@ -99,8 +118,8 @@ export function getBirminghamGutterPageJsonLd() {
           {
             '@type': 'ListItem',
             position: 2,
-            name: 'Gutter Cleaning Birmingham',
-            item: PAGE_URL,
+            name: `Gutter Cleaning ${areaName}`,
+            item: pageUrl,
           },
         ],
       },

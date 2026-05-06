@@ -17,6 +17,7 @@ import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaFeatures from '@/components/areas/AreaFeatures';
 import NearbyAreas from '@/components/areas/NearbyAreas';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
+import AreaPageSchema from '@/components/areas/AreaPageSchema';
 
 interface AreaPageProps {
   areaName: string;
@@ -40,6 +41,9 @@ export default function AreaPage({ areaName }: AreaPageProps) {
     .split('-')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
+  
+  // Render comprehensive JSON-LD schema (LocalBusiness, Service, FAQPage, BreadcrumbList)
+  const renderSchema = () => <AreaPageSchema slug={areaName} />;
   const whatsappQuestions = [
     'How much is gutter cleaning for my property?',
     'Can you repair leaking or damaged gutters?',
@@ -50,6 +54,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
 
   return (
     <main className="bg-white area-page-wrapper">
+      {renderSchema()}
       <Head>
         <title>Gutter Cleaning {formattedArea} | Professional Service | WowGutters</title>
         <meta name="description" content={`Professional gutter cleaning, repairs & maintenance in ${formattedArea}. Same-day booking, 450+ happy customers. Free quotes available. Call 07421 433910.`} />

@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { ChevronDown, MessageCircle, Phone, Mail, CheckCircle } from 'lucide-react';
 import Link from 'next/link';
-import SchemaMarkup from '@/components/seo/SchemaMarkup';
 
 export const AREA_FAQS = [
   {
@@ -38,18 +37,7 @@ export default function AreaFAQ() {
 
   return (
     <section className="py-20 px-4 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #0d6e4e 0%, #19C58B 50%, #14B27D 100%)' }}>
-      <SchemaMarkup
-        id="schema-area-faq"
-        data={{
-          '@context': 'https://schema.org',
-          '@type': 'FAQPage',
-          mainEntity: AREA_FAQS.map((faq) => ({
-            '@type': 'Question',
-            name: faq.question,
-            acceptedAnswer: { '@type': 'Answer', text: faq.answer },
-          })),
-        }}
-      />
+      {/* Note: FAQPage schema is now included in AreaPageSchema component */}
       {/* Decorative pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px)', backgroundSize: '32px 32px' }}></div>
