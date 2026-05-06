@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
+import { formatBlogDateShort } from '@/lib/dateUtils';
 
 export default function BlogPage() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -149,7 +150,7 @@ export default function BlogPage() {
                 <div className="flex items-center gap-4 mb-4 text-sm text-gray-500">
                   <span className="flex items-center gap-1">
                     <Calendar className="w-4 h-4" />
-                    {featuredPost.date}
+                    {formatBlogDateShort(featuredPost.date)}
                   </span>
                   <span className="flex items-center gap-1">
                     <Eye className="w-4 h-4" />
@@ -246,7 +247,7 @@ export default function BlogPage() {
                       <div className="flex items-center gap-3 mb-3 text-xs text-gray-500">
                         <span className="flex items-center gap-1">
                           <Calendar className="w-3.5 h-3.5" />
-                          {post.date}
+                          {formatBlogDateShort(post.date)}
                         </span>
                         <span className="flex items-center gap-1">
                           <Eye className="w-3.5 h-3.5" />

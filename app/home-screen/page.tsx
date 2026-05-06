@@ -18,12 +18,14 @@ import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import WelcomeAudio from '@/components/WelcomeAudio';
 import HomepageSchema from '@/components/seo/HomepageSchema';
 import HomepageFAQSchema from '@/components/seo/HomepageFAQSchema';
+import HomepageWebSiteSchema from '@/components/seo/HomepageWebSiteSchema';
 
 export default function HomeScreen() {
   return (
     <div>
       <HomepageSchema />
       <HomepageFAQSchema />
+      <HomepageWebSiteSchema />
       <WelcomeAudio />
       <HeroSection />
       {/* <BlueBanner /> */}

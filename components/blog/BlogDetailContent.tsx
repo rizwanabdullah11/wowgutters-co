@@ -9,6 +9,7 @@ import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import AreaFAQ from '@/components/areas/AreaFAQ';
 import AreaReviews from '@/components/areas/AreaReviews';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
+import { formatBlogDate } from '@/lib/dateUtils';
 
 interface BlogDetailContentProps {
   post: typeof blogPosts[0];
@@ -111,7 +112,7 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
             )}
             <div className="meta-item">
               <Calendar className="w-5 h-5" />
-              <span>{post.date}</span>
+              <span>{formatBlogDate(post.date)}</span>
             </div>
             <div className="meta-item">
               <Eye className="w-5 h-5" />
@@ -149,12 +150,12 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
             <div className="bg-white rounded-3xl shadow-lg p-8 md:p-12 border border-gray-100">
               {/* Published + Last Updated */}
               <div className="mb-6 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-gray-500">
-                <span>Published: <strong className="text-gray-700">{post.date}</strong></span>
+                <span>Published: <strong className="text-gray-700">{formatBlogDate(post.date)}</strong></span>
                 {post.lastUpdated && (
                   <>
                     <span className="hidden sm:inline">|</span>
                     <time dateTime={post.lastUpdated} className="font-semibold" style={{ color: colors.primary }}>
-                      Last Updated: {post.lastUpdated}
+                      Last Updated: {formatBlogDate(post.lastUpdated)}
                     </time>
                   </>
                 )}
@@ -294,7 +295,7 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
                 </p>
                 {post.lastUpdated && (
                   <p className="mt-3 text-xs text-gray-500">
-                    Last updated: <time dateTime={post.lastUpdated}>{post.lastUpdated}</time> · Reviewed by: WOW Gutters Technical Team
+                    Last updated: <time dateTime={post.lastUpdated}>{formatBlogDate(post.lastUpdated)}</time> · Reviewed by: WOW Gutters Technical Team
                   </p>
                 )}
               </div>
@@ -350,7 +351,7 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
                         {relatedPost.excerpt}
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
-                        <span>{relatedPost.date}</span>
+                        <span>{formatBlogDate(relatedPost.date)}</span>
                         <span>{relatedPost.views} views</span>
                       </div>
                     </div>

@@ -49,6 +49,18 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
           '@context': 'https://schema.org',
           '@graph': [
             {
+              '@type': 'LocalBusiness',
+              '@id': 'https://wowgutters.co.uk/#business',
+              name: 'WOW Gutters Ltd',
+              aggregateRating: {
+                '@type': 'AggregateRating',
+                ratingValue: '4.9',
+                reviewCount: '2696',
+                bestRating: '5',
+                worstRating: '1',
+              },
+            },
+            {
               '@type': 'Service',
               name: service.name,
               provider: {
