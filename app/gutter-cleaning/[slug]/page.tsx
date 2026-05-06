@@ -33,7 +33,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 
   if (params.slug === 'birmingham') {
     return buildMetadata({
-      absoluteTitle: 'Gutter Cleaning Birmingham | Professional, Safe & Guaranteed | WOW Gutters Ltd',
+      absoluteTitle: 'Gutter Cleaning Birmingham | WOW Gutters Ltd',
       description:
         'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
       canonicalPath: areaPath(params.slug),

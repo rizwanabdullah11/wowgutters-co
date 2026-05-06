@@ -144,16 +144,16 @@ export default function RootLayout({
             __html: `(function(){window.__WOW_ANALYTICS__={gaId:${JSON.stringify(ga4MeasurementId)},gtmId:${JSON.stringify(gtmId)},debug:${JSON.stringify(analyticsDebug)}};})();`,
           }}
         />
-        {ga4MeasurementId ? (
-          <>
-            <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga4MeasurementId}`}></script>
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('js', new Date());gtag('config', ${JSON.stringify(ga4MeasurementId)}, { send_page_view: true });})();`,
-              }}
-            />
-          </>
-        ) : null}
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-X0YK1TD470"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-X0YK1TD470');`,
+          }}
+        />
         {/* Meta Pixel — plain <script> so it survives static export */}
         {metaPixelId ? (
           <>

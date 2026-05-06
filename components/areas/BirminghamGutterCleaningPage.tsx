@@ -210,10 +210,10 @@ export default function BirminghamGutterCleaningPage() {
           </div>
 
           <h1 className="hero-title animate-fade-in-up delay-100">
-            <span className="title-line">Gutter Cleaning Birmingham —</span>
+            <span className="title-line">Gutter Cleaning Birmingham</span>
             <br />
             <span className="title-accent" style={{ color: colors.primary }}>
-              Professional, Safe &amp; Guaranteed
+              WOW Gutters Ltd
             </span>
           </h1>
 

@@ -8,6 +8,7 @@ type BuildMetadataInput = {
   description: string;
   canonicalPath?: string; // e.g. "/services/gutter-cleaning"
   ogImagePath?: string; // default: "/assets/wow-gutter-logo2.png"
+  noindex?: boolean; // Prevent search engines from indexing this page
 };
 
 function toAbsoluteUrl(pathname: string) {
@@ -44,6 +45,12 @@ export function buildMetadata(input: BuildMetadataInput): Metadata {
     title: titleField,
     description: input.description,
     alternates: canonical ? { canonical } : undefined,
+    robots: input.noindex
+      ? {
+          index: false,
+          follow: false,
+        }
+      : undefined,
     openGraph: {
       title: titleForTags,
       description: input.description,

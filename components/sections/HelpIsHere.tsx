@@ -3,45 +3,6 @@ import { Phone, Headphones, Users, Clock, Shield } from 'lucide-react';
 import Link from 'next/link';
 
 export default function HelpIsHere() {
-  const teamMembers = [
-    {
-      name: 'Luke',
-      role: 'Senior Technician',
-      bgColor: '#DC2626',
-      status: 'Available'
-    },
-    {
-      name: 'Sarah',
-      role: 'Customer Service',
-      bgColor: '#2563EB',
-      status: 'Available'
-    },
-    {
-      name: 'Jordan',
-      role: 'Gutter Specialist',
-      bgColor: '#2563EB',
-      status: 'On Call'
-    },
-    {
-      name: 'Michael',
-      role: 'Team Leader',
-      bgColor: '#1F2937',
-      status: 'Available'
-    },
-    {
-      name: 'Ian',
-      role: 'Repair Expert',
-      bgColor: '#2563EB',
-      status: 'Available'
-    },
-    {
-      name: 'Emma',
-      role: 'Quality Manager',
-      bgColor: '#1F2937',
-      status: 'Available'
-    }
-  ];
-
   const features = [
     {
       icon: <Clock className="w-6 h-6" />,
@@ -135,63 +96,6 @@ export default function HelpIsHere() {
                 <p className="text-sm" style={{ color: colors.white }}>
                   {feature.description}
                 </p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-
-    {/* Team Section - White Background */}
-    <section className="py-20" style={{ backgroundColor: colors.white }}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h3 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: colors.text }}>
-            Meet Your Local Gutter Team
-          </h3>
-          <p className="text-lg" style={{ color: colors.textLight }}>
-            Friendly technicians ready to help keep your property protected
-          </p>
-        </div>
-
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 md:gap-8">
-          {teamMembers.map((member, index) => (
-            <div key={index} className="group text-center">
-              <div className="relative mb-5">
-                <div 
-                  className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden border-4 bg-white shadow-md mx-auto group-hover:scale-105 transition-transform duration-300 group-hover:shadow-lg"
-                  style={{ borderColor: member.bgColor }}
-                >
-                  <div className="w-full h-full flex items-center justify-center text-white text-3xl md:text-4xl font-black" style={{ backgroundColor: member.bgColor }}>
-                    {member.name.charAt(0)}
-                  </div>
-                </div>
-                
-                {/* Status Indicator */}
-                <div className="absolute top-0 right-1 md:right-4">
-                  <div 
-                    className={`w-6 h-6 rounded-full border-2 border-white flex items-center justify-center shadow-sm ${
-                      member.status === 'Available' ? 'bg-green-500' : 'bg-yellow-500'
-                    }`}
-                  >
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="bg-gray-50 rounded-xl p-4 group-hover:bg-white group-hover:shadow-md border border-transparent group-hover:border-gray-100 transition-all duration-300">
-                <p className="font-bold text-base md:text-lg mb-1" style={{ color: colors.text }}>
-                  {member.name}
-                </p>
-                <p className="text-xs md:text-sm mb-3" style={{ color: colors.textLight }}>
-                  {member.role}
-                </p>
-                <div className="flex items-center justify-center gap-1.5">
-                  <div className={`w-2 h-2 rounded-full ${member.status === 'Available' ? 'bg-green-500' : 'bg-yellow-500'}`}></div>
-                  <span className="text-xs font-semibold" style={{ color: member.status === 'Available' ? '#22c55e' : '#eab308' }}>
-                    {member.status}
-                  </span>
-                </div>
               </div>
             </div>
           ))}
