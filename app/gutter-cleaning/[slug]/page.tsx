@@ -75,7 +75,6 @@ export default async function GutterCleaningAreaPage(props: PageProps) {
 
   return (
     <>
-      <AreaPageSchema slug={params.slug} />
       <AreaPage areaName={params.slug} />
     </>
   );

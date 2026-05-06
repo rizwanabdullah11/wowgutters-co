@@ -17,11 +17,13 @@ import HelpIsHere from '@/components/sections/HelpIsHere';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import WelcomeAudio from '@/components/WelcomeAudio';
 import HomepageSchema from '@/components/seo/HomepageSchema';
+import HomepageFAQSchema from '@/components/seo/HomepageFAQSchema';
 
 export default function HomeScreen() {
   return (
     <div>
       <HomepageSchema />
+      <HomepageFAQSchema />
       <WelcomeAudio />
       <HeroSection />
       {/* <BlueBanner /> */}

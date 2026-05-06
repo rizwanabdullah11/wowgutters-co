@@ -98,7 +98,6 @@ export default async function SingleSegmentAreaPage(props: PageProps) {
 
   return (
     <>
-      <AreaPageSchema slug={areaSlug} />
       <AreaPage areaName={areaSlug} />
     </>
   );
