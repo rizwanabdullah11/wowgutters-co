@@ -8,8 +8,29 @@ import { servicesData } from '@/constants/servicesData';
 export const dynamic = 'force-static';
 export const revalidate = false;
 
+/**
+ * SEO Sitemap Configuration
+ * 
+ * IMPORTANT: Update these dates when content changes:
+ * - lastUpdated: When area pages or main content is updated
+ * - legalLastUpdated: When privacy/terms/cookie policies change
+ * 
+ * Priority Guidelines:
+ * - 1.0: Homepage only
+ * - 0.95: Conversion pages (contact, quote)
+ * - 0.9: Service pages and pricing
+ * - 0.85: Area/location pages
+ * - 0.8: General info pages
+ * - 0.7: Blog posts
+ * - 0.6: Help pages
+ * - 0.5: Work/talks (portfolio)
+ * - 0.3: Legal pages
+ */
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://wowgutters.co.uk';
+  const lastUpdated = new Date('2026-05-05');
+  const legalLastUpdated = new Date('2025-11-01');
   
   const withTrailingSlash = (route: string) => {
     if (!route) return `${baseUrl}/`;
@@ -20,6 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
     '',
     '/about',
+    '/audit',
     '/contact',
     '/services',
     '/pricing',
@@ -35,70 +57,129 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/gutter-cleaning-prices',
     '/neighbourhood-discount',
     '/oap-discount',
+    '/quote',
+  ];
+
+  const legalPages = [
     '/privacy-policy',
     '/terms-and-conditions',
     '/cookie-policy',
-    '/quote',
   ];
 
   // Service pages
   const servicePages = [
     '/services/gutter-cleaning',
     '/services/gutter-repairs',
-    '/services/conservatory-cleaning',
-    '/services/commercial-gutter-cleaning',
     '/services/roof-cleaning',
     '/services/upvc-cleaning',
     '/services/hot-wash-cleaning',
     '/services/drain-cleaning',
-    '/services/free-gutter-inspection',
     '/services/water-butt',
     '/services/commercial',
     '/services/conservatory',
     '/services/inspection',
   ];
 
-  const staticRoutes = staticPages.map((route) => ({
+  const staticRoutes = staticPages.map((route) => {
+    let priority = 0.8;
+    let changeFreq: 'daily' | 'weekly' | 'monthly' = 'weekly';
+    
+    if (route === '') priority = 1;
+    else if (route === '/contact' || route === '/quote') priority = 0.95;
+    else if (route === '/services' || route === '/pricing') priority = 0.9;
+    else if (route === '/awards' || route === '/talks' || route === '/work') {
+      priority = 0.6;
+      changeFreq = 'monthly';
+    }
+    
+    return {
+      url: withTrailingSlash(route),
+      lastModified: lastUpdated,
+      changeFrequency: changeFreq,
+      priority,
+    };
+  });
+
+  const legalRoutes = legalPages.map((route) => ({
     url: withTrailingSlash(route),
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: route === '' ? 1 : 0.8,
+    lastModified: legalLastUpdated,
+    changeFrequency: 'yearly' as const,
+    priority: 0.3,
   }));
 
   const serviceRoutes = servicePages.map((route) => ({
     url: withTrailingSlash(route),
-    lastModified: new Date(),
+    lastModified: lastUpdated,
     changeFrequency: 'monthly' as const,
     priority: 0.9,
   }));
 
   const areaRoutes = AREA_SLUGS.map((slug) => ({
     url: withTrailingSlash(areaPath(slug)),
-    lastModified: new Date(),
+    lastModified: lastUpdated,
     changeFrequency: 'monthly' as const,
     priority: 0.85,
   }));
 
-  const blogRoutes = blogPosts.map((post) => ({
-    url: withTrailingSlash(`/blog/${post.id}`),
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }));
+  const blogRoutes = blogPosts.map((post) => {
+    let postDate = lastUpdated;
+    if (post.date) {
+      try {
+        const parsed = new Date(post.date);
+        if (!isNaN(parsed.getTime())) {
+          postDate = parsed;
+        }
+      } catch {
+        // Use default lastUpdated
+      }
+    }
+    return {
+      url: withTrailingSlash(`/blog/${post.id}`),
+      lastModified: postDate,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    };
+  });
 
-  const workRoutes = workPosts.map((post) => ({
-    url: withTrailingSlash(`/work/${post.id}`),
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.65,
-  }));
+  const workRoutes = workPosts.map((post) => {
+    let postDate = lastUpdated;
+    if (post.date) {
+      try {
+        const parsed = new Date(post.date);
+        if (!isNaN(parsed.getTime())) {
+          postDate = parsed;
+        }
+      } catch {
+        // Use default lastUpdated
+      }
+    }
+    return {
+      url: withTrailingSlash(`/work/${post.id}`),
+      lastModified: postDate,
+      changeFrequency: 'monthly' as const,
+      priority: 0.5,
+    };
+  });
 
-  const talksRoutes = talksData.map((talk) => ({
-    url: withTrailingSlash(`/talks/${talk.id}`),
-    lastModified: new Date(),
-    changeFrequency: 'monthly' as const,
-    priority: 0.65,
-  }));
+  const talksRoutes = talksData.map((talk) => {
+    let talkDate = lastUpdated;
+    if (talk.date) {
+      try {
+        const parsed = new Date(talk.date);
+        if (!isNaN(parsed.getTime())) {
+          talkDate = parsed;
+        }
+      } catch {
+        // Use default lastUpdated
+      }
+    }
+    return {
+      url: withTrailingSlash(`/talks/${talk.id}`),
+      lastModified: talkDate,
+      changeFrequency: 'monthly' as const,
+      priority: 0.5,
+    };
+  });
 
   const helpSlugs = [
     'inspect',
@@ -110,7 +191,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const helpRoutes = helpSlugs.map((slug) => ({
     url: withTrailingSlash(`/help/${slug}`),
-    lastModified: new Date(),
+    lastModified: lastUpdated,
     changeFrequency: 'monthly' as const,
     priority: 0.6,
   }));
@@ -118,6 +199,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // De-duplicate URLs (some routes can overlap if lists change)
   const all = [
     ...staticRoutes,
+    ...legalRoutes,
     ...serviceRoutes,
     ...areaRoutes,
     ...blogRoutes,

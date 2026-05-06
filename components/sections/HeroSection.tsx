@@ -11,7 +11,7 @@ const HERO_HEADLINES = [
     prefix: 'Trusted',
     service: 'Gutter Cleaning',
     highlight: 'Specialists',
-    bottom: 'Fast • Safe • Same Day Booking',
+    bottom: 'Fast • Fully Insured • Same Day Booking',
   },
   {
     prefix: 'Local',

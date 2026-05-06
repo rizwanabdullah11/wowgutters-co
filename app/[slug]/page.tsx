@@ -1,9 +1,13 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import BirminghamGutterPageSchema from '@/components/areas/BirminghamGutterPageSchema';
 import AreaPage from '@/components/areas/AreaPage';
+import BirminghamGutterCleaningPage from '@/components/areas/BirminghamGutterCleaningPage';
+import AreaPageSchema from '@/components/areas/AreaPageSchema';
+import { renderCityLanding } from '@/components/areas/CityGutterCleaningRoutes';
+import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
 import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
 import { buildMetadata } from '@/lib/seo';
-import { SEO_KEYWORD_LINKS } from '@/constants/seoKeywordLinks';
 
 interface PageProps {
   params: Promise<{
@@ -44,15 +48,31 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 
   const areaName = formatAreaName(areaSlug);
 
+  if (areaSlug === 'birmingham') {
+    return buildMetadata({
+      absoluteTitle: 'Gutter Cleaning Birmingham | Professional, Safe & Guaranteed | WOW Gutters',
+      description:
+        'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
+      canonicalPath: areaPath(areaSlug),
+      ogImagePath: '/og/birmingham.jpg',
+    });
+  }
+
+  const cityLanding = CITY_GUTTER_LANDINGS[areaSlug];
+  if (cityLanding) {
+    return buildMetadata({
+      absoluteTitle: cityLanding.titleTag,
+      description: cityLanding.metaDescription,
+      canonicalPath: areaPath(areaSlug),
+      ogImagePath: `/og/${areaSlug}.jpg`,
+    });
+  }
+
   return buildMetadata({
-    title: `Gutter Cleaning ${areaName} | WOW Gutters`,
+    title: `Gutter Cleaning ${areaName}`,
     description: `Professional gutter cleaning, repairs and inspections in ${areaName}. Get a free quote today.`,
     canonicalPath: areaPath(areaSlug),
-    keywords: [
-      ...SEO_KEYWORD_LINKS.map((k) => k.label),
-      `gutter cleaning ${areaName.toLowerCase()}`,
-      `gutter repairs ${areaName.toLowerCase()}`,
-    ],
+    ogImagePath: `/og/${areaSlug}.jpg`,
   });
 }
 
@@ -64,5 +84,22 @@ export default async function SingleSegmentAreaPage(props: PageProps) {
     notFound();
   }
 
-  return <AreaPage areaName={areaSlug} />;
+  if (areaSlug === 'birmingham') {
+    return (
+      <>
+        <BirminghamGutterPageSchema />
+        <BirminghamGutterCleaningPage />
+      </>
+    );
+  }
+
+  const maybeCity = renderCityLanding(areaSlug);
+  if (maybeCity) return maybeCity;
+
+  return (
+    <>
+      <AreaPageSchema slug={areaSlug} />
+      <AreaPage areaName={areaSlug} />
+    </>
+  );
 }

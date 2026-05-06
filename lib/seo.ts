@@ -1,11 +1,14 @@
 import type { Metadata } from 'next';
 
 type BuildMetadataInput = {
-  title: string;
+  /** Plain title; root layout appends ` | WOW Gutters` unless `absoluteTitle` is set. */
+  title?: string;
+  /** Full `<title>` — skips the layout template (avoids duplicate suffix like `| WOW Gutters | WOW Gutters`). */
+  absoluteTitle?: string;
   description: string;
   canonicalPath?: string; // e.g. "/services/gutter-cleaning"
-  keywords?: string[];
   ogImagePath?: string; // default: "/assets/wow-gutter-logo2.png"
+  noindex?: boolean; // Prevent search engines from indexing this page
 };
 
 function toAbsoluteUrl(pathname: string) {
@@ -30,16 +33,26 @@ function toAbsoluteUrl(pathname: string) {
 }
 
 export function buildMetadata(input: BuildMetadataInput): Metadata {
-  const ogImage = input.ogImagePath ?? '/assets/wow-gutter-logo2.png';
+  const ogImage = input.ogImagePath ?? '/og/default.jpg';
   const canonical = input.canonicalPath ? toAbsoluteUrl(input.canonicalPath) : undefined;
 
+  const titleForTags = input.absoluteTitle ?? input.title ?? 'WOW Gutters';
+  const titleField: Metadata['title'] = input.absoluteTitle
+    ? { absolute: input.absoluteTitle }
+    : input.title ?? 'WOW Gutters';
+
   return {
-    title: input.title,
+    title: titleField,
     description: input.description,
-    keywords: input.keywords,
     alternates: canonical ? { canonical } : undefined,
+    robots: input.noindex
+      ? {
+          index: false,
+          follow: false,
+        }
+      : undefined,
     openGraph: {
-      title: input.title,
+      title: titleForTags,
       description: input.description,
       url: canonical,
       siteName: 'WOW Gutters',
@@ -56,10 +69,9 @@ export function buildMetadata(input: BuildMetadataInput): Metadata {
     },
     twitter: {
       card: 'summary_large_image',
-      title: input.title,
+      title: titleForTags,
       description: input.description,
       images: [ogImage],
-      creator: '@wowgutters',
     },
   };
 }

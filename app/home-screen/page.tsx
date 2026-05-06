@@ -16,10 +16,12 @@ import FindLocalTeam from '@/components/sections/FindLocalTeam';
 import HelpIsHere from '@/components/sections/HelpIsHere';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import WelcomeAudio from '@/components/WelcomeAudio';
+import HomepageSchema from '@/components/seo/HomepageSchema';
 
 export default function HomeScreen() {
   return (
     <div>
+      <HomepageSchema />
       <WelcomeAudio />
       <HeroSection />
       {/* <BlueBanner /> */}

@@ -1,11 +1,21 @@
-import ConservatoryCleaningPage from '@/components/services/ConservatoryCleaningPage';
 import type { Metadata } from 'next';
+import ConservatoryRedirect from './ConservatoryRedirect';
+
+const CANONICAL = 'https://wowgutters.co.uk/services/conservatory/';
 
 export const metadata: Metadata = {
-  title: 'Conservatory Cleaning | WOW Gutters',
-  description: 'Specialist cleaning solutions to safely remove algae and restore the sparkle to your conservatory.',
+  title: 'Conservatory Cleaning',
+  description:
+    'Conservatory cleaning and restoration service. This alias route redirects to the main conservatory service page.',
+  alternates: {
+    canonical: CANONICAL,
+  },
+  robots: {
+    index: false,
+    follow: true,
+  },
 };
 
-export default function Page() {
-  return <ConservatoryCleaningPage />;
+export default function ConservatoryCleaningAliasPage() {
+  return <ConservatoryRedirect />;
 }

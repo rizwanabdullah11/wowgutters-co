@@ -16,6 +16,7 @@ import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaFeatures from '@/components/areas/AreaFeatures';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import { areaPath } from '@/lib/areaSlugs';
+import SchemaMarkup from '@/components/seo/SchemaMarkup';
 
 interface ServiceDetailPageProps {
   service: ServiceDetail;
@@ -42,10 +43,38 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
 
   return (
     <main className="bg-white service-page-wrapper">
+      <SchemaMarkup
+        id={`schema-service-${service.id}`}
+        data={{
+          '@context': 'https://schema.org',
+          '@type': 'Service',
+          name: service.name,
+          provider: {
+            '@type': 'LocalBusiness',
+            name: 'WOW Gutters Ltd',
+            '@id': 'https://wowgutters.co.uk/#business',
+          },
+          areaServed: {
+            '@type': 'State',
+            name: 'West Midlands',
+          },
+          description: service.heroDescription,
+          url: `https://wowgutters.co.uk/services/${service.id}`,
+          serviceType: service.name,
+          availableChannel: {
+            '@type': 'ServiceChannel',
+            serviceUrl: `https://wowgutters.co.uk/services/${service.id}`,
+            servicePhone: {
+              '@type': 'ContactPoint',
+              telephone: '+447421433910',
+              contactType: 'customer service',
+            },
+          },
+        }}
+      />
       <Head>
         <title>Professional {service.name} | WOW Gutters</title>
         <meta name="description" content={`Professional ${service.name.toLowerCase()} with WOW Gutters. ${service.heroDescription.substring(0, 150)}...`} />
-        <meta name="keywords" content={`${service.name.toLowerCase()}, professional ${service.name.toLowerCase()}, gutter services, roofline services, free quote`} />
         <meta property="og:title" content={`${service.name} Services - WowGutters`} />
         <meta property="og:description" content={service.heroDescription.substring(0, 160)} />
         <meta property="og:type" content="website" />
@@ -465,7 +494,10 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
       <AreaFAQ />
       <AreaFacts />
       <AreaBlogSnippet />
-      <AreaFeatures formattedArea={service.name} />
+      <AreaFeatures
+        serviceLabel={service.name}
+        featureSet={service.id === 'roof-cleaning' ? 'roof' : 'gutter'}
+      />
       <AreaRecentWork />
       <AreaReviews />
       <AreaContactMap />

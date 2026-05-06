@@ -290,6 +290,48 @@ export const servicesData: ServiceDetail[] = [
       phone: '07421 433910',
       buttonText: 'Get A Quote'
     }
+  },
+  {
+    id: 'gutter-installation',
+    name: 'Gutter Installation',
+    icon: '🔩',
+    heroImage: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920',
+    heroTitle: 'Professional Gutter Installation',
+    heroDescription: 'New uPVC gutter and downpipe systems measured, supplied and fitted by WOW Gutters. Quality materials, professional finish, 10-year warranty on parts.',
+    sections: [
+      {
+        title: 'Why Replace Your Gutters?',
+        content: 'Old or damaged gutters can cause serious water damage to your property. Signs you need new gutters include:',
+        image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800',
+        imagePosition: 'left',
+        bulletPoints: [
+          'Persistent leaks that repairs cannot fix',
+          'Gutters pulling away from the fascia',
+          'Visible cracks, splits or rust',
+          'Gutters more than 20 years old'
+        ]
+      },
+      {
+        title: 'What\'s Included in Our Installation',
+        content: 'Every WOW Gutters installation includes:',
+        image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800',
+        imagePosition: 'right',
+        bulletPoints: [
+          'Free survey and fixed quote before work starts',
+          'Quality uPVC gutters and downpipes',
+          'Professional fitting with correct fall angles',
+          'Old gutter removal and disposal',
+          '10-year manufacturer warranty on parts',
+          'Before and after photos'
+        ]
+      }
+    ],
+    ctaSection: {
+      title: 'GET A FREE INSTALLATION QUOTE',
+      description: 'Tell us your property type and postcode — we\'ll survey your gutters and give you a fixed price with no hidden extras. Installations from £300.',
+      phone: '07421 433910',
+      buttonText: 'Get A Free Quote'
+    }
   }
 ];
 

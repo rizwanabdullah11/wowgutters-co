@@ -40,6 +40,10 @@ export async function generateMetadata(
       title: 'Free Gutter Inspection Help | WOW Gutter Cleaning',
       description:
         'Get help booking a free gutter inspection and quote. Find out what we check and how the process works.',
+      robots: {
+        index: false,
+        follow: false,
+      },
     };
   }
   
@@ -56,6 +60,10 @@ export async function generateMetadata(
       title: 'Expert Gutter Repair Service | WOW Gutter Cleaning',
       description:
         'Expert gutter repair service to fix leaks, sagging and damage and protect your property from water problems.',
+      robots: {
+        index: false,
+        follow: false,
+      },
     };
   }
   
