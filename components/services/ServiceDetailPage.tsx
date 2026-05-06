@@ -47,29 +47,101 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         id={`schema-service-${service.id}`}
         data={{
           '@context': 'https://schema.org',
-          '@type': 'Service',
-          name: service.name,
-          provider: {
-            '@type': 'LocalBusiness',
-            name: 'WOW Gutters Ltd',
-            '@id': 'https://wowgutters.co.uk/#business',
-          },
-          areaServed: {
-            '@type': 'State',
-            name: 'West Midlands',
-          },
-          description: service.heroDescription,
-          url: `https://wowgutters.co.uk/services/${service.id}`,
-          serviceType: service.name,
-          availableChannel: {
-            '@type': 'ServiceChannel',
-            serviceUrl: `https://wowgutters.co.uk/services/${service.id}`,
-            servicePhone: {
-              '@type': 'ContactPoint',
-              telephone: '+447421433910',
-              contactType: 'customer service',
+          '@graph': [
+            {
+              '@type': 'Service',
+              name: service.name,
+              provider: {
+                '@type': 'LocalBusiness',
+                name: 'WOW Gutters Ltd',
+                '@id': 'https://wowgutters.co.uk/#business',
+              },
+              areaServed: {
+                '@type': 'State',
+                name: 'West Midlands',
+              },
+              description: service.heroDescription,
+              url: `https://wowgutters.co.uk/services/${service.id}`,
+              serviceType: service.name,
+              availableChannel: {
+                '@type': 'ServiceChannel',
+                serviceUrl: `https://wowgutters.co.uk/services/${service.id}`,
+                servicePhone: {
+                  '@type': 'ContactPoint',
+                  telephone: '+447421433910',
+                  contactType: 'customer service',
+                },
+              },
             },
-          },
+            {
+              '@type': 'FAQPage',
+              mainEntity: [
+                {
+                  '@type': 'Question',
+                  name: 'How often should gutters be cleaned?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Gutters should be cleaned at least twice a year, typically in the spring and autumn. However, if you have overhanging trees or frequent storms, more frequent cleaning may be necessary.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'Why is gutter cleaning important?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Clogged gutters can lead to water damage, roof leaks, foundation issues, and even pest infestations. Regular cleaning helps prevent costly repairs.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'What are the signs that my gutters need cleaning?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Overflowing water, sagging gutters, visible plant growth, or water stains on your walls are all indicators your gutters are blocked.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'Can I clean my gutters myself?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'While it\'s possible, professional gutter cleaning ensures thorough removal of debris, safe access to hard-to-reach areas, and early detection of damage.',
+                  },
+                },
+                {
+                  '@type': 'Question',
+                  name: 'How much does gutter cleaning cost?',
+                  acceptedAnswer: {
+                    '@type': 'Answer',
+                    text: 'Costs vary based on the property size, gutter condition, and accessibility, but typical residential cleanings range from £50–£150.',
+                  },
+                },
+              ],
+            },
+            {
+              '@type': 'BreadcrumbList',
+              itemListElement: [
+                {
+                  '@type': 'ListItem',
+                  position: 1,
+                  name: 'Home',
+                  item: 'https://wowgutters.co.uk/',
+                },
+                {
+                  '@type': 'ListItem',
+                  position: 2,
+                  name: 'Services',
+                  item: 'https://wowgutters.co.uk/services/',
+                },
+                {
+                  '@type': 'ListItem',
+                  position: 3,
+                  name: service.name,
+                  item: `https://wowgutters.co.uk/services/${service.id}`,
+                },
+              ],
+            },
+          ],
         }}
       />
       <Head>
