@@ -106,9 +106,12 @@ export default function RootLayout({
       "See our ground-level vacuum gutter cleaning system in action. No ladders, no mess, before & after photo proof on every job. Serving Birmingham and the West Midlands.",
     "thumbnailUrl": "https://wowgutters.co.uk/gutter-cleaning.jpeg",
     "contentUrl": "https://wowgutters.co.uk/gutter-final-video.mp4",
+    "embedUrl": "https://wowgutters.co.uk/gutter-final-video.mp4",
+    "duration": "PT1M30S",
     "uploadDate": "2025-01-15",
     "publisher": {
       "@type": "Organization",
+      "@id": "https://wowgutters.co.uk/#business",
       "name": "WOW Gutters Ltd",
       "logo": {
         "@type": "ImageObject",

@@ -4,28 +4,13 @@ import { useState } from 'react';
 import { ChevronDown, MessageCircle, Phone, Mail, CheckCircle } from 'lucide-react';
 import Link from 'next/link';
 import type { CityGutterLandingFaq } from '@/constants/cityGutterLandingData';
-import SchemaMarkup from '@/components/seo/SchemaMarkup';
 
 export default function CityFAQ({ title, faqs }: { title: string; faqs: CityGutterLandingFaq[] }) {
   const [openIdx, setOpenIdx] = useState<number | null>(0);
 
   return (
     <>
-      <SchemaMarkup
-        id="schema-city-faqpage"
-        data={{
-          '@context': 'https://schema.org',
-          '@type': 'FAQPage',
-          mainEntity: faqs.map((faq) => ({
-            '@type': 'Question',
-            name: faq.question,
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: faq.answer,
-            },
-          })),
-        }}
-      />
+      {/* Note: FAQPage schema is included in the city page's @graph structure */}
       <section
         className="py-20 px-4 relative overflow-hidden"
         style={{ background: 'linear-gradient(135deg, #0d6e4e 0%, #19C58B 50%, #14B27D 100%)' }}
