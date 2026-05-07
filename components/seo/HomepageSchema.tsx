@@ -12,7 +12,7 @@ export default function HomepageSchema() {
 
   const organizationSchema = {
     "@context": "https://schema.org",
-    "@type": "HomeAndConstructionBusiness",
+    "@type": "LocalBusiness",
     "@id": "https://wowgutters.co.uk/#business",
     "name": "WOW Gutters Ltd",
     "description": "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, no ladders, 4-storey reach, same-day booking.",

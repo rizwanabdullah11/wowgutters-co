@@ -28,37 +28,124 @@ export const servicesData: ServiceDetail[] = [
     icon: '🌧️',
     heroImage: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1920',
     heroVideo: '/gutter-cleaning-video.mp4',
-    heroTitle: 'Professional Gutter Cleaning',
-    heroDescription: 'Get our top-rated gutter cleaning maintenance service, at a fantastic price, and completed by trusted gutter installation and maintenance service engineers, trained gutter experts drain unblocking, gutter repairs.',
+    heroTitle: 'Professional Gutter Cleaning Services',
+    heroDescription: 'Expert gutter cleaning across Birmingham and the West Midlands. Ground-level vacuum system, no ladders, up to 4-storey reach. Before & after photos, downpipe clearing included, 1-year guarantee. Same-day booking available.',
     sections: [
       {
-        title: 'How Often Should Gutters be Cleaned?',
-        content: 'The frequency of gutter cleaning depends on several factors, such as:',
-        image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800',
-        imagePosition: 'left',
+        title: 'Why Choose WOW Gutters for Gutter Cleaning?',
+        content: 'WOW Gutters uses a professional ground-level vacuum system to clean your gutters safely and thoroughly — no ladders placed against your property, no risk of fascia damage, and no mess left behind. Our high-reach equipment reaches up to 4 storeys, making us the ideal choice for homes, flats, and commercial buildings across Birmingham and the West Midlands.',
+        image: '/gutter-cleaning.jpeg',
+        imagePosition: 'right',
         bulletPoints: [
-          'The amount of tree cover around your property',
-          'The climate in your area',
-          'The slope of your roof'
+          'Ground-level vacuum system — no ladders, no damage to your property',
+          'Reaches up to 4 storeys high — suitable for all property types',
+          'Before & after photos sent directly to you as proof of work',
+          'Downpipe clearing and testing included as standard',
+          '1-year service guarantee on all gutter cleaning work',
+          'Fully insured with £10 million public liability cover'
         ]
       },
       {
-        title: 'Why Gutter Cleaning is Important',
-        content: 'When gutters are clogged, they can\'t channel water away from your property, which can lead to a range of problems, such as:',
-        image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800',
+        title: 'What\'s Included in Our Gutter Cleaning Service',
+        content: 'Every WOW Gutters cleaning service follows the same professional process, ensuring your gutters are completely clear and functioning properly:',
+        image: '/gutter-repair-after.jpeg',
+        imagePosition: 'left',
+        bulletPoints: [
+          'Full gutter vacuum clean — removes all leaves, moss, silt, and debris',
+          'Downpipe clearing and flow testing — we flush every downpipe to confirm water flows freely',
+          'Before & after photo documentation — visual proof of the work completed',
+          'Condition report — we flag any damage, leaks, or repairs needed (honest advice, no pressure)',
+          'Gutter inspection — we check brackets, joints, and alignment',
+          'Same-day or next-day service available in most areas'
+        ]
+      },
+      {
+        title: 'How Often Should Gutters Be Cleaned?',
+        content: 'Most UK homes need their gutters cleaned once or twice a year. The ideal frequency depends on your property and surroundings:',
+        image: '/blog2.png',
         imagePosition: 'right',
         bulletPoints: [
-          'Water damage to your property\'s foundation, walls, and roof',
-          'Pest infestations, such as bugs and rodents',
-          'Damage to your gutters due to the weight of debris and standing water'
+          'Once a year (autumn) — for properties with minimal tree coverage',
+          'Twice a year (spring & autumn) — for properties near trees or with heavy leaf fall',
+          'After storms — if you notice overflow or visible debris build-up',
+          'Before winter — to prevent freeze-thaw damage and ice formation',
+          'Commercial properties — quarterly cleaning recommended for planned maintenance'
+        ]
+      },
+      {
+        title: 'Why Regular Gutter Cleaning Matters',
+        content: 'Blocked gutters don\'t just overflow — they cause serious, expensive damage to your property. When gutters are clogged, water can\'t drain away properly, leading to:',
+        image: '/blog3.png',
+        imagePosition: 'left',
+        bulletPoints: [
+          'Damp and water damage — water runs down external walls, causing staining and penetration',
+          'Foundation damage — constant water pooling at the base of walls can cause subsidence',
+          'Fascia and soffit rot — standing water in gutters soaks timber behind the gutter line',
+          'Internal damp and mould — moisture ingress through walls and around windows',
+          'Pest infestations — standing water and debris attract insects, birds, and rodents',
+          'Gutter damage — the weight of wet debris can pull brackets loose and crack joints'
+        ]
+      },
+      {
+        title: 'Our Ground-Level Vacuum System',
+        content: 'Unlike traditional ladder-based gutter cleaning, our high-reach vacuum system allows us to clean your gutters from the ground — safer for our team, safer for your property, and more thorough than hand-scooping debris.',
+        image: '/Professional-experience.png',
+        imagePosition: 'right',
+        bulletPoints: [
+          'No ladders against your property — zero risk of fascia damage or wall marks',
+          'Reaches up to 4 storeys (approximately 12 metres) — suitable for most UK properties',
+          'Camera inspection available — we can show you the inside of your gutters before and after',
+          'Works on conservatory gutters — we can reach gutters over extensions and porches',
+          'All debris collected — nothing falls on your garden, driveway, or patio',
+          'Faster and more efficient — we complete most domestic properties in 30–60 minutes'
+        ]
+      },
+      {
+        title: 'Gutter Cleaning Prices',
+        content: 'Our gutter cleaning prices are transparent and fixed before we start work — no hidden fees, no surprises on the day. Pricing depends on property size, gutter length, and access:',
+        image: '/gutter-cleaning.jpeg',
+        imagePosition: 'left',
+        bulletPoints: [
+          'Terraced houses — from £50',
+          'Semi-detached houses — from £60',
+          'Detached houses — from £80',
+          'Bungalows — from £50',
+          'Flats and apartments — from £60 (up to 4 storeys)',
+          'Commercial properties — quoted individually based on size and access'
+        ]
+      },
+      {
+        title: 'Areas We Cover',
+        content: 'WOW Gutters provides professional gutter cleaning services across Birmingham, the West Midlands, and Worcestershire. We cover all major towns and cities including:',
+        image: '/blog4.png',
+        imagePosition: 'right',
+        bulletPoints: [
+          'Birmingham and all surrounding areas',
+          'Solihull, Sutton Coldfield, and Walsall',
+          'Wolverhampton, Dudley, and West Bromwich',
+          'Coventry and Warwickshire',
+          'Worcester, Bromsgrove, and Redditch',
+          'Plus many more towns and villages — call us to check if we cover your area'
+        ]
+      },
+      {
+        title: 'What Our Customers Say',
+        content: 'WOW Gutters is rated 4.9 out of 5 based on over 2,696 verified Google reviews. Our customers consistently praise our professionalism, quality of work, and transparent pricing.',
+        image: '/blog5.png',
+        imagePosition: 'left',
+        bulletPoints: [
+          '"Excellent service, arrived on time and did a thorough job. The before and after photos were brilliant." — Mark M., Birmingham',
+          '"Highly recommended. Friendly service and the gutters are now flowing perfectly." — Neil G., Birmingham',
+          '"Great value for money. No mess, no fuss, and the team were very professional." — Graham B., Sutton Coldfield',
+          '"I was impressed by how quickly they worked and how clean they left everything." — Sarah T., Solihull'
         ]
       }
     ],
     ctaSection: {
-      title: '"GUTTER CLEANING NEAR ME"',
-      description: 'Are you searching for "gutter cleaning near me?" WOW has got you covered! Gutters are an important part of any property, protecting your foundation, walls, and roof from water damage.',
+      title: 'Book Your Gutter Clean Today',
+      description: 'Get a free, no-obligation quote in 60 seconds. Same-day and next-day appointments available across Birmingham and the West Midlands. Call us now on 07421 433910 or request a quote online.',
       phone: '07421 433910',
-      buttonText: 'Get A Quote'
+      buttonText: 'Get A Free Quote'
     }
   },
   {

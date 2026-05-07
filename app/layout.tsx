@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     default: "WOW Gutters | Gutter Cleaning & Roofline Services",
     template: "%s | WOW Gutters"
   },
-  description: "Professional gutter cleaning, repairs, inspections, roof cleaning and exterior cleaning. Fast quotes and same-day booking from WOW Gutters.",
+  description: "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, repairs, inspections, roof cleaning. Fast quotes and same-day booking from WOW Gutters.",
   icons: {
     icon: [
       { url: "/favicon.png", type: "image/png" },
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     url: "https://wowgutters.co.uk",
     siteName: "WOW Gutters",
     title: "WOW Gutters | Gutter Cleaning & Roofline Services",
-    description: "Professional gutter cleaning, repairs, inspections, roof cleaning and exterior cleaning. Fast quotes and same-day booking from WOW Gutters.",
+    description: "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, repairs, inspections, roof cleaning. Fast quotes and same-day booking from WOW Gutters.",
     images: [
       {
         url: "/og/default.jpg",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "WOW Gutters | Gutter Cleaning & Roofline Services",
-    description: "Professional gutter cleaning, repairs, inspections, roof cleaning and exterior cleaning. Fast quotes and same-day booking from WOW Gutters.",
+    description: "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, repairs, inspections, roof cleaning. Fast quotes and same-day booking from WOW Gutters.",
     images: ["/og/default.jpg"],
   },
   verification: {
