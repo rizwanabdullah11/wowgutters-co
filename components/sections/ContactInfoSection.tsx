@@ -1,26 +1,34 @@
 'use client';
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import logo from '@/assets/wow-gutters-logo1.png';
 import { Phone, Mail, Facebook, Youtube, Twitter, Instagram, MessageCircle, Search, FileText, HelpCircle, MapPin, Map, Navigation } from 'lucide-react';
+import { getFormattedBusinessHours } from '@/lib/businessHours';
 
 export default function ContactInfoSection() {
   const [searchQuery, setSearchQuery] = useState('');
+  const router = useRouter();
+  
   const addressLine1 = (process.env.NEXT_PUBLIC_BUSINESS_ADDRESS_LINE1 || '').trim();
   const addressLine2 = (process.env.NEXT_PUBLIC_BUSINESS_ADDRESS_LINE2 || '').trim();
   const addressCity = (process.env.NEXT_PUBLIC_BUSINESS_CITY || '').trim();
   const addressPostcode = (process.env.NEXT_PUBLIC_BUSINESS_POSTCODE || '').trim();
   const fullAddress = [addressLine1, addressLine2, addressCity, addressPostcode].filter(Boolean).join(', ');
 
-  const openingTimes = [
-    { day: 'Sunday', hours: '10:00am – 6:00pm' },
-    { day: 'Monday', hours: '7:00am – 8:00pm' },
-    { day: 'Tuesday', hours: '7:00am – 8:00pm' },
-    { day: 'Wednesday', hours: '7:00am – 8:00pm' },
-    { day: 'Thursday', hours: '7:00am – 8:00pm' },
-    { day: 'Friday', hours: '7:00am – 8:00pm' },
-    { day: 'Saturday', hours: '9:00am – 6:00pm' }
-  ];
+  // Get dynamic opening times
+  const openingTimes = getFormattedBusinessHours();
+
+  // Handle search submission
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      // Convert search query to URL-friendly slug
+      const slug = searchQuery.toLowerCase().trim().replace(/\s+/g, '-');
+      router.push(`/gutter-cleaning-${slug}`);
+    }
+  };
 
   return (
     <section className="contact-info-section">
@@ -93,12 +101,16 @@ export default function ContactInfoSection() {
           
           {/* Quick buttons */}
           <div className="contact-quick-actions">
-            <button className="contact-quick-btn">
-              <FileText className="w-5 h-5" /> Fast Quote
-            </button>
-            <button className="contact-quick-btn">
-              <HelpCircle className="w-5 h-5" /> Help Centre
-            </button>
+            <Link href="/quote">
+              <button className="contact-quick-btn">
+                <FileText className="w-5 h-5" /> Fast Quote
+              </button>
+            </Link>
+            <Link href="/help">
+              <button className="contact-quick-btn">
+                <HelpCircle className="w-5 h-5" /> Help Centre
+              </button>
+            </Link>
           </div>
         </div>
 
@@ -106,16 +118,13 @@ export default function ContactInfoSection() {
         <div className="contact-times-col">
           <h3 className="times-title">Opening Hours</h3>
           <div className="times-list">
-            {openingTimes.map((time, index) => {
-              const isToday = index === new Date().getDay();
-              return (
-                <div key={index} className={`time-row ${isToday ? 'time-row-today' : ''}`}>
-                  <span className="time-day">{time.day}</span>
-                  <span className="time-hours">{time.hours}</span>
-                  {isToday && <span className="time-badge">Open Today</span>}
-                </div>
-              );
-            })}
+            {openingTimes.map((time, index) => (
+              <div key={index} className={`time-row ${time.isToday ? 'time-row-today' : ''}`}>
+                <span className="time-day">{time.day}</span>
+                <span className="time-hours">{time.hours}</span>
+                {time.isToday && <span className="time-badge">Open Today</span>}
+              </div>
+            ))}
           </div>
         </div>
 
@@ -133,16 +142,18 @@ export default function ContactInfoSection() {
             </div>
             
             <div className="search-input-wrap">
-              <input
-                type="text"
-                placeholder="E.g. your town..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="search-input"
-              />
-              <button className="search-submit">
-                <Search className="w-5 h-5" />
-              </button>
+              <form onSubmit={handleSearch}>
+                <input
+                  type="text"
+                  placeholder="E.g. your town..."
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  className="search-input"
+                />
+                <button type="submit" className="search-submit">
+                  <Search className="w-5 h-5" />
+                </button>
+              </form>
             </div>
             
             <div className="search-illustration">

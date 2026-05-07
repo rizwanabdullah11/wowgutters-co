@@ -4,12 +4,18 @@ import { colors } from '@/constants/colors';
 const BIRMINGHAM_MAP_EMBED_SRC =
   'https://www.openstreetmap.org/export/embed.html?bbox=-1.995%2C52.385%2C-1.785%2C52.595&layer=mapnik&marker=52.4862%2C-1.8904';
 
+/** Generic West Midlands map covering service area */
+const DEFAULT_MAP_EMBED_SRC =
+  'https://www.openstreetmap.org/export/embed.html?bbox=-2.3%2C52.2%2C-1.5%2C52.8&layer=mapnik&marker=52.4862%2C-1.8904';
+
 type AreaContactMapProps = {
-  /** Use Birmingham-centred map instead of generic placeholder. */
+  /** Use Birmingham-centred map or default West Midlands map. */
   variant?: 'default' | 'birmingham';
 };
 
 export default function AreaContactMap({ variant = 'default' }: AreaContactMapProps) {
+  const mapSrc = variant === 'birmingham' ? BIRMINGHAM_MAP_EMBED_SRC : DEFAULT_MAP_EMBED_SRC;
+  
   return (
     <section className="relative overflow-hidden w-full flex flex-col">
       <div
@@ -42,17 +48,16 @@ export default function AreaContactMap({ variant = 'default' }: AreaContactMapPr
         </a>
       </div>
 
-      {variant === 'birmingham' ? (
-        <div className="w-full h-[400px] sm:h-[420px] bg-[#e8efe8] border-t border-slate-200">
-          <iframe
-            title="WOW Gutters — Birmingham service area map"
-            src={BIRMINGHAM_MAP_EMBED_SRC}
-            className="w-full h-full border-0"
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
-        </div>
-      ) : null}
+      {/* Map Section - Always show map */}
+      <div className="w-full h-[400px] sm:h-[420px] bg-[#e8efe8] border-t border-slate-200">
+        <iframe
+          title={`WOW Gutters — ${variant === 'birmingham' ? 'Birmingham' : 'West Midlands'} service area map`}
+          src={mapSrc}
+          className="w-full h-full border-0"
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      </div>
     </section>
   );
 }
