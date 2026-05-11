@@ -4,6 +4,10 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'SEO Audit & Performance',
   description: 'View our website performance metrics, SEO audit results, and technical optimizations for WOW Gutters.',
+  robots: {
+    index: false,
+    follow: false,
+  },
   alternates: {
     canonical: 'https://wowgutters.co.uk/audit/',
   },

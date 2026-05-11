@@ -37,11 +37,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     return route.endsWith('/') ? `${baseUrl}${route}` : `${baseUrl}${route}/`;
   };
 
-  // Static pages
+  // Static pages (excluding noindex pages: audit, dashboard, navbar, citations, home-screen, testimonials)
   const staticPages = [
     '',
     '/about',
-    '/audit',
     '/contact',
     '/services',
     '/pricing',
@@ -57,7 +56,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/gutter-cleaning-prices',
     '/neighbourhood-discount',
     '/oap-discount',
-    '/quote',
   ];
 
   const legalPages = [
@@ -181,10 +179,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
+  // Help pages (excluding inspect and repair which have noindex)
   const helpSlugs = [
-    'inspect',
     'unblock',
-    'repair',
     'clean',
     ...servicesData.map((s) => s.id),
   ];

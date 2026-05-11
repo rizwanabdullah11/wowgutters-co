@@ -1,16 +1,14 @@
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Blog | WOW Gutters - Expert Gutter Maintenance & Tips',
-  description: 'Explore the WOW Gutters blog for professional gutter cleaning tips, maintenance guides, and industry insights to protect your UK property from water damage.',
-  openGraph: {
-    title: 'WOW Gutters Blog | Professional Gutter Advice',
-    description: 'Expert advice and maintenance tips to help you protect your property from the elements.',
-    type: 'website',
+  title: 'Gutter Cleaning Blog | Tips & Guides | WOW Gutters',
+  description: 'Expert advice on gutter cleaning, maintenance, and repairs. Read our blog for tips on keeping your gutters in top condition.',
+  alternates: {
+    canonical: 'https://wowgutters.co.uk/blog/',
   },
 };
 
-export default function BlogLayout({
+export default function BlogLayoutWrapper({
   children,
 }: {
   children: React.ReactNode;

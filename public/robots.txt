@@ -3,10 +3,16 @@
 User-agent: *
 Allow: /
 
-# Exclude quote and help pages from indexing
+# Exclude internal and duplicate pages from indexing
 Disallow: /quote/*
 Disallow: /help/inspect
 Disallow: /help/repair
+Disallow: /dashboard
+Disallow: /navbar
+Disallow: /audit
+Disallow: /citations
+Disallow: /home-screen
+Disallow: /testimonials
 
 # Sitemap
 Sitemap: https://wowgutters.co.uk/sitemap.xml

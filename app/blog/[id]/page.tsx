@@ -27,9 +27,14 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
     };
   }
 
+  const canonicalUrl = `https://wowgutters.co.uk/blog/${id}`;
+
   return {
-    title: `${post.title} | WOW Gutters Blog`,
+    title: `${post.title}`,
     description: post.excerpt,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: post.title,
       description: post.excerpt,
@@ -37,6 +42,7 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
       type: 'article',
       publishedTime: post.date,
       authors: [post.author || 'WOW Gutter Experts'],
+      url: canonicalUrl,
     },
     twitter: {
       card: 'summary_large_image',
