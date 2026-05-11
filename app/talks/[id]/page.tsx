@@ -5,6 +5,7 @@ import { Calendar, User, Clock, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { talksData } from '@/constants/talksData';
+import { Metadata } from 'next';
 
 interface TalkPageProps {
   params: Promise<{
@@ -16,6 +17,35 @@ export async function generateStaticParams() {
   return talksData.map((talk) => ({
     id: talk.id,
   }));
+}
+
+export async function generateMetadata(props: TalkPageProps): Promise<Metadata> {
+  const params = await props.params;
+  const talk = talksData.find(t => t.id === params.id);
+
+  if (!talk) {
+    return {
+      title: 'Talk Not Found | WOW Gutters',
+      description: 'The requested talk could not be found.'
+    };
+  }
+
+  const canonicalUrl = `https://wowgutters.co.uk/talks/${params.id}`;
+
+  return {
+    title: `${talk.title}`,
+    description: talk.excerpt,
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: talk.title,
+      description: talk.excerpt,
+      images: [talk.image],
+      type: 'article',
+      url: canonicalUrl,
+    },
+  };
 }
 
 export default async function TalkPage(props: TalkPageProps) {

@@ -34,12 +34,16 @@ export async function generateMetadata(
   { params }: PageProps
 ): Promise<Metadata> {
   const { slug } = await params;
+  const canonicalUrl = `https://wowgutters.co.uk/help/${slug}`;
   
   if (slug === 'inspect') {
     return {
       title: 'Free Gutter Inspection Help | WOW Gutter Cleaning',
       description:
         'Get help booking a free gutter inspection and quote. Find out what we check and how the process works.',
+      alternates: {
+        canonical: canonicalUrl,
+      },
       robots: {
         index: false,
         follow: false,
@@ -52,6 +56,9 @@ export async function generateMetadata(
       title: 'Gutter Cleaning & Unblocking Service | WOW Gutter Cleaning',
       description:
         'Professional gutter cleaning and unblocking to clear debris and keep rainwater flowing away from your home.',
+      alternates: {
+        canonical: canonicalUrl,
+      },
     };
   }
   
@@ -60,6 +67,9 @@ export async function generateMetadata(
       title: 'Expert Gutter Repair Service | WOW Gutter Cleaning',
       description:
         'Expert gutter repair service to fix leaks, sagging and damage and protect your property from water problems.',
+      alternates: {
+        canonical: canonicalUrl,
+      },
       robots: {
         index: false,
         follow: false,
@@ -72,6 +82,9 @@ export async function generateMetadata(
       title: 'Roof & Exterior Cleaning Service | WOW Gutter Cleaning',
       description:
         'Specialist roof and exterior cleaning to remove moss, algae and dirt and keep your home looking its best.',
+      alternates: {
+        canonical: canonicalUrl,
+      },
     };
   }
 
@@ -87,6 +100,9 @@ export async function generateMetadata(
   return {
     title: `Help with ${service.name} | WOW Gutter Cleaning`,
     description: service.heroDescription,
+    alternates: {
+      canonical: canonicalUrl,
+    },
   };
 }
 

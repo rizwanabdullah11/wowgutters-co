@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   description:
     'Official business information for WOW Gutters Ltd (NAP). Use these details for local citations, directories, and partner listings.',
   alternates: { canonical: `${SITE_URL}/citations` },
-  robots: { index: true, follow: true },
+  robots: { index: false, follow: false },
 };
 
 export default function CitationsPage() {

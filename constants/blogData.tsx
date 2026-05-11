@@ -17,6 +17,97 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 'gutter-repairs-guide',
+    title: 'Gutter Repairs: How to Spot Damage Early (Plus Before/After & Video)',
+    excerpt: 'Leaking joints, sagging sections, and broken brackets don\'t just look bad — they can cause damp, staining, and expensive water damage. Here\'s how to spot common gutter problems early, what a professional repair includes, and real before/after media from WOW Gutters.',
+    image: '/gutter-repair-after.jpeg',
+    heroVideo: '/gutter-repair%20(2).mp4',
+    date: '2026-04-27',
+    lastUpdated: '2026-04-30',
+    views: '9,999',
+    author: 'WOW Gutter Experts',
+    authorRole: 'Gutter Repair Specialists at WOW Gutters',
+    category: 'Repairs',
+    quickAnswer: 'Most gutter problems start with small leaks at joints, loose brackets, or a bad fall (slope). If you see dripping seams, overflow in light rain, or gutters pulling away from the fascia, book repairs early \u2014 it\'s usually far cheaper than fixing damp, rotten fascia boards, or damaged brickwork later.',
+    content: `
+      <h2>Gutter Repairs: The Warning Signs Most Homeowners Miss</h2>
+      <p>Gutters fail slowly. The early signs are easy to ignore — until your walls stain, your fascia boards soften, or you start seeing damp patches internally.</p>
+
+      <h3>Common gutter repair problems</h3>
+      <ul>
+        <li><strong>Leaking joints:</strong> Failed seals, cracked connectors, or small gaps that drip constantly.</li>
+        <li><strong>Sagging gutters:</strong> Loose or broken brackets cause standing water and extra weight.</li>
+        <li><strong>Poor fall (slope):</strong> Water pools instead of flowing to the downpipe.</li>
+        <li><strong>Cracks and holes:</strong> Weathering, impacts, or old repairs that have failed.</li>
+      </ul>
+
+      <h2>How to tell if your gutters need repair (fast checks)</h2>
+      <ul>
+        <li><strong>Drips from seams:</strong> Water dripping from joints even after rain has stopped.</li>
+        <li><strong>Overflow in light rain:</strong> If it overflows quickly, you likely have a blockage or poor fall.</li>
+        <li><strong>Gutters pulling away:</strong> A visible gap between gutter and fascia is usually bracket failure or rotten timber.</li>
+        <li><strong>Staining on brickwork:</strong> Green or black marks under the gutter line often mean persistent leakage.</li>
+        <li><strong>Pooling water:</strong> Standing water inside the run is a slope/alignment issue.</li>
+      </ul>
+
+      <h2>Why gutter repairs matter (what damage looks like later)</h2>
+      <p>A small leak can soak the same patch of wall over and over again. Over time, this can cause:</p>
+      <ul>
+        <li><strong>Damp patches:</strong> moisture ingress around windows and inside corners</li>
+        <li><strong>Rotten fascia boards:</strong> timber behind the gutter becomes soft and fails to hold brackets</li>
+        <li><strong>Foundation splashback:</strong> constant water at the base of the wall can lead to erosion and rising damp</li>
+        <li><strong>Internal mould:</strong> persistent damp increases mould risk, especially in colder months</li>
+      </ul>
+
+      <h2>Before &amp; After: Real Repair Results</h2>
+      <p>Here's a quick example of a damaged gutter line before repair and the finished result after our team restored the system.</p>
+      <img src="/gutter-repair-before.png" alt="Gutter before repair" />
+      <img src="/gutter-repair-after.jpeg" alt="Gutter after repair" />
+
+      <h2>What causes gutter leaks and sagging?</h2>
+      <ul>
+        <li><strong>Age &amp; UV exposure:</strong> uPVC expands/contracts and seals harden over time.</li>
+        <li><strong>Debris weight:</strong> wet leaves and silt add weight, pulling brackets loose.</li>
+        <li><strong>Bad alignment:</strong> incorrect fall causes water to sit in the gutter run.</li>
+        <li><strong>Storm movement:</strong> wind can twist joints and loosen fixings.</li>
+        <li><strong>DIY patch repairs:</strong> surface silicone often fails and traps more debris.</li>
+      </ul>
+
+      <h2>What a professional gutter repair usually includes</h2>
+      <ul>
+        <li><strong>Joint reseal or replacement:</strong> Correct seals and connectors (not just surface silicone).</li>
+        <li><strong>Bracket replacement:</strong> Re-secure sagging runs and set the correct alignment.</li>
+        <li><strong>Flow test:</strong> Confirm water runs cleanly to the downpipe.</li>
+        <li><strong>Advice:</strong> What caused the problem and how to prevent it returning.</li>
+      </ul>
+
+      <h2>How much do gutter repairs cost in the UK?</h2>
+      <p>Repair pricing depends on access, how many joints/brackets are affected, and whether any section needs replacing. In most cases, fixing a leak or sag early is far cheaper than replacing damaged fascias or repainting stained walls.</p>
+
+      <h2>DIY vs professional repairs</h2>
+      <p>Minor clearing at ground level can help, but working at height is risky and many "quick fixes" fail. A professional repair focuses on the <strong>root cause</strong> (seal failure, bracket spacing, fall angle, section movement) rather than just covering symptoms.</p>
+
+      <h2>How to prevent repairs in future</h2>
+      <ul>
+        <li><strong>Clear debris:</strong> keep gutters free of leaves and silt before heavy rain season.</li>
+        <li><strong>Check after storms:</strong> a quick visual check catches loose brackets early.</li>
+        <li><strong>Keep downpipes flowing:</strong> partial blockages increase back-pressure at joints.</li>
+        <li><strong>Don't ignore small drips:</strong> slow leaks cause the most hidden damage.</li>
+      </ul>
+
+      <h2>Gutter repair FAQ</h2>
+      <h3>Can leaking joints be repaired without replacing the gutter?</h3>
+      <p>Often yes. Many leaks are seal/joint related and can be repaired by resealing or replacing connectors.</p>
+      <h3>Why do my gutters overflow even after cleaning?</h3>
+      <p>Overflow can be caused by poor fall, a partially blocked downpipe, or a sag point where water pools and spills.</p>
+      <h3>How quickly should I repair sagging gutters?</h3>
+      <p>As soon as possible. Sagging holds water, adds weight, and accelerates bracket failure.</p>
+
+      <h2>Need a quote?</h2>
+      <p>If your gutters are leaking, overflowing, or pulling away from the house, it's worth fixing early. WOW Gutters can advise and repair quickly with a clear quote.</p>
+    `
+  },
+  {
     id: 'dome-cleaning-service-wow-gutters',
     title: 'Dome Cleaning Service: Restoring Temples, Mosques & Commercial Domes Across the UK',
     excerpt: 'Is the dome on your religious building, commercial property, or residence looking green, grimy, or stained? WOW Gutters Ltd offers a specialist dome cleaning service — reaching up to 6 storeys high with zero ladders, zero risk, and guaranteed visible results.',
@@ -174,6 +265,75 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Need a quote?</h2>
       <p>If your gutters are leaking, overflowing, or pulling away from the house, it’s worth fixing early. WOW Gutters can advise and repair quickly with a clear quote.</p>
+    `
+  },
+  {
+    id: 'dome-cleaning-service-wow-gutters',
+    title: 'Dome Cleaning Service: Restoring Temples, Mosques & Commercial Domes Across the UK',
+    excerpt: 'Is the dome on your religious building, commercial property, or residence looking green, grimy, or stained? WOW Gutters Ltd offers a specialist dome cleaning service — reaching up to 6 storeys high with zero ladders, zero risk, and guaranteed visible results.',
+    image: '/Blog.png',
+    date: '2026-03-31',
+    lastUpdated: '2026-04-15',
+    views: '1,875',
+    author: 'WOW Gutter Experts',
+    authorRole: 'Senior Gutter & Exterior Specialists at WOW Gutters',
+    category: 'Specialist Services',
+    quickAnswer: 'Dome cleaning safely removes moss, algae and pollution stains from domes up to 6 storeys high using ground-level soft-wash vacuum systems — no ladders or scaffolding required. WOW Gutters uses eco-friendly biocides that kill biological growth at the spore level, delivering long-lasting, damage-free results on religious, commercial and heritage buildings across the UK.',
+    content: `
+      <h2>Professional Dome Cleaning — Safely Restored to Its Former Glory</h2>
+      <p>A dome is more than a structural feature — it's a statement of heritage, pride, and architectural beauty. Whether it crowns a mosque, temple, church, or a modern commercial building, a dome that has been neglected quickly becomes covered in unsightly moss, algae, grey streaks, and biological staining.</p>
+
+      <p>At <strong>WOW Gutters Ltd</strong>, we've developed a specialist dome cleaning service that delivers stunning, visible results — safely, efficiently, and without a single ladder touching your building.</p>
+
+      <img src="/Blog.png" alt="Before and after dome cleaning by WOW Gutters Ltd — removing moss and algae stains from a religious building dome" />
+
+      <h2>Why Dome Cleaning Is Not a DIY Job</h2>
+      <p>The curved, elevated surface of a dome presents a unique challenge that standard cleaning methods simply cannot address:</p>
+      <ul>
+        <li><strong>Extreme Height:</strong> Most domes start where standard ladders end. Working at 4–6 storeys without the right equipment is extremely dangerous and illegal without proper risk assessment.</li>
+        <li><strong>Curved Architecture:</strong> Traditional pressure washing can damage the surface finish or force water under sealant layers on a dome's curved panels.</li>
+        <li><strong>Specialised Contamination:</strong> Domes accumulate a unique mix of biological growth (algae, lichen, moss) combined with urban pollution deposits that require targeted treatment, not just high-pressure water.</li>
+        <li><strong>Delicate Cultural & Religious Significance:</strong> Many domes belong to places of worship or listed buildings. An aggressive or incorrect approach risks permanent damage to irreplaceable structures.</li>
+      </ul>
+
+      <h2>Our Ladder-Free, High-Reach Dome Cleaning Method</h2>
+      <p>WOW Gutters uses the same cutting-edge technology that has made us one of the UK's most trusted exterior cleaning specialists. Our <strong>specialist vacuum and soft wash system</strong> is designed to reach impossible heights while keeping your structure — and our team — completely safe.</p>
+      <ul>
+        <li><strong>High-Reach Capability:</strong> Our equipment reaches up to <strong>6 storeys high</strong> — all operated from ground level. No scaffolding, no cherry pickers, no ladders.</li>
+        <li><strong>Soft Wash Technology:</strong> We don't just blast water at your dome. We use a carefully calibrated soft wash technique that dissolves biological growth at the root, preventing it from returning quickly.</li>
+        <li><strong>Targeted Moss & Algae Removal:</strong> Our eco-friendly biocide treatments kill moss, algae, and lichen at the spore level, giving you a result that lasts months, not days.</li>
+        <li><strong>No Damage to Your Building:</strong> Because we never press heavy equipment against your dome, there's no risk of cracked tiles, bent metalwork, or displaced panels.</li>
+      </ul>
+
+      <h2>Before & After: The WOW Difference</h2>
+      <p>We take <strong>dated, high-resolution photographs</strong> before we begin and again when we finish. This isn't just for your confidence — it's our standard of accountability. You will see exactly what was removed and how your dome looks once restored. No guesswork, no vague promises — just crystal-clear evidence of the transformation.</p>
+
+      <h2>Who Is This Service For?</h2>
+      <p>Our dome cleaning service is ideal for a wide range of properties and building owners across the UK:</p>
+      <ul>
+        <li><strong>Religious Buildings:</strong> Mosques, temples, churches, gurdwaras, and mandirs. We understand the cultural and spiritual significance of these structures and treat them with the utmost respect.</li>
+        <li><strong>Commercial & Civic Properties:</strong> Council buildings, entertainment venues, shopping centres, and hotels with architectural dome features.</li>
+        <li><strong>Residential Properties:</strong> Grand homes with conservatory domes, orangeries, or decorative roof domes.</li>
+        <li><strong>Heritage & Listed Buildings:</strong> Our gentle soft-wash approach is safe for historic materials including stone, render, GRP fibreglass, and UPVC.</li>
+      </ul>
+
+      <h2>Transparent Pricing & Free Quotes</h2>
+      <p>We believe in honest, upfront pricing. After a quick site assessment (which we can often complete remotely using your photos), we provide a <strong>no-obligation fixed quote</strong> — no hidden call-out fees, no surprises on the day.</p>
+      <p>The cost of a dome cleaning service varies based on:</p>
+      <ul>
+        <li>The diameter and height of the dome</li>
+        <li>The level of biological growth and staining</li>
+        <li>The surface material (GRP, stone, render, tile)</li>
+        <li>Any additional restoration work required</li>
+      </ul>
+      <p>We accept cash, card, and bank transfer — and all our work is backed by full public liability insurance for your complete peace of mind.</p>
+
+      <h2>Same Day Booking & Certified Professionals</h2>
+      <p>WOW Gutters Ltd is fully bonded and carries comprehensive public liability insurance. Our team is trained and certified in safe working practices for high-reach exterior cleaning, and we conduct a full risk assessment before any dome cleaning project begins. You're in safe hands from the first call to the final photo.</p>
+
+      <h2>Get Your Dome Restored Today</h2>
+      <p>Don't let years of grime diminish the beauty and dignity of your building's most prominent feature. Whether your dome is green with algae or black with pollution, our team can restore it — safely, efficiently, and to a standard you'll be proud to show off.</p>
+      <p>Contact WOW Gutters Ltd for a free, no-obligation quote and discover why property owners across the UK trust us with their most challenging exterior cleaning projects.</p>
     `
   },
   {

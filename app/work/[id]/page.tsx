@@ -3,6 +3,7 @@ import { workPosts } from '@/constants/workData';
 import { colors } from '@/constants/colors';
 import { Calendar, User, Eye, ArrowLeft, MapPin, Briefcase } from 'lucide-react';
 import Link from 'next/link';
+import { Metadata } from 'next';
 
 interface WorkPageProps {
   params: Promise<{
@@ -14,6 +15,36 @@ export async function generateStaticParams() {
   return workPosts.map((post) => ({
     id: post.id,
   }));
+}
+
+export async function generateMetadata(props: WorkPageProps): Promise<Metadata> {
+  const params = await props.params;
+  const { id } = params;
+  const post = workPosts.find(p => p.id === id);
+
+  if (!post) {
+    return {
+      title: 'Project Not Found | WOW Gutters',
+      description: 'The requested project could not be found.'
+    };
+  }
+
+  const canonicalUrl = `https://wowgutters.co.uk/work/${id}`;
+
+  return {
+    title: `${post.title}`,
+    description: post.excerpt,
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      images: [post.image],
+      type: 'article',
+      url: canonicalUrl,
+    },
+  };
 }
 
 export default async function WorkPostPage(props: WorkPageProps) {
