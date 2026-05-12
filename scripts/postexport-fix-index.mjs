@@ -154,6 +154,14 @@ RewriteRule ^home-screen/?$ / [R=301,L]
 # Legacy /areas/{city}/ → canonical /gutter-cleaning-{city}/
 RewriteRule ^areas/([a-zA-Z0-9-]+)/?$ gutter-cleaning-$1/ [R=301,L]
 
+# Return 410 Gone for out-of-area doorway pages (tells Google they're permanently removed)
+RewriteRule ^roof-cleaning-gunnislake/?$ - [G,L]
+RewriteRule ^gutter-cleaning-lytham-st-annes/?$ - [G,L]
+RewriteRule ^gutter-cleaning-whittingham/?$ - [G,L]
+RewriteRule ^gutter-cleaning-london/?$ - [G,L]
+RewriteRule ^gutter-cleaning-callington/?$ - [G,L]
+RewriteRule ^gutter-cleaning-wendover/?$ - [G,L]
+
 # Never rewrite Next.js client bundles — must load as real files with correct MIME type
 RewriteCond %{REQUEST_URI} /_next/
 RewriteRule ^ - [L]

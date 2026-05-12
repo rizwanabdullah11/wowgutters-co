@@ -14,5 +14,13 @@ Disallow: /citations
 Disallow: /home-screen
 Disallow: /testimonials
 
+# Block out-of-area doorway pages (outside West Midlands service area)
+Disallow: /roof-cleaning-gunnislake
+Disallow: /gutter-cleaning-lytham-st-annes
+Disallow: /gutter-cleaning-whittingham
+Disallow: /gutter-cleaning-london
+Disallow: /gutter-cleaning-callington
+Disallow: /gutter-cleaning-wendover
+
 # Sitemap
 Sitemap: https://wowgutters.co.uk/sitemap.xml
