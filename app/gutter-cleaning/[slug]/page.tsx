@@ -17,15 +17,36 @@ interface PageProps {
 
 const slugSet = new Set(AREA_SLUGS);
 
+// Out-of-area doorway pages (outside West Midlands service area) - NOINDEX
+const OUT_OF_AREA_SLUGS = [
+  'gunnislake',
+  'lytham-st-annes',
+  'whittingham',
+  'london',
+  'callington',
+  'wendover',
+];
+
 export async function generateStaticParams() {
   return AREA_SLUGS.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;
+  
+  // Check if this is an out-of-area doorway page - return noindex
+  const isOutOfArea = OUT_OF_AREA_SLUGS.includes(params.slug);
+  
   if (!slugSet.has(params.slug)) {
-    return { title: 'Not found' };
+    return { 
+      title: 'Not found',
+      robots: {
+        index: false,
+        follow: false,
+      },
+    };
   }
+  
   const areaName = params.slug
     .split('-')
     .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
@@ -37,6 +58,10 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       description:
         'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
       canonicalPath: areaPath(params.slug),
+      robots: isOutOfArea ? {
+        index: false,
+        follow: true,
+      } : undefined,
     });
   }
 
@@ -46,6 +71,10 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       absoluteTitle: cityLanding.titleTag,
       description: cityLanding.metaDescription,
       canonicalPath: areaPath(params.slug),
+      robots: isOutOfArea ? {
+        index: false,
+        follow: true,
+      } : undefined,
     });
   }
 
@@ -53,6 +82,10 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     title: `Gutter Cleaning ${areaName}`,
     description: `Professional gutter cleaning and repair services in ${areaName} and surrounding areas. Get a free quote today!`,
     canonicalPath: areaPath(params.slug),
+    robots: isOutOfArea ? {
+      index: false,
+      follow: true,
+    } : undefined,
   });
 }
 

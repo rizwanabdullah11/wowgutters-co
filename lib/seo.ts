@@ -9,6 +9,7 @@ type BuildMetadataInput = {
   canonicalPath?: string; // e.g. "/services/gutter-cleaning"
   ogImagePath?: string; // default: "/assets/wow-gutter-logo2.png"
   noindex?: boolean; // Prevent search engines from indexing this page
+  robots?: Metadata['robots']; // Custom robots configuration (overrides noindex if provided)
 };
 
 function toAbsoluteUrl(pathname: string) {
@@ -41,16 +42,22 @@ export function buildMetadata(input: BuildMetadataInput): Metadata {
     ? { absolute: input.absoluteTitle }
     : input.title ?? 'WOW Gutters';
 
+  // Determine robots configuration: custom robots > noindex > undefined
+  let robotsConfig: Metadata['robots'] = undefined;
+  if (input.robots) {
+    robotsConfig = input.robots;
+  } else if (input.noindex) {
+    robotsConfig = {
+      index: false,
+      follow: false,
+    };
+  }
+
   return {
     title: titleField,
     description: input.description,
     alternates: canonical ? { canonical } : undefined,
-    robots: input.noindex
-      ? {
-          index: false,
-          follow: false,
-        }
-      : undefined,
+    robots: robotsConfig,
     openGraph: {
       title: titleForTags,
       description: input.description,
