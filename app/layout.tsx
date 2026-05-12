@@ -123,6 +123,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Cookiebot - Cookie Consent Management */}
+        <script
+          id="Cookiebot"
+          src="https://consent.cookiebot.com/uc.js"
+          data-cbid="90235ab0-b3ea-4224-a9f3-a1c438800254"
+          data-blockingmode="auto"
+          type="text/javascript"
+          dangerouslySetInnerHTML={{ __html: '' }}
+        />
+        
         {/* Bing Webmaster Verification */}
         {bingVerificationCode ? (
           <meta name="msvalidate.01" content={bingVerificationCode} />

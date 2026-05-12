@@ -17,6 +17,224 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 'signs-of-blocked-gutters-birmingham',
+    title: '10 Warning Signs Your Gutters Are Blocked in Birmingham (And What to Do About It)',
+    excerpt: 'Noticing green staining or overflowing water? See the 10 warning signs of blocked gutters in Birmingham — with a real before & after photo from WOW Gutters.',
+    image: '/guttercleaningblog.jpeg',
+    date: '2026-05-11',
+    views: '0',
+    author: 'WOW Gutters Ltd',
+    authorRole: 'Professional Gutter Cleaning Specialists',
+    category: 'Maintenance',
+    quickAnswer: 'The 10 warning signs of blocked gutters include: water overflowing over the edge, green/black staining on walls, damp patches inside, plants growing from gutters, sagging sections, downpipe blockages, ice dams in winter, fascia staining, birds/pests near gutterline, and not remembering when they were last cleaned. Professional gutter cleaning in Birmingham costs £50-£250+ depending on property size.',
+    content: `
+      <figure style="margin: 20px 0;">
+        <img
+          src="/guttercleaningblog.jpeg"
+          alt="Before and after gutter cleaning on a Victorian commercial building in Birmingham — green and black overflow staining removed by WOW Gutters"
+          width="800"
+          height="1000"
+          loading="eager"
+          style="width: 100%; height: auto; max-width: 800px;"
+        />
+        <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
+          A Victorian commercial building in Birmingham before and after professional gutter cleaning by WOW Gutters. Top: severe green and black staining from years of gutter overflow. Bottom: the same corner after clearing — all staining removed, downpipe flowing freely.
+        </figcaption>
+      </figure>
+
+      <h2>10 Warning Signs Your Gutters Are Blocked</h2>
+
+      <h3>1. Water Overflowing Over the Edge of the Gutter</h3>
+      <p>This is the most visible sign and the one most Birmingham homeowners notice first. During rainfall, you'll see water cascading over the front or side of the gutter rather than flowing towards the downpipe.</p>
+      <p>This happens when debris — leaves, moss, silt, or bird material — has built up to the point where it's blocking the natural flow of water. The gutter fills up and spills over the nearest edge.</p>
+      <p><strong>What to watch for:</strong> Look at your gutters during or just after heavy rain. Any waterfall effect from the gutter edge is a clear sign of a blockage.</p>
+
+      <h3>2. Green or Black Staining Running Down External Walls</h3>
+      <p>This is one of the most damaging signs — and the one shown in our real job photograph above. When a blocked gutter overflows, it doesn't just drip harmlessly to the ground. The water runs continuously down your brickwork or stonework every time it rains, carrying with it algae, moss spores, and organic debris from inside the gutter.</p>
+      <p>Over time this creates the dark green and black vertical streaks you can see in the before photograph — running from the gutterline straight down the facade of the building. On red brick and limestone Victorian properties (which are common across Birmingham city centre, Edgbaston, Moseley, and Harborne), this staining is both highly visible and difficult to remove once it has set into the stone.</p>
+      <p>The staining is not just cosmetic. Sustained water running down the same section of wall saturates the brickwork, seeps into mortar joints, and can eventually lead to internal damp — especially on older properties with solid walls rather than cavity construction.</p>
+      <p><strong>What to watch for:</strong> Vertical green, black, or brown streaks on external walls, particularly below gutter sections, joints, or brackets. Staining that is worse or darker after rain confirms the source is an active overflow.</p>
+
+      <h3>3. Damp Patches or Mould Inside the House</h3>
+      <p>Internal damp that appears in upstairs rooms or the loft space — particularly near external walls — is frequently caused by overflowing gutters saturating the wall over time. Many Birmingham homeowners spend money on internal damp treatments without ever addressing the actual cause on the outside.</p>
+      <p>If the gutter remains blocked, the damp will return — no matter how many times the internal wall is treated.</p>
+      <p><strong>What to watch for:</strong> Damp or mould patches on internal walls in upper rooms, musty smell in the loft, or dark tide marks on ceilings near the eaves.</p>
+
+      <h3>4. Plants or Weeds Growing From Your Gutters</h3>
+      <p>If you can see greenery — grass, moss, weeds, or even small saplings — sprouting from your gutterline, there is a substantial build-up of organic material inside the channel. Seeds blown by wind land in accumulated leaf mulch, germinate, and take root inside the gutter.</p>
+      <p>This is a sign of long-term neglect and means the blockage has likely been forming for more than one season. Plant roots can also crack or dislodge plastic guttering sections.</p>
+      <p><strong>What to watch for:</strong> Any visible greenery along the gutter line, especially in spring and summer when growth is fastest.</p>
+
+      <h3>5. Sagging or Pulling Away From the Fascia</h3>
+      <p>Gutters are designed to carry moving water — not to hold the sustained weight of wet leaves, compacted silt, standing water, and debris. When a blockage causes pooling inside the gutter, that additional weight puts pressure on the brackets and the fascia board they're attached to.</p>
+      <p>The result is a gutter that visibly droops or pulls away from the roofline. Left unattended, the fascia board itself can begin to rot — a repair that is significantly more expensive than a simple gutter clean.</p>
+      <p><strong>What to watch for:</strong> Step back from the property and look at the gutterline from street level. A straight line is healthy. Any visible dip, bow, or gap between the gutter and fascia is a warning sign.</p>
+
+      <h3>6. Blockages at the Downpipe</h3>
+      <p>Your downpipe is the vertical section that carries water from the gutter channel down to the drain at ground level. Downpipe blockages are extremely common and can be harder to spot than gutter blockages — because the water backs up silently inside the pipe before overflowing.</p>
+      <p>A blocked downpipe causes water to back up into the gutter, which then overflows at the nearest weak point. In winter, standing water inside a blocked downpipe can freeze, expanding and cracking the pipe from the inside.</p>
+      <p><strong>What to watch for:</strong> No water running from the downpipe outlet during or after rain, water dripping from downpipe joints mid-run, or a gurgling sound from inside the pipe during rainfall.</p>
+
+      <h3>7. Ice Dams and Icicles in Winter</h3>
+      <p>During cold snaps — which Birmingham and the wider West Midlands experiences regularly between November and February — standing water inside a blocked gutter can freeze solid. This creates an ice dam that prevents any subsequent rainfall from draining at all.</p>
+      <p>Ice expands as it freezes, which can crack plastic guttering, dislodge joints, and bend metal brackets. When it thaws, the damage becomes visible.</p>
+      <p><strong>What to watch for:</strong> Icicles hanging from the gutter edge during cold weather, or visible ice inside the gutter channel.</p>
+
+      <h3>8. Staining on Fascias, Soffits, and Stonework</h3>
+      <p>The ornate stone dressings, fascias, and soffits on Birmingham's Victorian and Edwardian building stock are particularly vulnerable to water damage from blocked gutters — as the photograph above clearly shows.</p>
+      <p>When gutters overflow, water runs behind the gutter bracket and onto the fascia board — causing paint to peel, wood to soften and rot, and eventually the board itself to fail. On historic stone buildings, overflow water dissolves and erodes lime mortar and sandstone detailing over years.</p>
+      <p><strong>What to watch for:</strong> Peeling paint on fascia boards, dark tide marks on soffits, visible softness or cracking in wooden fascia boards, or erosion of decorative stonework directly below the gutterline.</p>
+
+      <h3>9. Birds or Pests Near Your Gutterline</h3>
+      <p>Debris-filled gutters are an attractive nesting site for birds — particularly sparrows and starlings, which are common across Birmingham's residential areas. A gutter full of leaves and organic material provides perfect nesting material and shelter.</p>
+      <p>Pest activity near the gutterline is a strong signal that a significant debris build-up is present inside. Nesting material compounds the blockage further, and bird droppings cause additional staining.</p>
+      <p><strong>What to watch for:</strong> Birds regularly landing on or perching near your gutterline, especially in the spring nesting season (March to May). Chirping sounds from inside the guttering.</p>
+
+      <h3>10. You Cannot Remember the Last Time Your Gutters Were Cleaned</h3>
+      <p>This one is straightforward. If you cannot remember when your gutters were last professionally cleared — or if you have owned or managed the property for several years without a clean — it is almost certain that you have a build-up of debris that needs addressing.</p>
+      <p>Gutters in Birmingham should be cleaned at least once a year, ideally in late autumn after the bulk of leaf fall (November to December). Properties near trees, or with a history of blockages, should be cleaned twice a year — once in spring and once in autumn.</p>
+
+      <h2>What Causes Gutters to Block in Birmingham?</h2>
+      <p>The most common causes of gutter blockages across Birmingham and the West Midlands are:</p>
+      <ul>
+        <li><strong>Autumn leaf fall</strong> — particularly in tree-lined suburbs such as Moseley, Harborne, Sutton Coldfield, Solihull, and Edgbaston</li>
+        <li><strong>Moss and algae growth</strong> — common on north-facing rooflines and older properties</li>
+        <li><strong>Silt and tile granule build-up</strong> — from weathered roof tiles breaking down over time</li>
+        <li><strong>Bird nesting debris</strong> — twigs and nesting material compacting in the gutter channel</li>
+        <li><strong>Deteriorating mortar</strong> — roof pointing crumbling and washing into gutters on Victorian properties</li>
+        <li><strong>Tree seeds and seedpods</strong> — sycamore helicopter seeds are a particular problem across the West Midlands</li>
+      </ul>
+
+      <h2>What Happens If Blocked Gutters Are Left Untreated?</h2>
+      <p>As the before photograph above shows, the consequences of ignoring blocked gutters are visible — and costly. Left untreated, blocked gutters can cause:</p>
+      <ul>
+        <li>Severe brickwork and stonework staining (as seen in our real Birmingham job photo above)</li>
+        <li>Internal damp and mould in upstairs rooms and loft spaces</li>
+        <li>Fascia and soffit rot requiring full board replacement (cost: £500—£2,000+)</li>
+        <li>Foundation damage from water pooling at the base of external walls</li>
+        <li>Roof tile damage from ice dams in winter</li>
+        <li>Legal liability — under UK common law, homeowners can be held responsible if overflow from their blocked gutters damages a neighbouring property or causes a slip hazard</li>
+      </ul>
+      <p>A professional gutter clean in Birmingham starts from £50. Repairing the structural and cosmetic damage caused by ignoring it can run to thousands. It is one of the clearest value-for-money maintenance decisions a Birmingham homeowner or property manager can make.</p>
+
+      <h2>How WOW Gutters Clears Blocked Gutters in Birmingham</h2>
+      <p>As you can see from the before-and-after photograph above, WOW Gutters delivers a genuinely transformative result — not just a surface tidy. Here is how we achieve it:</p>
+      <p>We use a professional high-reach vacuum system that clears gutters safely from ground level — no ladders, no scaffolding, no risk to your brickwork or roof tiles. Our system reaches up to 4 storeys, making it suitable for terraced houses, semi-detached homes, detached properties, and multi-storey commercial buildings across Birmingham.</p>
+      
+      <p><strong>Our process on every job:</strong></p>
+      <ul>
+        <li><strong>Ground survey</strong> — we assess your full gutterline before starting work</li>
+        <li><strong>Vacuum extraction</strong> — powerful suction removes all debris, leaves, moss, and silt from the gutter channel</li>
+        <li><strong>Downpipe inspection and clearance</strong> — we check and clear all downpipes to ensure full drainage</li>
+        <li><strong>Before & after photographs</strong> — sent directly to you as evidence of the work completed, just like the image you see above</li>
+        <li><strong>Final check</strong> — we confirm all sections run clear and water flows freely to every outlet</li>
+      </ul>
+      <p>Every job comes with our <strong>1-year guarantee</strong>. If your gutters block within 12 months of our clean, we return and clear them at no additional cost.</p>
+      <p>We cover all areas across Birmingham and the West Midlands, including Solihull, Sutton Coldfield, Wolverhampton, Walsall, Dudley, and Coventry.</p>
+
+      <h2>How Much Does Gutter Cleaning Cost in Birmingham?</h2>
+      <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background-color: #f0f0f0;">
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left; font-weight: bold; color: #0f172a;">Property Type</th>
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left; font-weight: bold; color: #0f172a;">Price From</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Bungalow</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£50</td>
+          </tr>
+          <tr style="background-color: #f9f9f9;">
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Semi-detached house</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£75</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Detached house</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£95</td>
+          </tr>
+          <tr style="background-color: #f9f9f9;">
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Large detached / 3-storey</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£120</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Commercial premises</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">POA</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>No hidden charges. No surprises. Use our <a href="/gutter-cleaning-calculator">gutter cleaning cost calculator</a> for an instant estimate.</p>
+
+      <h2>Book a Gutter Clean in Birmingham Today</h2>
+      <p>If you have spotted any of the warning signs above — or if your property looks anything like the before photograph at the top of this article — do not wait until the damage becomes visible inside your walls.</p>
+      <p>WOW Gutters offers:</p>
+      <ul>
+        <li>? Same-day and next-day appointments across Birmingham</li>
+        <li>? Fully insured, professional team</li>
+        <li>? Ground-level vacuum system — no ladders, no scaffolding, no disruption</li>
+        <li>? Before & after photo evidence on every job</li>
+        <li>? 1-year guarantee on all cleaning work</li>
+        <li>? 4.9? rated with over 2,696 verified Google reviews</li>
+      </ul>
+      <p>📞 <strong>Call us now:</strong> 07421 433910<br>
+      📧 <strong>Email:</strong> support@wowgutters.co.uk<br>
+      ??£ <strong>Book online at</strong> <a href="https://wowgutters.co.uk">wowgutters.co.uk</a></p>
+      <p>Covering Birmingham, Solihull, Sutton Coldfield, Wolverhampton, Walsall, Dudley, West Bromwich, Coventry, and all surrounding West Midlands areas.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <div style="margin: 40px 0;">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+          <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How do I know if my gutters are blocked?</h3>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> The clearest signs are water overflowing over the gutter edge during rainfall, green or black staining running down external walls (as shown in the before photograph above), visible greenery growing from the gutterline, and fascias that are sagging or pulling away from the roofline. If you cannot remember when they were last cleaned, book a clean now.</p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+          <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: What causes the green and black staining on walls below gutters?</h3>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> This staining is caused by gutter overflow carrying algae, moss, silt, and organic debris continuously down the brickwork every time it rains. It is one of the most common visible signs of a blocked gutter in Birmingham. Left untreated, the staining penetrates the mortar joints and can cause internal damp. As our before-and-after photograph shows, professional gutter cleaning removes the source of the problem entirely.</p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+          <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How often should gutters be cleaned in Birmingham?</h3>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> At least once a year, ideally in late autumn after the main leaf fall (October to December). Properties near trees should be cleaned twice a year in spring and autumn. Commercial properties are best cleaned every six months.</p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+          <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Can blocked gutters cause the green staining I can see on my walls?</h3>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes, this is exactly what causes it. When a gutter is blocked, rainwater overflows continuously down the same section of wall, depositing algae and moss spores that grow into the visible green streaking. Clearing the gutter stops the overflow and with it the source of the staining.</p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+          <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does it cost to clear a blocked gutter in Birmingham?</h3>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> WOW Gutters prices start from £50 for a bungalow, £75 for a semi-detached house, and £95 for a detached property. Downpipe inspection and clearance is included. Use our <a href="/gutter-cleaning-calculator" style="color: #19C58B; text-decoration: underline;">cost calculator</a> for an instant estimate.</p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+          <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you use ladders to clean gutters?</h3>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> No. WOW Gutters uses a professional ground-level high-reach vacuum system that cleans gutters safely without ladders or scaffolding, protecting your fascias, roof tiles, and stonework from any risk of contact damage.</p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+          <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you provide before and after photos?</h3>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes, we photograph your guttering before and after every single job and send the images directly to you, just like the real Birmingham job photograph shown in this article.</p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+          <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Is there a guarantee on the work?</h3>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. All WOW Gutters cleaning work is backed by a 1-year service guarantee. If your gutters block again within 12 months of our clean, we return and clear them at no additional charge.</p>
+        </div>
+      </div>
+
+            <h2>Related Articles</h2>
+      <ul>
+        <li><a href="/blog/winter-gutter-cleaning-maintenance">Winter Gutter Maintenance — What Every Birmingham Homeowner Should Do Now</a></li>
+        <li><a href="/blog/importance-of-residential-gutter-cleaning">The Importance of Residential Gutter Cleaning</a></li>
+        <li><a href="/gutter-cleaning-prices">Gutter Cleaning Prices in Birmingham — Full 2026 Guide</a></li>
+        <li><a href="/help/gutter-cleaning">Professional Gutter Cleaning Service — How It Works</a></li>
+      </ul>
+    `
+  },
+  {
     id: 'gutter-repairs-guide',
     title: 'Gutter Repairs: How to Spot Damage Early (Plus Before/After & Video)',
     excerpt: 'Leaking joints, sagging sections, and broken brackets don\'t just look bad — they can cause damp, staining, and expensive water damage. Here\'s how to spot common gutter problems early, what a professional repair includes, and real before/after media from WOW Gutters.',
@@ -130,167 +348,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Why Dome Cleaning Is Not a DIY Job</h2>
       <p>The curved, elevated surface of a dome presents a unique challenge that standard cleaning methods simply cannot address:</p>
       <ul>
-        <li><strong>Extreme Height:</strong> Most domes start where standard ladders end. Working at 4–6 storeys without the right equipment is extremely dangerous and illegal without proper risk assessment.</li>
-        <li><strong>Curved Architecture:</strong> Traditional pressure washing can damage the surface finish or force water under sealant layers on a dome's curved panels.</li>
-        <li><strong>Specialised Contamination:</strong> Domes accumulate a unique mix of biological growth (algae, lichen, moss) combined with urban pollution deposits that require targeted treatment, not just high-pressure water.</li>
-        <li><strong>Delicate Cultural & Religious Significance:</strong> Many domes belong to places of worship or listed buildings. An aggressive or incorrect approach risks permanent damage to irreplaceable structures.</li>
-      </ul>
-
-      <h2>Our Ladder-Free, High-Reach Dome Cleaning Method</h2>
-      <p>WOW Gutters uses the same cutting-edge technology that has made us one of the UK's most trusted exterior cleaning specialists. Our <strong>specialist vacuum and soft wash system</strong> is designed to reach impossible heights while keeping your structure — and our team — completely safe.</p>
-      <ul>
-        <li><strong>High-Reach Capability:</strong> Our equipment reaches up to <strong>6 storeys high</strong> — all operated from ground level. No scaffolding, no cherry pickers, no ladders.</li>
-        <li><strong>Soft Wash Technology:</strong> We don't just blast water at your dome. We use a carefully calibrated soft wash technique that dissolves biological growth at the root, preventing it from returning quickly.</li>
-        <li><strong>Targeted Moss & Algae Removal:</strong> Our eco-friendly biocide treatments kill moss, algae, and lichen at the spore level, giving you a result that lasts months, not days.</li>
-        <li><strong>No Damage to Your Building:</strong> Because we never press heavy equipment against your dome, there's no risk of cracked tiles, bent metalwork, or displaced panels.</li>
-      </ul>
-
-      <h2>Before & After: The WOW Difference</h2>
-      <p>We take <strong>dated, high-resolution photographs</strong> before we begin and again when we finish. This isn't just for your confidence — it's our standard of accountability. You will see exactly what was removed and how your dome looks once restored. No guesswork, no vague promises — just crystal-clear evidence of the transformation.</p>
-
-      <h2>Who Is This Service For?</h2>
-      <p>Our dome cleaning service is ideal for a wide range of properties and building owners across the UK:</p>
-      <ul>
-        <li><strong>Religious Buildings:</strong> Mosques, temples, churches, gurdwaras, and mandirs. We understand the cultural and spiritual significance of these structures and treat them with the utmost respect.</li>
-        <li><strong>Commercial & Civic Properties:</strong> Council buildings, entertainment venues, shopping centres, and hotels with architectural dome features.</li>
-        <li><strong>Residential Properties:</strong> Grand homes with conservatory domes, orangeries, or decorative roof domes.</li>
-        <li><strong>Heritage & Listed Buildings:</strong> Our gentle soft-wash approach is safe for historic materials including stone, render, GRP fibreglass, and UPVC.</li>
-      </ul>
-
-      <h2>Transparent Pricing & Free Quotes</h2>
-      <p>We believe in honest, upfront pricing. After a quick site assessment (which we can often complete remotely using your photos), we provide a <strong>no-obligation fixed quote</strong> — no hidden call-out fees, no surprises on the day.</p>
-      <p>The cost of a dome cleaning service varies based on:</p>
-      <ul>
-        <li>The diameter and height of the dome</li>
-        <li>The level of biological growth and staining</li>
-        <li>The surface material (GRP, stone, render, tile)</li>
-        <li>Any additional restoration work required</li>
-      </ul>
-      <p>We accept cash, card, and bank transfer — and all our work is backed by full public liability insurance for your complete peace of mind.</p>
-
-      <h2>Same Day Booking & Certified Professionals</h2>
-      <p>WOW Gutters Ltd is fully bonded and carries comprehensive public liability insurance. Our team is trained and certified in safe working practices for high-reach exterior cleaning, and we conduct a full risk assessment before any dome cleaning project begins. You're in safe hands from the first call to the final photo.</p>
-
-      <h2>Get Your Dome Restored Today</h2>
-      <p>Don't let years of grime diminish the beauty and dignity of your building's most prominent feature. Whether your dome is green with algae or black with pollution, our team can restore it — safely, efficiently, and to a standard you'll be proud to show off.</p>
-      <p>Contact WOW Gutters Ltd for a free, no-obligation quote and discover why property owners across the UK trust us with their most challenging exterior cleaning projects.</p>
-    `
-  },
-  {
-    id: 'gutter-repairs-guide',
-    title: 'Gutter Repairs: How to Spot Damage Early (Plus Before/After & Video)',
-    excerpt: 'Leaking joints, sagging sections, and broken brackets don’t just look bad — they can cause damp, staining, and expensive water damage. Here’s how to spot common gutter problems early, what a professional repair includes, and real before/after media from WOW Gutters.',
-    image: '/gutter-repair-after.jpeg',
-    heroVideo: '/gutter-repair%20(2).mp4',
-    date: '2026-04-27',
-    lastUpdated: '2026-04-30',
-    views: '9,999',
-    author: 'WOW Gutter Experts',
-    authorRole: 'Gutter Repair Specialists at WOW Gutters',
-    category: 'Repairs',
-    quickAnswer: 'Most gutter problems start with small leaks at joints, loose brackets, or a bad fall (slope). If you see dripping seams, overflow in light rain, or gutters pulling away from the fascia, book repairs early — it’s usually far cheaper than fixing damp, rotten fascia boards, or damaged brickwork later.',
-    content: `
-      <h2>Gutter Repairs: The Warning Signs Most Homeowners Miss</h2>
-      <p>Gutters fail slowly. The early signs are easy to ignore — until your walls stain, your fascia boards soften, or you start seeing damp patches internally.</p>
-
-      <h3>Common gutter repair problems</h3>
-      <ul>
-        <li><strong>Leaking joints:</strong> Failed seals, cracked connectors, or small gaps that drip constantly.</li>
-        <li><strong>Sagging gutters:</strong> Loose or broken brackets cause standing water and extra weight.</li>
-        <li><strong>Poor fall (slope):</strong> Water pools instead of flowing to the downpipe.</li>
-        <li><strong>Cracks and holes:</strong> Weathering, impacts, or old repairs that have failed.</li>
-      </ul>
-
-      <h2>How to tell if your gutters need repair (fast checks)</h2>
-      <ul>
-        <li><strong>Drips from seams:</strong> Water dripping from joints even after rain has stopped.</li>
-        <li><strong>Overflow in light rain:</strong> If it overflows quickly, you likely have a blockage or poor fall.</li>
-        <li><strong>Gutters pulling away:</strong> A visible gap between gutter and fascia is usually bracket failure or rotten timber.</li>
-        <li><strong>Staining on brickwork:</strong> Green or black marks under the gutter line often mean persistent leakage.</li>
-        <li><strong>Pooling water:</strong> Standing water inside the run is a slope/alignment issue.</li>
-      </ul>
-
-      <h2>Why gutter repairs matter (what damage looks like later)</h2>
-      <p>A small leak can soak the same patch of wall over and over again. Over time, this can cause:</p>
-      <ul>
-        <li><strong>Damp patches:</strong> moisture ingress around windows and inside corners</li>
-        <li><strong>Rotten fascia boards:</strong> timber behind the gutter becomes soft and fails to hold brackets</li>
-        <li><strong>Foundation splashback:</strong> constant water at the base of the wall can lead to erosion and rising damp</li>
-        <li><strong>Internal mould:</strong> persistent damp increases mould risk, especially in colder months</li>
-      </ul>
-
-      <h2>Before &amp; After: Real Repair Results</h2>
-      <p>Here’s a quick example of a damaged gutter line before repair and the finished result after our team restored the system.</p>
-      <img src="/gutter-repair-before.png" alt="Gutter before repair" />
-      <img src="/gutter-repair-after.jpeg" alt="Gutter after repair" />
-
-      <h2>What causes gutter leaks and sagging?</h2>
-      <ul>
-        <li><strong>Age &amp; UV exposure:</strong> uPVC expands/contracts and seals harden over time.</li>
-        <li><strong>Debris weight:</strong> wet leaves and silt add weight, pulling brackets loose.</li>
-        <li><strong>Bad alignment:</strong> incorrect fall causes water to sit in the gutter run.</li>
-        <li><strong>Storm movement:</strong> wind can twist joints and loosen fixings.</li>
-        <li><strong>DIY patch repairs:</strong> surface silicone often fails and traps more debris.</li>
-      </ul>
-
-      <h2>What a professional gutter repair usually includes</h2>
-      <ul>
-        <li><strong>Joint reseal or replacement:</strong> Correct seals and connectors (not just surface silicone).</li>
-        <li><strong>Bracket replacement:</strong> Re-secure sagging runs and set the correct alignment.</li>
-        <li><strong>Flow test:</strong> Confirm water runs cleanly to the downpipe.</li>
-        <li><strong>Advice:</strong> What caused the problem and how to prevent it returning.</li>
-      </ul>
-
-      <h2>How much do gutter repairs cost in the UK?</h2>
-      <p>Repair pricing depends on access, how many joints/brackets are affected, and whether any section needs replacing. In most cases, fixing a leak or sag early is far cheaper than replacing damaged fascias or repainting stained walls.</p>
-
-      <h2>DIY vs professional repairs</h2>
-      <p>Minor clearing at ground level can help, but working at height is risky and many “quick fixes” fail. A professional repair focuses on the <strong>root cause</strong> (seal failure, bracket spacing, fall angle, section movement) rather than just covering symptoms.</p>
-
-      <h2>How to prevent repairs in future</h2>
-      <ul>
-        <li><strong>Clear debris:</strong> keep gutters free of leaves and silt before heavy rain season.</li>
-        <li><strong>Check after storms:</strong> a quick visual check catches loose brackets early.</li>
-        <li><strong>Keep downpipes flowing:</strong> partial blockages increase back-pressure at joints.</li>
-        <li><strong>Don’t ignore small drips:</strong> slow leaks cause the most hidden damage.</li>
-      </ul>
-
-      <h2>Gutter repair FAQ</h2>
-      <h3>Can leaking joints be repaired without replacing the gutter?</h3>
-      <p>Often yes. Many leaks are seal/joint related and can be repaired by resealing or replacing connectors.</p>
-      <h3>Why do my gutters overflow even after cleaning?</h3>
-      <p>Overflow can be caused by poor fall, a partially blocked downpipe, or a sag point where water pools and spills.</p>
-      <h3>How quickly should I repair sagging gutters?</h3>
-      <p>As soon as possible. Sagging holds water, adds weight, and accelerates bracket failure.</p>
-
-      <h2>Need a quote?</h2>
-      <p>If your gutters are leaking, overflowing, or pulling away from the house, it’s worth fixing early. WOW Gutters can advise and repair quickly with a clear quote.</p>
-    `
-  },
-  {
-    id: 'dome-cleaning-service-wow-gutters',
-    title: 'Dome Cleaning Service: Restoring Temples, Mosques & Commercial Domes Across the UK',
-    excerpt: 'Is the dome on your religious building, commercial property, or residence looking green, grimy, or stained? WOW Gutters Ltd offers a specialist dome cleaning service — reaching up to 6 storeys high with zero ladders, zero risk, and guaranteed visible results.',
-    image: '/Blog.png',
-    date: '2026-03-31',
-    lastUpdated: '2026-04-15',
-    views: '1,875',
-    author: 'WOW Gutter Experts',
-    authorRole: 'Senior Gutter & Exterior Specialists at WOW Gutters',
-    category: 'Specialist Services',
-    quickAnswer: 'Dome cleaning safely removes moss, algae and pollution stains from domes up to 6 storeys high using ground-level soft-wash vacuum systems — no ladders or scaffolding required. WOW Gutters uses eco-friendly biocides that kill biological growth at the spore level, delivering long-lasting, damage-free results on religious, commercial and heritage buildings across the UK.',
-    content: `
-      <h2>Professional Dome Cleaning — Safely Restored to Its Former Glory</h2>
-      <p>A dome is more than a structural feature — it's a statement of heritage, pride, and architectural beauty. Whether it crowns a mosque, temple, church, or a modern commercial building, a dome that has been neglected quickly becomes covered in unsightly moss, algae, grey streaks, and biological staining.</p>
-
-      <p>At <strong>WOW Gutters Ltd</strong>, we've developed a specialist dome cleaning service that delivers stunning, visible results — safely, efficiently, and without a single ladder touching your building.</p>
-
-      <img src="/Blog.png" alt="Before and after dome cleaning by WOW Gutters Ltd — removing moss and algae stains from a religious building dome" />
-
-      <h2>Why Dome Cleaning Is Not a DIY Job</h2>
-      <p>The curved, elevated surface of a dome presents a unique challenge that standard cleaning methods simply cannot address:</p>
-      <ul>
-        <li><strong>Extreme Height:</strong> Most domes start where standard ladders end. Working at 4–6 storeys without the right equipment is extremely dangerous and illegal without proper risk assessment.</li>
+        <li><strong>Extreme Height:</strong> Most domes start where standard ladders end. Working at 4—6 storeys without the right equipment is extremely dangerous and illegal without proper risk assessment.</li>
         <li><strong>Curved Architecture:</strong> Traditional pressure washing can damage the surface finish or force water under sealant layers on a dome's curved panels.</li>
         <li><strong>Specialised Contamination:</strong> Domes accumulate a unique mix of biological growth (algae, lichen, moss) combined with urban pollution deposits that require targeted treatment, not just high-pressure water.</li>
         <li><strong>Delicate Cultural & Religious Significance:</strong> Many domes belong to places of worship or listed buildings. An aggressive or incorrect approach risks permanent damage to irreplaceable structures.</li>

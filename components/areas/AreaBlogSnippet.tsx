@@ -8,8 +8,8 @@ type AreaBlogSnippetProps = {
 
 export default function AreaBlogSnippet({ locality }: AreaBlogSnippetProps) {
   const excerpt = locality
-    ? `In ${locality}, gutters block quickly when leaves and moss meet frequent rain. If water spills over the edge, it often tracks down brickwork and can reach soffits before you notice. We clear runs and downpipes from the ground, send photo proof, and flag anything that needs a repair — so you are not guessing what is going on up there.`
-    : `Gutters are easy to forget until water starts staining walls or dripping past the fascia. Regular clearing keeps rainwater going where it should — away from your brickwork and foundations. Our engineers work from the ground with high-reach vacuums and show you before-and-after photos so you can see the difference.`;
+    ? `In ${locality}, gutters block quickly when leaves and moss meet frequent rain. If water spills over the edge, it often tracks down brickwork and can reach soffits before you notice. We clear runs and downpipes from the ground, send photo proof, and flag anything that needs a repair - so you are not guessing what is going on up there.`
+    : `Gutters are easy to forget until water starts staining walls or dripping past the fascia. Regular clearing keeps rainwater going where it should - away from your brickwork and foundations. Our engineers work from the ground with high-reach vacuums and show you before-and-after photos so you can see the difference.`;
 
   return (
     <section className="py-20 bg-gray-100">
