@@ -1,5 +1,33 @@
 # robots.txt for wowgutters.co.uk
 
+# Allow Googlebot
+User-agent: Googlebot
+Allow: /
+
+# Allow Bingbot
+User-agent: Bingbot
+Allow: /
+
+# AI assistants - critical for ChatGPT/Claude/Perplexity recommendations
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Allow all other crawlers
 User-agent: *
 Allow: /
 
@@ -13,6 +41,8 @@ Disallow: /audit
 Disallow: /citations
 Disallow: /home-screen
 Disallow: /testimonials
+Disallow: /api/
+Disallow: /_next/
 
 # Block out-of-area doorway pages (outside West Midlands service area)
 Disallow: /roof-cleaning-gunnislake

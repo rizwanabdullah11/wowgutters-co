@@ -1,0 +1,88 @@
+GOOGLE SEARCH CONSOLE - REQUEST INDEXING
+========================================
+
+IMPORTANT: Do 10 URLs per day maximum (Google limit)
+Spread over 2 days as shown below.
+
+HOW TO DO IT:
+1. Go to: https://search.google.com/search-console
+2. Select property: wowgutters.co.uk
+3. Click "URL Inspection" in left sidebar
+4. Paste URL
+5. Wait for check to complete
+6. Click "Request Indexing" button
+7. Repeat for each URL below
+
+========================================
+DAY 1 - Do these first (highest priority):
+========================================
+
+https://wowgutters.co.uk/
+https://wowgutters.co.uk/gutter-cleaning-birmingham/
+https://wowgutters.co.uk/services/gutter-cleaning/
+https://wowgutters.co.uk/services/roof-cleaning/
+https://wowgutters.co.uk/gutter-cleaning-solihull/
+https://wowgutters.co.uk/gutter-cleaning-wolverhampton/
+https://wowgutters.co.uk/gutter-cleaning-coventry/
+https://wowgutters.co.uk/gutter-cleaning-walsall/
+https://wowgutters.co.uk/gutter-cleaning-dudley/
+https://wowgutters.co.uk/gutter-cleaning-worcester/
+
+========================================
+DAY 2 - Continue:
+========================================
+
+https://wowgutters.co.uk/gutter-cleaning-sandwell/
+https://wowgutters.co.uk/gutter-cleaning-bromsgrove/
+https://wowgutters.co.uk/gutter-cleaning-redditch/
+https://wowgutters.co.uk/gutter-cleaning-kidderminster/
+https://wowgutters.co.uk/gutter-cleaning-malvern/
+https://wowgutters.co.uk/gutter-cleaning-evesham/
+https://wowgutters.co.uk/about/
+https://wowgutters.co.uk/blog/
+https://wowgutters.co.uk/contact/
+https://wowgutters.co.uk/services/
+
+========================================
+ADDITIONAL PRIORITY URLS (if time permits):
+========================================
+
+https://wowgutters.co.uk/services/gutter-repairs/
+https://wowgutters.co.uk/services/upvc-cleaning/
+https://wowgutters.co.uk/services/hot-wash-cleaning/
+https://wowgutters.co.uk/services/commercial/
+https://wowgutters.co.uk/services/conservatory/
+https://wowgutters.co.uk/gutter-cleaning-prices/
+https://wowgutters.co.uk/gutter-cleaning-calculator/
+https://wowgutters.co.uk/awards/
+https://wowgutters.co.uk/reviews/
+
+========================================
+WHY THIS IS NEEDED:
+========================================
+
+Google is still showing old content in search results:
+- Birmingham snippet: shows "Important is the search term Gutter Cleaning Near Me"
+- Homepage snippet: shows "From GBP 70... 9-5 Mon to Sun" (old site version)
+
+Your improvements are live but Google hasn't seen them yet.
+
+GSC URL Inspection > Request Indexing forces recrawl within 24-72 hours.
+
+========================================
+EXPECTED TIMELINE:
+========================================
+
+- Request indexing: Today
+- Google recrawls: 24-72 hours
+- New content appears in search: 3-7 days
+- Rankings improve: 1-2 weeks
+
+========================================
+NOTES:
+========================================
+
+- Google limits to 10 URL inspection requests per day
+- Prioritize homepage, Birmingham, and main service pages first
+- After requesting indexing, also submit updated sitemap.xml
+- Monitor in GSC "Coverage" report to see when pages are reindexed
