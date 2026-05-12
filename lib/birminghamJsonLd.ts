@@ -58,11 +58,12 @@ export function getBirminghamGutterPageJsonLd() {
         ],
         areaServed: [
           { '@type': 'City', name: 'Birmingham' },
-          { '@type': 'Place', name: 'Moseley', containedInPlace: { '@type': 'City', name: 'Birmingham' } },
-          { '@type': 'Place', name: 'Harborne', containedInPlace: { '@type': 'City', name: 'Birmingham' } },
-          { '@type': 'Place', name: 'Edgbaston', containedInPlace: { '@type': 'City', name: 'Birmingham' } },
-          { '@type': 'Place', name: 'Sutton Coldfield', containedInPlace: { '@type': 'City', name: 'Birmingham' } },
-          { '@type': 'Place', name: 'Kings Heath', containedInPlace: { '@type': 'City', name: 'Birmingham' } },
+          { '@type': 'Place', name: 'Moseley' },
+          { '@type': 'Place', name: 'Harborne' },
+          { '@type': 'Place', name: 'Edgbaston' },
+          { '@type': 'Place', name: 'Sutton Coldfield' },
+          { '@type': 'Place', name: 'Kings Heath' },
+          { '@type': 'Place', name: 'Erdington' },
         ],
       },
       // BLOCK 2: FAQPage (7 real FAQs from live Birmingham page)

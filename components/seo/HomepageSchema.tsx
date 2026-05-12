@@ -40,8 +40,7 @@ export default function HomepageSchema() {
       "bestRating": "5",
       "worstRating": "1"
     },
-    "priceRange": "GBP 50-120",
-    "currenciesAccepted": "GBP",
+    "priceRange": "££",
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
@@ -65,9 +64,10 @@ export default function HomepageSchema() {
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+447421433910",
-      "contactType": "Customer Service"
+      "contactType": "Customer Service",
+      "areaServed": "GB",
+      "availableLanguage": "English"
     },
-    "availableLanguage": "English",
     "sameAs": [
       "https://www.facebook.com/wowgutters",
       "https://twitter.com/wowgutters",
