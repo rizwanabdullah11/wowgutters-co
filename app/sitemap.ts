@@ -112,12 +112,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  const areaRoutes = AREA_SLUGS.map((slug) => ({
-    url: withTrailingSlash(areaPath(slug)),
-    lastModified: lastUpdated,
-    changeFrequency: 'monthly' as const,
-    priority: 0.85,
-  }));
+  // Out-of-area doorway pages to exclude from sitemap (outside West Midlands service area)
+  const EXCLUDED_DOORWAY_PAGES = [
+    'gunnislake',
+    'lytham-st-annes',
+    'whittingham',
+    'london',
+    'callington',
+    'wendover',
+  ];
+
+  const areaRoutes = AREA_SLUGS
+    .filter((slug) => !EXCLUDED_DOORWAY_PAGES.includes(slug))
+    .map((slug) => ({
+      url: withTrailingSlash(areaPath(slug)),
+      lastModified: lastUpdated,
+      changeFrequency: 'monthly' as const,
+      priority: 0.85,
+    }));
 
   const blogRoutes = blogPosts.map((post) => {
     let postDate = lastUpdated;
