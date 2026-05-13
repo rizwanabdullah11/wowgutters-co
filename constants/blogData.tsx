@@ -17,6 +17,214 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 'blocked-gutters-sycamore-seeds',
+    title: 'Blocked Gutters Packed With Sycamore Seeds — What Happens If You Leave Them (Real Before & After)',
+    excerpt: 'Sycamore seeds are one of the most common causes of blocked gutters in the West Midlands. See a real before & after from WOW Gutters — and find out what happens if the blockage is left untreated.',
+    image: '/gutter-cleaning-before.jpeg',
+    heroVideo: '/gutter-cleaning-video.mp4',
+    date: '2026-05-13',
+    views: '0',
+    author: 'WOW Gutters Ltd',
+    authorRole: 'Professional Gutter Cleaning Specialists',
+    category: 'Maintenance',
+    quickAnswer: 'Sycamore seeds are one of the leading causes of blocked gutters across Birmingham and the West Midlands. They pack tightly into the gutter channel along with moss and leaf debris, forming a dense mat that stops water draining entirely. If left untreated, this type of blockage causes overflow, wall staining, damp, and fascia rot. Professional gutter cleaning in Birmingham starts from £75 for a semi-detached house.',
+    content: `
+      <h2>The Before: A Gutter Completely Packed With Sycamore Seeds</h2>
+      
+      <figure style="margin: 20px 0;">
+        <img
+          src="/gutter-cleaning-before.jpeg"
+          alt="Close-up of a residential gutter completely blocked with dry sycamore helicopter seeds, compacted moss, and leaf debris"
+          width="800"
+          height="600"
+          loading="eager"
+          style="width: 100%; height: auto; max-width: 800px; border-radius: 8px;"
+        />
+        <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
+          Before: A gutter completely packed with sycamore helicopter seeds, compacted moss, and leaf debris. Plants are beginning to germinate inside the channel.
+        </figcaption>
+      </figure>
+
+      <p>If you have a sycamore, maple, or ash tree anywhere near your property — or even on a neighbouring plot — this photograph will look very familiar.</p>
+
+      <p>What you are seeing is a gutter that has not been cleared in at least two full growing seasons. The channel is filled almost to the top with:</p>
+      <ul>
+        <li><strong>Sycamore helicopter seeds (samaras)</strong> — the papery winged seeds that fall in their thousands every autumn and again in spring</li>
+        <li><strong>Compacted moss</strong> — growing on and between the seed debris</li>
+        <li><strong>Leaf mulch and fine silt</strong> — from previous seasons' decomposition</li>
+        <li><strong>Live seedlings</strong> — plants that have germinated in the organic matter sitting in the channel</li>
+      </ul>
+
+      <p>At this stage, the gutter is not partially blocked — it is completely non-functional. Rainwater has nowhere to go except straight over the lip of the gutter and down the external wall of the house.</p>
+
+      <h2>The After: Clean Gutters, Flowing Freely</h2>
+
+      <figure style="margin: 20px 0;">
+        <img
+          src="/gutter-cleaning-after.jpeg"
+          alt="After professional gutter cleaning - clean gutter channel flowing freely"
+          width="800"
+          height="600"
+          loading="lazy"
+          style="width: 100%; height: auto; max-width: 800px; border-radius: 8px;"
+        />
+        <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
+          After: The same property after professional cleaning by WOW Gutters. The gutter has been fully cleared using our high-reach vacuum system. All debris, seeds, moss, and silt have been extracted.
+        </figcaption>
+      </figure>
+
+      <p>This is the same property after our team completed the work. The timestamp shows the job was completed in late March 2026, just as sycamore seeds from the previous autumn were at their most compacted.</p>
+
+      <p>The gutter has been fully cleared using our high-reach vacuum system, operating entirely from ground level. All debris, seeds, moss, and silt have been extracted. The downpipe has been checked and cleared. The channel is now clean and water can flow freely to the outlet.</p>
+
+      <p><strong>No ladders. No scaffolding. No mess left behind.</strong></p>
+
+      <h2>Why Sycamore Seeds Are So Damaging to Gutters</h2>
+
+      <p>Most homeowners expect autumn leaves to be the main culprit behind gutter blockages — and leaves certainly play a part. But sycamore helicopter seeds (and those from field maples, ash trees, and hornbeams) are arguably worse, for three reasons:</p>
+
+      <h3>1. They fall in enormous volumes</h3>
+      <p>A mature sycamore can shed tens of thousands of seeds in a single season. They are lightweight and aerodynamic — designed by nature to travel far on the wind — which means a tree several gardens away can still fill your gutters.</p>
+
+      <h3>2. They interlock and compact</h3>
+      <p>Unlike loose leaves, the wing-shaped samaras lock together as they accumulate, forming a dense, water-resistant mat inside the gutter channel. This mat does not break down quickly. It retains moisture and becomes the perfect growing medium for moss, algae, and weed seeds.</p>
+
+      <h3>3. They arrive twice a year</h3>
+      <p>Sycamores drop seeds in both autumn and spring. A property near mature sycamore trees may need clearing twice annually rather than just once.</p>
+
+      <h2>What Happens If You Leave It?</h2>
+
+      <p>The before photograph shows the blockage itself. Here is what happens to the property if that blockage is left untreated through the winter and into the following spring:</p>
+
+      <h3>Continuous Overflow and Wall Staining</h3>
+      <p>Every time it rains, water that cannot drain through the blocked channel spills over the gutter lip and runs down the external wall. On brick and render properties, this creates the familiar green and black vertical streaking below the gutterline. On limestone and painted surfaces, the staining penetrates the material itself and can be extremely difficult to remove without specialist cleaning.</p>
+
+      <h3>Internal Damp</h3>
+      <p>Water running continuously down the same section of wall — every rainfall, week after week — eventually saturates the brickwork. On solid-wall properties (which are common across Birmingham's Victorian and Edwardian housing stock), saturated outer walls transfer moisture to internal surfaces. The result is damp patches and mould in upper rooms, often appearing near the ceiling line on external walls.</p>
+
+      <p>Many homeowners spend hundreds of pounds on internal damp treatments without ever finding the cause on the outside. The blocked gutter is treated; the damp returns.</p>
+
+      <h3>Fascia Board Rot</h3>
+      <p>When a gutter overflows, water does not just drip off the front edge. It also runs back behind the gutter bracket and onto the fascia board — the horizontal timber that the gutter is fixed to. Sustained damp on the fascia causes the paint to peel, the timber to soften, and eventually the board to rot through. A fascia board replacement costs significantly more than a gutter clean.</p>
+
+      <h3>Foundation Splash Damage</h3>
+      <p>Water overflowing from ground-floor gutters and lower rooflines lands at the base of the wall, soaking into the ground around the foundations. Over time this can contribute to subsidence on certain soil types, and on older properties can saturate the base course of brickwork.</p>
+
+      <h3>Plant Root Damage to the Gutter</h3>
+      <p>As shown in the before photograph, seeds that have germinated inside the gutter channel are already establishing roots. Those roots will eventually work into joints and seams in the guttering itself, causing cracks, splits, and leaks that require repair rather than just cleaning.</p>
+
+      <h2>How WOW Gutters Clears Sycamore Seed Blockages</h2>
+
+      <p>Sycamore seed blockages require proper extraction — not just flushing with water. Seeds that are washed along the gutter channel rather than extracted will simply compact further down towards the outlet or block the downpipe.</p>
+
+      <p>Our process on jobs like this one:</p>
+      <ul>
+        <li><strong>Ground-level CCTV survey</strong> — we assess the full gutterline before starting work, identifying blockage locations and any existing damage</li>
+        <li><strong>High-reach vacuum extraction</strong> — our professional gutter vacuum system lifts all debris, seeds, moss, and silt directly out of the channel from ground level, with no contact with the fascia or roof tiles</li>
+        <li><strong>Downpipe inspection and clearance</strong> — we check that seeds and debris have not been carried into the downpipe and clear any outlet blockage</li>
+        <li><strong>Before & after photographs</strong> — sent directly to you as evidence of the completed work (as shown above)</li>
+        <li><strong>Final flow check</strong> — we confirm water runs freely to every outlet before leaving</li>
+      </ul>
+
+      <p>For properties near sycamore or maple trees, we recommend booking a clean in <strong>late November</strong> (after leaf and seed fall has finished for the year) and again in <strong>April or May</strong> (to catch the spring seed drop before the growing season).</p>
+
+      <h2>How Much Does Gutter Cleaning Cost?</h2>
+
+      <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+        <thead>
+          <tr style="background-color: #f0f0f0;">
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left; font-weight: bold; color: #0f172a;">Property Type</th>
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left; font-weight: bold; color: #0f172a;">Price From</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Bungalow</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£50</td>
+          </tr>
+          <tr style="background-color: #f9f9f9;">
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Semi-detached house</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£75</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Detached house</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£95</td>
+          </tr>
+          <tr style="background-color: #f9f9f9;">
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Large detached / 3-storey</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£120</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Commercial premises</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">POA</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>No hidden charges. Use our <a href="/gutter-cleaning-calculator">gutter cleaning cost calculator</a> for an instant estimate.</p>
+
+      <h2>Book a Gutter Clean Across Birmingham and the West Midlands</h2>
+
+      <p>WOW Gutters offers:</p>
+      <ul>
+        <li>✅ Same-day and next-day appointments available</li>
+        <li>✅ Fully insured, professional team</li>
+        <li>✅ Ground-level vacuum system — no ladders, no scaffolding</li>
+        <li>✅ Before & after photo evidence on every job</li>
+        <li>✅ 1-year guarantee on all cleaning work</li>
+        <li>✅ 4.9★ rated with over 2,696 verified Google reviews</li>
+      </ul>
+
+      <p>📞 <strong>Call us now:</strong> 07421 433910<br>
+      📧 <strong>Email:</strong> support@wowgutters.co.uk<br>
+      🌐 <strong>Book online at</strong> <a href="https://wowgutters.co.uk">wowgutters.co.uk</a></p>
+
+      <p>Covering Birmingham, Solihull, Sutton Coldfield, Wolverhampton, Walsall, Dudley, West Bromwich, Coventry, Redditch, Bromsgrove, Kidderminster, and all surrounding West Midlands areas.</p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <div style="margin: 40px 0;">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+          <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How do I know if sycamore seeds have blocked my gutters?</h3>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> The clearest signs are water overflowing over the gutter edge during rainfall, visible greenery or seedlings sprouting from the gutterline, and green or brown staining running down external walls. If you have a sycamore or maple tree within 30 metres of your property, it is very likely that seeds have accumulated in your gutters.</p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+          <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How often should I clean my gutters if I have sycamore trees nearby?</h3>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Twice a year is strongly recommended — once in late autumn (November to December) after the main seed and leaf fall, and once in spring (March to May) to catch the second sycamore seed drop before seedlings establish.</p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+          <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Can the seeds damage the gutter itself?</h3>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. Once seeds germinate and put down roots inside the gutter channel, those roots can work into joints and seams, causing splits and leaks. In advanced cases this can turn what would have been a simple clean into a repair job. Early intervention is always more cost-effective.</p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+          <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you clear the downpipe as well?</h3>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes, downpipe inspection and clearance is included as standard on every WOW Gutters job. Seeds and debris that wash into the downpipe are a common secondary cause of blockages, and we check and clear all downpipe outlets as part of the service.</p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+          <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does gutter cleaning cost in Birmingham?</h3>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Prices start from £50 for a bungalow, £75 for a semi-detached, and £95 for a detached property. Use our <a href="/gutter-cleaning-calculator" style="color: #19C58B; text-decoration: underline;">cost calculator</a> for an instant estimate or call 07421 433910 for a free quote.</p>
+        </div>
+
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+          <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you use ladders?</h3>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> No. WOW Gutters uses a professional ground-level high-reach vacuum system that cleans gutters without ladders or scaffolding, protecting your fascias, tiles, and brickwork from contact damage.</p>
+        </div>
+      </div>
+
+      <h2>Related Articles</h2>
+      <ul>
+        <li><a href="/blog/signs-of-blocked-gutters-birmingham">10 Warning Signs Your Gutters Are Blocked in Birmingham</a></li>
+        <li><a href="/blog/winter-gutter-cleaning-maintenance">The Essential Winter Gutter Maintenance Guide for UK Homeowners</a></li>
+        <li><a href="/blog/gutter-repairs-guide">Gutter Repairs: How to Spot Damage Early</a></li>
+        <li><a href="/blog/downpipe-shoe-prevents-blockages">Why a Downpipe Shoe is the Secret to Ending Repeated Gutter Blockages</a></li>
+      </ul>
+    `
+  },
+  {
     id: 'signs-of-blocked-gutters-birmingham',
     title: '10 Warning Signs Your Gutters Are Blocked in Birmingham (And What to Do About It)',
     excerpt: 'Noticing green staining or overflowing water? See the 10 warning signs of blocked gutters in Birmingham — with a real before & after photo from WOW Gutters.',
