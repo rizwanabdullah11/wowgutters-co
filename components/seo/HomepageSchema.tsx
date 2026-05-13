@@ -1,31 +1,22 @@
-import SchemaMarkup from '@/components/seo/SchemaMarkup';
+import { JsonLd } from '@/components/JsonLd';
 
 /** Homepage LocalBusiness schema - server-rendered for static export */
 export default function HomepageSchema() {
-  const addressLine1 = (process.env.NEXT_PUBLIC_BUSINESS_ADDRESS_LINE1 || '38 Ryland Street').trim();
-  const addressLine2 = (process.env.NEXT_PUBLIC_BUSINESS_ADDRESS_LINE2 || '').trim();
-  const addressCity = (process.env.NEXT_PUBLIC_BUSINESS_CITY || 'Birmingham').trim();
-  const addressRegion = (process.env.NEXT_PUBLIC_BUSINESS_REGION || 'West Midlands').trim();
-  const addressPostcode = (process.env.NEXT_PUBLIC_BUSINESS_POSTCODE || 'B16 8DD').trim();
-  const gbpCidUrl = (process.env.NEXT_PUBLIC_GBP_CID_URL || '').trim();
-  const trustpilotUrl = (process.env.NEXT_PUBLIC_TRUSTPILOT_URL || '').trim();
-
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "WOW Gutters Ltd",
-    "image": "https://wowgutters.co.uk/og/default.jpg",
-    "logo": "https://wowgutters.co.uk/_next/static/media/wow-gutters-logo1.f91894db.png",
-    "url": "https://wowgutters.co.uk",
     "telephone": "+447421433910",
     "email": "support@wowgutters.co.uk",
+    "url": "https://wowgutters.co.uk",
+    "image": "https://wowgutters.co.uk/og/default.jpg",
     "description": "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, no ladders, 4-storey reach. 4.9 stars from 2696 reviews. 1-year guarantee.",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": addressLine1,
-      "addressLocality": addressCity,
-      "addressRegion": addressRegion,
-      "postalCode": addressPostcode,
+      "streetAddress": "38 Ryland Street",
+      "addressLocality": "Birmingham",
+      "addressRegion": "West Midlands",
+      "postalCode": "B16 8DD",
       "addressCountry": "GB"
     },
     "geo": {
@@ -40,7 +31,6 @@ export default function HomepageSchema() {
       "bestRating": "5",
       "worstRating": "1"
     },
-    "priceRange": "££",
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
@@ -68,15 +58,6 @@ export default function HomepageSchema() {
       "areaServed": "GB",
       "availableLanguage": "English"
     },
-    "sameAs": [
-      "https://www.facebook.com/wowgutters",
-      "https://twitter.com/wowgutters",
-      "https://www.instagram.com/wowgutters",
-      "https://www.linkedin.com/company/wow-gutters",
-      "https://www.youtube.com/@wowgutters",
-      ...(gbpCidUrl ? [gbpCidUrl] : []),
-      ...(trustpilotUrl ? [trustpilotUrl] : [])
-    ],
     "areaServed": [
       "Birmingham",
       "Solihull",
@@ -93,23 +74,14 @@ export default function HomepageSchema() {
       "Evesham",
       "Droitwich Spa"
     ],
-    "potentialAction": {
-      "@type": "ReserveAction",
-      "target": {
-        "@type": "EntryPoint",
-        "urlTemplate": "https://wowgutters.co.uk/quote/",
-        "inLanguage": "en-GB",
-        "actionPlatform": [
-          "http://schema.org/DesktopWebPlatform",
-          "http://schema.org/MobileWebPlatform"
-        ]
-      },
-      "result": {
-        "@type": "Reservation",
-        "name": "Gutter Cleaning Quote"
-      }
-    }
+    "sameAs": [
+      "https://www.facebook.com/wowgutters",
+      "https://twitter.com/wowgutters",
+      "https://www.instagram.com/wowgutters",
+      "https://www.linkedin.com/company/wow-gutters",
+      "https://www.youtube.com/@wowgutters"
+    ]
   };
 
-  return <SchemaMarkup id="homepage-business-schema" data={organizationSchema} />;
+  return <JsonLd data={organizationSchema} />;
 }

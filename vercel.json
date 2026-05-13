@@ -1,0 +1,104 @@
+{
+  "redirects": [
+    {
+      "source": "/contact-us",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us/",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/about-us",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/about-us/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/gutters-cleaning",
+      "destination": "/services/gutter-cleaning/",
+      "permanent": true
+    },
+    {
+      "source": "/gutters-cleaning/",
+      "destination": "/services/gutter-cleaning/",
+      "permanent": true
+    },
+    {
+      "source": "/hot-wash",
+      "destination": "/services/hot-wash-cleaning/",
+      "permanent": true
+    },
+    {
+      "source": "/hot-wash/",
+      "destination": "/services/hot-wash-cleaning/",
+      "permanent": true
+    },
+    {
+      "source": "/conservatory-cleaning",
+      "destination": "/services/conservatory/",
+      "permanent": true
+    },
+    {
+      "source": "/conservatory-cleaning/",
+      "destination": "/services/conservatory/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial",
+      "destination": "/services/commercial/",
+      "permanent": true
+    },
+    {
+      "source": "/commercial/",
+      "destination": "/services/commercial/",
+      "permanent": true
+    },
+    {
+      "source": "/help/inspect",
+      "destination": "/services/inspection/",
+      "permanent": true
+    },
+    {
+      "source": "/help/inspect/",
+      "destination": "/services/inspection/",
+      "permanent": true
+    },
+    {
+      "source": "/help/unblock",
+      "destination": "/services/gutter-cleaning/",
+      "permanent": true
+    },
+    {
+      "source": "/help/unblock/",
+      "destination": "/services/gutter-cleaning/",
+      "permanent": true
+    },
+    {
+      "source": "/help/repair",
+      "destination": "/services/gutter-repairs/",
+      "permanent": true
+    },
+    {
+      "source": "/help/repair/",
+      "destination": "/services/gutter-repairs/",
+      "permanent": true
+    },
+    {
+      "source": "/help/clean",
+      "destination": "/services/roof-cleaning/",
+      "permanent": true
+    },
+    {
+      "source": "/help/clean/",
+      "destination": "/services/roof-cleaning/",
+      "permanent": true
+    }
+  ]
+}

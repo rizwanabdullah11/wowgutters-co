@@ -1,10 +1,24 @@
 'use client';
-import React from 'react';
-import { Button } from '@/components/ui/button';
-import { colors } from '@/constants/colors';
-import { Droplets, Shield, Zap, Leaf } from 'lucide-react';
-import Link from 'next/link';
 
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
+
+export default function GuttersCleaningRedirect() {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.replace('/services/gutter-cleaning/');
+  }, [router]);
+
+  return (
+    <div style={{ padding: '2rem', textAlign: 'center' }}>
+      <p>Redirecting to gutter cleaning service...</p>
+    </div>
+  );
+}
+
+/*
+// OLD PAGE - Redirected to /services/gutter-cleaning/
 export default function GuttersCleaningPage() {
   return (
     <div className="min-h-screen bg-gray-50">
