@@ -60,6 +60,17 @@ export async function generateStaticParams() {
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;
   
+  // Safety check for undefined slug
+  if (!params.slug) {
+    return { 
+      title: 'Not found',
+      robots: {
+        index: false,
+        follow: false,
+      },
+    };
+  }
+  
   const slug = params.slug.toLowerCase().replace(/^gutter-cleaning-/, '').replace(/^roof-cleaning-/, '');
   const isActive = ACTIVE_SERVICE_AREAS.some(area =>
     slug === area || slug.includes(area) || area.includes(slug)
