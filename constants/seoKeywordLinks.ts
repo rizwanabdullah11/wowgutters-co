@@ -10,10 +10,10 @@ export type SeoKeywordLink = {
  * Labels should match the visible text the user wants.
  */
 export const SEO_KEYWORD_LINKS: SeoKeywordLink[] = [
-  { label: 'gutter cleaning', href: '/services/gutter-cleaning' },
-  { label: 'gutter repairs', href: '/services/gutter-repairs' },
-  { label: 'gutter maintenance', href: '/services/gutter-cleaning' },
-  { label: 'roof cleaning', href: '/services/roof-cleaning' },
+  { label: 'gutter cleaning', href: '/help/unblock' },
+  { label: 'gutter repairs', href: '/help/repair' },
+  { label: 'gutter maintenance', href: '/help/unblock' },
+  { label: 'roof cleaning', href: '/help/clean' },
   { label: 'UPVC cleaning', href: '/services/upvc-cleaning' },
   { label: 'commercial gutter cleaning', href: '/commercial' },
   { label: 'hot wash cleaning', href: '/services/hot-wash-cleaning' },
@@ -23,6 +23,6 @@ export const SEO_KEYWORD_LINKS: SeoKeywordLink[] = [
   { label: 'WOW Gutters', href: '/' },
   { label: 'Fascia cleaning', href: '/services/upvc-cleaning' },
   { label: 'Soffits cleaning', href: '/services/upvc-cleaning' },
-  { label: 'Gutter clearing', href: '/services/gutter-cleaning' },
+  { label: 'Gutter clearing', href: '/help/unblock' },
 ];
 

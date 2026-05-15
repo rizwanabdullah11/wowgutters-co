@@ -142,7 +142,7 @@ export function getBirminghamBreadcrumbSchema() {
         "@type": "ListItem",
         "position": 2,
         "name": "Gutter Cleaning",
-        "item": "https://wowgutters.co.uk/services/gutter-cleaning/"
+        "item": "https://wowgutters.co.uk/help/unblock/"
       },
       {
         "@type": "ListItem",
