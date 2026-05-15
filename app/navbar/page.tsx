@@ -18,7 +18,7 @@ export default function Navbar() {
     { name: 'Gutter Repairs', icon: Wrench, href: '/services/gutter-repairs' },
     { name: 'Exterior UPVC Cleaning', icon: Circle, href: '/services/upvc-cleaning' },
     { name: 'Roof Cleaning', icon: Home, href: '/services/roof-cleaning' },
-    { name: 'Roof & Gutter Inspection', icon: Search, href: '/services/inspection' },
+    { name: 'Roof & Gutter Inspection', icon: Search, href: '/help/inspect' },
     { name: 'Conservatory Gutter Replacement', icon: Hammer, href: '/services/conservatory' },
     { name: 'Commercial Gutter Cleaning', icon: Building, href: '/services/commercial' },
   ];

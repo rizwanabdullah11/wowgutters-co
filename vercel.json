@@ -61,13 +61,13 @@
       "permanent": true
     },
     {
-      "source": "/help/inspect",
-      "destination": "/services/inspection/",
+      "source": "/services/inspection",
+      "destination": "/help/inspect/",
       "permanent": true
     },
     {
-      "source": "/help/inspect/",
-      "destination": "/services/inspection/",
+      "source": "/services/inspection/",
+      "destination": "/help/inspect/",
       "permanent": true
     },
     {

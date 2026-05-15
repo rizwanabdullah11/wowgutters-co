@@ -51,7 +51,7 @@ const gutterServices = [
       price: 'FREE'
     },
     image: '/gutter-inspection.png',
-    link: '/services/inspection',
+    link: '/help/inspect',
   },
   {
     title: 'Gutter Repairs',

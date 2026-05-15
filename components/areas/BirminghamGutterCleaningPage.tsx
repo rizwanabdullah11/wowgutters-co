@@ -558,7 +558,7 @@ export default function BirminghamGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/services/inspection"
+              href="/help/inspect"
               className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">Free gutter inspection</h3>

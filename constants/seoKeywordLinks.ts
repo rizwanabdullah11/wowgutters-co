@@ -17,7 +17,7 @@ export const SEO_KEYWORD_LINKS: SeoKeywordLink[] = [
   { label: 'UPVC cleaning', href: '/services/upvc-cleaning' },
   { label: 'commercial gutter cleaning', href: '/commercial' },
   { label: 'hot wash cleaning', href: '/services/hot-wash-cleaning' },
-  { label: 'gutter inspection', href: '/services/inspection' },
+  { label: 'gutter inspection', href: '/help/inspect' },
   { label: 'Birmingham gutter cleaning', href: areaPath('birmingham') },
   { label: 'West Midlands gutter cleaning', href: areaPath('west-midlands') },
   { label: 'WOW Gutters', href: '/' },

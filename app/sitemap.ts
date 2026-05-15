@@ -75,7 +75,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services/water-butt',
     '/services/commercial',
     '/services/conservatory',
-    '/services/inspection',
+    '/help/inspect',
   ];
 
   const staticRoutes = staticPages.map((route) => {
