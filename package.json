@@ -10,7 +10,10 @@
     "serve": "npx serve out -p 3000",
     "lint": "eslint",
     "marketing:check": "node scripts/marketing/check-config.mjs",
-    "marketing:tracking-plan": "node scripts/marketing/generate-tracking-plan.mjs"
+    "marketing:tracking-plan": "node scripts/marketing/generate-tracking-plan.mjs",
+    "upload:verify": "node scripts/verify-upload-files.mjs",
+    "upload:prepare": "node scripts/prepare-clean-upload.mjs",
+    "upload:ready": "npm run build && npm run upload:prepare"
   },
   "dependencies": {
     "lucide-react": "^0.577.0",
