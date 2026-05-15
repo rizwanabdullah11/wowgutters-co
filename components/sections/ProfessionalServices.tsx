@@ -63,7 +63,7 @@ export default function ProfessionalServices() {
               className="text-base sm:text-lg leading-relaxed mb-8"
               style={{ color: colors.textLight }}
             >
-              <SeoLinkify text="Our team uses high-reach gutter vacuum equipment, ladders where needed, and proven cleaning methods for safe, thorough results. From blocked gutters and downspouts to fascia, soffit and roof cleaning, we help keep your exterior drainage system in good working order all year round." />
+              <SeoLinkify text="Our team uses a professional high-reach gutter vacuum system — operating entirely from ground level, no ladders required — for safe, thorough results across Birmingham and the West Midlands. From blocked gutters and downspouts to fascia, soffit and roof cleaning, we help keep your exterior drainage system in good working order all year round." />
             </p>
 
             {/* Key Benefits */}

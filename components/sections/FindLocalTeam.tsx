@@ -21,7 +21,7 @@ const locations = [
 
 export default function FindLocalTeam() {
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedLocation, setSelectedLocation] = useState('United Kingdom');
+  const [selectedLocation, setSelectedLocation] = useState('Birmingham, West Midlands');
 
   const filtered = locations.filter(
     (loc) => searchQuery === '' || loc.name.toLowerCase().includes(searchQuery.toLowerCase())
@@ -100,7 +100,7 @@ export default function FindLocalTeam() {
                 loading="lazy"
                 allowFullScreen
                 referrerPolicy="no-referrer-when-downgrade"
-                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${encodeURIComponent(selectedLocation)}&zoom=10`}
+                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${encodeURIComponent(selectedLocation)}&zoom=11`}
               />
             </div>
           </div>

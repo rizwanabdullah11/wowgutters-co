@@ -1,7 +1,27 @@
-import SchemaMarkup from '@/components/seo/SchemaMarkup';
-import { getBirminghamGutterPageJsonLd } from '@/lib/birminghamJsonLd';
+'use client'
 
-/** Server-rendered JSON-LD so `<script type="application/ld+json">` appears in static HTML for the main Birmingham URL. */
+import { JsonLdClient } from '@/components/JsonLdClient'
+import {
+  getBirminghamLocalBusinessSchema,
+  getBirminghamFAQSchema,
+  getBirminghamBreadcrumbSchema
+} from '@/lib/birminghamJsonLd'
+
 export default function BirminghamGutterPageSchema() {
-  return <SchemaMarkup id="birmingham-gutter-jsonld" data={getBirminghamGutterPageJsonLd()} />;
+  return (
+    <>
+      <JsonLdClient
+        id="schema-local-business"
+        data={getBirminghamLocalBusinessSchema()}
+      />
+      <JsonLdClient
+        id="schema-faq"
+        data={getBirminghamFAQSchema()}
+      />
+      <JsonLdClient
+        id="schema-breadcrumb"
+        data={getBirminghamBreadcrumbSchema()}
+      />
+    </>
+  )
 }

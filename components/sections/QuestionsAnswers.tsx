@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { ArrowRight, HelpCircle } from 'lucide-react';
 
 const categories = [
@@ -98,9 +99,12 @@ export default function QuestionsAnswers() {
           {/* Right: Sticky Sidebar Card */}
           <div className="qa-sidebar-col">
             <div className="qa-sidebar-card">
-              <img
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400"
-                alt="Help Centre"
+              <Image
+                src="/images/help-centre.jpg"
+                alt="WOW Gutters help centre — ask our Birmingham gutter cleaning team"
+                width={400}
+                height={300}
+                loading="lazy"
                 className="qa-sidebar-img"
               />
               <div className="qa-sidebar-content">

@@ -3,16 +3,16 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 
-export default function ConservatoryCleaningRedirect() {
+export default function AboutUsRedirect() {
   const router = useRouter();
 
   useEffect(() => {
-    router.replace('/services/conservatory/');
+    router.replace('/about/');
   }, [router]);
 
   return (
     <div style={{ padding: '2rem', textAlign: 'center' }}>
-      <p>Redirecting to conservatory service...</p>
+      <p>Redirecting to about page...</p>
     </div>
   );
 }

@@ -132,6 +132,10 @@ AddDefaultCharset UTF-8
 
 RewriteEngine On
 
+# 301 Redirect all domains to wowgutters.co.uk (consolidate domain authority)
+RewriteCond %{HTTP_HOST} !^wowgutters\\.co\\.uk$ [NC]
+RewriteRule ^(.*)$ https://wowgutters.co.uk/$1 [R=301,L]
+
 # SEO: legacy PascalCase URLs → lowercase (bookmarks / old links)
 RewriteRule ^About/?$ about/ [R=301,L]
 RewriteRule ^Contact/?$ contact/ [R=301,L]

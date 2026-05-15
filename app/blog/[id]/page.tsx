@@ -27,6 +27,14 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
     };
   }
 
+  // Noindex off-topic blog posts
+  const OFF_TOPIC_POSTS = [
+    'dome-cleaning-service-wow-gutters',
+    'road-sign-cleaning-community'
+  ];
+  
+  const isOffTopic = OFF_TOPIC_POSTS.includes(id);
+
   const canonicalUrl = `https://wowgutters.co.uk/blog/${id}`;
 
   return {
@@ -35,6 +43,10 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
     alternates: {
       canonical: canonicalUrl,
     },
+    robots: isOffTopic ? {
+      index: false,
+      follow: true,
+    } : undefined,
     openGraph: {
       title: post.title,
       description: post.excerpt,

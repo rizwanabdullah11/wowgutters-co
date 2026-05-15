@@ -34,7 +34,7 @@ export const BIRMINGHAM_AREA_FAQS = [
   {
     question: 'What areas of Birmingham do you cover?',
     answer:
-      'We cover the entire city and all surrounding neighbourhoods. Not listed on our area list? Call us on 07421 433910 — we cover many more postcodes across the West Midlands and Worcestershire.',
+      'We cover all Birmingham postcodes B1 to B76 including Moseley (B13), Harborne (B17), Edgbaston (B15-B16), Kings Heath (B14), Erdington (B23), Sutton Coldfield (B73-B74), Selly Oak (B29), Northfield (B31), Acocks Green (B27), Hall Green (B28), Great Barr (B43) and all surrounding areas. Not sure? Call 07421 433910 and we will confirm in 30 seconds.',
     icon: '📍',
   },
   {
