@@ -51,13 +51,13 @@
       "permanent": true
     },
     {
-      "source": "/commercial",
-      "destination": "/services/commercial/",
+      "source": "/services/commercial",
+      "destination": "/commercial/",
       "permanent": true
     },
     {
-      "source": "/commercial/",
-      "destination": "/services/commercial/",
+      "source": "/services/commercial/",
+      "destination": "/commercial/",
       "permanent": true
     },
     {

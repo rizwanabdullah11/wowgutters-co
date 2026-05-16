@@ -7,7 +7,7 @@ export default function CommercialRedirect() {
   const router = useRouter();
 
   useEffect(() => {
-    router.replace('/services/commercial/');
+    router.replace('/commercial/');
   }, [router]);
 
   return null;

@@ -73,7 +73,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/services/hot-wash-cleaning',
     '/services/drain-cleaning',
     '/services/water-butt',
-    '/services/commercial',
+    '/commercial',
     '/services/conservatory',
     '/help/inspect',
   ];
