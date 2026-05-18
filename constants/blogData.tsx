@@ -17,6 +17,19 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 'gutter-cleaning-wolverhampton',
+    title: 'Gutter Cleaning Wolverhampton | WOW Gutters — Local Specialists',
+    excerpt: 'Need gutter cleaning in Wolverhampton? WOW Gutters covers the whole city — same-day booking, ground-level vacuum system, prices from £50. See what is blocking your gutters.',
+    image: '/wolverhamtpon-gutter-cleaning-hero-section.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
+    date: '2026-05-18',
+    views: '2850',
+    author: 'WOW Gutters Technical Team',
+    authorRole: 'Professional Gutter Cleaning Specialists',
+    category: 'Maintenance',
+    quickAnswer: 'Gutters in Wolverhampton should be cleaned at least once a year — twice if your property is near trees. The most common warning signs of a blockage include water overflowing during rainfall, green or black staining on external walls, damp patches in upstairs rooms, and fascia boards pulling away from the roofline. Professional gutter cleaning in Wolverhampton starts from £50 for a bungalow and £75 for a semi-detached house, with same-day appointments available across the city and surrounding WV postcodes.',
+  },
+  {
     id: 'blocked-gutters-sycamore-seeds',
     title: 'Blocked Gutters Packed With Sycamore Seeds — What Happens If You Leave Them (Real Before & After)',
     excerpt: 'Sycamore seeds are one of the most common causes of blocked gutters in the West Midlands. See a real before & after from WOW Gutters — and find out what happens if the blockage is left untreated.',

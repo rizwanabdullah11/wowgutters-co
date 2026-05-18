@@ -6,6 +6,10 @@ import { MetadataRoute } from 'next'
  * 
  * IMPORTANT: Delete public/robots.txt after deploying this file
  */
+
+// Required for static export
+export const dynamic = 'force-static'
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [

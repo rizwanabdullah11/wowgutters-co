@@ -1,7 +1,9 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import LocalBusinessSchema from '@/components/LocalBusinessSchema'
+import CityGutterPageSchema from '@/components/areas/CityGutterPageSchema'
+import CityGutterCleaningPage from '@/components/areas/CityGutterCleaningPage'
 import { CITIES_ARRAY, getCityBySlug } from '@/lib/cities'
+import { getCityGutterLandingData } from '@/constants/cityGutterLandingData'
 
 interface PageProps {
   params: Promise<{
@@ -33,7 +35,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       languages: { 'en-GB': url, 'x-default': url },
     },
     robots: {
-      index: true,  // ← THIS FIXES THE NOINDEX ISSUE
+      index: true,
       follow: true,
       googleBot: { index: true, follow: true },
     },
@@ -46,27 +48,15 @@ export default async function CityPage({ params }: PageProps) {
   
   if (!city) notFound()
   
-  const url = `https://wowgutters.co.uk/gutter-cleaning-${slug}/`
+  // Get the landing page data for this city
+  const landingData = getCityGutterLandingData(slug)
   
-  // Calculate priceFrom and priceTo if not set
-  const priceFrom = city.priceFrom || city.pricing.terraced.min
-  const priceTo = city.priceTo || city.pricing.detached.max
+  if (!landingData) notFound()
   
   return (
     <>
-      <LocalBusinessSchema
-        city={city.name}
-        url={url}
-        priceFrom={priceFrom}
-        priceTo={priceTo}
-        nearbyAreas={city.nearbyAreas}
-        geo={city.geo}
-        postcodes={city.postcodes}
-      />
-      <main>
-        <h1>Gutter Cleaning {city.name} — WOW Gutters Ltd</h1>
-        {/* Your existing page content */}
-      </main>
+      <CityGutterPageSchema slug={slug} />
+      <CityGutterCleaningPage data={landingData} />
     </>
   )
 }

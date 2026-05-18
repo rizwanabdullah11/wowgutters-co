@@ -1463,3 +1463,24 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
 };
 
 
+
+/**
+ * Get city gutter landing data by slug
+ */
+export function getCityGutterLandingData(slug: string): CityGutterLandingData | undefined {
+  return CITY_GUTTER_LANDINGS[slug];
+}
+
+/**
+ * Get all city gutter landing slugs
+ */
+export function getAllCityGutterLandingSlugs(): string[] {
+  return Object.keys(CITY_GUTTER_LANDINGS);
+}
+
+/**
+ * Check if a slug has city gutter landing data
+ */
+export function hasCityGutterLandingData(slug: string): boolean {
+  return slug in CITY_GUTTER_LANDINGS;
+}
