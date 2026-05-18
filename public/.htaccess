@@ -12,40 +12,92 @@ DirectoryIndex index.html
   AddType image/svg+xml .svg
 </IfModule>
 
-# Next.js static export routing:
-# - With `trailingSlash: true`, routes are exported as /route/index.html.
-# - These rewrites make direct navigation (and refresh) work on Apache/LiteSpeed.
+# ============================================================================
+# SECURITY: Block PHP Execution
+# ============================================================================
+# Prevents malicious PHP files from being executed if uploaded
+<FilesMatch "\.(php|php3|php4|php5|php7|php8|phtml|phar|pl|py|jsp|asp|sh|cgi)$">
+  Require all denied
+</FilesMatch>
+
+<IfModule mod_php.c>
+  php_flag engine off
+</IfModule>
+
+# ============================================================================
+# SEO: Duplicate URL Consolidation (301 Redirects)
+# ============================================================================
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
-  # Canonicalize: add trailing slash for directory-style routes
+  # 1. Duplicate URL consolidation — the SEO fix
+  # /gutter-cleaning/{city}/ → /gutter-cleaning-{city}/
+  RewriteRule ^gutter-cleaning/([a-zA-Z0-9-]+)/?$ /gutter-cleaning-$1/ [R=301,L]
+
+  # 2. Force HTTPS + canonical bare domain
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^(.*)$ https://wowgutters.co.uk/$1 [R=301,L]
+
+  # 3. Legacy redirects from vercel.json (for Hostinger compatibility)
+  RewriteRule ^contact-us/?$ /contact/ [R=301,L]
+  RewriteRule ^about-us/?$ /about/ [R=301,L]
+  RewriteRule ^gutters-cleaning/?$ /help/unblock/ [R=301,L]
+  RewriteRule ^hot-wash/?$ /services/hot-wash-cleaning/ [R=301,L]
+  RewriteRule ^conservatory-cleaning/?$ /services/conservatory/ [R=301,L]
+  RewriteRule ^services/commercial/?$ /commercial/ [R=301,L]
+  RewriteRule ^services/inspection/?$ /help/inspect/ [R=301,L]
+  RewriteRule ^services/gutter-cleaning/?$ /help/unblock/ [R=301,L]
+  RewriteRule ^services/gutter-repairs/?$ /help/repair/ [R=301,L]
+  RewriteRule ^services/roof-cleaning/?$ /help/clean/ [R=301,L]
+
+  # 4. Canonicalize: add trailing slash for directory-style routes
   # (skip real files like /sitemap.xml, /robots.txt, images, etc.)
   RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]{1,6}$
   RewriteCond %{REQUEST_URI} !/$
   RewriteRule ^(.+)$ $1/ [R=301,L]
 
-  # If the request maps to a real file or directory, serve it as-is
+  # 5. If the request maps to a real file or directory, serve it as-is
   RewriteCond %{REQUEST_FILENAME} -f [OR]
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteRule ^ - [L]
 
-  # Serve /route(/) -> /route/index.html when present (avoid double slashes)
+  # 6. Serve /route(/) -> /route/index.html when present (avoid double slashes)
   RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
   RewriteRule ^(.+?)/?$ $1/index.html [L]
 
-  # Serve / -> /index.html
+  # 7. Serve / -> /index.html
   RewriteCond %{DOCUMENT_ROOT}/index.html -f
   RewriteRule ^$ index.html [L]
 </IfModule>
 
-# Prevent aggressive caching of quote scripts (Hostinger/LiteSpeed).
+# ============================================================================
+# PERFORMANCE: Caching Headers (improves PageSpeed score)
+# ============================================================================
 <IfModule mod_headers.c>
-  <FilesMatch "^(wow-quote-form-init|wow-quote-config|wow-cta-dialog-init)\\.js$">
+  # Immutable caching for hashed Next.js chunks
+  <FilesMatch "_next/static/.*\.(js|css|woff2|jpg|png|webp)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  # Prevent aggressive caching of quote scripts (Hostinger/LiteSpeed)
+  <FilesMatch "^(wow-quote-form-init|wow-quote-config|wow-cta-dialog-init)\.js$">
     Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
     Header set Pragma "no-cache"
     Header set Expires "0"
   </FilesMatch>
 </IfModule>
 
+# ============================================================================
+# SECURITY: Additional Protections
+# ============================================================================
 # Avoid directory listing
 Options -Indexes
+
+# Disable server signature
+ServerSignature Off
+
+# Protect sensitive files
+<FilesMatch "^(\.env|\.git|\.htaccess|\.htpasswd|package\.json|package-lock\.json|composer\.json|composer\.lock)$">
+  Require all denied
+</FilesMatch>

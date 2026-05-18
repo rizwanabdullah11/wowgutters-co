@@ -136,6 +136,18 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} !^wowgutters\\.co\\.uk$ [NC]
 RewriteRule ^(.*)$ https://wowgutters.co.uk/$1 [R=301,L]
 
+# Redirects from vercel.json (for Hostinger compatibility)
+RewriteRule ^contact-us/?$ /contact/ [R=301,L]
+RewriteRule ^about-us/?$ /about/ [R=301,L]
+RewriteRule ^gutters-cleaning/?$ /help/unblock/ [R=301,L]
+RewriteRule ^hot-wash/?$ /services/hot-wash-cleaning/ [R=301,L]
+RewriteRule ^conservatory-cleaning/?$ /services/conservatory/ [R=301,L]
+RewriteRule ^services/commercial/?$ /commercial/ [R=301,L]
+RewriteRule ^services/inspection/?$ /help/inspect/ [R=301,L]
+RewriteRule ^services/gutter-cleaning/?$ /help/unblock/ [R=301,L]
+RewriteRule ^services/gutter-repairs/?$ /help/repair/ [R=301,L]
+RewriteRule ^services/roof-cleaning/?$ /help/clean/ [R=301,L]
+
 # SEO: legacy PascalCase URLs → lowercase (bookmarks / old links)
 RewriteRule ^About/?$ about/ [R=301,L]
 RewriteRule ^Contact/?$ contact/ [R=301,L]
