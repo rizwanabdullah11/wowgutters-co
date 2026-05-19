@@ -315,7 +315,45 @@ export const blogPosts: BlogPost[] = [
     authorRole: 'Professional Gutter Cleaning Specialists',
     category: 'Maintenance',
     quickAnswer: 'Gutters in Wolverhampton should be cleaned at least once a year — twice if your property is near trees. The most common warning signs of a blockage include water overflowing during rainfall, green or black staining on external walls, damp patches in upstairs rooms, and fascia boards pulling away from the roofline. Professional gutter cleaning in Wolverhampton starts from £50 for a bungalow and £75 for a semi-detached house, with same-day appointments available across the city and surrounding WV postcodes.',
-    content: `<h2>Why Wolverhampton Gutters Need Regular Cleaning</h2>
+    content: `<h2>Real Wolverhampton Job: Before & After</h2>
+
+<figure style="margin: 20px 0;">
+  <img
+    src="/wolverhampton-gutter-cleaning-before.png"
+    alt="Before photo — blocked gutters in Wolverhampton packed with leaves, moss and debris"
+    width="800"
+    height="600"
+    loading="eager"
+    style="width: 100%; height: auto; max-width: 800px; border-radius: 8px;"
+  />
+  <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
+    Before: A typical Wolverhampton gutter completely blocked with autumn leaves, compacted moss, and sycamore seeds. Water overflow has caused visible staining on the fascia.
+  </figcaption>
+</figure>
+
+<p>This is a real WOW Gutters job completed in Wolverhampton. The gutter was completely blocked with multiple seasons of accumulated debris — leaves from mature oak and sycamore trees, compacted moss, and a thick layer of organic silt.</p>
+
+<p>The blockage had been building for at least two years, causing water to overflow during every rainfall and run down the external walls. You can see the dark staining on the fascia board where water has been running back behind the gutter bracket.</p>
+
+<figure style="margin: 20px 0;">
+  <img
+    src="/wolverhampton-gutter-cleaning-after.png"
+    alt="After photo — gutter cleaning complete in Wolverhampton, channel cleared and flowing freely"
+    width="800"
+    height="600"
+    loading="lazy"
+    style="width: 100%; height: auto; max-width: 800px; border-radius: 8px;"
+  />
+  <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
+    After: The same gutter fully cleared using our ground-level vacuum system. All debris removed, downpipe flowing freely. Total time: 28 minutes.
+  </figcaption>
+</figure>
+
+<p>The after photograph shows the same gutter fully cleared — down to the plastic channel — with the downpipe tested and flowing freely. Our team completed this job in 28 minutes from ground level, with zero ladders used.</p>
+
+<p><strong>No ladders. No scaffolding. No mess left behind.</strong></p>
+
+<h2>Why Wolverhampton Gutters Need Regular Cleaning</h2>
 
 <p>Wolverhampton's mix of Victorian terraces, post-war semi-detached housing, and modern developments all share one thing in common: gutters that need regular professional cleaning to function properly.</p>
 
