@@ -9,10 +9,7 @@ import IosViewportStabilizer from "@/components/IosViewportStabilizer";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://wowgutters.co.uk'),
-  title: {
-    default: "WOW Gutters | Gutter Cleaning & Roofline Services",
-    template: "%s | WOW Gutters"
-  },
+  title: "WOW Gutters | Gutter Cleaning & Roofline Services",
   description: "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, repairs, inspections, roof cleaning. Fast quotes and same-day booking from WOW Gutters.",
   icons: {
     icon: [
