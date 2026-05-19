@@ -12,14 +12,17 @@ export default function CoventryGutterCleaningBlogContent() {
       </div>
 
       <figure className="hero-image">
-        <Image
-          src="/gutter-cleaning-coventry-hero.png"
-          alt="Real before and after — gutter cleaning Coventry, 23 March 2026. Left: gutter heavily packed with growing weeds, moss and debris. Right: completely cleared down to the plastic, 23 minutes later."
-          width={1200}
-          height={600}
-          priority
-          className="rounded-lg"
-        />
+        <div className="hero-image-wrapper">
+          <Image
+            src="/gutter-cleaning-coventry-hero.png"
+            alt="Real before and after — gutter cleaning Coventry, 23 March 2026. Left: gutter heavily packed with growing weeds, moss and debris. Right: completely cleared down to the plastic, 23 minutes later."
+            width={1200}
+            height={460}
+            priority
+            className="rounded-lg"
+            style={{ width: '100%', height: 'auto' }}
+          />
+        </div>
         <figcaption>
           Real job — Coventry, 23 March 2026. Before: gutters packed with growing weeds, heavy moss and substantial debris. After: fully cleared down to the plastic in 23 minutes. Ground-level service, zero ladders.
         </figcaption>
@@ -400,9 +403,17 @@ export default function CoventryGutterCleaningBlogContent() {
           margin: 40px 0;
         }
 
+        .hero-image-wrapper {
+          position: relative;
+          width: 100%;
+          overflow: hidden;
+          border-radius: 8px;
+        }
+
         .hero-image img {
           width: 100%;
           height: auto;
+          display: block;
           border-radius: 8px;
         }
 

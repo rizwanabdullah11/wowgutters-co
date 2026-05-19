@@ -32,15 +32,15 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/gutter-cleaning-coventry-before.png"
-    alt="Before photo — severely blocked gutters in Coventry, 23 March 2026. Gutter packed with growing weeds, heavy moss and compacted leaf debris"
-    width="800"
-    height="600"
+    src="/gutter-cleaning-coventry-hero.png"
+    alt="Before and after gutter cleaning in Coventry — heavily clogged gutter with growing weeds, heavy moss and substantial debris cleared in 23 minutes"
+    width="1200"
+    height="460"
     loading="eager"
-    style="width: 100%; height: auto; max-width: 800px; border-radius: 8px;"
+    style="width: 100%; height: auto; max-width: 1200px; border-radius: 8px; display: block;"
   />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
-    Before: A gutter completely packed with sycamore helicopter seeds, compacted moss, and leaf debris. Multiple established weeds with full root systems growing from decomposed debris.
+    Real job — Coventry, 23 March 2026. Before: Heavily packed with growing weeds, heavy moss & substantial debris. After: Fully cleared down to the plastic in 23 minutes. Ground-level service, zero ladders.
   </figcaption>
 </figure>
 
@@ -319,35 +319,21 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/wolverhampton-gutter-cleaning-before.png"
-    alt="Before photo — blocked gutters in Wolverhampton packed with leaves, moss and debris"
-    width="800"
-    height="600"
+    src="/wolverhamtpon-gutter-cleaning-hero-section.png"
+    alt="Before and after gutter cleaning in Wolverhampton — blocked gutters packed with leaves, moss and debris, cleared and flowing freely"
+    width="1200"
+    height="460"
     loading="eager"
-    style="width: 100%; height: auto; max-width: 800px; border-radius: 8px;"
+    style="width: 100%; height: auto; max-width: 1200px; border-radius: 8px; display: block;"
   />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
-    Before: A typical Wolverhampton gutter completely blocked with autumn leaves, compacted moss, and sycamore seeds. Water overflow has caused visible staining on the fascia.
+    Real WOW Gutters job in Wolverhampton. Before: Gutter completely blocked with autumn leaves, compacted moss, and sycamore seeds. After: Fully cleared using ground-level vacuum system. Total time: 28 minutes.
   </figcaption>
 </figure>
 
 <p>This is a real WOW Gutters job completed in Wolverhampton. The gutter was completely blocked with multiple seasons of accumulated debris — leaves from mature oak and sycamore trees, compacted moss, and a thick layer of organic silt.</p>
 
 <p>The blockage had been building for at least two years, causing water to overflow during every rainfall and run down the external walls. You can see the dark staining on the fascia board where water has been running back behind the gutter bracket.</p>
-
-<figure style="margin: 20px 0;">
-  <img
-    src="/wolverhampton-gutter-cleaning-after.png"
-    alt="After photo — gutter cleaning complete in Wolverhampton, channel cleared and flowing freely"
-    width="800"
-    height="600"
-    loading="lazy"
-    style="width: 100%; height: auto; max-width: 800px; border-radius: 8px;"
-  />
-  <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
-    After: The same gutter fully cleared using our ground-level vacuum system. All debris removed, downpipe flowing freely. Total time: 28 minutes.
-  </figcaption>
-</figure>
 
 <p>The after photograph shows the same gutter fully cleared — down to the plastic channel — with the downpipe tested and flowing freely. Our team completed this job in 28 minutes from ground level, with zero ladders used.</p>
 
