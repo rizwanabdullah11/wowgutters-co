@@ -228,47 +228,6 @@ export default function CoventryGutterCleaningBlogContent() {
 
       <p><strong>Total time on this Coventry job: 23 minutes.</strong></p>
 
-      <h2>Gutter Cleaning Prices in Coventry</h2>
-
-      <table className="pricing-table">
-        <thead>
-          <tr>
-            <th>Property Type</th>
-            <th>Price From</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Bungalow</td>
-            <td>£50</td>
-          </tr>
-          <tr>
-            <td>Semi-detached house</td>
-            <td>£75</td>
-          </tr>
-          <tr>
-            <td>Detached house</td>
-            <td>£95</td>
-          </tr>
-          <tr>
-            <td>Large detached / 3-storey</td>
-            <td>£120</td>
-          </tr>
-          <tr>
-            <td>Commercial premises</td>
-            <td>POA</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <p>
-        Downpipe inspection and clearance is included as standard. No hidden charges. No call-out fees.
-      </p>
-
-      <p>
-        Use our <Link href="/gutter-cleaning-calculator">gutter cleaning cost calculator</Link> for an instant estimate, or <Link href="/quote">request a free quote online</Link>.
-      </p>
-
       <h2>Areas We Cover in Coventry</h2>
 
       <p>WOW Gutters provides gutter cleaning across all CV postcodes, including:</p>
