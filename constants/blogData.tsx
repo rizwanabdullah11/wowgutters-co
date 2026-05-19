@@ -17,6 +17,293 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 'gutter-cleaning-coventry',
+    title: 'Gutter Cleaning in Coventry: Real Job, Real Results — What Every Homeowner Needs to Know (2026 Guide)',
+    excerpt: 'Need gutter cleaning in Coventry? See a real before & after from a March 2026 job — gutters packed with weeds, moss and debris, cleared in 23 minutes. Prices from £50. Same-day booking.',
+    image: '/gutter-cleaning-coventry-hero.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
+    date: '2026-05-19',
+    views: '0',
+    author: 'WOW Gutters Technical Team',
+    authorRole: 'Professional Gutter Cleaning Specialists',
+    category: 'Maintenance',
+    quickAnswer: 'This is a real WOW Gutters job completed in Coventry on 23 March 2026. The gutters were heavily packed with growing weeds, thick moss, and substantial leaf debris — completely blocking water flow. Our team cleared them 100% from ground level in 23 minutes, with zero ladders used. Gutter cleaning in Coventry starts from £50, with same-day appointments available across all CV postcodes.',
+    content: `<h2>What the Real Coventry Job Showed Us</h2>
+
+<figure style="margin: 20px 0;">
+  <img
+    src="/gutter-cleaning-coventry-before.png"
+    alt="Before photo — severely blocked gutters in Coventry, 23 March 2026. Gutter packed with growing weeds, heavy moss and compacted leaf debris"
+    width="800"
+    height="600"
+    loading="eager"
+    style="width: 100%; height: auto; max-width: 800px; border-radius: 8px;"
+  />
+  <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
+    Before: A gutter completely packed with sycamore helicopter seeds, compacted moss, and leaf debris. Multiple established weeds with full root systems growing from decomposed debris.
+  </figcaption>
+</figure>
+
+<p>The before photograph (timestamped 12:42:50, 23 March 2026) shows a gutter in a condition that is more common across Coventry than most homeowners realise.</p>
+
+<p><strong>What was inside the gutter:</strong></p>
+<ul>
+  <li>Multiple established weeds with full root systems growing from the decomposed debris</li>
+  <li>Dense, compacted moss that had formed a near-solid mat across the full width of the channel</li>
+  <li>Substantial leaf debris compacted underneath the moss layer — visible as brown organic mulch</li>
+  <li>Roof tile moss visible across the adjacent flat roof surface, with chunks having washed down into the gutter</li>
+</ul>
+
+<p>This level of blockage does not happen overnight. A gutter reaches this state after at least two to three seasons of neglect — and during that entire period, every rainfall event is causing overflow that runs down the external walls, saturates the brickwork, and works its way towards the interior of the property.</p>
+
+<figure style="margin: 20px 0;">
+  <img
+    src="/gutter-cleaning-coventry-after.png"
+    alt="After photo — gutter cleaning complete in Coventry, 23 March 2026. Gutter cleared to the plastic channel in 23 minutes"
+    width="800"
+    height="600"
+    loading="lazy"
+    style="width: 100%; height: auto; max-width: 800px; border-radius: 8px;"
+  />
+  <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
+    After: The same gutter fully cleared — down to the plastic gutter channel — with the downpipe running freely. Total time: 23 minutes. Zero ladders used.
+  </figcaption>
+</figure>
+
+<p>The after photograph (timestamped 12:19:01, same date) shows the same gutter fully cleared — down to the plastic gutter channel — with the downpipe running freely. Total time from start to finish: <strong>23 minutes</strong>. Zero ladders used.</p>
+
+<h2>Why Coventry Gutters Block So Easily</h2>
+
+<p>Coventry's housing stock and geography create conditions that are particularly hard on gutters. Here is what our teams encounter repeatedly across the city:</p>
+
+<h3>Mature trees throughout residential areas</h3>
+<p>Coventry's established residential neighbourhoods — Earlsdon, Chapelfields, Finham, Styvechale, and the streets around War Memorial Park — are lined with large, mature trees. Oaks, sycamores, ash, and lime trees all shed significant volumes of leaves and seeds directly into gutterlines every year. Properties with trees overhanging the roof are particularly vulnerable — debris falls directly into the channel rather than blowing in from nearby.</p>
+
+<h3>Sycamore helicopter seeds</h3>
+<p>The real Coventry job above was completed in March — before the main autumn leaf fall season. The substantial debris present in March confirms that the gutter had been filling continuously for multiple seasons, with sycamore seeds (which fall from April onwards) compounding the problem year after year. Sycamore seeds are one of the most persistent causes of gutter blockage in Coventry and the wider West Midlands.</p>
+
+<h3>Moss from slate and concrete rooftiles</h3>
+<p>The property in the photographs has a large area of flat or low-pitch roofing alongside the main pitched section. The after photograph clearly shows individual chunks of moss scattered across the flat roof surface — debris that has lifted from the roof tiles and is slowly washing towards the gutterline with every rainfall. Coventry properties with both pitched and flat roof sections are particularly prone to this cycle.</p>
+
+<h3>Older housing stock with long-neglected rooflines</h3>
+<p>Much of Coventry's pre-war and early post-war housing — built between 1900 and 1960 — has gutters that were installed decades ago and have sometimes never been professionally cleaned. Older uPVC and cast iron guttering has joints that deteriorate over time, creating low points where debris accumulates fastest.</p>
+
+<h2>8 Warning Signs Your Gutters Are Blocked in Coventry</h2>
+
+<h3>1. Water Overflowing Over the Gutter Edge During Rain</h3>
+<p>The most visible and immediate sign of a blockage. During rainfall, water cascades over the front or side of the gutter rather than flowing to the downpipe. Every overflow event deposits algae and organic material onto your brickwork — exactly as happened at the Coventry property above before our visit.</p>
+<p><strong>Where to look:</strong> Watch your gutterline during or just after a rain shower. Any waterfall effect from the gutter edge — rather than flow at the downpipe — confirms a blockage.</p>
+
+<h3>2. Weeds or Plants Growing From the Gutterline</h3>
+<p>As the before photograph from our March 2026 Coventry job shows clearly — if weeds are growing from your gutters, the blockage has been building for more than one season. The organic debris inside has decomposed into a growing medium deep enough to support root systems.</p>
+<p>Plant roots can crack and dislodge plastic gutter sections from the inside. The longer they are left, the more damage they cause to the channel itself.</p>
+<p><strong>Where to look:</strong> From street level or your garden, look along the gutterline. Any visible greenery — grass, weeds, or small plants — is a clear sign of a severe, long-standing blockage.</p>
+
+<h3>3. Moss Accumulation Inside the Gutter</h3>
+<p>Moss inside the gutter channel — as visible in the before photograph — forms a near-solid mat that acts like a sponge. It holds water in the channel long after rainfall has stopped, keeping the gutter saturated for days and adding substantial weight to the brackets and fascia.</p>
+<p>Coventry properties with north-facing or partially shaded rooflines — particularly in areas where trees create canopy cover — tend to develop the heaviest moss growth.</p>
+<p><strong>Where to look:</strong> If moss is visible on your roof tiles, it is washing into the gutter with every rain shower. Moss inside the channel itself confirms it has been accumulating for multiple seasons.</p>
+
+<h3>4. Green or Black Staining Running Down External Walls</h3>
+<p>When a blocked gutter overflows, rainwater runs continuously down the same section of brickwork during every rain shower — depositing algae, moss spores, and organic matter from inside the channel. This creates the dark vertical streaking — green, black, or brown — below the gutterline.</p>
+<p>On Coventry's redbrick Victorian and Edwardian properties (common in Earlsdon, Chapelfields, and Coundon), this staining is both highly visible and difficult to remove once it has set into the mortar joints.</p>
+<p><strong>Where to look:</strong> Vertical streaking on any external wall directly below the gutterline or downpipe connections. Staining that appears darker and wetter immediately after rainfall confirms active overflow.</p>
+
+<h3>5. Damp Patches or Mould Inside Upstairs Rooms</h3>
+<p>Internal damp in upper-floor rooms — particularly near external walls — is frequently caused by overflowing gutters saturating the brickwork over months and years. The damp travels through the wall and appears as dark patches, mould, or tide marks on internal plaster.</p>
+<p>Many Coventry homeowners spend money on internal damp treatments and replastering without ever addressing the external cause.</p>
+<p><strong>Where to look:</strong> Mould or damp patches on upper-floor walls near external corners, below window sills, or on ceilings near the eaves.</p>
+
+<h3>6. Sagging Gutters Pulling Away From the Fascia</h3>
+<p>Gutters hold water, leaves, moss, silt, and in the case of the Coventry job above — weeds with full root systems. That weight is far beyond what the gutter was designed to support, and it puts sustained downward pressure on the brackets and the fascia board they are fixed to.</p>
+<p>The result is a gutter that visibly droops or gaps from the fascia. The fascia board behind then absorbs moisture and begins to soften — a repair that costs several times more than a gutter clean.</p>
+<p><strong>Where to look:</strong> Stand back from your property and look along the gutterline. Any dip, bow, or visible gap between the gutter edge and the fascia is a sign the weight of a blockage is pulling it down.</p>
+
+<h3>7. No Flow From the Downpipe During Rainfall</h3>
+<p>Your downpipe should flow clearly during and immediately after rainfall. If your gutters are visibly filling with water but little or nothing is coming out at the bottom of the downpipe, the downpipe itself is blocked — not just the gutter channel.</p>
+<p>Downpipe blockages in Coventry are frequently caused by debris washing down from the gutterline and compacting at the downpipe inlet or at a bend mid-pipe. In the winter months, water trapped inside a blocked downpipe can freeze, expand, and crack the pipe wall.</p>
+<p><strong>Where to look:</strong> Watch the base of your downpipe outlet during rainfall. No flow, intermittent dripping, or water escaping from mid-pipe joints all indicate a downpipe blockage.</p>
+
+<h3>8. You Cannot Remember the Last Time Your Gutters Were Cleaned</h3>
+<p>The Coventry job shown in these photographs is a clear illustration of what happens when gutter cleaning is missed for several consecutive seasons. The amount of debris, the depth of the moss, and the established root systems of the weeds visible in the before photograph are the result of years of accumulation — not a single season.</p>
+<p>Coventry gutters should be cleaned at least once a year, ideally in late autumn after the main leaf fall (October to December). Properties with heavy tree coverage — particularly in Finham, Styvechale, Earlsdon, and around War Memorial Park — should be cleaned twice a year.</p>
+
+<h2>What Happens If You Leave a Blockage Like This Untreated?</h2>
+
+<p>The before photograph from our March 2026 Coventry job shows a blockage that was already several seasons old. If it had been left for another year or more, the consequences would have included:</p>
+
+<ul>
+  <li><strong>External wall staining</strong> — persistent green and black streaking penetrating the brickwork and mortar joints</li>
+  <li><strong>Internal damp</strong> — in upstairs rooms and loft spaces, requiring replastering and redecoration (cost: £300–£1,500+ per room)</li>
+  <li><strong>Fascia board rot</strong> — the sustained weight of wet debris would eventually cause the fascia to soften and fail, requiring full replacement (cost: £500–£2,000+)</li>
+  <li><strong>Gutter channel damage</strong> — the root systems of established weeds can crack and deform plastic guttering from the inside, requiring section replacement</li>
+  <li><strong>Downpipe failure</strong> — debris washing from an overfull gutter into the downpipe inlet would eventually cause a complete downpipe blockage or, in winter, a freeze-crack</li>
+  <li><strong>Legal liability</strong> — homeowners can be held responsible under UK common law if overflow from their blocked gutters causes water damage to a neighbouring property or creates a hazard on a public path</li>
+</ul>
+
+<p>The cost of the professional clean that resolved this Coventry job: under £100. The cost of letting a blockage this severe go untreated for another two seasons: potentially several thousand pounds in structural repairs.</p>
+
+<h2>How WOW Gutters Cleared This Coventry Property in 23 Minutes</h2>
+
+<p>This is exactly what our ground-level vacuum system is built for.</p>
+
+<p><strong>No ladders. No scaffolding. No contact with your roof or fascia.</strong></p>
+
+<p>Our high-reach gutter vacuum equipment extends to four storeys and creates powerful suction that pulls debris — leaves, moss, compacted silt, weeds, and root material — out of the gutter channel completely from the ground below.</p>
+
+<p>Here is our exact process on every Coventry job:</p>
+
+<h3>1. Ground survey</h3>
+<p>We walk the full perimeter of the property and assess the gutterline before starting — identifying blockages, sagging sections, downpipe connections, and any visible damage.</p>
+
+<h3>2. Camera inspection (where required)</h3>
+<p>Our pole-mounted camera lets us see inside the gutter channel before we start — so we know exactly what we are dealing with and can confirm the result after.</p>
+
+<h3>3. Vacuum extraction</h3>
+<p>Powerful suction removes all debris from the gutter channel — leaves, moss, compacted organic material, weeds, and root systems. Debris is captured directly into our collection system, not dropped onto your garden or driveway.</p>
+
+<h3>4. Downpipe inspection and clearance</h3>
+<p>We check and clear every downpipe to confirm the complete drainage run is flowing freely — not just the gutter channel.</p>
+
+<h3>5. Before and after photographs</h3>
+<p>Taken on every job and sent directly to you — exactly as shown in this article. You see what was there before, and what it looks like after.</p>
+
+<h3>6. Final flow check</h3>
+<p>We run water through the system to confirm free flow to every outlet before we leave.</p>
+
+<p><strong>Total time on this Coventry job: 23 minutes.</strong></p>
+
+<h2>Gutter Cleaning Prices in Coventry</h2>
+
+<table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+  <thead>
+    <tr style="background-color: #f0f0f0;">
+      <th style="border: 1px solid #ddd; padding: 12px; text-align: left; font-weight: bold; color: #0f172a;">Property Type</th>
+      <th style="border: 1px solid #ddd; padding: 12px; text-align: left; font-weight: bold; color: #0f172a;">Price From</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Bungalow</td>
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£50</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Semi-detached house</td>
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£75</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Detached house</td>
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£95</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Large detached / 3-storey</td>
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£120</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Commercial premises</td>
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">POA</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Downpipe inspection and clearance is included as standard. No hidden charges. No call-out fees.</p>
+
+<p>Use our <a href="/gutter-cleaning-calculator">gutter cleaning cost calculator</a> for an instant estimate, or <a href="/quote">request a free quote online</a>.</p>
+
+<h2>Areas We Cover in Coventry</h2>
+
+<p>WOW Gutters provides gutter cleaning across all CV postcodes, including:</p>
+
+<ul>
+  <li><strong>Earlsdon, Chapelfields</strong> — CV5</li>
+  <li><strong>Canley, Tile Hill, Westwood</strong> — CV4</li>
+  <li><strong>Styvechale, Finham</strong> — CV3</li>
+  <li><strong>Binley, Willenhall, Cheylesmore</strong> — CV3</li>
+  <li><strong>Coundon, Radford, Holbrooks</strong> — CV6</li>
+  <li><strong>Walsgrave, Wyken, Stoke</strong> — CV2</li>
+  <li><strong>Longford, Exhall</strong> — CV6 and CV7</li>
+  <li><strong>Kenilworth Road corridor</strong> — CV8</li>
+  <li><strong>City centre and Hillfields</strong> — CV1</li>
+  <li><strong>Allesley, Meriden</strong> — CV5 and CV7</li>
+</ul>
+
+<p>Not sure if we cover your postcode? <a href="tel:07421433910">Call us on 07421 433910</a> or <a href="/quote">get a free quote online</a> and we will confirm within the hour.</p>
+
+<h2>Book Gutter Cleaning in Coventry Today</h2>
+
+<p>Whether your gutters look like the before photograph above — or you just want to prevent them getting there — WOW Gutters can help. Same-day and next-day appointments are available across Coventry and all surrounding CV postcodes.</p>
+
+<ul>
+  <li>✅ Same-day and next-day appointments across Coventry</li>
+  <li>✅ Fully insured, professional local technicians</li>
+  <li>✅ Ground-level vacuum system — zero ladders</li>
+  <li>✅ Before and after photo evidence on every single job</li>
+  <li>✅ 12-month guarantee on all cleaning work</li>
+  <li>✅ 4.9★ rated with over 2,696 verified Google reviews</li>
+</ul>
+
+<p>📞 <strong>Call us now:</strong> <a href="tel:07421433910">07421 433910</a><br>
+📧 <strong>Email:</strong> support@wowgutters.co.uk<br>
+🌐 <strong>Book online:</strong> <a href="/quote">wowgutters.co.uk/quote</a></p>
+
+<p>Covering Coventry, Kenilworth, Leamington Spa, Rugby, and all surrounding West Midlands areas.</p>
+
+<h2>Frequently Asked Questions — Gutter Cleaning in Coventry</h2>
+
+<div style="margin: 40px 0;">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How often should gutters be cleaned in Coventry?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> At least once a year — ideally in late autumn (October to December) after the main leaf fall from Coventry's mature street trees. Properties near heavy tree coverage, such as those in Earlsdon, Finham, Styvechale, and around War Memorial Park, should be cleaned twice a year — once in spring and once in autumn.</p>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does gutter cleaning cost in Coventry?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> WOW Gutters prices start from £50 for a bungalow, £75 for a semi-detached, and £95 for a detached property. Downpipe inspection is included. Use our <a href="/gutter-cleaning-calculator" style="color: #19C58B; text-decoration: underline;">cost calculator</a> for an instant estimate.</p>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: My gutters have weeds growing in them — is that normal?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> It is more common than most people realise — as the real Coventry job photograph above shows. Weeds establish themselves when debris in the gutter channel has decomposed into a deep enough layer of organic material to support root systems. This level of blockage typically takes two or more seasons to develop. The good news: our vacuum system removes established weeds, roots and all, in a single visit.</p>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you use ladders?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> No. We use a professional ground-level high-reach vacuum system. No ladders, no scaffolding, no contact with your roof tiles, fascia, or brickwork.</p>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you provide before and after photos?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes — on every job, without exception. We photograph the gutters before we start and after we finish, and send both images directly to you. The photographs in this article are from a real WOW Gutters job in Coventry, completed on 23 March 2026.</p>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you cover Earlsdon, Finham, Canley, Binley, and Walsgrave?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. We cover all CV postcodes across Coventry and the surrounding area, including Earlsdon, Chapelfields, Finham, Styvechale, Canley, Tile Hill, Binley, Walsgrave, Coundon, Wyken, Longford, and Allesley.</p>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Is there a guarantee?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. All WOW Gutters cleaning work is backed by a 12-month guarantee. If your gutters block again within 12 months of our clean, we return and clear them at no additional charge.</p>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you also repair gutters in Coventry?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. In addition to cleaning, we repair leaking joints, broken brackets, sagging sections, and cracked downpipes. All repair work comes with a 6-month guarantee. <a href="/services/gutter-repairs" style="color: #19C58B; text-decoration: underline;">View our gutter repairs service</a>.</p>
+  </div>
+</div>
+
+<h2>Related Articles</h2>
+
+<ul>
+  <li><a href="/blog/blocked-gutters-sycamore-seeds">Blocked Gutters Packed With Sycamore Seeds — What Happens If You Leave Them</a></li>
+  <li><a href="/blog/signs-of-blocked-gutters-birmingham">10 Warning Signs Your Gutters Are Blocked in Birmingham</a></li>
+  <li><a href="/blog/gutter-repairs-guide">Gutter Repairs: How to Spot Damage Early</a></li>
+  <li><a href="/blog/winter-gutter-cleaning-maintenance">The Essential Winter Gutter Maintenance Guide for UK Homeowners</a></li>
+  <li><a href="/gutter-cleaning-prices">Gutter Cleaning Prices — Full 2026 Guide</a></li>
+</ul>
+`
+  },
+  {
     id: 'gutter-cleaning-wolverhampton',
     title: 'Gutter Cleaning Wolverhampton | WOW Gutters — Local Specialists',
     excerpt: 'Need gutter cleaning in Wolverhampton? WOW Gutters covers the whole city — same-day booking, ground-level vacuum system, prices from £50. See what is blocking your gutters.',
@@ -28,6 +315,296 @@ export const blogPosts: BlogPost[] = [
     authorRole: 'Professional Gutter Cleaning Specialists',
     category: 'Maintenance',
     quickAnswer: 'Gutters in Wolverhampton should be cleaned at least once a year — twice if your property is near trees. The most common warning signs of a blockage include water overflowing during rainfall, green or black staining on external walls, damp patches in upstairs rooms, and fascia boards pulling away from the roofline. Professional gutter cleaning in Wolverhampton starts from £50 for a bungalow and £75 for a semi-detached house, with same-day appointments available across the city and surrounding WV postcodes.',
+    content: `<h2>Why Wolverhampton Gutters Need Regular Cleaning</h2>
+
+<p>Wolverhampton's mix of Victorian terraces, post-war semi-detached housing, and modern developments all share one thing in common: gutters that need regular professional cleaning to function properly.</p>
+
+<p>The city's mature tree coverage — particularly in areas like Tettenhall, Penn, Compton, and around West Park — combined with the region's rainfall patterns, creates ideal conditions for gutter blockages to form quickly and cause serious damage if left untreated.</p>
+
+<h2>What Causes Gutter Blockages in Wolverhampton?</h2>
+
+<h3>Autumn Leaf Fall</h3>
+<p>Wolverhampton's established residential areas are lined with mature oak, sycamore, ash, and lime trees. Every autumn, these trees shed thousands of leaves that land directly in gutters or are blown onto roofs and washed into the channel during rainfall.</p>
+
+<p>Properties in Tettenhall, Penn, Compton, Finchfield, and around West Park are particularly affected due to heavy tree canopy coverage. A single mature oak can shed enough leaves to completely block a standard residential gutter system in one season.</p>
+
+<h3>Sycamore Helicopter Seeds</h3>
+<p>Sycamore trees are common throughout Wolverhampton, and their distinctive winged seeds (helicopter seeds or samaras) are one of the most persistent causes of gutter blockages across the West Midlands.</p>
+
+<p>Unlike leaves, which decompose relatively quickly, sycamore seeds interlock and compact inside the gutter channel, forming a dense, water-resistant mat. This mat traps subsequent debris — moss, silt, and more leaves — creating a blockage that gets worse with every rainfall.</p>
+
+<p>Sycamores drop seeds twice a year: once in autumn and again in spring. Properties near mature sycamore trees often need cleaning twice annually rather than just once.</p>
+
+<h3>Moss from Roof Tiles</h3>
+<p>Moss grows naturally on roof tiles, particularly on north-facing or shaded sections of the roof. Every time it rains, small fragments of moss wash off the tiles and into the gutter channel below.</p>
+
+<p>Over time, this moss accumulates inside the gutter, forming a thick, spongy mat that holds water long after rainfall has stopped. The sustained moisture accelerates the growth of more moss and algae, compounding the problem.</p>
+
+<p>Wolverhampton properties with slate or concrete tile roofs — common across the city's Victorian and Edwardian housing stock — are particularly prone to moss accumulation.</p>
+
+<h3>Bird Nesting Material</h3>
+<p>Gutters filled with leaves and organic debris are attractive nesting sites for birds, particularly sparrows and starlings. Birds bring additional nesting material — twigs, grass, feathers — which compounds the existing blockage.</p>
+
+<p>Bird droppings also accumulate inside the gutter, creating additional staining and accelerating the corrosion of metal guttering.</p>
+
+<h3>Silt and Fine Debris</h3>
+<p>Even properties without nearby trees are not immune to gutter blockages. Wind-blown dust, roof tile grit, and atmospheric pollution all settle on the roof and wash into the gutter during rainfall.</p>
+
+<p>Over months and years, this fine material accumulates as a layer of compacted silt in the bottom of the gutter channel. This silt reduces the effective depth of the gutter, meaning it fills and overflows more quickly during heavy rain.</p>
+
+<h2>10 Warning Signs Your Gutters Are Blocked</h2>
+
+<h3>1. Water Overflowing Over the Gutter Edge</h3>
+<p>The most visible sign of a blockage. During or immediately after rainfall, you will see water cascading over the front or side of the gutter rather than flowing towards the downpipe.</p>
+
+<p>This happens when debris has built up to the point where it is blocking the natural flow of water along the channel. The gutter fills up and spills over the nearest edge.</p>
+
+<p><strong>What to watch for:</strong> Watch your gutterline during a rain shower. Any waterfall effect from the gutter edge — rather than flow at the downpipe — confirms a blockage.</p>
+
+<h3>2. Green or Black Staining on External Walls</h3>
+<p>When a blocked gutter overflows, rainwater runs continuously down the same section of brickwork every time it rains. This water carries algae, moss spores, and organic debris from inside the gutter, creating dark vertical streaks — green, black, or brown — below the gutterline.</p>
+
+<p>On Wolverhampton's red brick Victorian and Edwardian properties (common in Tettenhall, Penn, Compton, and the city centre), this staining is highly visible and difficult to remove once it has penetrated the mortar joints.</p>
+
+<p><strong>What to watch for:</strong> Vertical streaking on external walls directly below the gutterline or downpipe connections. Staining that appears darker immediately after rainfall confirms active overflow.</p>
+
+<h3>3. Damp Patches or Mould Inside Upstairs Rooms</h3>
+<p>Internal damp in upper-floor rooms — particularly near external walls — is frequently caused by overflowing gutters saturating the brickwork over months and years.</p>
+
+<p>The damp travels through the wall and appears as dark patches, mould, or tide marks on internal plaster. Many Wolverhampton homeowners spend money on internal damp treatments without ever addressing the external cause — the blocked gutter.</p>
+
+<p><strong>What to watch for:</strong> Mould or damp patches on upper-floor walls near external corners, below window sills, or on ceilings near the eaves. Musty smell in the loft space.</p>
+
+<h3>4. Plants or Weeds Growing From the Gutterline</h3>
+<p>If you can see greenery — grass, moss, weeds, or even small saplings — sprouting from your gutters, there is a substantial build-up of organic material inside the channel.</p>
+
+<p>Seeds blown by wind land in accumulated leaf mulch, germinate, and take root inside the gutter. This is a sign of long-term neglect — the blockage has likely been forming for more than one season.</p>
+
+<p>Plant roots can crack or dislodge plastic guttering sections from the inside, turning what would have been a simple clean into a repair job.</p>
+
+<p><strong>What to watch for:</strong> Any visible greenery along the gutterline, especially in spring and summer when growth is fastest.</p>
+
+<h3>5. Sagging Gutters Pulling Away From the Fascia</h3>
+<p>Gutters are designed to carry moving water — not to hold the sustained weight of wet leaves, compacted silt, standing water, and debris.</p>
+
+<p>When a blockage causes pooling inside the gutter, that additional weight puts sustained downward pressure on the brackets and the fascia board they are fixed to. The result is a gutter that visibly droops or pulls away from the roofline.</p>
+
+<p>Left unattended, the fascia board itself can begin to rot — a repair that costs significantly more than a gutter clean.</p>
+
+<p><strong>What to watch for:</strong> Step back from your property and look at the gutterline from street level. Any visible dip, bow, or gap between the gutter edge and the fascia is a warning sign.</p>
+
+<h3>6. No Flow From the Downpipe During Rainfall</h3>
+<p>Your downpipe should flow clearly during and immediately after rainfall. If your gutters are visibly filling with water but little or nothing is coming out at the bottom of the downpipe, the downpipe itself is blocked — not just the gutter channel.</p>
+
+<p>Downpipe blockages are frequently caused by debris washing down from the gutterline and compacting at the downpipe inlet or at a bend mid-pipe. In winter, water trapped inside a blocked downpipe can freeze, expand, and crack the pipe wall.</p>
+
+<p><strong>What to watch for:</strong> Watch the base of your downpipe outlet during rainfall. No flow, intermittent dripping, or water escaping from mid-pipe joints all indicate a downpipe blockage.</p>
+
+<h3>7. Ice Dams and Icicles in Winter</h3>
+<p>During cold snaps — which Wolverhampton experiences regularly between November and February — standing water inside a blocked gutter can freeze solid.</p>
+
+<p>This creates an ice dam that prevents any subsequent rainfall from draining at all. Ice expands as it freezes, which can crack plastic guttering, dislodge joints, and bend metal brackets. When it thaws, the damage becomes visible.</p>
+
+<p><strong>What to watch for:</strong> Icicles hanging from the gutter edge during cold weather, or visible ice inside the gutter channel.</p>
+
+<h3>8. Staining on Fascias and Soffits</h3>
+<p>When gutters overflow, water does not just drip off the front edge. It also runs back behind the gutter bracket and onto the fascia board — the horizontal timber that the gutter is fixed to.</p>
+
+<p>Sustained damp on the fascia causes paint to peel, timber to soften, and eventually the board to rot through. On Wolverhampton's older properties, fascia boards are often original timber that has never been replaced — making them particularly vulnerable to water damage.</p>
+
+<p><strong>What to watch for:</strong> Peeling paint on fascia boards, dark tide marks on soffits, visible softness or cracking in wooden fascia boards.</p>
+
+<h3>9. Birds or Pests Near Your Gutterline</h3>
+<p>Debris-filled gutters are attractive nesting sites for birds. A gutter full of leaves and organic material provides perfect nesting material and shelter.</p>
+
+<p>Pest activity near the gutterline is a strong signal that a significant debris build-up is present inside. Nesting material compounds the blockage further, and bird droppings cause additional staining.</p>
+
+<p><strong>What to watch for:</strong> Birds regularly landing on or perching near your gutterline, especially in the spring nesting season (March to May). Chirping sounds from inside the guttering.</p>
+
+<h3>10. You Cannot Remember the Last Time Your Gutters Were Cleaned</h3>
+<p>If you cannot remember when your gutters were last professionally cleared — or if you have owned or managed the property for several years without a clean — it is almost certain that you have a build-up of debris that needs addressing.</p>
+
+<p>Gutters in Wolverhampton should be cleaned at least once a year, ideally in late autumn after the bulk of leaf fall (November to December). Properties near trees should be cleaned twice a year — once in spring and once in autumn.</p>
+
+<h2>What Happens If You Leave a Blockage Untreated?</h2>
+
+<p>Blocked gutters are not just a cosmetic issue. Left untreated, they cause serious and expensive damage to your property:</p>
+
+<h3>Continuous Overflow and Wall Staining</h3>
+<p>Every time it rains, water that cannot drain through the blocked channel spills over the gutter lip and runs down the external wall. On brick and render properties, this creates vertical green and black streaking below the gutterline.</p>
+
+<p>On limestone and painted surfaces, the staining penetrates the material itself and can be extremely difficult to remove without specialist cleaning.</p>
+
+<h3>Internal Damp</h3>
+<p>Water running continuously down the same section of wall — every rainfall, week after week — eventually saturates the brickwork. On solid-wall properties (common across Wolverhampton's Victorian and Edwardian housing stock), saturated outer walls transfer moisture to internal surfaces.</p>
+
+<p>The result is damp patches and mould in upper rooms, often appearing near the ceiling line on external walls. Many homeowners spend hundreds of pounds on internal damp treatments without ever finding the cause on the outside.</p>
+
+<h3>Fascia Board Rot</h3>
+<p>When a gutter overflows, water runs back behind the gutter bracket and onto the fascia board. Sustained damp on the fascia causes the paint to peel, the timber to soften, and eventually the board to rot through.</p>
+
+<p>A fascia board replacement costs significantly more than a gutter clean — typically £500 to £2,000+ depending on the size of the property and access requirements.</p>
+
+<h3>Foundation Splash Damage</h3>
+<p>Water overflowing from ground-floor gutters and lower rooflines lands at the base of the wall, soaking into the ground around the foundations. Over time this can contribute to subsidence on certain soil types, and on older properties can saturate the base course of brickwork.</p>
+
+<h3>Gutter and Downpipe Damage</h3>
+<p>The sustained weight of wet debris, standing water, and established plant roots can crack plastic guttering, dislodge joints, and bend brackets. In winter, water trapped inside a blocked downpipe can freeze and crack the pipe from the inside.</p>
+
+<p>What would have been a simple clean becomes a repair job — with costs running into hundreds of pounds.</p>
+
+<h2>How WOW Gutters Clears Blocked Gutters in Wolverhampton</h2>
+
+<p>WOW Gutters uses a professional ground-level vacuum system to clear gutters without ladders, scaffolding, or contact with your roof or fascia.</p>
+
+<p>Our high-reach gutter vacuum equipment extends to four storeys and creates powerful suction that pulls debris — leaves, moss, compacted silt, weeds, and root material — out of the gutter channel completely from the ground below.</p>
+
+<h3>Our Process on Every Wolverhampton Job:</h3>
+
+<h4>1. Ground Survey</h4>
+<p>We walk the full perimeter of the property and assess the gutterline before starting — identifying blockages, sagging sections, downpipe connections, and any visible damage.</p>
+
+<h4>2. Camera Inspection (Where Required)</h4>
+<p>Our pole-mounted camera lets us see inside the gutter channel before we start — so we know exactly what we are dealing with and can confirm the result after.</p>
+
+<h4>3. Vacuum Extraction</h4>
+<p>Powerful suction removes all debris from the gutter channel — leaves, moss, compacted organic material, weeds, and root systems. Debris is captured directly into our collection system, not dropped onto your garden or driveway.</p>
+
+<h4>4. Downpipe Inspection and Clearance</h4>
+<p>We check and clear every downpipe to confirm the complete drainage run is flowing freely — not just the gutter channel.</p>
+
+<h4>5. Before and After Photographs</h4>
+<p>Taken on every job and sent directly to you. You see what was there before, and what it looks like after.</p>
+
+<h4>6. Final Flow Check</h4>
+<p>We run water through the system to confirm free flow to every outlet before we leave.</p>
+
+<p><strong>No ladders. No scaffolding. No mess left behind.</strong></p>
+
+<h2>Gutter Cleaning Prices in Wolverhampton</h2>
+
+<table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+  <thead>
+    <tr style="background-color: #f0f0f0;">
+      <th style="border: 1px solid #ddd; padding: 12px; text-align: left; font-weight: bold; color: #0f172a;">Property Type</th>
+      <th style="border: 1px solid #ddd; padding: 12px; text-align: left; font-weight: bold; color: #0f172a;">Price From</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Bungalow</td>
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£50</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Semi-detached house</td>
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£75</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Detached house</td>
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£95</td>
+    </tr>
+    <tr style="background-color: #f9f9f9;">
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Large detached / 3-storey</td>
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£120</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Commercial premises</td>
+      <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">POA</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Downpipe inspection and clearance is included as standard. No hidden charges. No call-out fees.</p>
+
+<p>Use our <a href="/gutter-cleaning-calculator">gutter cleaning cost calculator</a> for an instant estimate, or <a href="/quote">request a free quote online</a>.</p>
+
+<h2>Areas We Cover in Wolverhampton</h2>
+
+<p>WOW Gutters provides gutter cleaning across all WV postcodes, including:</p>
+
+<ul>
+  <li><strong>Tettenhall, Compton</strong> — WV6</li>
+  <li><strong>Penn, Merry Hill</strong> — WV4</li>
+  <li><strong>Finchfield, Castlecroft</strong> — WV3</li>
+  <li><strong>City Centre, Chapel Ash</strong> — WV1, WV2</li>
+  <li><strong>Whitmore Reans, Park Village</strong> — WV1</li>
+  <li><strong>Wednesfield, Heath Town</strong> — WV11, WV10</li>
+  <li><strong>Bilston, Bradley</strong> — WV14</li>
+  <li><strong>Codsall, Perton</strong> — WV8</li>
+  <li><strong>Wombourne, Trysull</strong> — WV5</li>
+  <li><strong>Bushbury, Oxley</strong> — WV10</li>
+</ul>
+
+<p>Not sure if we cover your postcode? <a href="tel:07421433910">Call us on 07421 433910</a> or <a href="/quote">get a free quote online</a> and we will confirm within the hour.</p>
+
+<h2>Book Gutter Cleaning in Wolverhampton Today</h2>
+
+<p>Same-day and next-day appointments are available across Wolverhampton and all surrounding WV postcodes.</p>
+
+<ul>
+  <li>✅ Same-day and next-day appointments across Wolverhampton</li>
+  <li>✅ Fully insured, professional local technicians</li>
+  <li>✅ Ground-level vacuum system — zero ladders</li>
+  <li>✅ Before and after photo evidence on every single job</li>
+  <li>✅ 12-month guarantee on all cleaning work</li>
+  <li>✅ 4.9★ rated with over 2,696 verified Google reviews</li>
+</ul>
+
+<p>📞 <strong>Call us now:</strong> <a href="tel:07421433910">07421 433910</a><br>
+📧 <strong>Email:</strong> support@wowgutters.co.uk<br>
+🌐 <strong>Book online:</strong> <a href="/quote">wowgutters.co.uk/quote</a></p>
+
+<p>Covering Wolverhampton, Dudley, Walsall, Cannock, Stafford, and all surrounding West Midlands and Staffordshire areas.</p>
+
+<h2>Frequently Asked Questions — Gutter Cleaning in Wolverhampton</h2>
+
+<div style="margin: 40px 0;">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How often should gutters be cleaned in Wolverhampton?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> At least once a year — ideally in late autumn (October to December) after the main leaf fall. Properties near heavy tree coverage, such as those in Tettenhall, Penn, Compton, and around West Park, should be cleaned twice a year — once in spring and once in autumn.</p>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does gutter cleaning cost in Wolverhampton?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> WOW Gutters prices start from £50 for a bungalow, £75 for a semi-detached, and £95 for a detached property. Downpipe inspection is included. Use our <a href="/gutter-cleaning-calculator" style="color: #19C58B; text-decoration: underline;">cost calculator</a> for an instant estimate.</p>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you use ladders?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> No. We use a professional ground-level high-reach vacuum system. No ladders, no scaffolding, no contact with your roof tiles, fascia, or brickwork.</p>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you provide before and after photos?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes — on every job, without exception. We photograph the gutters before we start and after we finish, and send both images directly to you.</p>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you cover Tettenhall, Penn, Compton, and Wednesfield?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. We cover all WV postcodes across Wolverhampton and the surrounding area, including Tettenhall, Penn, Compton, Finchfield, Wednesfield, Bilston, Codsall, Wombourne, and Bushbury.</p>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Is there a guarantee?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. All WOW Gutters cleaning work is backed by a 12-month guarantee. If your gutters block again within 12 months of our clean, we return and clear them at no additional charge.</p>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you also repair gutters in Wolverhampton?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. In addition to cleaning, we repair leaking joints, broken brackets, sagging sections, and cracked downpipes. All repair work comes with a 6-month guarantee. <a href="/services/gutter-repairs" style="color: #19C58B; text-decoration: underline;">View our gutter repairs service</a>.</p>
+  </div>
+</div>
+
+<h2>Related Articles</h2>
+
+<ul>
+  <li><a href="/blog/blocked-gutters-sycamore-seeds">Blocked Gutters Packed With Sycamore Seeds — What Happens If You Leave Them</a></li>
+  <li><a href="/blog/signs-of-blocked-gutters-birmingham">10 Warning Signs Your Gutters Are Blocked in Birmingham</a></li>
+  <li><a href="/blog/gutter-repairs-guide">Gutter Repairs: How to Spot Damage Early</a></li>
+  <li><a href="/blog/winter-gutter-cleaning-maintenance">The Essential Winter Gutter Maintenance Guide for UK Homeowners</a></li>
+  <li><a href="/gutter-cleaning-prices">Gutter Cleaning Prices — Full 2026 Guide</a></li>
+</ul>
+`
   },
   {
     id: 'blocked-gutters-sycamore-seeds',
