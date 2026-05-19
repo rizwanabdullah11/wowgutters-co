@@ -38,6 +38,8 @@ export type CityData = {
   region: string
   /** County (for schema) */
   county?: string
+  /** Tier: 'primary' for major cities, 'suburb' for neighborhoods */
+  tier?: 'primary' | 'suburb'
 }
 
 /**
@@ -53,24 +55,25 @@ export const CITIES: Record<string, CityData> = {
     slug: 'solihull',
     name: 'Solihull',
     postcodes: ['B90', 'B91', 'B92', 'B93', 'B94'],
-    nearbyAreas: ['Shirley', 'Olton', 'Dorridge', 'Knowle', 'Balsall Common', 'Marston Green'],
+    nearbyAreas: ['Birmingham', 'Shirley', 'Olton', 'Dorridge', 'Knowle', 'Balsall Common'],
     geo: { latitude: 52.4118, longitude: -1.7776 },
     pricing: {
-      terraced: { min: 50, max: 70 },
-      semiDetached: { min: 60, max: 85 },
-      detached: { min: 85, max: 130 },
+      terraced: { min: 55, max: 75 },
+      semiDetached: { min: 65, max: 90 },
+      detached: { min: 90, max: 140 },
     },
-    priceFrom: 50,
-    priceTo: 130,
+    priceFrom: 55,
+    priceTo: 140,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'primary',
   },
   
   wolverhampton: {
     slug: 'wolverhampton',
     name: 'Wolverhampton',
     postcodes: ['WV1', 'WV2', 'WV3', 'WV4', 'WV5', 'WV6', 'WV7', 'WV8', 'WV9', 'WV10', 'WV11', 'WV12', 'WV13', 'WV14'],
-    nearbyAreas: ['Penn', 'Tettenhall', 'Wednesfield', 'Bilston', 'Willenhall', 'Bushbury', 'Fordhouses'],
+    nearbyAreas: ['Walsall', 'Dudley', 'Tettenhall', 'Bilston', 'Wednesfield', 'Mednesfield'],
     geo: { latitude: 52.5862, longitude: -2.1285 },
     pricing: {
       terraced: { min: 50, max: 70 },
@@ -81,30 +84,32 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 130,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'primary',
   },
   
   coventry: {
     slug: 'coventry',
     name: 'Coventry',
     postcodes: ['CV1', 'CV2', 'CV3', 'CV4', 'CV5', 'CV6', 'CV7', 'CV8'],
-    nearbyAreas: ['Earlsdon', 'Canley', 'Tile Hill', 'Foleshill', 'Radford', 'Binley', 'Wyken'],
+    nearbyAreas: ['Solihull', 'Kenilworth', 'Earlsdon', 'Cheylemore', 'Tile Hill'],
     geo: { latitude: 52.4068, longitude: -1.5197 },
     pricing: {
-      terraced: { min: 50, max: 70 },
-      semiDetached: { min: 60, max: 80 },
-      detached: { min: 80, max: 120 },
+      terraced: { min: 55, max: 75 },
+      semiDetached: { min: 65, max: 85 },
+      detached: { min: 85, max: 130 },
     },
-    priceFrom: 50,
-    priceTo: 120,
+    priceFrom: 55,
+    priceTo: 130,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'primary',
   },
   
   walsall: {
     slug: 'walsall',
     name: 'Walsall',
     postcodes: ['WS1', 'WS2', 'WS3', 'WS4', 'WS5', 'WS9'],
-    nearbyAreas: ['Aldridge', 'Bloxwich', 'Brownhills', 'Pelsall', 'Rushall', 'Streetly'],
+    nearbyAreas: ['Wolverhampton', 'Aldridge', 'Bloxwich', 'Willenhall', 'Wednesbury'],
     geo: { latitude: 52.5862, longitude: -1.9829 },
     pricing: {
       terraced: { min: 50, max: 70 },
@@ -115,13 +120,14 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 120,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'primary',
   },
   
   dudley: {
     slug: 'dudley',
     name: 'Dudley',
     postcodes: ['DY1', 'DY2', 'DY3'],
-    nearbyAreas: ['Sedgley', 'Gornal', 'Coseley', 'Netherton', 'Kingswinford'],
+    nearbyAreas: ['Wolverhampton', 'Stourbridge', 'Halesowen', 'Brierley Hill', 'Tipton'],
     geo: { latitude: 52.5120, longitude: -2.0890 },
     pricing: {
       terraced: { min: 50, max: 70 },
@@ -132,13 +138,14 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 120,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'primary',
   },
   
   'west-bromwich': {
     slug: 'west-bromwich',
     name: 'West Bromwich',
     postcodes: ['B70', 'B71'],
-    nearbyAreas: ['Sandwell', 'Oldbury', 'Smethwick', 'Wednesbury', 'Tipton'],
+    nearbyAreas: ['Smethwick', 'Oldbury', 'Tipton', 'Wednesbury', 'Birmingham'],
     geo: { latitude: 52.5188, longitude: -1.9950 },
     pricing: {
       terraced: { min: 50, max: 70 },
@@ -149,6 +156,7 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 120,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'primary',
   },
   
   // Worcestershire Cities
@@ -167,6 +175,7 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 130,
     region: 'West Midlands',
     county: 'Worcestershire',
+    tier: 'primary',
   },
   
   bromsgrove: {
@@ -184,6 +193,7 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 130,
     region: 'West Midlands',
     county: 'Worcestershire',
+    tier: 'primary',
   },
   
   redditch: {
@@ -201,6 +211,7 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 120,
     region: 'West Midlands',
     county: 'Worcestershire',
+    tier: 'primary',
   },
   
   kidderminster: {
@@ -218,6 +229,7 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 130,
     region: 'West Midlands',
     county: 'Worcestershire',
+    tier: 'primary',
   },
   
   malvern: {
@@ -235,6 +247,7 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 140,
     region: 'West Midlands',
     county: 'Worcestershire',
+    tier: 'primary',
   },
   
   evesham: {
@@ -252,6 +265,7 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 140,
     region: 'West Midlands',
     county: 'Worcestershire',
+    tier: 'primary',
   },
   
   'droitwich-spa': {
@@ -269,6 +283,7 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 130,
     region: 'West Midlands',
     county: 'Worcestershire',
+    tier: 'primary',
   },
   
   // Staffordshire
@@ -287,14 +302,51 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 120,
     region: 'West Midlands',
     county: 'Staffordshire',
+    tier: 'primary',
   },
   
-  lichfield: {
-    slug: 'lichfield',
-    name: 'Lichfield',
-    postcodes: ['WS13', 'WS14'],
-    nearbyAreas: ['Burntwood', 'Shenstone', 'Fradley'],
-    geo: { latitude: 52.6817, longitude: -1.8262 },
+  warwick: {
+    slug: 'warwick',
+    name: 'Warwick',
+    postcodes: ['CV34', 'CV35'],
+    nearbyAreas: ['Leamington Spa', 'Kenilworth', 'Stratford-upon-Avon', 'Royal Leamington Spa'],
+    geo: { latitude: 52.2819, longitude: -1.5849 },
+    pricing: {
+      terraced: { min: 55, max: 75 },
+      semiDetached: { min: 65, max: 90 },
+      detached: { min: 90, max: 140 },
+    },
+    priceFrom: 55,
+    priceTo: 140,
+    region: 'West Midlands',
+    county: 'Warwickshire',
+    tier: 'primary',
+  },
+  
+  stratford: {
+    slug: 'stratford',
+    name: 'Stratford-upon-Avon',
+    postcodes: ['CV37'],
+    nearbyAreas: ['Warwick', 'Evesham', 'Alcester', 'Shipston-on-Stour'],
+    geo: { latitude: 52.1917, longitude: -1.7081 },
+    pricing: {
+      terraced: { min: 55, max: 75 },
+      semiDetached: { min: 65, max: 90 },
+      detached: { min: 90, max: 140 },
+    },
+    priceFrom: 55,
+    priceTo: 140,
+    region: 'West Midlands',
+    county: 'Warwickshire',
+    tier: 'primary',
+  },
+  
+  wythall: {
+    slug: 'wythall',
+    name: 'Wythall',
+    postcodes: ['B47'],
+    nearbyAreas: ['Hollywood', 'Dickens Heath', 'Solihull', 'Redditch', 'Bromsgrove'],
+    geo: { latitude: 52.3833, longitude: -1.8833 },
     pricing: {
       terraced: { min: 50, max: 70 },
       semiDetached: { min: 60, max: 85 },
@@ -303,24 +355,44 @@ export const CITIES: Record<string, CityData> = {
     priceFrom: 50,
     priceTo: 130,
     region: 'West Midlands',
+    county: 'Worcestershire',
+    tier: 'primary',
+  },
+  
+  lichfield: {
+    slug: 'lichfield',
+    name: 'Lichfield',
+    postcodes: ['WS13', 'WS14'],
+    nearbyAreas: ['Sutton Coldfield', 'Tamworth', 'Cannock', 'Burntwood', 'Shenstone'],
+    geo: { latitude: 52.6817, longitude: -1.8262 },
+    pricing: {
+      terraced: { min: 60, max: 80 },
+      semiDetached: { min: 70, max: 95 },
+      detached: { min: 95, max: 150 },
+    },
+    priceFrom: 60,
+    priceTo: 150,
+    region: 'West Midlands',
     county: 'Staffordshire',
+    tier: 'primary',
   },
   
   cannock: {
     slug: 'cannock',
     name: 'Cannock',
     postcodes: ['WS11', 'WS12'],
-    nearbyAreas: ['Hednesford', 'Heath Hayes', 'Rugeley'],
+    nearbyAreas: ['Hednesford', 'Morton Canes', 'Walsall', 'Lichfield', 'Stafford'],
     geo: { latitude: 52.6906, longitude: -2.0277 },
     pricing: {
-      terraced: { min: 50, max: 70 },
-      semiDetached: { min: 60, max: 80 },
-      detached: { min: 80, max: 120 },
+      terraced: { min: 55, max: 75 },
+      semiDetached: { min: 65, max: 85 },
+      detached: { min: 85, max: 130 },
     },
-    priceFrom: 50,
-    priceTo: 120,
+    priceFrom: 55,
+    priceTo: 130,
     region: 'West Midlands',
     county: 'Staffordshire',
+    tier: 'primary',
   },
   
   // Black Country
@@ -339,6 +411,7 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 120,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'primary',
   },
   
   halesowen: {
@@ -356,6 +429,7 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 120,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'primary',
   },
   
   // Birmingham Suburbs & Neighborhoods
@@ -363,75 +437,79 @@ export const CITIES: Record<string, CityData> = {
     slug: 'sutton-coldfield',
     name: 'Sutton Coldfield',
     postcodes: ['B72', 'B73', 'B74', 'B75', 'B76'],
-    nearbyAreas: ['Four Oaks', 'Boldmere', 'Wylde Green', 'Streetly'],
+    nearbyAreas: ['Birmingham', 'Boldmere', 'Four Oaks', 'Walmley', 'Erdington'],
     geo: { latitude: 52.5642, longitude: -1.8206 },
     pricing: {
-      terraced: { min: 50, max: 70 },
-      semiDetached: { min: 60, max: 85 },
-      detached: { min: 85, max: 130 },
+      terraced: { min: 60, max: 80 },
+      semiDetached: { min: 70, max: 95 },
+      detached: { min: 95, max: 150 },
     },
-    priceFrom: 50,
-    priceTo: 130,
+    priceFrom: 60,
+    priceTo: 150,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'primary',
   },
   
   moseley: {
     slug: 'moseley',
     name: 'Moseley',
     postcodes: ['B13'],
-    nearbyAreas: ['Kings Heath', 'Balsall Heath', 'Sparkhill', 'Hall Green'],
+    nearbyAreas: ['Kings Heath', 'Selly Park', 'Birmingham', 'Hall Green', 'Edgbaston'],
     geo: { latitude: 52.4450, longitude: -1.8850 },
     pricing: {
-      terraced: { min: 50, max: 70 },
-      semiDetached: { min: 60, max: 80 },
-      detached: { min: 80, max: 120 },
+      terraced: { min: 55, max: 70 },
+      semiDetached: { min: 60, max: 85 },
+      detached: { min: 85, max: 130 },
     },
-    priceFrom: 50,
-    priceTo: 120,
+    priceFrom: 55,
+    priceTo: 130,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'suburb',
   },
   
   harborne: {
     slug: 'harborne',
     name: 'Harborne',
     postcodes: ['B17'],
-    nearbyAreas: ['Edgbaston', 'Quinton', 'Selly Oak', 'Bartley Green'],
+    nearbyAreas: ['Edgbaston', 'Bartley Green', 'Selly Oak', 'Birmingham', 'Quinton'],
     geo: { latitude: 52.4583, longitude: -1.9500 },
     pricing: {
-      terraced: { min: 50, max: 70 },
+      terraced: { min: 55, max: 70 },
       semiDetached: { min: 60, max: 85 },
       detached: { min: 85, max: 130 },
     },
-    priceFrom: 50,
+    priceFrom: 55,
     priceTo: 130,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'suburb',
   },
   
   edgbaston: {
     slug: 'edgbaston',
     name: 'Edgbaston',
     postcodes: ['B15', 'B16'],
-    nearbyAreas: ['Harborne', 'Ladywood', 'Selly Oak', 'Five Ways'],
+    nearbyAreas: ['Harborne', 'Selly Oak', 'Birmingham', 'Moseley', 'Ladywood'],
     geo: { latitude: 52.4617, longitude: -1.9250 },
     pricing: {
-      terraced: { min: 50, max: 70 },
-      semiDetached: { min: 60, max: 85 },
-      detached: { min: 85, max: 140 },
+      terraced: { min: 60, max: 75 },
+      semiDetached: { min: 65, max: 90 },
+      detached: { min: 90, max: 140 },
     },
-    priceFrom: 50,
+    priceFrom: 60,
     priceTo: 140,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'suburb',
   },
   
   'kings-heath': {
     slug: 'kings-heath',
     name: 'Kings Heath',
     postcodes: ['B14'],
-    nearbyAreas: ['Moseley', 'Kings Norton', 'Brandwood', 'Stirchley'],
+    nearbyAreas: ['Moseley', 'Hall Green', 'Stirchley', 'Birmingham', 'Yardley Wood'],
     geo: { latitude: 52.4333, longitude: -1.8917 },
     pricing: {
       terraced: { min: 50, max: 70 },
@@ -442,13 +520,14 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 120,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'suburb',
   },
   
   erdington: {
     slug: 'erdington',
     name: 'Erdington',
     postcodes: ['B23', 'B24'],
-    nearbyAreas: ['Gravelly Hill', 'Stockland Green', 'Short Heath', 'Pype Hayes'],
+    nearbyAreas: ['Sutton Coldfield', 'Aston', 'Stockland Green', 'Birmingham', 'Pype Hayes'],
     geo: { latitude: 52.5250, longitude: -1.8383 },
     pricing: {
       terraced: { min: 50, max: 70 },
@@ -459,13 +538,14 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 120,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'suburb',
   },
   
   'selly-oak': {
     slug: 'selly-oak',
     name: 'Selly Oak',
     postcodes: ['B29'],
-    nearbyAreas: ['Bournbrook', 'Harborne', 'Edgbaston', 'Northfield'],
+    nearbyAreas: ['Edgbaston', 'Bournville', 'Harborne', 'Birmingham', 'Cotteridge'],
     geo: { latitude: 52.4417, longitude: -1.9367 },
     pricing: {
       terraced: { min: 50, max: 70 },
@@ -476,13 +556,14 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 120,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'suburb',
   },
   
   northfield: {
     slug: 'northfield',
     name: 'Northfield',
     postcodes: ['B31'],
-    nearbyAreas: ['Longbridge', 'Kings Norton', 'Selly Oak', 'Rubery'],
+    nearbyAreas: ['Longbridge', 'Bournville', 'Birmingham', 'Frankley', 'Rubery'],
     geo: { latitude: 52.4117, longitude: -1.9633 },
     pricing: {
       terraced: { min: 50, max: 70 },
@@ -493,13 +574,14 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 120,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'suburb',
   },
   
   'acocks-green': {
     slug: 'acocks-green',
     name: 'Acocks Green',
     postcodes: ['B27'],
-    nearbyAreas: ['Yardley', 'Tyseley', 'Hall Green', 'Sparkhill'],
+    nearbyAreas: ['Hall Green', 'Yardley', 'Solihull', 'Birmingham', 'Olton'],
     geo: { latitude: 52.4383, longitude: -1.8267 },
     pricing: {
       terraced: { min: 50, max: 70 },
@@ -510,13 +592,14 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 120,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'suburb',
   },
   
   'hall-green': {
     slug: 'hall-green',
     name: 'Hall Green',
     postcodes: ['B28'],
-    nearbyAreas: ['Acocks Green', 'Sparkhill', 'Yardley Wood', 'Shirley'],
+    nearbyAreas: ['Moseley', 'Acocks Green', 'Yardley Wood', 'Birmingham', 'Kings Heath'],
     geo: { latitude: 52.4333, longitude: -1.8417 },
     pricing: {
       terraced: { min: 50, max: 70 },
@@ -527,13 +610,14 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 120,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'suburb',
   },
   
   'great-barr': {
     slug: 'great-barr',
     name: 'Great Barr',
-    postcodes: ['B42', 'B43'],
-    nearbyAreas: ['Perry Barr', 'Hamstead', 'Pheasey', 'Kingstanding'],
+    postcodes: ['B43', 'B44'],
+    nearbyAreas: ['Perry Barr', 'Walsall', 'Birmingham', 'Hamstead', 'Kingstanding'],
     geo: { latitude: 52.5417, longitude: -1.9333 },
     pricing: {
       terraced: { min: 50, max: 70 },
@@ -544,6 +628,7 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 120,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'suburb',
   },
   
   // Additional areas (add more as needed)
@@ -551,7 +636,7 @@ export const CITIES: Record<string, CityData> = {
     slug: 'sandwell',
     name: 'Sandwell',
     postcodes: ['B66', 'B67', 'B68', 'B69', 'B70', 'B71'],
-    nearbyAreas: ['West Bromwich', 'Oldbury', 'Smethwick', 'Rowley Regis', 'Tipton', 'Wednesbury'],
+    nearbyAreas: ['Birmingham', 'Smethwick', 'Oldbury', 'Tipton', 'Wednesbury'],
     geo: { latitude: 52.5089, longitude: -2.0108 },
     pricing: {
       terraced: { min: 50, max: 70 },
@@ -562,6 +647,7 @@ export const CITIES: Record<string, CityData> = {
     priceTo: 120,
     region: 'West Midlands',
     county: 'West Midlands',
+    tier: 'primary',
   },
   
   'west-midlands': {

@@ -1,5 +1,4 @@
 'use client';
-import { useEffect } from 'react';
 import { colors } from '@/constants/colors';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
@@ -7,51 +6,7 @@ import ServiceSEOSection from '@/components/sections/ServiceSEOSection';
 import QuoteModal from '@/components/QuoteModal';
 import { Clock3, Mail, MapPin, Phone, ShieldCheck } from 'lucide-react';
 
-export default function Contact() {
-  // Add schema on mount
-  useEffect(() => {
-    const schema = {
-      '@context': 'https://schema.org',
-      '@graph': [
-        {
-          '@type': 'LocalBusiness',
-          '@id': 'https://wowgutters.co.uk/contact/#business',
-          name: 'WOW Gutters Ltd',
-          description: 'Contact page for WOW Gutters Ltd — gutter cleaning across Birmingham and West Midlands.',
-          url: 'https://wowgutters.co.uk/contact/',
-          telephone: '+447421433910',
-          email: 'support@wowgutters.co.uk',
-          address: {
-            '@type': 'PostalAddress',
-            addressLocality: 'Birmingham',
-            addressRegion: 'West Midlands',
-            addressCountry: 'GB',
-          },
-          geo: {
-            '@type': 'GeoCoordinates',
-            latitude: 52.4862,
-            longitude: -1.8904,
-          },
-        },
-        {
-          '@type': 'ContactPage',
-          '@id': 'https://wowgutters.co.uk/contact/#webpage',
-          url: 'https://wowgutters.co.uk/contact/',
-          name: 'Contact WOW Gutters | Gutter Cleaning Birmingham',
-        },
-      ],
-    };
-
-    const script = document.createElement('script');
-    script.type = 'application/ld+json';
-    script.text = JSON.stringify(schema);
-    document.head.appendChild(script);
-
-    return () => {
-      document.head.removeChild(script);
-    };
-  }, []);
-
+export default function ContactPageContent() {
   return (
     <div className="min-h-screen bg-gray-50">
       <section className="relative overflow-hidden border-b border-gray-100 bg-gradient-to-br from-emerald-50 via-white to-slate-100">

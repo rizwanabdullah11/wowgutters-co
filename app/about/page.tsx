@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import Head from 'next/head';
 import { colors } from '@/constants/colors';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -21,6 +20,61 @@ export default function About() {
         console.log('Video autoplay failed:', error);
       });
     }
+
+    // Add schema on mount
+    const schema = {
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'Organization',
+          '@id': 'https://wowgutters.co.uk/about/#organization',
+          name: 'WOW Gutters Ltd',
+          description: 'About WOW Gutters Ltd — professional gutter cleaning company serving Birmingham and West Midlands.',
+          url: 'https://wowgutters.co.uk/about/',
+          telephone: '+447421433910',
+          email: 'support@wowgutters.co.uk',
+          logo: {
+            '@type': 'ImageObject',
+            url: 'https://wowgutters.co.uk/assets/wow-gutter-logo2.png',
+          },
+          address: {
+            '@type': 'PostalAddress',
+            addressLocality: 'Birmingham',
+            addressRegion: 'West Midlands',
+            addressCountry: 'GB',
+          },
+          aggregateRating: {
+            '@type': 'AggregateRating',
+            ratingValue: '4.9',
+            reviewCount: '2696',
+          },
+        },
+        {
+          '@type': 'LocalBusiness',
+          '@id': 'https://wowgutters.co.uk/about/#business',
+          name: 'WOW Gutters Ltd',
+          url: 'https://wowgutters.co.uk/about/',
+          telephone: '+447421433910',
+          priceRange: '££',
+          geo: {
+            '@type': 'GeoCoordinates',
+            latitude: 52.4862,
+            longitude: -1.8904,
+          },
+        },
+      ],
+    };
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.text = JSON.stringify(schema);
+    document.head.appendChild(script);
+
+    return () => {
+      if (document.head.contains(script)) {
+        document.head.removeChild(script);
+      }
+    };
   }, []);
 
   const stats = [
@@ -66,15 +120,6 @@ export default function About() {
 
   return (
     <main className="bg-white about-page-wrapper">
-      <Head>
-        <title>About WOW Gutters | Gutter Cleaning & Roofline Specialists</title>
-        <meta name="description" content="Learn about WOW Gutters LTD. Same Day Booking, ladder-free gutter cleaning, downpipe clearing, and roofline services. Rated 4.9★ by 2,600+ customers." />
-        <meta name="keywords" content="about wow gutters, gutter cleaning, roofline specialists, downpipe clearing, fascia soffit cleaning, ladder free gutter cleaning" />
-        <meta property="og:title" content="About WOW Gutters | Gutter Cleaning & Roofline Specialists" />
-        <meta property="og:description" content="Same Day Booking, ladder-free gutter cleaning and roofline services. Rated 4.9★ by 2,600+ customers." />
-        <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://wowgutters.co.uk/about" />
-      </Head>
       {/* Premium Hero Section */}
       <section className="about-hero-section">
         {/* Video Background */}
