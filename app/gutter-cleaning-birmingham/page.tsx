@@ -85,11 +85,7 @@ export default function BirminghamPage() {
           },
         ]}
       />
-      <main>
-        <h1>Gutter Cleaning Birmingham — WOW Gutters Ltd</h1>
-        <BirminghamGutterCleaningPage />
-        {/* Your existing page content stays unchanged */}
-      </main>
+      <BirminghamGutterCleaningPage />
     </>
   )
 }
