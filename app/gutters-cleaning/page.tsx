@@ -7,7 +7,7 @@ export default function GuttersCleaningRedirect() {
   const router = useRouter();
 
   useEffect(() => {
-    router.replace('/services/gutter-cleaning/');
+    router.replace('/help/unblock/');
   }, [router]);
 
   return (

@@ -66,16 +66,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Service pages
   const servicePages = [
-    '/services/gutter-cleaning',
-    '/services/gutter-repairs',
-    '/services/roof-cleaning',
+    '/help/unblock',
+    '/help/repair',
+    '/help/clean',
     '/services/upvc-cleaning',
     '/services/hot-wash-cleaning',
     '/services/drain-cleaning',
     '/services/water-butt',
-    '/services/commercial',
+    '/commercial',
     '/services/conservatory',
-    '/services/inspection',
+    '/help/inspect',
   ];
 
   const staticRoutes = staticPages.map((route) => {

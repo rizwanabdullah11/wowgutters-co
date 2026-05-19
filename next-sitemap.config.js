@@ -70,8 +70,8 @@ module.exports = {
     const high = [
       '/',
       '/gutter-cleaning-birmingham',
-      '/services/gutter-cleaning',
-      '/services/roof-cleaning'
+      '/help/unblock',
+      '/help/clean'
     ]
 
     return {

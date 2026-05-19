@@ -1,18 +1,23 @@
-'use client';
+import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
+import ServiceDetailPage from '@/components/services/ServiceDetailPage';
+import { getServiceById } from '@/constants/servicesData';
 
-import { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+export const metadata: Metadata = {
+  title: 'Roof Cleaning & Moss Removal | WOW Gutters',
+  description:
+    'Safe moss removal & roof cleaning. Soft-wash technique protects your tiles. Long-lasting results. Book a free inspection today.',
+  alternates: {
+    canonical: 'https://wowgutters.co.uk/help/clean/',
+  },
+};
 
-export default function CleanRedirect() {
-  const router = useRouter();
+export default function RoofCleaningPage() {
+  const service = getServiceById('roof-cleaning');
 
-  useEffect(() => {
-    router.replace('/services/roof-cleaning/');
-  }, [router]);
+  if (!service) {
+    notFound();
+  }
 
-  return (
-    <div style={{ padding: '2rem', textAlign: 'center' }}>
-      <p>Redirecting to roof cleaning service...</p>
-    </div>
-  );
+  return <ServiceDetailPage service={service} />;
 }

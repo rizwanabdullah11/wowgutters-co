@@ -22,12 +22,12 @@
     },
     {
       "source": "/gutters-cleaning",
-      "destination": "/services/gutter-cleaning/",
+      "destination": "/help/unblock/",
       "permanent": true
     },
     {
       "source": "/gutters-cleaning/",
-      "destination": "/services/gutter-cleaning/",
+      "destination": "/help/unblock/",
       "permanent": true
     },
     {
@@ -51,53 +51,53 @@
       "permanent": true
     },
     {
-      "source": "/commercial",
-      "destination": "/services/commercial/",
+      "source": "/services/commercial",
+      "destination": "/commercial/",
       "permanent": true
     },
     {
-      "source": "/commercial/",
-      "destination": "/services/commercial/",
+      "source": "/services/commercial/",
+      "destination": "/commercial/",
       "permanent": true
     },
     {
-      "source": "/help/inspect",
-      "destination": "/services/inspection/",
+      "source": "/services/inspection",
+      "destination": "/help/inspect/",
       "permanent": true
     },
     {
-      "source": "/help/inspect/",
-      "destination": "/services/inspection/",
+      "source": "/services/inspection/",
+      "destination": "/help/inspect/",
       "permanent": true
     },
     {
-      "source": "/help/unblock",
-      "destination": "/services/gutter-cleaning/",
+      "source": "/services/gutter-cleaning",
+      "destination": "/help/unblock/",
       "permanent": true
     },
     {
-      "source": "/help/unblock/",
-      "destination": "/services/gutter-cleaning/",
+      "source": "/services/gutter-cleaning/",
+      "destination": "/help/unblock/",
       "permanent": true
     },
     {
-      "source": "/help/repair",
-      "destination": "/services/gutter-repairs/",
+      "source": "/services/gutter-repairs",
+      "destination": "/help/repair/",
       "permanent": true
     },
     {
-      "source": "/help/repair/",
-      "destination": "/services/gutter-repairs/",
+      "source": "/services/gutter-repairs/",
+      "destination": "/help/repair/",
       "permanent": true
     },
     {
-      "source": "/help/clean",
-      "destination": "/services/roof-cleaning/",
+      "source": "/services/roof-cleaning",
+      "destination": "/help/clean/",
       "permanent": true
     },
     {
-      "source": "/help/clean/",
-      "destination": "/services/roof-cleaning/",
+      "source": "/services/roof-cleaning/",
+      "destination": "/help/clean/",
       "permanent": true
     }
   ]

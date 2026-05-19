@@ -10,14 +10,17 @@
     "serve": "npx serve out -p 3000",
     "lint": "eslint",
     "marketing:check": "node scripts/marketing/check-config.mjs",
-    "marketing:tracking-plan": "node scripts/marketing/generate-tracking-plan.mjs"
+    "marketing:tracking-plan": "node scripts/marketing/generate-tracking-plan.mjs",
+    "upload:verify": "node scripts/verify-upload-files.mjs",
+    "upload:prepare": "node scripts/prepare-clean-upload.mjs",
+    "upload:ready": "npm run build && npm run upload:prepare"
   },
   "dependencies": {
     "lucide-react": "^0.577.0",
-    "next": "16.1.6",
+    "next": "^16.2.6",
     "next-sitemap": "^4.2.3",
-    "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -25,7 +28,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.1.6",
+    "eslint-config-next": "^16.2.6",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

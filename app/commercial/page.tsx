@@ -1,18 +1,23 @@
-'use client';
+import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
+import ServiceDetailPage from '@/components/services/ServiceDetailPage';
+import { getServiceById } from '@/constants/servicesData';
 
-import { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+export const metadata: Metadata = {
+  title: 'Commercial Gutter Cleaning | Businesses & Offices | WOW Gutters',
+  description:
+    'Commercial gutter cleaning for offices, retail & industrial sites. Flexible scheduling, same day booking, competitive rates. Get a quote.',
+  alternates: {
+    canonical: 'https://wowgutters.co.uk/commercial/',
+  },
+};
 
-export default function CommercialRedirect() {
-  const router = useRouter();
+export default function CommercialPage() {
+  const service = getServiceById('commercial');
 
-  useEffect(() => {
-    router.replace('/services/commercial/');
-  }, [router]);
+  if (!service) {
+    notFound();
+  }
 
-  return (
-    <div style={{ padding: '2rem', textAlign: 'center' }}>
-      <p>Redirecting to commercial services...</p>
-    </div>
-  );
+  return <ServiceDetailPage service={service} />;
 }

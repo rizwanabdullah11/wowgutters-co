@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import FreeInspectionRedirect from './FreeInspectionRedirect';
 
-const CANONICAL = 'https://wowgutters.co.uk/services/inspection/';
+const CANONICAL = 'https://wowgutters.co.uk/help/inspect/';
 
 export const metadata: Metadata = {
   title: 'Free Gutter Inspection',

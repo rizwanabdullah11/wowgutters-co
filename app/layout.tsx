@@ -42,6 +42,13 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  alternates: {
+    canonical: "https://wowgutters.co.uk/",
+    languages: {
+      'en-GB': 'https://wowgutters.co.uk/',
+      'x-default': 'https://wowgutters.co.uk/',
+    },
+  },
   openGraph: {
     type: "website",
     locale: "en_GB",
@@ -65,15 +72,12 @@ export const metadata: Metadata = {
     images: ["/og/default.jpg"],
   },
   verification: {
-    google: process.env.GOOGLE_VERIFICATION_CODE || undefined,
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
     other: {
-      ...(process.env.BING_VERIFICATION_CODE
-        ? { "msvalidate.01": process.env.BING_VERIFICATION_CODE }
+      ...(process.env.NEXT_PUBLIC_BING_VERIFICATION
+        ? { "msvalidate.01": process.env.NEXT_PUBLIC_BING_VERIFICATION }
         : {}),
     },
-  },
-  alternates: {
-    canonical: "https://wowgutters.co.uk/",
   },
   category: "Home Services",
 };
@@ -96,7 +100,8 @@ export default function RootLayout({
   const addressPostcode = (process.env.NEXT_PUBLIC_BUSINESS_POSTCODE || '').trim();
   const gbpCidUrl = (process.env.NEXT_PUBLIC_GBP_CID_URL || '').trim();
   const trustpilotUrl = (process.env.NEXT_PUBLIC_TRUSTPILOT_URL || '').trim();
-  const bingVerificationCode = (process.env.BING_VERIFICATION_CODE || '').trim();
+  const bingVerificationCode = (process.env.NEXT_PUBLIC_BING_VERIFICATION || '').trim();
+  const googleVerificationCode = (process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || '').trim();
 
   const videoObjectSchema = {
     "@context": "https://schema.org",
@@ -136,6 +141,11 @@ export default function RootLayout({
         {/* Bing Webmaster Verification */}
         {bingVerificationCode ? (
           <meta name="msvalidate.01" content={bingVerificationCode} />
+        ) : null}
+        
+        {/* Google Search Console Verification */}
+        {googleVerificationCode ? (
+          <meta name="google-site-verification" content={googleVerificationCode} />
         ) : null}
         
         {/* Structured Data — plain <script> so next/script doesn't strip it from static export */}

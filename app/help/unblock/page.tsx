@@ -1,18 +1,23 @@
-'use client';
+import { notFound } from 'next/navigation';
+import type { Metadata } from 'next';
+import ServiceDetailPage from '@/components/services/ServiceDetailPage';
+import { getServiceById } from '@/constants/servicesData';
 
-import { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+export const metadata: Metadata = {
+  title: 'Professional Gutter Cleaning | From £45 | WOW Gutters',
+  description:
+    'Professional gutter cleaning using high-reach vacuum systems. Clears moss, leaves & blockages safely from the ground. Same-day available. Free quote today.',
+  alternates: {
+    canonical: 'https://wowgutters.co.uk/help/unblock/',
+  },
+};
 
-export default function UnblockRedirect() {
-  const router = useRouter();
+export default function GutterCleaningPage() {
+  const service = getServiceById('gutter-cleaning');
 
-  useEffect(() => {
-    router.replace('/services/gutter-cleaning/');
-  }, [router]);
+  if (!service) {
+    notFound();
+  }
 
-  return (
-    <div style={{ padding: '2rem', textAlign: 'center' }}>
-      <p>Redirecting to gutter cleaning service...</p>
-    </div>
-  );
+  return <ServiceDetailPage service={service} />;
 }
