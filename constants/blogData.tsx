@@ -32,7 +32,7 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/gutter-cleaning-coventry-hero.png"
+    src="/gutter-cleaning-coventry-before.png"
     alt="Before and after gutter cleaning in Coventry — heavily clogged gutter with growing weeds, heavy moss and substantial debris cleared in 23 minutes"
     width="1200"
     height="460"
