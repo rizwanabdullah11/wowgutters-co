@@ -38,29 +38,57 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
   const canonicalUrl = `https://wowgutters.co.uk/blog/${id}`;
 
   return {
-    title: `${post.title}`,
+    title: `${post.title} | WOW Gutters`,
     description: post.excerpt,
+    keywords: `${post.category}, gutter cleaning, gutter maintenance, blocked gutters, gutter repair, ${id.replace(/-/g, ' ')}`,
+    authors: [{ name: post.author || 'WOW Gutters Technical Team' }],
     alternates: {
       canonical: canonicalUrl,
     },
     robots: isOffTopic ? {
       index: false,
       follow: true,
-    } : undefined,
+    } : {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      }
+    },
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      images: [post.image],
+      images: [{
+        url: `https://wowgutters.co.uk${post.image}`,
+        width: 1200,
+        height: 630,
+        alt: post.title
+      }],
       type: 'article',
       publishedTime: post.date,
-      authors: [post.author || 'WOW Gutter Experts'],
+      modifiedTime: post.lastUpdated || post.date,
+      authors: [post.author || 'WOW Gutters Technical Team'],
       url: canonicalUrl,
+      siteName: 'WOW Gutters',
+      locale: 'en_GB'
     },
     twitter: {
       card: 'summary_large_image',
       title: post.title,
       description: post.excerpt,
-      images: [post.image],
+      images: [`https://wowgutters.co.uk${post.image}`],
+      creator: '@wowgutters',
+      site: '@wowgutters'
+    },
+    other: {
+      'article:published_time': post.date,
+      'article:modified_time': post.lastUpdated || post.date,
+      'article:author': post.author || 'WOW Gutters Technical Team',
+      'article:section': post.category || 'Maintenance'
     }
   };
 }
