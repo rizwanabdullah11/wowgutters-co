@@ -20,7 +20,7 @@ export const blogPosts: BlogPost[] = [
     id: 'fascias-soffits-gutter-cleaning-west-midlands',
     title: 'Fascias & Soffits – Professional Gutter Cleaning & Fixing Across the West Midlands',
     excerpt: 'Expert gutter cleaning, debris removal, fascia & soffit washing, and moss & algae treatments — serving Birmingham, Coventry, Wolverhampton, Solihull, Walsall, Dudley and all surrounding areas. Rated 4.9⭐ by 2,696+ customers.',
-    image: '/westmidlands-before.png',
+    image: '/westmidlands-before-after.png',
     heroVideo: '/gutter-cleaning-video.mp4',
     date: '2026-05-20',
     views: '0',
