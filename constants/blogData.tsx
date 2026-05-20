@@ -17,6 +17,282 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 'fascias-soffits-gutter-cleaning-west-midlands',
+    title: 'Fascias & Soffits – Professional Gutter Cleaning & Fixing Across the West Midlands',
+    excerpt: 'Expert gutter cleaning, debris removal, fascia & soffit washing, and moss & algae treatments — serving Birmingham, Coventry, Wolverhampton, Solihull, Walsall, Dudley and all surrounding areas. Rated 4.9⭐ by 2,696+ customers.',
+    image: '/westmidlands-before.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
+    date: '2026-05-20',
+    views: '0',
+    author: 'WOW Gutters Technical Team',
+    authorRole: 'Professional Gutter Cleaning Specialists',
+    category: 'Maintenance',
+    lastUpdated: '2026-05-20',
+    quickAnswer: 'WOW Gutters provides complete roofline care across the West Midlands — from deep gutter cleaning and blocked downpipe clearing, to fascia and soffit washing and full moss and algae treatments. All carried out safely from ground level, with no mess left behind. Rated 4.9⭐ by over 2,696 customers. Call 07421 433910 for same-day booking.',
+    content: `
+<h2>Real West Midlands Job: Before &amp; After</h2>
+
+<figure style="margin: 20px 0;">
+  <img
+    src="/westmidlands-before.png"
+    alt="Before gutter cleaning in the West Midlands — gutters packed with leaves, moss, debris and algae-stained fascias"
+    width="1280"
+    height="720"
+    loading="eager"
+    style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;"
+  />
+  <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
+    Before: West Midlands property with gutters packed with debris, moss build-up, and algae-stained fascias and soffits — a common sight across Birmingham, Wolverhampton, Coventry and surrounding areas.
+  </figcaption>
+</figure>
+
+<p>Are your gutters overflowing every time it rains? Are your fascias turning green with algae, or your soffits stained beyond recognition? You're not alone — thousands of homeowners across the West Midlands deal with exactly these problems every year.</p>
+
+<p>The before photograph above shows a typical West Midlands roofline in need of professional attention: gutters blocked with compacted debris, fascias streaked with green algae, and soffits discoloured from years of moisture and organic growth. This is the condition we encounter regularly across Birmingham, Wolverhampton, Coventry, Walsall, Dudley, and Solihull.</p>
+
+<figure style="margin: 20px 0;">
+  <img
+    src="/westmidlands-after.png"
+    alt="After gutter cleaning and fascia washing in the West Midlands — gutters fully cleared, fascias and soffits restored to bright white finish"
+    width="1280"
+    height="720"
+    loading="lazy"
+    style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;"
+  />
+  <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
+    After: The same West Midlands property fully restored — gutters cleared to the channel, fascias and soffits washed back to a bright white finish using our hot purified water system. Ground-level service, zero ladders.
+  </figcaption>
+</figure>
+
+<p>The after photograph shows the same property fully restored. Gutters cleared down to the plastic channel, fascias and soffits washed back to a bright white finish — all achieved from ground level, with zero ladders used on the property.</p>
+
+<p>This is what <strong>complete roofline care</strong> looks like. And it's what <a href="https://wowgutters.co.uk" style="color: #000000; text-decoration: none;">WOW Gutters</a> delivers across the entire West Midlands region, 7 days a week.</p>
+
+<h2>Our Full Roofline Services</h2>
+
+<h3>🧹 Gutter Cleaning &amp; Debris Removal</h3>
+
+<p>Blocked gutters are one of the most common — and most ignored — causes of property damage in the UK. Leaves, sycamore seeds, moss, silt, and compacted debris build up season after season until your gutters simply stop working.</p>
+
+<p>At <a href="https://wowgutters.co.uk/gutter-cleaning" style="color: #000000; text-decoration: none;">WOW Gutters</a>, we use a <strong>professional high-reach vacuum system</strong> operated entirely from the ground to clear:</p>
+
+<ul>
+  <li>Wet and compacted leaves</li>
+  <li>Sycamore seeds and pine needles</li>
+  <li>Silt and mud build-up</li>
+  <li>Moss clumps and algae deposits</li>
+  <li>Bird debris and nesting material</li>
+</ul>
+
+<p>Every clean includes a <strong>free roofline inspection</strong> and a downpipe flush — ensuring your entire drainage system is working correctly from top to bottom.</p>
+
+<ul>
+  <li>✅ No ladders on your property</li>
+  <li>✅ No mess left on your driveway</li>
+  <li>✅ Before and after photos provided</li>
+  <li>✅ Same day booking available</li>
+</ul>
+
+<h3>🔧 Gutter Fixing &amp; Repairs</h3>
+
+<p>A clean gutter that still leaks is half a job. That's why every visit includes a full assessment of your gutter system — and we fix problems on the spot wherever possible.</p>
+
+<p>Our <strong>gutter repair services</strong> across the West Midlands include:</p>
+
+<ul>
+  <li><strong>Leaking joint resealing</strong> — stops water running down your walls</li>
+  <li><strong>Bracket replacement</strong> — re-fixes sagging or dropped gutter sections</li>
+  <li><strong>Cracked gutter section replacement</strong> — like-for-like uPVC replacement</li>
+  <li><strong>Downpipe reattachment</strong> — secures loose pipes back to the wall</li>
+  <li><strong>Overflow outlet clearing</strong> — unblocks fixed outlets causing backup</li>
+</ul>
+
+<p>All repair work comes with a <strong>6-month guarantee</strong> — because we stand behind every job we do.</p>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0;">
+  💧 Leaking gutters left untreated cause damp, mould, and structural water damage. A small repair today prevents a large bill tomorrow.
+</blockquote>
+
+<h3>🪟 Fascia &amp; Soffit Washing</h3>
+
+<p>Your fascias and soffits frame your entire roofline — and when they're stained, green, or grimy, they make even a well-maintained home look neglected.</p>
+
+<p><a href="https://wowgutters.co.uk" style="color: #000000; text-decoration: none;">WOW Gutters</a> uses a <strong>hot purified water cleaning system</strong> to restore fascias and soffits without chemicals, abrasives, or risk of damage to the uPVC surface.</p>
+
+<p><strong>What we remove:</strong></p>
+<ul>
+  <li>Green and black algae staining</li>
+  <li>Dirt and traffic film</li>
+  <li>Moss spotting</li>
+  <li>Mildew and dark streaking</li>
+  <li>Bird dropping stains</li>
+</ul>
+
+<p>The result is a streak-free, bright white finish that looks freshly fitted — achieved in a single professional visit.</p>
+
+<p><strong>We clean all roofline materials including:</strong></p>
+<ul>
+  <li>White and coloured uPVC</li>
+  <li>Timber fascias and soffits</li>
+  <li>Composite and aluminium roofline products</li>
+  <li>Conservatory frames and trims</li>
+</ul>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0;">
+  🏠 A clean roofline adds instant kerb appeal — and protects the timber and fixings underneath from premature rot.
+</blockquote>
+
+<h3>🌿 Moss &amp; Algae Treatments</h3>
+
+<p>Moss isn't just unsightly — it's damaging. On roof tiles, moss lifts the edges, holds moisture, and accelerates cracking. In gutters, it blocks outlets and adds weight that causes brackets to fail. Left on fascias and soffits, algae eats into the uPVC surface over time.</p>
+
+<p>Our <strong>moss and algae treatment service</strong> includes:</p>
+
+<ol>
+  <li><strong>Soft-wash moss removal</strong> from roof tiles — low-pressure, no tile damage</li>
+  <li><strong>Biocide treatment</strong> applied after cleaning — kills remaining spores and prevents rapid regrowth</li>
+  <li><strong>Gutter outlet clearing</strong> — removes any moss that has fallen into the system</li>
+  <li><strong>Fascia and soffit algae treatment</strong> — hot wash combined with a protective solution</li>
+</ol>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0;">
+  🔬 Our biocide treatments keep moss and algae away for significantly longer than a simple brush-off clean — protecting your home between annual maintenance visits.
+</blockquote>
+
+<h2>Areas We Cover Across the West Midlands</h2>
+
+<p><a href="https://wowgutters.co.uk" style="color: #000000; text-decoration: none;">WOW Gutters</a> provides professional fascia, soffit, gutter cleaning and fixing services across the entire West Midlands region. Whether you're in the heart of Birmingham or a surrounding town or village, our team is local, reliable and available 7 days a week.</p>
+
+<h3>Birmingham &amp; Surrounding Areas</h3>
+<p>Erdington, Harborne, Selly Oak, Edgbaston, Moseley, Kings Heath, Sutton Coldfield, Great Barr, Perry Barr, Handsworth, Yardley, Stechford, Acocks Green, Hall Green, Solihull, Sheldon, Sparkhill, Castle Bromwich</p>
+
+<h3>Black Country</h3>
+<p>Wolverhampton, Dudley, Walsall, West Bromwich, Sandwell, Smethwick, Oldbury, Tipton, Wednesbury, Bilston, Willenhall, Wednesfield, Tettenhall, Sedgley, Coseley, Aldridge, Brownhills, Pelsall</p>
+
+<h3>Coventry &amp; Warwickshire</h3>
+<p>Coventry, Leamington Spa, Warwick, Kenilworth, Rugby, Nuneaton, Stratford-upon-Avon, Bedworth, Atherstone</p>
+
+<h3>Worcestershire &amp; Staffordshire</h3>
+<p>Worcester, Kidderminster, Bromsgrove, Redditch, Droitwich Spa, Stourbridge, Halesowen, Bewdley, Evesham, Cannock, Lichfield, Tamworth, Stafford, Rugeley, Burntwood</p>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0;">
+  📍 Not sure if we cover your area? <a href="tel:07421433910" style="color: #000000; text-decoration: none;">Call us on 07421 433910</a> or <a href="https://wowgutters.co.uk" style="color: #000000; text-decoration: none;">check online at wowgutters.co.uk</a> — we serve a wide radius across the entire West Midlands region.
+</blockquote>
+
+<h2>Why Homeowners Across the West Midlands Choose WOW Gutters</h2>
+
+<p>With thousands of roofline cleans completed across Birmingham, Coventry, Wolverhampton, Walsall, Dudley and beyond, <a href="https://wowgutters.co.uk" style="color: #000000; text-decoration: none;">WOW Gutters</a> has built a reputation for honest, reliable, and high-quality work.</p>
+
+<h3>⭐ Rated 4.9 Stars by 2,696+ Customers</h3>
+
+<p>Our reviews speak for themselves. Homeowners from Sutton Coldfield to Stourbridge, Coventry to Wolverhampton consistently rate us as their most trusted local roofline specialist.</p>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0;">
+  <em>"Excellent service, really professional and left everything spotless. Highly recommended."</em><br/>
+  — Verified customer, Birmingham
+</blockquote>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0;">
+  <em>"Used WOW Gutters for the second year running — always reliable, always tidy. Wouldn't use anyone else."</em><br/>
+  — Verified customer, Solihull
+</blockquote>
+
+<h3>✅ What Makes Us Different</h3>
+
+<ul>
+  <li><strong>Ground-level vacuum system</strong> — no ladders on your property</li>
+  <li><strong>Free roofline inspection included</strong> — every visit</li>
+  <li><strong>Before and after photos</strong> — provided as standard</li>
+  <li><strong>Same day booking</strong> — subject to availability</li>
+  <li><strong>7 days a week service</strong> — including weekends</li>
+  <li><strong>6-month repair guarantee</strong> — on all repair work</li>
+  <li><strong>Fully insured team</strong> — public liability covered</li>
+  <li><strong>Domestic and commercial</strong> — both covered</li>
+</ul>
+
+<h2>Signs Your Roofline Needs Attention Right Now</h2>
+
+<p>Not sure if it's time to book? If you notice any of the following at your property — whether in Birmingham, Coventry, Walsall or anywhere else across the West Midlands — it's time to call:</p>
+
+<ul>
+  <li>🌧️ <strong>Water pouring over the side of gutters</strong> during rain — blocked outlets or sagging sections</li>
+  <li>🟢 <strong>Green staining on walls or render</strong> — overflow from a blocked or leaking gutter</li>
+  <li>💧 <strong>Damp patches on interior ceilings or walls</strong> — water getting in behind the fascia</li>
+  <li>🍂 <strong>Visible debris or plant growth in gutters</strong> — full blockage likely</li>
+  <li>🔩 <strong>Sagging, loose or detached gutter sections</strong> — bracket failure or weight of debris</li>
+  <li>🌿 <strong>Moss on roof tiles</strong> — working its way into the gutters and underneath tiles</li>
+  <li>⬛ <strong>Dark streaking on fascias or soffits</strong> — algae build-up that will worsen over time</li>
+</ul>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0;">
+  The earlier you act, the less expensive the solution. A gutter clean costs a fraction of what damp treatment or fascia board replacement costs.
+</blockquote>
+
+<h2>Frequently Asked Questions — Gutter Cleaning &amp; Roofline Services West Midlands</h2>
+
+<div style="margin: 40px 0;">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How often should gutters be cleaned in the West Midlands?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Most properties across the West Midlands benefit from one to two professional gutter cleans per year — typically once in late autumn after leaf fall, and once in spring to clear winter debris. Properties near large trees, or those with felt or clay roof tiles that shed more moss, may need more frequent attention.</p>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Is your gutter cleaning service safe for my property?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. WOW Gutters uses a high-reach vacuum system operated from the ground — meaning no ladders are placed against your gutters, fascias, or walls. This eliminates the risk of damage to uPVC guttering, render, or window frames, and is far safer than traditional ladder-based methods.</p>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you clean conservatory gutters?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. We use specialist low-reach access tools to clean conservatory gutters safely without climbing on the polycarbonate or glass panels. Available across all areas of Birmingham, Solihull, Coventry and the wider West Midlands.</p>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Can you clean gutters on tall or multi-storey properties?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. Our high-reach vacuum equipment extends to reach three-storey properties and many commercial buildings from ground level — no scaffolding or cherry picker required for the vast majority of jobs. We cover multi-storey homes across Sutton Coldfield, Edgbaston, Tettenhall and beyond.</p>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you work with landlords and letting agents?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Absolutely. We work with landlords, letting agents, and property management companies across the West Midlands providing photographic evidence of gutter condition before and after each visit — ideal for tenant check-in and check-out reports and maintenance records.</p>
+  </div>
+
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: What areas do you cover?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> WOW Gutters covers the entire West Midlands region including Birmingham, Coventry, Wolverhampton, Dudley, Walsall, Solihull, Sandwell, Bromsgrove, Redditch, Worcester, Stourbridge, Halesowen, Lichfield, Tamworth, Cannock, Nuneaton, Leamington Spa, Warwick, Stratford-upon-Avon and all surrounding towns and villages.</p>
+  </div>
+</div>
+
+<h2>Book Your Roofline Service Today</h2>
+
+<p>Whether you need a simple gutter clean in Yardley, a full fascia and soffit wash in Solihull, moss removal in Wolverhampton, or a leaking joint repaired in Coventry — <a href="https://wowgutters.co.uk" style="color: #000000; text-decoration: none;">WOW Gutters</a> is your trusted local specialist across the West Midlands.</p>
+
+<ul>
+  <li>✅ Same-day and next-day appointments across the West Midlands</li>
+  <li>✅ Fully insured, professional local technicians</li>
+  <li>✅ Ground-level vacuum system — zero ladders</li>
+  <li>✅ Before and after photo evidence on every single job</li>
+  <li>✅ 6-month guarantee on all repair work</li>
+  <li>✅ 4.9★ rated with over 2,696 verified Google reviews</li>
+  <li>✅ Available 7 days a week including weekends</li>
+</ul>
+
+<p>📞 <strong>Call or WhatsApp:</strong> <a href="tel:07421433910" style="color: #000000; text-decoration: none;">07421 433910</a><br/>
+🌐 <strong>Free online quote:</strong> <a href="https://wowgutters.co.uk" style="color: #000000; text-decoration: none;">wowgutters.co.uk</a><br/>
+📍 <strong>Serving:</strong> Birmingham, Coventry, Wolverhampton, Walsall, Dudley, Solihull, Sandwell &amp; all West Midlands areas<br/>
+🕐 <strong>Available:</strong> 7 days a week | Same day booking available</p>
+
+<h2>Related Services</h2>
+
+<ul>
+  <li><strong><a href="/blog/gutter-cleaning-coventry" style="color: #000000; text-decoration: none;">Gutter Cleaning Coventry — Real Before &amp; After Job</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #000000; text-decoration: none;">Gutter Cleaning Wolverhampton | WOW Gutters — Local Specialists</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-prices" style="color: #000000; text-decoration: none;">Gutter Cleaning Prices — Full 2026 Guide</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">Gutter Cleaning Cost Calculator</a></strong></li>
+  <li><strong><a href="/help/repair" style="color: #000000; text-decoration: none;">Gutter Repairs &amp; Fixing West Midlands</a></strong></li>
+</ul>
+    `,
+  },
+  {
     id: 'gutter-cleaning-coventry',
     title: 'Gutter Cleaning in Coventry: Real Job, Real Results — What Every Homeowner Needs to Know (2026 Guide)',
     excerpt: 'Need gutter cleaning in Coventry? See a real before & after from a March 2026 job — gutters packed with weeds, moss and debris, cleared in 23 minutes. Prices from £50. Same-day booking.',
