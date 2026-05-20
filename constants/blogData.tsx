@@ -107,7 +107,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Overflow outlet clearing</strong> — unblocks fixed outlets causing backup</li>
 </ul>
 
-<p>All repair work comes with a <strong>6-month guarantee</strong> — because we stand behind every job we do.</p>
+<p>All repair work is carried out to a professional standard — because we stand behind every job we do.</p>
 
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0;">
   💧 Leaking gutters left untreated cause damp, mould, and structural water damage. A small repair today prevents a large bill tomorrow.
@@ -159,6 +159,20 @@ export const blogPosts: BlogPost[] = [
   🔬 Our biocide treatments keep moss and algae away for significantly longer than a simple brush-off clean — protecting your home between annual maintenance visits.
 </blockquote>
 
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 220px;">
+    <h3 style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.2;">ROOFLINE CLEANING EXPERTS</h3>
+    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Don't let blocked gutters, stained fascias or moss-covered soffits damage your property. Our expert roofline services restore and protect your home quickly and efficiently.</p>
+  </div>
+  <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
+    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px; transition: background 0.2s;">
+      <span style="font-size: 1rem;">&#9658;</span> Get A Quote
+    </a>
+    <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
+    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+  </div>
+</div>
+
 <h2>Areas We Cover Across the West Midlands</h2>
 
 <p><a href="https://wowgutters.co.uk" style="color: #000000; text-decoration: none;">WOW Gutters</a> provides professional fascia, soffit, gutter cleaning and fixing services across the entire West Midlands region. Whether you're in the heart of Birmingham or a surrounding town or village, our team is local, reliable and available 7 days a week.</p>
@@ -178,6 +192,20 @@ export const blogPosts: BlogPost[] = [
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0;">
   📍 Not sure if we cover your area? <a href="tel:07421433910" style="color: #000000; text-decoration: none;">Call us on 07421 433910</a> or <a href="https://wowgutters.co.uk" style="color: #000000; text-decoration: none;">check online at wowgutters.co.uk</a> — we serve a wide radius across the entire West Midlands region.
 </blockquote>
+
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 220px;">
+    <h3 style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.2;">GUTTER CLEANING EXPERTS</h3>
+    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Serving every corner of the West Midlands — from Birmingham and Coventry to Wolverhampton and beyond. Same-day booking available, 7 days a week.</p>
+  </div>
+  <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
+    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+      <span style="font-size: 1rem;">&#9658;</span> Get A Quote
+    </a>
+    <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
+    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+  </div>
+</div>
 
 <h2>Why Homeowners Across the West Midlands Choose WOW Gutters</h2>
 
@@ -205,7 +233,6 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Before and after photos</strong> — provided as standard</li>
   <li><strong>Same day booking</strong> — subject to availability</li>
   <li><strong>7 days a week service</strong> — including weekends</li>
-  <li><strong>6-month repair guarantee</strong> — on all repair work</li>
   <li><strong>Fully insured team</strong> — public liability covered</li>
   <li><strong>Domestic and commercial</strong> — both covered</li>
 </ul>
@@ -228,38 +255,84 @@ export const blogPosts: BlogPost[] = [
   The earlier you act, the less expensive the solution. A gutter clean costs a fraction of what damp treatment or fascia board replacement costs.
 </blockquote>
 
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 220px;">
+    <h3 style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.2;">GUTTER REPAIR EXPERTS</h3>
+    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Don't let damaged gutters cause water damage to your property. Our expert repair services will fix any gutter problem quickly and efficiently.</p>
+  </div>
+  <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
+    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+      <span style="font-size: 1rem;">&#9658;</span> Get A Quote
+    </a>
+    <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
+    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+  </div>
+</div>
+
 <h2>Frequently Asked Questions — Gutter Cleaning &amp; Roofline Services West Midlands</h2>
 
 <div style="margin: 40px 0;">
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How often should gutters be cleaned in the West Midlands?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Most properties across the West Midlands benefit from one to two professional gutter cleans per year — typically once in late autumn after leaf fall, and once in spring to clear winter debris. Properties near large trees, or those with felt or clay roof tiles that shed more moss, may need more frequent attention.</p>
-  </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Is your gutter cleaning service safe for my property?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. WOW Gutters uses a high-reach vacuum system operated from the ground — meaning no ladders are placed against your gutters, fascias, or walls. This eliminates the risk of damage to uPVC guttering, render, or window frames, and is far safer than traditional ladder-based methods.</p>
-  </div>
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>How often should gutters be cleaned in the West Midlands?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Most properties across the West Midlands benefit from one to two professional gutter cleans per year — typically once in late autumn after leaf fall, and once in spring to clear winter debris. Properties near large trees, or those with felt or clay roof tiles that shed more moss, may need more frequent attention.</p>
+    </div>
+  </details>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you clean conservatory gutters?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. We use specialist low-reach access tools to clean conservatory gutters safely without climbing on the polycarbonate or glass panels. Available across all areas of Birmingham, Solihull, Coventry and the wider West Midlands.</p>
-  </div>
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Is your gutter cleaning service safe for my property?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Yes. WOW Gutters uses a high-reach vacuum system operated from the ground — meaning no ladders are placed against your gutters, fascias, or walls. This eliminates the risk of damage to uPVC guttering, render, or window frames, and is far safer than traditional ladder-based methods.</p>
+    </div>
+  </details>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Can you clean gutters on tall or multi-storey properties?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. Our high-reach vacuum equipment extends to reach three-storey properties and many commercial buildings from ground level — no scaffolding or cherry picker required for the vast majority of jobs. We cover multi-storey homes across Sutton Coldfield, Edgbaston, Tettenhall and beyond.</p>
-  </div>
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Do you clean conservatory gutters?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Yes. We use specialist low-reach access tools to clean conservatory gutters safely without climbing on the polycarbonate or glass panels. Available across all areas of Birmingham, Solihull, Coventry and the wider West Midlands.</p>
+    </div>
+  </details>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you work with landlords and letting agents?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Absolutely. We work with landlords, letting agents, and property management companies across the West Midlands providing photographic evidence of gutter condition before and after each visit — ideal for tenant check-in and check-out reports and maintenance records.</p>
-  </div>
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Can you clean gutters on tall or multi-storey properties?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Yes. Our high-reach vacuum equipment extends to reach three-storey properties and many commercial buildings from ground level — no scaffolding or cherry picker required for the vast majority of jobs. We cover multi-storey homes across Sutton Coldfield, Edgbaston, Tettenhall and beyond.</p>
+    </div>
+  </details>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: What areas do you cover?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> WOW Gutters covers the entire West Midlands region including Birmingham, Coventry, Wolverhampton, Dudley, Walsall, Solihull, Sandwell, Bromsgrove, Redditch, Worcester, Stourbridge, Halesowen, Lichfield, Tamworth, Cannock, Nuneaton, Leamington Spa, Warwick, Stratford-upon-Avon and all surrounding towns and villages.</p>
-  </div>
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Do you work with landlords and letting agents?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Absolutely. We work with landlords, letting agents, and property management companies across the West Midlands providing photographic evidence of gutter condition before and after each visit — ideal for tenant check-in and check-out reports and maintenance records.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>What areas do you cover?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">WOW Gutters covers the entire West Midlands region including Birmingham, Coventry, Wolverhampton, Dudley, Walsall, Solihull, Sandwell, Bromsgrove, Redditch, Worcester, Stourbridge, Halesowen, Lichfield, Tamworth, Cannock, Nuneaton, Leamington Spa, Warwick, Stratford-upon-Avon and all surrounding towns and villages.</p>
+    </div>
+  </details>
+
 </div>
 
 <h2>Book Your Roofline Service Today</h2>
