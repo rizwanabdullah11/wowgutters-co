@@ -34,10 +34,10 @@ export const blogPosts: BlogPost[] = [
   <img
     src="/gutter-cleaning-coventry-before.png"
     alt="Before and after gutter cleaning in Coventry — heavily clogged gutter with growing weeds, heavy moss and substantial debris cleared in 23 minutes"
-    width="1200"
-    height="460"
+    width="1280"
+    height="720"
     loading="eager"
-    style="width: 100%; height: auto; max-width: 1200px; border-radius: 8px; display: block;"
+    style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;"
   />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
     Real job — Coventry, 23 March 2026. Before: Heavily packed with growing weeds, heavy moss & substantial debris. After: Fully cleared down to the plastic in 23 minutes. Ground-level service, zero ladders.
@@ -60,10 +60,10 @@ export const blogPosts: BlogPost[] = [
   <img
     src="/gutter-cleaning-coventry-after.png"
     alt="After photo — gutter cleaning complete in Coventry, 23 March 2026. Gutter cleared to the plastic channel in 23 minutes"
-    width="800"
-    height="600"
+    width="1280"
+    height="720"
     loading="lazy"
-    style="width: 100%; height: auto; max-width: 800px; border-radius: 8px;"
+    style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px;"
   />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
     After: The same gutter fully cleared — down to the plastic gutter channel — with the downpipe running freely. Total time: 23 minutes. Zero ladders used.
@@ -282,21 +282,35 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/wolverhamtpon-gutter-cleaning-hero-section.png"
+    src="/wolverhampton-gutter-cleaning-before.png"
     alt="Before and after gutter cleaning in Wolverhampton — blocked gutters packed with leaves, moss and debris, cleared and flowing freely"
-    width="1200"
-    height="460"
+    width="1280"
+    height="720"
     loading="eager"
-    style="width: 100%; height: auto; max-width: 1200px; border-radius: 8px; display: block;"
+    style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;"
   />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
-    Real WOW Gutters job in Wolverhampton. Before: Gutter completely blocked with autumn leaves, compacted moss, and sycamore seeds. After: Fully cleared using ground-level vacuum system. Total time: 28 minutes.
+    Real WOW Gutters job in Wolverhampton. Before: Gutter completely blocked with autumn leaves, compacted moss, and sycamore seeds.
   </figcaption>
 </figure>
 
 <p>This is a real WOW Gutters job completed in Wolverhampton. The gutter was completely blocked with multiple seasons of accumulated debris — leaves from mature oak and sycamore trees, compacted moss, and a thick layer of organic silt.</p>
 
 <p>The blockage had been building for at least two years, causing water to overflow during every rainfall and run down the external walls. You can see the dark staining on the fascia board where water has been running back behind the gutter bracket.</p>
+
+<figure style="margin: 20px 0;">
+  <img
+    src="/wolverhampton-gutter-cleaning-after.png"
+    alt="After gutter cleaning in Wolverhampton — gutter fully cleared down to the plastic channel, downpipe flowing freely"
+    width="1280"
+    height="720"
+    loading="lazy"
+    style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;"
+  />
+  <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
+    After: The same Wolverhampton gutter fully cleared — down to the plastic channel — with the downpipe flowing freely. Total time: 28 minutes. Zero ladders used.
+  </figcaption>
+</figure>
 
 <p>The after photograph shows the same gutter fully cleared — down to the plastic channel — with the downpipe tested and flowing freely. Our team completed this job in 28 minutes from ground level, with zero ladders used.</p>
 
@@ -1486,42 +1500,6 @@ export const blogPosts: BlogPost[] = [
       <p>We've invested over £15,000 in the latest equipment to ensure our customers get the most efficient clean possible. Our tech-led approach means we're faster, safer, and more thorough than any traditional 'bucket and ladder' service in the UK.</p>
 
       <p>Experience the future of property maintenance. No ladders, no mess, just <strong>WOW results</strong>. Get your tech-powered quote today.</p>
-    `
-  },
-  {
-    id: 'importance-of-residential-gutter-cleaning',
-    title: 'Gutter Care: The Critical Shield for Your Home\'s Foundation',
-    excerpt: 'Think of your gutters as the life-support system for your property\'s foundation. Learn why routine maintenance from WOW Gutters LTD is your first line of defense against flooding and structural decay.',
-    image: '/blog2.png',
-    date: '2026-03-28',
-    views: '0',
-    author: 'WOW Gutter Experts',
-    category: 'Home Care',
-    content: `
-      <h2>Protecting Your Most Valuable Asset</h2>
-      <p>Most UK homeowners spend thousands on interior decor and landscaping, but often ignore the 4-inch-wide plastic channels hanging from their roof. Yet, these channels—your gutters—are the most important structural protection your home has. Without them, rain would be a direct threat to the integrity of your building.</p>
-
-      <h2>The High Cost of Neglect</h2>
-      <p>In the UK's wet climate, an overflowing gutter isn't just a nuisance; it's a financial ticking time bomb. Here's what happens when gutters fail:</p>
-      <ul>
-        <li><strong>Foundation Subsidence:</strong> If water pools at the base of your home, it can soften the soil and cause the foundation to shift. This leads to cracks in walls that cost thousands to underpin.</li>
-        <li><strong>Basement and Cellar Flooding:</strong> Blocked gutters are the number one cause of water ingress into lower-ground levels in UK properties.</li>
-        <li><strong>Rotten Timber:</strong> Water that overflows often soaks into the roof rafters and fascia boards, leading to dry rot that can destroy your roof structure.</li>
-      </ul>
-
-      <h2>The WOW Comprehensive Service</h2>
-      <p>We don't believe in 'just a quick clear'. Every residential service we provide is a full system restoration:</p>
-      <ul>
-        <li><strong>Precision Vacuuming:</strong> We remove all organic buildup, from silt to sludge.</li>
-        <li><strong>Seal Reconditioning:</strong> We check and lubricate all rubber seals to prevent future leaks.</li>
-        <li><strong>Downpipe Integrity Check:</strong> We ensure your vertical pipes are 100% clear and discharging correctly into the drains.</li>
-        <li><strong>Photo Documentation:</strong> We provide you with visual evidence of the work, giving you total peace of mind.</li>
-      </ul>
-
-      <h2>Why Annual Maintenance is the Smart Choice</h2>
-      <p>The average cost of a professional gutter clean is a tiny fraction of the cost of a new roof or foundation repair. By scheduling an annual visit from WOW Gutters, you're essentially buying an insurance policy for your home's structural health.</p>
-
-      <p>Our team is fully bonded, and we pride ourselves on being the most reliable gutter service in the UK. Don't wait for the next storm to test your home's defenses—get the WOW treatment today.</p>
     `
   }
 ];

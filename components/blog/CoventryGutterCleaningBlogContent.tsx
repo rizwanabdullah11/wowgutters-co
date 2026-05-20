@@ -16,8 +16,8 @@ export default function CoventryGutterCleaningBlogContent() {
           <Image
             src="/gutter-cleaning-coventry-hero.png"
             alt="Real before and after — gutter cleaning Coventry, 23 March 2026. Left: gutter heavily packed with growing weeds, moss and debris. Right: completely cleared down to the plastic, 23 minutes later."
-            width={1200}
-            height={900}
+            width={1728}
+            height={608}
             priority
             className="rounded-lg"
             style={{ width: '100%', height: 'auto', display: 'block' }}
