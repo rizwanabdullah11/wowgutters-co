@@ -35,7 +35,7 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
   
   const isOffTopic = OFF_TOPIC_POSTS.includes(id);
 
-  const canonicalUrl = `https://wowgutters.co.uk/blog/${id}`;
+  const canonicalUrl = `https://wowgutters.co.uk/blog/${id}/`;
 
   return {
     title: `${post.title} | WOW Gutters`,

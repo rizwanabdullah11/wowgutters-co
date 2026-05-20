@@ -103,21 +103,31 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
         '@id': `https://wowgutters.co.uk/blog/${post.id}#article`,
         'headline': post.title,
         'description': post.excerpt,
-        'image': `https://wowgutters.co.uk${post.image}`,
+        'image': {
+          '@type': 'ImageObject',
+          'url': `https://wowgutters.co.uk${post.image}`,
+          'width': 1200,
+          'height': 630
+        },
         'author': {
           '@type': 'Organization',
-          'name': 'WOW Gutters Ltd'
+          'name': 'WOW Gutters Ltd',
+          'url': 'https://wowgutters.co.uk'
         },
         'publisher': {
           '@type': 'Organization',
           'name': 'WOW Gutters Ltd',
           'logo': {
             '@type': 'ImageObject',
-            'url': 'https://wowgutters.co.uk/assets/wow-gutter-logo2.png'
+            'url': 'https://wowgutters.co.uk/og/default.jpg'
           }
         },
         'datePublished': post.date,
-        'dateModified': post.lastUpdated || post.date
+        'dateModified': post.lastUpdated || post.date,
+        'mainEntityOfPage': {
+          '@type': 'WebPage',
+          '@id': `https://wowgutters.co.uk/blog/${post.id}/`
+        }
       },
       // BreadcrumbList Schema
       {
