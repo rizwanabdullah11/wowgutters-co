@@ -109,7 +109,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>All repair work is carried out to a professional standard — because we stand behind every job we do.</p>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   💧 <strong>Leaking gutters</strong> left untreated cause damp, mould, and structural water damage. A small repair today prevents a large bill tomorrow.
 </blockquote>
 
@@ -138,7 +138,7 @@ export const blogPosts: BlogPost[] = [
   <li><a href="/conservatory-cleaning" style="color: #19C58B; font-weight: 600; text-decoration: none;">Conservatory frames and trims</a></li>
 </ul>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   🏠 A clean roofline adds instant kerb appeal — and protects the timber and fixings underneath from premature rot.
 </blockquote>
 
@@ -155,7 +155,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Fascia and soffit algae treatment</strong> — hot wash combined with a protective solution</li>
 </ol>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   🔬 Our biocide treatments keep moss and algae away for significantly longer than a simple brush-off clean — protecting your home between annual maintenance visits.
 </blockquote>
 
@@ -189,8 +189,8 @@ export const blogPosts: BlogPost[] = [
 <h3>Worcestershire &amp; Staffordshire</h3>
 <p>Worcester, Kidderminster, <strong>Bromsgrove</strong>, Redditch, Droitwich Spa, <strong>Stourbridge</strong>, Halesowen, Bewdley, Evesham, Cannock, <strong>Lichfield</strong>, Tamworth, Stafford, Rugeley, Burntwood</p>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0;">
-  📍 Not sure if we cover your area? <a href="tel:07421433910" style="color: #000000; text-decoration: none;">Call us on 07421 433910</a> or <a href="https://wowgutters.co.uk" style="color: #000000; text-decoration: none;">check online at wowgutters.co.uk</a> — we serve a wide radius across the entire West Midlands region.
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+  📍 Not sure if we cover your area? <a href="tel:07421433910" style="color: #0f172a; text-decoration: none; font-weight: 600;">Call us on 07421 433910</a> or <a href="https://wowgutters.co.uk" style="color: #0f172a; text-decoration: none; font-weight: 600;">check online at wowgutters.co.uk</a> — we serve a wide radius across the entire West Midlands region.
 </blockquote>
 
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
@@ -215,12 +215,12 @@ export const blogPosts: BlogPost[] = [
 
 <p>Our reviews speak for themselves. Homeowners from Sutton Coldfield to Stourbridge, Coventry to Wolverhampton consistently rate us as their most trusted local roofline specialist.</p>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <em>"Excellent service, really professional and left everything spotless. Highly recommended."</em><br/>
   — Verified customer, Birmingham
 </blockquote>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <em>"Used WOW Gutters for the second year running — always reliable, always tidy. Wouldn't use anyone else."</em><br/>
   — Verified customer, Solihull
 </blockquote>
@@ -251,7 +251,7 @@ export const blogPosts: BlogPost[] = [
   <li>⬛ <strong>Dark streaking on fascias or soffits</strong> — <strong>algae build-up</strong> that will worsen over time</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   The earlier you act, the less expensive the solution. A gutter clean costs a fraction of what damp treatment or fascia board replacement costs.
 </blockquote>
 
