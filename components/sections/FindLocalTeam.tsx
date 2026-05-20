@@ -113,6 +113,7 @@ export default function FindLocalTeam() {
           padding: 80px 24px 100px;
           background: #FFFFFF;
           position: relative;
+          overflow: hidden;
         }
 
         .local-team-container {
@@ -171,6 +172,26 @@ export default function FindLocalTeam() {
           .local-team-grid {
             grid-template-columns: 1fr;
             gap: 32px;
+          }
+        }
+        @media (max-width: 768px) {
+          .local-team-section {
+            padding: 60px 16px 80px;
+          }
+          .local-team-header {
+            margin-bottom: 36px;
+          }
+          .local-team-grid {
+            gap: 24px;
+          }
+          .local-team-map-col {
+            min-height: 300px;
+          }
+          .local-team-map-wrapper {
+            min-height: 300px;
+          }
+          .local-team-map {
+            min-height: 300px;
           }
         }
 
@@ -298,6 +319,11 @@ export default function FindLocalTeam() {
           width: 100%;
           height: 100%;
           min-height: 500px;
+        }
+        @media (max-width: 768px) {
+          .local-team-map-col {
+            min-height: 300px;
+          }
         }
         .local-team-map-wrapper {
           position: relative;
