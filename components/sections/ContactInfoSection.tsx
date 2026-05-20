@@ -91,10 +91,10 @@ export default function ContactInfoSection() {
           <div className="contact-socials">
             <p className="contact-social-label">Follow WOW Gutters updates</p>
             <div className="contact-social-row">
-              <a href="https://www.facebook.com/wowgutters" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on Facebook" className="social-pill"><Facebook className="w-5 h-5"/></a>
+              <a href="https://web.facebook.com/wowgutters.co.uk" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on Facebook" className="social-pill"><Facebook className="w-5 h-5"/></a>
               <a href="https://www.youtube.com/@wowgutters" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on YouTube" className="social-pill"><Youtube className="w-5 h-5"/></a>
               <a href="https://twitter.com/wowgutters" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on X/Twitter" className="social-pill"><Twitter className="w-5 h-5"/></a>
-              <a href="https://www.instagram.com/wowgutters" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on Instagram" className="social-pill"><Instagram className="w-5 h-5"/></a>
+              <a href="https://www.instagram.com/wowgutters/" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on Instagram" className="social-pill"><Instagram className="w-5 h-5"/></a>
               <a href="#" className="social-pill"><MessageCircle className="w-5 h-5"/></a>
             </div>
           </div>

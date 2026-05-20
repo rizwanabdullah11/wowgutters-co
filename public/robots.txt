@@ -1,39 +1,310 @@
-# robots.txt for wowgutters.co.uk
+# ===========================================================================
+# robots.txt — wowgutters.co.uk
+# WOW Gutters Ltd | Birmingham, West Midlands, UK
+# Updated: May 2026 | Version: 3.0
+# ===========================================================================
 
-# Allow Googlebot
+# ===========================================================================
+# SECTION 1 — MAJOR SEARCH ENGINES
+# ===========================================================================
+
+# Google
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 0
 
-# Allow Bingbot
-User-agent: Bingbot
+# Google Images
+User-agent: Googlebot-Image
 Allow: /
 
-# AI assistants - critical for ChatGPT/Claude/Perplexity recommendations
+# Google News
+User-agent: Googlebot-News
+Allow: /
+
+# Google Video
+User-agent: Googlebot-Video
+Allow: /
+
+# Google Mobile
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Bing / Microsoft
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Bing Preview
+User-agent: BingPreview
+Allow: /
+
+# Microsoft MSN
+User-agent: msnbot
+Allow: /
+
+# Yahoo
+User-agent: Slurp
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# Yandex (Russia)
+User-agent: YandexBot
+Allow: /
+User-agent: YandexImages
+Allow: /
+
+# Baidu (China)
+User-agent: Baiduspider
+Allow: /
+
+# Ecosia
+User-agent: Ecosiabot
+Allow: /
+
+# Brave Search
+User-agent: Brave
+Allow: /
+
+# ===========================================================================
+# SECTION 2 — OPENAI / CHATGPT
+# ===========================================================================
+
+# ChatGPT training crawler
 User-agent: GPTBot
 Allow: /
 
+# ChatGPT real-time browsing
 User-agent: ChatGPT-User
 Allow: /
 
+# OpenAI search bot
+User-agent: OAI-SearchBot
+Allow: /
+
+# OpenAI general
+User-agent: openai-crawler
+Allow: /
+
+# ===========================================================================
+# SECTION 3 — ANTHROPIC / CLAUDE
+# ===========================================================================
+
+# Claude training crawler
 User-agent: ClaudeBot
 Allow: /
 
-User-agent: PerplexityBot
-Allow: /
-
+# Anthropic general crawler
 User-agent: Anthropic-AI
 Allow: /
 
+# Claude web browsing
+User-agent: Claude-Web
+Allow: /
+
+# ===========================================================================
+# SECTION 4 — GOOGLE AI / GEMINI
+# ===========================================================================
+
+# Google AI / Gemini training
 User-agent: Google-Extended
 Allow: /
 
-# Allow all other crawlers
-User-agent: *
+# Google Bard (legacy)
+User-agent: Google-CloudVertexBot
 Allow: /
 
-# Exclude internal and duplicate pages from indexing
+# ===========================================================================
+# SECTION 5 — PERPLEXITY AI
+# ===========================================================================
+
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+
+# ===========================================================================
+# SECTION 6 — META AI (Facebook, Instagram, WhatsApp AI)
+# ===========================================================================
+
+User-agent: FacebookBot
+Allow: /
+User-agent: Meta-ExternalAgent
+Allow: /
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+# ===========================================================================
+# SECTION 7 — APPLE (Siri, Spotlight, Apple Intelligence)
+# ===========================================================================
+
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+# ===========================================================================
+# SECTION 8 — MICROSOFT COPILOT / BING AI
+# ===========================================================================
+
+User-agent: CopilotBot
+Allow: /
+User-agent: msnbot-media
+Allow: /
+
+# ===========================================================================
+# SECTION 9 — OTHER AI PLATFORMS
+# ===========================================================================
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# You.com AI search
+User-agent: YouBot
+Allow: /
+
+# Diffbot AI knowledge graph
+User-agent: Diffbot
+Allow: /
+
+# ByteDance / TikTok AI
+User-agent: Bytespider
+Allow: /
+
+# Amazon Alexa / Kaleida
+User-agent: Amazonbot
+Allow: /
+User-agent: ia_archiver
+Allow: /
+
+# Mistral AI
+User-agent: MistralBot
+Allow: /
+
+# Grok (xAI / X / Twitter)
+User-agent: Grok
+Allow: /
+User-agent: xAI
+Allow: /
+
+# DeepSeek AI
+User-agent: DeepSeek
+Allow: /
+
+# Hugging Face
+User-agent: HuggingFaceBot
+Allow: /
+
+# ===========================================================================
+# SECTION 10 — AI TRAINING DATASETS
+# ===========================================================================
+
+# Common Crawl (used to train GPT, LLaMA, Claude, Gemini and many others)
+User-agent: CCBot
+Allow: /
+
+# Internet Archive
+User-agent: archive.org_bot
+Allow: /
+
+# Scrapy (used by many AI research projects)
+User-agent: Scrapy
+Allow: /
+
+# ===========================================================================
+# SECTION 11 — SEO AND ANALYTICS TOOLS
+# ===========================================================================
+
+# Semrush
+User-agent: SemrushBot
+Allow: /
+
+# Ahrefs
+User-agent: AhrefsBot
+Allow: /
+
+# Moz
+User-agent: rogerbot
+Allow: /
+User-agent: dotbot
+Allow: /
+
+# Majestic
+User-agent: MJ12bot
+Allow: /
+
+# Screaming Frog
+User-agent: Screaming Frog SEO Spider
+Allow: /
+
+# ===========================================================================
+# SECTION 12 — SOCIAL MEDIA CRAWLERS
+# ===========================================================================
+
+# Twitter / X
+User-agent: Twitterbot
+Allow: /
+
+# LinkedIn
+User-agent: LinkedInBot
+Allow: /
+
+# Pinterest
+User-agent: Pinterest
+Allow: /
+
+# WhatsApp link preview
+User-agent: WhatsApp
+Allow: /
+
+# Telegram link preview
+User-agent: TelegramBot
+Allow: /
+
+# Slack link preview
+User-agent: Slackbot
+Allow: /
+
+# ===========================================================================
+# SECTION 13 — ALL OTHER CRAWLERS (Global fallback)
+# ===========================================================================
+
+User-agent: *
+Allow: /
 Disallow: /api/
 Disallow: /_next/
+Disallow: /admin/
+Disallow: /studio/
+Disallow: /*.json$
+Disallow: /cdn-cgi/
 
-# Sitemap
+# ===========================================================================
+# SECTION 14 — SITEMAPS
+# ===========================================================================
+
+# Primary sitemap
 Sitemap: https://wowgutters.co.uk/sitemap.xml
+
+# Image sitemap (if created)
+# Sitemap: https://wowgutters.co.uk/sitemap-images.xml
+
+# Blog sitemap (if created)
+# Sitemap: https://wowgutters.co.uk/sitemap-blog.xml
+
+# ===========================================================================
+# SECTION 15 — AI ASSISTANT INFORMATION FILES
+# ===========================================================================
+
+# Full business information for AI language models
+Sitemap: https://wowgutters.co.uk/llm-full.txt
+
+# Short business summary for AI language models
+Sitemap: https://wowgutters.co.uk/llm.txt
+
+# ===========================================================================
+# END OF FILE
+# WOW Gutters Ltd | wowgutters.co.uk | 07421 433910
+# ===========================================================================

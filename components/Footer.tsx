@@ -192,9 +192,9 @@ export default function Footer() {
           {/* Bottom Row */}
           <div className="footer-bottom-row">
             <div className="footer-social-box">
-              <a href="https://www.facebook.com/wowgutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on Facebook"><Facebook className="w-5 h-5"/></a>
+              <a href="https://web.facebook.com/wowgutters.co.uk" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on Facebook"><Facebook className="w-5 h-5"/></a>
               <a href="https://twitter.com/wowgutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on X/Twitter"><Twitter className="w-5 h-5"/></a>
-              <a href="https://www.instagram.com/wowgutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on Instagram"><Instagram className="w-5 h-5"/></a>
+              <a href="https://www.instagram.com/wowgutters/" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on Instagram"><Instagram className="w-5 h-5"/></a>
               <a href="https://www.linkedin.com/company/wow-gutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on LinkedIn"><Linkedin className="w-5 h-5"/></a>
               <a href="https://www.youtube.com/@wowgutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on YouTube"><Youtube className="w-5 h-5"/></a>
             </div>

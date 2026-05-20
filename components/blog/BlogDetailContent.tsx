@@ -185,8 +185,8 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
           'availableLanguage': 'English'
         },
         'sameAs': [
-          'https://www.facebook.com/wowgutters',
-          'https://www.instagram.com/wowgutters'
+          'https://web.facebook.com/wowgutters.co.uk',
+          'https://www.instagram.com/wowgutters/'
         ]
       },
       // FAQPage Schema (if FAQs are present in content)

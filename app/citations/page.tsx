@@ -19,8 +19,8 @@ const business = {
   postcode: env('NEXT_PUBLIC_BUSINESS_POSTCODE'),
   region: env('NEXT_PUBLIC_BUSINESS_REGION') || 'England',
   country: 'GB',
-  facebook: env('NEXT_PUBLIC_FACEBOOK_URL') || 'https://www.facebook.com/wowgutters',
-  instagram: env('NEXT_PUBLIC_INSTAGRAM_URL') || 'https://www.instagram.com/wowgutters',
+  facebook: env('NEXT_PUBLIC_FACEBOOK_URL') || 'https://web.facebook.com/wowgutters.co.uk',
+  instagram: env('NEXT_PUBLIC_INSTAGRAM_URL') || 'https://www.instagram.com/wowgutters/',
   twitter: env('NEXT_PUBLIC_TWITTER_URL') || 'https://twitter.com/wowgutters',
   googleBusinessProfile: env('NEXT_PUBLIC_GBP_URL'),
 };
