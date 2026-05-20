@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect } from 'react';
 import { colors } from '@/constants/colors';
 import PricingCard from '@/components/pricing/PricingCard';
 import { PoundSterling, CheckCircle, Phone, TrendingDown, Shield } from 'lucide-react';
@@ -11,6 +12,62 @@ export default function GutterCleaningPrices() {
     if (typeof opener === 'function') opener();
     else window.location.href = '/quote/embed/';
   };
+
+  // Add schema on mount
+  useEffect(() => {
+    const schema = {
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'Service',
+          '@id': 'https://wowgutters.co.uk/pricing/#service',
+          name: 'Gutter Cleaning Prices Birmingham',
+          serviceType: 'Gutter cleaning',
+          description: 'Gutter cleaning prices across Birmingham and West Midlands.',
+          provider: {
+            '@type': 'LocalBusiness',
+            name: 'WOW Gutters Ltd',
+            telephone: '+447421433910',
+          },
+          areaServed: {
+            '@type': 'City',
+            name: 'Birmingham',
+          },
+          offers: {
+            '@type': 'AggregateOffer',
+            priceCurrency: 'GBP',
+            lowPrice: '50',
+            highPrice: '120',
+            offerCount: '3',
+          },
+        },
+        {
+          '@type': 'LocalBusiness',
+          '@id': 'https://wowgutters.co.uk/pricing/#business',
+          name: 'WOW Gutters Ltd',
+          url: 'https://wowgutters.co.uk/pricing/',
+          telephone: '+447421433910',
+          priceRange: '££',
+          geo: {
+            '@type': 'GeoCoordinates',
+            latitude: 52.4862,
+            longitude: -1.8904,
+          },
+        },
+      ],
+    };
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.text = JSON.stringify(schema);
+    document.head.appendChild(script);
+
+    return () => {
+      if (document.head.contains(script)) {
+        document.head.removeChild(script);
+      }
+    };
+  }, []);
 
   return (
     <main className="bg-white">

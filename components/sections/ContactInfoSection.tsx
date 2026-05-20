@@ -169,6 +169,7 @@ export default function ContactInfoSection() {
           padding: 100px 24px;
           background-color: #F8FAFC;
           position: relative;
+          overflow: hidden;
         }
 
         .contact-info-container {
@@ -187,6 +188,9 @@ export default function ContactInfoSection() {
           }
         }
         @media (max-width: 768px) {
+          .contact-info-section {
+            padding: 60px 16px;
+          }
           .contact-info-container {
             grid-template-columns: 1fr;
           }
@@ -220,19 +224,33 @@ export default function ContactInfoSection() {
         @media (max-width: 768px) {
           .contact-header {
             gap: 12px;
+            flex-wrap: wrap;
           }
           .contact-logo-wrap {
             height: 70px;
           }
           .contact-logo {
-            height: 80px;
+            height: 70px;
           }
           .contact-eyebrow {
             font-size: 0.65rem;
             letter-spacing: 1.4px;
           }
           .contact-title {
-            font-size: 1.9rem;
+            font-size: 1.6rem;
+            letter-spacing: -0.5px;
+          }
+          .contact-quick-actions {
+            flex-direction: column;
+          }
+          .times-title {
+            font-size: 1.25rem;
+          }
+          .search-title {
+            font-size: 1.5rem;
+          }
+          .search-card {
+            padding: 24px;
           }
         }
         .contact-eyebrow {
@@ -251,7 +269,8 @@ export default function ContactInfoSection() {
           margin: 0;
           letter-spacing: -1px;
           line-height: 1;
-          white-space: nowrap;
+          white-space: normal;
+          word-break: break-word;
         }
 
         .contact-methods {
@@ -395,6 +414,8 @@ export default function ContactInfoSection() {
           padding: 10px 14px;
           border-radius: 8px;
           transition: background 0.2s ease;
+          position: relative;
+          overflow: visible;
         }
         .time-row:hover {
           background: #F8FAFC;
@@ -405,7 +426,7 @@ export default function ContactInfoSection() {
         }
         .time-badge {
           position: absolute;
-          right: -10px;
+          right: 8px;
           top: -10px;
           background: #19C58B;
           color: white;
@@ -414,21 +435,24 @@ export default function ContactInfoSection() {
           padding: 2px 8px;
           border-radius: 100px;
           text-transform: uppercase;
+          white-space: nowrap;
         }
         .time-day {
           font-weight: 600;
           color: #64748B;
+          flex-shrink: 0;
         }
         .time-row-today .time-day {
-          color: #166534;
+          color: #166634;
           font-weight: 800;
         }
         .time-hours {
           font-weight: 700;
           color: #0F172A;
+          white-space: nowrap;
         }
         .time-row-today .time-hours {
-          color: #166534;
+          color: #166634;
         }
 
         /* Right Col (Search) */
@@ -488,6 +512,7 @@ export default function ContactInfoSection() {
           color: #0F172A;
           background: white;
           box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+          box-sizing: border-box;
         }
         .search-input:focus {
           outline: 4px solid rgba(255,255,255,0.3);

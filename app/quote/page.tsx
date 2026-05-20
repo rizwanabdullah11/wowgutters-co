@@ -320,6 +320,108 @@ export default function QuotePage() {
         </div>
       </section>
 
+      {/* ═══════════════════════════════ CUSTOMER QUOTES ═══════════════════════════════ */}
+      <section className="py-16 sm:py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-white text-xs sm:text-sm font-semibold shadow mb-4" style={{ backgroundColor: colors.primary }}>
+              ⭐ Rated 4.9 Stars by 2,696+ Customers
+            </div>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-4">
+              <span className="text-gray-900">What Our </span>
+              <span style={{ color: colors.primary }}>Customers Say</span>
+            </h2>
+            <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
+              Homeowners across Birmingham, Solihull, Wolverhampton and the wider West Midlands trust WOW Gutters
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-3 gap-6 sm:gap-8">
+            {/* Quote 1 */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 flex flex-col hover:shadow-xl transition-shadow duration-300" style={{ borderTop: `4px solid ${colors.primary}` }}>
+              <div className="flex gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-5 h-5" fill="#F59E0B" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                ))}
+              </div>
+              <blockquote className="flex-1 text-gray-700 text-base leading-relaxed italic mb-6">
+                "Excellent service, really professional and left everything spotless. Highly recommended."
+              </blockquote>
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-sm flex-shrink-0" style={{ backgroundColor: colors.primary }}>
+                  V
+                </div>
+                <div>
+                  <p className="font-bold text-sm text-gray-900">Verified Customer</p>
+                  <p className="text-xs text-gray-500">Birmingham</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Quote 2 */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 flex flex-col hover:shadow-xl transition-shadow duration-300" style={{ borderTop: `4px solid ${colors.primary}` }}>
+              <div className="flex gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-5 h-5" fill="#F59E0B" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                ))}
+              </div>
+              <blockquote className="flex-1 text-gray-700 text-base leading-relaxed italic mb-6">
+                "Used WOW Gutters for the second year running — always reliable, always tidy. Wouldn't use anyone else."
+              </blockquote>
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-sm flex-shrink-0" style={{ backgroundColor: colors.primary }}>
+                  V
+                </div>
+                <div>
+                  <p className="font-bold text-sm text-gray-900">Verified Customer</p>
+                  <p className="text-xs text-gray-500">Solihull</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Quote 3 */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 flex flex-col hover:shadow-xl transition-shadow duration-300" style={{ borderTop: `4px solid ${colors.primary}` }}>
+              <div className="flex gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} className="w-5 h-5" fill="#F59E0B" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                  </svg>
+                ))}
+              </div>
+              <blockquote className="flex-1 text-gray-700 text-base leading-relaxed italic mb-6">
+                "Outstanding service — excellent job of cleaning soffits and fascia. Would recommend to anyone that needs this service."
+              </blockquote>
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-sm flex-shrink-0" style={{ backgroundColor: '#BE185D' }}>
+                  M
+                </div>
+                <div>
+                  <p className="font-bold text-sm text-gray-900">Maree G.</p>
+                  <p className="text-xs text-gray-500">Verified Google Review</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* CTA below quotes */}
+          <div className="text-center mt-10">
+            <button
+              onClick={openModal}
+              className="inline-flex items-center gap-3 px-8 py-4 text-base font-bold text-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1"
+              style={{ backgroundColor: colors.cta }}
+            >
+              <Zap className="w-5 h-5" />
+              Join Our Happy Customers — Get a Free Quote
+              <ArrowRight className="w-5 h-5" />
+            </button>
+          </div>
+        </div>
+      </section>
+
       {/* ═══════════════════════════════ WHY CHOOSE US ═══════════════════════════════ */}
       <section className="py-16 sm:py-20 bg-gray-50 relative overflow-hidden">
         <div className="absolute top-0 left-0 right-0 h-1" style={{ background: `linear-gradient(to right, ${colors.primary}, ${colors.cta})` }} />

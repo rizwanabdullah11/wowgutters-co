@@ -414,7 +414,7 @@ export default function ServiceCardsSection() {
           transform: translateX(3px);
         }
 
-        /* Mobile fix: touch devices can't hover, so always show back content */
+        /* Mobile fix: touch devices can't hover, so show front only */
         @media (max-width: 768px) {
           .flip-card-wrapper {
             perspective: none;
@@ -437,10 +437,7 @@ export default function ServiceCardsSection() {
             height: auto;
           }
           .card-back {
-            margin-top: 16px;
-          }
-          .card-back-content {
-            padding: 24px 22px;
+            display: none !important;
           }
         }
       `}</style>

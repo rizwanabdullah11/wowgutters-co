@@ -30,37 +30,180 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
   const otherPosts = blogPosts.filter(p => p.id !== post.id && p.category !== post.category);
   const relatedPosts = [...sameCategoryPosts, ...otherPosts].slice(0, 3);
 
-  // JSON-LD structured data for SEO
+  // Extract FAQ data from content if present
+  const extractFAQs = (content: string) => {
+    const faqs: Array<{ question: string; answer: string }> = [];
+    const faqRegex = /<h3[^>]*>Q:\s*([^<]+)<\/h3>\s*<p[^>]*><strong[^>]*>A:<\/strong>\s*([^<]+(?:<[^>]+>[^<]*<\/[^>]+>)*[^<]*)<\/p>/gi;
+    let match;
+    
+    while ((match = faqRegex.exec(content)) !== null) {
+      faqs.push({
+        question: match[1].trim(),
+        answer: match[2].replace(/<[^>]+>/g, '').trim()
+      });
+    }
+    
+    return faqs;
+  };
+
+  const faqs = post.content ? extractFAQs(post.content) : [];
+
+  // JSON-LD structured data for SEO - Enhanced Schema
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'BlogPosting',
-    'headline': post.title,
-    'description': post.excerpt,
-    'image': {
-      '@type': 'ImageObject',
-      'url': post.image,
-      'width': 1200,
-      'height': 630
-    },
-    'author': {
-      '@type': 'Organization',
-      'name': 'WOW Gutters Ltd',
-      'url': 'https://wowgutters.co.uk'
-    },
-    'publisher': {
-      '@type': 'Organization',
-      'name': 'WOW Gutters Ltd',
-      'logo': {
-        '@type': 'ImageObject',
-        'url': 'https://wowgutters.co.uk/assets/wow-gutter-logo2.png'
-      }
-    },
-    'datePublished': post.date,
-    'dateModified': post.lastUpdated || post.date,
-    'mainEntityOfPage': {
-      '@type': 'WebPage',
-      '@id': `https://wowgutters.co.uk/blog/${post.id}`
-    }
+    '@graph': [
+      // BlogPosting Schema
+      {
+        '@type': 'BlogPosting',
+        '@id': `https://wowgutters.co.uk/blog/${post.id}#blogposting`,
+        'headline': post.title,
+        'description': post.excerpt,
+        'image': {
+          '@type': 'ImageObject',
+          'url': `https://wowgutters.co.uk${post.image}`,
+          'width': 1200,
+          'height': 630
+        },
+        'author': {
+          '@type': 'Organization',
+          'name': 'WOW Gutters Ltd',
+          'url': 'https://wowgutters.co.uk',
+          'logo': {
+            '@type': 'ImageObject',
+            'url': 'https://wowgutters.co.uk/assets/wow-gutter-logo2.png'
+          }
+        },
+        'publisher': {
+          '@type': 'Organization',
+          'name': 'WOW Gutters Ltd',
+          'url': 'https://wowgutters.co.uk',
+          'logo': {
+            '@type': 'ImageObject',
+            'url': 'https://wowgutters.co.uk/assets/wow-gutter-logo2.png',
+            'width': 600,
+            'height': 60
+          }
+        },
+        'datePublished': post.date,
+        'dateModified': post.lastUpdated || post.date,
+        'mainEntityOfPage': {
+          '@type': 'WebPage',
+          '@id': `https://wowgutters.co.uk/blog/${post.id}`
+        },
+        'articleSection': post.category || 'Maintenance',
+        'keywords': `gutter cleaning, ${post.category}, gutter maintenance, blocked gutters, gutter repair`,
+        'inLanguage': 'en-GB',
+        'isPartOf': {
+          '@id': 'https://wowgutters.co.uk/blog#website'
+        }
+      },
+      // Article Schema
+      {
+        '@type': 'Article',
+        '@id': `https://wowgutters.co.uk/blog/${post.id}#article`,
+        'headline': post.title,
+        'description': post.excerpt,
+        'image': `https://wowgutters.co.uk${post.image}`,
+        'author': {
+          '@type': 'Organization',
+          'name': 'WOW Gutters Ltd'
+        },
+        'publisher': {
+          '@type': 'Organization',
+          'name': 'WOW Gutters Ltd',
+          'logo': {
+            '@type': 'ImageObject',
+            'url': 'https://wowgutters.co.uk/assets/wow-gutter-logo2.png'
+          }
+        },
+        'datePublished': post.date,
+        'dateModified': post.lastUpdated || post.date
+      },
+      // BreadcrumbList Schema
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `https://wowgutters.co.uk/blog/${post.id}#breadcrumb`,
+        'itemListElement': [
+          {
+            '@type': 'ListItem',
+            'position': 1,
+            'name': 'Home',
+            'item': 'https://wowgutters.co.uk'
+          },
+          {
+            '@type': 'ListItem',
+            'position': 2,
+            'name': 'Blog',
+            'item': 'https://wowgutters.co.uk/blog'
+          },
+          {
+            '@type': 'ListItem',
+            'position': 3,
+            'name': post.title,
+            'item': `https://wowgutters.co.uk/blog/${post.id}`
+          }
+        ]
+      },
+      // WebPage Schema
+      {
+        '@type': 'WebPage',
+        '@id': `https://wowgutters.co.uk/blog/${post.id}#webpage`,
+        'url': `https://wowgutters.co.uk/blog/${post.id}`,
+        'name': post.title,
+        'description': post.excerpt,
+        'isPartOf': {
+          '@id': 'https://wowgutters.co.uk/blog#website'
+        },
+        'primaryImageOfPage': {
+          '@id': `https://wowgutters.co.uk/blog/${post.id}#primaryimage`
+        },
+        'datePublished': post.date,
+        'dateModified': post.lastUpdated || post.date,
+        'breadcrumb': {
+          '@id': `https://wowgutters.co.uk/blog/${post.id}#breadcrumb`
+        },
+        'inLanguage': 'en-GB'
+      },
+      // Organization Schema
+      {
+        '@type': 'Organization',
+        '@id': 'https://wowgutters.co.uk#organization',
+        'name': 'WOW Gutters Ltd',
+        'url': 'https://wowgutters.co.uk',
+        'logo': {
+          '@type': 'ImageObject',
+          '@id': 'https://wowgutters.co.uk#logo',
+          'url': 'https://wowgutters.co.uk/assets/wow-gutter-logo2.png',
+          'width': 600,
+          'height': 60
+        },
+        'contactPoint': {
+          '@type': 'ContactPoint',
+          'telephone': '+44-7421-433910',
+          'contactType': 'customer service',
+          'areaServed': 'GB',
+          'availableLanguage': 'English'
+        },
+        'sameAs': [
+          'https://www.facebook.com/wowgutters',
+          'https://www.instagram.com/wowgutters'
+        ]
+      },
+      // FAQPage Schema (if FAQs are present in content)
+      ...(faqs.length > 0 ? [{
+        '@type': 'FAQPage',
+        '@id': `https://wowgutters.co.uk/blog/${post.id}#faqpage`,
+        'mainEntity': faqs.map((faq, index) => ({
+          '@type': 'Question',
+          '@id': `https://wowgutters.co.uk/blog/${post.id}#faq-${index + 1}`,
+          'name': faq.question,
+          'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': faq.answer
+          }
+        }))
+      }] : [])
+    ]
   };
 
   return (
