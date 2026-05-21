@@ -103,21 +103,31 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
         '@id': `https://wowgutters.co.uk/blog/${post.id}#article`,
         'headline': post.title,
         'description': post.excerpt,
-        'image': `https://wowgutters.co.uk${post.image}`,
+        'image': {
+          '@type': 'ImageObject',
+          'url': `https://wowgutters.co.uk${post.image}`,
+          'width': 1200,
+          'height': 630
+        },
         'author': {
           '@type': 'Organization',
-          'name': 'WOW Gutters Ltd'
+          'name': 'WOW Gutters Ltd',
+          'url': 'https://wowgutters.co.uk'
         },
         'publisher': {
           '@type': 'Organization',
           'name': 'WOW Gutters Ltd',
           'logo': {
             '@type': 'ImageObject',
-            'url': 'https://wowgutters.co.uk/assets/wow-gutter-logo2.png'
+            'url': 'https://wowgutters.co.uk/og/default.jpg'
           }
         },
         'datePublished': post.date,
-        'dateModified': post.lastUpdated || post.date
+        'dateModified': post.lastUpdated || post.date,
+        'mainEntityOfPage': {
+          '@type': 'WebPage',
+          '@id': `https://wowgutters.co.uk/blog/${post.id}/`
+        }
       },
       // BreadcrumbList Schema
       {
@@ -128,19 +138,19 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
             '@type': 'ListItem',
             'position': 1,
             'name': 'Home',
-            'item': 'https://wowgutters.co.uk'
+            'item': 'https://wowgutters.co.uk/'
           },
           {
             '@type': 'ListItem',
             'position': 2,
             'name': 'Blog',
-            'item': 'https://wowgutters.co.uk/blog'
+            'item': 'https://wowgutters.co.uk/blog/'
           },
           {
             '@type': 'ListItem',
             'position': 3,
-            'name': post.title,
-            'item': `https://wowgutters.co.uk/blog/${post.id}`
+            'name': post.breadcrumbName || post.title,
+            'item': `https://wowgutters.co.uk/blog/${post.id}/`
           }
         ]
       },
@@ -148,7 +158,7 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
       {
         '@type': 'WebPage',
         '@id': `https://wowgutters.co.uk/blog/${post.id}#webpage`,
-        'url': `https://wowgutters.co.uk/blog/${post.id}`,
+        'url': `https://wowgutters.co.uk/blog/${post.id}/`,
         'name': post.title,
         'description': post.excerpt,
         'isPartOf': {
@@ -185,8 +195,8 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
           'availableLanguage': 'English'
         },
         'sameAs': [
-          'https://www.facebook.com/wowgutters',
-          'https://www.instagram.com/wowgutters'
+          'https://web.facebook.com/wowgutters.co.uk',
+          'https://www.instagram.com/wowgutters/'
         ]
       },
       // FAQPage Schema (if FAQs are present in content)

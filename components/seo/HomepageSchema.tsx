@@ -75,9 +75,9 @@ export default function HomepageSchema() {
       "Droitwich Spa"
     ],
     "sameAs": [
-      "https://www.facebook.com/wowgutters",
+      "https://web.facebook.com/wowgutters.co.uk",
       "https://twitter.com/wowgutters",
-      "https://www.instagram.com/wowgutters",
+      "https://www.instagram.com/wowgutters/",
       "https://www.linkedin.com/company/wow-gutters",
       "https://www.youtube.com/@wowgutters"
     ]
