@@ -38,8 +38,8 @@ export default function BlogPage() {
     return matchesSearch && matchesCategory;
   });
 
-  // Get featured post (most views)
-  const featuredPost = blogPosts.reduce((prev, current) => 
+  // Get featured post — explicit flag first, fallback to most views
+  const featuredPost = blogPosts.find(p => p.featured) ?? blogPosts.reduce((prev, current) =>
     (parseInt(current.views) > parseInt(prev.views)) ? current : prev
   );
 
