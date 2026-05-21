@@ -1460,6 +1460,441 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     ctaHeading: 'Book Your Gutter Clean in the West Midlands — Free Quote in 60 Seconds',
   },
+
+  aston: {
+    slug: 'aston',
+    city: 'Aston',
+    titleTag: 'Gutter Cleaning Aston, Birmingham | WOW Gutters Ltd — Free Quote',
+    metaDescription:
+      'Professional gutter cleaning in Aston, Birmingham. Ground-level vacuum system, no ladders, before & after photos, 1-year guarantee. Call 07421 433910.',
+    h1: 'Gutter Cleaning Aston — Trusted Local Specialists in B6 & B7',
+    heroIntro:
+      "WOW Gutters Ltd provides professional gutter cleaning across Aston and the surrounding inner-city Birmingham neighbourhoods, including Witton, Newtown, Lozells, Birchfield and Nechells. Aston's dense terraced streets and Victorian-era housing stock present some of the most challenging gutter conditions in Birmingham — narrow access, aging uPVC systems, and years of accumulated debris from the area's mature street trees. Our ground-level high-reach vacuum system handles all of it safely, without a single ladder placed against your property.",
+    whyTitle: 'Why Aston Gutters Block Faster Than You Think',
+    whyBody: [
+      "Aston sits in one of Birmingham's most densely built inner-city areas, where terraced rows run back-to-back and gutters are often shared or closely adjacent. The combination of mature street trees — particularly the lime and plane trees lining many of Aston's Victorian streets — and the area's consistent rainfall means gutters fill with leaves, seeds and moss faster than in more open suburban areas.",
+      "Many properties in Aston were built between 1880 and 1930, and their guttering — whether original cast iron or later uPVC replacement — is now showing its age. Joints fail, brackets sag, and sections crack when the weight of accumulated debris is left unmanaged. Our post-clean condition report gives you an honest assessment of what needs attention before small problems become expensive ones.",
+    ],
+    guarantees: [
+      'Ground-level vacuum system — no ladders placed against your property',
+      'Reaches up to 4 storeys — terraces, semis and flats',
+      'Before & after photos included as standard on every job',
+      '1-year service guarantee — we return free if your gutters block within 12 months',
+      'Fully insured — comprehensive public liability cover on every visit',
+      '4.9★ rating from 2,696+ verified customer reviews',
+    ],
+    propertyTypesTitle: 'Gutter Cleaning for All Property Types in Aston',
+    propertyTypes: [
+      {
+        label: 'Victorian terraces (Aston, Lozells, Newtown)',
+        detail: 'Dense rows with aging gutter systems. We clear cast iron and uPVC gutters carefully and flag any repairs needed.',
+      },
+      {
+        label: 'Edwardian semis (Witton, Birchfield)',
+        detail: 'Larger properties with longer gutter runs. Moss and leaf build-up cleared thoroughly with our vacuum system.',
+      },
+      {
+        label: 'Post-war council housing (Nechells, Aston)',
+        detail: 'Flat-roof sections and standard uPVC runs. Annual clean keeps drainage systems functioning correctly.',
+      },
+      {
+        label: 'Converted flats and HMOs',
+        detail: 'Landlords across Aston use WOW Gutters for annual maintenance on rental portfolios. Before & after photos provided for records.',
+      },
+      {
+        label: 'Commercial properties (Aston corridor)',
+        detail: 'Workshops, retail units and offices along the A34 and A38 corridors. Planned maintenance contracts available.',
+      },
+    ],
+    areasTitle: 'Areas We Cover Around Aston',
+    areasInline:
+      'Witton, Lozells, Newtown, Birchfield | Nechells, Duddeston, Saltley | Handsworth, Erdington, Perry Barr | Nearby: Birmingham city centre, Sutton Coldfield, Walsall',
+    faqsTitle: 'FAQs — Gutter Cleaning Aston',
+    faqs: [
+      {
+        question: 'How much does gutter cleaning cost in Aston?',
+        answer:
+          'Prices start from £50 for a standard terraced house. Most semi-detached homes in Aston range from £55–£75, and larger detached properties from £75–£110. Fixed quote before starting — no hidden charges.',
+      },
+      {
+        question: 'Do you cover Lozells, Newtown and Witton?',
+        answer:
+          'Yes — we cover all B6 and B7 postcodes including Aston, Lozells, Newtown, Witton, Birchfield, Nechells and all surrounding inner-city areas.',
+      },
+      {
+        question: 'My terrace has very narrow side access — is that a problem?',
+        answer:
+          'Not at all. Our ground-level vacuum system operates from the front of the property and does not require side access in most cases. We handle tight terraced rows regularly across Aston and Lozells.',
+      },
+      {
+        question: 'Do you work with landlords in Aston?',
+        answer:
+          'Yes — we work with landlords and letting agents across Aston, providing photographic evidence of gutter condition before and after each visit for maintenance records and tenant check reports.',
+      },
+      {
+        question: 'Is your service guaranteed?',
+        answer:
+          'Yes. Every gutter clean comes with a 1-year service guarantee. If your gutters block within 12 months, we return at no extra charge.',
+      },
+    ],
+    geo: { latitude: 52.5050, longitude: -1.8850 },
+    internalLinks: [
+      { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
+      { label: 'Gutter cleaning Erdington', href: '/gutter-cleaning/erdington/' },
+      { label: 'Gutter cleaning Handsworth', href: '/gutter-cleaning/handsworth/' },
+      { label: 'Roof cleaning Birmingham', href: '/help/clean/' },
+      { label: 'Gutter repairs', href: '/help/repair/' },
+    ],
+    ctaHeading: 'Book Your Gutter Clean in Aston — Free Quote in 60 Seconds',
+  },
+
+  edgbaston: {
+    slug: 'edgbaston',
+    city: 'Edgbaston',
+    titleTag: 'Gutter Cleaning Edgbaston, Birmingham | WOW Gutters Ltd — Free Quote',
+    metaDescription:
+      'Professional gutter cleaning in Edgbaston, Birmingham. Vacuum system, no ladders, before & after photos, 1-year guarantee. Call 07421 433910 today.',
+    h1: 'Gutter Cleaning Edgbaston — Premium Service for B15 & B16 Properties',
+    heroIntro:
+      "WOW Gutters Ltd provides professional gutter cleaning across Edgbaston and the surrounding areas, including Harborne, Selly Oak, Ladywood, Moseley and the University of Birmingham quarter. Edgbaston is home to some of Birmingham's most prestigious residential streets — large Victorian and Edwardian detached homes, leafy avenues, and well-maintained period properties that deserve a gutter cleaning service that matches their standard. Our ground-level high-reach vacuum system delivers exactly that: a thorough, professional clean with no ladders, no mess, and no risk of damage to your property.",
+    whyTitle: 'Why Edgbaston Properties Need Specialist Gutter Care',
+    whyBody: [
+      "Edgbaston's large, mature trees are one of the area's defining features — and one of the biggest contributors to gutter blockages. The avenues of oak, beech, lime and horse chestnut that line streets throughout B15 and B16 shed enormous volumes of leaves, seeds and organic debris each autumn. Properties with trees overhanging the roofline can see gutters fill completely within a single season.",
+      "Many of Edgbaston's period properties also have longer and more complex gutter runs than standard suburban homes — multiple roof pitches, bay windows, extensions, and conservatories all create additional sections that need clearing. Our 4-storey vacuum reach and specialist access equipment handles all of these without the need for scaffolding or cherry pickers.",
+    ],
+    guarantees: [
+      'Ground-level vacuum system — no ladders placed against your property',
+      'Reaches up to 4 storeys — period homes, detached villas and flats',
+      'Before & after photos included as standard on every job',
+      '1-year service guarantee — we return free if your gutters block within 12 months',
+      'Fully insured — comprehensive public liability cover on every visit',
+      '4.9★ rating from 2,696+ verified customer reviews',
+    ],
+    propertyTypesTitle: 'Gutter Cleaning for All Property Types in Edgbaston',
+    propertyTypes: [
+      {
+        label: 'Large Victorian & Edwardian detached homes',
+        detail: 'Complex rooflines with multiple gutter runs. Our 4-storey vacuum reach covers every section without scaffolding.',
+      },
+      {
+        label: 'Period semis and terraces (Harborne Road corridor)',
+        detail: 'Older uPVC or cast iron systems. We clear carefully and provide a full condition report after every clean.',
+      },
+      {
+        label: 'Converted apartments and mansion flats',
+        detail: 'Multi-storey conversions with shared guttering. We coordinate with managing agents and provide photographic evidence.',
+      },
+      {
+        label: 'University quarter properties (Bournbrook, Selly Park)',
+        detail: 'Student HMOs and rental properties. Landlord maintenance packages available with annual scheduling.',
+      },
+      {
+        label: 'New build developments (Edgbaston Village)',
+        detail: 'Modern guttering still attracts debris from surrounding mature trees. Annual clean recommended.',
+      },
+    ],
+    areasTitle: 'Areas We Cover Around Edgbaston',
+    areasInline:
+      'Harborne, Selly Oak, Moseley, Ladywood | Bournbrook, Selly Park, Stirchley | Five Ways, Calthorpe Estate | Nearby: Birmingham city centre, Sutton Coldfield, Solihull',
+    faqsTitle: 'FAQs — Gutter Cleaning Edgbaston',
+    faqs: [
+      {
+        question: 'How much does gutter cleaning cost in Edgbaston?',
+        answer:
+          'Prices start from £60 for a standard terraced property. Most semi-detached homes in Edgbaston range from £65–£90, and larger detached period properties from £90–£140. Fixed quote provided before work starts.',
+      },
+      {
+        question: 'Can you clean gutters on large Victorian detached homes in Edgbaston?',
+        answer:
+          'Yes — this is exactly the type of property our equipment is designed for. Our 4-storey vacuum reach handles complex rooflines, multiple pitches and long gutter runs without scaffolding.',
+      },
+      {
+        question: 'Do you clean conservatory gutters in Edgbaston?',
+        answer:
+          'Yes. We use specialist low-reach tools to clean conservatory gutters without climbing on the structure — protecting polycarbonate panels, glass and timber frames throughout.',
+      },
+      {
+        question: 'How often should Edgbaston properties have gutters cleaned?',
+        answer:
+          'Most properties benefit from one clean per year in late autumn. Those with heavy tree coverage — particularly on the Calthorpe Estate and along the Harborne Road corridor — benefit from a second spring clean.',
+      },
+      {
+        question: 'Do you offer fascia and soffit cleaning in Edgbaston?',
+        answer:
+          'Yes — our hot purified water system restores fascias and soffits to a bright, streak-free finish. Ideal for period properties where kerb appeal matters.',
+      },
+    ],
+    geo: { latitude: 52.4617, longitude: -1.9250 },
+    internalLinks: [
+      { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
+      { label: 'Gutter cleaning Harborne', href: '/gutter-cleaning/harborne/' },
+      { label: 'Gutter cleaning Selly Oak', href: '/gutter-cleaning/selly-oak/' },
+      { label: 'Fascia & soffit cleaning', href: '/blog/fascias-soffits-gutter-cleaning-west-midlands/' },
+      { label: 'Gutter repairs', href: '/help/repair/' },
+    ],
+    ctaHeading: 'Book Your Gutter Clean in Edgbaston — Free Quote in 60 Seconds',
+  },
+
+  'selly-oak': {
+    slug: 'selly-oak',
+    city: 'Selly Oak',
+    titleTag: 'Gutter Cleaning Selly Oak, Birmingham | WOW Gutters Ltd — Free Quote',
+    metaDescription:
+      'Professional gutter cleaning in Selly Oak, Birmingham B29. Vacuum system, no ladders, before & after photos, 1-year guarantee. Call 07421 433910.',
+    h1: 'Gutter Cleaning Selly Oak — Reliable Service for B29 Properties',
+    heroIntro:
+      "WOW Gutters Ltd provides professional gutter cleaning across Selly Oak and the surrounding south Birmingham neighbourhoods, including Bournville, Harborne, Stirchley, Cotteridge and Northfield. Selly Oak is a diverse area with a wide mix of property types — from the Victorian terraces and Edwardian semis near the university to the larger detached homes of Bournville and the post-war housing of Stirchley and Cotteridge. Our ground-level vacuum system handles all of them with the same professional standard, no ladders required.",
+    whyTitle: 'Why Selly Oak Gutters Need Regular Cleaning',
+    whyBody: [
+      "Selly Oak sits in the valley of the River Rea, surrounded by some of south Birmingham's most mature green spaces — Cannon Hill Park, Bournville Village Trust land, and the tree-lined streets of the Bournville estate. This abundance of mature trees means gutters in Selly Oak fill with leaves, sycamore seeds and organic debris faster than in more open areas, particularly in autumn.",
+      "The area also has a high proportion of student and rental properties, many of which have not had gutters professionally cleaned for several years. Blocked gutters on these properties frequently cause damp penetration through external walls — a problem that is expensive to repair and disruptive to tenants. Our annual maintenance service keeps rental properties in good condition and provides landlords with photographic evidence for their records.",
+    ],
+    guarantees: [
+      'Ground-level vacuum system — no ladders placed against your property',
+      'Reaches up to 4 storeys — terraces, semis and student HMOs',
+      'Before & after photos included as standard on every job',
+      '1-year service guarantee — we return free if your gutters block within 12 months',
+      'Fully insured — comprehensive public liability cover on every visit',
+      '4.9★ rating from 2,696+ verified customer reviews',
+    ],
+    propertyTypesTitle: 'Gutter Cleaning for All Property Types in Selly Oak',
+    propertyTypes: [
+      {
+        label: 'Victorian terraces (Selly Oak, Bristol Road)',
+        detail: 'Dense rows near the university. We clear efficiently with no disruption to residents or neighbours.',
+      },
+      {
+        label: 'Edwardian semis (Bournville, Harborne border)',
+        detail: 'Larger properties with longer gutter runs and heavy leaf fall from mature garden trees.',
+      },
+      {
+        label: 'Student HMOs and rental properties',
+        detail: 'Landlord maintenance packages available. Before & after photos provided for every visit.',
+      },
+      {
+        label: 'Post-war housing (Stirchley, Cotteridge)',
+        detail: 'Standard uPVC gutter runs. Moss and debris cleared thoroughly — downpipe flush included.',
+      },
+      {
+        label: 'Bournville estate properties',
+        detail: 'Heritage properties with well-maintained rooflines. We treat every property with care and precision.',
+      },
+    ],
+    areasTitle: 'Areas We Cover Around Selly Oak',
+    areasInline:
+      'Bournville, Stirchley, Cotteridge, Harborne | Northfield, Longbridge, Kings Norton | Edgbaston, Moseley, Kings Heath | Nearby: Birmingham city centre, Solihull, Bromsgrove',
+    faqsTitle: 'FAQs — Gutter Cleaning Selly Oak',
+    faqs: [
+      {
+        question: 'How much does gutter cleaning cost in Selly Oak?',
+        answer:
+          'Prices start from £50 for a standard terraced house. Most semi-detached homes in Selly Oak range from £60–£80, and larger detached properties from £80–£120. Fixed quote before starting.',
+      },
+      {
+        question: 'Do you work with student landlords in Selly Oak?',
+        answer:
+          'Yes — we work regularly with landlords and letting agents across Selly Oak and the university quarter, providing photographic evidence of gutter condition for maintenance records and tenant check reports.',
+      },
+      {
+        question: 'Do you cover Bournville and Stirchley?',
+        answer:
+          'Yes — all B29 postcodes and surrounding areas including Bournville, Stirchley, Cotteridge, Harborne and Northfield.',
+      },
+      {
+        question: 'How often should Selly Oak gutters be cleaned?',
+        answer:
+          'Once a year in late autumn is right for most properties. Those near Cannon Hill Park or with overhanging trees benefit from a second spring clean to clear winter debris.',
+      },
+      {
+        question: 'Is your service guaranteed?',
+        answer:
+          'Yes. Every gutter clean comes with a 1-year service guarantee. If your gutters block within 12 months, we return at no extra charge.',
+      },
+    ],
+    geo: { latitude: 52.4417, longitude: -1.9367 },
+    internalLinks: [
+      { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
+      { label: 'Gutter cleaning Edgbaston', href: '/gutter-cleaning/edgbaston/' },
+      { label: 'Gutter cleaning Harborne', href: '/gutter-cleaning/harborne/' },
+      { label: 'Roof cleaning', href: '/help/clean/' },
+      { label: 'Gutter repairs', href: '/help/repair/' },
+    ],
+    ctaHeading: 'Book Your Gutter Clean in Selly Oak — Free Quote in 60 Seconds',
+  },
+
+  harborne: {
+    slug: 'harborne',
+    city: 'Harborne',
+    titleTag: 'Gutter Cleaning Harborne, Birmingham | WOW Gutters Ltd — Free Quote',
+    metaDescription:
+      'Professional gutter cleaning in Harborne, Birmingham B17. Vacuum system, no ladders, before & after photos, 1-year guarantee. Call 07421 433910.',
+    h1: 'Gutter Cleaning Harborne — Professional Service for B17 Properties',
+    heroIntro:
+      "WOW Gutters Ltd provides professional gutter cleaning across Harborne and the surrounding south-west Birmingham neighbourhoods, including Edgbaston, Quinton, Bartley Green, Selly Oak and Bearwood. Harborne is one of Birmingham's most desirable residential areas — a village-feel suburb with a strong mix of Victorian terraces, Edwardian semis and large detached homes set back from tree-lined streets. Our ground-level vacuum system delivers a thorough, professional clean on all of them, without ladders, without mess, and without risk of damage to your property or garden.",
+    whyTitle: 'Why Harborne Gutters Need Annual Attention',
+    whyBody: [
+      "Harborne's leafy character is one of its greatest assets — and one of the most consistent causes of gutter blockages. The mature trees lining streets throughout B17 — oaks, limes, horse chestnuts and sycamores — shed significant volumes of leaves and seeds each autumn, and properties with overhanging branches can see gutters fill completely within weeks of the first leaf fall.",
+      "The area also has a high proportion of period properties with original or early-replacement guttering. Victorian cast iron systems and early uPVC installations from the 1980s and 1990s are both prone to joint failure when debris is left to accumulate and water sits in blocked sections over winter. Our post-clean condition report gives you a clear picture of the state of your guttering after every visit.",
+    ],
+    guarantees: [
+      'Ground-level vacuum system — no ladders placed against your property',
+      'Reaches up to 4 storeys — period homes, semis and detached villas',
+      'Before & after photos included as standard on every job',
+      '1-year service guarantee — we return free if your gutters block within 12 months',
+      'Fully insured — comprehensive public liability cover on every visit',
+      '4.9★ rating from 2,696+ verified customer reviews',
+    ],
+    propertyTypesTitle: 'Gutter Cleaning for All Property Types in Harborne',
+    propertyTypes: [
+      {
+        label: 'Victorian terraces (Harborne High Street area)',
+        detail: 'Older gutter systems with aging joints. We clear carefully and flag any sections showing signs of wear.',
+      },
+      {
+        label: 'Edwardian semis (Court Oak Road, Lordswood Road)',
+        detail: 'Larger properties with longer gutter runs and heavy autumn leaf fall from mature garden trees.',
+      },
+      {
+        label: 'Large detached homes (Harborne Park Road, Metchley Lane)',
+        detail: 'Complex rooflines with multiple sections. Our 4-storey vacuum reach covers every run without scaffolding.',
+      },
+      {
+        label: 'Converted flats and apartments',
+        detail: 'Multi-storey conversions with shared guttering. We coordinate with managing agents and provide photographic evidence.',
+      },
+      {
+        label: 'New build properties (Harborne Village development)',
+        detail: 'Modern guttering still attracts debris from surrounding mature trees. Annual clean recommended.',
+      },
+    ],
+    areasTitle: 'Areas We Cover Around Harborne',
+    areasInline:
+      'Edgbaston, Quinton, Bartley Green, Bearwood | Selly Oak, Bournville, Stirchley | Northfield, Longbridge | Nearby: Birmingham city centre, Solihull, Bromsgrove',
+    faqsTitle: 'FAQs — Gutter Cleaning Harborne',
+    faqs: [
+      {
+        question: 'How much does gutter cleaning cost in Harborne?',
+        answer:
+          'Prices start from £55 for a standard terraced property. Most semi-detached homes in Harborne range from £60–£85, and larger detached properties from £85–£130. Fixed quote provided before work starts.',
+      },
+      {
+        question: 'Do you cover Quinton and Bartley Green?',
+        answer:
+          'Yes — all B17 postcodes and surrounding areas including Quinton, Bartley Green, Bearwood, Edgbaston and Selly Oak.',
+      },
+      {
+        question: 'Can you clean gutters on large detached homes in Harborne?',
+        answer:
+          'Yes — our 4-storey vacuum reach handles complex rooflines and long gutter runs on larger Harborne properties without scaffolding or cherry pickers.',
+      },
+      {
+        question: 'Do you offer fascia and soffit cleaning in Harborne?',
+        answer:
+          'Yes — our hot purified water system restores fascias and soffits to a bright, streak-free finish. Popular with Harborne homeowners preparing to sell or after a roof replacement.',
+      },
+      {
+        question: 'How quickly can you get to Harborne?',
+        answer:
+          'We aim to offer bookings within 2–5 working days. Same-day visits may be available — call 07421 433910 to check availability.',
+      },
+    ],
+    geo: { latitude: 52.4583, longitude: -1.9500 },
+    internalLinks: [
+      { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
+      { label: 'Gutter cleaning Edgbaston', href: '/gutter-cleaning/edgbaston/' },
+      { label: 'Gutter cleaning Selly Oak', href: '/gutter-cleaning/selly-oak/' },
+      { label: 'Fascia & soffit cleaning', href: '/blog/fascias-soffits-gutter-cleaning-west-midlands/' },
+      { label: 'Gutter repairs', href: '/help/repair/' },
+    ],
+    ctaHeading: 'Book Your Gutter Clean in Harborne — Free Quote in 60 Seconds',
+  },
+
+  handsworth: {
+    slug: 'handsworth',
+    city: 'Handsworth',
+    titleTag: 'Gutter Cleaning Handsworth, Birmingham | WOW Gutters Ltd — Free Quote',
+    metaDescription:
+      'Professional gutter cleaning in Handsworth, Birmingham B20 & B21. Vacuum system, no ladders, before & after photos, 1-year guarantee. Call 07421 433910.',
+    h1: 'Gutter Cleaning Handsworth — Reliable Service for B20 & B21 Properties',
+    heroIntro:
+      "WOW Gutters Ltd provides professional gutter cleaning across Handsworth and the surrounding north-west Birmingham neighbourhoods, including Perry Barr, Great Barr, Hamstead, Birchfield, Lozells and Handsworth Wood. Handsworth has a rich mix of property types — from the dense Victorian terraces of the Soho Road corridor to the larger Edwardian semis and detached homes of Handsworth Wood and Perry Barr. Our ground-level vacuum system handles all of them safely and efficiently, without ladders, without mess, and with before and after photos on every job.",
+    whyTitle: 'Why Handsworth Gutters Need Regular Maintenance',
+    whyBody: [
+      "Handsworth sits at the northern edge of Birmingham's inner ring, where the urban density of the city transitions into the more suburban character of Perry Barr and Great Barr. This transition zone means many Handsworth properties are surrounded by a mix of street trees and garden trees — limes, planes, sycamores and horse chestnuts — that shed significant debris into gutters each autumn.",
+      "The area has a high proportion of Victorian and Edwardian terraced and semi-detached properties, many of which have not had gutters professionally cleaned for several years. Aging uPVC systems with failing joints and sagging brackets are common — and the weight of accumulated debris accelerates the deterioration. Our post-clean condition report gives you an honest picture of what needs attention.",
+    ],
+    guarantees: [
+      'Ground-level vacuum system — no ladders placed against your property',
+      'Reaches up to 4 storeys — terraces, semis and detached homes',
+      'Before & after photos included as standard on every job',
+      '1-year service guarantee — we return free if your gutters block within 12 months',
+      'Fully insured — comprehensive public liability cover on every visit',
+      '4.9★ rating from 2,696+ verified customer reviews',
+    ],
+    propertyTypesTitle: 'Gutter Cleaning for All Property Types in Handsworth',
+    propertyTypes: [
+      {
+        label: 'Victorian terraces (Soho Road, Lozells Road)',
+        detail: 'Dense rows with aging gutter systems. We clear cast iron and uPVC gutters carefully and flag any repairs needed.',
+      },
+      {
+        label: 'Edwardian semis (Handsworth Wood, Perry Barr)',
+        detail: 'Larger properties with longer gutter runs and heavy leaf fall from mature garden trees.',
+      },
+      {
+        label: 'Detached homes (Handsworth Wood, Hamstead)',
+        detail: 'Our 4-storey vacuum reach handles all sections including over garages, extensions and conservatories.',
+      },
+      {
+        label: 'Converted flats and HMOs',
+        detail: 'Landlords across Handsworth use WOW Gutters for annual maintenance. Before & after photos provided for records.',
+      },
+      {
+        label: 'Commercial properties (Soho Road corridor)',
+        detail: 'Retail units, offices and workshops. Planned maintenance contracts available.',
+      },
+    ],
+    areasTitle: 'Areas We Cover Around Handsworth',
+    areasInline:
+      'Perry Barr, Great Barr, Hamstead, Birchfield | Lozells, Newtown, Aston | Winson Green, Smethwick border | Nearby: Birmingham city centre, Walsall, Wolverhampton',
+    faqsTitle: 'FAQs — Gutter Cleaning Handsworth',
+    faqs: [
+      {
+        question: 'How much does gutter cleaning cost in Handsworth?',
+        answer:
+          'Prices start from £50 for a standard terraced house. Most semi-detached homes in Handsworth range from £55–£75, and larger detached properties from £75–£115. Fixed quote before starting — no hidden charges.',
+      },
+      {
+        question: 'Do you cover Perry Barr and Handsworth Wood?',
+        answer:
+          'Yes — all B20 and B21 postcodes including Handsworth, Handsworth Wood, Perry Barr, Birchfield, Hamstead and all surrounding areas.',
+      },
+      {
+        question: 'My terrace has no side access — is that a problem?',
+        answer:
+          'Not at all. Our ground-level vacuum system operates from the front of the property and does not require side access in most cases. We handle tight terraced rows regularly across Handsworth and Lozells.',
+      },
+      {
+        question: 'Do you work with landlords in Handsworth?',
+        answer:
+          'Yes — we work with landlords and letting agents across Handsworth, providing photographic evidence of gutter condition before and after each visit for maintenance records and tenant check reports.',
+      },
+      {
+        question: 'How often should Handsworth gutters be cleaned?',
+        answer:
+          'Once a year in late autumn is right for most properties. Those with heavy tree coverage in Handsworth Wood or Perry Barr benefit from a second spring clean.',
+      },
+    ],
+    geo: { latitude: 52.5133, longitude: -1.9283 },
+    internalLinks: [
+      { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
+      { label: 'Gutter cleaning Aston', href: '/gutter-cleaning/aston/' },
+      { label: 'Gutter cleaning Erdington', href: '/gutter-cleaning/erdington/' },
+      { label: 'Roof cleaning Birmingham', href: '/help/clean/' },
+      { label: 'Gutter repairs', href: '/help/repair/' },
+    ],
+    ctaHeading: 'Book Your Gutter Clean in Handsworth — Free Quote in 60 Seconds',
+  },
 };
 
 

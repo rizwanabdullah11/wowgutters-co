@@ -540,6 +540,42 @@ export const CITIES: Record<string, CityData> = {
     county: 'West Midlands',
     tier: 'suburb',
   },
+
+  aston: {
+    slug: 'aston',
+    name: 'Aston',
+    postcodes: ['B6', 'B7'],
+    nearbyAreas: ['Erdington', 'Handsworth', 'Newtown', 'Birmingham', 'Witton'],
+    geo: { latitude: 52.5050, longitude: -1.8850 },
+    pricing: {
+      terraced: { min: 50, max: 65 },
+      semiDetached: { min: 55, max: 75 },
+      detached: { min: 75, max: 110 },
+    },
+    priceFrom: 50,
+    priceTo: 110,
+    region: 'West Midlands',
+    county: 'West Midlands',
+    tier: 'suburb',
+  },
+
+  handsworth: {
+    slug: 'handsworth',
+    name: 'Handsworth',
+    postcodes: ['B20', 'B21'],
+    nearbyAreas: ['Aston', 'Perry Barr', 'Great Barr', 'Birmingham', 'Hamstead'],
+    geo: { latitude: 52.5133, longitude: -1.9283 },
+    pricing: {
+      terraced: { min: 50, max: 65 },
+      semiDetached: { min: 55, max: 75 },
+      detached: { min: 75, max: 115 },
+    },
+    priceFrom: 50,
+    priceTo: 115,
+    region: 'West Midlands',
+    county: 'West Midlands',
+    tier: 'suburb',
+  },
   
   'selly-oak': {
     slug: 'selly-oak',
