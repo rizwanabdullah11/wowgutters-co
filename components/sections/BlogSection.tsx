@@ -5,9 +5,10 @@ import { blogPosts } from '@/constants/blogData';
 import { ArrowRight } from 'lucide-react';
 
 export default function BlogSection() {
-  const featuredPost = blogPosts[0];
-  const topBlogPosts = blogPosts.slice(1, 4);
-  const bottomBlogPosts = blogPosts.slice(4, 7);
+  const featuredPost = blogPosts.find(p => p.featured) ?? blogPosts[0];
+  const otherPosts = blogPosts.filter(p => p.id !== featuredPost.id);
+  const topBlogPosts = otherPosts.slice(0, 3);
+  const bottomBlogPosts = otherPosts.slice(3, 6);
 
   const ACCENTS = ['#3B82F6', '#19C58B', '#F97316'];
 

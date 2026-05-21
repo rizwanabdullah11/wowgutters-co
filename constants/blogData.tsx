@@ -1,4 +1,4 @@
-export interface BlogPost {
+﻿export interface BlogPost {
   id: string;
   title: string;
   excerpt: string;
@@ -14,6 +14,7 @@ export interface BlogPost {
   lastUpdated?: string;
   quickAnswer?: string;
   breadcrumbName?: string;
+  featured?: boolean;
 }
 
 export const blogPosts: BlogPost[] = [
@@ -1853,5 +1854,365 @@ export const blogPosts: BlogPost[] = [
 
       <p>Experience the future of property maintenance. No ladders, no mess, just <strong>WOW results</strong>. Get your tech-powered quote today.</p>
     `
+  },
+  {
+    id: 'gutter-cleaning-solihull',
+    title: 'Gutter Cleaning Solihull — Professional, Reliable & Fully Guaranteed',
+    excerpt: 'Professional gutter cleaning, downpipe clearing, fascia & soffit washing and gutter repairs across Solihull, Shirley, Knowle, Dorridge, Balsall Common, Meriden, Cheswick Green and all surrounding areas. Rated 4.9⭐ by 2,696+ customers.',
+    image: '/solihull-gutter-cleaning-hero.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
+    date: '2026-05-21',
+    views: '0',
+    author: 'WOW Gutters Technical Team',
+    authorRole: 'Professional Gutter Cleaning Specialists',
+    category: 'Maintenance',
+    lastUpdated: '2026-05-21',
+    quickAnswer: 'WOW Gutters provides professional gutter cleaning, downpipe clearing, fascia & soffit washing and gutter repairs across Solihull and all surrounding areas — Shirley, Knowle, Dorridge, Balsall Common, Cheswick Green, Meriden and beyond. Ground-level vacuum system, no ladders, before & after photos on every job. Rated 4.9⭐ by over 2,696 customers. Call 07421 433910 for same-day booking.',
+    breadcrumbName: 'Gutter Cleaning Solihull',
+    featured: true,
+    content: `
+<h2>Real Solihull Job: Before &amp; After</h2>
+
+<figure style="margin: 20px 0;">
+  <img
+    src="/solihull-gutter-cleaning-before.png"
+    alt="Before gutter cleaning in Solihull — gutters packed with leaves, moss, sycamore seeds and compacted debris"
+    width="1280"
+    height="720"
+    loading="eager"
+    style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;"
+  />
+  <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
+    Before: Solihull property with gutters packed with autumn leaves, sycamore seeds, compacted moss and organic debris — a common sight across Knowle, Dorridge, Shirley and the wider Solihull borough.
+  </figcaption>
+</figure>
+
+<p>Are your gutters overflowing every time it rains? Are your fascias turning green with algae, or your soffits stained from years of neglect? You're not alone — thousands of homeowners across <strong>Solihull</strong> deal with exactly these problems every year.</p>
+
+<p>Solihull is one of the most sought-after residential areas in the West Midlands — home to beautiful detached properties, period homes, and well-kept estates across <strong>Knowle</strong>, <strong>Dorridge</strong>, <strong>Shirley</strong>, <strong>Olton</strong>, and <strong>Cheswick Green</strong>. But the very things that make Solihull so desirable — mature trees, leafy streets, large gardens — are also the biggest threat to your gutters.</p>
+
+<figure style="margin: 20px 0;">
+  <img
+    src="/solihull-gutter-cleaning-after.png"
+    alt="After gutter cleaning in Solihull — gutters fully cleared to the plastic channel, downpipe flowing freely"
+    width="1280"
+    height="720"
+    loading="lazy"
+    style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;"
+  />
+  <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
+    After: The same Solihull property fully restored — gutters cleared to the channel, fascias and soffits looking fresh. Ground-level service, zero ladders, no mess left behind.
+  </figcaption>
+</figure>
+
+<p>Every autumn, thousands of leaves, sycamore seeds, and pine needles fall into gutters across Solihull. Add in the moss and algae that build up on tiles throughout the year, and it doesn't take long for gutters to become completely blocked.</p>
+
+<p><strong>Blocked gutters in Solihull cause:</strong></p>
+<ul>
+  <li>💧 Overflow that runs down walls and causes damp inside your home</li>
+  <li>🍂 Debris build-up that adds weight and causes brackets and joints to fail</li>
+  <li>🌿 Moss that grows across fascia boards and rots the timber underneath</li>
+  <li>🏚️ Water damage to foundations from poorly directed overflow</li>
+  <li>🟢 Unsightly green staining on render, brickwork, and driveways</li>
+</ul>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+  The average gutter cleaning service from <a href="https://wowgutters.co.uk" style="color: #0f172a; font-weight: 600; text-decoration: none;">WOW Gutters</a> costs a fraction of what damp treatment, fascia replacement, or structural water damage repairs cost. Prevention is always the smarter investment.
+</blockquote>
+
+<h2>Our Gutter Cleaning Services in Solihull</h2>
+
+<h3>🧹 Professional Gutter Cleaning &amp; Debris Removal</h3>
+
+<p>Our core service — and the one most Solihull homeowners book first. Using a <strong>professional high-reach SkyVac vacuum system</strong>, we clear every section of your guttering without placing a single ladder against your property.</p>
+
+<p><strong>What we remove from your Solihull gutters:</strong></p>
+<ul>
+  <li>Wet and dry leaf debris</li>
+  <li>Sycamore seeds and helicopter seeds (common across Solihull and Knowle)</li>
+  <li>Moss, algae and lichen clumps</li>
+  <li>Silt and fine debris build-up</li>
+  <li>Bird droppings and nesting material</li>
+  <li>Compacted winter debris</li>
+</ul>
+
+<p><strong>Every gutter clean in Solihull includes:</strong></p>
+<ul>
+  <li>✅ Free full roofline inspection</li>
+  <li>✅ Downpipe flush included as standard</li>
+  <li>✅ Before and after photographs provided</li>
+  <li>✅ Written condition report on request</li>
+  <li>✅ Same day booking available</li>
+</ul>
+
+<h3>🔧 Gutter Repairs &amp; Fixing in Solihull</h3>
+
+<p>Cleaning is only half the story. Cracked joints, dropped brackets, and leaking sections can cause just as much damage as a blockage — sometimes more, because the water runs silently down behind your fascia board where you can't see it.</p>
+
+<p><a href="https://wowgutters.co.uk" style="color: #19C58B; font-weight: 600; text-decoration: none;">WOW Gutters</a> carries out all common gutter repairs across Solihull on the day of your clean where possible — no need to wait for a second visit.</p>
+
+<p><strong>Our Solihull gutter repair services include:</strong></p>
+<ul>
+  <li><strong>Joint resealing</strong> — stops water leaking between gutter sections</li>
+  <li><strong>Bracket replacement</strong> — re-fixes sagging or dropped gutters</li>
+  <li><strong>Downpipe reattachment</strong> — secures loose pipes back to the wall</li>
+  <li><strong>Outlet clearing &amp; replacement</strong> — unblocks or replaces fixed gutter outlets</li>
+  <li><strong>End cap replacement</strong> — stops leaks at the end of gutter runs</li>
+  <li><strong>Full section replacement</strong> — like-for-like uPVC gutter section swap</li>
+</ul>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+  🔒 All gutter repairs carried out by <a href="https://wowgutters.co.uk" style="color: #0f172a; font-weight: 600; text-decoration: none;">WOW Gutters</a> in Solihull come with a <strong>6-month guarantee</strong> on parts and labour.
+</blockquote>
+
+<h3>🪟 Fascia &amp; Soffit Cleaning in Solihull</h3>
+
+<p>Your fascias and soffits are the first thing people notice about your roofline — and after a wet West Midlands winter, they're often covered in green algae, black streaking, and stubborn dirt that makes your home look far worse than it is.</p>
+
+<p><a href="https://wowgutters.co.uk" style="color: #19C58B; font-weight: 600; text-decoration: none;">WOW Gutters</a> uses a <strong>hot purified water cleaning system</strong> to restore fascias and soffits to a bright, streak-free finish — without chemicals, abrasive scrubbing, or any risk of surface damage.</p>
+
+<p><strong>We clean all fascia and soffit types across Solihull including:</strong></p>
+<ul>
+  <li>White and coloured uPVC fascias and soffits</li>
+  <li>Timber fascias with painted or stained finish</li>
+  <li>Ogee and deepline profile guttering</li>
+  <li><a href="/conservatory-cleaning" style="color: #19C58B; font-weight: 600; text-decoration: none;">Conservatory frames and trims</a></li>
+  <li>Bargeboards and cladding panels</li>
+</ul>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+  🏠 Freshly cleaned fascias and soffits make an immediate difference to your home's kerb appeal — ideal before putting a property on the market or after a roof replacement.
+</blockquote>
+
+<h3>🌿 Moss &amp; Algae Treatment in Solihull</h3>
+
+<p>Properties across Solihull, Knowle, Dorridge and Balsall Common are particularly prone to moss growth — especially on north-facing roofs and properties sheltered by mature trees.</p>
+
+<p>Our <a href="/hot-wash" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>professional moss and algae treatment service</strong></a> goes beyond a simple brush-off:</p>
+<ol>
+  <li><strong>Soft-wash roof cleaning</strong> — low-pressure removal of moss from tiles without dislodging or cracking them</li>
+  <li><strong>Biocide treatment</strong> — applied after cleaning to kill remaining spores and inhibit regrowth for 12–24 months</li>
+  <li><strong>Gutter outlet clearance</strong> — removes moss that has already fallen into the drainage system</li>
+  <li><strong>Fascia algae treatment</strong> — hot wash with protective solution for long-lasting results</li>
+</ol>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+  🔬 Our biocide moss treatments keep your Solihull roof cleaner for longer between visits — reducing the frequency of maintenance and protecting your tiles from premature deterioration.
+</blockquote>
+
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 220px;">
+    <h3 style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.2;">SOLIHULL GUTTER EXPERTS</h3>
+    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Don't let blocked gutters, stained fascias or moss-covered soffits damage your Solihull property. Our expert roofline services restore and protect your home quickly and efficiently.</p>
+  </div>
+  <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
+    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+      <span style="font-size: 1rem;">&#9658;</span> Get A Quote
+    </a>
+    <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
+    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+  </div>
+</div>
+
+<h2>Areas of Solihull We Cover</h2>
+
+<p><a href="https://wowgutters.co.uk" style="color: #19C58B; font-weight: 600; text-decoration: none;">WOW Gutters</a> provides gutter cleaning and roofline services across every part of the Solihull borough — from the town centre to the rural villages.</p>
+
+<h3>Solihull Town &amp; Central Areas</h3>
+<p><strong>Solihull Town Centre</strong>, <strong>Shirley</strong>, <strong>Olton</strong>, <strong>Acocks Green</strong>, <strong>Hall Green</strong>, <strong>Sheldon</strong>, <strong>Yardley</strong>, <strong>Elmdon</strong>, <strong>Lyndon</strong></p>
+
+<h3>South Solihull Villages &amp; Suburbs</h3>
+<p><strong>Knowle</strong>, <strong>Dorridge</strong>, <strong>Bentley Heath</strong>, <strong>Cheswick Green</strong>, <strong>Tidbury Green</strong>, <strong>Hockley Heath</strong>, <strong>Lapworth</strong>, <strong>Tanworth-in-Arden</strong>, <strong>Balsall Common</strong></p>
+
+<h3>North Solihull &amp; Surrounding Areas</h3>
+<p><strong>Castle Bromwich</strong>, <strong>Chelmsley Wood</strong>, <strong>Marston Green</strong>, <strong>Bickenhill</strong>, <strong>Meriden</strong>, <strong>Berkswell</strong>, <strong>Hampton-in-Arden</strong>, <strong>Catherine-de-Barnes</strong>, <strong>Barston</strong></p>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+  📍 Not listed? <a href="tel:07421433910" style="color: #0f172a; text-decoration: none; font-weight: 600;">Call us on 07421 433910</a> — we cover a wide radius around Solihull and are likely to cover your area.
+</blockquote>
+
+<h2>Why Choose WOW Gutters for Gutter Cleaning in Solihull?</h2>
+
+<h3>✅ What Makes Us Different</h3>
+<ul>
+  <li><strong>Ground-level vacuum system</strong> — no ladders on your property</li>
+  <li><strong>Free roofline inspection included</strong> — every visit</li>
+  <li><strong>Before and after photos</strong> — provided as standard</li>
+  <li><strong>Same day booking</strong> — subject to availability</li>
+  <li><strong>7 days a week service</strong> — including weekends</li>
+  <li><strong>Fully insured team</strong> — public liability covered</li>
+  <li><strong>6-month repair guarantee</strong> — on all repair work</li>
+  <li><strong>Domestic and commercial</strong> — both covered</li>
+</ul>
+
+<h3>⭐ Rated 4.9 Stars by 2,696+ Customers</h3>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+  <em>"Excellent service from start to finish. The team arrived on time, cleaned our gutters without any fuss, and left the drive spotless. Will definitely use again."</em><br/>
+  — Verified customer, Knowle, Solihull
+</blockquote>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+  <em>"Used WOW Gutters for our property in Shirley — they cleared a full blockage that had been causing overflow for months. Very professional, great value, and they showed us photos of the before and after. Highly recommend."</em><br/>
+  — Verified customer, Shirley, Solihull
+</blockquote>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+  <em>"Second year running we've booked WOW Gutters in Dorridge. Reliable, thorough, and always tidy. The peace of mind knowing the gutters are properly clear before winter is worth every penny."</em><br/>
+  — Verified customer, Dorridge, Solihull
+</blockquote>
+
+<h2>Signs Your Solihull Property Needs a Gutter Clean Right Now</h2>
+
+<ul>
+  <li>🌧️ <strong>Water cascading over the gutter edge</strong> during or after rain — classic blocked outlet sign</li>
+  <li>🟢 <strong>Green or brown staining on walls</strong> — overflow from a blocked or misaligned gutter section</li>
+  <li>💧 <strong>Damp patches appearing indoors</strong> — water getting behind the fascia and into the wall cavity</li>
+  <li>🍂 <strong>Visible plants growing in gutters</strong> — debris so compacted that vegetation is taking root</li>
+  <li>🔩 <strong>Sagging gutter sections</strong> — bracket failure caused by the weight of accumulated debris</li>
+  <li>🌿 <strong>Moss visible on the roof</strong> — already falling into the gutters and blocking outlets below</li>
+  <li>⬛ <strong>Black or green streaking on fascias</strong> — algae build-up that worsens without treatment</li>
+</ul>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+  The longer these signs are left, the more expensive the fix. <a href="tel:07421433910" style="color: #0f172a; font-weight: 600; text-decoration: none;">Book a same-day inspection in Solihull — 07421 433910</a>
+</blockquote>
+
+<h2>How Often Should Solihull Homes Have Gutters Cleaned?</h2>
+
+<ul>
+  <li><strong>Standard semi or detached, no overhanging trees</strong> — once a year (autumn)</li>
+  <li><strong>Property near mature trees or large garden</strong> — twice a year (spring &amp; autumn)</li>
+  <li><strong>Property with flat or low-pitch roof sections</strong> — twice a year minimum</li>
+  <li><strong>Older property with felt or plain clay tiles</strong> — twice a year — more moss shedding</li>
+  <li><strong>Commercial property or large roofline</strong> — quarterly or bi-annual inspection</li>
+</ul>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+  💡 Many of our Solihull customers set up a <strong>recurring annual or bi-annual booking</strong> so they never have to think about it. <a href="tel:07421433910" style="color: #0f172a; font-weight: 600; text-decoration: none;">Ask us about regular maintenance plans — 07421 433910</a>
+</blockquote>
+
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 220px;">
+    <h3 style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.2;">GUTTER CLEANING SOLIHULL</h3>
+    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Serving every corner of the Solihull borough — from Shirley and Knowle to Dorridge, Balsall Common and beyond. Same-day booking available, 7 days a week.</p>
+  </div>
+  <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
+    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+      <span style="font-size: 1rem;">&#9658;</span> Get A Quote
+    </a>
+    <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
+    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+  </div>
+</div>
+
+<h2>Frequently Asked Questions — Gutter Cleaning Solihull</h2>
+
+<div style="margin: 40px 0;">
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>How much does gutter cleaning cost in Solihull?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Prices vary based on property size, number of storeys, and the level of blockage. WOW Gutters offers free no-obligation quotes for all Solihull properties — get yours online at wowgutters.co.uk or by calling 07421 433910. Prices start from £50 for a bungalow and £75 for a semi-detached.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Do you clean gutters on two and three storey properties in Solihull?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Yes. Our high-reach vacuum equipment safely accesses gutters on two and three storey properties from the ground — no scaffolding or cherry picker needed. We regularly work on larger detached homes across Knowle, Dorridge, and Bentley Heath.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Is your gutter cleaning service safe for uPVC gutters?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Yes. Our ground-level vacuum system places no pressure or weight on your uPVC guttering at any point — unlike traditional ladder-based methods where ladders are rested directly against the gutter. Your gutters, fascias, and walls are completely safe throughout the process.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Do you offer same day gutter cleaning in Solihull?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Yes — subject to availability. Call us on 07421 433910 and we'll do our best to get to you the same day, particularly for urgent overflow or blockage issues across Solihull and nearby areas.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Can you clean conservatory gutters in Solihull?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Yes. We use specialist low-reach tools to clean conservatory gutters without climbing on the structure — protecting your polycarbonate panels, glass, and timber frames throughout. Available across all parts of Solihull.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Do you work with landlords in Solihull?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Absolutely. We work regularly with landlords and letting agents across the Solihull borough, providing photographic evidence of gutter condition before and after each visit for maintenance records and tenant check reports. Contact us to discuss your portfolio — 07421 433910.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Are you insured to work in Solihull?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Yes. WOW Gutters is fully insured with public liability cover on every job carried out across Solihull and the wider West Midlands.</p>
+    </div>
+  </details>
+
+</div>
+
+<h2>Book Gutter Cleaning in Solihull Today</h2>
+
+<p>Whether you're in <strong>Shirley</strong>, <strong>Knowle</strong>, <strong>Dorridge</strong>, <strong>Balsall Common</strong>, <strong>Cheswick Green</strong>, <strong>Castle Bromwich</strong>, <strong>Meriden</strong>, <strong>Olton</strong> or anywhere else across the Solihull borough — <a href="https://wowgutters.co.uk" style="color: #19C58B; font-weight: 600; text-decoration: none;">WOW Gutters</a> is your local, trusted roofline specialist.</p>
+
+<ul>
+  <li>✅ <strong>Same-day and next-day appointments</strong> across Solihull</li>
+  <li>✅ Fully insured, professional local technicians</li>
+  <li>✅ <strong>Ground-level vacuum system</strong> — zero ladders</li>
+  <li>✅ Before and after photo evidence on every single job</li>
+  <li>✅ <strong>6-month guarantee</strong> on all repair work</li>
+  <li>✅ <strong>4.9★ rated</strong> with over 2,696 verified Google reviews</li>
+  <li>✅ Available <strong>7 days a week</strong> including weekends</li>
+</ul>
+
+<p>📞 <strong>Call or WhatsApp:</strong> <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
+🌐 <strong>Free online quote:</strong> <a href="/quote" style="color: #19C58B; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
+📍 <strong>Serving:</strong> Solihull, Shirley, Knowle, Dorridge, Balsall Common, Cheswick Green, Meriden, Castle Bromwich &amp; all surrounding areas<br/>
+🕐 <strong>Available:</strong> 7 days a week | Same day booking available</p>
+
+<h2>Related Services in Solihull &amp; the West Midlands</h2>
+
+<ul>
+  <li><strong><a href="/gutter-cleaning-birmingham" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Birmingham</a></strong></li>
+  <li><strong><a href="/blog/fascias-soffits-gutter-cleaning-west-midlands" style="color: #19C58B; text-decoration: none;">Fascia &amp; Soffit Cleaning West Midlands</a></strong></li>
+  <li><strong><a href="/hot-wash" style="color: #19C58B; text-decoration: none;">Roof Moss Removal Solihull</a></strong></li>
+  <li><strong><a href="/help/repair" style="color: #19C58B; text-decoration: none;">Gutter Repairs Solihull</a></strong></li>
+  <li><strong><a href="/conservatory-cleaning" style="color: #19C58B; text-decoration: none;">Conservatory Gutter Cleaning Solihull</a></strong></li>
+  <li><strong><a href="/commercial" style="color: #19C58B; text-decoration: none;">Commercial Gutter Cleaning West Midlands</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Coventry</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Wolverhampton</a></strong></li>
+</ul>
+    `,
   }
 ];
