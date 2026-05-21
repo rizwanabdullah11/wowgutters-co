@@ -3,16 +3,9 @@ import { MetadataRoute } from 'next'
 /**
  * robots.txt — wowgutters.co.uk
  * WOW Gutters Ltd | Birmingham, West Midlands, UK
- * Updated: May 2026 | Version: 3.0
- *
- * Next.js MetadataRoute.Robots only supports a subset of directives,
- * so we return a comprehensive rules array covering all major crawlers,
- * AI platforms, SEO tools, and social media bots.
- *
- * IMPORTANT: Delete public/robots.txt if it exists — this file takes precedence.
+ * Updated: May 2026 | Version: 3.1
  */
 
-// Required for static export
 export const dynamic = 'force-static'
 
 export default function robots(): MetadataRoute.Robots {
@@ -47,8 +40,8 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: 'Claude-Web',       allow: '/' },
 
       // ── SECTION 4: GOOGLE AI / GEMINI ────────────────────────────────────
-      { userAgent: 'Google-Extended',          allow: '/' },
-      { userAgent: 'Google-CloudVertexBot',    allow: '/' },
+      { userAgent: 'Google-Extended',       allow: '/' },
+      { userAgent: 'Google-CloudVertexBot', allow: '/' },
 
       // ── SECTION 5: PERPLEXITY AI ─────────────────────────────────────────
       { userAgent: 'PerplexityBot',    allow: '/' },
@@ -59,13 +52,13 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: 'Meta-ExternalAgent',   allow: '/' },
       { userAgent: 'Meta-ExternalFetcher', allow: '/' },
 
-      // ── SECTION 7: APPLE (Siri, Spotlight, Apple Intelligence) ───────────
+      // ── SECTION 7: APPLE / SIRI ──────────────────────────────────────────
       { userAgent: 'Applebot',          allow: '/' },
       { userAgent: 'Applebot-Extended', allow: '/' },
 
-      // ── SECTION 8: MICROSOFT COPILOT / BING AI ───────────────────────────
-      { userAgent: 'CopilotBot',    allow: '/' },
-      { userAgent: 'msnbot-media',  allow: '/' },
+      // ── SECTION 8: MICROSOFT COPILOT ─────────────────────────────────────
+      { userAgent: 'CopilotBot',   allow: '/' },
+      { userAgent: 'msnbot-media', allow: '/' },
 
       // ── SECTION 9: OTHER AI PLATFORMS ────────────────────────────────────
       { userAgent: 'cohere-ai',      allow: '/' },
@@ -85,23 +78,23 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: 'archive.org_bot', allow: '/' },
       { userAgent: 'Scrapy',          allow: '/' },
 
-      // ── SECTION 11: SEO AND ANALYTICS TOOLS ──────────────────────────────
-      { userAgent: 'SemrushBot',                  allow: '/' },
-      { userAgent: 'AhrefsBot',                   allow: '/' },
-      { userAgent: 'rogerbot',                    allow: '/' },
-      { userAgent: 'dotbot',                      allow: '/' },
-      { userAgent: 'MJ12bot',                     allow: '/' },
-      { userAgent: 'Screaming Frog SEO Spider',   allow: '/' },
+      // ── SECTION 11: SEO TOOLS ────────────────────────────────────────────
+      { userAgent: 'SemrushBot',                allow: '/' },
+      { userAgent: 'AhrefsBot',                 allow: '/' },
+      { userAgent: 'rogerbot',                  allow: '/' },
+      { userAgent: 'dotbot',                    allow: '/' },
+      { userAgent: 'MJ12bot',                   allow: '/' },
+      { userAgent: 'Screaming Frog SEO Spider', allow: '/' },
 
       // ── SECTION 12: SOCIAL MEDIA CRAWLERS ────────────────────────────────
-      { userAgent: 'Twitterbot',   allow: '/' },
-      { userAgent: 'LinkedInBot',  allow: '/' },
-      { userAgent: 'Pinterest',    allow: '/' },
-      { userAgent: 'WhatsApp',     allow: '/' },
-      { userAgent: 'TelegramBot',  allow: '/' },
-      { userAgent: 'Slackbot',     allow: '/' },
+      { userAgent: 'Twitterbot',  allow: '/' },
+      { userAgent: 'LinkedInBot', allow: '/' },
+      { userAgent: 'Pinterest',   allow: '/' },
+      { userAgent: 'WhatsApp',    allow: '/' },
+      { userAgent: 'TelegramBot', allow: '/' },
+      { userAgent: 'Slackbot',    allow: '/' },
 
-      // ── SECTION 13: GLOBAL FALLBACK ──────────────────────────────────────
+      // ── SECTION 13: ALL OTHER CRAWLERS (global fallback) ─────────────────
       {
         userAgent: '*',
         allow: '/',
@@ -109,15 +102,11 @@ export default function robots(): MetadataRoute.Robots {
       },
     ],
 
-    // ── SECTION 14: SITEMAPS ─────────────────────────────────────────────
+    // ── SECTION 14 & 15: SITEMAPS + AI INFORMATION FILES ─────────────────
     sitemap: [
       'https://wowgutters.co.uk/sitemap.xml',
+      'https://wowgutters.co.uk/llm-full.txt',
+      'https://wowgutters.co.uk/llm.txt',
     ],
-
-    // ── SECTION 15: AI ASSISTANT INFORMATION FILES ───────────────────────
-    // Note: Next.js MetadataRoute.Robots does not support custom directives
-    // for llm.txt / llm-full.txt. These are referenced in the sitemap array
-    // above as a best-effort inclusion. For full robots.txt control, consider
-    // using a static public/robots.txt alongside this file.
   }
 }

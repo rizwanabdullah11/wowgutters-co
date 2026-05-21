@@ -138,19 +138,19 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
             '@type': 'ListItem',
             'position': 1,
             'name': 'Home',
-            'item': 'https://wowgutters.co.uk'
+            'item': 'https://wowgutters.co.uk/'
           },
           {
             '@type': 'ListItem',
             'position': 2,
             'name': 'Blog',
-            'item': 'https://wowgutters.co.uk/blog'
+            'item': 'https://wowgutters.co.uk/blog/'
           },
           {
             '@type': 'ListItem',
             'position': 3,
-            'name': post.title,
-            'item': `https://wowgutters.co.uk/blog/${post.id}`
+            'name': post.breadcrumbName || post.title,
+            'item': `https://wowgutters.co.uk/blog/${post.id}/`
           }
         ]
       },
@@ -158,7 +158,7 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
       {
         '@type': 'WebPage',
         '@id': `https://wowgutters.co.uk/blog/${post.id}#webpage`,
-        'url': `https://wowgutters.co.uk/blog/${post.id}`,
+        'url': `https://wowgutters.co.uk/blog/${post.id}/`,
         'name': post.title,
         'description': post.excerpt,
         'isPartOf': {

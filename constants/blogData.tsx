@@ -13,6 +13,7 @@ export interface BlogPost {
   authorBio?: string;
   lastUpdated?: string;
   quickAnswer?: string;
+  breadcrumbName?: string;
 }
 
 export const blogPosts: BlogPost[] = [
@@ -21,7 +22,7 @@ export const blogPosts: BlogPost[] = [
     title: 'Fascias & Soffits – Professional Gutter Cleaning & Fixing Across the West Midlands',
     excerpt: 'Expert gutter cleaning, debris removal, fascia & soffit washing, and moss & algae treatments — serving Birmingham, Coventry, Wolverhampton, Solihull, Walsall, Dudley and all surrounding areas. Rated 4.9⭐ by 2,696+ customers.',
     image: '/westmidlands-before-after.png',
-    heroVideo: '/gutter-cleaning-video.mp4',
+    heroVideo: '/fasica-soffits.mp4',
     date: '2026-05-20',
     views: '0',
     author: 'WOW Gutters Technical Team',
@@ -29,6 +30,7 @@ export const blogPosts: BlogPost[] = [
     category: 'Maintenance',
     lastUpdated: '2026-05-20',
     quickAnswer: 'WOW Gutters provides complete roofline care across the West Midlands — from deep gutter cleaning and blocked downpipe clearing, to fascia and soffit washing and full moss and algae treatments. All carried out safely from ground level, with no mess left behind. Rated 4.9⭐ by over 2,696 customers. Call 07421 433910 for same-day booking.',
+    breadcrumbName: 'Fascias & Soffits West Midlands',
     content: `
 <h2>Real West Midlands Job: Before &amp; After</h2>
 
