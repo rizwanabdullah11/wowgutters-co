@@ -54,7 +54,7 @@ if (faqStart !== -1 && faqEnd !== -1) {
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Is there a guarantee on the work?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. All WOW Gutters cleaning work is backed by a 1-year service guarantee. If your gutters block again within 12 months of our clean, we return and clear them at no additional charge.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. All WOW Gutters cleaning work is fully guaranteed. If you have any concerns after your clean, contact us and we will return to resolve them at no additional charge.</p>
         </div>
       </div>
 
