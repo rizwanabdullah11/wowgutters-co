@@ -686,8 +686,8 @@ export const CITIES: Record<string, CityData> = {
     tier: 'primary',
   },
   
-  'west-midlands': {
-    slug: 'west-midlands',
+  westmidlands: {
+    slug: 'westmidlands',
     name: 'West Midlands',
     postcodes: ['B', 'CV', 'DY', 'WS', 'WV'],
     nearbyAreas: ['Birmingham', 'Coventry', 'Wolverhampton', 'Dudley', 'Walsall', 'Solihull', 'West Bromwich'],

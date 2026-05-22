@@ -1410,8 +1410,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     ctaHeading: 'Book Your Gutter Clean in Oldbury — Free Quote in 60 Seconds',
   },
-  'west-midlands': {
-    slug: 'west-midlands',
+  westmidlands: {
+    slug: 'westmidlands',
     city: 'West Midlands',
     titleTag: 'Gutter Cleaning West Midlands | WOW Gutters Ltd — Regional Coverage',
     metaDescription:
@@ -1455,7 +1455,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
       { label: 'Gutter cleaning Solihull', href: '/gutter-cleaning-solihull/' },
       { label: 'Gutter cleaning Wolverhampton', href: '/gutter-cleaning-wolverhampton/' },
-      { label: 'Gutter cleaning Coventry', href: '/gutter-cleaning-coventry/' },
+      { label: 'Gutter cleaning Coventry', href: '/gutter-cleaning/coventry/' },
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in the West Midlands — Free Quote in 60 Seconds',
@@ -1467,10 +1467,10 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     titleTag: 'Gutter Cleaning Aston, Birmingham | WOW Gutters Ltd — Free Quote',
     metaDescription:
       'Professional gutter cleaning in Aston, Birmingham. Ground-level vacuum system, no ladders, before & after photos, 1-year guarantee. Call 07421 433910.',
-    h1: 'Gutter Cleaning Aston — Trusted Local Specialists in B6 & B7',
+    h1: 'Gutter Cleaning Aston — Professional Service for B6 & B7 Properties',
     heroIntro:
-      "WOW Gutters Ltd provides professional gutter cleaning across Aston and the surrounding inner-city Birmingham neighbourhoods, including Witton, Newtown, Lozells, Birchfield and Nechells. Aston's dense terraced streets and Victorian-era housing stock present some of the most challenging gutter conditions in Birmingham — narrow access, aging uPVC systems, and years of accumulated debris from the area's mature street trees. Our ground-level high-reach vacuum system handles all of it safely, without a single ladder placed against your property.",
-    whyTitle: 'Why Aston Gutters Block Faster Than You Think',
+      "WOW Gutters Ltd provides professional gutter cleaning across Aston and the surrounding inner-city Birmingham neighbourhoods, including Witton, Newtown, Lozells, Birchfield and Nechells. Aston is one of Birmingham's most historically rich inner-city areas — a dense mix of Victorian terraces, Edwardian semis and post-war housing that presents some of the most demanding gutter conditions in the city. Our ground-level high-reach vacuum system handles all of it safely and efficiently, without a single ladder placed against your property, and with before and after photos on every job.",
+    whyTitle: 'Why Aston Gutters Need Professional Attention',
     whyBody: [
       "Aston sits in one of Birmingham's most densely built inner-city areas, where terraced rows run back-to-back and gutters are often shared or closely adjacent. The combination of mature street trees — particularly the lime and plane trees lining many of Aston's Victorian streets — and the area's consistent rainfall means gutters fill with leaves, seeds and moss faster than in more open suburban areas. A single autumn season can be enough to completely block a gutter that was clear in spring.",
       "Many properties in Aston were built between 1880 and 1930, and their guttering — whether original cast iron or later uPVC replacement — is now showing its age. Joints fail, brackets sag, and sections crack when the weight of accumulated debris is left unmanaged. Water that overflows from a blocked gutter runs directly down the external brickwork, saturating the wall and working its way into the interior — causing damp patches, mould, and in severe cases, structural damage to lintels and window frames.",
@@ -1487,24 +1487,24 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Aston',
     propertyTypes: [
       {
-        label: 'Victorian terraces (Aston, Lozells, Newtown)',
-        detail: 'Dense rows with aging gutter systems. We clear cast iron and uPVC gutters carefully and flag any repairs needed. No side access required in most cases.',
+        label: 'Victorian terraces (Lozells Road, Witton Road, Newtown Row)',
+        detail: 'Dense rows with aging cast iron and uPVC gutter systems. We clear carefully from ground level and flag any repairs needed. No side access required in most cases.',
       },
       {
-        label: 'Edwardian semis (Witton, Birchfield)',
-        detail: 'Larger properties with longer gutter runs and heavy leaf fall from mature garden trees. Full downpipe flush included as standard.',
+        label: 'Edwardian semis (Witton, Birchfield, Aston Hall area)',
+        detail: 'Larger properties with longer gutter runs and heavy leaf fall from mature garden trees. Full downpipe flush and condition report included as standard.',
       },
       {
-        label: 'Post-war council housing (Nechells, Aston)',
+        label: 'Post-war housing (Nechells, Duddeston)',
         detail: 'Flat-roof sections and standard uPVC runs. Annual clean keeps drainage systems functioning correctly and prevents water ingress at roof junctions.',
       },
       {
         label: 'Converted flats and HMOs',
-        detail: 'Landlords across Aston use WOW Gutters for annual maintenance on rental portfolios. Before & after photos provided for every visit — ideal for maintenance records.',
+        detail: 'Landlords across Aston use WOW Gutters for annual maintenance on rental portfolios. Before & after photos provided for every visit — ideal for tenancy records and property management.',
       },
       {
-        label: 'Commercial properties (Aston corridor)',
-        detail: 'Workshops, retail units and offices along the A34 and A38 corridors. Planned maintenance contracts available with scheduled visits and written condition reports.',
+        label: 'Commercial properties (A34 Aston corridor, Lichfield Road)',
+        detail: 'Workshops, retail units and offices. Planned maintenance contracts available with scheduled visits and written condition reports.',
       },
     ],
     areasTitle: 'Areas We Cover Around Aston',
@@ -1520,7 +1520,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       {
         question: 'Do you cover Lozells, Newtown and Witton?',
         answer:
-          'Yes — we cover all B6 and B7 postcodes including Aston, Lozells, Newtown, Witton, Birchfield, Nechells and all surrounding inner-city areas.',
+          'Yes — we cover all B6 and B7 postcodes including Aston, Lozells, Newtown, Witton, Birchfield, Nechells, Duddeston and all surrounding inner-city areas.',
       },
       {
         question: 'My terrace has very narrow side access — is that a problem?',
@@ -1536,6 +1536,11 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
         question: 'Do you work with landlords in Aston?',
         answer:
           'Yes — we work with landlords and letting agents across Aston, providing photographic evidence of gutter condition before and after each visit for maintenance records and tenant check reports.',
+      },
+      {
+        question: 'Do you offer gutter repairs in Aston?',
+        answer:
+          'Yes. If our technician spots damaged sections, loose brackets or leaking joints during your clean, we flag these in our condition report. Our repair team can return to carry out the necessary work.',
       },
       {
         question: 'How quickly can you get to Aston?',

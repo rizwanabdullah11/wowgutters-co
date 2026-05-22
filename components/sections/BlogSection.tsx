@@ -6,7 +6,9 @@ import { ArrowRight } from 'lucide-react';
 
 export default function BlogSection() {
   const featuredPost = blogPosts.find(p => p.featured) ?? blogPosts[0];
-  const otherPosts = blogPosts.filter(p => p.id !== featuredPost.id);
+  const otherPosts = blogPosts
+    .filter(p => p.id !== featuredPost.id)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
   const topBlogPosts = otherPosts.slice(0, 3);
   const bottomBlogPosts = otherPosts.slice(3, 6);
 

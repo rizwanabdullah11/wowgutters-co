@@ -28,7 +28,7 @@ module.exports = {
       'tamworth',
       'lichfield',
       'cannock',
-      'west-midlands',
+      'westmidlands',
       'moseley',
       'harborne',
       'edgbaston',
