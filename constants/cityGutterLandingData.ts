@@ -114,7 +114,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       {
         question: 'Is your service guaranteed?',
         answer:
-          'Yes. Every gutter clean comes with a 1-year service guarantee. If your gutters block within 12 months, we return at no extra charge.',
+          'Yes. Every gutter clean is fully guaranteed. If you have any concerns after your clean, contact us and we will return to resolve them.',
       },
     ],
     geo: { latitude: 52.5862, longitude: -2.1288 },
@@ -459,7 +459,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       {
         question: 'Is there a guarantee on your work?',
         answer:
-          'Yes — every gutter clean is covered by our 1-year service guarantee. If your gutters block within 12 months, we return at no extra cost.',
+          'Yes — every gutter clean is fully guaranteed. If you have any concerns after your clean, contact us and we will return to resolve them.',
       },
     ],
     geo: { latitude: 52.5200, longitude: -2.0150 },
@@ -1097,7 +1097,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { question: 'Do you cover Knowle and Dorridge?', answer: 'Yes — we cover all Solihull areas including Knowle, Dorridge, Shirley, Olton, Balsall Common, Meriden, Hampton-in-Arden, Cheswick Green, Dickens Heath, Monkspath, Hockley Heath and Tidbury Green.' },
       { question: 'Do you use ladders?', answer: 'No. We use a high-reach vacuum system from ground level, which protects fascias and avoids ladder marks on your property.' },
       { question: 'Do you clear downpipes too?', answer: 'Yes — downpipe flow checks and clearing are included as standard in every gutter clean at no extra charge.' },
-      { question: 'Is the service guaranteed?', answer: 'Yes. Every clean includes a 1-year service guarantee. If gutters block again within 12 months, we return free of charge.' },
+      { question: 'Is the service guaranteed?', answer: 'Yes. Every clean is fully guaranteed. If you have any concerns after your visit, contact us and we will return to resolve them.' },
     ],
     geo: { latitude: 52.4118, longitude: -1.7776 },
     internalLinks: [
@@ -1248,7 +1248,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { question: 'Do you cover Amington and Wilnecote?', answer: 'Yes — we cover all Tamworth districts and nearby villages.' },
       { question: 'Do you use ladders?', answer: 'No. We clean from the ground with a vacuum system to reduce risk and avoid property damage.' },
       { question: 'Do you offer weekend appointments?', answer: 'Yes — we operate seven days a week including weekend slots.' },
-      { question: 'Is there a guarantee?', answer: 'Yes — every clean includes our 1-year service guarantee.' },
+      { question: 'Is there a guarantee?', answer: 'Yes — every clean is fully guaranteed. Contact us after your visit if you have any concerns and we will return to resolve them.' },
     ],
     geo: { latitude: 52.6336, longitude: -1.6959 },
     internalLinks: [
@@ -1348,7 +1348,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { question: 'Do you cover Bearwood and Cape Hill?', answer: 'Yes — we cover all Smethwick districts and nearby Sandwell areas.' },
       { question: 'Do you clean commercial properties?', answer: 'Yes — we provide one-off and scheduled maintenance for commercial buildings.' },
       { question: 'Do I get photo proof?', answer: 'Yes — every job includes before and after photos.' },
-      { question: 'Is your service insured and guaranteed?', answer: 'Yes — fully insured and backed by our 1-year service guarantee.' },
+      { question: 'Is your service insured and guaranteed?', answer: 'Yes — fully insured with comprehensive public liability cover on every job.' },
     ],
     geo: { latitude: 52.4929, longitude: -1.9642 },
     internalLinks: [
@@ -1410,8 +1410,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     ctaHeading: 'Book Your Gutter Clean in Oldbury — Free Quote in 60 Seconds',
   },
-  'west-midlands': {
-    slug: 'west-midlands',
+  westmidlands: {
+    slug: 'westmidlands',
     city: 'West Midlands',
     titleTag: 'Gutter Cleaning West Midlands | WOW Gutters Ltd — Regional Coverage',
     metaDescription:
@@ -1455,7 +1455,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
       { label: 'Gutter cleaning Solihull', href: '/gutter-cleaning-solihull/' },
       { label: 'Gutter cleaning Wolverhampton', href: '/gutter-cleaning-wolverhampton/' },
-      { label: 'Gutter cleaning Coventry', href: '/gutter-cleaning-coventry/' },
+      { label: 'Gutter cleaning Coventry', href: '/gutter-cleaning/coventry/' },
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in the West Midlands — Free Quote in 60 Seconds',
@@ -1467,13 +1467,14 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     titleTag: 'Gutter Cleaning Aston, Birmingham | WOW Gutters Ltd — Free Quote',
     metaDescription:
       'Professional gutter cleaning in Aston, Birmingham. Ground-level vacuum system, no ladders, before & after photos, 1-year guarantee. Call 07421 433910.',
-    h1: 'Gutter Cleaning Aston — Trusted Local Specialists in B6 & B7',
+    h1: 'Gutter Cleaning Aston — Professional Service for B6 & B7 Properties',
     heroIntro:
-      "WOW Gutters Ltd provides professional gutter cleaning across Aston and the surrounding inner-city Birmingham neighbourhoods, including Witton, Newtown, Lozells, Birchfield and Nechells. Aston's dense terraced streets and Victorian-era housing stock present some of the most challenging gutter conditions in Birmingham — narrow access, aging uPVC systems, and years of accumulated debris from the area's mature street trees. Our ground-level high-reach vacuum system handles all of it safely, without a single ladder placed against your property.",
-    whyTitle: 'Why Aston Gutters Block Faster Than You Think',
+      "WOW Gutters Ltd provides professional gutter cleaning across Aston and the surrounding inner-city Birmingham neighbourhoods, including Witton, Newtown, Lozells, Birchfield and Nechells. Aston is one of Birmingham's most historically rich inner-city areas — a dense mix of Victorian terraces, Edwardian semis and post-war housing that presents some of the most demanding gutter conditions in the city. Our ground-level high-reach vacuum system handles all of it safely and efficiently, without a single ladder placed against your property, and with before and after photos on every job.",
+    whyTitle: 'Why Aston Gutters Need Professional Attention',
     whyBody: [
-      "Aston sits in one of Birmingham's most densely built inner-city areas, where terraced rows run back-to-back and gutters are often shared or closely adjacent. The combination of mature street trees — particularly the lime and plane trees lining many of Aston's Victorian streets — and the area's consistent rainfall means gutters fill with leaves, seeds and moss faster than in more open suburban areas.",
-      "Many properties in Aston were built between 1880 and 1930, and their guttering — whether original cast iron or later uPVC replacement — is now showing its age. Joints fail, brackets sag, and sections crack when the weight of accumulated debris is left unmanaged. Our post-clean condition report gives you an honest assessment of what needs attention before small problems become expensive ones.",
+      "Aston sits in one of Birmingham's most densely built inner-city areas, where terraced rows run back-to-back and gutters are often shared or closely adjacent. The combination of mature street trees — particularly the lime and plane trees lining many of Aston's Victorian streets — and the area's consistent rainfall means gutters fill with leaves, seeds and moss faster than in more open suburban areas. A single autumn season can be enough to completely block a gutter that was clear in spring.",
+      "Many properties in Aston were built between 1880 and 1930, and their guttering — whether original cast iron or later uPVC replacement — is now showing its age. Joints fail, brackets sag, and sections crack when the weight of accumulated debris is left unmanaged. Water that overflows from a blocked gutter runs directly down the external brickwork, saturating the wall and working its way into the interior — causing damp patches, mould, and in severe cases, structural damage to lintels and window frames.",
+      "Aston also has a significant number of converted flats, HMOs and rental properties where gutter maintenance is often overlooked between tenancies. Landlords who leave gutters uncleared for multiple years frequently face expensive damp remediation bills that a simple annual clean would have prevented. Our post-clean condition report gives you an honest assessment of what needs attention before small problems become expensive ones.",
     ],
     guarantees: [
       'Ground-level vacuum system — no ladders placed against your property',
@@ -1486,24 +1487,24 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Aston',
     propertyTypes: [
       {
-        label: 'Victorian terraces (Aston, Lozells, Newtown)',
-        detail: 'Dense rows with aging gutter systems. We clear cast iron and uPVC gutters carefully and flag any repairs needed.',
+        label: 'Victorian terraces (Lozells Road, Witton Road, Newtown Row)',
+        detail: 'Dense rows with aging cast iron and uPVC gutter systems. We clear carefully from ground level and flag any repairs needed. No side access required in most cases.',
       },
       {
-        label: 'Edwardian semis (Witton, Birchfield)',
-        detail: 'Larger properties with longer gutter runs. Moss and leaf build-up cleared thoroughly with our vacuum system.',
+        label: 'Edwardian semis (Witton, Birchfield, Aston Hall area)',
+        detail: 'Larger properties with longer gutter runs and heavy leaf fall from mature garden trees. Full downpipe flush and condition report included as standard.',
       },
       {
-        label: 'Post-war council housing (Nechells, Aston)',
-        detail: 'Flat-roof sections and standard uPVC runs. Annual clean keeps drainage systems functioning correctly.',
+        label: 'Post-war housing (Nechells, Duddeston)',
+        detail: 'Flat-roof sections and standard uPVC runs. Annual clean keeps drainage systems functioning correctly and prevents water ingress at roof junctions.',
       },
       {
         label: 'Converted flats and HMOs',
-        detail: 'Landlords across Aston use WOW Gutters for annual maintenance on rental portfolios. Before & after photos provided for records.',
+        detail: 'Landlords across Aston use WOW Gutters for annual maintenance on rental portfolios. Before & after photos provided for every visit — ideal for tenancy records and property management.',
       },
       {
-        label: 'Commercial properties (Aston corridor)',
-        detail: 'Workshops, retail units and offices along the A34 and A38 corridors. Planned maintenance contracts available.',
+        label: 'Commercial properties (A34 Aston corridor, Lichfield Road)',
+        detail: 'Workshops, retail units and offices. Planned maintenance contracts available with scheduled visits and written condition reports.',
       },
     ],
     areasTitle: 'Areas We Cover Around Aston',
@@ -1519,7 +1520,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       {
         question: 'Do you cover Lozells, Newtown and Witton?',
         answer:
-          'Yes — we cover all B6 and B7 postcodes including Aston, Lozells, Newtown, Witton, Birchfield, Nechells and all surrounding inner-city areas.',
+          'Yes — we cover all B6 and B7 postcodes including Aston, Lozells, Newtown, Witton, Birchfield, Nechells, Duddeston and all surrounding inner-city areas.',
       },
       {
         question: 'My terrace has very narrow side access — is that a problem?',
@@ -1527,14 +1528,29 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
           'Not at all. Our ground-level vacuum system operates from the front of the property and does not require side access in most cases. We handle tight terraced rows regularly across Aston and Lozells.',
       },
       {
+        question: 'Can blocked gutters cause damp inside my Aston property?',
+        answer:
+          'Yes — this is one of the most common causes of internal damp we encounter in Aston. Water overflowing from a blocked gutter runs continuously down the same section of brickwork during every rain shower, saturating the wall and eventually penetrating the interior. Regular cleaning prevents this entirely.',
+      },
+      {
         question: 'Do you work with landlords in Aston?',
         answer:
           'Yes — we work with landlords and letting agents across Aston, providing photographic evidence of gutter condition before and after each visit for maintenance records and tenant check reports.',
       },
       {
+        question: 'Do you offer gutter repairs in Aston?',
+        answer:
+          'Yes. If our technician spots damaged sections, loose brackets or leaking joints during your clean, we flag these in our condition report. Our repair team can return to carry out the necessary work.',
+      },
+      {
+        question: 'How quickly can you get to Aston?',
+        answer:
+          'We aim to offer bookings within 2–5 working days. Same-day visits may be available for urgent overflow or blockage issues — call 07421 433910 to check availability.',
+      },
+      {
         question: 'Is your service guaranteed?',
         answer:
-          'Yes. Every gutter clean comes with a 1-year service guarantee. If your gutters block within 12 months, we return at no extra charge.',
+          'Yes. Every gutter clean is fully guaranteed. If you have any concerns after your clean, contact us and we will return to resolve them.',
       },
     ],
     geo: { latitude: 52.5050, longitude: -1.8850 },
@@ -1559,8 +1575,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       "WOW Gutters Ltd provides professional gutter cleaning across Edgbaston and the surrounding areas, including Harborne, Selly Oak, Ladywood, Moseley and the University of Birmingham quarter. Edgbaston is home to some of Birmingham's most prestigious residential streets — large Victorian and Edwardian detached homes, leafy avenues, and well-maintained period properties that deserve a gutter cleaning service that matches their standard. Our ground-level high-reach vacuum system delivers exactly that: a thorough, professional clean with no ladders, no mess, and no risk of damage to your property.",
     whyTitle: 'Why Edgbaston Properties Need Specialist Gutter Care',
     whyBody: [
-      "Edgbaston's large, mature trees are one of the area's defining features — and one of the biggest contributors to gutter blockages. The avenues of oak, beech, lime and horse chestnut that line streets throughout B15 and B16 shed enormous volumes of leaves, seeds and organic debris each autumn. Properties with trees overhanging the roofline can see gutters fill completely within a single season.",
+      "Edgbaston's large, mature trees are one of the area's defining features — and one of the biggest contributors to gutter blockages. The avenues of oak, beech, lime and horse chestnut that line streets throughout B15 and B16 shed enormous volumes of leaves, seeds and organic debris each autumn. Properties with trees overhanging the roofline can see gutters fill completely within a single season, and the weight of wet, compacted debris puts sustained pressure on brackets and fascia boards.",
       "Many of Edgbaston's period properties also have longer and more complex gutter runs than standard suburban homes — multiple roof pitches, bay windows, extensions, and conservatories all create additional sections that need clearing. Our 4-storey vacuum reach and specialist access equipment handles all of these without the need for scaffolding or cherry pickers.",
+      "The Calthorpe Estate in particular — one of the most prestigious residential areas in Birmingham — has a high concentration of large detached homes where gutters are often out of sight and out of mind until a problem becomes visible. By that point, water has typically been running behind the fascia for months. Our free roofline inspection after every clean gives you a clear picture of the condition of your entire drainage system.",
     ],
     guarantees: [
       'Ground-level vacuum system — no ladders placed against your property',
@@ -1623,6 +1640,16 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
         answer:
           'Yes — our hot purified water system restores fascias and soffits to a bright, streak-free finish. Ideal for period properties where kerb appeal matters.',
       },
+      {
+        question: 'Do you work with managing agents and property companies in Edgbaston?',
+        answer:
+          'Yes — we work with managing agents, property management companies and landlords across Edgbaston, providing photographic evidence of gutter condition before and after each visit for maintenance records.',
+      },
+      {
+        question: 'How quickly can you get to Edgbaston?',
+        answer:
+          'We aim to offer bookings within 2–5 working days. Same-day visits may be available — call 07421 433910 to check availability.',
+      },
     ],
     geo: { latitude: 52.4617, longitude: -1.9250 },
     internalLinks: [
@@ -1646,8 +1673,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       "WOW Gutters Ltd provides professional gutter cleaning across Selly Oak and the surrounding south Birmingham neighbourhoods, including Bournville, Harborne, Stirchley, Cotteridge and Northfield. Selly Oak is a diverse area with a wide mix of property types — from the Victorian terraces and Edwardian semis near the university to the larger detached homes of Bournville and the post-war housing of Stirchley and Cotteridge. Our ground-level vacuum system handles all of them with the same professional standard, no ladders required.",
     whyTitle: 'Why Selly Oak Gutters Need Regular Cleaning',
     whyBody: [
-      "Selly Oak sits in the valley of the River Rea, surrounded by some of south Birmingham's most mature green spaces — Cannon Hill Park, Bournville Village Trust land, and the tree-lined streets of the Bournville estate. This abundance of mature trees means gutters in Selly Oak fill with leaves, sycamore seeds and organic debris faster than in more open areas, particularly in autumn.",
+      "Selly Oak sits in the valley of the River Rea, surrounded by some of south Birmingham's most mature green spaces — Cannon Hill Park, Bournville Village Trust land, and the tree-lined streets of the Bournville estate. This abundance of mature trees means gutters in Selly Oak fill with leaves, sycamore seeds and organic debris faster than in more open areas, particularly in autumn. Properties on the Bristol Road corridor and around the university campus are especially exposed to leaf fall from the large plane and lime trees that line the main routes.",
       "The area also has a high proportion of student and rental properties, many of which have not had gutters professionally cleaned for several years. Blocked gutters on these properties frequently cause damp penetration through external walls — a problem that is expensive to repair and disruptive to tenants. Our annual maintenance service keeps rental properties in good condition and provides landlords with photographic evidence for their records.",
+      "Selly Oak's mix of Victorian terraces, Edwardian semis and post-war housing also means a wide variety of gutter systems — from original cast iron on the oldest properties to modern uPVC on newer builds. Each type has different failure points, and our post-clean condition report identifies any sections showing signs of wear so you can address them before they become costly repairs.",
     ],
     guarantees: [
       'Ground-level vacuum system — no ladders placed against your property',
@@ -1661,23 +1689,23 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     propertyTypes: [
       {
         label: 'Victorian terraces (Selly Oak, Bristol Road)',
-        detail: 'Dense rows near the university. We clear efficiently with no disruption to residents or neighbours.',
+        detail: 'Dense rows near the university. We clear efficiently with no disruption to residents or neighbours. No side access required in most cases.',
       },
       {
         label: 'Edwardian semis (Bournville, Harborne border)',
-        detail: 'Larger properties with longer gutter runs and heavy leaf fall from mature garden trees.',
+        detail: 'Larger properties with longer gutter runs and heavy leaf fall from mature garden trees. Full downpipe flush included as standard.',
       },
       {
         label: 'Student HMOs and rental properties',
-        detail: 'Landlord maintenance packages available. Before & after photos provided for every visit.',
+        detail: 'Landlord maintenance packages available. Before & after photos provided for every visit — ideal for tenancy records and property management.',
       },
       {
         label: 'Post-war housing (Stirchley, Cotteridge)',
-        detail: 'Standard uPVC gutter runs. Moss and debris cleared thoroughly — downpipe flush included.',
+        detail: 'Standard uPVC gutter runs. Moss and debris cleared thoroughly — downpipe flush and condition report included.',
       },
       {
         label: 'Bournville estate properties',
-        detail: 'Heritage properties with well-maintained rooflines. We treat every property with care and precision.',
+        detail: 'Heritage properties with well-maintained rooflines. We treat every property with care and precision, with no ladders placed against your walls.',
       },
     ],
     areasTitle: 'Areas We Cover Around Selly Oak',
@@ -1706,9 +1734,19 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
           'Once a year in late autumn is right for most properties. Those near Cannon Hill Park or with overhanging trees benefit from a second spring clean to clear winter debris.',
       },
       {
+        question: 'Can blocked gutters cause damp in my Selly Oak property?',
+        answer:
+          'Yes — particularly in the older terraced and semi-detached properties near the university. Water overflowing from a blocked gutter saturates the external brickwork and can penetrate the interior over time, causing damp patches and mould. Annual cleaning prevents this entirely.',
+      },
+      {
+        question: 'Do you offer gutter repairs in Selly Oak?',
+        answer:
+          'Yes. If our technician spots damaged sections, loose brackets or leaking joints during your clean, we flag these in our condition report. Our repair team can return to carry out the necessary work.',
+      },
+      {
         question: 'Is your service guaranteed?',
         answer:
-          'Yes. Every gutter clean comes with a 1-year service guarantee. If your gutters block within 12 months, we return at no extra charge.',
+          'Yes. Every gutter clean is fully guaranteed. If you have any concerns after your clean, contact us and we will return to resolve them.',
       },
     ],
     geo: { latitude: 52.4417, longitude: -1.9367 },
@@ -1735,6 +1773,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     whyBody: [
       "Harborne's leafy character is one of its greatest assets — and one of the most consistent causes of gutter blockages. The mature trees lining streets throughout B17 — oaks, limes, horse chestnuts and sycamores — shed significant volumes of leaves and seeds each autumn, and properties with overhanging branches can see gutters fill completely within weeks of the first leaf fall.",
       "The area also has a high proportion of period properties with original or early-replacement guttering. Victorian cast iron systems and early uPVC installations from the 1980s and 1990s are both prone to joint failure when debris is left to accumulate and water sits in blocked sections over winter. Our post-clean condition report gives you a clear picture of the state of your guttering after every visit.",
+      "Harborne's village-feel high street and strong property market mean homeowners here take pride in the appearance of their homes. Stained fascias, green algae on soffits, and overflowing gutters are all visible signs of neglect that affect kerb appeal and property value. Our fascia and soffit cleaning service — using a hot purified water system — restores rooflines to a bright, fresh finish in a single visit.",
     ],
     guarantees: [
       'Ground-level vacuum system — no ladders placed against your property',
@@ -1748,23 +1787,23 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     propertyTypes: [
       {
         label: 'Victorian terraces (Harborne High Street area)',
-        detail: 'Older gutter systems with aging joints. We clear carefully and flag any sections showing signs of wear.',
+        detail: 'Older gutter systems with aging joints. We clear carefully and flag any sections showing signs of wear. No side access required in most cases.',
       },
       {
         label: 'Edwardian semis (Court Oak Road, Lordswood Road)',
-        detail: 'Larger properties with longer gutter runs and heavy autumn leaf fall from mature garden trees.',
+        detail: 'Larger properties with longer gutter runs and heavy autumn leaf fall from mature garden trees. Full downpipe flush included.',
       },
       {
         label: 'Large detached homes (Harborne Park Road, Metchley Lane)',
-        detail: 'Complex rooflines with multiple sections. Our 4-storey vacuum reach covers every run without scaffolding.',
+        detail: 'Complex rooflines with multiple sections. Our 4-storey vacuum reach covers every run without scaffolding or cherry pickers.',
       },
       {
         label: 'Converted flats and apartments',
-        detail: 'Multi-storey conversions with shared guttering. We coordinate with managing agents and provide photographic evidence.',
+        detail: 'Multi-storey conversions with shared guttering. We coordinate with managing agents and provide photographic evidence for maintenance records.',
       },
       {
         label: 'New build properties (Harborne Village development)',
-        detail: 'Modern guttering still attracts debris from surrounding mature trees. Annual clean recommended.',
+        detail: 'Modern guttering still attracts debris from surrounding mature trees. Annual clean keeps systems in top condition.',
       },
     ],
     areasTitle: 'Areas We Cover Around Harborne',
@@ -1791,6 +1830,16 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
         question: 'Do you offer fascia and soffit cleaning in Harborne?',
         answer:
           'Yes — our hot purified water system restores fascias and soffits to a bright, streak-free finish. Popular with Harborne homeowners preparing to sell or after a roof replacement.',
+      },
+      {
+        question: 'Can blocked gutters cause damp in my Harborne property?',
+        answer:
+          'Yes — particularly in the older Victorian and Edwardian properties throughout B17. Water overflowing from a blocked gutter saturates the external brickwork and can penetrate the interior over time. Annual cleaning is the most cost-effective way to prevent this.',
+      },
+      {
+        question: 'Do you offer gutter repairs in Harborne?',
+        answer:
+          'Yes. If our technician spots damaged sections, loose brackets or leaking joints during your clean, we flag these in our condition report. Our repair team can return to carry out the necessary work.',
       },
       {
         question: 'How quickly can you get to Harborne?',
@@ -1822,6 +1871,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     whyBody: [
       "Handsworth sits at the northern edge of Birmingham's inner ring, where the urban density of the city transitions into the more suburban character of Perry Barr and Great Barr. This transition zone means many Handsworth properties are surrounded by a mix of street trees and garden trees — limes, planes, sycamores and horse chestnuts — that shed significant debris into gutters each autumn.",
       "The area has a high proportion of Victorian and Edwardian terraced and semi-detached properties, many of which have not had gutters professionally cleaned for several years. Aging uPVC systems with failing joints and sagging brackets are common — and the weight of accumulated debris accelerates the deterioration. Our post-clean condition report gives you an honest picture of what needs attention.",
+      "Handsworth Wood in particular has some of the most impressive period housing in north Birmingham — large Edwardian detached homes with complex rooflines, multiple gutter runs, and extensive tree coverage. These properties benefit most from twice-yearly cleaning: once in late autumn after the main leaf fall, and once in spring to clear the moss and debris that accumulates over winter.",
     ],
     guarantees: [
       'Ground-level vacuum system — no ladders placed against your property',
@@ -1835,23 +1885,23 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     propertyTypes: [
       {
         label: 'Victorian terraces (Soho Road, Lozells Road)',
-        detail: 'Dense rows with aging gutter systems. We clear cast iron and uPVC gutters carefully and flag any repairs needed.',
+        detail: 'Dense rows with aging gutter systems. We clear cast iron and uPVC gutters carefully and flag any repairs needed. No side access required in most cases.',
       },
       {
         label: 'Edwardian semis (Handsworth Wood, Perry Barr)',
-        detail: 'Larger properties with longer gutter runs and heavy leaf fall from mature garden trees.',
+        detail: 'Larger properties with longer gutter runs and heavy leaf fall from mature garden trees. Full downpipe flush and condition report included.',
       },
       {
         label: 'Detached homes (Handsworth Wood, Hamstead)',
-        detail: 'Our 4-storey vacuum reach handles all sections including over garages, extensions and conservatories.',
+        detail: 'Our 4-storey vacuum reach handles all sections including over garages, extensions and conservatories — no scaffolding needed.',
       },
       {
         label: 'Converted flats and HMOs',
-        detail: 'Landlords across Handsworth use WOW Gutters for annual maintenance. Before & after photos provided for records.',
+        detail: 'Landlords across Handsworth use WOW Gutters for annual maintenance. Before & after photos provided for every visit — ideal for tenancy records.',
       },
       {
         label: 'Commercial properties (Soho Road corridor)',
-        detail: 'Retail units, offices and workshops. Planned maintenance contracts available.',
+        detail: 'Retail units, offices and workshops. Planned maintenance contracts available with scheduled visits and written condition reports.',
       },
     ],
     areasTitle: 'Areas We Cover Around Handsworth',
@@ -1880,9 +1930,24 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
           'Yes — we work with landlords and letting agents across Handsworth, providing photographic evidence of gutter condition before and after each visit for maintenance records and tenant check reports.',
       },
       {
+        question: 'Can blocked gutters cause damp in my Handsworth property?',
+        answer:
+          'Yes — this is one of the most common causes of internal damp we encounter in Handsworth. Water overflowing from a blocked gutter saturates the external brickwork and can penetrate the interior over time. Annual cleaning prevents this entirely.',
+      },
+      {
         question: 'How often should Handsworth gutters be cleaned?',
         answer:
           'Once a year in late autumn is right for most properties. Those with heavy tree coverage in Handsworth Wood or Perry Barr benefit from a second spring clean.',
+      },
+      {
+        question: 'Do you offer gutter repairs in Handsworth?',
+        answer:
+          'Yes. If our technician spots damaged sections, loose brackets or leaking joints during your clean, we flag these in our condition report. Our repair team can return to carry out the necessary work.',
+      },
+      {
+        question: 'How quickly can you get to Handsworth?',
+        answer:
+          'We aim to offer bookings within 2–5 working days. Same-day visits may be available for urgent overflow or blockage issues — call 07421 433910 to check availability.',
       },
     ],
     geo: { latitude: 52.5133, longitude: -1.9283 },

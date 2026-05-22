@@ -145,7 +145,7 @@ export function getBirminghamFAQSchema() {
         "name": "Are you insured?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes. Fully insured with comprehensive public liability insurance. 1-year service guarantee on every job."
+          "text": "Yes. Fully insured with comprehensive public liability insurance on every job."
         }
       }
     ]

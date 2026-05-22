@@ -142,7 +142,9 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-8 text-center">Our Guarantee</h2>
           <ul className="grid sm:grid-cols-2 gap-4">
-            {data.guarantees.map((g) => (
+            {data.guarantees
+              .filter((g) => !g.startsWith('1-year service guarantee'))
+              .map((g) => (
               <li key={g} className="flex gap-3 p-5 rounded-2xl bg-white border border-slate-200 shadow-sm">
                 <CheckCircle2 className="w-6 h-6 shrink-0" style={{ color: colors.primary }} />
                 <span className="text-slate-800 font-semibold">{g}</span>

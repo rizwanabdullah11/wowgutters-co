@@ -81,7 +81,7 @@ export default function BirminghamPage() {
           },
           {
             question: 'Are you insured?',
-            answer: 'Yes. Fully insured with comprehensive public liability insurance. 1-year service guarantee on every job.',
+            answer: 'Yes. Fully insured with comprehensive public liability insurance on every job.',
           },
         ]}
       />

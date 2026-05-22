@@ -30,13 +30,15 @@ export default function BlogPage() {
   // Get unique categories
   const categories: string[] = ['All', ...Array.from(new Set(blogPosts.map(post => post.category).filter((cat): cat is string => Boolean(cat))))];
 
-  // Filter posts
-  const filteredPosts = blogPosts.filter(post => {
-    const matchesSearch = post.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                         post.excerpt.toLowerCase().includes(searchQuery.toLowerCase());
-    const matchesCategory = selectedCategory === 'All' || post.category === selectedCategory;
-    return matchesSearch && matchesCategory;
-  });
+  // Filter posts — sorted by date descending so newest appear first
+  const filteredPosts = blogPosts
+    .filter(post => {
+      const matchesSearch = post.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                           post.excerpt.toLowerCase().includes(searchQuery.toLowerCase());
+      const matchesCategory = selectedCategory === 'All' || post.category === selectedCategory;
+      return matchesSearch && matchesCategory;
+    })
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   // Get featured post — explicit flag first, fallback to most views
   const featuredPost = blogPosts.find(p => p.featured) ?? blogPosts.reduce((prev, current) =>

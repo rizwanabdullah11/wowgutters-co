@@ -212,8 +212,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
               </p>
               <p>
                 Every job includes before and after photos sent directly to you, downpipe clearing as standard, and a
-                1-year service guarantee. If your gutters block within 12 months of our clean, we return at no extra
-                charge.
+                fully guaranteed professional service.
               </p>
               <div className="p-6 rounded-xl bg-[#f1f5f9] border border-slate-200 mt-8">
                 <p className="text-slate-800 font-medium flex items-center gap-3 text-xl mb-4">
@@ -240,7 +239,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
       <AreaServiceBlock
         title={`Residential Gutter Cleaning in ${formattedArea}`}
         descriptions={[
-          `WOW Gutters Ltd provides professional gutter cleaning for homes in ${formattedArea} using a high-reach vacuum system that clears leaves, moss, silt and debris from ground level — no ladders placed against your property. Every clean includes downpipe clearing as standard, before and after photos sent directly to you, and a 1-year service guarantee.`,
+          `WOW Gutters Ltd provides professional gutter cleaning for homes in ${formattedArea} using a high-reach vacuum system that clears leaves, moss, silt and debris from ground level — no ladders placed against your property. Every clean includes downpipe clearing as standard and before and after photos sent directly to you.`,
           `Blocked gutters are one of the most common causes of damp and water damage in UK homes. When gutters overflow, water runs down external walls instead of safely away via the downpipe — leading to damp patches, staining on brickwork, and in severe cases, penetration into the foundations. Most ${formattedArea} homes need their gutters cleaned once or twice a year, with late autumn being the most critical time.`
         ]}
         iconSrc="/gutter-cleaning-icon.png"

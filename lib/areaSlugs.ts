@@ -105,7 +105,7 @@ export const AREA_SLUGS: readonly string[] = [
   'walsall',
   'wednesbury',
   'wednesfield',
-  'west-midlands',
+  'westmidlands',
   'west-bromwich',
   'willenhall',
   'winson-green',
