@@ -33,16 +33,28 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
   // Extract FAQ data from content if present
   const extractFAQs = (content: string) => {
     const faqs: Array<{ question: string; answer: string }> = [];
+
+    // Pattern 1: <h3>Q: ...</h3><p><strong>A:</strong> format
     const faqRegex = /<h3[^>]*>Q:\s*([^<]+)<\/h3>\s*<p[^>]*><strong[^>]*>A:<\/strong>\s*([^<]+(?:<[^>]+>[^<]*<\/[^>]+>)*[^<]*)<\/p>/gi;
     let match;
-    
     while ((match = faqRegex.exec(content)) !== null) {
       faqs.push({
         question: match[1].trim(),
         answer: match[2].replace(/<[^>]+>/g, '').trim()
       });
     }
-    
+
+    // Pattern 2: <details>/<summary> accordion format
+    if (faqs.length === 0) {
+      const detailsRegex = /<summary[^>]*>[\s\S]*?<span>([^<]+)<\/span>[\s\S]*?<\/summary>[\s\S]*?<p[^>]*>([\s\S]*?)<\/p>[\s\S]*?<\/details>/gi;
+      while ((match = detailsRegex.exec(content)) !== null) {
+        faqs.push({
+          question: match[1].trim(),
+          answer: match[2].replace(/<[^>]+>/g, '').trim()
+        });
+      }
+    }
+
     return faqs;
   };
 

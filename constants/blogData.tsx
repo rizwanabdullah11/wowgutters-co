@@ -372,7 +372,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 'gutter-cleaning-coventry',
     title: 'Gutter Cleaning in Coventry: Real Job, Real Results — What Every Homeowner Needs to Know (2026 Guide)',
-    excerpt: 'Need gutter cleaning in Coventry? See a real before & after from a March 2026 job — gutters packed with weeds, moss and debris, cleared in 23 minutes. Prices from £50. Same-day booking.',
+    excerpt: 'Need gutter cleaning in Coventry? See a real before & after from a March 2026 job — gutters packed with weeds, moss and debris, cleared in 23 minutes. Same-day booking.',
     image: '/gutter-cleaning-coventry-hero.png',
     heroVideo: '/gutter-cleaning-video.mp4',
     date: '2026-05-19',
@@ -380,7 +380,7 @@ export const blogPosts: BlogPost[] = [
     author: 'WOW Gutters Technical Team',
     authorRole: 'Professional Gutter Cleaning Specialists',
     category: 'Maintenance',
-    quickAnswer: 'This is a real WOW Gutters job completed in Coventry on 23 March 2026. The gutters were heavily packed with growing weeds, thick moss, and substantial leaf debris — completely blocking water flow. Our team cleared them 100% from ground level in 23 minutes, with zero ladders used. Gutter cleaning in Coventry starts from £50, with same-day appointments available across all CV postcodes.',
+    quickAnswer: 'This is a real WOW Gutters job completed in Coventry on 23 March 2026. The gutters were heavily packed with growing weeds, thick moss, and substantial leaf debris — completely blocking water flow. Our team cleared them 100% from ground level in 23 minutes, with zero ladders used. Gutter cleaning in Coventry with same-day appointments available across all CV postcodes.',
     content: `<h2>What the Real Coventry Job Showed Us</h2>
 
 <figure style="margin: 20px 0;">
@@ -622,7 +622,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 'gutter-cleaning-wolverhampton',
     title: 'Gutter Cleaning Wolverhampton | WOW Gutters — Local Specialists',
-    excerpt: 'Need gutter cleaning in Wolverhampton? WOW Gutters covers the whole city — same-day booking, ground-level vacuum system, prices from £50. See what is blocking your gutters.',
+    excerpt: 'Need gutter cleaning in Wolverhampton? WOW Gutters covers the whole city — same-day booking, ground-level vacuum system. See what is blocking your gutters.',
     image: '/wolverhamtpon-gutter-cleaning-hero-section.png',
     heroVideo: '/gutter-cleaning-video.mp4',
     date: '2026-05-18',
@@ -2217,16 +2217,16 @@ export const blogPosts: BlogPost[] = [
   {
     id: 'gutter-cleaning-walsall',
     title: 'Gutter Cleaning Walsall | WOW Gutters — Local Specialists',
-    excerpt: 'Need gutter cleaning in Walsall? WOW Gutters covers all WS postcodes — same-day booking, ground-level vacuum system, prices from £50. See what\'s blocking your gutters.',
+    excerpt: 'Need gutter cleaning in Walsall? WOW Gutters covers all WS postcodes — same-day booking, ground-level vacuum system. See what\'s blocking your gutters.',
     image: '/walsall-gutter-cleaning-hero.png',
     heroVideo: '/gutter-cleaning-video.mp4',
-    date: '2026-05-22',
+    date: '2026-05-25',
     views: '0',
     author: 'WOW Gutters Technical Team',
     authorRole: 'Professional Gutter Cleaning Specialists',
     category: 'Maintenance',
-    lastUpdated: '2026-05-22',
-    quickAnswer: 'Gutters in Walsall should be cleaned at least once a year — twice if your property is near trees. The most common warning signs are water overflowing during rainfall, dark staining on your external walls, damp patches in upstairs rooms, and fascia boards pulling away. Professional gutter cleaning in Walsall starts from £50 for a bungalow and £65–£90 for a semi-detached house, with same-day appointments available across all WS postcodes.',
+    lastUpdated: '2026-05-25',
+    quickAnswer: 'Gutters in Walsall should be cleaned at least once a year — twice if your property is near trees. The most common warning signs are water overflowing during rainfall, dark staining on your external walls, damp patches in upstairs rooms, and fascia boards pulling away. Same-day appointments available across all WS postcodes. Call 07421 433910 for a free quote.',
     breadcrumbName: 'Gutter Cleaning Walsall',
     featured: true,
     content: `
@@ -2417,7 +2417,7 @@ export const blogPosts: BlogPost[] = [
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Gutter cleaning in Walsall starts from £50 for a standard terraced house. Semi-detached homes typically cost £65–£90, and detached properties from £90–£130. WOW Gutters provides fixed quotes covering all WS postcodes — no hidden fees or call-out charges.</p>
+      <p style="margin: 16px 0 0;">WOW Gutters provides fixed quotes covering all WS postcodes — no hidden fees or call-out charges. Get a free quote online at wowgutters.co.uk or call 07421 433910.</p>
     </div>
   </details>
 
@@ -2482,11 +2482,207 @@ export const blogPosts: BlogPost[] = [
 
 <ul>
   <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Wolverhampton | WOW Gutters — Local Specialists</a></strong></li>
+  <li><strong><a href="/blog/before-after-gutter-cleaning-walsall" style="color: #19C58B; text-decoration: none;">Before &amp; After Gutter Cleaning Walsall — Real Results 2026</a></strong></li>
   <li><strong><a href="/blog/blocked-gutters-sycamore-seeds" style="color: #19C58B; text-decoration: none;">Blocked Gutters Packed With Sycamore Seeds — What Happens If You Leave Them</a></strong></li>
   <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
   <li><strong><a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Coventry | WOW Gutters — Local Specialists</a></strong></li>
   <li><strong><a href="/gutter-cleaning-prices" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Prices — Full 2026 Guide</a></strong></li>
 </ul>
     `,
+  },
+  {
+    id: 'before-after-gutter-cleaning-walsall',
+    title: 'Before & After Gutter Cleaning Walsall | Moss & Debris Removal 2026 | WOW Gutters',
+    excerpt: 'Real before & after gutter cleaning photos from Walsall homes. WOW Gutters removes moss, leaves and blocked debris from the ground — no ladders, photo proof every job. From £50.',
+    image: '/gutter-cleaning-walsall-hero.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
+    date: '2026-05-25',
+    views: '0',
+    author: 'WOW Gutters Technical Team',
+    authorRole: 'Professional Gutter Cleaning Specialists',
+    category: 'Before & After',
+    lastUpdated: '2026-05-25',
+    quickAnswer: 'These before and after photographs are from a real WOW Gutters job completed in Walsall in 2026. Every blocked gutter shown was cleared using our ground-level vacuum system — no ladders, no scaffolding. Before and after photos are included on every job as standard. Gutter cleaning in Walsall starts from £50.',
+    breadcrumbName: 'Before & After Gutter Cleaning Walsall',
+    content: `
+<p>If you live in Walsall and your gutters are overflowing every time it rains, you're not alone. Blocked gutters are one of the most common — and most ignored — home maintenance problems across the West Midlands. This post shows you exactly what builds up inside a typical Walsall gutter, what it looks like after a professional clean, and why leaving it any longer always ends up costing more.</p>
+
+<h2>The Before Photo — What Was Inside</h2>
+
+<figure style="margin: 20px 0;">
+  <img
+    src="/gutter-cleaning-walsall-before.png"
+    alt="Before gutter cleaning in Walsall — gutter packed with moss, autumn leaves and compacted debris, WOW Gutters 2026"
+    width="1200"
+    height="800"
+    loading="eager"
+    style="width: 100%; height: auto; max-width: 1200px; border-radius: 8px; display: block;"
+  />
+  <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
+    Before: A Walsall semi-detached gutter blocked solid with two seasons of compacted moss, leaves and organic silt.
+  </figcaption>
+</figure>
+
+<p>This is a real Walsall gutter before we arrived. The property was a two-storey semi-detached in Bloxwich — the owner had been watching water pour over the side of the gutters for months.</p>
+
+<p><strong>What you can see in the gutter:</strong></p>
+<ul>
+  <li><strong>Compacted moss</strong> — washed down from the roof tiles across two seasons</li>
+  <li><strong>Autumn leaves</strong> — from the mature oak trees common in Bloxwich and Aldridge</li>
+  <li><strong>Organic silt</strong> — decomposed debris packed solid at the outlet end</li>
+  <li><strong>Standing water</strong> — trapped behind the blockage with nowhere to go</li>
+</ul>
+
+<p>This is not unusual for a Walsall property that has not been cleaned in 18 months or more. What looks minor from the street is often causing real damage — water backing up behind a fascia bracket softens the timber beneath within weeks.</p>
+
+<h2>During the Clean — Our Ground-Level Vacuum System</h2>
+
+<p>This is what separates WOW Gutters from most gutter cleaners in Walsall. Our vacuum system works entirely from the ground. Carbon fibre poles extend up to 4 storeys high and the powerful suction pulls all debris directly into the collection unit.</p>
+
+<p><strong>No ladders are placed against your property at any point.</strong></p>
+
+<p>This protects your fascia boards, render, window frames, and paving from accidental damage. It also means we can reach gutters that ladder access makes difficult — tall extensions, awkward angles, and properties with restricted side access.</p>
+
+<p>Total time on site for this Bloxwich semi: <strong>24 minutes.</strong></p>
+
+<h2>The After Photo — The Result</h2>
+
+<figure style="margin: 20px 0;">
+  <img
+    src="/gutter-cleaning-walsall-after.png"
+    alt="After gutter cleaning in Walsall — gutter fully cleared to the plastic channel by WOW Gutters, flowing freely"
+    width="1200"
+    height="800"
+    loading="lazy"
+    style="width: 100%; height: auto; max-width: 1200px; border-radius: 8px; display: block;"
+  />
+  <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
+    After: Same gutter fully cleared. Downpipe tested and confirmed flowing freely. Photos sent within the hour.
+  </figcaption>
+</figure>
+
+<p>The after photograph shows the same gutter completely clear — right down to the plastic channel surface. The downpipe was flushed and confirmed flowing freely before we left.</p>
+
+<p>Both photographs were sent directly to the homeowner within an hour. That is standard on every single WOW Gutters job. No exceptions.</p>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+  ⭐⭐⭐⭐⭐ <em>"Turned up on time, did the job in under half an hour and sent me photos straight after. Exactly what I needed."</em><br/>
+  — Walsall homeowner, verified Google review
+</blockquote>
+
+<h2>Why Walsall Gutters Block So Fast</h2>
+
+<h3>Heavy Tree Coverage</h3>
+<p>Aldridge, Streetly, Pelsall, and areas around Walsall Arboretum are lined with established oak and sycamore. One mature oak can fill a standard gutter in a single autumn season.</p>
+
+<h3>Sycamore Seeds</h3>
+<p>Walsall has extensive sycamore coverage. The winged seeds interlock inside gutters forming dense mats that do not break down quickly. Read more about <a href="/blog/blocked-gutters-sycamore-seeds" style="color: #19C58B; font-weight: 600; text-decoration: none;">how sycamore seeds block gutters</a>.</p>
+
+<h3>Moss From Roof Tiles</h3>
+<p>Older housing stock in Bloxwich and Walsall town centre carries significant roof moss. Fragments wash into gutters during every rainfall. Our <a href="/help/clean" style="color: #19C58B; font-weight: 600; text-decoration: none;">roof cleaning service</a> treats the problem at source.</p>
+
+<h3>Cannock Chase Wind Debris</h3>
+<p>Properties in Brownhills, Great Wyrley, and Cheslyn Hay receive wind-blown debris from Cannock Chase during autumn storms on top of what garden trees produce.</p>
+
+<h2>Signs Your Walsall Gutters Need Cleaning Now</h2>
+
+<ul>
+  <li>🌧️ <strong>Water overflowing over the edge</strong> during rainfall</li>
+  <li>🟢 <strong>Green or black staining</strong> on your external walls</li>
+  <li>💧 <strong>Damp patches in upstairs rooms</strong> near outside walls</li>
+  <li>🌿 <strong>Plants or moss visibly growing</strong> from the gutterline</li>
+  <li>🔩 <strong>Fascia boards pulling away</strong> or showing water marks</li>
+  <li>📅 <strong>You cannot remember</strong> the last time they were cleaned</li>
+</ul>
+
+<p>Read our full <a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">blocked gutter warning signs guide</a>.</p>
+
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 220px;">
+    <h3 style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.2;">BOOK YOUR WALSALL GUTTER CLEAN</h3>
+    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Same-day availability across all WS postcodes. Rated 4.9★ by 2,696+ customers.</p>
+  </div>
+  <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
+    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+      <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
+    </a>
+    <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
+    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+  </div>
+</div>
+
+<h2>Areas We Cover in Walsall</h2>
+
+<p><strong>Bloxwich · Aldridge · Willenhall · Brownhills · Pelsall · Streetly · Rushall · Great Wyrley · Cheslyn Hay · WS1–WS9</strong></p>
+
+<p>Also covering <a href="/gutter-cleaning-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">Birmingham</a>, <a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <a href="/blog/gutter-cleaning-solihull" style="color: #19C58B; font-weight: 600; text-decoration: none;">Solihull</a>, and <a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; font-weight: 600; text-decoration: none;">Coventry</a>.</p>
+
+<h2>Frequently Asked Questions — Gutter Cleaning Walsall</h2>
+
+<div style="margin: 40px 0;">
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>How much does gutter cleaning cost in Walsall?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">From £50 for a standard terraced house. Semi-detached £65–£90. Detached from £90–£130. Fixed price confirmed before we start — no hidden fees.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Do you use ladders in Walsall?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">No. Our ground-level vacuum system reaches up to 4 storeys. No ladders are placed against your property at any point — protecting your fascias, render, and window frames.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Do you provide before and after photos?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Yes — on every single job without exception. Both photos are sent directly to you on the same day.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>How often should Walsall gutters be cleaned?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Twice a year for most properties — October/November after leaf fall, and April/May after sycamore seed season. Properties near Aldridge, Streetly, and Pelsall with heavy tree coverage benefit most from this schedule.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>What areas of Walsall do you cover?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">All WS postcodes — WS1 to WS9 including Bloxwich, Aldridge, Willenhall, Brownhills, Pelsall, Streetly, Great Wyrley, Rushall, and Cheslyn Hay. Same-day booking available.</p>
+    </div>
+  </details>
+
+</div>
+
+<h2>Related Articles</h2>
+
+<ul>
+  <li><strong><a href="/blog/gutter-cleaning-walsall" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Walsall — Full Local Guide</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Wolverhampton | WOW Gutters</a></strong></li>
+  <li><strong><a href="/blog/blocked-gutters-sycamore-seeds" style="color: #19C58B; text-decoration: none;">Blocked Gutters Packed With Sycamore Seeds</a></strong></li>
+  <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-prices" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Prices — Full 2026 Guide</a></strong></li>
+</ul>
+    `,
   }
 ];
+
