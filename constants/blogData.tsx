@@ -372,7 +372,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 'gutter-cleaning-coventry',
     title: 'Gutter Cleaning in Coventry: Real Job, Real Results — What Every Homeowner Needs to Know (2026 Guide)',
-    excerpt: 'Need gutter cleaning in Coventry? See a real before & after from a March 2026 job — gutters packed with weeds, moss and debris, cleared in 23 minutes. Prices from £50. Same-day booking.',
+    excerpt: 'Need gutter cleaning in Coventry? See a real before & after from a March 2026 job — gutters packed with weeds, moss and debris, cleared in 23 minutes. Same-day booking.',
     image: '/gutter-cleaning-coventry-hero.png',
     heroVideo: '/gutter-cleaning-video.mp4',
     date: '2026-05-19',
@@ -380,7 +380,7 @@ export const blogPosts: BlogPost[] = [
     author: 'WOW Gutters Technical Team',
     authorRole: 'Professional Gutter Cleaning Specialists',
     category: 'Maintenance',
-    quickAnswer: 'This is a real WOW Gutters job completed in Coventry on 23 March 2026. The gutters were heavily packed with growing weeds, thick moss, and substantial leaf debris — completely blocking water flow. Our team cleared them 100% from ground level in 23 minutes, with zero ladders used. Gutter cleaning in Coventry starts from £50, with same-day appointments available across all CV postcodes.',
+    quickAnswer: 'This is a real WOW Gutters job completed in Coventry on 23 March 2026. The gutters were heavily packed with growing weeds, thick moss, and substantial leaf debris — completely blocking water flow. Our team cleared them 100% from ground level in 23 minutes, with zero ladders used. Gutter cleaning in Coventry with same-day appointments available across all CV postcodes.',
     content: `<h2>What the Real Coventry Job Showed Us</h2>
 
 <figure style="margin: 20px 0;">
@@ -622,7 +622,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 'gutter-cleaning-wolverhampton',
     title: 'Gutter Cleaning Wolverhampton | WOW Gutters — Local Specialists',
-    excerpt: 'Need gutter cleaning in Wolverhampton? WOW Gutters covers the whole city — same-day booking, ground-level vacuum system, prices from £50. See what is blocking your gutters.',
+    excerpt: 'Need gutter cleaning in Wolverhampton? WOW Gutters covers the whole city — same-day booking, ground-level vacuum system. See what is blocking your gutters.',
     image: '/wolverhamtpon-gutter-cleaning-hero-section.png',
     heroVideo: '/gutter-cleaning-video.mp4',
     date: '2026-05-18',
@@ -2217,7 +2217,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 'gutter-cleaning-walsall',
     title: 'Gutter Cleaning Walsall | WOW Gutters — Local Specialists',
-    excerpt: 'Need gutter cleaning in Walsall? WOW Gutters covers all WS postcodes — same-day booking, ground-level vacuum system, prices from £50. See what\'s blocking your gutters.',
+    excerpt: 'Need gutter cleaning in Walsall? WOW Gutters covers all WS postcodes — same-day booking, ground-level vacuum system. See what\'s blocking your gutters.',
     image: '/walsall-gutter-cleaning-hero.png',
     heroVideo: '/gutter-cleaning-video.mp4',
     date: '2026-05-25',
@@ -2683,249 +2683,6 @@ export const blogPosts: BlogPost[] = [
   <li><strong><a href="/gutter-cleaning-prices" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Prices — Full 2026 Guide</a></strong></li>
 </ul>
     `,
-  },
-  {
-    id: 'gutter-cleaning-handsworth-wood',
-    title: 'Gutter Cleaning Handsworth Wood | WOW Gutters — Local Specialists',
-    excerpt: 'Need gutter cleaning in Handsworth Wood? WOW Gutters covers all B20 properties — same-day booking, ground-level vacuum system, prices from £50. See what\'s blocking your gutters.',
-    image: '/handsworth-wood-gutter-cleaning.png',
-    date: '2026-05-25',
-    views: '0',
-    author: 'WOW Gutters Technical Team',
-    authorRole: 'Professional Gutter Cleaning Specialists',
-    category: 'Maintenance',
-    lastUpdated: '2026-05-25',
-    quickAnswer: 'Gutters in Handsworth Wood should be cleaned at least once a year — twice if your property is near Handsworth Park or the mature tree-lined streets of the B20 area. The most common warning signs are water overflowing during rainfall, dark staining on external walls, damp patches in upstairs rooms, and fascia boards pulling away. Professional gutter cleaning in Handsworth Wood starts from £50 for a terraced house and £65–£90 for a semi-detached, with same-day appointments available.',
-    breadcrumbName: 'Gutter Cleaning Handsworth Wood',
-    featured: false,
-    content: `
-
-<h2>Gutter Cleaning in Handsworth Wood — What Every B20 Homeowner Needs to Know</h2>
-
-<p>Handsworth Wood is one of Birmingham's most distinctive inner-city neighbourhoods — a dense mix of large Edwardian semis, Victorian terraces, and inter-war detached homes set along wide, tree-lined avenues. The area's mature street trees, proximity to <strong>Handsworth Park</strong>, and the characteristic red-brick housing stock create some of the most demanding gutter conditions in the city.</p>
-
-<p>If your gutters are overflowing every time it rains, or you've noticed dark staining running down your external walls, you're not alone. WOW Gutters clears blocked gutters across <strong>Handsworth Wood, Handsworth, Perry Barr, Lozells, Birchfield</strong> and all surrounding B20 postcodes — from ground level, with no ladders placed against your property, and with before and after photos on every single job.</p>
-
-<h2>Why Handsworth Wood Gutters Block Up So Quickly</h2>
-
-<p>Handsworth Wood's combination of mature tree canopy and older housing stock means gutters here fill faster than in many other parts of Birmingham. Understanding why helps you plan the right maintenance schedule.</p>
-
-<h3>Handsworth Park and the Surrounding Tree Canopy</h3>
-
-<p>Handsworth Park is one of Birmingham's largest Victorian parks, surrounded by established lime, oak, and plane trees that line the residential streets of Handsworth Wood. Every autumn, these trees shed enormous quantities of leaves that land directly in gutters or are blown onto roofs and washed into the channel during the first autumn rains.</p>
-
-<p>Properties on <strong>Hamstead Road, Oxhill Road, Holly Road</strong> and the streets immediately bordering the park are particularly affected — a single season of leaf fall can completely block a standard gutter system that was clear in spring.</p>
-
-<h3>Sycamore Seeds — The Persistent Blocker</h3>
-
-<p>Handsworth Wood has extensive sycamore coverage throughout its residential streets. Sycamore seeds — the distinctive winged "helicopter" seeds — are one of the most stubborn causes of gutter blockages across Birmingham. Unlike leaves, which decompose relatively quickly, sycamore seeds interlock inside the gutter channel and form a dense mat that resists water flow. Find out more about <a href="/blog/blocked-gutters-sycamore-seeds" style="color: #19C58B; font-weight: 600; text-decoration: none;">how sycamore seeds block gutters and what happens if you leave them</a>.</p>
-
-<h3>Edwardian and Victorian Housing Stock</h3>
-
-<p>Many properties in Handsworth Wood were built between 1890 and 1930. Their guttering — whether original cast iron or later uPVC replacement — is now showing its age. Joints fail, brackets sag, and sections crack when the weight of accumulated debris is left unmanaged. Water that overflows from a blocked gutter runs directly down the external brickwork, saturating the wall and working its way into the interior — causing damp patches, mould, and in severe cases, structural damage to lintels and window frames.</p>
-
-<h3>Moss From Roof Tiles</h3>
-
-<p>Handsworth Wood's older housing stock tends to have significant moss growth on roof tiles, particularly on north-facing rooflines. Moss fragments wash off during every rainfall and accumulate inside gutters, compounding seasonal debris blockages. If your gutters keep blocking despite regular cleaning, a mossy roof is often the underlying cause. Our <a href="/help/clean" style="color: #19C58B; font-weight: 600; text-decoration: none;">roof cleaning service</a> addresses this at the source.</p>
-
-<h2>How Often Should Handsworth Wood Homeowners Clean Their Gutters?</h2>
-
-<p>For most Handsworth Wood properties, twice a year is the right schedule. Once in <strong>late autumn</strong> after the main leaf fall — typically October to November — and once in <strong>late spring</strong> after sycamore seed season — April to May.</p>
-
-<p>Properties on streets with lighter tree coverage in the more urban parts of the B20 area may manage with one annual clean. But for homes on the tree-lined avenues bordering Handsworth Park, or on roads with heavy sycamore coverage, twice annually is the realistic maintenance schedule to prevent blockages causing overflow and damage.</p>
-
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
-  💡 <strong>The cost of not cleaning:</strong> A blocked gutter that overflows continuously can cause damp penetration (£500–£2,000 to treat), damaged fascia boards (£150–£400 per section to replace), and in serious cases, water getting under roof tiles. A professional clean costs £50–£130. The maths aren't difficult.
-</blockquote>
-
-<h2>Signs Your Handsworth Wood Gutters Need Cleaning</h2>
-
-<p>You don't need to get on a ladder to know whether your gutters need attention. These are the most reliable signs:</p>
-
-<ul>
-  <li>🌧️ <strong>Water overflowing over the edge during rainfall</strong> — look during or just after heavy rain</li>
-  <li>🟢 <strong>Green or black staining on external walls</strong> below the gutterline — caused by sustained water running down the same section of wall, common on the red-brick Edwardian semis throughout Handsworth Wood</li>
-  <li>💧 <strong>Damp patches in upstairs rooms</strong> near external walls — often misdiagnosed as rising damp, frequently caused by overflowing gutters saturating the wall</li>
-  <li>🌿 <strong>Plants or moss growing from the gutterline</strong> — visible growth means significant organic build-up inside</li>
-  <li>🔩 <strong>Fascia boards pulling away or showing water staining</strong> — water backing up behind the bracket softens timber over time</li>
-  <li>📅 <strong>You can't remember the last time they were cleaned</strong> — if it's been more than 18 months, they almost certainly need attention regardless of visible symptoms</li>
-</ul>
-
-<p>We've covered all ten signs in detail in our <a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">blocked gutter warning signs guide</a> — the same symptoms apply across all Birmingham properties.</p>
-
-<div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
-  <div style="flex: 1; min-width: 220px;">
-    <h3 style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.2;">BOOK YOUR HANDSWORTH WOOD GUTTER CLEAN</h3>
-    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Same-day availability across all B20 postcodes. Fixed price, no hidden fees. Rated 4.9★ by 2,696+ customers.</p>
-  </div>
-  <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
-      <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
-    </a>
-    <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
-  </div>
-</div>
-
-<h2>Areas We Cover Near Handsworth Wood</h2>
-
-<p>WOW Gutters covers Handsworth Wood and all surrounding B20 and neighbouring postcodes. Here's a breakdown of our most frequently visited areas:</p>
-
-<div style="overflow-x: auto; margin: 24px 0;">
-  <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem;">
-    <thead>
-      <tr style="background: #0f172a; color: #ffffff;">
-        <th style="padding: 12px 16px; text-align: left; font-weight: 700;">Area</th>
-        <th style="padding: 12px 16px; text-align: left; font-weight: 700;">Postcode</th>
-        <th style="padding: 12px 16px; text-align: left; font-weight: 700;">Property Type &amp; Notes</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr style="border-bottom: 1px solid #e5e7eb;">
-        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Handsworth Wood</td>
-        <td style="padding: 12px 16px; color: #0f172a;">B20</td>
-        <td style="padding: 12px 16px; color: #0f172a;">Large Edwardian semis and Victorian terraces. Heavy leaf fall from park-adjacent streets. High demand in autumn.</td>
-      </tr>
-      <tr style="border-bottom: 1px solid #e5e7eb; background: #f8fafc;">
-        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Handsworth</td>
-        <td style="padding: 12px 16px; color: #0f172a;">B21</td>
-        <td style="padding: 12px 16px; color: #0f172a;">Dense Victorian terracing. Gutters often shared or closely adjacent. Moss and silt build-up common.</td>
-      </tr>
-      <tr style="border-bottom: 1px solid #e5e7eb;">
-        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Perry Barr</td>
-        <td style="padding: 12px 16px; color: #0f172a;">B42</td>
-        <td style="padding: 12px 16px; color: #0f172a;">Mix of 1930s semis and post-war housing. Established gardens with mature trees. Regular autumn clean essential.</td>
-      </tr>
-      <tr style="border-bottom: 1px solid #e5e7eb; background: #f8fafc;">
-        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Birchfield</td>
-        <td style="padding: 12px 16px; color: #0f172a;">B20</td>
-        <td style="padding: 12px 16px; color: #0f172a;">Inner-city terraced rows. Gutters fill quickly with sycamore seeds and leaf debris from street trees.</td>
-      </tr>
-      <tr style="border-bottom: 1px solid #e5e7eb;">
-        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Lozells</td>
-        <td style="padding: 12px 16px; color: #0f172a;">B19</td>
-        <td style="padding: 12px 16px; color: #0f172a;">Victorian terraces and converted flats. Gutter maintenance often overlooked between tenancies.</td>
-      </tr>
-      <tr style="border-bottom: 1px solid #e5e7eb; background: #f8fafc;">
-        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Great Barr</td>
-        <td style="padding: 12px 16px; color: #0f172a;">B43</td>
-        <td style="padding: 12px 16px; color: #0f172a;">Larger detached and semi-detached homes. Mature garden trees and hedgerows. Often needs two cleans per year.</td>
-      </tr>
-      <tr style="background: #f8fafc;">
-        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Newtown</td>
-        <td style="padding: 12px 16px; color: #0f172a;">B19</td>
-        <td style="padding: 12px 16px; color: #0f172a;">Post-war housing and modern developments. Lighter debris loads but regular maintenance still recommended.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<p>We also cover <a href="/gutter-cleaning-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">Birmingham city-wide</a>, <a href="/blog/gutter-cleaning-walsall" style="color: #19C58B; font-weight: 600; text-decoration: none;">Walsall</a>, <a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; font-weight: 600; text-decoration: none;">Wolverhampton</a>, and across the wider <a href="/blog/fascias-soffits-gutter-cleaning-west-midlands" style="color: #19C58B; font-weight: 600; text-decoration: none;">West Midlands</a>. See our full <a href="/help/unblock" style="color: #19C58B; font-weight: 600; text-decoration: none;">gutter cleaning service page</a> for the complete coverage area.</p>
-
-<h2>Why Handsworth Wood Homeowners Choose WOW Gutters</h2>
-
-<p>There are plenty of companies offering gutter cleaning across Birmingham. Here's why homeowners in Handsworth Wood come back to WOW Gutters — and why we're rated 4.9★ by more than 2,696 customers:</p>
-
-<ul>
-  <li>🌀 <strong>No ladders, ever.</strong> Our ground-level vacuum system reaches up to four storeys — no ladders placed against your property, no risk to your fascias, render, or windows</li>
-  <li>📸 <strong>Before and after photos on every single job.</strong> Not occasionally, not on request — on every job, without exception</li>
-  <li>⚡ <strong>Same-day booking available.</strong> We cover all B20 postcodes and can often book within 24 hours</li>
-  <li>💷 <strong>Fixed prices, nothing hidden.</strong> The quote you receive is the total you pay</li>
-  <li>📍 <strong>Local Birmingham team.</strong> We're not a national call centre — we know the area, the housing stock, and the seasonal patterns specific to Handsworth Wood</li>
-</ul>
-
-<p>We also carry out <a href="/help/repair" style="color: #19C58B; font-weight: 600; text-decoration: none;">gutter repairs</a> for leaking joints, loose brackets, and sagging sections. And if your roof moss is contributing to repeat gutter blockages, our <a href="/help/clean" style="color: #19C58B; font-weight: 600; text-decoration: none;">roof cleaning and moss removal service</a> removes the problem at the source.</p>
-
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
-  ⭐⭐⭐⭐⭐ <em>"Brilliant service in Handsworth Wood — arrived on time, sent before and after photos, and the price was exactly as quoted. Gutters were completely blocked with leaves from the park. Sorted in under 30 minutes."</em><br/>
-  — Handsworth Wood homeowner, verified Google review
-</blockquote>
-
-<h2>Frequently Asked Questions — Gutter Cleaning Handsworth Wood</h2>
-
-<div style="margin: 40px 0;">
-
-  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
-    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
-      <span>How much does gutter cleaning cost in Handsworth Wood?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
-    </summary>
-    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Gutter cleaning in Handsworth Wood starts from £50 for a standard terraced house. Semi-detached homes typically cost £65–£90, and larger detached properties from £90–£130. WOW Gutters provides fixed quotes with no hidden fees or call-out charges.</p>
-    </div>
-  </details>
-
-  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
-    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
-      <span>How often should gutters be cleaned in Handsworth Wood?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
-    </summary>
-    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Most Handsworth Wood properties benefit from two cleans per year — once in late autumn (October–November) after leaf fall from Handsworth Park and surrounding street trees, and once in late spring (April–May) after sycamore seed season. Properties on the park-adjacent avenues particularly benefit from this schedule.</p>
-    </div>
-  </details>
-
-  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
-    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
-      <span>Do you use ladders?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
-    </summary>
-    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">No. WOW Gutters uses a professional ground-level vacuum system that reaches gutters up to four storeys high — no ladders placed against your property, no risk of damage to fascias, render, or window frames. This is especially important on Handsworth Wood's larger Edwardian semis where traditional ladder access can damage uPVC guttering.</p>
-    </div>
-  </details>
-
-  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
-    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
-      <span>Can blocked gutters cause damp inside my Handsworth Wood property?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
-    </summary>
-    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Yes — this is one of the most common causes of internal damp we encounter in Handsworth Wood. Water overflowing from a blocked gutter runs continuously down the same section of brickwork during every rain shower, saturating the wall and eventually penetrating the interior. On older solid-wall properties common throughout the area, this can happen faster than on modern cavity-wall construction. Regular cleaning prevents this entirely.</p>
-    </div>
-  </details>
-
-  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
-    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
-      <span>Do you work with landlords in Handsworth Wood?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
-    </summary>
-    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Yes — we work with landlords and letting agents across Handsworth Wood and the wider B20 area, providing photographic evidence of gutter condition before and after each visit for maintenance records and tenant check reports.</p>
-    </div>
-  </details>
-
-  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
-    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
-      <span>What areas near Handsworth Wood do you cover?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
-    </summary>
-    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">We cover all B20 and surrounding postcodes including Handsworth Wood, Handsworth, Perry Barr, Birchfield, Lozells, Newtown, Great Barr, Witton, and all surrounding inner-city Birmingham neighbourhoods. Same-day booking available.</p>
-    </div>
-  </details>
-
-  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
-    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
-      <span>Do you offer gutter repairs in Handsworth Wood?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
-    </summary>
-    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Yes. If our technician spots damaged sections, loose brackets or leaking joints during your clean, we flag these in our condition report. Our repair team can return to carry out the necessary work — covering leaking joint resealing, bracket replacement, cracked section replacement, and downpipe reattachment.</p>
-    </div>
-  </details>
-
-</div>
-
-<h2>Related Articles</h2>
-
-<ul>
-  <li><strong><a href="/gutter-cleaning-birmingham" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Birmingham — Full Local Guide</a></strong></li>
-  <li><strong><a href="/blog/gutter-cleaning-walsall" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Walsall | WOW Gutters</a></strong></li>
-  <li><strong><a href="/blog/blocked-gutters-sycamore-seeds" style="color: #19C58B; text-decoration: none;">Blocked Gutters Packed With Sycamore Seeds</a></strong></li>
-  <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
-  <li><strong><a href="/gutter-cleaning-prices" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Prices — Full 2026 Guide</a></strong></li>
-</ul>
-    `,
   }
 ];
+
