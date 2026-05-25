@@ -2220,13 +2220,13 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Need gutter cleaning in Walsall? WOW Gutters covers all WS postcodes — same-day booking, ground-level vacuum system, prices from £50. See what\'s blocking your gutters.',
     image: '/walsall-gutter-cleaning-hero.png',
     heroVideo: '/gutter-cleaning-video.mp4',
-    date: '2026-05-22',
+    date: '2026-05-25',
     views: '0',
     author: 'WOW Gutters Technical Team',
     authorRole: 'Professional Gutter Cleaning Specialists',
     category: 'Maintenance',
-    lastUpdated: '2026-05-22',
-    quickAnswer: 'Gutters in Walsall should be cleaned at least once a year — twice if your property is near trees. The most common warning signs are water overflowing during rainfall, dark staining on your external walls, damp patches in upstairs rooms, and fascia boards pulling away. Professional gutter cleaning in Walsall starts from £50 for a bungalow and £65–£90 for a semi-detached house, with same-day appointments available across all WS postcodes.',
+    lastUpdated: '2026-05-25',
+    quickAnswer: 'Gutters in Walsall should be cleaned at least once a year — twice if your property is near trees. The most common warning signs are water overflowing during rainfall, dark staining on your external walls, damp patches in upstairs rooms, and fascia boards pulling away. Same-day appointments available across all WS postcodes. Call 07421 433910 for a free quote.',
     breadcrumbName: 'Gutter Cleaning Walsall',
     featured: true,
     content: `
@@ -2417,7 +2417,7 @@ export const blogPosts: BlogPost[] = [
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Gutter cleaning in Walsall starts from £50 for a standard terraced house. Semi-detached homes typically cost £65–£90, and detached properties from £90–£130. WOW Gutters provides fixed quotes covering all WS postcodes — no hidden fees or call-out charges.</p>
+      <p style="margin: 16px 0 0;">WOW Gutters provides fixed quotes covering all WS postcodes — no hidden fees or call-out charges. Get a free quote online at wowgutters.co.uk or call 07421 433910.</p>
     </div>
   </details>
 
