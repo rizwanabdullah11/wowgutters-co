@@ -5,6 +5,7 @@ import { colors } from '@/constants/colors';
 import { ThumbsUp, Quote, Calendar, User } from 'lucide-react';
 import Link from 'next/link';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
+import ElfsightReviews from '@/components/sections/ElfsightReviews';
 
 const reviews = [
   {
@@ -148,7 +149,7 @@ export default function ReviewsPage() {
         </div>
       </section>
 
-      {/* Reviews Grid */}
+      {/* Reviews Grid — Elfsight Google Reviews Widget */}
       <section className="py-20 px-4 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
@@ -160,38 +161,7 @@ export default function ReviewsPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredReviews.map((review) => (
-              <div 
-                key={review.id}
-                className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
-              >
-                <Quote className="w-10 h-10 mb-4 opacity-20" style={{ color: colors.primary }} />
-
-                <p className="text-gray-700 leading-relaxed mb-6">
-                  "{review.review}"
-                </p>
-
-                <div className="pt-6 border-t border-gray-200">
-                  <div className="flex items-center gap-3 mb-3">
-                    <div className="w-12 h-12 rounded-full flex items-center justify-center text-white font-bold" style={{ background: colors.primaryGradient }}>
-                      {review.name.charAt(0)}
-                    </div>
-                    <div>
-                      <div className="font-bold text-gray-900">{review.name}</div>
-                      <div className="text-sm text-gray-500">{review.location}</div>
-                    </div>
-                  </div>
-                  <div className="flex items-center justify-between text-sm">
-                    <span className="px-3 py-1 rounded-full text-xs font-semibold" style={{ backgroundColor: `${colors.primary}20`, color: colors.primary }}>
-                      {review.service}
-                    </span>
-                    <span className="text-gray-500">{new Date(review.date).toLocaleDateString('en-GB')}</span>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+          <ElfsightReviews />
         </div>
       </section>
 
