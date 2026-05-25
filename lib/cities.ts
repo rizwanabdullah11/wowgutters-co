@@ -648,6 +648,42 @@ export const CITIES: Record<string, CityData> = {
     county: 'West Midlands',
     tier: 'suburb',
   },
+
+  'balsall-heath': {
+    slug: 'balsall-heath',
+    name: 'Balsall Heath',
+    postcodes: ['B12'],
+    nearbyAreas: ['Moseley', 'Sparkbrook', 'Edgbaston', 'Birmingham', 'Highgate'],
+    geo: { latitude: 52.4617, longitude: -1.8883 },
+    pricing: {
+      terraced: { min: 50, max: 65 },
+      semiDetached: { min: 55, max: 75 },
+      detached: { min: 75, max: 115 },
+    },
+    priceFrom: 50,
+    priceTo: 115,
+    region: 'West Midlands',
+    county: 'West Midlands',
+    tier: 'suburb',
+  },
+
+  'kings-norton': {
+    slug: 'kings-norton',
+    name: 'Kings Norton',
+    postcodes: ['B30', 'B38'],
+    nearbyAreas: ['Northfield', 'Bournville', 'Cotteridge', 'Birmingham', 'Redditch'],
+    geo: { latitude: 52.4050, longitude: -1.9283 },
+    pricing: {
+      terraced: { min: 50, max: 70 },
+      semiDetached: { min: 60, max: 80 },
+      detached: { min: 80, max: 125 },
+    },
+    priceFrom: 50,
+    priceTo: 125,
+    region: 'West Midlands',
+    county: 'West Midlands',
+    tier: 'suburb',
+  },
   
   'great-barr': {
     slug: 'great-barr',
