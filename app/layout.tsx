@@ -212,6 +212,8 @@ fbq('track', 'PageView');`,
         <script src="/wow-cta-dialog-init.js?v=20260421"></script>
         {/* Form engine: MutationObserver-based, completely outside React bundling */}
         <script src="/wow-quote-form-init.js?v=20260421"></script>
+        {/* Elfsight Google Reviews Widget */}
+        <script src="https://elfsightcdn.com/platform.js" async></script>
       </head>
       <body className="font-sans antialiased content-protected" suppressHydrationWarning>
         <IosViewportStabilizer />
