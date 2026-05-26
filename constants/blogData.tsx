@@ -2683,6 +2683,284 @@ export const blogPosts: BlogPost[] = [
   <li><strong><a href="/gutter-cleaning-prices" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Prices — Full 2026 Guide</a></strong></li>
 </ul>
     `,
+  },
+  {
+    id: 'roof-cleaning-dudley',
+    title: 'Roof Cleaning Dudley — Before & After Moss Removal 2026 | WOW Gutters',
+    excerpt: 'Real before & after roof cleaning results from Dudley homes. WOW Gutters removes moss, algae and debris using soft wash — no scaffolding, photo proof every job. Book today.',
+    image: '/dudley-roof-cleaning-hero.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
+    date: '2026-05-26',
+    views: '0',
+    author: 'WOW Gutters Technical Team',
+    authorRole: 'Professional Gutter Cleaning Specialists',
+    category: 'Before & After',
+    lastUpdated: '2026-05-26',
+    quickAnswer: 'These before and after photographs are from a real WOW Gutters roof cleaning job in Dudley. Moss, algae and debris were removed using our professional soft wash system — no scaffolding, no pressure washing, no tile damage. Before and after photos included on every job. Same-day booking across all DY postcodes.',
+    breadcrumbName: 'Roof Cleaning Dudley',
+    content: `
+<p>If your Dudley roof is turning green, you are not alone. Moss and algae growth is one of the most damaging issues affecting homes across Dudley, Brierley Hill, Sedgley, Kingswinford, and the wider DY postcode area. This post shows you real before and after results from a recent WOW Gutters job, explains what the growth actually does to your tiles, and tells you exactly what a professional soft wash clean involves.</p>
+
+<h2>The Before &amp; After — A Real Dudley Roof</h2>
+
+<figure style="margin: 20px 0;">
+  <img
+    src="/dudley-roof-cleaning-before.png"
+    alt="Before roof cleaning in Dudley — heavy moss, green algae and lichen covering roof tiles on a Dudley semi-detached, WOW Gutters West Midlands 2026"
+    width="1200"
+    height="800"
+    loading="eager"
+    style="width: 100%; height: auto; max-width: 1200px; border-radius: 8px; display: block;"
+  />
+  <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
+    Before: A Dudley semi-detached with two-plus years of moss, algae and lichen accumulation covering the ridge tiles and upper tile courses. Debris from this roof was washing directly into the gutters below with every rainfall.
+  </figcaption>
+</figure>
+
+<p>This is a real WOW Gutters job in Dudley. What you can see in the before photograph is typical of a Dudley property that has not had its roof treated in two years or more:</p>
+
+<ul>
+  <li><strong>Dense moss coverage</strong> across the upper tile courses and ridge line</li>
+  <li><strong>Green algae film</strong> spreading across the mid and lower tile surfaces</li>
+  <li><strong>Lichen patches</strong> bonded directly to the tile surface — the most stubborn growth type, requiring biocidal treatment to fully clear</li>
+  <li><strong>Loose debris at the tile joints</strong> that washes directly into the gutters below with every rainfall</li>
+</ul>
+
+<p>That last point matters. If your gutters keep blocking despite regular cleaning, a mossy roof is almost always the reason. Moss fragments wash off tiles constantly during rainfall and accumulate in the gutter channel below. Until the roof is treated, the blockages keep coming back. See our full guide on <a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">what causes gutters to block repeatedly</a>.</p>
+
+<figure style="margin: 20px 0;">
+  <img
+    src="/dudley-roof-cleaning-after.png"
+    alt="After roof cleaning in Dudley — tiles fully restored, moss algae and lichen removed by WOW Gutters soft wash, West Midlands 2026"
+    width="1200"
+    height="800"
+    loading="lazy"
+    style="width: 100%; height: auto; max-width: 1200px; border-radius: 8px; display: block;"
+  />
+  <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
+    After: The same Dudley roof following WOW Gutters soft wash treatment. Tiles restored, ridge line clear, biocide applied. Results continue improving over the following 4–6 weeks as treated growth breaks down.
+  </figcaption>
+</figure>
+
+<p>The after photograph shows the same roof following our soft wash treatment. The immediate result is visible — but the full improvement continues over the following four to six weeks as the biocidal treatment breaks down the remaining treated growth, which washes away naturally in rainfall.</p>
+
+<p><strong>No scaffolding was used on this job.</strong> Our ground-level system reached the full roof surface without any contact with your tiles, fascias, or render throughout the entire clean.</p>
+
+<h2>Why Dudley Roofs Develop Moss So Quickly</h2>
+
+<p>Dudley and the DY postcode area has a combination of factors that make moss and algae growth faster and more persistent than in many other parts of the West Midlands.</p>
+
+<h3>Dudley's Elevated Position</h3>
+<p>Dudley is built on and around Dudley Hill — one of the highest points in the West Midlands. The elevated position means properties in Dudley, Sedgley, and Coseley experience more wind-driven moisture and sustained damp on roof surfaces than lower-lying areas. Moss thrives in exactly these conditions — cool, moist, and with reduced drying from direct sunlight.</p>
+
+<h3>North-Facing Roof Sections</h3>
+<p>Many Dudley properties have significant north-facing roof slopes that receive minimal direct sunlight throughout the year. North-facing tiles stay damp longer after every rainfall — creating near-perfect conditions for moss to establish and spread. Properties in Sedgley, Gornal, and the hillside streets of Upper Gornal frequently develop heavy moss on north-facing sections within 18 months of a previous clean.</p>
+
+<h3>Older Concrete Tile Stock</h3>
+<p>A large proportion of Dudley's housing — particularly the post-war semi-detached properties across Netherton, Brierley Hill, and Kingswinford — has concrete interlocking tiles. Concrete tiles are more porous than modern clay or slate, meaning they absorb and retain moisture more effectively and provide a better substrate for biological growth. Once moss establishes on concrete tiles it spreads faster and is harder to remove than on smoother surfaces.</p>
+
+<h3>Tree Coverage on Residential Streets</h3>
+<p>Dudley's established residential streets — particularly around Priory Road, Stourbridge Road, and the older estates of Sedgley — have mature tree coverage providing shade and organic debris. Shaded roof sections develop moss faster, and organic material from nearby trees adds nutrients that feed sustained growth.</p>
+
+<h2>Soft Wash vs Pressure Washing — Why It Matters</h2>
+
+<h3>Why We Never Pressure Wash</h3>
+<p>High-pressure washing removes surface moss quickly and looks effective on the day. But for Dudley's older housing stock it:</p>
+<ul>
+  <li>Removes the granular surface layer that protects the tile from water absorption — accelerating long-term tile degradation</li>
+  <li>Forces water under loose tile edges and around ridge mortar — increasing frost damage risk in subsequent winters</li>
+  <li>Blasts lichen off the tile surface without killing it at the root — meaning regrowth is faster than after soft wash</li>
+  <li>Deposits loosened debris directly into the gutters below — causing immediate blockages straight after the clean</li>
+</ul>
+
+<h3>Why We Use Soft Wash</h3>
+<p>Our soft wash system uses low-pressure water delivery with a professional biocidal treatment. The biocide:</p>
+<ul>
+  <li>Kills moss, algae, and lichen at the biological root — not just removing visible surface growth</li>
+  <li>Continues working for weeks after application as treated growth breaks down and washes away naturally</li>
+  <li>Does not damage tile surfaces, ridge mortar, or pointing</li>
+  <li>Is safe for all tile types covering Dudley's full housing range — concrete, clay, and slate</li>
+</ul>
+
+<p>Results typically last <strong>3 to 5 years</strong> before retreatment is needed. This is the method recommended by the <a href="https://www.propertycare.org/" style="color: #19C58B; font-weight: 600; text-decoration: none;" target="_blank" rel="noopener">Property Care Association</a> for UK residential roof cleaning.</p>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+  💡 <strong>Bundle and save:</strong> Booking roof cleaning and gutter cleaning together in one visit saves £40–£80 compared to booking separately — and clears the gutters immediately after the roof treatment before any loosened debris enters them.
+</blockquote>
+
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 220px;">
+    <h3 style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.2;">BOOK YOUR DUDLEY ROOF CLEAN</h3>
+    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Same-day availability across all DY postcodes. Rated 4.9★ by 2,696+ customers across the West Midlands.</p>
+  </div>
+  <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
+    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+      <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
+    </a>
+    <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
+    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+  </div>
+</div>
+
+<h2>How Roof Moss Directly Affects Your Gutters</h2>
+
+<p>When a Dudley roof has significant moss coverage, fragments wash off the tiles during every rainfall and flow directly into the gutters below. Inside the gutter channel, those fragments combine with leaf debris and silt to form blockages. The heavier the roof moss, the faster the gutters fill.</p>
+
+<p>This is why some Dudley properties need their <a href="/help/unblock" style="color: #19C58B; font-weight: 600; text-decoration: none;">gutters cleaned</a> three or four times a year despite regular maintenance — the roof is constantly resupplying the gutters with fresh organic debris. Treating the roof removes this source, and most homeowners find their gutters stay clear significantly longer after a roof treatment.</p>
+
+<h2>Areas We Cover in Dudley</h2>
+
+<p>WOW Gutters covers all DY postcodes — DY1 through DY14.</p>
+
+<div style="overflow-x: auto; margin: 24px 0;">
+  <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem;">
+    <thead>
+      <tr style="background: #0f172a; color: #ffffff;">
+        <th style="padding: 12px 16px; text-align: left; font-weight: 700;">Area</th>
+        <th style="padding: 12px 16px; text-align: left; font-weight: 700;">Postcode</th>
+        <th style="padding: 12px 16px; text-align: left; font-weight: 700; color: #ffffff;">Property Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid #e5e7eb;">
+        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Dudley Town</td>
+        <td style="padding: 12px 16px; color: #0f172a;">DY1, DY2</td>
+        <td style="padding: 12px 16px; color: #0f172a;">Victorian terraces, concrete tiles</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #e5e7eb; background: #f8fafc;">
+        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Brierley Hill</td>
+        <td style="padding: 12px 16px; color: #0f172a;">DY5</td>
+        <td style="padding: 12px 16px; color: #0f172a;">Post-war semi-detached</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #e5e7eb;">
+        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Sedgley</td>
+        <td style="padding: 12px 16px; color: #0f172a;">DY3</td>
+        <td style="padding: 12px 16px; color: #0f172a;">Hillside properties, heavy north-facing moss</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #e5e7eb; background: #f8fafc;">
+        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Coseley</td>
+        <td style="padding: 12px 16px; color: #0f172a;">DY4</td>
+        <td style="padding: 12px 16px; color: #0f172a;">Mixed residential housing</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #e5e7eb;">
+        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Kingswinford</td>
+        <td style="padding: 12px 16px; color: #0f172a;">DY6</td>
+        <td style="padding: 12px 16px; color: #0f172a;">Detached properties, larger roof areas</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #e5e7eb; background: #f8fafc;">
+        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Stourbridge</td>
+        <td style="padding: 12px 16px; color: #0f172a;">DY8, DY9</td>
+        <td style="padding: 12px 16px; color: #0f172a;">Older detached, clay and concrete tiles</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #e5e7eb;">
+        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Netherton</td>
+        <td style="padding: 12px 16px; color: #0f172a;">DY2</td>
+        <td style="padding: 12px 16px; color: #0f172a;">Post-war semi-detached</td>
+      </tr>
+      <tr style="background: #f8fafc;">
+        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Halesowen</td>
+        <td style="padding: 12px 16px; color: #0f172a;">DY9</td>
+        <td style="padding: 12px 16px; color: #0f172a;">Mixed housing, some slate roofs</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p>We also cover <a href="/gutter-cleaning-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">Birmingham</a>, <a href="/blog/gutter-cleaning-walsall" style="color: #19C58B; font-weight: 600; text-decoration: none;">Walsall</a>, <a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <a href="/blog/gutter-cleaning-solihull" style="color: #19C58B; font-weight: 600; text-decoration: none;">Solihull</a>, and <a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; font-weight: 600; text-decoration: none;">Coventry</a> and all surrounding West Midlands areas.</p>
+
+<h2>Signs Your Dudley Roof Needs Cleaning</h2>
+
+<p>Check from your garden or the street — you do not need a ladder:</p>
+<ul>
+  <li>🟢 <strong>Green or black streaking on tiles</strong> — early-stage algae film</li>
+  <li>🌿 <strong>Visible green or yellow moss patches</strong> — established growth</li>
+  <li>⬛ <strong>Darker sections on north-facing slopes</strong> — biological growth retaining moisture</li>
+  <li>⬜ <strong>White or pale patches bonded to tiles</strong> — lichen growth</li>
+  <li>🍂 <strong>Gutters blocking repeatedly</strong> despite regular cleaning</li>
+  <li>🔍 <strong>Tiles appearing rough or degraded</strong> — surface erosion from sustained biological growth</li>
+</ul>
+
+<h2>Frequently Asked Questions — Roof Cleaning Dudley</h2>
+
+<div style="margin: 40px 0;">
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Is roof cleaning worth it in Dudley?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Yes. Moss on Dudley's older concrete tile stock accelerates tile degradation, causes repeated gutter blockages, and risks water penetration through compromised ridge mortar. Roof replacement starts at £5,000+. A professional clean is a fraction of that cost.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>What is soft wash and is it safe for Dudley tiles?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Soft wash uses low-pressure water with a biocidal treatment that kills moss, algae and lichen at the root without damaging tile surfaces. It is safe for all tile types including concrete, clay and slate and is recommended by the Property Care Association for UK residential roof cleaning.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Do you use scaffolding for roof cleaning in Dudley?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">No. WOW Gutters uses a ground-level high-reach system throughout. No scaffolding and no ladders placed against your property at any point.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>How long does roof cleaning last in Dudley?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">A professional soft wash treatment typically lasts 3–5 years in the West Midlands climate. North-facing sections in Sedgley and Gornal may need retreatment after 2–3 years due to reduced sunlight drying.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Does roof moss affect my gutters in Dudley?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Yes. Moss fragments wash off tiles during every rainfall and accumulate in gutters below. Treating the roof reduces this debris source and extends the intervals between gutter cleaning visits significantly.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>What areas of Dudley do you cover?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">All DY postcodes — DY1 to DY14 including Dudley town, Brierley Hill, Sedgley, Coseley, Kingswinford, Stourbridge, Netherton, Halesowen and all surrounding areas. Same-day booking available.</p>
+    </div>
+  </details>
+
+</div>
+
+<p>📞 <strong>Call or WhatsApp:</strong> <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
+🌐 <strong>Free online quote:</strong> <a href="/quote" style="color: #19C58B; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
+📍 <strong>Serving:</strong> Dudley, Brierley Hill, Sedgley, Coseley, Kingswinford, Stourbridge, Netherton, Halesowen &amp; all DY postcodes<br/>
+🕐 <strong>Available:</strong> 7 days a week | Same day booking available</p>
+
+<h2>Related Articles</h2>
+
+<ul>
+  <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Wolverhampton | WOW Gutters</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-walsall" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Walsall | WOW Gutters</a></strong></li>
+  <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
+  <li><strong><a href="/blog/blocked-gutters-sycamore-seeds" style="color: #19C58B; text-decoration: none;">Blocked Gutters Packed With Sycamore Seeds</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-prices" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Prices — Full 2026 Guide</a></strong></li>
+</ul>
+    `,
   }
 ];
 
