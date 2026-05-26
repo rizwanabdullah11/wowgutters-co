@@ -2228,7 +2228,6 @@ export const blogPosts: BlogPost[] = [
     lastUpdated: '2026-05-25',
     quickAnswer: 'Gutters in Walsall should be cleaned at least once a year — twice if your property is near trees. The most common warning signs are water overflowing during rainfall, dark staining on your external walls, damp patches in upstairs rooms, and fascia boards pulling away. Same-day appointments available across all WS postcodes. Call 07421 433910 for a free quote.',
     breadcrumbName: 'Gutter Cleaning Walsall',
-    featured: true,
     content: `
 
 <h2>Real Walsall Job: Before &amp; After</h2>
@@ -2698,6 +2697,7 @@ export const blogPosts: BlogPost[] = [
     lastUpdated: '2026-05-26',
     quickAnswer: 'These before and after photographs are from a real WOW Gutters roof cleaning job in Dudley. Moss, algae and debris were removed using our professional soft wash system — no scaffolding, no pressure washing, no tile damage. Before and after photos included on every job. Same-day booking across all DY postcodes.',
     breadcrumbName: 'Roof Cleaning Dudley',
+    featured: true,
     content: `
 <p>If your Dudley roof is turning green, you are not alone. Moss and algae growth is one of the most damaging issues affecting homes across Dudley, Brierley Hill, Sedgley, Kingswinford, and the wider DY postcode area. This post shows you real before and after results from a recent WOW Gutters job, explains what the growth actually does to your tiles, and tells you exactly what a professional soft wash clean involves.</p>
 
@@ -2783,10 +2783,6 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <p>Results typically last <strong>3 to 5 years</strong> before retreatment is needed. This is the method recommended by the <a href="https://www.propertycare.org/" style="color: #19C58B; font-weight: 600; text-decoration: none;" target="_blank" rel="noopener">Property Care Association</a> for UK residential roof cleaning.</p>
-
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
-  💡 <strong>Bundle and save:</strong> Booking roof cleaning and gutter cleaning together in one visit saves £40–£80 compared to booking separately — and clears the gutters immediately after the roof treatment before any loosened debris enters them.
-</blockquote>
 
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
@@ -2890,7 +2886,7 @@ export const blogPosts: BlogPost[] = [
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Yes. Moss on Dudley's older concrete tile stock accelerates tile degradation, causes repeated gutter blockages, and risks water penetration through compromised ridge mortar. Roof replacement starts at £5,000+. A professional clean is a fraction of that cost.</p>
+      <p style="margin: 16px 0 0;">Yes. Moss on Dudley's older concrete tile stock accelerates tile degradation, causes repeated gutter blockages, and risks water penetration through compromised ridge mortar. A professional clean is a fraction of the cost of roof replacement or structural repairs.</p>
     </div>
   </details>
 
