@@ -85,7 +85,10 @@ export const AREA_SLUGS: readonly string[] = [
   'sedgley',
   'selly-oak',
   'shard-end',
+  'sheldon',
   'shelfield',
+  'shenley-fields',
+  'shenley-green',
   'shirley',
   'small-heath',
   'smethwick',
@@ -93,6 +96,7 @@ export const AREA_SLUGS: readonly string[] = [
   'sparkbrook',
   'sparkhill',
   'stechford',
+  'stirchley',
   'stoke',
   'stourbridge',
   'streetly',
@@ -101,8 +105,11 @@ export const AREA_SLUGS: readonly string[] = [
   'tettenhall',
   'tile-hill',
   'tipton',
+  'turves-green',
   'tyseley',
   'walsall',
+  'ward-end',
+  'washwood-heath',
   'wednesbury',
   'wednesfield',
   'westmidlands',
@@ -117,6 +124,7 @@ export const AREA_SLUGS: readonly string[] = [
   'wyken',
   'wylde-green',
   'yardley',
+  'yardley-wood',
 ] as const;
 
 /** Public SEO URL: /gutter-cleaning-{city}/ (single path segment after domain). */
