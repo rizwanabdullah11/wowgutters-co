@@ -8,19 +8,19 @@ const URL_PATH = 'https://wowgutters.co.uk/gutter-cleaning-sutton-coldfield/'
 const pageData = suburbPages['sutton-coldfield']
 
 export const metadata: Metadata = {
-  title: 'Gutter Cleaning Sutton Coldfield, Birmingham | WOW Gutters Ltd',
+  title: 'Gutter Cleaning Sutton Coldfield | WOW Gutters Ltd',
   description: 'Gutter cleaning in Sutton Coldfield (B72-B76). Period townhouses to luxury detached, no ladders, vacuum system, before & after photos. From £60. Call: 07421 433910.',
   alternates: { canonical: URL_PATH, languages: { 'en-GB': URL_PATH, 'x-default': URL_PATH } },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
-    title: 'Gutter Cleaning Sutton Coldfield, Birmingham | WOW Gutters Ltd',
+    title: 'Gutter Cleaning Sutton Coldfield | WOW Gutters Ltd',
     description: 'Professional gutter cleaning in Sutton Coldfield, Birmingham (B72-B76). No ladders, vacuum system, before & after photos. From £60. Call WOW Gutters: 07421 433910.',
     url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters',
     images: [{ url: 'https://wowgutters.co.uk/og/sutton-coldfield.jpg', width: 1200, height: 630, alt: 'WOW Gutters — Gutter Cleaning Sutton Coldfield Birmingham' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Gutter Cleaning Sutton Coldfield, Birmingham | WOW Gutters Ltd',
+    title: 'Gutter Cleaning Sutton Coldfield | WOW Gutters Ltd',
     description: 'Professional gutter cleaning in Sutton Coldfield B72-B76. From £60. No ladders, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/sutton-coldfield.jpg'],
   },

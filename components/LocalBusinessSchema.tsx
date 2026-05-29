@@ -144,6 +144,24 @@ export default function LocalBusinessSchema({
           bestRating: '5',
           worstRating: '1',
         },
+        contactPoint: {
+          '@type': 'ContactPoint',
+          telephone: '+447421433910',
+          contactType: 'Customer Service',
+          contactOption: 'TollFree',
+          areaServed: 'GB',
+          availableLanguage: 'English',
+          hoursAvailable: {
+            '@type': 'OpeningHoursSpecification',
+            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+            opens: '07:00',
+            closes: '20:00',
+          },
+        },
+        potentialAction: {
+          '@type': 'CommunicateAction',
+          target: 'tel:+447421433910',
+        },
       },
 
       // 2. Service

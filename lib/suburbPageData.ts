@@ -4,7 +4,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   moseley: {
     city: 'Moseley',
     heroBadge: 'Local Moseley specialists • Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Moseley',
+    heroTitleLine1: 'Gutter Cleaning Moseley Birmingham',
     heroTitleLine2: 'Professional Service for B13 Properties',
     whyTitle: 'Why Moseley Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
