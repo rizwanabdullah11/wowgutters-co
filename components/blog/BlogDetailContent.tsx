@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { blogPosts } from '@/constants/blogData';
 import { colors } from '@/constants/colors';
 import { Calendar, User, Eye, Share2, Phone, PenTool, BookOpen } from 'lucide-react';
@@ -10,6 +10,120 @@ import AreaFAQ from '@/components/areas/AreaFAQ';
 import AreaReviews from '@/components/areas/AreaReviews';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import { formatBlogDate } from '@/lib/dateUtils';
+
+// ── Accordion item ──────────────────────────────────────────────────────────
+function AccordionItem({ question, answer }: { question: string; answer: string }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div
+      style={{
+        border: '1px solid #e5e7eb',
+        borderRadius: 12,
+        marginBottom: 12,
+        overflow: 'hidden',
+        background: '#ffffff',
+        boxShadow: open ? '0 4px 16px rgba(0,0,0,0.08)' : undefined,
+        transition: 'box-shadow 0.2s ease',
+      }}
+    >
+      <button
+        type="button"
+        onClick={() => setOpen(o => !o)}
+        style={{
+          width: '100%',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          gap: 12,
+          padding: '20px 24px',
+          fontSize: '1.05rem',
+          fontWeight: 700,
+          color: '#0f172a',
+          background: 'none',
+          border: 'none',
+          cursor: 'pointer',
+          textAlign: 'left',
+          userSelect: 'none',
+        }}
+      >
+        <span>{question}</span>
+        <span
+          style={{
+            flexShrink: 0,
+            width: 24,
+            height: 24,
+            borderRadius: '50%',
+            background: open ? '#0f172a' : '#19C58B',
+            color: '#fff',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            fontSize: '1.2rem',
+            lineHeight: 1,
+            fontWeight: 400,
+            transform: open ? 'rotate(45deg)' : 'none',
+            transition: 'transform 0.25s ease, background 0.2s ease',
+          }}
+        >
+          +
+        </span>
+      </button>
+      {open && (
+        <div
+          style={{
+            padding: '0 24px 20px',
+            color: '#475569',
+            lineHeight: 1.75,
+            borderTop: '1px solid #f1f5f9',
+          }}
+          dangerouslySetInnerHTML={{ __html: answer }}
+        />
+      )}
+    </div>
+  );
+}
+
+// ── Smart content renderer — replaces <details> with React accordion ────────
+function BlogContent({ html }: { html: string }) {
+  const parts: Array<{ type: 'html' | 'faq'; content: string; question?: string; answer?: string }> = [];
+  const detailsRe = /<details[\s\S]*?<\/details>/gi;
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = detailsRe.exec(html)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push({ type: 'html', content: html.slice(lastIndex, match.index) });
+    }
+    const questionMatch = match[0].match(/<summary[\s\S]*?<span>([^<]+)<\/span>/i);
+    const answerMatch = match[0].match(/<div[^>]*>([\s\S]*?)<\/div>\s*<\/details>/i);
+    if (questionMatch && answerMatch) {
+      parts.push({
+        type: 'faq',
+        content: match[0],
+        question: questionMatch[1].trim(),
+        answer: answerMatch[1].trim(),
+      });
+    } else {
+      parts.push({ type: 'html', content: match[0] });
+    }
+    lastIndex = match.index + match[0].length;
+  }
+  if (lastIndex < html.length) {
+    parts.push({ type: 'html', content: html.slice(lastIndex) });
+  }
+
+  return (
+    <>
+      {parts.map((part, i) =>
+        part.type === 'faq' ? (
+          <AccordionItem key={i} question={part.question!} answer={part.answer!} />
+        ) : (
+          <div key={i} dangerouslySetInnerHTML={{ __html: part.content }} />
+        )
+      )}
+    </>
+  );
+}
 
 interface BlogDetailContentProps {
   post: typeof blogPosts[0];
@@ -360,7 +474,7 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
               {/* Main Content */}
               <div className="prose prose-lg max-w-none blog-content">
                 {post.content ? (
-                  <div dangerouslySetInnerHTML={{ __html: post.content }} />
+                  <BlogContent html={post.content} />
                 ) : (
                   <div className="space-y-6">
                     <p className="text-lg leading-relaxed text-gray-700">
@@ -725,6 +839,93 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
           margin: 2rem 0;
           box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
           object-fit: cover;
+        }
+
+        /* ── Dynamic FAQ accordion ── */
+        .blog-content details {
+          border: 1px solid #e5e7eb;
+          border-radius: 12px;
+          margin-bottom: 12px;
+          overflow: hidden;
+          background: #ffffff;
+          transition: box-shadow 0.2s ease;
+        }
+
+        .blog-content details[open] {
+          box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        }
+
+        .blog-content details summary {
+          cursor: pointer;
+          padding: 20px 24px;
+          font-size: 1.05rem;
+          font-weight: 700;
+          color: #0f172a;
+          list-style: none;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 12px;
+          user-select: none;
+          transition: background 0.15s ease;
+        }
+
+        .blog-content details summary::-webkit-details-marker {
+          display: none;
+        }
+
+        .blog-content details summary:hover {
+          background: #f8fafc;
+        }
+
+        /* The + icon span */
+        .blog-content details summary > span:last-child {
+          flex-shrink: 0;
+          width: 24px;
+          height: 24px;
+          border-radius: 50%;
+          background: #19C58B;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 1.2rem;
+          line-height: 1;
+          font-weight: 400;
+          transition: transform 0.25s ease, background 0.2s ease;
+        }
+
+        .blog-content details[open] summary > span:last-child {
+          transform: rotate(45deg);
+          background: #0f172a;
+        }
+
+        /* Animated content panel */
+        .blog-content details > div {
+          padding: 0 24px 20px;
+          color: #475569;
+          line-height: 1.75;
+          border-top: 1px solid #f1f5f9;
+          animation: faqSlideDown 0.25s ease forwards;
+        }
+
+        .blog-content details > div p {
+          margin: 16px 0 0;
+          font-size: 1rem;
+        }
+
+        /* Override the bullet ::before for FAQ list items inside details */
+        .blog-content details ul li::before {
+          display: none;
+        }
+
+        .blog-content details ul li {
+          padding-left: 0;
+        }
+
+        @keyframes faqSlideDown {
+          from { opacity: 0; transform: translateY(-6px); }
+          to   { opacity: 1; transform: translateY(0); }
         }
 
         @media (max-width: 768px) {
