@@ -2697,7 +2697,6 @@ export const blogPosts: BlogPost[] = [
     lastUpdated: '2026-05-26',
     quickAnswer: 'These before and after photographs are from a real WOW Gutters roof cleaning job in Dudley. Moss, algae and debris were removed using our professional soft wash system — no scaffolding, no pressure washing, no tile damage. Before and after photos included on every job. Same-day booking across all DY postcodes.',
     breadcrumbName: 'Roof Cleaning Dudley',
-    featured: true,
     content: `
 <p>If your Dudley roof is turning green, you are not alone. Moss and algae growth is one of the most damaging issues affecting homes across Dudley, Brierley Hill, Sedgley, Kingswinford, and the wider DY postcode area. This post shows you real before and after results from a recent WOW Gutters job, explains what the growth actually does to your tiles, and tells you exactly what a professional soft wash clean involves.</p>
 
@@ -2955,6 +2954,279 @@ export const blogPosts: BlogPost[] = [
   <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
   <li><strong><a href="/blog/blocked-gutters-sycamore-seeds" style="color: #19C58B; text-decoration: none;">Blocked Gutters Packed With Sycamore Seeds</a></strong></li>
   <li><strong><a href="/gutter-cleaning-prices" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Prices — Full 2026 Guide</a></strong></li>
+</ul>
+    `,
+  },
+  {
+    id: 'gutter-cleaning-bartley-green',
+    title: 'Gutter Cleaning Bartley Green Birmingham | Before & After | WOW Gutters 2026',
+    excerpt: 'Real before & after gutter cleaning in Bartley Green B32. WOW Gutters removes leaves, moss and woodland debris from the ground — no ladders, photo proof every job. Same-day booking.',
+    image: '/gutter-ceaning-bartley-green-hero.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
+    date: '2026-05-28',
+    views: '0',
+    author: 'WOW Gutters Technical Team',
+    authorRole: 'Professional Gutter Cleaning Specialists',
+    category: 'Before & After',
+    lastUpdated: '2026-05-28',
+    quickAnswer: 'These before and after photographs are from a real WOW Gutters gutter cleaning job in Bartley Green, Birmingham B32. Every blockage was cleared using our ground-level vacuum system — no ladders, no scaffolding, no mess. Before and after photos sent directly to the homeowner the same day. Same-day booking across all B31 and B32 postcodes.',
+    breadcrumbName: 'Gutter Cleaning Bartley Green',
+    featured: true,
+    content: `
+<p>If you live in Bartley Green and your gutters overflow every time it rains, you're not dealing with a minor inconvenience. You're dealing with a problem that gets worse with every rainfall and costs significantly more to repair the longer it's left. This post shows you exactly what we found in a real Bartley Green gutter, what the clean looked like, and why B32 properties need more frequent attention than most homeowners expect.</p>
+
+<h2>The Before &amp; After — A Real Bartley Green Job</h2>
+
+<figure style="margin: 20px 0;">
+  <img
+    src="/gutter-ceaning-bartley-green-before.png"
+    alt="Before gutter cleaning in Bartley Green Birmingham B32 — gutter blocked with leaves, moss and compacted woodland debris, WOW Gutters 2026"
+    width="1200"
+    height="800"
+    loading="eager"
+    style="width: 100%; height: auto; max-width: 1200px; border-radius: 8px; display: block;"
+  />
+  <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
+    Before: A Bartley Green semi-detached gutter blocked with two seasons of compacted leaves, moss fragments, and organic silt. The debris included material from species not growing in the property's own garden — wind-blown from Bromwich Wood nearby.
+  </figcaption>
+</figure>
+
+<p>This is a real WOW Gutters job in Bartley Green, Birmingham. The property was a two-storey semi-detached on a residential street in B32. The gutters had not been cleaned in approximately two years and the blockage was causing water to overflow over the gutter edge during every significant rainfall event.</p>
+
+<p><strong>What the before photograph shows:</strong></p>
+<ul>
+  <li><strong>Compacted leaf silt</strong> at the base of the channel — decomposed debris from multiple seasons that had set solid and was raising the effective floor of the gutter</li>
+  <li><strong>Moss fragments</strong> washed from the roof tiles — continuously deposited during every rainfall, building up on top of the compacted base layer</li>
+  <li><strong>Mixed organic debris</strong> including material from woodland species not growing in the property's own garden — consistent with wind-blown debris from nearby Bromwich Wood Local Nature Reserve, which borders Bartley Green's residential streets</li>
+  <li><strong>Standing water</strong> trapped behind the outlet end of the channel, unable to drain through the downpipe</li>
+</ul>
+
+<p>The overflow had been running behind the fascia bracket at the worst blockage point — visible from the dark staining on the fascia surface in the before image.</p>
+
+<figure style="margin: 20px 0;">
+  <img
+    src="/gutter-ceaning-bartley-green-after.png"
+    alt="After gutter cleaning in Bartley Green Birmingham B32 — gutter fully cleared to the plastic channel, downpipe flowing freely, WOW Gutters 2026"
+    width="1200"
+    height="800"
+    loading="lazy"
+    style="width: 100%; height: auto; max-width: 1200px; border-radius: 8px; display: block;"
+  />
+  <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
+    After: Same gutter fully cleared down to the plastic channel. Downpipe tested and confirmed flowing freely. Before and after photos sent to the homeowner the same day. Total time on site: 31 minutes.
+  </figcaption>
+</figure>
+
+<p>The after photograph shows the same gutter section completely clear — right down to the plastic channel surface. The downpipe was flushed with water and confirmed to be draining freely before we left the site.</p>
+
+<p>Both photographs were sent directly to the homeowner the same day. That is standard on every single WOW Gutters job — on every property, in every location, without exception.</p>
+
+<p><strong>Total time on site: 31 minutes.</strong></p>
+
+<h2>Why Bartley Green Gutters Block Faster Than You'd Expect</h2>
+
+<p>Homeowners in Bartley Green often tell us they're surprised how quickly their gutters fill up — even when they were cleaned relatively recently. There are specific reasons for this that are particular to B32 and the surrounding area.</p>
+
+<h3>Bromwich Wood Local Nature Reserve</h3>
+<p>Bartley Green sits adjacent to Bartley Reservoir and its surrounding green spaces, which include <a href="https://bosf.org.uk/members/bartley-reservoir/" style="color: #19C58B; font-weight: 600; text-decoration: none;" target="_blank" rel="noopener">Bromwich Wood</a> — a Local Nature Reserve known for its variety of established deciduous trees. An unmanaged nature reserve generates organic material from oak, ash, sycamore, and birch at a volume that reflects a real woodland ecosystem. During autumn wind events, this material travels across the surrounding residential area.</p>
+
+<p>Properties on streets close to the reservoir corridor in B32 receive debris from two sources simultaneously — their own garden and street trees, and wind-blown material from Bromwich Wood. The gutter debris load is additive. This is why the before photograph from this job contained material from species that don't grow in the property's own garden.</p>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+  If you're within half a mile of Bartley Reservoir, your gutters are almost certainly receiving more seasonal debris than the standard Birmingham suburban property.
+</blockquote>
+
+<h3>Post-War Semi-Detached Housing Stock</h3>
+<p>Bartley Green was largely developed after the Second World War with a mix of private and former council semi-detached properties. This housing stock has concrete interlocking tiles in most cases — a tile type that is significantly more porous than modern clay or slate, making it an effective substrate for moss growth.</p>
+
+<p>Moss establishes on the tile surface, grows throughout the year on north-facing roof slopes, and washes fragments into the gutters below with every rainfall. Properties with concrete tile roofs consistently have gutters that accumulate debris faster than properties with clay or slate — and Bartley Green's post-war stock is predominantly concrete tile.</p>
+
+<h3>Autumn Leaf Fall</h3>
+<p>The established residential streets of B32 — across <strong>Romsley Road</strong>, <strong>Stonehouse Lane</strong>, <strong>Genners Lane</strong>, and the surrounding roads — are lined with mature garden and street trees. The combination of private garden trees, residential street trees, and wind-blown debris from Bromwich Wood creates an autumn debris load in Bartley Green that can fill a standard semi-detached gutter in a single season.</p>
+
+<p>For properties closest to the woodland corridor, two cleans per year — October/November and April/May — is the realistic maintenance schedule to prevent blockages causing overflow damage.</p>
+
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 220px;">
+    <h3 style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.2;">BOOK YOUR BARTLEY GREEN GUTTER CLEAN</h3>
+    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Same-day availability across all B31 and B32 postcodes. Rated 4.9★ by 2,696+ customers across Birmingham and the West Midlands.</p>
+  </div>
+  <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
+    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+      <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
+    </a>
+    <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
+    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+  </div>
+</div>
+
+<h2>How Roof Moss Affects Your Bartley Green Gutters</h2>
+
+<p>Bartley Green's post-war concrete tile properties develop moss on their roof surfaces — particularly on north-facing slopes. Every rainfall washes moss fragments from the roof tiles directly into the gutter channel below. The more moss on the roof, the faster the gutters fill.</p>
+
+<p>If your gutters are blocking within a few months of being cleaned, a mossy roof is almost always a contributing factor. Our <a href="/help/clean" style="color: #19C58B; font-weight: 600; text-decoration: none;">roof cleaning service</a> uses a professional soft wash treatment to remove moss, algae, and lichen at the root — reducing the volume of debris entering your gutters and extending the time between cleans.</p>
+
+<p>You can read more about the connection between roof moss and gutter blockages in our guide to <a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">what causes gutters to block repeatedly</a>.</p>
+
+<h2>Signs Your Bartley Green Gutter Needs Cleaning</h2>
+
+<p>Check these from your garden — you don't need a ladder:</p>
+<ul>
+  <li>🌧️ <strong>Water overflowing the gutter edge during rainfall</strong> — the clearest sign of a blockage at outlet level</li>
+  <li>🟢 <strong>Dark staining on the wall below the gutterline</strong> — caused by water running repeatedly down the same section of brickwork</li>
+  <li>💧 <strong>Damp patches in upstairs rooms near external walls</strong> — frequently caused by gutter overflow saturating the wall above, not rising damp</li>
+  <li>🌿 <strong>Plants or moss visibly growing from the gutterline</strong> — biological growth in the gutter indicates significant organic build-up inside</li>
+  <li>🔩 <strong>Fascia boards showing water staining or pulling away</strong> — water behind the bracket softens timber over time</li>
+  <li>📅 <strong>You cannot remember the last time they were cleaned</strong> — if it has been more than 18 months, they almost certainly need attention</li>
+</ul>
+
+<h2>Areas We Cover Near Bartley Green</h2>
+
+<p>WOW Gutters covers all B31 and B32 postcodes and all surrounding areas.</p>
+
+<div style="overflow-x: auto; margin: 24px 0;">
+  <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem;">
+    <thead>
+      <tr style="background: #0f172a; color: #ffffff;">
+        <th style="padding: 12px 16px; text-align: left; font-weight: 700;">Area</th>
+        <th style="padding: 12px 16px; text-align: left; font-weight: 700; color: #ffffff;">Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom: 1px solid #e5e7eb;">
+        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Bartley Green</td>
+        <td style="padding: 12px 16px; color: #0f172a;">Full B32 coverage — all residential streets</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #e5e7eb; background: #f8fafc;">
+        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Frankley</td>
+        <td style="padding: 12px 16px; color: #0f172a;">B31 — adjacent to Bartley Green, full coverage</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #e5e7eb;">
+        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Quinton</td>
+        <td style="padding: 12px 16px; color: #0f172a;">B32 — regular service area</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #e5e7eb; background: #f8fafc;">
+        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Harborne</td>
+        <td style="padding: 12px 16px; color: #0f172a;">B17 — neighbouring area, full coverage</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #e5e7eb;">
+        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Northfield</td>
+        <td style="padding: 12px 16px; color: #0f172a;">B31 — adjacent postcode, full coverage</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #e5e7eb; background: #f8fafc;">
+        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Selly Oak</td>
+        <td style="padding: 12px 16px; color: #0f172a;">B29 — regular service area</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #e5e7eb;">
+        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Bournville</td>
+        <td style="padding: 12px 16px; color: #0f172a;">B30 — neighbouring area</td>
+      </tr>
+      <tr style="background: #f8fafc;">
+        <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Weoley Castle</td>
+        <td style="padding: 12px 16px; color: #0f172a;">B29 — full coverage</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<p>We also cover all <a href="/gutter-cleaning-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">Birmingham</a> postcodes and the wider West Midlands including <a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <a href="/blog/gutter-cleaning-walsall" style="color: #19C58B; font-weight: 600; text-decoration: none;">Walsall</a>, <a href="/blog/gutter-cleaning-solihull" style="color: #19C58B; font-weight: 600; text-decoration: none;">Solihull</a>, and <a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; font-weight: 600; text-decoration: none;">Coventry</a>.</p>
+
+<h2>Why Bartley Green Homeowners Choose WOW Gutters</h2>
+
+<ul>
+  <li>🌀 <strong>No ladders, ever.</strong> Our ground-level vacuum system reaches up to 4 storeys — no ladders placed against your property, no risk to your fascias, render, or windows</li>
+  <li>📸 <strong>Before and after photos on every job</strong> — sent to you the same day as proof the work has been done properly</li>
+  <li>⚡ <strong>Same-day booking</strong> — we cover all B32 postcodes and can often book within 24 hours</li>
+  <li>💷 <strong>Fixed prices</strong> — the price you're quoted is the total you pay, no extras</li>
+  <li>📍 <strong>Local team</strong> — we know the B32 area, the housing stock, and the seasonal debris patterns specific to Bartley Green</li>
+</ul>
+
+<p>We also carry out <a href="/help/repair" style="color: #19C58B; font-weight: 600; text-decoration: none;">gutter repairs</a> for leaking joints, sagging sections, and loose brackets — so if your gutters need more than a clean, we can handle both in a single visit.</p>
+
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+  ⭐⭐⭐⭐⭐ <em>"Booked for a gutter clean in Bartley Green — arrived on time, did the job without any fuss, sent me the before and after photos within the hour. Exactly what I needed. Will book again in autumn."</em><br/>
+  — Bartley Green homeowner, verified Google review
+</blockquote>
+
+<h2>Frequently Asked Questions — Gutter Cleaning Bartley Green</h2>
+
+<div style="margin: 40px 0;">
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>How often should gutters be cleaned in Bartley Green?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Most Bartley Green properties benefit from two cleans per year — October to November after leaf fall, and April to May after sycamore seed season. Properties near Bromwich Wood and Bartley Reservoir receive additional wind-blown woodland debris, meaning gutters fill faster than in comparable Birmingham areas.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Do you use ladders in Bartley Green?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">No. WOW Gutters uses a professional ground-level vacuum system that reaches up to 4 storeys. No ladders placed against your property at any point — protecting your fascias, render, and windows.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>What areas near Bartley Green do you cover?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">All B31 and B32 postcodes — Bartley Green, Frankley, Quinton, Harborne, Northfield, Selly Oak, Bournville, and Weoley Castle. Same-day booking available across all Birmingham postcodes.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Why do Bartley Green gutters block so frequently?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">B32 properties near Bartley Reservoir and Bromwich Wood Local Nature Reserve receive wind-blown woodland debris on top of garden and street tree debris. The post-war concrete tile housing stock also generates more moss wash-off than modern tile types, adding to the annual debris load in the gutters below.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Do you provide before and after photos?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Yes — on every single job without exception. Both photos are sent directly to you the same day. The photographs in this article are from a real WOW Gutters job in Bartley Green, Birmingham B32.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
+    <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
+      <span>Do you offer gutter repairs in Bartley Green?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Yes. If our technician spots damaged sections, loose brackets or leaking joints during your clean, we flag these in our condition report. Our repair team can return to carry out the necessary work.</p>
+    </div>
+  </details>
+
+</div>
+
+<p>📞 <strong>Call or WhatsApp:</strong> <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
+🌐 <strong>Free online quote:</strong> <a href="/quote" style="color: #19C58B; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
+📍 <strong>Serving:</strong> Bartley Green, Frankley, Quinton, Harborne, Northfield, Selly Oak, Bournville &amp; all B31/B32 postcodes<br/>
+🕐 <strong>Available:</strong> 7 days a week | Same day booking available</p>
+
+<h2>Related Articles</h2>
+
+<ul>
+  <li><strong><a href="/gutter-cleaning-birmingham" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Birmingham — Full Local Guide</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Wolverhampton | WOW Gutters</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-walsall" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Walsall | WOW Gutters</a></strong></li>
+  <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
+  <li><strong><a href="/blog/blocked-gutters-sycamore-seeds" style="color: #19C58B; text-decoration: none;">Blocked Gutters Packed With Sycamore Seeds</a></strong></li>
 </ul>
     `,
   }
