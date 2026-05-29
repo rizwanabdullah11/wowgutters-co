@@ -32,6 +32,8 @@ export default function RepairPage() {
             loop
             muted
             playsInline
+            preload="none"
+            poster="/gutter-hero-poster.jpg"
             className="w-full h-full object-cover"
             onError={(e) => {
               (e.target as HTMLVideoElement).style.display = 'none';
