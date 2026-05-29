@@ -11,6 +11,32 @@ import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
 
+export interface SuburbPageData {
+  city: string
+  heroBadge: string
+  heroTitleLine1: string
+  heroTitleLine2: string
+  whyTitle: string
+  whyParagraphs: string[]
+  guarantees?: string[]
+  propertyTypesTitle: string
+  propertyTypes: { label: string; detail: string }[]
+  areasCoveredTitle: string
+  areasCoveredText: string
+  areaLinks: { href: string; label: string }[]
+  whatsappPrefix: string
+  faqs: { question: string; answer: string }[]
+  reviews: { initial: string; name: string; place: string; text: string }[]
+  postcodesTitle: string
+  postcodeStreetTitle: string
+  postcodeStreets: string[]
+  postcodeFooter: string
+  bookingTitle: string
+  mapTitle: string
+  mapSrc: string
+  blogLocality: string
+}
+
 const WA = 'https://wa.me/447421433910';
 
 const HERO_USP_PILLS = [
@@ -19,36 +45,13 @@ const HERO_USP_PILLS = [
   { label: 'Fully insured', Icon: Shield },
 ];
 
-const guaranteeItems = [
+const defaultGuarantees = [
   'Ground-level vacuum system — no ladders placed against your property',
   'Reaches up to 4 storeys — Victorian terraces, semis and large detached homes',
   'Before & after photos included as standard on every job',
   'Fully insured — comprehensive public liability cover',
   '4.9★ rating from 2,696+ verified customer reviews',
   '1-year service guarantee on every clean',
-];
-
-const propertyTypes = [
-  {
-    label: 'Victorian terraces (St Mary\'s Row, Woodbridge Road, Salisbury Road)',
-    detail: 'Moseley\'s Victorian terraces are among the most characterful properties in Birmingham — and among the most challenging for conventional ladder-based cleaning. Original cast iron guttering on these properties requires careful handling; our vacuum system operates from the ground, placing nothing against your brickwork or paintwork.',
-  },
-  {
-    label: 'Edwardian semis (Wake Green Road, Oxford Road, College Road)',
-    detail: 'The large Edwardian semis along Wake Green Road and Oxford Road have generous gutter runs and multiple downpipes. Our 4-storey reach covers every section in a single visit, with full downpipe flushing included at no extra charge.',
-  },
-  {
-    label: 'Large detached homes (Moseley Park area, Church Road)',
-    detail: 'Moseley\'s larger detached properties often have complex rooflines with multiple valleys and sections. Our vacuum system handles the full length from the ground — no scaffolding, no cherry pickers, no disruption to gardens.',
-  },
-  {
-    label: 'Converted flats and apartments',
-    detail: 'Many of Moseley\'s larger Victorian villas have been converted to flats. We work with freeholders and managing agents, provide photographic evidence for maintenance records, and can arrange planned maintenance contracts for blocks.',
-  },
-  {
-    label: 'Period properties near Moseley Bog',
-    detail: 'The properties bordering Moseley Bog nature reserve experience above-average leaf and debris fall due to proximity to ancient woodland. Annual cleaning is particularly important for these homes.',
-  },
 ];
 
 const whatsappQuestions = [
@@ -58,69 +61,10 @@ const whatsappQuestions = [
   'Could I get a fast quote for my home?',
 ];
 
-const faqs = [
-  {
-    question: 'How much does gutter cleaning cost in Moseley?',
-    answer: 'Prices start from £55 for a standard terraced property in Moseley. Most Victorian and Edwardian semis in B13 range from £65 to £90, and larger detached properties from £90 to £140. All prices include downpipe flushing and before & after photos. Fixed quote provided before work starts — no hidden fees.',
-  },
-  {
-    question: 'Is there a gutter cleaning service near me in Moseley?',
-    answer: 'Yes — WOW Gutters covers all of Moseley (B13) including properties near Moseley Park & Pool, along Alcester Road, Salisbury Road, Wake Green Road, St Mary\'s Row, Woodbridge Road and all surrounding streets. We work in Moseley regularly and can often book within 2 to 3 working days. Call 07421 433910 to check today\'s availability.',
-  },
-  {
-    question: 'Do you clean gutters near Moseley Park and the village area?',
-    answer: 'Yes — we regularly work throughout the Moseley village area, on properties along St Mary\'s Row and on homes backing onto Moseley Park & Pool. The park\'s mature trees mean these properties experience significant leaf fall each autumn.',
-  },
-  {
-    question: 'Can blocked gutters cause damp in Moseley\'s Victorian properties?',
-    answer: 'Yes — this is one of the most common problems we see in B13. Victorian and Edwardian properties have solid brick construction, and when gutters overflow against the wall the water has nowhere to go except inward. We see interior damp patches, stained brickwork and damaged window frames — all caused by blocked gutters that cost a fraction of the repair bill to maintain.',
-  },
-  {
-    question: 'What postcodes do you cover in Moseley?',
-    answer: 'We cover B13 in full, including B13 0, B13 8 and B13 9 sectors. Key streets include Alcester Road, Salisbury Road, Wake Green Road, Oxford Road, College Road, Church Road, St Mary\'s Row, Woodbridge Road, Woodfield Road, Prospect Road and all surrounding streets. We also cover bordering postcodes B14 (Kings Heath), B12 (Balsall Heath) and B11 (Sparkhill).',
-  },
-  {
-    question: 'Do you offer fascia and soffit cleaning in Moseley?',
-    answer: 'Yes — our hot purified water system restores fascias and soffits on Moseley\'s period properties to a bright, streak-free finish. Popular with homeowners preparing to sell or following a roof replacement. Particularly effective on the white-painted uPVC rooflines common on Moseley\'s Edwardian semis.',
-  },
-  {
-    question: 'How quickly can you get to Moseley?',
-    answer: 'We aim to offer bookings within 2 to 5 working days across Moseley. Same-day visits may be available — call 07421 433910 to check availability.',
-  },
-];
-
-const postcodeStreets = [
-  'Alcester Road', 'Salisbury Road', 'Wake Green Road', 'Oxford Road',
-  'College Road', 'Church Road', 'St Mary\'s Row', 'Woodbridge Road',
-  'Woodfield Road', 'Prospect Road', 'Chantry Road', 'Russell Road',
-  'Stoney Lane', 'Billesley Lane', 'Park Hill', 'Valentine Road',
-  'Trafalgar Road', 'Springfield Road', 'Richmond Road',
-];
-
-const localReviews = [
-  {
-    initial: 'M',
-    name: 'Mark M.',
-    place: 'Moseley',
-    text: 'Harley came out to sort my gutters today. Great service, friendly and professional. Pictures showed how blocked the gutters were — couldn\'t believe it! Would 100% recommend.',
-  },
-  {
-    initial: 'N',
-    name: 'Neil G.',
-    place: 'Moseley',
-    text: 'Excellent, friendly and professional service from Ian. We had persistent leaks at various points around the house — all sorted now. Highly recommend WOW Gutters.',
-  },
-  {
-    initial: 'G',
-    name: 'Graham B.',
-    place: 'Kings Heath',
-    text: 'Highly recommended. Friendly service, arrived on time and did a thorough job. The before and after photos were brilliant — you could really see the difference.',
-  },
-];
-
-export default function MoseleyGutterCleaningPage() {
+export default function SuburbGutterCleaningPage({ data }: { data: SuburbPageData }) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [openFaqIdx, setOpenFaqIdx] = useState<number | null>(0);
+  const guarantees = data.guarantees ?? defaultGuarantees;
 
   useEffect(() => {
     videoRef.current?.play().catch(() => {});
@@ -150,14 +94,14 @@ export default function MoseleyGutterCleaningPage() {
         <div className="area-hero-content">
           <div className="hero-badge animate-fade-in-up">
             <ShieldCheck className="w-4 h-4" style={{ color: colors.primary }} />
-            <span className="hero-badge-text">Local Moseley specialists • Same-day booking</span>
+            <span className="hero-badge-text">{data.heroBadge}</span>
           </div>
 
           <h1 className="hero-title animate-fade-in-up delay-100">
-            <span className="title-line">Gutter Cleaning Moseley</span>
+            <span className="title-line">{data.heroTitleLine1}</span>
             <br />
             <span className="title-accent" style={{ color: colors.primary }}>
-              Professional Service for B13 Properties
+              {data.heroTitleLine2}
             </span>
           </h1>
 
@@ -194,34 +138,15 @@ export default function MoseleyGutterCleaningPage() {
         </div>
       </section>
 
-      {/* SECTION 1 — WHY MOSELEY */}
+      {/* SECTION 1 — WHY */}
       <section className="py-16 md:py-20 px-4 bg-white border-b border-slate-100">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-6 text-center">
-            Why Moseley Gutters Need Regular Professional Cleaning
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-6 text-center">{data.whyTitle}</h2>
           <div className="flex flex-col lg:flex-row gap-8 lg:items-start">
             <div className="flex-1 rounded-2xl border border-slate-200 bg-white p-6 md:p-8 shadow-sm text-slate-600 text-lg leading-relaxed space-y-5">
-              <p>
-                Moseley is one of Birmingham&apos;s most beautiful and tree-lined suburbs — and that character comes at a cost to your
-                gutters every autumn. The mature lime trees lining Alcester Road, the established oaks in residential gardens
-                throughout Salisbury Road and Wake Green Road, and the ancient woodland of nearby Moseley Bog all shed significant
-                volumes of leaves, seeds and organic debris from October through to December.
-              </p>
-              <p>
-                Properties throughout B13 experience some of the heaviest leaf fall in Birmingham. A gutter on a Victorian terrace
-                in St Mary&apos;s Row can fill completely within two to three weeks of peak leaf fall season — and the consequence of
-                leaving it is not just overflow. Standing water in a blocked gutter freezes in winter, expanding and cracking
-                joints. Overflow runs down the beautiful period brickwork Moseley is known for, leaving green staining and in time
-                causing damp penetration through external walls.
-              </p>
-              <p>
-                Moseley&apos;s housing stock makes this particularly important. The area is characterised by Victorian and Edwardian
-                properties — terraces, semis and large detached homes — many with original or early-replacement cast iron and uPVC
-                gutter systems that are vulnerable to joint failure when debris is left to accumulate. Our post-clean condition
-                report gives you a clear picture of the state of your guttering after every visit, with honest recommendations and
-                no pressure to spend further.
-              </p>
+              {data.whyParagraphs.map((p) => (
+                <p key={p.slice(0, 20)}>{p}</p>
+              ))}
             </div>
             <div className="w-full lg:w-auto shrink-0 flex justify-center lg:justify-end">
               <AreaServiceQuoteCard buttonLabel="Book Now" />
@@ -234,10 +159,10 @@ export default function MoseleyGutterCleaningPage() {
       <section className="py-16 px-4 bg-slate-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-black text-center text-slate-900 mb-10">
-            What You Get With WOW Gutters in Moseley
+            What You Get With WOW Gutters in {data.city}
           </h2>
           <ul className="grid sm:grid-cols-2 gap-4">
-            {guaranteeItems.map((g) => (
+            {guarantees.map((g) => (
               <li key={g} className="flex gap-3 p-5 rounded-2xl bg-white border border-slate-200 shadow-sm">
                 <CheckCircle className="w-6 h-6 shrink-0" style={{ color: colors.primary }} />
                 <span className="text-slate-800 font-semibold">{g}</span>
@@ -250,12 +175,10 @@ export default function MoseleyGutterCleaningPage() {
       {/* SECTION 3 — PROPERTY TYPES */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-8 text-center">
-            Gutter Cleaning for Every Moseley Property Type
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-8 text-center">{data.propertyTypesTitle}</h2>
           <div className="flex flex-col lg:flex-row gap-8 lg:items-start">
             <div className="flex-1 rounded-2xl border border-slate-200 overflow-hidden bg-white shadow-sm">
-              {propertyTypes.map((row) => (
+              {data.propertyTypes.map((row) => (
                 <div key={row.label} className="p-6 border-b border-slate-100 last:border-0">
                   <p className="font-black text-slate-900">{row.label}</p>
                   <p className="text-slate-600 mt-2">{row.detail}</p>
@@ -272,19 +195,18 @@ export default function MoseleyGutterCleaningPage() {
       {/* SECTION 4 — AREAS */}
       <section className="py-16 px-4 bg-slate-50">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
-            Areas We Cover Around Moseley
-          </h2>
-          <p className="text-slate-700 text-lg">
-            Kings Heath, Balsall Heath, Sparkhill | Stirchley, Bournville, Selly Park | Hall Green, Billesley | Nearby: Birmingham city centre, Harborne, Edgbaston
-          </p>
+          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">{data.areasCoveredTitle}</h2>
+          <p className="text-slate-700 text-lg">{data.areasCoveredText}</p>
           <div className="flex flex-wrap justify-center gap-3 mt-8">
-            <Link href="/gutter-cleaning-birmingham/" className="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors shadow-sm">Gutter cleaning Birmingham</Link>
-            <Link href="/gutter-cleaning-kings-heath/" className="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors shadow-sm">Gutter cleaning Kings Heath</Link>
-            <Link href="/gutter-cleaning-harborne/" className="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors shadow-sm">Gutter cleaning Harborne</Link>
-            <Link href="/gutter-cleaning-edgbaston/" className="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors shadow-sm">Gutter cleaning Edgbaston</Link>
-            <Link href="/help/repair/" className="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors shadow-sm">Gutter repairs</Link>
-            <Link href="/services/upvc-cleaning/" className="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors shadow-sm">Fascia & soffit cleaning</Link>
+            {data.areaLinks.map((l) => (
+              <Link
+                key={l.href}
+                href={l.href}
+                className="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors shadow-sm"
+              >
+                {l.label}
+              </Link>
+            ))}
           </div>
         </div>
       </section>
@@ -297,7 +219,7 @@ export default function MoseleyGutterCleaningPage() {
               Need a fast answer? <span className="text-[#34e3b6]">Message us on WhatsApp</span>
             </h2>
             <p className="mt-4 text-base md:text-lg text-[#dbe7ff]/88 max-w-xl">
-              Our Moseley team responds quickly to WhatsApp messages. One tap and we&apos;ll help with quotes, availability and advice.
+              Our {data.city} team responds quickly to WhatsApp messages. One tap and we&apos;ll help with quotes, availability and advice.
             </p>
           </div>
 
@@ -313,7 +235,7 @@ export default function MoseleyGutterCleaningPage() {
                     &quot;{question}&quot;
                   </span>
                   <a
-                    href={`${WA}?text=${encodeURIComponent(`Hi, I am in Moseley. ${question}`)}`}
+                    href={`${WA}?text=${encodeURIComponent(`Hi, I am in ${data.whatsappPrefix}. ${question}`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="shrink-0 rounded-md bg-[#16c784] px-4 py-1.5 text-base font-black text-white hover:bg-[#0fb272] transition-colors"
@@ -335,7 +257,7 @@ export default function MoseleyGutterCleaningPage() {
 
         <div className="max-w-4xl mx-auto relative z-10">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-black text-white mb-6">FAQs — Gutter Cleaning Moseley</h2>
+            <h2 className="text-4xl md:text-5xl font-black text-white mb-6">FAQs — Gutter Cleaning {data.city}</h2>
             <p className="text-xl text-white/90">
               Can&apos;t find your answer? Call{' '}
               <a href="tel:07421433910" className="font-bold underline underline-offset-2">07421 433910</a>.
@@ -343,7 +265,7 @@ export default function MoseleyGutterCleaningPage() {
           </div>
 
           <div className="space-y-4 max-w-3xl mx-auto">
-            {faqs.map((faq, i) => (
+            {data.faqs.map((faq, i) => (
               <div
                 key={faq.question}
                 className={`bg-[#0f172a] rounded-2xl overflow-hidden border transition-all duration-300 ${
@@ -384,10 +306,10 @@ export default function MoseleyGutterCleaningPage() {
                 Customer reviews
               </p>
               <h2 className="text-3xl md:text-4xl font-black text-slate-900">
-                What Moseley Customers Say About WOW Gutters
+                What {data.city} Customers Say About WOW Gutters
               </h2>
               <p className="text-slate-600 mt-2">
-                4.9 based on 2,696+ verified Google reviews. Fully insured · 1-year guarantee · Before &amp; after photos · 7 days a week.
+                4.9 based on 2,696+ verified Google reviews. Fully insured · Before &amp; after photos · 7 days a week.
               </p>
             </div>
             <Link
@@ -399,7 +321,7 @@ export default function MoseleyGutterCleaningPage() {
             </Link>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
-            {localReviews.map((r) => (
+            {data.reviews.map((r) => (
               <blockquote
                 key={r.name}
                 className="p-8 rounded-2xl border border-slate-200 bg-slate-50/80 shadow-sm"
@@ -426,14 +348,10 @@ export default function MoseleyGutterCleaningPage() {
       {/* SECTION 8 — POSTCODES */}
       <section className="py-16 px-4 bg-slate-50 border-y border-slate-200">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
-            Gutter Cleaning Across Moseley — Postcodes We Cover
-          </h2>
-          <p className="text-slate-700 text-lg mb-8">
-            We cover all B13 postcodes across Moseley, including:
-          </p>
+          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">{data.postcodesTitle}</h2>
+          <p className="text-slate-700 text-lg mb-8">{data.postcodeStreetTitle}</p>
           <div className="flex flex-wrap justify-center gap-2 max-w-3xl mx-auto mb-8">
-            {postcodeStreets.map((street) => (
+            {data.postcodeStreets.map((street) => (
               <span
                 key={street}
                 className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 text-sm font-medium"
@@ -442,9 +360,7 @@ export default function MoseleyGutterCleaningPage() {
               </span>
             ))}
           </div>
-          <p className="text-slate-600">
-            We also cover the bordering areas of Kings Heath (B14), Balsall Heath (B12), Sparkhill (B11), Sparkbrook (B12) and Stirchley (B30).
-          </p>
+          <p className="text-slate-600">{data.postcodeFooter}</p>
           <p className="text-slate-700 font-semibold mt-4">
             Not sure if we cover your street? Call{' '}
             <a href="tel:07421433910" className="underline" style={{ color: colors.primary }}>07421 433910</a> — we will confirm in under a minute.
@@ -455,9 +371,7 @@ export default function MoseleyGutterCleaningPage() {
       {/* SECTION 9 — BOOKING CTA */}
       <section className="py-16 px-4 bg-white border-t border-slate-100">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
-            Book Your Gutter Clean in Moseley — Free Quote in 60 Seconds
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">{data.bookingTitle}</h2>
           <div className="mt-8 flex justify-center">
             <AreaServiceQuoteCard />
           </div>
@@ -468,8 +382,8 @@ export default function MoseleyGutterCleaningPage() {
       <section className="w-full">
         <div className="w-full h-[400px] sm:h-[420px] bg-[#e8efe8]">
           <iframe
-            title="WOW Gutters — Moseley B13 service area map"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=-1.910%2C52.435%2C-1.860%2C52.465&layer=mapnik&marker=52.4479%2C-1.8831"
+            title={data.mapTitle}
+            src={data.mapSrc}
             className="w-full h-full border-0"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
@@ -477,7 +391,7 @@ export default function MoseleyGutterCleaningPage() {
         </div>
       </section>
 
-      <AreaBlogSnippet locality="Moseley" />
+      <AreaBlogSnippet locality={data.blogLocality} />
       <AreaServicesRange />
       <AreaRecentWork />
       <AreaContactMap />
@@ -557,11 +471,11 @@ export default function MoseleyGutterCleaningPage() {
           .hero-primary-btn { padding: 14px 20px; }
         }
 
-        .animate-fade-in-up { opacity: 0; animation: moseleyFadeInUp 0.8s ease forwards; }
+        .animate-fade-in-up { opacity: 0; animation: suburbFadeInUp 0.8s ease forwards; }
         .delay-100 { animation-delay: 0.1s; }
         .delay-150 { animation-delay: 0.15s; }
         .delay-300 { animation-delay: 0.3s; }
-        @keyframes moseleyFadeInUp {
+        @keyframes suburbFadeInUp {
           from { opacity: 0; transform: translateY(20px); }
           to { opacity: 1; transform: translateY(0); }
         }

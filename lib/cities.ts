@@ -830,6 +830,78 @@ export const CITIES: Record<string, CityData> = {
     tier: 'suburb',
   },
 
+  'weoley-castle': {
+    slug: 'weoley-castle',
+    name: 'Weoley Castle',
+    postcodes: ['B29'],
+    nearbyAreas: ['Selly Oak', 'Harborne', 'Bartley Green', 'Northfield', 'Birmingham'],
+    geo: { latitude: 52.4370, longitude: -1.9700 },
+    pricing: {
+      terraced: { min: 50, max: 70 },
+      semiDetached: { min: 60, max: 80 },
+      detached: { min: 80, max: 120 },
+    },
+    priceFrom: 50,
+    priceTo: 120,
+    region: 'West Midlands',
+    county: 'West Midlands',
+    tier: 'suburb',
+  },
+
+  'west-heath': {
+    slug: 'west-heath',
+    name: 'West Heath',
+    postcodes: ['B31'],
+    nearbyAreas: ['Northfield', 'Longbridge', 'Kings Norton', 'Cofton Hackett', 'Birmingham'],
+    geo: { latitude: 52.4010, longitude: -1.9620 },
+    pricing: {
+      terraced: { min: 50, max: 65 },
+      semiDetached: { min: 55, max: 75 },
+      detached: { min: 75, max: 115 },
+    },
+    priceFrom: 50,
+    priceTo: 115,
+    region: 'West Midlands',
+    county: 'West Midlands',
+    tier: 'suburb',
+  },
+
+  witton: {
+    slug: 'witton',
+    name: 'Witton',
+    postcodes: ['B6'],
+    nearbyAreas: ['Aston', 'Perry Barr', 'Erdington', 'Birmingham', 'Nechells'],
+    geo: { latitude: 52.5050, longitude: -1.8850 },
+    pricing: {
+      terraced: { min: 45, max: 65 },
+      semiDetached: { min: 55, max: 75 },
+      detached: { min: 75, max: 110 },
+    },
+    priceFrom: 45,
+    priceTo: 110,
+    region: 'West Midlands',
+    county: 'West Midlands',
+    tier: 'suburb',
+  },
+
+  'wylde-green': {
+    slug: 'wylde-green',
+    name: 'Wylde Green',
+    postcodes: ['B73'],
+    nearbyAreas: ['Sutton Coldfield', 'Boldmere', 'Four Oaks', 'Erdington', 'Birmingham'],
+    geo: { latitude: 52.5370, longitude: -1.8310 },
+    pricing: {
+      terraced: { min: 60, max: 80 },
+      semiDetached: { min: 70, max: 95 },
+      detached: { min: 95, max: 150 },
+    },
+    priceFrom: 60,
+    priceTo: 150,
+    region: 'West Midlands',
+    county: 'West Midlands',
+    tier: 'suburb',
+  },
+
   'perry-barr': {
     slug: 'perry-barr',
     name: 'Perry Barr',
