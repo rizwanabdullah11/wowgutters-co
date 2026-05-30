@@ -50,11 +50,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       siteName: 'WOW Gutters Ltd',
       locale: 'en_GB',
       type: 'website',
+      images: [
+        {
+          url: 'https://wowgutters.co.uk/og/default.jpg',
+          width: 1200,
+          height: 630,
+          alt: `WOW Gutters - Gutter Cleaning ${city.name}`,
+        },
+      ],
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
+      images: ['https://wowgutters.co.uk/og/default.jpg'],
     },
   }
 }

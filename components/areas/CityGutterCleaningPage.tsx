@@ -30,19 +30,22 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
 
   const localReviews = [
     {
-      initial: data.city.charAt(0),
-      name: `Customer in ${data.city}`,
-      text: `Excellent service from WOW Gutters in ${data.city}. Arrived on time, worked safely from the ground, and the before/after photos were really helpful.`,
+      initial: 'D',
+      name: 'David T.',
+      place: data.city,
+      text: `Brilliant service from WOW Gutters in ${data.city}. Arrived on time, worked safely from the ground, and the before/after photos were really helpful. Would 100% recommend.`,
     },
     {
-      initial: 'W',
-      name: 'Verified homeowner',
-      text: 'Friendly team, clear fixed quote, and no mess left behind. Overflow issue solved on the first visit.',
+      initial: 'S',
+      name: 'Sarah M.',
+      place: data.city,
+      text: 'Friendly team, clear fixed quote, and no mess left behind. Overflow issue solved on the first visit. So glad I found them.',
     },
     {
-      initial: 'G',
-      name: 'Google review',
-      text: 'Great communication and very professional. You can see exactly what was done from the photo proof.',
+      initial: 'P',
+      name: 'Paul R.',
+      place: data.city,
+      text: 'Great communication and very professional. You can see exactly what was done from the photo proof. Highly recommended.',
     },
   ];
 
@@ -272,10 +275,19 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
                   </div>
                   <div>
                     <cite className="not-italic font-bold text-slate-900 block">{r.name}</cite>
-                    <span className="text-sm text-slate-500">{data.city}</span>
+                    <span className="text-sm text-slate-500">{r.place}</span>
                   </div>
+                  <img
+                    src="/images/google-g.svg"
+                    alt=""
+                    width={20}
+                    height={20}
+                    loading="lazy"
+                    className="w-5 h-5 ml-auto opacity-80"
+                  />
                 </div>
                 <p className="text-slate-700 text-sm leading-relaxed">&ldquo;{r.text}&rdquo;</p>
+                <p className="text-[11px] text-slate-500 mt-3 font-semibold">Verified Google review</p>
               </blockquote>
             ))}
           </div>
