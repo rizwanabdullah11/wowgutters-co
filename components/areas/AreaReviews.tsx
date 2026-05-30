@@ -47,7 +47,7 @@ export default function AreaReviews() {
                   W
                 </div>
                 <div className="absolute -top-2 -right-2 bg-white rounded-full p-1 shadow">
-                   <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google" className="w-5 h-5" />
+                   <img src="/images/google-g.svg" alt="Google" width={20} height={20} loading="lazy" className="w-5 h-5" />
                 </div>
              </div>
              
@@ -93,7 +93,7 @@ export default function AreaReviews() {
                           <p className="text-[11px] text-gray-500">{review.time}</p>
                         </div>
                      </div>
-                     <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google" className="w-[14px] h-[14px]" />
+                     <img src="/images/google-g.svg" alt="Google" width={14} height={14} loading="lazy" className="w-[14px] h-[14px]" />
                   </div>
                   <p className="text-[13px] text-gray-600 leading-relaxed">
                     {review.desc}

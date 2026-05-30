@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 import Navbar from "./navbar/page";
 import Footer from "@/components/Footer";
@@ -164,22 +165,22 @@ export default function RootLayout({
             __html: `(function(){window.__WOW_ANALYTICS__={gaId:${JSON.stringify(ga4MeasurementId)},gtmId:${JSON.stringify(gtmId)},debug:${JSON.stringify(analyticsDebug)}};})();`,
           }}
         />
-        {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-X0YK1TD470"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer = window.dataLayer || [];
+        {/* Google tag (gtag.js) — deferred via next/script */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-X0YK1TD470"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'G-X0YK1TD470');`,
-          }}
-        />
-        {/* Meta Pixel — plain <script> so it survives static export */}
+gtag('config', 'G-X0YK1TD470');`}
+        </Script>
+        {/* Meta Pixel — deferred via next/script */}
         {metaPixelId ? (
           <>
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `!function(f,b,e,v,n,t,s)
+            <Script id="facebook-pixel" strategy="afterInteractive">
+              {`!function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
 if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
@@ -188,9 +189,8 @@ t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', ${JSON.stringify(metaPixelId)});
-fbq('track', 'PageView');`,
-              }}
-            />
+fbq('track', 'PageView');`}
+            </Script>
             <noscript>
               <img
                 height="1"

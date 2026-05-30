@@ -94,7 +94,7 @@ export default function Navbar() {
         <div className="bg-white border-b border-gray-100 shadow-sm relative z-50">
           <div className="flex items-center justify-between h-[76px] px-3 sm:px-4">
 
-            {/* Left: Background-removed logo */}
+            {/* Left: logo */}
             <Link href="/" className="flex items-center shrink-0">
               <Image
                 src={mobileLogo}
@@ -167,7 +167,6 @@ export default function Navbar() {
                 width={300}
                 height={150}
                 className="h-16 w-auto object-contain"
-                priority
               />
             </Link>
 
