@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import { isQuoteEmbedPath } from '@/lib/isQuoteEmbedPath';
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '@/assets/wow-gutters-logo1.png';
+import logo from '@/assets/wow-gutter-logo.png';
 import { colors } from '@/constants/colors';
 import { areaPath } from '@/lib/areaSlugs';
 import SeoKeywordLinks from '@/components/SeoKeywordLinks';

@@ -33,6 +33,10 @@ export type CityGutterLandingData = {
   geo: { latitude: number; longitude: number };
   /** Optional: additional internal links (rendered as CTA chips) */
   internalLinks?: { label: string; href: string }[];
+  /** Optional: nearby areas for schema areaServed */
+  nearbyAreas?: string[];
+  /** Optional: postcodes for schema FAQ */
+  postcodes?: string[];
   /** Optional custom bottom CTA label */
   ctaHeading?: string;
 };
