@@ -8,19 +8,19 @@ const URL_PATH = 'https://wowgutters.co.uk/gutter-cleaning-minworth/'
 const pageData = suburbPages['minworth']
 
 export const metadata: Metadata = {
-  title: 'Gutter Cleaning Minworth Sutton Coldfield | WOW Gutters Ltd',
+  title: 'Gutter Cleaning Minworth, Sutton Coldfield, Birmingham | WOW Gutters Ltd',
   description: 'Professional gutter cleaning in Minworth, Sutton Coldfield (B76). Post-war semis, no ladders, vacuum system, before & after photos. From £50. Call: 07421 433910.',
   alternates: { canonical: URL_PATH, languages: { 'en-GB': URL_PATH, 'x-default': URL_PATH } },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
-    title: 'Gutter Cleaning Minworth Sutton Coldfield | WOW Gutters Ltd',
+    title: 'Gutter Cleaning Minworth, Sutton Coldfield, Birmingham | WOW Gutters Ltd',
     description: 'Professional gutter cleaning in Minworth, Sutton Coldfield (B76). No ladders, vacuum system, before & after photos. From £50. Call WOW Gutters: 07421 433910.',
     url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters',
-    images: [{ url: 'https://wowgutters.co.uk/og/minworth.jpg', width: 1200, height: 630, alt: 'WOW Gutters — Gutter Cleaning Minworth Sutton Coldfield' }],
+    images: [{ url: 'https://wowgutters.co.uk/og/minworth.jpg', width: 1200, height: 630, alt: 'WOW Gutters — Gutter Cleaning Minworth, Sutton Coldfield, Birmingham' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Gutter Cleaning Minworth Sutton Coldfield | WOW Gutters Ltd',
+    title: 'Gutter Cleaning Minworth, Sutton Coldfield, Birmingham | WOW Gutters Ltd',
     description: 'Professional gutter cleaning in Minworth B76. From £50. No ladders, before & after photos. Call WOW Gutters: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/minworth.jpg'],
   },
