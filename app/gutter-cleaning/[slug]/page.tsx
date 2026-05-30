@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation'
 import CityGutterPageSchema from '@/components/areas/CityGutterPageSchema'
 import CityGutterCleaningPage from '@/components/areas/CityGutterCleaningPage'
 import { CITIES_ARRAY, getCityBySlug } from '@/lib/cities'
-import { getCityGutterLandingData } from '@/constants/cityGutterLandingData'
+import { getCityGutterLandingData, hasCityGutterLandingData } from '@/constants/cityGutterLandingData'
 
 interface PageProps {
   params: Promise<{
@@ -11,9 +11,11 @@ interface PageProps {
   }>
 }
 
-// Runs at BUILD time — pre-renders every city page
+// Runs at BUILD time — pre-renders only cities with landing data
 export async function generateStaticParams() {
-  return CITIES_ARRAY.map((city) => ({ slug: city.slug }))
+  return CITIES_ARRAY
+    .filter((city) => hasCityGutterLandingData(city.slug))
+    .map((city) => ({ slug: city.slug }))
 }
 
 // Required for output: 'export' — no fallback fetching on Hostinger

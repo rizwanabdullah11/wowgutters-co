@@ -74,6 +74,8 @@ export default function AreaPage({ areaName }: AreaPageProps) {
             loop
             muted
             playsInline
+            preload="none"
+            poster="/gutter-hero-poster.jpg"
             className="hero-video"
             onError={(e) => {
               (e.target as HTMLVideoElement).style.display = 'none';

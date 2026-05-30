@@ -193,6 +193,8 @@ export default function BirminghamGutterCleaningPage() {
             loop
             muted
             playsInline
+            preload="none"
+            poster="/gutter-hero-poster.jpg"
             className="hero-video"
             onError={(e) => {
               (e.target as HTMLVideoElement).style.display = 'none';
@@ -638,8 +640,11 @@ export default function BirminghamGutterCleaningPage() {
                     <span className="text-sm text-slate-500">{r.place}</span>
                   </div>
                   <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+                    src="/images/google-g.svg"
                     alt=""
+                    width={20}
+                    height={20}
+                    loading="lazy"
                     className="w-5 h-5 ml-auto opacity-80"
                   />
                 </div>
