@@ -51,14 +51,14 @@ const tabContent = [
     // Gutter Cleaning Near Me
     title: "Gutter Cleaning Near Me",
     content: [
-      "Important is the search term \"Gutter Cleaning Near Me.\" We at WOW Gutters LTD are here to assist!",
-      "By stopping water from harming your walls, foundations, and roof, gutter protection helps to preserve your home.",
-      "WOW Gutters LTD provides professional service with the most recent tools and methods.",
-      "We can help with high-quality equipment and services-even for larger buildings."
+      "Searching for \"Gutter Cleaning Near Me\"? You have found the right team. WOW Gutters Ltd covers Birmingham and the entire West Midlands with professional, no-ladder gutter cleaning.",
+      "We clean from the ground using a high-reach vacuum system that reaches up to four storeys — no ladders against your walls, no risk to your fascias, no mess left behind.",
+      "Every job includes before and after photos, downpipe clearing as standard, and a full condition report flagging any repairs needed. We are fully insured and all work comes with a 1-year service guarantee.",
+      "Call 07421 433910 or request a free instant quote online. Same-day and next-day appointments available across the West Midlands."
     ],
     image: "/professional-gutter-fact1.png",
-    buttonText: "Discover Local Technicians",
-    buttonLink: "/gutter-cleaning-birmingham/"
+    buttonText: "Get Your Free Quote",
+    buttonLink: "/quote"
   }
 ];
 

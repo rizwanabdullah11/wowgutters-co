@@ -296,7 +296,7 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
       <AreaBlogSnippet locality={data.city} />
       <AreaServicesRange />
       <AreaRecentWork />
-      <AreaContactMap />
+      <AreaContactMap geo={data.geo} />
       <ContactInfoSection />
 
       <style>{`

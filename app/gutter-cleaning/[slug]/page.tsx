@@ -28,10 +28,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!city) return {}
   
   const url = `https://wowgutters.co.uk/gutter-cleaning-${slug}/`
+  const title = `Gutter Cleaning ${city.name} | WOW Gutters Ltd`
+  const description = `Professional gutter cleaning in ${city.name} from £${city.priceFrom}. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.`
   
   return {
-    title: `Gutter Cleaning ${city.name} | WOW Gutters Ltd`,
-    description: `Professional gutter cleaning in ${city.name} from £${city.priceFrom}. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.`,
+    title,
+    description,
     alternates: {
       canonical: url,
       languages: { 'en-GB': url, 'x-default': url },
@@ -40,6 +42,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       index: true,
       follow: true,
       googleBot: { index: true, follow: true },
+    },
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: 'WOW Gutters Ltd',
+      locale: 'en_GB',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
     },
   }
 }

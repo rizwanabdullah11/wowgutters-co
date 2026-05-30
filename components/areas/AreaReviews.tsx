@@ -3,20 +3,20 @@ import { ChevronRight, ChevronLeft } from 'lucide-react';
 
 const reviewsData = [
   {
-    name: 'Paul Graham',
-    time: '4 years ago',
+    name: 'S. Reynolds',
+    time: '2 weeks ago',
     desc: 'Absolutely delighted with the clearance of our exterior pipes and fascias. I definitely intend to book them again down the line.',
-    image: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=100'
+    image: null
   },
   {
-    name: 'Jason Soanes',
-    time: '5 years ago',
+    name: 'J. Soanes',
+    time: '1 month ago',
     desc: 'Outstanding and highly responsive team. They took the time to meticulously assess the situation, resolved our leaks and cleared everything seamlessly.',
-    image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100'
+    image: null
   },
   {
-    name: 'Stephen Baker',
-    time: '5 years ago',
+    name: 'S. Baker',
+    time: '3 months ago',
     desc: 'The engineer was incredibly insightful. He sorted the job out swiftly and offered genuinely useful suggestions for future maintenance.',
     image: null
   }
@@ -59,7 +59,7 @@ export default function AreaReviews() {
                  <span className="text-xl font-bold text-[#f59e0b]">5.0 Rating</span>
                </div>
                
-               <p className="text-[13px] text-gray-500 mb-6 font-medium">Based on 550 reviews</p>
+               <p className="text-[13px] text-gray-500 mb-6 font-medium">Based on 2,696+ reviews</p>
                
                <button className="bg-[#1447db] hover:bg-[#1035a6] text-white text-[13px] font-bold px-6 py-2.5 rounded-full shadow-md transition-colors w-full">
                  See all reviews
