@@ -37,6 +37,23 @@ module.exports = {
       'selly-oak',
       'northfield',
       'acocks-green',
+      'perry-barr',
+      'perry-common',
+      'queslett',
+      'quinton',
+      'rednal',
+      'rubery',
+      'nechells',
+      'new-oscott',
+      'northfield',
+      'hawkesley',
+      'hay-mills',
+      'highgate',
+      'highters-heath',
+      'hockley',
+      'hodge-hill',
+      'hollywood-birmingham',
+      'jewellery-quarter',
     ]
 
     // Exclude non-active location pages
