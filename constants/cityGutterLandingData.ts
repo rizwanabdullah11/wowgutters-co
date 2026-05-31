@@ -39,6 +39,8 @@ export type CityGutterLandingData = {
   postcodes?: string[];
   /** Optional custom bottom CTA label */
   ctaHeading?: string;
+  /** Optional per-city reviews */
+  reviews?: { initial: string; name: string; place?: string; text: string }[];
 };
 
 export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
@@ -217,12 +219,12 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   walsall: {
     slug: 'walsall',
     city: 'Walsall',
-    titleTag: 'Gutter Cleaning Walsall | WOW Gutters Ltd \u201D Free Quote',
+    titleTag: 'Gutter Cleaning Walsall | WOW Gutters Ltd',
     metaDescription:
       'Professional gutter cleaning in Walsall from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
     h1: 'Gutter Cleaning Walsall \u201D Reliable Service Across WS1-WS9',
     heroIntro:
-      "Walsall is the heart of the Black Country \u201D a former industrial powerhouse now home to a diverse mix of Victorian terraces, 1930s semis and post-war housing estates. The elevated ground around Walsall town centre and the residential streets of Streetly, Aldridge and Brownhills to the north sit on the edge of Cannock Chase, meaning these areas experience above-average wind exposure and leaf fall from adjacent countryside. Properties near Walsall Arboretum and along the canal network benefit from our annual clean service. WOW Gutters uses a ground-level vacuum system \u201D no ladders placed against your property.",
+      "Walsall is the heart of the Black Country \u201D a former industrial powerhouse now home to a diverse mix of Victorian terraces, 1930s semis and post-war housing estates. The elevated ground around Walsall town centre and the residential streets of Streetly, Aldridge and Brownhills to the north sit on the edge of Cannock Chase, meaning these areas experience above-average wind exposure and leaf fall from adjacent countryside. Properties near Walsall Arboretum and along the canal network benefit from our annual clean service. The Walsall FC stadium area on Bescot is surrounded by terraced housing that needs regular gutter maintenance.",
     whyTitle: 'Why Walsall Homeowners Need Regular Gutter Cleaning',
     whyBody: [
       'Walsall sits at the northern edge of the West Midlands conurbation, where the urban environment meets the greener landscapes of Cannock Chase and Sutton Park. This proximity to open green space means many Walsall properties \u201D particularly in Aldridge, Streetly and Great Barr \u201D are surrounded by mature trees that shed significant volumes of leaves each autumn.',
@@ -257,7 +259,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     areasTitle: 'Areas We Cover Around Walsall',
     areasInline:
-      'Bloxwich, Willenhall, Brownhills, Aldridge | Streetly, Bentley, Rushall, Pelsall | Shelfield, Leamore, Blakenall Heath, Birchills | Palfrey, Caldmore | Nearby: Wolverhampton, Dudley, West Bromwich, Birmingham',
+      'Bloxwich, Willenhall, Brownhills, Aldridge | Streetly, Bentley, Rushall, Pelsall | Shelfield, Leamore, Blakenall Heath, Birchills | Palfrey | Nearby: Wolverhampton, Dudley, West Bromwich, Birmingham',
     faqsTitle: 'FAQs \u201D Gutter Cleaning Walsall',
     faqs: [
       {
@@ -295,6 +297,11 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Walsall \u201D Free Quote in 60 Seconds',
+    reviews: [
+      { initial: 'G', name: 'Gary F., Streetly', text: 'Excellent service. Arrived promptly, cleared both gutters and downpipes. Photos before and after were a nice touch. Very professional.' },
+      { initial: 'S', name: 'Susan M., Aldridge', text: 'Friendly and efficient team. No ladders on the walls which I was very pleased about. Would absolutely recommend.' },
+      { initial: 'T', name: 'Tom H., Bloxwich', text: 'Reliable, affordable and very thorough. Overflow issue sorted on the first visit. 5 stars.' },
+    ],
   },
 
   dudley: {

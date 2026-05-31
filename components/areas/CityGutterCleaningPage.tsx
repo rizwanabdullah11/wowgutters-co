@@ -28,7 +28,9 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
     'Could I get a fast quote for my home?',
   ];
 
-  const localReviews = [
+  const localReviews = data.reviews?.length
+    ? data.reviews
+    : [
     {
       initial: 'D',
       name: 'David T.',
@@ -275,7 +277,7 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
                   </div>
                   <div>
                     <cite className="not-italic font-bold text-slate-900 block">{r.name}</cite>
-                    <span className="text-sm text-slate-500">{r.place}</span>
+                    {r.place ? <span className="text-sm text-slate-500">{r.place}</span> : null}
                   </div>
                   <img
                     src="/images/google-g.svg"
