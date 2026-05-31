@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
+import LocalBusinessSchema from '@/components/LocalBusinessSchema'
 import CityGutterPageSchema from '@/components/areas/CityGutterPageSchema'
 import CityGutterCleaningPage from '@/components/areas/CityGutterCleaningPage'
 import { CITIES_ARRAY, getCityBySlug } from '@/lib/cities'
@@ -79,8 +80,19 @@ export default async function CityPage({ params }: PageProps) {
   
   if (!landingData) notFound()
   
+  const url = `https://wowgutters.co.uk/gutter-cleaning-${slug}/`
+
   return (
     <>
+      <LocalBusinessSchema
+        city={landingData.city}
+        url={url}
+        priceFrom={city.priceFrom}
+        priceTo={landingData.priceTo ?? 140}
+        nearbyAreas={landingData.nearbyAreas ?? []}
+        geo={landingData.geo}
+        postcodes={landingData.postcodes}
+      />
       <CityGutterPageSchema slug={slug} />
       <CityGutterCleaningPage data={landingData} />
     </>

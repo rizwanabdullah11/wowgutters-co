@@ -39,6 +39,8 @@ export type CityGutterLandingData = {
   postcodes?: string[];
   /** Optional custom bottom CTA label */
   ctaHeading?: string;
+  /** Max price range for schema */
+  priceTo?: number;
   /** Optional per-city reviews */
   reviews?: { initial: string; name: string; place?: string; text: string }[];
 };
@@ -132,6 +134,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Wolverhampton \u201D Free Quote in 60 Seconds',
+    priceTo: 140,
+    nearbyAreas: ['Penn', 'Tettenhall', 'Wednesfield', 'Bilston', 'Willenhall', 'Fordhouses'],
+    postcodes: ['WV1', 'WV2', 'WV3', 'WV4', 'WV5', 'WV6', 'WV7', 'WV8', 'WV9', 'WV10', 'WV11', 'WV12', 'WV13', 'WV14'],
   },
 
   coventry: {
@@ -214,6 +219,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Coventry \u201D Free Quote in 60 Seconds',
+    priceTo: 140,
+    nearbyAreas: ['Earlsdon', 'Allesley', 'Tile Hill', 'Canley', 'Finham', 'Radford', 'Foleshill'],
+    postcodes: ['CV1', 'CV2', 'CV3', 'CV4', 'CV5', 'CV6'],
   },
 
   walsall: {
@@ -302,6 +310,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { initial: 'S', name: 'Susan M., Aldridge', text: 'Friendly and efficient team. No ladders on the walls which I was very pleased about. Would absolutely recommend.' },
       { initial: 'T', name: 'Tom H., Bloxwich', text: 'Reliable, affordable and very thorough. Overflow issue sorted on the first visit. 5 stars.' },
     ],
+    priceTo: 130,
+    nearbyAreas: ['Bloxwich', 'Willenhall', 'Brownhills', 'Aldridge', 'Streetly', 'Bentley'],
+    postcodes: ['WS1', 'WS2', 'WS3', 'WS4', 'WS5', 'WS7', 'WS8', 'WS9'],
   },
 
   dudley: {
@@ -389,6 +400,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { initial: 'P', name: 'Phil T., Sedgley', text: 'Sorted a persistent overflow problem on the first visit. No mess, no fuss, great photos. Highly recommended for Dudley.' },
       { initial: 'A', name: 'Anita K., Netherton', text: 'Friendly team, turned up when they said and cleared everything completely. Very pleased.' },
     ],
+    priceTo: 130,
+    nearbyAreas: ['Brierley Hill', 'Halesowen', 'Netherton', 'Kingswinford', 'Sedgley', 'Stourbridge'],
+    postcodes: ['DY1', 'DY2', 'DY3', 'DY5', 'DY8', 'DY9'],
   },
 
   sandwell: {
@@ -476,6 +490,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { initial: 'E', name: 'Emma P., Smethwick', text: 'No ladders on my brickwork which was important to me. Photos showed everything that was removed. Excellent service.' },
       { initial: 'R', name: 'Robert C., Oldbury', text: 'Efficient and thorough. Sorted a long-standing overflow problem on the first visit. Highly recommend.' },
     ],
+    priceTo: 130,
+    nearbyAreas: ['West Bromwich', 'Smethwick', 'Oldbury', 'Tipton', 'Wednesbury', 'Rowley Regis'],
+    postcodes: ['B65', 'B66', 'B67', 'B68', 'B69', 'B70', 'B71', 'DY4'],
   },
 
   worcester: {
@@ -567,6 +584,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { initial: 'C', name: 'Chris B., Rainbow Hill', text: 'Very thorough clean of our Victorian gutters. Ground-level vacuum meant no risk to the original brickwork. Would highly recommend.' },
       { initial: 'J', name: 'Janet K., Barbourne', text: 'Friendly, professional and great value. Overflow issue resolved immediately. Will use every year.' },
     ],
+    priceTo: 140,
+    nearbyAreas: ['St John\u2019s', 'Rainbow Hill', 'Warndon', 'Barbourne', 'Claines', 'Dines Green'],
+    postcodes: ['WR1', 'WR2', 'WR3', 'WR4', 'WR5'],
   },
 
   redditch: {
@@ -654,6 +674,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { initial: 'L', name: 'Lisa B., Headless Cross', text: 'Quick, professional and good value. No mess and excellent communication. Would recommend to all Redditch homeowners.' },
       { initial: 'M', name: 'Mike W., Astwood Bank', text: 'Brilliant service. Arrived on time, went through the photos with me afterwards. Everything clear and flowing freely.' },
     ],
+    priceTo: 140,
+    nearbyAreas: ['Church Hill', 'Matchborough', 'Winyates', 'Webheath', 'Headless Cross', 'Astwood Bank'],
+    postcodes: ['B97', 'B98'],
   },
 
   bromsgrove: {
@@ -745,6 +768,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { initial: 'D', name: 'David P., Charford', text: 'Professional service at a fair price. No mess and great photos sent the same day. Will book again next autumn.' },
       { initial: 'A', name: 'Ann T., Lickey', text: 'The team were fantastic. Dealt with heavy leaf build-up from the Lickey trees. Highly recommend for Bromsgrove.' },
     ],
+    priceTo: 140,
+    nearbyAreas: ['Charford', 'Sidemoor', 'Barnt Green', 'Lickey', 'Catshill', 'Rubery border'],
+    postcodes: ['B60', 'B61'],
   },
 
   kidderminster: {
@@ -832,6 +858,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { initial: 'R', name: 'Richard T., Franche', text: 'Very professional. No ladders against our house, brilliant photos and downpipes all flushed through. Will definitely use again.' },
       { initial: 'J', name: 'Janet M., Wolverley', text: 'Fast to book, arrived on time and did a thorough job. The photo evidence was really reassuring. Highly recommend.' },
     ],
+    priceTo: 140,
+    nearbyAreas: ['Habberley', 'Foley Park', 'Blakedown', 'Wolverley', 'Stourport-on-Severn', 'Bewdley border'],
+    postcodes: ['DY10', 'DY11'],
   },
 
   malvern: {
@@ -920,6 +949,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { initial: 'A', name: 'Andrew B., Barnards Green', text: 'Thoroughly professional. The no-ladder system was exactly what we needed for our period property. Brilliant photos and a great result.' },
       { initial: 'S', name: 'Susan H., Malvern Link', text: 'Arrived on time, worked efficiently and left no mess. Before and after photos were brilliant. Highly recommend.' },
     ],
+    priceTo: 150,
+    nearbyAreas: ['Great Malvern', 'Malvern Link', 'Barnards Green', 'Malvern Wells', 'Colwall', 'Upton upon Severn border'],
+    postcodes: ['WR13', 'WR14'],
   },
 
   evesham: {
@@ -1011,6 +1043,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { initial: 'M', name: 'Mary K., Hampton', text: 'Excellent service from start to finish. No ladders on the brickwork, photos showed the difference clearly. Would highly recommend.' },
       { initial: 'J', name: 'James T., Badsey', text: 'Quick to respond, great value and very thorough. Will be booking annually from now on.' },
     ],
+    priceTo: 140,
+    nearbyAreas: ['Bengeworth', 'Hampton', 'Badsey', 'Offenham', 'Bretforton', 'Pershore border'],
+    postcodes: ['WR11'],
   },
 
   'droitwich-spa': {
@@ -1102,6 +1137,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { initial: 'G', name: 'Graham W., Droitwich', text: 'Fast to book, arrived when they said, left everything clean and tidy. The before and after photos showed a massive difference. Highly recommend.' },
       { initial: 'L', name: 'Linda T., Hanbury Road', text: 'Excellent service. Ground-level vacuum meant no risk to our period property. Will definitely use every year.' },
     ],
+    priceTo: 140,
+    nearbyAreas: ['Westlands', 'Ombersley Road area', 'Hanbury Road', 'Vines Park area', 'Salwarpe', 'Oddingley'],
+    postcodes: ['WR9'],
   },
   solihull: {
     slug: 'solihull',
@@ -1155,6 +1193,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Solihull \u201D Free Quote in 60 Seconds',
+    priceTo: 140,
+    nearbyAreas: ['Dorridge', 'Knowle', 'Shirley', 'Olton', 'Marston Green', 'Castle Bromwich'],
+    postcodes: ['B90', 'B91', 'B92', 'B93', 'B94'],
   },
   'sutton-coldfield': {
     slug: 'sutton-coldfield',
@@ -1240,6 +1281,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Sutton Coldfield \u201D Free Quote in 60 Seconds',
+    priceTo: 140,
+    nearbyAreas: ['Four Oaks', 'Boldmere', 'Wylde Green', 'Mere Green', 'Walmley', 'Streetly'],
+    postcodes: ['B72', 'B73', 'B74', 'B75', 'B76'],
   },
   halesowen: {
     slug: 'halesowen',
@@ -1612,6 +1656,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Gutter cleaning Kidderminster', href: '/gutter-cleaning-kidderminster/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in the West Midlands \u201D Free Quote in 60 Seconds',
+    priceTo: 140,
+    nearbyAreas: ['Birmingham', 'Wolverhampton', 'Coventry', 'Walsall', 'Dudley', 'Sandwell', 'Solihull'],
+    postcodes: ['B1-B99', 'DY1-DY14', 'WV1-WV14', 'CV1-CV35', 'WS1-WS15'],
   },
 
   aston: {
