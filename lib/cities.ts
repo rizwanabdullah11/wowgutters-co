@@ -50,7 +50,9 @@ export const CITIES: Record<string, CityData> = {
   // Major Cities
   // NOTE: Birmingham has a dedicated route at /app/gutter-cleaning-birmingham/
   // so it's excluded from this dynamic route to avoid conflicts
-  
+  // NOTE: Wolverhampton has a dedicated route at /app/gutter-cleaning-wolverhampton/
+  // so it's excluded from this dynamic route to avoid conflicts
+
   solihull: {
     slug: 'solihull',
     name: 'Solihull',
@@ -72,6 +74,7 @@ export const CITIES: Record<string, CityData> = {
   wolverhampton: {
     slug: 'wolverhampton',
     name: 'Wolverhampton',
+    // NOTE: has dedicated route at /app/gutter-cleaning-wolverhampton/
     postcodes: ['WV1', 'WV2', 'WV3', 'WV4', 'WV5', 'WV6', 'WV7', 'WV8', 'WV9', 'WV10', 'WV11', 'WV12', 'WV13', 'WV14'],
     nearbyAreas: ['Walsall', 'Dudley', 'Tettenhall', 'Bilston', 'Wednesfield', 'Mednesfield'],
     geo: { latitude: 52.5862, longitude: -2.1285 },
