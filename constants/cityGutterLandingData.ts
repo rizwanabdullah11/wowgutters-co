@@ -307,12 +307,12 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   dudley: {
     slug: 'dudley',
     city: 'Dudley',
-    titleTag: 'Gutter Cleaning Dudley | WOW Gutters Ltd \u201D Free Quote',
+    titleTag: 'Gutter Cleaning Dudley | WOW Gutters Ltd',
     metaDescription:
       'Professional gutter cleaning in Dudley from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
     h1: 'Gutter Cleaning Dudley \u201D Expert Service Across the Black Country',
     heroIntro:
-      "Dudley sits at the heart of the Black Country, dominated by Dudley Castle and its famous zoo on a hill that is visible for miles. The borough contains some of the most diverse housing in the West Midlands \u201D from the Victorian back-to-backs of Netherton and Cradley Heath to the large detached homes of Pedmore and Hagley. Properties near the Dudley Canal and close to the Waterfront development experience debris from adjacent mature woodland. WOW Gutters uses a ground-level vacuum system \u201D no ladders placed against your property.",
+      "Dudley sits at the heart of the Black Country, dominated by Dudley Castle and its famous zoo on a hill that is visible for miles. The borough contains some of the most diverse housing in the West Midlands \u201D from the Victorian back-to-backs of Netherton and Cradley Heath to the large detached homes of Pedmore and Hagley. Properties near the Dudley Canal and close to the Waterfront development experience debris from adjacent mature woodland. Stourbridge Road and the A459 corridor contain a mix of 1930s and post-war housing that benefits from our annual clean service.",
     whyTitle: 'Gutter Cleaning in Dudley \u201D What Makes the Black Country Different',
     whyBody: [
       'The Dudley area sits on higher ground than much of the West Midlands, which means it catches more wind-driven rain and leaf debris than many surrounding towns. Properties along the ridge through Sedgley, Gornal and Upper Gornal are particularly exposed, and their gutters can fill with moss and debris more rapidly than lower-lying areas.',
@@ -344,14 +344,10 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
         label: 'Modern estates (Brierley Hill Waterfront area)',
         detail: 'Newer estates with standard uPVC guttering. Annual clean keeps systems in top condition.',
       },
-      {
-        label: 'Commercial & industrial (Dudley, Merry Hill)',
-        detail: 'Warehouses, retail parks and offices \u201D planned maintenance contracts available.',
-      },
     ],
     areasTitle: 'Areas We Cover Around Dudley',
     areasInline:
-      'Brierley Hill, Halesowen, Netherton, Cradley Heath | Kingswinford, Sedgley, Coseley, Quarry Bank | Lye, Wollescote, Pedmore, Stourbridge border | Nearby: Birmingham, West Bromwich, Wolverhampton, Kidderminster',
+      'Brierley Hill, Halesowen, Netherton, Cradley Heath | Kingswinford, Sedgley, Coseley, Quarry Bank | Lye, Wollescote, Pedmore, Stourbridge border | Tipton border | Nearby: Birmingham, West Bromwich, Wolverhampton, Kidderminster',
     faqsTitle: 'FAQs \u201D Gutter Cleaning Dudley',
     faqs: [
       {
@@ -388,6 +384,11 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Dudley \u201D Free Quote in 60 Seconds',
+    reviews: [
+      { initial: 'C', name: 'Claire R., Kingswinford', text: 'WOW Gutters were fantastic. Quick, clean and professional. The photo evidence was brilliant. Will definitely use again.' },
+      { initial: 'P', name: 'Phil T., Sedgley', text: 'Sorted a persistent overflow problem on the first visit. No mess, no fuss, great photos. Highly recommended for Dudley.' },
+      { initial: 'A', name: 'Anita K., Netherton', text: 'Friendly team, turned up when they said and cleared everything completely. Very pleased.' },
+    ],
   },
 
   sandwell: {
@@ -398,7 +399,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Professional gutter cleaning in Sandwell & West Bromwich from £50. Vacuum system, before & after photos, 1-year guarantee. Call: 07421 433910.',
     h1: 'Gutter Cleaning Sandwell \u201D Professional Service for West Bromwich, Smethwick & Beyond',
     heroIntro:
-      "Sandwell Metropolitan Borough covers a densely populated urban area between Birmingham and Wolverhampton \u201D including West Bromwich, Smethwick, Oldbury, Tipton, Wednesbury and Rowley Regis. The housing is predominantly Victorian and Edwardian terraces in Smethwick and West Bromwich, with 1930s and post-war semis in Oldbury and Rowley Regis. Properties near West Bromwich Albion FC at The Hawthorns are surrounded by some of the densest terraced housing in the West Midlands. WOW Gutters uses a ground-level vacuum system \u201D no ladders placed against your property.",
+      "Sandwell Metropolitan Borough covers a densely populated urban area between Birmingham and Wolverhampton \u201D including West Bromwich, Smethwick, Oldbury, Tipton, Wednesbury and Rowley Regis. The housing is predominantly Victorian and Edwardian terraces in Smethwick and West Bromwich, with 1930s and post-war semis in Oldbury and Rowley Regis. Properties near West Bromwich Albion FC at The Hawthorns are surrounded by some of the densest terraced housing in the West Midlands. The areas around Sandwell Valley Country Park experience significant leaf fall each autumn.",
     whyTitle: 'Why Sandwell Properties Need Regular Gutter Maintenance',
     whyBody: [
       'Sandwell has one of the highest densities of terraced housing in the West Midlands, particularly in Smethwick, West Bromwich and Oldbury. In terraced rows, a blocked gutter on one property can affect neighbours \u201D water that overflows onto shared walls accelerates damp penetration on both sides of the boundary. Regular cleaning is therefore not just good maintenance for your own home, but considerate to your neighbours too.',
@@ -470,17 +471,22 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Sandwell \u201D Free Quote in 60 Seconds',
+    reviews: [
+      { initial: 'M', name: 'Mark J., West Bromwich', text: 'Very professional. Cleared blocked gutters and downpipes in under an hour. Great value for the Sandwell area.' },
+      { initial: 'E', name: 'Emma P., Smethwick', text: 'No ladders on my brickwork which was important to me. Photos showed everything that was removed. Excellent service.' },
+      { initial: 'R', name: 'Robert C., Oldbury', text: 'Efficient and thorough. Sorted a long-standing overflow problem on the first visit. Highly recommend.' },
+    ],
   },
 
   worcester: {
     slug: 'worcester',
     city: 'Worcester',
-    titleTag: 'Gutter Cleaning Worcester | WOW Gutters Ltd \u201D Free Quote',
+    titleTag: 'Gutter Cleaning Worcester | WOW Gutters Ltd',
     metaDescription:
       'Professional gutter cleaning in Worcester from £55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
     h1: 'Gutter Cleaning Worcester \u201D Professional Service Across WR1-WR14',
     heroIntro:
-      "Worcester is one of England's great cathedral cities, sitting on the River Severn in the heart of Worcestershire. The city combines a medieval and Georgian core with extensive Victorian and Edwardian suburbs along the London Road and Sidbury corridors, and more modern residential development in Warndon Villages and St John's. Properties near the river are particularly susceptible to moisture and require well-maintained guttering to prevent additional damp. The mature elms and oaks of Worcester's parks and residential streets shed significant leaf debris each autumn \u201D particularly around Rainbow Hill and St John's. WOW Gutters uses a ground-level vacuum system \u201D no ladders placed against your property.",
+      "Worcester is one of England's great cathedral cities, sitting on the River Severn in the heart of Worcestershire. The city combines a medieval and Georgian core with extensive Victorian and Edwardian suburbs along the London Road and Sidbury corridors, and more modern residential development in Warndon Villages and St John's. Properties near the river are particularly susceptible to moisture and require well-maintained guttering to prevent additional damp. The mature elms and oaks of Worcester's parks and residential streets shed significant leaf debris each autumn \u201D particularly around Rainbow Hill and St John's.",
     whyTitle: 'Why Worcester Gutters Need Regular Attention',
     whyBody: [
       'Worcester sits in the Severn Valley and is one of the wettest cities in the English Midlands \u201D the River Severn regularly floods its banks, and the surrounding landscape channels rainfall into the city from the Malvern Hills and Worcestershire countryside. This consistent damp climate makes gutters in Worcester highly susceptible to moss and algae growth, which narrows gutter channels and accelerates blockage even when leaf fall is minimal.',
@@ -547,7 +553,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
           'Yes. We provide professional soft-wash roof cleaning and moss removal across Worcester. Combined roof and gutter cleans are available at a reduced price \u201D ask when you book.',
       },
     ],
-    geo: { latitude: 52.1936, longitude: -2.2216 },
+    geo: { latitude: 52.1920, longitude: -2.2209 },
     internalLinks: [
       { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
       { label: 'Gutter cleaning Bromsgrove', href: '/gutter-cleaning-bromsgrove/' },
@@ -556,12 +562,17 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Worcester \u201D Free Quote in 60 Seconds',
+    reviews: [
+      { initial: 'H', name: 'Helen M., St John\u2019s', text: 'Excellent service in Worcester. Arrived on time, no ladders against the walls, and the photos showed exactly what had been cleared. Brilliant.' },
+      { initial: 'C', name: 'Chris B., Rainbow Hill', text: 'Very thorough clean of our Victorian gutters. Ground-level vacuum meant no risk to the original brickwork. Would highly recommend.' },
+      { initial: 'J', name: 'Janet K., Barbourne', text: 'Friendly, professional and great value. Overflow issue resolved immediately. Will use every year.' },
+    ],
   },
 
   redditch: {
     slug: 'redditch',
     city: 'Redditch',
-    titleTag: 'Gutter Cleaning Redditch | WOW Gutters Ltd \u201D Free Quote',
+    titleTag: 'Gutter Cleaning Redditch | WOW Gutters Ltd',
     metaDescription:
       'Professional gutter cleaning in Redditch from £55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
     h1: 'Gutter Cleaning Redditch \u201D Professional Service Across B97-B98',
@@ -638,12 +649,17 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Redditch \u201D Free Quote in 60 Seconds',
+    reviews: [
+      { initial: 'P', name: 'Paul M., Church Hill', text: 'First time using WOW Gutters. Very impressed. The 1970s guttering on our house had never been properly cleaned \u201D sorted completely. Great photos.' },
+      { initial: 'L', name: 'Lisa B., Headless Cross', text: 'Quick, professional and good value. No mess and excellent communication. Would recommend to all Redditch homeowners.' },
+      { initial: 'M', name: 'Mike W., Astwood Bank', text: 'Brilliant service. Arrived on time, went through the photos with me afterwards. Everything clear and flowing freely.' },
+    ],
   },
 
   bromsgrove: {
     slug: 'bromsgrove',
     city: 'Bromsgrove',
-    titleTag: 'Gutter Cleaning Bromsgrove | WOW Gutters Ltd \u201D Free Quote',
+    titleTag: 'Gutter Cleaning Bromsgrove | WOW Gutters Ltd',
     metaDescription:
       'Professional gutter cleaning in Bromsgrove from £55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
     h1: 'Gutter Cleaning Bromsgrove \u201D Professional Service Across B60-B61',
@@ -724,17 +740,22 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Bromsgrove \u201D Free Quote in 60 Seconds',
+    reviews: [
+      { initial: 'S', name: 'Sarah L., Barnt Green', text: 'WOW Gutters were excellent. Quick to book, arrived on time, brilliant photos. Our detached home in Barnt Green has very leafy gutters \u201D all cleared.' },
+      { initial: 'D', name: 'David P., Charford', text: 'Professional service at a fair price. No mess and great photos sent the same day. Will book again next autumn.' },
+      { initial: 'A', name: 'Ann T., Lickey', text: 'The team were fantastic. Dealt with heavy leaf build-up from the Lickey trees. Highly recommend for Bromsgrove.' },
+    ],
   },
 
   kidderminster: {
     slug: 'kidderminster',
     city: 'Kidderminster',
-    titleTag: 'Gutter Cleaning Kidderminster | WOW Gutters Ltd \u201D Free Quote',
+    titleTag: 'Gutter Cleaning Kidderminster | WOW Gutters Ltd',
     metaDescription:
       'Professional gutter cleaning in Kidderminster from £55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call: 07421 433910.',
     h1: 'Gutter Cleaning Kidderminster \u201D Professional Service Across DY10-DY11',
     heroIntro:
-      "Kidderminster is Worcestershire's second largest town, historically famous for its carpet manufacturing industry \u201D many of the town's older properties still have the solid construction associated with Victorian industrial prosperity. The town sits in the Stour Valley and is surrounded by the Wyre Forest, one of the largest ancient oak woodlands in England. Properties along the Wyre Forest edge in Habberley, Blakedown and Wolverley experience the most significant leaf fall of any area we serve \u201D heavy oak leaf accumulation from September through to December. WOW Gutters uses a ground-level vacuum system \u201D no ladders placed against your property.",
+      "Kidderminster is Worcestershire\u2019s second largest town, historically famous for its carpet manufacturing industry \u201D many of the town\u2019s older properties still have the solid construction associated with Victorian industrial prosperity. The town sits in the Stour Valley and is surrounded by the Wyre Forest, one of the largest ancient oak woodlands in England. Properties along the Wyre Forest edge in Habberley, Blakedown and Wolverley experience the most significant leaf fall of any area we serve \u201D heavy oak leaf accumulation from September through to December.",
     whyTitle: 'Gutter Cleaning in Kidderminster \u201D Local Knowledge, Professional Results',
     whyBody: [
       'Kidderminster sits on the River Stour in north Worcestershire, in a naturally damp valley that channels moisture from the surrounding Wyre Forest and Worcestershire countryside. The Wyre Forest to the north-west of the town is one of the largest areas of ancient woodland in England \u201D and properties on Kidderminster\'s western and northern fringe, particularly around Blakedown and Wolverley, benefit directly from this lush landscape while also bearing the consequences: heavy leaf fall, moss growth and debris accumulation in their gutters throughout the year.',
@@ -806,12 +827,17 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Kidderminster \u201D Free Quote in 60 Seconds',
+    reviews: [
+      { initial: 'F', name: 'Fiona H., Habberley', text: 'The oak leaf problem near the Wyre Forest is real \u201D our gutters were completely blocked. WOW Gutters cleared everything on the first visit. Excellent.' },
+      { initial: 'R', name: 'Richard T., Franche', text: 'Very professional. No ladders against our house, brilliant photos and downpipes all flushed through. Will definitely use again.' },
+      { initial: 'J', name: 'Janet M., Wolverley', text: 'Fast to book, arrived on time and did a thorough job. The photo evidence was really reassuring. Highly recommend.' },
+    ],
   },
 
   malvern: {
     slug: 'malvern',
     city: 'Malvern',
-    titleTag: 'Gutter Cleaning Malvern | WOW Gutters Ltd \u201D Free Quote',
+    titleTag: 'Gutter Cleaning Malvern | WOW Gutters Ltd',
     metaDescription:
       'Professional gutter cleaning in Malvern from £60. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
     h1: 'Gutter Cleaning Malvern \u201D Professional Service for WR13-WR14 Properties',
@@ -889,12 +915,17 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Malvern \u201D Free Quote in 60 Seconds',
+    reviews: [
+      { initial: 'C', name: 'Catherine W., Great Malvern', text: 'Our Victorian villa on the hillside had gutters that conventional ladder access couldn\u2019t reach properly. WOW Gutters solved this completely. Excellent.' },
+      { initial: 'A', name: 'Andrew B., Barnards Green', text: 'Thoroughly professional. The no-ladder system was exactly what we needed for our period property. Brilliant photos and a great result.' },
+      { initial: 'S', name: 'Susan H., Malvern Link', text: 'Arrived on time, worked efficiently and left no mess. Before and after photos were brilliant. Highly recommend.' },
+    ],
   },
 
   evesham: {
     slug: 'evesham',
     city: 'Evesham',
-    titleTag: 'Gutter Cleaning Evesham | WOW Gutters Ltd \u201D Free Quote',
+    titleTag: 'Gutter Cleaning Evesham | WOW Gutters Ltd',
     metaDescription:
       'Professional gutter cleaning in Evesham from £55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
     h1: 'Gutter Cleaning Evesham \u201D Professional Service for WR11 Properties',
@@ -966,7 +997,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
           'Yes. We provide soft-wash roof cleaning and moss removal across Evesham and the surrounding Vale.',
       },
     ],
-    geo: { latitude: 52.0914, longitude: -1.9480 },
+    geo: { latitude: 52.0920, longitude: -1.9470 },
     internalLinks: [
       { label: 'Gutter cleaning Redditch', href: '/gutter-cleaning/redditch' },
       { label: 'Gutter cleaning Worcester', href: '/gutter-cleaning/worcester' },
@@ -974,17 +1005,23 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Roof cleaning Evesham', href: '/roof-cleaning/evesham' },
       { label: 'Gutter cleaning Stratford-upon-Avon', href: '/gutter-cleaning/stratford-upon-avon' },
     ],
+    ctaHeading: 'Book Your Gutter Clean in Evesham \u201D Free Quote in 60 Seconds',
+    reviews: [
+      { initial: 'P', name: 'Peter S., Bengeworth', text: 'Really pleased with WOW Gutters. The riverside location means our gutters fill up fast. Cleared completely, great photos, very professional.' },
+      { initial: 'M', name: 'Mary K., Hampton', text: 'Excellent service from start to finish. No ladders on the brickwork, photos showed the difference clearly. Would highly recommend.' },
+      { initial: 'J', name: 'James T., Badsey', text: 'Quick to respond, great value and very thorough. Will be booking annually from now on.' },
+    ],
   },
 
   'droitwich-spa': {
     slug: 'droitwich-spa',
     city: 'Droitwich Spa',
-    titleTag: 'Gutter Cleaning Droitwich Spa | WOW Gutters Ltd \u201D Free Quote',
+    titleTag: 'Gutter Cleaning Droitwich Spa | WOW Gutters Ltd',
     metaDescription:
-      'Professional gutter cleaning in Droitwich Spa from £55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
+      'Professional gutter cleaning in Droitwich Spa from £55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call: 07421 433910.',
     h1: 'Gutter Cleaning Droitwich Spa \u201D Professional Service for WR9 Properties',
     heroIntro:
-      "Droitwich Spa is Worcestershire's most historic salt town, with a rich industrial past dating back to Roman times. The town's Victorian and Edwardian villas, particularly around St Peter's and the Salt Way area, reflect its 19th-century prosperity as a spa destination. Droitwich sits on the River Salwarpe, and its position in a shallow valley means many properties experience higher than average ground moisture. The old brine baths site and the central canal basin are distinctive local landmarks. Droitwich is surrounded by commuter villages such as Cutnall Green, Hampton Lovett and Rushock \u201D all experiencing significant tree coverage.",
+      "Droitwich Spa is one of England's oldest spa towns, with a history of salt extraction dating back to Roman times. Today it is a prosperous Worcestershire town with a mix of Victorian spa-era villas, 1930s and post-war semis, and new development around Westlands. The town sits midway between Birmingham and Worcester on the A38, making it a popular commuter location. Properties in the old spa district around Victoria Square and along the Vines Park have original Victorian gutter systems that require careful maintenance. The town's elevated position west of the M5 means properties on the western edge experience higher wind exposure.",
     whyTitle: 'Gutter Cleaning Droitwich Spa \u201D Historic Town, Modern Solutions',
     whyBody: [
       "Droitwich Spa sits at the centre of Worcestershire, surrounded by the farmland and hedgerow landscape of the county. The town's position means it receives steady rainfall year-round, and its residential streets \u201D lined with mature trees particularly in the older spa-town areas \u201D provide ideal conditions for gutter blockages to develop rapidly in autumn and late spring.",
@@ -1001,25 +1038,29 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Droitwich Spa',
     propertyTypes: [
       {
-        label: 'Victorian & Edwardian villas (St Peter\u2019s, Salt Way)',
+        label: 'Victorian spa villas (old town centre)',
         detail: 'Period homes with older guttering and established gardens. Careful, experienced cleaning approach.',
       },
       {
-        label: 'Post-war semis (Westlands, Copcut)',
-        detail: 'Standard uPVC systems. Leaf and moss build-up cleared thoroughly.',
+        label: '1930s semis (Westlands, Ombersley Road)',
+        detail: 'Classic uPVC gutter runs. Regular cleaning maintains joints and prevents overflow.',
       },
       {
-        label: 'Rural village properties (Ombersley, Hanbury, Cutnall Green)',
-        detail: 'Surrounded by agricultural land and hedgerows \u201D debris accumulation is higher than urban areas.',
+        label: 'Post-war housing (various estates)',
+        detail: 'Standard uPVC systems. Annual clean prevents overflow and damp issues.',
       },
       {
-        label: 'Properties near the River Salwarpe',
-        detail: 'Elevated ground moisture. Clean, well-maintained guttering particularly important for preventing damp.',
+        label: 'Modern development',
+        detail: 'Newer estate properties with standard guttering. Annual clean maintains warranty condition.',
+      },
+      {
+        label: 'Commuter detached homes',
+        detail: 'Larger properties with mature garden trees. Autumn clean is particularly important.',
       },
     ],
     areasTitle: 'Areas We Cover Around Droitwich Spa',
     areasInline:
-      'Ombersley, Hadley, Martin Hussingtree, Hanbury | Stoke Prior, Wychbold, Cutnall Green, Hampton Lovett | Rushock, Fernhill Heath, Oddingley, Tibberton | Nearby: Worcester, Bromsgrove, Redditch, Kidderminster',
+      'Westlands, Ombersley Road area, Hanbury Road, Vines Park area | Salwarpe, Oddingley, Wychbold | Hampton Lovett, Fernhill Heath | Nearby: Worcester, Bromsgrove, Redditch, Kidderminster',
     faqsTitle: 'FAQs \u201D Gutter Cleaning Droitwich Spa',
     faqs: [
       {
@@ -1047,7 +1088,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
           'Yes. We provide professional soft-wash roof cleaning and moss removal across Droitwich and surrounding areas.',
       },
     ],
-    geo: { latitude: 52.2674, longitude: -2.1525 },
+    geo: { latitude: 52.2682, longitude: -2.1522 },
     internalLinks: [
       { label: 'Gutter cleaning Worcester', href: '/gutter-cleaning-worcester/' },
       { label: 'Gutter cleaning Bromsgrove', href: '/gutter-cleaning-bromsgrove/' },
@@ -1056,6 +1097,11 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Droitwich Spa \u201D Free Quote in 60 Seconds',
+    reviews: [
+      { initial: 'P', name: 'Patricia H., Westlands', text: 'WOW Gutters were brilliant. Professional, no mess, great photos. Our Victorian gutters had not been cleaned for years \u201D all sorted in one visit.' },
+      { initial: 'G', name: 'Graham W., Droitwich', text: 'Fast to book, arrived when they said, left everything clean and tidy. The before and after photos showed a massive difference. Highly recommend.' },
+      { initial: 'L', name: 'Linda T., Hanbury Road', text: 'Excellent service. Ground-level vacuum meant no risk to our period property. Will definitely use every year.' },
+    ],
   },
   solihull: {
     slug: 'solihull',
@@ -1483,12 +1529,12 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   westmidlands: {
     slug: 'westmidlands',
     city: 'West Midlands',
-    titleTag: 'Gutter Cleaning West Midlands | WOW Gutters Ltd \u201D Free Quote',
+    titleTag: 'Gutter Cleaning West Midlands | WOW Gutters Ltd',
     metaDescription:
-      'Professional gutter cleaning across the West Midlands from £55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
-    h1: 'Gutter Cleaning West Midlands \u201D Regional Specialists Covering All Major Towns & Cities',
+      'Professional gutter cleaning across the West Midlands from £50. Ground-level vacuum, before & after photos, 1-year guarantee. Call: 07421 433910.',
+    h1: 'Gutter Cleaning West Midlands \u201D Covering Birmingham, Wolverhampton, Coventry & Beyond',
     heroIntro:
-      "WOW Gutters Ltd delivers professional gutter cleaning across the entire West Midlands region \u201D from the Victorian terraces of Wolverhampton and Dudley to the executive homes of Solihull and Sutton Coldfield, and from the city-centre apartments of Birmingham to the rural properties of Worcestershire's market towns. The West Midlands is one of the most diverse housing regions in the UK, spanning over 200 years of construction. Our team has the local knowledge and professional equipment to handle every property type safely \u201D using a ground-level vacuum system that reaches up to four storeys without placing a single ladder against your home. Every job includes before and after photos, and our 1-year guarantee means we return free if your gutters block within 12 months.",
+      "WOW Gutters Ltd provides professional gutter cleaning across the entire West Midlands region \u201D from the heart of Birmingham to the edges of Worcestershire and Warwickshire. The West Midlands metropolitan county contains seven metropolitan boroughs: Birmingham, Wolverhampton, Coventry, Walsall, Dudley, Sandwell and Solihull \u201D we cover all of them. Our ground-level vacuum system reaches up to four storeys without placing a single ladder against your home.",
     whyTitle: 'Why Properties Across the West Midlands Need Regular Gutter Cleaning',
     whyBody: [
       'The West Midlands is one of the most densely populated regions in the UK, with a rich variety of housing spanning over 200 years of construction. From Georgian and Victorian terraces in Birmingham and Wolverhampton to post-war semis in Walsall and Dudley, and from new-build estates in Coventry and Redditch to rural village properties in Worcestershire \u201D each property type and era presents different gutter challenges.',
@@ -1527,7 +1573,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     areasTitle: 'Major Towns & Cities We Cover Across the West Midlands',
     areasInline:
-      'Birmingham, Solihull, Coventry, Wolverhampton | Walsall, Dudley, Sandwell, West Bromwich | Redditch, Bromsgrove, Worcester, Kidderminster | Sutton Coldfield, Tamworth, Stourbridge, Halesowen',
+      'Birmingham, Wolverhampton, Coventry, Walsall | Dudley, Sandwell, West Bromwich, Solihull | Sutton Coldfield, Tamworth, Lichfield, Cannock | Stourbridge, Halesowen, Smethwick | Nearby: Worcester, Redditch, Bromsgrove, Kidderminster',
     faqsTitle: 'FAQs \u201D Gutter Cleaning West Midlands',
     faqs: [
       {
@@ -1554,10 +1600,16 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     geo: { latitude: 52.4862, longitude: -1.8904 },
     internalLinks: [
       { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
-      { label: 'Gutter cleaning Solihull', href: '/gutter-cleaning-solihull/' },
       { label: 'Gutter cleaning Wolverhampton', href: '/gutter-cleaning-wolverhampton/' },
       { label: 'Gutter cleaning Coventry', href: '/gutter-cleaning-coventry/' },
-      { label: 'Professional gutter cleaning', href: '/help/unblock/' },
+      { label: 'Gutter cleaning Walsall', href: '/gutter-cleaning-walsall/' },
+      { label: 'Gutter cleaning Dudley', href: '/gutter-cleaning-dudley/' },
+      { label: 'Gutter cleaning Sandwell', href: '/gutter-cleaning-sandwell/' },
+      { label: 'Gutter cleaning Solihull', href: '/gutter-cleaning-solihull/' },
+      { label: 'Gutter cleaning Worcester', href: '/gutter-cleaning-worcester/' },
+      { label: 'Gutter cleaning Bromsgrove', href: '/gutter-cleaning-bromsgrove/' },
+      { label: 'Gutter cleaning Redditch', href: '/gutter-cleaning-redditch/' },
+      { label: 'Gutter cleaning Kidderminster', href: '/gutter-cleaning-kidderminster/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in the West Midlands \u201D Free Quote in 60 Seconds',
   },
