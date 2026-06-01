@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import { ChevronDown, Phone, Mail, CheckCircle } from 'lucide-react';
 import Link from 'next/link';
 import type { CityFaqItem } from '@/lib/cityFaqs';
@@ -12,9 +11,13 @@ type CollapsibleAreaFAQProps = {
   heading?: string;
 };
 
+/**
+ * Native <details>/<summary> accordion — works on static export without React hydration.
+ * (useState + onClick breaks when client JS fails to hydrate on Hostinger.)
+ */
 export default function CollapsibleAreaFAQ({ city, faqs, heading }: CollapsibleAreaFAQProps) {
-  const [openIdx, setOpenIdx] = useState<number | null>(0);
   const title = heading ?? `Gutter Cleaning ${city} — Questions Answered`;
+  const groupName = `faq-${city.toLowerCase().replace(/\s+/g, '-')}`;
 
   return (
     <section className="py-20 px-4 bg-slate-50">
@@ -34,45 +37,32 @@ export default function CollapsibleAreaFAQ({ city, faqs, heading }: CollapsibleA
         <div className="grid lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2 space-y-4">
             {faqs.map((faq, i) => (
-              <div
+              <details
                 key={faq.question}
-                className={`bg-white rounded-2xl overflow-hidden border-2 transition-all duration-300 shadow-sm ${
-                  openIdx === i ? 'border-[#19C58B] shadow-lg' : 'border-slate-200 hover:border-slate-300'
-                }`}
+                name={groupName}
+                open={i === 0}
+                className="area-faq-details group bg-white rounded-2xl overflow-hidden border-2 border-slate-200 shadow-sm transition-all duration-300 open:border-[#19C58B] open:shadow-lg hover:border-slate-300"
               >
-                <button
-                  type="button"
-                  onClick={() => setOpenIdx(openIdx === i ? null : i)}
-                  className="w-full flex items-center justify-between p-6 text-left group"
-                  aria-expanded={openIdx === i}
-                >
+                <summary className="w-full flex items-center justify-between gap-4 p-6 text-left cursor-pointer list-none [&::-webkit-details-marker]:hidden">
                   <div className="flex items-center gap-4 flex-1 min-w-0">
                     <span className="text-2xl shrink-0" aria-hidden>
                       {faq.icon}
                     </span>
-                    <span className="text-slate-900 font-bold text-lg group-hover:text-[#19C58B] transition-colors">
+                    <span className="text-slate-900 font-bold text-lg group-open:text-[#19C58B] transition-colors">
                       {faq.question}
                     </span>
                   </div>
                   <ChevronDown
-                    className={`w-6 h-6 text-[#19C58B] transition-transform duration-300 shrink-0 ${
-                      openIdx === i ? 'rotate-180' : ''
-                    }`}
+                    className="w-6 h-6 text-[#19C58B] transition-transform duration-300 shrink-0 group-open:rotate-180"
                     aria-hidden
                   />
-                </button>
-                <div
-                  className={`overflow-hidden transition-all duration-300 ${
-                    openIdx === i ? 'max-h-[28rem]' : 'max-h-0'
-                  }`}
-                >
-                  <div className="px-6 pb-6 pt-2 border-t border-slate-100">
-                    <div className="pl-12 pr-4">
-                      <p className="text-slate-600 leading-relaxed text-base">{faq.answer}</p>
-                    </div>
+                </summary>
+                <div className="px-6 pb-6 pt-2 border-t border-slate-100">
+                  <div className="pl-12 pr-4">
+                    <p className="text-slate-600 leading-relaxed text-base">{faq.answer}</p>
                   </div>
                 </div>
-              </div>
+              </details>
             ))}
           </div>
 
@@ -110,12 +100,9 @@ export default function CollapsibleAreaFAQ({ city, faqs, heading }: CollapsibleA
                   </a>
                 </div>
                 <Link href="/quote" className="block mt-6">
-                  <button
-                    type="button"
-                    className="w-full bg-white text-[#19C58B] font-bold py-4 rounded-xl hover:bg-slate-50 transition-all duration-300 hover:scale-105 shadow-lg"
-                  >
+                  <span className="flex w-full items-center justify-center bg-white text-[#19C58B] font-bold py-4 rounded-xl hover:bg-slate-50 transition-all duration-300 hover:scale-105 shadow-lg">
                     Get My Free Quote
-                  </button>
+                  </span>
                 </Link>
               </div>
               <div className="bg-white rounded-2xl p-6 border-2 border-slate-200 shadow-sm">

@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { ShieldCheck, Phone, Cable, Images, Shield, ChevronDown, CheckCircle } from 'lucide-react';
 import { colors } from '@/constants/colors';
@@ -63,8 +63,8 @@ const whatsappQuestions = [
 
 export default function SuburbGutterCleaningPage({ data }: { data: SuburbPageData }) {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [openFaqIdx, setOpenFaqIdx] = useState<number | null>(0);
   const guarantees = data.guarantees ?? defaultGuarantees;
+  const faqGroupName = `faq-${data.city.toLowerCase().replace(/\s+/g, '-')}`;
 
   useEffect(() => {
     videoRef.current?.play().catch(() => {});
@@ -268,32 +268,25 @@ export default function SuburbGutterCleaningPage({ data }: { data: SuburbPageDat
 
           <div className="space-y-4 max-w-3xl mx-auto">
             {data.faqs.map((faq, i) => (
-              <div
+              <details
                 key={faq.question}
-                className={`bg-[#0f172a] rounded-2xl overflow-hidden border transition-all duration-300 ${
-                  openFaqIdx === i ? 'border-white/30 shadow-lg shadow-black/20' : 'border-white/10 hover:border-white/20'
-                }`}
+                name={faqGroupName}
+                open={i === 0}
+                className="group bg-[#0f172a] rounded-2xl overflow-hidden border border-white/10 transition-all duration-300 open:border-white/30 open:shadow-lg open:shadow-black/20 hover:border-white/20"
               >
-                <button
-                  type="button"
-                  onClick={() => setOpenFaqIdx(openFaqIdx === i ? null : i)}
-                  className="w-full flex items-center justify-between p-6 text-left group"
-                >
-                  <span className="text-white font-bold text-lg group-hover:text-[#19C58B] transition-colors">
+                <summary className="w-full flex items-center justify-between gap-4 p-6 text-left cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                  <span className="text-white font-bold text-lg group-open:text-[#19C58B] transition-colors">
                     {faq.question}
                   </span>
                   <ChevronDown
-                    className={`w-6 h-6 text-[#19C58B] transition-transform duration-300 shrink-0 ${
-                      openFaqIdx === i ? 'rotate-180' : ''
-                    }`}
+                    className="w-6 h-6 text-[#19C58B] transition-transform duration-300 shrink-0 group-open:rotate-180"
+                    aria-hidden
                   />
-                </button>
-                <div className={`overflow-hidden transition-all duration-300 ${openFaqIdx === i ? 'max-h-[28rem]' : 'max-h-0'}`}>
-                  <div className="px-6 pb-6 pt-2">
-                    <p className="text-gray-300 leading-relaxed text-base">{faq.answer}</p>
-                  </div>
+                </summary>
+                <div className="px-6 pb-6 pt-2">
+                  <p className="text-gray-300 leading-relaxed text-base">{faq.answer}</p>
                 </div>
-              </div>
+              </details>
             ))}
           </div>
         </div>
