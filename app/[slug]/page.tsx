@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import BirminghamGutterPageSchema from '@/components/areas/BirminghamGutterPageSchema';
+import LocalBusinessSchema from '@/components/LocalBusinessSchema';
 import AreaPage from '@/components/areas/AreaPage';
 import BirminghamGutterCleaningPage from '@/components/areas/BirminghamGutterCleaningPage';
+import { buildCitySchemaFaqs } from '@/lib/cityFaqs';
 import AreaPageSchema from '@/components/areas/AreaPageSchema';
 import { renderCityLanding } from '@/components/areas/CityGutterCleaningRoutes';
 import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
@@ -85,9 +86,26 @@ export default async function SingleSegmentAreaPage(props: PageProps) {
   }
 
   if (areaSlug === 'birmingham') {
+    const url = 'https://wowgutters.co.uk/gutter-cleaning-birmingham/';
     return (
       <>
-        <BirminghamGutterPageSchema />
+        <LocalBusinessSchema
+          city="Birmingham"
+          url={url}
+          priceFrom={50}
+          priceTo={120}
+          nearbyAreas={['Solihull', 'Sutton Coldfield', 'Wolverhampton', 'Walsall', 'Dudley', 'West Bromwich']}
+          geo={{ latitude: 52.4862, longitude: -1.8904 }}
+          postcodes={['B1', 'B13', 'B14', 'B15', 'B16', 'B17', 'B23', 'B27', 'B28', 'B29', 'B31', 'B43', 'B73', 'B74', 'B76']}
+          faqs={buildCitySchemaFaqs({
+            city: 'Birmingham',
+            slug: 'birmingham',
+            priceFrom: 50,
+            priceTo: 120,
+            postcodes: ['B1', 'B13', 'B14', 'B15', 'B16', 'B17', 'B23', 'B27', 'B28', 'B29', 'B31', 'B43', 'B73', 'B74', 'B76'],
+            nearbyAreas: ['Solihull', 'Sutton Coldfield', 'Wolverhampton', 'Walsall', 'Dudley', 'West Bromwich'],
+          })}
+        />
         <BirminghamGutterCleaningPage />
       </>
     );

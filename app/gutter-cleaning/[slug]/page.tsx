@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
-import CityGutterPageSchema from '@/components/areas/CityGutterPageSchema'
 import CityGutterCleaningPage from '@/components/areas/CityGutterCleaningPage'
 import { CITIES_ARRAY, getCityBySlug } from '@/lib/cities'
 import { getCityGutterLandingData, hasCityGutterLandingData } from '@/constants/cityGutterLandingData'
+import { buildCitySchemaFaqs, isPrimaryCitySlug } from '@/lib/cityFaqs'
 
 interface PageProps {
   params: Promise<{
@@ -81,20 +81,32 @@ export default async function CityPage({ params }: PageProps) {
   if (!landingData) notFound()
   
   const url = `https://wowgutters.co.uk/gutter-cleaning-${slug}/`
+  const priceFrom = city.priceFrom
+  const priceTo = landingData.priceTo ?? city.priceTo ?? 140
+  const schemaFaqs = isPrimaryCitySlug(slug)
+    ? buildCitySchemaFaqs({
+        city: landingData.city,
+        slug,
+        priceFrom,
+        priceTo,
+        postcodes: landingData.postcodes,
+        nearbyAreas: landingData.nearbyAreas,
+      })
+    : landingData.faqs
 
   return (
     <>
       <LocalBusinessSchema
         city={landingData.city}
         url={url}
-        priceFrom={city.priceFrom}
-        priceTo={landingData.priceTo ?? 140}
+        priceFrom={priceFrom}
+        priceTo={priceTo}
         nearbyAreas={landingData.nearbyAreas ?? []}
         geo={landingData.geo}
         postcodes={landingData.postcodes}
+        faqs={schemaFaqs}
       />
-      <CityGutterPageSchema slug={slug} />
-      <CityGutterCleaningPage data={landingData} />
+      <CityGutterCleaningPage data={landingData} priceFrom={priceFrom} priceTo={priceTo} />
     </>
   )
 }

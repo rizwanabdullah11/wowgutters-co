@@ -1,3 +1,5 @@
+import { WOW_GUTTERS_LOGO_URL } from '@/lib/brand';
+
 /**
  * LocalBusinessSchema Component
  * 
@@ -97,10 +99,10 @@ export default function LocalBusinessSchema({
         telephone: '+447421433910',
         email: 'support@wowgutters.co.uk',
         priceRange: '££',
-        image: 'https://wowgutters.co.uk/assets/wow-gutter-logo2.png',
+        image: WOW_GUTTERS_LOGO_URL,
         logo: {
           '@type': 'ImageObject',
-          url: 'https://wowgutters.co.uk/assets/wow-gutter-logo2.png',
+          url: WOW_GUTTERS_LOGO_URL,
         },
         address: {
           '@type': 'PostalAddress',

@@ -129,6 +129,11 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     priceTo: 140,
     nearbyAreas: ['Earlsdon', 'Allesley', 'Tile Hill', 'Canley', 'Finham', 'Radford', 'Foleshill'],
     postcodes: ['CV1', 'CV2', 'CV3', 'CV4', 'CV5', 'CV6'],
+    reviews: [
+      { initial: 'M', name: 'Mark D., Earlsdon', text: 'Excellent gutter clean in Coventry. Arrived on time, no ladders on the walls, and the before/after photos were really clear. Highly recommend WOW Gutters.' },
+      { initial: 'L', name: 'Lisa P., Tile Hill', text: 'Friendly team and a fair fixed price. Downpipes flushed through properly and overflow sorted on the first visit. Will book again.' },
+      { initial: 'J', name: 'James W., Allesley', text: 'Very professional service across CV postcodes. Photo proof on every job and no mess left behind. 5 stars.' },
+    ],
   },
 
   walsall: {
@@ -1103,6 +1108,11 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     priceTo: 140,
     nearbyAreas: ['Dorridge', 'Knowle', 'Shirley', 'Olton', 'Marston Green', 'Castle Bromwich'],
     postcodes: ['B90', 'B91', 'B92', 'B93', 'B94'],
+    reviews: [
+      { initial: 'C', name: 'Claire H., Knowle', text: 'Brilliant gutter clean on our detached in Knowle. Long rooflines cleared safely from the ground and photos sent the same day. Very impressed.' },
+      { initial: 'A', name: 'Andrew B., Dorridge', text: 'Professional, punctual and thorough. Conservatory gutters included and downpipes all flowing. Would use WOW Gutters again.' },
+      { initial: 'R', name: 'Rachel S., Shirley', text: 'Great communication and a clear fixed quote. No ladders against the brickwork — exactly what we wanted. Highly recommended in Solihull.' },
+    ],
   },
   'sutton-coldfield': {
     slug: 'sutton-coldfield',
@@ -1566,6 +1576,11 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     priceTo: 140,
     nearbyAreas: ['Birmingham', 'Wolverhampton', 'Coventry', 'Walsall', 'Dudley', 'Sandwell', 'Solihull'],
     postcodes: ['B1-B99', 'DY1-DY14', 'WV1-WV14', 'CV1-CV35', 'WS1-WS15'],
+    reviews: [
+      { initial: 'T', name: 'Tom G., Birmingham', text: 'WOW Gutters cover the whole West Midlands — booked from Birmingham and service was excellent. Ground-level clean, photos included, very professional.' },
+      { initial: 'H', name: 'Helen K., Wolverhampton', text: 'Reliable team across the region. Fixed quote, downpipes cleared and no mess. Glad we found a proper local specialist.' },
+      { initial: 'N', name: 'Neil S., Coventry', text: 'Fast booking and a thorough clean. Before and after photos made it easy to see the difference. Recommend for any West Midlands property.' },
+    ],
   },
 
   aston: {

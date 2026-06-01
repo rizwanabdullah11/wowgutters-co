@@ -5,7 +5,8 @@ import Link from 'next/link';
 import { Phone, CheckCircle2, ShieldCheck, Cable, Images, Shield } from 'lucide-react';
 import { colors } from '@/constants/colors';
 import type { CityGutterLandingData } from '@/constants/cityGutterLandingData';
-import CityFAQ from '@/components/areas/CityFAQ';
+import CollapsibleAreaFAQ from '@/components/areas/CollapsibleAreaFAQ';
+import { buildCityPageFaqs, isPrimaryCitySlug } from '@/lib/cityFaqs';
 import AreaServicesRange from '@/components/areas/AreaServicesRange';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
@@ -14,7 +15,15 @@ import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
 import NearbyAreas from '@/components/areas/NearbyAreas';
 
-export default function CityGutterCleaningPage({ data }: { data: CityGutterLandingData }) {
+export default function CityGutterCleaningPage({
+  data,
+  priceFrom = 50,
+  priceTo = 140,
+}: {
+  data: CityGutterLandingData;
+  priceFrom?: number;
+  priceTo?: number;
+}) {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
@@ -27,6 +36,20 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
     'Can you repair leaking or damaged gutters?',
     'Could I get a fast quote for my home?',
   ];
+
+  const pageFaqs = isPrimaryCitySlug(data.slug)
+    ? buildCityPageFaqs({
+        city: data.city,
+        slug: data.slug,
+        priceFrom,
+        priceTo,
+        postcodes: data.postcodes,
+        nearbyAreas: data.nearbyAreas,
+      })
+    : data.faqs.map((faq, i) => ({
+        ...faq,
+        icon: ['💳', '🗓️', '🪜', '🚰', '📷', '📍', '✓'][i] ?? '✓',
+      }));
 
   const localReviews = data.reviews?.length
     ? data.reviews
@@ -238,7 +261,7 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
         </div>
       </section>
 
-      <CityFAQ title={data.faqsTitle} faqs={data.faqs} />
+      <CollapsibleAreaFAQ city={data.city} faqs={pageFaqs} heading={data.faqsTitle} />
 
       <section className="py-16 md:py-20 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
