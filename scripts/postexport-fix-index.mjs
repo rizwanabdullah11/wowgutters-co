@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { generateHostingerHtaccess } from "./hostinger-htaccess.mjs";
 
 const projectRoot = process.cwd();
 const outDir = path.join(projectRoot, "out");
@@ -87,16 +88,31 @@ function loadAreaSlugsFromLib() {
   return slugs;
 }
 
-/** Duplicate /gutter-cleaning/{slug}/ → /gutter-cleaning-{slug}/ for SEO URLs (before path fixing). */
+/** Cities with their own app/gutter-cleaning-{slug}/ route — never overwrite from /gutter-cleaning/{slug}/. */
+const DEDICATED_GUTTER_CITY_SLUGS = new Set(["birmingham", "wolverhampton"]);
+
+/** Duplicate /gutter-cleaning/{slug}/ → /gutter-cleaning-{slug}/ when no dedicated page exists. */
 function copyGutterCleaningSeoAliases() {
   const slugs = loadAreaSlugsFromLib();
   let n = 0;
   for (const slug of slugs) {
+    if (DEDICATED_GUTTER_CITY_SLUGS.has(slug)) {
+      continue;
+    }
     const src = path.join(outDir, "gutter-cleaning", slug, "index.html");
     const dstDir = path.join(outDir, `gutter-cleaning-${slug}`);
     const dst = path.join(dstDir, "index.html");
     if (!fs.existsSync(src)) {
       console.warn(`postexport: skip copy, missing ${src}`);
+      continue;
+    }
+    if (fs.existsSync(dst)) {
+      const preview = fs.readFileSync(src, "utf8").slice(0, 200);
+      if (preview.includes("NEXT_REDIRECT")) {
+        console.warn(`postexport: skip copy, source is a redirect ${src}`);
+        continue;
+      }
+      console.warn(`postexport: skip copy, destination already exists ${dst}`);
       continue;
     }
     fs.mkdirSync(dstDir, { recursive: true });
@@ -111,94 +127,11 @@ copyGutterCleaningSeoAliases();
 const htmlFiles = listHtmlFiles(outDir);
 for (const file of htmlFiles) fixHtmlForFileProtocol(file);
 
-// Hostinger/Apache helper: allow /about (no slash) and /about/ to work.
-// Put this file in Hostinger `public_html/` together with the export.
+// Hostinger: full Apache rules for static export (upload entire out/ to public_html)
 const htaccessPath = path.join(outDir, ".htaccess");
-const htaccess = `Options -MultiViews
-DirectoryIndex index.html
-
-# Ensure correct MIME types for static export assets
-AddType application/javascript .js
-AddType text/css .css
-AddType application/json .json
-AddType image/svg+xml .svg
-AddType font/woff2 .woff2
-AddType font/woff .woff
-AddType application/vnd.ms-fontobject .eot
-AddType font/ttf .ttf
-AddType font/otf .otf
-
-AddDefaultCharset UTF-8
-
-RewriteEngine On
-
-# 301 Redirect all domains to wowgutters.co.uk (consolidate domain authority)
-RewriteCond %{HTTP_HOST} !^wowgutters\\.co\\.uk$ [NC]
-RewriteRule ^(.*)$ https://wowgutters.co.uk/$1 [R=301,L]
-
-# Redirects from vercel.json (for Hostinger compatibility)
-RewriteRule ^contact-us/?$ /contact/ [R=301,L]
-RewriteRule ^about-us/?$ /about/ [R=301,L]
-RewriteRule ^gutters-cleaning/?$ /help/unblock/ [R=301,L]
-RewriteRule ^hot-wash/?$ /services/hot-wash-cleaning/ [R=301,L]
-RewriteRule ^conservatory-cleaning/?$ /services/conservatory/ [R=301,L]
-RewriteRule ^services/commercial/?$ /commercial/ [R=301,L]
-RewriteRule ^services/inspection/?$ /help/inspect/ [R=301,L]
-RewriteRule ^services/gutter-cleaning/?$ /help/unblock/ [R=301,L]
-RewriteRule ^services/gutter-repairs/?$ /help/repair/ [R=301,L]
-RewriteRule ^services/roof-cleaning/?$ /help/clean/ [R=301,L]
-
-# SEO: legacy PascalCase URLs → lowercase (bookmarks / old links)
-RewriteRule ^About/?$ about/ [R=301,L]
-RewriteRule ^Contact/?$ contact/ [R=301,L]
-RewriteRule ^Quote/?$ quote/ [R=301,L]
-RewriteRule ^Services/?$ services/ [R=301,L]
-RewriteRule ^Blog/?$ blog/ [R=301,L]
-RewriteRule ^Commercial/?$ commercial/ [R=301,L]
-RewriteRule ^ConservatoryCleaning/?$ conservatory-cleaning/ [R=301,L]
-RewriteRule ^GuttersCleaning/?$ gutters-cleaning/ [R=301,L]
-RewriteRule ^HotWash/?$ hot-wash/ [R=301,L]
-RewriteRule ^HomeScreen/?$ / [R=301,L]
-RewriteRule ^Pricing/?$ pricing/ [R=301,L]
-RewriteRule ^Testimonials/?$ testimonials/ [R=301,L]
-RewriteRule ^WindowsCleaning/?$ windows-cleaning/ [R=301,L]
-RewriteRule ^Dashboard/?$ dashboard/ [R=301,L]
-RewriteRule ^Navbar/?$ / [R=301,L]
-RewriteRule ^navbar/?$ / [R=301,L]
-RewriteRule ^home-screen/?$ / [R=301,L]
-
-# Legacy /areas/{city}/ → canonical /gutter-cleaning-{city}/
-RewriteRule ^areas/([a-zA-Z0-9-]+)/?$ gutter-cleaning-$1/ [R=301,L]
-
-# Return 410 Gone for out-of-area doorway pages (tells Google they're permanently removed)
-RewriteRule ^roof-cleaning-gunnislake/?$ - [G,L]
-RewriteRule ^gutter-cleaning-lytham-st-annes/?$ - [G,L]
-RewriteRule ^gutter-cleaning-whittingham/?$ - [G,L]
-RewriteRule ^gutter-cleaning-london/?$ - [G,L]
-RewriteRule ^gutter-cleaning-callington/?$ - [G,L]
-RewriteRule ^gutter-cleaning-wendover/?$ - [G,L]
-
-# Never rewrite Next.js client bundles — must load as real files with correct MIME type
-RewriteCond %{REQUEST_URI} /_next/
-RewriteRule ^ - [L]
-
-# Serve existing files/dirs as-is
-RewriteCond %{REQUEST_FILENAME} -f [OR]
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule ^ - [L]
-
-# Add trailing slash for "pretty" routes (no dot-extension)
-RewriteCond %{REQUEST_URI} !/$
-RewriteCond %{REQUEST_URI} !\\.[^./]+$
-RewriteRule ^(.+)$ $1/ [R=301,L]
-
-# Map /path/ to /path/index.html
-RewriteCond %{REQUEST_URI} /$
-RewriteRule ^(.+)/$ $1/index.html [L]
-`;
-
 try {
-  fs.writeFileSync(htaccessPath, htaccess, "utf8");
+  fs.writeFileSync(htaccessPath, generateHostingerHtaccess(), "utf8");
+  console.log("postexport: wrote Hostinger .htaccess");
 } catch (err) {
   console.warn("postexport: failed to write .htaccess", err);
 }

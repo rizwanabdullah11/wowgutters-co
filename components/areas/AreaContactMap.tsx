@@ -1,8 +1,17 @@
 import { colors } from '@/constants/colors';
 
+function buildMapSrc(lat: number, lng: number): string {
+  const dLat = 0.08;
+  const dLng = 0.12;
+  const south = lat - dLat;
+  const north = lat + dLat;
+  const west = lng - dLng;
+  const east = lng + dLng;
+  return `https://www.openstreetmap.org/export/embed.html?bbox=${west}%2C${south}%2C${east}%2C${north}&layer=mapnik&marker=${lat}%2C${lng}`;
+}
+
 /** Centre of Birmingham (PDF / geo target). */
-const BIRMINGHAM_MAP_EMBED_SRC =
-  'https://www.openstreetmap.org/export/embed.html?bbox=-1.995%2C52.385%2C-1.785%2C52.595&layer=mapnik&marker=52.4862%2C-1.8904';
+const BIRMINGHAM_MAP_EMBED_SRC = buildMapSrc(52.4862, -1.8904);
 
 /** Generic West Midlands map covering service area */
 const DEFAULT_MAP_EMBED_SRC =
@@ -11,10 +20,17 @@ const DEFAULT_MAP_EMBED_SRC =
 type AreaContactMapProps = {
   /** Use Birmingham-centred map or default West Midlands map. */
   variant?: 'default' | 'birmingham';
+  /** City-specific coordinates — when provided, centres the map on this location */
+  geo?: { latitude: number; longitude: number };
 };
 
-export default function AreaContactMap({ variant = 'default' }: AreaContactMapProps) {
-  const mapSrc = variant === 'birmingham' ? BIRMINGHAM_MAP_EMBED_SRC : DEFAULT_MAP_EMBED_SRC;
+export default function AreaContactMap({ variant = 'default', geo }: AreaContactMapProps) {
+  const mapSrc = geo
+    ? buildMapSrc(geo.latitude, geo.longitude)
+    : variant === 'birmingham'
+      ? BIRMINGHAM_MAP_EMBED_SRC
+      : DEFAULT_MAP_EMBED_SRC;
+  const mapLabel = geo ? `${geo.latitude.toFixed(3)}, ${geo.longitude.toFixed(3)}` : (variant === 'birmingham' ? 'Birmingham' : 'West Midlands');
   
   return (
     <section className="relative overflow-hidden w-full flex flex-col">
@@ -51,7 +67,7 @@ export default function AreaContactMap({ variant = 'default' }: AreaContactMapPr
       {/* Map Section - Always show map */}
       <div className="w-full h-[400px] sm:h-[420px] bg-[#e8efe8] border-t border-slate-200">
         <iframe
-          title={`WOW Gutters — ${variant === 'birmingham' ? 'Birmingham' : 'West Midlands'} service area map`}
+          title={`WOW Gutters — ${mapLabel} service area map`}
           src={mapSrc}
           className="w-full h-full border-0"
           loading="lazy"

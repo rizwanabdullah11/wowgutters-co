@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev --webpack",
-    "build": "node scripts/clean-next.mjs && next build && node scripts/postexport-fix-index.mjs && node scripts/inject-schema-static.mjs && node scripts/assert-jsonld-export.mjs",
+    "build": "node scripts/clean-next.mjs && next build && node scripts/postexport-fix-index.mjs && node scripts/inject-schema-static.mjs && node scripts/assert-jsonld-export.mjs && node scripts/assert-area-schema-export.mjs",
+    "build:hostinger": "npm run build",
     "postbuild": "next-sitemap",
-    "start": "next start",
+    "start": "npx serve out -p 3000",
     "serve": "npx serve out -p 3000",
     "lint": "eslint",
     "marketing:check": "node scripts/marketing/check-config.mjs",

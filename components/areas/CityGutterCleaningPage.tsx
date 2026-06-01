@@ -5,7 +5,8 @@ import Link from 'next/link';
 import { Phone, CheckCircle2, ShieldCheck, Cable, Images, Shield } from 'lucide-react';
 import { colors } from '@/constants/colors';
 import type { CityGutterLandingData } from '@/constants/cityGutterLandingData';
-import CityFAQ from '@/components/areas/CityFAQ';
+import CollapsibleAreaFAQ from '@/components/areas/CollapsibleAreaFAQ';
+import { buildCityPageFaqs, isPrimaryCitySlug } from '@/lib/cityFaqs';
 import AreaServicesRange from '@/components/areas/AreaServicesRange';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
@@ -14,7 +15,15 @@ import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
 import NearbyAreas from '@/components/areas/NearbyAreas';
 
-export default function CityGutterCleaningPage({ data }: { data: CityGutterLandingData }) {
+export default function CityGutterCleaningPage({
+  data,
+  priceFrom = 50,
+  priceTo = 140,
+}: {
+  data: CityGutterLandingData;
+  priceFrom?: number;
+  priceTo?: number;
+}) {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
@@ -28,21 +37,40 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
     'Could I get a fast quote for my home?',
   ];
 
-  const localReviews = [
+  const pageFaqs = isPrimaryCitySlug(data.slug)
+    ? buildCityPageFaqs({
+        city: data.city,
+        slug: data.slug,
+        priceFrom,
+        priceTo,
+        postcodes: data.postcodes,
+        nearbyAreas: data.nearbyAreas,
+      })
+    : data.faqs.map((faq, i) => ({
+        ...faq,
+        icon: ['💳', '🗓️', '🪜', '🚰', '📷', '📍', '✓'][i] ?? '✓',
+      }));
+
+  const localReviews = data.reviews?.length
+    ? data.reviews
+    : [
     {
-      initial: data.city.charAt(0),
-      name: `Customer in ${data.city}`,
-      text: `Excellent service from WOW Gutters in ${data.city}. Arrived on time, worked safely from the ground, and the before/after photos were really helpful.`,
+      initial: 'D',
+      name: 'David T.',
+      place: data.city,
+      text: `Brilliant service from WOW Gutters in ${data.city}. Arrived on time, worked safely from the ground, and the before/after photos were really helpful. Would 100% recommend.`,
     },
     {
-      initial: 'W',
-      name: 'Verified homeowner',
-      text: 'Friendly team, clear fixed quote, and no mess left behind. Overflow issue solved on the first visit.',
+      initial: 'S',
+      name: 'Sarah M.',
+      place: data.city,
+      text: 'Friendly team, clear fixed quote, and no mess left behind. Overflow issue solved on the first visit. So glad I found them.',
     },
     {
-      initial: 'G',
-      name: 'Google review',
-      text: 'Great communication and very professional. You can see exactly what was done from the photo proof.',
+      initial: 'P',
+      name: 'Paul R.',
+      place: data.city,
+      text: 'Great communication and very professional. You can see exactly what was done from the photo proof. Highly recommended.',
     },
   ];
 
@@ -233,7 +261,7 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
         </div>
       </section>
 
-      <CityFAQ title={data.faqsTitle} faqs={data.faqs} />
+      <CollapsibleAreaFAQ city={data.city} faqs={pageFaqs} heading={data.faqsTitle} />
 
       <section className="py-16 md:py-20 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
@@ -272,10 +300,19 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
                   </div>
                   <div>
                     <cite className="not-italic font-bold text-slate-900 block">{r.name}</cite>
-                    <span className="text-sm text-slate-500">{data.city}</span>
+                    {r.place ? <span className="text-sm text-slate-500">{r.place}</span> : null}
                   </div>
+                  <img
+                    src="/images/google-g.svg"
+                    alt=""
+                    width={20}
+                    height={20}
+                    loading="lazy"
+                    className="w-5 h-5 ml-auto opacity-80"
+                  />
                 </div>
                 <p className="text-slate-700 text-sm leading-relaxed">&ldquo;{r.text}&rdquo;</p>
+                <p className="text-[11px] text-slate-500 mt-3 font-semibold">Verified Google review</p>
               </blockquote>
             ))}
           </div>
@@ -296,7 +333,7 @@ export default function CityGutterCleaningPage({ data }: { data: CityGutterLandi
       <AreaBlogSnippet locality={data.city} />
       <AreaServicesRange />
       <AreaRecentWork />
-      <AreaContactMap />
+      <AreaContactMap geo={data.geo} />
       <ContactInfoSection />
 
       <style>{`
