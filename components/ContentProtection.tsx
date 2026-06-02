@@ -12,9 +12,13 @@ function isEditableTarget(target: EventTarget | null): boolean {
     tagName === 'input' ||
     tagName === 'textarea' ||
     tagName === 'select' ||
+    tagName === 'button' ||
+    tagName === 'summary' ||
+    tagName === 'a' ||
     target.isContentEditable ||
     target.closest('[contenteditable="true"]') !== null ||
-    target.closest('.allow-select') !== null
+    target.closest('.allow-select') !== null ||
+    target.closest('button, summary, a[href], [role="button"]') !== null
   );
 }
 

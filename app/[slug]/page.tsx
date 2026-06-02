@@ -1,12 +1,11 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import LocalBusinessSchema from '@/components/LocalBusinessSchema';
-import AreaPage from '@/components/areas/AreaPage';
 import BirminghamGutterCleaningPage from '@/components/areas/BirminghamGutterCleaningPage';
 import { buildCitySchemaFaqs } from '@/lib/cityFaqs';
-import AreaPageSchema from '@/components/areas/AreaPageSchema';
-import { renderCityLanding } from '@/components/areas/CityGutterCleaningRoutes';
+import { renderCityLanding, renderGeneratedAreaLanding } from '@/components/areas/CityGutterCleaningRoutes';
 import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
+import { buildAreaLandingFromSlug } from '@/lib/buildAreaLandingFromCity';
 import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
 import { buildMetadata } from '@/lib/seo';
 
@@ -69,9 +68,19 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     });
   }
 
+  const generated = buildAreaLandingFromSlug(areaSlug);
+  if (generated) {
+    return buildMetadata({
+      absoluteTitle: generated.titleTag,
+      description: generated.metaDescription,
+      canonicalPath: areaPath(areaSlug),
+      ogImagePath: `/og/${areaSlug}.jpg`,
+    });
+  }
+
   return buildMetadata({
     title: `Gutter Cleaning ${areaName}`,
-    description: `Professional gutter cleaning, repairs and inspections in ${areaName}. Get a free quote today.`,
+    description: `Professional gutter cleaning, repairs and inspections in ${areaName}. Fixed quotes from £50. Call WOW Gutters: 07421 433910.`,
     canonicalPath: areaPath(areaSlug),
     ogImagePath: `/og/${areaSlug}.jpg`,
   });
@@ -114,10 +123,8 @@ export default async function SingleSegmentAreaPage(props: PageProps) {
   const maybeCity = renderCityLanding(areaSlug);
   if (maybeCity) return maybeCity;
 
-  return (
-    <>
-      <AreaPageSchema slug={areaSlug} />
-      <AreaPage areaName={areaSlug} />
-    </>
-  );
+  const generated = renderGeneratedAreaLanding(areaSlug);
+  if (generated) return generated;
+
+  notFound();
 }
