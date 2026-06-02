@@ -2971,7 +2971,7 @@ export const blogPosts: BlogPost[] = [
     lastUpdated: '2026-05-28',
     quickAnswer: 'These before and after photographs are from a real WOW Gutters gutter cleaning job in Bartley Green, Birmingham B32. Every blockage was cleared using our ground-level vacuum system — no ladders, no scaffolding, no mess. Before and after photos sent directly to the homeowner the same day. Same-day booking across all B31 and B32 postcodes.',
     breadcrumbName: 'Gutter Cleaning Bartley Green',
-    featured: true,
+    featured: false,
     content: `
 <p>If you live in Bartley Green and your gutters overflow every time it rains, you're not dealing with a minor inconvenience. You're dealing with a problem that gets worse with every rainfall and costs significantly more to repair the longer it's left. This post shows you exactly what we found in a real Bartley Green gutter, what the clean looked like, and why B32 properties need more frequent attention than most homeowners expect.</p>
 
@@ -3243,7 +3243,7 @@ export const blogPosts: BlogPost[] = [
     lastUpdated: '2026-06-02',
     quickAnswer: 'This B30 Kings Norton property had severe moss growth across both roof aspects, requiring cherry picker access and a full-day professional clean. WOW Gutters cleared 100% of moss using high-pressure treatment and applied biocidal protection. Gutters cleared as part of the same visit. 1-year written guarantee. Call 07421 433910 for a free quote.',
     breadcrumbName: 'Roof Cleaning B30 Birmingham',
-    featured: false,
+    featured: true,
     content: `
 <figure style="margin: 0 0 28px;">
   <img
