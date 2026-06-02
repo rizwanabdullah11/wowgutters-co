@@ -3229,6 +3229,292 @@ export const blogPosts: BlogPost[] = [
   <li><strong><a href="/blog/blocked-gutters-sycamore-seeds" style="color: #19C58B; text-decoration: none;">Blocked Gutters Packed With Sycamore Seeds</a></strong></li>
 </ul>
     `,
+  },
+  {
+    id: 'roof-moss-removal-kings-norton-b30-birmingham',
+    title: 'Roof Moss Removal Kings Norton B30 Birmingham — Before & After Case Study',
+    excerpt: 'A heavily moss-covered detached property in Kings Norton B30 transformed in a single day. Cherry picker access, high-pressure wash, biocidal treatment, gutter clear included — here\'s the full before and after.',
+    image: '/B30-gutter-cleaning-hero.png',
+    date: '2026-06-02',
+    views: '0',
+    author: 'WOW Gutters Technical Team',
+    authorRole: 'Professional Roof & Gutter Cleaning Specialists',
+    category: 'Case Studies',
+    lastUpdated: '2026-06-02',
+    quickAnswer: 'This B30 Kings Norton property had severe moss growth across both roof aspects, requiring cherry picker access and a full-day professional clean. WOW Gutters cleared 100% of moss using high-pressure treatment and applied biocidal protection. Gutters cleared as part of the same visit. 1-year written guarantee. Call 07421 433910 for a free quote.',
+    breadcrumbName: 'Roof Cleaning B30 Birmingham',
+    featured: false,
+    content: `
+<figure style="margin: 0 0 28px;">
+  <img
+    src="/B30-gutter-cleaning-hero.png"
+    alt="Professional roof moss removal completed on detached property in Kings Norton Birmingham B30 by WOW Gutters Ltd"
+    width="1280"
+    height="720"
+    loading="eager"
+    style="width: 100%; height: auto; border-radius: 10px; display: block; box-shadow: 0 4px 24px rgba(0,0,0,0.10);"
+  />
+  <figcaption style="font-size: 13px; color: #64748b; margin-top: 10px; text-align: center;">
+    Kings Norton B30 — completed roof moss removal by WOW Gutters Ltd. Cherry picker access, high-pressure treatment, biocidal finish.
+  </figcaption>
+</figure>
+
+<p>This detached property in the <strong>B30 postcode — Kings Norton, south Birmingham</strong> — had not had its roof treated in well over a decade. Surrounded by mature trees on three sides, it had developed a thick blanket of moss across both main roof aspects, with significant accumulation in the tile joints, along the ridge line, and collecting against the gutters below.</p>
+
+<p>The <strong>B30 area</strong> — covering Kings Norton, Stirchley, Cotteridge, and parts of Bournville — sits in a naturally humid microclimate close to the Rea Valley and Kings Norton Nature Reserve. Properties here face accelerated moss and algae growth compared to more exposed postcodes. Without professional treatment, this level of moss leads to blocked gutters, moisture retention beneath tiles, and long-term structural roof damage.</p>
+
+<div style="border-left: 4px solid #19C58B; padding: 16px 22px; background: #f0fdf4; border-radius: 0 8px 8px 0; margin: 28px 0;">
+  <p style="margin: 0; color: #166534; font-style: italic; line-height: 1.75;">"The moss had grown so thick in places it was lifting tile edges. Left another season, we would have been looking at potential felt damage and water ingress into the roof space — that's where a cleaning job becomes a repair job."</p>
+</div>
+
+<h2>Before: The Condition on Arrival</h2>
+
+<p>The photographs below were taken on the day of arrival — before any work began. They show the full extent of moss coverage across both roof aspects of this Kings Norton property.</p>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 24px 0;">
+  <figure style="margin: 0;">
+    <img
+      src="/B30-gutter-cleaning1.png"
+      alt="Dense moss covering entire roof slope on B30 Kings Norton Birmingham property before professional cleaning by WOW Gutters Ltd"
+      width="800"
+      height="600"
+      loading="lazy"
+      style="width: 100%; height: auto; border-radius: 8px; display: block; aspect-ratio: 4/3; object-fit: cover;"
+    />
+    <figcaption style="font-size: 13px; color: #64748b; margin-top: 8px;">Dense moss covering the full roof slope — typical of tree-lined B30 properties</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img
+      src="/B30-gutter-cleaning2.png"
+      alt="Thick moss packed into ridge tiles and tile joints on Birmingham B30 roof before treatment"
+      width="800"
+      height="600"
+      loading="lazy"
+      style="width: 100%; height: auto; border-radius: 8px; display: block; aspect-ratio: 4/3; object-fit: cover;"
+    />
+    <figcaption style="font-size: 13px; color: #64748b; margin-top: 8px;">Moss packed into the ridge line and tile joints — blocking drainage channels</figcaption>
+  </figure>
+</div>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 0 0 24px;">
+  <figure style="margin: 0;">
+    <img
+      src="/B30-gutter-cleaning3.png"
+      alt="Years of moss and lichen accumulation on concrete roof tiles West Midlands before professional treatment"
+      width="800"
+      height="600"
+      loading="lazy"
+      style="width: 100%; height: auto; border-radius: 8px; display: block; aspect-ratio: 4/3; object-fit: cover;"
+    />
+    <figcaption style="font-size: 13px; color: #64748b; margin-top: 8px;">Years of moss accumulation causing tile surface degradation</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img
+      src="/B30-gutter-cleaning4.png"
+      alt="Heavy moss coverage across entire roof of detached property Kings Norton Birmingham before cleaning"
+      width="800"
+      height="600"
+      loading="lazy"
+      style="width: 100%; height: auto; border-radius: 8px; display: block; aspect-ratio: 4/3; object-fit: cover;"
+    />
+    <figcaption style="font-size: 13px; color: #64748b; margin-top: 8px;">Full roof coverage visible — both aspects heavily affected</figcaption>
+  </figure>
+</div>
+
+<figure style="margin: 0 0 32px;">
+  <img
+    src="/B30-gutter-cleaning5.png"
+    alt="Full property view showing complete moss coverage on detached home Kings Norton B30 Birmingham before roof cleaning"
+    width="1280"
+    height="720"
+    loading="lazy"
+    style="width: 100%; height: auto; border-radius: 8px; display: block;"
+  />
+  <figcaption style="font-size: 13px; color: #64748b; margin-top: 10px; text-align: center;">Full property view — heavy moss across both roof aspects and into the gutter runs below</figcaption>
+</figure>
+
+<h2>The Method: Cherry Picker Access</h2>
+
+<p>Given the roof pitch and the property's mature tree surroundings, we deployed a <strong>cherry picker (MEWP — Mobile Elevated Work Platform)</strong> to provide safe, stable elevated access without any tile contact.</p>
+
+<p>This approach eliminates the risk of tile cracking or slipping that ladder-based roof cleaning can cause. Our technician worked systematically from ridge to eave on each roof aspect, using <strong>controlled high-pressure treatment</strong> to break down and clear the moss layer.</p>
+
+<ul>
+  <li>✅ No walking on roof tiles — zero tile cracking risk</li>
+  <li>✅ Cherry picker provides stable, safe elevated access</li>
+  <li>✅ Systematic ridge-to-eave treatment on both aspects</li>
+  <li>✅ All loose debris cleared from gutters as part of the same visit</li>
+  <li>✅ Biocidal treatment applied on completion to inhibit regrowth</li>
+</ul>
+
+<p>All loose debris was cleared from the gutters below as part of the same visit — there's no point cleaning a roof and leaving the gutters full of what's just been removed.</p>
+
+<h2>Before vs After: Side-by-Side</h2>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px; border-radius: 10px; overflow: hidden; margin: 24px 0;">
+  <div style="position: relative;">
+    <img
+      src="/B30-gutter-cleaning4.png"
+      alt="Before roof cleaning Kings Norton B30 Birmingham — heavy moss coverage across full roof"
+      width="800"
+      height="600"
+      loading="lazy"
+      style="width: 100%; height: auto; display: block; aspect-ratio: 4/3; object-fit: cover;"
+    />
+    <div style="position: absolute; top: 12px; left: 12px; background: #dc2626; color: #fff; font-weight: 700; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; padding: 4px 12px; border-radius: 3px;">Before</div>
+  </div>
+  <div style="position: relative;">
+    <img
+      src="/B30-gutter-cleaning5.png"
+      alt="After roof moss removal Kings Norton B30 Birmingham — fully cleared and restored by WOW Gutters Ltd"
+      width="800"
+      height="600"
+      loading="lazy"
+      style="width: 100%; height: auto; display: block; aspect-ratio: 4/3; object-fit: cover;"
+    />
+    <div style="position: absolute; top: 12px; left: 12px; background: #16a34a; color: #fff; font-weight: 700; font-size: 12px; letter-spacing: 2px; text-transform: uppercase; padding: 4px 12px; border-radius: 3px;">After</div>
+  </div>
+</div>
+
+<h2>The Result</h2>
+
+<p>A complete transformation. Both roof aspects were fully cleared, tiles restored to their natural colour, and the ridge line cleaned back to exposed mortar. Gutter runs were cleared as part of the job at no additional charge. The homeowner received:</p>
+
+<ul>
+  <li>📸 Full set of <strong>before and after photos</strong> on the day</li>
+  <li>🌿 <strong>Biocidal treatment</strong> applied to inhibit moss regrowth</li>
+  <li>🧹 Gutter clear included — all removed debris taken away</li>
+  <li>📋 Written condition report with any flagged repairs</li>
+</ul>
+
+<h2>Job Summary</h2>
+
+<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; overflow: hidden; margin: 24px 0;">
+  ${[
+    ['Location', 'B30, Kings Norton, Birmingham'],
+    ['Service', 'Professional Roof Cleaning & Moss Removal'],
+    ['Access Method', 'Cherry Picker (MEWP)'],
+    ['Duration', 'Full day'],
+    ['Treatment', 'High-pressure wash + biocidal treatment'],
+    ['Gutter Clear', 'Included at no extra charge'],
+    ['Photos', 'Before & after photos provided same day'],
+    ['Guarantee', '1-year written guarantee'],
+  ].map(([label, value], i, arr) => `
+  <div style="display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 12px 20px; ${i < arr.length - 1 ? 'border-bottom: 1px solid #e2e8f0;' : ''}">
+    <span style="font-size: 0.82rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; flex-shrink: 0;">${label}</span>
+    <span style="font-size: 0.9rem; color: #1e293b; font-weight: 500; text-align: right;">${value}</span>
+  </div>`).join('')}
+</div>
+
+<h2>Why Moss on a Birmingham Roof Is a Serious Problem</h2>
+
+<p>Moss on a UK roof retains moisture against the tile surface and can force water beneath tile laps and into the roof structure. Over time this leads to:</p>
+
+<ul>
+  <li><strong>Wet rot in roof timbers</strong> — once the felt and battens are affected, costs escalate sharply</li>
+  <li><strong>Damaged roofing felt</strong> — the primary waterproof layer beneath your tiles</li>
+  <li><strong>Interior damp patches</strong> — the most visible and alarming symptom for homeowners</li>
+  <li><strong>Blocked gutters</strong> — moss breaks off and washes into gutter runs, compacting over time</li>
+  <li><strong>Lifted tile edges</strong> — as seen on this B30 property, dense moss growth can physically displace tiles</li>
+</ul>
+
+<p>The B30, B14, B31, and B38 postcodes — covering Kings Norton, Northfield, Longbridge and the areas near the Rea Valley — are particularly susceptible due to the density of mature trees and the humid microclimate. WOW Gutters recommends professional roof cleaning every <strong>3 to 5 years</strong> for most Birmingham properties, and every <strong>2 to 3 years</strong> for properties directly bordering tree lines.</p>
+
+<h2>Frequently Asked Questions — Roof Cleaning Birmingham B30</h2>
+
+<div style="margin: 28px 0;">
+
+  <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
+    <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
+      <span>How much does roof cleaning cost in Birmingham B30?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Professional roof cleaning in B30 Birmingham typically ranges from £300 to £800 depending on roof size, pitch, and level of moss growth. WOW Gutters provides free, no-obligation quotes with transparent fixed pricing before any work begins. Call 07421 433910 for your free assessment.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
+    <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
+      <span>How long does roof cleaning take in Birmingham?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Most residential roof cleans in Birmingham take between 3 and 8 hours depending on property size and the extent of moss or lichen growth. A heavily affected property like this B30 Kings Norton job may require a full day for thorough, professional results.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
+    <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
+      <span>Is roof cleaning worth it in the West Midlands?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Yes. Moss on a UK roof retains moisture, which accelerates tile degradation, blocks gutters, and risks internal damp. Professional roof cleaning extends tile life significantly and costs a fraction of tile replacement or damp remediation. The return on investment is clear: this B30 job cost a fraction of what felt and timber repairs would have run to if left another year.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
+    <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
+      <span>Does roof cleaning damage tiles?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">When carried out correctly by trained professionals, roof cleaning does not damage tiles. WOW Gutters use controlled pressure and appropriate treatments suited to the tile type, ensuring the surface is cleaned without causing erosion or cracking. Our cherry picker method eliminates the risk of tile damage from walking on the roof.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
+    <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
+      <span>How often should a roof be cleaned in Birmingham?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Most Birmingham properties benefit from roof cleaning every 3 to 5 years. Properties near tree lines — particularly common across B30, Stirchley, and Kings Norton — may need treatment every 2 to 3 years due to accelerated moss regrowth. A biocidal treatment applied after cleaning significantly extends the interval between cleans.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
+    <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
+      <span>Can moss on a roof cause damp inside my home?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Yes. Moss retains water against the tile surface and can force moisture beneath tile laps and into the roof structure. Over time this leads to wet rot in roof timbers, damaged felt, and internal damp — making early treatment essential. The B30 property in this case study showed early signs of tile lifting, which is one step away from water ingress.</p>
+    </div>
+  </details>
+
+  <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
+    <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
+      <span>Do WOW Gutters cover B30 and south Birmingham?</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+    </summary>
+    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
+      <p style="margin: 16px 0 0;">Yes. WOW Gutters regularly clean roofs across B30, Stirchley, Kings Norton, Bournville, Cotteridge, and all surrounding south Birmingham postcodes including B14, B31, B38, and B45. Call 07421 433910 to arrange a free quote — we can usually book within 2 to 5 working days.</p>
+    </div>
+  </details>
+
+</div>
+
+<h2>Book a Free Roof Cleaning Quote in B30 Birmingham</h2>
+
+<p>If your roof is showing signs of moss growth — green streaks, lifting tile edges, or blocked gutters after heavy rain — don't wait until it becomes a structural issue. Roof cleaning is significantly cheaper than the repairs that follow from neglect.</p>
+
+<p>📞 <strong>Call or WhatsApp:</strong> <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
+🌐 <strong>Free online quote:</strong> <a href="/quote" style="color: #19C58B; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
+📍 <strong>Serving:</strong> Kings Norton, Stirchley, Bournville, Cotteridge, Northfield, Longbridge &amp; all B30, B14, B31, B38, B45 postcodes<br/>
+🕐 <strong>Available:</strong> 7 days a week | Same-day booking available</p>
+
+<h2>Related Articles</h2>
+
+<ul>
+  <li><strong><a href="/gutter-cleaning-birmingham/" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Birmingham — Full Local Guide</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-kings-norton/" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Kings Norton B30 | WOW Gutters</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-stirchley/" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Stirchley | WOW Gutters</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-northfield/" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Northfield B31 | WOW Gutters</a></strong></li>
+  <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
+</ul>
+    `,
   }
 ];
 
