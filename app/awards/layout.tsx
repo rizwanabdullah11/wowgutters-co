@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { lowValuePageRobots } from '@/lib/lowValuePageSeo';
 
 export const metadata: Metadata = {
   title: 'Awards & Recognition',
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     url: 'https://wowgutters.co.uk/awards/',
   },
+  robots: lowValuePageRobots,
 };
 
 export default function AwardsLayout({

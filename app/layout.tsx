@@ -40,17 +40,11 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  alternates: {
-    canonical: "https://wowgutters.co.uk/",
-    languages: {
-      'en-GB': 'https://wowgutters.co.uk/',
-      'x-default': 'https://wowgutters.co.uk/',
-    },
-  },
+  // Do not set alternates.canonical here — it would apply to every route without its own
+  // metadata and point inner pages at the homepage (duplicate-content signal in GSC).
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://wowgutters.co.uk",
     siteName: "WOW Gutters",
     title: "WOW Gutters | Gutter Cleaning & Roofline Services",
     description: "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, repairs, inspections, roof cleaning. Fast quotes and same-day booking from WOW Gutters.",
@@ -126,6 +120,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* LCP: hero poster (video uses preload="none") */}
+        <link
+          rel="preload"
+          as="image"
+          href="/gutter-cleaning.jpeg"
+          fetchPriority="high"
+        />
         {/* Cookiebot - Cookie Consent Management */}
         <script
           id="Cookiebot"
@@ -202,18 +203,6 @@ fbq('track', 'PageView');`}
             </noscript>
           </>
         ) : null}
-        <script src="/wow-analytics.js?v=20260428"></script>
-        <script src="/wow-quote-config.js?v=20260421"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(){var k=${JSON.stringify(process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || "")};window.__WOW_QUOTE__=window.__WOW_QUOTE__||{};if(k && !window.__WOW_QUOTE__.web3formsAccessKey)window.__WOW_QUOTE__.web3formsAccessKey=k;})();`,
-          }}
-        />
-        <script src="/wow-cta-dialog-init.js?v=20260421"></script>
-        {/* Form engine: MutationObserver-based, completely outside React bundling */}
-        <script src="/wow-quote-form-init.js?v=20260421"></script>
-        {/* Elfsight Google Reviews Widget */}
-        <script src="https://elfsightcdn.com/platform.js" async></script>
       </head>
       <body className="font-sans antialiased content-protected" suppressHydrationWarning>
         <IosViewportStabilizer />
@@ -223,6 +212,17 @@ fbq('track', 'PageView');`}
         <Footer />
         {/* <WhatsAppChatPopup /> */}
         <MaybeStaticQuoteDialog />
+        {/* Quote modal + analytics — end of body so they do not block first paint */}
+        <script src="/wow-analytics.js?v=20260428" defer />
+        <script src="/wow-quote-config.js?v=20260421" defer />
+        <script
+          defer
+          dangerouslySetInnerHTML={{
+            __html: `(function(){var k=${JSON.stringify(process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || "")};window.__WOW_QUOTE__=window.__WOW_QUOTE__||{};if(k && !window.__WOW_QUOTE__.web3formsAccessKey)window.__WOW_QUOTE__.web3formsAccessKey=k;})();`,
+          }}
+        />
+        <script src="/wow-cta-dialog-init.js?v=20260421" defer />
+        <script src="/wow-quote-form-init.js?v=20260421" defer />
       </body>
     </html>
   );

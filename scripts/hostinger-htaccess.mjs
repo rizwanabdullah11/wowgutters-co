@@ -25,17 +25,36 @@ DirectoryIndex index.html
 
 AddDefaultCharset UTF-8
 
-# Security headers
+# Security + cache headers (Core Web Vitals / PageSpeed 03.07)
 <IfModule mod_headers.c>
   Header set X-Content-Type-Options "nosniff"
   Header set X-Frame-Options "SAMEORIGIN"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
-  <FilesMatch "_next/static/.*\\.(js|css|woff2|jpg|png|webp)$">
+
+  # Next.js build assets (content-hashed)
+  <FilesMatch "_next/static/.*\\.(js|css|woff2|woff|ttf|otf)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>
-  <FilesMatch "^(wow-quote-form-init|wow-quote-config|wow-cta-dialog-init)\\.js$">
+
+  # Images & media in site root / public folder
+  <FilesMatch "\\.(avif|webp|jpg|jpeg|png|gif|svg|ico|mp4|webm|woff2|woff|ttf|otf|eot)$">
+    Header set Cache-Control "public, max-age=2592000, stale-while-revalidate=86400"
+  </FilesMatch>
+
+  # HTML — short cache so content updates propagate
+  <FilesMatch "\\.html$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+
+  # Quote modal scripts (versioned query strings) — always fresh
+  <FilesMatch "^(wow-quote-form-init|wow-quote-config|wow-cta-dialog-init|wow-analytics)\\.js$">
     Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
   </FilesMatch>
+</IfModule>
+
+# Gzip fallback when Brotli is unavailable
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript application/javascript application/json image/svg+xml
 </IfModule>
 
 # Block PHP execution in static site root

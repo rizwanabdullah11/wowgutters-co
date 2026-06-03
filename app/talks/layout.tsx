@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { lowValuePageRobots } from '@/lib/lowValuePageSeo';
 
 export const metadata: Metadata = {
   title: 'Gutter Cleaning Guides | Expert Tips',
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     url: 'https://wowgutters.co.uk/talks/',
   },
+  robots: lowValuePageRobots,
 };
 
 export default function TalksLayout({

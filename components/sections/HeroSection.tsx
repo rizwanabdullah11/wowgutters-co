@@ -3,7 +3,9 @@
 import { useEffect, useRef, useState } from 'react';
 
 // Keep these outside the component so they are stable in production builds.
-const HERO_VIDEOS = ['/gutter-final-video.mp4', '/gutter-cleaning-video.mp4'] as const;
+const HERO_VIDEO_PRIMARY = '/gutter-final-video.mp4';
+const HERO_VIDEO_SECONDARY = '/gutter-cleaning-video.mp4';
+const HERO_POSTER = '/gutter-cleaning.jpeg';
 
 // Rotating headlines — location-first for local SEO
 const HERO_HEADLINES = [
@@ -32,6 +34,7 @@ export default function HeroSection() {
   const [headlineIndex, setHeadlineIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+  const [secondaryVideoReady, setSecondaryVideoReady] = useState(false);
   const headlineTimeoutRef = useRef<number | null>(null);
   const headlineIntervalRef = useRef<number | null>(null);
 
@@ -76,14 +79,21 @@ export default function HeroSection() {
     };
   }, []);
 
-  // Switch videos every 15 seconds
+  // Defer loading the second hero video until after first paint (smaller initial download).
   useEffect(() => {
+    const id = window.setTimeout(() => setSecondaryVideoReady(true), 8000);
+    return () => window.clearTimeout(id);
+  }, []);
+
+  // Switch videos every 15 seconds (only after secondary source is allowed to load)
+  useEffect(() => {
+    if (!secondaryVideoReady) return;
     const videoSwitchInterval = setInterval(() => {
-      setCurrentVideoIndex((prev) => (prev + 1) % HERO_VIDEOS.length);
-    }, 15000); // Switch every 15 seconds
+      setCurrentVideoIndex((prev) => (prev === 0 ? 1 : 0));
+    }, 15000);
 
     return () => clearInterval(videoSwitchInterval);
-  }, []);
+  }, [secondaryVideoReady]);
 
   // Play video when it changes
   useEffect(() => {
@@ -106,8 +116,10 @@ export default function HeroSection() {
             loop
             muted
             playsInline
-            preload="metadata"
-            poster="/gutter-cleaning.jpeg"
+            preload="none"
+            poster={HERO_POSTER}
+            width={1920}
+            height={1080}
             aria-label="WOW Gutters professional gutter cleaning and roofline services"
             className="hero-video"
             key={currentVideoIndex}
@@ -115,12 +127,13 @@ export default function HeroSection() {
               (e.target as HTMLVideoElement).style.display = 'none';
             }}
           >
-            <source src={HERO_VIDEOS[currentVideoIndex]} type="video/mp4" />
-            {/* Fallback image for browsers that don't support video */}
-            <img
-              src="/gutter-cleaning.jpeg"
-              alt="Professional gutter cleaning and roofline services — WOW Gutters"
-              className="hero-video"
+            <source
+              src={
+                currentVideoIndex === 0 || !secondaryVideoReady
+                  ? HERO_VIDEO_PRIMARY
+                  : HERO_VIDEO_SECONDARY
+              }
+              type="video/mp4"
             />
           </video>
           {/* Advanced Gradient Overlay for better text legibility */}
