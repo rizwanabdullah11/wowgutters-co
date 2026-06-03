@@ -4964,3 +4964,9 @@ export const suburbPages: Record<string, SuburbPageData> = {
     blogLocality: 'Worlds End',
   },
 };
+
+export function getSuburbPageForSlug(slug: string): SuburbPageData | undefined {
+  return suburbPages[slug];
+}
+
+export const SUBURB_PAGE_SLUGS = Object.keys(suburbPages);

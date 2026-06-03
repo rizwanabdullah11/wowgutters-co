@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import { buildMetadata } from '@/lib/seo';
+import { buildContactPageSchemaGraph } from '@/lib/pageSchemaGraphs';
+import PageSchema from '@/components/seo/PageSchema';
 
 export const metadata: Metadata = buildMetadata({
   title: 'Contact WOW Gutters',
@@ -9,5 +11,10 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function ContactLayout({ children }: { children: React.ReactNode }) {
-  return children;
+  return (
+    <>
+      <PageSchema id="schema-contact" data={buildContactPageSchemaGraph()} />
+      {children}
+    </>
+  );
 }

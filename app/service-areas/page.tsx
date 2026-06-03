@@ -28,9 +28,14 @@ export default function ServiceAreasPage() {
         <h1 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
           Gutter cleaning service areas
         </h1>
-        <p className="text-lg text-slate-600 max-w-3xl mb-10 leading-relaxed">
+        <p className="text-lg text-slate-600 max-w-3xl mb-4 leading-relaxed">
           WOW Gutters covers Birmingham and the wider West Midlands. Select your area for local pricing,
           postcodes, FAQs and booking — every location is one click from this page.
+        </p>
+        <p className="mb-10">
+          <Link href="/" className="text-sm font-semibold text-slate-500 hover:text-[#0f766e]">
+            ← Back to homepage
+          </Link>
         </p>
 
         <nav aria-label="All gutter cleaning service areas">

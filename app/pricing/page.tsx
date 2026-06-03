@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { colors } from '@/constants/colors';
+import TopPageAreaLinks from '@/components/seo/TopPageAreaLinks';
 
 export default function Pricing() {
   const packages = [
@@ -119,6 +120,8 @@ export default function Pricing() {
           </div>
         </div>
       </div>
+
+      <TopPageAreaLinks intro="Gutter cleaning prices vary by property size and area — open your local page for typical rates." />
     </div>
   );
 }

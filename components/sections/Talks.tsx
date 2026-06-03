@@ -93,7 +93,7 @@ export default function Talks({
                       className="w-full flex items-center justify-center gap-2 hover:gap-3 transition-all"
                       style={{ backgroundColor: colors.primary, color: colors.white }}
                     >
-                      Read More
+                      Read: {post.title}
                       <ArrowRight className="w-4 h-4" />
                     </Button>
                   </div>

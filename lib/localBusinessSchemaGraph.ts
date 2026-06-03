@@ -2,6 +2,9 @@
  * Builds LocalBusiness @graph JSON-LD (shared by component + static export inject).
  */
 
+import { SCHEMA_DATE_MODIFIED, SCHEMA_DATE_PUBLISHED } from '@/lib/schemaDates';
+import { buildAreaWebPageNode } from '@/lib/pageSchemaGraphs';
+
 export type SchemaFaq = { question: string; answer: string };
 
 export type LocalBusinessSchemaInput = {
@@ -142,7 +145,9 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
           '@type': 'CommunicateAction',
           target: 'tel:+447421433910',
         },
+        dateModified: SCHEMA_DATE_MODIFIED,
       },
+      buildAreaWebPageNode(url, `Gutter Cleaning ${city} | WOW Gutters`),
       {
         '@type': 'Service',
         '@id': `${url}#service`,
@@ -158,6 +163,8 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
           priceCurrency: 'GBP',
           availability: 'https://schema.org/InStock',
         },
+        datePublished: SCHEMA_DATE_PUBLISHED,
+        dateModified: SCHEMA_DATE_MODIFIED,
       },
       {
         '@type': 'FAQPage',

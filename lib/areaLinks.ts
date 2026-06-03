@@ -68,5 +68,25 @@ export const nearbyAreas: Record<string, { name: string; slug: string }[]> = {
     { name: 'Dudley', slug: 'gutter-cleaning-dudley' },
     { name: 'Solihull', slug: 'gutter-cleaning-solihull' },
   ],
+  birmingham: [
+    { name: 'Sutton Coldfield', slug: 'gutter-cleaning-sutton-coldfield' },
+    { name: 'Moseley', slug: 'gutter-cleaning-moseley' },
+    { name: 'Kings Heath', slug: 'gutter-cleaning-kings-heath' },
+    { name: 'Harborne', slug: 'gutter-cleaning-harborne' },
+    { name: 'Erdington', slug: 'gutter-cleaning-erdington' },
+    { name: 'Hall Green', slug: 'gutter-cleaning-hall-green' },
+    { name: 'Northfield', slug: 'gutter-cleaning-northfield' },
+    { name: 'Yardley', slug: 'gutter-cleaning-yardley' },
+    { name: 'Small Heath', slug: 'gutter-cleaning-small-heath' },
+    { name: 'Sparkhill', slug: 'gutter-cleaning-sparkhill' },
+    { name: 'Perry Barr', slug: 'gutter-cleaning-perry-barr' },
+    { name: 'Solihull', slug: 'gutter-cleaning-solihull' },
+  ],
+  coventry: [
+    { name: 'Birmingham', slug: 'gutter-cleaning-birmingham' },
+    { name: 'Solihull', slug: 'gutter-cleaning-solihull' },
+    { name: 'Tile Hill', slug: 'gutter-cleaning-tile-hill' },
+    { name: 'Binley', slug: 'gutter-cleaning-binley' },
+  ],
 };
 

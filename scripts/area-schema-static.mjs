@@ -3,6 +3,22 @@
  */
 
 const LOGO_URL = 'https://wowgutters.co.uk/favicon.png';
+const SCHEMA_DATE_PUBLISHED = '2025-01-15';
+const SCHEMA_DATE_MODIFIED = '2026-06-02';
+const SITE = 'https://wowgutters.co.uk';
+
+function buildAreaWebPageNode(url, name) {
+  return {
+    '@type': 'WebPage',
+    '@id': `${url}#webpage`,
+    url,
+    name,
+    isPartOf: { '@type': 'WebSite', '@id': `${SITE}/#website`, name: 'WOW Gutters', url: SITE },
+    about: { '@id': `${url}#business` },
+    datePublished: SCHEMA_DATE_PUBLISHED,
+    dateModified: SCHEMA_DATE_MODIFIED,
+  };
+}
 
 export function slugToTitle(slug) {
   return slug
@@ -125,7 +141,9 @@ export function buildLocalBusinessSchemaGraph({
           availableLanguage: 'English',
         },
         potentialAction: { '@type': 'CommunicateAction', target: 'tel:+447421433910' },
+        dateModified: SCHEMA_DATE_MODIFIED,
       },
+      buildAreaWebPageNode(url, `Gutter Cleaning ${city} | WOW Gutters`),
       {
         '@type': 'Service',
         '@id': `${url}#service`,
@@ -141,6 +159,8 @@ export function buildLocalBusinessSchemaGraph({
           priceCurrency: 'GBP',
           availability: 'https://schema.org/InStock',
         },
+        datePublished: SCHEMA_DATE_PUBLISHED,
+        dateModified: SCHEMA_DATE_MODIFIED,
       },
       {
         '@type': 'FAQPage',

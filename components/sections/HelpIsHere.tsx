@@ -117,9 +117,9 @@ export default function HelpIsHere() {
             <span className="inline-block px-4 py-1.5 rounded-full text-xs font-bold tracking-wider uppercase mb-4" style={{ backgroundColor: 'rgba(255,255,255,0.15)', color: colors.white }}>
               Free Quote Available
             </span>
-            <h4 className="text-3xl md:text-4xl lg:text-5xl font-black mb-4 tracking-tight leading-tight" style={{ color: colors.white }}>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-4 tracking-tight leading-tight" style={{ color: colors.white }}>
               Ready to Clear Your Gutters?
-            </h4>
+            </h2>
             <p className="text-lg md:text-xl text-white/90 font-medium">
               Get your free quote today, or call us directly to discuss gutter cleaning, repairs and exterior cleaning for your property.
             </p>

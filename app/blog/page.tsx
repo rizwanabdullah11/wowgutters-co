@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import { blogPosts } from '@/constants/blogData';
@@ -47,15 +46,6 @@ export default function BlogPage() {
 
   return (
     <main className="bg-white blog-page-wrapper">
-      <Head>
-        <title>Gutter Cleaning Blog | Expert Tips & Guides | WOW Gutters</title>
-        <meta name="description" content="Expert gutter cleaning tips, maintenance guides and industry insights from WOW Gutters. Learn how to prevent blockages, leaks, and water damage." />
-        <meta name="keywords" content="gutter cleaning blog, gutter maintenance tips, gutter repair advice, water damage prevention, downpipe cleaning, roofline maintenance" />
-        <meta property="og:title" content="Gutter Cleaning Blog | Expert Tips & Guides" />
-        <meta property="og:description" content="Expert gutter cleaning tips, maintenance guides and industry insights from WOW Gutters." />
-        <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://wowgutters.co.uk/blog" />
-      </Head>
       {/* Premium Hero Section */}
       <section className="blog-hero-section">
         {/* Video Background */}
@@ -272,9 +262,9 @@ export default function BlogPage() {
                           <User className="w-3.5 h-3.5" />
                           {post.author}
                         </span>
-                        <span className="font-bold text-sm flex items-center gap-1" style={{ color: colors.primary }}>
-                          Read More
-                          <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                        <span className="font-bold text-sm flex items-center gap-1 line-clamp-2" style={{ color: colors.primary }}>
+                          Read: {post.title}
+                          <ArrowRight className="w-4 h-4 shrink-0 group-hover:translate-x-1 transition-transform" />
                         </span>
                       </div>
                     </div>

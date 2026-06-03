@@ -2,6 +2,7 @@ import type { CityGutterLandingData, CityPropertyRow } from '@/constants/cityGut
 import { buildCitySchemaFaqs } from '@/lib/cityFaqs';
 import type { CityData } from '@/lib/cities';
 import type { AreaSupplementEntry } from '@/lib/areaSupplement';
+import { areaLocalSpotlight, areaSpecificFaq, areaUniqueWhyParagraphs } from '@/lib/areaUniqueContent';
 import { getAreaData } from '@/lib/getAreaData';
 import { areaPath } from '@/lib/areaSlugs';
 
@@ -136,6 +137,8 @@ export function buildAreaLandingFromCity(input: AreaInput): CityGutterLandingDat
     postcodes,
     nearbyAreas,
   });
+  const extraFaq = areaSpecificFaq(input);
+  const allFaqs = extraFaq ? [...faqs, extraFaq] : faqs;
 
   const areasInline = [
     name,
@@ -150,7 +153,8 @@ export function buildAreaLandingFromCity(input: AreaInput): CityGutterLandingDat
     h1: `Gutter Cleaning ${name} — Professional Service Across ${pcLabel}`,
     heroIntro: heroIntroFor(input, tone),
     whyTitle: `Why ${name} Homeowners Choose Professional Gutter Cleaning`,
-    whyBody: whyBodyFor(input, tone),
+    whyBody: [...whyBodyFor(input, tone), ...areaUniqueWhyParagraphs(input)],
+    localSpotlight: areaLocalSpotlight(input),
     guarantees: [
       'Ground-level vacuum system — no ladders placed against your property',
       'Reaches up to 4 storeys — homes, flats and commercial buildings',
@@ -164,7 +168,7 @@ export function buildAreaLandingFromCity(input: AreaInput): CityGutterLandingDat
     areasTitle: `Areas We Cover Around ${name}`,
     areasInline,
     faqsTitle: `FAQs — Gutter Cleaning ${name}`,
-    faqs,
+    faqs: allFaqs,
     geo,
     internalLinks: internalLinksFor(input),
     nearbyAreas,

@@ -14,6 +14,7 @@ import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
 import NearbyAreas from '@/components/areas/NearbyAreas';
+import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
 
 export default function CityGutterCleaningPage({
   data,
@@ -167,6 +168,17 @@ export default function CityGutterCleaningPage({
           </div>
         </div>
       </section>
+
+      {data.localSpotlight ? (
+        <section className="py-14 px-4 bg-emerald-50/80 border-y border-emerald-100">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-black text-slate-900 mb-4">
+              Local gutter cleaning in {data.city}
+            </h2>
+            <p className="text-slate-700 text-lg leading-relaxed">{data.localSpotlight}</p>
+          </div>
+        </section>
+      ) : null}
 
       <section className="py-16 px-4 bg-slate-50">
         <div className="max-w-6xl mx-auto">
@@ -335,6 +347,7 @@ export default function CityGutterCleaningPage({
       <AreaRecentWork />
       <AreaContactMap geo={data.geo} />
       <ContactInfoSection />
+      <AreaCrawlFooter currentSlug={data.slug} />
 
       <style>{`
         .area-page-wrapper { overflow-x: hidden; }

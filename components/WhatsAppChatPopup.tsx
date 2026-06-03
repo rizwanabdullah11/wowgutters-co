@@ -117,7 +117,7 @@ export default function WhatsAppChatPopup() {
               </svg>
             </div>
             <div className="flex-1">
-              <h3 className="text-white font-bold text-lg">WOW Gutters</h3>
+              <p className="text-white font-bold text-lg m-0">WOW Gutters</p>
               <p className="text-white/90 text-sm">Typically replies instantly</p>
             </div>
             <button

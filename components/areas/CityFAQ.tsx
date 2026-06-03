@@ -119,7 +119,7 @@ export default function CityFAQ({ title, faqs }: { title: string; faqs: CityGutt
               </div>
 
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                <h4 className="text-white font-bold text-lg mb-4">Our Guarantees</h4>
+                <p className="text-white font-bold text-lg mb-4">Our Guarantees</p>
                 <div className="space-y-3">
                   {['Fully insured', 'Before & after photos', 'No ladders on your walls', '7 days a week'].map((item) => (
                     <div key={item} className="flex items-center gap-3">

@@ -4,6 +4,8 @@ import { Button } from '@/components/ui/button';
 import { colors } from '@/constants/colors';
 import { Sparkles, Eye, Shield, Clock } from 'lucide-react';
 import Link from 'next/link';
+import ContentUpdatedNotice from '@/components/seo/ContentUpdatedNotice';
+import { SEASONAL_WINDOWS_COPY } from '@/lib/contentFreshness';
 
 export default function WindowsCleaningPage() {
   return (
@@ -119,6 +121,39 @@ export default function WindowsCleaningPage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Seasonal guidance + freshness (audit 14.03) */}
+      <section className="py-16 border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4" style={{ color: colors.text }}>
+            {SEASONAL_WINDOWS_COPY.heading}
+          </h2>
+          <ContentUpdatedNotice className="text-center mb-10 max-w-2xl mx-auto" />
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { season: 'Summer', text: SEASONAL_WINDOWS_COPY.summer },
+              { season: 'Autumn', text: SEASONAL_WINDOWS_COPY.autumn },
+              { season: 'Winter', text: SEASONAL_WINDOWS_COPY.winter },
+            ].map((item) => (
+              <div key={item.season} className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
+                <h3 className="text-lg font-bold mb-3" style={{ color: colors.primary }}>
+                  {item.season}
+                </h3>
+                <p className="text-sm leading-relaxed" style={{ color: colors.textLight }}>
+                  {item.text}
+                </p>
+              </div>
+            ))}
+          </div>
+          <p className="mt-8 text-center text-slate-600">
+            See real results in our{' '}
+            <Link href="/the-gutter-gallery/" className="font-semibold underline" style={{ color: colors.primary }}>
+              before &amp; after gallery
+            </Link>{' '}
+            — updated with completed West Midlands jobs each season.
+          </p>
         </div>
       </section>
 

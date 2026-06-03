@@ -86,9 +86,12 @@ function areaSlugFromPath(relPath) {
   return null;
 }
 
-function writeSchemaToHead(htmlPath, jsonStr) {
+function writeSchemaToHead(htmlPath, jsonStr, replace = false) {
   let html = fs.readFileSync(htmlPath, 'utf8');
-  if (html.includes('id="schema-static"')) return false;
+  if (html.includes('id="schema-static"')) {
+    if (!replace) return false;
+    html = html.replace(/<script id="schema-static"[^>]*>[\s\S]*?<\/script>\s*/i, '');
+  }
 
   try {
     JSON.parse(jsonStr);
@@ -144,21 +147,29 @@ for (const file of listHtmlFiles(outDir)) {
   if (!slug) continue;
 
   const html = fs.readFileSync(file, 'utf8');
-  if (html.includes('id="schema-static"')) {
+  const hadStatic = html.includes('id="schema-static"');
+  const needsDateModified = !html.includes('dateModified');
+
+  let jsonStr = null;
+  let usedFallback = false;
+
+  if (needsDateModified && slug) {
+    jsonStr = JSON.stringify(schemaForAreaSlug(slug, citiesMap));
+    usedFallback = true;
+  } else if (hadStatic) {
     skipped++;
     continue;
+  } else {
+    jsonStr = resolveJsonLd(file, html, slug);
+    if (!jsonStr) {
+      failed.push(rel);
+      continue;
+    }
+    usedFallback =
+      !extractJsonLdFromRsc(html) && !extractJsonLdFromInlineScripts(html);
   }
 
-  const jsonStr = resolveJsonLd(file, html, slug);
-  if (!jsonStr) {
-    failed.push(rel);
-    continue;
-  }
-
-  const usedFallback =
-    !extractJsonLdFromRsc(html) && !extractJsonLdFromInlineScripts(html);
-
-  if (writeSchemaToHead(file, jsonStr)) {
+  if (writeSchemaToHead(file, jsonStr, needsDateModified)) {
     injected++;
     if (usedFallback) fallback++;
   }

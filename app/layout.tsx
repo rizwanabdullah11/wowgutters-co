@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
 import Navbar from "./navbar/page";
@@ -74,15 +74,22 @@ export const metadata: Metadata = {
   category: "Home Services",
 };
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#1e3a5f",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const ga4MeasurementId = (process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID || "").trim();
+  const ga4MeasurementId = (process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID || "G-X0YK1TD470").trim();
   const gtmId = (process.env.NEXT_PUBLIC_GTM_ID || "").trim();
   const metaPixelId = (process.env.NEXT_PUBLIC_META_PIXEL_ID || "1108538397342086").trim();
   const analyticsDebug = (process.env.NODE_ENV !== "production") ? "1" : "";
+  const ga4ConfigId = JSON.stringify(ga4MeasurementId);
 
   // Structured Data for SEO
   const addressLine1 = (process.env.NEXT_PUBLIC_BUSINESS_ADDRESS_LINE1 || '').trim();
@@ -120,21 +127,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* LCP: hero poster (video uses preload="none") */}
-        <link
-          rel="preload"
-          as="image"
-          href="/gutter-cleaning.jpeg"
-          fetchPriority="high"
-        />
-        {/* Cookiebot - Cookie Consent Management */}
+        {/* Cookiebot — async so it does not block LCP/INP (still loads for consent) */}
         <script
           id="Cookiebot"
           src="https://consent.cookiebot.com/uc.js"
           data-cbid="90235ab0-b3ea-4224-a9f3-a1c438800254"
           data-blockingmode="auto"
           type="text/javascript"
-          dangerouslySetInnerHTML={{ __html: '' }}
+          async
+          defer
         />
         
         {/* Bing Webmaster Verification */}
@@ -163,24 +164,24 @@ export default function RootLayout({
         {/* Analytics config + click tracking (safe no-op if GA ID not set) */}
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){window.__WOW_ANALYTICS__={gaId:${JSON.stringify(ga4MeasurementId)},gtmId:${JSON.stringify(gtmId)},debug:${JSON.stringify(analyticsDebug)}};})();`,
+            __html: `(function(){window.__WOW_ANALYTICS__={gaId:${JSON.stringify(ga4MeasurementId)},metaPixelId:${JSON.stringify(metaPixelId)},gtmId:${JSON.stringify(gtmId)},debug:${JSON.stringify(analyticsDebug)}};})();`,
           }}
         />
         {/* Google tag (gtag.js) — deferred via next/script */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-X0YK1TD470"
-          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=${ga4MeasurementId}`}
+          strategy="lazyOnload"
         />
-        <Script id="ga4" strategy="afterInteractive">
+        <Script id="ga4" strategy="lazyOnload">
           {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'G-X0YK1TD470');`}
+gtag('config', ${ga4ConfigId});`}
         </Script>
         {/* Meta Pixel — deferred via next/script */}
         {metaPixelId ? (
           <>
-            <Script id="facebook-pixel" strategy="afterInteractive">
+            <Script id="facebook-pixel" strategy="lazyOnload">
               {`!function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -213,7 +214,7 @@ fbq('track', 'PageView');`}
         {/* <WhatsAppChatPopup /> */}
         <MaybeStaticQuoteDialog />
         {/* Quote modal + analytics — end of body so they do not block first paint */}
-        <script src="/wow-analytics.js?v=20260428" defer />
+        <script src="/wow-analytics.js?v=20260602" defer />
         <script src="/wow-quote-config.js?v=20260421" defer />
         <script
           defer

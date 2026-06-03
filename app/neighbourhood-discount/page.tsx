@@ -1,6 +1,5 @@
 'use client';
 
-import Head from 'next/head';
 import { colors } from '@/constants/colors';
 import { Users, Home, PoundSterling, CheckCircle, Phone, MapPin } from 'lucide-react';
 import Link from 'next/link';
@@ -23,14 +22,6 @@ export default function NeighbourhoodDiscount() {
 
   return (
     <main className="bg-white">
-      <Head>
-        <title>Neighbourhood Discount - Save on Gutter Cleaning | WowGutters</title>
-        <meta name="description" content="Save money with our neighbourhood discount! Get your neighbours together and enjoy reduced rates on professional gutter cleaning services across West Midlands." />
-        <meta name="keywords" content="neighbourhood discount, gutter cleaning discount, group discount gutters, west midlands gutter deals, save on gutter cleaning" />
-        <meta property="og:title" content="Neighbourhood Discount - Save on Gutter Cleaning" />
-        <meta property="og:description" content="Save money with our neighbourhood discount on professional gutter cleaning services." />
-        <link rel="canonical" href="https://wowgutters.co.uk/neighbourhood-discount" />
-      </Head>
       {/* Hero Section */}
       <section className="relative py-20 px-4" style={{ background: colors.primaryGradient }}>
         <div className="max-w-7xl mx-auto text-center">

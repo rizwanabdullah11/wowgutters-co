@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import ServiceDetailPage from '@/components/services/ServiceDetailPage';
+import TopPageAreaLinks from '@/components/seo/TopPageAreaLinks';
 import { servicesData, getServiceById } from '@/constants/servicesData';
 import { buildMetadata } from '@/lib/seo';
 
@@ -27,7 +28,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   return buildMetadata({
     title: `Professional ${service.name} | WOW Gutters`,
     description: service.heroDescription,
-    canonicalPath: `/services/${service.id}`,
+    canonicalPath: `/services/${service.id}/`,
   });
 }
 
@@ -39,6 +40,13 @@ export default async function ServicesSlugPage(props: PageProps) {
     notFound();
   }
 
-  return <ServiceDetailPage service={service} />;
+  return (
+    <>
+      <ServiceDetailPage service={service} />
+      <TopPageAreaLinks
+        intro={`${service.name} across Birmingham and the West Midlands — choose your local area for pricing and booking.`}
+      />
+    </>
+  );
 }
 

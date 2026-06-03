@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next';
 import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
 import { blogPosts } from '@/constants/blogData';
 import { servicesData } from '@/constants/servicesData';
+import { CONTENT_LAST_UPDATED_ISO } from '@/lib/contentFreshness';
 
 export const dynamic = 'force-static';
 export const revalidate = false;
@@ -28,19 +29,46 @@ export const revalidate = false;
  * - Low-value: awards, talks, work portfolio
  */
 
+const FRESH_SERVICE_ROUTES = new Set([
+  '/windows-cleaning',
+  '/services/hot-wash-cleaning',
+  '/hot-wash',
+  '/the-gutter-gallery',
+  '/pricing',
+  '/about',
+  '/contact',
+  '/quote',
+  '/citations',
+]);
+
+function lastModForRoute(route: string, fallback: Date): Date {
+  if (FRESH_SERVICE_ROUTES.has(route)) {
+    return new Date(`${CONTENT_LAST_UPDATED_ISO}T12:00:00.000Z`);
+  }
+  const areaSlug = route.match(/^\/gutter-cleaning-(.+)$/)?.[1];
+  if (areaSlug) {
+    const base = new Date('2026-05-20T09:00:00.000Z');
+    const offset = [...areaSlug].reduce((n, c) => n + c.charCodeAt(0), 0) % 12;
+    base.setUTCDate(base.getUTCDate() + offset);
+    return base;
+  }
+  return fallback;
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://wowgutters.co.uk';
-  const lastUpdated = new Date('2026-05-05');
+  const lastUpdated = new Date(`${CONTENT_LAST_UPDATED_ISO}T08:00:00.000Z`);
   
   const withTrailingSlash = (route: string) => {
     if (!route) return `${baseUrl}/`;
     return route.endsWith('/') ? `${baseUrl}${route}` : `${baseUrl}${route}/`;
   };
 
-  // Static pages (excluding noindex pages: audit, dashboard, navbar, citations, home-screen, testimonials)
+  // Static pages (excluding noindex pages: audit, dashboard, navbar, home-screen, testimonials)
   const staticPages = [
     '',
     '/about',
+    '/citations',
     '/contact',
     '/services',
     '/pricing',
@@ -54,6 +82,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/gutter-cleaning-prices',
     '/neighbourhood-discount',
     '/oap-discount',
+    '/quote',
+    '/windows-cleaning',
   ];
 
   // Service pages
@@ -84,7 +114,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     return {
       url: withTrailingSlash(route),
-      lastModified: lastUpdated,
+      lastModified: lastModForRoute(route, lastUpdated),
       changeFrequency: changeFreq,
       priority,
     };
@@ -92,7 +122,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const serviceRoutes = servicePages.map((route) => ({
     url: withTrailingSlash(route),
-    lastModified: lastUpdated,
+    lastModified: lastModForRoute(route, lastUpdated),
     changeFrequency: 'monthly' as const,
     priority: 0.9,
   }));
@@ -111,7 +141,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter((slug) => !EXCLUDED_DOORWAY_PAGES.includes(slug))
     .map((slug) => ({
       url: withTrailingSlash(areaPath(slug)),
-      lastModified: lastUpdated,
+      lastModified: lastModForRoute(areaPath(slug), lastUpdated),
       changeFrequency: 'monthly' as const,
       priority: 0.85,
     }));

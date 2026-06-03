@@ -8,6 +8,7 @@ import Image from 'next/image';
 import logo from '@/assets/wow-gutter-logo.png';
 import { colors } from '@/constants/colors';
 import { areaPath } from '@/lib/areaSlugs';
+import { SERVICE_AREAS_HUB } from '@/lib/crawlHub';
 import SeoKeywordLinks from '@/components/SeoKeywordLinks';
 import { 
   Phone, Mail, MapPin, Star, ArrowUp, 
@@ -17,7 +18,6 @@ import {
 
 export default function Footer() {
   const pathname = usePathname();
-  const isHomePage = pathname === '/';
   const [showScrollTop, setShowScrollTop] = useState(false);
 
   React.useEffect(() => {
@@ -102,7 +102,7 @@ export default function Footer() {
               />
             </div>
             <div className="footer-brand-text">
-              <h2 className="footer-company-name">WOW Gutters</h2>
+              <p className="footer-company-name">WOW Gutters</p>
               <p className="footer-company-tagline">Professional Gutter Cleaning &amp; Roofline Services</p>
               <div className="footer-ratings">
                 <span className="rating-text">Rated 4.9★ by 2,696+ customers</span>
@@ -117,9 +117,9 @@ export default function Footer() {
 
           <hr className="footer-divider" />
 
-          {/* Grid Links Section - Only show on home page */}
-          {isHomePage && (
-            <>
+          {/* Site-wide footer links — crawlable from every page (≤3 clicks to all areas via hub) */}
+          <>
+              <h2 className="sr-only">Site navigation and service areas</h2>
               <div className="footer-links-grid">
                 <div className="footer-col">
                   <h3 className="footer-col-title">Our Services</h3>
@@ -170,6 +170,11 @@ export default function Footer() {
                 <div className="footer-col">
                   <h3 className="footer-col-title">Service Areas</h3>
                   <ul className="footer-list">
+                    <li>
+                      <Link href={SERVICE_AREAS_HUB} className="footer-link footer-link-highlight">
+                        <ArrowRight className="w-3 h-3 link-arrow" /> All service areas (full map)
+                      </Link>
+                    </li>
                     {areas.map((item, i) => (
                       <li key={i}>
                         <Link href={areaPath(item.toLowerCase().replace(/\s+/g, '-'))} className="footer-link">
@@ -186,8 +191,7 @@ export default function Footer() {
               </div>
 
               <hr className="footer-divider" />
-            </>
-          )}
+          </>
 
           {/* Bottom Row */}
           <div className="footer-bottom-row">

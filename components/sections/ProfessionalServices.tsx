@@ -16,6 +16,10 @@ export default function ProfessionalServices() {
             <img
               src="/Professional-experience.png"
               alt="Professional Gutter Services"
+              width={800}
+              height={560}
+              loading="lazy"
+              decoding="async"
               className="w-full h-[560px] object-cover rounded-2xl shadow-xl"
             />
           </div>

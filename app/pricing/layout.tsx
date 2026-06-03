@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import { buildMetadata } from '@/lib/seo';
+import { buildPricingPageSchemaGraph } from '@/lib/pageSchemaGraphs';
+import PageSchema from '@/components/seo/PageSchema';
 
 export const metadata: Metadata = buildMetadata({
   title: 'Gutter Cleaning Prices',
@@ -9,5 +11,10 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function PricingLayout({ children }: { children: React.ReactNode }) {
-  return children;
+  return (
+    <>
+      <PageSchema id="schema-pricing" data={buildPricingPageSchemaGraph()} />
+      {children}
+    </>
+  );
 }

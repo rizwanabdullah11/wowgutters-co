@@ -1,22 +1,26 @@
 'use client';
 import { useState } from 'react';
+import Link from 'next/link';
 import { MapPin, Search, Navigation } from 'lucide-react';
+import { areaPath } from '@/lib/areaSlugs';
+import { SERVICE_AREAS_HUB } from '@/lib/crawlHub';
+import { mapsPlaceEmbedSrc } from '@/lib/mapsEmbed';
 
-const locations = [
-  { name: 'Your area', coordinates: '52.4862,-1.8904' },
-  { name: 'Coventry', coordinates: '52.4068,-1.5197' },
-  { name: 'Wolverhampton', coordinates: '52.5865,-2.1285' },
-  { name: 'Dudley', coordinates: '52.5120,-2.0890' },
-  { name: 'Sandwell', coordinates: '52.5361,-1.9644' },
-  { name: 'Solihull', coordinates: '52.4118,-1.7776' },
-  { name: 'Walsall', coordinates: '52.5862,-1.9829' },
-  { name: 'Worcester', coordinates: '52.1936,-2.2208' },
-  { name: 'Redditch', coordinates: '52.3068,-1.9410' },
-  { name: 'Bromsgrove', coordinates: '52.3356,-2.0575' },
-  { name: 'Kidderminster', coordinates: '52.3880,-2.2497' },
-  { name: 'Malvern', coordinates: '52.1122,-2.3250' },
-  { name: 'Evesham', coordinates: '52.0930,-1.9490' },
-  { name: 'Droitwich Spa', coordinates: '52.2680,-2.1520' },
+const locations: { name: string; coordinates: string; slug?: string }[] = [
+  { name: 'Birmingham', coordinates: '52.4862,-1.8904', slug: 'birmingham' },
+  { name: 'Coventry', coordinates: '52.4068,-1.5197', slug: 'coventry' },
+  { name: 'Wolverhampton', coordinates: '52.5865,-2.1285', slug: 'wolverhampton' },
+  { name: 'Dudley', coordinates: '52.5120,-2.0890', slug: 'dudley' },
+  { name: 'Sandwell', coordinates: '52.5361,-1.9644', slug: 'sandwell' },
+  { name: 'Solihull', coordinates: '52.4118,-1.7776', slug: 'solihull' },
+  { name: 'Walsall', coordinates: '52.5862,-1.9829', slug: 'walsall' },
+  { name: 'Worcester', coordinates: '52.1936,-2.2208', slug: 'worcester' },
+  { name: 'Redditch', coordinates: '52.3068,-1.9410', slug: 'redditch' },
+  { name: 'Bromsgrove', coordinates: '52.3356,-2.0575', slug: 'bromsgrove' },
+  { name: 'Kidderminster', coordinates: '52.3880,-2.2497', slug: 'kidderminster' },
+  { name: 'Malvern', coordinates: '52.1122,-2.3250', slug: 'malvern' },
+  { name: 'Evesham', coordinates: '52.0930,-1.9490', slug: 'evesham' },
+  { name: 'Droitwich Spa', coordinates: '52.2680,-2.1520', slug: 'droitwich-spa' },
 ];
 
 export default function FindLocalTeam() {
@@ -62,15 +66,34 @@ export default function FindLocalTeam() {
               />
             </div>
 
+            <p className="local-team-hub-link">
+              <Link href={SERVICE_AREAS_HUB}>View all service areas on the map →</Link>
+            </p>
+
             <div className="local-team-pills">
               {filtered.length > 0 ? (
                 filtered.map((loc, i) => {
                   const isSelected = selectedLocation === `${loc.name}, UK`;
+                  const pillClass = `local-pill ${isSelected ? 'local-pill-active' : ''}`;
+                  if (loc.slug) {
+                    return (
+                      <Link
+                        key={loc.slug}
+                        href={areaPath(loc.slug)}
+                        onClick={() => setSelectedLocation(`${loc.name}, UK`)}
+                        className={pillClass}
+                      >
+                        <MapPin className="local-pill-icon" />
+                        {loc.name}
+                      </Link>
+                    );
+                  }
                   return (
                     <button
                       key={i}
+                      type="button"
                       onClick={() => setSelectedLocation(`${loc.name}, UK`)}
-                      className={`local-pill ${isSelected ? 'local-pill-active' : ''}`}
+                      className={pillClass}
                     >
                       <MapPin className="local-pill-icon" />
                       {loc.name}
@@ -100,7 +123,7 @@ export default function FindLocalTeam() {
                 loading="lazy"
                 allowFullScreen
                 referrerPolicy="no-referrer-when-downgrade"
-                src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=${encodeURIComponent(selectedLocation)}&zoom=11`}
+                src={mapsPlaceEmbedSrc(selectedLocation, 11)}
               />
             </div>
           </div>
@@ -238,6 +261,16 @@ export default function FindLocalTeam() {
         }
 
         /* PILLS */
+        .local-team-hub-link {
+          margin: 0 0 16px;
+          text-align: left;
+        }
+        .local-team-hub-link a {
+          font-weight: 700;
+          color: #19C58B;
+          text-decoration: underline;
+        }
+
         .local-team-pills {
           display: flex;
           flex-wrap: wrap;
@@ -275,6 +308,7 @@ export default function FindLocalTeam() {
           cursor: pointer;
           transition: all 0.2s ease;
           box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+          text-decoration: none;
         }
         .local-pill-icon {
           width: 16px;

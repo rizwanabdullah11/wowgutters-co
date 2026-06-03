@@ -43,6 +43,8 @@ export type CityGutterLandingData = {
   priceTo?: number;
   /** Optional per-city reviews */
   reviews?: { initial: string; name: string; place?: string; text: string }[];
+  /** Location-specific paragraph (audit 08.03 — unique body copy per area page) */
+  localSpotlight?: string;
 };
 
 export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {

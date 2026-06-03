@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev --webpack",
-    "build": "node scripts/clean-next.mjs && next build && node scripts/postexport-fix-index.mjs && node scripts/inject-schema-static.mjs && node scripts/assert-jsonld-export.mjs && node scripts/assert-area-schema-export.mjs",
+    "build": "node scripts/clean-next.mjs && next build && node scripts/postexport-fix-index.mjs && node scripts/inject-schema-static.mjs && npx next-sitemap && node scripts/post-sitemap-sync.mjs && node scripts/assert-jsonld-export.mjs && node scripts/assert-area-schema-export.mjs && node scripts/assert-page-schema-export.mjs && node scripts/assert-onpage-seo.mjs && node scripts/assert-duplicate-content.mjs && node scripts/assert-local-seo.mjs && node scripts/assert-sitemap.mjs && node scripts/assert-js-seo.mjs && node scripts/assert-analytics.mjs && node scripts/assert-content-quality.mjs && node scripts/assert-link-profile.mjs && node scripts/assert-htaccess-cache.mjs && node scripts/assert-htaccess-security.mjs && node scripts/assert-mobile-friendly.mjs",
     "build:hostinger": "npm run build",
-    "postbuild": "next-sitemap",
+    "postbuild": "node -e \"console.log('postbuild: sitemap handled in npm run build')\"",
     "start": "npx serve out -p 3000",
     "serve": "npx serve out -p 3000",
     "lint": "eslint",

@@ -12,6 +12,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   output: "export",
   trailingSlash: true,
+  // HSTS + domain redirects: static Hostinger deploy uses out/.htaccess (see scripts/hostinger-htaccess.mjs).
+  // next.config headers do not apply to `output: "export"` on Apache hosting.
   experimental: {
     optimizePackageImports: ["lucide-react"],
   },

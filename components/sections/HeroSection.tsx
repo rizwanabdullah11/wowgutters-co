@@ -39,12 +39,16 @@ export default function HeroSection() {
   const headlineIntervalRef = useRef<number | null>(null);
 
   useEffect(() => {
-    // Force play the video on mount
-    if (videoRef.current) {
-      videoRef.current.play().catch((error) => {
-        console.log('Video autoplay failed:', error);
-      });
+    // Defer video playback until after first paint (poster image is LCP)
+    const play = () => {
+      videoRef.current?.play().catch(() => {});
+    };
+    if (typeof window.requestIdleCallback === 'function') {
+      const id = window.requestIdleCallback(play, { timeout: 2000 });
+      return () => window.cancelIdleCallback(id);
     }
+    const t = window.setTimeout(play, 150);
+    return () => window.clearTimeout(t);
   }, []);
 
   // Headline switching (use a stable interval + internal timeout for animation)
@@ -110,6 +114,17 @@ export default function HeroSection() {
       <section className="hero-section">
         {/* Video Background */}
         <div className="hero-video-wrapper">
+          {/* LCP: poster image paints before video (preload on homepage) */}
+          <img
+            src={HERO_POSTER}
+            alt=""
+            width={1920}
+            height={1080}
+            fetchPriority="high"
+            decoding="async"
+            className="hero-video hero-poster-fallback"
+            aria-hidden
+          />
           <video
             ref={videoRef}
             autoPlay
@@ -230,10 +245,19 @@ export default function HeroSection() {
           inset: 0;
           z-index: 1;
         }
+        .hero-poster-fallback,
         .hero-video {
+          position: absolute;
+          inset: 0;
           width: 100%;
           height: 100%;
           object-fit: cover;
+        }
+        .hero-poster-fallback {
+          z-index: 1;
+        }
+        .hero-video {
+          z-index: 2;
         }
         .hero-overlay {
           position: absolute;

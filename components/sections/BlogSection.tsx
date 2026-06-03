@@ -49,6 +49,10 @@ export default function BlogSection() {
             <img
               src={featuredPost.image}
               alt={featuredPost.title}
+              width={640}
+              height={288}
+              loading="lazy"
+              decoding="async"
               className="w-full lg:w-1/3 h-72 object-cover"
             />
             <div className="p-6 flex flex-col justify-center flex-1">
@@ -76,7 +80,15 @@ export default function BlogSection() {
                 className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 h-full flex flex-col"
                 style={{ borderTop: `3px solid ${ACCENTS[index]}` }}
               >
-                <img src={post.image} alt={post.title} className="w-full h-56 object-cover" />
+                <img
+                  src={post.image}
+                  alt={post.title}
+                  width={640}
+                  height={224}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full h-56 object-cover"
+                />
                 <div className="p-5 flex flex-col flex-1">
                   <p className="text-[10px] font-bold tracking-widest uppercase mb-2" style={{ color: ACCENTS[index] }}>
                     BLOG
@@ -104,7 +116,15 @@ export default function BlogSection() {
                 className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 h-full flex flex-col"
                 style={{ borderTop: `3px solid ${ACCENTS[index]}` }}
               >
-                <img src={post.image} alt={post.title} className="w-full h-56 object-cover" />
+                <img
+                  src={post.image}
+                  alt={post.title}
+                  width={640}
+                  height={224}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full h-56 object-cover"
+                />
                 <div className="p-5 flex flex-col flex-1">
                   <p className="text-[10px] font-bold tracking-widest uppercase mb-2" style={{ color: ACCENTS[index] }}>
                     BLOG
