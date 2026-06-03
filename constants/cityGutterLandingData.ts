@@ -1778,6 +1778,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
       { label: 'Gutter cleaning Harborne', href: '/gutter-cleaning/harborne/' },
       { label: 'Gutter cleaning Selly Oak', href: '/gutter-cleaning/selly-oak/' },
+      { label: 'Selly Oak B29 local guide', href: '/blog/gutter-cleaning-selly-oak-b29-birmingham/' },
       { label: 'Fascia & soffit cleaning', href: '/blog/fascias-soffits-gutter-cleaning-west-midlands/' },
       { label: 'Gutter repairs', href: '/help/repair/' },
     ],
@@ -1872,6 +1873,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     geo: { latitude: 52.4417, longitude: -1.9367 },
     internalLinks: [
+      { label: 'Selly Oak B29 local guide', href: '/blog/gutter-cleaning-selly-oak-b29-birmingham/' },
       { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
       { label: 'Gutter cleaning Edgbaston', href: '/gutter-cleaning/edgbaston/' },
       { label: 'Gutter cleaning Harborne', href: '/gutter-cleaning/harborne/' },
@@ -1972,6 +1974,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
       { label: 'Gutter cleaning Edgbaston', href: '/gutter-cleaning/edgbaston/' },
       { label: 'Gutter cleaning Selly Oak', href: '/gutter-cleaning/selly-oak/' },
+      { label: 'Selly Oak B29 local guide', href: '/blog/gutter-cleaning-selly-oak-b29-birmingham/' },
       { label: 'Fascia & soffit cleaning', href: '/blog/fascias-soffits-gutter-cleaning-west-midlands/' },
       { label: 'Gutter repairs', href: '/help/repair/' },
     ],

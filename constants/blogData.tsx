@@ -1,23 +1,9 @@
-﻿export interface BlogPost {
-  id: string;
-  title: string;
-  excerpt: string;
-  image: string;
-  heroVideo?: string;
-  date: string;
-  views: string;
-  content?: string;
-  category?: string;
-  author?: string;
-  authorRole?: string;
-  authorBio?: string;
-  lastUpdated?: string;
-  quickAnswer?: string;
-  breadcrumbName?: string;
-  featured?: boolean;
-}
+﻿import { sellyOakBlogPost } from './sellyOakBlog';
+export type { BlogPost } from './blogTypes';
+import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  sellyOakBlogPost,
   {
     id: 'fascias-soffits-gutter-cleaning-west-midlands',
     title: 'Fascias & Soffits – Professional Gutter Cleaning & Fixing Across the West Midlands',
@@ -3223,6 +3209,7 @@ export const blogPosts: BlogPost[] = [
 
 <ul>
   <li><strong><a href="/gutter-cleaning-birmingham" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Birmingham — Full Local Guide</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-selly-oak-b29-birmingham" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Selly Oak B29 Birmingham</a></strong></li>
   <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Wolverhampton | WOW Gutters</a></strong></li>
   <li><strong><a href="/blog/gutter-cleaning-walsall" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Walsall | WOW Gutters</a></strong></li>
   <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
@@ -3243,7 +3230,7 @@ export const blogPosts: BlogPost[] = [
     lastUpdated: '2026-06-02',
     quickAnswer: 'This B30 Kings Norton property had severe moss growth across both roof aspects, requiring cherry picker access and a full-day professional clean. WOW Gutters cleared 100% of moss using high-pressure treatment and applied biocidal protection. Gutters cleared as part of the same visit. 1-year written guarantee. Call 07421 433910 for a free quote.',
     breadcrumbName: 'Roof Cleaning B30 Birmingham',
-    featured: true,
+    featured: false,
     content: `
 <figure style="margin: 0 0 28px;">
   <img
@@ -3509,12 +3496,13 @@ export const blogPosts: BlogPost[] = [
 
 <ul>
   <li><strong><a href="/gutter-cleaning-birmingham/" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Birmingham — Full Local Guide</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-selly-oak-b29-birmingham" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Selly Oak B29 Birmingham</a></strong></li>
   <li><strong><a href="/gutter-cleaning-kings-norton/" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Kings Norton B30 | WOW Gutters</a></strong></li>
   <li><strong><a href="/gutter-cleaning-stirchley/" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Stirchley | WOW Gutters</a></strong></li>
   <li><strong><a href="/gutter-cleaning-northfield/" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Northfield B31 | WOW Gutters</a></strong></li>
   <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
 </ul>
     `,
-  }
+  },
 ];
 

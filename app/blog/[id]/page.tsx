@@ -37,8 +37,10 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
 
   const canonicalUrl = `https://wowgutters.co.uk/blog/${id}/`;
 
+  const pageTitle = post.seoTitle ?? `${post.title} | WOW Gutters`;
+
   return {
-    title: `${post.title} | WOW Gutters`,
+    title: pageTitle,
     description: post.excerpt,
     keywords: `${post.category}, gutter cleaning, gutter maintenance, blocked gutters, gutter repair, ${id.replace(/-/g, ' ')}`,
     authors: [{ name: post.author || 'WOW Gutters Technical Team' }],
@@ -60,7 +62,7 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
       }
     },
     openGraph: {
-      title: post.title,
+      title: pageTitle,
       description: post.excerpt,
       images: [{
         url: `https://wowgutters.co.uk${post.image}`,
@@ -78,7 +80,7 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
     },
     twitter: {
       card: 'summary_large_image',
-      title: post.title,
+      title: pageTitle,
       description: post.excerpt,
       images: [`https://wowgutters.co.uk${post.image}`],
       creator: '@wowgutters',
