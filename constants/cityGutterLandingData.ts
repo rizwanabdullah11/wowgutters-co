@@ -41,8 +41,6 @@ export type CityGutterLandingData = {
   ctaHeading?: string;
   /** Max price range for schema */
   priceTo?: number;
-  /** Optional per-city reviews */
-  reviews?: { initial: string; name: string; place?: string; text: string }[];
   /** Location-specific paragraph (audit 08.03 — unique body copy per area page) */
   localSpotlight?: string;
 };
@@ -131,12 +129,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     priceTo: 140,
     nearbyAreas: ['Earlsdon', 'Allesley', 'Tile Hill', 'Canley', 'Finham', 'Radford', 'Foleshill'],
     postcodes: ['CV1', 'CV2', 'CV3', 'CV4', 'CV5', 'CV6'],
-    reviews: [
-      { initial: 'M', name: 'Mark D., Earlsdon', text: 'Excellent gutter clean in Coventry. Arrived on time, no ladders on the walls, and the before/after photos were really clear. Highly recommend WOW Gutters.' },
-      { initial: 'L', name: 'Lisa P., Tile Hill', text: 'Friendly team and a fair fixed price. Downpipes flushed through properly and overflow sorted on the first visit. Will book again.' },
-      { initial: 'J', name: 'James W., Allesley', text: 'Very professional service across CV postcodes. Photo proof on every job and no mess left behind. 5 stars.' },
-    ],
-  },
+    },
 
   walsall: {
     slug: 'walsall',
@@ -219,11 +212,6 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Walsall \u201D Free Quote in 60 Seconds',
-    reviews: [
-      { initial: 'G', name: 'Gary F., Streetly', text: 'Excellent service. Arrived promptly, cleared both gutters and downpipes. Photos before and after were a nice touch. Very professional.' },
-      { initial: 'S', name: 'Susan M., Aldridge', text: 'Friendly and efficient team. No ladders on the walls which I was very pleased about. Would absolutely recommend.' },
-      { initial: 'T', name: 'Tom H., Bloxwich', text: 'Reliable, affordable and very thorough. Overflow issue sorted on the first visit. 5 stars.' },
-    ],
     priceTo: 130,
     nearbyAreas: ['Bloxwich', 'Willenhall', 'Brownhills', 'Aldridge', 'Streetly', 'Bentley'],
     postcodes: ['WS1', 'WS2', 'WS3', 'WS4', 'WS5', 'WS7', 'WS8', 'WS9'],
@@ -309,11 +297,6 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Dudley \u201D Free Quote in 60 Seconds',
-    reviews: [
-      { initial: 'C', name: 'Claire R., Kingswinford', text: 'WOW Gutters were fantastic. Quick, clean and professional. The photo evidence was brilliant. Will definitely use again.' },
-      { initial: 'P', name: 'Phil T., Sedgley', text: 'Sorted a persistent overflow problem on the first visit. No mess, no fuss, great photos. Highly recommended for Dudley.' },
-      { initial: 'A', name: 'Anita K., Netherton', text: 'Friendly team, turned up when they said and cleared everything completely. Very pleased.' },
-    ],
     priceTo: 130,
     nearbyAreas: ['Brierley Hill', 'Halesowen', 'Netherton', 'Kingswinford', 'Sedgley', 'Stourbridge'],
     postcodes: ['DY1', 'DY2', 'DY3', 'DY5', 'DY8', 'DY9'],
@@ -399,11 +382,6 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Sandwell \u201D Free Quote in 60 Seconds',
-    reviews: [
-      { initial: 'M', name: 'Mark J., West Bromwich', text: 'Very professional. Cleared blocked gutters and downpipes in under an hour. Great value for the Sandwell area.' },
-      { initial: 'E', name: 'Emma P., Smethwick', text: 'No ladders on my brickwork which was important to me. Photos showed everything that was removed. Excellent service.' },
-      { initial: 'R', name: 'Robert C., Oldbury', text: 'Efficient and thorough. Sorted a long-standing overflow problem on the first visit. Highly recommend.' },
-    ],
     priceTo: 130,
     nearbyAreas: ['West Bromwich', 'Smethwick', 'Oldbury', 'Tipton', 'Wednesbury', 'Rowley Regis'],
     postcodes: ['B65', 'B66', 'B67', 'B68', 'B69', 'B70', 'B71', 'DY4'],
@@ -493,11 +471,6 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Worcester \u201D Free Quote in 60 Seconds',
-    reviews: [
-      { initial: 'H', name: 'Helen M., St John\u2019s', text: 'Excellent service in Worcester. Arrived on time, no ladders against the walls, and the photos showed exactly what had been cleared. Brilliant.' },
-      { initial: 'C', name: 'Chris B., Rainbow Hill', text: 'Very thorough clean of our Victorian gutters. Ground-level vacuum meant no risk to the original brickwork. Would highly recommend.' },
-      { initial: 'J', name: 'Janet K., Barbourne', text: 'Friendly, professional and great value. Overflow issue resolved immediately. Will use every year.' },
-    ],
     priceTo: 140,
     nearbyAreas: ['St John\u2019s', 'Rainbow Hill', 'Warndon', 'Barbourne', 'Claines', 'Dines Green'],
     postcodes: ['WR1', 'WR2', 'WR3', 'WR4', 'WR5'],
@@ -583,11 +556,6 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Redditch \u201D Free Quote in 60 Seconds',
-    reviews: [
-      { initial: 'P', name: 'Paul M., Church Hill', text: 'First time using WOW Gutters. Very impressed. The 1970s guttering on our house had never been properly cleaned \u201D sorted completely. Great photos.' },
-      { initial: 'L', name: 'Lisa B., Headless Cross', text: 'Quick, professional and good value. No mess and excellent communication. Would recommend to all Redditch homeowners.' },
-      { initial: 'M', name: 'Mike W., Astwood Bank', text: 'Brilliant service. Arrived on time, went through the photos with me afterwards. Everything clear and flowing freely.' },
-    ],
     priceTo: 140,
     nearbyAreas: ['Church Hill', 'Matchborough', 'Winyates', 'Webheath', 'Headless Cross', 'Astwood Bank'],
     postcodes: ['B97', 'B98'],
@@ -677,11 +645,6 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Bromsgrove \u201D Free Quote in 60 Seconds',
-    reviews: [
-      { initial: 'S', name: 'Sarah L., Barnt Green', text: 'WOW Gutters were excellent. Quick to book, arrived on time, brilliant photos. Our detached home in Barnt Green has very leafy gutters \u201D all cleared.' },
-      { initial: 'D', name: 'David P., Charford', text: 'Professional service at a fair price. No mess and great photos sent the same day. Will book again next autumn.' },
-      { initial: 'A', name: 'Ann T., Lickey', text: 'The team were fantastic. Dealt with heavy leaf build-up from the Lickey trees. Highly recommend for Bromsgrove.' },
-    ],
     priceTo: 140,
     nearbyAreas: ['Charford', 'Sidemoor', 'Barnt Green', 'Lickey', 'Catshill', 'Rubery border'],
     postcodes: ['B60', 'B61'],
@@ -767,11 +730,6 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Kidderminster \u201D Free Quote in 60 Seconds',
-    reviews: [
-      { initial: 'F', name: 'Fiona H., Habberley', text: 'The oak leaf problem near the Wyre Forest is real \u201D our gutters were completely blocked. WOW Gutters cleared everything on the first visit. Excellent.' },
-      { initial: 'R', name: 'Richard T., Franche', text: 'Very professional. No ladders against our house, brilliant photos and downpipes all flushed through. Will definitely use again.' },
-      { initial: 'J', name: 'Janet M., Wolverley', text: 'Fast to book, arrived on time and did a thorough job. The photo evidence was really reassuring. Highly recommend.' },
-    ],
     priceTo: 140,
     nearbyAreas: ['Habberley', 'Foley Park', 'Blakedown', 'Wolverley', 'Stourport-on-Severn', 'Bewdley border'],
     postcodes: ['DY10', 'DY11'],
@@ -858,11 +816,6 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Malvern \u201D Free Quote in 60 Seconds',
-    reviews: [
-      { initial: 'C', name: 'Catherine W., Great Malvern', text: 'Our Victorian villa on the hillside had gutters that conventional ladder access couldn\u2019t reach properly. WOW Gutters solved this completely. Excellent.' },
-      { initial: 'A', name: 'Andrew B., Barnards Green', text: 'Thoroughly professional. The no-ladder system was exactly what we needed for our period property. Brilliant photos and a great result.' },
-      { initial: 'S', name: 'Susan H., Malvern Link', text: 'Arrived on time, worked efficiently and left no mess. Before and after photos were brilliant. Highly recommend.' },
-    ],
     priceTo: 150,
     nearbyAreas: ['Great Malvern', 'Malvern Link', 'Barnards Green', 'Malvern Wells', 'Colwall', 'Upton upon Severn border'],
     postcodes: ['WR13', 'WR14'],
@@ -952,11 +905,6 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Gutter cleaning Stratford-upon-Avon', href: '/gutter-cleaning/stratford-upon-avon' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Evesham \u201D Free Quote in 60 Seconds',
-    reviews: [
-      { initial: 'P', name: 'Peter S., Bengeworth', text: 'Really pleased with WOW Gutters. The riverside location means our gutters fill up fast. Cleared completely, great photos, very professional.' },
-      { initial: 'M', name: 'Mary K., Hampton', text: 'Excellent service from start to finish. No ladders on the brickwork, photos showed the difference clearly. Would highly recommend.' },
-      { initial: 'J', name: 'James T., Badsey', text: 'Quick to respond, great value and very thorough. Will be booking annually from now on.' },
-    ],
     priceTo: 140,
     nearbyAreas: ['Bengeworth', 'Hampton', 'Badsey', 'Offenham', 'Bretforton', 'Pershore border'],
     postcodes: ['WR11'],
@@ -1046,11 +994,6 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Professional gutter cleaning', href: '/help/unblock/' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Droitwich Spa \u201D Free Quote in 60 Seconds',
-    reviews: [
-      { initial: 'P', name: 'Patricia H., Westlands', text: 'WOW Gutters were brilliant. Professional, no mess, great photos. Our Victorian gutters had not been cleaned for years \u201D all sorted in one visit.' },
-      { initial: 'G', name: 'Graham W., Droitwich', text: 'Fast to book, arrived when they said, left everything clean and tidy. The before and after photos showed a massive difference. Highly recommend.' },
-      { initial: 'L', name: 'Linda T., Hanbury Road', text: 'Excellent service. Ground-level vacuum meant no risk to our period property. Will definitely use every year.' },
-    ],
     priceTo: 140,
     nearbyAreas: ['Westlands', 'Ombersley Road area', 'Hanbury Road', 'Vines Park area', 'Salwarpe', 'Oddingley'],
     postcodes: ['WR9'],
@@ -1110,12 +1053,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     priceTo: 140,
     nearbyAreas: ['Dorridge', 'Knowle', 'Shirley', 'Olton', 'Marston Green', 'Castle Bromwich'],
     postcodes: ['B90', 'B91', 'B92', 'B93', 'B94'],
-    reviews: [
-      { initial: 'C', name: 'Claire H., Knowle', text: 'Brilliant gutter clean on our detached in Knowle. Long rooflines cleared safely from the ground and photos sent the same day. Very impressed.' },
-      { initial: 'A', name: 'Andrew B., Dorridge', text: 'Professional, punctual and thorough. Conservatory gutters included and downpipes all flowing. Would use WOW Gutters again.' },
-      { initial: 'R', name: 'Rachel S., Shirley', text: 'Great communication and a clear fixed quote. No ladders against the brickwork — exactly what we wanted. Highly recommended in Solihull.' },
-    ],
-  },
+    },
   'sutton-coldfield': {
     slug: 'sutton-coldfield',
     city: 'Sutton Coldfield',
@@ -1578,12 +1516,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     priceTo: 140,
     nearbyAreas: ['Birmingham', 'Wolverhampton', 'Coventry', 'Walsall', 'Dudley', 'Sandwell', 'Solihull'],
     postcodes: ['B1-B99', 'DY1-DY14', 'WV1-WV14', 'CV1-CV35', 'WS1-WS15'],
-    reviews: [
-      { initial: 'T', name: 'Tom G., Birmingham', text: 'WOW Gutters cover the whole West Midlands — booked from Birmingham and service was excellent. Ground-level clean, photos included, very professional.' },
-      { initial: 'H', name: 'Helen K., Wolverhampton', text: 'Reliable team across the region. Fixed quote, downpipes cleared and no mess. Glad we found a proper local specialist.' },
-      { initial: 'N', name: 'Neil S., Coventry', text: 'Fast booking and a thorough clean. Before and after photos made it easy to see the difference. Recommend for any West Midlands property.' },
-    ],
-  },
+    },
 
   aston: {
     slug: 'aston',

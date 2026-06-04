@@ -1,10 +1,11 @@
 import { colors } from '@/constants/colors';
+import { GOOGLE_REVIEWS_SUMMARY } from '@/lib/googleReviews';
 
 export default function StatsSection() {
   const stats = [
     { value: '2+', label: 'Years of Experience', accent: '#3B82F6' },
-    { value: '450+', label: 'Customer Reviews', accent: '#19C58B' },
-    { value: '450+', label: 'Happy Clients', accent: '#F97316' },
+    { value: GOOGLE_REVIEWS_SUMMARY.reviewCountLabel, label: 'Google Reviews', accent: '#19C58B' },
+    { value: GOOGLE_REVIEWS_SUMMARY.starsDisplay, label: 'Average Rating', accent: '#F97316' },
     { value: '12mo', label: 'Repair Guarantee', accent: '#8B5CF6' },
   ];
 

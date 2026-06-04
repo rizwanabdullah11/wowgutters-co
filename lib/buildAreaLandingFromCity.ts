@@ -175,26 +175,6 @@ export function buildAreaLandingFromCity(input: AreaInput): CityGutterLandingDat
     postcodes,
     ctaHeading: `Book Your Gutter Clean in ${name} — Free Quote in 60 Seconds`,
     priceTo,
-    reviews: [
-      {
-        initial: 'M',
-        name: `Mark T.`,
-        place: name,
-        text: `Excellent gutter clean in ${name}. Arrived on time, no ladders on the walls, and the before/after photos were really clear. Highly recommend WOW Gutters.`,
-      },
-      {
-        initial: 'L',
-        name: `Lisa P.`,
-        place: name,
-        text: `Friendly team and a fair fixed price in ${pcLabel}. Downpipes flushed through properly and overflow sorted on the first visit.`,
-      },
-      {
-        initial: 'J',
-        name: `James W.`,
-        place: nearbyAreas[0] ?? name,
-        text: 'Very professional service with photo proof on every job and no mess left behind. Will book again.',
-      },
-    ],
   };
 }
 

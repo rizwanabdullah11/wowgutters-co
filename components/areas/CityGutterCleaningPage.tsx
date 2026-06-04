@@ -15,6 +15,7 @@ import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
 import NearbyAreas from '@/components/areas/NearbyAreas';
 import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
+import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
 
 export default function CityGutterCleaningPage({
   data,
@@ -51,29 +52,6 @@ export default function CityGutterCleaningPage({
         ...faq,
         icon: ['💳', '🗓️', '🪜', '🚰', '📷', '📍', '✓'][i] ?? '✓',
       }));
-
-  const localReviews = data.reviews?.length
-    ? data.reviews
-    : [
-    {
-      initial: 'D',
-      name: 'David T.',
-      place: data.city,
-      text: `Brilliant service from WOW Gutters in ${data.city}. Arrived on time, worked safely from the ground, and the before/after photos were really helpful. Would 100% recommend.`,
-    },
-    {
-      initial: 'S',
-      name: 'Sarah M.',
-      place: data.city,
-      text: 'Friendly team, clear fixed quote, and no mess left behind. Overflow issue solved on the first visit. So glad I found them.',
-    },
-    {
-      initial: 'P',
-      name: 'Paul R.',
-      place: data.city,
-      text: 'Great communication and very professional. You can see exactly what was done from the photo proof. Highly recommended.',
-    },
-  ];
 
   const [titlePrefix, titleAccent = ''] = data.h1.split(' — ');
   const heroPills = [
@@ -275,61 +253,7 @@ export default function CityGutterCleaningPage({
 
       <CollapsibleAreaFAQ city={data.city} faqs={pageFaqs} heading={data.faqsTitle} />
 
-      <section className="py-16 md:py-20 px-4 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
-            <div>
-              <p className="text-xs font-bold tracking-[0.2em] uppercase mb-2" style={{ color: colors.primary }}>
-                Customer reviews
-              </p>
-              <h2 className="text-3xl md:text-4xl font-black text-slate-900">
-                What {data.city} customers say about WOW Gutters
-              </h2>
-              <p className="text-slate-600 mt-2">
-                4.9 based on 2,696+ verified Google reviews. Fully insured · 1-year guarantee · Before &amp; after photos · 7 days a week.
-              </p>
-            </div>
-            <Link
-              href="/reviews"
-              className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold text-white shrink-0"
-              style={{ background: colors.primaryGradient }}
-            >
-              See all reviews
-            </Link>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            {localReviews.map((r) => (
-              <blockquote
-                key={r.name}
-                className="p-8 rounded-2xl border border-slate-200 bg-slate-50/80 shadow-sm"
-              >
-                <div className="flex items-center gap-3 mb-4">
-                  <div
-                    className="w-11 h-11 rounded-full flex items-center justify-center text-white font-black"
-                    style={{ backgroundColor: colors.primary }}
-                  >
-                    {r.initial}
-                  </div>
-                  <div>
-                    <cite className="not-italic font-bold text-slate-900 block">{r.name}</cite>
-                    {r.place ? <span className="text-sm text-slate-500">{r.place}</span> : null}
-                  </div>
-                  <img
-                    src="/images/google-g.svg"
-                    alt=""
-                    width={20}
-                    height={20}
-                    loading="lazy"
-                    className="w-5 h-5 ml-auto opacity-80"
-                  />
-                </div>
-                <p className="text-slate-700 text-sm leading-relaxed">&ldquo;{r.text}&rdquo;</p>
-                <p className="text-[11px] text-slate-500 mt-3 font-semibold">Verified Google review</p>
-              </blockquote>
-            ))}
-          </div>
-        </div>
-      </section>
+      <GoogleReviewsBlock city={data.city} className="bg-white" />
 
       <section className="py-16 px-4 bg-white border-t border-slate-100">
         <div className="max-w-4xl mx-auto text-center">

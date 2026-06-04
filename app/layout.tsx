@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from "next";
-import Script from "next/script";
 import "./globals.css";
 import Navbar from "./navbar/page";
 import Footer from "@/components/Footer";
@@ -157,9 +156,9 @@ export default function RootLayout({
         />
         {/*
           Static export (Next.js 16 Turbopack): plain <script> tags are
-          written verbatim into the exported HTML. next/script with
-          strategy="beforeInteractive" is stripped from the output, which
-          would break the quote modal. Do NOT convert these to <Script>.
+          written verbatim into the exported HTML. next/script is NOT emitted
+          as real script tags (only RSC payload), so GA4/Meta never ran.
+          Cookiebot unblocks type="text/plain" scripts after consent.
         */}
         {/* Analytics config + click tracking (safe no-op if GA ID not set) */}
         <script
@@ -167,22 +166,37 @@ export default function RootLayout({
             __html: `(function(){window.__WOW_ANALYTICS__={gaId:${JSON.stringify(ga4MeasurementId)},metaPixelId:${JSON.stringify(metaPixelId)},gtmId:${JSON.stringify(gtmId)},debug:${JSON.stringify(analyticsDebug)}};})();`,
           }}
         />
-        {/* Google tag (gtag.js) — deferred via next/script */}
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${ga4MeasurementId}`}
-          strategy="lazyOnload"
-        />
-        <Script id="ga4" strategy="lazyOnload">
-          {`window.dataLayer = window.dataLayer || [];
+        {/* Google tag (gtag.js) — plain scripts required for static export */}
+        {ga4MeasurementId ? (
+          <>
+            <script
+              type="text/plain"
+              data-cookieconsent="statistics"
+              async
+              src={`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(ga4MeasurementId)}`}
+            />
+            <script
+              id="ga4"
+              type="text/plain"
+              data-cookieconsent="statistics"
+              dangerouslySetInnerHTML={{
+                __html: `window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', ${ga4ConfigId});`}
-        </Script>
-        {/* Meta Pixel — deferred via next/script */}
+gtag('config', ${ga4ConfigId});`,
+              }}
+            />
+          </>
+        ) : null}
+        {/* Meta Pixel — plain script required for static export */}
         {metaPixelId ? (
           <>
-            <Script id="facebook-pixel" strategy="lazyOnload">
-              {`!function(f,b,e,v,n,t,s)
+            <script
+              id="facebook-pixel"
+              type="text/plain"
+              data-cookieconsent="marketing"
+              dangerouslySetInnerHTML={{
+                __html: `!function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
 if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
@@ -191,8 +205,9 @@ t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', ${JSON.stringify(metaPixelId)});
-fbq('track', 'PageView');`}
-            </Script>
+fbq('track', 'PageView');`,
+              }}
+            />
             <noscript>
               <img
                 height="1"

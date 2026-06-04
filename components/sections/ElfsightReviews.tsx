@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import { GOOGLE_REVIEWS_SUMMARY } from '@/lib/googleReviews';
 
 const ELFSIGHT_PLATFORM_SRC = 'https://elfsightcdn.com/platform.js';
 
@@ -14,7 +15,12 @@ function loadElfsightPlatform() {
   document.body.appendChild(script);
 }
 
-export default function ElfsightReviews() {
+type ElfsightReviewsProps = {
+  /** Crawlable summary above the live widget */
+  showSummary?: boolean;
+};
+
+export default function ElfsightReviews({ showSummary = true }: ElfsightReviewsProps) {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -41,12 +47,14 @@ export default function ElfsightReviews() {
 
   return (
     <div ref={containerRef} className="w-full min-h-[320px]">
-      {/* Crawlable summary — widget loads client-side (audit 12.04) */}
-      <p className="mb-6 text-center text-slate-600 text-base max-w-2xl mx-auto">
-        WOW Gutters is rated <strong>4.9 out of 5</strong> from over{' '}
-        <strong>2,696 verified Google reviews</strong> across Birmingham and the West Midlands.
-        Homeowners praise our punctuality, before-and-after photos, and honest gutter condition reports.
-      </p>
+      {showSummary ? (
+        <p className="mb-6 text-center text-slate-600 text-base max-w-2xl mx-auto">
+          WOW Gutters is rated <strong>{GOOGLE_REVIEWS_SUMMARY.ratingLabel} out of 5</strong> from over{' '}
+          <strong>{GOOGLE_REVIEWS_SUMMARY.reviewCountLabel} verified Google reviews</strong> across
+          Birmingham and the West Midlands. Homeowners praise our punctuality, before-and-after photos,
+          and honest gutter condition reports.
+        </p>
+      ) : null}
       <div
         className="elfsight-app-9ad60a2a-2a8d-4a67-a4e3-cb73887482d9"
         data-elfsight-app-lazy
