@@ -1,7 +1,11 @@
 import { JsonLd } from '@/components/JsonLd';
+import { buildReviewSchemaFields } from '@/lib/reviewSchema';
 
 /** Homepage LocalBusiness schema - server-rendered for static export */
 export default function HomepageSchema() {
+  const businessId = 'https://wowgutters.co.uk/#business';
+  const { aggregateRating, review } = buildReviewSchemaFields(businessId);
+
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -10,7 +14,7 @@ export default function HomepageSchema() {
     "email": "support@wowgutters.co.uk",
     "url": "https://wowgutters.co.uk",
     "image": "https://wowgutters.co.uk/og/default.jpg",
-    "description": "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, no ladders, 4-storey reach. 4.9 stars from 2696 reviews. 1-year guarantee.",
+    "description": "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, no ladders, 4-storey reach. Highly rated on Google with verified customer reviews.",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "38 Ryland Street",
@@ -24,13 +28,8 @@ export default function HomepageSchema() {
       "latitude": 52.4862,
       "longitude": -1.8904
     },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "reviewCount": "2696",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
+    "aggregateRating": aggregateRating,
+    "review": review,
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",

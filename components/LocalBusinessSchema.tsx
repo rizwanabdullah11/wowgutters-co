@@ -19,6 +19,7 @@ export default function LocalBusinessSchema(props: LocalBusinessSchemaProps) {
 
   return (
     <script
+      id="schema-static"
       type="application/ld+json"
       dangerouslySetInnerHTML={{
         __html: JSON.stringify(schema),

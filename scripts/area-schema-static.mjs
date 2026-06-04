@@ -2,10 +2,50 @@
  * Build area-page JSON-LD for Hostinger static export (no React hydration required).
  */
 
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const FEATURED_GOOGLE_REVIEWS = JSON.parse(
+  fs.readFileSync(path.join(__dirname, '..', 'constants', 'googleReviewsData.json'), 'utf8'),
+);
+
 const LOGO_URL = 'https://wowgutters.co.uk/favicon.png';
 const SCHEMA_DATE_PUBLISHED = '2025-01-15';
 const SCHEMA_DATE_MODIFIED = '2026-06-02';
 const SITE = 'https://wowgutters.co.uk';
+
+function featuredReviewsAggregateRating() {
+  const total = FEATURED_GOOGLE_REVIEWS.reduce((sum, r) => sum + r.rating, 0);
+  const avg = Math.round((total / FEATURED_GOOGLE_REVIEWS.length) * 10) / 10;
+  return {
+    '@type': 'AggregateRating',
+    ratingValue: String(avg),
+    reviewCount: String(FEATURED_GOOGLE_REVIEWS.length),
+    bestRating: '5',
+    worstRating: '1',
+  };
+}
+
+function buildReviewSchemaFields(businessId) {
+  const aggregateRating = featuredReviewsAggregateRating();
+  const review = FEATURED_GOOGLE_REVIEWS.map((item, index) => ({
+    '@type': 'Review',
+    '@id': `${businessId}#review-${index + 1}`,
+    itemReviewed: { '@id': businessId },
+    author: { '@type': 'Person', name: item.authorName },
+    datePublished: item.datePublished,
+    reviewBody: item.reviewBody,
+    reviewRating: {
+      '@type': 'Rating',
+      ratingValue: String(item.rating),
+      bestRating: '5',
+      worstRating: '1',
+    },
+  }));
+  return { aggregateRating, review };
+}
 
 function buildAreaWebPageNode(url, name) {
   return {
@@ -75,13 +115,15 @@ export function buildLocalBusinessSchemaGraph({
 }) {
   const allFaqs =
     faqs?.length > 0 ? faqs : buildDefaultFaqs(city, priceFrom, priceTo, postcodes, nearbyAreas);
+  const businessId = `${url}#business`;
+  const { aggregateRating, review } = buildReviewSchemaFields(businessId);
 
   return {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'HomeAndConstructionBusiness',
-        '@id': `${url}#business`,
+        '@id': businessId,
         name: `WOW Gutters Ltd — ${city}`,
         description: `Professional gutter cleaning in ${city}. Ground-level vacuum, before & after photos, 1-year guarantee, fully insured. Call 07421 433910.`,
         url,
@@ -125,13 +167,8 @@ export function buildLocalBusinessSchemaGraph({
             closes: '18:00',
           },
         ],
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '2696',
-          bestRating: '5',
-          worstRating: '1',
-        },
+        aggregateRating,
+        review,
         contactPoint: {
           '@type': 'ContactPoint',
           telephone: '+447421433910',

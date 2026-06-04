@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { colors } from '@/constants/colors';
 import ElfsightReviews from '@/components/sections/ElfsightReviews';
+// import StaticGoogleReviews from '@/components/sections/StaticGoogleReviews';
 import { googleReviewsHeadline, googleReviewsSubline, gbpReviewUrl } from '@/lib/googleReviews';
 
 type GoogleReviewsBlockProps = {
@@ -91,6 +92,8 @@ export default function GoogleReviewsBlock({
           </div>
         )}
 
+        {/* Static featured review cards — hidden; live Elfsight widget below is the visible source */}
+        {/* <StaticGoogleReviews className="mb-10" /> */}
         <ElfsightReviews showSummary={!isHomepage} />
       </div>
     </section>

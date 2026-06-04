@@ -30,6 +30,9 @@ for (const rel of mustHaveSchema) {
   if (!html.includes('dateModified')) {
     missing.push(`${rel} (no dateModified in schema)`);
   }
+  if (!/"@type"\s*:\s*"Review"/.test(html)) {
+    missing.push(`${rel} (no Review nodes in schema)`);
+  }
 }
 
 if (missing.length) {
