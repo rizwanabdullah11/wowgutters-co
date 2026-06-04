@@ -30,9 +30,7 @@ if (!index) {
   if (!/(?:\.\/)?service-areas\//.test(index)) {
     errors.push('homepage: missing link to service-areas hub');
   }
-  if (!/home-areas-heading|Gutter cleaning in your area/i.test(index)) {
-    errors.push('homepage: missing HomeServiceAreasHub section');
-  }
+  // HomeServiceAreasHub grid intentionally hidden from homepage UI
 }
 
 const services = read('services/index.html');

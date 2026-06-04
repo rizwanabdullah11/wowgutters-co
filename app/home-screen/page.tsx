@@ -1,5 +1,5 @@
 import HeroSection from '@/components/sections/HeroSection';
-import HomeServiceAreasHub from '@/components/sections/HomeServiceAreasHub';
+// import HomeServiceAreasHub from '@/components/sections/HomeServiceAreasHub';
 import ProfessionalServices from '@/components/sections/ProfessionalServices';
 import HowCanWeHelp from '@/components/sections/HowCanWeHelp';
 import GutterServicesRange from '@/components/sections/GutterServicesRange';
@@ -25,7 +25,7 @@ export default function HomeScreen() {
       <HomepageFAQSchema />
       <HomepageWebSiteSchema />
       <HeroSection />
-      <HomeServiceAreasHub />
+      {/* <HomeServiceAreasHub /> — West Midlands area grid hidden from homepage UI */}
       <ProfessionalServices />
       <HowCanWeHelp />
       <GutterServicesRange />
