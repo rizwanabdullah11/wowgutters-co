@@ -105,7 +105,7 @@ export default function Footer() {
               <p className="footer-company-name">WOW Gutters</p>
               <p className="footer-company-tagline">Professional Gutter Cleaning &amp; Roofline Services</p>
               <div className="footer-ratings">
-                <span className="rating-text">Rated 4.9★ by 2,696+ customers</span>
+                <span className="rating-text">Rated 4.9★ on Google</span>
               </div>
             </div>
             

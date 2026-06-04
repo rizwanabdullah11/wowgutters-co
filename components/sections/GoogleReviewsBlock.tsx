@@ -2,17 +2,10 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { colors } from '@/constants/colors';
 import ElfsightReviews from '@/components/sections/ElfsightReviews';
-import {
-  GOOGLE_REVIEWS_SUMMARY,
-  googleReviewsHeadline,
-  googleReviewsSubline,
-  gbpReviewUrl,
-} from '@/lib/googleReviews';
+import { googleReviewsHeadline, googleReviewsSubline, gbpReviewUrl } from '@/lib/googleReviews';
 
 type GoogleReviewsBlockProps = {
-  /** Optional area/city name for the section heading */
   city?: string;
-  /** Compact layout for area/service/blog pages */
   variant?: 'homepage' | 'page';
   className?: string;
 };
@@ -98,33 +91,7 @@ export default function GoogleReviewsBlock({
           </div>
         )}
 
-        <div className="flex flex-col lg:flex-row gap-8 lg:gap-10 mb-8">
-          <div className="lg:w-[280px] shrink-0 flex flex-col items-center justify-center p-6 rounded-2xl border border-slate-200 bg-slate-50/80 text-center">
-            <img src="/images/google-g.svg" alt="Google" width={32} height={32} className="w-8 h-8 mb-3" />
-            <p className="text-lg font-black text-slate-900">Excellent</p>
-            <p className="text-sm font-bold text-slate-700 mt-1">WOW Gutters</p>
-            <p className="text-2xl font-black mt-2" style={{ color: '#f59e0b' }}>
-              {GOOGLE_REVIEWS_SUMMARY.starsDisplay}
-            </p>
-            <p className="text-sm text-slate-500 mt-1 font-medium">
-              Based on {GOOGLE_REVIEWS_SUMMARY.reviewCountLabel} reviews
-            </p>
-            {reviewUrl ? (
-              <a
-                href={reviewUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 w-full rounded-full px-5 py-2.5 text-sm font-bold text-white"
-                style={{ backgroundColor: colors.primary }}
-              >
-                View on Google
-              </a>
-            ) : null}
-          </div>
-          <div className="flex-1 min-w-0">
-            <ElfsightReviews showSummary={false} />
-          </div>
-        </div>
+        <ElfsightReviews showSummary={!isHomepage} />
       </div>
     </section>
   );

@@ -84,7 +84,7 @@ if (!home) {
   if (/SectionPlaceholder/i.test(home)) {
     errors.push('homepage still renders SectionPlaceholder shells instead of content');
   }
-  if (/2,696 verified Google reviews/i.test(home) === false && !/2,696/i.test(home)) {
+  if (!/elfsight-app-/i.test(home) && !/verified Google reviews/i.test(home)) {
     errors.push('homepage missing crawlable review summary text');
   }
 }

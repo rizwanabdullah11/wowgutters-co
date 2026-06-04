@@ -26,7 +26,7 @@ const landingData: CityGutterLandingData = {
     'Before & after photos included as standard on every job',
     '1-year service guarantee — we return free if your gutters block within 12 months',
     'Fully insured — comprehensive public liability cover on every visit',
-    '4.9★ rating from 2,696+ verified customer reviews',
+    '4.9★ rating from verified Google reviews',
   ],
   propertyTypesTitle: 'Gutter Cleaning for All Property Types in Wolverhampton',
   propertyTypes: [

@@ -316,7 +316,7 @@ export default function QuotePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-white text-xs sm:text-sm font-semibold shadow mb-4" style={{ backgroundColor: colors.primary }}>
-              ⭐ Rated {GOOGLE_REVIEWS_SUMMARY.ratingLabel} Stars by {GOOGLE_REVIEWS_SUMMARY.reviewCountLabel} Customers
+              ⭐ Rated {GOOGLE_REVIEWS_SUMMARY.ratingLabel} Stars on Google
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-4">
               <span className="text-gray-900">What Our </span>

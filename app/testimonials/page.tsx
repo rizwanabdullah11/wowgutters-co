@@ -4,7 +4,7 @@ import { redirect } from 'next/navigation';
 export const metadata: Metadata = {
   title: 'Customer Reviews | WOW Gutters',
   description:
-    'Read verified Google reviews for WOW Gutters — 4.9★ from 2,696+ customers across Birmingham and the West Midlands.',
+    'Read verified Google reviews for WOW Gutters — 4.9★ on Google across Birmingham and the West Midlands.',
   alternates: {
     canonical: 'https://wowgutters.co.uk/reviews/',
   },

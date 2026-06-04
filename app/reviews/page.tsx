@@ -70,9 +70,8 @@ export default function ReviewsPage() {
         <div className="max-w-3xl mx-auto rounded-2xl border border-emerald-100 bg-emerald-50/60 p-6 sm:p-8 text-center">
           <p className="text-sm font-bold uppercase tracking-wide text-emerald-800">Google Business Profile</p>
           <p className="mt-2 text-slate-700 leading-relaxed">
-            WOW Gutters is rated {GOOGLE_REVIEWS_SUMMARY.ratingLabel}★ from{' '}
-            {GOOGLE_REVIEWS_SUMMARY.reviewCountLabel} verified Google reviews across Birmingham and the West Midlands.
-            We reply to every Google review — thank you for helping local homeowners choose a trusted gutter cleaner.
+            WOW Gutters is rated {GOOGLE_REVIEWS_SUMMARY.ratingLabel}★ on Google across Birmingham and the West Midlands.
+            Reviews below update automatically from Google. We reply to every review.
           </p>
           <div className="mt-5 flex flex-col sm:flex-row items-center justify-center gap-3">
             {reviewUrl ? (
@@ -98,24 +97,18 @@ export default function ReviewsPage() {
 
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-3 gap-8 text-center">
+          <div className="grid md:grid-cols-2 gap-8 text-center max-w-2xl mx-auto">
             <div>
               <div className="text-5xl font-black mb-2" style={{ color: colors.primary }}>
                 {GOOGLE_REVIEWS_SUMMARY.starsDisplay}
               </div>
-              <div className="text-gray-600 font-semibold">Average Rating</div>
+              <div className="text-gray-600 font-semibold">Average on Google</div>
             </div>
             <div>
               <div className="text-5xl font-black mb-2" style={{ color: colors.primary }}>
-                {GOOGLE_REVIEWS_SUMMARY.reviewCountLabel}
+                Live
               </div>
-              <div className="text-gray-600 font-semibold">Google Reviews</div>
-            </div>
-            <div>
-              <div className="text-5xl font-black mb-2" style={{ color: colors.primary }}>
-                98%
-              </div>
-              <div className="text-gray-600 font-semibold">Would Recommend</div>
+              <div className="text-gray-600 font-semibold">Updates from Google</div>
             </div>
           </div>
         </div>

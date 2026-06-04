@@ -1,8 +1,10 @@
-﻿import { sellyOakBlogPost } from './sellyOakBlog';
+﻿import { harborneBlogPost } from './harborneBlog';
+import { sellyOakBlogPost } from './sellyOakBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  harborneBlogPost,
   sellyOakBlogPost,
   {
     id: 'fascias-soffits-gutter-cleaning-west-midlands',

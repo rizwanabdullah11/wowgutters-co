@@ -162,15 +162,42 @@ export default function CityGutterCleaningPage({
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-8 text-center">Our Guarantee</h2>
           <ul className="grid sm:grid-cols-2 gap-4">
-            {data.guarantees
-              .filter((g) => !g.startsWith('1-year service guarantee'))
-              .map((g) => (
+            {data.guarantees.map((g) => (
               <li key={g} className="flex gap-3 p-5 rounded-2xl bg-white border border-slate-200 shadow-sm">
                 <CheckCircle2 className="w-6 h-6 shrink-0" style={{ color: colors.primary }} />
                 <span className="text-slate-800 font-semibold">{g}</span>
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      <section className="py-16 px-4 bg-white border-b border-slate-100">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
+            Gutter cleaning prices in {data.city}
+          </h2>
+          <p className="text-slate-600 text-lg leading-relaxed mb-6">
+            Most homes in {data.city} are quoted between <strong>£{priceFrom}</strong> and{' '}
+            <strong>£{priceTo}</strong> depending on size, storeys, and roof complexity. Fixed price confirmed
+            before we arrive — no call-out fee and no hidden charges on the day.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+            <Link
+              href="/gutter-cleaning-prices/"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold text-white"
+              style={{ background: colors.primaryGradient }}
+            >
+              View full price guide
+            </Link>
+            <Link
+              href="/quote/"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold border-2"
+              style={{ borderColor: colors.primary, color: colors.primary }}
+            >
+              Get a free quote
+            </Link>
+          </div>
         </div>
       </section>
 

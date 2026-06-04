@@ -311,7 +311,7 @@ export default function BirminghamGutterCleaningPage() {
           <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             {[
               { label: 'Average rating', value: '4.9' },
-              { label: 'Verified reviews', value: '2,696+' },
+              { label: 'Google rating', value: '4.9★' },
               { label: 'Storeys reach', value: '4' },
               { label: 'Days a week', value: '7' },
             ].map((s) => (
@@ -627,7 +627,7 @@ export default function BirminghamGutterCleaningPage() {
           </p>
           <p className="text-slate-500 text-sm mt-6 max-w-lg mx-auto">
             WOW Gutters — professional gutter cleaning and roofline services across Birmingham, West Midlands and
-            Worcestershire. Trusted by 2,696+ customers. Same-day bookings available.
+            Worcestershire. Trusted on Google. Same-day bookings available.
           </p>
         </div>
       </section>

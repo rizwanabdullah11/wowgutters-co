@@ -51,7 +51,7 @@ const defaultGuarantees = [
   'Reaches up to 4 storeys — Victorian terraces, semis and large detached homes',
   'Before & after photos included as standard on every job',
   'Fully insured — comprehensive public liability cover',
-  '4.9★ rating from 2,696+ verified customer reviews',
+  '4.9★ rating from verified Google reviews',
   '1-year service guarantee on every clean',
 ];
 
@@ -172,6 +172,35 @@ export default function SuburbGutterCleaningPage({ data }: { data: SuburbPageDat
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      <section className="py-16 px-4 bg-white border-b border-slate-100">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
+            Gutter cleaning prices in {data.city}
+          </h2>
+          <p className="text-slate-600 text-lg leading-relaxed mb-6">
+            Most {data.city} homes are quoted from <strong>£50</strong> for a standard terrace up to{' '}
+            <strong>£140+</strong> for larger detached properties. Your fixed price is confirmed before we
+            visit — no call-out fee and no hidden charges on the day.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+            <Link
+              href="/gutter-cleaning-prices/"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold text-white"
+              style={{ background: colors.primaryGradient }}
+            >
+              View full price guide
+            </Link>
+            <Link
+              href="/quote/"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold border-2"
+              style={{ borderColor: colors.primary, color: colors.primary }}
+            >
+              Get a free quote
+            </Link>
+          </div>
         </div>
       </section>
 
