@@ -3,6 +3,8 @@
 import { colors } from '@/constants/colors';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
+import ContentUpdatedNotice from '@/components/seo/ContentUpdatedNotice';
+import { SEASONAL_HOT_WASH_COPY } from '@/lib/contentFreshness';
 
 export default function HotWashPage() {
   return (
@@ -54,6 +56,38 @@ export default function HotWashPage() {
                     <p style={{ color: colors.textLight }}>Temperatures exceeding 90°C efficiently sanitize surfaces, destroying algae, lichen, and moss spores, slowing down regrowth drastically.</p>
                 </div>
             </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-gray-50 border-t border-gray-100">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4" style={{ color: colors.text }}>
+            {SEASONAL_HOT_WASH_COPY.heading}
+          </h2>
+          <ContentUpdatedNotice className="text-center mb-10 max-w-2xl mx-auto" />
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { season: 'Summer', text: SEASONAL_HOT_WASH_COPY.summer },
+              { season: 'Autumn', text: SEASONAL_HOT_WASH_COPY.autumn },
+              { season: 'Winter', text: SEASONAL_HOT_WASH_COPY.winter },
+            ].map((item) => (
+              <div key={item.season} className="p-6 bg-white rounded-lg shadow-sm border border-gray-100">
+                <h3 className="text-lg font-bold mb-3" style={{ color: colors.primary }}>
+                  {item.season}
+                </h3>
+                <p className="text-sm leading-relaxed" style={{ color: colors.textLight }}>
+                  {item.text}
+                </p>
+              </div>
+            ))}
+          </div>
+          <p className="mt-8 text-center" style={{ color: colors.textLight }}>
+            Pair hot wash with gutter vacuuming for a full roofline refresh.{' '}
+            <Link href="/the-gutter-gallery/" className="font-semibold underline" style={{ color: colors.primary }}>
+              View recent case studies
+            </Link>
+            .
+          </p>
         </div>
       </section>
     </main>

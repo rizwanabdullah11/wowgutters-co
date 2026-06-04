@@ -1,8 +1,6 @@
 'use client';
 
 import React, { useState } from 'react';
-import Head from 'next/head';
-
 export default function GutterCleaningCalculator() {
   const [propertyType, setPropertytyType] = useState('');
   const [bedrooms, setBedrooms] = useState('');
@@ -54,14 +52,6 @@ export default function GutterCleaningCalculator() {
 
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-      <Head>
-        <title>Gutter Cleaning Price Calculator | WowGutters West Midlands</title>
-        <meta name="description" content="Calculate your gutter cleaning cost instantly with our free online calculator. Get accurate pricing for your property in Birmingham, Coventry & West Midlands." />
-        <meta name="keywords" content="gutter cleaning calculator, gutter cleaning cost, gutter cleaning price, west midlands gutter prices, birmingham gutter cost" />
-        <meta property="og:title" content="Gutter Cleaning Price Calculator - WowGutters" />
-        <meta property="og:description" content="Calculate your gutter cleaning cost instantly with our free online calculator." />
-        <link rel="canonical" href="https://wowgutters.co.uk/gutter-cleaning-calculator" />
-      </Head>
       <div className="max-w-3xl mx-auto">
         <div className="bg-white rounded-lg shadow-md p-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Gutter Cleaning Calculator</h1>

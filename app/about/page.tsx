@@ -10,6 +10,7 @@ import {
 } from 'lucide-react';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
+import TeamEeatSection from '@/components/about/TeamEeatSection';
 
 export default function About() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -21,60 +22,6 @@ export default function About() {
       });
     }
 
-    // Add schema on mount
-    const schema = {
-      '@context': 'https://schema.org',
-      '@graph': [
-        {
-          '@type': 'Organization',
-          '@id': 'https://wowgutters.co.uk/about/#organization',
-          name: 'WOW Gutters Ltd',
-          description: 'About WOW Gutters Ltd — professional gutter cleaning company serving Birmingham and West Midlands.',
-          url: 'https://wowgutters.co.uk/about/',
-          telephone: '+447421433910',
-          email: 'support@wowgutters.co.uk',
-          logo: {
-            '@type': 'ImageObject',
-            url: 'https://wowgutters.co.uk/assets/wow-gutter-logo2.png',
-          },
-          address: {
-            '@type': 'PostalAddress',
-            addressLocality: 'Birmingham',
-            addressRegion: 'West Midlands',
-            addressCountry: 'GB',
-          },
-          aggregateRating: {
-            '@type': 'AggregateRating',
-            ratingValue: '4.9',
-            reviewCount: '2696',
-          },
-        },
-        {
-          '@type': 'LocalBusiness',
-          '@id': 'https://wowgutters.co.uk/about/#business',
-          name: 'WOW Gutters Ltd',
-          url: 'https://wowgutters.co.uk/about/',
-          telephone: '+447421433910',
-          priceRange: '££',
-          geo: {
-            '@type': 'GeoCoordinates',
-            latitude: 52.4862,
-            longitude: -1.8904,
-          },
-        },
-      ],
-    };
-
-    const script = document.createElement('script');
-    script.type = 'application/ld+json';
-    script.text = JSON.stringify(schema);
-    document.head.appendChild(script);
-
-    return () => {
-      if (document.head.contains(script)) {
-        document.head.removeChild(script);
-      }
-    };
   }, []);
 
   const stats = [
@@ -199,6 +146,8 @@ export default function About() {
           </div>
         </div>
       </section>
+
+      <TeamEeatSection />
 
       {/* Company Story Section */}
       <section className="py-20 px-4 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] text-white relative overflow-hidden">

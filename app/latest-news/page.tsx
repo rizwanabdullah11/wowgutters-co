@@ -105,7 +105,7 @@ export default function LatestNews() {
                     className="inline-flex items-center gap-2 font-semibold group-hover:gap-3 transition-all"
                     style={{ color: colors.primary }}
                   >
-                    Read More <ArrowRight className="w-4 h-4" />
+                    Read: {article.title} <ArrowRight className="w-4 h-4" />
                   </Link>
                 </div>
               </article>

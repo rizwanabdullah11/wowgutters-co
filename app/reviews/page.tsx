@@ -127,6 +127,36 @@ export default function ReviewsPage() {
         </div>
       </section>
 
+      {/* Google Business Profile — reviews & responses */}
+      <section className="px-4 pb-4 bg-white">
+        <div className="max-w-3xl mx-auto rounded-2xl border border-emerald-100 bg-emerald-50/60 p-6 sm:p-8 text-center">
+          <p className="text-sm font-bold uppercase tracking-wide text-emerald-800">Google Business Profile</p>
+          <p className="mt-2 text-slate-700 leading-relaxed">
+            WOW Gutters is rated 4.9★ from 2,696+ verified Google reviews across Birmingham and the West Midlands. We
+            reply to every Google review — thank you for helping local homeowners choose a trusted gutter cleaner.
+          </p>
+          <div className="mt-5 flex flex-col sm:flex-row items-center justify-center gap-3">
+            {(process.env.NEXT_PUBLIC_GBP_REVIEW_URL || process.env.NEXT_PUBLIC_GBP_CID_URL || '').trim() ? (
+              <a
+                href={(process.env.NEXT_PUBLIC_GBP_REVIEW_URL || process.env.NEXT_PUBLIC_GBP_CID_URL || '').trim()}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex rounded-full px-6 py-3 text-sm font-bold text-white shadow-sm"
+                style={{ backgroundColor: colors.primary }}
+              >
+                Leave a Google review
+              </a>
+            ) : null}
+            <Link
+              href="/citations/#gbp-reviews"
+              className="inline-flex rounded-full border border-emerald-600 px-6 py-3 text-sm font-bold text-emerald-800 hover:bg-emerald-100"
+            >
+              How we respond to reviews
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Stats Section */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">

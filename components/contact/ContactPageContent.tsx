@@ -4,6 +4,8 @@ import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
 import ServiceSEOSection from '@/components/sections/ServiceSEOSection';
 import QuoteModal from '@/components/QuoteModal';
+import GoogleMapsEmbed from '@/components/seo/GoogleMapsEmbed';
+import { formatNapAddress } from '@/lib/businessDetails';
 import { Clock3, Mail, MapPin, Phone, ShieldCheck } from 'lucide-react';
 
 export default function ContactPageContent() {
@@ -58,14 +60,17 @@ export default function ContactPageContent() {
                 <Mail className="mt-0.5 h-5 w-5 text-emerald-600" />
                 <div>
                   <p className="font-semibold text-slate-900">Email</p>
-                  <p className="text-slate-700">support@wowgutters.com</p>
+                  <p className="text-slate-700">support@wowgutters.co.uk</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-5 w-5 text-emerald-600" />
                 <div>
                   <p className="font-semibold text-slate-900">Service areas</p>
-                  <p className="text-slate-700">Sheffield, Worksop, Chesterfield and nearby areas.</p>
+                  <p className="text-slate-700">
+                    Birmingham, Coventry, Wolverhampton, Walsall, Dudley, Sandwell, Solihull and 200+ West Midlands
+                    neighbourhoods.
+                  </p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -95,6 +100,17 @@ export default function ContactPageContent() {
               </li>
             </ul>
           </div>
+        </div>
+      </section>
+
+      <section id="service-area-map" className="mx-auto max-w-7xl px-4 pb-14 sm:px-6">
+        <h2 className="text-2xl font-bold text-slate-900 sm:text-3xl">Find us on Google Maps</h2>
+        <p className="mt-3 max-w-3xl text-slate-600">
+          Our Birmingham base at {formatNapAddress()} — mobile teams cover the West Midlands daily. Use the map for
+          directions, or open Google Maps for reviews and our Business Profile.
+        </p>
+        <div className="mt-6 max-w-4xl">
+          <GoogleMapsEmbed title="WOW Gutters — contact page Google Maps embed" />
         </div>
       </section>
 
@@ -130,7 +146,7 @@ export default function ContactPageContent() {
         problems={[
           { icon: '📞', title: 'Phone', desc: 'Call 07421 433910 for immediate assistance' },
           { icon: '💬', title: 'WhatsApp', desc: 'Message us for quick responses and quotes' },
-          { icon: '📧', title: 'Email', desc: 'Send detailed inquiries to support@wowgutters.com' },
+          { icon: '📧', title: 'Email', desc: 'Send detailed inquiries to support@wowgutters.co.uk' },
           { icon: '📝', title: 'Quote Form', desc: 'Fill out our online form for a free quote' },
           { icon: '🕐', title: 'Available 7 Days', desc: 'Monday to Sunday, 7:00 AM - 7:00 PM' },
           { icon: '⚡', title: 'Same-Day Booking', desc: 'Fast response for urgent gutter needs' }

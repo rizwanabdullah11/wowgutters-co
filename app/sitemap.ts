@@ -1,9 +1,8 @@
 import { MetadataRoute } from 'next';
 import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
 import { blogPosts } from '@/constants/blogData';
-import { workPosts } from '@/constants/workData';
-import { talksData } from '@/constants/talksData';
 import { servicesData } from '@/constants/servicesData';
+import { CONTENT_LAST_UPDATED_ISO } from '@/lib/contentFreshness';
 
 export const dynamic = 'force-static';
 export const revalidate = false;
@@ -23,45 +22,68 @@ export const revalidate = false;
  * - 0.8: General info pages
  * - 0.7: Blog posts
  * - 0.6: Help pages
- * - 0.5: Work/talks (portfolio)
- * - 0.3: Legal pages
+ * - 0.75: HTML service-areas index (internal linking hub)
+ *
+ * Excluded from sitemap (still reachable via footer; noindex + robots disallow):
+ * - Legal: privacy, terms, cookies
+ * - Low-value: awards, talks, work portfolio
  */
+
+const FRESH_SERVICE_ROUTES = new Set([
+  '/windows-cleaning',
+  '/services/hot-wash-cleaning',
+  '/hot-wash',
+  '/the-gutter-gallery',
+  '/pricing',
+  '/about',
+  '/contact',
+  '/quote',
+  '/citations',
+]);
+
+function lastModForRoute(route: string, fallback: Date): Date {
+  if (FRESH_SERVICE_ROUTES.has(route)) {
+    return new Date(`${CONTENT_LAST_UPDATED_ISO}T12:00:00.000Z`);
+  }
+  const areaSlug = route.match(/^\/gutter-cleaning-(.+)$/)?.[1];
+  if (areaSlug) {
+    const base = new Date('2026-05-20T09:00:00.000Z');
+    const offset = [...areaSlug].reduce((n, c) => n + c.charCodeAt(0), 0) % 12;
+    base.setUTCDate(base.getUTCDate() + offset);
+    return base;
+  }
+  return fallback;
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://wowgutters.co.uk';
-  const lastUpdated = new Date('2026-05-05');
-  const legalLastUpdated = new Date('2025-11-01');
+  const lastUpdated = new Date(`${CONTENT_LAST_UPDATED_ISO}T08:00:00.000Z`);
   
   const withTrailingSlash = (route: string) => {
     if (!route) return `${baseUrl}/`;
     return route.endsWith('/') ? `${baseUrl}${route}` : `${baseUrl}${route}/`;
   };
 
-  // Static pages (excluding noindex pages: audit, dashboard, navbar, citations, home-screen, testimonials)
+  // Static pages (excluding noindex pages: audit, dashboard, navbar, home-screen, testimonials)
   const staticPages = [
     '',
     '/about',
+    '/citations',
     '/contact',
     '/services',
     '/pricing',
     '/reviews',
-    '/awards',
     '/blog',
     '/help',
+    '/service-areas',
     '/latest-news',
-    '/work',
-    '/talks',
     '/the-gutter-gallery',
     '/gutter-cleaning-calculator',
     '/gutter-cleaning-prices',
     '/neighbourhood-discount',
     '/oap-discount',
-  ];
-
-  const legalPages = [
-    '/privacy-policy',
-    '/terms-and-conditions',
-    '/cookie-policy',
+    '/quote',
+    '/windows-cleaning',
   ];
 
   // Service pages
@@ -85,29 +107,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     if (route === '') priority = 1;
     else if (route === '/contact' || route === '/quote') priority = 0.95;
     else if (route === '/services' || route === '/pricing') priority = 0.9;
-    else if (route === '/awards' || route === '/talks' || route === '/work') {
-      priority = 0.6;
-      changeFreq = 'monthly';
+    else if (route === '/service-areas') {
+      priority = 0.75;
+      changeFreq = 'weekly';
     }
-    
+
     return {
       url: withTrailingSlash(route),
-      lastModified: lastUpdated,
+      lastModified: lastModForRoute(route, lastUpdated),
       changeFrequency: changeFreq,
       priority,
     };
   });
 
-  const legalRoutes = legalPages.map((route) => ({
-    url: withTrailingSlash(route),
-    lastModified: legalLastUpdated,
-    changeFrequency: 'yearly' as const,
-    priority: 0.3,
-  }));
-
   const serviceRoutes = servicePages.map((route) => ({
     url: withTrailingSlash(route),
-    lastModified: lastUpdated,
+    lastModified: lastModForRoute(route, lastUpdated),
     changeFrequency: 'monthly' as const,
     priority: 0.9,
   }));
@@ -126,7 +141,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter((slug) => !EXCLUDED_DOORWAY_PAGES.includes(slug))
     .map((slug) => ({
       url: withTrailingSlash(areaPath(slug)),
-      lastModified: lastUpdated,
+      lastModified: lastModForRoute(areaPath(slug), lastUpdated),
       changeFrequency: 'monthly' as const,
       priority: 0.85,
     }));
@@ -151,46 +166,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
-  const workRoutes = workPosts.map((post) => {
-    let postDate = lastUpdated;
-    if (post.date) {
-      try {
-        const parsed = new Date(post.date);
-        if (!isNaN(parsed.getTime())) {
-          postDate = parsed;
-        }
-      } catch {
-        // Use default lastUpdated
-      }
-    }
-    return {
-      url: withTrailingSlash(`/work/${post.id}`),
-      lastModified: postDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.5,
-    };
-  });
-
-  const talksRoutes = talksData.map((talk) => {
-    let talkDate = lastUpdated;
-    if (talk.date) {
-      try {
-        const parsed = new Date(talk.date);
-        if (!isNaN(parsed.getTime())) {
-          talkDate = parsed;
-        }
-      } catch {
-        // Use default lastUpdated
-      }
-    }
-    return {
-      url: withTrailingSlash(`/talks/${talk.id}`),
-      lastModified: talkDate,
-      changeFrequency: 'monthly' as const,
-      priority: 0.5,
-    };
-  });
-
   // Help pages (excluding inspect and repair which have noindex)
   const helpSlugs = [
     'unblock',
@@ -208,12 +183,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // De-duplicate URLs (some routes can overlap if lists change)
   const all = [
     ...staticRoutes,
-    ...legalRoutes,
     ...serviceRoutes,
     ...areaRoutes,
     ...blogRoutes,
-    ...workRoutes,
-    ...talksRoutes,
     ...helpRoutes,
   ];
 

@@ -1,6 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 import { generateHostingerHtaccess } from "./hostinger-htaccess.mjs";
+import {
+  generateAlternateDomainRedirectHtaccess,
+  generateAlternateDomainsReadme,
+} from "./hostinger-alternate-domains-htaccess.mjs";
 
 const projectRoot = process.cwd();
 const outDir = path.join(projectRoot, "out");
@@ -132,6 +136,14 @@ const htaccessPath = path.join(outDir, ".htaccess");
 try {
   fs.writeFileSync(htaccessPath, generateHostingerHtaccess(), "utf8");
   console.log("postexport: wrote Hostinger .htaccess");
+
+  const altDir = path.join(outDir, "hostinger-alternate-domains");
+  fs.mkdirSync(altDir, { recursive: true });
+  const altHtaccess = generateAlternateDomainRedirectHtaccess();
+  fs.writeFileSync(path.join(altDir, "wow-gutters.com.htaccess"), altHtaccess, "utf8");
+  fs.writeFileSync(path.join(altDir, "wowgutters.uk.htaccess"), altHtaccess, "utf8");
+  fs.writeFileSync(path.join(altDir, "DEPLOY-INSTRUCTIONS.txt"), generateAlternateDomainsReadme(), "utf8");
+  console.log("postexport: wrote alternate-domain redirect files in out/hostinger-alternate-domains/");
 } catch (err) {
   console.warn("postexport: failed to write .htaccess", err);
 }

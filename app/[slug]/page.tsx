@@ -3,7 +3,12 @@ import { notFound } from 'next/navigation';
 import LocalBusinessSchema from '@/components/LocalBusinessSchema';
 import BirminghamGutterCleaningPage from '@/components/areas/BirminghamGutterCleaningPage';
 import { buildCitySchemaFaqs } from '@/lib/cityFaqs';
-import { renderCityLanding, renderGeneratedAreaLanding } from '@/components/areas/CityGutterCleaningRoutes';
+import {
+  renderCityLanding,
+  renderGeneratedAreaLanding,
+  renderSuburbLanding,
+} from '@/components/areas/CityGutterCleaningRoutes';
+import { getSuburbPageForSlug } from '@/lib/suburbPageData';
 import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
 import { buildAreaLandingFromSlug } from '@/lib/buildAreaLandingFromCity';
 import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
@@ -68,6 +73,20 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     });
   }
 
+  const suburb = getSuburbPageForSlug(areaSlug);
+  if (suburb) {
+    const intro = suburb.whyParagraphs[0] ?? '';
+    const description =
+      intro.length > 155 ? `${intro.slice(0, 152).trim()}…` : intro ||
+      `Professional gutter cleaning in ${suburb.city}. Fixed quotes, before & after photos. Call 07421 433910.`;
+    return buildMetadata({
+      absoluteTitle: `${suburb.heroTitleLine1} | WOW Gutters`,
+      description,
+      canonicalPath: areaPath(areaSlug),
+      ogImagePath: `/og/${areaSlug}.jpg`,
+    });
+  }
+
   const generated = buildAreaLandingFromSlug(areaSlug);
   if (generated) {
     return buildMetadata({
@@ -122,6 +141,9 @@ export default async function SingleSegmentAreaPage(props: PageProps) {
 
   const maybeCity = renderCityLanding(areaSlug);
   if (maybeCity) return maybeCity;
+
+  const maybeSuburb = renderSuburbLanding(areaSlug);
+  if (maybeSuburb) return maybeSuburb;
 
   const generated = renderGeneratedAreaLanding(areaSlug);
   if (generated) return generated;

@@ -1,6 +1,5 @@
 'use client';
 
-import Head from 'next/head';
 import { colors } from '@/constants/colors';
 import GalleryGrid from '@/components/gallery/GalleryGrid';
 import { Camera, CheckCircle, Phone } from 'lucide-react';
@@ -18,14 +17,6 @@ export default function GutterGallery() {
 
   return (
     <main className="bg-white">
-      <Head>
-        <title>Gutter Gallery - Before & After Photos | WowGutters West Midlands</title>
-        <meta name="description" content="View our gutter cleaning before and after photos. See the quality of our professional gutter services across Birmingham, Coventry & West Midlands." />
-        <meta name="keywords" content="gutter cleaning photos, before after gutters, gutter gallery, west midlands gutter work, professional gutter cleaning results" />
-        <meta property="og:title" content="Gutter Gallery - Before & After Photos" />
-        <meta property="og:description" content="View our professional gutter cleaning before and after photos from across the West Midlands." />
-        <link rel="canonical" href="https://wowgutters.co.uk/the-gutter-gallery" />
-      </Head>
       {/* Hero Section */}
       <section className="relative py-20 px-4" style={{ background: colors.primaryGradient }}>
         <div className="max-w-7xl mx-auto text-center">

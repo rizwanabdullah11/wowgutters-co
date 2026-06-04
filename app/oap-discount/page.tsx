@@ -1,6 +1,5 @@
 'use client';
 
-import Head from 'next/head';
 import { colors } from '@/constants/colors';
 import { Heart, Shield, CheckCircle, Phone, Gift, Users } from 'lucide-react';
 import Link from 'next/link';
@@ -17,14 +16,6 @@ export default function OAPDiscount() {
 
   return (
     <main className="bg-white">
-      <Head>
-        <title>OAP Discount - Senior Citizen Gutter Cleaning Savings | WowGutters</title>
-        <meta name="description" content="Special discounts for senior citizens on professional gutter cleaning services. Affordable, reliable gutter maintenance for OAPs across West Midlands." />
-        <meta name="keywords" content="oap discount, senior citizen discount, pensioner gutter cleaning, elderly discount gutters, west midlands oap services" />
-        <meta property="og:title" content="OAP Discount - Senior Citizen Gutter Cleaning" />
-        <meta property="og:description" content="Special discounts for senior citizens on professional gutter cleaning services." />
-        <link rel="canonical" href="https://wowgutters.co.uk/oap-discount" />
-      </Head>
       {/* Hero Section */}
       <section className="relative py-20 px-4" style={{ background: colors.primaryGradient }}>
         <div className="max-w-7xl mx-auto text-center">

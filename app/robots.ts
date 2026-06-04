@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+import { CRAWL_DISALLOW_PATHS } from '@/lib/lowValuePageSeo'
 
 /**
  * robots.txt — wowgutters.co.uk
@@ -12,7 +13,11 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
       // ── SECTION 1: MAJOR SEARCH ENGINES ──────────────────────────────────
-      { userAgent: 'Googlebot',        allow: '/' },
+      {
+        userAgent: 'Googlebot',
+        allow: '/',
+        disallow: [...CRAWL_DISALLOW_PATHS],
+      },
       { userAgent: 'Googlebot-Image',  allow: '/' },
       { userAgent: 'Googlebot-News',   allow: '/' },
       { userAgent: 'Googlebot-Video',  allow: '/' },

@@ -16,6 +16,7 @@ import AreaReviews from '@/components/areas/AreaReviews';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaFeatures from '@/components/areas/AreaFeatures';
 import NearbyAreas from '@/components/areas/NearbyAreas';
+import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
 
 interface AreaPageProps {
@@ -365,6 +366,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
       <AreaReviews />
       <AreaContactMap />
       <ContactInfoSection />
+      <AreaCrawlFooter currentSlug={areaName.toLowerCase().replace(/\s+/g, '-')} />
 
       <style>{`
         /* Hero Section Scoped Styles */

@@ -79,6 +79,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
     areaLinks: [
       { href: '/gutter-cleaning-birmingham/', label: 'Gutter cleaning Birmingham' },
       { href: '/gutter-cleaning-selly-oak/', label: 'Gutter cleaning Selly Oak' },
+      { href: '/blog/gutter-cleaning-selly-oak-b29-birmingham/', label: 'Selly Oak B29 gutter guide' },
       { href: '/gutter-cleaning-harborne/', label: 'Gutter cleaning Harborne' },
       { href: '/gutter-cleaning-edgbaston/', label: 'Gutter cleaning Edgbaston' },
       { href: '/help/repair/', label: 'Gutter repairs' },
@@ -2831,6 +2832,8 @@ export const suburbPages: Record<string, SuburbPageData> = {
     areaLinks: [
       { href: '/gutter-cleaning-birmingham/', label: 'Gutter cleaning Birmingham' },
       { href: '/gutter-cleaning-selly-oak/', label: 'Gutter cleaning Selly Oak' },
+      { href: '/blog/gutter-cleaning-selly-oak-b29-birmingham/', label: 'Selly Oak B29 gutter guide' },
+      { href: '/blog/gutter-cleaning-bartley-green/', label: 'Bartley Green gutter guide' },
       { href: '/gutter-cleaning-northfield/', label: 'Gutter cleaning Northfield' },
       { href: '/gutter-cleaning-halesowen/', label: 'Gutter cleaning Halesowen' },
       { href: '/help/repair/', label: 'Gutter repairs' },
@@ -3154,6 +3157,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
     areaLinks: [
       { href: '/gutter-cleaning-birmingham/', label: 'Gutter cleaning Birmingham' },
       { href: '/gutter-cleaning-selly-oak/', label: 'Gutter cleaning Selly Oak' },
+      { href: '/blog/gutter-cleaning-selly-oak-b29-birmingham/', label: 'Selly Oak B29 gutter guide' },
       { href: '/gutter-cleaning-northfield/', label: 'Gutter cleaning Northfield' },
       { href: '/gutter-cleaning-kings-heath/', label: 'Gutter cleaning Kings Heath' },
       { href: '/help/repair/', label: 'Gutter repairs' },
@@ -4964,3 +4968,9 @@ export const suburbPages: Record<string, SuburbPageData> = {
     blogLocality: 'Worlds End',
   },
 };
+
+export function getSuburbPageForSlug(slug: string): SuburbPageData | undefined {
+  return suburbPages[slug];
+}
+
+export const SUBURB_PAGE_SLUGS = Object.keys(suburbPages);

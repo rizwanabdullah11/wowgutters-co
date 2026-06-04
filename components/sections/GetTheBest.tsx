@@ -88,7 +88,7 @@ export default function GetTheBest() {
                     className="inline-flex items-center gap-2 px-7 py-3 rounded-full font-semibold text-sm border-2 transition-opacity hover:opacity-80"
                     style={{ borderColor: colors.primary, color: colors.primary, backgroundColor: 'transparent' }}
                   >
-                    Learn More
+                    Contact WOW Gutters
                   </button>
                 </Link>
               </div>

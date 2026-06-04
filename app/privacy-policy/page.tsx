@@ -16,6 +16,7 @@ export default function PrivacyPolicy() {
         title="Privacy Policy | WOW Gutters"
         description="Read the WOW Gutters privacy policy. Learn how we protect your data when you request gutter cleaning, repairs, or inspections in Birmingham & West Midlands."
         canonicalUrl="https://wowgutters.co.uk/privacy-policy"
+        noindex
       />
       <SchemaMarkup
         id="schema-privacy-webpage"

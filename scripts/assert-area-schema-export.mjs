@@ -27,6 +27,9 @@ for (const rel of mustHaveSchema) {
   if (!inHead && !html.includes('id="schema-static"')) {
     missing.push(`${rel} (no schema-static in export)`);
   }
+  if (!html.includes('dateModified')) {
+    missing.push(`${rel} (no dateModified in schema)`);
+  }
 }
 
 if (missing.length) {

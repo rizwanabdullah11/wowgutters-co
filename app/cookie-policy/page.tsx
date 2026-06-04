@@ -11,6 +11,7 @@ export default function CookiePolicy() {
         title="Cookie Policy | WOW Gutters"
         description="Read the WOW Gutters cookie policy and learn how cookies are used to improve your experience on wowgutters.co.uk."
         canonicalUrl="https://wowgutters.co.uk/cookie-policy"
+        noindex
       />
       <SchemaMarkup
         id="schema-cookie-webpage"

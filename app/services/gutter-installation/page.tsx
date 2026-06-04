@@ -4,23 +4,14 @@ import ServiceDetailPage from '@/components/services/ServiceDetailPage';
 import { getServiceById } from '@/constants/servicesData';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
 
-export const metadata: Metadata = {
-  title: 'Gutter Installation — New uPVC Systems Fitted | WOW Gutters',
+import { buildMetadata } from '@/lib/seo';
+
+export const metadata: Metadata = buildMetadata({
+  absoluteTitle: 'Gutter Installation — New uPVC Systems Fitted | WOW Gutters',
   description:
     'Professional uPVC gutter installation in Birmingham and the West Midlands. Free survey, fixed quote, 10-year warranty on parts. Call WOW Gutters: 07421 433910.',
-  alternates: {
-    canonical: 'https://wowgutters.co.uk/services/gutter-installation/',
-  },
-  openGraph: {
-    title: 'Gutter Installation — New uPVC Systems Fitted | WOW Gutters',
-    description:
-      'Professional uPVC gutter installation in Birmingham and the West Midlands. Free survey, fixed quote, 10-year warranty on parts.',
-    url: 'https://wowgutters.co.uk/services/gutter-installation/',
-    siteName: 'WOW Gutters',
-    type: 'website',
-    locale: 'en_GB',
-  },
-};
+  canonicalPath: '/services/gutter-installation/',
+});
 
 const serviceSchema = {
   '@context': 'https://schema.org',

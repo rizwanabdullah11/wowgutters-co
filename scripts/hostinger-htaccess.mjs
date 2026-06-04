@@ -25,17 +25,55 @@ DirectoryIndex index.html
 
 AddDefaultCharset UTF-8
 
-# Security headers
+# Long-cache static assets (PageSpeed 03.07 — Hostinger/Apache)
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/javascript "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+
 <IfModule mod_headers.c>
+  # Audit 05.04 — HSTS (static export: headers live here, not next.config)
+  Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+
   Header set X-Content-Type-Options "nosniff"
   Header set X-Frame-Options "SAMEORIGIN"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
-  <FilesMatch "_next/static/.*\\.(js|css|woff2|jpg|png|webp)$">
-    Header set Cache-Control "public, max-age=31536000, immutable"
-  </FilesMatch>
-  <FilesMatch "^(wow-quote-form-init|wow-quote-config|wow-cta-dialog-init)\\.js$">
+
+  # Quote modal scripts — must stay fresh (before generic .js rules)
+  <FilesMatch "^(wow-quote-form-init|wow-quote-config|wow-cta-dialog-init|wow-analytics)\\.js$">
     Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
   </FilesMatch>
+
+  # Next.js hashed bundles: FilesMatch only sees the filename, NOT /_next/static/ path
+  <LocationMatch "^/_next/static/">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </LocationMatch>
+
+  # Fallback for CSS/JS/font assets (excludes wow-* scripts matched above)
+  <FilesMatch "\\.(css|js|mjs|woff2|woff|ttf|otf)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  # Images & media in site root / public folder
+  <FilesMatch "\\.(avif|webp|jpg|jpeg|png|gif|svg|ico|mp4|webm|eot)$">
+    Header set Cache-Control "public, max-age=2592000, stale-while-revalidate=86400"
+  </FilesMatch>
+
+  # HTML — short cache so content updates propagate
+  <FilesMatch "\\.html$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+# Gzip fallback when Brotli is unavailable
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript application/javascript application/json image/svg+xml
 </IfModule>
 
 # Block PHP execution in static site root
@@ -48,10 +86,15 @@ AddDefaultCharset UTF-8
 
   # Canonical host: HTTPS + bare domain (no www)
   RewriteCond %{HTTPS} off [OR]
-  RewriteCond %{HTTP_HOST} ^www\\.(.+)$ [NC]
+  RewriteCond %{HTTP_HOST} ^www\\.wowgutters\\.co\\.uk$ [NC]
   RewriteRule ^(.*)$ https://wowgutters.co.uk/$1 [R=301,L]
 
-  # Other hostnames → wowgutters.co.uk
+  # Audit 05.05 — legacy / alternate domains → wowgutters.co.uk (when pointed at this Hostinger site)
+  RewriteCond %{HTTP_HOST} ^(www\\.)?wow-gutters\\.com$ [NC,OR]
+  RewriteCond %{HTTP_HOST} ^(www\\.)?wowgutters\\.uk$ [NC]
+  RewriteRule ^(.*)$ https://wowgutters.co.uk/$1 [R=301,L]
+
+  # Any other hostname on this vhost → canonical
   RewriteCond %{HTTP_HOST} !^wowgutters\\.co\\.uk$ [NC]
   RewriteRule ^(.*)$ https://wowgutters.co.uk/$1 [R=301,L]
 

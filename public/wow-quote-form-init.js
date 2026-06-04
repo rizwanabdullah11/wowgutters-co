@@ -420,10 +420,16 @@
             try {
               if (typeof window.wowTrack === 'function') {
                 var steps = getStepFieldValues();
+                var formName = 'quote_modal';
+                try {
+                  var p = window.location && window.location.pathname ? window.location.pathname : '';
+                  if (p.indexOf('/contact') !== -1) formName = 'contact_page';
+                } catch (_) {}
                 window.wowTrack('quote_submitted', {
                   property_type: steps.property_type,
                   storeys: steps.storeys,
                   work_needed: steps.work_needed,
+                  form_name: formName,
                 });
               }
             } catch (_) {}

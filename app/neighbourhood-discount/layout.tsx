@@ -1,15 +1,12 @@
 import type { Metadata } from 'next';
+import { buildMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'Neighbourhood Discount | Group Gutter Cleaning',
-  description: 'Group gutter cleaning discount. Get neighbours together & save. Birmingham & West Midlands. Everyone pays less. Call 07421 433910.',
-  alternates: {
-    canonical: 'https://wowgutters.co.uk/neighbourhood-discount/',
-  },
-  openGraph: {
-    url: 'https://wowgutters.co.uk/neighbourhood-discount/',
-  },
-};
+export const metadata: Metadata = buildMetadata({
+  absoluteTitle: 'Neighbourhood Discount — Group Gutter Cleaning Savings | WOW Gutters',
+  description:
+    'Save on gutter cleaning when neighbours book together. Group discounts across Birmingham and the West Midlands. WOW Gutters.',
+  canonicalPath: '/neighbourhood-discount/',
+});
 
 export default function NeighbourhoodDiscountLayout({
   children,

@@ -1,15 +1,12 @@
 import type { Metadata } from 'next';
+import { buildMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'OAP Gutter Cleaning Discount',
-  description: 'Exclusive discount for over-65s in Birmingham & West Midlands. WOW Gutters — trusted, insured, affordable. Call 07421 433910.',
-  alternates: {
-    canonical: 'https://wowgutters.co.uk/oap-discount/',
-  },
-  openGraph: {
-    url: 'https://wowgutters.co.uk/oap-discount/',
-  },
-};
+export const metadata: Metadata = buildMetadata({
+  absoluteTitle: 'OAP Discount — Senior Citizen Gutter Cleaning | WOW Gutters',
+  description:
+    'Special discounts for over-65s on professional gutter cleaning in Birmingham and the West Midlands. Trusted, insured service from WOW Gutters.',
+  canonicalPath: '/oap-discount/',
+});
 
 export default function OAPDiscountLayout({
   children,

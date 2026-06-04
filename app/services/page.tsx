@@ -1,7 +1,17 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { servicesData } from '@/constants/servicesData';
 import { colors } from '@/constants/colors';
+import TopPageAreaLinks from '@/components/seo/TopPageAreaLinks';
+import { buildMetadata } from '@/lib/seo';
+
+export const metadata: Metadata = buildMetadata({
+  title: 'Gutter Cleaning Services',
+  description:
+    'Professional gutter cleaning, repairs, UPVC cleaning, roof cleaning, drain clearing and inspections across Birmingham and the West Midlands. View all WOW Gutters services.',
+  canonicalPath: '/services/',
+});
 
 export default function Services() {
   return (
@@ -16,6 +26,7 @@ export default function Services() {
 
       {/* Services Grid */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+        <h2 className="sr-only">Gutter and exterior cleaning services we offer</h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {servicesData.map((service) => (
             <Link 
@@ -29,13 +40,15 @@ export default function Services() {
                 {service.heroDescription}
               </p>
               <div className="flex items-center gap-2" style={{ color: colors.primary }}>
-                <span className="font-semibold">Learn More</span>
-                <span>→</span>
+                <span className="font-semibold">{service.name} — view service</span>
+                <span aria-hidden="true">→</span>
               </div>
             </Link>
           ))}
         </div>
       </div>
+
+      <TopPageAreaLinks />
 
       {/* CTA Section */}
       <div className="bg-[#8DC63F] py-12 sm:py-16">

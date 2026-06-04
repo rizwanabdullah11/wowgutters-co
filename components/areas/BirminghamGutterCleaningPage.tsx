@@ -15,6 +15,8 @@ import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
+import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
+import { SERVICE_AREAS_HUB } from '@/lib/crawlHub';
 
 /** Hero USP tags with icons. */
 const HERO_USP_PILLS: { label: string; Icon: LucideIcon }[] = [
@@ -447,12 +449,15 @@ export default function BirminghamGutterCleaningPage() {
             Areas we cover across Birmingham
           </h2>
           <p className="text-center text-slate-600 max-w-2xl mx-auto mb-10">
-            We cover the entire city and all surrounding neighbourhoods. Click your area to find out more. Not listed? Call us
-            on{' '}
+            We cover the entire city and all surrounding neighbourhoods.{' '}
+            <Link href={SERVICE_AREAS_HUB} className="font-semibold underline" style={{ color: colors.primary }}>
+              Browse the full service areas map
+            </Link>
+            , or pick a town below. Not listed? Call us on{' '}
             <a href="tel:07421433910" className="font-semibold underline" style={{ color: colors.primary }}>
               07421 433910
-            </a>{' '}
-            — we cover many more postcodes across the West Midlands and Worcestershire.
+            </a>
+            .
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {COVERAGE_LINKS.map(({ label, slug }) => (
@@ -706,6 +711,7 @@ export default function BirminghamGutterCleaningPage() {
       <AreaRecentWork />
       <AreaContactMap variant="birmingham" />
       <ContactInfoSection />
+      <AreaCrawlFooter currentSlug="birmingham" />
 
       <style>{`
         .area-page-wrapper { overflow-x: hidden; }

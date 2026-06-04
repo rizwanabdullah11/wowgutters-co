@@ -155,6 +155,10 @@ export default function GutterServicesRange() {
                       <img
                         src={service.image}
                         alt={service.title}
+                        width={640}
+                        height={224}
+                        loading="lazy"
+                        decoding="async"
                         className="w-full h-56 object-cover"
                       />
                       <div 
@@ -179,7 +183,7 @@ export default function GutterServicesRange() {
                         className="inline-flex items-center gap-1 text-sm font-bold hover:gap-2 transition-all mt-auto"
                         style={{ color: ACCENTS[i] }}
                       >
-                        Learn More <ArrowRight className="w-3.5 h-3.5" />
+                        {service.title} — view service <ArrowRight className="w-3.5 h-3.5" />
                       </Link>
                     </div>
                   </div>
@@ -217,9 +221,9 @@ export default function GutterServicesRange() {
                     </div>
 
                     <div className="flex flex-col flex-1">
-                      <h4 className="text-sm font-bold mb-3" style={{ color: ACCENTS[i] }}>
+                      <p className="text-sm font-bold mb-3" style={{ color: ACCENTS[i] }}>
                         SERVICE INCLUDES:
-                      </h4>
+                      </p>
                       <ul className="space-y-2.5 mb-auto">
                         {service.backContent.features.map((feature, idx) => (
                           <li key={idx} className="flex items-start gap-2 text-sm" style={{ color: colors.textLight }}>
@@ -235,7 +239,7 @@ export default function GutterServicesRange() {
                       className="w-full py-3 rounded-lg text-white font-bold text-center hover:opacity-90 transition-opacity inline-flex items-center justify-center gap-2 mt-6"
                       style={{ backgroundColor: ACCENTS[i] }}
                     >
-                      Learn More <ArrowRight className="w-4 h-4" />
+                      {service.title} — view service <ArrowRight className="w-4 h-4" />
                     </Link>
                   </div>
                 </div>

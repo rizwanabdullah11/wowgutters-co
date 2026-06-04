@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Head from 'next/head';
 import { colors } from '@/constants/colors';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import QuoteModal from '@/components/QuoteModal';
@@ -68,15 +67,6 @@ export default function QuotePage() {
 
   return (
     <main className="min-h-screen bg-white overflow-x-hidden">
-      <Head>
-        <title>Free Gutter Quote - WowGutters West Midlands | Same-Day Booking</title>
-        <meta name="description" content="Get your free gutter cleaning quote today! Same-day booking available. Professional gutter services across Birmingham, Coventry, Wolverhampton & West Midlands. No hidden fees." />
-        <meta name="keywords" content="free gutter quote, gutter cleaning quote, west midlands gutters, birmingham gutter cleaning, same day booking, free inspection" />
-        <meta property="og:title" content="Free Gutter Quote - WowGutters West Midlands" />
-        <meta property="og:description" content="Get your free gutter cleaning quote today with same-day booking available across the West Midlands." />
-        <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://wowgutters.co.uk/quote" />
-      </Head>
       <style jsx>{`
         @keyframes fadeInUp {
           0% {

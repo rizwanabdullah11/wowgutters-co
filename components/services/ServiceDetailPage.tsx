@@ -15,7 +15,6 @@ import AreaReviews from '@/components/areas/AreaReviews';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaFeatures from '@/components/areas/AreaFeatures';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
-import { areaPath } from '@/lib/areaSlugs';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
 
 interface ServiceDetailPageProps {

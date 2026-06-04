@@ -59,7 +59,7 @@ export default function HotWashBanner() {
                     {svc.icon}
                   </div>
                   <div className="hot-wash-card-text">
-                    <h4 className="hot-wash-card-title">{svc.label}</h4>
+                    <h3 className="hot-wash-card-title">{svc.label}</h3>
                     <span className="hot-wash-card-desc">{svc.desc}</span>
                   </div>
                   <div className="hot-wash-card-arrow">

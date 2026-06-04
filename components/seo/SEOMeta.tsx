@@ -19,7 +19,7 @@ export default function SEOMeta({
     <Head>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow'} />
+      <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow'} />
       <link rel="canonical" href={canonicalUrl} />
 
       <meta property="og:type" content={ogType} />

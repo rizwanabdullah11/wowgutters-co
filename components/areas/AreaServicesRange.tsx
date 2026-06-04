@@ -124,7 +124,7 @@ export default function AreaServicesRange() {
                   className="inline-flex items-center gap-1 text-sm font-bold"
                   style={{ color: ACCENTS[i] }}
                 >
-                  Learn More <ArrowRight className="w-3.5 h-3.5" />
+                  {service.title} — view service <ArrowRight className="w-3.5 h-3.5" />
                 </span>
               </div>
             </Link>

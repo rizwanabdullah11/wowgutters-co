@@ -10,6 +10,7 @@ import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
+import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
 
 export interface SuburbPageData {
   city: string
@@ -391,6 +392,7 @@ export default function SuburbGutterCleaningPage({ data }: { data: SuburbPageDat
       <AreaRecentWork />
       <AreaContactMap />
       <ContactInfoSection />
+      <AreaCrawlFooter />
 
       <style>{`
         .area-page-wrapper { overflow-x: hidden; }
