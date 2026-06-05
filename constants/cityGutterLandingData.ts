@@ -2365,6 +2365,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     geo: { latitude: 52.4383, longitude: -1.8267 },
     internalLinks: [
+      { label: 'Acocks Green B27 local guide', href: '/blog/gutter-cleaning-acocks-green-b27-birmingham/' },
       { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
       { label: 'Gutter cleaning Hall Green', href: '/gutter-cleaning-hall-green/' },
       { label: 'Gutter cleaning Moseley', href: '/gutter-cleaning-moseley/' },

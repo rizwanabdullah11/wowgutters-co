@@ -30,7 +30,7 @@ export const harborneBlogPost: BlogPost = {
   authorRole: 'Professional Gutter Cleaning Specialists',
   category: 'Maintenance',
   lastUpdated: '2026-06-04',
-  featured: true,
+  featured: false,
   quickAnswer:
     'WOW Gutters Ltd provides professional gutter cleaning across Harborne and all B17 postcodes. Ground-based SkyVac vacuum system — no ladders — with downpipe clearance, flow testing, and before and after photos on every job. Rated 4.9★ on Google. Free quote: call 07421 433910.',
   breadcrumbName: 'Gutter Cleaning Harborne B17',
@@ -237,6 +237,7 @@ Open 7 days — Monday to Friday 7am–8pm · Saturday 9am–6pm · Sunday 10am�
 <ul>
   <li><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning in Birmingham</a></li>
   <li><a href="/blog/gutter-cleaning-selly-oak-b29-birmingham/" style="${link}">Gutter cleaning Selly Oak B29</a></li>
+  <li><a href="/blog/gutter-cleaning-acocks-green-b27-birmingham/" style="${link}">Gutter cleaning Acocks Green B27</a></li>
   <li><a href="/services/upvc-cleaning/" style="${link}">Fascia and soffit cleaning</a></li>
   <li><a href="/help/clean/" style="${link}">Roof cleaning Birmingham</a></li>
   <li><a href="/blog/signs-of-blocked-gutters-birmingham" style="${link}">Signs your gutters need cleaning</a></li>

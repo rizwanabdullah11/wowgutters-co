@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import logo from '@/assets/wow-gutter-logo.png';
+import logo from '@/assets/wow-gutters-logo1.png';
 import { Phone, Mail, Facebook, Youtube, Twitter, Instagram, MessageCircle, Search, FileText, HelpCircle, MapPin, Map, Navigation } from 'lucide-react';
 import { getFormattedBusinessHours } from '@/lib/businessHours';
 

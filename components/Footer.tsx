@@ -170,11 +170,11 @@ export default function Footer() {
                 <div className="footer-col">
                   <h3 className="footer-col-title">Service Areas</h3>
                   <ul className="footer-list">
-                    <li>
+                    {/* <li>
                       <Link href={SERVICE_AREAS_HUB} className="footer-link footer-link-highlight">
                         <ArrowRight className="w-3 h-3 link-arrow" /> All service areas (full map)
                       </Link>
-                    </li>
+                    </li> */}
                     {areas.map((item, i) => (
                       <li key={i}>
                         <Link href={areaPath(item.toLowerCase().replace(/\s+/g, '-'))} className="footer-link">
