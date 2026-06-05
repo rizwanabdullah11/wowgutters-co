@@ -172,7 +172,7 @@ export default function Footer() {
                   <ul className="footer-list">
                     <li>
                       <Link href={SERVICE_AREAS_HUB} className="footer-link footer-link-highlight">
-                        <ArrowRight className="w-3 h-3 link-arrow" /> All service areas (full map)
+                        {/* <ArrowRight className="w-3 h-3 link-arrow" /> All service areas (full map) */}
                       </Link>
                     </li>
                     {areas.map((item, i) => (
