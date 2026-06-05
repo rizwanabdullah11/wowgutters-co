@@ -14,13 +14,13 @@ export default function Navbar() {
   }
 
   const services = [
-    { name: 'Gutter Cleaning', icon: Droplets, href: '/help/unblock' },
-    { name: 'Gutter Repairs', icon: Wrench, href: '/help/repair' },
+    { name: 'Gutter Cleaning', icon: Droplets, href: '/services/gutter-cleaning' },
+    { name: 'Gutter Repairs', icon: Wrench, href: '/services/gutter-repairs' },
     { name: 'Exterior UPVC Cleaning', icon: Circle, href: '/services/upvc-cleaning' },
-    { name: 'Roof Cleaning', icon: Home, href: '/help/clean' },
-    { name: 'Roof & Gutter Inspection', icon: Search, href: '/help/inspect' },
+    { name: 'Roof Cleaning', icon: Home, href: '/services/roof-cleaning' },
+    { name: 'Roof & Gutter Inspection', icon: Search, href: '/services/inspection' },
     { name: 'Conservatory Gutter Replacement', icon: Hammer, href: '/services/conservatory' },
-    { name: 'Commercial Gutter Cleaning', icon: Building, href: '/commercial' },
+    { name: 'Commercial Gutter Cleaning', icon: Building, href: '/services/commercial' },
   ];
 
   return (

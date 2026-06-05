@@ -10,20 +10,20 @@ export type SeoKeywordLink = {
  * Labels should match the visible text the user wants.
  */
 export const SEO_KEYWORD_LINKS: SeoKeywordLink[] = [
-  { label: 'gutter cleaning', href: '/help/unblock' },
-  { label: 'gutter repairs', href: '/help/repair' },
-  { label: 'gutter maintenance', href: '/help/unblock' },
-  { label: 'roof cleaning', href: '/help/clean' },
+  { label: 'gutter cleaning', href: '/services/gutter-cleaning' },
+  { label: 'gutter repairs', href: '/services/gutter-repairs' },
+  { label: 'gutter maintenance', href: '/services/gutter-cleaning' },
+  { label: 'roof cleaning', href: '/services/roof-cleaning' },
   { label: 'UPVC cleaning', href: '/services/upvc-cleaning' },
-  { label: 'commercial gutter cleaning', href: '/commercial' },
+  { label: 'commercial gutter cleaning', href: '/services/commercial' },
   { label: 'hot wash cleaning', href: '/services/hot-wash-cleaning' },
-  { label: 'gutter inspection', href: '/help/inspect' },
+  { label: 'gutter inspection', href: '/services/inspection' },
   { label: 'Birmingham gutter cleaning', href: areaPath('birmingham') },
   { label: 'West Midlands gutter cleaning', href: areaPath('west-midlands') },
   { label: 'All service areas', href: '/service-areas/' },
   { label: 'WOW Gutters', href: '/' },
   { label: 'Fascia cleaning', href: '/services/upvc-cleaning' },
   { label: 'Soffits cleaning', href: '/services/upvc-cleaning' },
-  { label: 'Gutter clearing', href: '/help/unblock' },
+  { label: 'Gutter clearing', href: '/services/gutter-cleaning' },
 ];
 

@@ -86,18 +86,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/windows-cleaning',
   ];
 
-  // Service pages
+  // Service pages (canonical /services/* URLs)
   const servicePages = [
     '/help/unblock',
     '/help/repair',
     '/help/clean',
-    '/services/upvc-cleaning',
+    '/help/inspect',
     '/services/hot-wash-cleaning',
     '/services/drain-cleaning',
-    '/services/water-butt',
-    '/commercial',
-    '/services/conservatory',
-    '/help/inspect',
+    ...servicesData.map((s) => `/services/${s.id}`),
   ];
 
   const staticRoutes = staticPages.map((route) => {
@@ -166,27 +163,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
-  // Help pages (excluding inspect and repair which have noindex)
-  const helpSlugs = [
-    'unblock',
-    'clean',
-    ...servicesData.map((s) => s.id),
-  ];
-
-  const helpRoutes = helpSlugs.map((slug) => ({
-    url: withTrailingSlash(`/help/${slug}`),
-    lastModified: lastUpdated,
-    changeFrequency: 'monthly' as const,
-    priority: 0.6,
-  }));
-
   // De-duplicate URLs (some routes can overlap if lists change)
   const all = [
     ...staticRoutes,
     ...serviceRoutes,
     ...areaRoutes,
     ...blogRoutes,
-    ...helpRoutes,
   ];
 
   const seen = new Set<string>();

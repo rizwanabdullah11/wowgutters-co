@@ -510,7 +510,7 @@ export default function BirminghamGutterCleaningPage() {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Link
-              href="/help/clean"
+              href="/services/roof-cleaning"
               className="group p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-orange-500 mb-2">Popular</p>
@@ -535,7 +535,7 @@ export default function BirminghamGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/help/repair"
+              href="/services/gutter-repairs"
               className="group p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">Gutter repairs</h3>
@@ -545,7 +545,7 @@ export default function BirminghamGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/help/inspect"
+              href="/services/inspection"
               className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">Free gutter inspection</h3>

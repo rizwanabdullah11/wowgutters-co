@@ -1333,7 +1333,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong><a href="/blog/winter-gutter-cleaning-maintenance" style="color: #000000; text-decoration: none;">Winter Gutter Maintenance — What Every Birmingham Homeowner Should Do Now</a></strong></li>
         <li><strong><a href="/blog/importance-of-residential-gutter-cleaning" style="color: #000000; text-decoration: none;">The Importance of Residential Gutter Cleaning</a></strong></li>
         <li><strong><a href="/gutter-cleaning-prices" style="color: #000000; text-decoration: none;">Gutter Cleaning Prices in Birmingham — Full 2026 Guide</a></strong></li>
-        <li><strong><a href="/help/gutter-cleaning" style="color: #000000; text-decoration: none;">Professional Gutter Cleaning Service — How It Works</a></strong></li>
+        <li><strong><a href="/services/gutter-cleaning" style="color: #000000; text-decoration: none;">Professional Gutter Cleaning Service — How It Works</a></strong></li>
       </ul>
     `
   },

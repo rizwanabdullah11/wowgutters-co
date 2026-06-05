@@ -1,23 +1,15 @@
-import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import ServiceDetailPage from '@/components/services/ServiceDetailPage';
-import { getServiceById } from '@/constants/servicesData';
+import UnblockPage from '@/components/services/UnblockPage';
 
 export const metadata: Metadata = {
-  title: 'Professional Gutter Cleaning | From £45 | WOW Gutters',
+  title: 'Gutter Cleaning & Unblocking Service | WOW Gutter Cleaning',
   description:
-    'Professional gutter cleaning using high-reach vacuum systems. Clears moss, leaves & blockages safely from the ground. Same-day available. Free quote today.',
+    'Professional gutter cleaning and unblocking to clear debris and keep rainwater flowing away from your home.',
   alternates: {
     canonical: 'https://wowgutters.co.uk/help/unblock/',
   },
 };
 
-export default function GutterCleaningPage() {
-  const service = getServiceById('gutter-cleaning');
-
-  if (!service) {
-    notFound();
-  }
-
-  return <ServiceDetailPage service={service} />;
+export default function HelpUnblockPage() {
+  return <UnblockPage />;
 }

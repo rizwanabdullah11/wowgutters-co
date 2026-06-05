@@ -1,23 +1,19 @@
-import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import ServiceDetailPage from '@/components/services/ServiceDetailPage';
-import { getServiceById } from '@/constants/servicesData';
+import InspectionPage from '@/components/services/InspectionPage';
 
 export const metadata: Metadata = {
-  title: 'Free Roof & Gutter Inspection | WOW Gutters',
+  title: 'Free Gutter Inspection Help | WOW Gutter Cleaning',
   description:
-    'Free gutter & roof inspection — expert camera assessment, honest advice, no obligation. Fast bookings available. Call 07421 433910.',
+    'Get help booking a free gutter inspection and quote. Find out what we check and how the process works.',
   alternates: {
     canonical: 'https://wowgutters.co.uk/help/inspect/',
   },
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
-export default function InspectionPage() {
-  const service = getServiceById('inspection');
-
-  if (!service) {
-    notFound();
-  }
-
-  return <ServiceDetailPage service={service} />;
+export default function HelpInspectPage() {
+  return <InspectionPage />;
 }
