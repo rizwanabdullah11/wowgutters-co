@@ -11,23 +11,23 @@
       "permanent": true
     },
     {
-      "source": "/about-us",
-      "destination": "/about/",
+      "source": "/about",
+      "destination": "/about-us/",
       "permanent": true
     },
     {
-      "source": "/about-us/",
-      "destination": "/about/",
+      "source": "/about/",
+      "destination": "/about-us/",
       "permanent": true
     },
     {
       "source": "/gutters-cleaning",
-      "destination": "/help/unblock/",
+      "destination": "/services/gutter-cleaning/",
       "permanent": true
     },
     {
       "source": "/gutters-cleaning/",
-      "destination": "/help/unblock/",
+      "destination": "/services/gutter-cleaning/",
       "permanent": true
     },
     {
@@ -51,53 +51,103 @@
       "permanent": true
     },
     {
-      "source": "/services/commercial",
-      "destination": "/commercial/",
+      "source": "/services/free-gutter-inspection",
+      "destination": "/services/inspection/",
       "permanent": true
     },
     {
-      "source": "/services/commercial/",
-      "destination": "/commercial/",
+      "source": "/services/free-gutter-inspection/",
+      "destination": "/services/inspection/",
       "permanent": true
     },
     {
-      "source": "/services/inspection",
-      "destination": "/help/inspect/",
+      "source": "/help/gutter-cleaning",
+      "destination": "/services/gutter-cleaning/",
       "permanent": true
     },
     {
-      "source": "/services/inspection/",
-      "destination": "/help/inspect/",
+      "source": "/help/gutter-cleaning/",
+      "destination": "/services/gutter-cleaning/",
       "permanent": true
     },
     {
-      "source": "/services/gutter-cleaning",
-      "destination": "/help/unblock/",
+      "source": "/help/gutter-repairs",
+      "destination": "/services/gutter-repairs/",
       "permanent": true
     },
     {
-      "source": "/services/gutter-cleaning/",
-      "destination": "/help/unblock/",
+      "source": "/help/gutter-repairs/",
+      "destination": "/services/gutter-repairs/",
       "permanent": true
     },
     {
-      "source": "/services/gutter-repairs",
-      "destination": "/help/repair/",
+      "source": "/help/upvc-cleaning",
+      "destination": "/services/upvc-cleaning/",
       "permanent": true
     },
     {
-      "source": "/services/gutter-repairs/",
-      "destination": "/help/repair/",
+      "source": "/help/upvc-cleaning/",
+      "destination": "/services/upvc-cleaning/",
       "permanent": true
     },
     {
-      "source": "/services/roof-cleaning",
-      "destination": "/help/clean/",
+      "source": "/help/roof-cleaning",
+      "destination": "/services/roof-cleaning/",
       "permanent": true
     },
     {
-      "source": "/services/roof-cleaning/",
-      "destination": "/help/clean/",
+      "source": "/help/roof-cleaning/",
+      "destination": "/services/roof-cleaning/",
+      "permanent": true
+    },
+    {
+      "source": "/help/inspection",
+      "destination": "/services/inspection/",
+      "permanent": true
+    },
+    {
+      "source": "/help/inspection/",
+      "destination": "/services/inspection/",
+      "permanent": true
+    },
+    {
+      "source": "/help/conservatory",
+      "destination": "/services/conservatory/",
+      "permanent": true
+    },
+    {
+      "source": "/help/conservatory/",
+      "destination": "/services/conservatory/",
+      "permanent": true
+    },
+    {
+      "source": "/help/water-butt",
+      "destination": "/services/water-butt/",
+      "permanent": true
+    },
+    {
+      "source": "/help/water-butt/",
+      "destination": "/services/water-butt/",
+      "permanent": true
+    },
+    {
+      "source": "/help/commercial",
+      "destination": "/services/commercial/",
+      "permanent": true
+    },
+    {
+      "source": "/help/commercial/",
+      "destination": "/services/commercial/",
+      "permanent": true
+    },
+    {
+      "source": "/help/gutter-installation",
+      "destination": "/services/gutter-installation/",
+      "permanent": true
+    },
+    {
+      "source": "/help/gutter-installation/",
+      "destination": "/services/gutter-installation/",
       "permanent": true
     }
   ]

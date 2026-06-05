@@ -103,7 +103,7 @@ AddDefaultCharset UTF-8
 
   # Legacy paths (from vercel.json)
   RewriteRule ^contact-us/?$ /contact/ [R=301,L]
-  RewriteRule ^about-us/?$ /about/ [R=301,L]
+  RewriteRule ^about/?$ /about-us/ [R=301,L]
   RewriteRule ^gutters-cleaning/?$ /services/gutter-cleaning/ [R=301,L]
   RewriteRule ^hot-wash/?$ /services/hot-wash-cleaning/ [R=301,L]
   RewriteRule ^conservatory-cleaning/?$ /services/conservatory/ [R=301,L]
@@ -121,7 +121,7 @@ AddDefaultCharset UTF-8
   RewriteRule ^services/free-gutter-inspection/?$ /services/inspection/ [R=301,L]
 
   # Legacy PascalCase URLs
-  RewriteRule ^About/?$ /about/ [R=301,L]
+  RewriteRule ^About/?$ /about-us/ [R=301,L]
   RewriteRule ^Contact/?$ /contact/ [R=301,L]
   RewriteRule ^Quote/?$ /quote/ [R=301,L]
   RewriteRule ^Services/?$ /services/ [R=301,L]

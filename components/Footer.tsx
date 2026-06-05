@@ -44,7 +44,7 @@ export default function Footer() {
   ];
 
   const general = [
-    { name: 'About Us', path: '/about' },
+    { name: 'About Us', path: '/about-us' },
     { name: 'Reviews', path: '/reviews' },
     { name: 'Gutter Blog', path: '/blog' },
     { name: 'Terms & Conditions', path: '/terms-and-conditions' },

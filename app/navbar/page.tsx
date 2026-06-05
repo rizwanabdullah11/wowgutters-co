@@ -175,7 +175,7 @@ export default function Navbar() {
               <Link href="/" className="text-gray-700 hover:text-[#19C58B] transition-colors font-semibold text-[17px] tracking-tight">
                 Home
               </Link>
-              <Link href="/about" className="text-gray-700 hover:text-[#19C58B] transition-colors font-semibold text-[17px] tracking-tight">
+              <Link href="/about-us" className="text-gray-700 hover:text-[#19C58B] transition-colors font-semibold text-[17px] tracking-tight">
                 About
               </Link>
               <Link href="/blog" className="text-gray-700 hover:text-[#19C58B] transition-colors font-semibold text-[17px] tracking-tight">

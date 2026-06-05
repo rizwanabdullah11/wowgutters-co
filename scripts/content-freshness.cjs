@@ -15,7 +15,7 @@ const FRESH_SERVICE_PATHS = new Set([
   '/the-gutter-gallery/',
   '/pricing/',
   '/services/',
-  '/about/',
+  '/about-us/',
   '/contact/',
   '/quote/',
   '/citations/',

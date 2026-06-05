@@ -58,7 +58,7 @@ export function buildContactPageSchemaGraph() {
 }
 
 export function buildAboutPageSchemaGraph() {
-  const url = `${SITE}/about/`;
+  const url = `${SITE}/about-us/`;
   return {
     '@context': 'https://schema.org',
     '@graph': [

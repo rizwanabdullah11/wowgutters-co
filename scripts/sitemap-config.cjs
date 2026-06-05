@@ -16,7 +16,7 @@ const EXCLUDED_AREA_SLUGS = new Set([
 
 const EXCLUDED_PATHS = new Set([
   '/contact-us/',
-  '/about-us/',
+  '/about/',
   '/gutters-cleaning/',
   '/help/inspect/',
   '/help/unblock/',

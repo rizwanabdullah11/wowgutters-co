@@ -35,7 +35,7 @@ const FRESH_SERVICE_ROUTES = new Set([
   '/hot-wash',
   '/the-gutter-gallery',
   '/pricing',
-  '/about',
+  '/about-us',
   '/contact',
   '/quote',
   '/citations',
@@ -67,7 +67,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Static pages (excluding noindex pages: audit, dashboard, navbar, home-screen, testimonials)
   const staticPages = [
     '',
-    '/about',
+    '/about-us',
     '/citations',
     '/contact',
     '/services',
