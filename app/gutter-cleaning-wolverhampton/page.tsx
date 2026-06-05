@@ -26,7 +26,7 @@ const landingData: CityGutterLandingData = {
     'Before & after photos included as standard on every job',
     '1-year service guarantee — we return free if your gutters block within 12 months',
     'Fully insured — comprehensive public liability cover on every visit',
-    '4.9★ rating from 2,696+ verified customer reviews',
+    '4.9★ rating from verified Google reviews',
   ],
   propertyTypesTitle: 'Gutter Cleaning for All Property Types in Wolverhampton',
   propertyTypes: [
@@ -96,11 +96,6 @@ const landingData: CityGutterLandingData = {
   priceTo: 130,
   nearbyAreas: ['Penn', 'Tettenhall', 'Wednesfield', 'Bilston', 'Willenhall', 'Fordhouses'],
   postcodes: ['WV1', 'WV2', 'WV3', 'WV4', 'WV5', 'WV6', 'WV7', 'WV8', 'WV9', 'WV10', 'WV11', 'WV12', 'WV13', 'WV14'],
-  reviews: [
-    { initial: 'K', name: 'Karen M., Penn', text: 'Fantastic service in Penn. No ladders on our walls, gutters and downpipes cleared properly, and photos sent straight away. Will use again.' },
-    { initial: 'D', name: 'Dave R., Tettenhall', text: 'Very professional Wolverhampton team. Fixed price, turned up on time and sorted a long-standing overflow. Highly recommend.' },
-    { initial: 'S', name: 'Sandra L., Wednesfield', text: 'Excellent clean from ground level. Clear before/after photos and friendly staff. Best gutter company we have used locally.' },
-  ],
 }
 
 export const metadata: Metadata = {

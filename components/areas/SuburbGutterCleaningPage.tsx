@@ -11,6 +11,7 @@ import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
+import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
 
 export interface SuburbPageData {
   city: string
@@ -27,7 +28,6 @@ export interface SuburbPageData {
   areaLinks: { href: string; label: string }[]
   whatsappPrefix: string
   faqs: { question: string; answer: string }[]
-  reviews: { initial: string; name: string; place: string; text: string }[]
   postcodesTitle: string
   postcodeStreetTitle: string
   postcodeStreets: string[]
@@ -51,7 +51,7 @@ const defaultGuarantees = [
   'Reaches up to 4 storeys — Victorian terraces, semis and large detached homes',
   'Before & after photos included as standard on every job',
   'Fully insured — comprehensive public liability cover',
-  '4.9★ rating from 2,696+ verified customer reviews',
+  '4.9★ rating from verified Google reviews',
   '1-year service guarantee on every clean',
 ];
 
@@ -175,6 +175,35 @@ export default function SuburbGutterCleaningPage({ data }: { data: SuburbPageDat
         </div>
       </section>
 
+      <section className="py-16 px-4 bg-white border-b border-slate-100">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
+            Gutter cleaning prices in {data.city}
+          </h2>
+          <p className="text-slate-600 text-lg leading-relaxed mb-6">
+            Most {data.city} homes are quoted from <strong>£50</strong> for a standard terrace up to{' '}
+            <strong>£140+</strong> for larger detached properties. Your fixed price is confirmed before we
+            visit — no call-out fee and no hidden charges on the day.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+            <Link
+              href="/gutter-cleaning-prices/"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold text-white"
+              style={{ background: colors.primaryGradient }}
+            >
+              View full price guide
+            </Link>
+            <Link
+              href="/quote/"
+              className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold border-2"
+              style={{ borderColor: colors.primary, color: colors.primary }}
+            >
+              Get a free quote
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* SECTION 3 — PROPERTY TYPES */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
@@ -293,53 +322,7 @@ export default function SuburbGutterCleaningPage({ data }: { data: SuburbPageDat
         </div>
       </section>
 
-      {/* SECTION 7 — REVIEWS */}
-      <section className="py-16 md:py-20 px-4 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
-            <div>
-              <p className="text-xs font-bold tracking-[0.2em] uppercase mb-2" style={{ color: colors.primary }}>
-                Customer reviews
-              </p>
-              <h2 className="text-3xl md:text-4xl font-black text-slate-900">
-                What {data.city} Customers Say About WOW Gutters
-              </h2>
-              <p className="text-slate-600 mt-2">
-                4.9 based on 2,696+ verified Google reviews. Fully insured · Before &amp; after photos · 7 days a week.
-              </p>
-            </div>
-            <Link
-              href="/reviews"
-              className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold text-white shrink-0"
-              style={{ background: colors.primaryGradient }}
-            >
-              See all reviews
-            </Link>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            {data.reviews.map((r) => (
-              <blockquote
-                key={r.name}
-                className="p-8 rounded-2xl border border-slate-200 bg-slate-50/80 shadow-sm"
-              >
-                <div className="flex items-center gap-3 mb-4">
-                  <div
-                    className="w-11 h-11 rounded-full flex items-center justify-center text-white font-black"
-                    style={{ backgroundColor: colors.primary }}
-                  >
-                    {r.initial}
-                  </div>
-                  <div>
-                    <cite className="not-italic font-bold text-slate-900 block">{r.name}</cite>
-                    <span className="text-sm text-slate-500">{r.place}</span>
-                  </div>
-                </div>
-                <p className="text-slate-700 text-sm leading-relaxed">&ldquo;{r.text}&rdquo;</p>
-              </blockquote>
-            ))}
-          </div>
-        </div>
-      </section>
+      <GoogleReviewsBlock city={data.city} className="bg-white" />
 
       {/* SECTION 8 — POSTCODES */}
       <section className="py-16 px-4 bg-slate-50 border-y border-slate-200">

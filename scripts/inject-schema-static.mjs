@@ -86,6 +86,46 @@ function areaSlugFromPath(relPath) {
   return null;
 }
 
+function dedupeSchemaStaticScripts(html) {
+  const re = /<script id="schema-static"[^>]*>[\s\S]*?<\/script>\s*/gi;
+  const blocks = [...html.matchAll(re)].map((m) => m[0]);
+  if (blocks.length <= 1) return html;
+
+  const preferred =
+    blocks.find((b) => /"@type"\s*:\s*"Review"/.test(b)) ||
+    blocks.find((b) => b.includes('aggregateRating')) ||
+    blocks[0];
+
+  let kept = false;
+  return html.replace(re, (block) => {
+    if (kept) return '';
+    if (block !== preferred) return '';
+    kept = true;
+    return block;
+  });
+}
+
+/** Remove duplicate page-level @graph JSON-LD (keeps layout VideoObject + single schema-static). */
+function dedupeDuplicateGraphLdJson(html) {
+  let cleaned = dedupeSchemaStaticScripts(html);
+  const hasStatic = cleaned.includes('id="schema-static"');
+  if (!hasStatic) return cleaned;
+
+  return cleaned.replace(
+    /<script(?![^>]*\bid=["']schema-static["'])[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi,
+    (block) => {
+      if (!block.includes('@graph') && !block.includes('HomeAndConstructionBusiness')) {
+        return block;
+      }
+      return '';
+    },
+  );
+}
+
+function schemaNeedsReviews(html) {
+  return html.includes('id="schema-static"') && !/"@type"\s*:\s*"Review"/.test(html);
+}
+
 function writeSchemaToHead(htmlPath, jsonStr, replace = false) {
   let html = fs.readFileSync(htmlPath, 'utf8');
   if (html.includes('id="schema-static"')) {
@@ -112,6 +152,7 @@ function writeSchemaToHead(htmlPath, jsonStr, replace = false) {
     html = `${scriptTag}\n${html}`;
   }
 
+  html = dedupeDuplicateGraphLdJson(html);
   fs.writeFileSync(htmlPath, html, 'utf8');
   return true;
 }
@@ -146,18 +187,31 @@ for (const file of listHtmlFiles(outDir)) {
   const slug = areaSlugFromPath(rel);
   if (!slug) continue;
 
-  const html = fs.readFileSync(file, 'utf8');
+  let html = fs.readFileSync(file, 'utf8');
+  const dedupedEarly = dedupeDuplicateGraphLdJson(html);
+  if (dedupedEarly !== html) {
+    fs.writeFileSync(file, dedupedEarly, 'utf8');
+    html = dedupedEarly;
+    injected++;
+  }
   const hadStatic = html.includes('id="schema-static"');
   const needsDateModified = !html.includes('dateModified');
+  const needsReviews = schemaNeedsReviews(html);
 
   let jsonStr = null;
   let usedFallback = false;
 
-  if (needsDateModified && slug) {
+  if ((needsDateModified || needsReviews) && slug) {
     jsonStr = JSON.stringify(schemaForAreaSlug(slug, citiesMap));
     usedFallback = true;
-  } else if (hadStatic) {
-    skipped++;
+  } else if (hadStatic && !needsReviews) {
+    const cleaned = dedupeDuplicateGraphLdJson(html);
+    if (cleaned !== html) {
+      fs.writeFileSync(file, cleaned, 'utf8');
+      injected++;
+    } else {
+      skipped++;
+    }
     continue;
   } else {
     jsonStr = resolveJsonLd(file, html, slug);
@@ -169,7 +223,7 @@ for (const file of listHtmlFiles(outDir)) {
       !extractJsonLdFromRsc(html) && !extractJsonLdFromInlineScripts(html);
   }
 
-  if (writeSchemaToHead(file, jsonStr, needsDateModified)) {
+  if (writeSchemaToHead(file, jsonStr, needsDateModified || needsReviews)) {
     injected++;
     if (usedFallback) fallback++;
   }

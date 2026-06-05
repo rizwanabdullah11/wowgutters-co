@@ -14,7 +14,7 @@ export const sellyOakBlogPost: BlogPost = {
   authorRole: 'Professional Gutter Cleaning Specialists',
   category: 'Maintenance',
   lastUpdated: '2026-06-02',
-  featured: true,
+  featured: false,
   quickAnswer:
     'WOW Gutters Ltd provides professional gutter cleaning across Selly Oak and all B29 postcodes. Ground-based SkyVac vacuum system — no ladders — with downpipe clearance, flow testing, and before and after photos on every job. Rated 4.9★ by 2,696+ customers. Free quote: call 07421 433910.',
   breadcrumbName: 'Gutter Cleaning Selly Oak B29',
@@ -318,7 +318,7 @@ export const sellyOakBlogPost: BlogPost = {
   <li><strong><a href="/help/clean" style="color: #19C58B; text-decoration: none;">Roof cleaning and moss removal</a></strong></li>
   <li><strong><a href="/services/upvc-cleaning/" style="color: #19C58B; text-decoration: none;">Fascia and soffit cleaning</a></strong></li>
   <li><strong><a href="/help/unblock" style="color: #19C58B; text-decoration: none;">Downpipe unblocking</a></strong></li>
-  <li><strong><a href="/gutter-cleaning-harborne/" style="color: #19C58B; text-decoration: none;">Gutter cleaning Harborne</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-harborne-b17-birmingham/" style="color: #19C58B; text-decoration: none;">Gutter cleaning Harborne B17</a></strong></li>
   <li><strong><a href="/gutter-cleaning-bournville/" style="color: #19C58B; text-decoration: none;">Gutter cleaning Bournville</a></strong></li>
   <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; text-decoration: none;">Signs your gutters need cleaning</a></strong></li>
   <li><strong><a href="/blog/gutter-cleaning-bartley-green" style="color: #19C58B; text-decoration: none;">Gutter cleaning Bartley Green B32</a></strong></li>

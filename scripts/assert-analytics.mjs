@@ -19,11 +19,14 @@ const analyticsJs = fs.existsSync(path.join(process.cwd(), 'public', 'wow-analyt
 if (!index) {
   errors.push('missing out/index.html');
 } else {
-  if (!/googletagmanager\.com\/gtag\/js/.test(index)) {
-    errors.push('index.html: missing gtag.js loader');
+  if (!/<script[^>]*src="[^"]*googletagmanager\.com\/gtag\/js/.test(index)) {
+    errors.push('index.html: missing gtag.js <script src=...> (next/script does not emit in static export)');
   }
-  if (!/gtag\('config'/.test(index)) {
-    errors.push('index.html: missing gtag config');
+  if (!/<script[^>]*id="ga4"[^>]*>[\s\S]*?gtag\('config'/.test(index)) {
+    errors.push('index.html: missing ga4 inline gtag config script');
+  }
+  if (!/data-cookieconsent="statistics"/.test(index)) {
+    errors.push('index.html: GA4 scripts should use data-cookieconsent="statistics" for Cookiebot');
   }
   if (!/__WOW_ANALYTICS__/.test(index)) {
     errors.push('index.html: missing __WOW_ANALYTICS__ bootstrap');

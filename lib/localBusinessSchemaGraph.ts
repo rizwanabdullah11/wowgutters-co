@@ -4,6 +4,7 @@
 
 import { SCHEMA_DATE_MODIFIED, SCHEMA_DATE_PUBLISHED } from '@/lib/schemaDates';
 import { buildAreaWebPageNode } from '@/lib/pageSchemaGraphs';
+import { buildReviewSchemaFields } from '@/lib/reviewSchema';
 
 export type SchemaFaq = { question: string; answer: string };
 
@@ -70,13 +71,15 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
       : buildDefaultFaqs(input.city, input.priceFrom, input.priceTo, postcodes, input.nearbyAreas);
 
   const { city, url, priceFrom, priceTo, nearbyAreas, geo } = input;
+  const businessId = `${url}#business`;
+  const { aggregateRating, review } = buildReviewSchemaFields(businessId);
 
   return {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'HomeAndConstructionBusiness',
-        '@id': `${url}#business`,
+        '@id': businessId,
         name: `WOW Gutters Ltd — ${city}`,
         description: `Professional gutter cleaning in ${city}. Ground-level vacuum, before & after photos, 1-year guarantee, fully insured. Call 07421 433910.`,
         url,
@@ -120,13 +123,8 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
             closes: '18:00',
           },
         ],
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '2696',
-          bestRating: '5',
-          worstRating: '1',
-        },
+        aggregateRating,
+        review,
         contactPoint: {
           '@type': 'ContactPoint',
           telephone: '+447421433910',

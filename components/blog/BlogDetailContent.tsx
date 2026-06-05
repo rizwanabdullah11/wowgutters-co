@@ -94,7 +94,9 @@ function BlogContent({ html }: { html: string }) {
     if (match.index > lastIndex) {
       parts.push({ type: 'html', content: html.slice(lastIndex, match.index) });
     }
-    const questionMatch = match[0].match(/<summary[\s\S]*?<span>([^<]+)<\/span>/i);
+    const questionMatch =
+      match[0].match(/<summary[^>]*>[\s\S]*?<span>([^<]+)<\/span>/i) ??
+      match[0].match(/<summary[^>]*>([^<]+)<\/summary>/i);
     const answerMatch = match[0].match(/<div[^>]*>([\s\S]*?)<\/div>\s*<\/details>/i);
     if (questionMatch && answerMatch) {
       parts.push({

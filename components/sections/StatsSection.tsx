@@ -1,11 +1,12 @@
 import { colors } from '@/constants/colors';
+import { GOOGLE_REVIEWS_SUMMARY } from '@/lib/googleReviews';
 
 export default function StatsSection() {
   const stats = [
     { value: '2+', label: 'Years of Experience', accent: '#3B82F6' },
-    { value: '450+', label: 'Customer Reviews', accent: '#19C58B' },
-    { value: '450+', label: 'Happy Clients', accent: '#F97316' },
-    { value: '12mo', label: 'Repair Guarantee', accent: '#8B5CF6' },
+    { value: 'From £50', label: 'Gutter Cleaning', accent: '#19C58B' },
+    { value: '1 Year', label: 'Service Guarantee', accent: '#8B5CF6' },
+    { value: GOOGLE_REVIEWS_SUMMARY.starsDisplay, label: 'Google Rating', accent: '#F97316' },
   ];
 
   return (

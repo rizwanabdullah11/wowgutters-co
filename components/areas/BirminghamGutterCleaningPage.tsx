@@ -16,6 +16,7 @@ import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
+import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
 import { SERVICE_AREAS_HUB } from '@/lib/crawlHub';
 
 /** Hero USP tags with icons. */
@@ -147,27 +148,6 @@ const COVERAGE_LINKS: { label: string; slug: string }[] = [
   { label: 'Malvern', slug: 'malvern' },
   { label: 'Evesham', slug: 'evesham' },
 ];
-
-const PDF_REVIEWS = [
-  {
-    initial: 'M',
-    name: 'Mark M.',
-    place: 'Birmingham',
-    text: "Harley came out to sort my gutters today. Great service, friendly and professional. Pictures showed how blocked the gutters were — couldn't believe it! Would 100% recommend.",
-  },
-  {
-    initial: 'N',
-    name: 'Neil G.',
-    place: 'Birmingham',
-    text: 'Excellent, friendly and professional service from Ian. We had persistent leaks at various points around the house — all sorted now. Highly recommend WOW Gutters.',
-  },
-  {
-    initial: 'G',
-    name: 'Graham B.',
-    place: 'Sutton Coldfield',
-    text: 'Highly recommended. Friendly service, arrived on time and did a thorough job. The before and after photos were brilliant — you could really see the difference.',
-  },
-] as const;
 
 const WHATSAPP_QS = [
   'How much is gutter cleaning for my property?',
@@ -331,7 +311,7 @@ export default function BirminghamGutterCleaningPage() {
           <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             {[
               { label: 'Average rating', value: '4.9' },
-              { label: 'Verified reviews', value: '2,696+' },
+              { label: 'Google rating', value: '4.9★' },
               { label: 'Storeys reach', value: '4' },
               { label: 'Days a week', value: '7' },
             ].map((s) => (
@@ -604,62 +584,7 @@ export default function BirminghamGutterCleaningPage() {
 
       <BirminghamFAQ />
 
-      <section className="py-16 md:py-20 px-4 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10">
-            <div>
-              <p className="text-xs font-bold tracking-[0.2em] uppercase mb-2" style={{ color: colors.primary }}>
-                Customer reviews
-              </p>
-              <h2 className="text-3xl md:text-4xl font-black text-slate-900">
-                What Birmingham customers say about WOW Gutters
-              </h2>
-              <p className="text-slate-600 mt-2">
-                4.9 based on 2,696+ verified Google reviews. Fully insured · 1-year guarantee · Before &amp; after photos · 7
-                days a week.
-              </p>
-            </div>
-            <Link
-              href="/reviews"
-              className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold text-white shrink-0"
-              style={{ background: colors.primaryGradient }}
-            >
-              See all reviews
-            </Link>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            {PDF_REVIEWS.map((r) => (
-              <blockquote
-                key={r.name}
-                className="p-8 rounded-2xl border border-slate-200 bg-slate-50/80 shadow-sm"
-              >
-                <div className="flex items-center gap-3 mb-4">
-                  <div
-                    className="w-11 h-11 rounded-full flex items-center justify-center text-white font-black"
-                    style={{ backgroundColor: colors.primary }}
-                  >
-                    {r.initial}
-                  </div>
-                  <div>
-                    <cite className="not-italic font-bold text-slate-900 block">{r.name}</cite>
-                    <span className="text-sm text-slate-500">{r.place}</span>
-                  </div>
-                  <img
-                    src="/images/google-g.svg"
-                    alt=""
-                    width={20}
-                    height={20}
-                    loading="lazy"
-                    className="w-5 h-5 ml-auto opacity-80"
-                  />
-                </div>
-                <p className="text-slate-700 text-sm leading-relaxed">&ldquo;{r.text}&rdquo;</p>
-                <p className="text-[11px] text-slate-500 mt-3 font-semibold">Verified Google review</p>
-              </blockquote>
-            ))}
-          </div>
-        </div>
-      </section>
+      <GoogleReviewsBlock city="Birmingham" className="bg-white" />
 
       <section
         className="py-16 px-4 border-t border-slate-200"
@@ -702,7 +627,7 @@ export default function BirminghamGutterCleaningPage() {
           </p>
           <p className="text-slate-500 text-sm mt-6 max-w-lg mx-auto">
             WOW Gutters — professional gutter cleaning and roofline services across Birmingham, West Midlands and
-            Worcestershire. Trusted by 2,696+ customers. Same-day bookings available.
+            Worcestershire. Trusted on Google. Same-day bookings available.
           </p>
         </div>
       </section>

@@ -161,7 +161,7 @@ export function buildAreaLandingFromCity(input: AreaInput): CityGutterLandingDat
       'Before & after photos included as standard on every job',
       '1-year service guarantee — we return free if your gutters block within 12 months',
       'Fully insured — comprehensive public liability cover on every visit',
-      '4.9★ rating from 2,696+ verified customer reviews',
+      '4.9★ rating from verified Google reviews',
     ],
     propertyTypesTitle: `Gutter Cleaning for All Property Types in ${name}`,
     propertyTypes: propertyTypesFor(tone, name, nearbyAreas),
@@ -175,26 +175,6 @@ export function buildAreaLandingFromCity(input: AreaInput): CityGutterLandingDat
     postcodes,
     ctaHeading: `Book Your Gutter Clean in ${name} — Free Quote in 60 Seconds`,
     priceTo,
-    reviews: [
-      {
-        initial: 'M',
-        name: `Mark T.`,
-        place: name,
-        text: `Excellent gutter clean in ${name}. Arrived on time, no ladders on the walls, and the before/after photos were really clear. Highly recommend WOW Gutters.`,
-      },
-      {
-        initial: 'L',
-        name: `Lisa P.`,
-        place: name,
-        text: `Friendly team and a fair fixed price in ${pcLabel}. Downpipes flushed through properly and overflow sorted on the first visit.`,
-      },
-      {
-        initial: 'J',
-        name: `James W.`,
-        place: nearbyAreas[0] ?? name,
-        text: 'Very professional service with photo proof on every job and no mess left behind. Will book again.',
-      },
-    ],
   };
 }
 

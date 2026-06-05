@@ -1,7 +1,9 @@
 /**
  * Generate comprehensive JSON-LD schema for area pages
- * Includes: LocalBusiness, Service, FAQPage, and BreadcrumbList
+ * Includes: LocalBusiness, Service, FAQPage, BreadcrumbList, and Review
  */
+
+import { buildReviewSchemaFields } from '@/lib/reviewSchema';
 
 // Standard area FAQs used across all area pages
 const AREA_FAQS = [
@@ -29,13 +31,15 @@ const AREA_FAQS = [
 
 export function getAreaPageJsonLd(areaSlug: string, areaName: string) {
   const pageUrl = `https://wowgutters.co.uk/gutter-cleaning-${areaSlug}/`;
+  const businessId = 'https://wowgutters.co.uk/#business';
+  const { aggregateRating, review } = buildReviewSchemaFields(businessId);
   
   return {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'LocalBusiness',
-        '@id': 'https://wowgutters.co.uk/#business',
+        '@id': businessId,
         name: 'WOW Gutters Ltd',
         description: `Professional gutter cleaning in ${areaName}. Ground-level vacuum, before & after photos, 1-year guarantee, fully insured. Call 07421 433910.`,
         url: 'https://wowgutters.co.uk/',
@@ -77,13 +81,8 @@ export function getAreaPageJsonLd(areaSlug: string, areaName: string) {
             closes: '18:00',
           },
         ],
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '2696',
-          bestRating: '5',
-          worstRating: '1',
-        },
+        aggregateRating,
+        review,
       },
       {
         '@type': 'Service',

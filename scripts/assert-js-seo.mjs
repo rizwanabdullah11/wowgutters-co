@@ -84,9 +84,21 @@ if (!home) {
   if (/SectionPlaceholder/i.test(home)) {
     errors.push('homepage still renders SectionPlaceholder shells instead of content');
   }
-  if (/2,696 verified Google reviews/i.test(home) === false && !/2,696/i.test(home)) {
+  if (!/elfsight-app-/i.test(home) && !/verified Google reviews/i.test(home)) {
     errors.push('homepage missing crawlable review summary text');
   }
+  if (!/"@type"\s*:\s*"Review"/.test(home)) {
+    errors.push('homepage missing Review JSON-LD in export');
+  }
+}
+
+const aston = read('gutter-cleaning-aston/index.html');
+if (aston) {
+  if (!/"@type"\s*:\s*"Review"/.test(aston)) {
+    errors.push('gutter-cleaning-aston missing Review JSON-LD');
+  }
+} else {
+  errors.push('missing gutter-cleaning-aston/index.html');
 }
 
 for (const bad of ['oap-discount', 'neighbourhood-discount', 'the-gutter-gallery', 'windows-cleaning']) {
