@@ -236,32 +236,61 @@ export const servicesData: ServiceDetail[] = [
     }
   },
   {
-    id: 'inspection',
-    name: 'Roof & Gutter Inspection',
+    id: 'gutter-inspection',
+    name: 'Gutter Inspection',
     icon: '🔍',
-    heroImage: 'https://images.unsplash.com/photo-1483664852095-d6cc6870702d?w=1920',
-    heroVideo: '/gutter-final-video.mp4',
-    heroTitle: 'Professional Inspection Services',
-    heroDescription: 'Comprehensive roof and gutter inspection to identify issues before they become expensive problems.',
+    heroImage: '/gutter-inspection.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
+    heroTitle: 'Free Gutter Inspection',
+    heroDescription: 'Comprehensive gutter inspection to identify blockages, leaks and damage before they become expensive problems.',
     sections: [
       {
         title: 'What We Inspect',
-        content: 'Our thorough inspection includes:',
-        image: 'https://images.unsplash.com/photo-1483664852095-d6cc6870702d?w=800',
+        content: 'Our thorough gutter inspection includes:',
+        image: '/gutter-inspection.png',
         imagePosition: 'right',
         bulletPoints: [
           'Gutter condition and alignment',
-          'Downspout functionality',
-          'Roof condition assessment',
+          'Downpipe flow and blockages',
+          'Joints, seals and brackets',
           'Detailed photo report'
         ]
       }
     ],
     ctaSection: {
-      title: 'INSPECTION SERVICES',
-      description: 'Get peace of mind with our professional inspection service.',
+      title: 'FREE GUTTER INSPECTION',
+      description: 'Get peace of mind with our professional gutter inspection service.',
       phone: '07421 433910',
-      buttonText: 'Get A Quote'
+      buttonText: 'Book Free Inspection'
+    }
+  },
+  {
+    id: 'roof-inspection',
+    name: 'Roof Inspection',
+    icon: '🏠',
+    heroImage: '/Roof-Cleaner.webp',
+    heroVideo: '/roof-cleaning-video.mp4',
+    heroTitle: 'Free Roof Inspection',
+    heroDescription: 'Professional roof inspection to identify tile damage, moss, flashing issues and early leak risks.',
+    sections: [
+      {
+        title: 'What We Inspect',
+        content: 'Our thorough roof inspection includes:',
+        image: '/Roof-Cleaner.webp',
+        imagePosition: 'right',
+        bulletPoints: [
+          'Roof tiles and ridge condition',
+          'Flashing and valley seals',
+          'Moss and algae assessment',
+          'Detailed photo report'
+        ]
+      }
+    ],
+    ctaSection: {
+      title: 'FREE ROOF INSPECTION',
+      description: 'Get peace of mind with our professional roof inspection service.',
+      phone: '07421 433910',
+      buttonText: 'Book Free Inspection'
     }
   },
   {

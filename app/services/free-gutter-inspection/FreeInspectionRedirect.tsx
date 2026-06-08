@@ -3,7 +3,7 @@
 import { useEffect } from 'react';
 import Link from 'next/link';
 
-const TARGET = '/services/inspection/';
+const TARGET = '/services/gutter-inspection/';
 
 /** Static export–friendly client redirect to the canonical inspection URL. */
 export default function FreeInspectionRedirect() {

@@ -5,36 +5,21 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { CheckCircle, Shield } from 'lucide-react';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 
-export default function InspectionPage() {
+export default function GutterInspectionPage() {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
-
-  const videos = ['/gutter-cleaning-video.mp4', '/roof-cleaning-video.mp4'];
 
   useEffect(() => {
     videoRef.current?.play().catch(() => {});
   }, []);
 
-  useEffect(() => {
-    const videoSwitchInterval = setInterval(() => {
-      setCurrentVideoIndex((prev) => (prev + 1) % videos.length);
-    }, 10000);
-
-    return () => clearInterval(videoSwitchInterval);
-  }, [videos.length]);
-
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.load();
-      videoRef.current.play().catch(() => {});
-    }
-  }, [currentVideoIndex]);
-
   return (
     <main className="bg-white">
-      <section className="relative overflow-hidden" style={{ height: '70vh', minHeight: '500px' }}>
+      <section
+        className="relative overflow-hidden"
+        style={{ height: '70vh', minHeight: '500px' }}
+      >
         <div className="absolute inset-0 z-0">
           <video
             ref={videoRef}
@@ -43,12 +28,11 @@ export default function InspectionPage() {
             muted
             playsInline
             className="w-full h-full object-cover"
-            key={currentVideoIndex}
             onError={(e) => {
               (e.target as HTMLVideoElement).style.display = 'none';
             }}
           >
-            <source src={videos[currentVideoIndex]} type="video/mp4" />
+            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
           </video>
           <div
             className="absolute inset-0"
@@ -64,16 +48,16 @@ export default function InspectionPage() {
             <div className="text-center">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6">
                 <Shield className="w-4 h-4 text-white" />
-                <span className="text-sm font-semibold text-white">Professional Inspection Service</span>
+                <span className="text-sm font-semibold text-white">Professional Gutter Inspection</span>
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-6 text-white leading-tight">
-                FREE Gutter & Roof<br />
+                FREE Gutter<br />
                 <span style={{ color: colors.primary }}>Inspection</span>
               </h1>
 
               <p className="text-xl sm:text-2xl mb-8 max-w-3xl mx-auto text-white/90 leading-relaxed">
-                Catch problems early with our comprehensive inspection service.
+                Catch gutter problems early with a comprehensive inspection.
                 <span className="font-semibold"> Completely free, no obligation.</span>
               </p>
 
@@ -83,7 +67,7 @@ export default function InspectionPage() {
                     className="px-8 py-6 text-lg font-bold rounded-full shadow-2xl hover:scale-105 transition-transform"
                     style={{ background: colors.primaryGradient, color: 'white' }}
                   >
-                    Book FREE Inspection
+                    Book FREE Gutter Inspection
                   </Button>
                 </Link>
                 <a href="tel:07421433910">
@@ -119,7 +103,7 @@ export default function InspectionPage() {
               What We <span style={{ color: colors.primary }}>Inspect</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Our comprehensive inspection covers every aspect of your gutter system
+              Our comprehensive gutter inspection covers every aspect of your drainage system
             </p>
           </div>
 
@@ -153,14 +137,14 @@ export default function InspectionPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: colors.dark }}>
-                Why Choose Our Inspection Service?
+                Why Choose Our Gutter Inspection?
               </h2>
 
               <div className="space-y-6">
                 {[
                   {
                     title: '100% FREE Service',
-                    description: 'No hidden costs or obligations - completely free inspection and quote.',
+                    description: 'No hidden costs or obligations — completely free inspection and quote.',
                   },
                   {
                     title: 'Qualified Technicians',
@@ -175,8 +159,8 @@ export default function InspectionPage() {
                     description: 'Honest assessment with no pressure to purchase additional services.',
                   },
                   {
-                    title: 'Same Day Book',
-                    description: 'Often available for same-day book in most areas.',
+                    title: 'Same Day Booking',
+                    description: 'Often available for same-day booking in most areas.',
                   },
                 ].map((benefit, index) => (
                   <div key={index} className="flex items-start gap-4">
@@ -203,7 +187,7 @@ export default function InspectionPage() {
               </h3>
               <div className="space-y-4">
                 {[
-                  'Book your free inspection online or by phone',
+                  'Book your free gutter inspection online or by phone',
                   'We arrange a convenient time to visit',
                   'Thorough inspection of your gutter system',
                   'Detailed report with photos and findings',
@@ -229,11 +213,11 @@ export default function InspectionPage() {
       <WhatsAppContactSection
         title="Need a quick answer?"
         subtitle="Message us on WhatsApp"
-        description="Get instant answers about our free inspection service. Our team is ready to help with scheduling, questions about the inspection process, and any concerns you may have."
+        description="Get instant answers about our free gutter inspection service. Our team is ready to help with scheduling, questions about the inspection process, and any concerns you may have."
         questions={[
-          'How long does a free inspection take?',
+          'How long does a free gutter inspection take?',
           'What areas do you cover for inspections?',
-          'Can I book an inspection for today?',
+          'Can I book a gutter inspection for today?',
           'What will the inspection report include?',
         ]}
         backgroundImage="/gutter-inspection.jfif"
@@ -294,62 +278,7 @@ export default function InspectionPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative order-2 md:order-1">
-              <div className="rounded-2xl overflow-hidden shadow-2xl">
-                <img
-                  src="/Roof-Cleaner.webp"
-                  alt="Professional Roof Cleaning Service"
-                  className="w-full h-auto object-cover"
-                />
-              </div>
-            </div>
-
-            <div className="order-1 md:order-2">
-              <h2 className="text-4xl md:text-5xl font-black mb-6" style={{ color: colors.text }}>
-                Expert <span style={{ color: colors.primary }}>Roof Cleaning</span>
-              </h2>
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Professional roof cleaning is essential for maintaining your property&apos;s appearance and structural
-                integrity. Moss, algae, and debris accumulation can cause significant damage to roof tiles and shingles,
-                leading to leaks and expensive repairs if left untreated.
-              </p>
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Our roof cleaning service uses safe, effective methods to remove moss, algae, lichen, and debris without
-                damaging your roof. We work carefully to restore your roof&apos;s appearance while extending its lifespan
-                and protecting your property investment across the West Midlands.
-              </p>
-              <div className="space-y-4 mb-8">
-                {[
-                  'Safe moss and algae removal',
-                  'Debris clearance from roof surface',
-                  'Gentle cleaning methods used',
-                  'Extends roof lifespan significantly',
-                  'Improves property appearance',
-                  'Prevents water damage and leaks',
-                ].map((item, index) => (
-                  <div key={index} className="flex items-center gap-3">
-                    <CheckCircle className="w-6 h-6 flex-shrink-0" style={{ color: colors.primary }} />
-                    <span className="text-gray-700 font-medium">{item}</span>
-                  </div>
-                ))}
-              </div>
-              <Link href="/quote">
-                <Button
-                  className="px-8 py-4 text-lg font-bold rounded-full hover:scale-105 transition-transform"
-                  style={{ background: colors.primaryGradient, color: 'white' }}
-                >
-                  Book Roof Cleaning
-                </Button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-20 px-4 bg-white">
+      <section className="py-20 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">
@@ -368,11 +297,10 @@ export default function InspectionPage() {
                 and foundation, potentially costing thousands in repairs.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Our professional gutter inspection service identifies problems before they escalate. We use
-                advanced inspection techniques to assess the condition of your entire gutter system, including
-                downpipes, joints, and fascia boards.
+                Our professional gutter inspection service identifies problems before they escalate. We assess the
+                condition of your entire gutter system, including downpipes, joints, and fascia boards.
               </p>
-              <div className="bg-gradient-to-br from-gray-50 to-white rounded-xl p-6 border border-gray-200">
+              <div className="bg-white rounded-xl p-6 border border-gray-200">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">What Our Inspection Includes:</h3>
                 <ul className="space-y-3">
                   {[
@@ -405,7 +333,7 @@ export default function InspectionPage() {
                 ].map((problem, index) => (
                   <div
                     key={index}
-                    className="flex items-start gap-4 p-4 rounded-lg bg-gray-50 hover:bg-gray-100 transition-colors"
+                    className="flex items-start gap-4 p-4 rounded-lg bg-white hover:bg-gray-100 transition-colors"
                   >
                     <span className="text-3xl">{problem.icon}</span>
                     <div>
@@ -418,10 +346,10 @@ export default function InspectionPage() {
             </div>
           </div>
 
-          <div className="text-center bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl p-8 md:p-12">
+          <div className="text-center bg-white rounded-2xl p-8 md:p-12 border border-gray-200">
             <h3 className="text-3xl font-black text-gray-900 mb-4">Don&apos;t Wait for Visible Damage</h3>
             <p className="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
-              Our free inspection service helps you stay ahead of potential problems, saving you money and
+              Our free gutter inspection helps you stay ahead of potential problems, saving you money and
               protecting your property investment.
             </p>
             <Link href="/quote">
@@ -429,7 +357,7 @@ export default function InspectionPage() {
                 className="px-8 py-4 text-lg font-bold rounded-full shadow-xl hover:scale-105 transition-transform"
                 style={{ background: colors.primaryGradient, color: 'white' }}
               >
-                Book Your Free Inspection Now
+                Book Your Free Gutter Inspection Now
               </Button>
             </Link>
           </div>
@@ -439,7 +367,7 @@ export default function InspectionPage() {
       <section className="py-16" style={{ backgroundColor: colors.primary }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: colors.white }}>
-            Ready for Your FREE Inspection?
+            Ready for Your FREE Gutter Inspection?
           </h2>
           <p className="text-lg mb-8" style={{ color: colors.white }}>
             Don&apos;t wait for small problems to become expensive repairs. Book your free inspection today.

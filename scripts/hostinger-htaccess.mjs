@@ -113,12 +113,13 @@ AddDefaultCharset UTF-8
   RewriteRule ^help/gutter-repairs/?$ /services/gutter-repairs/ [R=301,L]
   RewriteRule ^help/upvc-cleaning/?$ /services/upvc-cleaning/ [R=301,L]
   RewriteRule ^help/roof-cleaning/?$ /services/roof-cleaning/ [R=301,L]
-  RewriteRule ^help/inspection/?$ /services/inspection/ [R=301,L]
+  RewriteRule ^help/inspection/?$ /services/gutter-inspection/ [R=301,L]
   RewriteRule ^help/conservatory/?$ /services/conservatory/ [R=301,L]
   RewriteRule ^help/water-butt/?$ /services/water-butt/ [R=301,L]
   RewriteRule ^help/commercial/?$ /services/commercial/ [R=301,L]
   RewriteRule ^help/gutter-installation/?$ /services/gutter-installation/ [R=301,L]
-  RewriteRule ^services/free-gutter-inspection/?$ /services/inspection/ [R=301,L]
+  RewriteRule ^services/free-gutter-inspection/?$ /services/gutter-inspection/ [R=301,L]
+  RewriteRule ^services/inspection/?$ /services/gutter-inspection/ [R=301,L]
 
   # Legacy PascalCase URLs
   RewriteRule ^About/?$ /about/ [R=301,L]

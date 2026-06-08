@@ -62,12 +62,12 @@
     },
     {
       "source": "/services/inspection",
-      "destination": "/help/inspect/",
+      "destination": "/services/gutter-inspection/",
       "permanent": true
     },
     {
       "source": "/services/inspection/",
-      "destination": "/help/inspect/",
+      "destination": "/services/gutter-inspection/",
       "permanent": true
     },
     {
