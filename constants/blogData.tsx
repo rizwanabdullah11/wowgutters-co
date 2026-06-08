@@ -1,10 +1,12 @@
 ﻿import { acocksGreenBlogPost } from './acocksGreenBlog';
 import { harborneBlogPost } from './harborneBlog';
 import { sellyOakBlogPost } from './sellyOakBlog';
+import { yardleyBlogPost } from './yardleyBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  yardleyBlogPost,
   acocksGreenBlogPost,
   harborneBlogPost,
   sellyOakBlogPost,
