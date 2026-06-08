@@ -5,7 +5,6 @@ import { blogPosts } from '@/constants/blogData';
 import { colors } from '@/constants/colors';
 import { Calendar, User, Eye, Share2, Phone, PenTool, BookOpen } from 'lucide-react';
 import Link from 'next/link';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import AreaFAQ from '@/components/areas/AreaFAQ';
 import AreaReviews from '@/components/areas/AreaReviews';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
@@ -648,7 +647,6 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
       <AreaBlogSnippet />
       <AreaFAQ />
       <AreaReviews />
-      <ContactInfoSection />
 
       <style>{`
         .blog-detail-wrapper {

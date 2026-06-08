@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Navbar from "./navbar/page";
 import Footer from "@/components/Footer";
+import ContactInfoSection from "@/components/sections/ContactInfoSection";
 import WhatsAppChatPopup from "@/components/WhatsAppChatPopup";
 import ContentProtection from "@/components/ContentProtection";
 import MaybeStaticQuoteDialog from "@/components/MaybeStaticQuoteDialog";
@@ -225,6 +226,7 @@ fbq('track', 'PageView');`,
         <ContentProtection />
         <Navbar />
         {children}
+        <ContactInfoSection />
         <Footer />
         {/* <WhatsAppChatPopup /> */}
         <MaybeStaticQuoteDialog />

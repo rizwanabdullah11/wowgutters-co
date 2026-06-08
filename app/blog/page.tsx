@@ -9,7 +9,6 @@ import {
   BookOpen, Calendar, Eye, User, ArrowRight, 
   Search, Tag, TrendingUp, Clock
 } from 'lucide-react';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
 import { formatBlogDateShort } from '@/lib/dateUtils';
 
@@ -424,8 +423,6 @@ export default function BlogPage() {
           </p>
         </div>
       </section>
-
-      <ContactInfoSection />
 
       <style>{`
         .blog-page-wrapper {

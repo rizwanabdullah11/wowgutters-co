@@ -8,7 +8,6 @@ import {
   Search, ChevronDown, HelpCircle, Phone, Mail, 
   MessageCircle, Filter, ArrowRight 
 } from 'lucide-react';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
 import SEOMeta from '@/components/seo/SEOMeta';
 
@@ -342,8 +341,6 @@ export default function HelpPage() {
           </Link>
         </div>
       </section>
-
-      <ContactInfoSection />
 
       <style>{`
         .help-page-wrapper {

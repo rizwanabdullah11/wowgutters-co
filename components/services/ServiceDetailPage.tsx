@@ -14,7 +14,6 @@ import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaReviews from '@/components/areas/AreaReviews';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaFeatures from '@/components/areas/AreaFeatures';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
 
 interface ServiceDetailPageProps {
@@ -584,7 +583,6 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
       <AreaRecentWork />
       <AreaReviews />
       <AreaContactMap />
-      <ContactInfoSection />
 
       <style>{`
         .service-page-wrapper {

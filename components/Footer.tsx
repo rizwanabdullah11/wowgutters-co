@@ -38,10 +38,12 @@ export default function Footer() {
   ];
 
   const specialServices = [
+    { name: 'Gutter Inspection', path: '/services/gutter-inspection' },
+    { name: 'Roof Inspection', path: '/services/roof-inspection' },
     { name: 'Free Gutter Inspection', path: '/help/inspect' },
     { name: 'Commercial Gutter Cleaning', path: '/services/commercial-gutter-cleaning' },
     { name: 'Commercial Roof Cleaning', path: '/services/commercial-roof-cleaning' },
-    { name: 'Conservatory Cleaning', path: '/services/conservatory' }
+    { name: 'Conservatory Cleaning', path: '/services/conservatory' },
   ];
 
   const general = [
@@ -76,6 +78,8 @@ export default function Footer() {
   if (isQuoteEmbedPath(pathname)) {
     return null;
   }
+
+  const isHomePage = pathname === '/' || pathname === '';
 
   return (
     <>
@@ -116,9 +120,10 @@ export default function Footer() {
             </div>
           </div>
 
-          <hr className="footer-divider" />
+          {isHomePage && <hr className="footer-divider" />}
 
-          {/* Site-wide footer links — crawlable from every page (≤3 clicks to all areas via hub) */}
+          {/* Four-column link grid — homepage only */}
+          {isHomePage && (
           <>
               <h2 className="sr-only">Site navigation and service areas</h2>
               <div className="footer-links-grid">
@@ -193,6 +198,9 @@ export default function Footer() {
 
               <hr className="footer-divider" />
           </>
+          )}
+
+          {!isHomePage && <hr className="footer-divider" />}
 
           {/* Bottom Row */}
           <div className="footer-bottom-row">
@@ -225,8 +233,11 @@ export default function Footer() {
       <style>{`
         .site-footer {
           position: relative;
+          z-index: 5;
+          isolation: isolate;
           background: #0F172A;
           color: #94A3B8;
+          scroll-margin-top: 48px;
         }
 
         .footer-wave-top {

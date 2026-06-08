@@ -9,7 +9,6 @@ import AreaServicesRange from '@/components/areas/AreaServicesRange';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
 
@@ -374,7 +373,6 @@ export default function SuburbGutterCleaningPage({ data }: { data: SuburbPageDat
       <AreaServicesRange />
       <AreaRecentWork />
       <AreaContactMap />
-      <ContactInfoSection />
       <AreaCrawlFooter />
 
       <style>{`

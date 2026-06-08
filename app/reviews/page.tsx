@@ -4,7 +4,6 @@ import { useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { colors } from '@/constants/colors';
 import { ThumbsUp } from 'lucide-react';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import ElfsightReviews from '@/components/sections/ElfsightReviews';
 import { GOOGLE_REVIEWS_SUMMARY, gbpReviewUrl } from '@/lib/googleReviews';
 
@@ -191,8 +190,6 @@ export default function ReviewsPage() {
           </Link>
         </div>
       </section>
-
-      <ContactInfoSection />
 
       <style>{`
         .reviews-hero-section {

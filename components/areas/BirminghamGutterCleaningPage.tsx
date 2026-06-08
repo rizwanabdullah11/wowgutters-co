@@ -14,7 +14,6 @@ import BirminghamFAQ from '@/components/areas/BirminghamFAQ';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
 import { SERVICE_AREAS_HUB } from '@/lib/crawlHub';
@@ -635,7 +634,6 @@ export default function BirminghamGutterCleaningPage() {
       <AreaBlogSnippet locality="Birmingham" />
       <AreaRecentWork />
       <AreaContactMap variant="birmingham" />
-      <ContactInfoSection />
       <AreaCrawlFooter currentSlug="birmingham" />
 
       <style>{`

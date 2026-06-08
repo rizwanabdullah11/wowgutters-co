@@ -1,6 +1,5 @@
 'use client';
 import { colors } from '@/constants/colors';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
 import ServiceSEOSection from '@/components/sections/ServiceSEOSection';
 import QuoteModal from '@/components/QuoteModal';
@@ -163,8 +162,6 @@ export default function ContactPageContent() {
         ctaButtonText="Get Your Free Quote Now"
       />
 
-      {/* Contact Info Section */}
-      <ContactInfoSection />
     </div>
   );
 }

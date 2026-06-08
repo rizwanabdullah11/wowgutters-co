@@ -8,7 +8,6 @@ import {
   ShieldCheck, Award, Users, Clock, CheckCircle,
   Phone, Star, Target, Heart, Zap, PenTool
 } from 'lucide-react';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
 import TeamEeatSection from '@/components/about/TeamEeatSection';
 
@@ -409,8 +408,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
-      <ContactInfoSection />
 
       <style>{`
         .about-page-wrapper {

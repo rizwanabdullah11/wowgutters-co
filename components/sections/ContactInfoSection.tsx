@@ -2,14 +2,20 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname } from 'next/navigation';
+import { isQuoteEmbedPath } from '@/lib/isQuoteEmbedPath';
 import logo from '@/assets/wow-gutters-logo1.png';
 import { Phone, Mail, Facebook, Youtube, Twitter, Instagram, MessageCircle, Search, FileText, HelpCircle, MapPin, Map, Navigation } from 'lucide-react';
 import { getFormattedBusinessHours } from '@/lib/businessHours';
 
 export default function ContactInfoSection() {
+  const pathname = usePathname();
   const [searchQuery, setSearchQuery] = useState('');
   const router = useRouter();
+
+  if (isQuoteEmbedPath(pathname)) {
+    return null;
+  }
   
   const addressLine1 = (process.env.NEXT_PUBLIC_BUSINESS_ADDRESS_LINE1 || '').trim();
   const addressLine2 = (process.env.NEXT_PUBLIC_BUSINESS_ADDRESS_LINE2 || '').trim();
