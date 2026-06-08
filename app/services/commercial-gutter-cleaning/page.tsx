@@ -1,18 +1,14 @@
 import type { Metadata } from 'next';
-import CommercialRedirect from './CommercialRedirect';
+import CommercialGutterCleaningPage from '@/components/services/CommercialGutterCleaningPage';
+import { buildMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: 'Commercial Gutter Cleaning',
-  description: 'Professional commercial gutter cleaning for businesses. Flexible scheduling, same day booking. Call 07421 433910.',
-  alternates: {
-    canonical: 'https://wowgutters.co.uk/commercial/',
-  },
-  robots: {
-    index: false,
-    follow: true,
-  },
-};
+export const metadata: Metadata = buildMetadata({
+  absoluteTitle: 'Commercial Gutter Cleaning Birmingham | WOW Gutters Ltd',
+  description:
+    'Professional commercial gutter cleaning for offices, warehouses, schools and retail units. Flexible scheduling, maintenance contracts, fully insured. Call 07421 433910.',
+  canonicalPath: '/services/commercial-gutter-cleaning/',
+});
 
-export default function Page() {
-  return <CommercialRedirect />;
+export default function CommercialGutterCleaningServicePage() {
+  return <CommercialGutterCleaningPage />;
 }

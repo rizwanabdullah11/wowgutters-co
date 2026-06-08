@@ -39,7 +39,8 @@ export default function Footer() {
 
   const specialServices = [
     { name: 'Free Gutter Inspection', path: '/help/inspect' },
-    { name: 'Commercial Gutter Cleaning', path: '/services/commercial' },
+    { name: 'Commercial Gutter Cleaning', path: '/services/commercial-gutter-cleaning' },
+    { name: 'Commercial Roof Cleaning', path: '/services/commercial-roof-cleaning' },
     { name: 'Conservatory Cleaning', path: '/services/conservatory' }
   ];
 

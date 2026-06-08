@@ -52,12 +52,12 @@
     },
     {
       "source": "/services/commercial",
-      "destination": "/commercial/",
+      "destination": "/services/commercial-gutter-cleaning/",
       "permanent": true
     },
     {
       "source": "/services/commercial/",
-      "destination": "/commercial/",
+      "destination": "/services/commercial-gutter-cleaning/",
       "permanent": true
     },
     {

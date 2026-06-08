@@ -379,30 +379,59 @@ export const servicesData: ServiceDetail[] = [
   //   }
   // },
   {
-    id: 'commercial',
+    id: 'commercial-gutter-cleaning',
     name: 'Commercial Gutter Cleaning',
     icon: '🏢',
     heroImage: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920',
-    heroVideo: '/dome-cleaning-video.mp4',
-    heroTitle: 'Commercial Gutter Services',
-    heroDescription: 'Professional gutter cleaning and maintenance for commercial properties, offices, and industrial buildings.',
+    heroVideo: '/gutter-cleaning-video.mp4',
+    heroTitle: 'Commercial Gutter Cleaning',
+    heroDescription: 'Professional commercial gutter cleaning for offices, warehouses, schools and retail units. Flexible scheduling and maintenance contracts.',
     sections: [
       {
-        title: 'Commercial Solutions',
-        content: 'Tailored services for commercial properties:',
+        title: 'Commercial Gutter Solutions',
+        content: 'Tailored gutter cleaning for commercial properties:',
         image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800',
         imagePosition: 'right',
         bulletPoints: [
           'Scheduled maintenance programs',
-          'Large-scale cleaning',
-          'Minimal disruption',
-          'Competitive rates'
+          'High-reach vacuum — up to 4 storeys',
+          'Out-of-hours appointments',
+          'Full photographic documentation'
         ]
       }
     ],
     ctaSection: {
-      title: 'COMMERCIAL SERVICES',
-      description: 'Professional gutter services for commercial properties.',
+      title: 'COMMERCIAL GUTTER CLEANING',
+      description: 'Professional gutter cleaning for commercial properties across Birmingham and the West Midlands.',
+      phone: '07421 433910',
+      buttonText: 'Get A Quote'
+    }
+  },
+  {
+    id: 'commercial-roof-cleaning',
+    name: 'Commercial Roof Cleaning',
+    icon: '🏠',
+    heroImage: '/roof-cleaning.JPG',
+    heroVideo: '/roof-cleaning-video.mp4',
+    heroTitle: 'Commercial Roof Cleaning',
+    heroDescription: 'Commercial roof cleaning and moss removal for warehouses, offices and industrial buildings. Safe soft-wash methods, fully insured.',
+    sections: [
+      {
+        title: 'Commercial Roof Solutions',
+        content: 'Specialist roof cleaning for business premises:',
+        image: '/roof-cleaning.JPG',
+        imagePosition: 'right',
+        bulletPoints: [
+          'Moss, algae and lichen treatment',
+          'Soft-wash — no tile damage',
+          'Flat and pitched roof experience',
+          'Maintenance contracts available'
+        ]
+      }
+    ],
+    ctaSection: {
+      title: 'COMMERCIAL ROOF CLEANING',
+      description: 'Protect your commercial roof with professional cleaning across Birmingham and the West Midlands.',
       phone: '07421 433910',
       buttonText: 'Get A Quote'
     }
@@ -451,7 +480,42 @@ export const servicesData: ServiceDetail[] = [
   }
 ];
 
+/** Combined commercial landing at /commercial/ */
+export const commercialCombinedService: ServiceDetail = {
+  id: 'commercial',
+  name: 'Commercial Gutter Cleaning',
+  icon: '🏢',
+  heroImage: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920',
+  heroVideo: '/dome-cleaning-video.mp4',
+  heroTitle: 'Commercial Gutter Services',
+  heroDescription:
+    'Professional gutter cleaning and maintenance for commercial properties, offices, and industrial buildings.',
+  sections: [
+    {
+      title: 'Commercial Solutions',
+      content: 'Tailored services for commercial properties:',
+      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800',
+      imagePosition: 'right',
+      bulletPoints: [
+        'Scheduled maintenance programs',
+        'Large-scale cleaning',
+        'Minimal disruption',
+        'Competitive rates',
+      ],
+    },
+  ],
+  ctaSection: {
+    title: 'COMMERCIAL SERVICES',
+    description: 'Professional gutter services for commercial properties.',
+    phone: '07421 433910',
+    buttonText: 'Get A Quote',
+  },
+};
+
 export function getServiceById(id: string): ServiceDetail | undefined {
+  if (id === 'commercial') {
+    return commercialCombinedService;
+  }
   return servicesData.find((service) => service.id === id);
 }
 
