@@ -2,8 +2,9 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useRouter, usePathname } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { isQuoteEmbedPath } from '@/lib/isQuoteEmbedPath';
+import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
 import logo from '@/assets/wow-gutters-logo1.png';
 import { Phone, Mail, Facebook, Youtube, Twitter, Instagram, MessageCircle, Search, FileText, HelpCircle, MapPin, Map, Navigation } from 'lucide-react';
 import { getFormattedBusinessHours } from '@/lib/businessHours';
@@ -11,7 +12,6 @@ import { getFormattedBusinessHours } from '@/lib/businessHours';
 export default function ContactInfoSection() {
   const pathname = usePathname();
   const [searchQuery, setSearchQuery] = useState('');
-  const router = useRouter();
 
   if (isQuoteEmbedPath(pathname)) {
     return null;
@@ -26,13 +26,25 @@ export default function ContactInfoSection() {
   // Get dynamic opening times
   const openingTimes = getFormattedBusinessHours();
 
-  // Handle search submission
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (searchQuery.trim()) {
-      // Convert search query to URL-friendly slug
-      const slug = searchQuery.toLowerCase().trim().replace(/\s+/g, '-');
-      router.push(`/gutter-cleaning-${slug}`);
+  const resolveAreaSlug = (query: string): string | null => {
+    const normalized = query.toLowerCase().trim().replace(/\s+/g, '-');
+    if (!normalized) return null;
+
+    const slugSet = new Set<string>(AREA_SLUGS);
+    if (slugSet.has(normalized)) return normalized;
+
+    const partial = AREA_SLUGS.find(
+      (slug) => slug.includes(normalized) || normalized.includes(slug),
+    );
+    return partial ?? normalized;
+  };
+
+  // Full-page navigation — reliable on static export (Hostinger); router.push can fail in production.
+  const handleSearch = (e?: React.FormEvent) => {
+    e?.preventDefault();
+    const slug = resolveAreaSlug(searchQuery);
+    if (slug) {
+      window.location.assign(areaPath(slug));
     }
   };
 
@@ -148,15 +160,21 @@ export default function ContactInfoSection() {
             </div>
             
             <div className="search-input-wrap">
-              <form onSubmit={handleSearch}>
+              <form onSubmit={handleSearch} noValidate>
                 <input
                   type="text"
                   placeholder="E.g. your town..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className="search-input"
+                  aria-label="Search for gutter cleaning in your town or city"
                 />
-                <button type="submit" className="search-submit">
+                <button
+                  type="button"
+                  onClick={() => handleSearch()}
+                  className="search-submit"
+                  aria-label="Search locations"
+                >
                   <Search className="w-5 h-5" />
                 </button>
               </form>
