@@ -231,6 +231,7 @@ fbq('track', 'PageView');`,
         {/* <WhatsAppChatPopup /> */}
         <MaybeStaticQuoteDialog />
         {/* Quote modal + analytics — end of body so they do not block first paint */}
+        <script src="/wow-area-search.js?v=20260609" defer />
         <script src="/wow-analytics.js?v=20260602" defer />
         <script src="/wow-quote-config.js?v=20260421" defer />
         <script

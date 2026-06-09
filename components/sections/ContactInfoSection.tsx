@@ -1,17 +1,31 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { isQuoteEmbedPath } from '@/lib/isQuoteEmbedPath';
-import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
+import { areaNavigationUrl } from '@/lib/areaSlugs';
+import { resolveAreaSlug } from '@/lib/resolveAreaSlug';
 import logo from '@/assets/wow-gutters-logo1.png';
 import { Phone, Mail, Facebook, Youtube, Twitter, Instagram, MessageCircle, Search, FileText, HelpCircle, MapPin, Map, Navigation } from 'lucide-react';
-import { getFormattedBusinessHours } from '@/lib/businessHours';
+import { BUSINESS_HOURS, getFormattedBusinessHours, getFormattedHours } from '@/lib/businessHours';
 
 export default function ContactInfoSection() {
   const pathname = usePathname();
   const [searchQuery, setSearchQuery] = useState('');
+  const [searchError, setSearchError] = useState('');
+  const [openingTimes, setOpeningTimes] = useState(() =>
+    BUSINESS_HOURS.map((hour) => ({
+      day: hour.day,
+      hours: hour.isOpen ? getFormattedHours(hour.opens, hour.closes) : 'Closed',
+      isToday: false,
+      isOpen: hour.isOpen,
+    })),
+  );
+
+  useEffect(() => {
+    setOpeningTimes(getFormattedBusinessHours());
+  }, []);
 
   if (isQuoteEmbedPath(pathname)) {
     return null;
@@ -23,29 +37,18 @@ export default function ContactInfoSection() {
   const addressPostcode = (process.env.NEXT_PUBLIC_BUSINESS_POSTCODE || '').trim();
   const fullAddress = [addressLine1, addressLine2, addressCity, addressPostcode].filter(Boolean).join(', ');
 
-  // Get dynamic opening times
-  const openingTimes = getFormattedBusinessHours();
-
-  const resolveAreaSlug = (query: string): string | null => {
-    const normalized = query.toLowerCase().trim().replace(/\s+/g, '-');
-    if (!normalized) return null;
-
-    const slugSet = new Set<string>(AREA_SLUGS);
-    if (slugSet.has(normalized)) return normalized;
-
-    const partial = AREA_SLUGS.find(
-      (slug) => slug.includes(normalized) || normalized.includes(slug),
-    );
-    return partial ?? normalized;
-  };
-
   // Full-page navigation — reliable on static export (Hostinger); router.push can fail in production.
-  const handleSearch = (e?: React.FormEvent) => {
-    e?.preventDefault();
+  const handleSearch = () => {
     const slug = resolveAreaSlug(searchQuery);
     if (slug) {
-      window.location.assign(areaPath(slug));
+      window.location.href = areaNavigationUrl(slug);
+      return;
     }
+    setSearchError(
+      searchQuery.trim()
+        ? `No coverage page found for "${searchQuery.trim()}". Try Birmingham, Coventry, or Wolverhampton.`
+        : 'Please enter a town or city name.',
+    );
   };
 
   return (
@@ -160,24 +163,40 @@ export default function ContactInfoSection() {
             </div>
             
             <div className="search-input-wrap">
-              <form onSubmit={handleSearch} noValidate>
+              {/* No <form> — native GET submit caused wowgutters.co.uk/? on static export before hydration */}
+              <div role="search" className="search-field">
                 <input
                   type="text"
                   placeholder="E.g. your town..."
                   value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
+                  onChange={(e) => {
+                    setSearchQuery(e.target.value);
+                    if (searchError) setSearchError('');
+                  }}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') {
+                      e.preventDefault();
+                      handleSearch();
+                    }
+                  }}
                   className="search-input"
                   aria-label="Search for gutter cleaning in your town or city"
+                  aria-describedby={searchError ? 'area-search-error' : undefined}
                 />
                 <button
                   type="button"
-                  onClick={() => handleSearch()}
+                  onClick={handleSearch}
                   className="search-submit"
                   aria-label="Search locations"
                 >
                   <Search className="w-5 h-5" />
                 </button>
-              </form>
+              </div>
+              {searchError && (
+                <p id="area-search-error" className="search-error" role="alert">
+                  {searchError}
+                </p>
+              )}
             </div>
             
             <div className="search-illustration">
@@ -524,6 +543,19 @@ export default function ContactInfoSection() {
           position: relative;
           z-index: 2;
           margin-bottom: auto;
+        }
+        .search-field {
+          position: relative;
+        }
+        .search-error {
+          margin: 12px 0 0;
+          padding: 10px 14px;
+          border-radius: 10px;
+          background: rgba(255, 255, 255, 0.15);
+          color: #fff;
+          font-size: 0.9rem;
+          font-weight: 600;
+          line-height: 1.4;
         }
         .search-input {
           width: 100%;
