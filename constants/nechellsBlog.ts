@@ -26,7 +26,7 @@ export const nechellsBlogPost: BlogPost = {
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-06',
   views: '0',
-  author: 'WOW Gutters Technical Team',
+  author: 'WOW Gutters Ltd Technical Team',
   authorRole: 'Professional Gutter Cleaning Specialists',
   category: 'Maintenance',
   lastUpdated: '2026-06-06',

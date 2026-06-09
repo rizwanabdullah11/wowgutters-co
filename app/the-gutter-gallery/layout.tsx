@@ -4,9 +4,9 @@ import { buildGalleryPageSchemaGraph } from '@/lib/pageSchemaGraphs';
 import PageSchema from '@/components/seo/PageSchema';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Gutter Gallery | Before & After Photos | WOW Gutters',
+  title: 'Gutter Gallery | Before & After Photos | WOW Gutters Ltd',
   description:
-    'Before and after gutter cleaning photos from WOW Gutters. Real projects across Birmingham, Coventry and the West Midlands.',
+    'Before and after gutter cleaning photos from WOW Gutters Ltd. Real projects across Birmingham, Coventry and the West Midlands.',
   canonicalPath: '/the-gutter-gallery/',
 });
 

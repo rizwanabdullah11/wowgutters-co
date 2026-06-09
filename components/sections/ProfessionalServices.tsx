@@ -58,7 +58,7 @@ export default function ProfessionalServices() {
               className="text-base sm:text-lg leading-relaxed mb-5"
               style={{ color: colors.textLight }}
             >
-              <strong style={{ color: colors.text }}>WOW Gutters LTD</strong>{' '}
+              <strong style={{ color: colors.text }}>WOW Gutters Ltd</strong>{' '}
               <SeoLinkify text="provides professional gutter cleaning for homes, landlords and businesses. We clear leaves, moss, silt and downpipe debris so rainwater can flow properly and your property stays protected from damp and water damage." />
             </p>
 

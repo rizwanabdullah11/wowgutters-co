@@ -13,7 +13,7 @@ export default function AboutCompany() {
             </h2>
             
             <p className="text-gray-300 leading-relaxed">
-              Welcome to WOW Gutters - a network of independently owned and 
+              Welcome to WOW Gutters Ltd - a network of independently owned and 
               operated franchises delivering exceptional service to customers across the UK. As specialists in 
               gutter cleaning and repairs, we bring extensive knowledge and hands-on experience to every 
               residential and commercial project.

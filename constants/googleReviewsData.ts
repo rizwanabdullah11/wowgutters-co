@@ -36,7 +36,7 @@ export const FEATURED_GOOGLE_REVIEWS: FeaturedGoogleReview[] = [
     rating: 5,
     location: 'Aston, Birmingham',
     reviewBody:
-      'Used WOW Gutters on a rental terrace in Aston. Narrow access was not a problem. Photos were perfect for our maintenance file and the gutters have flowed properly since.',
+      'Used WOW Gutters Ltd on a rental terrace in Aston. Narrow access was not a problem. Photos were perfect for our maintenance file and the gutters have flowed properly since.',
   },
   {
     id: 'review-edgbaston-period',

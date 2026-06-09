@@ -98,7 +98,7 @@ export default function Footer() {
             <div className="footer-logo-box">
               <Image
                 src={logo}
-                alt="WOW Gutters logo — professional gutter cleaning and roofline services"
+                alt="WOW Gutters Ltd logo — professional gutter cleaning and roofline services"
                 width={320}
                 height={150}
                 sizes="(max-width: 900px) 240px, 320px"
@@ -107,7 +107,7 @@ export default function Footer() {
               />
             </div>
             <div className="footer-brand-text">
-              <p className="footer-company-name">WOW Gutters</p>
+              <p className="footer-company-name">WOW Gutters Ltd</p>
               <p className="footer-company-tagline">Professional Gutter Cleaning &amp; Roofline Services</p>
               <div className="footer-ratings">
                 <span className="rating-text">Rated 4.9★ on Google</span>
@@ -205,11 +205,11 @@ export default function Footer() {
           {/* Bottom Row */}
           <div className="footer-bottom-row">
             <div className="footer-social-box">
-              <a href="https://web.facebook.com/wowgutters.co.uk" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on Facebook"><Facebook className="w-5 h-5"/></a>
-              <a href="https://twitter.com/wowgutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on X/Twitter"><Twitter className="w-5 h-5"/></a>
-              <a href="https://www.instagram.com/wowgutters/" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on Instagram"><Instagram className="w-5 h-5"/></a>
-              <a href="https://www.linkedin.com/company/wow-gutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on LinkedIn"><Linkedin className="w-5 h-5"/></a>
-              <a href="https://www.youtube.com/@wowgutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on YouTube"><Youtube className="w-5 h-5"/></a>
+              <a href="https://web.facebook.com/wowgutters.co.uk" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on Facebook"><Facebook className="w-5 h-5"/></a>
+              <a href="https://twitter.com/wowgutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on X/Twitter"><Twitter className="w-5 h-5"/></a>
+              <a href="https://www.instagram.com/wowgutters/" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on Instagram"><Instagram className="w-5 h-5"/></a>
+              <a href="https://www.linkedin.com/company/wow-gutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on LinkedIn"><Linkedin className="w-5 h-5"/></a>
+              <a href="https://www.youtube.com/@wowgutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on YouTube"><Youtube className="w-5 h-5"/></a>
             </div>
 
             <div className="footer-copyright">
@@ -570,7 +570,7 @@ export default function Footer() {
           <div className="h-11 w-11 overflow-hidden rounded-full border border-slate-900/10 bg-white" aria-hidden="true">
             <Image
               src={logo}
-              alt="WOW Gutters logo"
+              alt="WOW Gutters Ltd logo"
               width={44}
               height={44}
               className="h-11 w-11 object-cover"

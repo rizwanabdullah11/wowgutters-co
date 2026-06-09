@@ -135,7 +135,7 @@ export default function HeroSection() {
             poster={HERO_POSTER}
             width={1920}
             height={1080}
-            aria-label="WOW Gutters professional gutter cleaning and roofline services"
+            aria-label="WOW Gutters Ltd professional gutter cleaning and roofline services"
             className="hero-video"
             key={currentVideoIndex}
             onError={(e) => {
@@ -187,7 +187,7 @@ export default function HeroSection() {
 
             {/* Subtext */}
             <p className="hero-subtitle animate-fade-in-up delay-200">
-              Professional gutter cleaning, downpipe clearing, fascia and soffit cleaning, and roof cleaning. Clean gutters, safer drainage, and reliable service from WOW Gutters LTD.
+              Professional gutter cleaning, downpipe clearing, fascia and soffit cleaning, and roof cleaning. Clean gutters, safer drainage, and reliable service from WOW Gutters Ltd.
             </p>
 
             {/* CTA Row */}

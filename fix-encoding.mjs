@@ -26,7 +26,7 @@ const pricingPatterns = [
   /answer:\s*'What does a gutter clean cost[^']+'/g,
 ];
 
-const replacement = "answer: 'WOW Gutters provides fixed quotes for all properties. Get yours online at wowgutters.co.uk or call 07421 433910. No hidden fees.'";
+const replacement = "answer: 'WOW Gutters Ltd provides fixed quotes for all properties. Get yours online at wowgutters.co.uk or call 07421 433910. No hidden fees.'";
 
 for (const pattern of pricingPatterns) {
   content = content.replace(pattern, replacement);

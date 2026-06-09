@@ -25,7 +25,7 @@ export async function generateMetadata(props: TalkPageProps): Promise<Metadata> 
 
   if (!talk) {
     return {
-      title: 'Talk Not Found | WOW Gutters',
+      title: 'Talk Not Found | WOW Gutters Ltd',
       description: 'The requested talk could not be found.'
     };
   }

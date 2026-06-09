@@ -7,9 +7,9 @@ import { SCHEMA_DATE_MODIFIED, SCHEMA_DATE_PUBLISHED } from '@/lib/schemaDates';
 const SITE_URL = 'https://wowgutters.co.uk';
 
 export const metadata: Metadata = buildMetadata({
-  absoluteTitle: 'Local Citations & Google Business Profile Guide | WOW Gutters',
+  absoluteTitle: 'Local Citations & Google Business Profile Guide | WOW Gutters Ltd',
   description:
-    'Official WOW Gutters NAP, directory citation targets, Google Maps service area, weekly GBP posting ideas, and review response templates for Birmingham & the West Midlands.',
+    'Official WOW Gutters Ltd NAP, directory citation targets, Google Maps service area, weekly GBP posting ideas, and review response templates for Birmingham & the West Midlands.',
   canonicalPath: '/citations/',
 });
 
@@ -25,7 +25,7 @@ export default function CitationsPage() {
           description:
             'Official business information, citation directories, and Google Business Profile guidance for WOW Gutters Ltd.',
           url: `${SITE_URL}/citations/`,
-          isPartOf: { '@type': 'WebSite', name: 'WOW Gutters', url: SITE_URL },
+          isPartOf: { '@type': 'WebSite', name: 'WOW Gutters Ltd', url: SITE_URL },
           datePublished: SCHEMA_DATE_PUBLISHED,
           dateModified: SCHEMA_DATE_MODIFIED,
         }}

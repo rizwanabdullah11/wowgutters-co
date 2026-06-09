@@ -14,14 +14,14 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     title: 'Gutter Cleaning Kitts Green Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Kitts Green, Birmingham (B26). No ladders, vacuum system, before & after photos. From £45. Call WOW Gutters: 07421 433910.',
-    url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters',
-    images: [{ url: 'https://wowgutters.co.uk/og/kitts-green.jpg', width: 1200, height: 630, alt: 'WOW Gutters — Gutter Cleaning Kitts Green Birmingham' }],
+    description: 'Professional gutter cleaning in Kitts Green, Birmingham (B26). No ladders, vacuum system, before & after photos. From £45. Call WOW Gutters Ltd: 07421 433910.',
+    url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters Ltd',
+    images: [{ url: 'https://wowgutters.co.uk/og/kitts-green.jpg', width: 1200, height: 630, alt: 'WOW Gutters Ltd — Gutter Cleaning Kitts Green Birmingham' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning Kitts Green Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Kitts Green B26. From £45. No ladders, before & after photos. Call WOW Gutters: 07421 433910.',
+    description: 'Professional gutter cleaning in Kitts Green B26. From £45. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/kitts-green.jpg'],
   },
 }
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const howToSchema = {
   '@context': 'https://schema.org',
   '@type': 'HowTo',
-  name: 'How WOW Gutters Cleans Your Gutters in Kitts Green',
+  name: 'How WOW Gutters Ltd Cleans Your Gutters in Kitts Green',
   description: 'Our 4-step professional gutter cleaning process for Kitts Green, Birmingham properties',
   step: [
     { '@type': 'HowToStep', position: 1, name: 'Assessment', text: 'We inspect your gutters and downpipes before starting, identifying all blockages, damaged sections and areas of concern for Kitts Green\'s post-war properties.' },

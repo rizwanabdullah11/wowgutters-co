@@ -13,7 +13,7 @@ export const BACKLINK_OUTREACH_TARGETS = [
   {
     category: 'Trade directories',
     examples: ['Checkatrade', 'Rated People', 'MyBuilder', 'Bark'],
-    action: 'Complete WOW Gutters profiles with NAP from /citations/ and request featured listing where paid.',
+    action: 'Complete WOW Gutters Ltd profiles with NAP from /citations/ and request featured listing where paid.',
   },
   {
     category: 'Local Birmingham / West Midlands',

@@ -134,7 +134,7 @@ export default function CommercialGutterCleaningPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: colors.dark }}>
-                Why Businesses Choose WOW Gutters
+                Why Businesses Choose WOW Gutters Ltd
               </h2>
 
               <div className="space-y-6">

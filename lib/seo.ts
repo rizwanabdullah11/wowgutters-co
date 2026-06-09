@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 
 type BuildMetadataInput = {
-  /** Plain title; root layout appends ` | WOW Gutters` unless `absoluteTitle` is set. */
+  /** Plain title; root layout appends ` | WOW Gutters Ltd` unless `absoluteTitle` is set. */
   title?: string;
-  /** Full `<title>` — skips the layout template (avoids duplicate suffix like `| WOW Gutters | WOW Gutters`). */
+  /** Full `<title>` — skips the layout template (avoids duplicate suffix like `| WOW Gutters Ltd | WOW Gutters Ltd`). */
   absoluteTitle?: string;
   description: string;
   canonicalPath?: string; // e.g. "/services/gutter-cleaning"
@@ -37,10 +37,10 @@ export function buildMetadata(input: BuildMetadataInput): Metadata {
   const ogImage = input.ogImagePath ?? '/og/default.jpg';
   const canonical = input.canonicalPath ? toAbsoluteUrl(input.canonicalPath) : undefined;
 
-  const titleForTags = input.absoluteTitle ?? input.title ?? 'WOW Gutters';
+  const titleForTags = input.absoluteTitle ?? input.title ?? 'WOW Gutters Ltd';
   const titleField: Metadata['title'] = input.absoluteTitle
     ? { absolute: input.absoluteTitle }
-    : input.title ?? 'WOW Gutters';
+    : input.title ?? 'WOW Gutters Ltd';
 
   // Determine robots configuration: custom robots > noindex > undefined
   let robotsConfig: Metadata['robots'] = undefined;
@@ -62,7 +62,7 @@ export function buildMetadata(input: BuildMetadataInput): Metadata {
       title: titleForTags,
       description: input.description,
       url: canonical,
-      siteName: 'WOW Gutters',
+      siteName: 'WOW Gutters Ltd',
       type: 'website',
       locale: 'en_GB',
       images: [
@@ -70,7 +70,7 @@ export function buildMetadata(input: BuildMetadataInput): Metadata {
           url: ogImage,
           width: 1200,
           height: 630,
-          alt: 'WOW Gutters - Professional Gutter Services',
+          alt: 'WOW Gutters Ltd - Professional Gutter Services',
         },
       ],
     },

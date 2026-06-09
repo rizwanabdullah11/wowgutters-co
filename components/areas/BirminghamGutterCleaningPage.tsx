@@ -274,7 +274,7 @@ export default function BirminghamGutterCleaningPage() {
       <section className="py-16 px-4 bg-slate-50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-black text-center text-slate-900 mb-10">
-            What you get with WOW Gutters in Birmingham
+            What you get with WOW Gutters Ltd in Birmingham
           </h2>
           <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {PDF_BENEFITS.map((b) => (
@@ -339,7 +339,7 @@ export default function BirminghamGutterCleaningPage() {
             Our gutter cleaning process — safe, thorough, no mess
           </h2>
           <p className="text-center text-slate-600 max-w-2xl mx-auto mb-12">
-            Every WOW Gutters job in Birmingham follows the same five-step process — from the moment we arrive to the
+            Every WOW Gutters Ltd job in Birmingham follows the same five-step process — from the moment we arrive to the
             moment we leave, with photo proof throughout.
           </p>
           <div className="grid md:grid-cols-2 gap-6">
@@ -625,7 +625,7 @@ export default function BirminghamGutterCleaningPage() {
             Mon–Fri 7am–8pm · Sat 9am–6pm · Sun 10am–6pm
           </p>
           <p className="text-slate-500 text-sm mt-6 max-w-lg mx-auto">
-            WOW Gutters — professional gutter cleaning and roofline services across Birmingham, West Midlands and
+            WOW Gutters Ltd — professional gutter cleaning and roofline services across Birmingham, West Midlands and
             Worcestershire. Trusted on Google. Same-day bookings available.
           </p>
         </div>

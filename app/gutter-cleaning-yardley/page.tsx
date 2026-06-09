@@ -14,14 +14,14 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     title: 'Gutter Cleaning Yardley, Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Yardley, Birmingham (B25, B26). No ladders, vacuum system, before & after photos. From £50. Call WOW Gutters: 07421 433910.',
-    url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters',
-    images: [{ url: 'https://wowgutters.co.uk/og/yardley.jpg', width: 1200, height: 630, alt: 'WOW Gutters — Gutter Cleaning Yardley Birmingham' }],
+    description: 'Professional gutter cleaning in Yardley, Birmingham (B25, B26). No ladders, vacuum system, before & after photos. From £50. Call WOW Gutters Ltd: 07421 433910.',
+    url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters Ltd',
+    images: [{ url: 'https://wowgutters.co.uk/og/yardley.jpg', width: 1200, height: 630, alt: 'WOW Gutters Ltd — Gutter Cleaning Yardley Birmingham' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning Yardley, Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Yardley B25, B26. From £50. No ladders, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
+    description: 'Professional gutter cleaning in Yardley B25, B26. From £50. No ladders, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/yardley.jpg'],
   },
 }
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const howToSchema = {
   '@context': 'https://schema.org',
   '@type': 'HowTo',
-  name: 'How WOW Gutters Cleans Your Gutters in Yardley',
+  name: 'How WOW Gutters Ltd Cleans Your Gutters in Yardley',
   description: 'Our 4-step professional gutter cleaning process for Yardley, Birmingham properties',
   step: [
     { '@type': 'HowToStep', position: 1, name: 'Assessment', text: 'We inspect your gutters and downpipes before starting, identifying all blockages, damaged sections and areas of concern. For Yardley\'s Victorian terraces we also check original cast iron and early uPVC systems for joint wear.' },

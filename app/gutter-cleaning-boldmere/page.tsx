@@ -14,14 +14,14 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     title: 'Gutter Cleaning Boldmere, Sutton Coldfield, Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Boldmere, Sutton Coldfield (B73). No ladders, vacuum system, before & after photos. From \u00a355. Call WOW Gutters: 07421 433910.',
-    url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters',
-    images: [{ url: 'https://wowgutters.co.uk/og/boldmere.jpg', width: 1200, height: 630, alt: 'WOW Gutters \u2014 Gutter Cleaning Boldmere, Sutton Coldfield, Birmingham' }],
+    description: 'Professional gutter cleaning in Boldmere, Sutton Coldfield (B73). No ladders, vacuum system, before & after photos. From \u00a355. Call WOW Gutters Ltd: 07421 433910.',
+    url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters Ltd',
+    images: [{ url: 'https://wowgutters.co.uk/og/boldmere.jpg', width: 1200, height: 630, alt: 'WOW Gutters Ltd \u2014 Gutter Cleaning Boldmere, Sutton Coldfield, Birmingham' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning Boldmere, Sutton Coldfield, Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Boldmere B73. From \u00a355. No ladders, before & after photos. Call WOW Gutters: 07421 433910.',
+    description: 'Professional gutter cleaning in Boldmere B73. From \u00a355. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/boldmere.jpg'],
   },
 }
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const howToSchema = {
   '@context': 'https://schema.org',
   '@type': 'HowTo',
-  name: 'How WOW Gutters Cleans Your Gutters in Boldmere',
+  name: 'How WOW Gutters Ltd Cleans Your Gutters in Boldmere',
   description: 'Our 4-step professional gutter cleaning process for Boldmere, Sutton Coldfield properties',
   step: [
     { '@type': 'HowToStep', position: 1, name: 'Assessment', text: 'We inspect your gutters and downpipes before starting, identifying all blockages, damaged sections and areas of concern for Boldmere\'s Victorian and Edwardian period properties.' },

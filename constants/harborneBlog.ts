@@ -26,7 +26,7 @@ export const harborneBlogPost: BlogPost = {
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-04',
   views: '0',
-  author: 'WOW Gutters Technical Team',
+  author: 'WOW Gutters Ltd Technical Team',
   authorRole: 'Professional Gutter Cleaning Specialists',
   category: 'Maintenance',
   lastUpdated: '2026-06-04',
@@ -60,7 +60,7 @@ export const harborneBlogPost: BlogPost = {
   <li><a href="#included" style="${link}">What Every Visit Includes</a></li>
   <li><a href="#property-value" style="${link}">Protecting Your Property Value</a></li>
   <li><a href="#areas" style="${link}">Areas We Cover Around Harborne</a></li>
-  <li><a href="#why-choose" style="${link}">Why Harborne Homeowners Choose WOW Gutters</a></li>
+  <li><a href="#why-choose" style="${link}">Why Harborne Homeowners Choose WOW Gutters Ltd</a></li>
   <li><a href="#before-after" style="${link}">Before and After — Harborne B17</a></li>
   <li><a href="#faq" style="${link}">Frequently Asked Questions</a></li>
 </ul>
@@ -94,7 +94,7 @@ export const harborneBlogPost: BlogPost = {
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>🔔 Prevention costs a fraction of what repairs do.</strong><br/>
   If you haven't had your Harborne property's gutters cleaned this year, now is the right time to act.<br/>
-  📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call WOW Gutters: 07421 433910</a> — free, no-obligation quote.
+  📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call WOW Gutters Ltd: 07421 433910</a> — free, no-obligation quote.
 </blockquote>
 
 <p>Learn more: <a href="/blog/signs-of-blocked-gutters-birmingham" style="${link}">signs your gutters need cleaning</a> and how overflow leads to damp on period brickwork.</p>

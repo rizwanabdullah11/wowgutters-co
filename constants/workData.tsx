@@ -36,7 +36,7 @@ export const workPosts: WorkPost[] = [
       <p>The customer has reported no blockages in the 8 months since installation. The downpipe shoe has completely eliminated the problem, saving them from repeated callouts and potential water damage. They've recommended our service to three neighbors who had similar issues.</p>
       
       <h3>Customer Feedback</h3>
-      <p>"Finally, a proper fix instead of just clearing the same blockage over and over. The WOW Gutters team explained everything clearly and the installation was quick and professional. Haven't had a single problem since." - Birmingham Homeowner</p>
+      <p>"Finally, a proper fix instead of just clearing the same blockage over and over. The WOW Gutters Ltd team explained everything clearly and the installation was quick and professional. Haven't had a single problem since." - Birmingham Homeowner</p>
     `
   },
   {
@@ -117,7 +117,7 @@ export const workPosts: WorkPost[] = [
       <p>The gutters now sit level with no sagging. Water flows smoothly to the downpipes with no pooling or overflow. The customer was impressed with the attention to detail and the professional finish.</p>
       
       <h3>Customer Satisfaction</h3>
-      <p>"The difference is night and day. The gutters look straight and work perfectly. WOW Gutters explained everything they were doing and the work was completed in one day. Very professional service." - Birmingham Homeowner</p>
+      <p>"The difference is night and day. The gutters look straight and work perfectly. WOW Gutters Ltd explained everything they were doing and the work was completed in one day. Very professional service." - Birmingham Homeowner</p>
     `
   }
 ];

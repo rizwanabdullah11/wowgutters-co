@@ -10,9 +10,9 @@ export const GOOGLE_REVIEWS_SUMMARY = {
 export function googleReviewsHeadline(city?: string): string {
   const place = city?.trim();
   if (place) {
-    return `What ${place} customers say about WOW Gutters`;
+    return `What ${place} customers say about WOW Gutters Ltd`;
   }
-  return 'What customers say about WOW Gutters';
+  return 'What customers say about WOW Gutters Ltd';
 }
 
 export function googleReviewsSubline(): string {
@@ -20,7 +20,7 @@ export function googleReviewsSubline(): string {
 }
 
 export function googleReviewsCrawlSummary(): string {
-  return `WOW Gutters is rated ${GOOGLE_REVIEWS_SUMMARY.ratingLabel} out of 5 on Google across Birmingham and the West Midlands. Homeowners praise our punctuality, before-and-after photos, and honest gutter condition reports.`;
+  return `WOW Gutters Ltd is rated ${GOOGLE_REVIEWS_SUMMARY.ratingLabel} out of 5 on Google across Birmingham and the West Midlands. Homeowners praise our punctuality, before-and-after photos, and honest gutter condition reports.`;
 }
 
 export { gbpReviewUrl };

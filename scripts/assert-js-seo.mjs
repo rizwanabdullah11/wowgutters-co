@@ -75,7 +75,7 @@ const home = read('index.html');
 if (!home) {
   errors.push('missing index.html');
 } else {
-  if (!/What Customers Say About WOW Gutters/i.test(home)) {
+  if (!/What Customers Say About WOW Gutters Ltd/i.test(home)) {
     errors.push('homepage missing reviews section heading in static HTML');
   }
   if (!/Gutter Services|Professional Gutter Services/i.test(home)) {

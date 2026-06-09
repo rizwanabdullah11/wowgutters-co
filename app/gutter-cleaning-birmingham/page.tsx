@@ -7,7 +7,7 @@ const URL_PATH = 'https://wowgutters.co.uk/gutter-cleaning-birmingham/'
 
 export const metadata: Metadata = {
   title: 'Gutter Cleaning Birmingham | WOW Gutters Ltd',
-  description: 'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
+  description: 'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
   alternates: {
     canonical: URL_PATH,
     languages: {
@@ -26,13 +26,13 @@ export const metadata: Metadata = {
     url: URL_PATH,
     type: 'website',
     locale: 'en_GB',
-    siteName: 'WOW Gutters',
+    siteName: 'WOW Gutters Ltd',
     images: [
       {
         url: 'https://wowgutters.co.uk/og/default.jpg',
         width: 1200,
         height: 630,
-        alt: 'WOW Gutters - Gutter Cleaning Birmingham',
+        alt: 'WOW Gutters Ltd - Gutter Cleaning Birmingham',
       },
     ],
   },

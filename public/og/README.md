@@ -20,7 +20,7 @@ Use a before/after gutter cleaning photo at 1200×630px saved as JPG.
 - Before: blocked gutter full of leaves/moss
 - After: clean gutter with clear water flow
 
-Or use a photo of a WOW Gutters technician at work with the company van visible.
+Or use a photo of a WOW Gutters Ltd technician at work with the company van visible.
 
 ## Fallback behaviour
 

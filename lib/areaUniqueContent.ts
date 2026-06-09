@@ -79,6 +79,6 @@ export function areaSpecificFaq(input: AreaInput): { question: string; answer: s
   const { name } = input;
   return {
     question: `Do you cover ${streets[0]} and nearby streets in ${name}?`,
-    answer: `Yes — WOW Gutters covers ${streets.slice(0, 5).join(', ')} and surrounding roads in ${name}. We work in this area regularly and can usually confirm availability within one call to 07421 433910.`,
+    answer: `Yes — WOW Gutters Ltd covers ${streets.slice(0, 5).join(', ')} and surrounding roads in ${name}. We work in this area regularly and can usually confirm availability within one call to 07421 433910.`,
   };
 }

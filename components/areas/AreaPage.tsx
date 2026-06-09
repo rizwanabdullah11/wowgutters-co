@@ -152,7 +152,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
               </p>
               
               <p className="text-gray-700 text-lg leading-relaxed mb-8 max-w-md">
-                "Hi, I'm the local WOW Gutters engineer. I am your local specialist for gutter cleaning, repairs, and maintenance across all of {formattedArea}."
+                "Hi, I'm the local WOW Gutters Ltd engineer. I am your local specialist for gutter cleaning, repairs, and maintenance across all of {formattedArea}."
               </p>
               
               <div className="flex flex-wrap items-center justify-center gap-4">
@@ -275,7 +275,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
         descriptions={[
           `A complete gutter service covers the full roofline system — gutters, soffits and fascias — keeping your home protected and looking its best.`,
           `Gutters channel rainwater from your roof safely away from the property. Soffits close the gap beneath the eaves, aiding ventilation and keeping pests out. Fascias run along the roof edge and hold the gutters in place. When any of these fail, water can penetrate the roof structure and cause expensive damage.`,
-          `WOW Gutters can clean, inspect and repair all three elements in a single visit. Ask about our combined service when booking.`
+          `WOW Gutters Ltd can clean, inspect and repair all three elements in a single visit. Ask about our combined service when booking.`
         ]}
         iconSrc="/gutter-repair-icon.png"
         backgroundColor="bg-white"
@@ -286,7 +286,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
       <AreaServiceBlock
         title={`5-Star Gutter Cleaning in ${formattedArea}`}
         descriptions={[
-          `WOW Gutters holds a 4.9-star rating from over 2,696 verified Google reviews. Our ${formattedArea} customers consistently highlight our punctuality, the quality of our before and after photos, and the honesty of our condition reports.`,
+          `WOW Gutters Ltd holds a 4.9-star rating from over 2,696 verified Google reviews. Our ${formattedArea} customers consistently highlight our punctuality, the quality of our before and after photos, and the honesty of our condition reports.`,
           `We use the latest high-reach vacuum technology to clean gutters efficiently and safely. Our vans are fully stocked so we can carry out minor repairs on the same visit. We operate 7 days a week and aim to offer bookings within 2–5 working days, with same-day availability sometimes possible.`,
           `Whether you need a one-off clean, a repair, or a planned maintenance schedule, call 07421 433910 or request a free quote online. We cover ${formattedArea} and all surrounding postcodes.`
         ]}

@@ -161,7 +161,7 @@ export default function SuburbGutterCleaningPage({ data }: { data: SuburbPageDat
       <section className="py-16 px-4 bg-slate-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-black text-center text-slate-900 mb-10">
-            What You Get With WOW Gutters in {data.city}
+            What You Get With WOW Gutters Ltd in {data.city}
           </h2>
           <ul className="grid sm:grid-cols-2 gap-4">
             {guarantees.map((g) => (

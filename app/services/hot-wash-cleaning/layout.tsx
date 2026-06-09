@@ -5,7 +5,7 @@ import PageSchema from '@/components/seo/PageSchema';
 import TopPageAreaLinks from '@/components/seo/TopPageAreaLinks';
 
 export const metadata: Metadata = buildMetadata({
-  absoluteTitle: 'Hot Wash Cleaning | WOW Gutters',
+  absoluteTitle: 'Hot Wash Cleaning | WOW Gutters Ltd',
   description:
     'Industrial hot wash cleaning for gutters, fascias, driveways and UPVC across Birmingham and the West Midlands.',
   canonicalPath: '/services/hot-wash-cleaning/',

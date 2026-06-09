@@ -155,8 +155,8 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         }}
       />
       <Head>
-        <title>Professional {service.name} | WOW Gutters</title>
-        <meta name="description" content={`Professional ${service.name.toLowerCase()} with WOW Gutters. ${service.heroDescription.substring(0, 150)}...`} />
+        <title>Professional {service.name} | WOW Gutters Ltd</title>
+        <meta name="description" content={`Professional ${service.name.toLowerCase()} with WOW Gutters Ltd. ${service.heroDescription.substring(0, 150)}...`} />
         <meta property="og:title" content={`${service.name} Services - WowGutters`} />
         <meta property="og:description" content={service.heroDescription.substring(0, 160)} />
         <meta property="og:type" content="website" />

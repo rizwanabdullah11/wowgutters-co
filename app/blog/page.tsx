@@ -74,7 +74,7 @@ export default function BlogPage() {
           </div>
 
           <h1 className="hero-title animate-fade-in-up delay-100">
-            <span className="title-prefix">WOW Gutters Blog —</span>{' '}
+            <span className="title-prefix">WOW Gutters Ltd Blog —</span>{' '}
             <span className="title-service" style={{ color: colors.primary }}>Expert Tips & Guides</span>
           </h1>
 

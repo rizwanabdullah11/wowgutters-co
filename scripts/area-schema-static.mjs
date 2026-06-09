@@ -53,7 +53,7 @@ function buildAreaWebPageNode(url, name) {
     '@id': `${url}#webpage`,
     url,
     name,
-    isPartOf: { '@type': 'WebSite', '@id': `${SITE}/#website`, name: 'WOW Gutters', url: SITE },
+    isPartOf: { '@type': 'WebSite', '@id': `${SITE}/#website`, name: 'WOW Gutters Ltd', url: SITE },
     about: { '@id': `${url}#business` },
     datePublished: SCHEMA_DATE_PUBLISHED,
     dateModified: SCHEMA_DATE_MODIFIED,
@@ -180,7 +180,7 @@ export function buildLocalBusinessSchemaGraph({
         potentialAction: { '@type': 'CommunicateAction', target: 'tel:+447421433910' },
         dateModified: SCHEMA_DATE_MODIFIED,
       },
-      buildAreaWebPageNode(url, `Gutter Cleaning ${city} | WOW Gutters`),
+      buildAreaWebPageNode(url, `Gutter Cleaning ${city} | WOW Gutters Ltd`),
       {
         '@type': 'Service',
         '@id': `${url}#service`,

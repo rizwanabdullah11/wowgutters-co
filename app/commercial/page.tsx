@@ -4,7 +4,7 @@ import ServiceDetailPage from '@/components/services/ServiceDetailPage';
 import { getServiceById } from '@/constants/servicesData';
 
 export const metadata: Metadata = {
-  title: 'Commercial Gutter Cleaning | Businesses & Offices | WOW Gutters',
+  title: 'Commercial Gutter Cleaning | Businesses & Offices | WOW Gutters Ltd',
   description:
     'Commercial gutter cleaning for offices, retail & industrial sites. Flexible scheduling, same day booking, competitive rates. Get a quote.',
   alternates: {

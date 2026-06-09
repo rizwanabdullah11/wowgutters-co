@@ -442,7 +442,7 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
                 {post.author && (
                   <>
                     <span className="hidden sm:inline">|</span>
-                    <span>Reviewed by: <strong className="text-gray-700">WOW Gutters Technical Team</strong></span>
+                    <span>Reviewed by: <strong className="text-gray-700">WOW Gutters Ltd Technical Team</strong></span>
                   </>
                 )}
               </div>
@@ -567,15 +567,15 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-900 text-lg">{post.author}</h4>
-                    <p className="text-sm text-gray-600">{post.authorRole || 'Senior Gutter Technician at WOW Gutters'}</p>
+                    <p className="text-sm text-gray-600">{post.authorRole || 'Senior Gutter Technician at WOW Gutters Ltd'}</p>
                   </div>
                 </div>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  {post.authorBio || `Written by ${post.author}, Senior Gutter Technician at WOW Gutters. Our blog content is reviewed for technical accuracy and written to help homeowners understand gutter cleaning, repairs, and roofline maintenance.`}
+                  {post.authorBio || `Written by ${post.author}, Senior Gutter Technician at WOW Gutters Ltd. Our blog content is reviewed for technical accuracy and written to help homeowners understand gutter cleaning, repairs, and roofline maintenance.`}
                 </p>
                 {post.lastUpdated && (
                   <p className="mt-3 text-xs text-gray-500">
-                    Last updated: <time dateTime={post.lastUpdated}>{formatBlogDate(post.lastUpdated)}</time> · Reviewed by: WOW Gutters Technical Team
+                    Last updated: <time dateTime={post.lastUpdated}>{formatBlogDate(post.lastUpdated)}</time> · Reviewed by: WOW Gutters Ltd Technical Team
                   </p>
                 )}
               </div>

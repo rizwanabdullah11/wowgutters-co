@@ -5,9 +5,9 @@ import PageSchema from '@/components/seo/PageSchema';
 import TopPageAreaLinks from '@/components/seo/TopPageAreaLinks';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Windows & Frames Cleaning | WOW Gutters',
+  title: 'Windows & Frames Cleaning | WOW Gutters Ltd',
   description:
-    'Professional windows and uPVC frames cleaning with hot purified water across Birmingham and the West Midlands. Streak-free finish from WOW Gutters.',
+    'Professional windows and uPVC frames cleaning with hot purified water across Birmingham and the West Midlands. Streak-free finish from WOW Gutters Ltd.',
   canonicalPath: '/windows-cleaning/',
 });
 

@@ -13,14 +13,14 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     title: 'Gutter Cleaning Alum Rock Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Alum Rock, Birmingham (B8). No ladders, vacuum system, before & after photos. From £50. Call WOW Gutters: 07421 433910.',
-    url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters',
-    images: [{ url: 'https://wowgutters.co.uk/og/alum-rock.jpg', width: 1200, height: 630, alt: 'WOW Gutters — Gutter Cleaning Alum Rock Birmingham' }],
+    description: 'Professional gutter cleaning in Alum Rock, Birmingham (B8). No ladders, vacuum system, before & after photos. From £50. Call WOW Gutters Ltd: 07421 433910.',
+    url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters Ltd',
+    images: [{ url: 'https://wowgutters.co.uk/og/alum-rock.jpg', width: 1200, height: 630, alt: 'WOW Gutters Ltd — Gutter Cleaning Alum Rock Birmingham' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning Alum Rock Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Alum Rock B8. From £50. No ladders, before & after photos. Call WOW Gutters: 07421 433910.',
+    description: 'Professional gutter cleaning in Alum Rock B8. From £50. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/alum-rock.jpg'],
   },
 }

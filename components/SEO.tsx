@@ -18,7 +18,7 @@ export function generateSEOMetadata({
   noindex = false,
 }: SEOProps): Metadata {
   const baseUrl = 'https://wowgutters.co.uk';
-  const fullTitle = `${title} | WOW Gutters`;
+  const fullTitle = `${title} | WOW Gutters Ltd`;
   
   return {
     title: fullTitle,
@@ -41,7 +41,7 @@ export function generateSEOMetadata({
       title: fullTitle,
       description,
       url: canonical ? `${baseUrl}${canonical}` : baseUrl,
-      siteName: 'WOW Gutters',
+      siteName: 'WOW Gutters Ltd',
       images: [
         {
           url: ogImage,
@@ -123,7 +123,7 @@ export function generateServiceSchema(serviceName: string, description: string) 
     description: description,
     provider: {
       '@type': 'LocalBusiness',
-      name: 'WOW Gutters',
+      name: 'WOW Gutters Ltd',
       telephone: '+447421433910',
       url: 'https://wowgutters.co.uk',
     },

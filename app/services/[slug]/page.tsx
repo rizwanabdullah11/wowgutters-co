@@ -26,7 +26,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   }
 
   return buildMetadata({
-    title: `Professional ${service.name} | WOW Gutters`,
+    title: `Professional ${service.name} | WOW Gutters Ltd`,
     description: service.heroDescription,
     canonicalPath: `/services/${service.id}/`,
   });

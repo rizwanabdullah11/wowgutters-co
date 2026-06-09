@@ -32,8 +32,8 @@ export const servicesData: ServiceDetail[] = [
     heroDescription: 'Expert gutter cleaning across Birmingham and the West Midlands. Ground-level vacuum system, no ladders, up to 4-storey reach. Before & after photos, downpipe clearing included, 1-year guarantee. Same-day booking available.',
     sections: [
       {
-        title: 'Why Choose WOW Gutters for Gutter Cleaning?',
-        content: 'WOW Gutters uses a professional ground-level vacuum system to clean your gutters safely and thoroughly — no ladders placed against your property, no risk of fascia damage, and no mess left behind. Our high-reach equipment reaches up to 4 storeys, making us the ideal choice for homes, flats, and commercial buildings across Birmingham and the West Midlands.',
+        title: 'Why Choose WOW Gutters Ltd for Gutter Cleaning?',
+        content: 'WOW Gutters Ltd uses a professional ground-level vacuum system to clean your gutters safely and thoroughly — no ladders placed against your property, no risk of fascia damage, and no mess left behind. Our high-reach equipment reaches up to 4 storeys, making us the ideal choice for homes, flats, and commercial buildings across Birmingham and the West Midlands.',
         image: '/gutter-cleaning.jpeg',
         imagePosition: 'right',
         bulletPoints: [
@@ -47,7 +47,7 @@ export const servicesData: ServiceDetail[] = [
       },
       {
         title: 'What\'s Included in Our Gutter Cleaning Service',
-        content: 'Every WOW Gutters cleaning service follows the same professional process, ensuring your gutters are completely clear and functioning properly:',
+        content: 'Every WOW Gutters Ltd cleaning service follows the same professional process, ensuring your gutters are completely clear and functioning properly:',
         image: '/gutter-repair-after.jpeg',
         imagePosition: 'left',
         bulletPoints: [
@@ -116,7 +116,7 @@ export const servicesData: ServiceDetail[] = [
       },
       {
         title: 'Areas We Cover',
-        content: 'WOW Gutters provides professional gutter cleaning services across Birmingham, the West Midlands, and Worcestershire. We cover all major towns and cities including:',
+        content: 'WOW Gutters Ltd provides professional gutter cleaning services across Birmingham, the West Midlands, and Worcestershire. We cover all major towns and cities including:',
         image: '/blog4.png',
         imagePosition: 'right',
         bulletPoints: [
@@ -130,7 +130,7 @@ export const servicesData: ServiceDetail[] = [
       },
       {
         title: 'What Our Customers Say',
-        content: 'WOW Gutters is rated 4.9 out of 5 based on over 2,696 verified Google reviews. Our customers consistently praise our professionalism, quality of work, and transparent pricing.',
+        content: 'WOW Gutters Ltd is rated 4.9 out of 5 based on over 2,696 verified Google reviews. Our customers consistently praise our professionalism, quality of work, and transparent pricing.',
         image: '/blog5.png',
         imagePosition: 'left',
         bulletPoints: [
@@ -442,7 +442,7 @@ export const servicesData: ServiceDetail[] = [
     icon: '🔩',
     heroImage: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920',
     heroTitle: 'Professional Gutter Installation',
-    heroDescription: 'New uPVC gutter and downpipe systems measured, supplied and fitted by WOW Gutters. Quality materials, professional finish, 10-year warranty on parts.',
+    heroDescription: 'New uPVC gutter and downpipe systems measured, supplied and fitted by WOW Gutters Ltd. Quality materials, professional finish, 10-year warranty on parts.',
     sections: [
       {
         title: 'Why Replace Your Gutters?',
@@ -458,7 +458,7 @@ export const servicesData: ServiceDetail[] = [
       },
       {
         title: 'What\'s Included in Our Installation',
-        content: 'Every WOW Gutters installation includes:',
+        content: 'Every WOW Gutters Ltd installation includes:',
         image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800',
         imagePosition: 'right',
         bulletPoints: [

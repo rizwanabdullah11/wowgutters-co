@@ -14,14 +14,14 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     title: 'Gutter Cleaning West Heath, Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in West Heath, Birmingham (B31). No ladders, vacuum system, before & after photos. From £50. Call WOW Gutters: 07421 433910.',
-    url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters',
-    images: [{ url: 'https://wowgutters.co.uk/og/west-heath.jpg', width: 1200, height: 630, alt: 'WOW Gutters — Gutter Cleaning West Heath Birmingham' }],
+    description: 'Professional gutter cleaning in West Heath, Birmingham (B31). No ladders, vacuum system, before & after photos. From £50. Call WOW Gutters Ltd: 07421 433910.',
+    url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters Ltd',
+    images: [{ url: 'https://wowgutters.co.uk/og/west-heath.jpg', width: 1200, height: 630, alt: 'WOW Gutters Ltd — Gutter Cleaning West Heath Birmingham' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning West Heath, Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in West Heath B31. From £50. No ladders, before & after photos. Call WOW Gutters: 07421 433910.',
+    description: 'Professional gutter cleaning in West Heath B31. From £50. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/west-heath.jpg'],
   },
 }
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const howToSchema = {
   '@context': 'https://schema.org',
   '@type': 'HowTo',
-  name: 'How WOW Gutters Cleans Your Gutters in West Heath',
+  name: 'How WOW Gutters Ltd Cleans Your Gutters in West Heath',
   description: 'Our 4-step professional gutter cleaning process for West Heath, Birmingham properties',
   step: [
     { '@type': 'HowToStep', position: 1, name: 'Assessment', text: 'We inspect your gutters and downpipes before starting, identifying all blockages, damaged sections and areas of concern. For West Heath\'s interwar and post-war properties we also check original and early-replacement uPVC systems for joint wear.' },

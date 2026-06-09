@@ -67,7 +67,7 @@ export default function CitationsHubContent() {
       <section>
         <h2 className="text-2xl font-black text-slate-900">Service area</h2>
         <p className="mt-3 text-slate-600 leading-relaxed">
-          WOW Gutters operates across Birmingham and the wider West Midlands — including Coventry, Wolverhampton,
+          WOW Gutters Ltd operates across Birmingham and the wider West Midlands — including Coventry, Wolverhampton,
           Walsall, Dudley, Sandwell, Solihull, Worcester, Redditch, and 200+ neighbourhood pages on this site. The map
           below shows our Birmingham base; technicians route daily across the region.
         </p>
@@ -154,14 +154,14 @@ export default function CitationsHubContent() {
             <p className="mt-2 text-sm text-slate-700 leading-relaxed">
               &quot;Thank you, [Name] — we&apos;re glad the gutter clean in [Area] went well. The before &amp; after
               photos are there so you can see the full clear. If you need us again before autumn, just call 07421
-              433910. — WOW Gutters&quot;
+              433910. — WOW Gutters Ltd&quot;
             </p>
           </div>
           <div className="rounded-xl border border-amber-100 bg-amber-50/50 p-5">
             <p className="text-sm font-bold uppercase tracking-wide text-amber-900">Constructive feedback</p>
             <p className="mt-2 text-sm text-slate-700 leading-relaxed">
               &quot;Thank you for your honest feedback, [Name]. We take service quality seriously — please email
-              support@wowgutters.co.uk or call 07421 433910 so we can put this right. — WOW Gutters&quot;
+              support@wowgutters.co.uk or call 07421 433910 so we can put this right. — WOW Gutters Ltd&quot;
             </p>
           </div>
         </div>
@@ -190,7 +190,7 @@ export default function CitationsHubContent() {
       <section id="backlink-audit">
         <h2 className="text-2xl font-black text-slate-900">Backlink health (monthly audit)</h2>
         <p className="mt-3 text-slate-600 leading-relaxed">
-          Toxic or spammy links should be reviewed in Google Search Console, not ignored. WOW Gutters earns links
+          Toxic or spammy links should be reviewed in Google Search Console, not ignored. WOW Gutters Ltd earns links
           through citations, reviews, and local press — disavow only domains that are clearly malicious (gambling,
           pharma, foreign scraper sites with zero relevance).
         </p>
@@ -217,7 +217,7 @@ export default function CitationsHubContent() {
         <h2 className="text-2xl font-black text-slate-900">Competitor backlink gaps ({PRIMARY_COMPETITOR.name})</h2>
         <p className="mt-3 text-slate-600 leading-relaxed">
           Gap analysis vs <strong>{PRIMARY_COMPETITOR.domain}</strong> — {PRIMARY_COMPETITOR.note} Target the same
-          reputable categories with WOW Gutters NAP and a link to the matching{' '}
+          reputable categories with WOW Gutters Ltd NAP and a link to the matching{' '}
           <Link href="/service-areas/" className="font-semibold text-emerald-700 underline underline-offset-2">
             area page
           </Link>{' '}
