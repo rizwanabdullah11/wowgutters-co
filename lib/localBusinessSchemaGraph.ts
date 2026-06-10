@@ -5,6 +5,9 @@
 import { SCHEMA_DATE_MODIFIED, SCHEMA_DATE_PUBLISHED } from '@/lib/schemaDates';
 import { buildAreaWebPageNode } from '@/lib/pageSchemaGraphs';
 import { buildReviewSchemaFields } from '@/lib/reviewSchema';
+import type { AreaServiceKind } from '@/lib/areaServiceMeta';
+import { AREA_SERVICE_META } from '@/lib/areaServiceMeta';
+import { buildRoofSchemaFaqs } from '@/lib/roofCityFaqs';
 
 export type SchemaFaq = { question: string; answer: string };
 
@@ -17,6 +20,9 @@ export type LocalBusinessSchemaInput = {
   geo: { latitude: number; longitude: number };
   faqs?: SchemaFaq[];
   postcodes?: string[];
+  /** Defaults to gutter cleaning when omitted */
+  serviceKind?: AreaServiceKind;
+  slug?: string;
 };
 
 const LOGO_URL = 'https://wowgutters.co.uk/favicon.png';
@@ -65,14 +71,38 @@ export function buildDefaultFaqs(
 
 export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
   const postcodes = input.postcodes ?? [];
+  const serviceKind = input.serviceKind ?? 'gutter';
+  const meta = AREA_SERVICE_META[serviceKind];
+  const slug = input.slug ?? input.city.toLowerCase().replace(/\s+/g, '-');
+
   const allFaqs =
     input.faqs && input.faqs.length > 0
       ? input.faqs
-      : buildDefaultFaqs(input.city, input.priceFrom, input.priceTo, postcodes, input.nearbyAreas);
+      : serviceKind === 'roof'
+        ? buildRoofSchemaFaqs({
+            city: input.city,
+            slug,
+            priceFrom: input.priceFrom,
+            priceTo: input.priceTo,
+            postcodes,
+            nearbyAreas: input.nearbyAreas,
+          })
+        : buildDefaultFaqs(input.city, input.priceFrom, input.priceTo, postcodes, input.nearbyAreas);
 
   const { city, url, priceFrom, priceTo, nearbyAreas, geo } = input;
   const businessId = `${url}#business`;
   const { aggregateRating, review } = buildReviewSchemaFields(businessId);
+  const serviceLabel = meta.label;
+
+  const businessDescription =
+    serviceKind === 'roof'
+      ? `Professional roof cleaning in ${city}. Soft-wash moss removal, biocide treatment, before & after photos, fully insured. Call 07421 433910.`
+      : `Professional gutter cleaning in ${city}. Ground-level vacuum, before & after photos, 1-year guarantee, fully insured. Call 07421 433910.`;
+
+  const serviceDescription =
+    serviceKind === 'roof'
+      ? `Professional roof cleaning in ${city}. Soft-wash moss and algae removal, biocide treatment, before & after photos, fully insured.`
+      : `Professional gutter cleaning in ${city}. Ground-level vacuum, no ladders, up to 4 storeys, before & after photos, downpipes cleared, 1-year guarantee.`;
 
   return {
     '@context': 'https://schema.org',
@@ -81,7 +111,7 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
         '@type': 'HomeAndConstructionBusiness',
         '@id': businessId,
         name: `WOW Gutters Ltd — ${city}`,
-        description: `Professional gutter cleaning in ${city}. Ground-level vacuum, before & after photos, 1-year guarantee, fully insured. Call 07421 433910.`,
+        description: businessDescription,
         url,
         telephone: '+447421433910',
         email: 'support@wowgutters.co.uk',
@@ -145,13 +175,13 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
         },
         dateModified: SCHEMA_DATE_MODIFIED,
       },
-      buildAreaWebPageNode(url, `Gutter Cleaning ${city} | WOW Gutters Ltd`),
+      buildAreaWebPageNode(url, `${serviceLabel} ${city} | WOW Gutters Ltd`),
       {
         '@type': 'Service',
         '@id': `${url}#service`,
-        name: `Gutter Cleaning ${city}`,
-        serviceType: 'Gutter cleaning',
-        description: `Professional gutter cleaning in ${city}. Ground-level vacuum, no ladders, up to 4 storeys, before & after photos, downpipes cleared, 1-year guarantee.`,
+        name: `${serviceLabel} ${city}`,
+        serviceType: serviceLabel,
+        description: serviceDescription,
         provider: { '@id': `${url}#business` },
         areaServed: { '@type': 'City', name: city },
         url,
@@ -186,13 +216,13 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
           {
             '@type': 'ListItem',
             position: 2,
-            name: 'Gutter Cleaning',
-            item: 'https://wowgutters.co.uk/help/unblock/',
+            name: meta.schemaHubLabel,
+            item: meta.schemaHubHref,
           },
           {
             '@type': 'ListItem',
             position: 3,
-            name: `Gutter Cleaning ${city}`,
+            name: `${serviceLabel} ${city}`,
             item: url,
           },
         ],

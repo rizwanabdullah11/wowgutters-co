@@ -901,7 +901,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Gutter cleaning Redditch', href: '/gutter-cleaning/redditch' },
       { label: 'Gutter cleaning Worcester', href: '/gutter-cleaning/worcester' },
       { label: 'Gutter cleaning Cheltenham', href: '/gutter-cleaning/cheltenham' },
-      { label: 'Roof cleaning Evesham', href: '/roof-cleaning/evesham' },
+      { label: 'Roof cleaning Evesham', href: '/roof-cleaning-evesham/' },
       { label: 'Gutter cleaning Stratford-upon-Avon', href: '/gutter-cleaning/stratford-upon-avon' },
     ],
     ctaHeading: 'Book Your Gutter Clean in Evesham \u201D Free Quote in 60 Seconds',

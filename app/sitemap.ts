@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
+import { AREA_SLUGS, areaPath, roofAreaPath } from '@/lib/areaSlugs';
 import { blogPosts } from '@/constants/blogData';
 import { servicesData } from '@/constants/servicesData';
 import { CONTENT_LAST_UPDATED_ISO } from '@/lib/contentFreshness';
@@ -45,7 +45,7 @@ function lastModForRoute(route: string, fallback: Date): Date {
   if (FRESH_SERVICE_ROUTES.has(route)) {
     return new Date(`${CONTENT_LAST_UPDATED_ISO}T12:00:00.000Z`);
   }
-  const areaSlug = route.match(/^\/gutter-cleaning-(.+)$/)?.[1];
+  const areaSlug = route.match(/^\/(?:gutter|roof)-cleaning-(.+)$/)?.[1];
   if (areaSlug) {
     const base = new Date('2026-05-20T09:00:00.000Z');
     const offset = [...areaSlug].reduce((n, c) => n + c.charCodeAt(0), 0) % 12;
@@ -134,14 +134,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'wendover',
   ];
 
-  const areaRoutes = AREA_SLUGS
-    .filter((slug) => !EXCLUDED_DOORWAY_PAGES.includes(slug))
-    .map((slug) => ({
+  const areaRoutes = AREA_SLUGS.filter((slug) => !EXCLUDED_DOORWAY_PAGES.includes(slug)).flatMap((slug) => [
+    {
       url: withTrailingSlash(areaPath(slug)),
       lastModified: lastModForRoute(areaPath(slug), lastUpdated),
       changeFrequency: 'monthly' as const,
       priority: 0.85,
-    }));
+    },
+    {
+      url: withTrailingSlash(roofAreaPath(slug)),
+      lastModified: lastModForRoute(roofAreaPath(slug), lastUpdated),
+      changeFrequency: 'monthly' as const,
+      priority: 0.85,
+    },
+  ]);
 
   const blogRoutes = blogPosts.map((post) => {
     let postDate = lastUpdated;

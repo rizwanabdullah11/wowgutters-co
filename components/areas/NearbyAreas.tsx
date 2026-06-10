@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { nearbyAreas } from '@/lib/areaLinks';
+import { AREA_SERVICE_META, type AreaServiceKind } from '@/lib/areaServiceMeta';
 
 function toAreaTitle(slug: string) {
   return slug
@@ -8,9 +9,23 @@ function toAreaTitle(slug: string) {
     .join(' ');
 }
 
-export default function NearbyAreas({ area }: { area: string }) {
+function toServiceSlug(gutterSlug: string, serviceKind: AreaServiceKind): string {
+  if (serviceKind === 'roof') {
+    return gutterSlug.replace(/^gutter-cleaning-/, 'roof-cleaning-');
+  }
+  return gutterSlug;
+}
+
+export default function NearbyAreas({
+  area,
+  serviceKind = 'gutter',
+}: {
+  area: string;
+  serviceKind?: AreaServiceKind;
+}) {
   const key = area.toLowerCase();
   const links = nearbyAreas[key] ?? [];
+  const meta = AREA_SERVICE_META[serviceKind];
   if (!links.length) return null;
 
   return (
@@ -23,10 +38,10 @@ export default function NearbyAreas({ area }: { area: string }) {
           {links.map((link) => (
             <li key={link.slug}>
               <Link
-                href={`/${link.slug}/`}
+                href={`/${toServiceSlug(link.slug, serviceKind)}/`}
                 className="px-4 py-2 rounded-full bg-slate-50 border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
               >
-                Gutter Cleaning {link.name}
+                {meta.nearbyLinkPrefix} {link.name}
               </Link>
             </li>
           ))}

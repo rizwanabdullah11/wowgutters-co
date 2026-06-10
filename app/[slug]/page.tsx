@@ -8,10 +8,17 @@ import {
   renderGeneratedAreaLanding,
   renderSuburbLanding,
 } from '@/components/areas/CityGutterCleaningRoutes';
+import {
+  renderBirminghamRoofLanding,
+  renderRoofCityLanding,
+  renderRoofGeneratedAreaLanding,
+  renderRoofSuburbLanding,
+} from '@/components/areas/CityRoofCleaningRoutes';
 import { getSuburbPageForSlug } from '@/lib/suburbPageData';
 import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
 import { buildAreaLandingFromSlug } from '@/lib/buildAreaLandingFromCity';
-import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
+import { getRoofCityLanding, getRoofGeneratedLanding, getRoofSuburbLanding } from '@/lib/roofAreaContent';
+import { AREA_SLUGS, areaPath, roofAreaPath } from '@/lib/areaSlugs';
 import { buildMetadata } from '@/lib/seo';
 
 interface PageProps {
@@ -20,15 +27,19 @@ interface PageProps {
   }>;
 }
 
-const AREA_PREFIX = 'gutter-cleaning-';
+const GUTTER_PREFIX = 'gutter-cleaning-';
+const ROOF_PREFIX = 'roof-cleaning-';
 const slugSet = new Set(AREA_SLUGS);
 
-function getAreaSlug(slug: string): string | null {
-  if (!slug.startsWith(AREA_PREFIX)) {
-    return null;
-  }
+function getGutterAreaSlug(slug: string): string | null {
+  if (!slug.startsWith(GUTTER_PREFIX)) return null;
+  const areaSlug = slug.slice(GUTTER_PREFIX.length);
+  return slugSet.has(areaSlug) ? areaSlug : null;
+}
 
-  const areaSlug = slug.slice(AREA_PREFIX.length);
+function getRoofAreaSlug(slug: string): string | null {
+  if (!slug.startsWith(ROOF_PREFIX)) return null;
+  const areaSlug = slug.slice(ROOF_PREFIX.length);
   return slugSet.has(areaSlug) ? areaSlug : null;
 }
 
@@ -40,17 +51,13 @@ function formatAreaName(slug: string): string {
 }
 
 export async function generateStaticParams() {
-  return AREA_SLUGS.map((slug) => ({ slug: `${AREA_PREFIX}${slug}` }));
+  return [
+    ...AREA_SLUGS.map((slug) => ({ slug: `${GUTTER_PREFIX}${slug}` })),
+    ...AREA_SLUGS.map((slug) => ({ slug: `${ROOF_PREFIX}${slug}` })),
+  ];
 }
 
-export async function generateMetadata(props: PageProps): Promise<Metadata> {
-  const params = await props.params;
-  const areaSlug = getAreaSlug(params.slug);
-
-  if (!areaSlug) {
-    return { title: 'Not found' };
-  }
-
+function buildGutterMetadata(areaSlug: string): Metadata {
   const areaName = formatAreaName(areaSlug);
 
   if (areaSlug === 'birmingham') {
@@ -105,48 +112,133 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   });
 }
 
+function buildRoofMetadata(areaSlug: string): Metadata {
+  const areaName = formatAreaName(areaSlug);
+  const roofCity = getRoofCityLanding(areaSlug);
+  const roofSuburb = getRoofSuburbLanding(areaSlug);
+
+  if (areaSlug === 'birmingham') {
+    return buildMetadata({
+      absoluteTitle: 'Roof Cleaning Birmingham | Professional Moss Removal | WOW Gutters Ltd',
+      description:
+        'Professional roof cleaning in Birmingham from £150. Soft-wash moss removal, biocide treatment, before & after photos. Fully insured. Call WOW Gutters Ltd: 07421 433910.',
+      canonicalPath: roofAreaPath(areaSlug),
+      ogImagePath: '/roof-cleaning.JPG',
+    });
+  }
+
+  if (roofCity) {
+    return buildMetadata({
+      absoluteTitle: roofCity.titleTag,
+      description: roofCity.metaDescription,
+      canonicalPath: roofAreaPath(areaSlug),
+      ogImagePath: '/roof-cleaning.JPG',
+    });
+  }
+
+  if (roofSuburb) {
+    const intro = roofSuburb.whyParagraphs[0] ?? '';
+    const description =
+      intro.length > 155 ? `${intro.slice(0, 152).trim()}…` : intro ||
+      `Professional roof cleaning in ${roofSuburb.city}. Moss removal, biocide treatment, before & after photos. Call 07421 433910.`;
+    return buildMetadata({
+      absoluteTitle: `${roofSuburb.heroTitleLine1} | WOW Gutters Ltd`,
+      description,
+      canonicalPath: roofAreaPath(areaSlug),
+      ogImagePath: '/roof-cleaning.JPG',
+    });
+  }
+
+  const roofGenerated = getRoofGeneratedLanding(areaSlug);
+  if (roofGenerated) {
+    return buildMetadata({
+      absoluteTitle: roofGenerated.titleTag,
+      description: roofGenerated.metaDescription,
+      canonicalPath: roofAreaPath(areaSlug),
+      ogImagePath: '/roof-cleaning.JPG',
+    });
+  }
+
+  return buildMetadata({
+    title: `Roof Cleaning ${areaName}`,
+    description: `Professional roof cleaning and moss removal in ${areaName}. Soft-wash methods from £150. Call WOW Gutters Ltd: 07421 433910.`,
+    canonicalPath: roofAreaPath(areaSlug),
+    ogImagePath: '/roof-cleaning.JPG',
+  });
+}
+
+export async function generateMetadata(props: PageProps): Promise<Metadata> {
+  const params = await props.params;
+
+  const gutterSlug = getGutterAreaSlug(params.slug);
+  if (gutterSlug) return buildGutterMetadata(gutterSlug);
+
+  const roofSlug = getRoofAreaSlug(params.slug);
+  if (roofSlug) return buildRoofMetadata(roofSlug);
+
+  return { title: 'Not found' };
+}
+
 export default async function SingleSegmentAreaPage(props: PageProps) {
   const params = await props.params;
-  const areaSlug = getAreaSlug(params.slug);
 
-  if (!areaSlug) {
+  const gutterAreaSlug = getGutterAreaSlug(params.slug);
+  if (gutterAreaSlug) {
+    if (gutterAreaSlug === 'birmingham') {
+      const url = 'https://wowgutters.co.uk/gutter-cleaning-birmingham/';
+      return (
+        <>
+          <LocalBusinessSchema
+            city="Birmingham"
+            url={url}
+            priceFrom={50}
+            priceTo={120}
+            nearbyAreas={['Solihull', 'Sutton Coldfield', 'Wolverhampton', 'Walsall', 'Dudley', 'West Bromwich']}
+            geo={{ latitude: 52.4862, longitude: -1.8904 }}
+            postcodes={['B1', 'B13', 'B14', 'B15', 'B16', 'B17', 'B23', 'B27', 'B28', 'B29', 'B31', 'B43', 'B73', 'B74', 'B76']}
+            faqs={buildCitySchemaFaqs({
+              city: 'Birmingham',
+              slug: 'birmingham',
+              priceFrom: 50,
+              priceTo: 120,
+              postcodes: ['B1', 'B13', 'B14', 'B15', 'B16', 'B17', 'B23', 'B27', 'B28', 'B29', 'B31', 'B43', 'B73', 'B74', 'B76'],
+              nearbyAreas: ['Solihull', 'Sutton Coldfield', 'Wolverhampton', 'Walsall', 'Dudley', 'West Bromwich'],
+            })}
+          />
+          <BirminghamGutterCleaningPage />
+        </>
+      );
+    }
+
+    const maybeCity = renderCityLanding(gutterAreaSlug);
+    if (maybeCity) return maybeCity;
+
+    const maybeSuburb = renderSuburbLanding(gutterAreaSlug);
+    if (maybeSuburb) return maybeSuburb;
+
+    const generated = renderGeneratedAreaLanding(gutterAreaSlug);
+    if (generated) return generated;
+
     notFound();
   }
 
-  if (areaSlug === 'birmingham') {
-    const url = 'https://wowgutters.co.uk/gutter-cleaning-birmingham/';
-    return (
-      <>
-        <LocalBusinessSchema
-          city="Birmingham"
-          url={url}
-          priceFrom={50}
-          priceTo={120}
-          nearbyAreas={['Solihull', 'Sutton Coldfield', 'Wolverhampton', 'Walsall', 'Dudley', 'West Bromwich']}
-          geo={{ latitude: 52.4862, longitude: -1.8904 }}
-          postcodes={['B1', 'B13', 'B14', 'B15', 'B16', 'B17', 'B23', 'B27', 'B28', 'B29', 'B31', 'B43', 'B73', 'B74', 'B76']}
-          faqs={buildCitySchemaFaqs({
-            city: 'Birmingham',
-            slug: 'birmingham',
-            priceFrom: 50,
-            priceTo: 120,
-            postcodes: ['B1', 'B13', 'B14', 'B15', 'B16', 'B17', 'B23', 'B27', 'B28', 'B29', 'B31', 'B43', 'B73', 'B74', 'B76'],
-            nearbyAreas: ['Solihull', 'Sutton Coldfield', 'Wolverhampton', 'Walsall', 'Dudley', 'West Bromwich'],
-          })}
-        />
-        <BirminghamGutterCleaningPage />
-      </>
-    );
+  const roofAreaSlug = getRoofAreaSlug(params.slug);
+  if (roofAreaSlug) {
+    if (roofAreaSlug === 'birmingham') {
+      return renderBirminghamRoofLanding();
+    }
+
+    const maybeCity = renderRoofCityLanding(roofAreaSlug);
+    if (maybeCity) return maybeCity;
+
+    const maybeSuburb = renderRoofSuburbLanding(roofAreaSlug);
+    if (maybeSuburb) return maybeSuburb;
+
+    const generated = renderRoofGeneratedAreaLanding(roofAreaSlug);
+    if (generated) return generated;
+
+    notFound();
   }
-
-  const maybeCity = renderCityLanding(areaSlug);
-  if (maybeCity) return maybeCity;
-
-  const maybeSuburb = renderSuburbLanding(areaSlug);
-  if (maybeSuburb) return maybeSuburb;
-
-  const generated = renderGeneratedAreaLanding(areaSlug);
-  if (generated) return generated;
 
   notFound();
 }
