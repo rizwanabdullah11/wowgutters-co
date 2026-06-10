@@ -24,7 +24,7 @@ const ctaBox = `
 </div>`;
 
 export const ladywoodBlogPost: BlogPost = {
-  id: 'gutter-cleaning-ladywood-b16-birmingham',
+  id: 'gutter-cleaning-ladywood',
   seoTitle: 'Gutter Cleaning Ladywood B16 Birmingham | Wow Gutters Ltd',
   title:
     "Gutter Cleaning in Ladywood B16 — Professional Maintenance Across Birmingham's Most Varied Postcode",
