@@ -9,6 +9,7 @@ import AreaFAQ from '@/components/areas/AreaFAQ';
 import AreaReviews from '@/components/areas/AreaReviews';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import { formatBlogDate } from '@/lib/dateUtils';
+import { resolveBlogImageUrl } from '@/lib/blogImageUrl';
 
 // ── Accordion item ──────────────────────────────────────────────────────────
 function AccordionItem({ question, answer }: { question: string; answer: string }) {
@@ -187,7 +188,7 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
         'description': post.excerpt,
         'image': {
           '@type': 'ImageObject',
-          'url': `https://wowgutters.co.uk${post.image}`,
+          'url': resolveBlogImageUrl(post.image),
           'width': 1200,
           'height': 630
         },
@@ -232,7 +233,7 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
         'description': post.excerpt,
         'image': {
           '@type': 'ImageObject',
-          'url': `https://wowgutters.co.uk${post.image}`,
+          'url': resolveBlogImageUrl(post.image),
           'width': 1200,
           'height': 630
         },

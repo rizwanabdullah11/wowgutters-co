@@ -26,6 +26,12 @@ const nextConfig: NextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "impossible-salmon-kblbwhsr.edgeone.app",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };

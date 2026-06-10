@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import { blogPosts } from '@/constants/blogData';
 import BlogDetailContent from '@/components/blog/BlogDetailContent';
+import { resolveBlogImageUrl } from '@/lib/blogImageUrl';
 import { Metadata } from 'next';
 
 interface BlogPageProps {
@@ -65,7 +66,7 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
       title: pageTitle,
       description: post.excerpt,
       images: [{
-        url: `https://wowgutters.co.uk${post.image}`,
+        url: resolveBlogImageUrl(post.image),
         width: 1200,
         height: 630,
         alt: post.title
@@ -82,7 +83,7 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
       card: 'summary_large_image',
       title: pageTitle,
       description: post.excerpt,
-      images: [`https://wowgutters.co.uk${post.image}`],
+      images: [resolveBlogImageUrl(post.image)],
       creator: '@wowgutters',
       site: '@wowgutters'
     },
