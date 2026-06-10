@@ -14,13 +14,15 @@ export default function Navbar() {
   }
 
   const services = [
-    { name: 'Gutter Cleaning', icon: Droplets, href: '/help/unblock' },
-    { name: 'Gutter Repairs', icon: Wrench, href: '/help/repair' },
+    { name: 'Gutter Cleaning', icon: Droplets, href: '/services/gutter-cleaning' },
+    { name: 'Gutter Repairs', icon: Wrench, href: '/services/gutter-repairs' },
     { name: 'Exterior UPVC Cleaning', icon: Circle, href: '/services/upvc-cleaning' },
-    { name: 'Roof Cleaning', icon: Home, href: '/help/clean' },
-    { name: 'Roof & Gutter Inspection', icon: Search, href: '/help/inspect' },
+    { name: 'Roof Cleaning', icon: Home, href: '/services/roof-cleaning' },
+    { name: 'Gutter Inspection', icon: Search, href: '/services/gutter-inspection' },
+    { name: 'Roof Inspection', icon: Search, href: '/services/roof-inspection' },
     { name: 'Conservatory Gutter Replacement', icon: Hammer, href: '/services/conservatory' },
-    { name: 'Commercial Gutter Cleaning', icon: Building, href: '/commercial' },
+    { name: 'Commercial Gutter Cleaning', icon: Building, href: '/services/commercial-gutter-cleaning' },
+    { name: 'Commercial Roof Cleaning', icon: Building, href: '/services/commercial-roof-cleaning' },
   ];
 
   return (
@@ -184,9 +186,9 @@ export default function Navbar() {
               <Link href="/contact" className="text-gray-700 hover:text-[#19C58B] transition-colors font-semibold text-[17px] tracking-tight">
                 Contact
               </Link>
-              <Link href="/service-areas/" className="text-gray-700 hover:text-[#19C58B] transition-colors font-semibold text-[17px] tracking-tight">
+              {/* <Link href="/service-areas/" className="text-gray-700 hover:text-[#19C58B] transition-colors font-semibold text-[17px] tracking-tight">
                 Areas
-              </Link>
+              </Link> */}
 
               {/* Services Dropdown */}
               <details className="relative services-details">

@@ -4,9 +4,9 @@ import { buildContactPageSchemaGraph } from '@/lib/pageSchemaGraphs';
 import PageSchema from '@/components/seo/PageSchema';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Contact WOW Gutters',
+  title: 'Contact WOW Gutters Ltd',
   description:
-    'Contact WOW Gutters for gutter cleaning in Birmingham and the West Midlands. Call 07421 433910, email support@wowgutters.co.uk or request a free quote online.',
+    'Contact WOW Gutters Ltd for gutter cleaning in Birmingham and the West Midlands. Call 07421 433910, email support@wowgutters.co.uk or request a free quote online.',
   canonicalPath: '/contact/',
 });
 

@@ -36,7 +36,7 @@ function propertyTypesFor(tone: RegionTone, name: string, nearby: string[]): Cit
       return [
         { label: `Post-war terraces (${name})`, detail: '1950s–70s uPVC runs that trap moss in damp weather. We vacuum from ground level with full downpipe flushing.' },
         { label: `Period semis near ${name} centre`, detail: 'Older rooflines and cast iron remnants need careful clearing — no ladders against brickwork.' },
-        { label: 'University & rental stock', detail: 'Landlords across CV postcodes use WOW Gutters for annual maintenance with photo proof for compliance.' },
+        { label: 'University & rental stock', detail: 'Landlords across CV postcodes use WOW Gutters Ltd for annual maintenance with photo proof for compliance.' },
         { label: `Modern estates bordering ${n}`, detail: 'Long gutter runs and multi-storey sections cleared in one visit up to four storeys.' },
       ];
     case 'walsall':
@@ -93,7 +93,7 @@ function heroIntroFor(input: AreaInput, tone: RegionTone): string {
     solihull: `${name} is in the Solihull borough — village streets, 1930s semis and larger detached homes that benefit from annual professional gutter clearing.`,
   };
 
-  return `${toneLead[tone]} WOW Gutters cleans gutters across ${name} (${pc}) using our ground-level vacuum system — no ladders against your home, before & after photos on every job, and a 1-year service guarantee.${streetBit}${nearbyBit}`;
+  return `${toneLead[tone]} WOW Gutters Ltd cleans gutters across ${name} (${pc}) using our ground-level vacuum system — no ladders against your home, before & after photos on every job, and a 1-year service guarantee.${streetBit}${nearbyBit}`;
 }
 
 function whyBodyFor(input: AreaInput, tone: RegionTone): string[] {
@@ -148,8 +148,8 @@ export function buildAreaLandingFromCity(input: AreaInput): CityGutterLandingDat
   return {
     slug,
     city: name,
-    titleTag: `Gutter Cleaning ${name} | Professional, Safe & Guaranteed | WOW Gutters`,
-    metaDescription: `Professional gutter cleaning in ${name} from £${priceFrom}. Ground-level vacuum, before & after photos, 1-year guarantee. Postcodes ${pcLabel}. Call WOW Gutters: 07421 433910.`,
+    titleTag: `Gutter Cleaning ${name} | Professional, Safe & Guaranteed | WOW Gutters Ltd`,
+    metaDescription: `Professional gutter cleaning in ${name} from £${priceFrom}. Ground-level vacuum, before & after photos, 1-year guarantee. Postcodes ${pcLabel}. Call WOW Gutters Ltd: 07421 433910.`,
     h1: `Gutter Cleaning ${name} — Professional Service Across ${pcLabel}`,
     heroIntro: heroIntroFor(input, tone),
     whyTitle: `Why ${name} Homeowners Choose Professional Gutter Cleaning`,

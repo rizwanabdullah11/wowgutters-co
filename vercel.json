@@ -52,22 +52,22 @@
     },
     {
       "source": "/services/commercial",
-      "destination": "/commercial/",
+      "destination": "/services/commercial-gutter-cleaning/",
       "permanent": true
     },
     {
       "source": "/services/commercial/",
-      "destination": "/commercial/",
+      "destination": "/services/commercial-gutter-cleaning/",
       "permanent": true
     },
     {
       "source": "/services/inspection",
-      "destination": "/help/inspect/",
+      "destination": "/services/gutter-inspection/",
       "permanent": true
     },
     {
       "source": "/services/inspection/",
-      "destination": "/help/inspect/",
+      "destination": "/services/gutter-inspection/",
       "permanent": true
     },
     {

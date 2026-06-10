@@ -3,7 +3,7 @@
 *Last updated: 2026-04-28*
 
 ## Product Overview
-**One-liner:** WOW Gutters provides fast, safe, ladder-free gutter cleaning and roofline services with quick online quotes and same-day booking.
+**One-liner:** WOW Gutters Ltd provides fast, safe, ladder-free gutter cleaning and roofline services with quick online quotes and same-day booking.
 
 **What it does:** The site markets and sells residential + commercial exterior cleaning services (gutter cleaning, repairs, roof cleaning, fascia/soffit, downpipes, inspections). The primary conversion is getting a **FREE quote** via an on-site quote flow (static export) that submits to Web3Forms.
 

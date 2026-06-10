@@ -14,14 +14,14 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     title: 'Gutter Cleaning Wylde Green, Sutton Coldfield, Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Wylde Green, Sutton Coldfield (B73). No ladders, vacuum system, before & after photos. From £60. Call WOW Gutters: 07421 433910.',
-    url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters',
-    images: [{ url: 'https://wowgutters.co.uk/og/wylde-green.jpg', width: 1200, height: 630, alt: 'WOW Gutters — Gutter Cleaning Wylde Green, Sutton Coldfield, Birmingham' }],
+    description: 'Professional gutter cleaning in Wylde Green, Sutton Coldfield (B73). No ladders, vacuum system, before & after photos. From £60. Call WOW Gutters Ltd: 07421 433910.',
+    url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters Ltd',
+    images: [{ url: 'https://wowgutters.co.uk/og/wylde-green.jpg', width: 1200, height: 630, alt: 'WOW Gutters Ltd — Gutter Cleaning Wylde Green, Sutton Coldfield, Birmingham' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning Wylde Green, Sutton Coldfield, Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Wylde Green B73. From £60. No ladders, before & after photos. Call WOW Gutters: 07421 433910.',
+    description: 'Professional gutter cleaning in Wylde Green B73. From £60. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/wylde-green.jpg'],
   },
 }
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const howToSchema = {
   '@context': 'https://schema.org',
   '@type': 'HowTo',
-  name: 'How WOW Gutters Cleans Your Gutters in Wylde Green',
+  name: 'How WOW Gutters Ltd Cleans Your Gutters in Wylde Green',
   description: 'Our 4-step professional gutter cleaning process for Wylde Green, Sutton Coldfield properties',
   step: [
     { '@type': 'HowToStep', position: 1, name: 'Assessment', text: 'We inspect your gutters and downpipes before starting, identifying all blockages, damaged sections and areas of concern. For Wylde Green\'s Edwardian and period properties we also check original cast iron and early uPVC systems for joint wear.' },

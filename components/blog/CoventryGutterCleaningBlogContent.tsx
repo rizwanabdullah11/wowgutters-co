@@ -7,7 +7,7 @@ export default function CoventryGutterCleaningBlogContent() {
       <h2>Quick Answer</h2>
       <div className="quick-answer-box">
         <p>
-          This is a real WOW Gutters job completed in Coventry on 23 March 2026. The gutters were heavily packed with growing weeds, thick moss, and substantial leaf debris — completely blocking water flow. Our team cleared them 100% from ground level in 23 minutes, with zero ladders used. Gutter cleaning in Coventry starts from £50, with same-day appointments available across all CV postcodes.
+          This is a real WOW Gutters Ltd job completed in Coventry on 23 March 2026. The gutters were heavily packed with growing weeds, thick moss, and substantial leaf debris — completely blocking water flow. Our team cleared them 100% from ground level in 23 minutes, with zero ladders used. Gutter cleaning in Coventry starts from £50, with same-day appointments available across all CV postcodes.
         </p>
       </div>
 
@@ -203,7 +203,7 @@ export default function CoventryGutterCleaningBlogContent() {
         The cost of the professional clean that resolved this Coventry job: under £100. The cost of letting a blockage this severe go untreated for another two seasons: potentially several thousand pounds in structural repairs.
       </p>
 
-      <h2>How WOW Gutters Cleared This Coventry Property in 23 Minutes</h2>
+      <h2>How WOW Gutters Ltd Cleared This Coventry Property in 23 Minutes</h2>
 
       <p>
         This is exactly what our ground-level vacuum system is built for.
@@ -230,7 +230,7 @@ export default function CoventryGutterCleaningBlogContent() {
 
       <h2>Areas We Cover in Coventry</h2>
 
-      <p>WOW Gutters provides gutter cleaning across all CV postcodes, including:</p>
+      <p>WOW Gutters Ltd provides gutter cleaning across all CV postcodes, including:</p>
 
       <ul>
         <li><strong>Earlsdon, Chapelfields</strong> — CV5</li>
@@ -252,7 +252,7 @@ export default function CoventryGutterCleaningBlogContent() {
       <h2>Book Gutter Cleaning in Coventry Today</h2>
 
       <p>
-        Whether your gutters look like the before photograph above — or you just want to prevent them getting there — WOW Gutters can help. Same-day and next-day appointments are available across Coventry and all surrounding CV postcodes.
+        Whether your gutters look like the before photograph above — or you just want to prevent them getting there — WOW Gutters Ltd can help. Same-day and next-day appointments are available across Coventry and all surrounding CV postcodes.
       </p>
 
       <div className="cta-box">
@@ -287,7 +287,7 @@ export default function CoventryGutterCleaningBlogContent() {
         <div className="faq-item">
           <h3>Q: How much does gutter cleaning cost in Coventry?</h3>
           <p>
-            A: WOW Gutters prices start from £50 for a bungalow, £75 for a semi-detached, and £95 for a detached property. Downpipe inspection is included. Use our <Link href="/gutter-cleaning-calculator">cost calculator</Link> for an instant estimate.
+            A: WOW Gutters Ltd prices start from £50 for a bungalow, £75 for a semi-detached, and £95 for a detached property. Downpipe inspection is included. Use our <Link href="/gutter-cleaning-calculator">cost calculator</Link> for an instant estimate.
           </p>
         </div>
 
@@ -308,7 +308,7 @@ export default function CoventryGutterCleaningBlogContent() {
         <div className="faq-item">
           <h3>Q: Do you provide before and after photos?</h3>
           <p>
-            A: Yes — on every job, without exception. We photograph the gutters before we start and after we finish, and send both images directly to you. The photographs in this article are from a real WOW Gutters job in Coventry, completed on 23 March 2026.
+            A: Yes — on every job, without exception. We photograph the gutters before we start and after we finish, and send both images directly to you. The photographs in this article are from a real WOW Gutters Ltd job in Coventry, completed on 23 March 2026.
           </p>
         </div>
 
@@ -322,7 +322,7 @@ export default function CoventryGutterCleaningBlogContent() {
         <div className="faq-item">
           <h3>Q: Is there a guarantee?</h3>
           <p>
-            A: Yes. All WOW Gutters cleaning work is backed by a 12-month guarantee. If your gutters block again within 12 months of our clean, we return and clear them at no additional charge.
+            A: Yes. All WOW Gutters Ltd cleaning work is backed by a 12-month guarantee. If your gutters block again within 12 months of our clean, we return and clear them at no additional charge.
           </p>
         </div>
 
@@ -338,7 +338,7 @@ export default function CoventryGutterCleaningBlogContent() {
 
       <ul className="related-articles">
         <li><Link href="/blog/blocked-gutters-sycamore-seeds">Blocked Gutters Packed With Sycamore Seeds — What Happens If You Leave Them</Link></li>
-        <li><Link href="/blog/gutter-cleaning-wolverhampton">Gutter Cleaning Wolverhampton | WOW Gutters — Local Specialists</Link></li>
+        <li><Link href="/blog/gutter-cleaning-wolverhampton">Gutter Cleaning Wolverhampton | WOW Gutters Ltd — Local Specialists</Link></li>
         <li><Link href="/help/repair">Gutter Repairs: How to Spot Damage Early</Link></li>
         <li><Link href="/gutter-cleaning-prices">Gutter Cleaning Prices — Full 2026 Guide</Link></li>
       </ul>

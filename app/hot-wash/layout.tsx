@@ -6,7 +6,7 @@ import TopPageAreaLinks from '@/components/seo/TopPageAreaLinks';
 export const metadata: Metadata = buildMetadata({
   title: 'Hot Wash Cleaning',
   description:
-    'Professional hot wash and purified water cleaning for gutters, fascias and uPVC across Birmingham and the West Midlands. WOW Gutters.',
+    'Professional hot wash and purified water cleaning for gutters, fascias and uPVC across Birmingham and the West Midlands. WOW Gutters Ltd.',
   canonicalPath: '/services/hot-wash-cleaning/',
 });
 

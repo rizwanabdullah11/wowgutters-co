@@ -10,7 +10,6 @@ import { buildCityPageFaqs, isPrimaryCitySlug } from '@/lib/cityFaqs';
 import AreaServicesRange from '@/components/areas/AreaServicesRange';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
 import NearbyAreas from '@/components/areas/NearbyAreas';
@@ -297,7 +296,6 @@ export default function CityGutterCleaningPage({
       <AreaServicesRange />
       <AreaRecentWork />
       <AreaContactMap geo={data.geo} />
-      <ContactInfoSection />
       <AreaCrawlFooter currentSlug={data.slug} />
 
       <style>{`

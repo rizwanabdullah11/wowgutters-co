@@ -42,7 +42,7 @@ if (fs.existsSync(htaccessPath)) {
 // Create robots.txt if it doesn't exist
 const robotsTxtPath = path.join(outDir, 'robots.txt');
 if (!fs.existsSync(robotsTxtPath)) {
-  const robotsTxtContent = `# WOW Gutters - Robots.txt
+  const robotsTxtContent = `# WOW Gutters Ltd - Robots.txt
 User-agent: *
 Allow: /
 Sitemap: https://wowgutters.co.uk/sitemap.xml
@@ -54,7 +54,7 @@ Sitemap: https://wowgutters.co.uk/sitemap.xml
 }
 
 // Create a README for the upload
-const uploadReadmeContent = `# WOW Gutters - Upload Package
+const uploadReadmeContent = `# WOW Gutters Ltd - Upload Package
 
 This folder contains the complete static website ready for upload.
 

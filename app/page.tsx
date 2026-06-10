@@ -4,7 +4,7 @@ import HomeScreen from './home-screen/page';
 const URL_PATH = 'https://wowgutters.co.uk/';
 
 export const metadata: Metadata = {
-  title: 'Gutter Cleaning Birmingham & West Midlands | WOW Gutters',
+  title: 'Gutter Cleaning Birmingham & West Midlands | WOW Gutters Ltd',
   
   description: 'Professional gutter cleaning across Birmingham and West Midlands. ' +
     'Ground-level vacuum system, 4.9★ from 2,696+ reviews, 1-year guarantee. ' +
@@ -25,24 +25,24 @@ export const metadata: Metadata = {
   },
   
   openGraph: {
-    title: 'Gutter Cleaning Birmingham & West Midlands | WOW Gutters',
+    title: 'Gutter Cleaning Birmingham & West Midlands | WOW Gutters Ltd',
     description: 'Professional gutter cleaning across Birmingham and West Midlands. ' +
       'Ground-level vacuum system, 4.9★ from 2,696+ reviews, 1-year guarantee.',
     url: URL_PATH,
-    siteName: 'WOW Gutters',
+    siteName: 'WOW Gutters Ltd',
     locale: 'en_GB',
     type: 'website',
     images: [{
       url: 'https://wowgutters.co.uk/og/default.jpg',
       width: 1200,
       height: 630,
-      alt: 'WOW Gutters - Professional Gutter Cleaning Birmingham & West Midlands'
+      alt: 'WOW Gutters Ltd - Professional Gutter Cleaning Birmingham & West Midlands'
     }]
   },
   
   twitter: {
     card: 'summary_large_image',
-    title: 'Gutter Cleaning Birmingham & West Midlands | WOW Gutters',
+    title: 'Gutter Cleaning Birmingham & West Midlands | WOW Gutters Ltd',
     description: 'Professional gutter cleaning across Birmingham and West Midlands. ' +
       '4.9★ from 2,696+ reviews. Free quote: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/default.jpg']

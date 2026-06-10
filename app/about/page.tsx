@@ -8,7 +8,6 @@ import {
   ShieldCheck, Award, Users, Clock, CheckCircle,
   Phone, Star, Target, Heart, Zap, PenTool
 } from 'lucide-react';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
 import TeamEeatSection from '@/components/about/TeamEeatSection';
 
@@ -97,7 +96,7 @@ export default function About() {
 
           <h1 className="hero-title animate-fade-in-up delay-100">
             <span className="title-prefix">About</span>{' '}
-            <span className="title-service" style={{ color: colors.primary }}>WOW Gutters</span>
+            <span className="title-service" style={{ color: colors.primary }}>WOW Gutters Ltd</span>
             <br />
             <span className="title-secondary">Trusted Gutter Cleaning & Roofline Specialists</span>
           </h1>
@@ -307,7 +306,7 @@ export default function About() {
             {/* Left - Why Choose Us */}
             <div>
               <h2 className="text-4xl md:text-5xl font-black mb-8 text-gray-900">
-                Why Choose <span style={{ color: colors.primary }}>WOW Gutters?</span>
+                Why Choose <span style={{ color: colors.primary }}>WOW Gutters Ltd?</span>
               </h2>
 
               <div className="grid sm:grid-cols-2 gap-4">
@@ -409,8 +408,6 @@ export default function About() {
           </div>
         </div>
       </section>
-
-      <ContactInfoSection />
 
       <style>{`
         .about-page-wrapper {

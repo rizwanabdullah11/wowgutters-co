@@ -8,7 +8,6 @@ import {
   Search, ChevronDown, HelpCircle, Phone, Mail, 
   MessageCircle, Filter, ArrowRight 
 } from 'lucide-react';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
 import SEOMeta from '@/components/seo/SEOMeta';
 
@@ -44,7 +43,7 @@ export default function HelpPage() {
   return (
     <main className="bg-white help-page-wrapper">
       <SEOMeta
-        title="Gutter Cleaning FAQ | West Midlands | WOW Gutters"
+        title="Gutter Cleaning FAQ | West Midlands | WOW Gutters Ltd"
         description="Answers to common questions about gutter cleaning, repairs, inspections and more in Birmingham & West Midlands. Call 07421 433910 for a FREE quote."
         canonicalUrl="https://wowgutters.co.uk/help"
       />
@@ -342,8 +341,6 @@ export default function HelpPage() {
           </Link>
         </div>
       </section>
-
-      <ContactInfoSection />
 
       <style>{`
         .help-page-wrapper {

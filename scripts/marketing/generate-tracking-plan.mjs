@@ -41,7 +41,7 @@ const events = [
   },
   {
     name: "phone_click",
-    description: "User clicked a tel: link to call WOW Gutters.",
+    description: "User clicked a tel: link to call WOW Gutters Ltd.",
     props: ["phone_href", "phone_number", "link_text", "utm_*"],
     trigger: "Any tel: link click site-wide",
     ga4KeyEvent: true,
@@ -61,7 +61,7 @@ function mdEscape(s) {
   return String(s).replace(/\|/g, "\\|");
 }
 
-console.log("# WOW Gutters Tracking Plan\n");
+console.log("# WOW Gutters Ltd Tracking Plan\n");
 console.log("- Tools: GA4 (G-X0YK1TD470), Meta Pixel (Lead on submit only)\n- Last updated: 2026-06-02\n");
 console.log("## Events\n");
 console.log("| Event Name | Description | GA4 key event | Meta | Trigger |");

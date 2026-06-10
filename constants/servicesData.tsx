@@ -32,8 +32,8 @@ export const servicesData: ServiceDetail[] = [
     heroDescription: 'Expert gutter cleaning across Birmingham and the West Midlands. Ground-level vacuum system, no ladders, up to 4-storey reach. Before & after photos, downpipe clearing included, 1-year guarantee. Same-day booking available.',
     sections: [
       {
-        title: 'Why Choose WOW Gutters for Gutter Cleaning?',
-        content: 'WOW Gutters uses a professional ground-level vacuum system to clean your gutters safely and thoroughly — no ladders placed against your property, no risk of fascia damage, and no mess left behind. Our high-reach equipment reaches up to 4 storeys, making us the ideal choice for homes, flats, and commercial buildings across Birmingham and the West Midlands.',
+        title: 'Why Choose WOW Gutters Ltd for Gutter Cleaning?',
+        content: 'WOW Gutters Ltd uses a professional ground-level vacuum system to clean your gutters safely and thoroughly — no ladders placed against your property, no risk of fascia damage, and no mess left behind. Our high-reach equipment reaches up to 4 storeys, making us the ideal choice for homes, flats, and commercial buildings across Birmingham and the West Midlands.',
         image: '/gutter-cleaning.jpeg',
         imagePosition: 'right',
         bulletPoints: [
@@ -47,7 +47,7 @@ export const servicesData: ServiceDetail[] = [
       },
       {
         title: 'What\'s Included in Our Gutter Cleaning Service',
-        content: 'Every WOW Gutters cleaning service follows the same professional process, ensuring your gutters are completely clear and functioning properly:',
+        content: 'Every WOW Gutters Ltd cleaning service follows the same professional process, ensuring your gutters are completely clear and functioning properly:',
         image: '/gutter-repair-after.jpeg',
         imagePosition: 'left',
         bulletPoints: [
@@ -116,7 +116,7 @@ export const servicesData: ServiceDetail[] = [
       },
       {
         title: 'Areas We Cover',
-        content: 'WOW Gutters provides professional gutter cleaning services across Birmingham, the West Midlands, and Worcestershire. We cover all major towns and cities including:',
+        content: 'WOW Gutters Ltd provides professional gutter cleaning services across Birmingham, the West Midlands, and Worcestershire. We cover all major towns and cities including:',
         image: '/blog4.png',
         imagePosition: 'right',
         bulletPoints: [
@@ -130,7 +130,7 @@ export const servicesData: ServiceDetail[] = [
       },
       {
         title: 'What Our Customers Say',
-        content: 'WOW Gutters is rated 4.9 out of 5 based on over 2,696 verified Google reviews. Our customers consistently praise our professionalism, quality of work, and transparent pricing.',
+        content: 'WOW Gutters Ltd is rated 4.9 out of 5 based on over 2,696 verified Google reviews. Our customers consistently praise our professionalism, quality of work, and transparent pricing.',
         image: '/blog5.png',
         imagePosition: 'left',
         bulletPoints: [
@@ -236,32 +236,61 @@ export const servicesData: ServiceDetail[] = [
     }
   },
   {
-    id: 'inspection',
-    name: 'Roof & Gutter Inspection',
+    id: 'gutter-inspection',
+    name: 'Gutter Inspection',
     icon: '🔍',
-    heroImage: 'https://images.unsplash.com/photo-1483664852095-d6cc6870702d?w=1920',
-    heroVideo: '/gutter-final-video.mp4',
-    heroTitle: 'Professional Inspection Services',
-    heroDescription: 'Comprehensive roof and gutter inspection to identify issues before they become expensive problems.',
+    heroImage: '/gutter-inspection.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
+    heroTitle: 'Free Gutter Inspection',
+    heroDescription: 'Comprehensive gutter inspection to identify blockages, leaks and damage before they become expensive problems.',
     sections: [
       {
         title: 'What We Inspect',
-        content: 'Our thorough inspection includes:',
-        image: 'https://images.unsplash.com/photo-1483664852095-d6cc6870702d?w=800',
+        content: 'Our thorough gutter inspection includes:',
+        image: '/gutter-inspection.png',
         imagePosition: 'right',
         bulletPoints: [
           'Gutter condition and alignment',
-          'Downspout functionality',
-          'Roof condition assessment',
+          'Downpipe flow and blockages',
+          'Joints, seals and brackets',
           'Detailed photo report'
         ]
       }
     ],
     ctaSection: {
-      title: 'INSPECTION SERVICES',
-      description: 'Get peace of mind with our professional inspection service.',
+      title: 'FREE GUTTER INSPECTION',
+      description: 'Get peace of mind with our professional gutter inspection service.',
       phone: '07421 433910',
-      buttonText: 'Get A Quote'
+      buttonText: 'Book Free Inspection'
+    }
+  },
+  {
+    id: 'roof-inspection',
+    name: 'Roof Inspection',
+    icon: '🏠',
+    heroImage: '/Roof-Cleaner.webp',
+    heroVideo: '/roof-cleaning-video.mp4',
+    heroTitle: 'Free Roof Inspection',
+    heroDescription: 'Professional roof inspection to identify tile damage, moss, flashing issues and early leak risks.',
+    sections: [
+      {
+        title: 'What We Inspect',
+        content: 'Our thorough roof inspection includes:',
+        image: '/Roof-Cleaner.webp',
+        imagePosition: 'right',
+        bulletPoints: [
+          'Roof tiles and ridge condition',
+          'Flashing and valley seals',
+          'Moss and algae assessment',
+          'Detailed photo report'
+        ]
+      }
+    ],
+    ctaSection: {
+      title: 'FREE ROOF INSPECTION',
+      description: 'Get peace of mind with our professional roof inspection service.',
+      phone: '07421 433910',
+      buttonText: 'Book Free Inspection'
     }
   },
   {
@@ -350,30 +379,59 @@ export const servicesData: ServiceDetail[] = [
   //   }
   // },
   {
-    id: 'commercial',
+    id: 'commercial-gutter-cleaning',
     name: 'Commercial Gutter Cleaning',
     icon: '🏢',
     heroImage: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920',
-    heroVideo: '/dome-cleaning-video.mp4',
-    heroTitle: 'Commercial Gutter Services',
-    heroDescription: 'Professional gutter cleaning and maintenance for commercial properties, offices, and industrial buildings.',
+    heroVideo: '/gutter-cleaning-video.mp4',
+    heroTitle: 'Commercial Gutter Cleaning',
+    heroDescription: 'Professional commercial gutter cleaning for offices, warehouses, schools and retail units. Flexible scheduling and maintenance contracts.',
     sections: [
       {
-        title: 'Commercial Solutions',
-        content: 'Tailored services for commercial properties:',
+        title: 'Commercial Gutter Solutions',
+        content: 'Tailored gutter cleaning for commercial properties:',
         image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800',
         imagePosition: 'right',
         bulletPoints: [
           'Scheduled maintenance programs',
-          'Large-scale cleaning',
-          'Minimal disruption',
-          'Competitive rates'
+          'High-reach vacuum — up to 4 storeys',
+          'Out-of-hours appointments',
+          'Full photographic documentation'
         ]
       }
     ],
     ctaSection: {
-      title: 'COMMERCIAL SERVICES',
-      description: 'Professional gutter services for commercial properties.',
+      title: 'COMMERCIAL GUTTER CLEANING',
+      description: 'Professional gutter cleaning for commercial properties across Birmingham and the West Midlands.',
+      phone: '07421 433910',
+      buttonText: 'Get A Quote'
+    }
+  },
+  {
+    id: 'commercial-roof-cleaning',
+    name: 'Commercial Roof Cleaning',
+    icon: '🏠',
+    heroImage: '/roof-cleaning.JPG',
+    heroVideo: '/roof-cleaning-video.mp4',
+    heroTitle: 'Commercial Roof Cleaning',
+    heroDescription: 'Commercial roof cleaning and moss removal for warehouses, offices and industrial buildings. Safe soft-wash methods, fully insured.',
+    sections: [
+      {
+        title: 'Commercial Roof Solutions',
+        content: 'Specialist roof cleaning for business premises:',
+        image: '/roof-cleaning.JPG',
+        imagePosition: 'right',
+        bulletPoints: [
+          'Moss, algae and lichen treatment',
+          'Soft-wash — no tile damage',
+          'Flat and pitched roof experience',
+          'Maintenance contracts available'
+        ]
+      }
+    ],
+    ctaSection: {
+      title: 'COMMERCIAL ROOF CLEANING',
+      description: 'Protect your commercial roof with professional cleaning across Birmingham and the West Midlands.',
       phone: '07421 433910',
       buttonText: 'Get A Quote'
     }
@@ -384,7 +442,7 @@ export const servicesData: ServiceDetail[] = [
     icon: '🔩',
     heroImage: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920',
     heroTitle: 'Professional Gutter Installation',
-    heroDescription: 'New uPVC gutter and downpipe systems measured, supplied and fitted by WOW Gutters. Quality materials, professional finish, 10-year warranty on parts.',
+    heroDescription: 'New uPVC gutter and downpipe systems measured, supplied and fitted by WOW Gutters Ltd. Quality materials, professional finish, 10-year warranty on parts.',
     sections: [
       {
         title: 'Why Replace Your Gutters?',
@@ -400,7 +458,7 @@ export const servicesData: ServiceDetail[] = [
       },
       {
         title: 'What\'s Included in Our Installation',
-        content: 'Every WOW Gutters installation includes:',
+        content: 'Every WOW Gutters Ltd installation includes:',
         image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800',
         imagePosition: 'right',
         bulletPoints: [
@@ -422,7 +480,42 @@ export const servicesData: ServiceDetail[] = [
   }
 ];
 
+/** Combined commercial landing at /commercial/ */
+export const commercialCombinedService: ServiceDetail = {
+  id: 'commercial',
+  name: 'Commercial Gutter Cleaning',
+  icon: '🏢',
+  heroImage: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920',
+  heroVideo: '/dome-cleaning-video.mp4',
+  heroTitle: 'Commercial Gutter Services',
+  heroDescription:
+    'Professional gutter cleaning and maintenance for commercial properties, offices, and industrial buildings.',
+  sections: [
+    {
+      title: 'Commercial Solutions',
+      content: 'Tailored services for commercial properties:',
+      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800',
+      imagePosition: 'right',
+      bulletPoints: [
+        'Scheduled maintenance programs',
+        'Large-scale cleaning',
+        'Minimal disruption',
+        'Competitive rates',
+      ],
+    },
+  ],
+  ctaSection: {
+    title: 'COMMERCIAL SERVICES',
+    description: 'Professional gutter services for commercial properties.',
+    phone: '07421 433910',
+    buttonText: 'Get A Quote',
+  },
+};
+
 export function getServiceById(id: string): ServiceDetail | undefined {
+  if (id === 'commercial') {
+    return commercialCombinedService;
+  }
   return servicesData.find((service) => service.id === id);
 }
 

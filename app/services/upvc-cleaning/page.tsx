@@ -5,7 +5,7 @@ import { getServiceById } from '@/constants/servicesData';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
-  absoluteTitle: 'Exterior uPVC Cleaning — Fascias, Soffits & Conservatories | WOW Gutters',
+  absoluteTitle: 'Exterior uPVC Cleaning — Fascias, Soffits & Conservatories | WOW Gutters Ltd',
   description:
     'Professional uPVC cleaning for fascias, soffits, frames & conservatories using purified water for a bright, streak-free finish. Get a free quote today.',
   canonicalPath: '/services/upvc-cleaning/',

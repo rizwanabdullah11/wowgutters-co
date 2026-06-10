@@ -14,8 +14,8 @@ export const talksData: TalkPost[] = [
   {
     id: 'gutter-maintenance-tips',
     title: 'Essential Gutter Maintenance Tips for Birmingham Homeowners',
-    excerpt: 'Practical gutter maintenance advice from WOW Gutters. Learn when to clean, what to check, and how to spot problems early to avoid costly repairs.',
-    author: 'WOW Gutters Team',
+    excerpt: 'Practical gutter maintenance advice from WOW Gutters Ltd. Learn when to clean, what to check, and how to spot problems early to avoid costly repairs.',
+    author: 'WOW Gutters Ltd Team',
     date: 'March 8, 2026',
     image: '/gutter-cleaning.jpeg',
     category: 'Maintenance',
@@ -41,14 +41,14 @@ export const talksData: TalkPost[] = [
       <h3>Birmingham-Specific Advice</h3>
       <p>Properties in areas with mature trees (Moseley, Harborne, Edgbaston) need more frequent cleaning. Victorian and Edwardian properties often have cast iron gutters that need different care than modern uPVC systems.</p>
       
-      <p>If you're not comfortable working at heights, or if you spot any damage during your checks, contact WOW Gutters for a free inspection and quote.</p>
+      <p>If you're not comfortable working at heights, or if you spot any damage during your checks, contact WOW Gutters Ltd for a free inspection and quote.</p>
     `
   },
   {
     id: 'hot-wash-vs-traditional-cleaning',
     title: 'Hot Wash Cleaning: Why Temperature Matters for Birmingham Properties',
     excerpt: 'Our hot wash system cleans conservatories, fascias, and gutters more effectively than cold water. Here\'s the science behind why it works better.',
-    author: 'WOW Gutters Team',
+    author: 'WOW Gutters Ltd Team',
     date: 'March 5, 2026',
     image: '/gutter-repair-after.jpeg',
     category: 'Technology',
@@ -77,14 +77,14 @@ export const talksData: TalkPost[] = [
       <h3>When to Use Hot Wash</h3>
       <p>Hot wash is ideal for conservatory roofs, fascias, soffits, gutters (external), uPVC windows, and cladding. It's particularly effective on north-facing surfaces where algae growth is worst.</p>
       
-      <p>If your conservatory has turned green, or your fascias have black streaks, hot wash cleaning will restore them properly. Contact WOW Gutters for a free assessment.</p>
+      <p>If your conservatory has turned green, or your fascias have black streaks, hot wash cleaning will restore them properly. Contact WOW Gutters Ltd for a free assessment.</p>
     `
   },
   {
     id: 'conservatory-care-guide',
     title: 'Conservatory Maintenance Guide for Birmingham Homeowners',
     excerpt: 'Keep your conservatory in perfect condition with this practical maintenance guide. Based on our experience with hundreds of Birmingham conservatories.',
-    author: 'WOW Gutters Team',
+    author: 'WOW Gutters Ltd Team',
     date: 'March 1, 2026',
     image: '/gutter-repair-before.png',
     category: 'Guides',
@@ -116,14 +116,14 @@ export const talksData: TalkPost[] = [
       <h3>Common Birmingham Issues</h3>
       <p>Algae growth on north-facing roofs, moss in roof valleys, blocked gutters from nearby trees, and condensation in autumn/winter. All of these are manageable with proper maintenance.</p>
       
-      <p>If your conservatory roof has turned green, or you're seeing leaks or condensation problems, contact WOW Gutters for a free inspection and quote.</p>
+      <p>If your conservatory roof has turned green, or you're seeing leaks or condensation problems, contact WOW Gutters Ltd for a free inspection and quote.</p>
     `
   },
   {
     id: 'winter-gutter-protection',
     title: 'Preparing Your Gutters for Birmingham Winters',
     excerpt: 'Winter puts extra strain on your gutters. Here\'s how to prepare them for cold weather and prevent ice damage, blockages, and overflow.',
-    author: 'WOW Gutters Team',
+    author: 'WOW Gutters Ltd Team',
     date: 'February 28, 2026',
     image: '/Blog.png',
     category: 'Seasonal',
@@ -149,14 +149,14 @@ export const talksData: TalkPost[] = [
       <h3>After Heavy Snow</h3>
       <p>If we get snow, check gutters once it melts. Snow melt can overwhelm blocked gutters. Look for overflow or water running down walls. This indicates blockages that need clearing.</p>
       
-      <p>Book your pre-winter gutter clear with WOW Gutters in October or November. We'll make sure your gutters are ready for whatever winter brings.</p>
+      <p>Book your pre-winter gutter clear with WOW Gutters Ltd in October or November. We'll make sure your gutters are ready for whatever winter brings.</p>
     `
   },
   {
     id: 'commercial-cleaning-benefits',
     title: 'Commercial Gutter Cleaning: Why Birmingham Businesses Need Regular Maintenance',
     excerpt: 'Commercial properties need professional gutter maintenance to prevent water damage, maintain appearance, and avoid costly emergency repairs.',
-    author: 'WOW Gutters Team',
+    author: 'WOW Gutters Ltd Team',
     date: 'February 25, 2026',
     image: '/blog1.png',
     category: 'Commercial',
@@ -182,14 +182,14 @@ export const talksData: TalkPost[] = [
       <h3>Maintenance Contracts</h3>
       <p>We offer commercial maintenance contracts with scheduled visits. This ensures gutters are cleared before problems develop, and you have one less thing to manage. We work outside business hours if needed.</p>
       
-      <p>Contact WOW Gutters for a free commercial property assessment and maintenance quote. We work with businesses across Birmingham and the West Midlands.</p>
+      <p>Contact WOW Gutters Ltd for a free commercial property assessment and maintenance quote. We work with businesses across Birmingham and the West Midlands.</p>
     `
   },
   {
     id: 'eco-friendly-cleaning-methods',
-    title: 'Eco-Friendly Gutter Cleaning: How WOW Gutters Protects Your Garden',
+    title: 'Eco-Friendly Gutter Cleaning: How WOW Gutters Ltd Protects Your Garden',
     excerpt: 'Our cleaning methods are safe for your plants, pets, and the environment. Here\'s how we clean effectively without harsh chemicals.',
-    author: 'WOW Gutters Team',
+    author: 'WOW Gutters Ltd Team',
     date: 'February 22, 2026',
     image: '/Professional-experience.png',
     category: 'Environment',
@@ -218,7 +218,7 @@ export const talksData: TalkPost[] = [
       <h3>Garden-Friendly Scheduling</h3>
       <p>We can work around your garden. If you have delicate plants or areas you want protected, just let us know. We'll take extra care around those areas.</p>
       
-      <p>If you're concerned about the environmental impact of gutter cleaning, contact WOW Gutters. We'll explain exactly what we do and how we protect your garden.</p>
+      <p>If you're concerned about the environmental impact of gutter cleaning, contact WOW Gutters Ltd. We'll explain exactly what we do and how we protect your garden.</p>
     `
   }
 ];

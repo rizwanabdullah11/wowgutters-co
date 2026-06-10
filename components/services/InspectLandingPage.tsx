@@ -106,7 +106,7 @@ export default function InspectLandingPage() {
             <div className="rounded-xl overflow-hidden shadow-lg border border-gray-200 bg-gray-50">
               <img
                 src="/images/quote-hero-1.png"
-                alt="WOW Gutters technician working safely at height"
+                alt="WOW Gutters Ltd technician working safely at height"
                 className="h-full w-full object-cover"
               />
             </div>

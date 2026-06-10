@@ -53,7 +53,7 @@ export default function HelpIsHere() {
             Need Gutter Help Today?
           </h2>
           <p className="text-xl mb-6 max-w-3xl mx-auto leading-relaxed" style={{ color: colors.white }}>
-            Speak with WOW Gutters LTD for gutter cleaning, downpipe clearing, repairs and roofline cleaning.
+            Speak with WOW Gutters Ltd for gutter cleaning, downpipe clearing, repairs and roofline cleaning.
           </p>
           
           {/* Call to Action */}

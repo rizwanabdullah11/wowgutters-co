@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Navbar from "./navbar/page";
 import Footer from "@/components/Footer";
+import ContactInfoSection from "@/components/sections/ContactInfoSection";
 import WhatsAppChatPopup from "@/components/WhatsAppChatPopup";
 import ContentProtection from "@/components/ContentProtection";
 import MaybeStaticQuoteDialog from "@/components/MaybeStaticQuoteDialog";
@@ -9,8 +10,8 @@ import IosViewportStabilizer from "@/components/IosViewportStabilizer";
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://wowgutters.co.uk'),
-  title: "WOW Gutters | Gutter Cleaning & Roofline Services",
-  description: "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, repairs, inspections, roof cleaning. Fast quotes and same-day booking from WOW Gutters.",
+  title: "WOW Gutters Ltd | Gutter Cleaning & Roofline Services",
+  description: "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, repairs, inspections, roof cleaning. Fast quotes and same-day booking from WOW Gutters Ltd.",
   icons: {
     icon: [
       { url: "/favicon.png", type: "image/png" },
@@ -19,9 +20,9 @@ export const metadata: Metadata = {
       { url: "/apple-touch-icon.png", type: "image/png" },
     ],
   },
-  authors: [{ name: "WOW Gutters", url: "https://wowgutters.co.uk" }],
-  creator: "WOW Gutters",
-  publisher: "WOW Gutters",
+  authors: [{ name: "WOW Gutters Ltd", url: "https://wowgutters.co.uk" }],
+  creator: "WOW Gutters Ltd",
+  publisher: "WOW Gutters Ltd",
   formatDetection: {
     email: false,
     address: false,
@@ -44,22 +45,22 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_GB",
-    siteName: "WOW Gutters",
-    title: "WOW Gutters | Gutter Cleaning & Roofline Services",
-    description: "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, repairs, inspections, roof cleaning. Fast quotes and same-day booking from WOW Gutters.",
+    siteName: "WOW Gutters Ltd",
+    title: "WOW Gutters Ltd | Gutter Cleaning & Roofline Services",
+    description: "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, repairs, inspections, roof cleaning. Fast quotes and same-day booking from WOW Gutters Ltd.",
     images: [
       {
         url: "/og/default.jpg",
         width: 1200,
         height: 630,
-        alt: "WOW Gutters - Professional Gutter Cleaning Services",
+        alt: "WOW Gutters Ltd - Professional Gutter Cleaning Services",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "WOW Gutters | Gutter Cleaning & Roofline Services",
-    description: "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, repairs, inspections, roof cleaning. Fast quotes and same-day booking from WOW Gutters.",
+    title: "WOW Gutters Ltd | Gutter Cleaning & Roofline Services",
+    description: "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, repairs, inspections, roof cleaning. Fast quotes and same-day booking from WOW Gutters Ltd.",
     images: ["/og/default.jpg"],
   },
   verification: {
@@ -104,7 +105,7 @@ export default function RootLayout({
   const videoObjectSchema = {
     "@context": "https://schema.org",
     "@type": "VideoObject",
-    "name": "WOW Gutters — Professional Gutter Cleaning Service",
+    "name": "WOW Gutters Ltd — Professional Gutter Cleaning Service",
     "description":
       "See our ground-level vacuum gutter cleaning system in action. No ladders, no mess, before & after photo proof on every job. Serving Birmingham and the West Midlands.",
     "thumbnailUrl": "https://wowgutters.co.uk/gutter-cleaning.jpeg",
@@ -225,10 +226,12 @@ fbq('track', 'PageView');`,
         <ContentProtection />
         <Navbar />
         {children}
+        <ContactInfoSection />
         <Footer />
         {/* <WhatsAppChatPopup /> */}
         <MaybeStaticQuoteDialog />
         {/* Quote modal + analytics — end of body so they do not block first paint */}
+        <script src="/wow-area-search.js?v=20260609" defer />
         <script src="/wow-analytics.js?v=20260602" defer />
         <script src="/wow-quote-config.js?v=20260421" defer />
         <script

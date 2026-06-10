@@ -15,6 +15,6 @@ export interface BlogPost {
   quickAnswer?: string;
   breadcrumbName?: string;
   featured?: boolean;
-  /** Exact <title> tag when set; avoids appending "| WOW Gutters" in metadata */
+  /** Exact <title> tag when set; avoids appending "| WOW Gutters Ltd" in metadata */
   seoTitle?: string;
 }

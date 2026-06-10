@@ -104,14 +104,23 @@ AddDefaultCharset UTF-8
   # Legacy paths (from vercel.json)
   RewriteRule ^contact-us/?$ /contact/ [R=301,L]
   RewriteRule ^about-us/?$ /about/ [R=301,L]
-  RewriteRule ^gutters-cleaning/?$ /help/unblock/ [R=301,L]
+  RewriteRule ^gutters-cleaning/?$ /services/gutter-cleaning/ [R=301,L]
   RewriteRule ^hot-wash/?$ /services/hot-wash-cleaning/ [R=301,L]
   RewriteRule ^conservatory-cleaning/?$ /services/conservatory/ [R=301,L]
-  RewriteRule ^services/commercial/?$ /commercial/ [R=301,L]
-  RewriteRule ^services/inspection/?$ /help/inspect/ [R=301,L]
-  RewriteRule ^services/gutter-cleaning/?$ /help/unblock/ [R=301,L]
-  RewriteRule ^services/gutter-repairs/?$ /help/repair/ [R=301,L]
-  RewriteRule ^services/roof-cleaning/?$ /help/clean/ [R=301,L]
+
+  # Legacy /help/{service-id}/ → canonical /services/{service-id}/
+  RewriteRule ^help/gutter-cleaning/?$ /services/gutter-cleaning/ [R=301,L]
+  RewriteRule ^help/gutter-repairs/?$ /services/gutter-repairs/ [R=301,L]
+  RewriteRule ^help/upvc-cleaning/?$ /services/upvc-cleaning/ [R=301,L]
+  RewriteRule ^help/roof-cleaning/?$ /services/roof-cleaning/ [R=301,L]
+  RewriteRule ^help/inspection/?$ /services/gutter-inspection/ [R=301,L]
+  RewriteRule ^help/conservatory/?$ /services/conservatory/ [R=301,L]
+  RewriteRule ^help/water-butt/?$ /services/water-butt/ [R=301,L]
+  RewriteRule ^help/commercial/?$ /services/commercial-gutter-cleaning/ [R=301,L]
+  RewriteRule ^services/commercial/?$ /services/commercial-gutter-cleaning/ [R=301,L]
+  RewriteRule ^help/gutter-installation/?$ /services/gutter-installation/ [R=301,L]
+  RewriteRule ^services/free-gutter-inspection/?$ /services/gutter-inspection/ [R=301,L]
+  RewriteRule ^services/inspection/?$ /services/gutter-inspection/ [R=301,L]
 
   # Legacy PascalCase URLs
   RewriteRule ^About/?$ /about/ [R=301,L]

@@ -4,7 +4,6 @@ import { useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { colors } from '@/constants/colors';
 import { ThumbsUp } from 'lucide-react';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import ElfsightReviews from '@/components/sections/ElfsightReviews';
 import { GOOGLE_REVIEWS_SUMMARY, gbpReviewUrl } from '@/lib/googleReviews';
 
@@ -70,7 +69,7 @@ export default function ReviewsPage() {
         <div className="max-w-3xl mx-auto rounded-2xl border border-emerald-100 bg-emerald-50/60 p-6 sm:p-8 text-center">
           <p className="text-sm font-bold uppercase tracking-wide text-emerald-800">Google Business Profile</p>
           <p className="mt-2 text-slate-700 leading-relaxed">
-            WOW Gutters is rated {GOOGLE_REVIEWS_SUMMARY.ratingLabel}★ on Google across Birmingham and the West Midlands.
+            WOW Gutters Ltd is rated {GOOGLE_REVIEWS_SUMMARY.ratingLabel}★ on Google across Birmingham and the West Midlands.
             Reviews below update automatically from Google. We reply to every review.
           </p>
           <div className="mt-5 flex flex-col sm:flex-row items-center justify-center gap-3">
@@ -191,8 +190,6 @@ export default function ReviewsPage() {
           </Link>
         </div>
       </section>
-
-      <ContactInfoSection />
 
       <style>{`
         .reviews-hero-section {

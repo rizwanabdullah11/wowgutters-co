@@ -39,12 +39,12 @@ if (faqStart !== -1 && faqEnd !== -1) {
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does it cost to clear a blocked gutter in Birmingham?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> WOW Gutters prices start from £50 for a bungalow, £75 for a semi-detached house, and £95 for a detached property. Downpipe inspection and clearance is included. Use our <a href="/gutter-cleaning-calculator" style="color: #19C58B; text-decoration: underline;">cost calculator</a> for an instant estimate.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> WOW Gutters Ltd prices start from £50 for a bungalow, £75 for a semi-detached house, and £95 for a detached property. Downpipe inspection and clearance is included. Use our <a href="/gutter-cleaning-calculator" style="color: #19C58B; text-decoration: underline;">cost calculator</a> for an instant estimate.</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you use ladders to clean gutters?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> No. WOW Gutters uses a professional ground-level high-reach vacuum system that cleans gutters safely without ladders or scaffolding, protecting your fascias, roof tiles, and stonework from any risk of contact damage.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> No. WOW Gutters Ltd uses a professional ground-level high-reach vacuum system that cleans gutters safely without ladders or scaffolding, protecting your fascias, roof tiles, and stonework from any risk of contact damage.</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
@@ -54,7 +54,7 @@ if (faqStart !== -1 && faqEnd !== -1) {
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Is there a guarantee on the work?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. All WOW Gutters cleaning work is fully guaranteed. If you have any concerns after your clean, contact us and we will return to resolve them at no additional charge.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. All WOW Gutters Ltd cleaning work is fully guaranteed. If you have any concerns after your clean, contact us and we will return to resolve them at no additional charge.</p>
         </div>
       </div>
 

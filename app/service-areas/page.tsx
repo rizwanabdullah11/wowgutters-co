@@ -12,7 +12,7 @@ function areaDisplayName(slug: string): string {
 export const metadata: Metadata = buildMetadata({
   title: 'Gutter Cleaning Service Areas',
   description:
-    'Find professional gutter cleaning in your area. WOW Gutters covers 170+ locations across Birmingham, Coventry, Wolverhampton, Solihull, Walsall, Dudley and the West Midlands.',
+    'Find professional gutter cleaning in your area. WOW Gutters Ltd covers 170+ locations across Birmingham, Coventry, Wolverhampton, Solihull, Walsall, Dudley and the West Midlands.',
   canonicalPath: '/service-areas/',
 });
 
@@ -29,7 +29,7 @@ export default function ServiceAreasPage() {
           Gutter cleaning service areas
         </h1>
         <p className="text-lg text-slate-600 max-w-3xl mb-4 leading-relaxed">
-          WOW Gutters covers Birmingham and the wider West Midlands. Select your area for local pricing,
+          WOW Gutters Ltd covers Birmingham and the wider West Midlands. Select your area for local pricing,
           postcodes, FAQs and booking — every location is one click from this page.
         </p>
         <p className="mb-10">

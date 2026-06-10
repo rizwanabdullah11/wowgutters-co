@@ -8,8 +8,8 @@ export default function CookiePolicy() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       <SEOMeta
-        title="Cookie Policy | WOW Gutters"
-        description="Read the WOW Gutters cookie policy and learn how cookies are used to improve your experience on wowgutters.co.uk."
+        title="Cookie Policy | WOW Gutters Ltd"
+        description="Read the WOW Gutters Ltd cookie policy and learn how cookies are used to improve your experience on wowgutters.co.uk."
         canonicalUrl="https://wowgutters.co.uk/cookie-policy"
         noindex
       />

@@ -4,7 +4,6 @@ import { useEffect, useRef } from 'react';
 import { colors } from '@/constants/colors';
 import { Award, Trophy, Medal, CheckCircle } from 'lucide-react';
 import Link from 'next/link';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 
 const achievements = [
   {
@@ -190,8 +189,6 @@ export default function AwardsPage() {
           </Link>
         </div>
       </section>
-
-      <ContactInfoSection />
 
       <style>{`
         .awards-hero-section {

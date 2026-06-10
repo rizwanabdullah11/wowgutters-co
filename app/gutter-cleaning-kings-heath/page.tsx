@@ -10,8 +10,8 @@ const URL_PATH = `https://wowgutters.co.uk/gutter-cleaning-${SLUG}/`
 const data = buildAreaLandingFromSlug(SLUG)!
 
 export const metadata: Metadata = buildMetadata({
-  absoluteTitle: 'Gutter Cleaning Kings Heath Birmingham | Professional, Safe & Guaranteed | WOW Gutters',
-  description: 'Professional gutter cleaning in Kings Heath, Birmingham (B14). Victorian & Edwardian terraces, no ladders, vacuum system, before & after photos, 1-year guarantee. From £50. Call WOW Gutters: 07421 433910.',
+  absoluteTitle: 'Gutter Cleaning Kings Heath Birmingham | Professional, Safe & Guaranteed | WOW Gutters Ltd',
+  description: 'Professional gutter cleaning in Kings Heath, Birmingham (B14). Victorian & Edwardian terraces, no ladders, vacuum system, before & after photos, 1-year guarantee. From £50. Call WOW Gutters Ltd: 07421 433910.',
   canonicalPath: areaPath(SLUG),
   ogImagePath: `/og/${SLUG}.jpg`,
 })

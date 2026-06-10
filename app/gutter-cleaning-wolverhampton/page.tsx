@@ -61,7 +61,7 @@ const landingData: CityGutterLandingData = {
   faqs: [
     {
       question: 'How much does gutter cleaning cost in Wolverhampton?',
-      answer: 'WOW Gutters provides fixed quotes for all properties. Get yours online at wowgutters.co.uk or call 07421 433910. No hidden fees.',
+      answer: 'WOW Gutters Ltd provides fixed quotes for all properties. Get yours online at wowgutters.co.uk or call 07421 433910. No hidden fees.',
     },
     {
       question: 'Do you cover the Penn and Tettenhall areas?',
@@ -119,13 +119,13 @@ export const metadata: Metadata = {
     url: URL_PATH,
     type: 'website',
     locale: 'en_GB',
-    siteName: 'WOW Gutters',
+    siteName: 'WOW Gutters Ltd',
     images: [
       {
         url: 'https://wowgutters.co.uk/og/default.jpg',
         width: 1200,
         height: 630,
-        alt: 'WOW Gutters - Gutter Cleaning Wolverhampton',
+        alt: 'WOW Gutters Ltd - Gutter Cleaning Wolverhampton',
       },
     ],
   },

@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import { blogPosts } from '@/constants/blogData';
 import BlogDetailContent from '@/components/blog/BlogDetailContent';
+import { resolveBlogImageUrl } from '@/lib/blogImageUrl';
 import { Metadata } from 'next';
 
 interface BlogPageProps {
@@ -22,7 +23,7 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
 
   if (!post) {
     return {
-      title: 'Post Not Found | WOW Gutters',
+      title: 'Post Not Found | WOW Gutters Ltd',
       description: 'The requested blog post could not be found.'
     };
   }
@@ -37,13 +38,13 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
 
   const canonicalUrl = `https://wowgutters.co.uk/blog/${id}/`;
 
-  const pageTitle = post.seoTitle ?? `${post.title} | WOW Gutters`;
+  const pageTitle = post.seoTitle ?? `${post.title} | WOW Gutters Ltd`;
 
   return {
     title: pageTitle,
     description: post.excerpt,
     keywords: `${post.category}, gutter cleaning, gutter maintenance, blocked gutters, gutter repair, ${id.replace(/-/g, ' ')}`,
-    authors: [{ name: post.author || 'WOW Gutters Technical Team' }],
+    authors: [{ name: post.author || 'WOW Gutters Ltd Technical Team' }],
     alternates: {
       canonical: canonicalUrl,
     },
@@ -65,7 +66,7 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
       title: pageTitle,
       description: post.excerpt,
       images: [{
-        url: `https://wowgutters.co.uk${post.image}`,
+        url: resolveBlogImageUrl(post.image),
         width: 1200,
         height: 630,
         alt: post.title
@@ -73,23 +74,23 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
       type: 'article',
       publishedTime: post.date,
       modifiedTime: post.lastUpdated || post.date,
-      authors: [post.author || 'WOW Gutters Technical Team'],
+      authors: [post.author || 'WOW Gutters Ltd Technical Team'],
       url: canonicalUrl,
-      siteName: 'WOW Gutters',
+      siteName: 'WOW Gutters Ltd',
       locale: 'en_GB'
     },
     twitter: {
       card: 'summary_large_image',
       title: pageTitle,
       description: post.excerpt,
-      images: [`https://wowgutters.co.uk${post.image}`],
+      images: [resolveBlogImageUrl(post.image)],
       creator: '@wowgutters',
       site: '@wowgutters'
     },
     other: {
       'article:published_time': post.date,
       'article:modified_time': post.lastUpdated || post.date,
-      'article:author': post.author || 'WOW Gutters Technical Team',
+      'article:author': post.author || 'WOW Gutters Ltd Technical Team',
       'article:section': post.category || 'Maintenance'
     }
   };

@@ -55,9 +55,9 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 
   if (areaSlug === 'birmingham') {
     return buildMetadata({
-      absoluteTitle: 'Gutter Cleaning Birmingham | Professional, Safe & Guaranteed | WOW Gutters',
+      absoluteTitle: 'Gutter Cleaning Birmingham | Professional, Safe & Guaranteed | WOW Gutters Ltd',
       description:
-        'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters: 07421 433910.',
+        'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
       canonicalPath: areaPath(areaSlug),
       ogImagePath: '/og/birmingham.jpg',
     });
@@ -80,7 +80,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
       intro.length > 155 ? `${intro.slice(0, 152).trim()}…` : intro ||
       `Professional gutter cleaning in ${suburb.city}. Fixed quotes, before & after photos. Call 07421 433910.`;
     return buildMetadata({
-      absoluteTitle: `${suburb.heroTitleLine1} | WOW Gutters`,
+      absoluteTitle: `${suburb.heroTitleLine1} | WOW Gutters Ltd`,
       description,
       canonicalPath: areaPath(areaSlug),
       ogImagePath: `/og/${areaSlug}.jpg`,
@@ -99,7 +99,7 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 
   return buildMetadata({
     title: `Gutter Cleaning ${areaName}`,
-    description: `Professional gutter cleaning, repairs and inspections in ${areaName}. Fixed quotes from £50. Call WOW Gutters: 07421 433910.`,
+    description: `Professional gutter cleaning, repairs and inspections in ${areaName}. Fixed quotes from £50. Call WOW Gutters Ltd: 07421 433910.`,
     canonicalPath: areaPath(areaSlug),
     ogImagePath: `/og/${areaSlug}.jpg`,
   });

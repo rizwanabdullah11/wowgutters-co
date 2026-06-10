@@ -9,7 +9,6 @@ import {
   BookOpen, Calendar, Eye, User, ArrowRight, 
   Search, Tag, TrendingUp, Clock
 } from 'lucide-react';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
 import { formatBlogDateShort } from '@/lib/dateUtils';
 
@@ -75,7 +74,7 @@ export default function BlogPage() {
           </div>
 
           <h1 className="hero-title animate-fade-in-up delay-100">
-            <span className="title-prefix">WOW Gutters Blog —</span>{' '}
+            <span className="title-prefix">WOW Gutters Ltd Blog —</span>{' '}
             <span className="title-service" style={{ color: colors.primary }}>Expert Tips & Guides</span>
           </h1>
 
@@ -424,8 +423,6 @@ export default function BlogPage() {
           </p>
         </div>
       </section>
-
-      <ContactInfoSection />
 
       <style>{`
         .blog-page-wrapper {

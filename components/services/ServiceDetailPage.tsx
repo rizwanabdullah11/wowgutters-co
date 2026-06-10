@@ -14,7 +14,6 @@ import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaReviews from '@/components/areas/AreaReviews';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaFeatures from '@/components/areas/AreaFeatures';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
 
 interface ServiceDetailPageProps {
@@ -156,8 +155,8 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         }}
       />
       <Head>
-        <title>Professional {service.name} | WOW Gutters</title>
-        <meta name="description" content={`Professional ${service.name.toLowerCase()} with WOW Gutters. ${service.heroDescription.substring(0, 150)}...`} />
+        <title>Professional {service.name} | WOW Gutters Ltd</title>
+        <meta name="description" content={`Professional ${service.name.toLowerCase()} with WOW Gutters Ltd. ${service.heroDescription.substring(0, 150)}...`} />
         <meta property="og:title" content={`${service.name} Services - WowGutters`} />
         <meta property="og:description" content={service.heroDescription.substring(0, 160)} />
         <meta property="og:type" content="website" />
@@ -584,7 +583,6 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
       <AreaRecentWork />
       <AreaReviews />
       <AreaContactMap />
-      <ContactInfoSection />
 
       <style>{`
         .service-page-wrapper {

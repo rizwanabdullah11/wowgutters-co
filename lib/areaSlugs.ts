@@ -175,7 +175,68 @@ export const AREA_SLUGS: readonly string[] = [
   'yardley-wood',
 ] as const;
 
+/** Path segment folder name for static export: gutter-cleaning-{city}/ */
+export function areaSegment(slug: string): string {
+  return `gutter-cleaning-${slug}/`;
+}
+
 /** Public SEO URL: /gutter-cleaning-{city}/ (single path segment after domain). */
 export function areaPath(slug: string): string {
-  return `/gutter-cleaning-${slug}/`;
+  return `/${areaSegment(slug)}`;
+}
+
+/** Prefix from the current page to the static-export site root (./ or ../). */
+export function siteRootRelativePrefix(): string {
+  if (typeof window === 'undefined') {
+    return '/';
+  }
+
+  const { protocol, pathname, href } = window.location;
+
+  let normalizedPath = pathname;
+  try {
+    normalizedPath = decodeURIComponent(pathname);
+  } catch {
+    // keep pathname
+  }
+
+  if (/\/index\.html?$/i.test(normalizedPath)) {
+    normalizedPath = normalizedPath.replace(/index\.html?$/i, '');
+  } else if (/\.html?$/i.test(normalizedPath)) {
+    normalizedPath = normalizedPath.slice(0, normalizedPath.lastIndexOf('/') + 1);
+  }
+
+  if (!normalizedPath.endsWith('/')) {
+    normalizedPath += '/';
+  }
+
+  if (protocol === 'file:') {
+    const outMatch = normalizedPath.match(/\/out\/(.*)$/i);
+    if (outMatch) {
+      const depth = outMatch[1].split('/').filter(Boolean).length;
+      return depth === 0 ? './' : '../'.repeat(depth);
+    }
+
+    const baseHref = href.split(/[?#]/)[0];
+    const dir = baseHref.slice(0, baseHref.lastIndexOf('/') + 1);
+    const outIdx = dir.toLowerCase().lastIndexOf('/out/');
+    if (outIdx !== -1) {
+      const afterOut = dir.slice(outIdx + 5);
+      const depth = afterOut.split('/').filter(Boolean).length;
+      return depth === 0 ? './' : '../'.repeat(depth);
+    }
+
+    return './';
+  }
+
+  const depth = normalizedPath.split('/').filter(Boolean).length;
+  return depth === 0 ? '/' : '../'.repeat(depth);
+}
+
+/**
+ * URL for window.location navigation — works on http(s) and file:// static export.
+ * Absolute /gutter-cleaning-{slug}/ breaks when opening out/index.html directly.
+ */
+export function areaNavigationUrl(slug: string): string {
+  return `${siteRootRelativePrefix()}${areaSegment(slug)}`;
 }

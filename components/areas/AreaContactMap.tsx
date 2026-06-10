@@ -67,7 +67,7 @@ export default function AreaContactMap({ variant = 'default', geo }: AreaContact
       {/* Map Section - Always show map */}
       <div className="w-full h-[400px] sm:h-[420px] bg-[#e8efe8] border-t border-slate-200">
         <iframe
-          title={`WOW Gutters — ${mapLabel} service area map`}
+          title={`WOW Gutters Ltd — ${mapLabel} service area map`}
           src={mapSrc}
           className="w-full h-full border-0"
           loading="lazy"

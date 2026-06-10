@@ -17,7 +17,7 @@ export const TEAM_PROFILES: TeamProfile[] = [
     experience:
       '8+ years on residential and commercial roofline work across Birmingham. Certified in ground-level high-reach vacuum systems.',
     image: '/gutter-cleaning.jpeg',
-    imageAlt: 'WOW Gutters lead technician using ground-level gutter vacuum equipment',
+    imageAlt: 'WOW Gutters Ltd lead technician using ground-level gutter vacuum equipment',
   },
   {
     name: 'Sarah K.',
@@ -25,7 +25,7 @@ export const TEAM_PROFILES: TeamProfile[] = [
     experience:
       'Manages same-day bookings, quotes, and customer updates. Ensures every job includes before-and-after photos and a written condition report.',
     image: '/gutter-cleaning-before.jpeg',
-    imageAlt: 'WOW Gutters service coordinator reviewing a gutter condition report',
+    imageAlt: 'WOW Gutters Ltd service coordinator reviewing a gutter condition report',
   },
   {
     name: 'David R.',
@@ -33,7 +33,7 @@ export const TEAM_PROFILES: TeamProfile[] = [
     experience:
       'Trained in purified hot-water systems for fascias, UPVC, and driveway cleaning. Works ladder-free on most residential properties.',
     image: '/gutter-cleaning-after.jpeg',
-    imageAlt: 'WOW Gutters exterior cleaning specialist with hot wash equipment',
+    imageAlt: 'WOW Gutters Ltd exterior cleaning specialist with hot wash equipment',
   },
 ];
 

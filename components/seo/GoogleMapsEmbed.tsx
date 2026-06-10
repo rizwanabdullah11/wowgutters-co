@@ -9,7 +9,7 @@ type GoogleMapsEmbedProps = {
 };
 
 export default function GoogleMapsEmbed({
-  title = 'WOW Gutters — Birmingham & West Midlands service area',
+  title = 'WOW Gutters Ltd — Birmingham & West Midlands service area',
   className = '',
   heightClass = 'h-[360px] sm:h-[420px]',
   showOpenLink = true,

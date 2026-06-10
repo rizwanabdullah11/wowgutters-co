@@ -11,7 +11,7 @@ export default function HomepageFAQSchema() {
         "name": "How much does gutter cleaning cost in Birmingham?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "WOW Gutters offers gutter cleaning from £50. Prices vary by property size. Call 07421 433910 for a free no-obligation quote."
+          "text": "WOW Gutters Ltd offers gutter cleaning from £50. Prices vary by property size. Call 07421 433910 for a free no-obligation quote."
         }
       },
       {

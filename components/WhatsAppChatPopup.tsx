@@ -64,7 +64,7 @@ export default function WhatsAppChatPopup() {
     // Bot responses based on message count
     if (messages.length === 0) {
       // First user message
-      addBotMessage('Hello 👋 Yes, we specialise in gutter cleaning at WOW Gutters. How can we assist you today?');
+      addBotMessage('Hello 👋 Yes, we specialise in gutter cleaning at WOW Gutters Ltd. How can we assist you today?');
     } else if (messages.length === 2) {
       // Second user message (after first bot response)
       addBotMessage('Great question! Our pricing depends on the property size and condition. Would you like to get a personalized quote?', 1000);
@@ -117,7 +117,7 @@ export default function WhatsAppChatPopup() {
               </svg>
             </div>
             <div className="flex-1">
-              <p className="text-white font-bold text-lg m-0">WOW Gutters</p>
+              <p className="text-white font-bold text-lg m-0">WOW Gutters Ltd</p>
               <p className="text-white/90 text-sm">Typically replies instantly</p>
             </div>
             <button
@@ -136,14 +136,14 @@ export default function WhatsAppChatPopup() {
                 <div className="w-24 h-24 mx-auto mb-4">
                   <Image
                     src={logo}
-                    alt="WOW Gutters"
+                    alt="WOW Gutters Ltd"
                     width={96}
                     height={96}
                     className="w-full h-full object-contain drop-shadow-lg"
                   />
                 </div>
                 <h2 className="font-bold text-xl mb-2" style={{ color: colors.text }}>
-                  Chat with WOW Gutters
+                  Chat with WOW Gutters Ltd
                 </h2>
                 <p className="text-sm" style={{ color: colors.textLight }}>
                   Send us a message and we'll respond right away!
@@ -185,7 +185,7 @@ export default function WhatsAppChatPopup() {
                     <div className="w-10 h-10 flex-shrink-0">
                       <Image
                         src={logo}
-                        alt="WOW Gutters"
+                        alt="WOW Gutters Ltd"
                         width={40}
                         height={40}
                         className="w-full h-full object-contain drop-shadow-md"

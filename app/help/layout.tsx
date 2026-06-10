@@ -7,7 +7,7 @@ import { colors } from '@/constants/colors';
 export const metadata: Metadata = buildMetadata({
   title: 'Help Centre | Gutter Cleaning FAQs',
   description:
-    'Gutter cleaning FAQs, how-to guides and service help from WOW Gutters. Birmingham and West Midlands.',
+    'Gutter cleaning FAQs, how-to guides and service help from WOW Gutters Ltd. Birmingham and West Midlands.',
   canonicalPath: '/help/',
 });
 

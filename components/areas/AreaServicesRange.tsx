@@ -15,7 +15,7 @@ const gutterServices = [
       price: 'From £45'
     },
     image: '/gutter-cleaning.jpeg',
-    link: '/help/unblock',
+    link: '/services/gutter-cleaning/',
   },
   {
     title: 'Roof Cleaning & Moss Removal',
@@ -27,7 +27,7 @@ const gutterServices = [
       price: 'From £150'
     },
     image: '/roof-cleaning.JPG',
-    link: '/help/clean',
+    link: '/services/roof-cleaning/',
   },
   {
     title: 'Exterior uPVC Cleaning',
@@ -51,7 +51,7 @@ const gutterServices = [
       price: 'FREE'
     },
     image: '/gutter-inspection.png',
-    link: '/help/inspect',
+    link: '/services/gutter-inspection/',
   },
   {
     title: 'Gutter Repairs',
@@ -63,7 +63,7 @@ const gutterServices = [
       price: 'From £80'
     },
     image: '/gutter-repair.png',
-    link: '/help/repair',
+    link: '/services/gutter-repairs/',
   },
   {
     title: 'Gutter Installation',

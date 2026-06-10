@@ -1,6 +1,5 @@
 'use client';
 import { colors } from '@/constants/colors';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
 import ServiceSEOSection from '@/components/sections/ServiceSEOSection';
 import QuoteModal from '@/components/QuoteModal';
@@ -110,7 +109,7 @@ export default function ContactPageContent() {
           directions, or open Google Maps for reviews and our Business Profile.
         </p>
         <div className="mt-6 max-w-4xl">
-          <GoogleMapsEmbed title="WOW Gutters — contact page Google Maps embed" />
+          <GoogleMapsEmbed title="WOW Gutters Ltd — contact page Google Maps embed" />
         </div>
       </section>
 
@@ -132,7 +131,7 @@ export default function ContactPageContent() {
       <ServiceSEOSection
         title="Professional Gutter Services"
         subtitle="Gutter Cleaning • Repairs • Maintenance"
-        mainParagraph1="Looking for reliable gutter cleaning, repair, or maintenance? WOW Gutters provides professional gutter services to help protect your property from water damage with fast, efficient, and affordable solutions."
+        mainParagraph1="Looking for reliable gutter cleaning, repair, or maintenance? WOW Gutters Ltd provides professional gutter services to help protect your property from water damage with fast, efficient, and affordable solutions."
         mainParagraph2="We understand that gutter problems can't wait. That's why we offer same-day booking, free quotes, and flexible scheduling to work around your busy life. Whether you need routine maintenance, emergency repairs, or a complete gutter inspection, our team delivers quality results you can trust."
         processTitle="How to Get Started:"
         processSteps={[
@@ -163,8 +162,6 @@ export default function ContactPageContent() {
         ctaButtonText="Get Your Free Quote Now"
       />
 
-      {/* Contact Info Section */}
-      <ContactInfoSection />
     </div>
   );
 }

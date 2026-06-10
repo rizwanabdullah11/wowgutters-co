@@ -1,23 +1,15 @@
-import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import ServiceDetailPage from '@/components/services/ServiceDetailPage';
-import { getServiceById } from '@/constants/servicesData';
+import CleanPage from '@/components/services/CleanPage';
 
 export const metadata: Metadata = {
-  title: 'Roof Cleaning & Moss Removal | WOW Gutters',
+  title: 'Roof & Exterior Cleaning Service | WOW Gutter Cleaning',
   description:
-    'Safe moss removal & roof cleaning. Soft-wash technique protects your tiles. Long-lasting results. Book a free inspection today.',
+    'Specialist roof and exterior cleaning to remove moss, algae and dirt and keep your home looking its best.',
   alternates: {
     canonical: 'https://wowgutters.co.uk/help/clean/',
   },
 };
 
-export default function RoofCleaningPage() {
-  const service = getServiceById('roof-cleaning');
-
-  if (!service) {
-    notFound();
-  }
-
-  return <ServiceDetailPage service={service} />;
+export default function HelpCleanPage() {
+  return <CleanPage />;
 }

@@ -14,14 +14,14 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     title: 'Gutter Cleaning Cotteridge Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Cotteridge, Birmingham (B30). No ladders, vacuum system, before & after photos. From \u00a350. Call WOW Gutters: 07421 433910.',
-    url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters',
-    images: [{ url: 'https://wowgutters.co.uk/og/cotteridge.jpg', width: 1200, height: 630, alt: 'WOW Gutters \u2014 Gutter Cleaning Cotteridge Birmingham' }],
+    description: 'Professional gutter cleaning in Cotteridge, Birmingham (B30). No ladders, vacuum system, before & after photos. From \u00a350. Call WOW Gutters Ltd: 07421 433910.',
+    url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters Ltd',
+    images: [{ url: 'https://wowgutters.co.uk/og/cotteridge.jpg', width: 1200, height: 630, alt: 'WOW Gutters Ltd \u2014 Gutter Cleaning Cotteridge Birmingham' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning Cotteridge Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Cotteridge B30. From \u00a350. No ladders, before & after photos. Call WOW Gutters: 07421 433910.',
+    description: 'Professional gutter cleaning in Cotteridge B30. From \u00a350. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/cotteridge.jpg'],
   },
 }
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const howToSchema = {
   '@context': 'https://schema.org',
   '@type': 'HowTo',
-  name: 'How WOW Gutters Cleans Your Gutters in Cotteridge',
+  name: 'How WOW Gutters Ltd Cleans Your Gutters in Cotteridge',
   description: 'Our 4-step professional gutter cleaning process for Cotteridge, Birmingham properties',
   step: [
     { '@type': 'HowToStep', position: 1, name: 'Assessment', text: 'We inspect your gutters and downpipes before starting, identifying all blockages, damaged sections and areas of concern for Cotteridge\'s 1930s and post-war properties.' },

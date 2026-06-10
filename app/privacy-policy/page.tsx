@@ -13,8 +13,8 @@ export default function PrivacyPolicy() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
       <SEOMeta
-        title="Privacy Policy | WOW Gutters"
-        description="Read the WOW Gutters privacy policy. Learn how we protect your data when you request gutter cleaning, repairs, or inspections in Birmingham & West Midlands."
+        title="Privacy Policy | WOW Gutters Ltd"
+        description="Read the WOW Gutters Ltd privacy policy. Learn how we protect your data when you request gutter cleaning, repairs, or inspections in Birmingham & West Midlands."
         canonicalUrl="https://wowgutters.co.uk/privacy-policy"
         noindex
       />

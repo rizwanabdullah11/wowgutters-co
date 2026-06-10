@@ -5,7 +5,7 @@ import { getServiceById } from '@/constants/servicesData';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
-  absoluteTitle: 'Conservatory Gutter Cleaning | Safe, Ladder-Free | WOW Gutters',
+  absoluteTitle: 'Conservatory Gutter Cleaning | Safe, Ladder-Free | WOW Gutters Ltd',
   description:
     'Specialist conservatory gutter cleaning & replacement — safe, ladder-free access and watertight results. Get a free quote today.',
   canonicalPath: '/services/conservatory/',

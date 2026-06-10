@@ -10,7 +10,7 @@ export const sellyOakBlogPost: BlogPost = {
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-02',
   views: '0',
-  author: 'WOW Gutters Technical Team',
+  author: 'WOW Gutters Ltd Technical Team',
   authorRole: 'Professional Gutter Cleaning Specialists',
   category: 'Maintenance',
   lastUpdated: '2026-06-02',
@@ -41,7 +41,7 @@ export const sellyOakBlogPost: BlogPost = {
   <li><a href="#whats-included" style="color: #19C58B; text-decoration: none;">What's Included in Every Visit</a></li>
   <li><a href="#before-after" style="color: #19C58B; text-decoration: none;">Before and After — What a Clean Makes</a></li>
   <li><a href="#areas" style="color: #19C58B; text-decoration: none;">Areas We Cover Around Selly Oak</a></li>
-  <li><a href="#why-choose" style="color: #19C58B; text-decoration: none;">Why Homeowners in B29 Choose WOW Gutters</a></li>
+  <li><a href="#why-choose" style="color: #19C58B; text-decoration: none;">Why Homeowners in B29 Choose WOW Gutters Ltd</a></li>
   <li><a href="#faq" style="color: #19C58B; text-decoration: none;">Frequently Asked Questions</a></li>
 </ul>
 

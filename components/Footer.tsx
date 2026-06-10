@@ -38,9 +38,12 @@ export default function Footer() {
   ];
 
   const specialServices = [
+    { name: 'Gutter Inspection', path: '/services/gutter-inspection' },
+    { name: 'Roof Inspection', path: '/services/roof-inspection' },
     { name: 'Free Gutter Inspection', path: '/help/inspect' },
-    { name: 'Commercial Gutter Cleaning', path: '/commercial' },
-    { name: 'Conservatory Cleaning', path: '/services/conservatory' }
+    { name: 'Commercial Gutter Cleaning', path: '/services/commercial-gutter-cleaning' },
+    { name: 'Commercial Roof Cleaning', path: '/services/commercial-roof-cleaning' },
+    { name: 'Conservatory Cleaning', path: '/services/conservatory' },
   ];
 
   const general = [
@@ -76,6 +79,8 @@ export default function Footer() {
     return null;
   }
 
+  const isHomePage = pathname === '/' || pathname === '';
+
   return (
     <>
       <footer className="site-footer">
@@ -93,7 +98,7 @@ export default function Footer() {
             <div className="footer-logo-box">
               <Image
                 src={logo}
-                alt="WOW Gutters logo — professional gutter cleaning and roofline services"
+                alt="WOW Gutters Ltd logo — professional gutter cleaning and roofline services"
                 width={320}
                 height={150}
                 sizes="(max-width: 900px) 240px, 320px"
@@ -102,7 +107,7 @@ export default function Footer() {
               />
             </div>
             <div className="footer-brand-text">
-              <p className="footer-company-name">WOW Gutters</p>
+              <p className="footer-company-name">WOW Gutters Ltd</p>
               <p className="footer-company-tagline">Professional Gutter Cleaning &amp; Roofline Services</p>
               <div className="footer-ratings">
                 <span className="rating-text">Rated 4.9★ on Google</span>
@@ -115,9 +120,10 @@ export default function Footer() {
             </div>
           </div>
 
-          <hr className="footer-divider" />
+          {isHomePage && <hr className="footer-divider" />}
 
-          {/* Site-wide footer links — crawlable from every page (≤3 clicks to all areas via hub) */}
+          {/* Four-column link grid — homepage only */}
+          {isHomePage && (
           <>
               <h2 className="sr-only">Site navigation and service areas</h2>
               <div className="footer-links-grid">
@@ -170,11 +176,11 @@ export default function Footer() {
                 <div className="footer-col">
                   <h3 className="footer-col-title">Service Areas</h3>
                   <ul className="footer-list">
-                    <li>
+                    {/* <li>
                       <Link href={SERVICE_AREAS_HUB} className="footer-link footer-link-highlight">
                         <ArrowRight className="w-3 h-3 link-arrow" /> All service areas (full map)
                       </Link>
-                    </li>
+                    </li> */}
                     {areas.map((item, i) => (
                       <li key={i}>
                         <Link href={areaPath(item.toLowerCase().replace(/\s+/g, '-'))} className="footer-link">
@@ -192,15 +198,18 @@ export default function Footer() {
 
               <hr className="footer-divider" />
           </>
+          )}
+
+          {!isHomePage && <hr className="footer-divider" />}
 
           {/* Bottom Row */}
           <div className="footer-bottom-row">
             <div className="footer-social-box">
-              <a href="https://web.facebook.com/wowgutters.co.uk" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on Facebook"><Facebook className="w-5 h-5"/></a>
-              <a href="https://twitter.com/wowgutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on X/Twitter"><Twitter className="w-5 h-5"/></a>
-              <a href="https://www.instagram.com/wowgutters/" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on Instagram"><Instagram className="w-5 h-5"/></a>
-              <a href="https://www.linkedin.com/company/wow-gutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on LinkedIn"><Linkedin className="w-5 h-5"/></a>
-              <a href="https://www.youtube.com/@wowgutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on YouTube"><Youtube className="w-5 h-5"/></a>
+              <a href="https://web.facebook.com/wowgutters.co.uk" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on Facebook"><Facebook className="w-5 h-5"/></a>
+              <a href="https://twitter.com/wowgutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on X/Twitter"><Twitter className="w-5 h-5"/></a>
+              <a href="https://www.instagram.com/wowgutters/" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on Instagram"><Instagram className="w-5 h-5"/></a>
+              <a href="https://www.linkedin.com/company/wow-gutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on LinkedIn"><Linkedin className="w-5 h-5"/></a>
+              <a href="https://www.youtube.com/@wowgutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on YouTube"><Youtube className="w-5 h-5"/></a>
             </div>
 
             <div className="footer-copyright">
@@ -224,8 +233,11 @@ export default function Footer() {
       <style>{`
         .site-footer {
           position: relative;
+          z-index: 5;
+          isolation: isolate;
           background: #0F172A;
           color: #94A3B8;
+          scroll-margin-top: 48px;
         }
 
         .footer-wave-top {
@@ -558,7 +570,7 @@ export default function Footer() {
           <div className="h-11 w-11 overflow-hidden rounded-full border border-slate-900/10 bg-white" aria-hidden="true">
             <Image
               src={logo}
-              alt="WOW Gutters logo"
+              alt="WOW Gutters Ltd logo"
               width={44}
               height={44}
               className="h-11 w-11 object-cover"

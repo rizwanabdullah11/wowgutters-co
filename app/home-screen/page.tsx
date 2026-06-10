@@ -12,7 +12,6 @@ import FeaturesSection from '@/components/sections/FeaturesSection';
 import GetTheBest from '@/components/sections/GetTheBest';
 import FindLocalTeam from '@/components/sections/FindLocalTeam';
 import HelpIsHere from '@/components/sections/HelpIsHere';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import HomepageSchema from '@/components/seo/HomepageSchema';
 import HomepageFAQSchema from '@/components/seo/HomepageFAQSchema';
 import HomepageWebSiteSchema from '@/components/seo/HomepageWebSiteSchema';
@@ -38,7 +37,6 @@ export default function HomeScreen() {
       <GetTheBest />
       <FindLocalTeam />
       <HelpIsHere />
-      <ContactInfoSection />
     </div>
   );
 }

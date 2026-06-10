@@ -26,7 +26,7 @@ export function generateAlternateDomainRedirectHtaccess() {
 }
 
 export function generateAlternateDomainsReadme() {
-  return `WOW Gutters — alternate domain redirects (SEO audit 05.05)
+  return `WOW Gutters Ltd — alternate domain redirects (SEO audit 05.05)
 ============================================================
 
 wow-gutters.com and wowgutters.uk must 301 to https://wowgutters.co.uk/

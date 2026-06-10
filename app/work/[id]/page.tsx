@@ -24,7 +24,7 @@ export async function generateMetadata(props: WorkPageProps): Promise<Metadata> 
 
   if (!post) {
     return {
-      title: 'Project Not Found | WOW Gutters',
+      title: 'Project Not Found | WOW Gutters Ltd',
       description: 'The requested project could not be found.'
     };
   }

@@ -5,11 +5,11 @@ import { blogPosts } from '@/constants/blogData';
 import { colors } from '@/constants/colors';
 import { Calendar, User, Eye, Share2, Phone, PenTool, BookOpen } from 'lucide-react';
 import Link from 'next/link';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import AreaFAQ from '@/components/areas/AreaFAQ';
 import AreaReviews from '@/components/areas/AreaReviews';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import { formatBlogDate } from '@/lib/dateUtils';
+import { resolveBlogImageUrl } from '@/lib/blogImageUrl';
 
 // ── Accordion item ──────────────────────────────────────────────────────────
 function AccordionItem({ question, answer }: { question: string; answer: string }) {
@@ -188,7 +188,7 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
         'description': post.excerpt,
         'image': {
           '@type': 'ImageObject',
-          'url': `https://wowgutters.co.uk${post.image}`,
+          'url': resolveBlogImageUrl(post.image),
           'width': 1200,
           'height': 630
         },
@@ -233,7 +233,7 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
         'description': post.excerpt,
         'image': {
           '@type': 'ImageObject',
-          'url': `https://wowgutters.co.uk${post.image}`,
+          'url': resolveBlogImageUrl(post.image),
           'width': 1200,
           'height': 630
         },
@@ -443,7 +443,7 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
                 {post.author && (
                   <>
                     <span className="hidden sm:inline">|</span>
-                    <span>Reviewed by: <strong className="text-gray-700">WOW Gutters Technical Team</strong></span>
+                    <span>Reviewed by: <strong className="text-gray-700">WOW Gutters Ltd Technical Team</strong></span>
                   </>
                 )}
               </div>
@@ -568,15 +568,15 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
                   </div>
                   <div>
                     <h4 className="font-bold text-gray-900 text-lg">{post.author}</h4>
-                    <p className="text-sm text-gray-600">{post.authorRole || 'Senior Gutter Technician at WOW Gutters'}</p>
+                    <p className="text-sm text-gray-600">{post.authorRole || 'Senior Gutter Technician at WOW Gutters Ltd'}</p>
                   </div>
                 </div>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  {post.authorBio || `Written by ${post.author}, Senior Gutter Technician at WOW Gutters. Our blog content is reviewed for technical accuracy and written to help homeowners understand gutter cleaning, repairs, and roofline maintenance.`}
+                  {post.authorBio || `Written by ${post.author}, Senior Gutter Technician at WOW Gutters Ltd. Our blog content is reviewed for technical accuracy and written to help homeowners understand gutter cleaning, repairs, and roofline maintenance.`}
                 </p>
                 {post.lastUpdated && (
                   <p className="mt-3 text-xs text-gray-500">
-                    Last updated: <time dateTime={post.lastUpdated}>{formatBlogDate(post.lastUpdated)}</time> · Reviewed by: WOW Gutters Technical Team
+                    Last updated: <time dateTime={post.lastUpdated}>{formatBlogDate(post.lastUpdated)}</time> · Reviewed by: WOW Gutters Ltd Technical Team
                   </p>
                 )}
               </div>
@@ -648,7 +648,6 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
       <AreaBlogSnippet />
       <AreaFAQ />
       <AreaReviews />
-      <ContactInfoSection />
 
       <style>{`
         .blog-detail-wrapper {

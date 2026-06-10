@@ -18,7 +18,7 @@
 - `components/sections/QuestionsAnswers.tsx` - Help centre sidebar card
 
 **Alt Text:**
-"WOW Gutters help centre — ask our Birmingham gutter cleaning team"
+"WOW Gutters Ltd help centre — ask our Birmingham gutter cleaning team"
 
 ---
 

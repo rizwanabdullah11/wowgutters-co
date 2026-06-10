@@ -145,7 +145,7 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
         },
         dateModified: SCHEMA_DATE_MODIFIED,
       },
-      buildAreaWebPageNode(url, `Gutter Cleaning ${city} | WOW Gutters`),
+      buildAreaWebPageNode(url, `Gutter Cleaning ${city} | WOW Gutters Ltd`),
       {
         '@type': 'Service',
         '@id': `${url}#service`,

@@ -13,14 +13,14 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     title: 'Gutter Cleaning Walmley Sutton Coldfield | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Walmley, Sutton Coldfield (B76). No ladders, vacuum system, before & after photos. From £55. Call WOW Gutters: 07421 433910.',
-    url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters',
-    images: [{ url: 'https://wowgutters.co.uk/og/walmley.jpg', width: 1200, height: 630, alt: 'WOW Gutters — Gutter Cleaning Walmley Sutton Coldfield' }],
+    description: 'Professional gutter cleaning in Walmley, Sutton Coldfield (B76). No ladders, vacuum system, before & after photos. From £55. Call WOW Gutters Ltd: 07421 433910.',
+    url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters Ltd',
+    images: [{ url: 'https://wowgutters.co.uk/og/walmley.jpg', width: 1200, height: 630, alt: 'WOW Gutters Ltd — Gutter Cleaning Walmley Sutton Coldfield' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning Walmley Sutton Coldfield | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Walmley B76. From £55. No ladders, before & after photos. Call WOW Gutters: 07421 433910.',
+    description: 'Professional gutter cleaning in Walmley B76. From £55. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/walmley.jpg'],
   },
 }

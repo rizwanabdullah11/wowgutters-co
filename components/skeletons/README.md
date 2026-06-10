@@ -1,6 +1,6 @@
 # Skeleton Loader Components
 
-A comprehensive skeleton loader system for the WOW Gutters application.
+A comprehensive skeleton loader system for the WOW Gutters Ltd application.
 
 ## Components
 

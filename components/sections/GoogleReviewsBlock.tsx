@@ -48,7 +48,7 @@ export default function GoogleReviewsBlock({
             className="text-3xl sm:text-4xl md:text-5xl font-black"
             style={{ color: colors.text }}
           >
-            What Customers Say About WOW Gutters
+            What Customers Say About WOW Gutters Ltd
           </h2>
           <Link
             href="/reviews/"

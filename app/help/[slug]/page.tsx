@@ -4,30 +4,15 @@ import InspectionPage from '@/components/services/InspectionPage';
 import UnblockPage from '@/components/services/UnblockPage';
 import RepairPage from '@/components/services/RepairPage';
 import CleanPage from '@/components/services/CleanPage';
-import ServiceDetailPage from '@/components/services/ServiceDetailPage';
-import { servicesData, getServiceById } from '@/constants/servicesData';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
-export function generateStaticParams() {
-  // Four help boxes + direct service help URLs
-  return [
-    { slug: 'inspect' },
-    { slug: 'unblock' },
-    { slug: 'repair' },
-    { slug: 'clean' },
-    ...servicesData.map((service) => ({ slug: service.id })),
-  ];
-}
+const HELP_ACTION_SLUGS = ['inspect', 'unblock', 'repair', 'clean'] as const;
 
-function mapHelpSlugToServiceId(slug: string): string | null {
-  if (slug === 'unblock') return 'gutter-cleaning';
-  if (slug === 'repair') return 'gutter-repairs';
-  if (slug === 'clean') return 'roof-cleaning';
-  // fall back to using slug directly as an id
-  return slug;
+export function generateStaticParams() {
+  return HELP_ACTION_SLUGS.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata(
@@ -88,21 +73,8 @@ export async function generateMetadata(
     };
   }
 
-  const serviceId = mapHelpSlugToServiceId(slug);
-  const service = serviceId ? getServiceById(serviceId) : undefined;
-
-  if (!service) {
-    return {
-      title: 'Help | Service Not Found',
-    };
-  }
-
   return {
-    title: `Help with ${service.name} | WOW Gutter Cleaning`,
-    description: service.heroDescription,
-    alternates: {
-      canonical: canonicalUrl,
-    },
+    title: 'Help | Page Not Found',
   };
 }
 
@@ -125,13 +97,6 @@ export default async function HelpSlugPage({ params }: PageProps) {
     return <CleanPage />;
   }
 
-  const serviceId = mapHelpSlugToServiceId(slug);
-  const service = serviceId ? getServiceById(serviceId) : undefined;
-
-  if (!service) {
-    notFound();
-  }
-
-  return <ServiceDetailPage service={service} />;
+  notFound();
 }
 

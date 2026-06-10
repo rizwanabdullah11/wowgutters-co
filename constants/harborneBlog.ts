@@ -26,11 +26,11 @@ export const harborneBlogPost: BlogPost = {
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-04',
   views: '0',
-  author: 'WOW Gutters Technical Team',
+  author: 'WOW Gutters Ltd Technical Team',
   authorRole: 'Professional Gutter Cleaning Specialists',
   category: 'Maintenance',
   lastUpdated: '2026-06-04',
-  featured: true,
+  featured: false,
   quickAnswer:
     'WOW Gutters Ltd provides professional gutter cleaning across Harborne and all B17 postcodes. Ground-based SkyVac vacuum system — no ladders — with downpipe clearance, flow testing, and before and after photos on every job. Rated 4.9★ on Google. Free quote: call 07421 433910.',
   breadcrumbName: 'Gutter Cleaning Harborne B17',
@@ -60,7 +60,7 @@ export const harborneBlogPost: BlogPost = {
   <li><a href="#included" style="${link}">What Every Visit Includes</a></li>
   <li><a href="#property-value" style="${link}">Protecting Your Property Value</a></li>
   <li><a href="#areas" style="${link}">Areas We Cover Around Harborne</a></li>
-  <li><a href="#why-choose" style="${link}">Why Harborne Homeowners Choose WOW Gutters</a></li>
+  <li><a href="#why-choose" style="${link}">Why Harborne Homeowners Choose WOW Gutters Ltd</a></li>
   <li><a href="#before-after" style="${link}">Before and After — Harborne B17</a></li>
   <li><a href="#faq" style="${link}">Frequently Asked Questions</a></li>
 </ul>
@@ -94,7 +94,7 @@ export const harborneBlogPost: BlogPost = {
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>🔔 Prevention costs a fraction of what repairs do.</strong><br/>
   If you haven't had your Harborne property's gutters cleaned this year, now is the right time to act.<br/>
-  📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call WOW Gutters: 07421 433910</a> — free, no-obligation quote.
+  📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call WOW Gutters Ltd: 07421 433910</a> — free, no-obligation quote.
 </blockquote>
 
 <p>Learn more: <a href="/blog/signs-of-blocked-gutters-birmingham" style="${link}">signs your gutters need cleaning</a> and how overflow leads to damp on period brickwork.</p>
@@ -237,6 +237,7 @@ Open 7 days — Monday to Friday 7am–8pm · Saturday 9am–6pm · Sunday 10am�
 <ul>
   <li><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning in Birmingham</a></li>
   <li><a href="/blog/gutter-cleaning-selly-oak-b29-birmingham/" style="${link}">Gutter cleaning Selly Oak B29</a></li>
+  <li><a href="/blog/gutter-cleaning-acocks-green-b27-birmingham/" style="${link}">Gutter cleaning Acocks Green B27</a></li>
   <li><a href="/services/upvc-cleaning/" style="${link}">Fascia and soffit cleaning</a></li>
   <li><a href="/help/clean/" style="${link}">Roof cleaning Birmingham</a></li>
   <li><a href="/blog/signs-of-blocked-gutters-birmingham" style="${link}">Signs your gutters need cleaning</a></li>

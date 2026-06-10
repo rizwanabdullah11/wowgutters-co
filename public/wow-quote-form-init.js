@@ -1,7 +1,7 @@
 /**
  * wow-quote-form-init.js
  *
- * Pure vanilla JS form engine for the WOW Gutters quote modal.
+ * Pure vanilla JS form engine for the WOW Gutters Ltd quote modal.
  * Loaded as a plain <script> tag in <head> — completely outside
  * React / Next.js bundling so it always runs in production builds.
  *
@@ -18,7 +18,7 @@
 
   var GREEN_BG = 'linear-gradient(135deg,#22C55E 0%,#10B981 100%)';
   var TOTAL    = 4;
-  var QUOTE_EMAIL_SUBJECT = 'New quote request - WOW Gutters';
+  var QUOTE_EMAIL_SUBJECT = 'New quote request - WOW Gutters Ltd';
 
   /**
    * Static export (Hostinger): there is no PHP/Node API on your server.
@@ -391,7 +391,7 @@
           var fullNameForSubject = fieldVal('fullName');
           var emailForSubject = fieldVal('email');
           var timeTag = new Date().toISOString().replace(/[:.]/g, '-');
-          var subj = 'New quote request - ' + (fullNameForSubject || 'WOW Gutters') + (emailForSubject ? (' (' + emailForSubject + ')') : '') + ' - ' + timeTag;
+          var subj = 'New quote request - ' + (fullNameForSubject || 'WOW Gutters Ltd') + (emailForSubject ? (' (' + emailForSubject + ')') : '') + ' - ' + timeTag;
           var contBtn = q('[data-action="continue"]');
           var prevLabel = contBtn ? contBtn.textContent : '';
           if (contBtn) {

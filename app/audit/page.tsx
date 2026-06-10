@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'SEO Audit & Performance',
-  description: 'View our website performance metrics, SEO audit results, and technical optimizations for WOW Gutters.',
+  description: 'View our website performance metrics, SEO audit results, and technical optimizations for WOW Gutters Ltd.',
   robots: {
     index: false,
     follow: false,

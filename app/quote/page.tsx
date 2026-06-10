@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react';
 import { colors } from '@/constants/colors';
-import ContactInfoSection from '@/components/sections/ContactInfoSection';
 import QuoteModal from '@/components/QuoteModal';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
 import ServiceSEOSection from '@/components/sections/ServiceSEOSection';
@@ -537,9 +536,6 @@ export default function QuotePage() {
 
       {/* Quote Modal */}
       <QuoteModal isOpen={isQuoteModalOpen} onClose={closeModal} />
-
-      {/* Contact Info */}
-      <ContactInfoSection />
 
       {/* ═══════════════ MOBILE STICKY WHATSAPP BAR ═══════════════ */}
       <div className="fixed bottom-0 left-0 right-0 z-50 flex sm:hidden items-center justify-between gap-3 px-4 py-3 bg-white border-t border-gray-200 shadow-[0_-4px_20px_rgba(0,0,0,0.12)]">

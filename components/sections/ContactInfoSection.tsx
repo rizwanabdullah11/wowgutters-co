@@ -1,15 +1,35 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import logo from '@/assets/wow-gutter-logo.png';
+import { usePathname } from 'next/navigation';
+import { isQuoteEmbedPath } from '@/lib/isQuoteEmbedPath';
+import { areaNavigationUrl } from '@/lib/areaSlugs';
+import { resolveAreaSlug } from '@/lib/resolveAreaSlug';
+import logo from '@/assets/wow-gutters-logo1.png';
 import { Phone, Mail, Facebook, Youtube, Twitter, Instagram, MessageCircle, Search, FileText, HelpCircle, MapPin, Map, Navigation } from 'lucide-react';
-import { getFormattedBusinessHours } from '@/lib/businessHours';
+import { BUSINESS_HOURS, getFormattedBusinessHours, getFormattedHours } from '@/lib/businessHours';
 
 export default function ContactInfoSection() {
+  const pathname = usePathname();
   const [searchQuery, setSearchQuery] = useState('');
-  const router = useRouter();
+  const [searchError, setSearchError] = useState('');
+  const [openingTimes, setOpeningTimes] = useState(() =>
+    BUSINESS_HOURS.map((hour) => ({
+      day: hour.day,
+      hours: hour.isOpen ? getFormattedHours(hour.opens, hour.closes) : 'Closed',
+      isToday: false,
+      isOpen: hour.isOpen,
+    })),
+  );
+
+  useEffect(() => {
+    setOpeningTimes(getFormattedBusinessHours());
+  }, []);
+
+  if (isQuoteEmbedPath(pathname)) {
+    return null;
+  }
   
   const addressLine1 = (process.env.NEXT_PUBLIC_BUSINESS_ADDRESS_LINE1 || '').trim();
   const addressLine2 = (process.env.NEXT_PUBLIC_BUSINESS_ADDRESS_LINE2 || '').trim();
@@ -17,17 +37,18 @@ export default function ContactInfoSection() {
   const addressPostcode = (process.env.NEXT_PUBLIC_BUSINESS_POSTCODE || '').trim();
   const fullAddress = [addressLine1, addressLine2, addressCity, addressPostcode].filter(Boolean).join(', ');
 
-  // Get dynamic opening times
-  const openingTimes = getFormattedBusinessHours();
-
-  // Handle search submission
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (searchQuery.trim()) {
-      // Convert search query to URL-friendly slug
-      const slug = searchQuery.toLowerCase().trim().replace(/\s+/g, '-');
-      router.push(`/gutter-cleaning-${slug}`);
+  // Full-page navigation — reliable on static export (Hostinger); router.push can fail in production.
+  const handleSearch = () => {
+    const slug = resolveAreaSlug(searchQuery);
+    if (slug) {
+      window.location.href = areaNavigationUrl(slug);
+      return;
     }
+    setSearchError(
+      searchQuery.trim()
+        ? `No coverage page found for "${searchQuery.trim()}". Try Birmingham, Coventry, or Wolverhampton.`
+        : 'Please enter a town or city name.',
+    );
   };
 
   return (
@@ -40,7 +61,7 @@ export default function ContactInfoSection() {
             <div className="contact-logo-wrap">
               <Image
                 src={logo}
-                alt="WOW Gutters logo — professional gutter cleaning and roofline services"
+                alt="WOW Gutters Ltd logo — professional gutter cleaning and roofline services"
                 width={260}
                 height={100}
                 sizes="(max-width: 768px) 180px, 260px"
@@ -49,7 +70,7 @@ export default function ContactInfoSection() {
             </div>
             <div className="contact-header-text">
               <span className="contact-eyebrow">BOOK YOUR CLEAN</span>
-              <h2 className="contact-title">Contact WOW Gutters</h2>
+              <h2 className="contact-title">Contact WOW Gutters Ltd</h2>
             </div>
           </div>
 
@@ -89,12 +110,12 @@ export default function ContactInfoSection() {
           )}
 
           <div className="contact-socials">
-            <p className="contact-social-label">Follow WOW Gutters updates</p>
+            <p className="contact-social-label">Follow WOW Gutters Ltd updates</p>
             <div className="contact-social-row">
-              <a href="https://web.facebook.com/wowgutters.co.uk" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on Facebook" className="social-pill"><Facebook className="w-5 h-5"/></a>
-              <a href="https://www.youtube.com/@wowgutters" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on YouTube" className="social-pill"><Youtube className="w-5 h-5"/></a>
-              <a href="https://twitter.com/wowgutters" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on X/Twitter" className="social-pill"><Twitter className="w-5 h-5"/></a>
-              <a href="https://www.instagram.com/wowgutters/" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters on Instagram" className="social-pill"><Instagram className="w-5 h-5"/></a>
+              <a href="https://web.facebook.com/wowgutters.co.uk" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on Facebook" className="social-pill"><Facebook className="w-5 h-5"/></a>
+              <a href="https://www.youtube.com/@wowgutters" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on YouTube" className="social-pill"><Youtube className="w-5 h-5"/></a>
+              <a href="https://twitter.com/wowgutters" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on X/Twitter" className="social-pill"><Twitter className="w-5 h-5"/></a>
+              <a href="https://www.instagram.com/wowgutters/" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on Instagram" className="social-pill"><Instagram className="w-5 h-5"/></a>
               <a href="#" className="social-pill"><MessageCircle className="w-5 h-5"/></a>
             </div>
           </div>
@@ -142,18 +163,40 @@ export default function ContactInfoSection() {
             </div>
             
             <div className="search-input-wrap">
-              <form onSubmit={handleSearch}>
+              {/* No <form> — native GET submit caused wowgutters.co.uk/? on static export before hydration */}
+              <div role="search" className="search-field">
                 <input
                   type="text"
                   placeholder="E.g. your town..."
                   value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
+                  onChange={(e) => {
+                    setSearchQuery(e.target.value);
+                    if (searchError) setSearchError('');
+                  }}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') {
+                      e.preventDefault();
+                      handleSearch();
+                    }
+                  }}
                   className="search-input"
+                  aria-label="Search for gutter cleaning in your town or city"
+                  aria-describedby={searchError ? 'area-search-error' : undefined}
                 />
-                <button type="submit" className="search-submit">
+                <button
+                  type="button"
+                  onClick={handleSearch}
+                  className="search-submit"
+                  aria-label="Search locations"
+                >
                   <Search className="w-5 h-5" />
                 </button>
-              </form>
+              </div>
+              {searchError && (
+                <p id="area-search-error" className="search-error" role="alert">
+                  {searchError}
+                </p>
+              )}
             </div>
             
             <div className="search-illustration">
@@ -500,6 +543,19 @@ export default function ContactInfoSection() {
           position: relative;
           z-index: 2;
           margin-bottom: auto;
+        }
+        .search-field {
+          position: relative;
+        }
+        .search-error {
+          margin: 12px 0 0;
+          padding: 10px 14px;
+          border-radius: 10px;
+          background: rgba(255, 255, 255, 0.15);
+          color: #fff;
+          font-size: 0.9rem;
+          font-weight: 600;
+          line-height: 1.4;
         }
         .search-input {
           width: 100%;

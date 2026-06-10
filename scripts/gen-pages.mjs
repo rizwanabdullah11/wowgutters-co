@@ -60,7 +60,7 @@ const genFaqQs = (slug) => {
   const pc = p.pc.split(', ')[0];
   return `[
       { question: 'How much does gutter cleaning cost in ${n}?', answer: 'Prices start from \u00a3${p.pf} for a standard terraced property in ${n}. Most properties in ${pc} range from \u00a3${p.pf} to \u00a3${p.pf + 30}, and larger detached properties from \u00a3${p.pf + 30} to \u00a3${p.pt}. All prices include downpipe flushing and before & after photos.' },
-      { question: 'Is there a gutter cleaning service near me in ${n}?', answer: 'Yes — WOW Gutters covers all of ${n} (${pc}) including properties across the area. We work in ${n} regularly and can often book within 2 to 3 working days. Call 07421 433910 to check today\u2019s availability.' },
+      { question: 'Is there a gutter cleaning service near me in ${n}?', answer: 'Yes — WOW Gutters Ltd covers all of ${n} (${pc}) including properties across the area. We work in ${n} regularly and can often book within 2 to 3 working days. Call 07421 433910 to check today\u2019s availability.' },
       { question: 'Do you offer fascia and soffit cleaning in ${n}?', answer: 'Yes — our hot purified water system restores fascias and soffits on ${n} properties to a bright, streak-free finish. Particularly popular with homeowners following a gutter clean.' },
       { question: 'Can blocked gutters cause damp in ${n}\u2019s older properties?', answer: 'Yes — this is one of the most common problems we see in ${pc}. When gutters overflow against solid brick walls, water has nowhere to go except inward. We regularly see interior damp patches caused by neglected gutters.' },
       { question: 'What postcodes do you cover in ${n}?', answer: 'We cover ${pc} across ${n}. Call 07421 433910 to check if your street is covered.' },
@@ -72,7 +72,7 @@ const genFaqQs = (slug) => {
 const genReviews = (n) => `[
       { initial: 'J', name: 'James M.', place: '${n}', text: 'Excellent service from start to finish. Gutters cleared and downpipes flushed. The photos showed the difference clearly. Very professional. Will use again.' },
       { initial: 'L', name: 'Linda T.', place: '${n}', text: 'Ian came to clean our gutters. Very thorough, arrived on time, cleared everything from ground level. Fair price and great service. Highly recommend.' },
-      { initial: 'R', name: 'Robert P.', place: 'Birmingham', text: 'Great work from WOW Gutters. On time, professional, no mess. Clear before and after photos provided. Definitely recommend.' },
+      { initial: 'R', name: 'Robert P.', place: 'Birmingham', text: 'Great work from WOW Gutters Ltd. On time, professional, no mess. Clear before and after photos provided. Definitely recommend.' },
     ]`;
 
 for (const p of pages) {
@@ -114,14 +114,14 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     title: '${title}',
-    description: 'Professional gutter cleaning in ${p.name}, Birmingham (${p.pc}). No ladders, vacuum system, before & after photos. From \u00a3${p.pf}. Call WOW Gutters: 07421 433910.',
-    url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters',
-    images: [{ url: 'https://wowgutters.co.uk/og/${ogSlug}.jpg', width: 1200, height: 630, alt: 'WOW Gutters \u2014 ${title}' }],
+    description: 'Professional gutter cleaning in ${p.name}, Birmingham (${p.pc}). No ladders, vacuum system, before & after photos. From \u00a3${p.pf}. Call WOW Gutters Ltd: 07421 433910.',
+    url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters Ltd',
+    images: [{ url: 'https://wowgutters.co.uk/og/${ogSlug}.jpg', width: 1200, height: 630, alt: 'WOW Gutters Ltd \u2014 ${title}' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: '${title}',
-    description: 'Professional gutter cleaning in ${p.name}, Birmingham (${p.pc}). From \u00a3${p.pf}. No ladders, before & after photos. Call WOW Gutters: 07421 433910.',
+    description: 'Professional gutter cleaning in ${p.name}, Birmingham (${p.pc}). From \u00a3${p.pf}. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/${ogSlug}.jpg'],
   },
 }
@@ -129,7 +129,7 @@ export const metadata: Metadata = {
 const howToSchema = {
   '@context': 'https://schema.org',
   '@type': 'HowTo',
-  name: 'How WOW Gutters Cleans Your Gutters in ${p.name}, Birmingham',
+  name: 'How WOW Gutters Ltd Cleans Your Gutters in ${p.name}, Birmingham',
   description: 'Our 4-step professional gutter cleaning process for ${p.name} properties',
   step: [
     { '@type': 'HowToStep', position: 1, name: 'Assessment', text: 'We inspect your gutters and downpipes before starting, identifying all blockages, damaged sections and areas of concern for ${p.name}\u2019s properties.' },

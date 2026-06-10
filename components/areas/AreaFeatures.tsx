@@ -72,10 +72,10 @@ export default function AreaFeatures({
     featureSet === 'roof'
       ? locality
         ? `Why choose our roof cleaning service${placePhrase}?`
-        : `Why choose WOW Gutters for roof cleaning${serviceLabel ? ` — ${serviceLabel}` : ''}?`
+        : `Why choose WOW Gutters Ltd for roof cleaning${serviceLabel ? ` — ${serviceLabel}` : ''}?`
       : locality
-        ? `Why choose WOW Gutters for gutter cleaning${placePhrase}?`
-        : `Why choose WOW Gutters for ${serviceLabel ?? 'gutter cleaning'}?`;
+        ? `Why choose WOW Gutters Ltd for gutter cleaning${placePhrase}?`
+        : `Why choose WOW Gutters Ltd for ${serviceLabel ?? 'gutter cleaning'}?`;
 
   return (
     <section className="relative overflow-hidden">

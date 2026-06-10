@@ -44,7 +44,7 @@ export default function WhyChooseUs() {
         <div className="flex items-center justify-center gap-3 mb-5">
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
           <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primary }}>
-            Why Choose WOW Gutters
+            Why Choose WOW Gutters Ltd
           </span>
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
         </div>
