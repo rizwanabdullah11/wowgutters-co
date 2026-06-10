@@ -185,6 +185,16 @@ export function areaPath(slug: string): string {
   return `/${areaSegment(slug)}`;
 }
 
+/** Path segment for roof cleaning area pages: roof-cleaning-{city}/ */
+export function roofAreaSegment(slug: string): string {
+  return `roof-cleaning-${slug}/`;
+}
+
+/** Public SEO URL: /roof-cleaning-{city}/ */
+export function roofAreaPath(slug: string): string {
+  return `/${roofAreaSegment(slug)}`;
+}
+
 /** Prefix from the current page to the static-export site root (./ or ../). */
 export function siteRootRelativePrefix(): string {
   if (typeof window === 'undefined') {

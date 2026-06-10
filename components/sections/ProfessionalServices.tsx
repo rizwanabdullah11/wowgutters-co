@@ -14,8 +14,8 @@ export default function ProfessionalServices() {
           {/* Left side — Image */}
           <div className="w-full md:w-1/2 flex-shrink-0">
             <img
-              src="/Professional-experience.png"
-              alt="Professional Gutter Services"
+              src="https://possible-amber-u7lwvrlq.edgeone.app/professional-image.jpeg"
+              alt="WOW Gutters Ltd branded service van — professional gutter cleaning across Birmingham and the West Midlands"
               width={800}
               height={560}
               loading="lazy"

@@ -7,6 +7,7 @@ import { colors } from '@/constants/colors';
 import type { CityGutterLandingData } from '@/constants/cityGutterLandingData';
 import CollapsibleAreaFAQ from '@/components/areas/CollapsibleAreaFAQ';
 import { buildCityPageFaqs, isPrimaryCitySlug } from '@/lib/cityFaqs';
+import { AREA_SERVICE_META, type AreaServiceKind } from '@/lib/areaServiceMeta';
 import AreaServicesRange from '@/components/areas/AreaServicesRange';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
@@ -20,25 +21,23 @@ export default function CityGutterCleaningPage({
   data,
   priceFrom = 50,
   priceTo = 140,
+  serviceKind = 'gutter',
 }: {
   data: CityGutterLandingData;
   priceFrom?: number;
   priceTo?: number;
+  serviceKind?: AreaServiceKind;
 }) {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const meta = AREA_SERVICE_META[serviceKind];
 
   useEffect(() => {
     videoRef.current?.play().catch(() => {});
   }, []);
 
-  const whatsappQuestions = [
-    'How much is gutter cleaning for my property?',
-    'Do you have availability this week?',
-    'Can you repair leaking or damaged gutters?',
-    'Could I get a fast quote for my home?',
-  ];
+  const whatsappQuestions = [...meta.whatsappQuestions];
 
-  const pageFaqs = isPrimaryCitySlug(data.slug)
+  const pageFaqs = serviceKind === 'gutter' && isPrimaryCitySlug(data.slug)
     ? buildCityPageFaqs({
         city: data.city,
         slug: data.slug,
@@ -54,9 +53,9 @@ export default function CityGutterCleaningPage({
 
   const [titlePrefix, titleAccent = ''] = data.h1.split(' — ');
   const heroPills = [
-    { label: 'No ladders', Icon: Cable },
-    { label: 'Before & after photos', Icon: Images },
-    { label: 'Fully insured', Icon: Shield },
+    { label: meta.heroPills[0]?.label ?? 'No ladders', Icon: Cable },
+    { label: meta.heroPills[1]?.label ?? 'Before & after photos', Icon: Images },
+    { label: meta.heroPills[2]?.label ?? 'Fully insured', Icon: Shield },
   ] as const;
 
   return (
@@ -70,13 +69,13 @@ export default function CityGutterCleaningPage({
             muted
             playsInline
             preload="none"
-            poster="/gutter-hero-poster.jpg"
+            poster={meta.heroPoster}
             className="hero-video"
             onError={(e) => {
               (e.target as HTMLVideoElement).style.display = 'none';
             }}
           >
-            <source src="https://wowgutters.co.uk/gutter-final-video.mp4" type="video/mp4" />
+            <source src={meta.heroVideo} type="video/mp4" />
           </video>
           <div className="area-hero-overlay" />
         </div>
@@ -150,7 +149,7 @@ export default function CityGutterCleaningPage({
         <section className="py-14 px-4 bg-emerald-50/80 border-y border-emerald-100">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-2xl md:text-3xl font-black text-slate-900 mb-4">
-              Local gutter cleaning in {data.city}
+              Local {meta.labelLower} in {data.city}
             </h2>
             <p className="text-slate-700 text-lg leading-relaxed">{data.localSpotlight}</p>
           </div>
@@ -174,16 +173,16 @@ export default function CityGutterCleaningPage({
       <section className="py-16 px-4 bg-white border-b border-slate-100">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
-            Gutter cleaning prices in {data.city}
+            {meta.label} prices in {data.city}
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed mb-6">
             Most homes in {data.city} are quoted between <strong>£{priceFrom}</strong> and{' '}
-            <strong>£{priceTo}</strong> depending on size, storeys, and roof complexity. Fixed price confirmed
+            <strong>£{priceTo}</strong> depending on roof size, moss coverage, and access. Fixed price confirmed
             before we arrive — no call-out fee and no hidden charges on the day.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <Link
-              href="/gutter-cleaning-prices/"
+              href={meta.priceGuideHref}
               className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold text-white"
               style={{ background: colors.primaryGradient }}
             >
@@ -238,7 +237,7 @@ export default function CityGutterCleaningPage({
           ) : null}
         </div>
       </section>
-      <NearbyAreas area={data.slug} />
+      <NearbyAreas area={data.slug} serviceKind={serviceKind} />
 
       <section className="relative overflow-hidden border-t border-white/10 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] py-20 px-4">
         <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center gap-10 md:flex-row md:items-center md:justify-between">
@@ -284,7 +283,7 @@ export default function CityGutterCleaningPage({
       <section className="py-16 px-4 bg-white border-t border-slate-100">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
-            {data.ctaHeading ?? `Book your gutter clean in ${data.city} — free quote in 60 seconds`}
+            {data.ctaHeading ?? `Book your ${meta.labelLower} in ${data.city} — free quote in 60 seconds`}
           </h2>
           <div className="mt-8 flex justify-center">
             <AreaServiceQuoteCard />
@@ -296,7 +295,7 @@ export default function CityGutterCleaningPage({
       <AreaServicesRange />
       <AreaRecentWork />
       <AreaContactMap geo={data.geo} />
-      <AreaCrawlFooter currentSlug={data.slug} />
+      <AreaCrawlFooter currentSlug={data.slug} serviceKind={serviceKind} />
 
       <style>{`
         .area-page-wrapper { overflow-x: hidden; }

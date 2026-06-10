@@ -30,7 +30,7 @@ export function renderSuburbLanding(slug: string) {
         postcodes={city?.postcodes ?? []}
         faqs={suburb.faqs}
       />
-      <SuburbGutterCleaningPage data={suburb} />
+      <SuburbGutterCleaningPage data={suburb} areaSlug={slug} />
     </>
   );
 }

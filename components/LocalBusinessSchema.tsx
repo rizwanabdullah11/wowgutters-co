@@ -1,4 +1,5 @@
 import { buildLocalBusinessSchemaGraph } from '@/lib/localBusinessSchemaGraph';
+import type { AreaServiceKind } from '@/lib/areaServiceMeta';
 
 type LocalBusinessSchemaProps = {
   city: string;
@@ -12,6 +13,8 @@ type LocalBusinessSchemaProps = {
   };
   faqs?: Array<{ question: string; answer: string }>;
   postcodes?: string[];
+  serviceKind?: AreaServiceKind;
+  slug?: string;
 };
 
 export default function LocalBusinessSchema(props: LocalBusinessSchemaProps) {

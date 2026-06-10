@@ -4,6 +4,7 @@ import { useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { ShieldCheck, Phone, Cable, Images, Shield, ChevronDown, CheckCircle } from 'lucide-react';
 import { colors } from '@/constants/colors';
+import { AREA_SERVICE_META, type AreaServiceKind } from '@/lib/areaServiceMeta';
 import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
 import AreaServicesRange from '@/components/areas/AreaServicesRange';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
@@ -54,16 +55,32 @@ const defaultGuarantees = [
   '1-year service guarantee on every clean',
 ];
 
-const whatsappQuestions = [
-  'How much is gutter cleaning for my property?',
-  'Do you have availability this week?',
-  'Can you repair leaking or damaged gutters?',
-  'Could I get a fast quote for my home?',
-];
-
-export default function SuburbGutterCleaningPage({ data }: { data: SuburbPageData }) {
+export default function SuburbGutterCleaningPage({
+  data,
+  serviceKind = 'gutter',
+  priceFrom = 50,
+  priceTo = 140,
+  areaSlug,
+}: {
+  data: SuburbPageData;
+  serviceKind?: AreaServiceKind;
+  priceFrom?: number;
+  priceTo?: number;
+  areaSlug?: string;
+}) {
   const videoRef = useRef<HTMLVideoElement>(null);
-  const guarantees = data.guarantees ?? defaultGuarantees;
+  const meta = AREA_SERVICE_META[serviceKind];
+  const guarantees = data.guarantees ?? (serviceKind === 'roof'
+    ? [
+        'Controlled soft-wash methods — no damaging high-pressure washing',
+        'Moss, algae and lichen removal included on every job',
+        'Biocide treatment applied after cleaning to slow regrowth',
+        'Before & after photos included as standard on every job',
+        'Fully insured — comprehensive public liability cover',
+        '4.9★ rating from verified Google reviews',
+      ]
+    : defaultGuarantees);
+  const whatsappQuestions = [...meta.whatsappQuestions];
   const faqGroupName = `faq-${data.city.toLowerCase().replace(/\s+/g, '-')}`;
 
   useEffect(() => {
@@ -82,13 +99,13 @@ export default function SuburbGutterCleaningPage({ data }: { data: SuburbPageDat
             muted
             playsInline
             preload="none"
-            poster="/gutter-hero-poster.jpg"
+            poster={meta.heroPoster}
             className="hero-video"
             onError={(e) => {
               (e.target as HTMLVideoElement).style.display = 'none';
             }}
           >
-            <source src="https://wowgutters.co.uk/gutter-final-video.mp4" type="video/mp4" />
+            <source src={meta.heroVideo} type="video/mp4" />
           </video>
           <div className="area-hero-overlay" />
         </div>
@@ -177,16 +194,16 @@ export default function SuburbGutterCleaningPage({ data }: { data: SuburbPageDat
       <section className="py-16 px-4 bg-white border-b border-slate-100">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
-            Gutter cleaning prices in {data.city}
+            {meta.label} prices in {data.city}
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed mb-6">
-            Most {data.city} homes are quoted from <strong>£50</strong> for a standard terrace up to{' '}
-            <strong>£140+</strong> for larger detached properties. Your fixed price is confirmed before we
+            Most {data.city} homes are quoted from <strong>£{priceFrom}</strong> for a standard terrace up to{' '}
+            <strong>£{priceTo}+</strong> for larger detached properties. Your fixed price is confirmed before we
             visit — no call-out fee and no hidden charges on the day.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <Link
-              href="/gutter-cleaning-prices/"
+              href={meta.priceGuideHref}
               className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold text-white"
               style={{ background: colors.primaryGradient }}
             >
@@ -373,7 +390,7 @@ export default function SuburbGutterCleaningPage({ data }: { data: SuburbPageDat
       <AreaServicesRange />
       <AreaRecentWork />
       <AreaContactMap />
-      <AreaCrawlFooter />
+      <AreaCrawlFooter currentSlug={areaSlug} serviceKind={serviceKind} />
 
       <style>{`
         .area-page-wrapper { overflow-x: hidden; }
