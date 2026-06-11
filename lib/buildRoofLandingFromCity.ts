@@ -113,12 +113,12 @@ function roofInternalLinksFor(input: AreaInput): { label: string; href: string }
   const hub = input.hubSlug;
   if (hub && hub !== input.slug) {
     const hubName = hub === 'birmingham' ? 'Birmingham' : hub.charAt(0).toUpperCase() + hub.slice(1);
-    links.push({ label: `Roof cleaning ${hubName}`, href: roofAreaPath(hub === 'birmingham' ? 'birmingham' : hub) });
+    links.push({ label: `Roof Cleaning ${hubName}`, href: roofAreaPath(hub === 'birmingham' ? 'birmingham' : hub) });
   }
   for (const area of input.nearbyAreas.slice(0, 3)) {
     const nearbySlug = area.toLowerCase().replace(/\s+/g, '-');
     if (nearbySlug !== input.slug) {
-      links.push({ label: `Roof cleaning ${area}`, href: roofAreaPath(nearbySlug) });
+      links.push({ label: `Roof Cleaning ${area}`, href: roofAreaPath(nearbySlug) });
     }
   }
   links.push({ label: `Gutter cleaning ${input.name}`, href: areaPath(input.slug) });

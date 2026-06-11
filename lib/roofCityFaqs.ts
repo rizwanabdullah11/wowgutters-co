@@ -102,13 +102,13 @@ export function roofInternalLinks(
 
   if (hubSlug && hubSlug !== slug) {
     const hubName = hubSlug === 'birmingham' ? 'Birmingham' : hubSlug.charAt(0).toUpperCase() + hubSlug.slice(1);
-    links.push({ label: `Roof cleaning ${hubName}`, href: roofAreaPath(hubSlug) });
+    links.push({ label: `Roof Cleaning ${hubName}`, href: roofAreaPath(hubSlug) });
   }
 
   for (const area of nearbyAreas.slice(0, 3)) {
     const nearbySlug = area.toLowerCase().replace(/\s+/g, '-');
     if (nearbySlug !== slug) {
-      links.push({ label: `Roof cleaning ${area}`, href: roofAreaPath(nearbySlug) });
+      links.push({ label: `Roof Cleaning ${area}`, href: roofAreaPath(nearbySlug) });
     }
   }
 

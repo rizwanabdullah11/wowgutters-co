@@ -22,7 +22,7 @@ export default function AreaCrawlFooter({
   const pathForSlug = serviceKind === 'roof' ? roofAreaPath : areaPath;
   const linkLabel = (slug: string) =>
     serviceKind === 'roof'
-      ? `Roof cleaning ${areaLinkLabel(slug).replace(/^Gutter cleaning /i, '')}`
+      ? `Roof Cleaning ${areaLinkLabel(slug).replace(/^Gutter cleaning /i, '')}`
       : areaLinkLabel(slug);
 
   return (

@@ -149,7 +149,7 @@ export default function CityGutterCleaningPage({
         <section className="py-14 px-4 bg-emerald-50/80 border-y border-emerald-100">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-2xl md:text-3xl font-black text-slate-900 mb-4">
-              Local {meta.labelLower} in {data.city}
+              Local {meta.label} in {data.city}
             </h2>
             <p className="text-slate-700 text-lg leading-relaxed">{data.localSpotlight}</p>
           </div>

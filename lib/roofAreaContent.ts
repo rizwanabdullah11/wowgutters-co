@@ -18,9 +18,9 @@ function swapAreaLinks(href: string): string {
 
 function swapAreaLinkLabel(label: string): string {
   return label
-    .replace(/Gutter cleaning/gi, 'Roof cleaning')
     .replace(/Gutter Cleaning/g, 'Roof Cleaning')
-    .replace(/gutter cleaning/gi, 'roof cleaning');
+    .replace(/Gutter cleaning/g, 'Roof Cleaning')
+    .replace(/gutter cleaning/g, 'roof cleaning');
 }
 
 function transformRoofPrices(text: string): string {
@@ -39,8 +39,8 @@ function transformRoofPrices(text: string): string {
 export function transformTextToRoof(text: string): string {
   return transformRoofPrices(
     text
-    .replace(/\bgutter cleaning\b/gi, 'roof cleaning')
     .replace(/\bGutter Cleaning\b/g, 'Roof Cleaning')
+    .replace(/\bgutter cleaning\b/g, 'roof cleaning')
     .replace(/\bgutters\b/gi, 'roofs')
     .replace(/\bGutters\b/g, 'Roofs')
     .replace(/\bgutter\b/gi, 'roof')
@@ -172,7 +172,7 @@ export function transformSuburbGutterToRoof(data: SuburbPageData, slug: string):
     areasCoveredTitle: data.areasCoveredTitle,
     areasCoveredText: data.areasCoveredText,
     areaLinks: [
-      { href: roofAreaPath(slug), label: `Roof cleaning ${data.city}` },
+      { href: roofAreaPath(slug), label: `Roof Cleaning ${data.city}` },
       { href: areaPath(slug), label: `Gutter cleaning ${data.city}` },
       ...data.areaLinks.slice(0, 4).map((l) => ({
         href: swapAreaLinks(l.href),

@@ -78,7 +78,7 @@ export const ROOF_SERVICE_META: AreaServiceMeta = {
   servicePageHref: '/services/roof-cleaning/',
   schemaHubHref: 'https://wowgutters.co.uk/help/clean/',
   schemaHubLabel: 'Roof Cleaning',
-  crawlFooterTitle: 'Find roof cleaning near you',
+  crawlFooterTitle: 'Find Roof Cleaning near you',
   crawlFooterAria: 'More roof cleaning service areas',
   nearbyLinkPrefix: 'Roof Cleaning',
 };
