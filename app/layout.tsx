@@ -66,9 +66,8 @@ export const metadata: Metadata = {
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
     other: {
-      ...(process.env.NEXT_PUBLIC_BING_VERIFICATION
-        ? { "msvalidate.01": process.env.NEXT_PUBLIC_BING_VERIFICATION }
-        : {}),
+      "msvalidate.01":
+        process.env.NEXT_PUBLIC_BING_VERIFICATION || "733327357EAC2C662B6C711EA4E78993",
     },
   },
   category: "Home Services",
@@ -99,7 +98,9 @@ export default function RootLayout({
   const addressPostcode = (process.env.NEXT_PUBLIC_BUSINESS_POSTCODE || '').trim();
   const gbpCidUrl = (process.env.NEXT_PUBLIC_GBP_CID_URL || '').trim();
   const trustpilotUrl = (process.env.NEXT_PUBLIC_TRUSTPILOT_URL || '').trim();
-  const bingVerificationCode = (process.env.NEXT_PUBLIC_BING_VERIFICATION || '').trim();
+  const bingVerificationCode = (
+    process.env.NEXT_PUBLIC_BING_VERIFICATION || "733327357EAC2C662B6C711EA4E78993"
+  ).trim();
   const googleVerificationCode = (process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || '').trim();
 
   const videoObjectSchema = {

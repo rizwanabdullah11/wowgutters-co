@@ -808,13 +808,31 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
           margin: 1.5rem 0;
         }
 
-        .blog-content ul li {
+        .blog-content ul li,
+        .blog-content ol li {
           position: relative;
-          padding-left: 2rem;
           margin-bottom: 0.75rem;
           color: #475569;
           line-height: 1.7;
           font-size: 1.125rem;
+        }
+
+        .blog-content ul li {
+          padding-left: 2rem;
+        }
+
+        .blog-content ol {
+          padding-left: 1.5rem;
+          margin: 1.5rem 0;
+        }
+
+        .blog-content ol li {
+          padding-left: 0.25rem;
+        }
+
+        .blog-content ol li::marker {
+          color: #0f172a;
+          font-weight: 700;
         }
 
         .blog-content ul li::before {
@@ -956,7 +974,8 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
           }
 
           .blog-content p,
-          .blog-content ul li {
+          .blog-content ul li,
+          .blog-content ol li {
             font-size: 1rem;
           }
         }

@@ -38,7 +38,7 @@ export const ladywoodBlogPost: BlogPost = {
   authorRole: 'Professional Gutter Cleaning Specialists',
   category: 'Maintenance',
   lastUpdated: '2026-06-10',
-  featured: true,
+  featured: false,
   quickAnswer:
     'WOW Gutters Ltd provides professional gutter cleaning across Ladywood B16 and all surrounding Birmingham postcodes. Ground-based SkyVac vacuum system — no ladders — with downpipe clearance, flow testing, and before and after photos on every job. Victorian terraces, canalside developments, and managed apartment blocks. Rated 4.9★ on Google. Free quote: call 07421 433910.',
   breadcrumbName: 'Gutter Cleaning Ladywood B16',

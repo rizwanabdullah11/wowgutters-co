@@ -32,6 +32,18 @@ const nextConfig: NextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "electric-orange-ibaaimtl.edgeone.app",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "regional-apricot-mdidwxeu.edgeone.app",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };
