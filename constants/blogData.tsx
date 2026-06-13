@@ -1,5 +1,6 @@
 ﻿import { acocksGreenBlogPost } from './acocksGreenBlog';
 import { balsallHeathBlogPost } from './balsallHeathBlog';
+import { commercialWarehouseBlogPost } from './commercialWarehouseBlog';
 import { harborneBlogPost } from './harborneBlog';
 import { ladywoodBlogPost } from './ladywoodBlog';
 import { nechellsBlogPost } from './nechellsBlog';
@@ -10,6 +11,7 @@ export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  commercialWarehouseBlogPost,
   summerGutterCleaningBlogPost,
   ladywoodBlogPost,
   balsallHeathBlogPost,
