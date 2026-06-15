@@ -53,7 +53,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'weoley-castle': {
     city: 'Weoley Castle',
     heroBadge: 'Local Weoley Castle specialists • Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Weoley Castle',
+    heroTitleLine1: 'Gutter Cleaning Weoley Castle Birmingham',
     heroTitleLine2: 'Professional Service for B29 Properties',
     whyTitle: 'Why Weoley Castle Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -103,7 +103,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'west-heath': {
     city: 'West Heath',
     heroBadge: 'Local West Heath specialists • Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning West Heath',
+    heroTitleLine1: 'Gutter Cleaning West Heath Birmingham',
     heroTitleLine2: 'Professional Service for B31 Properties',
     whyTitle: 'Why West Heath Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -151,7 +151,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   witton: {
     city: 'Witton',
     heroBadge: 'Local Witton specialists • Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Witton',
+    heroTitleLine1: 'Gutter Cleaning Witton Birmingham',
     heroTitleLine2: 'Professional Service for B6 Properties',
     whyTitle: 'Why Witton Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -199,7 +199,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'wylde-green': {
     city: 'Wylde Green',
     heroBadge: 'Local Wylde Green specialists • Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Wylde Green',
+    heroTitleLine1: 'Gutter Cleaning Wylde Green Birmingham',
     heroTitleLine2: 'Professional Service for B73 Properties',
     whyTitle: 'Why Wylde Green Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -248,7 +248,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   yardley: {
     city: 'Yardley',
     heroBadge: 'Local Yardley specialists • Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Yardley',
+    heroTitleLine1: 'Gutter Cleaning Yardley Birmingham',
     heroTitleLine2: 'Professional Service for B25 & B26 Properties',
     whyTitle: 'Why Yardley Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -297,7 +297,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'yardley-wood': {
     city: 'Yardley Wood',
     heroBadge: 'Local Yardley Wood specialists • Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Yardley Wood',
+    heroTitleLine1: 'Gutter Cleaning Yardley Wood Birmingham',
     heroTitleLine2: 'Professional Service for B14 Properties',
     whyTitle: 'Why Yardley Wood Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -346,7 +346,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'turves-green': {
     city: 'Turves Green',
     heroBadge: 'Local Turves Green specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Turves Green',
+    heroTitleLine1: 'Gutter Cleaning Turves Green Birmingham',
     heroTitleLine2: 'Professional Service for B31 Properties',
     whyTitle: 'Why Turves Green Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -395,7 +395,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   tyseley: {
     city: 'Tyseley',
     heroBadge: 'Local Tyseley specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Tyseley',
+    heroTitleLine1: 'Gutter Cleaning Tyseley Birmingham',
     heroTitleLine2: 'Professional Service for B11 Properties',
     whyTitle: 'Why Tyseley Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -444,7 +444,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'ward-end': {
     city: 'Ward End',
     heroBadge: 'Local Ward End specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Ward End',
+    heroTitleLine1: 'Gutter Cleaning Ward End Birmingham',
     heroTitleLine2: 'Professional Service for B8 & B34 Properties',
     whyTitle: 'Why Ward End Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -493,7 +493,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'washwood-heath': {
     city: 'Washwood Heath',
     heroBadge: 'Local Washwood Heath specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Washwood Heath',
+    heroTitleLine1: 'Gutter Cleaning Washwood Heath Birmingham',
     heroTitleLine2: 'Professional Service for B8 Properties',
     whyTitle: 'Why Washwood Heath Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -542,7 +542,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'shirley': {
     city: 'Shirley',
     heroBadge: 'Local Shirley specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Shirley',
+    heroTitleLine1: 'Gutter Cleaning Shirley Birmingham',
     heroTitleLine2: 'Professional Service for B90 Properties',
     whyTitle: 'Why Shirley Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -591,7 +591,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'sheldon': {
     city: 'Sheldon',
     heroBadge: 'Local Sheldon specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Sheldon',
+    heroTitleLine1: 'Gutter Cleaning Sheldon Birmingham',
     heroTitleLine2: 'Professional Service for B26 Properties',
     whyTitle: 'Why Sheldon Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -640,7 +640,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'shenley-fields': {
     city: 'Shenley Fields',
     heroBadge: 'Local Shenley Fields specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Shenley Fields',
+    heroTitleLine1: 'Gutter Cleaning Shenley Fields Birmingham',
     heroTitleLine2: 'Professional Service for B29 Properties',
     whyTitle: 'Why Shenley Fields Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -689,7 +689,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'shenley-green': {
     city: 'Shenley Green',
     heroBadge: 'Local Shenley Green specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Shenley Green',
+    heroTitleLine1: 'Gutter Cleaning Shenley Green Birmingham',
     heroTitleLine2: 'Professional Service for B29 Properties',
     whyTitle: 'Why Shenley Green Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -738,7 +738,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'stechford': {
     city: 'Stechford',
     heroBadge: 'Local Stechford specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Stechford',
+    heroTitleLine1: 'Gutter Cleaning Stechford Birmingham',
     heroTitleLine2: 'Professional Service for B33 Properties',
     whyTitle: 'Why Stechford Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -787,7 +787,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'stirchley': {
     city: 'Stirchley',
     heroBadge: 'Local Stirchley specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Stirchley',
+    heroTitleLine1: 'Gutter Cleaning Stirchley Birmingham',
     heroTitleLine2: 'Professional Service for B30 Properties',
     whyTitle: 'Why Stirchley Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -836,7 +836,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'streetly': {
     city: 'Streetly',
     heroBadge: 'Local Streetly specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Streetly',
+    heroTitleLine1: 'Gutter Cleaning Streetly Birmingham',
     heroTitleLine2: 'Professional Service for B74 Properties',
     whyTitle: 'Why Streetly Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -885,7 +885,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'sutton-coldfield': {
     city: 'Sutton Coldfield',
     heroBadge: 'Local Sutton Coldfield specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Sutton Coldfield',
+    heroTitleLine1: 'Gutter Cleaning Sutton Coldfield Birmingham',
     heroTitleLine2: 'Professional Service for B72-B76 Properties',
     whyTitle: 'Why Sutton Coldfield Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -934,7 +934,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'perry-barr': {
     city: 'Perry Barr',
     heroBadge: 'Local Perry Barr specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Perry Barr',
+    heroTitleLine1: 'Gutter Cleaning Perry Barr Birmingham',
     heroTitleLine2: 'Professional Service for B42 Properties',
     whyTitle: 'Why Perry Barr Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -983,7 +983,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'perry-common': {
     city: 'Perry Common',
     heroBadge: 'Local Perry Common specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Perry Common',
+    heroTitleLine1: 'Gutter Cleaning Perry Common Birmingham',
     heroTitleLine2: 'Professional Service for B23 & B24 Properties',
     whyTitle: 'Why Perry Common Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1032,7 +1032,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   queslett: {
     city: 'Queslett',
     heroBadge: 'Local Queslett specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Queslett',
+    heroTitleLine1: 'Gutter Cleaning Queslett Birmingham',
     heroTitleLine2: 'Professional Service for B43 Properties',
     whyTitle: 'Why Queslett Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1081,7 +1081,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   quinton: {
     city: 'Quinton',
     heroBadge: 'Local Quinton specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Quinton',
+    heroTitleLine1: 'Gutter Cleaning Quinton Birmingham',
     heroTitleLine2: 'Professional Service for B32 Properties',
     whyTitle: 'Why Quinton Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1130,7 +1130,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   rednal: {
     city: 'Rednal',
     heroBadge: 'Local Rednal specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Rednal',
+    heroTitleLine1: 'Gutter Cleaning Rednal Birmingham',
     heroTitleLine2: 'Professional Service for B45 Properties',
     whyTitle: 'Why Rednal Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1179,7 +1179,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   rubery: {
     city: 'Rubery',
     heroBadge: 'Local Rubery specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Rubery',
+    heroTitleLine1: 'Gutter Cleaning Rubery Birmingham',
     heroTitleLine2: 'Professional Service for B45 Properties',
     whyTitle: 'Why Rubery Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1228,7 +1228,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   nechells: {
     city: 'Nechells',
     heroBadge: 'Local Nechells specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Nechells',
+    heroTitleLine1: 'Gutter Cleaning Nechells Birmingham',
     heroTitleLine2: 'Professional Service for B7 Properties',
     whyTitle: 'Why Nechells Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1277,7 +1277,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'new-oscott': {
     city: 'New Oscott',
     heroBadge: 'Local New Oscott specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning New Oscott',
+    heroTitleLine1: 'Gutter Cleaning New Oscott Birmingham',
     heroTitleLine2: 'Professional Service for B73 Properties',
     whyTitle: 'Why New Oscott Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1326,7 +1326,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   northfield: {
     city: 'Northfield',
     heroBadge: 'Local Northfield specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Northfield',
+    heroTitleLine1: 'Gutter Cleaning Northfield Birmingham',
     heroTitleLine2: 'Professional Service for B31 Properties',
     whyTitle: 'Why Northfield Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1375,7 +1375,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'kings-norton': {
     city: 'Kings Norton',
     heroBadge: 'Local Kings Norton specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Kings Norton',
+    heroTitleLine1: 'Gutter Cleaning Kings Norton Birmingham',
     heroTitleLine2: 'Professional Service for B30 & B38 Properties',
     whyTitle: 'Why Kings Norton Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1424,7 +1424,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   kingstanding: {
     city: 'Kingstanding',
     heroBadge: 'Local Kingstanding specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Kingstanding',
+    heroTitleLine1: 'Gutter Cleaning Kingstanding Birmingham',
     heroTitleLine2: 'Professional Service for B44 Properties',
     whyTitle: 'Why Kingstanding Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1473,7 +1473,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'kitts-green': {
     city: 'Kitts Green',
     heroBadge: 'Local Kitts Green specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Kitts Green',
+    heroTitleLine1: 'Gutter Cleaning Kitts Green Birmingham',
     heroTitleLine2: 'Professional Service for B26 Properties',
     whyTitle: 'Why Kitts Green Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1522,7 +1522,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   ladywood: {
     city: 'Ladywood',
     heroBadge: 'Local Ladywood specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Ladywood',
+    heroTitleLine1: 'Gutter Cleaning Ladywood Birmingham',
     heroTitleLine2: 'Professional Service for B16 Properties',
     whyTitle: 'Why Ladywood Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1571,7 +1571,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'lee-bank': {
     city: 'Lee Bank',
     heroBadge: 'Local Lee Bank specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Lee Bank',
+    heroTitleLine1: 'Gutter Cleaning Lee Bank Birmingham',
     heroTitleLine2: 'Professional Service for B1 & B5 Properties',
     whyTitle: 'Why Lee Bank Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1620,7 +1620,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   longbridge: {
     city: 'Longbridge',
     heroBadge: 'Local Longbridge specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Longbridge',
+    heroTitleLine1: 'Gutter Cleaning Longbridge Birmingham',
     heroTitleLine2: 'Professional Service for B31 & B45 Properties',
     whyTitle: 'Why Longbridge Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1669,7 +1669,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   lozells: {
     city: 'Lozells',
     heroBadge: 'Local Lozells specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Lozells',
+    heroTitleLine1: 'Gutter Cleaning Lozells Birmingham',
     heroTitleLine2: 'Professional Service for B19 Properties',
     whyTitle: 'Why Lozells Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1718,7 +1718,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'mere-green': {
     city: 'Mere Green',
     heroBadge: 'Local Mere Green specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Mere Green',
+    heroTitleLine1: 'Gutter Cleaning Mere Green Birmingham',
     heroTitleLine2: 'Professional Service for B75 Properties',
     whyTitle: 'Why Mere Green Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1767,7 +1767,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   minworth: {
     city: 'Minworth',
     heroBadge: 'Local Minworth specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Minworth',
+    heroTitleLine1: 'Gutter Cleaning Minworth Birmingham',
     heroTitleLine2: 'Professional Service for B76 Properties',
     whyTitle: 'Why Minworth Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1816,7 +1816,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   hawkesley: {
     city: 'Hawkesley',
     heroBadge: 'Local Hawkesley specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Hawkesley',
+    heroTitleLine1: 'Gutter Cleaning Hawkesley Birmingham',
     heroTitleLine2: 'Professional Service for B38 Properties',
     whyTitle: 'Why Hawkesley Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1865,7 +1865,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'hay-mills': {
     city: 'Hay Mills',
     heroBadge: 'Local Hay Mills specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Hay Mills',
+    heroTitleLine1: 'Gutter Cleaning Hay Mills Birmingham',
     heroTitleLine2: 'Professional Service for B25 Properties',
     whyTitle: 'Why Hay Mills Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1914,7 +1914,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   highgate: {
     city: 'Highgate',
     heroBadge: 'Local Highgate specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Highgate',
+    heroTitleLine1: 'Gutter Cleaning Highgate Birmingham',
     heroTitleLine2: 'Professional Service for B12 & B5 Properties',
     whyTitle: 'Why Highgate Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -1963,7 +1963,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'highters-heath': {
     city: 'Highter\u2019s Heath',
     heroBadge: 'Local Highter\u2019s Heath specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Highter\u2019s Heath',
+    heroTitleLine1: 'Gutter Cleaning Highter\u2019s Heath Birmingham',
     heroTitleLine2: 'Professional Service for B14 Properties',
     whyTitle: 'Why Highter\u2019s Heath Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -2012,7 +2012,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   hockley: {
     city: 'Hockley',
     heroBadge: 'Local Hockley specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Hockley',
+    heroTitleLine1: 'Gutter Cleaning Hockley Birmingham',
     heroTitleLine2: 'Professional Service for B18 & B19 Properties',
     whyTitle: 'Why Hockley Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -2061,7 +2061,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'hodge-hill': {
     city: 'Hodge Hill',
     heroBadge: 'Local Hodge Hill specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Hodge Hill',
+    heroTitleLine1: 'Gutter Cleaning Hodge Hill Birmingham',
     heroTitleLine2: 'Professional Service for B36 Properties',
     whyTitle: 'Why Hodge Hill Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -2110,7 +2110,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'hollywood-birmingham': {
     city: 'Hollywood',
     heroBadge: 'Local Hollywood specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Hollywood',
+    heroTitleLine1: 'Gutter Cleaning Hollywood Birmingham',
     heroTitleLine2: 'Professional Service for B47 & B14 Properties',
     whyTitle: 'Why Hollywood Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -2159,7 +2159,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'jewellery-quarter': {
     city: 'Jewellery Quarter',
     heroBadge: 'Local Jewellery Quarter specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Jewellery Quarter',
+    heroTitleLine1: 'Gutter Cleaning Jewellery Quarter Birmingham',
     heroTitleLine2: 'Professional Service for B1, B3, B4 & B18 Properties',
     whyTitle: 'Why Jewellery Quarter Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -2257,7 +2257,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'four-oaks': {
     city: 'Four Oaks',
     heroBadge: 'Local Four Oaks specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Four Oaks Sutton Coldfield',
+    heroTitleLine1: 'Gutter Cleaning Four Oaks Sutton Coldfield Birmingham',
     heroTitleLine2: 'Professional Service for B74 & B75 Properties',
     whyTitle: 'Why Four Oaks Gutters Need Regular Professional Cleaning',
     whyParagraphs: [
@@ -2700,7 +2700,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
   'boldmere': {
     city: 'Boldmere',
     heroBadge: 'Local Boldmere specialists \u2022 Same-day booking',
-    heroTitleLine1: 'Gutter Cleaning Boldmere Sutton Coldfield',
+    heroTitleLine1: 'Gutter Cleaning Boldmere Sutton Coldfield Birmingham',
     heroTitleLine2: 'Professional Service for B73 Properties',
     whyTitle: 'Why Boldmere Gutters Need Regular Professional Cleaning',
     whyParagraphs: [

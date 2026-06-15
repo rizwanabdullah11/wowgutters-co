@@ -150,7 +150,7 @@ export function buildAreaLandingFromCity(input: AreaInput): CityGutterLandingDat
     city: name,
     titleTag: `Gutter Cleaning ${name} | Professional, Safe & Guaranteed | WOW Gutters Ltd`,
     metaDescription: `Professional gutter cleaning in ${name} from £${priceFrom}. Ground-level vacuum, before & after photos, 1-year guarantee. Postcodes ${pcLabel}. Call WOW Gutters Ltd: 07421 433910.`,
-    h1: `Gutter Cleaning ${name} — Professional Service Across ${pcLabel}`,
+    h1: `Gutter Cleaning ${name}${tone === 'birmingham' ? ' Birmingham' : ''} — Professional Service for ${pcLabel} Properties`,
     heroIntro: heroIntroFor(input, tone),
     whyTitle: `Why ${name} Homeowners Choose Professional Gutter Cleaning`,
     whyBody: [...whyBodyFor(input, tone), ...areaUniqueWhyParagraphs(input)],
