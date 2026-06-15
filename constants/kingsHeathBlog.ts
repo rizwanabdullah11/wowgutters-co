@@ -24,7 +24,7 @@ const ctaBox = `
 </div>`;
 
 export const kingsHeathBlogPost: BlogPost = {
-  id: 'gutter-cleaning-kings-heath-b14-birmingham',
+  id: 'gutter-cleaning-kings-heath',
   seoTitle: 'Gutter Cleaning Kings Heath B14 Birmingham | Wow Gutters Ltd',
   title: "Gutter Cleaning in Kings Heath B14 — Protecting Birmingham's Most Invested-In Neighbourhood",
   excerpt:
