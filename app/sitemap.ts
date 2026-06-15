@@ -76,6 +76,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/blog',
     '/help',
     '/service-areas',
+    '/roof-cleaning-service-areas',
     '/latest-news',
     '/the-gutter-gallery',
     '/gutter-cleaning-calculator',
@@ -104,7 +105,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     if (route === '') priority = 1;
     else if (route === '/contact' || route === '/quote') priority = 0.95;
     else if (route === '/services' || route === '/pricing') priority = 0.9;
-    else if (route === '/service-areas') {
+    else if (route === '/service-areas' || route === '/roof-cleaning-service-areas') {
       priority = 0.75;
       changeFreq = 'weekly';
     }

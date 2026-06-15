@@ -3,6 +3,7 @@ import { getAreaData } from '@/lib/getAreaData';
 
 /** Central HTML hub — every area page should link here (≤3 clicks from homepage). */
 export const SERVICE_AREAS_HUB = '/service-areas/';
+export const ROOF_SERVICE_AREAS_HUB = '/roof-cleaning-service-areas/';
 
 export function areaLinkLabel(slug: string): string {
   return getAreaData(slug)?.name ?? slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');

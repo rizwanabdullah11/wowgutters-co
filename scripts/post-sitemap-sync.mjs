@@ -28,7 +28,15 @@ function urlToPath(loc) {
 function buildUrlEntry(path, lastmod) {
   const loc = `${SITE}${normalizePath(path)}`;
   const priority =
-    path === '/' ? '1' : path === '/contact/' || path === '/quote/' ? '0.95' : path.startsWith('/gutter-cleaning-') ? '0.85' : '0.8';
+    path === '/'
+      ? '1'
+      : path === '/contact/' || path === '/quote/'
+        ? '0.95'
+        : path.startsWith('/gutter-cleaning-') || path.startsWith('/roof-cleaning-')
+          ? '0.85'
+          : path === '/roof-cleaning-service-areas/' || path === '/service-areas/'
+            ? '0.75'
+            : '0.8';
   const changefreq = path === '/' || path === '/contact/' ? 'weekly' : 'monthly';
   return `<url>
 <loc>${loc}</loc>

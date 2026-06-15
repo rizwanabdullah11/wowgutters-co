@@ -1,23 +1,23 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
+import { AREA_SLUGS, roofAreaPath } from '@/lib/areaSlugs';
 import { getAreaData } from '@/lib/getAreaData';
 import { buildMetadata } from '@/lib/seo';
 import { colors } from '@/constants/colors';
-import { ROOF_SERVICE_AREAS_HUB } from '@/lib/crawlHub';
+import { SERVICE_AREAS_HUB } from '@/lib/crawlHub';
 
 function areaDisplayName(slug: string): string {
   return getAreaData(slug)?.name ?? slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 }
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Gutter Cleaning Service Areas',
+  title: 'Roof Cleaning Service Areas',
   description:
-    'Find professional gutter cleaning in your area. WOW Gutters Ltd covers 170+ locations across Birmingham, Coventry, Wolverhampton, Solihull, Walsall, Dudley and the West Midlands.',
-  canonicalPath: '/service-areas/',
+    'Find professional roof cleaning and moss removal in your area. WOW Gutters Ltd covers 170+ locations across Birmingham, Coventry, Wolverhampton, Solihull, Walsall, Dudley and the West Midlands.',
+  canonicalPath: '/roof-cleaning-service-areas/',
 });
 
-export default function ServiceAreasPage() {
+export default function RoofCleaningServiceAreasPage() {
   const sorted = [...AREA_SLUGS].sort((a, b) => areaDisplayName(a).localeCompare(areaDisplayName(b)));
 
   return (
@@ -27,16 +27,17 @@ export default function ServiceAreasPage() {
           Coverage map
         </p>
         <h1 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
-          Gutter cleaning service areas
+          Roof cleaning service areas
         </h1>
         <p className="text-lg text-slate-600 max-w-3xl mb-4 leading-relaxed">
-          WOW Gutters Ltd covers Birmingham and the wider West Midlands. Select your area for local pricing,
-          postcodes, FAQs and booking — every location is one click from this page.
+          WOW Gutters Ltd offers soft-wash roof cleaning and moss removal across Birmingham and the wider West
+          Midlands. Select your area for local pricing, postcodes, FAQs and booking — all {sorted.length} locations
+          are linked below.
         </p>
         <p className="text-slate-600 mb-4">
-          Need roof cleaning or moss removal?{' '}
-          <Link href={ROOF_SERVICE_AREAS_HUB} className="font-bold underline" style={{ color: colors.primary }}>
-            View all roof cleaning service areas
+          Need gutter cleaning instead?{' '}
+          <Link href={SERVICE_AREAS_HUB} className="font-bold underline" style={{ color: colors.primary }}>
+            View gutter cleaning service areas
           </Link>
           .
         </p>
@@ -46,15 +47,15 @@ export default function ServiceAreasPage() {
           </Link>
         </p>
 
-        <nav aria-label="All gutter cleaning service areas">
+        <nav aria-label="All roof cleaning service areas">
           <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-2">
             {sorted.map((slug) => (
               <li key={slug}>
                 <Link
-                  href={areaPath(slug)}
+                  href={roofAreaPath(slug)}
                   className="text-sm font-semibold text-slate-700 hover:text-[#0f766e] transition-colors"
                 >
-                  {areaDisplayName(slug)}
+                  Roof Cleaning {areaDisplayName(slug)}
                 </Link>
               </li>
             ))}
