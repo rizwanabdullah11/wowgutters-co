@@ -16,6 +16,7 @@ import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
 import NearbyAreas from '@/components/areas/NearbyAreas';
 import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
+import { normalizeAreaHeroTitle } from '@/lib/areaHeroTitle';
 
 export default function CityGutterCleaningPage({
   data,
@@ -51,7 +52,7 @@ export default function CityGutterCleaningPage({
         icon: ['💳', '🗓️', '🪜', '🚰', '📷', '📍', '✓'][i] ?? '✓',
       }));
 
-  const [titlePrefix, titleAccent = ''] = data.h1.split(' — ');
+  const { line1: titleLine1, line2: titleLine2 } = normalizeAreaHeroTitle(data.slug, data.h1);
   const heroPills = [
     { label: meta.heroPills[0]?.label ?? 'No ladders', Icon: Cable },
     { label: meta.heroPills[1]?.label ?? 'Before & after photos', Icon: Images },
@@ -87,11 +88,15 @@ export default function CityGutterCleaningPage({
           </div>
 
           <h1 className="hero-title animate-fade-in-up delay-100">
-            <span className="title-line">{titlePrefix} —</span>
-            <br />
-            <span className="title-accent" style={{ color: colors.primary }}>
-              {titleAccent}
-            </span>
+            <span className="title-line">{titleLine1}</span>
+            {titleLine2 ? (
+              <>
+                <br />
+                <span className="title-accent" style={{ color: colors.primary }}>
+                  {titleLine2}
+                </span>
+              </>
+            ) : null}
           </h1>
 
           <div className="flex flex-wrap justify-center gap-2 mb-6 max-w-3xl animate-fade-in-up delay-150">
