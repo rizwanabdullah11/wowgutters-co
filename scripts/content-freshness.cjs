@@ -33,7 +33,7 @@ function getLastModForPath(path) {
   if (FRESH_SERVICE_PATHS.has(norm)) {
     return `${SITE_CONTENT_UPDATED}T12:00:00.000Z`;
   }
-  const areaMatch = norm.match(/^\/gutter-cleaning-([^/]+)\/$/);
+  const areaMatch = norm.match(/^\/(?:gutter|roof)-cleaning-([^/]+)\/$/);
   if (areaMatch) return areaLastModIso(areaMatch[1]);
   if (norm === '/') return `${SITE_CONTENT_UPDATED}T10:00:00.000Z`;
   if (norm.startsWith('/blog/')) return `${SITE_CONTENT_UPDATED}T08:00:00.000Z`;

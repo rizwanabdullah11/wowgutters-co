@@ -10,11 +10,19 @@ const {
 const HIGH_PRIORITY = new Set([
   '/',
   '/gutter-cleaning-birmingham/',
+  '/roof-cleaning-birmingham/',
   '/help/unblock/',
   '/help/clean/',
   '/contact/',
   '/quote/',
 ]);
+
+function areaPagePriority(path) {
+  if (path.startsWith('/gutter-cleaning-') || path.startsWith('/roof-cleaning-')) {
+    return 0.85;
+  }
+  return 0.7;
+}
 
 module.exports = {
   siteUrl: 'https://wowgutters.co.uk',
@@ -36,9 +44,7 @@ module.exports = {
         changefreq: HIGH_PRIORITY.has(norm) ? 'weekly' : 'monthly',
         priority: HIGH_PRIORITY.has(norm)
           ? 1.0
-          : norm.startsWith('/gutter-cleaning-')
-            ? 0.85
-            : 0.7,
+          : areaPagePriority(norm),
         lastmod: new Date().toISOString(),
       };
     });
@@ -57,9 +63,7 @@ module.exports = {
         ? 1.0
         : norm.startsWith('/services/')
           ? 0.8
-          : norm.startsWith('/gutter-cleaning-')
-            ? 0.85
-            : 0.6,
+          : areaPagePriority(norm),
       lastmod: new Date().toISOString(),
     };
   },

@@ -49,6 +49,7 @@ const REQUIRED_INDEXABLE_PATHS = [
   '/citations/',
   '/contact/',
   '/service-areas/',
+  '/roof-cleaning-service-areas/',
 ];
 
 function readAreaSlugsFromRepo() {
@@ -61,24 +62,43 @@ function areaSitemapPath(slug) {
   return `/gutter-cleaning-${slug}/`;
 }
 
+function roofAreaSitemapPath(slug) {
+  return `/roof-cleaning-${slug}/`;
+}
+
 function normalizePath(path) {
   if (!path || path === '/') return '/';
   const p = path.startsWith('/') ? path : `/${path}`;
   return p.endsWith('/') ? p : `${p}/`;
 }
 
+function isExcludedAreaSlugPath(path, prefix) {
+  const areaMatch = path.match(new RegExp(`^\\/${prefix}-([^/]+)\\/$`));
+  return Boolean(areaMatch && EXCLUDED_AREA_SLUGS.has(areaMatch[1]));
+}
+
 function isExcludedSitemapPath(path) {
   const norm = normalizePath(path);
   if (EXCLUDED_PATHS.has(norm)) return true;
-  const areaMatch = norm.match(/^\/gutter-cleaning-([^/]+)\/$/);
-  if (areaMatch && EXCLUDED_AREA_SLUGS.has(areaMatch[1])) return true;
+  if (isExcludedAreaSlugPath(norm, 'gutter-cleaning')) return true;
+  if (isExcludedAreaSlugPath(norm, 'roof-cleaning')) return true;
   return false;
 }
 
-function allAreaSitemapPaths() {
+function allGutterAreaSitemapPaths() {
   return readAreaSlugsFromRepo()
     .filter((slug) => !EXCLUDED_AREA_SLUGS.has(slug))
     .map((slug) => areaSitemapPath(slug));
+}
+
+function allRoofAreaSitemapPaths() {
+  return readAreaSlugsFromRepo()
+    .filter((slug) => !EXCLUDED_AREA_SLUGS.has(slug))
+    .map((slug) => roofAreaSitemapPath(slug));
+}
+
+function allAreaSitemapPaths() {
+  return [...allGutterAreaSitemapPaths(), ...allRoofAreaSitemapPaths()];
 }
 
 module.exports = {
@@ -87,7 +107,10 @@ module.exports = {
   REQUIRED_INDEXABLE_PATHS,
   readAreaSlugsFromRepo,
   areaSitemapPath,
+  roofAreaSitemapPath,
   normalizePath,
   isExcludedSitemapPath,
+  allGutterAreaSitemapPaths,
+  allRoofAreaSitemapPaths,
   allAreaSitemapPaths,
 };
