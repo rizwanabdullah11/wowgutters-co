@@ -1,4 +1,5 @@
 ﻿import { blockedGuttersBirminghamBlogPost } from './blockedGuttersBirminghamBlog';
+import { heavyRainBirminghamGuttersBlogPost } from './heavyRainBirminghamGuttersBlog';
 import { acocksGreenBlogPost } from './acocksGreenBlog';
 import { balsallHeathBlogPost } from './balsallHeathBlog';
 import { kingsHeathBlogPost } from './kingsHeathBlog';
@@ -13,6 +14,7 @@ export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  heavyRainBirminghamGuttersBlogPost,
   blockedGuttersBirminghamBlogPost,
   kingsHeathBlogPost,
   commercialWarehouseBlogPost,
