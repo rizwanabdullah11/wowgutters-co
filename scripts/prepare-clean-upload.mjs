@@ -104,6 +104,7 @@ const criticalFiles = [
   'robots.txt',
   '.htaccess',
   'gutter-cleaning-birmingham/index.html',
+  'gutter-cleaning-near-me/index.html',
   'west-midlands/gutter-cleaning-birmingham/index.html',
   'gutter-cleaning-wolverhampton/index.html',
   '_next/static'

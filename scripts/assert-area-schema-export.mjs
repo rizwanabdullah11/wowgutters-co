@@ -5,6 +5,7 @@ const outDir = path.join(process.cwd(), 'out');
 
 const mustHaveSchema = [
   'gutter-cleaning-birmingham/index.html',
+  'gutter-cleaning-near-me/index.html',
   'west-midlands/gutter-cleaning-birmingham/index.html',
   'gutter-cleaning-wolverhampton/index.html',
   'gutter-cleaning-coventry/index.html',
