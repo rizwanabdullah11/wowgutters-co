@@ -68,6 +68,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
     '',
     '/west-midlands/gutter-cleaning-birmingham',
+    '/gutter-cleaning-near-me',
     '/about',
     '/citations',
     '/contact',

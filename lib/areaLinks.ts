@@ -68,6 +68,18 @@ export const nearbyAreas: Record<string, { name: string; slug: string }[]> = {
     { name: 'Dudley', slug: 'gutter-cleaning-dudley' },
     { name: 'Solihull', slug: 'gutter-cleaning-solihull' },
   ],
+  'near-me': [
+    { name: 'Birmingham', slug: 'gutter-cleaning-birmingham' },
+    { name: 'Wolverhampton', slug: 'gutter-cleaning-wolverhampton' },
+    { name: 'Coventry', slug: 'gutter-cleaning-coventry' },
+    { name: 'Solihull', slug: 'gutter-cleaning-solihull' },
+    { name: 'Walsall', slug: 'gutter-cleaning-walsall' },
+    { name: 'Dudley', slug: 'gutter-cleaning-dudley' },
+    { name: 'Sutton Coldfield', slug: 'gutter-cleaning-sutton-coldfield' },
+    { name: 'Redditch', slug: 'gutter-cleaning-redditch' },
+    { name: 'Worcester', slug: 'gutter-cleaning-worcester' },
+    { name: 'Kidderminster', slug: 'gutter-cleaning-kidderminster' },
+  ],
   birmingham: [
     { name: 'Sutton Coldfield', slug: 'gutter-cleaning-sutton-coldfield' },
     { name: 'Moseley', slug: 'gutter-cleaning-moseley' },
