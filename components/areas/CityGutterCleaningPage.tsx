@@ -23,11 +23,17 @@ export default function CityGutterCleaningPage({
   priceFrom = 50,
   priceTo = 140,
   serviceKind = 'gutter',
+  showGuarantee = true,
+  showPricing = true,
+  useLandingFaqs = false,
 }: {
   data: CityGutterLandingData;
   priceFrom?: number;
   priceTo?: number;
   serviceKind?: AreaServiceKind;
+  showGuarantee?: boolean;
+  showPricing?: boolean;
+  useLandingFaqs?: boolean;
 }) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const meta = AREA_SERVICE_META[serviceKind];
@@ -38,7 +44,7 @@ export default function CityGutterCleaningPage({
 
   const whatsappQuestions = [...meta.whatsappQuestions];
 
-  const pageFaqs = serviceKind === 'gutter' && isPrimaryCitySlug(data.slug)
+  const pageFaqs = !useLandingFaqs && serviceKind === 'gutter' && isPrimaryCitySlug(data.slug)
     ? buildCityPageFaqs({
         city: data.city,
         slug: data.slug,
@@ -161,48 +167,52 @@ export default function CityGutterCleaningPage({
         </section>
       ) : null}
 
-      <section className="py-16 px-4 bg-slate-50">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-8 text-center">Our Guarantee</h2>
-          <ul className="grid sm:grid-cols-2 gap-4">
-            {data.guarantees.map((g) => (
-              <li key={g} className="flex gap-3 p-5 rounded-2xl bg-white border border-slate-200 shadow-sm">
-                <CheckCircle2 className="w-6 h-6 shrink-0" style={{ color: colors.primary }} />
-                <span className="text-slate-800 font-semibold">{g}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
-      <section className="py-16 px-4 bg-white border-b border-slate-100">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
-            {meta.label} prices in {data.city}
-          </h2>
-          <p className="text-slate-600 text-lg leading-relaxed mb-6">
-            Most homes in {data.city} are quoted between <strong>£{priceFrom}</strong> and{' '}
-            <strong>£{priceTo}</strong> depending on roof size, moss coverage, and access. Fixed price confirmed
-            before we arrive — no call-out fee and no hidden charges on the day.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
-            <Link
-              href={meta.priceGuideHref}
-              className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold text-white"
-              style={{ background: colors.primaryGradient }}
-            >
-              View full price guide
-            </Link>
-            <Link
-              href="/quote/"
-              className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold border-2"
-              style={{ borderColor: colors.primary, color: colors.primary }}
-            >
-              Get a free quote
-            </Link>
+      {showGuarantee && data.guarantees.length > 0 ? (
+        <section className="py-16 px-4 bg-slate-50">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-8 text-center">Our Guarantee</h2>
+            <ul className="grid sm:grid-cols-2 gap-4">
+              {data.guarantees.map((g) => (
+                <li key={g} className="flex gap-3 p-5 rounded-2xl bg-white border border-slate-200 shadow-sm">
+                  <CheckCircle2 className="w-6 h-6 shrink-0" style={{ color: colors.primary }} />
+                  <span className="text-slate-800 font-semibold">{g}</span>
+                </li>
+              ))}
+            </ul>
           </div>
-        </div>
-      </section>
+        </section>
+      ) : null}
+
+      {showPricing ? (
+        <section className="py-16 px-4 bg-white border-b border-slate-100">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
+              {meta.label} prices in {data.city}
+            </h2>
+            <p className="text-slate-600 text-lg leading-relaxed mb-6">
+              Most homes in {data.city} are quoted between <strong>£{priceFrom}</strong> and{' '}
+              <strong>£{priceTo}</strong> depending on roof size, moss coverage, and access. Fixed price confirmed
+              before we arrive — no call-out fee and no hidden charges on the day.
+            </p>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+              <Link
+                href={meta.priceGuideHref}
+                className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold text-white"
+                style={{ background: colors.primaryGradient }}
+              >
+                View full price guide
+              </Link>
+              <Link
+                href="/quote/"
+                className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold border-2"
+                style={{ borderColor: colors.primary, color: colors.primary }}
+              >
+                Get a free quote
+              </Link>
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       <section className="py-16 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
