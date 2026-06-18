@@ -5,7 +5,8 @@ export interface BlogPost {
   image: string;
   heroVideo?: string;
   date: string;
-  views: string;
+  /** @deprecated Use dynamic BlogViewCount — optional legacy field ignored in UI */
+  views?: string;
   content?: string;
   category?: string;
   author?: string;

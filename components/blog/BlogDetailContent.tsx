@@ -8,6 +8,7 @@ import Link from 'next/link';
 import AreaFAQ from '@/components/areas/AreaFAQ';
 import AreaReviews from '@/components/areas/AreaReviews';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
+import BlogViewCount from '@/components/blog/BlogViewCount';
 import { formatBlogDate } from '@/lib/dateUtils';
 import { resolveBlogImageUrl } from '@/lib/blogImageUrl';
 
@@ -397,7 +398,7 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
             </div>
             <div className="meta-item">
               <Eye className="w-5 h-5" />
-              <span>{post.views} views</span>
+              <BlogViewCount postId={post.id} publishedDate={post.date} incrementOnMount suffix="views" />
             </div>
           </div>
         </div>
@@ -633,7 +634,9 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>{formatBlogDate(relatedPost.date)}</span>
-                        <span>{relatedPost.views} views</span>
+                        <span>
+                          <BlogViewCount postId={relatedPost.id} publishedDate={relatedPost.date} suffix="views" />
+                        </span>
                       </div>
                     </div>
                   </article>

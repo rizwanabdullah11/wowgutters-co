@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { colors } from '@/constants/colors';
 import { blogPosts } from '@/constants/blogData';
 import { ArrowRight } from 'lucide-react';
+import BlogViewCount from '@/components/blog/BlogViewCount';
 
 export default function BlogSection() {
   const featuredPost = blogPosts.find(p => p.featured) ?? blogPosts[0];
@@ -63,7 +64,8 @@ export default function BlogSection() {
                 {featuredPost.title}
               </h3>
               <p className="text-xs mb-3" style={{ color: colors.textLight }}>
-                Published: {featuredPost.date} · {featuredPost.views} views
+                Published: {featuredPost.date} ·{' '}
+                <BlogViewCount postId={featuredPost.id} publishedDate={featuredPost.date} suffix="views" />
               </p>
               <p className="text-sm leading-relaxed" style={{ color: colors.textLight }}>
                 {featuredPost.excerpt}
@@ -100,7 +102,7 @@ export default function BlogSection() {
                     {post.excerpt}
                   </p>
                   <span className="text-xs font-bold" style={{ color: colors.textLight }}>
-                    {post.date} · {post.views} views
+                    {post.date} · <BlogViewCount postId={post.id} publishedDate={post.date} suffix="views" />
                   </span>
                 </div>
               </div>
@@ -136,7 +138,7 @@ export default function BlogSection() {
                     {post.excerpt}
                   </p>
                   <span className="text-xs font-bold" style={{ color: colors.textLight }}>
-                    {post.date} · {post.views} views
+                    {post.date} · <BlogViewCount postId={post.id} publishedDate={post.date} suffix="views" />
                   </span>
                 </div>
               </div>
