@@ -1,7 +1,7 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  'https://conservative-sapphire-ozataxgk.edgeone.app/birmingham-gutter-clean-hero.png';
+  'https://revolutionary-blue-qjiuv9nk.edgeone.app/birmingham-gutter-clean-hero.png';
 const IMG_BEFORE =
   'https://conservative-sapphire-ozataxgk.edgeone.app/birmingham-gutter-clean-before.png';
 const IMG_AFTER =
