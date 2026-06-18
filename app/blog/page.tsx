@@ -10,6 +10,7 @@ import {
   Search, Tag, TrendingUp, Clock
 } from 'lucide-react';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
+import BlogViewCount from '@/components/blog/BlogViewCount';
 import { formatBlogDateShort } from '@/lib/dateUtils';
 
 export default function BlogPage() {
@@ -38,10 +39,12 @@ export default function BlogPage() {
     })
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
-  // Get featured post — explicit flag first, fallback to most views
-  const featuredPost = blogPosts.find(p => p.featured) ?? blogPosts.reduce((prev, current) =>
-    (parseInt(current.views) > parseInt(prev.views)) ? current : prev
-  );
+  // Get featured post — explicit flag first, fallback to newest by date
+  const featuredPost =
+    blogPosts.find((p) => p.featured) ??
+    blogPosts.reduce((prev, current) =>
+      new Date(current.date).getTime() > new Date(prev.date).getTime() ? current : prev,
+    );
 
   return (
     <main className="bg-white blog-page-wrapper">
@@ -147,7 +150,7 @@ export default function BlogPage() {
                   </span>
                   <span className="flex items-center gap-1">
                     <Eye className="w-4 h-4" />
-                    {featuredPost.views} views
+                    <BlogViewCount postId={featuredPost.id} publishedDate={featuredPost.date} suffix="views" />
                   </span>
                   <span className="flex items-center gap-1">
                     <User className="w-4 h-4" />
@@ -244,7 +247,7 @@ export default function BlogPage() {
                         </span>
                         <span className="flex items-center gap-1">
                           <Eye className="w-3.5 h-3.5" />
-                          {post.views}
+                          <BlogViewCount postId={post.id} publishedDate={post.date} suffix="" />
                         </span>
                       </div>
 
