@@ -33,13 +33,13 @@ export default function RepairPage() {
             muted
             playsInline
             preload="none"
-            poster="/gutter-hero-poster.jpg"
+            poster="/gutter-repair-before.png"
             className="w-full h-full object-cover"
             onError={(e) => {
               (e.target as HTMLVideoElement).style.display = 'none';
             }}
           >
-            <source src="/gutter-final-video.mp4" type="video/mp4" />
+            <source src="/gutter-repair%20(2).mp4" type="video/mp4" />
           </video>
           {/* Gradient overlay for text readability */}
           <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(15, 23, 42, 0.75) 0%, rgba(15, 23, 42, 0.65) 50%, rgba(15, 23, 42, 0.85) 100%)' }}></div>
