@@ -31,6 +31,7 @@ export default function HomeScreen() {
       <HotWashBanner />
       <BlogSection />
       <QuestionsAnswers />
+      <WhyChooseUs />
       <ReviewsSection />
       <WhyChooseUs />
       <FeaturesSection />

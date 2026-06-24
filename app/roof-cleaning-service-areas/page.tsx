@@ -4,7 +4,6 @@ import { AREA_SLUGS, roofAreaPath } from '@/lib/areaSlugs';
 import { getAreaData } from '@/lib/getAreaData';
 import { buildMetadata } from '@/lib/seo';
 import { colors } from '@/constants/colors';
-import { SERVICE_AREAS_HUB } from '@/lib/crawlHub';
 
 function areaDisplayName(slug: string): string {
   return getAreaData(slug)?.name ?? slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
@@ -36,8 +35,8 @@ export default function RoofCleaningServiceAreasPage() {
         </p>
         <p className="text-slate-600 mb-4">
           Need gutter cleaning instead?{' '}
-          <Link href={SERVICE_AREAS_HUB} className="font-bold underline" style={{ color: colors.primary }}>
-            View gutter cleaning service areas
+          <Link href="/gutter-cleaning-birmingham/" className="font-bold underline" style={{ color: colors.primary }}>
+            View gutter cleaning in Birmingham
           </Link>
           .
         </p>

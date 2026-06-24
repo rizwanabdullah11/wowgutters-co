@@ -50,10 +50,10 @@ export default function HelpIsHere() {
           </div>
           
           <h2 className="text-4xl md:text-5xl font-bold mb-6" style={{ color: colors.white }}>
-            Need Gutter Help Today?
+            Need Expert Help Today?
           </h2>
           <p className="text-xl mb-6 max-w-3xl mx-auto leading-relaxed" style={{ color: colors.white }}>
-            Speak with WOW Gutters Ltd for gutter cleaning, downpipe clearing, repairs and roofline cleaning.
+            Speak with WOW Gutters Ltd for gutter cleaning, repairs, inspections, roof cleaning and exterior uPVC care.
           </p>
           
           {/* Call to Action */}
@@ -61,7 +61,7 @@ export default function HelpIsHere() {
             <div className="flex items-center justify-center gap-3 mb-4">
               <Phone className="w-8 h-8" style={{ color: colors.cta }} />
               <span className="text-lg font-semibold" style={{ color: colors.white }}>
-                Call Now for Gutter Advice
+                Call Now for Expert Advice
               </span>
             </div>
             <a 
@@ -118,10 +118,10 @@ export default function HelpIsHere() {
               Free Quote Available
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mb-4 tracking-tight leading-tight" style={{ color: colors.white }}>
-              Ready to Clear Your Gutters?
+              Ready to Book With WOW Gutters Ltd?
             </h2>
             <p className="text-lg md:text-xl text-white/90 font-medium">
-              Get your free quote today, or call us directly to discuss gutter cleaning, repairs and exterior cleaning for your property.
+              Get your free quote today, or call us directly to discuss any of our gutter and exterior services.
             </p>
           </div>
 

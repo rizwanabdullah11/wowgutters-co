@@ -4,26 +4,26 @@ import { CheckCircle, ArrowUp, Home, PoundSterling, UserCheck, Sparkles } from '
 const topFeatures = [
   {
     icon: <CheckCircle className="w-5 h-5" />,
-    title: 'We Unblock Downpipes',
-    subtitle: 'INCLUDED AS STANDARD',
+    title: 'Complete Gutter Care',
+    subtitle: 'ALL SERVICES',
     description:
-      'We clear outlets and check downpipes so rainwater can drain away from your property properly.',
+      'Gutter cleaning, repairs, inspections, roof cleaning and uPVC care — one trusted team for your whole exterior.',
     accent: '#3B82F6',
   },
   {
     icon: <ArrowUp className="w-5 h-5" />,
-    title: 'High-Reach Gutter Cleaning',
-    subtitle: 'HIGH ACCESS SPECIALISTS',
+    title: 'Ground-Level Safety',
+    subtitle: 'NO LADDERS NEEDED',
     description:
-      'Our gutter vacuum equipment reaches awkward and higher gutter lines without unnecessary disruption.',
+      'Our high-reach equipment lets us work safely from the ground on most properties across Birmingham and the West Midlands.',
     accent: '#19C58B',
   },
   {
     icon: <Home className="w-5 h-5" />,
-    title: 'Gutters Over Your Conservatory',
-    subtitle: 'SPECIALIST ACCESS',
+    title: 'Specialist Access',
+    subtitle: 'AWKWARD ROOFLINES',
     description:
-      'We use specialist access tools to clean over conservatories, porches and awkward rooflines.',
+      'We use specialist tools for conservatories, porches and higher gutter lines without unnecessary disruption.',
     accent: '#F97316',
   },
 ];
@@ -31,10 +31,10 @@ const topFeatures = [
 const bottomFeatures = [
   {
     icon: <PoundSterling className="w-5 h-5" />,
-    title: 'Fair Gutter Cleaning Prices',
-    subtitle: 'CLEAR VALUE',
+    title: 'Clear, Fair Pricing',
+    subtitle: 'NO SURPRISES',
     description:
-      'Straightforward prices designed to keep professional gutter care affordable and worthwhile.',
+      'Straightforward quotes designed to keep professional gutter care affordable and worthwhile.',
     accent: '#8B5CF6',
   },
   {
@@ -108,16 +108,16 @@ export default function FeaturesSection() {
         <div className="flex items-center justify-center gap-3 mb-5">
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
           <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primary }}>
-            Service Benefits
+            Why WOW Gutters Ltd
           </span>
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
         </div>
 
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-center mb-4" style={{ color: colors.text }}>
-          Practical Benefits of Our Gutter Cleaning
+          Why WOW Gutters Ltd Stands Out
         </h2>
         <p className="text-center text-base sm:text-lg mb-12 max-w-2xl mx-auto" style={{ color: colors.textLight }}>
-          Everything is designed to make gutter cleaning simple, safe and effective for your property.
+          Trusted methods, clear communication, and visible results on every job we complete.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">

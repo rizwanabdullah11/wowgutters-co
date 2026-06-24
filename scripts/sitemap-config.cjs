@@ -48,7 +48,6 @@ const REQUIRED_INDEXABLE_PATHS = [
   '/windows-cleaning/',
   '/citations/',
   '/contact/',
-  '/service-areas/',
   '/roof-cleaning-service-areas/',
 ];
 

@@ -1,8 +1,7 @@
 import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
 import { getAreaData } from '@/lib/getAreaData';
 
-/** Central HTML hub — every area page should link here (≤3 clicks from homepage). */
-export const SERVICE_AREAS_HUB = '/service-areas/';
+/** Central HTML hub for roof cleaning area index. */
 export const ROOF_SERVICE_AREAS_HUB = '/roof-cleaning-service-areas/';
 
 export function areaLinkLabel(slug: string): string {

@@ -318,7 +318,7 @@ ${ctaBox}
 
 <p>✅ Price confirmed before arrival — no changes on the day</p>
 
-<p>We cover the full Birmingham city area and all West Midlands postcodes — including <a href="/gutter-cleaning-sutton-coldfield/" style="${link}">Sutton Coldfield</a>, <a href="/gutter-cleaning-solihull/" style="${link}">Solihull</a>, <a href="/gutter-cleaning-wolverhampton/" style="${link}">Wolverhampton</a>, <a href="/gutter-cleaning-walsall/" style="${link}">Walsall</a>, <a href="/gutter-cleaning-dudley/" style="${link}">Dudley</a>, <a href="/gutter-cleaning-redditch/" style="${link}">Redditch</a>, <a href="/gutter-cleaning-bromsgrove/" style="${link}">Bromsgrove</a>, <a href="/gutter-cleaning-coventry/" style="${link}">Coventry</a>, <a href="/gutter-cleaning-kidderminster/" style="${link}">Kidderminster</a>, <a href="/gutter-cleaning-worcester/" style="${link}">Worcester</a>, <a href="/gutter-cleaning-malvern/" style="${link}">Malvern</a>, and all surrounding areas. Browse the full <a href="/service-areas/" style="${link}">gutter cleaning service areas</a> hub or <a href="/roof-cleaning-service-areas/" style="${link}">roof cleaning service areas</a> for combined roofline work. Find <a href="/gutter-cleaning-near-me/" style="${link}">gutter cleaning near you</a> by postcode.</p>
+<p>We cover the full Birmingham city area and all West Midlands postcodes — including <a href="/gutter-cleaning-sutton-coldfield/" style="${link}">Sutton Coldfield</a>, <a href="/gutter-cleaning-solihull/" style="${link}">Solihull</a>, <a href="/gutter-cleaning-wolverhampton/" style="${link}">Wolverhampton</a>, <a href="/gutter-cleaning-walsall/" style="${link}">Walsall</a>, <a href="/gutter-cleaning-dudley/" style="${link}">Dudley</a>, <a href="/gutter-cleaning-redditch/" style="${link}">Redditch</a>, <a href="/gutter-cleaning-bromsgrove/" style="${link}">Bromsgrove</a>, <a href="/gutter-cleaning-coventry/" style="${link}">Coventry</a>, <a href="/gutter-cleaning-kidderminster/" style="${link}">Kidderminster</a>, <a href="/gutter-cleaning-worcester/" style="${link}">Worcester</a>, <a href="/gutter-cleaning-malvern/" style="${link}">Malvern</a>, and all surrounding areas. Browse our <a href="/roof-cleaning-service-areas/" style="${link}">roof cleaning service areas</a> for combined exterior work, or find <a href="/gutter-cleaning-near-me/" style="${link}">gutter cleaning near you</a> by postcode.</p>
 
 <p>📸 Want to know which mechanisms are already operating on your property?</p>
 
@@ -432,7 +432,7 @@ Open 7 days — Monday to Friday 7am–8pm · Saturday 9am–6pm · Sunday 10am�
   <li><a href="/services/upvc-cleaning/" style="${link}">Fascia and soffit cleaning</a></li>
   <li><a href="/services/gutter-inspection/" style="${link}">Gutter inspection Birmingham</a></li>
   <li><a href="/gutter-cleaning-prices/" style="${link}">Gutter cleaning prices guide</a></li>
-  <li><a href="/service-areas/" style="${link}">All gutter cleaning service areas</a></li>
+  <li><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a></li>
   <li><a href="/quote/" style="${link}">Get a free quote</a></li>
 </ul>
 `,

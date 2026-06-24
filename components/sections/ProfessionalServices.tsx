@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 
 import { colors } from '@/constants/colors';
@@ -15,7 +16,7 @@ export default function ProfessionalServices() {
           <div className="w-full md:w-1/2 flex-shrink-0">
             <img
               src="https://possible-amber-u7lwvrlq.edgeone.app/professional-image.jpeg"
-              alt="WOW Gutters Ltd branded service van — professional gutter cleaning across Birmingham and the West Midlands"
+              alt="WOW Gutters Ltd branded service van — professional gutter services across Birmingham and the West Midlands"
               width={800}
               height={560}
               loading="lazy"
@@ -37,7 +38,7 @@ export default function ProfessionalServices() {
                 className="text-xs font-bold tracking-[0.2em] uppercase"
                 style={{ color: colors.primary }}
               >
-                Local Gutter Cleaning Specialists
+                About WOW Gutters Ltd
               </span>
               <span
                 className="h-px w-10"
@@ -50,7 +51,7 @@ export default function ProfessionalServices() {
               className="text-3xl sm:text-4xl md:text-5xl font-black mb-6 leading-tight"
               style={{ color: colors.text }}
             >
-              Gutter Cleaning You Can Rely On
+              Professional Gutter &amp; Exterior Care You Can Trust
             </h2>
 
             {/* Body Copy — Paragraph 1 */}
@@ -59,7 +60,7 @@ export default function ProfessionalServices() {
               style={{ color: colors.textLight }}
             >
               <strong style={{ color: colors.text }}>WOW Gutters Ltd</strong>{' '}
-              <SeoLinkify text="provides professional gutter cleaning for homes, landlords and businesses. We clear leaves, moss, silt and downpipe debris so rainwater can flow properly and your property stays protected from damp and water damage." />
+              <SeoLinkify text="is a Birmingham-based team specialising in gutter cleaning, gutter repairs, roof cleaning, and exterior uPVC and fascia care across the West Midlands. We help homeowners, landlords and businesses keep rainwater flowing safely away from the property." />
             </p>
 
             {/* Body Copy — Paragraph 2 */}
@@ -67,7 +68,15 @@ export default function ProfessionalServices() {
               className="text-base sm:text-lg leading-relaxed mb-8"
               style={{ color: colors.textLight }}
             >
-              <SeoLinkify text="Our team uses a professional high-reach gutter vacuum system — operating entirely from ground level, no ladders required — for safe, thorough results across Birmingham and the West Midlands. From blocked gutters and downspouts to fascia, soffit and roof cleaning, we help keep your exterior drainage system in good working order all year round." />
+              Need detail on{' '}
+              <Link href="/gutter-cleaning-birmingham/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                gutter cleaning in Birmingham
+              </Link>
+              ? See our dedicated local page. For everything else we do — from downpipe clearing to moss removal — explore our{' '}
+              <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                full service range
+              </Link>{' '}
+              or request a free quote.
             </p>
 
             {/* Key Benefits */}

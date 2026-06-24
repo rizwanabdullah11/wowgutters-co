@@ -61,10 +61,10 @@ export default function ServiceCardsSection() {
       <div className="how-help-container">
         {/* Header */}
         <div className="how-help-header">
-          <span className="how-help-eyebrow">OUR SERVICES</span>
-          <h2 className="how-help-title">Gutter Services for Every Property</h2>
+          <span className="how-help-eyebrow">HOW CAN WE HELP?</span>
+          <h2 className="how-help-title">Roofline Services for Every Property</h2>
           <p className="how-help-subtitle">
-            From blocked gutter cleaning to roofline repairs, we help protect your property from water damage.
+            Inspect, unblock, repair or clean — WOW Gutters Ltd helps protect your home or business across Birmingham and the West Midlands.
           </p>
         </div>
 

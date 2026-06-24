@@ -17,7 +17,7 @@ const tabContent = [
       "Overflowing water, sagging gutters, visible plant growth, or water stains on your walls are all indicators your gutters are blocked.",
       "While it's possible to clean gutters yourself, professional gutter cleaning ensures thorough removal of debris, safe access to hard-to-reach areas, and early detection of damage."
     ],
-    image: "/professional-gutter-fact1.png",
+    image: "/gutter-cleaning-before.jpeg",
     buttonText: "Schedule a Clearance",
     buttonLink: "/quote"
   },
@@ -30,7 +30,7 @@ const tabContent = [
       "Our knowledgeable staff removes obstructions, carries out small repairs, and checks loose joints for a fair cost.",
       "We also clean downspouts to assure you of steady water flow and peace of mind."
     ],
-    image: "/professional-gutter-fact1.png",
+    image: "/gutter-cleaning-before.jpeg",
     buttonText: "Request Your Estimate",
     buttonLink: "/quote"
   },
@@ -43,7 +43,7 @@ const tabContent = [
       "From £70.",
       "No Obligation."
     ],
-    image: "/professional-gutter-fact1.png",
+    image: "/gutter-cleaning-before.jpeg",
     buttonText: "Explore Promotions",
     buttonLink: "/neighbourhood-discount"
   },
@@ -53,10 +53,10 @@ const tabContent = [
     content: [
       "Searching for \"Gutter Cleaning Near Me\"? You have found the right team. WOW Gutters Ltd covers Birmingham and the entire West Midlands with professional, no-ladder gutter cleaning.",
       "We clean from the ground using a high-reach vacuum system that reaches up to four storeys — no ladders against your walls, no risk to your fascias, no mess left behind.",
-      "Every job includes before and after photos, downpipe clearing as standard, and a full condition report flagging any repairs needed. We are fully insured and all work comes with a 1-year service guarantee.",
+      "Every job includes before and after photos, downpipe clearing as standard, and a full condition report flagging any repairs needed. We are fully insured with £10 million public liability cover.",
       "Call 07421 433910 or request a free instant quote online. Same-day and next-day appointments available across the West Midlands."
     ],
-    image: "/professional-gutter-fact1.png",
+    image: "/gutter-cleaning-before.jpeg",
     buttonText: "Get Your Free Quote",
     buttonLink: "/quote"
   }
@@ -106,11 +106,11 @@ export default function AreaFacts() {
 
           {/* Right Image */}
           <div className="w-full md:w-[500px] shrink-0 relative">
-             <div className="bg-white rounded border border-gray-200 overflow-hidden shadow-lg">
+             <div className="bg-white rounded border border-gray-200 overflow-hidden shadow-lg aspect-[4/3] max-h-[400px]">
                <img 
                  src={currentContent.image}
                  alt={tabs[activeTab]}
-                 className="w-full h-[400px] object-cover"
+                 className="w-full h-full object-cover object-center"
                />
              </div>
           </div>

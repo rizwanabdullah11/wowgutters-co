@@ -125,6 +125,9 @@ AddDefaultCharset UTF-8
   # Blog slug shorten
   RewriteRule ^blog/gutter-inspection-save-birmingham-homeowners-thousands/?$ /blog/birmingham-gutter-inspection/ [R=301,L]
 
+  # Removed service areas hub
+  RewriteRule ^service-areas/?$ / [R=301,L]
+
   # Legacy PascalCase URLs
   RewriteRule ^About/?$ /about/ [R=301,L]
   RewriteRule ^Contact/?$ /contact/ [R=301,L]

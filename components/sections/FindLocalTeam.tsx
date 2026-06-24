@@ -3,7 +3,6 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { MapPin, Search, Navigation } from 'lucide-react';
 import { areaPath } from '@/lib/areaSlugs';
-import { SERVICE_AREAS_HUB } from '@/lib/crawlHub';
 import { mapsPlaceEmbedSrc } from '@/lib/mapsEmbed';
 
 const locations: { name: string; coordinates: string; slug?: string }[] = [
@@ -43,9 +42,9 @@ export default function FindLocalTeam() {
             <span className="local-team-line"></span>
           </div>
           
-          <h2 className="local-team-title">Find Gutter Cleaning Near You</h2>
+          <h2 className="local-team-title">Find WOW Gutters Near You</h2>
           <p className="local-team-desc">
-            Find local gutter cleaning coverage in your town or city.
+            Find local gutter and exterior service coverage in your town or city.
           </p>
         </div>
 
@@ -65,10 +64,6 @@ export default function FindLocalTeam() {
                 className="local-team-input"
               />
             </div>
-
-            <p className="local-team-hub-link">
-              <Link href={SERVICE_AREAS_HUB}>View all service areas on the map →</Link>
-            </p>
 
             <div className="local-team-pills">
               {filtered.length > 0 ? (
@@ -261,16 +256,6 @@ export default function FindLocalTeam() {
         }
 
         /* PILLS */
-        .local-team-hub-link {
-          margin: 0 0 16px;
-          text-align: left;
-        }
-        .local-team-hub-link a {
-          font-weight: 700;
-          color: #19C58B;
-          text-decoration: underline;
-        }
-
         .local-team-pills {
           display: flex;
           flex-wrap: wrap;

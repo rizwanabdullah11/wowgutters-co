@@ -40,10 +40,10 @@ export default function CommercialBanner() {
               <div className="commercial-sparkle">✨</div>
             </div>
             <h3 className="commercial-title">
-              Commercial Gutter Cleaning
+              Commercial Roofline Services
             </h3>
             <p className="commercial-description">
-              Reliable gutter and downpipe cleaning for shops, offices, rental properties, schools and commercial buildings.
+              Reliable gutter cleaning, repairs and exterior care for shops, offices, rental properties, schools and commercial buildings.
               <span className="commercial-highlight"> Flexible visits available.</span>
             </p>
             
