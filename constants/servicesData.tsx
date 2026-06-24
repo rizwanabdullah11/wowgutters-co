@@ -126,30 +126,110 @@ export const servicesData: ServiceDetail[] = [
     id: 'gutter-repairs',
     name: 'Gutter Repairs',
     icon: '🔧',
-    heroImage: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920',
+    heroImage: '/gutter-repair-before.png',
     heroVideo: '/gutter-repair%20(2).mp4',
-    heroTitle: 'Professional Gutter Repair Services',
-    heroDescription: 'Expert gutter repair services for damaged, leaking, or sagging gutters. Our trained technicians will restore your gutters to perfect working condition.',
+    heroTitle: 'Professional Gutter Repairs',
+    heroDescription:
+      'Expert gutter repairs for leaking joints, sagging runs, loose brackets, cracked sections, and damaged downpipes. Quality materials, flow testing on every job, and a 6-month guarantee on qualifying repair work from WOW Gutters Ltd.',
     sections: [
       {
-        title: 'Common Gutter Problems',
-        content: 'We repair all types of gutter issues including:',
-        image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800',
+        title: 'Why Choose WOW Gutters Ltd for Gutter Repairs?',
+        content:
+          'WOW Gutters Ltd fixes gutter problems properly — not quick silicone patches that fail in the next downpour. Our technicians diagnose the root cause, use quality seals and brackets, and test water flow before we leave. Many repairs are completed on the first visit, with honest advice if a full gutter replacement makes more sense.',
+        image: '/gutter-repair-after.jpeg',
+        imagePosition: 'right',
+        bulletPoints: [
+          'Leaking joints, sagging gutters, and loose brackets repaired by trained technicians',
+          'Quality uPVC seals, connectors, and brackets — not temporary DIY fixes',
+          '6-month guarantee on qualifying gutter repair work',
+          'Flow testing after every repair to confirm rainwater drains correctly',
+          'Fully insured with £10 million public liability cover',
+          'Same-day and emergency gutter repairs where availability allows',
+        ],
+      },
+      {
+        title: 'Common Gutter Problems We Fix',
+        content:
+          'From small drips at a joint to a full run pulling away from the fascia, we repair the gutter issues that cause damp walls, stained brickwork, and rotten fascia boards. If we spot blockages or moss contributing to the damage, we will explain whether gutter cleaning or roof cleaning should be booked alongside the repair.',
+        image: '/gutter-repair-before.png',
         imagePosition: 'left',
         bulletPoints: [
-          'Leaking joints and seams',
-          'Sagging or pulling away from the house',
-          'Damaged or broken sections',
-          'Rust and corrosion'
-        ]
-      }
+          'Leaking joints and failed seals at corners and connectors',
+          'Sagging gutter runs caused by broken or spaced brackets',
+          'Cracked, split, or perforated gutter sections',
+          'Loose or missing fascia brackets and fixings',
+          'Damaged downpipe shoes, connectors, and offsets',
+          'Poor fall (slope) corrected so water flows to the outlet',
+        ],
+      },
+      {
+        title: 'Signs Your Gutters Need Repair',
+        content:
+          'Gutters often fail slowly. Catching problems early is far cheaper than repairing damp internally or replacing rotten fascia boards. Book a gutter inspection if you are unsure — we will tell you honestly whether cleaning, a small repair, or replacement is the right call.',
+        image: '/gutter-repair-before.jpeg',
+        imagePosition: 'right',
+        bulletPoints: [
+          'Water dripping from joints after rain has stopped',
+          'Overflow during light rainfall — may indicate blockage or poor fall',
+          'Visible gap between the gutter and fascia board',
+          'Green or black staining on walls beneath the gutter line',
+          'Standing water visible inside the gutter channel',
+          'Gutter sections visibly dipping or pulling away from the wall',
+        ],
+      },
+      {
+        title: 'What\'s Included in Every Repair Visit',
+        content:
+          'Every gutter repair appointment follows a clear process. We explain what we find, agree the work before we start, and leave your gutters flowing properly. Where access is awkward — over conservatories, porches, or extensions — we use appropriate equipment to work safely and efficiently.',
+        image: '/gutter-repair.png',
+        imagePosition: 'left',
+        bulletPoints: [
+          'On-site assessment of joints, brackets, fall, and downpipe connections',
+          'Clear quote before repair work begins — no hidden extras',
+          'Replacement seals, brackets, connectors, or short gutter sections as needed',
+          'Realignment of sagging runs with correct spacing between brackets',
+          'Downpipe joint repairs and outlet checks included where relevant',
+          'Before and after photos on request for your records',
+        ],
+      },
+      {
+        title: 'Our Gutter Repair Process',
+        content:
+          'We focus on lasting repairs. That means fixing why the gutter failed — not just where the water escaped. After joints are resealed or replaced and brackets secured, we run water through the system to confirm everything drains to the downpipe as it should.',
+        image: '/gutter-repair-after.jpeg',
+        imagePosition: 'right',
+        bulletPoints: [
+          'Inspect the full gutter run, outlets, and nearby fascia condition',
+          'Remove failed sealant or damaged components where necessary',
+          'Fit new seals, brackets, or sections using manufacturer-approved parts',
+          'Set correct fall so water does not pool in the channel',
+          'Flow test downpipes and advise on gutter cleaning if debris caused the fault',
+          'Most domestic gutter repairs completed within 1–2 hours on site',
+        ],
+      },
+      {
+        title: 'Gutter Repairs & Related Services',
+        content:
+          'Many customers book gutter repairs after a gutter clean or inspection reveals joint failure, bracket fatigue, or storm damage. WOW Gutters Ltd covers the full roofline — from fixing leaking gutters to clearing blockages and removing moss that accelerates wear.',
+        image: '/files/12_gutter_overflow_water_damage.jpg',
+        imagePosition: 'right',
+        bulletPoints: [
+          'Gutter cleaning — clear debris before it strains brackets and joints',
+          'Gutter inspection — identify problems before costly water damage',
+          'Gutter installation — full replacement when repairs are no longer economical',
+          'Exterior uPVC cleaning — fascias and soffits alongside gutter work',
+          'Roof cleaning — reduce moss and debris entering the gutter system',
+          'Commercial gutter repairs — shops, offices, schools, and industrial units',
+        ],
+      },
     ],
     ctaSection: {
-      title: 'GUTTER REPAIR EXPERTS',
-      description: 'Don\'t let damaged gutters cause water damage to your property. Our expert repair services will fix any gutter problem quickly and efficiently.',
+      title: 'Book Your Gutter Repair Today',
+      description:
+        'Get a free, no-obligation repair quote in 60 seconds. Same-day and emergency appointments where available. Call 07421 433910 or request a quote online.',
       phone: '07421 433910',
-      buttonText: 'Get A Quote'
-    }
+      buttonText: 'Get A Free Quote',
+    },
   },
   {
     id: 'upvc-cleaning',

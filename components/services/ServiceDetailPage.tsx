@@ -21,6 +21,8 @@ interface ServiceDetailPageProps {
   service: ServiceDetail;
 }
 
+const FOCUSED_SERVICE_IDS = new Set(['gutter-cleaning', 'gutter-repairs']);
+
 const GUTTER_CLEANING_RELATED_LINKS = [
   { label: 'Gutter inspection', href: '/services/gutter-inspection/' },
   { label: 'Gutter repairs', href: '/services/gutter-repairs/' },
@@ -37,8 +39,21 @@ const GUTTER_CLEANING_RELATED_LINKS = [
   { label: 'All services', href: '/services/' },
 ] as const;
 
+const GUTTER_REPAIRS_RELATED_LINKS = [
+  { label: 'Gutter cleaning', href: '/services/gutter-cleaning/' },
+  { label: 'Gutter inspection', href: '/services/gutter-inspection/' },
+  { label: 'Gutter installation', href: '/services/gutter-installation/' },
+  { label: 'UPVC & fascia cleaning', href: '/services/upvc-cleaning/' },
+  { label: 'Roof cleaning', href: '/services/roof-cleaning/' },
+  { label: 'Repairs guide', href: '/blog/gutter-repairs-guide/' },
+  { label: 'DIY repair risks', href: '/blog/diy-gutter-repair-dangers/' },
+  { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
+  { label: 'Free quote', href: '/quote/' },
+  { label: 'All services', href: '/services/' },
+] as const;
+
 function ServiceText({ serviceId, text }: { serviceId: string; text: string }) {
-  if (serviceId === 'gutter-cleaning') {
+  if (FOCUSED_SERVICE_IDS.has(serviceId)) {
     return <SeoLinkify text={text} />;
   }
   return <>{text}</>;
@@ -251,10 +266,12 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
             <h2 className="text-3xl md:text-4xl font-black mb-6 leading-tight text-slate-900">
               {service.id === 'gutter-cleaning'
                 ? 'Get your free gutter cleaning quote'
-                : `${service.name} by WOW Gutters Ltd`}
+                : service.id === 'gutter-repairs'
+                  ? 'Get your free gutter repair quote'
+                  : `${service.name} by WOW Gutters Ltd`}
             </h2>
             <p className="text-slate-600 leading-relaxed text-lg mb-8">
-              {service.id === 'gutter-cleaning' ? (
+              {FOCUSED_SERVICE_IDS.has(service.id) ? (
                 <>
                   Same-day and next-day appointments where available. Call{' '}
                   <a
@@ -279,6 +296,23 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                 ,{' '}
                 <Link href="/gutter-cleaning-near-me/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
                   gutter cleaning near me
+                </Link>
+                , or browse our{' '}
+                <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                  full services range
+                </Link>
+                .
+              </p>
+            )}
+            {service.id === 'gutter-repairs' && (
+              <p className="text-slate-600 leading-relaxed text-lg mb-8">
+                Not sure if you need a repair or a clean? Read our{' '}
+                <Link href="/blog/gutter-repairs-guide/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                  gutter repairs guide
+                </Link>
+                , book a{' '}
+                <Link href="/services/gutter-inspection/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                  free gutter inspection
                 </Link>
                 , or browse our{' '}
                 <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
@@ -382,6 +416,25 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                       </ul>
                     </div>
                   )}
+                  {service.id === 'gutter-repairs' && section.title === 'Gutter Repairs & Related Services' && (
+                    <div className="mt-8">
+                      <p className="text-sm font-bold uppercase tracking-widest text-slate-500 mb-3">
+                        Useful links
+                      </p>
+                      <ul className="flex flex-wrap gap-2">
+                        {GUTTER_REPAIRS_RELATED_LINKS.map(({ label, href }) => (
+                          <li key={href}>
+                            <Link
+                              href={href}
+                              className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
+                            >
+                              {label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </div>
 
                 {section.image && imageOnRight && (
@@ -404,7 +457,11 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
       <AreaServiceBlock
         title={service.ctaSection.title}
         descriptions={[service.ctaSection.description]}
-        iconSrc="/gutter-cleaning-icon.png"
+        iconSrc={
+          service.id === 'gutter-repairs'
+            ? '/gutter-repair-icon.png'
+            : '/gutter-cleaning-icon.png'
+        }
         backgroundColor="bg-white"
         buttonText={service.ctaSection.buttonText}
         phoneNumber={service.ctaSection.phone}
@@ -468,9 +525,9 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
       </section>
 
       <AreaFAQ />
-      {service.id !== 'gutter-cleaning' && <AreaFacts />}
-      {service.id !== 'gutter-cleaning' && <AreaBlogSnippet />}
-      {service.id !== 'gutter-cleaning' && (
+      {!FOCUSED_SERVICE_IDS.has(service.id) && <AreaFacts />}
+      {!FOCUSED_SERVICE_IDS.has(service.id) && <AreaBlogSnippet />}
+      {!FOCUSED_SERVICE_IDS.has(service.id) && (
         <AreaFeatures
           serviceLabel={service.name}
           featureSet={service.id === 'roof-cleaning' ? 'roof' : 'gutter'}
