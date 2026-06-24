@@ -306,7 +306,7 @@ ${ctaBox}
 
 <p>📧 <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a></p>
 
-<p>We cover <a href="/gutter-cleaning-birmingham/" style="${link}">Birmingham</a>, <a href="/gutter-cleaning-sutton-coldfield/" style="${link}">Sutton Coldfield</a>, <a href="/gutter-cleaning-coventry/" style="${link}">Coventry</a>, <a href="/gutter-cleaning-dudley/" style="${link}">Dudley</a>, <a href="/gutter-cleaning-redditch/" style="${link}">Redditch</a>, and all West Midlands postcodes. Browse <a href="/service-areas/" style="${link}">all service areas</a> or request a <a href="/quote/" style="${link}">free quote online</a>.</p>
+<p>We cover <a href="/gutter-cleaning-birmingham/" style="${link}">Birmingham</a>, <a href="/gutter-cleaning-sutton-coldfield/" style="${link}">Sutton Coldfield</a>, <a href="/gutter-cleaning-coventry/" style="${link}">Coventry</a>, <a href="/gutter-cleaning-dudley/" style="${link}">Dudley</a>, <a href="/gutter-cleaning-redditch/" style="${link}">Redditch</a>, and all West Midlands postcodes. <a href="/quote/" style="${link}">Request a free quote online</a>.</p>
 
 <h2 id="pre-sale">Gutter Inspections and Property Sales in Birmingham</h2>
 
@@ -421,7 +421,7 @@ Open 7 days — Monday to Friday 7am–8pm · Saturday 9am–6pm · Sunday 10am�
   <li><a href="/blog/ladder-free-gutter-cleaning-revolution/" style="${link}">Ladder-free gutter cleaning</a></li>
   <li><a href="/blog/downpipe-shoe-prevents-blockages/" style="${link}">Downpipe shoe blockages</a></li>
   <li><a href="/help/repair/" style="${link}">Gutter repair service</a></li>
-  <li><a href="/service-areas/" style="${link}">All service areas</a></li>
+  <li><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a></li>
   <li><a href="/quote/" style="${link}">Get a free quote</a></li>
 </ul>
 `,

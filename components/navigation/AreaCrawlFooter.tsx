@@ -5,7 +5,6 @@ import { AREA_SLUGS, areaPath, roofAreaPath } from '@/lib/areaSlugs';
 import {
   FOOTER_HUB_SLUGS,
   ROOF_SERVICE_AREAS_HUB,
-  SERVICE_AREAS_HUB,
   areaLinkLabel,
 } from '@/lib/crawlHub';
 import { colors } from '@/constants/colors';
@@ -21,7 +20,6 @@ export default function AreaCrawlFooter({
 }) {
   const meta = AREA_SERVICE_META[serviceKind];
   const pathForSlug = serviceKind === 'roof' ? roofAreaPath : areaPath;
-  const areasHub = serviceKind === 'roof' ? ROOF_SERVICE_AREAS_HUB : SERVICE_AREAS_HUB;
   const linkLabel = (slug: string) =>
     serviceKind === 'roof'
       ? `Roof Cleaning ${areaLinkLabel(slug).replace(/^Gutter cleaning /i, '')}`
@@ -38,11 +36,17 @@ export default function AreaCrawlFooter({
         </p>
         <h2 className="text-xl font-black text-slate-900 mb-3">{meta.crawlFooterTitle}</h2>
         <p className="text-slate-600 mb-6 max-w-2xl mx-auto text-sm">
-          Browse all locations or jump to a major town — every area is linked from our{' '}
-          <Link href={areasHub} className="font-bold underline" style={{ color: colors.primary }}>
-            full {serviceKind === 'roof' ? 'roof cleaning ' : ''}service areas map
-          </Link>
-          .
+          {serviceKind === 'roof' ? (
+            <>
+              Browse all locations or jump to a major town — every area is linked from our{' '}
+              <Link href={ROOF_SERVICE_AREAS_HUB} className="font-bold underline" style={{ color: colors.primary }}>
+                full roof cleaning service areas map
+              </Link>
+              .
+            </>
+          ) : (
+            'Jump to a major town below — we cover Birmingham and the wider West Midlands.'
+          )}
         </p>
         <ul className="flex flex-wrap justify-center gap-2 mb-4">
           {FOOTER_HUB_SLUGS.map((slug) => (
@@ -57,13 +61,15 @@ export default function AreaCrawlFooter({
             </li>
           ))}
         </ul>
-        <Link
-          href={areasHub}
-          className="inline-flex items-center gap-1 text-sm font-bold underline"
-          style={{ color: colors.primary }}
-        >
-          View all {AREA_SLUGS.length} {serviceKind === 'roof' ? 'roof cleaning ' : ''}service areas →
-        </Link>
+        {serviceKind === 'roof' && (
+          <Link
+            href={ROOF_SERVICE_AREAS_HUB}
+            className="inline-flex items-center gap-1 text-sm font-bold underline"
+            style={{ color: colors.primary }}
+          >
+            View all {AREA_SLUGS.length} roof cleaning service areas →
+          </Link>
+        )}
       </div>
     </nav>
   );

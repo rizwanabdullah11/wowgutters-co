@@ -22,7 +22,6 @@ export const SEO_KEYWORD_LINKS: SeoKeywordLink[] = [
   { label: 'roof inspection', href: '/services/roof-inspection' },
   { label: 'Birmingham gutter cleaning', href: areaPath('birmingham') },
   { label: 'West Midlands gutter cleaning', href: areaPath('westmidlands') },
-  { label: 'All service areas', href: '/service-areas/' },
   { label: 'WOW Gutters Ltd', href: '/' },
   { label: 'Fascia cleaning', href: '/services/upvc-cleaning' },
   { label: 'Soffits cleaning', href: '/services/upvc-cleaning' },

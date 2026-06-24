@@ -27,9 +27,6 @@ if (!index) {
   if (areaLinks < 30) {
     errors.push(`homepage: expected 30+ area links, found ${areaLinks}`);
   }
-  if (!/(?:\.\/)?service-areas\//.test(index)) {
-    errors.push('homepage: missing link to service-areas hub');
-  }
   // HomeServiceAreasHub grid intentionally hidden from homepage UI
 }
 
@@ -69,16 +66,6 @@ if (!citations) {
   if (!/Backlink health/i.test(citations)) errors.push('citations: missing backlink audit section');
   if (!/Competitor backlink gaps/i.test(citations)) errors.push('citations: missing competitor gap section');
   if (!/bensgutters/i.test(citations)) errors.push("citations: missing Ben's Gutters competitor reference");
-}
-
-const serviceAreas = read('service-areas/index.html');
-if (!serviceAreas) {
-  errors.push('missing service-areas/index.html');
-} else {
-  const areaLinks = countAreaLinks(serviceAreas);
-  if (areaLinks < 100) {
-    errors.push(`service-areas hub: expected 100+ area links, found ${areaLinks}`);
-  }
 }
 
 if (errors.length) {

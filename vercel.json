@@ -109,6 +109,16 @@
       "source": "/blog/gutter-inspection-save-birmingham-homeowners-thousands/",
       "destination": "/blog/birmingham-gutter-inspection/",
       "permanent": true
+    },
+    {
+      "source": "/service-areas",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/service-areas/",
+      "destination": "/",
+      "permanent": true
     }
   ]
 }

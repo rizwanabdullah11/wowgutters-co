@@ -8,7 +8,6 @@ import Image from 'next/image';
 import logo from '@/assets/wow-gutter-logo.png';
 import { colors } from '@/constants/colors';
 import { areaPath } from '@/lib/areaSlugs';
-import { SERVICE_AREAS_HUB } from '@/lib/crawlHub';
 import { 
   Phone, Mail, MapPin, Star, ArrowUp, 
   Facebook, Twitter, Instagram, Linkedin, Youtube,
@@ -175,11 +174,6 @@ export default function Footer() {
                 <div className="footer-col">
                   <h3 className="footer-col-title">Service Areas</h3>
                   <ul className="footer-list">
-                    {/* <li>
-                      <Link href={SERVICE_AREAS_HUB} className="footer-link footer-link-highlight">
-                        <ArrowRight className="w-3 h-3 link-arrow" /> All service areas (full map)
-                      </Link>
-                    </li> */}
                     {areas.map((item, i) => (
                       <li key={i}>
                         <Link href={areaPath(item.toLowerCase().replace(/\s+/g, '-'))} className="footer-link">

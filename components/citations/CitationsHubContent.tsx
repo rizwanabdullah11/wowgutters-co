@@ -75,10 +75,7 @@ export default function CitationsHubContent() {
           <GoogleMapsEmbed title="WOW Gutters Ltd — Google Maps" />
         </div>
         <p className="mt-4 text-slate-600">
-          <Link href="/service-areas/" className="font-semibold text-emerald-700 underline underline-offset-2">
-            View all service areas
-          </Link>{' '}
-          for suburb-level landing pages and postcodes we cover.
+          We maintain dedicated landing pages for 170+ locations across Birmingham and the West Midlands.
         </p>
       </section>
 
@@ -217,11 +214,8 @@ export default function CitationsHubContent() {
         <h2 className="text-2xl font-black text-slate-900">Competitor backlink gaps ({PRIMARY_COMPETITOR.name})</h2>
         <p className="mt-3 text-slate-600 leading-relaxed">
           Gap analysis vs <strong>{PRIMARY_COMPETITOR.domain}</strong> — {PRIMARY_COMPETITOR.note} Target the same
-          reputable categories with WOW Gutters Ltd NAP and a link to the matching{' '}
-          <Link href="/service-areas/" className="font-semibold text-emerald-700 underline underline-offset-2">
-            area page
-          </Link>{' '}
-          when pitching local stories.
+          reputable categories with WOW Gutters Ltd NAP and a link to the matching local area page when pitching
+          local stories.
         </p>
         <ul className="mt-6 space-y-4">
           {BACKLINK_OUTREACH_TARGETS.map((t) => (

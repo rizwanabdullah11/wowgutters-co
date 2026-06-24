@@ -22,7 +22,7 @@ export const revalidate = false;
  * - 0.8: General info pages
  * - 0.7: Blog posts
  * - 0.6: Help pages
- * - 0.75: HTML service-areas index (internal linking hub)
+ * - 0.75: HTML roof-cleaning service-areas index (internal linking hub)
  *
  * Excluded from sitemap (still reachable via footer; noindex + robots disallow):
  * - Legal: privacy, terms, cookies
@@ -77,7 +77,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/reviews',
     '/blog',
     '/help',
-    '/service-areas',
     '/roof-cleaning-service-areas',
     '/latest-news',
     '/the-gutter-gallery',
@@ -107,7 +106,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     if (route === '') priority = 1;
     else if (route === '/contact' || route === '/quote') priority = 0.95;
     else if (route === '/services' || route === '/pricing') priority = 0.9;
-    else if (route === '/service-areas' || route === '/roof-cleaning-service-areas') {
+    else if (route === '/roof-cleaning-service-areas') {
       priority = 0.75;
       changeFreq = 'weekly';
     }

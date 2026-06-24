@@ -17,7 +17,7 @@ export const GUTTER_CLEANING_NEAR_ME_LANDING: CityGutterLandingData = {
     'Every local visit includes a full channel vacuum, downpipe test and clearance, flow confirmation before we leave, and before & after photographs sent the same day. Whether you are in a Birmingham terrace, a Solihull detached, or a Wolverhampton semi, you get the same thorough standard — from a team that is genuinely near you, not dispatched from hundreds of miles away.',
   ],
   localSpotlight:
-    'Not sure if we cover your street? Call 07421 433910 or search your town on our service areas map — we cover 170+ West Midlands neighbourhoods from Sutton Coldfield to Stourbridge, Redditch to Kidderminster.',
+    'Not sure if we cover your street? Call 07421 433910 or search your town below — we cover 170+ West Midlands neighbourhoods from Sutton Coldfield to Stourbridge, Redditch to Kidderminster.',
   guarantees: [],
   propertyTypesTitle: 'Local gutter cleaning for every property type near you',
   propertyTypes: [
@@ -90,7 +90,6 @@ export const GUTTER_CLEANING_NEAR_ME_LANDING: CityGutterLandingData = {
   ],
   geo: { latitude: 52.4862, longitude: -1.8904 },
   internalLinks: [
-    { label: 'All service areas map', href: '/service-areas/' },
     { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
     { label: 'Gutter cleaning Wolverhampton', href: '/gutter-cleaning-wolverhampton/' },
     { label: 'Gutter cleaning Coventry', href: '/gutter-cleaning-coventry/' },

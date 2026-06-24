@@ -1,6 +1,5 @@
 import Link from 'next/link';
-import { HOMEPAGE_AREA_LINKS, SERVICE_AREAS_HUB } from '@/lib/crawlHub';
-import { AREA_SLUGS } from '@/lib/areaSlugs';
+import { HOMEPAGE_AREA_LINKS } from '@/lib/crawlHub';
 import { colors } from '@/constants/colors';
 
 /** Homepage internal linking — hub + popular areas (fixes orphan crawl warning). */
@@ -16,12 +15,11 @@ export default function HomeServiceAreasHub() {
             Gutter cleaning in your area
           </h2>
           <p className="text-slate-600 max-w-2xl mx-auto">
-            Select your town or city below, or open the full map of{' '}
-            <strong>{AREA_SLUGS.length} locations</strong> we cover.
+            Select your town or city below — we cover Birmingham and the wider West Midlands.
           </p>
         </div>
 
-        <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 mb-8">
+        <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
           {HOMEPAGE_AREA_LINKS.map(({ slug, href, label }) => (
             <li key={slug}>
               <Link
@@ -33,16 +31,6 @@ export default function HomeServiceAreasHub() {
             </li>
           ))}
         </ul>
-
-        <div className="text-center">
-          <Link
-            href={SERVICE_AREAS_HUB}
-            className="inline-flex items-center justify-center rounded-xl px-6 py-3 text-base font-bold text-white shadow-md transition hover:opacity-95"
-            style={{ backgroundColor: colors.primary }}
-          >
-            View all service areas ({AREA_SLUGS.length} locations)
-          </Link>
-        </div>
       </div>
     </section>
   );
