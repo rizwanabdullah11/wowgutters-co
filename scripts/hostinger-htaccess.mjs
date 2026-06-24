@@ -122,6 +122,9 @@ AddDefaultCharset UTF-8
   RewriteRule ^services/free-gutter-inspection/?$ /services/gutter-inspection/ [R=301,L]
   RewriteRule ^services/inspection/?$ /services/gutter-inspection/ [R=301,L]
 
+  # Blog slug shorten
+  RewriteRule ^blog/gutter-inspection-save-birmingham-homeowners-thousands/?$ /blog/birmingham-gutter-inspection/ [R=301,L]
+
   # Legacy PascalCase URLs
   RewriteRule ^About/?$ /about/ [R=301,L]
   RewriteRule ^Contact/?$ /contact/ [R=301,L]

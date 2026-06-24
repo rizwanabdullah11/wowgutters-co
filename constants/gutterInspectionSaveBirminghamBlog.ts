@@ -21,7 +21,7 @@ const ctaBox = `
 </div>`;
 
 export const gutterInspectionSaveBirminghamBlogPost: BlogPost = {
-  id: 'gutter-inspection-save-birmingham-homeowners-thousands',
+  id: 'birmingham-gutter-inspection',
   seoTitle:
     'How a Simple Gutter Inspection Can Save Birmingham Homeowners Thousands | Wow Gutters Ltd',
   title: 'How a Simple Gutter Inspection Can Save Birmingham Homeowners Thousands',
