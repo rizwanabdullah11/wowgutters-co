@@ -71,16 +71,6 @@
       "permanent": true
     },
     {
-      "source": "/services/gutter-cleaning",
-      "destination": "/help/unblock/",
-      "permanent": true
-    },
-    {
-      "source": "/services/gutter-cleaning/",
-      "destination": "/help/unblock/",
-      "permanent": true
-    },
-    {
       "source": "/services/gutter-repairs",
       "destination": "/help/repair/",
       "permanent": true

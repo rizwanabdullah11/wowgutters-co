@@ -4,8 +4,9 @@ import { useEffect, useRef } from 'react';
 import Head from 'next/head';
 import { colors } from '@/constants/colors';
 import Link from 'next/link';
-import { ShieldCheck, PenTool, CheckCircle, Phone, ArrowRight } from 'lucide-react';
+import { ShieldCheck, PenTool, CheckCircle, Phone } from 'lucide-react';
 import { ServiceDetail } from '@/constants/servicesData';
+import SeoLinkify from '@/components/SeoLinkify';
 import AreaServiceBlock from '@/components/areas/AreaServiceBlock';
 import AreaFAQ from '@/components/areas/AreaFAQ';
 import AreaFacts from '@/components/areas/AreaFacts';
@@ -18,6 +19,29 @@ import SchemaMarkup from '@/components/seo/SchemaMarkup';
 
 interface ServiceDetailPageProps {
   service: ServiceDetail;
+}
+
+const GUTTER_CLEANING_RELATED_LINKS = [
+  { label: 'Gutter inspection', href: '/services/gutter-inspection/' },
+  { label: 'Gutter repairs', href: '/services/gutter-repairs/' },
+  { label: 'Roof cleaning', href: '/services/roof-cleaning/' },
+  { label: 'UPVC & fascia cleaning', href: '/services/upvc-cleaning/' },
+  { label: 'Commercial gutter cleaning', href: '/services/commercial-gutter-cleaning/' },
+  { label: 'Hot wash cleaning', href: '/services/hot-wash-cleaning/' },
+  { label: 'Downpipe unblocking', href: '/help/unblock/' },
+  { label: 'Gutter cleaning prices', href: '/gutter-cleaning-prices/' },
+  { label: 'Free quote', href: '/quote/' },
+  { label: 'Gutter cleaning in Birmingham', href: '/gutter-cleaning-birmingham/' },
+  { label: 'Gutter cleaning near me', href: '/gutter-cleaning-near-me/' },
+  { label: 'Signs of blocked gutters', href: '/blog/signs-of-blocked-gutters-birmingham/' },
+  { label: 'All services', href: '/services/' },
+] as const;
+
+function ServiceText({ serviceId, text }: { serviceId: string; text: string }) {
+  if (serviceId === 'gutter-cleaning') {
+    return <SeoLinkify text={text} />;
+  }
+  return <>{text}</>;
 }
 
 export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
@@ -191,10 +215,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
           </div>
 
           <h1 className="hero-title animate-fade-in-up delay-100">
-            <span className="title-prefix">Professional</span>{' '}
-            <span className="title-service" style={{ color: colors.primary }}>{service.name}</span>
-            <br />
-            <span className="title-secondary">Services</span>
+            {service.heroTitle}
           </h1>
 
           <p className="hero-subtitle animate-fade-in-up delay-200">
@@ -219,60 +240,63 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         </div>
       </section>
 
-      {/* Info & Free Quote Form Section */}
-      <section className="py-20 px-4 relative bg-gradient-to-b from-[#f8fafc] to-white border-t border-gray-100">
-        <div className="absolute top-0 left-0 right-0 h-10 w-full overflow-hidden leading-[0]"></div>
-
-        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16 items-center relative z-10">
-          {/* Left Text */}
-          <div className="flex-[1.2] text-[#0f172a]">
-            <h2 className="text-3xl md:text-5xl font-bold mb-8 leading-tight">
-              Professional <br />
-              <span style={{ color: colors.primary }}>{service.name}</span>
+      {/* Intro & quote */}
+      <section className="py-16 md:py-20 px-4 relative bg-gradient-to-b from-[#f8fafc] to-white border-t border-gray-100">
+        <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-16 items-start relative z-10">
+          <div className="flex-1 text-[#0f172a]">
+            <p className="text-xs font-bold uppercase tracking-[0.2em] mb-3" style={{ color: colors.primary }}>
+              WOW Gutters Ltd
+            </p>
+            <h2 className="text-3xl md:text-4xl font-black mb-6 leading-tight text-slate-900">
+              {service.id === 'gutter-cleaning'
+                ? 'Professional Gutter Cleaning Service'
+                : `${service.name} by WOW Gutters Ltd`}
             </h2>
-
-            <div className="text-slate-600 leading-relaxed space-y-6 text-lg">
-              {service.sections.map((section, index) => (
-                <div key={index}>
-                  <p className="font-semibold text-slate-900 mb-2">{section.title}</p>
-                  <p>{section.content}</p>
-                  {section.bulletPoints && (
-                    <ul className="mt-3 space-y-2">
-                      {section.bulletPoints.map((point, i) => (
-                        <li key={i} className="flex items-start gap-2">
-                          <CheckCircle className="w-5 h-5 mt-0.5 shrink-0" style={{ color: colors.primary }} />
-                          <span>{point}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </div>
-              ))}
-              
-              <div className="p-6 rounded-xl bg-[#f1f5f9] border border-slate-200 mt-8">
-                <p className="text-slate-800 font-medium flex items-center gap-3 text-xl mb-4">
-                  <Phone className="w-6 h-6" style={{ color: colors.primary }} /> Call us directly:
-                </p>
-                <p className="text-3xl font-black tracking-widest" style={{ color: '#0f172a' }}>
-                  {service.ctaSection.phone}
-                </p>
-              </div>
+            <p className="text-slate-600 leading-relaxed text-lg mb-8">
+              <ServiceText serviceId={service.id} text={service.heroDescription} />
+            </p>
+            {service.id === 'gutter-cleaning' && (
+              <p className="text-slate-600 leading-relaxed text-lg mb-8">
+                Looking for local pricing and postcodes? See{' '}
+                <Link href="/gutter-cleaning-birmingham/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                  gutter cleaning in Birmingham
+                </Link>
+                ,{' '}
+                <Link href="/gutter-cleaning-near-me/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                  gutter cleaning near me
+                </Link>
+                , or browse our{' '}
+                <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                  full services range
+                </Link>
+                .
+              </p>
+            )}
+            <div className="p-6 rounded-xl bg-[#f1f5f9] border border-slate-200">
+              <p className="text-slate-800 font-semibold flex items-center gap-3 text-lg mb-3">
+                <Phone className="w-5 h-5 shrink-0" style={{ color: colors.primary }} />
+                Call us directly
+              </p>
+              <a
+                href={`tel:${service.ctaSection.phone.replace(/\s/g, '')}`}
+                className="text-2xl md:text-3xl font-black tracking-wide text-slate-900"
+              >
+                {service.ctaSection.phone}
+              </a>
             </div>
           </div>
 
-          {/* Right Lead Form Card */}
-          <div className="w-full lg:w-[480px] shrink-0">
-            <div className="bg-white p-10 rounded-3xl border border-gray-100 text-center shadow-2xl relative overflow-hidden transform transition-all duration-300 hover:shadow-3xl hover:-translate-y-2 group">
-              <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r" style={{ backgroundImage: colors.primaryGradient }} />
-
-              <h3 className="text-4xl font-black text-gray-900 mb-3 leading-tight mt-4">
-                Get Your FREE <br /> Quote Now
+          <div className="w-full lg:w-[440px] shrink-0">
+            <div className="bg-white p-8 md:p-10 rounded-3xl border border-gray-100 text-center shadow-xl relative overflow-hidden">
+              <div className="absolute top-0 left-0 right-0 h-2" style={{ backgroundImage: colors.primaryGradient }} />
+              <h3 className="text-3xl font-black text-gray-900 mb-3 leading-tight mt-4">
+                Get Your FREE Quote
               </h3>
               <p className="text-gray-500 font-medium mb-8">
                 Takes less than 60 seconds to complete
               </p>
               <Link href="/quote" className="block w-full">
-                <button className="w-full flex items-center justify-center gap-3 py-5 rounded-full text-white font-bold text-lg transition-transform duration-200 group-hover:scale-105 shadow-xl" style={{ background: colors.primaryGradient }}>
+                <button type="button" className="w-full flex items-center justify-center gap-3 py-4 rounded-full text-white font-bold text-lg shadow-lg hover:opacity-95 transition-opacity" style={{ background: colors.primaryGradient }}>
                   Get Started <PenTool className="w-5 h-5" />
                 </button>
               </Link>
@@ -280,6 +304,86 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
           </div>
         </div>
       </section>
+
+      {/* Service content — one section per heading */}
+      {service.sections.map((section, index) => {
+        const imageOnRight = section.imagePosition !== 'left';
+        const bgClass = index % 2 === 0 ? 'bg-white' : 'bg-slate-50';
+
+        return (
+          <section key={section.title} className={`py-16 md:py-20 px-4 ${bgClass}`}>
+            <div className="max-w-7xl mx-auto">
+              <div
+                className={`grid lg:grid-cols-2 gap-10 lg:gap-16 items-center ${
+                  section.image && !imageOnRight ? 'lg:[&>*:first-child]:order-1 lg:[&>*:last-child]:order-2' : ''
+                }`}
+              >
+                {section.image && !imageOnRight && (
+                  <div className="service-section-image rounded-2xl overflow-hidden shadow-xl border border-slate-100">
+                    <img
+                      src={section.image}
+                      alt={section.title}
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                )}
+
+                <div>
+                  <h2 className="text-2xl md:text-3xl font-black text-slate-900 mb-4 leading-tight">
+                    {section.title}
+                  </h2>
+                  <p className="text-slate-600 text-base md:text-lg leading-relaxed mb-6">
+                    <ServiceText serviceId={service.id} text={section.content} />
+                  </p>
+                  {section.bulletPoints && section.bulletPoints.length > 0 && (
+                    <ul className="space-y-3">
+                      {section.bulletPoints.map((point) => (
+                        <li key={point} className="flex items-start gap-3">
+                          <CheckCircle className="w-5 h-5 mt-0.5 shrink-0" style={{ color: colors.primary }} />
+                          <span className="text-slate-700 leading-relaxed">
+                            <ServiceText serviceId={service.id} text={point} />
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                  {service.id === 'gutter-cleaning' && section.title === 'Gutter Cleaning & Related Services' && (
+                    <div className="mt-8">
+                      <p className="text-sm font-bold uppercase tracking-widest text-slate-500 mb-3">
+                        Useful links
+                      </p>
+                      <ul className="flex flex-wrap gap-2">
+                        {GUTTER_CLEANING_RELATED_LINKS.map(({ label, href }) => (
+                          <li key={href}>
+                            <Link
+                              href={href}
+                              className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
+                            >
+                              {label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+
+                {section.image && imageOnRight && (
+                  <div className="service-section-image rounded-2xl overflow-hidden shadow-xl border border-slate-100">
+                    <img
+                      src={section.image}
+                      alt={section.title}
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                )}
+              </div>
+            </div>
+          </section>
+        );
+      })}
 
       {/* Service Blocks */}
       <AreaServiceBlock
@@ -348,231 +452,6 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         </div>
       </section>
 
-      {/* SEO-Rich Content Section 1 - Service Benefits */}
-      <section className="py-20 px-4 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl font-black text-gray-900 mb-6">
-                Why Opt For Dedicated <span style={{ color: colors.primary }}>{service.name}</span>?
-              </h2>
-              <div className="space-y-4 text-gray-700 leading-relaxed">
-                <p className="text-lg">
-                  Securing professional {service.name.toLowerCase()} plays a pivotal role in preserving your building's structural health and averting catastrophic water intrusion. Our accomplished operatives wield premium, industry-endorsed equipment to produce immaculate results with unyielding consistency.
-                </p>
-                <p className="text-lg">
-                  Committing to routine {service.name.toLowerCase()} aggressively shields your residence or commercial premises against unseen decay, aggressive weed growth, and shifting foundations. Acting proactively is practically always vastly more economical than addressing irreversible water damage down the line.
-                </p>
-                <div className="grid sm:grid-cols-2 gap-4 mt-8">
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-6 h-6 mt-1 shrink-0" style={{ color: colors.primary }} />
-                    <div>
-                      <h3 className="font-bold text-gray-900 mb-1">Swift Call-Outs</h3>
-                      <p className="text-sm text-gray-600">Immediate, same-day dispatch booking regionally</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-6 h-6 mt-1 shrink-0" style={{ color: colors.primary }} />
-                    <div>
-                      <h3 className="font-bold text-gray-900 mb-1">Vetted Specialists</h3>
-                      <p className="text-sm text-gray-600">Strictly insured, background-checked personnel</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-6 h-6 mt-1 shrink-0" style={{ color: colors.primary }} />
-                    <div>
-                      <h3 className="font-bold text-gray-900 mb-1">Clear-Cut Costing</h3>
-                      <p className="text-sm text-gray-600">Honest estimations entirely devoid of hidden extras</p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-6 h-6 mt-1 shrink-0" style={{ color: colors.primary }} />
-                    <div>
-                      <h3 className="font-bold text-gray-900 mb-1">Definitive Guarantee</h3>
-                      <p className="text-sm text-gray-600">Absolute satisfaction or a comprehensive resolution</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="relative">
-              <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
-                <img 
-                  src="/professional-gutter-clean.png"
-                  alt={`Professional ${service.name}`}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-xl border border-gray-100">
-                <div className="flex items-center gap-3">
-                  <span className="text-2xl font-bold" style={{ color: colors.primary }}>
-                    Excellent Service
-                  </span>
-                </div>
-                <p className="text-sm font-bold text-gray-900 mt-2">Rated 4.9/5 by 450+ customers</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SEO-Rich Content Section 2 - Process & Methodology */}
-      <section className="py-20 px-4 bg-gradient-to-b from-gray-50 to-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">
-              Our Focused <span style={{ color: colors.primary }}>{service.name}</span> Blueprint
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We strictly adhere to an optimised, step-by-step strategy to guarantee a flawless finish for every single assignment
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              {
-                step: '01',
-                title: 'Complimentary Survey',
-                description: 'A deep-dive evaluation of your premises to map out vulnerabilities and frame a precise fee'
-              },
-              {
-                step: '02',
-                title: 'Expert Execution',
-                description: 'Our certified crews rapidly deploy cutting-edge gear to resolve blockages safely from the ground'
-              },
-              {
-                step: '03',
-                title: 'Rigorous Verification',
-                description: 'A final, scrupulous audit confirming that our output entirely satisfies our stringent criteria'
-              },
-              {
-                step: '04',
-                title: 'Ongoing Support',
-                description: 'Actionable upkeep advice and scheduling preferences to lock in long-term resilience'
-              }
-            ].map((item, index) => (
-              <div key={index} className="relative">
-                <div className="text-6xl font-black mb-4 opacity-10" style={{ color: colors.primary }}>
-                  {item.step}
-                </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">{item.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{item.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* SEO-Rich Content Section 3 - Common Problems & Solutions */}
-      <section className="py-20 px-4 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">
-              Typical Challenges We <span style={{ color: colors.primary }}>Eradicate</span>
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Bespoke remedies formulated for every conceivable {service.name.toLowerCase()} dilemma
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                icon: '💧',
-                title: 'Unchecked Surges',
-                description: 'Guard your landscaping and internal plasterwork from the hazardous impacts of overflowing water'
-              },
-              {
-                icon: '🍂',
-                title: 'Obstinate Build-Ups',
-                description: 'Eradicate heavy foliage, impacted soil, and moss that severely choke external drainage routes'
-              },
-              {
-                icon: '🔧',
-                title: 'Physical Deterioration',
-                description: 'Promptly rectify snapped brackets or failing seals to bypass entirely funding a new installation'
-              },
-              {
-                icon: '🐛',
-                title: 'Unwanted Vermin',
-                description: 'Dismantle the damp, sheltered environments that attract and sustain gnats, rodents, and birds'
-              },
-              {
-                icon: '❄️',
-                title: 'Freezing Hazards',
-                description: 'Neutralise winter blockages that formulate perilous ice formations capable of fracturing pipes'
-              },
-              {
-                icon: '🏠',
-                title: 'Diminished Aesthetics',
-                description: 'Boost immediate kerb side appeal while concurrently protecting your long-term property equity'
-              }
-            ].map((item, index) => (
-              <div 
-                key={index}
-                className="bg-gradient-to-br from-gray-50 to-white p-8 rounded-2xl border border-gray-100 shadow-lg hover:shadow-xl transition-all duration-300"
-              >
-                <div className="text-5xl mb-4">{item.icon}</div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">{item.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{item.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* SEO-Rich Content Section 4 - Service Areas & Availability */}
-      <section className="py-20 px-4 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] text-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl md:text-5xl font-black mb-6">
-                Your <span style={{ color: colors.primary }}>Trusted</span> {service.name} Authority
-              </h2>
-              <p className="text-xl text-gray-300 mb-6 leading-relaxed">
-                We supply an elite-level {service.name.toLowerCase()} provision across a multitude of UK postcodes. Our decentralised hubs are on standby to dispatch urgent assistance directly to your door.
-              </p>
-              <div className="space-y-4">
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 mt-1 shrink-0" style={{ color: colors.primary }} />
-                  <div>
-                    <h3 className="font-bold text-lg mb-1">Expansive Reach</h3>
-                    <p className="text-gray-300">Successfully servicing domestic households and robust commercial estates</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 mt-1 shrink-0" style={{ color: colors.primary }} />
-                  <div>
-                    <h3 className="font-bold text-lg mb-1">Crisis Intervention</h3>
-                    <p className="text-gray-300">A reliable round-the-clock rapid response designed for sudden overflows</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 mt-1 shrink-0" style={{ color: colors.primary }} />
-                  <div>
-                    <h3 className="font-bold text-lg mb-1">Tailored Bookings</h3>
-                    <p className="text-gray-300">Operating efficiently through weekends to seamlessly align with your routine</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
-              <h3 className="text-2xl font-bold mb-3">Check availability near you</h3>
-              <p className="text-gray-300 mb-6">
-                Enter your town or city to see coverage and request a fast quote.
-              </p>
-              <Link
-                href="/#find-local-team"
-                className="inline-flex items-center gap-2 rounded-full px-5 py-3 font-bold text-white shadow-lg hover:opacity-95 transition-opacity"
-                style={{ backgroundImage: colors.primaryGradient }}
-              >
-                Find local team <ArrowRight className="w-4 h-4" />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <AreaFAQ />
       <AreaFacts />
       <AreaBlogSnippet />
@@ -587,6 +466,26 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
       <style>{`
         .service-page-wrapper {
           overflow-x: hidden;
+        }
+
+        .service-section-image {
+          width: 100%;
+          aspect-ratio: 4 / 3;
+          max-height: 420px;
+        }
+
+        .service-section-image img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+
+        @media (max-width: 1023px) {
+          .service-section-image {
+            max-height: 320px;
+          }
         }
 
         .service-hero-section {
