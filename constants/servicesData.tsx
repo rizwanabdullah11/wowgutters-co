@@ -166,8 +166,6 @@ export const servicesData: ServiceDetail[] = [
         title: 'Signs Your Gutters Need Repair',
         content:
           'Gutters often fail slowly. Catching problems early is far cheaper than repairing damp internally or replacing rotten fascia boards. Book a gutter inspection if you are unsure — we will tell you honestly whether cleaning, a small repair, or replacement is the right call.',
-        image: '/gutter-repair-before.jpeg',
-        imagePosition: 'right',
         bulletPoints: [
           'Water dripping from joints after rain has stopped',
           'Overflow during light rainfall — may indicate blockage or poor fall',
@@ -181,8 +179,6 @@ export const servicesData: ServiceDetail[] = [
         title: 'What\'s Included in Every Repair Visit',
         content:
           'Every gutter repair appointment follows a clear process. We explain what we find, agree the work before we start, and leave your gutters flowing properly. Where access is awkward — over conservatories, porches, or extensions — we use appropriate equipment to work safely and efficiently.',
-        image: '/gutter-repair.png',
-        imagePosition: 'left',
         bulletPoints: [
           'On-site assessment of joints, brackets, fall, and downpipe connections',
           'Clear quote before repair work begins — no hidden extras',
@@ -196,8 +192,6 @@ export const servicesData: ServiceDetail[] = [
         title: 'Our Gutter Repair Process',
         content:
           'We focus on lasting repairs. That means fixing why the gutter failed — not just where the water escaped. After joints are resealed or replaced and brackets secured, we run water through the system to confirm everything drains to the downpipe as it should.',
-        image: '/gutter-repair-after.jpeg',
-        imagePosition: 'right',
         bulletPoints: [
           'Inspect the full gutter run, outlets, and nearby fascia condition',
           'Remove failed sealant or damaged components where necessary',
@@ -211,7 +205,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Gutter Repairs & Related Services',
         content:
           'Many customers book gutter repairs after a gutter clean or inspection reveals joint failure, bracket fatigue, or storm damage. WOW Gutters Ltd covers the full roofline — from fixing leaking gutters to clearing blockages and removing moss that accelerates wear.',
-        image: '/files/12_gutter_overflow_water_damage.jpg',
+        image: '/gutter-repair-after.jpeg',
         imagePosition: 'right',
         bulletPoints: [
           'Gutter cleaning — clear debris before it strains brackets and joints',

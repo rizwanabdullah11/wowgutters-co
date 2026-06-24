@@ -32,7 +32,56 @@ export const AREA_FAQS = [
   }
 ];
 
-export default function AreaFAQ() {
+export const GUTTER_REPAIR_FAQS = [
+  {
+    question: 'How much do gutter repairs cost?',
+    answer:
+      'Repair pricing depends on how many joints, brackets, or sections need work and how accessible the gutter is. Most minor residential repairs fall between £80 and £250. We confirm the price before any work starts.',
+    icon: '💳',
+  },
+  {
+    question: 'Do you guarantee gutter repair work?',
+    answer:
+      'Yes. Qualifying gutter repairs come with a 6-month guarantee on workmanship. If a joint or bracket we fitted fails within that period, we will put it right.',
+    icon: '✅',
+  },
+  {
+    question: 'Can you repair leaking gutters on the same day?',
+    answer:
+      'Same-day and next-day gutter repairs are often available across Birmingham and the West Midlands. Message or call us with a photo of the problem and we will confirm the earliest slot.',
+    icon: '⚡',
+  },
+  {
+    question: 'What are the signs my gutters need repair?',
+    answer:
+      'Drips from joints after rain, gutters pulling away from the fascia, standing water in the channel, overflow in light rain, and staining on walls below the gutter line are common warning signs.',
+    icon: '🔍',
+  },
+  {
+    question: 'Should I repair or replace my gutters?',
+    answer:
+      'Isolated joint failures, loose brackets, and short cracked sections are usually worth repairing. If multiple runs are brittle, badly misaligned, or over 25–30 years old, a full gutter installation may be more cost-effective. We advise honestly after inspection.',
+    icon: '🔧',
+  },
+];
+
+export type AreaFaqItem = {
+  question: string;
+  answer: string;
+  icon: string;
+};
+
+type AreaFAQProps = {
+  faqs?: AreaFaqItem[];
+  title?: string;
+  subtitle?: string;
+};
+
+export default function AreaFAQ({
+  faqs = AREA_FAQS,
+  title = 'Gutter General Questions',
+  subtitle = 'Find answers to the most common gutter cleaning questions.',
+}: AreaFAQProps) {
   const [openIdx, setOpenIdx] = useState<number | null>(0);
 
   return (
@@ -51,17 +100,17 @@ export default function AreaFAQ() {
             <span className="text-white font-bold text-sm tracking-wider uppercase">Faq</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-black text-white mb-6">
-            Gutter General <span className="text-white">Questions</span>
+            {title}
           </h2>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Find answers to the most common gutter cleaning questions.
+            {subtitle}
           </p>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8">
           {/* FAQ List */}
           <div className="lg:col-span-2 space-y-4">
-            {AREA_FAQS.map((faq, i) => (
+            {faqs.map((faq, i) => (
               <div 
                 key={i} 
                 className={`bg-[#0f172a] rounded-2xl overflow-hidden border transition-all duration-300 ${

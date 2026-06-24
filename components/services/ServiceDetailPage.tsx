@@ -1,14 +1,14 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, type ReactNode } from 'react';
 import Head from 'next/head';
 import { colors } from '@/constants/colors';
 import Link from 'next/link';
-import { ShieldCheck, PenTool, CheckCircle, Phone } from 'lucide-react';
+import { ShieldCheck, PenTool, CheckCircle, Phone, AlertTriangle, ClipboardCheck, Route } from 'lucide-react';
 import { ServiceDetail } from '@/constants/servicesData';
 import SeoLinkify from '@/components/SeoLinkify';
 import AreaServiceBlock from '@/components/areas/AreaServiceBlock';
-import AreaFAQ from '@/components/areas/AreaFAQ';
+import AreaFAQ, { AREA_FAQS, GUTTER_REPAIR_FAQS } from '@/components/areas/AreaFAQ';
 import AreaFacts from '@/components/areas/AreaFacts';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
@@ -22,6 +22,38 @@ interface ServiceDetailPageProps {
 }
 
 const FOCUSED_SERVICE_IDS = new Set(['gutter-cleaning', 'gutter-repairs']);
+
+function getServiceFaqs(serviceId: string) {
+  if (serviceId === 'gutter-repairs') return GUTTER_REPAIR_FAQS;
+  return AREA_FAQS;
+}
+
+function getServiceFaqCopy(serviceId: string) {
+  if (serviceId === 'gutter-repairs') {
+    return {
+      title: 'Gutter Repair Questions',
+      subtitle: 'Find answers to the most common gutter repair questions.',
+    };
+  }
+  return {
+    title: 'Gutter General Questions',
+    subtitle: 'Find answers to the most common gutter cleaning questions.',
+  };
+}
+
+function buildFaqSchema(faqs: { question: string; answer: string }[]) {
+  return {
+    '@type': 'FAQPage' as const,
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question' as const,
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer' as const,
+        text: faq.answer,
+      },
+    })),
+  };
+}
 
 const GUTTER_CLEANING_RELATED_LINKS = [
   { label: 'Gutter inspection', href: '/services/gutter-inspection/' },
@@ -59,6 +91,186 @@ function ServiceText({ serviceId, text }: { serviceId: string; text: string }) {
   return <>{text}</>;
 }
 
+type TextSectionVariant = 'signs' | 'included' | 'process' | 'default';
+
+function getTextSectionVariant(title: string): TextSectionVariant {
+  if (title === 'Signs Your Gutters Need Repair') return 'signs';
+  if (title === "What's Included in Every Repair Visit") return 'included';
+  if (title === 'Our Gutter Repair Process') return 'process';
+  return 'default';
+}
+
+function TextOnlyServiceSection({
+  serviceId,
+  title,
+  content,
+  bulletPoints,
+  relatedLinks,
+  variant,
+}: {
+  serviceId: string;
+  title: string;
+  content: string;
+  bulletPoints?: string[];
+  relatedLinks?: ReactNode;
+  variant: TextSectionVariant;
+}) {
+  const points = bulletPoints ?? [];
+
+  if (variant === 'signs') {
+    return (
+      <section className="relative overflow-hidden py-20 md:py-24 px-4 bg-[#0f172a]">
+        <div
+          className="pointer-events-none absolute inset-0 opacity-[0.07]"
+          style={{
+            backgroundImage:
+              'radial-gradient(circle at 1px 1px, #19C58B 1px, transparent 0)',
+            backgroundSize: '28px 28px',
+          }}
+          aria-hidden
+        />
+        <div className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-[#19C58B]/15 blur-3xl" aria-hidden />
+        <div className="relative z-10 max-w-6xl mx-auto">
+          <div className="inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-400/10 px-4 py-1.5 mb-6">
+            <AlertTriangle className="h-4 w-4 text-amber-400" />
+            <span className="text-xs font-bold uppercase tracking-widest text-amber-300">Watch for these</span>
+          </div>
+          <h2 className="text-3xl md:text-4xl font-black text-white mb-5 leading-tight max-w-3xl">{title}</h2>
+          <p className="text-lg text-slate-300 leading-relaxed max-w-3xl mb-10">
+            <ServiceText serviceId={serviceId} text={content} />
+          </p>
+          <ul className="grid sm:grid-cols-2 gap-4">
+            {points.map((point) => (
+              <li
+                key={point}
+                className="flex items-start gap-3 rounded-xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm transition-colors hover:border-[#19C58B]/40 hover:bg-white/[0.08]"
+              >
+                <CheckCircle className="h-5 w-5 mt-0.5 shrink-0 text-[#34e3b6]" />
+                <span className="text-slate-200 leading-relaxed text-[15px]">
+                  <ServiceText serviceId={serviceId} text={point} />
+                </span>
+              </li>
+            ))}
+          </ul>
+          {relatedLinks}
+        </div>
+      </section>
+    );
+  }
+
+  if (variant === 'included') {
+    return (
+      <section
+        className="py-20 md:py-24 px-4"
+        style={{ background: 'linear-gradient(160deg, #ecfdf5 0%, #f8fafc 45%, #ffffff 100%)' }}
+      >
+        <div className="max-w-6xl mx-auto">
+          <div className="rounded-3xl border border-emerald-100/80 bg-white p-8 md:p-12 shadow-[0_24px_60px_-12px_rgba(25,197,139,0.18)]">
+            <div className="flex items-center gap-3 mb-5">
+              <div className="flex h-11 w-11 items-center justify-center rounded-2xl" style={{ background: colors.primaryGradient }}>
+                <ClipboardCheck className="h-5 w-5 text-white" />
+              </div>
+              <span className="text-xs font-bold uppercase tracking-[0.2em]" style={{ color: colors.primary }}>
+                Included on every visit
+              </span>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4 leading-tight">{title}</h2>
+            <p className="text-slate-600 text-lg leading-relaxed max-w-3xl mb-10">
+              <ServiceText serviceId={serviceId} text={content} />
+            </p>
+            <ul className="grid sm:grid-cols-2 gap-4">
+              {points.map((point, i) => (
+                <li
+                  key={point}
+                  className="flex items-start gap-4 rounded-2xl border border-slate-100 bg-slate-50/80 p-5"
+                >
+                  <span
+                    className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-black text-white shadow-md"
+                    style={{ background: colors.primaryGradient }}
+                  >
+                    {i + 1}
+                  </span>
+                  <span className="text-slate-700 leading-relaxed pt-0.5">
+                    <ServiceText serviceId={serviceId} text={point} />
+                  </span>
+                </li>
+              ))}
+            </ul>
+            {relatedLinks}
+          </div>
+        </div>
+      </section>
+    );
+  }
+
+  if (variant === 'process') {
+    return (
+      <section className="py-20 md:py-24 px-4 bg-white border-y border-slate-100">
+        <div className="max-w-3xl mx-auto text-center mb-14">
+          <div className="inline-flex items-center gap-2 mb-5">
+            <span className="h-px w-8 bg-slate-300" />
+            <Route className="h-4 w-4" style={{ color: colors.primary }} />
+            <span className="text-xs font-bold uppercase tracking-[0.2em]" style={{ color: colors.primary }}>
+              Step by step
+            </span>
+            <span className="h-px w-8 bg-slate-300" />
+          </div>
+          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4 leading-tight">{title}</h2>
+          <p className="text-slate-600 text-lg leading-relaxed">
+            <ServiceText serviceId={serviceId} text={content} />
+          </p>
+        </div>
+        <ol className="max-w-2xl mx-auto relative">
+          {points.map((point, i) => (
+            <li key={point} className="relative flex gap-5 pb-10 last:pb-0">
+              {i < points.length - 1 && (
+                <span
+                  className="absolute left-[19px] top-10 bottom-0 w-0.5 bg-gradient-to-b from-[#19C58B] to-[#19C58B]/20"
+                  aria-hidden
+                />
+              )}
+              <span
+                className="relative z-10 flex h-10 w-10 shrink-0 items-center justify-center rounded-full text-sm font-black text-white shadow-lg ring-4 ring-white"
+                style={{ background: colors.primaryGradient }}
+              >
+                {i + 1}
+              </span>
+              <p className="text-slate-700 leading-relaxed text-base md:text-lg pt-1.5">
+                <ServiceText serviceId={serviceId} text={point} />
+              </p>
+            </li>
+          ))}
+        </ol>
+        {relatedLinks && <div className="max-w-2xl mx-auto mt-10">{relatedLinks}</div>}
+      </section>
+    );
+  }
+
+  return (
+    <section className="py-16 md:py-20 px-4 bg-slate-50">
+      <div className="max-w-4xl mx-auto">
+        <h2 className="text-2xl md:text-3xl font-black text-slate-900 mb-4 leading-tight">{title}</h2>
+        <p className="text-slate-600 text-base md:text-lg leading-relaxed mb-8">
+          <ServiceText serviceId={serviceId} text={content} />
+        </p>
+        {points.length > 0 && (
+          <ul className="grid sm:grid-cols-2 gap-4">
+            {points.map((point) => (
+              <li key={point} className="flex items-start gap-3 rounded-xl bg-white border border-slate-200 p-4 shadow-sm">
+                <CheckCircle className="w-5 h-5 mt-0.5 shrink-0" style={{ color: colors.primary }} />
+                <span className="text-slate-700 leading-relaxed">
+                  <ServiceText serviceId={serviceId} text={point} />
+                </span>
+              </li>
+            ))}
+          </ul>
+        )}
+        {relatedLinks}
+      </div>
+    </section>
+  );
+}
+
 export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
 
@@ -77,6 +289,8 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
     'Could I get a fast quote for my home?',
   ];
   const whatsappBaseUrl = 'https://wa.me/447421433910';
+  const serviceFaqs = getServiceFaqs(service.id);
+  const serviceFaqCopy = getServiceFaqCopy(service.id);
 
   return (
     <main className="bg-white service-page-wrapper">
@@ -122,51 +336,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                 },
               },
             },
-            {
-              '@type': 'FAQPage',
-              mainEntity: [
-                {
-                  '@type': 'Question',
-                  name: 'How often should gutters be cleaned?',
-                  acceptedAnswer: {
-                    '@type': 'Answer',
-                    text: 'Gutters should be cleaned at least twice a year, typically in the spring and autumn. However, if you have overhanging trees or frequent storms, more frequent cleaning may be necessary.',
-                  },
-                },
-                {
-                  '@type': 'Question',
-                  name: 'Why is gutter cleaning important?',
-                  acceptedAnswer: {
-                    '@type': 'Answer',
-                    text: 'Clogged gutters can lead to water damage, roof leaks, foundation issues, and even pest infestations. Regular cleaning helps prevent costly repairs.',
-                  },
-                },
-                {
-                  '@type': 'Question',
-                  name: 'What are the signs that my gutters need cleaning?',
-                  acceptedAnswer: {
-                    '@type': 'Answer',
-                    text: 'Overflowing water, sagging gutters, visible plant growth, or water stains on your walls are all indicators your gutters are blocked.',
-                  },
-                },
-                {
-                  '@type': 'Question',
-                  name: 'Can I clean my gutters myself?',
-                  acceptedAnswer: {
-                    '@type': 'Answer',
-                    text: 'While it\'s possible, professional gutter cleaning ensures thorough removal of debris, safe access to hard-to-reach areas, and early detection of damage.',
-                  },
-                },
-                {
-                  '@type': 'Question',
-                  name: 'How much does gutter cleaning cost?',
-                  acceptedAnswer: {
-                    '@type': 'Answer',
-                    text: 'Costs vary based on the property size, gutter condition, and accessibility, but typical residential cleanings range from £50–£150.',
-                  },
-                },
-              ],
-            },
+            buildFaqSchema(serviceFaqs),
             {
               '@type': 'BreadcrumbList',
               itemListElement: [
@@ -358,16 +528,80 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
       {service.sections.map((section, index) => {
         const imageOnRight = section.imagePosition !== 'left';
         const bgClass = index % 2 === 0 ? 'bg-white' : 'bg-slate-50';
+        const hasImage = Boolean(section.image);
+
+        const bulletList =
+          section.bulletPoints && section.bulletPoints.length > 0 ? (
+            <ul className="space-y-3">
+              {section.bulletPoints.map((point) => (
+                <li key={point} className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 mt-0.5 shrink-0" style={{ color: colors.primary }} />
+                  <span className="text-slate-700 leading-relaxed">
+                    <ServiceText serviceId={service.id} text={point} />
+                  </span>
+                </li>
+              ))}
+            </ul>
+          ) : null;
+
+        const relatedLinks =
+          service.id === 'gutter-cleaning' && section.title === 'Gutter Cleaning & Related Services' ? (
+            <div className="mt-8">
+              <p className="text-sm font-bold uppercase tracking-widest text-slate-500 mb-3">Useful links</p>
+              <ul className="flex flex-wrap gap-2">
+                {GUTTER_CLEANING_RELATED_LINKS.map(({ label, href }) => (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : service.id === 'gutter-repairs' && section.title === 'Gutter Repairs & Related Services' ? (
+            <div className="mt-8">
+              <p className="text-sm font-bold uppercase tracking-widest text-slate-500 mb-3">Useful links</p>
+              <ul className="flex flex-wrap gap-2">
+                {GUTTER_REPAIRS_RELATED_LINKS.map(({ label, href }) => (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null;
+
+        if (!hasImage) {
+          return (
+            <TextOnlyServiceSection
+              key={section.title}
+              serviceId={service.id}
+              title={section.title}
+              content={section.content}
+              bulletPoints={section.bulletPoints}
+              relatedLinks={relatedLinks}
+              variant={getTextSectionVariant(section.title)}
+            />
+          );
+        }
 
         return (
           <section key={section.title} className={`py-16 md:py-20 px-4 ${bgClass}`}>
             <div className="max-w-7xl mx-auto">
               <div
                 className={`grid lg:grid-cols-2 gap-10 lg:gap-16 items-center ${
-                  section.image && !imageOnRight ? 'lg:[&>*:first-child]:order-1 lg:[&>*:last-child]:order-2' : ''
+                  !imageOnRight ? 'lg:[&>*:first-child]:order-1 lg:[&>*:last-child]:order-2' : ''
                 }`}
               >
-                {section.image && !imageOnRight && (
+                {!imageOnRight && (
                   <div className="service-section-image rounded-2xl overflow-hidden shadow-xl border border-slate-100">
                     <img
                       src={section.image}
@@ -385,59 +619,11 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                   <p className="text-slate-600 text-base md:text-lg leading-relaxed mb-6">
                     <ServiceText serviceId={service.id} text={section.content} />
                   </p>
-                  {section.bulletPoints && section.bulletPoints.length > 0 && (
-                    <ul className="space-y-3">
-                      {section.bulletPoints.map((point) => (
-                        <li key={point} className="flex items-start gap-3">
-                          <CheckCircle className="w-5 h-5 mt-0.5 shrink-0" style={{ color: colors.primary }} />
-                          <span className="text-slate-700 leading-relaxed">
-                            <ServiceText serviceId={service.id} text={point} />
-                          </span>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                  {service.id === 'gutter-cleaning' && section.title === 'Gutter Cleaning & Related Services' && (
-                    <div className="mt-8">
-                      <p className="text-sm font-bold uppercase tracking-widest text-slate-500 mb-3">
-                        Useful links
-                      </p>
-                      <ul className="flex flex-wrap gap-2">
-                        {GUTTER_CLEANING_RELATED_LINKS.map(({ label, href }) => (
-                          <li key={href}>
-                            <Link
-                              href={href}
-                              className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
-                            >
-                              {label}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                  {service.id === 'gutter-repairs' && section.title === 'Gutter Repairs & Related Services' && (
-                    <div className="mt-8">
-                      <p className="text-sm font-bold uppercase tracking-widest text-slate-500 mb-3">
-                        Useful links
-                      </p>
-                      <ul className="flex flex-wrap gap-2">
-                        {GUTTER_REPAIRS_RELATED_LINKS.map(({ label, href }) => (
-                          <li key={href}>
-                            <Link
-                              href={href}
-                              className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
-                            >
-                              {label}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
+                  {bulletList}
+                  {relatedLinks}
                 </div>
 
-                {section.image && imageOnRight && (
+                {imageOnRight && (
                   <div className="service-section-image rounded-2xl overflow-hidden shadow-xl border border-slate-100">
                     <img
                       src={section.image}
@@ -524,7 +710,11 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         </div>
       </section>
 
-      <AreaFAQ />
+      <AreaFAQ
+        faqs={serviceFaqs}
+        title={serviceFaqCopy.title}
+        subtitle={serviceFaqCopy.subtitle}
+      />
       {!FOCUSED_SERVICE_IDS.has(service.id) && <AreaFacts />}
       {!FOCUSED_SERVICE_IDS.has(service.id) && <AreaBlogSnippet />}
       {!FOCUSED_SERVICE_IDS.has(service.id) && (
