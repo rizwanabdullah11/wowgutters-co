@@ -229,30 +229,102 @@ export const servicesData: ServiceDetail[] = [
     id: 'upvc-cleaning',
     name: 'Exterior UPVC Cleaning',
     icon: '⭕',
-    heroImage: 'https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1920',
+    heroImage: '/upvc-cleaning.jpg',
     heroVideo: '/exterior-upvc-video.mp4',
-    heroTitle: 'UPVC Cleaning Services',
-    heroDescription: 'Professional exterior UPVC cleaning for fascias, soffits, and cladding. Restore your property\'s appearance with our specialist cleaning service.',
+    heroTitle: 'Professional Exterior UPVC Cleaning',
+    heroDescription:
+      'Purified hot-water exterior UPVC cleaning for fascias, soffits, gutter exteriors, window frames, doors, and conservatories. Removes algae, green staining, and grime — streak-free finish, safe for your property, and ideal alongside gutter cleaning.',
     sections: [
       {
-        title: 'What We Clean',
-        content: 'Our UPVC cleaning service covers:',
-        image: 'https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800',
+        title: 'Why Choose WOW Gutters Ltd for UPVC Cleaning?',
+        content:
+          'WOW Gutters Ltd cleans exterior UPVC and roofline plastics using purified hot water — not harsh chemicals or high-pressure blasting that can mark fragile surfaces. We reach fascias, soffits, and frames from the ground where possible, protect borders and brickwork, and leave your roofline looking bright again without risking seals or painted finishes.',
+        image: '/upvc-cleaning.jpg',
         imagePosition: 'right',
         bulletPoints: [
-          'Fascias and soffits',
-          'Window frames and sills',
-          'Doors and conservatories',
-          'UPVC cladding'
-        ]
-      }
+          'Purified hot-water system for fascias, soffits, and UPVC cladding',
+          'Streak-free finish on window frames, doors, and conservatory rooflines',
+          'Safe, low-pressure methods — no damage to seals, paint, or brickwork',
+          'Ideal combined with gutter cleaning or gutter repairs in one visit',
+          'Fully insured with £10 million public liability cover',
+          'Honest advice if fascia boards need repair rather than cleaning alone',
+        ],
+      },
+      {
+        title: 'What We Clean',
+        content:
+          'Our exterior UPVC cleaning service covers the full visible roofline and common plastic surfaces on homes, flats, and commercial buildings across Birmingham and the West Midlands.',
+        bulletPoints: [
+          'Fascia boards and bargeboards',
+          'Soffits and eaves trim',
+          'Exterior gutter faces and downpipe surfaces',
+          'UPVC window frames and sills',
+          'External doors and porch surrounds',
+          'Conservatory rooflines, frames, and cladding panels',
+        ],
+      },
+      {
+        title: 'Signs Your UPVC Needs Cleaning',
+        content:
+          'Green algae, black streaks, and ingrained dirt build slowly on UPVC. Cleaning before staining etches into the plastic saves money compared with replacement — and keeps your property looking cared for.',
+        bulletPoints: [
+          'Green or black algae streaks on fascias and soffits',
+          'Dull, grey UPVC that no longer matches newer sections',
+          'Visible dirt lines below gutter outlets or roof edges',
+          'Conservatory roof bars or frames turning green',
+          'Window frames stained from overflow or moss runoff',
+          'Preparing a property for sale, rental, or exterior painting',
+        ],
+      },
+      {
+        title: "What's Included in Every UPVC Clean",
+        content:
+          'Every appointment follows the same careful approach. We assess access, explain what we can reach safely, and agree the price before we start — whether you book fascia cleaning alone or as part of a wider roofline visit.',
+        bulletPoints: [
+          'On-site check of surfaces, access, and drainage below the work area',
+          'Purified hot-water wash to lift algae, grime, and pollution staining',
+          'Fascias, soffits, and agreed UPVC surfaces cleaned in one visit',
+          'Runoff managed so borders, paths, and driveways are protected',
+          'Optional add-ons: gutter cleaning, repairs, or conservatory glass',
+          'Before and after photos on request',
+        ],
+      },
+      {
+        title: 'Our UPVC Cleaning Process',
+        content:
+          'We match the method to the surface. Hot purified water loosens biological growth without aggressive pressure, then we rinse for an even, streak-free finish along the roofline.',
+        bulletPoints: [
+          'Walk-around to confirm which fascias, soffits, and frames are included',
+          'Ground-based or appropriate access equipment set up safely',
+          'Application of purified hot water to lift algae and ingrained dirt',
+          'Controlled rinse along the roofline for an even finish',
+          'Final check for missed sections and tidy-down of the work area',
+          'Most domestic fascia and soffit cleans completed in 2–4 hours',
+        ],
+      },
+      {
+        title: 'Exterior UPVC Cleaning & Related Services',
+        content:
+          'Many customers book UPVC cleaning with gutter cleaning, gutter repairs, or roof moss removal — one team, one visit, full roofline refresh. WOW Gutters Ltd covers the exterior from gutters to fascias and roof surfaces.',
+        image: '/upvc-cleaning.jpg',
+        imagePosition: 'left',
+        bulletPoints: [
+          'Gutter cleaning — clear channels while fascias are still accessible',
+          'Gutter repairs — fix leaking joints found during roofline work',
+          'Roof cleaning — reduce moss and debris staining gutters and UPVC',
+          'Conservatory cleaning — frames and roof glass where agreed',
+          'Hot wash cleaning — stubborn exterior grime on paths and render',
+          'Commercial fascia cleaning — shops, offices, and industrial units',
+        ],
+      },
     ],
     ctaSection: {
-      title: 'UPVC CLEANING SPECIALISTS',
-      description: 'Keep your property looking its best with our professional UPVC cleaning service.',
+      title: 'Book Your UPVC Clean Today',
+      description:
+        'Get a free, no-obligation quote in 60 seconds. Fascia and soffit cleaning from £60. Call 07421 433910 or request a quote online.',
       phone: '07421 433910',
-      buttonText: 'Get A Quote'
-    }
+      buttonText: 'Get A Free Quote',
+    },
   },
   {
     id: 'roof-cleaning',

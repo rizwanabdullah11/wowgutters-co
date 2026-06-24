@@ -65,6 +65,39 @@ export const GUTTER_REPAIR_FAQS = [
   },
 ];
 
+export const UPVC_CLEANING_FAQS = [
+  {
+    question: 'How much does fascia and UPVC cleaning cost?',
+    answer:
+      'Pricing depends on property size, how much fascia and soffit runs around the roofline, and access. Most residential fascia and soffit cleans start from around £60–£150. We confirm your price before work begins.',
+    icon: '💳',
+  },
+  {
+    question: 'What is purified hot-water UPVC cleaning?',
+    answer:
+      'We use heated purified water to lift algae, grime, and pollution staining from UPVC without harsh chemicals or aggressive pressure. It is effective on fascias and soffits and helps achieve a streak-free finish.',
+    icon: '💧',
+  },
+  {
+    question: 'Will cleaning damage my UPVC or window seals?',
+    answer:
+      'We use controlled, low-pressure methods suited to plastic roofline components and frames. We avoid blasting at seals, joints, or painted timber — and we protect borders and brickwork during the wash.',
+    icon: '🛡️',
+  },
+  {
+    question: 'How often should fascias and soffits be cleaned?',
+    answer:
+      'Most homes benefit from exterior UPVC cleaning every 1–2 years. Properties under trees, near busy roads, or with heavy algae growth may need annual cleaning to stay bright.',
+    icon: '🗓️',
+  },
+  {
+    question: 'Can you clean UPVC at the same time as gutter cleaning?',
+    answer:
+      'Yes. Combining gutter cleaning with fascia and soffit cleaning is one of our most popular bookings — one visit, full roofline refresh, and often better value than booking separately.',
+    icon: '✨',
+  },
+];
+
 export type AreaFaqItem = {
   question: string;
   answer: string;

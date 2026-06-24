@@ -4,11 +4,11 @@ import { useEffect, useRef, type ReactNode } from 'react';
 import Head from 'next/head';
 import { colors } from '@/constants/colors';
 import Link from 'next/link';
-import { ShieldCheck, PenTool, CheckCircle, Phone, AlertTriangle, ClipboardCheck, Route } from 'lucide-react';
+import { ShieldCheck, PenTool, CheckCircle, Phone, AlertTriangle, ClipboardCheck, Route, LayoutGrid } from 'lucide-react';
 import { ServiceDetail } from '@/constants/servicesData';
 import SeoLinkify from '@/components/SeoLinkify';
 import AreaServiceBlock from '@/components/areas/AreaServiceBlock';
-import AreaFAQ, { AREA_FAQS, GUTTER_REPAIR_FAQS } from '@/components/areas/AreaFAQ';
+import AreaFAQ, { AREA_FAQS, GUTTER_REPAIR_FAQS, UPVC_CLEANING_FAQS } from '@/components/areas/AreaFAQ';
 import AreaFacts from '@/components/areas/AreaFacts';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
@@ -21,10 +21,11 @@ interface ServiceDetailPageProps {
   service: ServiceDetail;
 }
 
-const FOCUSED_SERVICE_IDS = new Set(['gutter-cleaning', 'gutter-repairs']);
+const FOCUSED_SERVICE_IDS = new Set(['gutter-cleaning', 'gutter-repairs', 'upvc-cleaning']);
 
 function getServiceFaqs(serviceId: string) {
   if (serviceId === 'gutter-repairs') return GUTTER_REPAIR_FAQS;
+  if (serviceId === 'upvc-cleaning') return UPVC_CLEANING_FAQS;
   return AREA_FAQS;
 }
 
@@ -33,6 +34,12 @@ function getServiceFaqCopy(serviceId: string) {
     return {
       title: 'Gutter Repair Questions',
       subtitle: 'Find answers to the most common gutter repair questions.',
+    };
+  }
+  if (serviceId === 'upvc-cleaning') {
+    return {
+      title: 'UPVC Cleaning Questions',
+      subtitle: 'Find answers to the most common fascia, soffit, and UPVC cleaning questions.',
     };
   }
   return {
@@ -84,6 +91,18 @@ const GUTTER_REPAIRS_RELATED_LINKS = [
   { label: 'All services', href: '/services/' },
 ] as const;
 
+const UPVC_CLEANING_RELATED_LINKS = [
+  { label: 'Gutter cleaning', href: '/services/gutter-cleaning/' },
+  { label: 'Gutter repairs', href: '/services/gutter-repairs/' },
+  { label: 'Roof cleaning', href: '/services/roof-cleaning/' },
+  { label: 'Hot wash cleaning', href: '/services/hot-wash-cleaning/' },
+  { label: 'Conservatory cleaning', href: '/services/conservatory/' },
+  { label: 'Fascias & soffits guide', href: '/blog/fascias-soffits-gutter-cleaning-west-midlands/' },
+  { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
+  { label: 'Free quote', href: '/quote/' },
+  { label: 'All services', href: '/services/' },
+] as const;
+
 function ServiceText({ serviceId, text }: { serviceId: string; text: string }) {
   if (FOCUSED_SERVICE_IDS.has(serviceId)) {
     return <SeoLinkify text={text} />;
@@ -91,12 +110,14 @@ function ServiceText({ serviceId, text }: { serviceId: string; text: string }) {
   return <>{text}</>;
 }
 
-type TextSectionVariant = 'signs' | 'included' | 'process' | 'default';
+type TextSectionVariant = 'signs' | 'included' | 'process' | 'surfaces' | 'default';
 
 function getTextSectionVariant(title: string): TextSectionVariant {
-  if (title === 'Signs Your Gutters Need Repair') return 'signs';
-  if (title === "What's Included in Every Repair Visit") return 'included';
-  if (title === 'Our Gutter Repair Process') return 'process';
+  if (title === 'Signs Your Gutters Need Repair' || title === 'Signs Your UPVC Needs Cleaning') return 'signs';
+  if (title === "What's Included in Every Repair Visit" || title === "What's Included in Every UPVC Clean")
+    return 'included';
+  if (title === 'Our Gutter Repair Process' || title === 'Our UPVC Cleaning Process') return 'process';
+  if (title === 'What We Clean') return 'surfaces';
   return 'default';
 }
 
@@ -199,6 +220,42 @@ function TextOnlyServiceSection({
             {relatedLinks}
           </div>
         </div>
+      </section>
+    );
+  }
+
+  if (variant === 'surfaces') {
+    return (
+      <section
+        className="py-20 md:py-24 px-4 border-y border-slate-200"
+        style={{ background: 'linear-gradient(180deg, #f0f9ff 0%, #f8fafc 50%, #ffffff 100%)' }}
+      >
+        <div className="max-w-6xl mx-auto text-center mb-12">
+          <div className="inline-flex items-center gap-2 mb-5">
+            <LayoutGrid className="h-4 w-4" style={{ color: colors.primary }} />
+            <span className="text-xs font-bold uppercase tracking-[0.2em]" style={{ color: colors.primary }}>
+              Surfaces we clean
+            </span>
+          </div>
+          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4 leading-tight">{title}</h2>
+          <p className="text-slate-600 text-lg leading-relaxed max-w-2xl mx-auto">
+            <ServiceText serviceId={serviceId} text={content} />
+          </p>
+        </div>
+        <ul className="max-w-5xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {points.map((point) => (
+            <li
+              key={point}
+              className="flex items-start gap-3 rounded-2xl border border-sky-100 bg-white p-5 shadow-sm text-left"
+            >
+              <CheckCircle className="h-5 w-5 mt-0.5 shrink-0" style={{ color: colors.primary }} />
+              <span className="text-slate-700 leading-relaxed text-[15px] font-medium">
+                <ServiceText serviceId={serviceId} text={point} />
+              </span>
+            </li>
+          ))}
+        </ul>
+        {relatedLinks && <div className="max-w-5xl mx-auto mt-10">{relatedLinks}</div>}
       </section>
     );
   }
@@ -438,7 +495,9 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                 ? 'Get your free gutter cleaning quote'
                 : service.id === 'gutter-repairs'
                   ? 'Get your free gutter repair quote'
-                  : `${service.name} by WOW Gutters Ltd`}
+                  : service.id === 'upvc-cleaning'
+                    ? 'Get your free UPVC cleaning quote'
+                    : `${service.name} by WOW Gutters Ltd`}
             </h2>
             <p className="text-slate-600 leading-relaxed text-lg mb-8">
               {FOCUSED_SERVICE_IDS.has(service.id) ? (
@@ -483,6 +542,23 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                 , book a{' '}
                 <Link href="/services/gutter-inspection/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
                   free gutter inspection
+                </Link>
+                , or browse our{' '}
+                <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                  full services range
+                </Link>
+                .
+              </p>
+            )}
+            {service.id === 'upvc-cleaning' && (
+              <p className="text-slate-600 leading-relaxed text-lg mb-8">
+                Read our{' '}
+                <Link href="/blog/fascias-soffits-gutter-cleaning-west-midlands/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                  fascias and soffits guide
+                </Link>
+                , combine with{' '}
+                <Link href="/services/gutter-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                  gutter cleaning
                 </Link>
                 , or browse our{' '}
                 <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
@@ -577,6 +653,22 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                 ))}
               </ul>
             </div>
+          ) : service.id === 'upvc-cleaning' && section.title === 'Exterior UPVC Cleaning & Related Services' ? (
+            <div className="mt-8">
+              <p className="text-sm font-bold uppercase tracking-widest text-slate-500 mb-3">Useful links</p>
+              <ul className="flex flex-wrap gap-2">
+                {UPVC_CLEANING_RELATED_LINKS.map(({ label, href }) => (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           ) : null;
 
         if (!hasImage) {
@@ -646,7 +738,9 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         iconSrc={
           service.id === 'gutter-repairs'
             ? '/gutter-repair-icon.png'
-            : '/gutter-cleaning-icon.png'
+            : service.id === 'upvc-cleaning'
+              ? '/Roof-Cleaner.webp'
+              : '/gutter-cleaning-icon.png'
         }
         backgroundColor="bg-white"
         buttonText={service.ctaSection.buttonText}

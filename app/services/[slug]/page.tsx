@@ -5,6 +5,8 @@ import TopPageAreaLinks from '@/components/seo/TopPageAreaLinks';
 import { servicesData, getServiceById } from '@/constants/servicesData';
 import { buildMetadata } from '@/lib/seo';
 
+const FOCUSED_SERVICE_SLUGS = new Set(['gutter-cleaning', 'gutter-repairs', 'upvc-cleaning']);
+
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
@@ -43,7 +45,7 @@ export default async function ServicesSlugPage(props: PageProps) {
   return (
     <>
       <ServiceDetailPage service={service} />
-      {params.slug !== 'gutter-cleaning' && params.slug !== 'gutter-repairs' && (
+      {!FOCUSED_SERVICE_SLUGS.has(params.slug) && (
         <TopPageAreaLinks
           intro={`${service.name} across Birmingham and the West Midlands — choose your local area for pricing and booking.`}
         />
