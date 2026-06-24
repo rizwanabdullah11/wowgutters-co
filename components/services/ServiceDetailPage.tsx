@@ -197,6 +197,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
               loop
               muted
               playsInline
+              poster={service.heroImage}
               className="hero-video"
               onError={(e) => {
                 (e.target as HTMLVideoElement).style.display = 'none';
@@ -249,11 +250,25 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
             </p>
             <h2 className="text-3xl md:text-4xl font-black mb-6 leading-tight text-slate-900">
               {service.id === 'gutter-cleaning'
-                ? 'Professional Gutter Cleaning Service'
+                ? 'Get your free gutter cleaning quote'
                 : `${service.name} by WOW Gutters Ltd`}
             </h2>
             <p className="text-slate-600 leading-relaxed text-lg mb-8">
-              <ServiceText serviceId={service.id} text={service.heroDescription} />
+              {service.id === 'gutter-cleaning' ? (
+                <>
+                  Same-day and next-day appointments where available. Call{' '}
+                  <a
+                    href={`tel:${service.ctaSection.phone.replace(/\s/g, '')}`}
+                    className="font-semibold underline underline-offset-2"
+                    style={{ color: colors.primary }}
+                  >
+                    {service.ctaSection.phone}
+                  </a>{' '}
+                  or complete the form — we will confirm your price before we start.
+                </>
+              ) : (
+                <ServiceText serviceId={service.id} text={service.heroDescription} />
+              )}
             </p>
             {service.id === 'gutter-cleaning' && (
               <p className="text-slate-600 leading-relaxed text-lg mb-8">
@@ -455,10 +470,12 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
       <AreaFAQ />
       {service.id !== 'gutter-cleaning' && <AreaFacts />}
       {service.id !== 'gutter-cleaning' && <AreaBlogSnippet />}
-      <AreaFeatures
-        serviceLabel={service.name}
-        featureSet={service.id === 'roof-cleaning' ? 'roof' : 'gutter'}
-      />
+      {service.id !== 'gutter-cleaning' && (
+        <AreaFeatures
+          serviceLabel={service.name}
+          featureSet={service.id === 'roof-cleaning' ? 'roof' : 'gutter'}
+        />
+      )}
       <AreaRecentWork />
       <AreaReviews />
       <AreaContactMap />
@@ -555,6 +572,9 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
 
         .hero-title {
           margin: 0 0 1.5rem 0;
+          font-size: clamp(2.25rem, 5vw, 3.75rem);
+          font-weight: 900;
+          letter-spacing: -0.02em;
           line-height: 1.1;
           color: white;
           text-shadow: 0 10px 30px rgba(0,0,0,0.5);
