@@ -99,6 +99,16 @@
       "source": "/services/roof-cleaning/",
       "destination": "/help/clean/",
       "permanent": true
+    },
+    {
+      "source": "/blog/gutter-inspection-save-birmingham-homeowners-thousands",
+      "destination": "/blog/birmingham-gutter-inspection/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gutter-inspection-save-birmingham-homeowners-thousands/",
+      "destination": "/blog/birmingham-gutter-inspection/",
+      "permanent": true
     }
   ]
 }

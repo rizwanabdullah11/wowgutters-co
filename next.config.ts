@@ -44,6 +44,18 @@ const nextConfig: NextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "brilliant-scarlet-yk3rny0o.edgeone.app",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "damp-brown-aythdjbu.edgeone.dev",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };
