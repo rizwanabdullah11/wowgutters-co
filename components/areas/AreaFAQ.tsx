@@ -98,6 +98,39 @@ export const UPVC_CLEANING_FAQS = [
   },
 ];
 
+export const ROOF_CLEANING_FAQS = [
+  {
+    question: 'How much does roof cleaning cost?',
+    answer:
+      'Roof cleaning pricing depends on roof size, pitch, access, and how heavy the moss coverage is. Most residential roof cleans start from around £150–£400. We provide a clear quote after assessing your property.',
+    icon: '💳',
+  },
+  {
+    question: 'Is roof cleaning safe for my tiles?',
+    answer:
+      'Yes. We use low-pressure soft wash methods designed for UK roof tiles — not aggressive jet washing that can dislodge tiles or force water under slates. The method is matched to your roof type.',
+    icon: '🛡️',
+  },
+  {
+    question: 'Do you remove moss from roof tiles?',
+    answer:
+      'Yes. Moss removal is a core part of our roof cleaning service. We lift moss and algae carefully, rinse the roof, and can apply biocide treatment to help slow regrowth.',
+    icon: '🌿',
+  },
+  {
+    question: 'How often should a roof be cleaned?',
+    answer:
+      'Most properties benefit from roof cleaning every 2–3 years. Homes under trees, on north-facing slopes, or with heavy moss may need treatment more often — sometimes annually alongside gutter cleaning.',
+    icon: '🗓️',
+  },
+  {
+    question: 'Can roof cleaning be booked with gutter cleaning?',
+    answer:
+      'Yes. This is one of our most recommended combinations. Treating the roof and clearing the gutters in one visit stops moss from refilling the channels soon after a gutter clean.',
+    icon: '✨',
+  },
+];
+
 export type AreaFaqItem = {
   question: string;
   answer: string;

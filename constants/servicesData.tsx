@@ -330,30 +330,102 @@ export const servicesData: ServiceDetail[] = [
     id: 'roof-cleaning',
     name: 'Roof Cleaning',
     icon: '🏠',
-    heroImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1920',
+    heroImage: '/roof-cleaning.JPG',
     heroVideo: '/roof-cleaning-video.mp4',
     heroTitle: 'Professional Roof Cleaning',
-    heroDescription: 'Expert roof cleaning services including moss removal, algae treatment, and roof washing to protect and maintain your roof.',
+    heroDescription:
+      'Safe roof cleaning and moss removal for homes across Birmingham and the West Midlands. Low-pressure soft wash methods, biocide treatment, and careful moss clearance to protect tiles and reduce future gutter blockages.',
     sections: [
       {
-        title: 'Why Clean Your Roof?',
-        content: 'Regular roof cleaning provides many benefits:',
-        image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800',
+        title: 'Why Choose WOW Gutters Ltd for Roof Cleaning?',
+        content:
+          'WOW Gutters Ltd treats roof cleaning as roof care — not pressure washing that strips tiles or forces water under slates. We use low-pressure soft wash techniques suited to UK roofs, remove moss and algae carefully, and apply treatment to slow regrowth. Many customers book roof cleaning with gutter cleaning so debris does not refill the gutters within weeks.',
+        image: '/roof-cleaning.JPG',
+        imagePosition: 'right',
+        bulletPoints: [
+          'Low-pressure soft wash methods — tile-safe roof cleaning',
+          'Moss, algae, and lichen removal from roof tiles and ridges',
+          'Biocide treatment applied to slow moss regrowth',
+          'Ideal combined with gutter cleaning or gutter inspection',
+          'Fully insured with £10 million public liability cover',
+          'Honest advice if tiles need repair rather than cleaning alone',
+        ],
+      },
+      {
+        title: 'What We Treat',
+        content:
+          'Our roof cleaning service covers the main roof surfaces and problem areas that cause moss buildup, staining, and blocked gutters on typical UK properties.',
+        bulletPoints: [
+          'Concrete and clay roof tiles',
+          'Moss and algae on roof slopes and ridges',
+          'Lichen and black streak staining on tiles',
+          'North-facing and shaded roof sections',
+          'Roof edges where moss falls into gutters',
+          'Flat roof membranes and commercial roof surfaces where agreed',
+        ],
+      },
+      {
+        title: 'Signs Your Roof Needs Cleaning',
+        content:
+          'Moss holds moisture against tiles and sheds into gutters after rain. Cleaning early protects the roof surface and reduces how often you need gutter clearing — especially on Birmingham properties with tree cover and shaded slopes.',
+        bulletPoints: [
+          'Thick green moss visible on roof tiles or ridges',
+          'Gutters refilling quickly after a recent gutter clean',
+          'Dark staining or algae streaks across roof slopes',
+          'Tiles lifting or mortar damage near moss-heavy areas',
+          'Damp or green staining on walls below the roofline',
+          'Preparing a property for sale or end-of-tenancy work',
+        ],
+      },
+      {
+        title: "What's Included in Every Roof Clean",
+        content:
+          'Every roof cleaning visit starts with a sensible assessment of access, tile type, and how heavy the moss coverage is. We explain what we will do, agree the price, and leave the roof treated — not just briefly rinsed.',
+        bulletPoints: [
+          'Roof survey from the ground or safe access point before work starts',
+          'Low-pressure soft wash to lift moss and organic growth',
+          'Careful clearance of loosened moss from the roof surface',
+          'Biocide treatment to help slow moss and algae regrowth',
+          'Advice on gutter cleaning if moss debris is entering the channels',
+          'Before and after photos on request',
+        ],
+      },
+      {
+        title: 'Our Roof Cleaning Process',
+        content:
+          'We match the method to your roof type and the level of growth. The goal is a cleaner, healthier roof surface — without the damage risk of high-pressure jet washing on brittle tiles.',
+        bulletPoints: [
+          'Assess tile type, pitch, access, and moss coverage',
+          'Set up safe access and protect borders, paths, and planted areas',
+          'Apply soft wash solution to lift moss and algae from tiles',
+          'Remove loosened moss and rinse the roof evenly',
+          'Apply biocide treatment where appropriate for longer-lasting results',
+          'Most domestic roof cleans completed in half a day to one day',
+        ],
+      },
+      {
+        title: 'Roof Cleaning & Related Services',
+        content:
+          'Roof moss is one of the main reasons gutters block again soon after cleaning. WOW Gutters Ltd can treat the roof and clear the gutters in one visit — plus fascia cleaning, repairs, and inspections where needed.',
+        image: '/roof-cleaning-before-after.jpeg',
         imagePosition: 'left',
         bulletPoints: [
-          'Prevents moss and algae damage',
-          'Extends roof lifespan',
-          'Improves property appearance',
-          'Maintains property value'
-        ]
-      }
+          'Gutter cleaning — clear moss and silt after roof treatment',
+          'Gutter inspection — check for damage revealed once moss is removed',
+          'Gutter repairs — fix joints and brackets found during roofline work',
+          'Exterior UPVC cleaning — fascias and soffits below the roof edge',
+          'Commercial roof cleaning — warehouses, offices, and industrial units',
+          'Roof inspection — separate service for structural roof checks',
+        ],
+      },
     ],
     ctaSection: {
-      title: 'ROOF CLEANING EXPERTS',
-      description: 'Protect your roof with our professional cleaning service.',
+      title: 'Book Your Roof Clean Today',
+      description:
+        'Get a free, no-obligation quote in 60 seconds. Roof cleaning from £150 depending on size and moss coverage. Call 07421 433910 or request a quote online.',
       phone: '07421 433910',
-      buttonText: 'Get A Quote'
-    }
+      buttonText: 'Get A Free Quote',
+    },
   },
   {
     id: 'gutter-inspection',

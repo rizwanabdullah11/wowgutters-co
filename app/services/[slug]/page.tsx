@@ -5,7 +5,7 @@ import TopPageAreaLinks from '@/components/seo/TopPageAreaLinks';
 import { servicesData, getServiceById } from '@/constants/servicesData';
 import { buildMetadata } from '@/lib/seo';
 
-const FOCUSED_SERVICE_SLUGS = new Set(['gutter-cleaning', 'gutter-repairs', 'upvc-cleaning']);
+const FOCUSED_SERVICE_SLUGS = new Set(['gutter-cleaning', 'gutter-repairs', 'upvc-cleaning', 'roof-cleaning']);
 
 interface PageProps {
   params: Promise<{ slug: string }>;
