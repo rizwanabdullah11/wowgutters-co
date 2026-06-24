@@ -101,20 +101,6 @@ export const servicesData: ServiceDetail[] = [
         ]
       },
       {
-        title: 'Gutter Cleaning Prices',
-        content: 'Our gutter cleaning prices are agreed before we start — no hidden charges on the day. The cost depends on property size, gutter length, and access. See our gutter cleaning prices guide for typical rates, or request a free quote for an exact figure.',
-        image: '/gutter-cleaning-after.jpeg',
-        imagePosition: 'left',
-        bulletPoints: [
-          'Terraced houses — from £50',
-          'Semi-detached houses — from £60',
-          'Detached houses — from £80',
-          'Bungalows — from £50',
-          'Flats and apartments — from £60 (up to 4 storeys)',
-          'Commercial properties — quoted individually based on size and access'
-        ]
-      },
-      {
         title: 'Gutter Cleaning & Related Services',
         content: 'Many customers book gutter cleaning alongside gutter inspection, gutter repairs, roof cleaning, or exterior uPVC cleaning. WOW Gutters Ltd covers the full roofline — from clearing blocked gutters to fixing leaking joints and removing moss from the roof.',
         image: '/gutter-cleaning-westmidlands.png',

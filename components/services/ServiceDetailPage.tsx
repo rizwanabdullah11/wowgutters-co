@@ -453,8 +453,8 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
       </section>
 
       <AreaFAQ />
-      <AreaFacts />
-      <AreaBlogSnippet />
+      {service.id !== 'gutter-cleaning' && <AreaFacts />}
+      {service.id !== 'gutter-cleaning' && <AreaBlogSnippet />}
       <AreaFeatures
         serviceLabel={service.name}
         featureSet={service.id === 'roof-cleaning' ? 'roof' : 'gutter'}
