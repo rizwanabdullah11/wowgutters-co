@@ -108,14 +108,25 @@ export default function GutterServicesRange() {
         <div className="flex items-center justify-center gap-3 mb-5">
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
           <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primary }}>
-          Gutter Services
+          Our Services
           </span>
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
         </div>
 
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-center mb-12" style={{ color: colors.text }}>
-          Full Gutter, Roofline & Exterior Cleaning Services
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-center mb-4" style={{ color: colors.text }}>
+          Everything WOW Gutters Ltd Can Do For Your Property
         </h2>
+        <p className="text-center text-base sm:text-lg mb-12 max-w-2xl mx-auto" style={{ color: colors.textLight }}>
+          From gutter cleaning and repairs to roof care and exterior uPVC cleaning — browse our{' '}
+          <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+            full services
+          </Link>
+          , or see our dedicated{' '}
+          <Link href="/gutter-cleaning-birmingham/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+            Birmingham gutter cleaning page
+          </Link>
+          .
+        </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {gutterServices.map((service, i) => (

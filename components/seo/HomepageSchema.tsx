@@ -14,7 +14,7 @@ export default function HomepageSchema() {
     "email": "support@wowgutters.co.uk",
     "url": "https://wowgutters.co.uk",
     "image": "https://wowgutters.co.uk/og/default.jpg",
-    "description": "Professional gutter cleaning in Birmingham and West Midlands. Ground-level vacuum system, no ladders, 4-storey reach. Highly rated on Google with verified customer reviews.",
+    "description": "WOW Gutters Ltd — professional gutter cleaning, repairs, inspections, roof cleaning and exterior uPVC care across Birmingham and the West Midlands. Ground-level methods, fully insured, highly rated on Google.",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "38 Ryland Street",

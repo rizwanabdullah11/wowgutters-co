@@ -43,9 +43,9 @@ export default function FindLocalTeam() {
             <span className="local-team-line"></span>
           </div>
           
-          <h2 className="local-team-title">Find Gutter Cleaning Near You</h2>
+          <h2 className="local-team-title">Find WOW Gutters Near You</h2>
           <p className="local-team-desc">
-            Find local gutter cleaning coverage in your town or city.
+            Find local gutter and exterior service coverage in your town or city.
           </p>
         </div>
 

@@ -50,10 +50,10 @@ export default function QuestionsAnswers() {
         
         {/* Header */}
         <div className="qa-header">
-          <span className="qa-eyebrow">GUTTER HELP</span>
-          <h2 className="qa-title">Common Gutter Cleaning Questions</h2>
+          <span className="qa-eyebrow">HELP CENTRE</span>
+          <h2 className="qa-title">Common Questions About Our Services</h2>
           <p className="qa-desc">
-            Clear answers about gutter cleaning, downpipe blockages, repairs, roof cleaning and regular maintenance.
+            Clear answers about gutter cleaning, repairs, roof cleaning, downpipe blockages and regular maintenance.
           </p>
         </div>
 

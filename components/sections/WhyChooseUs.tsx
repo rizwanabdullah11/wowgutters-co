@@ -10,7 +10,7 @@ const reasons = [
     title: 'Local Technicians',
     subtitle: 'LOCAL COVERAGE',
     description:
-      'Our team covers nearby towns with practical knowledge of local homes and rooflines.',
+      'Our team covers nearby towns with practical knowledge of local homes and properties.',
   },
   {
     icon: <Award className="w-5 h-5" />,
@@ -50,10 +50,10 @@ export default function WhyChooseUs() {
         </div>
 
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-center mb-4" style={{ color: colors.text }}>
-          Why Choose Our Gutter Cleaning Service?
+          Why Choose WOW Gutters Ltd?
         </h2>
         <p className="text-center text-base sm:text-lg mb-12 max-w-2xl mx-auto" style={{ color: colors.textLight }}>
-          Built around careful cleaning, safe access, reliable drainage and helpful local support.
+          Built around careful workmanship, safe access, honest advice and reliable local support.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
@@ -93,7 +93,7 @@ export default function WhyChooseUs() {
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full text-white font-semibold text-base sm:text-lg transition-opacity duration-200 hover:opacity-90 shadow-lg"
             style={{ background: colors.primaryGradient }}
           >
-            Get Your Free Gutter Cleaning Quote
+            Get Your Free Quote
           </Link>
         </div>
       </div>

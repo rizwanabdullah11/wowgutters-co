@@ -23,14 +23,14 @@ export default function BlogSection() {
         <div className="flex items-center justify-center gap-3 mb-5">
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
           <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primary }}>
-            Gutter Talk
+            From Our Blog
           </span>
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
         </div>
 
         <div className="flex items-end justify-between mb-10">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-black" style={{ color: colors.text }}>
-            Gutter Talk…
+            Latest Tips &amp; Advice
           </h2>
           <Link
             href="/blog"

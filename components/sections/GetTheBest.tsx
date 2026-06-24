@@ -4,9 +4,9 @@ import { ArrowRight, CheckCircle } from 'lucide-react';
 
 const guarantees = [
   'Free instant quote',
-  'Professional cleaning',
-  'Same Day Booking',
-  'Clear local pricing',
+  'Fully insured team',
+  'Same day booking',
+  'Before & after photos',
 ];
 
 export default function GetTheBest() {
@@ -34,7 +34,7 @@ export default function GetTheBest() {
               <div className="relative">
                 <img
                   src="/get-info.png"
-                  alt="Professional Gutter Cleaning Service"
+                  alt="WOW Gutters Ltd professional gutter services"
                   className="w-full object-cover"
                   style={{ maxHeight: '480px' }}
                 />
@@ -55,13 +55,13 @@ export default function GetTheBest() {
                 GET THE BEST FOR LESS
               </p>
               <h2 className="text-3xl sm:text-4xl font-black mb-3" style={{ color: colors.text }}>
-                Get a Professional Gutter Clean for Less
+                Start With a Free Quote From WOW Gutters Ltd
               </h2>
               <p className="text-base italic mb-5" style={{ color: colors.textLight }}>
-                Keeping your gutters clear can cost less than repairing water damage later.
+                Protecting your property with professional gutter care can cost far less than fixing water damage later.
               </p>
               <p className="text-sm leading-relaxed mb-6" style={{ color: colors.textLight }}>
-                We keep pricing simple for homeowners, landlords and businesses. Request a free quote, choose a convenient booking time, and let our local team take care of the mess.
+                We keep pricing simple for homeowners, landlords and businesses. Request a free quote, choose a convenient booking time, and let our local team take care of the work.
               </p>
 
               {/* Guarantees */}
