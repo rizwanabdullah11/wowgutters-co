@@ -15,6 +15,9 @@ import AreaFAQ, {
   ROOF_CLEANING_FAQS,
   GUTTER_INSPECTION_FAQS,
   ROOF_INSPECTION_FAQS,
+  CONSERVATORY_CLEANING_FAQS,
+  COMMERCIAL_GUTTER_CLEANING_FAQS,
+  COMMERCIAL_ROOF_CLEANING_FAQS,
 } from '@/components/areas/AreaFAQ';
 import AreaFacts from '@/components/areas/AreaFacts';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
@@ -35,6 +38,9 @@ const FOCUSED_SERVICE_IDS = new Set([
   'roof-cleaning',
   'gutter-inspection',
   'roof-inspection',
+  'conservatory',
+  'commercial-gutter-cleaning',
+  'commercial-roof-cleaning',
 ]);
 
 function getServiceFaqs(serviceId: string) {
@@ -43,6 +49,9 @@ function getServiceFaqs(serviceId: string) {
   if (serviceId === 'roof-cleaning') return ROOF_CLEANING_FAQS;
   if (serviceId === 'gutter-inspection') return GUTTER_INSPECTION_FAQS;
   if (serviceId === 'roof-inspection') return ROOF_INSPECTION_FAQS;
+  if (serviceId === 'conservatory') return CONSERVATORY_CLEANING_FAQS;
+  if (serviceId === 'commercial-gutter-cleaning') return COMMERCIAL_GUTTER_CLEANING_FAQS;
+  if (serviceId === 'commercial-roof-cleaning') return COMMERCIAL_ROOF_CLEANING_FAQS;
   return AREA_FAQS;
 }
 
@@ -75,6 +84,24 @@ function getServiceFaqCopy(serviceId: string) {
     return {
       title: 'Roof Inspection Questions',
       subtitle: 'Find answers to the most common free roof inspection questions.',
+    };
+  }
+  if (serviceId === 'conservatory') {
+    return {
+      title: 'Conservatory Cleaning Questions',
+      subtitle: 'Find answers to the most common conservatory gutter and roof cleaning questions.',
+    };
+  }
+  if (serviceId === 'commercial-gutter-cleaning') {
+    return {
+      title: 'Commercial Gutter Cleaning Questions',
+      subtitle: 'Find answers to the most common commercial gutter maintenance questions.',
+    };
+  }
+  if (serviceId === 'commercial-roof-cleaning') {
+    return {
+      title: 'Commercial Roof Cleaning Questions',
+      subtitle: 'Find answers to the most common commercial roof cleaning questions.',
     };
   }
   return {
@@ -175,6 +202,42 @@ const ROOF_INSPECTION_RELATED_LINKS = [
   { label: 'All services', href: '/services/' },
 ] as const;
 
+const CONSERVATORY_RELATED_LINKS = [
+  { label: 'Gutter cleaning', href: '/services/gutter-cleaning/' },
+  { label: 'UPVC cleaning', href: '/services/upvc-cleaning/' },
+  { label: 'Hot wash cleaning', href: '/services/hot-wash-cleaning/' },
+  { label: 'Gutter repairs', href: '/services/gutter-repairs/' },
+  { label: 'Roof cleaning', href: '/services/roof-cleaning/' },
+  { label: 'Gutter inspection', href: '/services/gutter-inspection/' },
+  { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
+  { label: 'Free quote', href: '/quote/' },
+  { label: 'All services', href: '/services/' },
+] as const;
+
+const COMMERCIAL_GUTTER_RELATED_LINKS = [
+  { label: 'Commercial roof cleaning', href: '/services/commercial-roof-cleaning/' },
+  { label: 'Residential gutter cleaning', href: '/services/gutter-cleaning/' },
+  { label: 'Gutter inspection', href: '/services/gutter-inspection/' },
+  { label: 'Gutter repairs', href: '/services/gutter-repairs/' },
+  { label: 'Warehouse case study', href: '/blog/commercial-warehouse-gutter-clearing-birmingham/' },
+  { label: 'Roof cleaning', href: '/services/roof-cleaning/' },
+  { label: 'UPVC cleaning', href: '/services/upvc-cleaning/' },
+  { label: 'Free quote', href: '/quote/' },
+  { label: 'All services', href: '/services/' },
+] as const;
+
+const COMMERCIAL_ROOF_RELATED_LINKS = [
+  { label: 'Commercial gutter cleaning', href: '/services/commercial-gutter-cleaning/' },
+  { label: 'Residential roof cleaning', href: '/services/roof-cleaning/' },
+  { label: 'Roof inspection', href: '/services/roof-inspection/' },
+  { label: 'Gutter cleaning', href: '/services/gutter-cleaning/' },
+  { label: 'Warehouse case study', href: '/blog/commercial-warehouse-gutter-clearing-birmingham/' },
+  { label: 'Roof cleaning Birmingham', href: '/roof-cleaning-birmingham/' },
+  { label: 'UPVC cleaning', href: '/services/upvc-cleaning/' },
+  { label: 'Free quote', href: '/quote/' },
+  { label: 'All services', href: '/services/' },
+] as const;
+
 function ServiceText({ serviceId, text }: { serviceId: string; text: string }) {
   if (FOCUSED_SERVICE_IDS.has(serviceId)) {
     return <SeoLinkify text={text} />;
@@ -190,7 +253,10 @@ function getTextSectionVariant(title: string): TextSectionVariant {
     title === 'Signs Your UPVC Needs Cleaning' ||
     title === 'Signs Your Roof Needs Cleaning' ||
     title === 'Signs You Need a Gutter Inspection' ||
-    title === 'Signs Your Roof Needs Inspection'
+    title === 'Signs Your Roof Needs Inspection' ||
+    title === 'Signs Your Conservatory Needs Cleaning' ||
+    title === 'Signs Your Commercial Gutters Need Cleaning' ||
+    title === 'Signs Your Commercial Roof Needs Cleaning'
   )
     return 'signs';
   if (
@@ -198,7 +264,10 @@ function getTextSectionVariant(title: string): TextSectionVariant {
     title === "What's Included in Every UPVC Clean" ||
     title === "What's Included in Every Roof Clean" ||
     title === "What's Included in Every Gutter Inspection" ||
-    title === "What's Included in Every Roof Inspection"
+    title === "What's Included in Every Roof Inspection" ||
+    title === "What's Included in Every Conservatory Clean" ||
+    title === "What's Included in Every Commercial Gutter Clean" ||
+    title === "What's Included in Every Commercial Roof Clean"
   )
     return 'included';
   if (
@@ -206,10 +275,19 @@ function getTextSectionVariant(title: string): TextSectionVariant {
     title === 'Our UPVC Cleaning Process' ||
     title === 'Our Roof Cleaning Process' ||
     title === 'Our Gutter Inspection Process' ||
-    title === 'Our Roof Inspection Process'
+    title === 'Our Roof Inspection Process' ||
+    title === 'Our Conservatory Cleaning Process' ||
+    title === 'Our Commercial Gutter Cleaning Process' ||
+    title === 'Our Commercial Roof Cleaning Process'
   )
     return 'process';
-  if (title === 'What We Clean' || title === 'What We Treat' || title === 'What We Inspect') return 'surfaces';
+  if (
+    title === 'What We Clean' ||
+    title === 'What We Treat' ||
+    title === 'What We Inspect' ||
+    title === 'What We Cover'
+  )
+    return 'surfaces';
   return 'default';
 }
 
@@ -322,7 +400,9 @@ function TextOnlyServiceSection({
         ? 'Areas we check'
         : title === 'What We Treat'
           ? 'Treatments we apply'
-          : 'Surfaces we clean';
+          : title === 'What We Cover'
+            ? 'Properties we serve'
+            : 'Surfaces we clean';
 
     return (
       <section
@@ -602,7 +682,13 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                         ? 'Get your free gutter inspection quote'
                         : service.id === 'roof-inspection'
                           ? 'Get your free roof inspection quote'
-                          : `${service.name} by WOW Gutters Ltd`}
+                          : service.id === 'conservatory'
+                            ? 'Get your free conservatory cleaning quote'
+                            : service.id === 'commercial-gutter-cleaning'
+                              ? 'Get your commercial gutter cleaning quote'
+                              : service.id === 'commercial-roof-cleaning'
+                                ? 'Get your commercial roof cleaning quote'
+                                : `${service.name} by WOW Gutters Ltd`}
             </h2>
             <p className="text-slate-600 leading-relaxed text-lg mb-8">
               {FOCUSED_SERVICE_IDS.has(service.id) ? (
@@ -715,6 +801,57 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                 , book a{' '}
                 <Link href="/services/gutter-inspection/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
                   free gutter inspection
+                </Link>
+                , or browse our{' '}
+                <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                  full services range
+                </Link>
+                .
+              </p>
+            )}
+            {service.id === 'conservatory' && (
+              <p className="text-slate-600 leading-relaxed text-lg mb-8">
+                Combine with{' '}
+                <Link href="/services/gutter-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                  gutter cleaning
+                </Link>
+                , see{' '}
+                <Link href="/services/hot-wash-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                  hot wash cleaning
+                </Link>
+                , or browse our{' '}
+                <Link href="/services/upvc-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                  UPVC cleaning service
+                </Link>
+                .
+              </p>
+            )}
+            {service.id === 'commercial-gutter-cleaning' && (
+              <p className="text-slate-600 leading-relaxed text-lg mb-8">
+                Read our{' '}
+                <Link href="/blog/commercial-warehouse-gutter-clearing-birmingham/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                  Birmingham warehouse case study
+                </Link>
+                , see{' '}
+                <Link href="/services/commercial-roof-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                  commercial roof cleaning
+                </Link>
+                , or browse{' '}
+                <Link href="/services/gutter-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                  residential gutter cleaning
+                </Link>
+                .
+              </p>
+            )}
+            {service.id === 'commercial-roof-cleaning' && (
+              <p className="text-slate-600 leading-relaxed text-lg mb-8">
+                Pair with{' '}
+                <Link href="/services/commercial-gutter-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                  commercial gutter cleaning
+                </Link>
+                , see{' '}
+                <Link href="/services/roof-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                  residential roof cleaning
                 </Link>
                 , or browse our{' '}
                 <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
@@ -873,6 +1010,56 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                 ))}
               </ul>
             </div>
+          ) : service.id === 'conservatory' && section.title === 'Conservatory Cleaning & Related Services' ? (
+            <div className="mt-8">
+              <p className="text-sm font-bold uppercase tracking-widest text-slate-500 mb-3">Useful links</p>
+              <ul className="flex flex-wrap gap-2">
+                {CONSERVATORY_RELATED_LINKS.map(({ label, href }) => (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : service.id === 'commercial-gutter-cleaning' &&
+            section.title === 'Commercial Gutter Cleaning & Related Services' ? (
+            <div className="mt-8">
+              <p className="text-sm font-bold uppercase tracking-widest text-slate-500 mb-3">Useful links</p>
+              <ul className="flex flex-wrap gap-2">
+                {COMMERCIAL_GUTTER_RELATED_LINKS.map(({ label, href }) => (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : service.id === 'commercial-roof-cleaning' &&
+            section.title === 'Commercial Roof Cleaning & Related Services' ? (
+            <div className="mt-8">
+              <p className="text-sm font-bold uppercase tracking-widest text-slate-500 mb-3">Useful links</p>
+              <ul className="flex flex-wrap gap-2">
+                {COMMERCIAL_ROOF_RELATED_LINKS.map(({ label, href }) => (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
+                    >
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           ) : null;
 
         if (!hasImage) {
@@ -944,9 +1131,16 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
             ? '/gutter-repair-icon.png'
             : service.id === 'gutter-inspection'
               ? '/gutter-inspection.png'
-              : service.id === 'upvc-cleaning' || service.id === 'roof-cleaning' || service.id === 'roof-inspection'
-                ? '/Roof-Cleaner.webp'
-                : '/gutter-cleaning-icon.png'
+              : service.id === 'conservatory'
+                ? '/upvc-cleaning.jpg'
+                : service.id === 'commercial-gutter-cleaning'
+                  ? '/gutter-cleaning-icon.png'
+                  : service.id === 'upvc-cleaning' ||
+                      service.id === 'roof-cleaning' ||
+                      service.id === 'roof-inspection' ||
+                      service.id === 'commercial-roof-cleaning'
+                    ? '/Roof-Cleaner.webp'
+                    : '/gutter-cleaning-icon.png'
         }
         backgroundColor="bg-white"
         buttonText={service.ctaSection.buttonText}
@@ -1020,7 +1214,13 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
       {!FOCUSED_SERVICE_IDS.has(service.id) && (
         <AreaFeatures
           serviceLabel={service.name}
-          featureSet={service.id === 'roof-cleaning' || service.id === 'roof-inspection' ? 'roof' : 'gutter'}
+          featureSet={
+            service.id === 'roof-cleaning' ||
+            service.id === 'roof-inspection' ||
+            service.id === 'commercial-roof-cleaning'
+              ? 'roof'
+              : 'gutter'
+          }
         />
       )}
       <AreaRecentWork />

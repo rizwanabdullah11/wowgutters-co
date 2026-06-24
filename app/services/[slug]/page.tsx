@@ -12,6 +12,9 @@ const FOCUSED_SERVICE_SLUGS = new Set([
   'roof-cleaning',
   'gutter-inspection',
   'roof-inspection',
+  'conservatory',
+  'commercial-gutter-cleaning',
+  'commercial-roof-cleaning',
 ]);
 
 interface PageProps {

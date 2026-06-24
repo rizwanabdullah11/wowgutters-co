@@ -5,9 +5,9 @@ import { getServiceById } from '@/constants/servicesData';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
-  absoluteTitle: 'Conservatory Gutter Cleaning | Safe, Ladder-Free | WOW Gutters Ltd',
+  absoluteTitle: 'Conservatory Cleaning Birmingham | Safe Gutter & Roof Clean | WOW Gutters Ltd',
   description:
-    'Specialist conservatory gutter cleaning & replacement — safe, ladder-free access and watertight results. Get a free quote today.',
+    'Specialist conservatory cleaning — safe gutter clearing, roof panel treatment, and UPVC frame cleaning without climbing on glass. Get a free quote today.',
   canonicalPath: '/services/conservatory/',
 });
 

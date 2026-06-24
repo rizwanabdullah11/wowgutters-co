@@ -631,32 +631,104 @@ export const servicesData: ServiceDetail[] = [
   },
   {
     id: 'conservatory',
-    name: 'Conservatory Gutter Replacement',
-    icon: '🔨',
-    heroImage: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1920',
+    name: 'Conservatory Cleaning',
+    icon: '🪟',
+    heroImage: '/upvc-cleaning.jpg',
     heroVideo: '/gutter-cleaning-video.mp4',
-    heroTitle: 'Conservatory Gutter Services',
-    heroDescription: 'Specialist conservatory gutter replacement and maintenance services.',
+    heroTitle: 'Conservatory Cleaning',
+    heroDescription:
+      'Specialist conservatory cleaning across Birmingham and the West Midlands — safe gutter clearing, roof panel treatment, and UPVC frame cleaning without climbing on glass or polycarbonate. Low-reach tools, hot wash options, and honest advice on leaks and maintenance.',
     sections: [
       {
-        title: 'Conservatory Specialists',
-        content: 'We provide complete conservatory gutter solutions:',
-        image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800',
+        title: 'Why Choose WOW Gutters Ltd for Conservatory Cleaning?',
+        content:
+          'WOW Gutters Ltd understands conservatories need a gentler approach than standard house gutters. We clean conservatory gutters, roof panels, and UPVC frameworks using low-reach equipment — no ladders on the structure, no high-pressure damage to polycarbonate or glass. Many customers combine conservatory cleaning with house gutter cleaning or fascia work in one visit.',
+        image: '/upvc-cleaning.jpg',
+        imagePosition: 'right',
+        bulletPoints: [
+          'Low-reach conservatory gutter cleaning — no weight on the roof structure',
+          'Safe treatment for glass, polycarbonate, and UPVC conservatory roofs',
+          'Gutter clearing between house and conservatory rooflines',
+          'Hot wash options for algae on frames, fascias, and roof panels',
+          'Fully insured with £10 million public liability cover',
+          'Honest advice on leaks, seals, and when replacement is needed',
+        ],
+      },
+      {
+        title: 'What We Clean',
+        content:
+          'Our conservatory cleaning service covers the full structure — from narrow gutter channels to green roof panels and stained UPVC frames.',
+        bulletPoints: [
+          'Conservatory gutters and box gutters along the house join',
+          'Gutters above conservatory roofs and dwarf walls',
+          'Glass and polycarbonate conservatory roof panels',
+          'UPVC frames, cappings, and finials',
+          'Conservatory fascias, soffits, and external trims',
+          'Downpipes serving the conservatory roofline',
+        ],
+      },
+      {
+        title: 'Signs Your Conservatory Needs Cleaning',
+        content:
+          'Algae and blocked conservatory gutters develop quickly on north-facing extensions and under tree cover. Cleaning early keeps the room brighter, reduces leaks, and protects seals before moisture causes bigger problems.',
+        bulletPoints: [
+          'Green algae or moss on conservatory roof panels blocking light',
+          'Overflow or staining where the house meets the conservatory',
+          'Blocked narrow gutters with leaves, moss, or rooted plants',
+          'Black streaks on UPVC frames, cappings, or finials',
+          'Condensation or damp smells after heavy rain',
+          'Preparing a property for sale or end-of-tenancy presentation',
+        ],
+      },
+      {
+        title: "What's Included in Every Conservatory Clean",
+        content:
+          'Every conservatory visit starts with a quick assessment of access, panel type, and how heavy the growth is. We explain what we will do, agree the price, and leave the structure cleaner — not just briefly rinsed.',
+        bulletPoints: [
+          'Assessment of conservatory type, access, and gutter condition',
+          'Debris removal from conservatory gutters and outlets',
+          'Algae treatment on roof panels and frames where agreed',
+          'Purified-water or hot wash finish on UPVC where appropriate',
+          'Downpipe checks and flow advice if blockages are found',
+          'Before and after photos on request',
+        ],
+      },
+      {
+        title: 'Our Conservatory Cleaning Process',
+        content:
+          'We match the method to your conservatory materials. The goal is a brighter, healthier structure — without the damage risk of pressure washing on brittle panels or climbing on the roof.',
+        bulletPoints: [
+          'Confirm panel type — glass, polycarbonate, or solid roof sections',
+          'Set up low-reach tools and protect borders, paths, and planting',
+          'Clear conservatory gutters and check joints near the house wall',
+          'Apply appropriate cleaning method to roof panels and UPVC frames',
+          'Rinse and inspect seals, outlets, and drainage paths',
+          'Most domestic conservatory cleans completed in 1–3 hours',
+        ],
+      },
+      {
+        title: 'Conservatory Cleaning & Related Services',
+        content:
+          'Conservatory gutters often block faster than house gutters because the channels are smaller and roof moss washes straight in. WOW Gutters Ltd can clean the conservatory, clear the main house gutters, and refresh fascias in one coordinated visit.',
+        image: '/gutter-cleaning-westmidlands.png',
         imagePosition: 'left',
         bulletPoints: [
-          'Full gutter replacement',
-          'Repair and maintenance',
-          'Custom solutions',
-          'Quality materials'
-        ]
-      }
+          'Gutter cleaning — clear house gutters that feed the conservatory',
+          'Gutter repairs — fix leaking joints at the house-to-conservatory join',
+          'Exterior UPVC cleaning — fascias and soffits along the extension',
+          'Hot wash cleaning — algae on frames and north-facing panels',
+          'Roof cleaning — reduce moss falling into conservatory gutters',
+          'Gutter inspection — check the full roofline before winter',
+        ],
+      },
     ],
     ctaSection: {
-      title: 'CONSERVATORY EXPERTS',
-      description: 'Specialist conservatory gutter services.',
+      title: 'Book Your Conservatory Clean Today',
+      description:
+        'Get a free, no-obligation quote for conservatory cleaning, gutter clearing, and frame restoration. Call 07421 433910 or request a quote online.',
       phone: '07421 433910',
-      buttonText: 'Get A Quote'
-    }
+      buttonText: 'Get A Free Quote',
+    },
   },
   {
     id: 'water-butt',
@@ -718,59 +790,203 @@ export const servicesData: ServiceDetail[] = [
     id: 'commercial-gutter-cleaning',
     name: 'Commercial Gutter Cleaning',
     icon: '🏢',
-    heroImage: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920',
+    heroImage: '/gutter-cleaning-westmidlands.png',
     heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Commercial Gutter Cleaning',
-    heroDescription: 'Professional commercial gutter cleaning for offices, warehouses, schools and retail units. Flexible scheduling and maintenance contracts.',
+    heroDescription:
+      'Professional commercial gutter cleaning for offices, warehouses, schools, retail units, and industrial estates across Birmingham and the West Midlands. Planned maintenance contracts, out-of-hours slots, high-reach vacuum access, and full photographic documentation.',
     sections: [
       {
-        title: 'Commercial Gutter Solutions',
-        content: 'Tailored gutter cleaning for commercial properties:',
-        image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800',
+        title: 'Why Choose WOW Gutters Ltd for Commercial Gutter Cleaning?',
+        content:
+          'WOW Gutters Ltd delivers commercial gutter cleaning that fits around your operations — not the other way around. We clear gutters on warehouses, offices, schools, and retail parks using ground-level vacuum systems and safe access methods where height requires it. Every visit includes downpipe testing, defect notes, and before and after photos for your maintenance records.',
+        image: '/files/17_aerial_warehouse_roof_overview.jpg',
         imagePosition: 'right',
         bulletPoints: [
-          'Scheduled maintenance programs',
-          'High-reach vacuum — up to 4 storeys',
-          'Out-of-hours appointments',
-          'Full photographic documentation'
-        ]
-      }
+          'Commercial gutter cleaning for warehouses, offices, schools, and retail',
+          'High-reach vacuum access — up to 4 storeys from ground level where possible',
+          'Out-of-hours and weekend appointments to minimise disruption',
+          'Planned maintenance contracts with scheduled gutter clearing',
+          'Before and after photos plus notes on joints, brackets, and defects',
+          'Fully insured with £10 million public liability cover',
+        ],
+      },
+      {
+        title: 'What We Cover',
+        content:
+          'Our commercial gutter cleaning team works across property types and rooflines common in Birmingham and the wider West Midlands — from single-storey retail units to multi-elevation warehouse complexes.',
+        bulletPoints: [
+          'Warehouses, distribution centres, and industrial units',
+          'Office buildings, business parks, and managed estates',
+          'Schools, colleges, and public-sector buildings',
+          'Retail units, shopping parades, and hospitality venues',
+          'Flats and apartment blocks with shared rooflines',
+          'Sites with restricted access, tree cover, or canalside elevations',
+        ],
+      },
+      {
+        title: 'Signs Your Commercial Gutters Need Cleaning',
+        content:
+          'Blocked commercial gutters cause overflow staining, internal damp, and insurance headaches. On larger buildings, small blockages at one outlet can back up long gutter runs — regular clearing is far cheaper than emergency repairs.',
+        bulletPoints: [
+          'Overflow during rainfall or staining on cladding and brickwork',
+          'Standing water visible in gutter channels from ground level',
+          'Plants, moss, or silt building up along warehouse roof edges',
+          'Downpipes not flowing when tested after dry weather',
+          'Maintenance audits or insurance inspections due',
+          'After storms, autumn leaf fall, or adjacent tree work',
+        ],
+      },
+      {
+        title: "What's Included in Every Commercial Gutter Clean",
+        content:
+          'Every commercial gutter cleaning visit follows a documented process suited to site records, facilities managers, and planned maintenance schedules.',
+        bulletPoints: [
+          'Full gutter vacuum clear along agreed rooflines and elevations',
+          'Downpipe clearing and flow confirmation where accessible',
+          'Before and after photography of each gutter run',
+          'Notes on structural defects, loose brackets, or failing joints',
+          'Waste removed from site — nothing left on car parks or yards',
+          'Quote for repairs or increased frequency if problems are found',
+        ],
+      },
+      {
+        title: 'Our Commercial Gutter Cleaning Process',
+        content:
+          'We assess access, height, and risk before work starts — then complete the clear efficiently with the right equipment for your building type.',
+        bulletPoints: [
+          'Site evaluation — access routes, height, and safety requirements',
+          'Agree scope, timing, and any out-of-hours constraints',
+          'Set up ground-level vacuum or approved access equipment',
+          'Clear gutters, outlets, and downpipes along the agreed runs',
+          'Test flow, photograph results, and note defects observed',
+          'Provide documentation for your maintenance or compliance records',
+        ],
+      },
+      {
+        title: 'Commercial Gutter Cleaning & Related Services',
+        content:
+          'Many commercial sites need more than gutter clearing alone. WOW Gutters Ltd can combine commercial gutter cleaning with roof treatment, fascia cleaning, and repairs in one coordinated programme.',
+        image: '/files/16_gutter_cleared_clean_result.jpg',
+        imagePosition: 'left',
+        bulletPoints: [
+          'Commercial roof cleaning — treat moss that refills gutters quickly',
+          'Residential gutter cleaning — for managed housing portfolios',
+          'Gutter repairs — joints, brackets, and outlets found during clearing',
+          'Gutter inspection — document roofline condition for audits',
+          'Exterior UPVC cleaning — fascias and cladding below the gutter line',
+          'Hot wash cleaning — algae on north-facing elevations',
+        ],
+      },
     ],
     ctaSection: {
-      title: 'COMMERCIAL GUTTER CLEANING',
-      description: 'Professional gutter cleaning for commercial properties across Birmingham and the West Midlands.',
+      title: 'Request Your Commercial Gutter Quote',
+      description:
+        'Free site evaluation and clear pricing for commercial gutter cleaning and maintenance contracts. Call 07421 433910 or request a quote online.',
       phone: '07421 433910',
-      buttonText: 'Get A Quote'
-    }
+      buttonText: 'Get A Free Quote',
+    },
   },
   {
     id: 'commercial-roof-cleaning',
     name: 'Commercial Roof Cleaning',
-    icon: '🏠',
+    icon: '🏢',
     heroImage: '/roof-cleaning.JPG',
     heroVideo: '/roof-cleaning-video.mp4',
     heroTitle: 'Commercial Roof Cleaning',
-    heroDescription: 'Commercial roof cleaning and moss removal for warehouses, offices and industrial buildings. Safe soft-wash methods, fully insured.',
+    heroDescription:
+      'Commercial roof cleaning and moss removal for warehouses, offices, and industrial buildings across Birmingham and the West Midlands. Low-pressure soft wash methods, biocide treatment, maintenance contracts, and fully insured teams.',
     sections: [
       {
-        title: 'Commercial Roof Solutions',
-        content: 'Specialist roof cleaning for business premises:',
-        image: '/roof-cleaning.JPG',
+        title: 'Why Choose WOW Gutters Ltd for Commercial Roof Cleaning?',
+        content:
+          'WOW Gutters Ltd treats commercial roof cleaning as asset protection — not aggressive jet washing that damages membranes, dislodges fixings, or forces water into the building. We remove moss and algae carefully, apply treatment to slow regrowth, and coordinate with gutter clearing so debris does not block drainage straight after the roof is treated.',
+        image: '/files/18_aerial_moss_patches_roof.jpg',
         imagePosition: 'right',
         bulletPoints: [
-          'Moss, algae and lichen treatment',
-          'Soft-wash — no tile damage',
-          'Flat and pitched roof experience',
-          'Maintenance contracts available'
-        ]
-      }
+          'Soft-wash commercial roof cleaning — suited to UK warehouse and office roofs',
+          'Moss, algae, and lichen treatment on pitched and flat roofs',
+          'Biocide application to help slow regrowth on large roof areas',
+          'Maintenance contracts for estates and multi-building portfolios',
+          'Fully insured with £10 million public liability cover',
+          'Coordinated gutter clearing after roof moss removal',
+        ],
+      },
+      {
+        title: 'What We Treat',
+        content:
+          'Our commercial roof cleaning service covers the main roof surfaces and problem areas that cause moss buildup, blocked gutters, and staining on typical UK commercial buildings.',
+        bulletPoints: [
+          'Warehouse and industrial corrugated and profiled roofs',
+          'Office and retail unit pitched tile and membrane roofs',
+          'Moss and algae on large flat roof sections where agreed',
+          'North-facing and shaded elevations with heavy organic growth',
+          'Roof edges where moss sheds into commercial gutter runs',
+          'Cladding and fascia interfaces below moss-heavy rooflines',
+        ],
+      },
+      {
+        title: 'Signs Your Commercial Roof Needs Cleaning',
+        content:
+          'Moss holds moisture against roof surfaces and sheds into gutters after rain. On commercial buildings, that often means repeated gutter blockages, overflow staining on cladding, and preventable maintenance call-outs.',
+        bulletPoints: [
+          'Visible moss or algae across warehouse or office roof slopes',
+          'Commercial gutters refilling soon after a recent clear',
+          'Dark staining or organic growth visible from ground level',
+          'Blocked valleys or debris traps on multi-elevation roofs',
+          'Insurance or facilities audits flagging roof condition',
+          'Preparing a unit for lease, sale, or tenant handover',
+        ],
+      },
+      {
+        title: "What's Included in Every Commercial Roof Clean",
+        content:
+          'Every commercial roof cleaning visit starts with a sensible assessment of access, roof type, and coverage. We explain the method, agree scope and price, and leave the roof treated — with documentation for your records.',
+        bulletPoints: [
+          'Roof survey from safe access points before work starts',
+          'Low-pressure soft wash to lift moss and organic growth',
+          'Careful clearance of loosened debris from the roof surface',
+          'Biocide treatment where appropriate for longer-lasting results',
+          'Advice on gutter clearing if moss debris is entering channels',
+          'Before and after photos on request for maintenance files',
+        ],
+      },
+      {
+        title: 'Our Commercial Roof Cleaning Process',
+        content:
+          'We match the method to your roof type, building use, and access constraints. The goal is a cleaner, healthier roof surface without unnecessary downtime or damage risk.',
+        bulletPoints: [
+          'Assess roof type, pitch, access, and moss coverage',
+          'Agree timing, safety plan, and any operational restrictions',
+          'Set up safe access and protect yards, plant, and pedestrian routes',
+          'Apply soft wash solution and remove loosened moss evenly',
+          'Apply biocide treatment where agreed for slower regrowth',
+          'Coordinate gutter clearing on the same visit where scheduled',
+        ],
+      },
+      {
+        title: 'Commercial Roof Cleaning & Related Services',
+        content:
+          'Roof moss is one of the main reasons commercial gutters block again soon after clearing. WOW Gutters Ltd can treat the roof and clear the gutters in one visit — plus fascia cleaning, inspections, and repairs where needed.',
+        image: '/roof-cleaning-before-after.jpeg',
+        imagePosition: 'left',
+        bulletPoints: [
+          'Commercial gutter cleaning — clear moss and silt after roof treatment',
+          'Residential roof cleaning — for mixed portfolios and housing stock',
+          'Gutter inspection — check drainage once moss is removed',
+          'Gutter repairs — fix outlets and joints found during roofline work',
+          'Exterior UPVC cleaning — fascias and cladding below the roof edge',
+          'Roof inspection — separate service for structural checks',
+        ],
+      },
     ],
     ctaSection: {
-      title: 'COMMERCIAL ROOF CLEANING',
-      description: 'Protect your commercial roof with professional cleaning across Birmingham and the West Midlands.',
+      title: 'Request Your Commercial Roof Quote',
+      description:
+        'Free site evaluation and clear pricing for commercial roof cleaning and maintenance programmes. Call 07421 433910 or request a quote online.',
       phone: '07421 433910',
-      buttonText: 'Get A Quote'
-    }
+      buttonText: 'Get A Free Quote',
+    },
   },
   {
     id: 'gutter-installation',

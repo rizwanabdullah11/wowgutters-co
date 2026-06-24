@@ -197,6 +197,105 @@ export const ROOF_INSPECTION_FAQS = [
   },
 ];
 
+export const CONSERVATORY_CLEANING_FAQS = [
+  {
+    question: 'Can you clean gutters over a conservatory safely?',
+    answer:
+      'Yes. We use specialist low-reach tools to clear conservatory gutters without climbing on the glass or polycarbonate roof. This protects panels, seals, and frames while still reaching gutters above the conservatory.',
+    icon: '🛡️',
+  },
+  {
+    question: 'Do you clean conservatory roof panels?',
+    answer:
+      'Yes. We clean glass and polycarbonate conservatory roofs, removing algae and moss with methods suited to the panel type — not high-pressure jet washing that can damage seals or scratch surfaces.',
+    icon: '☀️',
+  },
+  {
+    question: 'How much does conservatory cleaning cost?',
+    answer:
+      'Pricing depends on conservatory size, roof type, how heavy the algae is, and whether gutter clearing is included. Most domestic conservatory cleans start from around £80–£200. We provide a clear quote after assessing your property.',
+    icon: '💳',
+  },
+  {
+    question: 'Can conservatory cleaning be combined with gutter cleaning?',
+    answer:
+      'Yes. This is one of our most popular combinations — we clear the house gutters, conservatory gutters, and clean frames or roof panels in a single visit where agreed.',
+    icon: '✨',
+  },
+  {
+    question: 'How often should a conservatory be cleaned?',
+    answer:
+      'Most conservatories benefit from cleaning every 12–18 months. North-facing extensions and properties under trees may need annual gutter clearing and roof treatment to prevent algae and blockages.',
+    icon: '🗓️',
+  },
+];
+
+export const COMMERCIAL_GUTTER_CLEANING_FAQS = [
+  {
+    question: 'How often should commercial gutters be cleaned?',
+    answer:
+      'Most commercial properties need gutter clearing at least twice a year — often quarterly for warehouses under trees or with long rooflines. We can set up a planned maintenance schedule to match your site.',
+    icon: '🗓️',
+  },
+  {
+    question: 'Can you work outside business hours?',
+    answer:
+      'Yes. We offer early morning, evening, and weekend appointments for offices, retail units, and schools where daytime access would disrupt operations.',
+    icon: '🌙',
+  },
+  {
+    question: 'Do you provide documentation after commercial gutter cleaning?',
+    answer:
+      'Yes. Every commercial visit includes before and after photos, notes on defects observed, and confirmation of downpipe flow where accessible — useful for maintenance records and audits.',
+    icon: '📸',
+  },
+  {
+    question: 'What height can you reach on commercial buildings?',
+    answer:
+      'We use high-reach vacuum equipment from ground level on many sites up to around 4 storeys. For taller or restricted-access buildings, we assess safe access methods during a free site evaluation.',
+    icon: '🏗️',
+  },
+  {
+    question: 'Do you offer commercial maintenance contracts?',
+    answer:
+      'Yes. Planned gutter clearing contracts are available for warehouses, office estates, schools, and retail portfolios — with scheduled visits and consistent documentation.',
+    icon: '📋',
+  },
+];
+
+export const COMMERCIAL_ROOF_CLEANING_FAQS = [
+  {
+    question: 'Is commercial roof cleaning safe for warehouse roofs?',
+    answer:
+      'Yes. We use low-pressure soft wash methods suited to UK commercial roofs — not aggressive jet washing that can damage membranes, fixings, or force water into the building.',
+    icon: '🛡️',
+  },
+  {
+    question: 'How much does commercial roof cleaning cost?',
+    answer:
+      'Pricing depends on roof area, access, moss coverage, and building type. Warehouse and office roof cleans are quoted after a site assessment. Call 07421 433910 for a free evaluation.',
+    icon: '💳',
+  },
+  {
+    question: 'Can roof cleaning be combined with gutter clearing?',
+    answer:
+      'Yes. This is strongly recommended on commercial sites — treating the roof and clearing gutters in one visit stops moss debris from blocking channels soon after a gutter clear.',
+    icon: '✨',
+  },
+  {
+    question: 'Do you offer commercial roof maintenance contracts?',
+    answer:
+      'Yes. Maintenance programmes are available for estates and multi-building portfolios, with scheduled roof treatment and coordinated gutter clearing.',
+    icon: '📋',
+  },
+  {
+    question: 'Will roof cleaning disrupt our operations?',
+    answer:
+      'We plan access routes, timing, and safety zones with your facilities team. Many jobs are completed with minimal disruption, including out-of-hours options where needed.',
+    icon: '🏢',
+  },
+];
+
 export type AreaFaqItem = {
   question: string;
   answer: string;
