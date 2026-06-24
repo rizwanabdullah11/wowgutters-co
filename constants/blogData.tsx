@@ -1,4 +1,5 @@
-﻿import { birminghamHeavyRainfallDamageBlogPost } from './birminghamHeavyRainfallDamageBlog';
+﻿import { gutterInspectionSaveBirminghamBlogPost } from './gutterInspectionSaveBirminghamBlog';
+import { birminghamHeavyRainfallDamageBlogPost } from './birminghamHeavyRainfallDamageBlog';
 import { beforeAfterBirminghamGutterBlogPost } from './beforeAfterBirminghamGutterBlog';
 import { blockedGuttersBirminghamBlogPost } from './blockedGuttersBirminghamBlog';
 import { heavyRainBirminghamGuttersBlogPost } from './heavyRainBirminghamGuttersBlog';
@@ -16,6 +17,7 @@ export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  gutterInspectionSaveBirminghamBlogPost,
   birminghamHeavyRainfallDamageBlogPost,
   beforeAfterBirminghamGutterBlogPost,
   heavyRainBirminghamGuttersBlogPost,
