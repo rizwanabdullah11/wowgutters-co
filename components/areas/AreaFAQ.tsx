@@ -131,6 +131,72 @@ export const ROOF_CLEANING_FAQS = [
   },
 ];
 
+export const GUTTER_INSPECTION_FAQS = [
+  {
+    question: 'Is the gutter inspection really free?',
+    answer:
+      'Yes. Our gutter inspection is free with no obligation to book cleaning or repairs afterwards. If work is recommended, we provide a clear quote and you decide whether to proceed.',
+    icon: '✅',
+  },
+  {
+    question: 'What does a gutter inspection include?',
+    answer:
+      'We check gutter channels, downpipes, joints, brackets, alignment, and visible fascia condition. We explain findings clearly and can provide photos of problem areas.',
+    icon: '🔍',
+  },
+  {
+    question: 'How long does a gutter inspection take?',
+    answer:
+      'Most domestic gutter inspections take around 20–40 minutes depending on property size, access, and how many rooflines need checking.',
+    icon: '⏱️',
+  },
+  {
+    question: 'When should I book a gutter inspection?',
+    answer:
+      'Book after storms, before winter, when buying a home, or if you see overflow, staining, sagging gutters, or plants growing in the channel.',
+    icon: '🗓️',
+  },
+  {
+    question: 'Can you repair or clean gutters after the inspection?',
+    answer:
+      'Yes. If we find blockages or damage, we can quote for gutter cleaning, repairs, or installation — often in the same visit if scheduling allows.',
+    icon: '🔧',
+  },
+];
+
+export const ROOF_INSPECTION_FAQS = [
+  {
+    question: 'Is the roof inspection free?',
+    answer:
+      'Yes. Our roof inspection is free with no obligation. We explain what we find and provide a quote only if further work such as roof cleaning or repairs is recommended.',
+    icon: '✅',
+  },
+  {
+    question: 'What does a roof inspection check?',
+    answer:
+      'We assess visible tiles, ridges, valleys, flashing, moss coverage, and signs of damage — plus how roof condition may affect gutters and fascias below.',
+    icon: '🔍',
+  },
+  {
+    question: 'Do you walk on the roof during inspection?',
+    answer:
+      'We use safe external assessment methods suited to the property. The priority is a thorough check without unnecessary risk to tiles or slates.',
+    icon: '🛡️',
+  },
+  {
+    question: 'How often should a roof be inspected?',
+    answer:
+      'An annual or biennial roof check is sensible for most UK homes. Properties with heavy moss, overhanging trees, or older tiles may benefit from more frequent inspections.',
+    icon: '🗓️',
+  },
+  {
+    question: 'Can roof inspection be combined with gutter cleaning?',
+    answer:
+      'Yes. This is a popular combination — we inspect the roof, then clear or repair gutters so moss and debris do not refill the system straight away.',
+    icon: '✨',
+  },
+];
+
 export type AreaFaqItem = {
   question: string;
   answer: string;

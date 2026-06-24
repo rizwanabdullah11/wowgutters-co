@@ -434,56 +434,200 @@ export const servicesData: ServiceDetail[] = [
     heroImage: '/gutter-inspection.png',
     heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Free Gutter Inspection',
-    heroDescription: 'Comprehensive gutter inspection to identify blockages, leaks and damage before they become expensive problems.',
+    heroDescription:
+      'Free gutter inspection across Birmingham and the West Midlands. We check gutters, downpipes, joints, brackets, and fascia condition — with clear photos and honest advice, no obligation to book work.',
     sections: [
       {
-        title: 'What We Inspect',
-        content: 'Our thorough gutter inspection includes:',
+        title: 'Why Choose WOW Gutters Ltd for Gutter Inspection?',
+        content:
+          'WOW Gutters Ltd offers free gutter inspections so you can spot blockages, leaks, and bracket problems before they cause damp or expensive repairs. Our technicians explain what they find in plain English, send photos where helpful, and never pressure you to book work you do not need.',
         image: '/gutter-inspection.png',
         imagePosition: 'right',
         bulletPoints: [
-          'Gutter condition and alignment',
-          'Downpipe flow and blockages',
-          'Joints, seals and brackets',
-          'Detailed photo report'
-        ]
-      }
+          'Free gutter inspection with no obligation to proceed',
+          'Ground-level and high-reach checks on gutters and downpipes',
+          'Photo documentation of problem areas where useful',
+          'Honest advice on cleaning, repairs, or replacement',
+          'Fully insured with £10 million public liability cover',
+          'Same-day and next-day inspection slots where available',
+        ],
+      },
+      {
+        title: 'What We Inspect',
+        content:
+          'Our gutter inspection covers the full rainwater system visible from safe access points — not just a quick glance at the front elevation.',
+        bulletPoints: [
+          'Gutter channel condition, alignment, and debris level',
+          'Downpipe flow, blockages, and shoe connections',
+          'Joints, seals, corners, and outlet condition',
+          'Bracket spacing, fixings, and signs of sagging',
+          'Fascia and soffit condition near the gutter line',
+          'Overflow staining and signs of historic water escape',
+        ],
+      },
+      {
+        title: 'Signs You Need a Gutter Inspection',
+        content:
+          'You do not need to wait for overflow damage to book an inspection. If you notice any of the signs below, a free check can confirm whether cleaning, repairs, or monitoring is the right next step.',
+        bulletPoints: [
+          'Overflow during rainfall or staining on external walls',
+          'Plants, moss, or visible debris in the gutter channel',
+          'Gutters dipping, gapping from the fascia, or loose brackets',
+          'Drips from joints after rain has stopped',
+          'Buying a home or reviewing a rental property roofline',
+          'After storms, heavy leaf fall, or before winter',
+        ],
+      },
+      {
+        title: "What's Included in Every Gutter Inspection",
+        content:
+          'Every inspection follows the same thorough approach. We tell you what we can see, what it means, and what we would recommend — without sales pressure.',
+        bulletPoints: [
+          'External assessment of gutters, outlets, and downpipes',
+          'Checks on joints, brackets, fall, and visible damage',
+          'Clear explanation of findings on site or by phone',
+          'Photo report of key issues where access allows',
+          'No-obligation quote for cleaning or repairs if needed',
+          'Typical domestic inspection completed in 20–40 minutes',
+        ],
+      },
+      {
+        title: 'Our Gutter Inspection Process',
+        content:
+          'We keep inspections straightforward. The goal is clarity — so you know whether your gutters are fine, need a clean, or require repair work.',
+        bulletPoints: [
+          'Confirm property access and which rooflines are included',
+          'Walk the gutter run and check downpipe outlets',
+          'Note blockages, joint failures, bracket issues, or misalignment',
+          'Photograph significant findings for your records',
+          'Explain recommended next steps with transparent pricing if work is needed',
+          'Leave you with a clear yes/no on urgency — no hard sell',
+        ],
+      },
+      {
+        title: 'Gutter Inspection & Related Services',
+        content:
+          'Many customers book a gutter inspection before cleaning, after spotting a leak, or alongside roof and fascia work. WOW Gutters Ltd can handle the full roofline in one visit where needed.',
+        image: '/professional-gutter-clean.png',
+        imagePosition: 'left',
+        bulletPoints: [
+          'Gutter cleaning — clear debris found during inspection',
+          'Gutter repairs — fix joints and brackets identified on the visit',
+          'Roof cleaning — reduce moss falling back into gutters',
+          'Exterior UPVC cleaning — fascias and soffits below the gutter line',
+          'Roof inspection — separate check for tile and flashing condition',
+          'Gutter installation — when replacement is more economical than repair',
+        ],
+      },
     ],
     ctaSection: {
-      title: 'FREE GUTTER INSPECTION',
-      description: 'Get peace of mind with our professional gutter inspection service.',
+      title: 'Book Your Free Gutter Inspection',
+      description:
+        'Free gutter inspection with honest advice and no obligation. Same-day slots where available. Call 07421 433910 or request a booking online.',
       phone: '07421 433910',
-      buttonText: 'Book Free Inspection'
-    }
+      buttonText: 'Book Free Inspection',
+    },
   },
   {
     id: 'roof-inspection',
     name: 'Roof Inspection',
     icon: '🏠',
-    heroImage: '/Roof-Cleaner.webp',
+    heroImage: '/roof-cleaning.JPG',
     heroVideo: '/roof-cleaning-video.mp4',
     heroTitle: 'Free Roof Inspection',
-    heroDescription: 'Professional roof inspection to identify tile damage, moss, flashing issues and early leak risks.',
+    heroDescription:
+      'Free roof inspection for tiles, ridges, flashing, valleys, and moss across Birmingham and the West Midlands. Clear photos, honest advice, and no obligation — catch problems before leaks and costly damage.',
     sections: [
       {
-        title: 'What We Inspect',
-        content: 'Our thorough roof inspection includes:',
-        image: '/Roof-Cleaner.webp',
+        title: 'Why Choose WOW Gutters Ltd for Roof Inspection?',
+        content:
+          'WOW Gutters Ltd roof inspections focus on early warning signs — moss loading, slipped tiles, flashing defects, and valley issues — before water gets into the property. We explain findings clearly, provide photos where useful, and advise whether cleaning, repair, or monitoring is appropriate.',
+        image: '/roof-cleaning.JPG',
         imagePosition: 'right',
         bulletPoints: [
-          'Roof tiles and ridge condition',
-          'Flashing and valley seals',
-          'Moss and algae assessment',
-          'Detailed photo report'
-        ]
-      }
+          'Free roof inspection with no obligation to book further work',
+          'Tile, ridge, flashing, and valley checks from safe access',
+          'Moss and algae assessment with gutter impact explained',
+          'Photo documentation of areas of concern',
+          'Fully insured with £10 million public liability cover',
+          'Ideal for homeowners, landlords, and pre-purchase peace of mind',
+        ],
+      },
+      {
+        title: 'What We Inspect',
+        content:
+          'Our roof inspection covers the main visible roof elements that affect weatherproofing and how much debris reaches your gutters.',
+        bulletPoints: [
+          'Roof tiles, slates, and ridge line condition',
+          'Flashing around chimneys, abutments, and roof joins',
+          'Valleys and areas where debris and moss collect',
+          'Moss, algae, and lichen coverage on slopes',
+          'Signs of slipped, cracked, or damaged tiles',
+          'Gutter and fascia interface where roof water discharges',
+        ],
+      },
+      {
+        title: 'Signs Your Roof Needs Inspection',
+        content:
+          'Roof problems often start small. A free inspection helps you decide whether you need roof cleaning, local repairs, or simply to keep monitoring — before damp or tile damage escalates.',
+        bulletPoints: [
+          'Visible moss or algae on roof slopes or ridges',
+          'Gutters filling quickly after a recent clean',
+          'Slipped or missing tiles seen from the ground',
+          'Damp patches or staining on upper walls or ceilings',
+          'Buying a property or reviewing a rental roof condition',
+          'After storms, high winds, or fallen branches nearby',
+        ],
+      },
+      {
+        title: "What's Included in Every Roof Inspection",
+        content:
+          'Each roof inspection is structured to give you useful information — not a vague “looks fine” with no detail.',
+        bulletPoints: [
+          'External roof survey from safe vantage points',
+          'Assessment of tiles, ridges, valleys, and flashing',
+          'Moss and debris risk noted with gutter impact explained',
+          'Clear verbal summary and photo evidence where needed',
+          'No-obligation quote for cleaning or repairs if recommended',
+          'Typical domestic roof inspection completed in 30–45 minutes',
+        ],
+      },
+      {
+        title: 'Our Roof Inspection Process',
+        content:
+          'We inspect methodically and report honestly. If the roof only needs monitoring, we will say so — if moss or tile issues need action, you will know why.',
+        bulletPoints: [
+          'Confirm which roof slopes and features are included',
+          'Inspect tiles, ridges, valleys, and flashing from safe access',
+          'Note moss coverage, debris traps, and visible defects',
+          'Check how roof condition may affect gutters and fascias',
+          'Photograph significant findings for your records',
+          'Recommend roof cleaning, repairs, or gutter work if appropriate',
+        ],
+      },
+      {
+        title: 'Roof Inspection & Related Services',
+        content:
+          'Roof condition and gutter performance are closely linked. WOW Gutters Ltd can inspect the roof and clear or repair the gutters in one coordinated visit.',
+        image: '/roof-cleaning-before-after.jpeg',
+        imagePosition: 'left',
+        bulletPoints: [
+          'Roof cleaning — treat moss that feeds gutter blockages',
+          'Gutter cleaning — clear debris after roof moss is disturbed',
+          'Gutter inspection — check drainage while reviewing the roof',
+          'Gutter repairs — fix outlets and joints found during the visit',
+          'Exterior UPVC cleaning — fascias below moss-heavy roof edges',
+          'Commercial roof cleaning — larger sites and industrial roofs',
+        ],
+      },
     ],
     ctaSection: {
-      title: 'FREE ROOF INSPECTION',
-      description: 'Get peace of mind with our professional roof inspection service.',
+      title: 'Book Your Free Roof Inspection',
+      description:
+        'Free roof inspection with photos and honest advice. No obligation. Call 07421 433910 or book online.',
       phone: '07421 433910',
-      buttonText: 'Book Free Inspection'
-    }
+      buttonText: 'Book Free Inspection',
+    },
   },
   {
     id: 'conservatory',
