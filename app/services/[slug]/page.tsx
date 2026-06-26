@@ -55,7 +55,7 @@ export default async function ServicesSlugPage(props: PageProps) {
   return (
     <>
       <ServiceDetailPage service={service} />
-      {!FOCUSED_SERVICE_SLUGS.has(params.slug) && (
+      {(!FOCUSED_SERVICE_SLUGS.has(params.slug) || params.slug === 'gutter-cleaning') && (
         <TopPageAreaLinks
           intro={`${service.name} across Birmingham and the West Midlands — choose your local area for pricing and booking.`}
         />
