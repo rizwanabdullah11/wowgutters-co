@@ -49,7 +49,7 @@ const ctaBox = `
 </div>`;
 
 export const commercialWarehouseBlogPost: BlogPost = {
-  id: 'commercial-warehouse-gutter-clearing-birmingham',
+  id: 'warehouse-gutter-clearing',
   seoTitle: 'Commercial Warehouse Gutter Clearing Birmingham | WOW Gutters Ltd',
   title:
     'When Commercial Gutter Clearing Gets Complicated: A Birmingham Warehouse Case Study',

@@ -159,7 +159,7 @@ const UPVC_CLEANING_RELATED_LINKS = [
   { label: 'Roof cleaning', href: '/services/roof-cleaning/' },
   { label: 'Hot wash cleaning', href: '/services/hot-wash-cleaning/' },
   { label: 'Conservatory cleaning', href: '/services/conservatory/' },
-  { label: 'Fascias & soffits guide', href: '/blog/fascias-soffits-gutter-cleaning-west-midlands/' },
+  { label: 'Fascias & soffits guide', href: '/blog/fascias-soffits-west-midlands/' },
   { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
   { label: 'Free quote', href: '/quote/' },
   { label: 'All services', href: '/services/' },
@@ -173,7 +173,7 @@ const ROOF_CLEANING_RELATED_LINKS = [
   { label: 'Roof inspection', href: '/services/roof-inspection/' },
   { label: 'Commercial roof cleaning', href: '/services/commercial-roof-cleaning/' },
   { label: 'Roof cleaning Birmingham', href: '/roof-cleaning-birmingham/' },
-  { label: 'Moss removal guide', href: '/blog/roof-moss-removal-kings-norton-b30-birmingham/' },
+  { label: 'Moss removal guide', href: '/blog/roof-moss-kings-norton/' },
   { label: 'Free quote', href: '/quote/' },
   { label: 'All services', href: '/services/' },
 ] as const;
@@ -197,7 +197,7 @@ const ROOF_INSPECTION_RELATED_LINKS = [
   { label: 'Gutter repairs', href: '/services/gutter-repairs/' },
   { label: 'UPVC cleaning', href: '/services/upvc-cleaning/' },
   { label: 'Roof cleaning Birmingham', href: '/roof-cleaning-birmingham/' },
-  { label: 'Moss removal guide', href: '/blog/roof-moss-removal-kings-norton-b30-birmingham/' },
+  { label: 'Moss removal guide', href: '/blog/roof-moss-kings-norton/' },
   { label: 'Free quote', href: '/quote/' },
   { label: 'All services', href: '/services/' },
 ] as const;
@@ -219,7 +219,7 @@ const COMMERCIAL_GUTTER_RELATED_LINKS = [
   { label: 'Residential gutter cleaning', href: '/services/gutter-cleaning/' },
   { label: 'Gutter inspection', href: '/services/gutter-inspection/' },
   { label: 'Gutter repairs', href: '/services/gutter-repairs/' },
-  { label: 'Warehouse case study', href: '/blog/commercial-warehouse-gutter-clearing-birmingham/' },
+  { label: 'Warehouse case study', href: '/blog/warehouse-gutter-clearing/' },
   { label: 'Roof cleaning', href: '/services/roof-cleaning/' },
   { label: 'UPVC cleaning', href: '/services/upvc-cleaning/' },
   { label: 'Free quote', href: '/quote/' },
@@ -231,7 +231,7 @@ const COMMERCIAL_ROOF_RELATED_LINKS = [
   { label: 'Residential roof cleaning', href: '/services/roof-cleaning/' },
   { label: 'Roof inspection', href: '/services/roof-inspection/' },
   { label: 'Gutter cleaning', href: '/services/gutter-cleaning/' },
-  { label: 'Warehouse case study', href: '/blog/commercial-warehouse-gutter-clearing-birmingham/' },
+  { label: 'Warehouse case study', href: '/blog/warehouse-gutter-clearing/' },
   { label: 'Roof cleaning Birmingham', href: '/roof-cleaning-birmingham/' },
   { label: 'UPVC cleaning', href: '/services/upvc-cleaning/' },
   { label: 'Free quote', href: '/quote/' },
@@ -744,7 +744,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
             {service.id === 'upvc-cleaning' && (
               <p className="text-slate-600 leading-relaxed text-lg mb-8">
                 Read our{' '}
-                <Link href="/blog/fascias-soffits-gutter-cleaning-west-midlands/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/blog/fascias-soffits-west-midlands/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
                   fascias and soffits guide
                 </Link>
                 , combine with{' '}
@@ -829,7 +829,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
             {service.id === 'commercial-gutter-cleaning' && (
               <p className="text-slate-600 leading-relaxed text-lg mb-8">
                 Read our{' '}
-                <Link href="/blog/commercial-warehouse-gutter-clearing-birmingham/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/blog/warehouse-gutter-clearing/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
                   Birmingham warehouse case study
                 </Link>
                 , see{' '}

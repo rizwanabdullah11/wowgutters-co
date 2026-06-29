@@ -242,7 +242,7 @@ export const kingsHeathBlogPost: BlogPost = {
 
 <p><strong>Within Kings Heath / B14:</strong> Kings Heath High Street corridor · York Road · Addison Road · Livingstone Road · Alcester Road South · Institute Road · Vicarage Road · Silver Street · Poplar Road · Howard Road · Brandwood Road · Billesley Lane · Warstock Road · Druids Heath · Highter's Heath</p>
 
-<p><strong>Surrounding postcodes covered regularly:</strong> <a href="/gutter-cleaning-moseley/" style="${link}">Moseley (B13)</a> · <a href="/blog/gutter-cleaning-acocks-green-b27-birmingham/" style="${link}">Acocks Green (B27)</a> · <a href="/gutter-cleaning-hall-green/" style="${link}">Hall Green (B28)</a> · Yardley Wood (B14) · <a href="/gutter-cleaning-stirchley/" style="${link}">Stirchley (B30)</a> · <a href="/blog/gutter-cleaning-balsall-heath-b12-birmingham/" style="${link}">Balsall Heath (B12)</a> · <a href="/gutter-cleaning-selly-oak/" style="${link}">Selly Oak (B29)</a> · <a href="/gutter-cleaning-harborne/" style="${link}">Harborne (B17)</a> · Billesley (B13) · Kings Norton (B30/B38)</p>
+<p><strong>Surrounding postcodes covered regularly:</strong> <a href="/gutter-cleaning-moseley/" style="${link}">Moseley (B13)</a> · <a href="/blog/gutter-cleaning-acocks-green/" style="${link}">Acocks Green (B27)</a> · <a href="/gutter-cleaning-hall-green/" style="${link}">Hall Green (B28)</a> · Yardley Wood (B14) · <a href="/gutter-cleaning-stirchley/" style="${link}">Stirchley (B30)</a> · <a href="/blog/gutter-cleaning-balsall-heath/" style="${link}">Balsall Heath (B12)</a> · <a href="/gutter-cleaning-selly-oak/" style="${link}">Selly Oak (B29)</a> · <a href="/gutter-cleaning-harborne/" style="${link}">Harborne (B17)</a> · Billesley (B13) · Kings Norton (B30/B38)</p>
 
 <p>Not sure if we cover your street? Call <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a> and we'll confirm immediately.</p>
 
@@ -340,8 +340,8 @@ Open 7 days — Monday to Friday 7am–8pm · Saturday 9am–6pm · Sunday 10am�
 <ul>
   <li><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a></li>
   <li><a href="/gutter-cleaning-moseley/" style="${link}">Gutter cleaning Moseley B13</a></li>
-  <li><a href="/blog/gutter-cleaning-acocks-green-b27-birmingham/" style="${link}">Gutter cleaning Acocks Green B27</a></li>
-  <li><a href="/blog/gutter-cleaning-balsall-heath-b12-birmingham/" style="${link}">Gutter cleaning Balsall Heath B12</a></li>
+  <li><a href="/blog/gutter-cleaning-acocks-green/" style="${link}">Gutter cleaning Acocks Green B27</a></li>
+  <li><a href="/blog/gutter-cleaning-balsall-heath/" style="${link}">Gutter cleaning Balsall Heath B12</a></li>
   <li><a href="/blog/prevent-damp-winter/" style="${link}">Can blocked gutters cause damp</a></li>
   <li><a href="/blog/signs-of-blocked-gutters-birmingham/" style="${link}">Signs your gutters need cleaning</a></li>
   <li><a href="/services/roof-cleaning/" style="${link}">Roof cleaning Birmingham</a></li>

@@ -396,8 +396,19 @@ export default function TermsAndConditions() {
               <h2 className="text-2xl font-bold text-gray-900">Contact Us</h2>
             </div>
             <p className="text-gray-700 leading-relaxed pl-13">
-              For any questions regarding these terms, please contact us through our website contact form or 
-              call us at 07421 433910.
+              For questions about these terms, contact WOW Gutters Ltd on{' '}
+              <a href="tel:07421433910" className="font-bold" style={{ color: colors.primary }}>
+                07421 433910
+              </a>
+              , email{' '}
+              <a href="mailto:support@wowgutters.co.uk" className="font-bold" style={{ color: colors.primary }}>
+                support@wowgutters.co.uk
+              </a>
+              , or use our{' '}
+              <Link href="/contact/" className="font-bold underline" style={{ color: colors.primary }}>
+                contact page
+              </Link>
+              .
             </p>
           </section>
         </div>

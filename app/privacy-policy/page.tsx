@@ -1,23 +1,13 @@
 import React from 'react';
+import Link from 'next/link';
 import { Lock, Eye, Shield, Database, UserCheck, Mail } from 'lucide-react';
 import { colors } from '@/constants/colors';
-import SEOMeta from '@/components/seo/SEOMeta';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
+import { WOW_GUTTERS_NAP, formatNapAddress } from '@/lib/businessDetails';
 
 export default function PrivacyPolicy() {
-  const addressLine1 = (process.env.NEXT_PUBLIC_BUSINESS_ADDRESS_LINE1 || '').trim();
-  const addressLine2 = (process.env.NEXT_PUBLIC_BUSINESS_ADDRESS_LINE2 || '').trim();
-  const addressCity = (process.env.NEXT_PUBLIC_BUSINESS_CITY || '').trim();
-  const addressPostcode = (process.env.NEXT_PUBLIC_BUSINESS_POSTCODE || '').trim();
-
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
-      <SEOMeta
-        title="Privacy Policy | WOW Gutters Ltd"
-        description="Read the WOW Gutters Ltd privacy policy. Learn how we protect your data when you request gutter cleaning, repairs, or inspections in Birmingham & West Midlands."
-        canonicalUrl="https://wowgutters.co.uk/privacy-policy"
-        noindex
-      />
       <SchemaMarkup
         id="schema-privacy-webpage"
         data={{
@@ -212,15 +202,36 @@ export default function PrivacyPolicy() {
                 If you have any questions about this Privacy Policy or our data practices, please contact us:
               </p>
               <div className="space-y-2 text-sm">
-                <p className="text-gray-700"><strong>Email:</strong> privacy@wowgutters.co.uk</p>
-                <p className="text-gray-700"><strong>Phone:</strong> 07421 433910</p>
-                {(addressLine1 || addressLine2 || addressCity || addressPostcode) && (
-                  <p className="text-gray-700">
-                    <strong>Address:</strong>{' '}
-                    {[addressLine1, addressLine2, addressCity, addressPostcode].filter(Boolean).join(', ')}
-                  </p>
-                )}
+                <p className="text-gray-700">
+                  <strong>Data controller:</strong> {WOW_GUTTERS_NAP.name}
+                </p>
+                <p className="text-gray-700">
+                  <strong>Email:</strong>{' '}
+                  <a href="mailto:privacy@wowgutters.co.uk" className="font-semibold" style={{ color: colors.primary }}>
+                    privacy@wowgutters.co.uk
+                  </a>
+                </p>
+                <p className="text-gray-700">
+                  <strong>Phone:</strong>{' '}
+                  <a href={`tel:${WOW_GUTTERS_NAP.phoneE164}`} className="font-semibold" style={{ color: colors.primary }}>
+                    {WOW_GUTTERS_NAP.phoneDisplay}
+                  </a>
+                </p>
+                <p className="text-gray-700">
+                  <strong>Address:</strong> {formatNapAddress()}
+                </p>
               </div>
+              <p className="mt-4 text-sm text-gray-600">
+                See also our{' '}
+                <Link href="/cookie-policy/" className="font-bold underline" style={{ color: colors.primary }}>
+                  Cookie Policy
+                </Link>{' '}
+                and{' '}
+                <Link href="/terms-and-conditions/" className="font-bold underline" style={{ color: colors.primary }}>
+                  Terms &amp; Conditions
+                </Link>
+                .
+              </p>
             </div>
           </section>
         </div>

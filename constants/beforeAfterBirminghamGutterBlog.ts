@@ -24,7 +24,7 @@ const ctaBox = `
 </div>`;
 
 export const beforeAfterBirminghamGutterBlogPost: BlogPost = {
-  id: 'before-after-birmingham-gutter-cleaning-results',
+  id: 'birmingham-gutter-before-after',
   seoTitle:
     'Before and After: Real Birmingham Gutter Cleaning Results That Saved Properties From Water Damage | Wow Gutters Ltd',
   title:
@@ -102,7 +102,7 @@ export const beforeAfterBirminghamGutterBlogPost: BlogPost = {
 
 <h3>What We Found</h3>
 
-<p>When we attended this <a href="/blog/gutter-cleaning-selly-oak-b29-birmingham/" style="${link}">gutter cleaning Selly Oak B29</a> job, the channel was carrying a debris load we estimate had been building for at least two years. The base layer was a compacted silt of atmospheric particulate and decomposed organic matter approximately 4 centimetres deep. Above this, a secondary layer of spring seed matter and moss fragments from the adjacent roof tiles — which had significant moss coverage — had accumulated through the previous two growing seasons.</p>
+<p>When we attended this <a href="/blog/gutter-cleaning-selly-oak/" style="${link}">gutter cleaning Selly Oak B29</a> job, the channel was carrying a debris load we estimate had been building for at least two years. The base layer was a compacted silt of atmospheric particulate and decomposed organic matter approximately 4 centimetres deep. Above this, a secondary layer of spring seed matter and moss fragments from the adjacent roof tiles — which had significant moss coverage — had accumulated through the previous two growing seasons.</p>
 
 <p>The downpipe outlet was 90 per cent blocked. A dense plug of compressed debris had formed at the outlet junction, leaving a channel barely 10mm in diameter through which water could pass. During heavy rainfall, the entire roof drainage volume of the property was overflowing over the front gutter edge directly onto the bay window surround below.</p>
 
@@ -202,7 +202,7 @@ export const beforeAfterBirminghamGutterBlogPost: BlogPost = {
 
 <h3>What We Found</h3>
 
-<p>This <a href="/blog/gutter-cleaning-acocks-green-b27-birmingham/" style="${link}">gutter cleaning Acocks Green B27</a> visit introduced a problem specific to connected terrace configurations across east Birmingham. The homeowner had their gutters cleaned eight months prior. They were still experiencing consistent overflow on the front elevation during moderate to heavy rainfall.</p>
+<p>This <a href="/blog/gutter-cleaning-acocks-green/" style="${link}">gutter cleaning Acocks Green B27</a> visit introduced a problem specific to connected terrace configurations across east Birmingham. The homeowner had their gutters cleaned eight months prior. They were still experiencing consistent overflow on the front elevation during moderate to heavy rainfall.</p>
 
 <p>When we attended, the channel on the homeowner's property was indeed relatively clear. But the shared downpipe — positioned at the boundary between this property and the adjacent semi — was fully blocked. The previous cleaning company had cleared the channel but had not tested or cleared the shared downpipe.</p>
 
@@ -226,7 +226,7 @@ export const beforeAfterBirminghamGutterBlogPost: BlogPost = {
 
 <h3>What We Found</h3>
 
-<p>This <a href="/blog/gutter-cleaning-balsall-heath-b12-birmingham/" style="${link}">gutter cleaning Balsall Heath B12</a> visit was to a private rented property with no maintenance record for the roofline. The channel was carrying what we assessed as at least three to four years of accumulated debris — approximately 5 to 6 centimetres deep at its deepest point.</p>
+<p>This <a href="/blog/gutter-cleaning-balsall-heath/" style="${link}">gutter cleaning Balsall Heath B12</a> visit was to a private rented property with no maintenance record for the roofline. The channel was carrying what we assessed as at least three to four years of accumulated debris — approximately 5 to 6 centimetres deep at its deepest point.</p>
 
 <p>A plant had established itself in the debris bed at the mid-point of the run. The downpipe was completely blocked throughout its full length — not just at the entry point but at an intermediate position approximately 60cm below the gutter outlet.</p>
 

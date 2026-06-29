@@ -24,7 +24,7 @@ const ctaBox = `
 </div>`;
 
 export const balsallHeathBlogPost: BlogPost = {
-  id: 'gutter-cleaning-balsall-heath-b12-birmingham',
+  id: 'gutter-cleaning-balsall-heath',
   seoTitle: 'Gutter Cleaning Balsall Heath B12 Birmingham | Wow Gutters Ltd',
   title: 'Gutter Cleaning in Balsall Heath B12 — Professional Care for a Neighbourhood Worth Protecting',
   excerpt:
@@ -220,7 +220,7 @@ export const balsallHeathBlogPost: BlogPost = {
 
 <p><strong>Within Balsall Heath / B12:</strong> Moseley Road corridor · Harbury Road · Clifton Road · Newport Road · Mary Street · Runcorn Road · Edward Road · Tindal Street · Vaughton Street · Cannon Hill Road approach · Belgrave Village area</p>
 
-<p><strong>Surrounding postcodes covered regularly:</strong> <a href="/gutter-cleaning-moseley/" style="${link}">Moseley (B13)</a> · <a href="/gutter-cleaning-sparkbrook/" style="${link}">Sparkbrook (B11)</a> · <a href="/gutter-cleaning-highgate/" style="${link}">Highgate (B12)</a> · <a href="/gutter-cleaning-digbeth/" style="${link}">Digbeth (B12)</a> · <a href="/gutter-cleaning-edgbaston/" style="${link}">Edgbaston (B15)</a> · <a href="/gutter-cleaning-kings-heath/" style="${link}">Kings Heath (B14)</a> · <a href="/gutter-cleaning-bournbrook/" style="${link}">Bournbrook (B29)</a> · <a href="/blog/gutter-cleaning-selly-oak-b29-birmingham/" style="${link}">Selly Oak (B29)</a> · <a href="/gutter-cleaning-small-heath/" style="${link}">Small Heath (B10)</a> · <a href="/gutter-cleaning-sparkhill/" style="${link}">Sparkhill (B11)</a></p>
+<p><strong>Surrounding postcodes covered regularly:</strong> <a href="/gutter-cleaning-moseley/" style="${link}">Moseley (B13)</a> · <a href="/gutter-cleaning-sparkbrook/" style="${link}">Sparkbrook (B11)</a> · <a href="/gutter-cleaning-highgate/" style="${link}">Highgate (B12)</a> · <a href="/gutter-cleaning-digbeth/" style="${link}">Digbeth (B12)</a> · <a href="/gutter-cleaning-edgbaston/" style="${link}">Edgbaston (B15)</a> · <a href="/gutter-cleaning-kings-heath/" style="${link}">Kings Heath (B14)</a> · <a href="/gutter-cleaning-bournbrook/" style="${link}">Bournbrook (B29)</a> · <a href="/blog/gutter-cleaning-selly-oak/" style="${link}">Selly Oak (B29)</a> · <a href="/gutter-cleaning-small-heath/" style="${link}">Small Heath (B10)</a> · <a href="/gutter-cleaning-sparkhill/" style="${link}">Sparkhill (B11)</a></p>
 
 <p>Not sure if we cover your exact street? Call <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a> and we'll confirm straight away.</p>
 
@@ -329,8 +329,8 @@ Open 7 days — Monday to Friday 7am–8pm · Saturday 9am–6pm · Sunday 10am�
 <ul>
   <li><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a></li>
   <li><a href="/gutter-cleaning-moseley/" style="${link}">Gutter cleaning Moseley</a></li>
-  <li><a href="/blog/gutter-cleaning-selly-oak-b29-birmingham/" style="${link}">Gutter cleaning Selly Oak B29</a></li>
-  <li><a href="/blog/gutter-cleaning-nechells-b7-birmingham/" style="${link}">Gutter cleaning Nechells B7</a></li>
+  <li><a href="/blog/gutter-cleaning-selly-oak/" style="${link}">Gutter cleaning Selly Oak B29</a></li>
+  <li><a href="/blog/gutter-cleaning-nechells/" style="${link}">Gutter cleaning Nechells B7</a></li>
   <li><a href="/blog/prevent-damp-winter/" style="${link}">Can blocked gutters cause damp</a></li>
   <li><a href="/blog/signs-of-blocked-gutters-birmingham/" style="${link}">Signs your gutters need cleaning</a></li>
   <li><a href="/services/upvc-cleaning/" style="${link}">Fascia and soffit cleaning</a></li>

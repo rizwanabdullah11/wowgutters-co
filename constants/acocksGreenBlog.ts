@@ -17,7 +17,7 @@ const ctaBox = `
 </div>`;
 
 export const acocksGreenBlogPost: BlogPost = {
-  id: 'gutter-cleaning-acocks-green-b27-birmingham',
+  id: 'gutter-cleaning-acocks-green',
   seoTitle: 'Gutter Cleaning Acocks Green B27 Birmingham | Wow Gutters Ltd',
   title: 'Gutter Cleaning in Acocks Green B27 — Fast, Reliable, and Done Properly',
   excerpt:
@@ -264,8 +264,8 @@ Open 7 days — Monday to Friday 7am–8pm · Saturday 9am–6pm · Sunday 10am�
 <h2>Related Guides</h2>
 <ul>
   <li><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a></li>
-  <li><a href="/blog/gutter-cleaning-selly-oak-b29-birmingham/" style="${link}">Gutter cleaning Selly Oak B29</a></li>
-  <li><a href="/blog/gutter-cleaning-harborne-b17-birmingham/" style="${link}">Gutter cleaning Harborne B17</a></li>
+  <li><a href="/blog/gutter-cleaning-selly-oak/" style="${link}">Gutter cleaning Selly Oak B29</a></li>
+  <li><a href="/blog/gutter-cleaning-harborne/" style="${link}">Gutter cleaning Harborne B17</a></li>
   <li><a href="/blog/signs-of-blocked-gutters-birmingham" style="${link}">Signs your gutters need cleaning</a></li>
   <li><a href="/blog/prevent-damp-winter" style="${link}">Can blocked gutters cause damp</a></li>
   <li><a href="/services/gutter-cleaning/" style="${link}">Downpipe unblocking</a></li>

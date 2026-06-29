@@ -1,18 +1,12 @@
 import React from 'react';
+import Link from 'next/link';
 import { Cookie, Settings, BarChart, Target, Shield } from 'lucide-react';
 import { colors } from '@/constants/colors';
-import SEOMeta from '@/components/seo/SEOMeta';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
 
 export default function CookiePolicy() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
-      <SEOMeta
-        title="Cookie Policy | WOW Gutters Ltd"
-        description="Read the WOW Gutters Ltd cookie policy and learn how cookies are used to improve your experience on wowgutters.co.uk."
-        canonicalUrl="https://wowgutters.co.uk/cookie-policy"
-        noindex
-      />
       <SchemaMarkup
         id="schema-cookie-webpage"
         data={{
@@ -249,8 +243,15 @@ export default function CookiePolicy() {
           </p>
           <div className="rounded-lg p-4" style={{ backgroundColor: `${colors.primary}15` }}>
             <p className="text-sm text-gray-700">
-              If you have any questions about our use of cookies, please contact us through our website or 
-              email us at privacy@wowgutters.co.uk
+              Questions about cookies? Email{' '}
+              <a href="mailto:privacy@wowgutters.co.uk" className="font-bold" style={{ color: colors.primary }}>
+                privacy@wowgutters.co.uk
+              </a>{' '}
+              or read our{' '}
+              <Link href="/privacy-policy/" className="font-bold underline" style={{ color: colors.primary }}>
+                Privacy Policy
+              </Link>
+              .
             </p>
           </div>
         </div>

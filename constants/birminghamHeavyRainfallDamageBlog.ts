@@ -24,7 +24,7 @@ const ctaBox = `
 </div>`;
 
 export const birminghamHeavyRainfallDamageBlogPost: BlogPost = {
-  id: 'how-birmingham-heavy-rainfall-damages-home-blocked-gutters',
+  id: 'birmingham-rain-gutter-damage',
   seoTitle:
     "How Birmingham's Heavy Rainfall Can Damage Your Home Through Blocked Gutters | Wow Gutters Ltd",
   title: "How Birmingham's Heavy Rainfall Can Damage Your Home Through Blocked Gutters",
@@ -51,7 +51,7 @@ export const birminghamHeavyRainfallDamageBlogPost: BlogPost = {
 
 <p>When that rainfall meets a <a href="/blog/blocked-gutters-birmingham/" style="${link}">blocked gutter</a>, it does not simply create an inconvenient overflow. It initiates a precise physical sequence — a series of mechanisms through which water that should be controlled and channelled away from your property instead contacts, saturates, penetrates, and eventually damages the fabric of your home.</p>
 
-<p>Understanding those mechanisms is not academic. Every homeowner in Birmingham whose gutters are even partially blocked is watching those mechanisms operate against their property right now — usually invisibly, always progressively, and always at a cost that grows with every rainfall event that passes without the blockage being addressed. Compare with our <a href="/blog/before-after-birmingham-gutter-cleaning-results/" style="${link}">before and after Birmingham results</a> to see what professional clearance prevents.</p>
+<p>Understanding those mechanisms is not academic. Every homeowner in Birmingham whose gutters are even partially blocked is watching those mechanisms operate against their property right now — usually invisibly, always progressively, and always at a cost that grows with every rainfall event that passes without the blockage being addressed. Compare with our <a href="/blog/birmingham-gutter-before-after/" style="${link}">before and after Birmingham results</a> to see what professional clearance prevents.</p>
 
 <p>This post explains exactly how the damage happens. Not that it happens — but how. The specific physics, the specific materials, the specific progression that Birmingham's rainfall produces when a gutter cannot do its job. If you need <a href="/gutter-cleaning-birmingham/" style="${link}">gutter cleaning in Birmingham</a> before the next downpour, the mechanisms below show precisely what is at stake.</p>
 
@@ -117,7 +117,7 @@ export const birminghamHeavyRainfallDamageBlogPost: BlogPost = {
 
 <p>That somewhere else is determined entirely by gravity and the physical layout of your property. On most Birmingham residential properties, it means one or more of the following: over the front gutter edge onto the external wall below, behind the gutter and onto the fascia board, at the overflow point of a blocked downpipe against the foundation zone, or backward under the eaves into the roof structure.</p>
 
-<p>Each of these uncontrolled paths initiates a specific damage mechanism. Each mechanism operates independently. And in a property with a significantly blocked gutter system, several mechanisms may be operating simultaneously. Our <a href="/blog/downpipe-shoe-prevents-blockages/" style="${link}">downpipe shoe guide</a> explains how blockages at the base concentrate overflow at the foundation zone.</p>
+<p>Each of these uncontrolled paths initiates a specific damage mechanism. Each mechanism operates independently. And in a property with a significantly blocked gutter system, several mechanisms may be operating simultaneously. Our <a href="/blog/downpipe-shoe/" style="${link}">downpipe shoe guide</a> explains how blockages at the base concentrate overflow at the foundation zone.</p>
 
 <p><a href="/blog/signs-of-blocked-gutters-birmingham/" style="${link}">Signs your gutters need cleaning</a> are typically the first visible evidence that these mechanisms have already begun. By the time the signs are visible, the mechanisms have been operating for some time.</p>
 
@@ -139,7 +139,7 @@ export const birminghamHeavyRainfallDamageBlogPost: BlogPost = {
 
 <p>As the brickwork's moisture content accumulates across multiple rainfall events, moisture migrates through the wall depth — through the mortar joints, through the brick body itself — toward the internal face. On solid-wall Victorian and Edwardian properties (no cavity, no insulation barrier), this journey is direct and relatively fast. On cavity-wall interwar semis, the cavity provides a buffer — but it also provides a conduit once moisture is past the outer leaf.</p>
 
-<p>When moisture reaches the internal plaster face, penetrating damp becomes visible. A damp patch appears on the internal wall. Paint and wallpaper lift. Plaster softens and in time blows. The internal decoration deteriorates. Our <a href="/blog/fascias-soffits-gutter-cleaning-west-midlands/" style="${link}">fascias and soffits West Midlands guide</a> shows how roofline moisture and gutter overflow often appear together on the same elevation.</p>
+<p>When moisture reaches the internal plaster face, penetrating damp becomes visible. A damp patch appears on the internal wall. Paint and wallpaper lift. Plaster softens and in time blows. The internal decoration deteriorates. Our <a href="/blog/fascias-soffits-west-midlands/" style="${link}">fascias and soffits West Midlands guide</a> shows how roofline moisture and gutter overflow often appear together on the same elevation.</p>
 
 <p><a href="/blog/prevent-damp-winter/" style="${link}">Can blocked gutters cause damp</a> — the answer is always yes, and this is the precise mechanism through which it happens on Birmingham properties.</p>
 
@@ -152,7 +152,7 @@ export const birminghamHeavyRainfallDamageBlogPost: BlogPost = {
 
 <p>The frequency of Birmingham's rainfall events means the brickwork drying interval between saturation events is shorter than in drier UK cities. A solid Victorian wall in Birmingham that is being consistently wetted by a blocked gutter may never fully dry between October and March — maintaining a moisture content that drives progressive penetration with each successive event.</p>
 
-<p><a href="/blog/gutter-cleaning-harborne-b17-birmingham/" style="${link}">Gutter cleaning Harborne B17</a> and <a href="/gutter-cleaning-edgbaston/" style="${link}">gutter cleaning Edgbaston B15</a> — both postcodes have significant Victorian and Edwardian solid-wall stock where this mechanism operates fastest and causes the most serious damage when gutter systems are not maintained. Similar risks apply across <a href="/blog/gutter-cleaning-selly-oak-b29-birmingham/" style="${link}">Selly Oak B29</a>, <a href="/blog/gutter-cleaning-ladywood/" style="${link}">Ladywood B16</a>, <a href="/blog/gutter-cleaning-balsall-heath-b12-birmingham/" style="${link}">Balsall Heath B12</a>, and <a href="/blog/gutter-cleaning-nechells-b7-birmingham/" style="${link}">Nechells B7</a> terrace stock.</p>
+<p><a href="/blog/gutter-cleaning-harborne/" style="${link}">Gutter cleaning Harborne B17</a> and <a href="/gutter-cleaning-edgbaston/" style="${link}">gutter cleaning Edgbaston B15</a> — both postcodes have significant Victorian and Edwardian solid-wall stock where this mechanism operates fastest and causes the most serious damage when gutter systems are not maintained. Similar risks apply across <a href="/blog/gutter-cleaning-selly-oak/" style="${link}">Selly Oak B29</a>, <a href="/blog/gutter-cleaning-ladywood/" style="${link}">Ladywood B16</a>, <a href="/blog/gutter-cleaning-balsall-heath/" style="${link}">Balsall Heath B12</a>, and <a href="/blog/gutter-cleaning-nechells/" style="${link}">Nechells B7</a> terrace stock.</p>
 
 <h2 id="mechanism-2">Mechanism 2 — How Overflow Damages Fascia Boards and Timber</h2>
 
@@ -218,7 +218,7 @@ export const birminghamHeavyRainfallDamageBlogPost: BlogPost = {
 
 <p>In winter, the standing water in a fully backed-up gutter freezes. The expansion of freezing water lifts tile edges, disturbs the pointing on mechanically-bedded tiles, and in older properties displaces the mortar bedding on ridge and hip tiles. A Birmingham winter that follows an unaddressed summer gutter blockage can produce roof tile damage that appears unconnected to the gutter system but traces directly back to it. <a href="/blog/blocked-gutters-sycamore-seeds/" style="${link}">Blocked gutters packed with sycamore seeds</a> accelerate how quickly channels reach this fully-backed-up state.</p>
 
-<p><a href="/services/roof-cleaning/" style="${link}">Roof cleaning and moss removal</a> — moss on roof tiles contributes directly to the debris volume in the gutter channel below, accelerating the rate at which channels fill and the frequency with which the roof edge mechanism can operate. See also <a href="/roof-cleaning-birmingham/" style="${link}">roof cleaning Birmingham</a>, <a href="/blog/roof-cleaning-dudley/" style="${link}">roof cleaning Dudley</a>, and <a href="/blog/roof-moss-removal-kings-norton-b30-birmingham/" style="${link}">roof moss removal Kings Norton B30</a> for combined roofline maintenance.</p>
+<p><a href="/services/roof-cleaning/" style="${link}">Roof cleaning and moss removal</a> — moss on roof tiles contributes directly to the debris volume in the gutter channel below, accelerating the rate at which channels fill and the frequency with which the roof edge mechanism can operate. See also <a href="/roof-cleaning-birmingham/" style="${link}">roof cleaning Birmingham</a>, <a href="/blog/roof-cleaning-dudley/" style="${link}">roof cleaning Dudley</a>, and <a href="/blog/roof-moss-kings-norton/" style="${link}">roof moss removal Kings Norton B30</a> for combined roofline maintenance.</p>
 
 <h2 id="mechanism-5">Mechanism 5 — How Overflow Creates Mould in Your Living Spaces</h2>
 
@@ -240,7 +240,7 @@ export const birminghamHeavyRainfallDamageBlogPost: BlogPost = {
 
 <p>A mould problem originating in a blocked gutter is not simply a cosmetic property issue. It is a health concern in the living space that requires both elimination of the external source — the gutter — and remediation of the affected internal surface. Read <a href="/blog/prevent-damp-winter/" style="${link}">can blocked gutters cause damp</a> for the full moisture-to-mould progression on Birmingham brickwork.</p>
 
-<p><a href="/blog/before-after-birmingham-gutter-cleaning-results/" style="${link}">Before and after gutter results Birmingham</a> — the Balsall Heath B12 case study in our <a href="/blog/gutter-cleaning-balsall-heath-b12-birmingham/" style="${link}">Balsall Heath guide</a> shows a property where a landlord had commissioned two separate mould treatments, neither of which was effective because the external gutter source had never been addressed.</p>
+<p><a href="/blog/birmingham-gutter-before-after/" style="${link}">Before and after gutter results Birmingham</a> — the Balsall Heath B12 case study in our <a href="/blog/gutter-cleaning-balsall-heath/" style="${link}">Balsall Heath guide</a> shows a property where a landlord had commissioned two separate mould treatments, neither of which was effective because the external gutter source had never been addressed.</p>
 
 ${ctaBox}
 
@@ -254,7 +254,7 @@ ${ctaBox}
 
 <h3>Victorian and Edwardian solid-wall stock amplifies Mechanism 1</h3>
 
-<p>The porous lime-mortared brickwork of Birmingham's Victorian and Edwardian properties absorbs and transmits moisture more readily than modern engineering brick in cavity-wall construction. Penetrating damp from gutter overflow reaches internal surfaces faster and penetrates deeper on these properties than on modern equivalents. <a href="/blog/gutter-cleaning-kings-heath/" style="${link}">Gutter cleaning Kings Heath B14</a>, <a href="/blog/gutter-cleaning-harborne-b17-birmingham/" style="${link}">gutter cleaning Harborne B17</a>, and <a href="/gutter-cleaning-edgbaston/" style="${link}">gutter cleaning Edgbaston B15</a> — all three postcodes have significant Victorian and Edwardian stock where this amplification is most pronounced. <a href="/blog/gutter-cleaning-acocks-green-b27-birmingham/" style="${link}">Acocks Green B27</a> and <a href="/blog/gutter-cleaning-yardley-b25-birmingham/" style="${link}">Yardley B25</a> show the same pattern on interwar semis.</p>
+<p>The porous lime-mortared brickwork of Birmingham's Victorian and Edwardian properties absorbs and transmits moisture more readily than modern engineering brick in cavity-wall construction. Penetrating damp from gutter overflow reaches internal surfaces faster and penetrates deeper on these properties than on modern equivalents. <a href="/blog/gutter-cleaning-kings-heath/" style="${link}">Gutter cleaning Kings Heath B14</a>, <a href="/blog/gutter-cleaning-harborne/" style="${link}">gutter cleaning Harborne B17</a>, and <a href="/gutter-cleaning-edgbaston/" style="${link}">gutter cleaning Edgbaston B15</a> — all three postcodes have significant Victorian and Edwardian stock where this amplification is most pronounced. <a href="/blog/gutter-cleaning-acocks-green/" style="${link}">Acocks Green B27</a> and <a href="/blog/gutter-cleaning-yardley/" style="${link}">Yardley B25</a> show the same pattern on interwar semis.</p>
 
 <h3>West Midlands clay soils amplify Mechanism 3</h3>
 
@@ -294,7 +294,7 @@ ${ctaBox}
 
 <p><a href="/help/unblock/" style="${link}">Professional gutter cleaning service</a> from <a href="https://wowgutters.co.uk" style="${link}">Wow Gutters Ltd</a> addresses every component of the drainage system in a single visit:</p>
 
-<p>The full channel length is vacuumed using our industrial SkyVac system — extracting the compacted debris base that causes Mechanism 1 and Mechanism 4 to operate — as well as the surface debris above it. Every downpipe is tested and cleared, eliminating Mechanism 3. The flow test before we leave confirms the drainage path is fully restored, removing the standing water conditions that drive Mechanism 4. Learn more about our <a href="/blog/ladder-free-gutter-cleaning-revolution/" style="${link}">ladder-free gutter cleaning method</a> and why ground-level clearance matters on two-storey Birmingham properties.</p>
+<p>The full channel length is vacuumed using our industrial SkyVac system — extracting the compacted debris base that causes Mechanism 1 and Mechanism 4 to operate — as well as the surface debris above it. Every downpipe is tested and cleared, eliminating Mechanism 3. The flow test before we leave confirms the drainage path is fully restored, removing the standing water conditions that drive Mechanism 4. Learn more about our <a href="/blog/ladder-free-gutter-cleaning/" style="${link}">ladder-free gutter cleaning method</a> and why ground-level clearance matters on two-storey Birmingham properties.</p>
 
 <p>The before and after photographs document the system condition — giving the homeowner a record of what was found, what was cleared, and confirmation that the drainage path has been restored.</p>
 
@@ -328,7 +328,7 @@ ${ctaBox}
 
 <h2 id="before-after">Before and After — Birmingham</h2>
 
-<p>Representative results from a Birmingham property — the same documentary standard applied to every visit we complete. More case studies are in our <a href="/blog/before-after-birmingham-gutter-cleaning-results/" style="${link}">before and after Birmingham gutter cleaning results</a> post and <a href="/blog/before-after-gutter-cleaning-walsall/" style="${link}">Walsall before and after gallery</a>.</p>
+<p>Representative results from a Birmingham property — the same documentary standard applied to every visit we complete. More case studies are in our <a href="/blog/birmingham-gutter-before-after/" style="${link}">before and after Birmingham gutter cleaning results</a> post and <a href="/blog/before-after-gutter-cleaning-walsall/" style="${link}">Walsall before and after gallery</a>.</p>
 
 <figure style="margin: 20px 0;">
   <img src="${IMG_BEFORE}" alt="Blocked gutter packed with debris before professional clearance Birmingham" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
@@ -405,25 +405,25 @@ Open 7 days — Monday to Friday 7am–8pm · Saturday 9am–6pm · Sunday 10am�
   <li><a href="/blog/prevent-damp-winter/" style="${link}">Can blocked gutters cause damp</a></li>
   <li><a href="/blog/blocked-gutters-birmingham/" style="${link}">What happens if you ignore blocked gutters</a></li>
   <li><a href="/blog/heavy-rain-birmingham-gutters-ready/" style="${link}">Heavy rain gutter readiness Birmingham</a></li>
-  <li><a href="/blog/before-after-birmingham-gutter-cleaning-results/" style="${link}">Before and after gutter results Birmingham</a></li>
+  <li><a href="/blog/birmingham-gutter-before-after/" style="${link}">Before and after gutter results Birmingham</a></li>
   <li><a href="/blog/gutter-cleaning-birmingham-summer/" style="${link}">Summer gutter cleaning Birmingham</a></li>
-  <li><a href="/blog/gutter-cleaning-harborne-b17-birmingham/" style="${link}">Gutter cleaning Harborne B17</a></li>
+  <li><a href="/blog/gutter-cleaning-harborne/" style="${link}">Gutter cleaning Harborne B17</a></li>
   <li><a href="/gutter-cleaning-edgbaston/" style="${link}">Gutter cleaning Edgbaston B15</a></li>
   <li><a href="/blog/gutter-cleaning-kings-heath/" style="${link}">Gutter cleaning Kings Heath B14</a></li>
-  <li><a href="/blog/gutter-cleaning-selly-oak-b29-birmingham/" style="${link}">Gutter cleaning Selly Oak B29</a></li>
+  <li><a href="/blog/gutter-cleaning-selly-oak/" style="${link}">Gutter cleaning Selly Oak B29</a></li>
   <li><a href="/blog/gutter-cleaning-ladywood/" style="${link}">Gutter cleaning Ladywood B16</a></li>
-  <li><a href="/blog/gutter-cleaning-balsall-heath-b12-birmingham/" style="${link}">Gutter cleaning Balsall Heath B12</a></li>
-  <li><a href="/blog/gutter-cleaning-acocks-green-b27-birmingham/" style="${link}">Gutter cleaning Acocks Green B27</a></li>
-  <li><a href="/blog/gutter-cleaning-yardley-b25-birmingham/" style="${link}">Gutter cleaning Yardley B25</a></li>
-  <li><a href="/blog/gutter-cleaning-nechells-b7-birmingham/" style="${link}">Gutter cleaning Nechells B7</a></li>
+  <li><a href="/blog/gutter-cleaning-balsall-heath/" style="${link}">Gutter cleaning Balsall Heath B12</a></li>
+  <li><a href="/blog/gutter-cleaning-acocks-green/" style="${link}">Gutter cleaning Acocks Green B27</a></li>
+  <li><a href="/blog/gutter-cleaning-yardley/" style="${link}">Gutter cleaning Yardley B25</a></li>
+  <li><a href="/blog/gutter-cleaning-nechells/" style="${link}">Gutter cleaning Nechells B7</a></li>
   <li><a href="/blog/gutter-cleaning-wolverhampton/" style="${link}">Gutter cleaning Wolverhampton</a></li>
   <li><a href="/blog/gutter-cleaning-walsall/" style="${link}">Gutter cleaning Walsall</a></li>
   <li><a href="/blog/gutter-cleaning-coventry/" style="${link}">Gutter cleaning Coventry</a></li>
   <li><a href="/blog/gutter-cleaning-solihull/" style="${link}">Gutter cleaning Solihull</a></li>
   <li><a href="/blog/blocked-gutters-sycamore-seeds/" style="${link}">Blocked gutters and sycamore seeds</a></li>
-  <li><a href="/blog/downpipe-shoe-prevents-blockages/" style="${link}">Downpipe shoe blockages</a></li>
-  <li><a href="/blog/fascias-soffits-gutter-cleaning-west-midlands/" style="${link}">Fascias and soffits West Midlands</a></li>
-  <li><a href="/blog/ladder-free-gutter-cleaning-revolution/" style="${link}">Ladder-free gutter cleaning</a></li>
+  <li><a href="/blog/downpipe-shoe/" style="${link}">Downpipe shoe blockages</a></li>
+  <li><a href="/blog/fascias-soffits-west-midlands/" style="${link}">Fascias and soffits West Midlands</a></li>
+  <li><a href="/blog/ladder-free-gutter-cleaning/" style="${link}">Ladder-free gutter cleaning</a></li>
   <li><a href="/blog/gutter-repairs-guide/" style="${link}">Gutter repairs guide</a></li>
   <li><a href="/blog/winter-gutter-cleaning-maintenance/" style="${link}">Winter gutter cleaning maintenance</a></li>
   <li><a href="/help/unblock/" style="${link}">Professional gutter cleaning service</a></li>

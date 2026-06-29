@@ -1,7 +1,7 @@
 import type { BlogPost } from './blogTypes';
 
 export const sellyOakBlogPost: BlogPost = {
-  id: 'gutter-cleaning-selly-oak-b29-birmingham',
+  id: 'gutter-cleaning-selly-oak',
   seoTitle: 'Gutter Cleaning Selly Oak B29 Birmingham | Wow Gutters Ltd',
   title: 'Gutter Cleaning in Selly Oak B29 — Local, Reliable & Professional',
   excerpt:
@@ -318,7 +318,7 @@ export const sellyOakBlogPost: BlogPost = {
   <li><strong><a href="/help/clean" style="color: #19C58B; text-decoration: none;">Roof cleaning and moss removal</a></strong></li>
   <li><strong><a href="/services/upvc-cleaning/" style="color: #19C58B; text-decoration: none;">Fascia and soffit cleaning</a></strong></li>
   <li><strong><a href="/help/unblock" style="color: #19C58B; text-decoration: none;">Downpipe unblocking</a></strong></li>
-  <li><strong><a href="/blog/gutter-cleaning-harborne-b17-birmingham/" style="color: #19C58B; text-decoration: none;">Gutter cleaning Harborne B17</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-harborne/" style="color: #19C58B; text-decoration: none;">Gutter cleaning Harborne B17</a></strong></li>
   <li><strong><a href="/gutter-cleaning-bournville/" style="color: #19C58B; text-decoration: none;">Gutter cleaning Bournville</a></strong></li>
   <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; text-decoration: none;">Signs your gutters need cleaning</a></strong></li>
   <li><strong><a href="/blog/gutter-cleaning-bartley-green" style="color: #19C58B; text-decoration: none;">Gutter cleaning Bartley Green B32</a></strong></li>
