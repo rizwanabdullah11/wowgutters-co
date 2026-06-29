@@ -49,10 +49,15 @@ export default function Footer() {
     { name: 'Reviews', path: '/reviews' },
     { name: 'Gutter Blog', path: '/blog' },
     { name: 'Terms & Conditions', path: '/terms-and-conditions' },
-    { name: 'Citations & Business Info', path: '/citations' },
     { name: 'Privacy Policy', path: '/privacy-policy' },
     { name: 'Cookie Policy', path: '/cookie-policy' },
-    { name: 'Gutter Cleaning Calculator', path: '/gutter-cleaning-calculator' }
+    { name: 'Gutter Cleaning Calculator', path: '/gutter-cleaning-calculator' },
+  ];
+
+  const legal = [
+    { name: 'Privacy', path: '/privacy-policy' },
+    { name: 'Terms', path: '/terms-and-conditions' },
+    { name: 'Cookies', path: '/cookie-policy' },
   ];
 
   const info = [
@@ -204,6 +209,14 @@ export default function Footer() {
             <div className="footer-copyright">
               &copy; {new Date().getFullYear()} WOW Gutters Ltd. All Rights Reserved.
             </div>
+
+            <nav className="footer-legal-links" aria-label="Legal">
+              {legal.map((item) => (
+                <Link key={item.path} href={item.path} className="footer-legal-link">
+                  {item.name}
+                </Link>
+              ))}
+            </nav>
 
             <div className="footer-trust-badge">
               <CheckCircle className="w-5 h-5 text-green-400" /> Fully Licensed & Insured
@@ -447,6 +460,24 @@ export default function Footer() {
         .footer-copyright {
           color: #64748B;
           font-size: 0.95rem;
+        }
+
+        .footer-legal-links {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+          gap: 8px 20px;
+        }
+        .footer-legal-link {
+          color: #94A3B8;
+          text-decoration: none;
+          font-size: 0.875rem;
+          font-weight: 600;
+          transition: color 0.2s;
+        }
+        .footer-legal-link:hover {
+          color: #19C58B;
         }
 
         .footer-trust-badge {
