@@ -33,7 +33,7 @@ export const blogPosts: BlogPost[] = [
   harborneBlogPost,
   sellyOakBlogPost,
   {
-    id: 'fascias-soffits-gutter-cleaning-west-midlands',
+    id: 'fascias-soffits-west-midlands',
     title: 'Fascias & Soffits – Professional Gutter Cleaning & Fixing Across the West Midlands',
     excerpt: 'Expert gutter cleaning, debris removal, fascia & soffit washing, and moss & algae treatments — serving Birmingham, Coventry, Wolverhampton, Solihull, Walsall, Dudley and all surrounding areas. Rated 4.9⭐ by 2,696+ customers.',
     image: '/westmidlands-before-after.png',
@@ -1141,7 +1141,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #000000; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked in Birmingham</a></strong></li>
         <li><strong><a href="/blog/winter-gutter-cleaning-maintenance" style="color: #000000; text-decoration: none;">The Essential Winter Gutter Maintenance Guide for UK Homeowners</a></strong></li>
         <li><strong><a href="/blog/gutter-repairs-guide" style="color: #000000; text-decoration: none;">Gutter Repairs: How to Spot Damage Early</a></strong></li>
-        <li><strong><a href="/blog/downpipe-shoe-prevents-blockages" style="color: #000000; text-decoration: none;">Why a Downpipe Shoe is the Secret to Ending Repeated Gutter Blockages</a></strong></li>
+        <li><strong><a href="/blog/downpipe-shoe" style="color: #000000; text-decoration: none;">Why a Downpipe Shoe is the Secret to Ending Repeated Gutter Blockages</a></strong></li>
       </ul>
     `
   },
@@ -1524,7 +1524,7 @@ export const blogPosts: BlogPost[] = [
     `
   },
   {
-    id: 'downpipe-shoe-prevents-blockages',
+    id: 'downpipe-shoe',
     title: 'Why a Downpipe Shoe is the Secret to Ending Repeated Gutter Blockages',
     excerpt: 'Tired of cleaning the same downpipe month after month? The problem might not be the debris, but the lack of a proper downpipe shoe. Discover how this simple component protects your UK home from foundation damage and splashback.',
     image: '/blog1.png',
@@ -1837,7 +1837,7 @@ export const blogPosts: BlogPost[] = [
     `
   },
   {
-    id: 'ladder-free-gutter-cleaning-revolution',
+    id: 'ladder-free-gutter-cleaning',
     title: 'The Tech Behind Clean Gutters: Why We Ditched the Ladders',
     excerpt: 'Welcome to the future of gutter maintenance. No heavy scaffolding, no risky ladders, and no mess. See how our advanced vacuum systems reach up to four stories to deliver a pristine clean every time.',
     image: '/blog8.png',
@@ -2218,7 +2218,7 @@ export const blogPosts: BlogPost[] = [
 
 <ul>
   <li><strong><a href="/gutter-cleaning-birmingham" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Birmingham</a></strong></li>
-  <li><strong><a href="/blog/fascias-soffits-gutter-cleaning-west-midlands" style="color: #19C58B; text-decoration: none;">Fascia &amp; Soffit Cleaning West Midlands</a></strong></li>
+  <li><strong><a href="/blog/fascias-soffits-west-midlands" style="color: #19C58B; text-decoration: none;">Fascia &amp; Soffit Cleaning West Midlands</a></strong></li>
   <li><strong><a href="/hot-wash" style="color: #19C58B; text-decoration: none;">Roof Moss Removal Solihull</a></strong></li>
   <li><strong><a href="/help/repair" style="color: #19C58B; text-decoration: none;">Gutter Repairs Solihull</a></strong></li>
   <li><strong><a href="/conservatory-cleaning" style="color: #19C58B; text-decoration: none;">Conservatory Gutter Cleaning Solihull</a></strong></li>
@@ -3237,7 +3237,7 @@ export const blogPosts: BlogPost[] = [
 
 <ul>
   <li><strong><a href="/gutter-cleaning-birmingham" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Birmingham — Full Local Guide</a></strong></li>
-  <li><strong><a href="/blog/gutter-cleaning-selly-oak-b29-birmingham" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Selly Oak B29 Birmingham</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-selly-oak" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Selly Oak B29 Birmingham</a></strong></li>
   <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Wolverhampton | WOW Gutters Ltd</a></strong></li>
   <li><strong><a href="/blog/gutter-cleaning-walsall" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Walsall | WOW Gutters Ltd</a></strong></li>
   <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
@@ -3246,7 +3246,7 @@ export const blogPosts: BlogPost[] = [
     `,
   },
   {
-    id: 'roof-moss-removal-kings-norton-b30-birmingham',
+    id: 'roof-moss-kings-norton',
     title: 'Roof Moss Removal Kings Norton B30 Birmingham — Before & After Case Study',
     excerpt: 'A heavily moss-covered detached property in Kings Norton B30 transformed in a single day. Cherry picker access, high-pressure wash, biocidal treatment, gutter clear included — here\'s the full before and after.',
     image: '/B30-gutter-cleaning-hero.png',
@@ -3524,7 +3524,7 @@ export const blogPosts: BlogPost[] = [
 
 <ul>
   <li><strong><a href="/gutter-cleaning-birmingham/" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Birmingham — Full Local Guide</a></strong></li>
-  <li><strong><a href="/blog/gutter-cleaning-selly-oak-b29-birmingham" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Selly Oak B29 Birmingham</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-selly-oak" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Selly Oak B29 Birmingham</a></strong></li>
   <li><strong><a href="/gutter-cleaning-kings-norton/" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Kings Norton B30 | WOW Gutters Ltd</a></strong></li>
   <li><strong><a href="/gutter-cleaning-stirchley/" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Stirchley | WOW Gutters Ltd</a></strong></li>
   <li><strong><a href="/gutter-cleaning-northfield/" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Northfield B31 | WOW Gutters Ltd</a></strong></li>

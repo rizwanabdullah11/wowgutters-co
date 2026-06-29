@@ -17,7 +17,7 @@ const ctaBox = `
 </div>`;
 
 export const nechellsBlogPost: BlogPost = {
-  id: 'gutter-cleaning-nechells-b7-birmingham',
+  id: 'gutter-cleaning-nechells',
   seoTitle: 'Gutter Cleaning Nechells B7 Birmingham | Wow Gutters Ltd',
   title: 'Gutter Cleaning in Nechells B7 — Urban Properties Deserve Professional Care',
   excerpt:
@@ -335,8 +335,8 @@ Open 7 days — Monday to Friday 7am–8pm · Saturday 9am–6pm · Sunday 10am�
 <h2>Related Guides</h2>
 <ul>
   <li><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a></li>
-  <li><a href="/blog/gutter-cleaning-acocks-green-b27-birmingham/" style="${link}">Gutter cleaning Acocks Green B27</a></li>
-  <li><a href="/blog/gutter-cleaning-yardley-b25-birmingham/" style="${link}">Gutter cleaning Yardley B25</a></li>
+  <li><a href="/blog/gutter-cleaning-acocks-green/" style="${link}">Gutter cleaning Acocks Green B27</a></li>
+  <li><a href="/blog/gutter-cleaning-yardley/" style="${link}">Gutter cleaning Yardley B25</a></li>
   <li><a href="/blog/signs-of-blocked-gutters-birmingham" style="${link}">Signs your gutters need cleaning</a></li>
   <li><a href="/blog/prevent-damp-winter" style="${link}">Can blocked gutters cause damp</a></li>
   <li><a href="/services/gutter-cleaning/" style="${link}">Downpipe unblocking Birmingham</a></li>

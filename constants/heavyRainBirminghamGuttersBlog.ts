@@ -353,7 +353,7 @@ Open 7 days — Monday to Friday 7am–8pm · Saturday 9am–6pm · Sunday 10am�
   <li><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a></li>
   <li><a href="/services/roof-cleaning/" style="${link}">Roof cleaning and moss removal</a></li>
   <li><a href="/blog/gutter-cleaning-kings-heath/" style="${link}">Gutter cleaning Kings Heath</a></li>
-  <li><a href="/blog/gutter-cleaning-harborne-b17-birmingham/" style="${link}">Gutter cleaning Harborne</a></li>
+  <li><a href="/blog/gutter-cleaning-harborne/" style="${link}">Gutter cleaning Harborne</a></li>
   <li><a href="/services/upvc-cleaning/" style="${link}">Fascia and soffit cleaning</a></li>
 </ul>
 `,

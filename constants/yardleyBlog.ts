@@ -17,7 +17,7 @@ const ctaBox = `
 </div>`;
 
 export const yardleyBlogPost: BlogPost = {
-  id: 'gutter-cleaning-yardley-b25-birmingham',
+  id: 'gutter-cleaning-yardley',
   seoTitle: 'Gutter Cleaning Yardley B25 Birmingham | Wow Gutters Ltd',
   title: 'Gutter Cleaning in Yardley B25 — Protecting Family Homes Across East Birmingham',
   excerpt:
@@ -200,7 +200,7 @@ export const yardleyBlogPost: BlogPost = {
 
 <p><strong>Within Yardley / B25:</strong> Yardley Road · Church Road · Richards Street · Hob Moor Road · Wash Lane · Durley Road · Larch Walk · South Yardley · Hay Mills · Maplehurst Gardens · Westley Road corridor · Gospel Lane · Coventry Road border</p>
 
-<p><strong>Surrounding postcodes covered regularly:</strong> <a href="/blog/gutter-cleaning-acocks-green-b27-birmingham/" style="${link}">Acocks Green (B27)</a> · <a href="/gutter-cleaning-sheldon/" style="${link}">Sheldon (B26)</a> · <a href="/gutter-cleaning-stechford/" style="${link}">Stechford (B33)</a> · <a href="/gutter-cleaning-tyseley/" style="${link}">Tyseley (B11)</a> · Small Heath (B10) · <a href="/gutter-cleaning-hall-green/" style="${link}">Hall Green (B28)</a> · Bordesley Green (B9) · Sparkhill (B11) · <a href="/gutter-cleaning-solihull/" style="${link}">Solihull (B91)</a> · <a href="/gutter-cleaning-olton/" style="${link}">Olton (B92)</a></p>
+<p><strong>Surrounding postcodes covered regularly:</strong> <a href="/blog/gutter-cleaning-acocks-green/" style="${link}">Acocks Green (B27)</a> · <a href="/gutter-cleaning-sheldon/" style="${link}">Sheldon (B26)</a> · <a href="/gutter-cleaning-stechford/" style="${link}">Stechford (B33)</a> · <a href="/gutter-cleaning-tyseley/" style="${link}">Tyseley (B11)</a> · Small Heath (B10) · <a href="/gutter-cleaning-hall-green/" style="${link}">Hall Green (B28)</a> · Bordesley Green (B9) · Sparkhill (B11) · <a href="/gutter-cleaning-solihull/" style="${link}">Solihull (B91)</a> · <a href="/gutter-cleaning-olton/" style="${link}">Olton (B92)</a></p>
 
 <p>Not sure if we cover your street? Call <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a> and we'll confirm immediately.</p>
 
@@ -294,8 +294,8 @@ Open 7 days — Monday to Friday 7am–8pm · Saturday 9am–6pm · Sunday 10am�
 <h2>Related Guides</h2>
 <ul>
   <li><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a></li>
-  <li><a href="/blog/gutter-cleaning-acocks-green-b27-birmingham/" style="${link}">Gutter cleaning Acocks Green B27</a></li>
-  <li><a href="/blog/gutter-cleaning-selly-oak-b29-birmingham/" style="${link}">Gutter cleaning Selly Oak B29</a></li>
+  <li><a href="/blog/gutter-cleaning-acocks-green/" style="${link}">Gutter cleaning Acocks Green B27</a></li>
+  <li><a href="/blog/gutter-cleaning-selly-oak/" style="${link}">Gutter cleaning Selly Oak B29</a></li>
   <li><a href="/gutter-cleaning-hall-green/" style="${link}">Gutter cleaning Hall Green B28</a></li>
   <li><a href="/blog/signs-of-blocked-gutters-birmingham" style="${link}">Signs your gutters need cleaning</a></li>
   <li><a href="/blog/prevent-damp-winter" style="${link}">Can blocked gutters cause damp</a></li>

@@ -121,7 +121,7 @@ export const blockedGuttersBirminghamBlogPost: BlogPost = {
 
 <h3>Stage 3 — Months 3 to 6: Brickwork Begins Absorbing</h3>
 
-<p><strong>What is happening:</strong> The brickwork below the overflow point has now been wetted by 15 to 30 rainfall events. On Victorian and Edwardian solid-wall properties — common throughout Birmingham in postcodes from <a href="/blog/gutter-cleaning-balsall-heath-b12-birmingham/" style="${link}">Balsall Heath</a> to <a href="/blog/gutter-cleaning-harborne-b17-birmingham/" style="${link}">Harborne</a> — there is no cavity to interrupt the moisture journey. Water is beginning to migrate through the mortar joints and brick body.</p>
+<p><strong>What is happening:</strong> The brickwork below the overflow point has now been wetted by 15 to 30 rainfall events. On Victorian and Edwardian solid-wall properties — common throughout Birmingham in postcodes from <a href="/blog/gutter-cleaning-balsall-heath/" style="${link}">Balsall Heath</a> to <a href="/blog/gutter-cleaning-harborne/" style="${link}">Harborne</a> — there is no cavity to interrupt the moisture journey. Water is beginning to migrate through the mortar joints and brick body.</p>
 
 <p><strong>External signs:</strong> Clear vertical staining on the wall face. Green algae colonising the wetted surface. Efflorescence — white mineral salt deposits — appearing as the brickwork absorbs and releases water. Gutter may visibly sag at the blocked section under the weight of waterlogged debris.</p>
 
@@ -351,7 +351,7 @@ Open 7 days — Monday to Friday 7am–8pm · Saturday 9am–6pm · Sunday 10am�
   <li><a href="/services/roof-cleaning/" style="${link}">Roof cleaning and moss removal</a></li>
   <li><a href="/services/upvc-cleaning/" style="${link}">Fascia and soffit cleaning</a></li>
   <li><a href="/blog/gutter-cleaning-kings-heath/" style="${link}">Gutter cleaning Kings Heath</a></li>
-  <li><a href="/blog/gutter-cleaning-harborne-b17-birmingham/" style="${link}">Gutter cleaning Harborne</a></li>
+  <li><a href="/blog/gutter-cleaning-harborne/" style="${link}">Gutter cleaning Harborne</a></li>
 </ul>
   `,
 };

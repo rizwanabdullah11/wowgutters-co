@@ -137,7 +137,7 @@ export const ladywoodBlogPost: BlogPost = {
 
 <p>For properties on the streets immediately adjacent to Rotton Park — particularly along Icknield Port Road, Monument Road's northern section, and the residential avenues connecting Ladywood to the Rotton Park boundary — the park's mature tree canopy contributes a seasonal leaf fall volume that is considerably higher than the urban average for inner Birmingham properties.</p>
 
-<p>The tree species throughout Rotton Park include large-canopy limes, chestnuts, and mature deciduous specimens that shed significant leaf matter over a prolonged autumn period — from October through to December on the later-shedding species. Properties bordering or adjacent to the park receive this leaf fall onto roof surfaces and into gutter channels throughout this period, creating the same high-volume blockage conditions more commonly associated with leafy suburban postcodes like <a href="/blog/gutter-cleaning-harborne-b17-birmingham/" style="${link}">Harborne</a> or the Calthorpe Estate.</p>
+<p>The tree species throughout Rotton Park include large-canopy limes, chestnuts, and mature deciduous specimens that shed significant leaf matter over a prolonged autumn period — from October through to December on the later-shedding species. Properties bordering or adjacent to the park receive this leaf fall onto roof surfaces and into gutter channels throughout this period, creating the same high-volume blockage conditions more commonly associated with leafy suburban postcodes like <a href="/blog/gutter-cleaning-harborne/" style="${link}">Harborne</a> or the Calthorpe Estate.</p>
 
 <p>For B16 homeowners and landlords with properties near the Rotton Park boundary, the assumption that "it's an inner-city property with no trees nearby" does not apply. These properties need annual autumn gutter clearing as reliably as any property in a greener part of Birmingham — and in some cases, with additional leaf volume from the park, more urgently. See our guide on <a href="/blog/signs-of-blocked-gutters-birmingham/" style="${link}">signs your gutters need cleaning</a>.</p>
 
@@ -222,7 +222,7 @@ Before and after photographs of every section of gutter cleaned. Sent to you —
 Monument Road · Ryland Road · Icknield Port Road · Sherborne Street · Sheepcote Street · Ladywood Middleway corridor · Arden Grove · Osler Street · Leach Street · Friston Avenue · Port Loop development · Rotton Park Road · Wiggin Street · Spring Hill · Reservoir Road corridor</p>
 
 <p><strong>Surrounding postcodes covered regularly:</strong><br/>
-<a href="/gutter-cleaning-edgbaston/" style="${link}">Edgbaston (B15)</a> · Rotton Park (B16/B18) · Handsworth (B21) · City Centre (B1/B2) · Digbeth (B5) · <a href="/blog/gutter-cleaning-balsall-heath-b12-birmingham/" style="${link}">Balsall Heath (B12)</a> · <a href="/blog/gutter-cleaning-harborne-b17-birmingham/" style="${link}">Harborne (B17)</a> · Bearwood (B67) · Smethwick (B66) · Five Ways area</p>
+<a href="/gutter-cleaning-edgbaston/" style="${link}">Edgbaston (B15)</a> · Rotton Park (B16/B18) · Handsworth (B21) · City Centre (B1/B2) · Digbeth (B5) · <a href="/blog/gutter-cleaning-balsall-heath/" style="${link}">Balsall Heath (B12)</a> · <a href="/blog/gutter-cleaning-harborne/" style="${link}">Harborne (B17)</a> · Bearwood (B67) · Smethwick (B66) · Five Ways area</p>
 
 <p>Not sure if we cover your specific street or development? Call <a href="tel:07421433910" style="${link}">07421 433910</a> and we'll confirm immediately.</p>
 
@@ -293,7 +293,7 @@ ${ctaBox}
   </details>
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">What areas around Ladywood B16 do you also cover?</summary>
-    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">We cover <a href="/gutter-cleaning-edgbaston/" style="${link}">Edgbaston (B15)</a>, Rotton Park (B16/B18), Handsworth (B21), the City Centre approach (B1/B2), <a href="/blog/gutter-cleaning-balsall-heath-b12-birmingham/" style="${link}">Balsall Heath (B12)</a>, <a href="/blog/gutter-cleaning-harborne-b17-birmingham/" style="${link}">Harborne (B17)</a>, Bearwood, Smethwick, and all surrounding inner-city and suburban Birmingham postcodes. If you manage properties across multiple postcodes, we can schedule combined visits to cover them efficiently.</p></div>
+    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">We cover <a href="/gutter-cleaning-edgbaston/" style="${link}">Edgbaston (B15)</a>, Rotton Park (B16/B18), Handsworth (B21), the City Centre approach (B1/B2), <a href="/blog/gutter-cleaning-balsall-heath/" style="${link}">Balsall Heath (B12)</a>, <a href="/blog/gutter-cleaning-harborne/" style="${link}">Harborne (B17)</a>, Bearwood, Smethwick, and all surrounding inner-city and suburban Birmingham postcodes. If you manage properties across multiple postcodes, we can schedule combined visits to cover them efficiently.</p></div>
   </details>
 </div>
 
@@ -328,8 +328,8 @@ Open 7 days — Monday to Friday 7am–8pm · Saturday 9am–6pm · Sunday 10am�
 <ul>
   <li><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a></li>
   <li><a href="/gutter-cleaning-edgbaston/" style="${link}">Gutter cleaning Edgbaston B15</a></li>
-  <li><a href="/blog/gutter-cleaning-balsall-heath-b12-birmingham/" style="${link}">Gutter cleaning Balsall Heath B12</a></li>
-  <li><a href="/blog/gutter-cleaning-harborne-b17-birmingham/" style="${link}">Gutter cleaning Harborne B17</a></li>
+  <li><a href="/blog/gutter-cleaning-balsall-heath/" style="${link}">Gutter cleaning Balsall Heath B12</a></li>
+  <li><a href="/blog/gutter-cleaning-harborne/" style="${link}">Gutter cleaning Harborne B17</a></li>
   <li><a href="/blog/prevent-damp-winter/" style="${link}">Can blocked gutters cause damp</a></li>
   <li><a href="/blog/signs-of-blocked-gutters-birmingham/" style="${link}">Signs your gutters need cleaning</a></li>
   <li><a href="/services/gutter-cleaning/" style="${link}">Downpipe unblocking</a></li>

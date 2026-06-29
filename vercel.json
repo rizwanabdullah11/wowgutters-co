@@ -109,6 +109,136 @@
       "source": "/service-areas/",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/blog/how-birmingham-heavy-rainfall-damages-home-blocked-gutters",
+      "destination": "/blog/birmingham-rain-gutter-damage/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-birmingham-heavy-rainfall-damages-home-blocked-gutters/",
+      "destination": "/blog/birmingham-rain-gutter-damage/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/before-after-birmingham-gutter-cleaning-results",
+      "destination": "/blog/birmingham-gutter-before-after/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/before-after-birmingham-gutter-cleaning-results/",
+      "destination": "/blog/birmingham-gutter-before-after/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gutter-cleaning-balsall-heath-b12-birmingham",
+      "destination": "/blog/gutter-cleaning-balsall-heath/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gutter-cleaning-balsall-heath-b12-birmingham/",
+      "destination": "/blog/gutter-cleaning-balsall-heath/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gutter-cleaning-nechells-b7-birmingham",
+      "destination": "/blog/gutter-cleaning-nechells/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gutter-cleaning-nechells-b7-birmingham/",
+      "destination": "/blog/gutter-cleaning-nechells/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gutter-cleaning-yardley-b25-birmingham",
+      "destination": "/blog/gutter-cleaning-yardley/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gutter-cleaning-yardley-b25-birmingham/",
+      "destination": "/blog/gutter-cleaning-yardley/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gutter-cleaning-acocks-green-b27-birmingham",
+      "destination": "/blog/gutter-cleaning-acocks-green/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gutter-cleaning-acocks-green-b27-birmingham/",
+      "destination": "/blog/gutter-cleaning-acocks-green/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gutter-cleaning-harborne-b17-birmingham",
+      "destination": "/blog/gutter-cleaning-harborne/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gutter-cleaning-harborne-b17-birmingham/",
+      "destination": "/blog/gutter-cleaning-harborne/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gutter-cleaning-selly-oak-b29-birmingham",
+      "destination": "/blog/gutter-cleaning-selly-oak/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/gutter-cleaning-selly-oak-b29-birmingham/",
+      "destination": "/blog/gutter-cleaning-selly-oak/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/roof-moss-removal-kings-norton-b30-birmingham",
+      "destination": "/blog/roof-moss-kings-norton/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/roof-moss-removal-kings-norton-b30-birmingham/",
+      "destination": "/blog/roof-moss-kings-norton/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/fascias-soffits-gutter-cleaning-west-midlands",
+      "destination": "/blog/fascias-soffits-west-midlands/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/fascias-soffits-gutter-cleaning-west-midlands/",
+      "destination": "/blog/fascias-soffits-west-midlands/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/commercial-warehouse-gutter-clearing-birmingham",
+      "destination": "/blog/warehouse-gutter-clearing/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/commercial-warehouse-gutter-clearing-birmingham/",
+      "destination": "/blog/warehouse-gutter-clearing/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ladder-free-gutter-cleaning-revolution",
+      "destination": "/blog/ladder-free-gutter-cleaning/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/ladder-free-gutter-cleaning-revolution/",
+      "destination": "/blog/ladder-free-gutter-cleaning/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/downpipe-shoe-prevents-blockages",
+      "destination": "/blog/downpipe-shoe/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/downpipe-shoe-prevents-blockages/",
+      "destination": "/blog/downpipe-shoe/",
+      "permanent": true
     }
   ]
 }

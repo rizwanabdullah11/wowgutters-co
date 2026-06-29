@@ -17,7 +17,7 @@ const ctaBox = `
 </div>`;
 
 export const harborneBlogPost: BlogPost = {
-  id: 'gutter-cleaning-harborne-b17-birmingham',
+  id: 'gutter-cleaning-harborne',
   seoTitle: 'Gutter Cleaning Harborne B17 Birmingham | Wow Gutters Ltd',
   title: "Gutter Cleaning in Harborne B17 — Protecting Birmingham's Most Valued Homes",
   excerpt:
@@ -157,7 +157,7 @@ ${ctaBox}
 
 <p><strong>Within Harborne:</strong> Moor Pool Estate, High Brow, Ravenhurst Road, Moor Pool Avenue, Lordswood Road, Vivian Road, Wentworth Road, Grayswood Road, Court Oak Road, Harborne High Street corridor, Harborne Lane, Woodbourne Road, Margaret Grove, Serpentine Road.</p>
 
-<p><strong>Surrounding areas:</strong> <a href="/gutter-cleaning-edgbaston/" style="${link}">Edgbaston</a> · <a href="/blog/gutter-cleaning-selly-oak-b29-birmingham/" style="${link}">Selly Oak B29</a> · <a href="/gutter-cleaning-quinton/" style="${link}">Quinton</a> · <a href="/gutter-cleaning-bartley-green/" style="${link}">Bartley Green</a> · Kings Heath · Bournville · Moseley.</p>
+<p><strong>Surrounding areas:</strong> <a href="/gutter-cleaning-edgbaston/" style="${link}">Edgbaston</a> · <a href="/blog/gutter-cleaning-selly-oak/" style="${link}">Selly Oak B29</a> · <a href="/gutter-cleaning-quinton/" style="${link}">Quinton</a> · <a href="/gutter-cleaning-bartley-green/" style="${link}">Bartley Green</a> · Kings Heath · Bournville · Moseley.</p>
 
 <p>Not sure if your street is covered? Call <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a> and we'll confirm immediately.</p>
 
@@ -236,8 +236,8 @@ Open 7 days — Monday to Friday 7am–8pm · Saturday 9am–6pm · Sunday 10am�
 <h2>Related Guides</h2>
 <ul>
   <li><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning in Birmingham</a></li>
-  <li><a href="/blog/gutter-cleaning-selly-oak-b29-birmingham/" style="${link}">Gutter cleaning Selly Oak B29</a></li>
-  <li><a href="/blog/gutter-cleaning-acocks-green-b27-birmingham/" style="${link}">Gutter cleaning Acocks Green B27</a></li>
+  <li><a href="/blog/gutter-cleaning-selly-oak/" style="${link}">Gutter cleaning Selly Oak B29</a></li>
+  <li><a href="/blog/gutter-cleaning-acocks-green/" style="${link}">Gutter cleaning Acocks Green B27</a></li>
   <li><a href="/services/upvc-cleaning/" style="${link}">Fascia and soffit cleaning</a></li>
   <li><a href="/help/clean/" style="${link}">Roof cleaning Birmingham</a></li>
   <li><a href="/blog/signs-of-blocked-gutters-birmingham" style="${link}">Signs your gutters need cleaning</a></li>

@@ -87,7 +87,7 @@ export const gutterInspectionSaveBirminghamBlogPost: BlogPost = {
 
 <p>These developing issues are not yet expensive. They are, at the inspection stage, the kind of maintenance items that cost a modest amount to address and that cost significantly more when the next stage of their development has occurred.</p>
 
-<p><a href="/blog/before-after-birmingham-gutter-cleaning-results/" style="${link}">Before and after gutter cleaning results</a> — our documentation standard on every inspection visit includes before and after photographs of the complete gutter system, sent to the property owner the same day. These photographs are not simply evidence that the work was done. They are a current record of the drainage system's condition — available for reference, for insurance purposes, for property sale documentation, and for comparison with the next inspection's findings.</p>
+<p><a href="/blog/birmingham-gutter-before-after/" style="${link}">Before and after gutter cleaning results</a> — our documentation standard on every inspection visit includes before and after photographs of the complete gutter system, sent to the property owner the same day. These photographs are not simply evidence that the work was done. They are a current record of the drainage system's condition — available for reference, for insurance purposes, for property sale documentation, and for comparison with the next inspection's findings.</p>
 
 <figure style="margin: 20px 0;">
   <img src="${IMG_HERO}" alt="Professional gutter inspection Birmingham Wow Gutters Ltd industrial vacuum system at roofline" width="1280" height="720" loading="eager" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
@@ -112,7 +112,7 @@ export const gutterInspectionSaveBirminghamBlogPost: BlogPost = {
 
 <p>A channel with a moderate debris load that is still partially draining produces intermittent overflow during the heaviest rainfall events. A channel with a blocked downpipe produces overflow during every rainfall event of any significance — because the full drainage volume from the roof area has no exit point and must overflow the channel front edge entirely.</p>
 
-<p><a href="/help/unblock/" style="${link}">Downpipe unblocking Birmingham</a> is included on every Wow Gutters inspection and cleaning visit as standard — not an additional service, not something requested separately. Every downpipe is tested and cleared where a blockage is found, because a clear channel draining into a blocked downpipe is a non-functioning system. See also our <a href="/blog/downpipe-shoe-prevents-blockages/" style="${link}">downpipe shoe guide</a> for how blockages at the base concentrate overflow.</p>
+<p><a href="/help/unblock/" style="${link}">Downpipe unblocking Birmingham</a> is included on every Wow Gutters inspection and cleaning visit as standard — not an additional service, not something requested separately. Every downpipe is tested and cleared where a blockage is found, because a clear channel draining into a blocked downpipe is a non-functioning system. See also our <a href="/blog/downpipe-shoe/" style="${link}">downpipe shoe guide</a> for how blockages at the base concentrate overflow.</p>
 
 <h3>Joint failures and sealant deterioration</h3>
 
@@ -140,7 +140,7 @@ export const gutterInspectionSaveBirminghamBlogPost: BlogPost = {
 
 <h3>Fascia and soffit deterioration</h3>
 
-<p><a href="/services/upvc-cleaning/" style="${link}">Fascia and soffit cleaning</a> addresses the external surface condition of fascia and soffit components — the algae growth, UV degradation, and staining that accumulates on UPVC components over time. The inspection identifies sections where surface deterioration has progressed to the point where cleaning or replacement should be considered alongside the drainage maintenance. Read our <a href="/blog/fascias-soffits-gutter-cleaning-west-midlands/" style="${link}">fascias and soffits West Midlands guide</a> for combined roofline care.</p>
+<p><a href="/services/upvc-cleaning/" style="${link}">Fascia and soffit cleaning</a> addresses the external surface condition of fascia and soffit components — the algae growth, UV degradation, and staining that accumulates on UPVC components over time. The inspection identifies sections where surface deterioration has progressed to the point where cleaning or replacement should be considered alongside the drainage maintenance. Read our <a href="/blog/fascias-soffits-west-midlands/" style="${link}">fascias and soffits West Midlands guide</a> for combined roofline care.</p>
 
 ${ctaBox}
 
@@ -162,7 +162,7 @@ ${ctaBox}
 
 <p>A blocked downpipe found on inspection is cleared on the same visit. Cost: included in the inspection service.</p>
 
-<p>The same blocked downpipe, undiscovered for eighteen months, has directed the full roof drainage of the property against the external wall below during every significant rainfall event in that period. <a href="/blog/how-birmingham-heavy-rainfall-damages-home-blocked-gutters/" style="${link}">How Birmingham rainfall damages homes</a> — the brickwork saturation, the cavity moisture entry, the internal damp on the bedroom wall — these are the downstream consequences of a downpipe blockage that a single inspection and clearance would have prevented.</p>
+<p>The same blocked downpipe, undiscovered for eighteen months, has directed the full roof drainage of the property against the external wall below during every significant rainfall event in that period. <a href="/blog/birmingham-rain-gutter-damage/" style="${link}">How Birmingham rainfall damages homes</a> — the brickwork saturation, the cavity moisture entry, the internal damp on the bedroom wall — these are the downstream consequences of a downpipe blockage that a single inspection and clearance would have prevented.</p>
 
 <p>Remediation cost: damp investigation, potential replastering, internal redecorating. Significantly more than a downpipe clearance.</p>
 
@@ -218,23 +218,23 @@ ${ctaBox}
 
 <h3>Properties near trees</h3>
 
-<p>Properties adjacent to mature trees — common throughout south Birmingham postcodes including <a href="/blog/gutter-cleaning-kings-heath/" style="${link}">gutter cleaning Kings Heath B14</a>, <a href="/blog/gutter-cleaning-harborne-b17-birmingham/" style="${link}">gutter cleaning Harborne B17</a>, and <a href="/blog/gutter-cleaning-selly-oak-b29-birmingham/" style="${link}">gutter cleaning Selly Oak B29</a> — receive the highest leaf and organic debris volumes annually. These properties benefit from inspection twice yearly — late spring and late autumn — to manage the debris cycle that tree coverage produces.</p>
+<p>Properties adjacent to mature trees — common throughout south Birmingham postcodes including <a href="/blog/gutter-cleaning-kings-heath/" style="${link}">gutter cleaning Kings Heath B14</a>, <a href="/blog/gutter-cleaning-harborne/" style="${link}">gutter cleaning Harborne B17</a>, and <a href="/blog/gutter-cleaning-selly-oak/" style="${link}">gutter cleaning Selly Oak B29</a> — receive the highest leaf and organic debris volumes annually. These properties benefit from inspection twice yearly — late spring and late autumn — to manage the debris cycle that tree coverage produces.</p>
 
 <h3>Victorian and Edwardian period properties</h3>
 
-<p>The solid-wall construction of Birmingham's Victorian and Edwardian housing stock — found across the inner-city postcodes and in the older residential streets of south Birmingham — provides no cavity buffer against moisture migration from gutter overflow. <a href="/gutter-cleaning-edgbaston/" style="${link}">Gutter cleaning Edgbaston B15</a> covers the specific inspection challenges of Birmingham's period property stock, where the consequence of a missed drainage failure is faster and more expensive than on modern cavity-wall properties. Similar risks apply in <a href="/blog/gutter-cleaning-ladywood/" style="${link}">Ladywood B16</a> and <a href="/blog/gutter-cleaning-balsall-heath-b12-birmingham/" style="${link}">Balsall Heath B12</a>.</p>
+<p>The solid-wall construction of Birmingham's Victorian and Edwardian housing stock — found across the inner-city postcodes and in the older residential streets of south Birmingham — provides no cavity buffer against moisture migration from gutter overflow. <a href="/gutter-cleaning-edgbaston/" style="${link}">Gutter cleaning Edgbaston B15</a> covers the specific inspection challenges of Birmingham's period property stock, where the consequence of a missed drainage failure is faster and more expensive than on modern cavity-wall properties. Similar risks apply in <a href="/blog/gutter-cleaning-ladywood/" style="${link}">Ladywood B16</a> and <a href="/blog/gutter-cleaning-balsall-heath/" style="${link}">Balsall Heath B12</a>.</p>
 
 <h3>Properties with aging UPVC replacement guttering</h3>
 
-<p>The UPVC replacement guttering fitted on Birmingham's interwar semi-detached stock between the 1980s and early 2000s is now at or past its designed service life for joint sealants. Properties in <a href="/blog/gutter-cleaning-acocks-green-b27-birmingham/" style="${link}">gutter cleaning Acocks Green B27</a> and surrounding east Birmingham postcodes with this property type benefit from inspection that specifically assesses joint integrity across the complete run.</p>
+<p>The UPVC replacement guttering fitted on Birmingham's interwar semi-detached stock between the 1980s and early 2000s is now at or past its designed service life for joint sealants. Properties in <a href="/blog/gutter-cleaning-acocks-green/" style="${link}">gutter cleaning Acocks Green B27</a> and surrounding east Birmingham postcodes with this property type benefit from inspection that specifically assesses joint integrity across the complete run.</p>
 
 <h3>Pre-sale properties</h3>
 
-<p>Any Birmingham property being prepared for sale should have a professional gutter inspection before going to market. <a href="/blog/before-after-birmingham-gutter-cleaning-results/" style="${link}">Before and after gutter cleaning results</a> — the photographic and written documentation from a recent inspection provides the maintenance evidence that supports a clean homebuyer survey and prevents the renegotiations that gutter-related moisture findings trigger.</p>
+<p>Any Birmingham property being prepared for sale should have a professional gutter inspection before going to market. <a href="/blog/birmingham-gutter-before-after/" style="${link}">Before and after gutter cleaning results</a> — the photographic and written documentation from a recent inspection provides the maintenance evidence that supports a clean homebuyer survey and prevents the renegotiations that gutter-related moisture findings trigger.</p>
 
 <h2 id="challenges">Birmingham's Specific Inspection Challenges</h2>
 
-<p><a href="/blog/how-birmingham-heavy-rainfall-damages-home-blocked-gutters/" style="${link}">How Birmingham rainfall damages homes</a> explains the five mechanisms through which Birmingham's consistent rainfall causes property damage through blocked gutters. Those mechanisms are what a gutter inspection in Birmingham is specifically designed to identify and interrupt.</p>
+<p><a href="/blog/birmingham-rain-gutter-damage/" style="${link}">How Birmingham rainfall damages homes</a> explains the five mechanisms through which Birmingham's consistent rainfall causes property damage through blocked gutters. Those mechanisms are what a gutter inspection in Birmingham is specifically designed to identify and interrupt.</p>
 
 <p>Several factors make Birmingham gutter inspections more consequential than equivalent inspections in drier parts of the UK.</p>
 
@@ -248,7 +248,7 @@ ${ctaBox}
 
 <h3>Urban particulate adds to debris profile</h3>
 
-<p>In inner-city Birmingham postcodes — <a href="/blog/gutter-cleaning-acocks-green-b27-birmingham/" style="${link}">Acocks Green B27</a>, <a href="/blog/gutter-cleaning-nechells-b7-birmingham/" style="${link}">Nechells B7</a>, <a href="/blog/gutter-cleaning-balsall-heath-b12-birmingham/" style="${link}">Balsall Heath B12</a>, <a href="/blog/gutter-cleaning-ladywood/" style="${link}">Ladywood B16</a> — the atmospheric particulate from traffic corridors contributes a continuous, non-seasonal debris source that compacts at the channel base more densely than organic debris alone. This urban silt layer requires vacuum extraction rather than hand-clearing to remove effectively.</p>
+<p>In inner-city Birmingham postcodes — <a href="/blog/gutter-cleaning-acocks-green/" style="${link}">Acocks Green B27</a>, <a href="/blog/gutter-cleaning-nechells/" style="${link}">Nechells B7</a>, <a href="/blog/gutter-cleaning-balsall-heath/" style="${link}">Balsall Heath B12</a>, <a href="/blog/gutter-cleaning-ladywood/" style="${link}">Ladywood B16</a> — the atmospheric particulate from traffic corridors contributes a continuous, non-seasonal debris source that compacts at the channel base more densely than organic debris alone. This urban silt layer requires vacuum extraction rather than hand-clearing to remove effectively.</p>
 
 <p><a href="/blog/heavy-rain-birmingham-gutters-ready/" style="${link}">Heavy rain gutter preparation</a> — inspections arranged before Birmingham's heavy autumn rainfall season are the most effective preparation available, establishing the complete drainage system in a confirmed, documented condition before the highest-demand period of the year begins.</p>
 
@@ -262,7 +262,7 @@ ${ctaBox}
 
 <h3>Full channel vacuum clearance</h3>
 
-<p>Using our industrial SkyVac vacuum system with carbon fibre telescopic poles — reaching to four storeys from ground level, no ladder against your property at any point — we extract the complete debris load from the full channel length. Every metre. Front, rear, and extension runs. The compacted base layer as well as the surface debris above it. Learn more about our <a href="/blog/ladder-free-gutter-cleaning-revolution/" style="${link}">ladder-free gutter cleaning method</a>.</p>
+<p>Using our industrial SkyVac vacuum system with carbon fibre telescopic poles — reaching to four storeys from ground level, no ladder against your property at any point — we extract the complete debris load from the full channel length. Every metre. Front, rear, and extension runs. The compacted base layer as well as the surface debris above it. Learn more about our <a href="/blog/ladder-free-gutter-cleaning/" style="${link}">ladder-free gutter cleaning method</a>.</p>
 
 <h3>Systematic downpipe testing and clearance</h3>
 
@@ -316,7 +316,7 @@ ${ctaBox}
 
 <p>A professional gutter inspection carried out before marketing — with the written condition report and photographic documentation as evidence — demonstrates to a buyer's surveyor that the drainage system has been assessed and maintained to a professional standard. This changes the surveyor's starting point from "no evidence of maintenance" to "recent professional inspection with documented findings addressed."</p>
 
-<p>For sellers in premium Birmingham postcodes — <a href="/blog/gutter-cleaning-harborne-b17-birmingham/" style="${link}">gutter cleaning Harborne B17</a>, <a href="/gutter-cleaning-edgbaston/" style="${link}">gutter cleaning Edgbaston B15</a>, <a href="/blog/gutter-cleaning-kings-heath/" style="${link}">gutter cleaning Kings Heath B14</a> — where properties carry higher values and where buyers commission more thorough surveys, the inspection documentation provides evidence of maintenance standard that supports the asking price rather than giving the buyer a negotiating position.</p>
+<p>For sellers in premium Birmingham postcodes — <a href="/blog/gutter-cleaning-harborne/" style="${link}">gutter cleaning Harborne B17</a>, <a href="/gutter-cleaning-edgbaston/" style="${link}">gutter cleaning Edgbaston B15</a>, <a href="/blog/gutter-cleaning-kings-heath/" style="${link}">gutter cleaning Kings Heath B14</a> — where properties carry higher values and where buyers commission more thorough surveys, the inspection documentation provides evidence of maintenance standard that supports the asking price rather than giving the buyer a negotiating position.</p>
 
 <p>The condition report from a recent professional inspection is also valuable for the seller's solicitor when responding to buyer enquiries about maintenance history. A documented inspection with photographic evidence is more persuasive than a verbal assurance that "the gutters have always been fine."</p>
 
@@ -357,7 +357,7 @@ ${ctaBox}
   </details>
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">Do you inspect rear gutters and extensions as well as the front?</summary>
-    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">Yes. Every inspection covers the complete gutter system — front, rear, side extension sections, outbuilding gutters, and any parapet or valley gutters on more complex rooflines. Single-storey rear extensions, in particular, have gutter systems that are frequently excluded from previous maintenance visits and that our inspection consistently finds in a more advanced state of debris accumulation than the main building. <a href="/blog/before-after-birmingham-gutter-cleaning-results/" style="${link}">Before and after gutter cleaning results</a> — the case studies documented include multiple examples of rear extension findings that were unknown to the property owner before inspection.</p></div>
+    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">Yes. Every inspection covers the complete gutter system — front, rear, side extension sections, outbuilding gutters, and any parapet or valley gutters on more complex rooflines. Single-storey rear extensions, in particular, have gutter systems that are frequently excluded from previous maintenance visits and that our inspection consistently finds in a more advanced state of debris accumulation than the main building. <a href="/blog/birmingham-gutter-before-after/" style="${link}">Before and after gutter cleaning results</a> — the case studies documented include multiple examples of rear extension findings that were unknown to the property owner before inspection.</p></div>
   </details>
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">What does the written condition report include?</summary>
@@ -369,7 +369,7 @@ ${ctaBox}
   </details>
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">Can you inspect gutters on period properties with cast iron guttering?</summary>
-    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">Yes. Our vacuum system operates entirely from ground level — no ladder contacts any part of the gutter system, including original cast iron guttering. On listed or characterised period properties in Edgbaston and Harborne where cast iron gutter components are heritage fabric, this non-contact method is the correct professional approach to both inspection and cleaning. <a href="/gutter-cleaning-edgbaston/" style="${link}">Gutter cleaning Edgbaston B15</a> and <a href="/blog/gutter-cleaning-harborne-b17-birmingham/" style="${link}">gutter cleaning Harborne B17</a> cover the specific inspection requirements of Birmingham's heritage property stock in detail.</p></div>
+    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">Yes. Our vacuum system operates entirely from ground level — no ladder contacts any part of the gutter system, including original cast iron guttering. On listed or characterised period properties in Edgbaston and Harborne where cast iron gutter components are heritage fabric, this non-contact method is the correct professional approach to both inspection and cleaning. <a href="/gutter-cleaning-edgbaston/" style="${link}">Gutter cleaning Edgbaston B15</a> and <a href="/blog/gutter-cleaning-harborne/" style="${link}">gutter cleaning Harborne B17</a> cover the specific inspection requirements of Birmingham's heritage property stock in detail.</p></div>
   </details>
 </div>
 
@@ -408,18 +408,18 @@ Open 7 days — Monday to Friday 7am–8pm · Saturday 9am–6pm · Sunday 10am�
   <li><a href="/blog/prevent-damp-winter/" style="${link}">Can blocked gutters cause damp</a></li>
   <li><a href="/blog/signs-of-blocked-gutters-birmingham/" style="${link}">Signs your gutters need cleaning</a></li>
   <li><a href="/blog/blocked-gutters-birmingham/" style="${link}">What happens if you ignore blocked gutters</a></li>
-  <li><a href="/blog/how-birmingham-heavy-rainfall-damages-home-blocked-gutters/" style="${link}">How Birmingham rainfall damages homes</a></li>
-  <li><a href="/blog/before-after-birmingham-gutter-cleaning-results/" style="${link}">Before and after gutter cleaning results</a></li>
+  <li><a href="/blog/birmingham-rain-gutter-damage/" style="${link}">How Birmingham rainfall damages homes</a></li>
+  <li><a href="/blog/birmingham-gutter-before-after/" style="${link}">Before and after gutter cleaning results</a></li>
   <li><a href="/blog/heavy-rain-birmingham-gutters-ready/" style="${link}">Heavy rain gutter preparation</a></li>
-  <li><a href="/blog/gutter-cleaning-harborne-b17-birmingham/" style="${link}">Gutter cleaning Harborne B17</a></li>
+  <li><a href="/blog/gutter-cleaning-harborne/" style="${link}">Gutter cleaning Harborne B17</a></li>
   <li><a href="/gutter-cleaning-edgbaston/" style="${link}">Gutter cleaning Edgbaston B15</a></li>
   <li><a href="/blog/gutter-cleaning-kings-heath/" style="${link}">Gutter cleaning Kings Heath B14</a></li>
-  <li><a href="/blog/gutter-cleaning-selly-oak-b29-birmingham/" style="${link}">Gutter cleaning Selly Oak B29</a></li>
-  <li><a href="/blog/gutter-cleaning-acocks-green-b27-birmingham/" style="${link}">Gutter cleaning Acocks Green B27</a></li>
+  <li><a href="/blog/gutter-cleaning-selly-oak/" style="${link}">Gutter cleaning Selly Oak B29</a></li>
+  <li><a href="/blog/gutter-cleaning-acocks-green/" style="${link}">Gutter cleaning Acocks Green B27</a></li>
   <li><a href="/blog/gutter-cleaning-birmingham-summer/" style="${link}">Summer gutter cleaning Birmingham</a></li>
   <li><a href="/blog/gutter-repairs-guide/" style="${link}">Gutter repairs guide</a></li>
-  <li><a href="/blog/ladder-free-gutter-cleaning-revolution/" style="${link}">Ladder-free gutter cleaning</a></li>
-  <li><a href="/blog/downpipe-shoe-prevents-blockages/" style="${link}">Downpipe shoe blockages</a></li>
+  <li><a href="/blog/ladder-free-gutter-cleaning/" style="${link}">Ladder-free gutter cleaning</a></li>
+  <li><a href="/blog/downpipe-shoe/" style="${link}">Downpipe shoe blockages</a></li>
   <li><a href="/help/repair/" style="${link}">Gutter repair service</a></li>
   <li><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a></li>
   <li><a href="/quote/" style="${link}">Get a free quote</a></li>
