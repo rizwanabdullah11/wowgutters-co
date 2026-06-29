@@ -1,5 +1,7 @@
+import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import GutterInspectionPage from '@/components/services/GutterInspectionPage';
+import ServiceDetailPage from '@/components/services/ServiceDetailPage';
+import { getServiceById } from '@/constants/servicesData';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -10,5 +12,11 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function GutterInspectionServicePage() {
-  return <GutterInspectionPage />;
+  const service = getServiceById('gutter-inspection');
+
+  if (!service) {
+    notFound();
+  }
+
+  return <ServiceDetailPage service={service} />;
 }

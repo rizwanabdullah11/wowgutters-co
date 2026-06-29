@@ -62,7 +62,7 @@ export default function ServiceCardsSection() {
         {/* Header */}
         <div className="how-help-header">
           <span className="how-help-eyebrow">HOW CAN WE HELP?</span>
-          <h2 className="how-help-title">Roofline Services for Every Property</h2>
+          <h2 className="how-help-title">Gutter Services for Every Property</h2>
           <p className="how-help-subtitle">
             Inspect, unblock, repair or clean — WOW Gutters Ltd helps protect your home or business across Birmingham and the West Midlands.
           </p>

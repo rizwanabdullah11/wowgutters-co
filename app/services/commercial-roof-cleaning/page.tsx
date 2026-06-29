@@ -1,5 +1,7 @@
+import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import CommercialRoofCleaningPage from '@/components/services/CommercialRoofCleaningPage';
+import ServiceDetailPage from '@/components/services/ServiceDetailPage';
+import { getServiceById } from '@/constants/servicesData';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
@@ -10,5 +12,11 @@ export const metadata: Metadata = buildMetadata({
 });
 
 export default function CommercialRoofCleaningServicePage() {
-  return <CommercialRoofCleaningPage />;
+  const service = getServiceById('commercial-roof-cleaning');
+
+  if (!service) {
+    notFound();
+  }
+
+  return <ServiceDetailPage service={service} />;
 }
