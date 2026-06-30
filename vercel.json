@@ -239,6 +239,16 @@
       "source": "/blog/downpipe-shoe-prevents-blockages/",
       "destination": "/blog/downpipe-shoe/",
       "permanent": true
+    },
+    {
+      "source": "/blog/blocked-gutters-silently-damaging-birmingham-home-how-to-spot-it",
+      "destination": "/blog/silent-gutter-damage-birmingham/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/blocked-gutters-silently-damaging-birmingham-home-how-to-spot-it/",
+      "destination": "/blog/silent-gutter-damage-birmingham/",
+      "permanent": true
     }
   ]
 }

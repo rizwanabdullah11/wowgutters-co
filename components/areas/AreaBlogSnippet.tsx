@@ -31,7 +31,7 @@ export default function AreaBlogSnippet({ locality }: AreaBlogSnippetProps) {
     ? localPost.title
     : `The Hidden Dangers of Neglected Gutters: A Practical Guide for Homeowners${locality ? ` in ${locality}` : ''}`;
 
-  const image = localPost?.image ?? '/Professional-experience.png';
+  const image = localPost?.image ?? '/professional-gutter-clean.png';
   const imageAlt = localPost?.title ?? 'Professional Gutter Cleaning Experience';
 
   return (

@@ -191,7 +191,7 @@ export const talksData: TalkPost[] = [
     excerpt: 'Our cleaning methods are safe for your plants, pets, and the environment. Here\'s how we clean effectively without harsh chemicals.',
     author: 'WOW Gutters Ltd Team',
     date: 'February 22, 2026',
-    image: '/Professional-experience.png',
+    image: '/professional-gutter-clean.png',
     category: 'Environment',
     readTime: '7 min read',
     content: `

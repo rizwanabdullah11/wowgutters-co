@@ -56,6 +56,12 @@ const nextConfig: NextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "sacred-purple-gnerkdvb.edgeone.app",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };
