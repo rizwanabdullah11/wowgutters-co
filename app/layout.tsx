@@ -221,6 +221,15 @@ fbq('track', 'PageView');`,
             </noscript>
           </>
         ) : null}
+        {/* Elfsight Google Reviews — data-cookieconsent="ignore" tells Cookiebot
+            auto-blocking NOT to block this, so the widget loads in every
+            environment (localhost + production) without requiring consent. */}
+        <script
+          id="elfsight-platform"
+          data-cookieconsent="ignore"
+          async
+          src="https://elfsightcdn.com/platform.js"
+        />
       </head>
       <body className="font-sans antialiased content-protected" suppressHydrationWarning>
         <IosViewportStabilizer />
@@ -243,6 +252,7 @@ fbq('track', 'PageView');`,
         />
         <script src="/wow-cta-dialog-init.js?v=20260421" defer />
         <script src="/wow-quote-form-init.js?v=20260421" defer />
+        <script src="/wow-elfsight-init.js?v=20260630" defer />
       </body>
     </html>
   );

@@ -13,30 +13,6 @@ function getWidgetId(): string {
   return fromEnv || DEFAULT_WIDGET_ID;
 }
 
-function loadElfsightPlatform() {
-  if (typeof document === 'undefined') return;
-
-  const existing = document.querySelector(`script[src="${ELFSIGHT_PLATFORM_SRC}"]`) as HTMLScriptElement | null;
-  if (existing) {
-    if (existing.dataset.loaded === '1') {
-      refreshElfsightApps();
-      return;
-    }
-    existing.addEventListener('load', () => refreshElfsightApps(), { once: true });
-    return;
-  }
-
-  const script = document.createElement('script');
-  script.src = ELFSIGHT_PLATFORM_SRC;
-  script.async = true;
-  script.dataset.loaded = '0';
-  script.onload = () => {
-    script.dataset.loaded = '1';
-    refreshElfsightApps();
-  };
-  document.body.appendChild(script);
-}
-
 function refreshElfsightApps() {
   try {
     const w = window as Window & {
@@ -47,6 +23,42 @@ function refreshElfsightApps() {
   } catch {
     /* Elfsight API optional */
   }
+}
+
+function loadElfsightPlatform() {
+  if (typeof document === 'undefined') return;
+
+  const existing = document.querySelector(
+    `script[src="${ELFSIGHT_PLATFORM_SRC}"]`
+  ) as HTMLScriptElement | null;
+
+  if (existing) {
+    if (existing.dataset.loaded === '1') {
+      refreshElfsightApps();
+    } else {
+      existing.addEventListener(
+        'load',
+        () => {
+          existing.dataset.loaded = '1';
+          refreshElfsightApps();
+        },
+        { once: true }
+      );
+    }
+    return;
+  }
+
+  const script = document.createElement('script');
+  script.src = ELFSIGHT_PLATFORM_SRC;
+  script.async = true;
+  // Bypass Cookiebot auto-blocking so the reviews widget always loads.
+  script.setAttribute('data-cookieconsent', 'ignore');
+  script.dataset.loaded = '0';
+  script.onload = () => {
+    script.dataset.loaded = '1';
+    refreshElfsightApps();
+  };
+  document.body.appendChild(script);
 }
 
 type ElfsightReviewsProps = {
@@ -60,16 +72,9 @@ export default function ElfsightReviews({ showSummary = true }: ElfsightReviewsP
   useEffect(() => {
     loadElfsightPlatform();
 
-    const onConsent = () => {
-      loadElfsightPlatform();
-    };
-    window.addEventListener('CookiebotOnAccept', onConsent);
-    window.addEventListener('CookiebotOnDecline', onConsent);
-
-    return () => {
-      window.removeEventListener('CookiebotOnAccept', onConsent);
-      window.removeEventListener('CookiebotOnDecline', onConsent);
-    };
+    // Re-init a few times in case the platform script finishes after mount.
+    const timers = [400, 1200, 3000].map((ms) => window.setTimeout(refreshElfsightApps, ms));
+    return () => timers.forEach((t) => window.clearTimeout(t));
   }, []);
 
   useEffect(() => {
