@@ -24,6 +24,7 @@ export const BLOG_SLUG_REDIRECTS = {
   'commercial-warehouse-gutter-clearing-birmingham': 'warehouse-gutter-clearing',
   'ladder-free-gutter-cleaning-revolution': 'ladder-free-gutter-cleaning',
   'downpipe-shoe-prevents-blockages': 'downpipe-shoe',
+  'blocked-gutters-silently-damaging-birmingham-home-how-to-spot-it': 'silent-gutter-damage-birmingham',
 };
 
 const SKIP_DIRS = new Set(['node_modules', '.next', '.git']);

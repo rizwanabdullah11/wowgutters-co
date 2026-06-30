@@ -38,7 +38,7 @@ const ctaBox = `
 </div>`;
 
 export const silentGutterDamageBirminghamBlogPost: BlogPost = {
-  id: 'blocked-gutters-silently-damaging-birmingham-home-how-to-spot-it',
+  id: 'silent-gutter-damage-birmingham',
   seoTitle:
     "Blocked Gutters Are Silently Damaging Your Birmingham Home — Here's How to Spot It | Wow Gutters Ltd",
   title: "Blocked Gutters Are Silently Damaging Your Birmingham Home — Here's How to Spot It",
@@ -348,26 +348,14 @@ Open 7 days — Monday to Friday 7am–8pm · Saturday 9am–6pm · Sunday 10am�
 
 <p><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a> — call <a href="https://wowgutters.co.uk/" style="${link}">Wow Gutters Ltd</a> today. Find the evidence. Address it while it is still in the maintenance category.</p>
 
-<h2>Related Birmingham Guides</h2>
+<h2>Related Guides</h2>
 <ul>
+  <li><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a></li>
   <li><a href="/blog/prevent-damp-winter/" style="${link}">Can blocked gutters cause damp</a></li>
   <li><a href="/blog/signs-of-blocked-gutters-birmingham/" style="${link}">Signs your gutters need cleaning</a></li>
   <li><a href="/blog/blocked-gutters-birmingham/" style="${link}">What happens if you ignore blocked gutters</a></li>
   <li><a href="/blog/birmingham-rain-gutter-damage/" style="${link}">How Birmingham rainfall damages homes</a></li>
-  <li><a href="/blog/birmingham-gutter-before-after/" style="${link}">Before and after gutter results Birmingham</a></li>
-  <li><a href="/blog/heavy-rain-birmingham-gutters-ready/" style="${link}">Heavy rain gutter preparation Birmingham</a></li>
-  <li><a href="/blog/birmingham-gutter-inspection/" style="${link}">Gutter inspection saves Birmingham homeowners thousands</a></li>
-  <li><a href="/blog/gutter-cleaning-harborne/" style="${link}">Gutter cleaning Harborne B17</a></li>
-  <li><a href="/gutter-cleaning-edgbaston/" style="${link}">Gutter cleaning Edgbaston B15</a></li>
-  <li><a href="/blog/gutter-cleaning-kings-heath/" style="${link}">Gutter cleaning Kings Heath B14</a></li>
-  <li><a href="/blog/gutter-cleaning-selly-oak/" style="${link}">Gutter cleaning Selly Oak B29</a></li>
-  <li><a href="/blog/gutter-cleaning-acocks-green/" style="${link}">Gutter cleaning Acocks Green B27</a></li>
-  <li><a href="/blog/gutter-cleaning-balsall-heath/" style="${link}">Gutter cleaning Balsall Heath B12</a></li>
-  <li><a href="/blog/gutter-cleaning-yardley/" style="${link}">Gutter cleaning Yardley B25</a></li>
-  <li><a href="/blog/gutter-cleaning-nechells/" style="${link}">Gutter cleaning Nechells B7</a></li>
-  <li><a href="/blog/gutter-cleaning-ladywood/" style="${link}">Gutter cleaning Ladywood B16</a></li>
-  <li><a href="/blog/gutter-cleaning-birmingham-summer/" style="${link}">Summer gutter cleaning Birmingham</a></li>
-  <li><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a></li>
+  <li><a href="/blog/birmingham-gutter-inspection/" style="${link}">Gutter inspection saves Birmingham homeowners</a></li>
   <li><a href="/services/gutter-cleaning/" style="${link}">Professional gutter cleaning service</a></li>
 </ul>
 `,

@@ -5,9 +5,6 @@ import { blogPosts } from '@/constants/blogData';
 import { colors } from '@/constants/colors';
 import { Calendar, User, Eye, Share2, Phone, PenTool, BookOpen } from 'lucide-react';
 import Link from 'next/link';
-import AreaFAQ from '@/components/areas/AreaFAQ';
-import AreaReviews from '@/components/areas/AreaReviews';
-import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import BlogViewCount from '@/components/blog/BlogViewCount';
 import { formatBlogDate } from '@/lib/dateUtils';
 import { resolveBlogImageUrl } from '@/lib/blogImageUrl';
@@ -646,11 +643,6 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
           </div>
         </section>
       )}
-
-      {/* Additional Sections */}
-      <AreaBlogSnippet />
-      <AreaFAQ />
-      <AreaReviews />
 
       <style>{`
         .blog-detail-wrapper {
