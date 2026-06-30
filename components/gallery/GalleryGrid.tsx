@@ -41,7 +41,7 @@ const defaultItems: GalleryItem[] = [
     id: 4,
     title: 'Professional Experience',
     description: 'Experienced technicians at work on gutter maintenance',
-    image: '/Professional-experience.png',
+    image: '/professional-gutter-clean.png',
     category: 'Commercial'
   },
   {

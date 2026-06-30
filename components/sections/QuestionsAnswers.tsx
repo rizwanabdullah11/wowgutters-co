@@ -100,7 +100,7 @@ export default function QuestionsAnswers() {
           <div className="qa-sidebar-col">
             <div className="qa-sidebar-card">
               <Image
-                src="/Professional-experience.png"
+                src="/professional-gutter-clean.png"
                 alt="WOW Gutters Ltd help centre — ask our Birmingham gutter cleaning team"
                 width={400}
                 height={300}

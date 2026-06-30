@@ -4,7 +4,7 @@ import Link from 'next/link';
 const cards = [
   {
     id: 'inspect',
-    imageSrc: '/Professional-experience.png',
+    imageSrc: '/professional-gutter-clean.png',
     backgroundImage: '/gutter-inspection.jfif',
     imageAlt: 'Gutter inspection illustration',
     title: 'Inspect',
