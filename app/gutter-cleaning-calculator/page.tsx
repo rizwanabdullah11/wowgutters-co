@@ -18,6 +18,7 @@ import {
   type GutterLength,
   type PropertyType,
 } from '@/lib/gutterPriceCalculator';
+import { GUTTER_PRICING, formatGbp } from '@/constants/gutterPricing';
 
 const INCLUDED = [
   'Complete gutter clearance from ground level',
@@ -213,16 +214,24 @@ export default function GutterCleaningCalculator() {
               </div>
               <ul className="space-y-2 text-sm text-gray-700">
                 <li className="flex justify-between border-b border-gray-100 pb-2">
-                  <span>Terraced / bungalow</span>
-                  <span className="font-bold">from £50</span>
+                  <span>2 bedroom</span>
+                  <span className="font-bold">{formatGbp(GUTTER_PRICING.twoBedroom)}</span>
                 </li>
                 <li className="flex justify-between border-b border-gray-100 pb-2">
-                  <span>Semi-detached</span>
-                  <span className="font-bold">from £75</span>
+                  <span>3 bedroom</span>
+                  <span className="font-bold">{formatGbp(GUTTER_PRICING.threeBedroom)}</span>
+                </li>
+                <li className="flex justify-between border-b border-gray-100 pb-2">
+                  <span>Premium service</span>
+                  <span className="font-bold">{formatGbp(GUTTER_PRICING.premium)}</span>
+                </li>
+                <li className="flex justify-between border-b border-gray-100 pb-2">
+                  <span>Fascia &amp; soffit</span>
+                  <span className="font-bold">{formatGbp(GUTTER_PRICING.fasciaAndSoffit)}</span>
                 </li>
                 <li className="flex justify-between">
-                  <span>Detached</span>
-                  <span className="font-bold">from £95</span>
+                  <span>Installation</span>
+                  <span className="font-bold">{formatGbp(GUTTER_PRICING.installation)}</span>
                 </li>
               </ul>
               <Link

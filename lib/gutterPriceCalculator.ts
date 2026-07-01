@@ -1,30 +1,22 @@
-export type PropertyType = 'bungalow' | 'terraced' | 'semi' | 'detached';
-export type GutterLength = 'standard' | 'long' | 'very-long';
-export type GutterCondition = 'light' | 'moderate' | 'heavy';
+import type { GutterCondition, GutterLength, PropertyType } from '@/constants/gutterPricing';
+import { priceForBedrooms } from '@/constants/gutterPricing';
 
-const BASE_BY_TYPE: Record<PropertyType, number> = {
-  bungalow: 50,
-  terraced: 50,
-  semi: 75,
-  detached: 95,
-};
+export type { PropertyType, GutterLength, GutterCondition };
 
-/** Estimate aligned with gutter-cleaning-prices page (from £50 residential). */
+/** Ballpark estimate from bedroom count (+ small adjustment for heavy blockages). */
 export function estimateGutterCleaningPrice(input: {
   propertyType: PropertyType;
   bedrooms: number;
   gutterLength: GutterLength;
   condition: GutterCondition;
 }): number {
-  let price = BASE_BY_TYPE[input.propertyType];
-  const extraBedrooms = Math.max(0, input.bedrooms - 3);
-  price += extraBedrooms * 10;
+  let price = priceForBedrooms(input.bedrooms);
 
-  if (input.gutterLength === 'long') price += 15;
-  else if (input.gutterLength === 'very-long') price += 30;
+  if (input.gutterLength === 'long') price += 10;
+  else if (input.gutterLength === 'very-long') price += 20;
 
-  if (input.condition === 'moderate') price += 10;
-  else if (input.condition === 'heavy') price += 25;
+  if (input.condition === 'moderate') price += 5;
+  else if (input.condition === 'heavy') price += 15;
 
   return price;
 }
