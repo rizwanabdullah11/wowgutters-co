@@ -50,7 +50,7 @@ export default function PricingCard({
 
   return (
     <div
-      className={`bg-white rounded-xl shadow-lg p-8 border-t-4 ${colors.border} ${
+      className={`bg-white text-gray-900 rounded-xl shadow-lg p-8 border-t-4 ${colors.border} ${
         popular ? 'transform lg:scale-105 relative' : ''
       } transition-all hover:shadow-2xl`}
     >
@@ -61,12 +61,12 @@ export default function PricingCard({
       )}
       
       <div className="text-center mb-6">
-        <h3 className="text-2xl font-bold mb-3">{title}</h3>
+        <h3 className="text-2xl font-bold mb-3 text-gray-900">{title}</h3>
         <div className={`text-5xl font-bold ${colors.text} mb-2`}>
           {price}
         </div>
         {priceSubtext && (
-          <p className="text-gray-500 text-sm">{priceSubtext}</p>
+          <p className="text-gray-600 text-sm">{priceSubtext}</p>
         )}
       </div>
 

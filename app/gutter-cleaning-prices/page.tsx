@@ -5,6 +5,7 @@ import { colors } from '@/constants/colors';
 import PricingCard from '@/components/pricing/PricingCard';
 import { PoundSterling, CheckCircle, Phone, TrendingDown, Shield } from 'lucide-react';
 import Link from 'next/link';
+import { GUTTER_PRICING, formatGbp } from '@/constants/gutterPricing';
 
 export default function GutterCleaningPrices() {
   const handleGetQuote = () => {
@@ -36,9 +37,9 @@ export default function GutterCleaningPrices() {
           offers: {
             '@type': 'AggregateOffer',
             priceCurrency: 'GBP',
-            lowPrice: '50',
-            highPrice: '120',
-            offerCount: '3',
+            lowPrice: '100',
+            highPrice: '300',
+            offerCount: '6',
           },
         },
         {
@@ -117,25 +118,40 @@ export default function GutterCleaningPrices() {
             </p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mb-16">
+          <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4 mb-16">
             <PricingCard
               title="Basic Service"
-              price="£45"
-              priceSubtext="Starting from"
+              price={formatGbp(GUTTER_PRICING.twoBedroom)}
+              priceSubtext="2 bedroom — fixed price"
               color="blue"
               features={[
                 'Standard gutter cleaning',
                 'Debris removal',
                 'Basic inspection',
+                'Up to 2 bedrooms',
+                'Ground floor access',
+              ]}
+              onButtonClick={handleGetQuote}
+            />
+
+            <PricingCard
+              title="3 Bedroom Service"
+              price={formatGbp(GUTTER_PRICING.threeBedroom)}
+              priceSubtext="3 bedroom — fixed price"
+              color="orange"
+              features={[
+                'Standard gutter cleaning',
+                'Debris removal',
+                'Basic inspection',
                 'Up to 3 bedrooms',
-                'Ground floor access'
+                'Ground & first floor access',
               ]}
               onButtonClick={handleGetQuote}
             />
 
             <PricingCard
               title="Premium Service"
-              price="£75"
+              price={formatGbp(GUTTER_PRICING.premium)}
               priceSubtext="Starting from"
               color="green"
               popular={true}
@@ -145,7 +161,7 @@ export default function GutterCleaningPrices() {
                 'Full inspection report',
                 'Before/after photos',
                 'All property sizes',
-                'Up to 2 stories'
+                'Up to 2 stories',
               ]}
               onButtonClick={handleGetQuote}
             />
@@ -161,11 +177,21 @@ export default function GutterCleaningPrices() {
                 'Priority service',
                 'Dedicated account manager',
                 'Multi-property discounts',
-                'Flexible scheduling'
+                'Flexible scheduling',
               ]}
               buttonText="Contact Us"
               onButtonClick={handleGetQuote}
             />
+          </div>
+
+          <div className="mb-4 text-center">
+            <p className="text-lg text-gray-600">
+              Larger properties?{' '}
+              <Link href="/gutter-cleaning-calculator/" className="font-bold" style={{ color: colors.primary }}>
+                Use our calculator
+              </Link>{' '}
+              for 4+ bedroom and custom quotes
+            </p>
           </div>
         </div>
       </section>
@@ -225,7 +251,9 @@ export default function GutterCleaningPrices() {
 
             <div className="bg-white rounded-2xl shadow-lg p-8 border-l-4 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1" style={{ borderColor: colors.cta }}>
               <h3 className="text-2xl font-bold mb-3 text-gray-900">Fascia & Soffit Cleaning</h3>
-              <p className="text-3xl font-black mb-2" style={{ color: colors.primary }}>From £40</p>
+              <p className="text-3xl font-black mb-2" style={{ color: colors.primary }}>
+                {formatGbp(GUTTER_PRICING.fasciaAndSoffit)}
+              </p>
               <p className="text-gray-600 mb-4">Complete exterior cleaning</p>
               <ul className="space-y-2">
                 <li className="flex items-center gap-2 text-gray-600">
@@ -244,9 +272,11 @@ export default function GutterCleaningPrices() {
             </div>
 
             <div className="bg-white rounded-2xl shadow-lg p-8 border-l-4 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1" style={{ borderColor: colors.cta }}>
-              <h3 className="text-2xl font-bold mb-3 text-gray-900">Gutter Guard Installation</h3>
-              <p className="text-3xl font-black mb-2" style={{ color: colors.primary }}>From £100</p>
-              <p className="text-gray-600 mb-4">Prevent future blockages</p>
+              <h3 className="text-2xl font-bold mb-3 text-gray-900">Gutter Installation</h3>
+              <p className="text-3xl font-black mb-2" style={{ color: colors.primary }}>
+                {formatGbp(GUTTER_PRICING.installation)}
+              </p>
+              <p className="text-gray-600 mb-4">Professional supply and installation</p>
               <ul className="space-y-2">
                 <li className="flex items-center gap-2 text-gray-600">
                   <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />

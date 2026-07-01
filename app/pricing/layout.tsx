@@ -6,7 +6,7 @@ import PageSchema from '@/components/seo/PageSchema';
 export const metadata: Metadata = buildMetadata({
   title: 'Gutter Cleaning Prices',
   description:
-    'Transparent gutter cleaning prices in Birmingham and the West Midlands. Terraced homes from £50, semis and detached quoted upfront. Free quote — call WOW Gutters Ltd: 07421 433910.',
+    'Transparent gutter cleaning prices in Birmingham and the West Midlands. 2-bed £100, 3-bed £110, premium £200, fascia & soffit £90, installation £300. Free quote — call WOW Gutters Ltd: 07421 433910.',
   canonicalPath: '/pricing/',
 });
 
