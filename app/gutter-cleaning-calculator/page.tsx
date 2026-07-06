@@ -50,12 +50,6 @@ export default function GutterCleaningCalculator() {
     );
   };
 
-  const openQuote = () => {
-    const opener = (window as Window & { wowOpenCtaDialog?: () => void }).wowOpenCtaDialog;
-    if (typeof opener === 'function') opener();
-    else window.location.href = '/quote/';
-  };
-
   const inputClass =
     'w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-gray-900 shadow-sm transition focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20';
 
@@ -173,7 +167,10 @@ export default function GutterCleaningCalculator() {
                   <div className="mt-5 flex flex-col gap-3 sm:flex-row">
                     <button
                       type="button"
-                      onClick={openQuote}
+                      data-static-quote-open
+                      data-analytics-label="calculator_accurate_quote"
+                      aria-haspopup="dialog"
+                      aria-controls="wow-cta-dialog"
                       className="inline-flex flex-1 items-center justify-center gap-2 rounded-full px-6 py-3 font-bold text-white"
                       style={{ background: colors.primaryGradient }}
                     >
@@ -293,7 +290,10 @@ export default function GutterCleaningCalculator() {
           </p>
           <button
             type="button"
-            onClick={openQuote}
+            data-static-quote-open
+            data-analytics-label="calculator_request_quote"
+            aria-haspopup="dialog"
+            aria-controls="wow-cta-dialog"
             className="mt-6 rounded-full px-8 py-4 font-bold text-white shadow-xl transition hover:scale-105"
             style={{ background: colors.primaryGradient }}
           >

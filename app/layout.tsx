@@ -250,8 +250,8 @@ fbq('track', 'PageView');`,
             __html: `(function(){var k=${JSON.stringify(process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || "")};window.__WOW_QUOTE__=window.__WOW_QUOTE__||{};if(k && !window.__WOW_QUOTE__.web3formsAccessKey)window.__WOW_QUOTE__.web3formsAccessKey=k;})();`,
           }}
         />
-        <script src="/wow-cta-dialog-init.js?v=20260421" defer />
-        <script src="/wow-quote-form-init.js?v=20260421" defer />
+        <script src="/wow-cta-dialog-init.js?v=20260706" defer />
+        <script src="/wow-quote-form-init.js?v=20260706" defer />
         <script src="/wow-elfsight-init.js?v=20260630" defer />
       </body>
     </html>
