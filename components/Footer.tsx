@@ -66,7 +66,7 @@ export default function Footer() {
     { name: 'The Gutter Gallery', path: '/the-gutter-gallery' },
     { name: 'Neighbourhood Discount', path: '/neighbourhood-discount' },
     { name: 'OAP Discount', path: '/oap-discount' },
-    { name: 'Gutter Cleaning Prices', path: '/gutter-cleaning-prices' },
+    { name: 'Prices', path: '/gutter-cleaning-prices' },
     { name: 'Quotes', path: '/quote' },
     { name: 'Contact Us', path: '/contact' }
   ];
