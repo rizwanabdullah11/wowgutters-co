@@ -617,7 +617,7 @@ export default function BirminghamGutterCleaningPage() {
             </a>
           </p>
           <p className="text-slate-500 text-sm">
-            Mon–Fri 7am–8pm · Sat 9am–6pm · Sun 10am–6pm
+            Open 24 hours a day, 7 days a week
           </p>
           <p className="text-slate-500 text-sm mt-6 max-w-lg mx-auto">
             WOW Gutters Ltd — professional gutter cleaning and roofline services across Birmingham, West Midlands and

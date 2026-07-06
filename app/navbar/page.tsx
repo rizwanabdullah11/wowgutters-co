@@ -111,7 +111,7 @@ export default function Navbar() {
             {/* Center: OPEN status */}
             <div className="flex flex-col items-center justify-center mt-1">
               <span className="text-slate-900 text-2xl font-black leading-none tracking-widest drop-shadow-sm" style={{ color: colors.navy }}>OPEN</span>
-              <span className="text-slate-500 text-[10px] font-bold tracking-[0.2em] uppercase mt-0.5">7 Days a Week</span>
+              <span className="text-slate-500 text-[10px] font-bold tracking-[0.2em] uppercase mt-0.5">24 Hours</span>
             </div>
 
             {/* Right: Email + Phone */}
@@ -147,8 +147,8 @@ export default function Navbar() {
           <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
             <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
               <span className="text-center">📞 Contact your nearest technician</span>
-              <span className="font-semibold hidden sm:inline">| OPEN 7 DAYS A WEEK</span>
-              <span className="font-semibold sm:hidden">OPEN 7 DAYS</span>
+              <span className="font-semibold hidden sm:inline">| OPEN 24 HOURS</span>
+              <span className="font-semibold sm:hidden">OPEN 24 HRS</span>
             </div>
             <div className="hidden md:flex gap-4">
               <Link href="/reviews" className="hover:underline">Review Us</Link>

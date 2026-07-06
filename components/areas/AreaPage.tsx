@@ -287,7 +287,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
         title={`5-Star Gutter Cleaning in ${formattedArea}`}
         descriptions={[
           `WOW Gutters Ltd holds a 4.9-star rating from over 2,696 verified Google reviews. Our ${formattedArea} customers consistently highlight our punctuality, the quality of our before and after photos, and the honesty of our condition reports.`,
-          `We use the latest high-reach vacuum technology to clean gutters efficiently and safely. Our vans are fully stocked so we can carry out minor repairs on the same visit. We operate 7 days a week and aim to offer bookings within 2–5 working days, with same-day availability sometimes possible.`,
+          `We use the latest high-reach vacuum technology to clean gutters efficiently and safely. Our vans are fully stocked so we can carry out minor repairs on the same visit. We are available 24 hours a day, 7 days a week and aim to offer bookings within 2–5 working days, with same-day availability sometimes possible.`,
           `Whether you need a one-off clean, a repair, or a planned maintenance schedule, call 07421 433910 or request a free quote online. We cover ${formattedArea} and all surrounding postcodes.`
         ]}
         iconSrc="/gutter-cleaning-icon.png"

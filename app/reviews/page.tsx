@@ -69,7 +69,7 @@ export default function ReviewsPage() {
           {[
             { value: GOOGLE_REVIEWS_SUMMARY.starsDisplay, label: 'Average Google rating' },
             { value: '2,696+', label: 'Verified customers' },
-            { value: '7 days', label: 'Open every week' },
+            { value: '24 hrs', label: 'Open every day' },
           ].map((stat) => (
             <div
               key={stat.label}

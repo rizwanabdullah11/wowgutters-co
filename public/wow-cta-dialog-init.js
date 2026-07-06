@@ -11,7 +11,11 @@
       return;
     }
     if (typeof d.showModal === "function") {
-      d.showModal();
+      try {
+        d.showModal();
+      } catch (_) {
+        window.location.href = "/quote/embed/";
+      }
     } else {
       window.location.href = "/quote/embed/";
     }

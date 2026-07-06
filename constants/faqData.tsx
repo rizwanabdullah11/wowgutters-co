@@ -144,7 +144,7 @@ export const allFAQs: FAQItem[] = [
   {
     id: 'gutter-cleaning-weekend',
     question: 'Do you work weekends?',
-    answer: 'Yes! We\'re open 7 days a week including weekends and bank holidays. We understand weekends are often more convenient, so we make sure our team is available when you need us.',
+    answer: 'Yes! We\'re open 24 hours a day, 7 days a week including weekends and bank holidays. Contact us any time — we\'re here when you need us.',
     category: 'General',
     icon: '📅'
   },

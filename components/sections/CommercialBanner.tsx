@@ -79,7 +79,7 @@ export default function CommercialBanner() {
             {/* Trust indicators */}
             <div className="commercial-trust">
               <div className="trust-item">
-                <span className="trust-number">7 Days</span>
+                <span className="trust-number">24 Hours</span>
                 <span className="trust-label">Available</span>
               </div>
               <div className="trust-divider"></div>

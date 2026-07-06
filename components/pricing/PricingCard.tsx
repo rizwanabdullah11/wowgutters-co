@@ -92,6 +92,11 @@ export default function PricingCard({
       </ul>
 
       <button
+        type="button"
+        data-static-quote-open
+        data-analytics-label={`pricing_${title.toLowerCase().replace(/\s+/g, '_')}`}
+        aria-haspopup="dialog"
+        aria-controls="wow-cta-dialog"
         onClick={onButtonClick}
         className={`w-full ${colors.button} text-white py-3 rounded-lg font-semibold transition-colors`}
       >

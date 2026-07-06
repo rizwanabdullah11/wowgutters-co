@@ -16,7 +16,7 @@ export function googleReviewsHeadline(city?: string): string {
 }
 
 export function googleReviewsSubline(): string {
-  return `${GOOGLE_REVIEWS_SUMMARY.ratingLabel}★ on Google · 1-year service guarantee · Before & after photos · 7 days a week.`;
+  return `${GOOGLE_REVIEWS_SUMMARY.ratingLabel}★ on Google · 1-year service guarantee · Before & after photos · Open 24 hours.`;
 }
 
 export function googleReviewsCrawlSummary(): string {

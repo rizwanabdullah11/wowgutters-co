@@ -26,7 +26,7 @@ export default function AboutContent() {
           </li>
           <li className="flex items-start">
             <span className="text-2xl mr-3" style={{ color: colors.primary }}>✓</span>
-            <span className="text-gray-700">Open 7 days a week for your convenience</span>
+            <span className="text-gray-700">Open 24 hours a day, 7 days a week</span>
           </li>
           <li className="flex items-start">
             <span className="text-2xl mr-3" style={{ color: colors.primary }}>✓</span>

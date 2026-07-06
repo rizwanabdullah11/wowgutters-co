@@ -3,6 +3,7 @@
  */
 
 import { SCHEMA_DATE_MODIFIED, SCHEMA_DATE_PUBLISHED } from '@/lib/schemaDates';
+import { OPENING_HOURS_SCHEMA } from '@/lib/businessHours';
 import { buildAreaWebPageNode } from '@/lib/pageSchemaGraphs';
 import { buildReviewSchemaFields } from '@/lib/reviewSchema';
 import type { AreaServiceKind } from '@/lib/areaServiceMeta';
@@ -133,26 +134,7 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
           { '@type': 'City', name: city },
           ...nearbyAreas.map((area) => ({ '@type': 'Place', name: area })),
         ],
-        openingHoursSpecification: [
-          {
-            '@type': 'OpeningHoursSpecification',
-            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-            opens: '07:00',
-            closes: '20:00',
-          },
-          {
-            '@type': 'OpeningHoursSpecification',
-            dayOfWeek: 'Saturday',
-            opens: '09:00',
-            closes: '18:00',
-          },
-          {
-            '@type': 'OpeningHoursSpecification',
-            dayOfWeek: 'Sunday',
-            opens: '10:00',
-            closes: '18:00',
-          },
-        ],
+        openingHoursSpecification: OPENING_HOURS_SCHEMA,
         aggregateRating,
         review,
         contactPoint: {
@@ -162,12 +144,7 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
           contactOption: 'TollFree',
           areaServed: 'GB',
           availableLanguage: 'English',
-          hoursAvailable: {
-            '@type': 'OpeningHoursSpecification',
-            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-            opens: '07:00',
-            closes: '20:00',
-          },
+          hoursAvailable: OPENING_HOURS_SCHEMA[0],
         },
         potentialAction: {
           '@type': 'CommunicateAction',

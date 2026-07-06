@@ -8,13 +8,7 @@ import Link from 'next/link';
 import { GUTTER_PRICING, formatGbp } from '@/constants/gutterPricing';
 
 export default function GutterCleaningPrices() {
-  const handleGetQuote = () => {
-    const opener = (window as Window & { wowOpenCtaDialog?: () => void }).wowOpenCtaDialog;
-    if (typeof opener === 'function') opener();
-    else window.location.href = '/quote/embed/';
-  };
-
-  // Add schema on mount
+  // Quote buttons use data-static-quote-open (wow-cta-dialog-init.js) for static-host reliability.
   useEffect(() => {
     const schema = {
       '@context': 'https://schema.org',
@@ -131,7 +125,6 @@ export default function GutterCleaningPrices() {
                 'Up to 2 bedrooms',
                 'Ground floor access',
               ]}
-              onButtonClick={handleGetQuote}
             />
 
             <PricingCard
@@ -146,7 +139,6 @@ export default function GutterCleaningPrices() {
                 'Up to 3 bedrooms',
                 'Ground & first floor access',
               ]}
-              onButtonClick={handleGetQuote}
             />
 
             <PricingCard
@@ -163,7 +155,6 @@ export default function GutterCleaningPrices() {
                 'All property sizes',
                 'Up to 2 stories',
               ]}
-              onButtonClick={handleGetQuote}
             />
 
             <PricingCard
@@ -180,7 +171,6 @@ export default function GutterCleaningPrices() {
                 'Flexible scheduling',
               ]}
               buttonText="Contact Us"
-              onButtonClick={handleGetQuote}
             />
           </div>
 

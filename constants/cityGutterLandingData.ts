@@ -1,4 +1,4 @@
-﻿import type { ReactNode } from 'react';
+import type { ReactNode } from 'react';
 
 export type CityGutterLandingFaq = {
   question: string;
@@ -66,7 +66,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Coventry',
     propertyTypes: [
@@ -151,7 +151,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Walsall',
     propertyTypes: [
@@ -237,7 +237,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Dudley',
     propertyTypes: [
@@ -322,7 +322,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Sandwell',
     propertyTypes: [
@@ -407,7 +407,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Worcester',
     propertyTypes: [
@@ -496,7 +496,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Redditch',
     propertyTypes: [
@@ -581,7 +581,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Bromsgrove',
     propertyTypes: [
@@ -670,7 +670,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Kidderminster',
     propertyTypes: [
@@ -755,7 +755,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Malvern',
     propertyTypes: [
@@ -841,7 +841,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Evesham',
     propertyTypes: [
@@ -930,7 +930,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Droitwich Spa',
     propertyTypes: [
@@ -1018,7 +1018,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Solihull',
     propertyTypes: [
@@ -1074,7 +1074,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Sutton Coldfield',
     propertyTypes: [
@@ -1162,7 +1162,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Halesowen',
     propertyTypes: [
@@ -1213,7 +1213,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Tamworth',
     propertyTypes: [
@@ -1264,7 +1264,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Stourbridge',
     propertyTypes: [
@@ -1315,7 +1315,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Smethwick',
     propertyTypes: [
@@ -1366,7 +1366,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Oldbury',
     propertyTypes: [
@@ -1447,7 +1447,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types Across the West Midlands',
     propertyTypes: [
@@ -1539,7 +1539,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Aston',
     propertyTypes: [
@@ -1641,7 +1641,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Edgbaston',
     propertyTypes: [
@@ -1739,7 +1739,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Selly Oak',
     propertyTypes: [
@@ -1837,7 +1837,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Harborne',
     propertyTypes: [
@@ -1935,7 +1935,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Handsworth',
     propertyTypes: [
@@ -2034,7 +2034,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys \u201D period homes, detached villas and semis',
       'Before & after photos included as standard on every job',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Handsworth Wood',
     propertyTypes: [
@@ -2085,7 +2085,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys \u201D terraces, semis and detached homes',
       'Before & after photos included as standard on every job',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Erdington',
     propertyTypes: [
@@ -2136,7 +2136,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys \u201D semis, terraces and detached homes',
       'Before & after photos included as standard on every job',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Kingstanding',
     propertyTypes: [
@@ -2187,7 +2187,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys \u201D terraces, semis and detached homes',
       'Before & after photos included as standard on every job',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Perry Barr',
     propertyTypes: [
@@ -2238,7 +2238,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys \u201D detached homes, semis and bungalows',
       'Before & after photos included as standard on every job',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Great Barr',
     propertyTypes: [
@@ -2289,7 +2289,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys \u201D terraces, semis and detached homes',
       'Before & after photos included as standard on every job',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Yardley',
     propertyTypes: [
@@ -2341,7 +2341,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       'Free roofline condition report \u201D we flag any repairs needed',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Every Property Type in Acocks Green \u201D Covered',
     propertyTypes: [
@@ -2393,7 +2393,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys \u201D terraces, semis and detached homes',
       'Before & after photos included as standard on every job',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Stechford',
     propertyTypes: [
@@ -2444,7 +2444,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys \u201D terraces, semis and detached homes',
       'Before & after photos included as standard on every job',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Shard End',
     propertyTypes: [
@@ -2496,7 +2496,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       'Free written roofline condition report \u201D we flag any repairs needed',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for Moseley\'s Period Properties',
     propertyTypes: [
@@ -2548,7 +2548,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       'Free written roofline condition report on every visit',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Balsall Heath',
     propertyTypes: [
@@ -2600,7 +2600,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       'Free written roofline condition report on every visit',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Kings Norton',
     propertyTypes: [
@@ -2652,7 +2652,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       'Free written roofline condition report — we flag any repairs needed',
       'Fully insured — comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Every Property Type in Hall Green — Covered',
     propertyTypes: [
@@ -2704,7 +2704,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       'Free written roofline condition report on every visit',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in West Bromwich',
     propertyTypes: [
@@ -2756,7 +2756,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       'Free written roofline condition report on every visit',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Cannock',
     propertyTypes: [
@@ -2808,7 +2808,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       'Free written roofline condition report \u201D we flag any repairs needed',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Every Property Type in Northfield \u201D Covered',
     propertyTypes: [
@@ -2899,7 +2899,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys — terraces, semis and detached homes',
       'Before & after photos included as standard on every job',
       'Fully insured — comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Hodge Hill',
     propertyTypes: [
@@ -2950,7 +2950,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys — terraces, semis and converted flats',
       'Before & after photos included as standard on every job',
       'Fully insured — comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Saltley',
     propertyTypes: [
@@ -3001,7 +3001,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys — terraces, semis and converted flats',
       'Before & after photos included as standard on every job',
       'Fully insured — comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Small Heath',
     propertyTypes: [
@@ -3052,7 +3052,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys — terraces, semis and converted flats',
       'Before & after photos included as standard on every job',
       'Fully insured — comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Sparkbrook',
     propertyTypes: [
@@ -3103,7 +3103,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys — terraces, semis and detached homes',
       'Before & after photos included as standard on every job',
       'Fully insured — comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Sparkhill',
     propertyTypes: [
