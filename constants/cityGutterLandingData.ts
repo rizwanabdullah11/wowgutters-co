@@ -1,4 +1,4 @@
-ï»¿import type { ReactNode } from 'react';
+import type { ReactNode } from 'react';
 
 export type CityGutterLandingFaq = {
   question: string;
@@ -41,7 +41,7 @@ export type CityGutterLandingData = {
   ctaHeading?: string;
   /** Max price range for schema */
   priceTo?: number;
-  /** Location-specific paragraph (audit 08.03 â€” unique body copy per area page) */
+  /** Location-specific paragraph (audit 08.03 — unique body copy per area page) */
   localSpotlight?: string;
 };
 
@@ -51,8 +51,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Coventry',
     titleTag: 'Gutter Cleaning Coventry | WOW Gutters Ltd \u201D Free Quote',
     metaDescription:
-      'Professional gutter cleaning in Coventry from Â£50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
-    h1: 'Gutter Cleaning Coventry â€” Professional Service Across CV1-CV8',
+      'Professional gutter cleaning in Coventry from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
+    h1: 'Gutter Cleaning Coventry — Professional Service Across CV1-CV8',
     heroIntro:
       "Coventry is the UK's most bombed city outside London and was extensively rebuilt after the Second World War \u201D which means a significant proportion of the housing stock dates from the 1950s and 1960s. Post-war terraces and semis dominate Foleshill, Radford and Bell Green, while the areas around Allesley Park and Earlsdon contain older pre-war properties with cast iron gutter systems that need particular attention. The Coventry Ring Road corridor creates wind funnelling that accelerates debris build-up on rooflines. WOW Gutters Ltd serves all Coventry postcodes with our ground-level vacuum system \u201D no ladders, no risk, no mess.",
     whyTitle: 'Coventry Gutters \u201D Why They Block and Why It Matters',
@@ -66,7 +66,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Coventry',
     propertyTypes: [
@@ -136,8 +136,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Walsall',
     titleTag: 'Gutter Cleaning Walsall | WOW Gutters Ltd',
     metaDescription:
-      'Professional gutter cleaning in Walsall from Â£50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
-    h1: 'Gutter Cleaning Walsall â€” Reliable Service Across WS1-WS9',
+      'Professional gutter cleaning in Walsall from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
+    h1: 'Gutter Cleaning Walsall — Reliable Service Across WS1-WS9',
     heroIntro:
       "Walsall is the heart of the Black Country \u201D a former industrial powerhouse now home to a diverse mix of Victorian terraces, 1930s semis and post-war housing estates. The elevated ground around Walsall town centre and the residential streets of Streetly, Aldridge and Brownhills to the north sit on the edge of Cannock Chase, meaning these areas experience above-average wind exposure and leaf fall from adjacent countryside. Properties near Walsall Arboretum and along the canal network benefit from our annual clean service. The Walsall FC stadium area on Bescot is surrounded by terraced housing that needs regular gutter maintenance.",
     whyTitle: 'Why Walsall Homeowners Need Regular Gutter Cleaning',
@@ -151,7 +151,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Walsall',
     propertyTypes: [
@@ -222,8 +222,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Dudley',
     titleTag: 'Gutter Cleaning Dudley | WOW Gutters Ltd',
     metaDescription:
-      'Professional gutter cleaning in Dudley from Â£50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
-    h1: 'Gutter Cleaning Dudley â€” Expert Service Across the Black Country',
+      'Professional gutter cleaning in Dudley from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
+    h1: 'Gutter Cleaning Dudley — Expert Service Across the Black Country',
     heroIntro:
       "Dudley sits at the heart of the Black Country, dominated by Dudley Castle and its famous zoo on a hill that is visible for miles. The borough contains some of the most diverse housing in the West Midlands \u201D from the Victorian back-to-backs of Netherton and Cradley Heath to the large detached homes of Pedmore and Hagley. Properties near the Dudley Canal and close to the Waterfront development experience debris from adjacent mature woodland. Stourbridge Road and the A459 corridor contain a mix of 1930s and post-war housing that benefits from our annual clean service.",
     whyTitle: 'Gutter Cleaning in Dudley \u201D What Makes the Black Country Different',
@@ -237,7 +237,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Dudley',
     propertyTypes: [
@@ -307,8 +307,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Sandwell',
     titleTag: 'Gutter Cleaning Sandwell & West Bromwich | WOW Gutters Ltd',
     metaDescription:
-      'Professional gutter cleaning in Sandwell & West Bromwich from Â£50. Vacuum system, before & after photos, 1-year guarantee. Call: 07421 433910.',
-    h1: 'Gutter Cleaning Sandwell â€” Professional Service for West Bromwich, Smethwick & Beyond',
+      'Professional gutter cleaning in Sandwell & West Bromwich from £50. Vacuum system, before & after photos, 1-year guarantee. Call: 07421 433910.',
+    h1: 'Gutter Cleaning Sandwell — Professional Service for West Bromwich, Smethwick & Beyond',
     heroIntro:
       "Sandwell Metropolitan Borough covers a densely populated urban area between Birmingham and Wolverhampton \u201D including West Bromwich, Smethwick, Oldbury, Tipton, Wednesbury and Rowley Regis. The housing is predominantly Victorian and Edwardian terraces in Smethwick and West Bromwich, with 1930s and post-war semis in Oldbury and Rowley Regis. Properties near West Bromwich Albion FC at The Hawthorns are surrounded by some of the densest terraced housing in the West Midlands. The areas around Sandwell Valley Country Park experience significant leaf fall each autumn.",
     whyTitle: 'Why Sandwell Properties Need Regular Gutter Maintenance',
@@ -322,7 +322,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Sandwell',
     propertyTypes: [
@@ -392,8 +392,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Worcester',
     titleTag: 'Gutter Cleaning Worcester | WOW Gutters Ltd',
     metaDescription:
-      'Professional gutter cleaning in Worcester from Â£55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
-    h1: 'Gutter Cleaning Worcester â€” Professional Service Across WR1-WR14',
+      'Professional gutter cleaning in Worcester from £55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
+    h1: 'Gutter Cleaning Worcester — Professional Service Across WR1-WR14',
     heroIntro:
       "Worcester is one of England's great cathedral cities, sitting on the River Severn in the heart of Worcestershire. The city combines a medieval and Georgian core with extensive Victorian and Edwardian suburbs along the London Road and Sidbury corridors, and more modern residential development in Warndon Villages and St John's. Properties near the river are particularly susceptible to moisture and require well-maintained guttering to prevent additional damp. The mature elms and oaks of Worcester's parks and residential streets shed significant leaf debris each autumn \u201D particularly around Rainbow Hill and St John's.",
     whyTitle: 'Why Worcester Gutters Need Regular Attention',
@@ -407,7 +407,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Worcester',
     propertyTypes: [
@@ -481,8 +481,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Redditch',
     titleTag: 'Gutter Cleaning Redditch | WOW Gutters Ltd',
     metaDescription:
-      'Professional gutter cleaning in Redditch from Â£55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
-    h1: 'Gutter Cleaning Redditch â€” Professional Service Across B97-B98',
+      'Professional gutter cleaning in Redditch from £55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
+    h1: 'Gutter Cleaning Redditch — Professional Service Across B97-B98',
     heroIntro:
       "Redditch was designated a New Town in 1964 and most of its housing was built between the 1970s and 1990s \u201D making it one of the youngest towns in Worcestershire. The distinctive arrow-shaped town plan divides the residential areas into distinct zones \u201D Church Hill, Matchborough, Winyates, Batchley and Lodge Park. These 1970s\u20131980s housing estates have guttering that is now approaching 40\u201350 years old and in many cases has never been professionally cleaned. The Arrow Valley Country Park creates above-average leaf fall on the properties closest to the eastern edge of the town.",
     whyTitle: 'Gutter Cleaning in Redditch \u201D What You Need to Know',
@@ -496,7 +496,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Redditch',
     propertyTypes: [
@@ -566,8 +566,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Bromsgrove',
     titleTag: 'Gutter Cleaning Bromsgrove | WOW Gutters Ltd',
     metaDescription:
-      'Professional gutter cleaning in Bromsgrove from Â£55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
-    h1: 'Gutter Cleaning Bromsgrove â€” Professional Service Across B60-B61',
+      'Professional gutter cleaning in Bromsgrove from £55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
+    h1: 'Gutter Cleaning Bromsgrove — Professional Service Across B60-B61',
     heroIntro:
       "Bromsgrove is a historic market town on the southern edge of the West Midlands conurbation, sitting at the foot of the Lickey Hills and surrounded by Worcestershire countryside. The town combines a Victorian high street with residential streets of Edwardian semis and 1930s detached homes in Sidemoor and Charford. Properties nearest the Lickey Hills experience the heaviest leaf fall in the area \u201D particularly in Lickey, Barnt Green and Blackwell. The B60 and B61 postcodes include some of the most sought-after residential addresses in Worcestershire.",
     whyTitle: 'Why Bromsgrove Properties Need Specialist Gutter Care',
@@ -581,7 +581,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Bromsgrove',
     propertyTypes: [
@@ -655,8 +655,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Kidderminster',
     titleTag: 'Gutter Cleaning Kidderminster | WOW Gutters Ltd',
     metaDescription:
-      'Professional gutter cleaning in Kidderminster from Â£55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call: 07421 433910.',
-    h1: 'Gutter Cleaning Kidderminster â€” Professional Service Across DY10-DY11',
+      'Professional gutter cleaning in Kidderminster from £55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call: 07421 433910.',
+    h1: 'Gutter Cleaning Kidderminster — Professional Service Across DY10-DY11',
     heroIntro:
       "Kidderminster is Worcestershire\u2019s second largest town, historically famous for its carpet manufacturing industry \u201D many of the town\u2019s older properties still have the solid construction associated with Victorian industrial prosperity. The town sits in the Stour Valley and is surrounded by the Wyre Forest, one of the largest ancient oak woodlands in England. Properties along the Wyre Forest edge in Habberley, Blakedown and Wolverley experience the most significant leaf fall of any area we serve \u201D heavy oak leaf accumulation from September through to December.",
     whyTitle: 'Gutter Cleaning in Kidderminster \u201D Local Knowledge, Professional Results',
@@ -670,7 +670,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Kidderminster',
     propertyTypes: [
@@ -740,8 +740,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Malvern',
     titleTag: 'Gutter Cleaning Malvern | WOW Gutters Ltd',
     metaDescription:
-      'Professional gutter cleaning in Malvern from Â£60. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
-    h1: 'Gutter Cleaning Malvern â€” Professional Service for WR13-WR14 Properties',
+      'Professional gutter cleaning in Malvern from £60. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
+    h1: 'Gutter Cleaning Malvern — Professional Service for WR13-WR14 Properties',
     heroIntro:
       "Malvern is one of the most scenic towns in England, clustered around the dramatic Malvern Hills \u201D a 9-mile ridge of ancient Precambrian rock rising to over 400 metres. The town's Victorian spa heritage means the housing stock is dominated by large Victorian and Edwardian villas, many with original or early replacement cast iron guttering on complex multi-section rooflines. Properties on the hillside above Great Malvern have the most challenging access \u201D our 4-storey vacuum reach handles these without scaffolding. The Malvern Hills themselves create a micro-climate with higher rainfall than surrounding areas.",
     whyTitle: 'Why Malvern Properties Need Specialist Gutter Care',
@@ -755,7 +755,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Malvern',
     propertyTypes: [
@@ -826,8 +826,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Evesham',
     titleTag: 'Gutter Cleaning Evesham | WOW Gutters Ltd',
     metaDescription:
-      'Professional gutter cleaning in Evesham from Â£55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
-    h1: 'Gutter Cleaning Evesham â€” Professional Service for WR11 Properties',
+      'Professional gutter cleaning in Evesham from £55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
+    h1: 'Gutter Cleaning Evesham — Professional Service for WR11 Properties',
     heroIntro:
       "Evesham sits in the Vale of Evesham \u201D the most productive market gardening area in England, famous for its asparagus, plums and apples. The town centre is characterised by Georgian and Victorian buildings along the High Street and Bridge Street, with residential streets of 1930s semis and post-war housing extending towards Bengeworth and Hampton. The River Avon loops around three sides of the town, and properties near the riverside experience elevated moisture levels that make clean, well-maintained guttering particularly important for preventing damp. The town's mature orchard boundary trees contribute significantly to autumn leaf fall.",
     whyTitle: 'Gutter Cleaning in the Vale of Evesham \u201D Rural Challenges',
@@ -841,7 +841,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Evesham',
     propertyTypes: [
@@ -915,8 +915,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Droitwich Spa',
     titleTag: 'Gutter Cleaning Droitwich Spa | WOW Gutters Ltd',
     metaDescription:
-      'Professional gutter cleaning in Droitwich Spa from Â£55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call: 07421 433910.',
-    h1: 'Gutter Cleaning Droitwich Spa â€” Professional Service for WR9 Properties',
+      'Professional gutter cleaning in Droitwich Spa from £55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call: 07421 433910.',
+    h1: 'Gutter Cleaning Droitwich Spa — Professional Service for WR9 Properties',
     heroIntro:
       "Droitwich Spa is one of England's oldest spa towns, with a history of salt extraction dating back to Roman times. Today it is a prosperous Worcestershire town with a mix of Victorian spa-era villas, 1930s and post-war semis, and new development around Westlands. The town sits midway between Birmingham and Worcester on the A38, making it a popular commuter location. Properties in the old spa district around Victoria Square and along the Vines Park have original Victorian gutter systems that require careful maintenance. The town's elevated position west of the M5 means properties on the western edge experience higher wind exposure.",
     whyTitle: 'Gutter Cleaning Droitwich Spa \u201D Historic Town, Modern Solutions',
@@ -930,7 +930,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Droitwich Spa',
     propertyTypes: [
@@ -1003,8 +1003,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Solihull',
     titleTag: 'Gutter Cleaning Solihull | WOW Gutters Ltd \u201D Free Quote',
     metaDescription:
-      'Professional gutter cleaning in Solihull from Â£55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
-    h1: 'Gutter Cleaning Solihull â€” Professional Service Across B90-B94',
+      'Professional gutter cleaning in Solihull from £55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
+    h1: 'Gutter Cleaning Solihull — Professional Service Across B90-B94',
     heroIntro:
       "Solihull is one of the most prosperous boroughs in the UK \u201D its housing stock reflects this, with a high proportion of detached homes and large semis in Dorridge, Knowle, Bentley Heath and Cheswick Green. Properties around Tudor Grange Park and near Touchwood Shopping Centre include many executive homes with complex rooflines and conservatory additions. The Meriden Gap woodland corridors to the north and east of Solihull create above-average leaf fall on residential streets each autumn. WOW Gutters Ltd serves all Solihull postcodes with same-day availability, using our ground-level vacuum system \u201D no ladders placed against your property.",
     whyTitle: 'Why Solihull Gutters Need Regular Cleaning',
@@ -1018,7 +1018,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Solihull',
     propertyTypes: [
@@ -1059,8 +1059,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Sutton Coldfield',
     titleTag: 'Gutter Cleaning Sutton Coldfield | WOW Gutters Ltd \u201D Free Quote',
     metaDescription:
-      'Professional gutter cleaning in Sutton Coldfield from Â£50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
-    h1: 'Gutter Cleaning Sutton Coldfield â€” Expert Service Across the Royal Town',
+      'Professional gutter cleaning in Sutton Coldfield from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
+    h1: 'Gutter Cleaning Sutton Coldfield — Expert Service Across the Royal Town',
     heroIntro:
       'WOW Gutters Ltd provides professional gutter cleaning across Sutton Coldfield and the surrounding areas, serving homeowners from Four Oaks and Boldmere to Wylde Green, Mere Green and Walmley. Sutton Coldfield\'s leafy character and proximity to Sutton Park \u201D one of the largest urban parks in Europe \u201D means the town\'s residential streets are lined with mature oak, beech and lime trees that shed enormous volumes of leaves and seeds into gutters every autumn. Our ground-based high-reach vacuum system cleans your gutters safely without ladders, reaching up to four storeys and leaving no mess behind.',
     whyTitle: 'Why Sutton Coldfield Gutters Need Regular Cleaning',
@@ -1074,7 +1074,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Sutton Coldfield',
     propertyTypes: [
@@ -1148,7 +1148,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     titleTag: 'Gutter Cleaning Halesowen | WOW Gutters Ltd \u201D Free Quote',
     metaDescription:
       'Professional gutter cleaning in Halesowen. Ground-level vacuum system, no ladders, before & after photos, 1-year guarantee. Call 07421 433910.',
-    h1: 'Gutter Cleaning Halesowen â€” Reliable & Professional Service',
+    h1: 'Gutter Cleaning Halesowen — Reliable & Professional Service',
     heroIntro:
       'WOW Gutters Ltd provides professional gutter cleaning across Halesowen and the surrounding areas, covering B62 and B63 postcodes. From the town centre properties near Manor Way and the historic Leasowes to the residential streets of Hasbury, Lapal, Hayley Green and the villages of Hunnington and Romsley \u201D our ground-level high-reach vacuum system handles every property type safely, without ladders against your walls. Every job includes before and after photos as standard.',
     whyTitle: 'Why Halesowen Properties Need Regular Gutter Cleaning',
@@ -1162,7 +1162,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Halesowen',
     propertyTypes: [
@@ -1198,8 +1198,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Tamworth',
     titleTag: 'Gutter Cleaning Tamworth | WOW Gutters Ltd \u201D Free Quote',
     metaDescription:
-      'Professional gutter cleaning in Tamworth from Â£50. No-ladder vacuum system, before & after photos, fully insured, 1-year guarantee. Call 07421 433910.',
-    h1: 'Gutter Cleaning Tamworth â€” Thorough Service, Lasting Results',
+      'Professional gutter cleaning in Tamworth from £50. No-ladder vacuum system, before & after photos, fully insured, 1-year guarantee. Call 07421 433910.',
+    h1: 'Gutter Cleaning Tamworth — Thorough Service, Lasting Results',
     heroIntro:
       'WOW Gutters Ltd provides professional gutter cleaning across Tamworth and the surrounding Staffordshire border areas, covering B77, B78 and B79 postcodes. From the historic town centre properties near Tamworth Castle to the modern estates at Amington, Wilnecote and Dosthill \u201D we serve every type of property in this ancient Mercian town. Our ground-level vacuum system reaches up to four storeys without a single ladder against your walls, and every job includes before and after photos.',
     whyTitle: 'Why Tamworth Homes Need Regular Gutter Cleaning',
@@ -1213,7 +1213,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Tamworth',
     propertyTypes: [
@@ -1250,7 +1250,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     titleTag: 'Gutter Cleaning Stourbridge | WOW Gutters Ltd \u201D Free Quote',
     metaDescription:
       'Professional gutter cleaning in Stourbridge. Ground-level vacuum cleaning, no ladders, before & after photos, 1-year guarantee. Call 07421 433910.',
-    h1: 'Gutter Cleaning Stourbridge â€” Trusted Local Service',
+    h1: 'Gutter Cleaning Stourbridge — Trusted Local Service',
     heroIntro:
       'WOW Gutters Ltd provides professional gutter cleaning across Stourbridge and the surrounding areas of the Dudley borough, covering DY8 and DY9 postcodes. From the period homes of Oldswinford and Pedmore to the traditional terraces of Wollaston and the modern estates of Lye and Amblecote \u201D our ground-level high-reach vacuum system handles every property type safely, without ladders against your walls. Every job includes before and after photos as standard.',
     whyTitle: 'Gutter Cleaning Stourbridge \u201D Protecting Your Home Year-Round',
@@ -1264,7 +1264,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Stourbridge',
     propertyTypes: [
@@ -1300,8 +1300,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Smethwick',
     titleTag: 'Gutter Cleaning Smethwick | WOW Gutters Ltd \u201D Free Quote',
     metaDescription:
-      'Expert gutter cleaning in Smethwick from Â£50. No-ladder vacuum system, before & after photos, fully insured, 1-year guarantee. Call 07421 433910.',
-    h1: 'Gutter Cleaning Smethwick â€” Fast, Local & Fully Insured',
+      'Expert gutter cleaning in Smethwick from £50. No-ladder vacuum system, before & after photos, fully insured, 1-year guarantee. Call 07421 433910.',
+    h1: 'Gutter Cleaning Smethwick — Fast, Local & Fully Insured',
     heroIntro:
       'WOW Gutters Ltd provides professional gutter cleaning across Smethwick and the surrounding Sandwell areas, covering B66 and B67 postcodes. From the historic terraced streets of Bearwood and Cape Hill to the mixed-use properties around Galton Village and the residential areas of Londonderry and the Uplands \u201D our ground-level high-reach vacuum system handles every property type safely, without ladders against your walls. Every job includes before and after photos as standard.',
     whyTitle: 'Why Smethwick Properties Need Regular Gutter Cleaning',
@@ -1315,7 +1315,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Smethwick',
     propertyTypes: [
@@ -1352,7 +1352,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     titleTag: 'Gutter Cleaning Oldbury | WOW Gutters Ltd \u201D Free Quote',
     metaDescription:
       'Professional gutter cleaning in Oldbury. Ground-level vacuum system, no ladders, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
-    h1: 'Gutter Cleaning Oldbury â€” Reliable Service Across the Town',
+    h1: 'Gutter Cleaning Oldbury — Reliable Service Across the Town',
     heroIntro:
       'WOW Gutters Ltd provides professional gutter cleaning across Oldbury and the surrounding Sandwell areas, serving homeowners from Langley and Tividale to Rounds Green, Brades Village and Warley. Oldbury\'s mix of traditional terraced streets, post-war semis and newer residential developments all present different gutter challenges \u201D and our team has the experience and equipment to handle all of them. We operate a ground-based high-reach vacuum system that cleans your gutters safely without ladders, reaching up to four storeys and leaving no mess behind.',
     whyTitle: 'Why Oldbury Gutters Need Regular Cleaning',
@@ -1366,7 +1366,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Oldbury',
     propertyTypes: [
@@ -1432,8 +1432,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'West Midlands',
     titleTag: 'Gutter Cleaning West Midlands | WOW Gutters Ltd',
     metaDescription:
-      'Professional gutter cleaning across the West Midlands from Â£50. Ground-level vacuum, before & after photos, 1-year guarantee. Call: 07421 433910.',
-    h1: 'Gutter Cleaning West Midlands â€” Covering Birmingham, Wolverhampton, Coventry & Beyond',
+      'Professional gutter cleaning across the West Midlands from £50. Ground-level vacuum, before & after photos, 1-year guarantee. Call: 07421 433910.',
+    h1: 'Gutter Cleaning West Midlands — Covering Birmingham, Wolverhampton, Coventry & Beyond',
     heroIntro:
       "WOW Gutters Ltd provides professional gutter cleaning across the entire West Midlands region \u201D from the heart of Birmingham to the edges of Worcestershire and Warwickshire. The West Midlands metropolitan county contains seven metropolitan boroughs: Birmingham, Wolverhampton, Coventry, Walsall, Dudley, Sandwell and Solihull \u201D we cover all of them. Our ground-level vacuum system reaches up to four storeys without placing a single ladder against your home.",
     whyTitle: 'Why Properties Across the West Midlands Need Regular Gutter Cleaning',
@@ -1447,7 +1447,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types Across the West Midlands',
     propertyTypes: [
@@ -1524,7 +1524,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     titleTag: 'Gutter Cleaning Aston, Birmingham | WOW Gutters Ltd \u201D Free Quote',
     metaDescription:
       'Professional gutter cleaning in Aston, Birmingham. Ground-level vacuum system, no ladders, before & after photos, 1-year guarantee. Call 07421 433910.',
-    h1: 'Gutter Cleaning Aston Birmingham â€” Professional Service for B6 & B7 Properties',
+    h1: 'Gutter Cleaning Aston Birmingham — Professional Service for B6 & B7 Properties',
     heroIntro:
       "WOW Gutters Ltd provides professional gutter cleaning across Aston and the surrounding inner-city Birmingham neighbourhoods, including Witton, Newtown, Lozells, Birchfield and Nechells. Aston is one of Birmingham's most historically rich inner-city areas \u201D a dense mix of Victorian terraces, Edwardian semis and post-war housing that presents some of the most demanding gutter conditions in the city. Our ground-level high-reach vacuum system handles all of it safely and efficiently, without a single ladder placed against your property, and with before and after photos on every job.",
     whyTitle: 'Why Aston Gutters Need Professional Attention',
@@ -1539,7 +1539,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Aston',
     propertyTypes: [
@@ -1626,7 +1626,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     titleTag: 'Gutter Cleaning Edgbaston, Birmingham | WOW Gutters Ltd \u201D Free Quote',
     metaDescription:
       'Professional gutter cleaning in Edgbaston, Birmingham. Vacuum system, no ladders, before & after photos, 1-year guarantee. Call 07421 433910 today.',
-    h1: 'Gutter Cleaning Edgbaston Birmingham â€” Professional Service for B15 & B16 Properties',
+    h1: 'Gutter Cleaning Edgbaston Birmingham — Professional Service for B15 & B16 Properties',
     heroIntro:
       "WOW Gutters Ltd provides professional gutter cleaning across Edgbaston and the surrounding areas, including Harborne, Selly Oak, Ladywood, Moseley and the University of Birmingham quarter. Edgbaston is home to some of Birmingham's most prestigious residential streets \u201D large Victorian and Edwardian detached homes, leafy avenues, and well-maintained period properties that deserve a gutter cleaning service that matches their standard. Our ground-level high-reach vacuum system delivers exactly that: a thorough, professional clean with no ladders, no mess, and no risk of damage to your property.",
     whyTitle: 'Why Edgbaston Properties Need Specialist Gutter Care',
@@ -1641,7 +1641,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Edgbaston',
     propertyTypes: [
@@ -1724,7 +1724,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     titleTag: 'Gutter Cleaning Selly Oak, Birmingham | WOW Gutters Ltd \u201D Free Quote',
     metaDescription:
       'Professional gutter cleaning in Selly Oak, Birmingham B29. Vacuum system, no ladders, before & after photos, 1-year guarantee. Call 07421 433910.',
-    h1: 'Gutter Cleaning Selly Oak Birmingham â€” Professional Service for B29 Properties',
+    h1: 'Gutter Cleaning Selly Oak Birmingham — Professional Service for B29 Properties',
     heroIntro:
       "WOW Gutters Ltd provides professional gutter cleaning across Selly Oak and the surrounding south Birmingham neighbourhoods, including Bournville, Harborne, Stirchley, Cotteridge and Northfield. Selly Oak is a diverse area with a wide mix of property types \u201D from the Victorian terraces and Edwardian semis near the university to the larger detached homes of Bournville and the post-war housing of Stirchley and Cotteridge. Our ground-level vacuum system handles all of them with the same professional standard, no ladders required.",
     whyTitle: 'Why Selly Oak Gutters Need Regular Cleaning',
@@ -1739,7 +1739,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Selly Oak',
     propertyTypes: [
@@ -1822,7 +1822,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     titleTag: 'Gutter Cleaning Harborne, Birmingham | WOW Gutters Ltd \u201D Free Quote',
     metaDescription:
       'Professional gutter cleaning in Harborne, Birmingham B17. Vacuum system, no ladders, before & after photos, 1-year guarantee. Call 07421 433910.',
-    h1: 'Gutter Cleaning Harborne Birmingham â€” Professional Service for B17 Properties',
+    h1: 'Gutter Cleaning Harborne Birmingham — Professional Service for B17 Properties',
     heroIntro:
       "WOW Gutters Ltd provides professional gutter cleaning across Harborne and the surrounding south-west Birmingham neighbourhoods, including Edgbaston, Quinton, Bartley Green, Selly Oak and Bearwood. Harborne is one of Birmingham's most desirable residential areas \u201D a village-feel suburb with a strong mix of Victorian terraces, Edwardian semis and large detached homes set back from tree-lined streets. Our ground-level vacuum system delivers a thorough, professional clean on all of them, without ladders, without mess, and without risk of damage to your property or garden.",
     whyTitle: 'Why Harborne Gutters Need Annual Attention',
@@ -1837,7 +1837,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Harborne',
     propertyTypes: [
@@ -1920,7 +1920,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     titleTag: 'Gutter Cleaning Handsworth, Birmingham | WOW Gutters Ltd \u201D Free Quote',
     metaDescription:
       'Professional gutter cleaning in Handsworth, Birmingham B20 & B21. Vacuum system, no ladders, before & after photos, 1-year guarantee. Call 07421 433910.',
-    h1: 'Gutter Cleaning Handsworth Birmingham â€” Professional Service for B20 & B21 Properties',
+    h1: 'Gutter Cleaning Handsworth Birmingham — Professional Service for B20 & B21 Properties',
     heroIntro:
       "WOW Gutters Ltd provides professional gutter cleaning across Handsworth and the surrounding north-west Birmingham neighbourhoods, including Perry Barr, Great Barr, Hamstead, Birchfield, Lozells and Handsworth Wood. Handsworth has a rich mix of property types \u201D from the dense Victorian terraces of the Soho Road corridor to the larger Edwardian semis and detached homes of Handsworth Wood and Perry Barr. Our ground-level vacuum system handles all of them safely and efficiently, without ladders, without mess, and with before and after photos on every job.",
     whyTitle: 'Why Handsworth Gutters Need Regular Maintenance',
@@ -1935,7 +1935,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       '1-year service guarantee \u201D we return free if your gutters block within 12 months',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Handsworth',
     propertyTypes: [
@@ -2021,7 +2021,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Handsworth Wood',
     titleTag: 'Gutter Cleaning Handsworth Wood, Birmingham | WOW Gutters Ltd \u201D Free Quote',
     metaDescription: 'Professional gutter cleaning in Handsworth Wood, Birmingham B20. Ground-level vacuum system, no ladders, before & after photos. Call 07421 433910.',
-    h1: 'Gutter Cleaning Handsworth Wood Birmingham â€” Professional Service for B20 Properties',
+    h1: 'Gutter Cleaning Handsworth Wood Birmingham — Professional Service for B20 Properties',
     heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Handsworth Wood and the surrounding north-west Birmingham neighbourhoods, including Handsworth, Perry Barr, Great Barr, Hamstead and Birchfield. Handsworth Wood is one of north Birmingham's most prestigious residential areas \u201D wide, tree-lined avenues, large Edwardian detached homes, and well-maintained period properties that deserve a gutter cleaning service that matches their standard. Our ground-level high-reach vacuum system delivers exactly that: a thorough, professional clean with no ladders, no mess, and no risk of damage to your property.",
     whyTitle: 'Why Handsworth Wood Gutters Need Regular Attention',
     whyBody: [
@@ -2034,7 +2034,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys \u201D period homes, detached villas and semis',
       'Before & after photos included as standard on every job',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Handsworth Wood',
     propertyTypes: [
@@ -2072,7 +2072,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Erdington',
     titleTag: 'Gutter Cleaning Erdington, Birmingham | WOW Gutters Ltd \u201D Free Quote',
     metaDescription: 'Professional gutter cleaning in Erdington, Birmingham B23 & B24. Ground-level vacuum system, no ladders, before & after photos. Call 07421 433910.',
-    h1: 'Gutter Cleaning Erdington Birmingham â€” Professional Service for B23 & B24 Properties',
+    h1: 'Gutter Cleaning Erdington Birmingham — Professional Service for B23 & B24 Properties',
     heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Erdington and the surrounding north Birmingham neighbourhoods, including Stockland Green, Pype Hayes, Gravelly Hill, Witton and Sutton Coldfield border. Erdington is a large, established residential area with a wide mix of property types \u201D from the Victorian terraces near the high street to the larger semis and detached homes of Pype Hayes and the Sutton Coldfield border. Our ground-level vacuum system handles all of them safely and efficiently, without ladders, without mess, and with before and after photos on every job.",
     whyTitle: 'Why Erdington Gutters Need Regular Cleaning',
     whyBody: [
@@ -2085,7 +2085,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys \u201D terraces, semis and detached homes',
       'Before & after photos included as standard on every job',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Erdington',
     propertyTypes: [
@@ -2123,7 +2123,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Kingstanding',
     titleTag: 'Gutter Cleaning Kingstanding, Birmingham | WOW Gutters Ltd \u201D Free Quote',
     metaDescription: 'Professional gutter cleaning in Kingstanding, Birmingham B44. Ground-level vacuum system, no ladders, before & after photos. Call 07421 433910.',
-    h1: 'Gutter Cleaning Kingstanding Birmingham â€” Professional Service for B44 Properties',
+    h1: 'Gutter Cleaning Kingstanding Birmingham — Professional Service for B44 Properties',
     heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Kingstanding and the surrounding north Birmingham neighbourhoods, including Great Barr, Perry Barr, Erdington, Oscott and Pheasey. Kingstanding is a large, predominantly residential area built mainly in the 1930s and 1940s \u201D a mix of semi-detached council-built homes and private housing that all share the same challenge: gutters that fill quickly from the area's established street trees and need regular professional attention to keep drainage systems working correctly.",
     whyTitle: 'Why Kingstanding Gutters Need Regular Cleaning',
     whyBody: [
@@ -2136,7 +2136,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys \u201D semis, terraces and detached homes',
       'Before & after photos included as standard on every job',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Kingstanding',
     propertyTypes: [
@@ -2174,7 +2174,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Perry Barr',
     titleTag: 'Gutter Cleaning Perry Barr, Birmingham | WOW Gutters Ltd \u201D Free Quote',
     metaDescription: 'Professional gutter cleaning in Perry Barr, Birmingham B42. Ground-level vacuum system, no ladders, before & after photos. Call 07421 433910.',
-    h1: 'Gutter Cleaning Perry Barr Birmingham â€” Professional Service for B42 Properties',
+    h1: 'Gutter Cleaning Perry Barr Birmingham — Professional Service for B42 Properties',
     heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Perry Barr and the surrounding north Birmingham neighbourhoods, including Great Barr, Handsworth, Kingstanding, Hamstead and Walsall border. Perry Barr is a well-established residential area with a strong mix of Victorian terraces, interwar semis and larger detached homes \u201D all of which share the same challenge: gutters that fill quickly from the area's mature street trees and need regular professional attention to prevent water damage.",
     whyTitle: 'Why Perry Barr Gutters Need Regular Cleaning',
     whyBody: [
@@ -2187,7 +2187,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys \u201D terraces, semis and detached homes',
       'Before & after photos included as standard on every job',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Perry Barr',
     propertyTypes: [
@@ -2225,7 +2225,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Great Barr',
     titleTag: 'Gutter Cleaning Great Barr, Birmingham | WOW Gutters Ltd \u201D Free Quote',
     metaDescription: 'Professional gutter cleaning in Great Barr, Birmingham B43 & B44. Ground-level vacuum system, no ladders, before & after photos. Call 07421 433910.',
-    h1: 'Gutter Cleaning Great Barr Birmingham â€” Professional Service for B43 & B44 Properties',
+    h1: 'Gutter Cleaning Great Barr Birmingham — Professional Service for B43 & B44 Properties',
     heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Great Barr and the surrounding north Birmingham and Walsall border areas, including Pheasey, Hamstead, Perry Barr, Kingstanding and Aldridge. Great Barr is one of north Birmingham's most desirable residential areas \u201D a mix of large detached homes, well-maintained semis and leafy streets that sit at the boundary between Birmingham and Walsall. The area's extensive tree coverage and proximity to open green space make regular gutter cleaning essential for every property.",
     whyTitle: 'Why Great Barr Gutters Need Regular Attention',
     whyBody: [
@@ -2238,7 +2238,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys \u201D detached homes, semis and bungalows',
       'Before & after photos included as standard on every job',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Great Barr',
     propertyTypes: [
@@ -2276,7 +2276,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Yardley',
     titleTag: 'Gutter Cleaning Yardley, Birmingham | WOW Gutters Ltd \u201D Free Quote',
     metaDescription: 'Professional gutter cleaning in Yardley, Birmingham B25 & B26. Ground-level vacuum system, no ladders, before & after photos. Call 07421 433910.',
-    h1: 'Gutter Cleaning Yardley Birmingham â€” Professional Service for B25 & B26 Properties',
+    h1: 'Gutter Cleaning Yardley Birmingham — Professional Service for B25 & B26 Properties',
     heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Yardley and the surrounding east Birmingham neighbourhoods, including Acocks Green, Stechford, Sheldon, South Yardley and Hay Mills. Yardley is a large, established residential area with a wide mix of property types \u201D from the Victorian terraces near Yardley village to the interwar semis and post-war housing throughout B25 and B26. Our ground-level vacuum system handles all of them safely and efficiently, without ladders, without mess, and with before and after photos on every job.",
     whyTitle: 'Why Yardley Gutters Need Regular Cleaning',
     whyBody: [
@@ -2289,7 +2289,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys \u201D terraces, semis and detached homes',
       'Before & after photos included as standard on every job',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Yardley',
     propertyTypes: [
@@ -2326,8 +2326,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     slug: 'acocks-green',
     city: 'Acocks Green',
     titleTag: 'Gutter Cleaning Acocks Green B27 | WOW Gutters Ltd \u201D No Ladders, Same-Day Booking',
-    metaDescription: 'Gutter cleaning in Acocks Green from Â£50. Ground-level vacuum system, no ladders, before & after photos on every job. Serving B27, Olton & Sheldon. Call 07421 433910.',
-    h1: 'Gutter Cleaning Acocks Green Birmingham â€” Professional Service for B27 Properties',
+    metaDescription: 'Gutter cleaning in Acocks Green from £50. Ground-level vacuum system, no ladders, before & after photos on every job. Serving B27, Olton & Sheldon. Call 07421 433910.',
+    h1: 'Gutter Cleaning Acocks Green Birmingham — Professional Service for B27 Properties',
     heroIntro: "WOW Gutters Ltd has been clearing blocked gutters across Acocks Green, Olton, Sheldon, Hall Green and the Solihull border since 2024. Acocks Green is one of south-east Birmingham's most sought-after suburbs \u201D a mix of Victorian terraces along Warwick Road, wide Edwardian semis on Westley Road and Shirley Road, and larger detached homes near the Olton and Solihull borders. Every property type presents different gutter challenges, and our ground-level high-reach vacuum system is built to handle all of them. No ladders against your property. No mess on your driveway. Before and after photos on every single job.",
     whyTitle: 'The Specific Gutter Challenges Facing Acocks Green Properties',
     whyBody: [
@@ -2341,7 +2341,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       'Free roofline condition report \u201D we flag any repairs needed',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Every Property Type in Acocks Green \u201D Covered',
     propertyTypes: [
@@ -2380,7 +2380,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Stechford',
     titleTag: 'Gutter Cleaning Stechford, Birmingham | WOW Gutters Ltd \u201D Free Quote',
     metaDescription: 'Professional gutter cleaning in Stechford, Birmingham B33. Ground-level vacuum system, no ladders, before & after photos. Call 07421 433910.',
-    h1: 'Gutter Cleaning Stechford Birmingham â€” Professional Service for B33 Properties',
+    h1: 'Gutter Cleaning Stechford Birmingham — Professional Service for B33 Properties',
     heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Stechford and the surrounding east Birmingham neighbourhoods, including Yardley, Shard End, Acocks Green, Sheldon and the Solihull border. Stechford is a well-established residential area with a mix of interwar semis, post-war housing and newer developments \u201D all of which share the same challenge: gutters that fill quickly from the area's mature street trees and need regular professional attention to prevent water damage.",
     whyTitle: 'Why Stechford Gutters Need Regular Cleaning',
     whyBody: [
@@ -2393,7 +2393,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys \u201D terraces, semis and detached homes',
       'Before & after photos included as standard on every job',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Stechford',
     propertyTypes: [
@@ -2431,7 +2431,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Shard End',
     titleTag: 'Gutter Cleaning Shard End, Birmingham | WOW Gutters Ltd \u201D Free Quote',
     metaDescription: 'Professional gutter cleaning in Shard End, Birmingham B34. Ground-level vacuum system, no ladders, before & after photos. Call 07421 433910.',
-    h1: 'Gutter Cleaning Shard End Birmingham â€” Professional Service for B34 Properties',
+    h1: 'Gutter Cleaning Shard End Birmingham — Professional Service for B34 Properties',
     heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Shard End and the surrounding east Birmingham neighbourhoods, including Stechford, Castle Bromwich, Chelmsley Wood, Sheldon and the Solihull border. Shard End is a predominantly post-war residential area \u201D a mix of council-built semis, terraces and newer private housing that all share the same challenge: gutters that fill quickly from the area's established street trees and need regular professional attention to keep drainage systems working correctly.",
     whyTitle: 'Why Shard End Gutters Need Regular Cleaning',
     whyBody: [
@@ -2444,7 +2444,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Reaches up to 4 storeys \u201D terraces, semis and detached homes',
       'Before & after photos included as standard on every job',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Shard End',
     propertyTypes: [
@@ -2481,8 +2481,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     slug: 'moseley',
     city: 'Moseley',
     titleTag: 'Gutter Cleaning Moseley B13 | WOW Gutters Ltd \u201D Victorian & Edwardian Specialists',
-    metaDescription: 'Gutter cleaning in Moseley from Â£55. Specialist care for Victorian and Edwardian properties in B13. No ladders, before & after photos, same-day booking. Call 07421 433910.',
-    h1: 'Gutter Cleaning Moseley Birmingham â€” Professional Service for B13 Properties',
+    metaDescription: 'Gutter cleaning in Moseley from £55. Specialist care for Victorian and Edwardian properties in B13. No ladders, before & after photos, same-day booking. Call 07421 433910.',
+    h1: 'Gutter Cleaning Moseley Birmingham — Professional Service for B13 Properties',
     heroIntro: "WOW Gutters Ltd provides specialist gutter cleaning across Moseley and the surrounding south Birmingham neighbourhoods, including Kings Heath, Balsall Heath, Selly Park, Sparkbrook and Edgbaston. Moseley is one of Birmingham's most architecturally distinctive suburbs \u201D a dense concentration of large Victorian and Edwardian villas, Arts and Crafts semis, and period terraces set along wide, tree-canopied avenues. These properties are beautiful to live in and demanding on gutters: long rooflines, complex gutter layouts, and mature trees that shed heavily every season. Our ground-level vacuum system handles all of it safely, without a single ladder placed against your property.",
     whyTitle: 'Why Moseley Properties Have Some of Birmingham\'s Most Demanding Gutters',
     whyBody: [
@@ -2496,7 +2496,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       'Free written roofline condition report \u201D we flag any repairs needed',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for Moseley\'s Period Properties',
     propertyTypes: [
@@ -2532,9 +2532,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   'balsall-heath': {
     slug: 'balsall-heath',
     city: 'Balsall Heath',
-    titleTag: 'Gutter Cleaning Balsall Heath B12 | WOW Gutters Ltd \u201D From Â£50, Same-Day Booking',
-    metaDescription: 'Gutter cleaning in Balsall Heath from Â£50. Ground-level vacuum system, no ladders, before & after photos on every job. Serving B12, Sparkbrook & Highgate. Call 07421 433910.',
-    h1: 'Gutter Cleaning Balsall Heath Birmingham â€” Professional Service for B12 Properties',
+    titleTag: 'Gutter Cleaning Balsall Heath B12 | WOW Gutters Ltd \u201D From £50, Same-Day Booking',
+    metaDescription: 'Gutter cleaning in Balsall Heath from £50. Ground-level vacuum system, no ladders, before & after photos on every job. Serving B12, Sparkbrook & Highgate. Call 07421 433910.',
+    h1: 'Gutter Cleaning Balsall Heath Birmingham — Professional Service for B12 Properties',
     heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Balsall Heath and the surrounding inner-city Birmingham neighbourhoods, including Sparkbrook, Highgate, Moseley, Edgbaston and the city centre fringe. Balsall Heath is one of Birmingham's most densely built inner-city areas \u201D a tight grid of Victorian terraces, converted flats and HMOs where gutters are often shared or closely adjacent, and where blocked drainage causes problems that spread quickly between properties. Our ground-level vacuum system clears every gutter safely and efficiently, without ladders, without mess, and with before and after photos on every job.",
     whyTitle: 'Why Balsall Heath Gutters Block \u201D and Why It Matters',
     whyBody: [
@@ -2548,7 +2548,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       'Free written roofline condition report on every visit',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Balsall Heath',
     propertyTypes: [
@@ -2584,9 +2584,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   'kings-norton': {
     slug: 'kings-norton',
     city: 'Kings Norton',
-    titleTag: 'Gutter Cleaning Kings Norton B30 & B38 | WOW Gutters Ltd \u201D From Â£50',
-    metaDescription: 'Gutter cleaning in Kings Norton from Â£50. Ground-level vacuum system, no ladders, before & after photos. Serving B30, B38, Cotteridge & Northfield. Call 07421 433910.',
-    h1: 'Gutter Cleaning Kings Norton Birmingham â€” Professional Service for B30 & B38 Properties',
+    titleTag: 'Gutter Cleaning Kings Norton B30 & B38 | WOW Gutters Ltd \u201D From £50',
+    metaDescription: 'Gutter cleaning in Kings Norton from £50. Ground-level vacuum system, no ladders, before & after photos. Serving B30, B38, Cotteridge & Northfield. Call 07421 433910.',
+    h1: 'Gutter Cleaning Kings Norton Birmingham — Professional Service for B30 & B38 Properties',
     heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Kings Norton and the surrounding south Birmingham neighbourhoods, including Cotteridge, Bournville, Northfield, Longbridge, Wythall and the Redditch border. Kings Norton is a large, well-established residential area with a wide mix of property types \u201D from the Victorian terraces near Kings Norton village green to the interwar semis of Cotteridge and the larger detached homes of the B38 rural fringe. The area's extensive green space, mature garden trees and consistent West Midlands rainfall make regular gutter cleaning essential for every property. Our ground-level vacuum system handles all of it safely, without ladders, without mess, and with before and after photos on every job.",
     whyTitle: 'Why Kings Norton Gutters Need Regular Professional Attention',
     whyBody: [
@@ -2600,7 +2600,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       'Free written roofline condition report on every visit',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Kings Norton',
     propertyTypes: [
@@ -2636,43 +2636,43 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   'hall-green': {
     slug: 'hall-green',
     city: 'Hall Green',
-    titleTag: 'Gutter Cleaning Hall Green B28 | WOW Gutters Ltd â€” From Â£50, Same-Day Booking',
-    metaDescription: 'Gutter cleaning in Hall Green from Â£50. Ground-level vacuum system, no ladders, before & after photos on every job. Serving B28, Yardley Wood & Shirley border. Call 07421 433910.',
-    h1: 'Gutter Cleaning Hall Green Birmingham â€” Professional Service for B28 Properties',
-    heroIntro: 'WOW Gutters Ltd provides professional gutter cleaning across Hall Green and the surrounding south-east Birmingham neighbourhoods, including Yardley Wood, Acocks Green, Moseley, Kings Heath and the Solihull border. Hall Green is one of Birmingham\'s most consistently popular family suburbs â€” a wide mix of 1920s-1930s semis, larger Edwardian detached homes and Victorian terraces, all set along tree-lined avenues that are as demanding on gutters as they are attractive to live on. Our ground-level vacuum system handles every property type safely and efficiently, without ladders, without mess, and with before and after photos on every single job.',
-    whyTitle: 'Why Hall Green Gutters Block â€” and What It Costs If You Ignore Them',
+    titleTag: 'Gutter Cleaning Hall Green B28 | WOW Gutters Ltd — From £50, Same-Day Booking',
+    metaDescription: 'Gutter cleaning in Hall Green from £50. Ground-level vacuum system, no ladders, before & after photos on every job. Serving B28, Yardley Wood & Shirley border. Call 07421 433910.',
+    h1: 'Gutter Cleaning Hall Green Birmingham — Professional Service for B28 Properties',
+    heroIntro: 'WOW Gutters Ltd provides professional gutter cleaning across Hall Green and the surrounding south-east Birmingham neighbourhoods, including Yardley Wood, Acocks Green, Moseley, Kings Heath and the Solihull border. Hall Green is one of Birmingham\'s most consistently popular family suburbs — a wide mix of 1920s-1930s semis, larger Edwardian detached homes and Victorian terraces, all set along tree-lined avenues that are as demanding on gutters as they are attractive to live on. Our ground-level vacuum system handles every property type safely and efficiently, without ladders, without mess, and with before and after photos on every single job.',
+    whyTitle: 'Why Hall Green Gutters Block — and What It Costs If You Ignore Them',
     whyBody: [
-      'Hall Green\'s defining characteristic is its wide, tree-lined residential streets. The mature limes, oaks and sycamores lining Robin Hood Lane, Highfield Road, Stratford Road and the residential avenues throughout B28 shed enormous volumes of leaves and seeds each autumn. Properties on roads with heavy tree canopy â€” particularly those bordering Trittiford Mill Pool and the green corridor along the River Cole â€” can see gutters fill completely within weeks of the first leaf fall. The weight of wet, compacted debris puts sustained pressure on brackets and fascia boards, and water that overflows runs down the same section of brickwork every time it rains.',
-      'The area has a high proportion of 1920s-1930s semi-detached properties â€” the classic Birmingham interwar semi that defines Hall Green\'s streetscape. These properties have standard uPVC guttering that is now 30-50 years old in many cases. Joints fail, brackets sag, and sections crack when debris is left unmanaged. Water that overflows from a blocked gutter runs down the external brickwork, saturating the wall and working its way into the interior â€” causing damp patches in upstairs rooms, mould on bedroom walls, and in older solid-wall properties, structural water damage to lintels and window frames.',
-      'Hall Green\'s proximity to Solihull and its strong property market mean homeowners here are acutely aware of kerb appeal. Stained fascias, green algae on soffits, and overflowing gutters are visible from the street and affect both the appearance and the value of a property. Our fascia and soffit washing service uses a hot purified water system to restore rooflines to a bright, clean finish in a single visit â€” no chemicals, no abrasives, no risk to uPVC surfaces.',
+      'Hall Green\'s defining characteristic is its wide, tree-lined residential streets. The mature limes, oaks and sycamores lining Robin Hood Lane, Highfield Road, Stratford Road and the residential avenues throughout B28 shed enormous volumes of leaves and seeds each autumn. Properties on roads with heavy tree canopy — particularly those bordering Trittiford Mill Pool and the green corridor along the River Cole — can see gutters fill completely within weeks of the first leaf fall. The weight of wet, compacted debris puts sustained pressure on brackets and fascia boards, and water that overflows runs down the same section of brickwork every time it rains.',
+      'The area has a high proportion of 1920s-1930s semi-detached properties — the classic Birmingham interwar semi that defines Hall Green\'s streetscape. These properties have standard uPVC guttering that is now 30-50 years old in many cases. Joints fail, brackets sag, and sections crack when debris is left unmanaged. Water that overflows from a blocked gutter runs down the external brickwork, saturating the wall and working its way into the interior — causing damp patches in upstairs rooms, mould on bedroom walls, and in older solid-wall properties, structural water damage to lintels and window frames.',
+      'Hall Green\'s proximity to Solihull and its strong property market mean homeowners here are acutely aware of kerb appeal. Stained fascias, green algae on soffits, and overflowing gutters are visible from the street and affect both the appearance and the value of a property. Our fascia and soffit washing service uses a hot purified water system to restore rooflines to a bright, clean finish in a single visit — no chemicals, no abrasives, no risk to uPVC surfaces.',
     ],
     guarantees: [
-      'Ground-level vacuum system â€” no ladders placed against your property',
-      'Reaches up to 4 storeys â€” semis, detached homes and terraces',
+      'Ground-level vacuum system — no ladders placed against your property',
+      'Reaches up to 4 storeys — semis, detached homes and terraces',
       'Before & after photos included as standard on every job',
-      'Free written roofline condition report â€” we flag any repairs needed',
-      'Fully insured â€” comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      'Free written roofline condition report — we flag any repairs needed',
+      'Fully insured — comprehensive public liability cover on every visit',
+      '4.9? rating from verified Google reviews',
     ],
-    propertyTypesTitle: 'Every Property Type in Hall Green â€” Covered',
+    propertyTypesTitle: 'Every Property Type in Hall Green — Covered',
     propertyTypes: [
       { label: '1920s-30s semis (Robin Hood Lane, Highfield Road, Baldwins Lane)', detail: 'The classic Hall Green interwar semi. Standard uPVC gutter runs with moss and leaf build-up from mature garden trees. Full vacuum clean, downpipe flush and written condition report on every visit.' },
-      { label: 'Edwardian detached homes (Stratford Road, Shirley Road)', detail: 'Larger properties with longer gutter runs and complex rooflines. Our 4-storey vacuum reach covers every section â€” over garages, extensions and bay windows â€” without scaffolding.' },
+      { label: 'Edwardian detached homes (Stratford Road, Shirley Road)', detail: 'Larger properties with longer gutter runs and complex rooflines. Our 4-storey vacuum reach covers every section — over garages, extensions and bay windows — without scaffolding.' },
       { label: 'Victorian terraces (Hall Green village, Yardley Wood border)', detail: 'Older gutter systems with aging joints. We clear carefully from ground level, flag failing sections, and never place ladders against aging fascia boards.' },
       { label: 'Bungalows (Hall Green residential streets)', detail: 'Single-storey properties with accessible gutters. Quick, efficient clean with full downpipe flush and condition report included.' },
       { label: 'Commercial properties (Stratford Road corridor)', detail: 'Retail units, offices and commercial premises. Planned maintenance contracts available with scheduled visits and invoice documentation.' },
     ],
     areasTitle: 'Areas We Cover Around Hall Green',
     areasInline: 'Yardley Wood, Acocks Green, Moseley, Kings Heath | Shirley border, Solihull border | Trittiford, Robin Hood | Nearby: Birmingham city centre, Solihull, Stratford Road corridor',
-    faqsTitle: 'FAQs â€” Gutter Cleaning Hall Green',
+    faqsTitle: 'FAQs — Gutter Cleaning Hall Green',
     faqs: [
       { question: 'How much does gutter cleaning cost in Hall Green?', answer: 'WOW Gutters Ltd provides fixed quotes for all properties. Get yours online at wowgutters.co.uk or call 07421 433910. No hidden fees.' },
-      { question: 'How often should Hall Green gutters be cleaned?', answer: 'Most B28 properties benefit from one clean per year in late autumn after the main leaf fall. Properties on the most heavily canopied streets â€” particularly those near Trittiford Mill Pool and the River Cole green corridor â€” benefit from a second spring clean to clear sycamore seed debris.' },
-      { question: 'Can blocked gutters cause damp inside my Hall Green property?', answer: 'Yes â€” and it is one of the most common causes of internal damp we encounter in B28. On the older interwar semis throughout Hall Green, water overflowing from a blocked gutter saturates the brickwork and can penetrate the interior over time. Annual cleaning is the most cost-effective prevention.' },
-      { question: 'Do you cover Yardley Wood and the Shirley border?', answer: 'Yes â€” all B28 postcodes and surrounding areas including Yardley Wood, Acocks Green, Moseley border, Kings Heath and the Shirley and Solihull borders.' },
-      { question: 'Do you offer fascia and soffit cleaning in Hall Green?', answer: 'Yes â€” our hot purified water system removes algae, moss staining and dark streaking from fascias and soffits without chemicals or abrasives. Popular with Hall Green homeowners preparing to sell or after a roof replacement.' },
+      { question: 'How often should Hall Green gutters be cleaned?', answer: 'Most B28 properties benefit from one clean per year in late autumn after the main leaf fall. Properties on the most heavily canopied streets — particularly those near Trittiford Mill Pool and the River Cole green corridor — benefit from a second spring clean to clear sycamore seed debris.' },
+      { question: 'Can blocked gutters cause damp inside my Hall Green property?', answer: 'Yes — and it is one of the most common causes of internal damp we encounter in B28. On the older interwar semis throughout Hall Green, water overflowing from a blocked gutter saturates the brickwork and can penetrate the interior over time. Annual cleaning is the most cost-effective prevention.' },
+      { question: 'Do you cover Yardley Wood and the Shirley border?', answer: 'Yes — all B28 postcodes and surrounding areas including Yardley Wood, Acocks Green, Moseley border, Kings Heath and the Shirley and Solihull borders.' },
+      { question: 'Do you offer fascia and soffit cleaning in Hall Green?', answer: 'Yes — our hot purified water system removes algae, moss staining and dark streaking from fascias and soffits without chemicals or abrasives. Popular with Hall Green homeowners preparing to sell or after a roof replacement.' },
       { question: 'Do you offer gutter repairs in Hall Green?', answer: 'Yes. Our technician flags any damaged sections, loose brackets or leaking joints in a written condition report after every clean. Our repair team can return to carry out joint resealing, bracket replacement or cracked section replacement.' },
-      { question: 'How quickly can you get to Hall Green?', answer: 'We aim to offer bookings within 2-5 working days. Same-day visits may be available â€” call 07421 433910 to check availability.' },
+      { question: 'How quickly can you get to Hall Green?', answer: 'We aim to offer bookings within 2-5 working days. Same-day visits may be available — call 07421 433910 to check availability.' },
     ],
     geo: { latitude: 52.4333, longitude: -1.8417 },
     internalLinks: [
@@ -2682,15 +2682,15 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Fascia & soffit cleaning', href: '/blog/fascias-soffits-west-midlands/' },
       { label: 'Gutter repairs', href: '/help/repair/' },
     ],
-    ctaHeading: 'Book Your Hall Green Gutter Clean â€” Fixed Price, Free Quote in 60 Seconds',
+    ctaHeading: 'Book Your Hall Green Gutter Clean — Fixed Price, Free Quote in 60 Seconds',
   },
 
   'west-bromwich': {
     slug: 'west-bromwich',
     city: 'West Bromwich',
-    titleTag: 'Gutter Cleaning West Bromwich B70 & B71 | WOW Gutters Ltd \u201D From Â£50',
-    metaDescription: 'Gutter cleaning in West Bromwich from Â£50. Ground-level vacuum system, no ladders, before & after photos. Serving B70, B71, Smethwick & Oldbury. Call 07421 433910.',
-    h1: 'Gutter Cleaning West Bromwich â€” Professional Service for B70 & B71 Properties',
+    titleTag: 'Gutter Cleaning West Bromwich B70 & B71 | WOW Gutters Ltd \u201D From £50',
+    metaDescription: 'Gutter cleaning in West Bromwich from £50. Ground-level vacuum system, no ladders, before & after photos. Serving B70, B71, Smethwick & Oldbury. Call 07421 433910.',
+    h1: 'Gutter Cleaning West Bromwich — Professional Service for B70 & B71 Properties',
     heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across West Bromwich and the surrounding Black Country areas, including Smethwick, Oldbury, Tipton, Wednesbury, Great Bridge and the Birmingham border. West Bromwich is at the heart of the Black Country \u201D a dense mix of Victorian terraces, post-war semis and newer residential developments where gutters are under constant pressure from the area's consistent rainfall and urban tree coverage. Our ground-level vacuum system clears every gutter safely and efficiently, without ladders, without mess, and with before and after photos on every job.",
     whyTitle: 'Why West Bromwich Properties Need Regular Gutter Maintenance',
     whyBody: [
@@ -2704,7 +2704,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       'Free written roofline condition report on every visit',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in West Bromwich',
     propertyTypes: [
@@ -2740,9 +2740,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   cannock: {
     slug: 'cannock',
     city: 'Cannock',
-    titleTag: 'Gutter Cleaning Cannock WS11 & WS12 | WOW Gutters Ltd \u201D From Â£55',
-    metaDescription: 'Gutter cleaning in Cannock from Â£55. Ground-level vacuum system, no ladders, before & after photos. Serving WS11, WS12, Hednesford & Chase Terrace. Call 07421 433910.',
-    h1: 'Gutter Cleaning Cannock â€” Professional Service for WS11 & WS12 Properties',
+    titleTag: 'Gutter Cleaning Cannock WS11 & WS12 | WOW Gutters Ltd \u201D From £55',
+    metaDescription: 'Gutter cleaning in Cannock from £55. Ground-level vacuum system, no ladders, before & after photos. Serving WS11, WS12, Hednesford & Chase Terrace. Call 07421 433910.',
+    h1: 'Gutter Cleaning Cannock — Professional Service for WS11 & WS12 Properties',
     heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Cannock and the surrounding Staffordshire areas, including Hednesford, Chase Terrace, Burntwood, Rugeley, Lichfield and the Cannock Chase fringe. Cannock sits at the edge of one of the UK's most distinctive landscapes \u201D Cannock Chase \u201D and the combination of the Chase's extensive woodland, the area's consistent Staffordshire rainfall, and Cannock's varied housing stock creates some of the most demanding gutter conditions in the region. Our ground-level vacuum system handles all of it safely, without ladders, without mess, and with before and after photos on every job.",
     whyTitle: 'Why Cannock Gutters Face Unique Challenges',
     whyBody: [
@@ -2756,7 +2756,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       'Free written roofline condition report on every visit',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Cannock',
     propertyTypes: [
@@ -2792,9 +2792,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   northfield: {
     slug: 'northfield',
     city: 'Northfield',
-    titleTag: 'Gutter Cleaning Northfield B31 | WOW Gutters Ltd \u201D From Â£50, Same-Day Booking',
-    metaDescription: 'Gutter cleaning in Northfield from Â£50. Ground-level vacuum system, no ladders, before & after photos on every job. Serving B31, Longbridge, Frankley & Rubery. Call 07421 433910.',
-    h1: 'Gutter Cleaning Northfield Birmingham â€” Professional Service for B31 Properties',
+    titleTag: 'Gutter Cleaning Northfield B31 | WOW Gutters Ltd \u201D From £50, Same-Day Booking',
+    metaDescription: 'Gutter cleaning in Northfield from £50. Ground-level vacuum system, no ladders, before & after photos on every job. Serving B31, Longbridge, Frankley & Rubery. Call 07421 433910.',
+    h1: 'Gutter Cleaning Northfield Birmingham — Professional Service for B31 Properties',
     heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Northfield and the surrounding south Birmingham neighbourhoods, including Longbridge, Frankley, Rubery, Bournville, Kings Norton and the Worcestershire border. Northfield is one of Birmingham's largest and most varied southern suburbs \u201D a wide mix of 1930s\u201C1950s council-built semis, private interwar detached homes, post-war terraces and newer developments, all set in an area where the urban landscape gives way to the greener countryside of the Lickey Hills and Worcestershire. That transition creates some of the most demanding gutter conditions in south Birmingham. Our ground-level vacuum system handles all of it safely, without ladders, without mess, and with before and after photos on every single job.",
     whyTitle: 'Why Northfield Gutters Face Heavier Debris Loads Than Most Birmingham Suburbs',
     whyBody: [
@@ -2808,7 +2808,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Before & after photos included as standard on every job',
       'Free written roofline condition report \u201D we flag any repairs needed',
       'Fully insured \u201D comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Every Property Type in Northfield \u201D Covered',
     propertyTypes: [
@@ -2884,42 +2884,42 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   'hodge-hill': {
     slug: 'hodge-hill',
     city: 'Hodge Hill',
-    titleTag: 'Gutter Cleaning Hodge Hill, Birmingham | WOW Gutters Ltd â€” Free Quote',
+    titleTag: 'Gutter Cleaning Hodge Hill, Birmingham | WOW Gutters Ltd — Free Quote',
     metaDescription: 'Professional gutter cleaning in Hodge Hill, Birmingham B36. Ground-level vacuum system, no ladders, before & after photos. Call 07421 433910.',
-    h1: 'Gutter Cleaning Hodge Hill Birmingham â€” Professional Service for B36 Properties',
+    h1: 'Gutter Cleaning Hodge Hill Birmingham — Professional Service for B36 Properties',
     heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Hodge Hill and the surrounding east Birmingham neighbourhoods, including Stechford, Shard End, Castle Bromwich, Ward End and Erdington. Hodge Hill is a large, predominantly post-war residential area with a mix of council-built semis, terraces and newer private housing. Our ground-level vacuum system handles all property types safely and efficiently, without ladders, without mess, and with before and after photos on every job.",
     whyTitle: 'Why Hodge Hill Gutters Need Regular Cleaning',
     whyBody: [
-      "Hodge Hill was developed largely in the 1950s and 1960s as part of Birmingham's post-war housing expansion, and the area's mature street trees â€” planted alongside the original housing â€” are now well-established. Oaks, limes and sycamores line many of Hodge Hill's residential streets, and every autumn they shed significant volumes of leaves and seeds directly into gutters. Properties near Hodge Hill Common and the green spaces along the River Cole can see gutters fill completely within a single season.",
-      "The area has a high proportion of post-war semi-detached and terraced properties, many with their original or early-replacement uPVC guttering. These older systems develop sagging sections and leaking joints over time, particularly when the weight of accumulated debris is left unmanaged. Water that overflows from a blocked gutter runs down the external brickwork, saturating the wall and working its way into the interior â€” causing damp patches and mould.",
+      "Hodge Hill was developed largely in the 1950s and 1960s as part of Birmingham's post-war housing expansion, and the area's mature street trees — planted alongside the original housing — are now well-established. Oaks, limes and sycamores line many of Hodge Hill's residential streets, and every autumn they shed significant volumes of leaves and seeds directly into gutters. Properties near Hodge Hill Common and the green spaces along the River Cole can see gutters fill completely within a single season.",
+      "The area has a high proportion of post-war semi-detached and terraced properties, many with their original or early-replacement uPVC guttering. These older systems develop sagging sections and leaking joints over time, particularly when the weight of accumulated debris is left unmanaged. Water that overflows from a blocked gutter runs down the external brickwork, saturating the wall and working its way into the interior — causing damp patches and mould.",
       "Hodge Hill also has a significant number of rental properties where gutter maintenance is often overlooked between tenancies. Our annual maintenance service keeps rental properties in good condition and provides landlords with photographic evidence for their records.",
     ],
     guarantees: [
-      'Ground-level vacuum system â€” no ladders placed against your property',
-      'Reaches up to 4 storeys â€” terraces, semis and detached homes',
+      'Ground-level vacuum system — no ladders placed against your property',
+      'Reaches up to 4 storeys — terraces, semis and detached homes',
       'Before & after photos included as standard on every job',
-      'Fully insured â€” comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      'Fully insured — comprehensive public liability cover on every visit',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Hodge Hill',
     propertyTypes: [
-      { label: 'Post-war semis (Hodge Hill Road, Bromford Road)', detail: 'Standard uPVC gutter runs. Moss and leaf build-up cleared thoroughly â€” full downpipe flush and condition report included.' },
+      { label: 'Post-war semis (Hodge Hill Road, Bromford Road)', detail: 'Standard uPVC gutter runs. Moss and leaf build-up cleared thoroughly — full downpipe flush and condition report included.' },
       { label: 'Post-war terraces (Hodge Hill estate)', detail: 'Dense rows with standard uPVC systems. Annual clean keeps drainage functioning correctly and prevents water ingress at roof junctions.' },
       { label: 'Detached homes (Castle Bromwich border, Ward End)', detail: 'Larger properties with longer gutter runs and heavier debris loads from surrounding garden trees. Our 4-storey reach covers all sections.' },
-      { label: 'Converted flats and HMOs', detail: 'Landlords across Hodge Hill use WOW Gutters Ltd for annual maintenance. Before & after photos provided for every visit â€” ideal for tenancy records.' },
+      { label: 'Converted flats and HMOs', detail: 'Landlords across Hodge Hill use WOW Gutters Ltd for annual maintenance. Before & after photos provided for every visit — ideal for tenancy records.' },
       { label: 'Commercial properties (Bromford Road corridor)', detail: 'Retail units and local businesses. Planned maintenance contracts available.' },
     ],
     areasTitle: 'Areas We Cover Around Hodge Hill',
     areasInline: 'Stechford, Shard End, Castle Bromwich, Ward End | Erdington, Gravelly Hill | Bordesley Green, Small Heath | Nearby: Birmingham city centre, Solihull',
-    faqsTitle: 'FAQs â€” Gutter Cleaning Hodge Hill',
+    faqsTitle: 'FAQs — Gutter Cleaning Hodge Hill',
     faqs: [
       { question: 'How much does gutter cleaning cost in Hodge Hill?', answer: 'WOW Gutters Ltd provides fixed quotes for all properties. Get yours online at wowgutters.co.uk or call 07421 433910. No hidden fees.' },
-      { question: 'Do you cover Ward End and Castle Bromwich border?', answer: 'Yes â€” all B36 postcodes and surrounding areas including Ward End, Castle Bromwich border, Stechford and Shard End.' },
-      { question: 'Can blocked gutters cause damp in my Hodge Hill property?', answer: 'Yes â€” water overflowing from a blocked gutter saturates the external brickwork and can penetrate the interior over time. Annual cleaning prevents this entirely.' },
-      { question: 'Do you work with landlords in Hodge Hill?', answer: 'Yes â€” we work with landlords and letting agents across Hodge Hill, providing photographic evidence of gutter condition before and after each visit.' },
+      { question: 'Do you cover Ward End and Castle Bromwich border?', answer: 'Yes — all B36 postcodes and surrounding areas including Ward End, Castle Bromwich border, Stechford and Shard End.' },
+      { question: 'Can blocked gutters cause damp in my Hodge Hill property?', answer: 'Yes — water overflowing from a blocked gutter saturates the external brickwork and can penetrate the interior over time. Annual cleaning prevents this entirely.' },
+      { question: 'Do you work with landlords in Hodge Hill?', answer: 'Yes — we work with landlords and letting agents across Hodge Hill, providing photographic evidence of gutter condition before and after each visit.' },
       { question: 'Do you offer gutter repairs in Hodge Hill?', answer: 'Yes. If our technician spots damaged sections, loose brackets or leaking joints during your clean, we flag these in our condition report. Our repair team can return to carry out the necessary work.' },
       { question: 'How often should Hodge Hill gutters be cleaned?', answer: 'Once a year in late autumn is right for most properties. Those near Hodge Hill Common or with overhanging trees benefit from a second spring clean.' },
-      { question: 'How quickly can you get to Hodge Hill?', answer: 'We aim to offer bookings within 2â€“5 working days. Same-day visits may be available â€” call 07421 433910 to check availability.' },
+      { question: 'How quickly can you get to Hodge Hill?', answer: 'We aim to offer bookings within 2–5 working days. Same-day visits may be available — call 07421 433910 to check availability.' },
     ],
     geo: { latitude: 52.5000, longitude: -1.8000 },
     internalLinks: [
@@ -2929,28 +2929,28 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Roof cleaning', href: '/help/clean/' },
       { label: 'Gutter repairs', href: '/help/repair/' },
     ],
-    ctaHeading: 'Book Your Gutter Clean in Hodge Hill â€” Free Quote in 60 Seconds',
+    ctaHeading: 'Book Your Gutter Clean in Hodge Hill — Free Quote in 60 Seconds',
   },
 
   saltley: {
     slug: 'saltley',
     city: 'Saltley',
-    titleTag: 'Gutter Cleaning Saltley, Birmingham | WOW Gutters Ltd â€” Free Quote',
+    titleTag: 'Gutter Cleaning Saltley, Birmingham | WOW Gutters Ltd — Free Quote',
     metaDescription: 'Professional gutter cleaning in Saltley, Birmingham B8. Ground-level vacuum system, no ladders, before & after photos. Call 07421 433910.',
-    h1: 'Gutter Cleaning Saltley Birmingham â€” Professional Service for B8 Properties',
-    heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Saltley and the surrounding inner-city Birmingham neighbourhoods, including Bordesley Green, Small Heath, Aston, Nechells and the city centre fringe. Saltley is one of Birmingham's most densely built inner-city areas â€” a tight grid of Victorian terraces, converted flats and industrial-era housing where gutters are often shared or closely adjacent, and where blocked drainage causes problems that spread quickly between properties. Our ground-level vacuum system clears every gutter safely and efficiently, without ladders, without mess, and with before and after photos on every job.",
-    whyTitle: 'Why Saltley Gutters Block â€” and Why It Matters',
+    h1: 'Gutter Cleaning Saltley Birmingham — Professional Service for B8 Properties',
+    heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Saltley and the surrounding inner-city Birmingham neighbourhoods, including Bordesley Green, Small Heath, Aston, Nechells and the city centre fringe. Saltley is one of Birmingham's most densely built inner-city areas — a tight grid of Victorian terraces, converted flats and industrial-era housing where gutters are often shared or closely adjacent, and where blocked drainage causes problems that spread quickly between properties. Our ground-level vacuum system clears every gutter safely and efficiently, without ladders, without mess, and with before and after photos on every job.",
+    whyTitle: 'Why Saltley Gutters Block — and Why It Matters',
     whyBody: [
-      "Saltley's housing stock is predominantly Victorian â€” properties built between 1870 and 1910 in the dense terraced grid that characterises the area. Many of these properties retain their original cast iron guttering, or have had it replaced with early uPVC systems that are now 30â€“50 years old. In both cases, the guttering is aging: joints fail, brackets corrode, and sections crack when the weight of accumulated debris is left unmanaged. The area's mature street trees shed heavily every autumn, and a single season of leaf fall can be enough to completely block a gutter that was clear in spring.",
-      "In Saltley's dense terraced rows, a blocked gutter on one property affects the whole row. Water that overflows from a blocked section runs down the shared or adjacent brickwork, saturating the wall and working its way into the interior of neighbouring properties. This is a pattern we encounter regularly in B8 â€” damp patches in upstairs rooms that trace back to a blocked gutter two or three houses along. Regular cleaning is therefore not just good maintenance for your own home, but considerate to your neighbours.",
-      "Saltley has a significant number of converted flats, HMOs and rental properties where gutter maintenance is often overlooked between tenancies. Landlords who leave gutters uncleared risk damp penetration, mould growth and structural water damage â€” all of which are expensive to remediate. Our annual maintenance service keeps rental properties in good condition and provides landlords with photographic evidence for their records.",
+      "Saltley's housing stock is predominantly Victorian — properties built between 1870 and 1910 in the dense terraced grid that characterises the area. Many of these properties retain their original cast iron guttering, or have had it replaced with early uPVC systems that are now 30–50 years old. In both cases, the guttering is aging: joints fail, brackets corrode, and sections crack when the weight of accumulated debris is left unmanaged. The area's mature street trees shed heavily every autumn, and a single season of leaf fall can be enough to completely block a gutter that was clear in spring.",
+      "In Saltley's dense terraced rows, a blocked gutter on one property affects the whole row. Water that overflows from a blocked section runs down the shared or adjacent brickwork, saturating the wall and working its way into the interior of neighbouring properties. This is a pattern we encounter regularly in B8 — damp patches in upstairs rooms that trace back to a blocked gutter two or three houses along. Regular cleaning is therefore not just good maintenance for your own home, but considerate to your neighbours.",
+      "Saltley has a significant number of converted flats, HMOs and rental properties where gutter maintenance is often overlooked between tenancies. Landlords who leave gutters uncleared risk damp penetration, mould growth and structural water damage — all of which are expensive to remediate. Our annual maintenance service keeps rental properties in good condition and provides landlords with photographic evidence for their records.",
     ],
     guarantees: [
-      'Ground-level vacuum system â€” no ladders placed against your property',
-      'Reaches up to 4 storeys â€” terraces, semis and converted flats',
+      'Ground-level vacuum system — no ladders placed against your property',
+      'Reaches up to 4 storeys — terraces, semis and converted flats',
       'Before & after photos included as standard on every job',
-      'Fully insured â€” comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      'Fully insured — comprehensive public liability cover on every visit',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Saltley',
     propertyTypes: [
@@ -2962,15 +2962,15 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     areasTitle: 'Areas We Cover Around Saltley',
     areasInline: 'Bordesley Green, Small Heath, Aston, Nechells | Alum Rock, Ward End | Duddeston, Vauxhall | Nearby: Birmingham city centre, Erdington, Coventry Road corridor',
-    faqsTitle: 'FAQs â€” Gutter Cleaning Saltley',
+    faqsTitle: 'FAQs — Gutter Cleaning Saltley',
     faqs: [
       { question: 'How much does gutter cleaning cost in Saltley?', answer: 'WOW Gutters Ltd provides fixed quotes for all properties. Get yours online at wowgutters.co.uk or call 07421 433910. No hidden fees.' },
-      { question: 'My Saltley terrace has no side access â€” is that a problem?', answer: 'Not at all. Our ground-level vacuum system operates from the front of the property and does not require side access in the vast majority of cases. We handle tight Victorian terraced rows throughout B8 regularly.' },
-      { question: 'Can a blocked gutter in my property affect my neighbour?', answer: 'Yes â€” in Saltley\'s dense terraced rows, water overflowing from a blocked gutter runs down shared or adjacent brickwork and can cause damp penetration in neighbouring properties. Regular cleaning is the responsible choice.' },
-      { question: 'Do you work with landlords in Saltley?', answer: 'Yes â€” we work with landlords, letting agents and HMO operators across Saltley, providing before and after photos and written condition reports for every visit.' },
-      { question: 'Can blocked gutters cause damp in my Saltley property?', answer: 'Yes â€” particularly on Saltley\'s solid-wall Victorian terraces. Without a cavity wall to slow water ingress, sustained overflow from a blocked gutter can penetrate the interior relatively quickly. Annual cleaning is the most cost-effective prevention.' },
+      { question: 'My Saltley terrace has no side access — is that a problem?', answer: 'Not at all. Our ground-level vacuum system operates from the front of the property and does not require side access in the vast majority of cases. We handle tight Victorian terraced rows throughout B8 regularly.' },
+      { question: 'Can a blocked gutter in my property affect my neighbour?', answer: 'Yes — in Saltley\'s dense terraced rows, water overflowing from a blocked gutter runs down shared or adjacent brickwork and can cause damp penetration in neighbouring properties. Regular cleaning is the responsible choice.' },
+      { question: 'Do you work with landlords in Saltley?', answer: 'Yes — we work with landlords, letting agents and HMO operators across Saltley, providing before and after photos and written condition reports for every visit.' },
+      { question: 'Can blocked gutters cause damp in my Saltley property?', answer: 'Yes — particularly on Saltley\'s solid-wall Victorian terraces. Without a cavity wall to slow water ingress, sustained overflow from a blocked gutter can penetrate the interior relatively quickly. Annual cleaning is the most cost-effective prevention.' },
       { question: 'Do you offer gutter repairs in Saltley?', answer: 'Yes. Our technician flags any damaged sections, loose brackets or leaking joints in a written condition report after every clean. Our repair team can return to carry out the necessary work.' },
-      { question: 'How quickly can you get to Saltley?', answer: 'We aim to offer bookings within 2â€“5 working days. Same-day visits may be available â€” call 07421 433910 to check availability.' },
+      { question: 'How quickly can you get to Saltley?', answer: 'We aim to offer bookings within 2–5 working days. Same-day visits may be available — call 07421 433910 to check availability.' },
     ],
     geo: { latitude: 52.4933, longitude: -1.8567 },
     internalLinks: [
@@ -2980,48 +2980,48 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Roof cleaning', href: '/help/clean/' },
       { label: 'Gutter repairs', href: '/help/repair/' },
     ],
-    ctaHeading: 'Book Your Gutter Clean in Saltley â€” Free Quote in 60 Seconds',
+    ctaHeading: 'Book Your Gutter Clean in Saltley — Free Quote in 60 Seconds',
   },
 
   'small-heath': {
     slug: 'small-heath',
     city: 'Small Heath',
-    titleTag: 'Gutter Cleaning Small Heath, Birmingham | WOW Gutters Ltd â€” Free Quote',
+    titleTag: 'Gutter Cleaning Small Heath, Birmingham | WOW Gutters Ltd — Free Quote',
     metaDescription: 'Professional gutter cleaning in Small Heath, Birmingham B10. Ground-level vacuum system, no ladders, before & after photos. Call 07421 433910.',
-    h1: 'Gutter Cleaning Small Heath Birmingham â€” Professional Service for B10 Properties',
-    heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Small Heath and the surrounding inner-city Birmingham neighbourhoods, including Sparkbrook, Bordesley Green, Saltley, Sparkhill and the Coventry Road corridor. Small Heath is one of Birmingham's most densely populated inner-city areas â€” a mix of Victorian terraces, post-war housing and converted flats along the busy Coventry Road corridor. Our ground-level vacuum system handles all property types safely and efficiently, without ladders, without mess, and with before and after photos on every job.",
+    h1: 'Gutter Cleaning Small Heath Birmingham — Professional Service for B10 Properties',
+    heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Small Heath and the surrounding inner-city Birmingham neighbourhoods, including Sparkbrook, Bordesley Green, Saltley, Sparkhill and the Coventry Road corridor. Small Heath is one of Birmingham's most densely populated inner-city areas — a mix of Victorian terraces, post-war housing and converted flats along the busy Coventry Road corridor. Our ground-level vacuum system handles all property types safely and efficiently, without ladders, without mess, and with before and after photos on every job.",
     whyTitle: 'Why Small Heath Gutters Need Regular Professional Attention',
     whyBody: [
-      "Small Heath's housing stock spans several eras â€” Victorian terraces near the Coventry Road, interwar semis in the residential streets off it, and post-war housing throughout the wider B10 area. Each era presents different gutter challenges: Victorian cast iron systems with failing joints, early uPVC installations from the 1980s with sagging brackets, and post-war systems with moss growth from aging roof tiles. What they all share is the same consequence when blocked â€” water overflowing down external brickwork, saturating walls and causing damp penetration.",
+      "Small Heath's housing stock spans several eras — Victorian terraces near the Coventry Road, interwar semis in the residential streets off it, and post-war housing throughout the wider B10 area. Each era presents different gutter challenges: Victorian cast iron systems with failing joints, early uPVC installations from the 1980s with sagging brackets, and post-war systems with moss growth from aging roof tiles. What they all share is the same consequence when blocked — water overflowing down external brickwork, saturating walls and causing damp penetration.",
       "The Coventry Road corridor brings additional challenges. Properties on or near the main road are exposed to higher levels of airborne particulate matter that settles in gutters and combines with organic debris to form a dense, compacted silt. This silt is harder to remove than leaf debris alone and requires the powerful suction of our professional vacuum system to clear completely.",
-      "Small Heath has a significant number of rental properties, HMOs and converted flats where gutter maintenance is often overlooked between tenancies. Our annual maintenance service keeps rental properties in good condition and provides landlords with photographic evidence for their records â€” ideal for HMO licensing documentation.",
+      "Small Heath has a significant number of rental properties, HMOs and converted flats where gutter maintenance is often overlooked between tenancies. Our annual maintenance service keeps rental properties in good condition and provides landlords with photographic evidence for their records — ideal for HMO licensing documentation.",
     ],
     guarantees: [
-      'Ground-level vacuum system â€” no ladders placed against your property',
-      'Reaches up to 4 storeys â€” terraces, semis and converted flats',
+      'Ground-level vacuum system — no ladders placed against your property',
+      'Reaches up to 4 storeys — terraces, semis and converted flats',
       'Before & after photos included as standard on every job',
-      'Fully insured â€” comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      'Fully insured — comprehensive public liability cover on every visit',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Small Heath',
     propertyTypes: [
       { label: 'Victorian terraces (Coventry Road, Small Heath Highway)', detail: 'Dense rows with cast iron or early uPVC guttering. Ground-level operation means no disruption to neighbouring properties. No side access required in most cases.' },
-      { label: 'Interwar semis (Small Heath residential streets)', detail: 'Standard uPVC gutter runs. Moss and leaf build-up cleared thoroughly â€” full downpipe flush and condition report included.' },
+      { label: 'Interwar semis (Small Heath residential streets)', detail: 'Standard uPVC gutter runs. Moss and leaf build-up cleared thoroughly — full downpipe flush and condition report included.' },
       { label: 'Post-war housing (Small Heath estate)', detail: 'Standard uPVC systems. Annual clean keeps drainage functioning correctly and prevents water ingress at roof junctions.' },
       { label: 'Converted flats and HMOs', detail: 'Landlords across Small Heath use WOW Gutters Ltd for annual maintenance. Before & after photos and written condition reports provided for every visit.' },
       { label: 'Commercial properties (Coventry Road corridor)', detail: 'Retail units, restaurants and commercial premises. Planned maintenance contracts available.' },
     ],
     areasTitle: 'Areas We Cover Around Small Heath',
     areasInline: 'Sparkbrook, Bordesley Green, Saltley, Sparkhill | Coventry Road corridor, Tyseley | Alum Rock, Yardley | Nearby: Birmingham city centre, Solihull, Acocks Green',
-    faqsTitle: 'FAQs â€” Gutter Cleaning Small Heath',
+    faqsTitle: 'FAQs — Gutter Cleaning Small Heath',
     faqs: [
       { question: 'How much does gutter cleaning cost in Small Heath?', answer: 'WOW Gutters Ltd provides fixed quotes for all properties. Get yours online at wowgutters.co.uk or call 07421 433910. No hidden fees.' },
-      { question: 'My Small Heath terrace has no side access â€” is that a problem?', answer: 'Not at all. Our ground-level vacuum system operates from the front of the property and does not require side access in the vast majority of cases. We handle tight Victorian terraced rows throughout B10 regularly.' },
-      { question: 'Do you work with landlords in Small Heath?', answer: 'Yes â€” we work with landlords, letting agents and HMO operators across Small Heath, providing before and after photos and written condition reports for every visit.' },
-      { question: 'Can blocked gutters cause damp in my Small Heath property?', answer: 'Yes â€” particularly on Small Heath\'s solid-wall Victorian terraces. Sustained overflow from a blocked gutter can penetrate the interior relatively quickly. Annual cleaning is the most cost-effective prevention.' },
+      { question: 'My Small Heath terrace has no side access — is that a problem?', answer: 'Not at all. Our ground-level vacuum system operates from the front of the property and does not require side access in the vast majority of cases. We handle tight Victorian terraced rows throughout B10 regularly.' },
+      { question: 'Do you work with landlords in Small Heath?', answer: 'Yes — we work with landlords, letting agents and HMO operators across Small Heath, providing before and after photos and written condition reports for every visit.' },
+      { question: 'Can blocked gutters cause damp in my Small Heath property?', answer: 'Yes — particularly on Small Heath\'s solid-wall Victorian terraces. Sustained overflow from a blocked gutter can penetrate the interior relatively quickly. Annual cleaning is the most cost-effective prevention.' },
       { question: 'Do you offer gutter repairs in Small Heath?', answer: 'Yes. Our technician flags any damaged sections, loose brackets or leaking joints in a written condition report after every clean. Our repair team can return to carry out the necessary work.' },
       { question: 'How often should Small Heath gutters be cleaned?', answer: 'Once a year in late autumn is right for most properties. Those with overhanging trees or near the Coventry Road corridor benefit from a second spring clean.' },
-      { question: 'How quickly can you get to Small Heath?', answer: 'We aim to offer bookings within 2â€“5 working days. Same-day visits may be available â€” call 07421 433910 to check availability.' },
+      { question: 'How quickly can you get to Small Heath?', answer: 'We aim to offer bookings within 2–5 working days. Same-day visits may be available — call 07421 433910 to check availability.' },
     ],
     geo: { latitude: 52.4700, longitude: -1.8500 },
     internalLinks: [
@@ -3031,28 +3031,28 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Roof cleaning', href: '/help/clean/' },
       { label: 'Gutter repairs', href: '/help/repair/' },
     ],
-    ctaHeading: 'Book Your Gutter Clean in Small Heath â€” Free Quote in 60 Seconds',
+    ctaHeading: 'Book Your Gutter Clean in Small Heath — Free Quote in 60 Seconds',
   },
 
   sparkbrook: {
     slug: 'sparkbrook',
     city: 'Sparkbrook',
-    titleTag: 'Gutter Cleaning Sparkbrook, Birmingham | WOW Gutters Ltd â€” Free Quote',
+    titleTag: 'Gutter Cleaning Sparkbrook, Birmingham | WOW Gutters Ltd — Free Quote',
     metaDescription: 'Professional gutter cleaning in Sparkbrook, Birmingham B11 & B12. Ground-level vacuum system, no ladders, before & after photos. Call 07421 433910.',
-    h1: 'Gutter Cleaning Sparkbrook Birmingham â€” Professional Service for B11 & B12 Properties',
-    heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Sparkbrook and the surrounding south Birmingham neighbourhoods, including Sparkhill, Moseley, Balsall Heath, Small Heath and the Stratford Road corridor. Sparkbrook is a vibrant, densely built inner-city area â€” a mix of Victorian terraces, Edwardian semis and converted flats set along the busy Stratford Road and its residential side streets. Our ground-level vacuum system handles all property types safely and efficiently, without ladders, without mess, and with before and after photos on every job.",
+    h1: 'Gutter Cleaning Sparkbrook Birmingham — Professional Service for B11 & B12 Properties',
+    heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Sparkbrook and the surrounding south Birmingham neighbourhoods, including Sparkhill, Moseley, Balsall Heath, Small Heath and the Stratford Road corridor. Sparkbrook is a vibrant, densely built inner-city area — a mix of Victorian terraces, Edwardian semis and converted flats set along the busy Stratford Road and its residential side streets. Our ground-level vacuum system handles all property types safely and efficiently, without ladders, without mess, and with before and after photos on every job.",
     whyTitle: 'Why Sparkbrook Gutters Need Regular Cleaning',
     whyBody: [
-      "Sparkbrook's housing stock is predominantly Victorian and Edwardian â€” properties built between 1870 and 1914 along the Stratford Road corridor and the residential streets off it. Many of these properties retain their original cast iron guttering, or have had it replaced with early uPVC systems that are now 30â€“50 years old. Joints fail, brackets corrode, and sections crack when the weight of accumulated debris is left unmanaged. The area's mature street trees â€” particularly the limes and planes lining the residential avenues â€” shed heavily every autumn.",
+      "Sparkbrook's housing stock is predominantly Victorian and Edwardian — properties built between 1870 and 1914 along the Stratford Road corridor and the residential streets off it. Many of these properties retain their original cast iron guttering, or have had it replaced with early uPVC systems that are now 30–50 years old. Joints fail, brackets corrode, and sections crack when the weight of accumulated debris is left unmanaged. The area's mature street trees — particularly the limes and planes lining the residential avenues — shed heavily every autumn.",
       "Sparkbrook sits at the junction of several major Birmingham routes, and properties on or near the Stratford Road are exposed to higher levels of airborne particulate matter that settles in gutters and combines with organic debris to form a dense, compacted silt. This silt is harder to remove than leaf debris alone and requires the powerful suction of our professional vacuum system to clear completely.",
       "Sparkbrook has a significant number of converted flats, HMOs and rental properties where gutter maintenance is often overlooked between tenancies. Our annual maintenance service keeps rental properties in good condition and provides landlords with photographic evidence for their records.",
     ],
     guarantees: [
-      'Ground-level vacuum system â€” no ladders placed against your property',
-      'Reaches up to 4 storeys â€” terraces, semis and converted flats',
+      'Ground-level vacuum system — no ladders placed against your property',
+      'Reaches up to 4 storeys — terraces, semis and converted flats',
       'Before & after photos included as standard on every job',
-      'Fully insured â€” comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      'Fully insured — comprehensive public liability cover on every visit',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Sparkbrook',
     propertyTypes: [
@@ -3064,15 +3064,15 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     areasTitle: 'Areas We Cover Around Sparkbrook',
     areasInline: 'Sparkhill, Moseley, Balsall Heath, Small Heath | Stratford Road corridor, Tyseley | Acocks Green, Hall Green | Nearby: Birmingham city centre, Solihull',
-    faqsTitle: 'FAQs â€” Gutter Cleaning Sparkbrook',
+    faqsTitle: 'FAQs — Gutter Cleaning Sparkbrook',
     faqs: [
       { question: 'How much does gutter cleaning cost in Sparkbrook?', answer: 'WOW Gutters Ltd provides fixed quotes for all properties. Get yours online at wowgutters.co.uk or call 07421 433910. No hidden fees.' },
-      { question: 'My Sparkbrook terrace has no side access â€” is that a problem?', answer: 'Not at all. Our ground-level vacuum system operates from the front of the property and does not require side access in the vast majority of cases. We handle tight Victorian terraced rows throughout B11 and B12 regularly.' },
-      { question: 'Do you work with landlords in Sparkbrook?', answer: 'Yes â€” we work with landlords, letting agents and HMO operators across Sparkbrook, providing before and after photos and written condition reports for every visit.' },
-      { question: 'Can blocked gutters cause damp in my Sparkbrook property?', answer: 'Yes â€” particularly on Sparkbrook\'s solid-wall Victorian terraces. Sustained overflow from a blocked gutter can penetrate the interior relatively quickly. Annual cleaning is the most cost-effective prevention.' },
+      { question: 'My Sparkbrook terrace has no side access — is that a problem?', answer: 'Not at all. Our ground-level vacuum system operates from the front of the property and does not require side access in the vast majority of cases. We handle tight Victorian terraced rows throughout B11 and B12 regularly.' },
+      { question: 'Do you work with landlords in Sparkbrook?', answer: 'Yes — we work with landlords, letting agents and HMO operators across Sparkbrook, providing before and after photos and written condition reports for every visit.' },
+      { question: 'Can blocked gutters cause damp in my Sparkbrook property?', answer: 'Yes — particularly on Sparkbrook\'s solid-wall Victorian terraces. Sustained overflow from a blocked gutter can penetrate the interior relatively quickly. Annual cleaning is the most cost-effective prevention.' },
       { question: 'Do you offer gutter repairs in Sparkbrook?', answer: 'Yes. Our technician flags any damaged sections, loose brackets or leaking joints in a written condition report after every clean. Our repair team can return to carry out the necessary work.' },
       { question: 'How often should Sparkbrook gutters be cleaned?', answer: 'Once a year in late autumn is right for most properties. Those with overhanging trees or near the Stratford Road corridor benefit from a second spring clean.' },
-      { question: 'How quickly can you get to Sparkbrook?', answer: 'We aim to offer bookings within 2â€“5 working days. Same-day visits may be available â€” call 07421 433910 to check availability.' },
+      { question: 'How quickly can you get to Sparkbrook?', answer: 'We aim to offer bookings within 2–5 working days. Same-day visits may be available — call 07421 433910 to check availability.' },
     ],
     geo: { latitude: 52.4617, longitude: -1.8717 },
     internalLinks: [
@@ -3082,48 +3082,48 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Roof cleaning', href: '/help/clean/' },
       { label: 'Gutter repairs', href: '/help/repair/' },
     ],
-    ctaHeading: 'Book Your Gutter Clean in Sparkbrook â€” Free Quote in 60 Seconds',
+    ctaHeading: 'Book Your Gutter Clean in Sparkbrook — Free Quote in 60 Seconds',
   },
 
   sparkhill: {
     slug: 'sparkhill',
     city: 'Sparkhill',
-    titleTag: 'Gutter Cleaning Sparkhill, Birmingham | WOW Gutters Ltd â€” Free Quote',
+    titleTag: 'Gutter Cleaning Sparkhill, Birmingham | WOW Gutters Ltd — Free Quote',
     metaDescription: 'Professional gutter cleaning in Sparkhill, Birmingham B11. Ground-level vacuum system, no ladders, before & after photos. Call 07421 433910.',
-    h1: 'Gutter Cleaning Sparkhill Birmingham â€” Professional Service for B11 Properties',
-    heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Sparkhill and the surrounding south Birmingham neighbourhoods, including Sparkbrook, Moseley, Hall Green, Acocks Green and the Stratford Road corridor. Sparkhill is a well-established residential area with a strong mix of Victorian terraces, Edwardian semis and larger detached homes â€” all set along tree-lined streets that are as demanding on gutters as they are attractive to live on. Our ground-level vacuum system handles every property type safely and efficiently, without ladders, without mess, and with before and after photos on every single job.",
+    h1: 'Gutter Cleaning Sparkhill Birmingham — Professional Service for B11 Properties',
+    heroIntro: "WOW Gutters Ltd provides professional gutter cleaning across Sparkhill and the surrounding south Birmingham neighbourhoods, including Sparkbrook, Moseley, Hall Green, Acocks Green and the Stratford Road corridor. Sparkhill is a well-established residential area with a strong mix of Victorian terraces, Edwardian semis and larger detached homes — all set along tree-lined streets that are as demanding on gutters as they are attractive to live on. Our ground-level vacuum system handles every property type safely and efficiently, without ladders, without mess, and with before and after photos on every single job.",
     whyTitle: 'Why Sparkhill Gutters Need Regular Cleaning',
     whyBody: [
-      "Sparkhill's residential streets are lined with mature trees â€” particularly the established limes, planes and sycamores along Stratford Road, Showell Green Lane and the residential avenues throughout B11. Every autumn, these trees shed significant volumes of leaves and seeds directly into gutters. Properties on roads with heavy tree canopy can see gutters fill completely within a single season, and the weight of wet, compacted debris puts sustained pressure on brackets and fascia boards.",
-      "The area has a high proportion of Victorian and Edwardian properties, many with original or early-replacement guttering. These older systems develop sagging sections and leaking joints over time, particularly when the weight of accumulated debris is left unmanaged. Water that overflows from a blocked gutter runs down the external brickwork, saturating the wall and working its way into the interior â€” causing damp patches, mould, and in severe cases, structural damage.",
+      "Sparkhill's residential streets are lined with mature trees — particularly the established limes, planes and sycamores along Stratford Road, Showell Green Lane and the residential avenues throughout B11. Every autumn, these trees shed significant volumes of leaves and seeds directly into gutters. Properties on roads with heavy tree canopy can see gutters fill completely within a single season, and the weight of wet, compacted debris puts sustained pressure on brackets and fascia boards.",
+      "The area has a high proportion of Victorian and Edwardian properties, many with original or early-replacement guttering. These older systems develop sagging sections and leaking joints over time, particularly when the weight of accumulated debris is left unmanaged. Water that overflows from a blocked gutter runs down the external brickwork, saturating the wall and working its way into the interior — causing damp patches, mould, and in severe cases, structural damage.",
       "Sparkhill's proximity to Moseley and its strong property market mean homeowners here take pride in the appearance of their homes. Stained fascias, green algae on soffits, and overflowing gutters are visible from the street and affect both the appearance and the value of a property. Our fascia and soffit washing service restores rooflines to a bright, clean finish in a single visit.",
     ],
     guarantees: [
-      'Ground-level vacuum system â€” no ladders placed against your property',
-      'Reaches up to 4 storeys â€” terraces, semis and detached homes',
+      'Ground-level vacuum system — no ladders placed against your property',
+      'Reaches up to 4 storeys — terraces, semis and detached homes',
       'Before & after photos included as standard on every job',
-      'Fully insured â€” comprehensive public liability cover on every visit',
-      '4.9â˜… rating from verified Google reviews',
+      'Fully insured — comprehensive public liability cover on every visit',
+      '4.9? rating from verified Google reviews',
     ],
     propertyTypesTitle: 'Gutter Cleaning for All Property Types in Sparkhill',
     propertyTypes: [
       { label: 'Victorian terraces (Stratford Road, Showell Green Lane)', detail: 'Dense rows with cast iron or early uPVC guttering. Ground-level operation means no disruption to neighbouring properties. No side access required in most cases.' },
       { label: 'Edwardian semis (Sparkhill residential streets)', detail: 'Larger properties with longer gutter runs and heavy leaf fall from mature garden trees. Full downpipe flush and condition report included.' },
       { label: 'Larger detached homes (Sparkhill, Moseley border)', detail: 'Complex rooflines with multiple sections. Our 4-storey vacuum reach covers every run without scaffolding or cherry pickers.' },
-      { label: 'Converted flats and HMOs', detail: 'Landlords across Sparkhill use WOW Gutters Ltd for annual maintenance. Before & after photos provided for every visit â€” ideal for tenancy records.' },
+      { label: 'Converted flats and HMOs', detail: 'Landlords across Sparkhill use WOW Gutters Ltd for annual maintenance. Before & after photos provided for every visit — ideal for tenancy records.' },
       { label: 'Commercial properties (Stratford Road corridor)', detail: 'Retail units and commercial premises. Planned maintenance contracts available.' },
     ],
     areasTitle: 'Areas We Cover Around Sparkhill',
     areasInline: 'Sparkbrook, Moseley, Hall Green, Acocks Green | Stratford Road corridor, Tyseley | Balsall Heath, Kings Heath | Nearby: Birmingham city centre, Solihull',
-    faqsTitle: 'FAQs â€” Gutter Cleaning Sparkhill',
+    faqsTitle: 'FAQs — Gutter Cleaning Sparkhill',
     faqs: [
       { question: 'How much does gutter cleaning cost in Sparkhill?', answer: 'WOW Gutters Ltd provides fixed quotes for all properties. Get yours online at wowgutters.co.uk or call 07421 433910. No hidden fees.' },
-      { question: 'Do you cover Showell Green Lane and the Moseley border?', answer: 'Yes â€” all B11 postcodes and surrounding areas including Showell Green Lane, Stratford Road, Moseley border, Sparkbrook and Acocks Green.' },
-      { question: 'Can blocked gutters cause damp in my Sparkhill property?', answer: 'Yes â€” particularly in the older Victorian and Edwardian properties throughout B11. Water overflowing from a blocked gutter saturates the external brickwork and can penetrate the interior over time. Annual cleaning is the most cost-effective way to prevent this.' },
-      { question: 'Do you offer fascia and soffit cleaning in Sparkhill?', answer: 'Yes â€” our hot purified water system restores fascias and soffits to a bright, streak-free finish. Popular with Sparkhill homeowners preparing to sell or after a roof replacement.' },
+      { question: 'Do you cover Showell Green Lane and the Moseley border?', answer: 'Yes — all B11 postcodes and surrounding areas including Showell Green Lane, Stratford Road, Moseley border, Sparkbrook and Acocks Green.' },
+      { question: 'Can blocked gutters cause damp in my Sparkhill property?', answer: 'Yes — particularly in the older Victorian and Edwardian properties throughout B11. Water overflowing from a blocked gutter saturates the external brickwork and can penetrate the interior over time. Annual cleaning is the most cost-effective way to prevent this.' },
+      { question: 'Do you offer fascia and soffit cleaning in Sparkhill?', answer: 'Yes — our hot purified water system restores fascias and soffits to a bright, streak-free finish. Popular with Sparkhill homeowners preparing to sell or after a roof replacement.' },
       { question: 'Do you offer gutter repairs in Sparkhill?', answer: 'Yes. If our technician spots damaged sections, loose brackets or leaking joints during your clean, we flag these in our condition report. Our repair team can return to carry out the necessary work.' },
       { question: 'How often should Sparkhill gutters be cleaned?', answer: 'Once a year in late autumn is right for most properties. Those with heavy tree coverage near Moseley border benefit from a second spring clean.' },
-      { question: 'How quickly can you get to Sparkhill?', answer: 'We aim to offer bookings within 2â€“5 working days. Same-day visits may be available â€” call 07421 433910 to check availability.' },
+      { question: 'How quickly can you get to Sparkhill?', answer: 'We aim to offer bookings within 2–5 working days. Same-day visits may be available — call 07421 433910 to check availability.' },
     ],
     geo: { latitude: 52.4533, longitude: -1.8617 },
     internalLinks: [
@@ -3133,7 +3133,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Fascia & soffit cleaning', href: '/blog/fascias-soffits-west-midlands/' },
       { label: 'Gutter repairs', href: '/help/repair/' },
     ],
-    ctaHeading: 'Book Your Gutter Clean in Sparkhill â€” Free Quote in 60 Seconds',
+    ctaHeading: 'Book Your Gutter Clean in Sparkhill — Free Quote in 60 Seconds',
   },
 };
 

@@ -299,7 +299,7 @@ export const sellyOakBlogPost: BlogPost = {
 📧 <strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="color: #19C58B; font-weight: 600; text-decoration: none;">support@wowgutters.co.uk</a><br/>
 🌐 <strong>Online quote:</strong> <a href="/quote" style="color: #19C58B; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
 💬 <strong>WhatsApp:</strong> <a href="https://wa.me/447421433910" style="color: #19C58B; font-weight: 600; text-decoration: none;" rel="noopener">Message us on WhatsApp</a><br/>
-🕐 <strong>Open 7 days</strong> — Monday to Friday 7am–8pm · Saturday 9am–6pm · Sunday 10am–6pm</p>
+🕐 <strong>Open 24 hours</strong> — 7 days a week</p>
 
 <p>Free quote. Before and after photos on every job.</p>
 

@@ -108,7 +108,7 @@ export default function CollapsibleAreaFAQ({ city, faqs, heading }: CollapsibleA
               <div className="bg-white rounded-2xl p-6 border-2 border-slate-200 shadow-sm">
                 <p className="text-slate-900 font-bold text-lg mb-4">Our guarantees</p>
                 <div className="space-y-3">
-                  {['Fully insured', 'Before & after photos', 'No ladders on your walls', '7 days a week'].map(
+                  {['Fully insured', 'Before & after photos', 'No ladders on your walls', '24 hours a day'].map(
                     (item) => (
                       <div key={item} className="flex items-center gap-3">
                         <CheckCircle className="w-5 h-5 shrink-0 text-[#19C58B]" />

@@ -75,8 +75,8 @@ export default function ContactPageContent() {
               <div className="flex items-start gap-3">
                 <Clock3 className="mt-0.5 h-5 w-5 text-emerald-600" />
                 <div>
-                  <p className="font-semibold text-slate-900">Opening hours</p>
-                  <p className="text-slate-700">Monday to Sunday, 7:00 AM - 7:00 PM.</p>
+                  <p className="font-semibold text-slate-900">Availability</p>
+                  <p className="text-slate-700">Available 24 hours a day, 7 days a week.</p>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@ export default function ContactPageContent() {
             <ul className="mt-4 space-y-3 text-slate-700">
               <li className="flex items-start gap-3">
                 <span className="mt-1 h-2.5 w-2.5 rounded-full bg-emerald-500" />
-                <span>Fast response with local teams available 7 days a week.</span>
+                <span>Fast response with local teams available 24 hours a day.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="mt-1 h-2.5 w-2.5 rounded-full bg-emerald-500" />
@@ -147,7 +147,7 @@ export default function ContactPageContent() {
           { icon: '💬', title: 'WhatsApp', desc: 'Message us for quick responses and quotes' },
           { icon: '📧', title: 'Email', desc: 'Send detailed inquiries to support@wowgutters.co.uk' },
           { icon: '📝', title: 'Quote Form', desc: 'Fill out our online form for a free quote' },
-          { icon: '🕐', title: 'Available 7 Days', desc: 'Monday to Sunday, 7:00 AM - 7:00 PM' },
+          { icon: '🕐', title: 'Available 24 Hours', desc: 'Contact us any time — day or night, 7 days a week' },
           { icon: '⚡', title: 'Same-Day Booking', desc: 'Fast response for urgent gutter needs' }
         ]}
         highlightBoxTitle="Why Contact WowGutters?"

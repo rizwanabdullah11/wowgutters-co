@@ -2,6 +2,8 @@
  * Comprehensive JSON-LD schema for Birmingham gutter landing page
  * Uses @graph structure for better entity recognition by Google
  */
+import { OPENING_HOURS_SCHEMA } from '@/lib/businessHours';
+
 export function getBirminghamLocalBusinessSchema() {
   return {
     "@context": "https://schema.org",
@@ -39,26 +41,7 @@ export function getBirminghamLocalBusinessSchema() {
           "worstRating": "1"
         },
         "priceRange": "££",
-        "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-            "opens": "07:00",
-            "closes": "20:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Saturday",
-            "opens": "09:00",
-            "closes": "18:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Sunday",
-            "opens": "10:00",
-            "closes": "18:00"
-          }
-        ],
+        "openingHoursSpecification": OPENING_HOURS_SCHEMA,
         "areaServed": [
           { "@type": "City", "name": "Birmingham" },
           { "@type": "Place", "name": "Moseley" },

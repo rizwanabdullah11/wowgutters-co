@@ -143,7 +143,7 @@ export default function ContactInfoSection() {
               <div key={index} className={`time-row ${time.isToday ? 'time-row-today' : ''}`}>
                 <span className="time-day">{time.day}</span>
                 <span className="time-hours">{time.hours}</span>
-                {time.isToday && <span className="time-badge">Open Today</span>}
+                {time.isToday && <span className="time-badge">Open Now</span>}
               </div>
             ))}
           </div>

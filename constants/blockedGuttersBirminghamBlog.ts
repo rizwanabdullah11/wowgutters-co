@@ -331,7 +331,7 @@ ${ctaBox}
 🌐 <strong>Online quote:</strong> <a href="/quote/" style="${link}">wowgutters.co.uk/quote</a><br/>
 💬 <strong>WhatsApp:</strong> <a href="https://wa.me/447421433910" style="${link}" rel="noopener">wa.me/447421433910</a><br/>
 Free quote · No hidden charges · Before and after photos every job · Fully insured<br/>
-Open 7 days — Monday to Friday 7am–8pm · Saturday 9am–6pm · Sunday 10am–6pm</p>
+Open 24 hours a day, 7 days a week</p>
 
 <h2>Conclusion</h2>
 

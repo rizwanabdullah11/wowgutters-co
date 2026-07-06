@@ -4,6 +4,7 @@
  */
 
 import { buildReviewSchemaFields } from '@/lib/reviewSchema';
+import { OPENING_HOURS_SCHEMA } from '@/lib/businessHours';
 
 // Standard area FAQs used across all area pages
 const AREA_FAQS = [
@@ -61,26 +62,7 @@ export function getAreaPageJsonLd(areaSlug: string, areaName: string) {
           { '@type': 'City', name: areaName },
           { '@type': 'AdministrativeArea', name: 'West Midlands' },
         ],
-        openingHoursSpecification: [
-          {
-            '@type': 'OpeningHoursSpecification',
-            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-            opens: '07:00',
-            closes: '20:00',
-          },
-          {
-            '@type': 'OpeningHoursSpecification',
-            dayOfWeek: 'Saturday',
-            opens: '09:00',
-            closes: '18:00',
-          },
-          {
-            '@type': 'OpeningHoursSpecification',
-            dayOfWeek: 'Sunday',
-            opens: '10:00',
-            closes: '18:00',
-          },
-        ],
+        openingHoursSpecification: OPENING_HOURS_SCHEMA,
         aggregateRating,
         review,
       },

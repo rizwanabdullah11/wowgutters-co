@@ -72,7 +72,7 @@ export default function HelpIsHere() {
               07421 433910
             </a>
             <p className="text-sm mt-2" style={{ color: colors.white }}>
-              Available 7 days a week
+              Available 24 hours a day
             </p>
           </div>
         </div>
