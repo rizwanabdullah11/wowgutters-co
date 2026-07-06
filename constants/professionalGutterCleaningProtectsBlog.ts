@@ -46,7 +46,7 @@ const thStyle =
 const tdStyle = 'border: 1px solid #e2e8f0; padding: 12px; color: #334155;';
 
 export const professionalGutterCleaningProtectsBlogPost: BlogPost = {
-  id: 'professional-gutter-cleaning-protects-roof-walls-foundations',
+  id: 'gutter-cleaning-protection',
   seoTitle: 'Gutter Cleaning Protects Roof Walls Foundations | Wow Gutters',
   title:
     'How Professional Gutter Cleaning Helps Protect Your Roof, Walls, and Foundations',
