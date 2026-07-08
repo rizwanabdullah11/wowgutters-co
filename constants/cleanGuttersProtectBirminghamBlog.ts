@@ -24,7 +24,7 @@ const ctaBox = `
 </div>`;
 
 export const cleanGuttersProtectBirminghamBlogPost: BlogPost = {
-  id: 'clean-gutters-protect-birmingham-homes-damp-water-damage',
+  id: 'clean-gutters-prevent-damp',
   seoTitle: 'Clean Gutters Prevent Damp & Water Damage Birmingham',
   title: 'How Clean Gutters Help Protect Birmingham Homes from Damp and Water Damage',
   excerpt:
