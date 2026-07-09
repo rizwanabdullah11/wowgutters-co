@@ -2,43 +2,43 @@ export const DERBY_AREA_FAQS = [
   {
     question: 'How much does gutter cleaning cost in Derby?',
     answer:
-      'Our gutter cleaning prices in Derby start from £50 for a standard terraced house. Semi-detached homes typically range from £60–£80, and larger detached properties from £80–£120. Commercial properties are priced individually. We provide a fixed, transparent quote before any work starts — no hidden fees, no surprises.',
+      'Derby gutter cleaning prices start at £50 for a standard terrace, £60–£80 for most semis, and £80–£120 for larger detached homes. Commercial and multi-storey buildings are quoted individually. We always give a fixed price upfront — no call-out fee, no extras.',
     icon: '\u{1F4B3}',
   },
   {
     question: 'How often should I have my gutters cleaned in Derby?',
     answer:
-      'Most Derby homes need their gutters cleaned once or twice a year — late autumn (October\u2013November) being the most critical time, with a spring clean in April or May for properties with significant tree coverage.',
+      'We recommend two cleans a year for most Derby properties — a pre-winter clean between September and November to handle leaf fall, and a spring clean in March or April to clear winter moss and nesting debris. Properties under heavy tree cover near Allestree or Darley Abbey may need more frequent attention.',
     icon: '\uD83D\uDCC5\uFE0F',
   },
   {
     question: 'Do you use ladders when cleaning gutters?',
     answer:
-      'We use a ground-level vacuum system \u2014 no ladders placed against your property, so there is no risk of fascia damage and no mess on your walls.',
+      'No ladders on your walls — our ground-level vacuum system reaches up to four storeys without touching your property. No risk of damage to fascias, no mess in your flower beds, and no disruption to your day.',
     icon: '\uD83E\uDE9C',
   },
   {
     question: 'Do you clear downpipes as well as gutters?',
     answer:
-      'Yes. Downpipe clearing is included \u2014 we flush and test every downpipe as standard. If a downpipe is blocked, we clear it as part of the standard service at no extra charge.',
+      'Every Derby clean includes a full downpipe flush and test. If we find a blockage, we jet-clear it on the spot. Downpipe clearance is built into the standard service — no extra charge and no separate appointment needed.',
     icon: '\uD83D\uDEB0',
   },
   {
     question: 'Do you provide before and after photos?',
     answer:
-      'Yes \u2014 before & after photos on every job. We send the images directly to you so you have visual proof of every clean.',
+      'Yes — we photograph every job in Derby from multiple angles. Before-and-after images are sent to you the same day, giving you clear proof of the work carried out and the condition of your gutters.',
     icon: '\uD83D\uDCF7',
   },
   {
     question: 'What areas of Derby do you cover?',
     answer:
-      'We cover all Derby postcodes DE1\u2013DE24 including Derby city centre, Allestree, Mickleover, Littleover, Chellaston, Oakwood, Spondon, Chaddesden, Mackworth, Sinfin and all surrounding areas. Not sure? Call 07421 433910 and we will confirm in 30 seconds.',
+      'We cover the whole Derby urban area — DE1–DE24 and DE65 — including Allestree, Mickleover, Littleover, Chellaston, Oakwood, Spondon, Chaddesden, Mackworth, Sinfin, Alvaston, Breadsall, Borrowash and the city centre. Call 07421 433910 and we will confirm your postcode in seconds.',
     icon: '\uD83D\uDCCD',
   },
   {
     question: 'Are you insured?',
     answer:
-      'Yes \u2014 we are fully insured for your peace of mind.',
+      'Fully insured with public liability cover for all Derby gutter cleaning work. Certificates available on request.',
     icon: '\u2713',
   },
 ] as const;

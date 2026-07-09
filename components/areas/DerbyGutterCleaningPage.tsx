@@ -23,19 +23,19 @@ const HERO_USP_PILLS: { label: string; Icon: LucideIcon }[] = [
 const PDF_BENEFITS = [
   {
     title: 'Ground-level vacuum system',
-    body: 'No ladders placed against your property, zero risk of fascia damage.',
+    body: 'No ladders against your Derby home — zero risk of damage to fascias, soffits or brickwork on historic properties.',
   },
   {
     title: 'Up to 4 storeys',
-    body: 'Reaches all Derby homes, flats and commercial buildings.',
+    body: 'Handles everything from Derby terraces to modern apartment blocks across the city.',
   },
   {
     title: 'Before & after photos',
-    body: 'Visual proof of every clean, sent directly to you.',
+    body: 'We photograph every clean, showing you exactly what was removed and the condition of your system.',
   },
   {
     title: 'Downpipe clearing included',
-    body: 'We flush and test every downpipe as standard.',
+    body: 'All downpipes flushed and tested as standard — no extra cost, no call-backs.',
   }
 ] as const;
 
@@ -43,22 +43,22 @@ const PDF_PROCESS = [
   {
     step: 1,
     title: 'Assessment',
-    body: 'We inspect your gutters and downpipes before starting, identifying all blockages, damaged sections, and areas of concern. We tell you exactly what we find.',
+    body: 'We arrive at your Derby property and carry out a full inspection of the gutter system — checking for blockages, slipped joints, broken brackets, and any signs of water damage before we begin work.',
   },
   {
     step: 2,
     title: 'Vacuum clean',
-    body: 'Using our high-reach vacuum system, we remove all debris — leaves, moss, silt, bird debris — directly into a sealed collection unit. No mess left behind.',
+    body: 'Our ground-level vacuum system removes all debris — leaves, moss, silt, twigs and nests — directly into a sealed collection unit. No ladders, no mess in your garden, no disruption.',
   },
   {
     step: 3,
-    title: 'Downpipe check',
-    body: 'We flush and test every downpipe to confirm water flows freely. If a downpipe is blocked, we clear it as part of the standard service at no extra charge.',
+    title: 'Downpipe flush',
+    body: 'We flush each downpipe with water to confirm clear flow. Blocked downpipes are cleared on the spot using our jetting equipment — included in every Derby clean at no extra charge.',
   },
   {
     step: 4,
-    title: 'Photos & report',
-    body: 'We photograph your gutters before and after the clean, then send you the images. We also flag any damage or repairs needed — honestly, without pressure.',
+    title: 'Report & photos',
+    body: 'You receive before and after photos showing the full clean. We also send a condition report highlighting any repairs or maintenance we recommend — honest advice, never hard sell.',
   },
 ] as const;
 
@@ -66,65 +66,65 @@ const PDF_ISSUES = [
   {
     tag: 'Most common',
     title: 'Leaf & debris build-up',
-    body: "Derby's mature tree canopy fills gutters rapidly each autumn. Our vacuum removes all leaf and organic debris completely, restoring full gutter flow.",
+    body: 'Derby has some of the highest tree coverage in the East Midlands. Parks, gardens and tree-lined streets drop leaves from late August, and by October most gutters need clearing to prevent overflow.',
   },
   {
     tag: 'Year-round',
     title: 'Moss & algae growth',
-    body: 'Moss narrows gutter channels and adds significant weight. Left uncleared, it accelerates joint failure and bracket damage. We remove it all at root level.',
+    body: 'Derby homes near the River Derwent and in areas like Allestree and Darley Abbey suffer from persistent damp microclimates. Moss builds up fast, weighing down gutters and trapping debris.',
   },
   {
     tag: 'Urgent',
     title: 'Overflowing gutters',
-    body: 'Water cascading over gutters during rainfall is a clear sign of blockage. We clear the cause and test the full system to prevent it happening again.',
+    body: 'When water spills over blocked gutters, it saturates Derby sandstone and brickwork. Left unchecked, this causes internal damp and structural damage that costs thousands to repair.',
   },
   {
     tag: 'Included',
     title: 'Blocked downpipes',
-    body: 'Downpipe blockages are the most common cause of water backing up into gutters. We clear and flush every downpipe as part of the standard service.',
+    body: 'Derby homes with older uPVC systems often have narrow downpipe outlets that clog with leaf sludge. We clear and flush every downpipe as part of the standard clean — no call-backs.',
   },
   {
     tag: 'Winter risk',
     title: 'Ice & freeze damage',
-    body: 'Standing water in blocked gutters freezes in winter, expanding and cracking joints. A pre-winter clean eliminates this risk entirely.',
+    body: 'Derby winter temperatures regularly dip below freezing. Water trapped in blocked gutters expands as ice, cracking joints and splitting pipes. A pre-winter clean prevents this.',
   },
   {
     tag: 'Common',
     title: 'Bird & pest debris',
-    body: 'Bird nests and droppings block gutter outlets and attract further pests. We remove all nesting material and debris safely and hygienically.',
+    body: 'Pigeons and starlings nest in Derby roof spaces and gutters all year round. Nesting material blocks outlets quickly and droppings accelerate corrosion. We remove it all hygienically.',
   },
 ] as const;
 
 const PDF_PROPERTY_ROWS: { type: string; issue: string; approach: string }[] = [
   {
     type: 'Victorian & Edwardian terraces',
-    issue: 'Older cast iron or aged uPVC systems, often neglected for years',
-    approach: 'Careful vacuum clean preserving original features; condition report included',
+    issue: 'Cast iron gutters common in Derby conservation areas; prone to rust and joint failure',
+    approach: 'Specialist low-pressure vacuum to avoid disturbing original brackets; rust points noted in report',
   },
   {
     type: '1950s\u201370s semi-detached',
-    issue: 'Standard uPVC runs with heavy leaf and moss accumulation',
-    approach: 'Thorough vacuum clean, downpipe flush, bracket inspection',
+    issue: 'Standardised estates across Mickleover, Littleover, Chaddesden; heavy moss from mature gardens',
+    approach: 'Full gutter vacuum, downpipe flush, bracket tighten — same-day service on most estate properties',
   },
   {
     type: 'Modern detached houses',
-    issue: '2\u20133 storeys; debris over extensions and garage roofs',
-    approach: 'Full reach vacuum system covers all sections including conservatory gutters',
+    issue: '2\u20133 storey new builds with flat roof interfaces and multiple valleys',
+    approach: 'Extension lances reach all sections including garage and conservatory gutters without scaffolding',
   },
   {
     type: 'Bungalows',
-    issue: 'Lower gutters but moss build-up still causes overflow',
-    approach: 'Quick, affordable clean; same professional standard and guarantee',
+    issue: 'Single-storey but ground-level gutters clog with lawn clippings and low-hanging tree debris',
+    approach: 'Rapid clean and flush in under 30 minutes; full guarantee included',
   },
   {
     type: 'Flats & apartment blocks',
-    issue: 'Multi-storey access; landlord maintenance requirements',
-    approach: '4-storey reach; commercial rates for landlords and managing agents',
+    issue: 'Three-plus storeys; landlord compliance and tenant safety requirements',
+    approach: 'Industrial-reach vacuum for multi-storey access; block discounts for Derbyshire landlords',
   },
   {
     type: 'Commercial properties',
-    issue: 'Planned maintenance obligations; large gutter runs',
-    approach: 'Maintenance contracts available; flexible out-of-hours scheduling',
+    issue: 'Retail premises in Derby city centre; strict health and safety protocols',
+    approach: 'Out-of-hours cleaning available; fixed-price maintenance contracts for Derbyshire businesses',
   },
 ];
 
@@ -144,10 +144,10 @@ const COVERAGE_LINKS: { label: string; slug: string }[] = [
 ];
 
 const WHATSAPP_QS = [
-  'How much is gutter cleaning for my property?',
-  'Can you repair leaking or damaged gutters?',
-  'Do you have availability this week?',
-  'Could I get a fast quote for my home?',
+  'What does gutter cleaning cost near me in Derby?',
+  'Do you offer a discount for annual gutter cleaning?',
+  'Can you come out this week for a quote?',
+  'Will you clean conservatory gutters too?',
 ] as const;
 
 const WA = 'https://wa.me/447421433910';
@@ -247,20 +247,21 @@ export default function DerbyGutterCleaningPage() {
           </h2>
           <div className="text-slate-600 text-lg leading-relaxed space-y-5 text-left">
             <p>
-              Derby is a city of contrasts &mdash; historic Georgian and Victorian homes in the Cathedral Quarter sit
-              alongside modern developments, all beneath a canopy of mature trees that shed leaves and seeds throughout
-              autumn. With average annual rainfall of around 700mm, blocked gutters here quickly become a problem.
+              Derby sits on the River Derwent with tree-lined streets running through the Cathedral Quarter, Allestree,
+              Darley Abbey and the suburbs beyond. The combination of mature gardens, parkland and above-average East
+              Midlands rainfall means gutters here fill faster than in most UK cities &mdash; especially during autumn when
+              leaves from lime, sycamore and oak trees blanket Derby rooftops.
             </p>
             <p>
-              When gutters overflow, water runs down your external walls instead of safely away via the downpipe. Over time
-              this leads to damp patches, staining on brickwork, damage to window frames, and in severe cases, penetration
-              into the foundations. The repair costs for water damage caused by blocked gutters are consistently far higher
-              than the cost of an annual clean.
+              Blocked gutters don&apos;t just spill water &mdash; they direct it into your walls, windows and foundations.
+              Over time this causes penetrating damp, rotten fascias, damaged pointing and in severe cases, subsidence risk
+              around Derby&apos;s clay-heavy soil. The cost of repairing water damage is always far higher than the cost of a
+              professional gutter clean.
             </p>
             <p>
-              Most Derby homes need their gutters cleaned once or twice a year &mdash; late autumn (October&ndash;November)
-              being the most critical time, with a spring clean in April or May for properties with significant tree
-              coverage.
+              We recommend Derby homeowners book a gutter clean twice a year &mdash; late September to clear summer debris
+              before autumn leaf fall, and a spring clean in March or April to remove moss and nesting material from the
+              winter months.
             </p>
           </div>
         </div>
@@ -319,8 +320,8 @@ export default function DerbyGutterCleaningPage() {
           </div>
 
           <p className="text-center text-slate-600 mt-10 max-w-2xl mx-auto">
-            Call our Derby team now for a fast, friendly quote. We cover all Derby postcodes and can often book
-            within 2&ndash;3 working days.
+            Call our Derby team now for a fast, friendly quote. We cover all DE postcodes including Derby city centre,
+            Allestree, Mickleover, Chellaston and Spondon — and can often book within 2 working days.
           </p>
         </div>
       </section>
@@ -334,8 +335,8 @@ export default function DerbyGutterCleaningPage() {
             Our gutter cleaning process &mdash; safe, thorough, no mess
           </h2>
           <p className="text-center text-slate-600 max-w-2xl mx-auto mb-12">
-            Every WOW Gutters Ltd job in Derby follows the same four-step process &mdash; from the moment we arrive to the
-            moment we leave, with photo proof throughout.
+            Every WOW Gutters Ltd job across Derby follows the same four-step process &mdash; from inspection to photo
+            report. No shortcuts, no skipped downpipes.
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             {PDF_PROCESS.map((p) => (
@@ -363,7 +364,7 @@ export default function DerbyGutterCleaningPage() {
             Typical gutter issues we resolve in Derby
           </h2>
           <p className="text-center text-slate-400 max-w-2xl mx-auto mb-12 text-sm">
-            Common problems we solve &mdash; wording as on our Derby service guide.
+            Typical gutter issues our Derby customers face across the city and surrounding suburbs.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {PDF_ISSUES.map((c) => (
@@ -391,7 +392,7 @@ export default function DerbyGutterCleaningPage() {
             Gutter cleaning for every Derby property type
           </h2>
           <p className="text-slate-600 mb-10 max-w-3xl text-center md:text-left mx-auto md:mx-0">
-            Derby&apos;s housing stock mixes Victorian terraces, post-war semis and modern estates. We handle all of them.
+            Derby&apos;s housing spans Grade II listed Georgian terraces in the Cathedral Quarter, interwar semis in Mickleover, and modern estates across Oakwood and Chellaston. We clean them all.
           </p>
           <div className="rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
             <table className="w-full text-left text-sm">
@@ -495,7 +496,7 @@ export default function DerbyGutterCleaningPage() {
             More services
           </p>
           <h2 className="text-2xl md:text-3xl font-black text-center text-slate-900 mb-4">
-            Our full range of services in Derby
+            Our full range of services across Derbyshire
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Link
@@ -507,8 +508,8 @@ export default function DerbyGutterCleaningPage() {
                 Roof cleaning &amp; moss removal
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed">
-                Safe soft-wash roof cleaning and moss treatment in Derby. Protects tiles, extends roof life, improves
-                appearance.
+                Soft-wash roof cleaning and moss treatment across Derby. Extends tile life, removes black streaks, improves
+                kerb appeal.
               </p>
             </Link>
             <Link
@@ -563,8 +564,8 @@ export default function DerbyGutterCleaningPage() {
                 Conservatory gutter cleaning
               </h3>
               <p className="text-slate-600 text-sm leading-relaxed">
-                Specialist access equipment for gutters over conservatories and porches &mdash; a common challenge on Derby
-                homes.
+                Specialist reach equipment for gutters over conservatories, porches and bay windows &mdash; common on Derby
+                period properties and new builds alike.
               </p>
             </Link>
           </div>
@@ -615,8 +616,8 @@ export default function DerbyGutterCleaningPage() {
             Open 24 hours a day, 7 days a week
           </p>
           <p className="text-slate-500 text-sm mt-6 max-w-lg mx-auto">
-            WOW Gutters Ltd &mdash; professional gutter cleaning and roofline services across Derby,
-            Derbyshire and the East Midlands. Trusted on Google. Same-day bookings available.
+            WOW Gutters Ltd &mdash; professional gutter cleaning and roofline services across Derby city,
+            Derbyshire and the East Midlands. 4.9 stars on Google. Same-day bookings available across all DE postcodes.
           </p>
         </div>
       </section>
