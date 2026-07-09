@@ -18,6 +18,7 @@ export const PRIMARY_CITY_SLUGS = [
   'malvern',
   'evesham',
   'westmidlands',
+  'derby',
 ] as const;
 
 export type PrimaryCitySlug = (typeof PRIMARY_CITY_SLUGS)[number];
@@ -103,6 +104,11 @@ const CITY_COVERAGE: Partial<Record<string, FaqPair>> = {
     schema:
       'Birmingham, Wolverhampton, Coventry, Walsall, Dudley, Sandwell, Solihull, Sutton Coldfield, Redditch, Bromsgrove, Worcester, Kidderminster and surrounding towns.',
     page: 'We cover Birmingham, Wolverhampton, Coventry, Walsall, Dudley, Sandwell, Solihull, Sutton Coldfield, Redditch, Bromsgrove, Worcester, Kidderminster, Tamworth, Stourbridge and the wider West Midlands. Not sure? Call 07421 433910 and we will confirm in 30 seconds.',
+  },
+  derby: {
+    schema:
+      'All Derby postcodes DE1–DE24 including Derby city centre, Allestree, Mickleover, Littleover, Chellaston, Oakwood, Spondon, Chaddesden, Mackworth and Sinfin.',
+    page: 'We cover all Derby postcodes DE1–DE24 including Derby city centre, Allestree, Mickleover, Littleover, Chellaston, Oakwood, Spondon, Chaddesden, Mackworth, Sinfin and all surrounding areas. Not sure? Call 07421 433910 and we will confirm in 30 seconds.',
   },
 };
 

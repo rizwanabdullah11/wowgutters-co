@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import ClientRedirect from '@/components/ClientRedirect';
 import LocalBusinessSchema from '@/components/LocalBusinessSchema';
 import BirminghamGutterCleaningPage from '@/components/areas/BirminghamGutterCleaningPage';
 import { buildCitySchemaFaqs } from '@/lib/cityFaqs';
@@ -31,6 +32,10 @@ const GUTTER_PREFIX = 'gutter-cleaning-';
 const ROOF_PREFIX = 'roof-cleaning-';
 const slugSet = new Set(AREA_SLUGS);
 
+const COMMON_TYPOS: Record<string, string> = {
+  'gutter-cleaning-sevices': '/gutter-cleaning-services/',
+};
+
 function getGutterAreaSlug(slug: string): string | null {
   if (!slug.startsWith(GUTTER_PREFIX)) return null;
   const areaSlug = slug.slice(GUTTER_PREFIX.length);
@@ -54,6 +59,7 @@ export async function generateStaticParams() {
   return [
     ...AREA_SLUGS.map((slug) => ({ slug: `${GUTTER_PREFIX}${slug}` })),
     ...AREA_SLUGS.map((slug) => ({ slug: `${ROOF_PREFIX}${slug}` })),
+    ...Object.keys(COMMON_TYPOS).map((slug) => ({ slug })),
   ];
 }
 
@@ -181,6 +187,11 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 
 export default async function SingleSegmentAreaPage(props: PageProps) {
   const params = await props.params;
+
+  const typoRedirect = COMMON_TYPOS[params.slug];
+  if (typoRedirect) {
+    return <ClientRedirect to={typoRedirect} />;
+  }
 
   const gutterAreaSlug = getGutterAreaSlug(params.slug);
   if (gutterAreaSlug) {

@@ -1,0 +1,103 @@
+import type { Metadata } from 'next';
+import ServiceDetailPage from '@/components/services/ServiceDetailPage';
+import type { ServiceDetail } from '@/constants/servicesData';
+import { buildMetadata } from '@/lib/seo';
+
+export const metadata: Metadata = buildMetadata({
+  absoluteTitle: 'Professional Gutter Cleaning Birmingham & West Midlands | WOW Gutters Ltd',
+  description:
+    'Gutter cleaning by WOW Gutters Ltd. Industrial vacuum system, no ladders, before and after photos, downpipe testing included. From £50. Same-day appointments available. Call 07421 433910.',
+  canonicalPath: '/gutter-cleaning/',
+});
+
+const service: ServiceDetail = {
+  id: 'gutter-cleaning',
+  name: 'Gutter Cleaning',
+  icon: '🌧️',
+  heroImage: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1920',
+  heroTitle: 'Gutter Cleaning Done Right',
+  heroDescription:
+    'Professional gutter cleaning using a ground-level vacuum system. No ladders against your walls, no mess left behind, and no damage to fascias or brickwork. Before and after photos sent on every visit, including downpipe testing as standard.',
+  sections: [
+    {
+      title: 'How Our Gutter Cleaning Works',
+      content:
+        'WOW Gutters Ltd uses a commercial-grade vacuum system that reaches up to four storeys from ground level. We remove leaves, moss, silt, and compacted debris from the full gutter channel, clear every downpipe outlet, and flush each downpipe with water to confirm free flow. The entire job is photographed and the images are sent to you the same day.',
+      image: '/gutter-cleaning.jpeg',
+      imagePosition: 'right',
+      bulletPoints: [
+        'Ground-level operation — no ladders touch your property',
+        'Full gutter run cleared including hard-to-reach sections',
+        'Downpipe clearing and water flow testing on every visit',
+        'Before and after photos sent to you the same day',
+        'All waste collected into the vacuum — nothing left on paths or lawns',
+        'Most domestic cleans completed in 30–60 minutes',
+      ],
+    },
+    {
+      title: 'What Happens If Gutters Are Not Cleaned',
+      content:
+        'Blocked gutters force rainwater over the channel edge instead of into the downpipe. That overflow runs down walls, soaks into fascia boards, and pools around foundations. Over time this leads to damp inside the property, mould growth, and costly structural repairs. Regular gutter cleaning is the simplest way to avoid this damage.',
+      image: '/files/12_gutter_overflow_water_damage.jpg',
+      imagePosition: 'left',
+      bulletPoints: [
+        'Damp patches and water staining on external walls',
+        'Rotting fascia and soffit boards behind the gutter line',
+        'Mould and condensation inside rooms near affected walls',
+        'Pooling water around foundations causing subsidence risk',
+        'Nesting material attracting birds, insects, and rodents',
+        'Bracket strain from the weight of wet, compacted debris',
+      ],
+    },
+    {
+      title: 'How Often Should Gutters Be Cleaned?',
+      content:
+        'Most Birmingham homes benefit from gutter cleaning at least once a year. Properties under trees, with moss on the roof, or in exposed positions often need two visits — one in spring and one after autumn leaf fall. Commercial properties with flat roofs and multiple downpipes may need quarterly maintenance.',
+      bulletPoints: [
+        'Once a year — the minimum for most UK homes, usually after autumn',
+        'Twice a year — recommended near trees, fields, or wooded areas',
+        'After storms — check for blockages from wind-blown debris',
+        'Before winter — prevents freeze-thaw blockages and ice dams',
+        'Commercial properties — quarterly cleaning for planned maintenance',
+      ],
+    },
+    {
+      title: 'What\'s Included in Every Gutter Clean',
+      content:
+        'Every gutter cleaning appointment follows a consistent process. We do not just scoop surface debris — we clear the full channel, check every outlet, and confirm that rainwater can flow away from your property. If we spot damage, we explain whether repairs are needed without pressure to book extra work.',
+      bulletPoints: [
+        'Full gutter vacuum clean — leaves, moss, silt, and compacted debris removed',
+        'Downpipe clearing and flush testing on every visit',
+        'Before and after photo documentation for your records',
+        'Condition report with notes on joints, brackets, and alignment',
+        'Free advice when we spot problems that may need attention',
+        'Same-day or next-day slots available',
+      ],
+    },
+    {
+      title: 'Gutter Cleaning & Related Services',
+      content:
+        'A clean gutter system works best when the full roofline is maintained. Many customers book gutter cleaning alongside roof moss treatment, uPVC restoration, or a free gutter inspection. WOW Gutters Ltd covers all aspects of roofline care.',
+      image: '/gutter-cleaning-westmidlands.png',
+      imagePosition: 'right',
+      bulletPoints: [
+        'Gutter inspection — check the condition of your full system',
+        'Gutter repairs — fix leaking joints, loose brackets, or sagging runs',
+        'Roof cleaning — remove moss that drops debris into gutters',
+        'UPVC cleaning — restore fascias, soffits, and window frames',
+        'Commercial gutter cleaning — retail units, offices, and schools',
+        'Hot wash cleaning — exterior surfaces cleaned alongside gutter work',
+      ],
+    },
+  ],
+  ctaSection: {
+    title: 'Book Your Gutter Clean Today',
+    description: 'Get a free, no-obligation quote in 60 seconds. Same-day and next-day gutter cleaning available. Call 07421 433910.',
+    phone: '07421 433910',
+    buttonText: 'Get A Free Quote',
+  },
+};
+
+export default function GutterCleaningPage() {
+  return <ServiceDetailPage service={service} />;
+}

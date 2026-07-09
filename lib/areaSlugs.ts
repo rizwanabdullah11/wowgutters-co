@@ -42,6 +42,7 @@ export const AREA_SLUGS: readonly string[] = [
   'darlaston',
   'digbeth',
   'dorridge',
+  'derby',
   'droitwich-spa',
   'druids-heath',
   'dudley',
