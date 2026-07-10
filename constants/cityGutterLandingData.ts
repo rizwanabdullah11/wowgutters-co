@@ -3135,6 +3135,91 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     ctaHeading: 'Book Your Gutter Clean in Sparkhill — Free Quote in 60 Seconds',
   },
+
+  bedworth: {
+    slug: 'bedworth',
+    city: 'Bedworth',
+    titleTag: 'Gutter Cleaning Bedworth | WOW Gutters Ltd — Free Quote',
+    metaDescription:
+      'Professional gutter cleaning in Bedworth from £55. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
+    h1: 'Gutter Cleaning Bedworth — Professional Service Across CV12',
+    heroIntro:
+      "Bedworth is a historic market town in Warwickshire, sitting between Coventry and Nuneaton on the CV12 postcode corridor. The town has a distinctive character shaped by its mining heritage and is home to a wide range of housing — from Victorian terraces in the town centre to post-war council estates and modern private developments in the outer areas. Bedworth's mature street trees and its proximity to open countryside mean properties accumulate significant leaf and moss debris each autumn. WOW Gutters Ltd serves all Bedworth postcodes with our ground-level industrial vacuum system — no ladders, no risk, no mess.",
+    whyTitle: 'Why Bedworth Homeowners Need Regular Gutter Cleaning',
+    whyBody: [
+      "Bedworth's housing stock is varied but largely dates from the mid-twentieth century, with a significant number of 1950s and 1960s semi-detached homes whose original or early replacement uPVC guttering is now approaching the end of its service life. Gutters on these properties are particularly susceptible to sagging and joint failure when the weight of accumulated debris is left unmanaged over multiple seasons.",
+      "The town also sits within the damp Midlands climate zone, with reliable autumn and winter rainfall that accelerates moss growth inside gutter channels. Properties on the western and northern edges of Bedworth — particularly around Exhall and Ash Green — experience higher leaf fall from mature trees lining the residential streets and bordering open fields. A single annual clean in late autumn is the most cost-effective way to protect Bedworth homes from overflow, damp and the structural damage that blocked gutters cause over time.",
+    ],
+    guarantees: [
+      'Ground-level vacuum system — no ladders placed against your property',
+      'Reaches up to 4 storeys — homes, flats and commercial buildings',
+      'Before & after photos included as standard on every job',
+      '1-year service guarantee — we return free if your gutters block within 12 months',
+      'Fully insured — comprehensive public liability cover on every visit',
+      '4.9★ rating from verified Google reviews',
+    ],
+    propertyTypesTitle: 'Gutter Cleaning for All Property Types in Bedworth',
+    propertyTypes: [
+      {
+        label: 'Victorian terraces (town centre)',
+        detail: 'Older gutter systems with aging joints and cast iron sections. We clean carefully and flag any repairs needed.',
+      },
+      {
+        label: '1950s–1970s semis (Exhall, Ash Green)',
+        detail: 'Post-war uPVC runs with moss and leaf build-up. Our vacuum system clears channels and downpipes thoroughly.',
+      },
+      {
+        label: 'Post-war council housing (Griff, Poplar Road area)',
+        detail: 'Standard uPVC systems. Annual clean prevents overflow and protects brickwork from damp penetration.',
+      },
+      {
+        label: 'Modern detached homes (Kingswood Road, Newtown Road)',
+        detail: 'Newer properties with longer gutter runs over garages and extensions. Our 4-storey reach covers the full roofline.',
+      },
+    ],
+    areasTitle: 'Areas We Cover Around Bedworth',
+    areasInline:
+      'Bedworth town centre, Exhall, Ash Green, Griff | Bulkington, Newtown Road, Kingswood, Collycroft | Nearby: Coventry, Nuneaton, Kenilworth, Hinckley',
+    faqsTitle: 'FAQs — Gutter Cleaning Bedworth',
+    faqs: [
+      {
+        question: 'How much does gutter cleaning cost in Bedworth?',
+        answer:
+          'WOW Gutters Ltd provides fixed quotes for all properties across CV12. Get yours online at wowgutters.co.uk or call 07421 433910. No hidden fees, no call-out charge.',
+      },
+      {
+        question: 'Do you cover Exhall, Ash Green and Bulkington?',
+        answer:
+          'Yes — we cover the whole CV12 postcode area including Bedworth town centre, Exhall, Ash Green, Bulkington, Griff, Collycroft and all surrounding streets.',
+      },
+      {
+        question: 'Is there a gutter cleaning service near me in Bedworth?',
+        answer:
+          'Yes — WOW Gutters Ltd covers all CV12 postcodes. We can typically book within two to five working days. Same-day availability in some areas — call 07421 433910 to check.',
+      },
+      {
+        question: 'Can blocked gutters cause damp in a Bedworth home?',
+        answer:
+          'Yes — this is one of the most common causes of damp penetration we find on properties across CV12. Water that overflows from blocked gutters runs down external walls and penetrates the brickwork and cavity insulation over time.',
+      },
+      {
+        question: 'Do you offer gutter repairs in Bedworth?',
+        answer:
+          'Yes. If our technician spots damaged sections, loose brackets or leaking joints during the clean, we will flag these. Our repair team can return to carry out necessary work.',
+      },
+    ],
+    geo: { latitude: 52.4786, longitude: -1.4750 },
+    internalLinks: [
+      { label: 'Gutter cleaning Coventry', href: '/gutter-cleaning-coventry/' },
+      { label: 'Gutter cleaning near me', href: '/gutter-cleaning-near-me/' },
+      { label: 'Gutter cleaning service', href: '/gutter-cleaning-service-near-me/' },
+      { label: 'Gutter repairs', href: '/gutter-repairs/' },
+    ],
+    ctaHeading: 'Book Your Gutter Clean in Bedworth — Free Quote in 60 Seconds',
+    priceTo: 130,
+    nearbyAreas: ['Exhall', 'Ash Green', 'Bulkington', 'Collycroft', 'Coventry', 'Nuneaton'],
+    postcodes: ['CV12'],
+  },
 };
 
 
