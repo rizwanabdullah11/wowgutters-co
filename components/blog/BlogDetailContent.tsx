@@ -398,6 +398,19 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
               <BlogViewCount postId={post.id} publishedDate={post.date} incrementOnMount suffix="views" />
             </div>
           </div>
+
+          {/* URL + Short Summary */}
+          {post.shortSummary && (
+            <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 text-white/70 text-sm animate-fade-in-up delay-400">
+              <span className="font-mono text-xs bg-white/10 px-3 py-1.5 rounded-full">
+                wowgutters.co.uk/blog/{post.id}/
+              </span>
+              <span className="hidden sm:inline">&mdash;</span>
+              <span className="font-semibold text-white/90 italic">
+                {post.shortSummary}
+              </span>
+            </div>
+          )}
         </div>
 
         {/* Decorative Bottom Wave */}
