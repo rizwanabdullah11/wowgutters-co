@@ -18,4 +18,6 @@ export interface BlogPost {
   featured?: boolean;
   /** Exact <title> tag when set; avoids appending "| WOW Gutters Ltd" in metadata */
   seoTitle?: string;
+  /** 4-word summary shown after the blog URL */
+  shortSummary?: string;
 }
