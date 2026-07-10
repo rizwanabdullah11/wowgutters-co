@@ -21,6 +21,8 @@ import { buildAreaLandingFromSlug } from '@/lib/buildAreaLandingFromCity';
 import { getRoofCityLanding, getRoofGeneratedLanding, getRoofSuburbLanding } from '@/lib/roofAreaContent';
 import { AREA_SLUGS, areaPath, roofAreaPath } from '@/lib/areaSlugs';
 import { buildMetadata } from '@/lib/seo';
+import { getKeywordPage, getAllKeywordSlugs } from '@/lib/keywordPages';
+import KeywordLandingPage from '@/components/KeywordLandingPage';
 
 interface PageProps {
   params: Promise<{
@@ -35,6 +37,8 @@ const slugSet = new Set(AREA_SLUGS);
 const COMMON_TYPOS: Record<string, string> = {
   'gutter-cleaning-sevices': '/gutter-cleaning-services/',
 };
+
+const KEYWORD_SLUGS = new Set(getAllKeywordSlugs());
 
 function getGutterAreaSlug(slug: string): string | null {
   if (!slug.startsWith(GUTTER_PREFIX)) return null;
@@ -55,11 +59,16 @@ function formatAreaName(slug: string): string {
     .join(' ');
 }
 
+function getKeywordSlug(slug: string): string | null {
+  return KEYWORD_SLUGS.has(slug) ? slug : null;
+}
+
 export async function generateStaticParams() {
   return [
     ...AREA_SLUGS.map((slug) => ({ slug: `${GUTTER_PREFIX}${slug}` })),
     ...AREA_SLUGS.map((slug) => ({ slug: `${ROOF_PREFIX}${slug}` })),
     ...Object.keys(COMMON_TYPOS).map((slug) => ({ slug })),
+    ...getAllKeywordSlugs().map((slug) => ({ slug })),
   ];
 }
 
@@ -182,6 +191,18 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const roofSlug = getRoofAreaSlug(params.slug);
   if (roofSlug) return buildRoofMetadata(roofSlug);
 
+  const keywordSlug = getKeywordSlug(params.slug);
+  if (keywordSlug) {
+    const page = getKeywordPage(keywordSlug);
+    if (page) {
+      return buildMetadata({
+        absoluteTitle: page.titleTag,
+        description: page.metaDescription,
+        canonicalPath: `/${keywordSlug}/`,
+      });
+    }
+  }
+
   return { title: 'Not found' };
 }
 
@@ -249,6 +270,14 @@ export default async function SingleSegmentAreaPage(props: PageProps) {
     if (generated) return generated;
 
     notFound();
+  }
+
+  const keywordSlug = getKeywordSlug(params.slug);
+  if (keywordSlug) {
+    const page = getKeywordPage(keywordSlug);
+    if (page) {
+      return <KeywordLandingPage page={page} />;
+    }
   }
 
   notFound();
