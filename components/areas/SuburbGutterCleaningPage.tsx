@@ -373,19 +373,6 @@ export default function SuburbGutterCleaningPage({
         </div>
       </section>
 
-      {/* SECTION 10 — MAP */}
-      <section className="w-full">
-        <div className="w-full h-[400px] sm:h-[420px] bg-[#e8efe8]">
-          <iframe
-            title={data.mapTitle}
-            src={data.mapSrc}
-            className="w-full h-full border-0"
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
-        </div>
-      </section>
-
       <AreaBlogSnippet locality={data.blogLocality} />
       <AreaServicesRange />
       <AreaRecentWork />
