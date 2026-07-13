@@ -6,7 +6,9 @@ import { ArrowRight } from 'lucide-react';
 import BlogViewCount from '@/components/blog/BlogViewCount';
 
 export default function BlogSection() {
-  const featuredPost = blogPosts.find(p => p.featured) ?? blogPosts[0];
+  const featuredPost = blogPosts
+    .filter(p => p.featured)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())[0] ?? blogPosts[0];
   const otherPosts = blogPosts
     .filter(p => p.id !== featuredPost.id)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
