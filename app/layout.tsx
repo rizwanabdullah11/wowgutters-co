@@ -221,6 +221,15 @@ fbq('track', 'PageView');`,
             </noscript>
           </>
         ) : null}
+        {/* Microsoft Clarity — analytics tracking with cookie consent */}
+        <script
+          id="microsoft-clarity"
+          type="text/plain"
+          data-cookieconsent="statistics"
+          dangerouslySetInnerHTML={{
+            __html: `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "xlyw5gi8p0");`,
+          }}
+        />
         {/* Elfsight Google Reviews — data-cookieconsent="ignore" tells Cookiebot
             auto-blocking NOT to block this, so the widget loads in every
             environment (localhost + production) without requiring consent. */}
