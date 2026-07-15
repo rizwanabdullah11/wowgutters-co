@@ -20,10 +20,12 @@ import { yardleyBlogPost } from './yardleyBlog';
 import { birminghamGutterMaintenanceCalendarBlogPost } from './birminghamGutterMaintenanceCalendarBlog';
 import { birminghamAutumnLeavesBlogPost } from './birminghamAutumnLeavesBlog';
 import { birminghamGutterHealthCheckBlogPost } from './birminghamGutterHealthCheckBlog';
+import { professionalGutterCleaningExtendsRooflineLifeBlogPost } from './professionalGutterCleaningExtendsRooflineLifeBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  professionalGutterCleaningExtendsRooflineLifeBlogPost,
   birminghamGutterHealthCheckBlogPost,
   birminghamGutterMaintenanceCalendarBlogPost,
   birminghamAutumnLeavesBlogPost,
