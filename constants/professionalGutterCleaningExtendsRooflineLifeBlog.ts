@@ -30,7 +30,7 @@ const sectionCta = `
 </div>`;
 
 export const professionalGutterCleaningExtendsRooflineLifeBlogPost: BlogPost = {
-  id: 'professional-gutter-cleaning-extends-roofline-life',
+  id: 'roofline-damage-prevention',
   seoTitle: 'How Professional Gutter Cleaning Extends the Life of Your Roofline | WOW Gutters Ltd Birmingham',
   title: 'How Professional Gutter Cleaning Extends the Life of Your Roofline',
   excerpt:
