@@ -59,8 +59,6 @@ export const professionalGutterCleaningExtendsRooflineLifeBlogPost: BlogPost = {
 
 <p>This is what professional gutter cleaning actually protects. Not just the channel. The whole system.</p>
 
-<p>📞 <strong>WOW Gutters Ltd — Birmingham's roofline specialists: <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a></strong></p>
-
 ${sectionCta}
 
 <nav style="background: #f8fafc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 24px 28px; margin: 32px 0;">

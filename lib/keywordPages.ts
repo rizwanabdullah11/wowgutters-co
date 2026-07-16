@@ -82,7 +82,7 @@ const RAW_KEYWORDS = [
   'pressure washing service',
   'professional cleaning',
   'property maintenance companies birmingham',
-  'qb roofing',
+  'wow roofing',
   'replace gutters',
   'replace section of gutter',
   'roof and gutter restoration',
@@ -293,7 +293,7 @@ function buildBullets(slug: string): string[] {
     ];
   }
 
-  if (slug.includes('qb-roofing')) {
+  if (slug.includes('wow-roofing')) {
     return [
       'Professional roofing and gutter services across the West Midlands',
       'Roof cleaning, moss removal, and tile repairs',
@@ -674,7 +674,7 @@ function getContent(keyword: string): { heroTitle: string; heroDescription: stri
     };
   }
 
-  if (slug.includes('roof-clean') || slug.includes('roof-moss') || slug.includes('roof-replacement') || slug.includes('roof-and-gutter') || slug.includes('qb-roofing')) {
+  if (slug.includes('roof-clean') || slug.includes('roof-moss') || slug.includes('roof-replacement') || slug.includes('roof-and-gutter') || slug.includes('wow-roofing')) {
     if (slug.includes('replacement')) {
       return {
         heroTitle: 'Roof Replacement Services',
