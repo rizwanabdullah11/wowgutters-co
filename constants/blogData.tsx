@@ -21,11 +21,13 @@ import { birminghamGutterMaintenanceCalendarBlogPost } from './birminghamGutterM
 import { birminghamAutumnLeavesBlogPost } from './birminghamAutumnLeavesBlog';
 import { birminghamGutterHealthCheckBlogPost } from './birminghamGutterHealthCheckBlog';
 import { professionalGutterCleaningExtendsRooflineLifeBlogPost } from './professionalGutterCleaningExtendsRooflineLifeBlog';
+import { lateSummerGutterMaintenanceBlogPost } from './lateSummerGutterMaintenanceBlog';
 import { yearRoundGutterProtectionBlogPost } from './yearRoundGutterProtectionBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  lateSummerGutterMaintenanceBlogPost,
   yearRoundGutterProtectionBlogPost,
   professionalGutterCleaningExtendsRooflineLifeBlogPost,
   birminghamGutterHealthCheckBlogPost,
