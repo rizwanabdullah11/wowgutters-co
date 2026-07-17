@@ -43,7 +43,7 @@ export const lateSummerGutterMaintenanceBlogPost: BlogPost = {
   authorRole: 'Professional Gutter Cleaning Specialists',
   category: 'Maintenance',
   lastUpdated: '2026-07-17',
-  featured: false,
+  featured: true,
   quickAnswer:
     'Late August to mid-September is the ideal window for late summer gutter maintenance in Birmingham. This clears the summer accumulation — sycamore seeds, dried moss fragments, bird nesting debris, and storm residue — before autumn leaf fall begins, giving gutters a clean starting point for the most demanding season of the year. It also allows time to address any structural issues found before winter arrives.',
   breadcrumbName: 'Late Summer Gutter Maintenance',
