@@ -230,59 +230,59 @@ ${sectionCta}
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600;">Joint failure identification</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Precise — localised dry staining on fascia is unambiguous</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Imprecise — general surface moisture obscures specific weeps</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600; color: #0f172a;">Joint failure identification</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Precise — localised dry staining on fascia is unambiguous</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Imprecise — general surface moisture obscures specific weeps</td>
     </tr>
     <tr style="background: #fafafa;">
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600;">Fascia board condition</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Clear — soft vs sound immediately distinguishable</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Ambiguous — all surfaces damp regardless of condition</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600; color: #0f172a;">Fascia board condition</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Clear — soft vs sound immediately distinguishable</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Ambiguous — all surfaces damp regardless of condition</td>
     </tr>
     <tr>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600;">Gutter fall angle defects</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Visible — biological growth marks low points precisely</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Obscured — pooled water looks identical across all sections</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600; color: #0f172a;">Gutter fall angle defects</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Visible — biological growth marks low points precisely</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Obscured — pooled water looks identical across all sections</td>
     </tr>
     <tr style="background: #fafafa;">
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600;">Hairline cracks in UPVC</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Clear — visible against dry background</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Obscured — running water across surface hides them</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600; color: #0f172a;">Hairline cracks in UPVC</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Clear — visible against dry background</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Obscured — running water across surface hides them</td>
     </tr>
     <tr>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600;">Silt layer assessment</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Visible — measurable and removal confirmable</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Submerged — indistinguishable from wet debris</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600; color: #0f172a;">Silt layer assessment</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Visible — measurable and removal confirmable</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Submerged — indistinguishable from wet debris</td>
     </tr>
     <tr style="background: #fafafa;">
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600;">Downpipe inlet condition</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Clear — direct visual assessment possible</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Requires flow testing rather than direct observation</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600; color: #0f172a;">Downpipe inlet condition</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Clear — direct visual assessment possible</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Requires flow testing rather than direct observation</td>
     </tr>
     <tr>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600;">Roof moss coverage</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Fully assessable in dry conditions</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Reduced visibility — wet conditions mask extent</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600; color: #0f172a;">Roof moss coverage</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Fully assessable in dry conditions</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Reduced visibility — wet conditions mask extent</td>
     </tr>
     <tr style="background: #fafafa;">
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600;">Debris extraction completeness</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">High — dry material vacuums cleanly and completely</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Lower — waterlogged matter compacts and resists extraction</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600; color: #0f172a;">Debris extraction completeness</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">High — dry material vacuums cleanly and completely</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Lower — waterlogged matter compacts and resists extraction</td>
     </tr>
     <tr>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600;">Repair quality</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Optimal — dry surfaces, ambient temperatures</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Suboptimal — damp surfaces, cold temperatures</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600; color: #0f172a;">Repair quality</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Optimal — dry surfaces, ambient temperatures</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Suboptimal — damp surfaces, cold temperatures</td>
     </tr>
     <tr style="background: #fafafa;">
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600;">Before and after photography</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Clear, detailed, informative condition record</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Reduced clarity — wet surfaces obscure detail</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600; color: #0f172a;">Before and after photography</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Clear, detailed, informative condition record</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Reduced clarity — wet surfaces obscure detail</td>
     </tr>
     <tr>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600;">Lead time for findings</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Months before autumn pressure</td>
-      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb;">Days to weeks before peak rainfall</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; font-weight: 600; color: #0f172a;">Lead time for findings</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Months before autumn pressure</td>
+      <td style="padding: 12px 16px; border-bottom: 1px solid #e5e7eb; color: #1e293b;">Days to weeks before peak rainfall</td>
     </tr>
   </tbody>
 </table>
