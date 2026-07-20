@@ -138,6 +138,21 @@ const RAW_KEYWORDS = [
   'gutter cleaning quote online',
   'how much is gutter vacuum cleaning',
   'annual gutter cleaning plan cost',
+  'why is my gutter overflowing',
+  'water pouring over gutter when raining',
+  'blocked downpipe symptoms',
+  'gutter leaking at joint what to do',
+  'damp patch on wall blocked gutter',
+  'plants growing in gutter removal',
+  'moss falling from roof into gutter',
+  'birds nesting in gutter removal uk',
+  'wasp nest in gutter who to call',
+  'gutter overflowing behind fascia',
+  'why does my gutter drip after rain',
+  'sagging gutter causes',
+  'gutter smells bad blocked',
+  'green stains on wall from gutter',
+  'water damage from blocked gutters insurance',
 ];
 
 function buildBullets(slug: string): string[] {
@@ -894,6 +909,276 @@ function getContent(keyword: string): { heroTitle: string; heroDescription: stri
         { question: 'Can I pay monthly for my gutter cleaning plan?', answer: 'We offer flexible payment options. Contact us to discuss a payment schedule that works for you.' },
         { question: 'What happens if my gutters need cleaning between scheduled visits?', answer: 'Plan customers receive priority scheduling and discounted rates for additional visits between scheduled appointments.' },
         { question: 'How do I sign up for an annual gutter cleaning plan?', answer: 'Call 07421 433910 to discuss your property and arrange your first visit. We will schedule the full year\'s appointments and send you reminders.' },
+      ],
+    };
+  }
+
+  if (slug === 'why-is-my-gutter-overflowing') {
+    return {
+      heroTitle: 'Why Is My Gutter Overflowing',
+      heroDescription: 'Common causes of overflowing gutters in Birmingham — blocked channels, restricted downpipes, incorrect fall angles, and joint failures. WOW Gutters Ltd diagnoses and fixes the root cause. Call 07421 433910.',
+      sections: [
+        { heading: 'Why Your Gutter Is Overflowing', content: 'An overflowing gutter is usually caused by a blockage in the channel or a restriction in the downpipe, but other causes include sagging sections that create low points, joint sealant failure that leaks water behind the fascia, or simply a gutter that has not been cleaned recently enough. WOW Gutters Ltd identifies the exact cause during a thorough inspection.', bullets: ['Blocked gutter channel — leaves, moss, and debris preventing water flow', 'Restricted downpipe inlet — debris compacted at the outlet', 'Sagging gutter section — bracket failure creating a low point', 'Joint seal failure — water leaking through rather than flowing to the downpipe', 'Oversized roof relative to gutter capacity — heavy rain overwhelms the system', 'Wrong fall angle — gutter does not slope enough toward the downpipe'] },
+        { heading: 'Is an Overflowing Gutter an Emergency?', content: 'An overflowing gutter is not always an emergency, but it should be addressed promptly. Every overflow event deposits water against your walls, saturates brickwork, and increases the risk of internal damp.', bullets: ['Overflow water runs down external walls and saturates brickwork', 'Repeated overflow causes damp patches in upstairs rooms', 'Fascia boards rot when repeatedly soaked by overflow water', 'Foundations can be affected by water pooling at the base of walls', 'Mould and mildew thrive on persistently damp surfaces', 'Early attention prevents costly structural repairs'] },
+      ],
+      faqs: [
+        { question: 'Why is my gutter overflowing even though it looks clean?', answer: 'The gutter channel may look clear from the ground while the downpipe inlet is blocked below the surface. A camera inspection reveals whether the blockage is in the channel or the downpipe.' },
+        { question: 'Can a gutter overflow in heavy rain even if it is clean?', answer: 'Yes — during exceptionally heavy rain, the gutter capacity may be exceeded even if the system is clear. However, persistent overflow in normal rain indicates a blockage or drainage problem.' },
+        { question: 'How do I stop my gutter from overflowing?', answer: 'Start with a professional gutter clean and downpipe test. If overflow continues, the issue may be a sagging section, incorrect fall, or insufficient gutter capacity.' },
+        { question: 'Can an overflowing gutter cause damp inside my home?', answer: 'Yes — overflow water saturates external walls and travels through to internal walls and ceilings. Repeated overflow is a common cause of damp in upstairs rooms.' },
+        { question: 'How much does it cost to fix an overflowing gutter?', answer: 'The cost depends on the cause. A simple blockage clearance costs from £50. Repairs to sagging sections or joint failures cost from £30. WOW Gutters Ltd provides a fixed quote after inspection.' },
+      ],
+    };
+  }
+
+  if (slug === 'water-pouring-over-gutter-when-raining') {
+    return {
+      heroTitle: 'Water Pouring Over Gutter When Raining',
+      heroDescription: 'Water pouring over the gutter edge during rain means the system is blocked or damaged. WOW Gutters Ltd provides fast diagnosis and repair across Birmingham. Call 07421 433910.',
+      sections: [
+        { heading: 'What Causes Water to Pour Over Gutters?', content: 'When water cascades over the gutter edge instead of flowing to the downpipe, a blockage is the most likely cause — but not always in the gutter channel itself. The downpipe inlet is often the real problem, compacted with debris that prevents water from entering the pipe while the gutter channel above fills and overflows.', bullets: ['Downpipe inlet blocked — water cannot enter the pipe', 'Gutter channel blocked — debris preventing flow along the run', 'Sagging section — water pools at a low point and overflows', 'Joint gap — water escapes through a separated joint', 'Overwhelmed system — rainfall exceeds gutter capacity', 'Nesting material — bird or rodent nests blocking outlets'] },
+        { heading: 'Is Water Pouring Over Gutters Serious?', content: 'Yes — every time water pours over your gutter edge, it runs down your walls and saturates the brickwork, mortar, and eventually the internal wall surface.', bullets: ['External wall staining — green and black streaks below the gutter', 'Damp internal walls — water penetrates through saturated brickwork', 'Fascia board rot — timber softens from repeated moisture exposure', 'Foundation problems — water pooling at the base of walls over time', 'Mould growth — damp conditions encourage mould in upstairs rooms', 'Insurance claims — water damage from neglected gutters may not be covered'] },
+      ],
+      faqs: [
+        { question: 'Why does water pour over my gutters in heavy rain?', answer: 'In heavy rain, a partially blocked gutter or downpipe cannot handle the volume of water. The water backs up and overflows at the lowest point of the gutter run.' },
+        { question: 'Can I fix water pouring over gutters myself?', answer: 'If the blockage is visible at the downpipe inlet, you may be able to clear it by hand. Deeper blockages or structural issues need professional equipment and expertise.' },
+        { question: 'How quickly can you stop gutters from overflowing?', answer: 'We offer same-day and next-day appointments for overflowing gutters. Call 07421 433910 for urgent assistance.' },
+        { question: 'Will overflowing gutters damage my fascia boards?', answer: 'Yes — repeated overflow soaks fascia boards, causing timber to soften, rot, and eventually fail. Regular gutter maintenance prevents this damage.' },
+        { question: 'How much does it cost to fix gutters that overflow in rain?', answer: 'Clearance of a blocked gutter or downpipe starts from £50. Repairs to damaged sections cost from £30. WOW Gutters Ltd provides a fixed quote before work starts.' },
+      ],
+    };
+  }
+
+  if (slug === 'blocked-downpipe-symptoms') {
+    return {
+      heroTitle: 'Blocked Downpipe Symptoms',
+      heroDescription: 'Symptoms of a blocked downpipe — water overflowing from gutters, gurgling sounds, water escaping from joints, and pooling at ground level. WOW Gutters Ltd clears blockages fast. Call 07421 433910.',
+      sections: [
+        { heading: 'Common Blocked Downpipe Symptoms', content: 'A blocked downpipe does not always announce itself dramatically. Sometimes the symptoms are subtle — a gutter that overflows only during heavy rain, a downpipe that gurgles after a shower, or water that dribbles from a mid-pipe joint rather than flowing cleanly to the drain.', bullets: ['Gutter overflow during rain — water spills over the edge instead of draining', 'Water escaping from downpipe joints — joints leak under pressure from backup', 'Gurgling sounds from the downpipe — air trapped behind a blockage', 'Slow drainage — water trickles from the outlet long after rain stops', 'Pooling water at the base — the drain is not receiving water', 'Visible debris at the top of the downpipe — leaves or moss visible at the inlet'] },
+        { heading: 'Why Blocked Downpipe Symptoms Should Not Be Ignored', content: 'A blocked downpipe forces water back into your gutter system, which then overflows against your walls. The damage caused by a blocked downpipe is often attributed to other causes.', bullets: ['Overflow water saturates brickwork and causes internal damp', 'Repeated pressure on downpipe joints can cause them to separate', 'Trapped water in the downpipe can freeze and crack the pipe in winter', 'Debris buildup in the downpipe attracts nesting insects and rodents', 'Ground-level pooling can undermine foundations over time', 'Early clearance is cheaper than repairing water damage or replacing pipes'] },
+      ],
+      faqs: [
+        { question: 'What are the first signs of a blocked downpipe?', answer: 'The earliest sign is gutter overflow during rain while the downpipe outlet shows little or no flow. Gurgling sounds from the pipe and water dripping from joints are also early indicators.' },
+        { question: 'How do I check if my downpipe is blocked?', answer: 'Watch your gutters during rainfall. If water spills over the edge but little comes out of the downpipe outlet, a blockage is likely. You can also listen for gurgling sounds near the pipe.' },
+        { question: 'Can a blocked downpipe cause damp inside my home?', answer: 'Yes — water backing up from a blocked downpipe causes gutters to overflow against walls. Over time, this saturates brickwork and causes damp in upstairs rooms and loft spaces.' },
+        { question: 'How much does it cost to clear a blocked downpipe?', answer: 'Downpipe clearance typically costs between £40 and £80 depending on the severity and location of the blockage. WOW Gutters Ltd provides a fixed quote before work starts.' },
+        { question: 'How do professionals clear blocked downpipes?', answer: 'WOW Gutters Ltd uses vacuum suction for accessible blockages and professional rodding equipment for deeper obstructions. Every clearance is followed by a flow test to confirm free drainage.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-leaking-at-joint-what-to-do') {
+    return {
+      heroTitle: 'Gutter Leaking at Joint — What to Do',
+      heroDescription: 'A gutter leaking at the joint needs resealing or replacement. WOW Gutters Ltd fixes leaking gutter joints across Birmingham — sealant, rubber seals, or full joint replacement. Call 07421 433910.',
+      sections: [
+        { heading: 'What to Do When a Gutter Joint Leaks', content: 'A leaking gutter joint allows water to escape from the gutter channel and run down the fascia board behind it. If left unaddressed, the repeated moisture softens the timber fascia, causes staining on walls, and can lead to internal damp. The fix depends on what type of joint is failing.', bullets: ['Rubber seal failure — the gasket inside the joint has perished and needs replacing', 'Sealant failure — the mastic bead between sections has cracked or detached', 'Joint separation — the two sections have pulled apart from thermal movement or bracket shift', 'Corner joint leak — the corner piece has cracked or the seal has failed', 'Stop end leak — the cap at the end of a run has come loose or the seal has failed', 'Overflow joint — the outlet where the gutter meets the downpipe is not sealed correctly'] },
+        { heading: 'Can I Fix a Leaking Gutter Joint Myself?', content: 'Some leaking joints can be fixed with DIY sealant, but the repair will not last as long as a professional job. Professional resealing uses the correct sealant for the gutter material and is applied to clean, dry surfaces.', bullets: ['DIY sealant works as a temporary fix but may fail within months', 'Professional resealing uses gutter-specific sealant rated for outdoor use', 'The joint must be completely dry for sealant to bond properly', 'If the rubber seal has perished, the joint piece needs replacement', 'A professional repair includes testing the joint with a water flow check', 'WOW Gutters Ltd can repair most leaking joints during the same visit as a gutter clean'] },
+      ],
+      faqs: [
+        { question: 'Why is my gutter leaking at the joint?', answer: 'Gutter joints leak because the rubber seal has perished, the sealant has cracked from weather exposure, or the joint has physically separated due to thermal expansion, bracket movement, or debris weight.' },
+        { question: 'Can a leaking gutter joint be resealed?', answer: 'Yes — most leaking joints can be resealed. The joint is cleaned, dried, and fresh outdoor-grade sealant is applied. If the rubber gasket has failed, the joint piece may need replacement.' },
+        { question: 'How much does it cost to fix a leaking gutter joint?', answer: 'Joint resealing typically costs from £30 per joint. Joint replacement costs more if the piece is damaged. WOW Gutters Ltd provides a fixed quote after inspection.' },
+        { question: 'Will a leaking gutter joint cause damp?', answer: 'Yes — water escaping from a leaking joint runs down the fascia board behind the gutter. Over time, this saturates the fascia timber and can travel through to internal walls.' },
+        { question: 'How long does gutter joint sealant last?', answer: 'Professional-grade gutter sealant typically lasts 5–10 years depending on weather exposure and the gutter material. UPVC joints usually last longer than cast iron ones.' },
+      ],
+    };
+  }
+
+  if (slug === 'damp-patch-on-wall-blocked-gutter') {
+    return {
+      heroTitle: 'Damp Patch on Wall — Blocked Gutter?',
+      heroDescription: 'A damp patch on an upstairs wall or ceiling is often caused by a blocked gutter. WOW Gutters Ltd diagnoses gutter-related damp and clears the blockage. Call 07421 433910.',
+      sections: [
+        { heading: 'Could a Blocked Gutter Be Causing That Damp Patch?', content: 'A damp patch on an upstairs wall or ceiling — particularly near an external wall or under the eaves — is frequently caused by overflow from a blocked gutter. Water that cannot flow through the gutter spills over the edge, runs down the external wall, and saturates the brickwork until it penetrates through to the interior.', bullets: ['Overflow from blocked gutters saturates brickwork over weeks and months', 'Damp patches often appear near ceilings, above windows, or in corners of upstairs rooms', 'The damp may worsen during or immediately after rainfall', 'Mould and mildew often accompany gutter-related damp patches', 'Tide marks on internal walls indicate repeated water penetration', 'Fixing the gutter blockage often resolves the damp without internal work'] },
+        { heading: 'How to Tell if Damp Is Caused by Blocked Gutters', content: 'Not all damp is caused by gutters, but there are tell-tale signs that point to a gutter problem rather than rising damp or condensation.', bullets: ['Damp appears on upper floors — ground-floor damp is less likely to be gutter-related', 'Damp worsens after rainfall — check the timing of damp patches against rain', 'External staining visible — green or black streaks below the gutter line', 'Damp is localised to one area — not generalised across the room', 'The damp patch is under or near the gutter line', 'No other obvious cause — no leaking pipes, no roof tile damage visible'] },
+      ],
+      faqs: [
+        { question: 'Can blocked gutters cause damp patches on walls?', answer: 'Yes — blocked gutters are one of the most common causes of damp on upper-floor walls. Overflow water saturates external brickwork and travels through to internal surfaces.' },
+        { question: 'How do I know if my damp is from gutters or rising damp?', answer: 'Gutter-related damp appears on upper floors and worsens after rain. Rising damp affects ground floors and is caused by moisture drawn up from the ground. The pattern and location of the damp tell you which it is.' },
+        { question: 'Will clearing my gutters fix the damp patch?', answer: 'In many cases, yes — once the gutter is cleared and water flows freely again, the external wall can dry out and the internal damp will resolve. However, existing mould may need separate treatment.' },
+        { question: 'How much does gutter clearance cost if it is causing damp?', answer: 'Gutter cleaning costs from £50 for standard homes. Compared to the cost of damp treatment and redecoration, it is the most cost-effective first step.' },
+        { question: 'Do I need a damp specialist or a gutter cleaner first?', answer: 'Start with a gutter clean and inspection. If the damp persists after the gutters are cleared and the wall has had time to dry, a damp specialist may be needed. Most gutter-related damp resolves once the blockage is cleared.' },
+      ],
+    };
+  }
+
+  if (slug === 'plants-growing-in-gutter-removal') {
+    return {
+      heroTitle: 'Plants Growing in Gutter — Removal',
+      heroDescription: 'Plants growing in your gutter indicate a long-standing blockage with decomposed debris. WOW Gutters Ltd removes weeds, roots, and all organic matter from your gutter channels. Call 07421 433910.',
+      sections: [
+        { heading: 'Plants Growing in Gutters — Why It Happens', content: 'When leaves and organic debris decompose in a gutter channel over months or years, they form a nutrient-rich growing medium. Wind-blown seeds land in this material and germinate, establishing root systems that can spread through the gutter channel and even into the fascia board behind. This is a sign that the gutter has not been cleaned for an extended period — typically two or more seasons.', bullets: ['Decomposed debris creates soil-like material that supports plant growth', 'Wind-blown seeds from trees, weeds, and grasses germinate in the gutter', 'Root systems can spread along the gutter channel and into joints', 'Plants hold moisture against the gutter surface, accelerating corrosion', 'Root growth can crack or dislodge UPVC gutter sections', 'Heavy plant growth adds significant weight to the gutter brackets'] },
+        { heading: 'Professional Plant Removal From Gutters', content: 'Removing plants from gutters requires more than pulling visible growth. The root system and the organic growing medium must be fully extracted to prevent regrowth and restore full gutter capacity.', bullets: ['Above-surface growth removed first to access the gutter channel', 'Root systems extracted using professional vacuum equipment', 'Decomposed debris and growing medium fully cleared', 'Gutter channel inspected for damage caused by roots', 'Joints and seals checked for root penetration', 'Downpipe flow tested after clearance is complete'] },
+      ],
+      faqs: [
+        { question: 'How do plants grow in gutters?', answer: 'Seeds carried by wind or birds land in accumulated debris in uncleaned gutters. The decomposing organic matter provides nutrients and moisture for germination, and roots establish in the debris layer.' },
+        { question: 'Can plants growing in gutters cause damage?', answer: 'Yes — roots can crack UPVC gutters from the inside, dislodge joint seals, and add significant weight that strains brackets. Plant roots can also penetrate behind the fascia board.' },
+        { question: 'How much does it cost to remove plants from gutters?', answer: 'Removing established plant growth from gutters costs from £60 depending on the extent of the growth and any damage caused. WOW Gutters Ltd provides a fixed quote before work starts.' },
+        { question: 'Will plants grow back after removal?', answer: 'Not if the debris and growing medium are fully removed. WOW Gutters Ltd extracts all organic material so there is nothing left for seeds to germinate in.' },
+        { question: 'Can plants damage the fascia board behind the gutter?', answer: 'Yes — roots can find their way behind the gutter and penetrate the fascia board, causing rot. This is why professional removal of the full root system is important.' },
+      ],
+    };
+  }
+
+  if (slug === 'moss-falling-from-roof-into-gutter') {
+    return {
+      heroTitle: 'Moss Falling From Roof Into Gutter',
+      heroDescription: 'Moss falling from your roof into the gutter causes blockages and reduces gutter capacity. WOW Gutters Ltd offers professional moss removal and gutter clearance. Call 07421 433910.',
+      sections: [
+        { heading: 'Why Moss Falls From Your Roof Into the Gutter', content: 'Moss growing on roof tiles naturally sheds fragments into the gutter below. Each rainfall dislodges more moss, and over time this builds up as a dense, sponge-like layer in the gutter channel that holds water and restricts flow. Properties with north-facing roofs, mature tree cover, or clay roof tiles are most affected.', bullets: ['Moss on roof tiles sheds fragments into gutters with every rainfall', 'Accumulated moss forms a dense, water-holding mat in the gutter', 'Moss reduces gutter capacity by up to 50% even without other debris', 'Wet moss is heavy — a moss-filled gutter can weigh several times more than a clear one', 'Moss holds moisture against the gutter surface, accelerating corrosion in metal systems', 'Moss debris at downpipe inlets creates stubborn blockages'] },
+        { heading: 'What to Do About Moss Falling Into Gutters', content: 'Preventing moss from entering your gutters requires treating the moss on the roof surface. Regular gutter cleaning removes the moss that has already fallen and prevents buildup.', bullets: ['Roof moss treatment kills moss on the roof surface so it stops shedding', 'Professional roof cleaning removes existing moss before it enters gutters', 'Regular gutter cleaning clears moss that has already accumulated', 'Biocide treatment slows moss regrowth for 12–24 months', 'Annual gutter maintenance prevents moss buildup from becoming a blockage', 'Combining roof treatment and gutter cleaning is the most effective approach'] },
+      ],
+      faqs: [
+        { question: 'Is moss falling from the roof into gutters a problem?', answer: 'Yes — moss accumulates in gutters and forms a dense, water-holding layer that reduces capacity, adds weight, and creates stubborn blockages at downpipe inlets.' },
+        { question: 'How do I stop moss from falling into my gutters?', answer: 'Treating the moss on your roof with a biocide kills it at the root so it stops shedding. Professional roof cleaning with soft wash methods removes existing moss safely.' },
+        { question: 'Can moss in gutters cause damp?', answer: 'Yes — moss holds water in the gutter and restricts flow. When the gutter cannot drain properly, water overflows against walls and causes damp.' },
+        { question: 'How much does roof moss treatment cost?', answer: 'Roof moss treatment starts from £150 depending on roof size and moss coverage. Combined gutter and roof treatment offers better value than separate visits.' },
+        { question: 'How often should gutters be cleaned if moss is falling from the roof?', answer: 'Properties with significant roof moss benefit from gutter cleaning at least twice a year — once after spring moss growth and once after autumn leaf fall.' },
+      ],
+    };
+  }
+
+  if (slug === 'birds-nesting-in-gutter-removal-uk') {
+    return {
+      heroTitle: 'Birds Nesting in Gutter — Removal UK',
+      heroDescription: 'Birds nesting in gutters cause blockages and damage. WOW Gutters Ltd removes nesting material safely and legally across Birmingham and the West Midlands. Call 07421 433910.',
+      sections: [
+        { heading: 'Birds Nesting in Gutters — What to Do', content: 'Birds nesting in gutters is common across Birmingham and the West Midlands, particularly with house sparrows, starlings, pigeons, and blackbirds. Nesting material — twigs, grass, feathers, and droppings — accumulates at downpipe inlets and blocks water flow. In the UK, all wild birds are protected under the Wildlife and Countryside Act 1981, which means active nests with eggs or chicks cannot be disturbed.', bullets: ['Nesting material blocks downpipe inlets and causes gutter overflow', 'Bird droppings in gutters are acidic and can corrode metal systems', 'Nests attract insects and rodents to the roofline', 'Feathers and debris can block multiple downpipes across the system', 'Active nests are protected by UK law — removal must wait until the nest is vacated', 'Inactive nests should be removed promptly to prevent re-nesting'] },
+        { heading: 'Legal Requirements for Bird Nest Removal in UK', content: 'Under UK law, it is illegal to damage or destroy an active bird nest. WOW Gutters Ltd follows all legal requirements when removing nesting material from gutters.', bullets: ['Active nests (with eggs or chicks) cannot be removed until the birds have left', 'The nesting season runs roughly from March to August', 'Inactive nests can be removed at any time', 'WOW Gutters Ltd can advise whether a nest is active or inactive', 'Installing gutter mesh or guards prevents birds from re-nesting', 'Regular gutter cleaning removes debris before nesting material accumulates'] },
+      ],
+      faqs: [
+        { question: 'Can I remove a bird nest from my gutter?', answer: 'Only if the nest is inactive — meaning there are no eggs or chicks present. Active nests are protected by UK law and cannot be disturbed. WOW Gutters Ltd can advise on the status of any nest.' },
+        { question: 'How do I stop birds from nesting in my gutters?', answer: 'Gutter mesh guards and bird spikes prevent birds from accessing the gutter channel. Regular cleaning also removes debris that birds use as nesting material.' },
+        { question: 'How much does bird nest removal from gutters cost?', answer: 'Removal of inactive nesting material costs from £50 combined with a gutter clean. Gutter guard installation to prevent re-nesting costs extra.' },
+        { question: 'What birds commonly nest in gutters in Birmingham?', answer: 'House sparrows, starlings, pigeons, and blackbirds are the most common birds found nesting in Birmingham gutters. Sparrows and starlings often nest in colonies.' },
+        { question: 'Will bird nests damage my gutters?', answer: 'Yes — nesting material blocks water flow, droppings are acidic and can corrode metal gutters, and the added weight can strain brackets. Regular removal of inactive nests prevents this damage.' },
+      ],
+    };
+  }
+
+  if (slug === 'wasp-nest-in-gutter-who-to-call') {
+    return {
+      heroTitle: 'Wasp Nest in Gutter — Who to Call',
+      heroDescription: 'Found a wasp nest in your gutter? WOW Gutters Ltd can help. We arrange safe wasp nest treatment before clearing the gutter. Professional, safe, and insured. Call 07421 433910.',
+      sections: [
+        { heading: 'Wasp Nest in Gutter — What to Do', content: 'Wasps frequently build nests in the sheltered space under gutter sections, inside downpipe joints, or behind fascia boards near the gutter line. A wasp nest in your gutter is a safety concern because any attempt to clean the gutter will disturb the nest and provoke the wasps. Professional treatment is essential before the nest can be removed.', bullets: ['Do not attempt to remove a wasp nest yourself — wasps attack when threatened', 'Do not block the nest entrance — wasps will find another way into your home', 'Professional pest treatment kills the nest safely', 'After treatment, the nest can be removed and the gutter cleaned', 'WOW Gutters Ltd can arrange treatment before the gutter clean', 'Prevent re-nesting by keeping gutters clean and fitting mesh guards'] },
+        { heading: 'Who to Call for a Wasp Nest in Your Gutter', content: 'For a wasp nest in your gutter, you need two services — pest control to treat the nest, and a gutter cleaner to remove the nest and clean the system afterward. WOW Gutters Ltd can coordinate both.', bullets: ['Pest control service treats the nest with insecticide', 'Allow 24–48 hours after treatment before the nest is safe to approach', 'WOW Gutters Ltd then removes the nest debris and cleans the gutter', 'The gutter is inspected for damage caused by the nest', 'Downpipes are tested to confirm clear flow after removal', 'Mesh guards can be fitted to prevent wasps from returning'] },
+      ],
+      faqs: [
+        { question: 'Who do I call for a wasp nest in my gutter?', answer: 'Call WOW Gutters Ltd on 07421 433910. We can arrange professional wasp nest treatment followed by gutter clearance once the nest is safe to remove.' },
+        { question: 'Can I clean my gutters if there is a wasp nest?', answer: 'No — disturbing a wasp nest is dangerous. The nest must be treated by a pest control professional first. Wait 24–48 hours after treatment before approaching the area.' },
+        { question: 'How much does wasp nest treatment cost?', answer: 'Professional wasp nest treatment typically costs £40–£70. Combined with gutter cleaning, the total cost depends on your property size.' },
+        { question: 'Do wasp nests damage gutters?', answer: 'Yes — wasp nests add weight, block water flow, and the nest material can trap moisture against the gutter surface, accelerating corrosion.' },
+        { question: 'How do I prevent wasps from nesting in my gutters?', answer: 'Keep gutters clean and consider fitting gutter mesh guards. Wasps prefer sheltered, undisturbed locations — regular gutter maintenance makes your gutters less attractive for nesting.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-overflowing-behind-fascia') {
+    return {
+      heroTitle: 'Gutter Overflowing Behind Fascia',
+      heroDescription: 'Gutter overflowing behind the fascia indicates a joint failure or a gutter that has pulled away from the fascia board. WOW Gutters Ltd diagnoses and fixes the problem. Call 07421 433910.',
+      sections: [
+        { heading: 'What Does Gutter Overflow Behind Fascia Mean?', content: 'Water running down behind the fascia board — rather than over the front of the gutter — means the back of the gutter channel has lifted or separated from the fascia, or a joint has failed at the rear of the gutter. This is more serious than front overflow because the water runs directly behind the fascia board, soaking the timber from the back where it cannot dry out.', bullets: ['Gutter has pulled away from the fascia — brackets have loosened or failed', 'Joint seal failure at the rear of the gutter — water escapes behind the channel', 'Fascia board is being soaked from behind — the timber stays wet for long periods', 'Damp may not be visible externally until the decay is advanced', 'Mould and rot develop behind the fascia without obvious external signs', 'This issue requires prompt professional repair to prevent structural damage'] },
+        { heading: 'How to Fix a Gutter Overflowing Behind the Fascia', content: 'The fix depends on the root cause. Simple bracket reseating may solve the problem, or the fascia board itself may need replacement if rot has already set in.', bullets: ['Loose brackets are reseated and fixed securely to dry timber', 'Failed joint seals are cleaned and resealed with outdoor-grade sealant', 'If the fascia board is rotten, the damaged section must be replaced', 'New brackets are fixed to sound timber with appropriate fixings', 'The gutter run is checked for correct fall angle after repair', 'Water flow is tested after all repairs to confirm the gutter drains properly'] },
+      ],
+      faqs: [
+        { question: 'What causes a gutter to overflow behind the fascia?', answer: 'The most common cause is bracket failure — the fixings holding the gutter to the fascia have loosened or the fascia timber has rotted. Joint seal failure at the rear of the gutter can also cause water to escape behind.' },
+        { question: 'Is gutter overflow behind fascia an emergency?', answer: 'It should be treated urgently — water running behind the fascia board soaks the timber in a location that cannot dry out, accelerating rot that can spread to roof timbers.' },
+        { question: 'Can fascia board rot be repaired?', answer: 'If caught early, the rotted section can be cut out and replaced. If the rot has spread extensively, full fascia replacement may be needed. Early attention saves money.' },
+        { question: 'How much does it cost to fix a gutter overflowing behind fascia?', answer: 'Bracket reseating costs from £30. Fascia board replacement costs from £100 per section. WOW Gutters Ltd provides a fixed quote after inspection.' },
+        { question: 'How do I know if my gutter is overflowing behind the fascia?', answer: 'Look for water staining on the fascia board surface (often missed because it is hidden), damp patches on ceilings near the eaves, or green algae growth on the fascia indicating persistent moisture.' },
+      ],
+    };
+  }
+
+  if (slug === 'why-does-my-gutter-drip-after-rain') {
+    return {
+      heroTitle: 'Why Does My Gutter Drip After Rain',
+      heroDescription: 'A gutter that drips after rain has stopped usually has trapped water, a leaking joint, or incorrect fall angle. WOW Gutters Ltd diagnoses and fixes post-rain gutter drips. Call 07421 433910.',
+      sections: [
+        { heading: 'Why Your Gutter Drips Long After Rain Stops', content: 'A gutter that continues to drip hours or even days after rainfall has stopped indicates water trapped somewhere in the system. This could be standing water in a sagging section, water held in a moss or debris mat, a slow leak at a joint, or condensation inside a metal downpipe. Each cause requires a different fix.', bullets: ['Trapped water in a sagging section — the gutter does not drain completely after rain', 'Moss or debris holding water — a dense mat of organic material acts like a sponge', 'Leaking joint — water seeps out slowly from a failed seal long after rain stops', 'Condensation in metal downpipes — moisture forms inside and drips out over hours', 'Blocked downpipe — water drains from the gutter slowly, extending the drip period', 'Incorrect fall angle — the gutter does not slope enough to drain fully'] },
+        { heading: 'How to Stop a Gutter Dripping After Rain', content: 'Stopping a gutter drip requires identifying which of the possible causes applies to your system. WOW Gutters Ltd can diagnose the issue during a single visit.', bullets: ['Clear all debris including moss and silt to remove water-holding material', 'Check the gutter fall angle — adjust brackets if sections are sagging', 'Reseal any leaking joints with outdoor-grade gutter sealant', 'Test downpipe flow to confirm no restriction is slowing drainage', 'Insulate metal downpipes if condensation is the cause', 'Consider gutter replacement if the fall angle cannot be corrected with bracket adjustment'] },
+      ],
+      faqs: [
+        { question: 'Is it normal for gutters to drip after rain?', answer: 'A few drips immediately after rain stops is normal as residual water drains. Dripping that continues for hours or days indicates a problem — trapped water, a leak, or incorrect fall angle.' },
+        { question: 'Why does my gutter drip from the joint after rain?', answer: 'A leaking joint allows water to escape slowly after the main flow has stopped. The joint needs resealing or the rubber gasket needs replacing.' },
+        { question: 'Can a sagging gutter cause dripping after rain?', answer: 'Yes — a sagging section creates a low point where water pools. This trapped water either evaporates (taking days in cool weather) or leaks slowly through joints.' },
+        { question: 'How much does it cost to fix a gutter that drips after rain?', answer: 'The cost depends on the cause. Debris clearance from £50. Joint resealing from £30. Bracket adjustment from £30. WOW Gutters Ltd quotes a fixed price after diagnosis.' },
+        { question: 'Should I worry about a gutter that drips after rain?', answer: 'A constant drip indicates trapped water or a leak, both of which can cause damage over time. It is worth having it checked during your next gutter service.' },
+      ],
+    };
+  }
+
+  if (slug === 'sagging-gutter-causes') {
+    return {
+      heroTitle: 'Sagging Gutter — Causes',
+      heroDescription: 'Sagging gutters are caused by bracket failure, debris weight, fascia board rot, or incorrect installation. WOW Gutters Ltd fixes sagging gutters across Birmingham. Call 07421 433910.',
+      sections: [
+        { heading: 'What Causes a Gutter to Sag?', content: 'A sagging gutter is not just unsightly — it creates low points where water pools, debris accumulates, and the entire section is at risk of detachment. Understanding the cause is essential for a lasting repair.', bullets: ['Bracket failure — the clip or screw holding the gutter has corroded or pulled out', 'Fascia board rot — the timber the bracket is fixed to has softened and cannot hold', 'Debris weight — a gutter filled with wet leaves, moss, and silt weighs many times its empty weight', 'Thermal movement — UPVC gutters expand and contract with temperature changes, loosening fixings over time', 'Incorrect installation — brackets spaced too far apart or not aligned to the correct fall angle', 'Impact damage — a ladder, branch, or falling object has bent the bracket or shifted the gutter'] },
+        { heading: 'Can a Sagging Gutter Be Fixed?', content: 'Most sagging gutters can be repaired without full replacement. The damaged or failed brackets are replaced, the fascia board is checked for soundness, and the gutter is reseated at the correct angle.', bullets: ['Failed brackets are replaced with new, corrosion-resistant fixings', 'If the fascia board is soft, the rotted section is replaced before new brackets are fitted', 'The gutter section is lifted back into position and the fall angle is checked', 'All joints along the affected run are inspected for seal integrity after adjustment', 'The gutter is tested with water to confirm the correct fall and drainage', 'Debris is cleared from all sections before the repair is completed'] },
+      ],
+      faqs: [
+        { question: 'What causes a gutter to sag?', answer: 'The most common cause is bracket failure — either the bracket has corroded, the screw has pulled out, or the fascia board the bracket is fixed to has rotted. Debris weight and thermal movement also contribute.' },
+        { question: 'Can a sagging gutter be repaired without replacement?', answer: 'Yes — if the gutter section itself is undamaged, replacing the brackets and reseating the gutter usually solves the problem. If the fascia board is rotten, that section needs replacing first.' },
+        { question: 'How much does it cost to fix a sagging gutter?', answer: 'Bracket replacement costs from £30 per bracket. Fascia board repair costs from £100 per section. WOW Gutters Ltd provides a fixed quote after inspection.' },
+        { question: 'Will a sagging gutter cause damp?', answer: 'Yes — a sagging section creates a low point where water pools permanently. This water either leaks through joints or overflows against the wall, causing damp over time.' },
+        { question: 'How do I know if my gutter is sagging?', answer: 'Look along the gutter line from ground level — a sagging section dips below the line of the rest of the run. Standing water visible in the gutter after rain also indicates a sag.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-smells-bad-blocked') {
+    return {
+      heroTitle: 'Gutter Smells Bad — Blocked?',
+      heroDescription: 'A bad smell from your gutters usually means trapped water, rotting organic debris, or a dead animal. WOW Gutters Ltd clears the blockage and eliminates the odour. Call 07421 433910.',
+      sections: [
+        { heading: 'Why Do My Gutters Smell Bad?', content: 'Bad smells from gutters are caused by organic matter decomposing in standing water. Leaves, moss, and silt trapped in a sagging section or blocked downpipe create the perfect environment for anaerobic bacteria — the same bacteria that produce the rotten egg smell in drains. In some cases, a dead bird or rodent in the gutter or downpipe causes the odour.', bullets: ['Rotting leaves and moss in standing water produce hydrogen sulphide (rotten egg smell)', 'Trapped water in a sagging section or blocked downpipe provides the damp anaerobic conditions', 'Dead animals — birds, mice, or squirrels — can die in gutters or downpipes', 'Bird droppings accumulated in nesting material produce an ammonia-like odour', 'Mould and mildew growing in persistently damp gutter debris produce a musty smell', 'The smell is strongest in warm weather when bacterial activity increases'] },
+        { heading: 'How to Get Rid of Gutter Smells', content: 'Eliminating gutter smells requires removing the source — the decomposing organic material and any standing water. Simply masking the smell with cleaning products will not solve the problem.', bullets: ['Full gutter clearance removes all decaying organic matter', 'Standing water must be drained by correcting the sag or clearing the blockage', 'The gutter channel should be flushed with water after debris removal', 'If a dead animal is suspected, the downpipe may need inspection and clearance', 'Gutter mesh or leaf guards prevent future debris buildup', 'Regular gutter maintenance prevents the conditions that cause odours'] },
+      ],
+      faqs: [
+        { question: 'Why do my gutters smell like rotten eggs?', answer: 'A rotten egg smell is caused by hydrogen sulphide gas produced by anaerobic bacteria breaking down organic matter in standing water trapped in a blocked or sagging gutter.' },
+        { question: 'Can a blocked gutter cause bad smells inside my home?', answer: 'Yes — the smell from rotting gutter debris can enter your home through windows, vents, and the eaves. In severe cases, the smell indicates water damage that is affecting internal timbers.' },
+        { question: 'How do I get rid of gutter smell?', answer: 'The only effective solution is to clear all debris, drain any standing water, and flush the gutter channel. Deodorising products provide temporary relief but do not solve the underlying cause.' },
+        { question: 'Could the smell from my gutters be a dead animal?', answer: 'Yes — a dead bird, mouse, or squirrel in the gutter or downpipe produces a strong, distinctive odour. If the smell is particularly bad and persists after clearing visible debris, the downpipe should be inspected.' },
+        { question: 'How much does it cost to clear a smelly gutter?', answer: 'Gutter cleaning to remove the source of the smell costs from £50 for standard homes. If a dead animal needs removal from a downpipe, additional costs may apply.' },
+      ],
+    };
+  }
+
+  if (slug === 'green-stains-on-wall-from-gutter') {
+    return {
+      heroTitle: 'Green Stains on Wall From Gutter',
+      heroDescription: 'Green or black stains on your walls below the gutter line are caused by overflow water depositing algae and organic matter. WOW Gutters Ltd stops the overflow and cleans the staining. Call 07421 433910.',
+      sections: [
+        { heading: 'Why Green Stains Appear Below Gutters', content: 'Green, black, or brown vertical streaks below the gutter line are a clear sign of gutter overflow. When water spills from a blocked gutter, it carries algae spores, moss fragments, and organic matter from inside the channel down the wall. These deposits stain the brickwork, render, or stone, and the persistent moisture encourages algae growth directly on the wall surface.', bullets: ['Overflow water carries algae and organic matter from inside the gutter', 'Repeated overflow creates permanent green or black vertical streaks', 'Algae grows on the persistently damp wall surface below the overflow point', 'Staining is most visible on light-coloured render and brickwork', 'Mortar joints absorb the staining and are difficult to clean fully', 'Left untreated, staining becomes deeply embedded and hard to remove'] },
+        { heading: 'How to Remove Green Stains and Stop Them Returning', content: 'Removing existing stains and preventing new ones requires two steps — fixing the gutter blockage that causes the overflow, and cleaning the staining from the wall surface.', bullets: ['Clear the gutter blockage to stop further overflow', 'Repair any damaged joints, sagging sections, or bracket failures', 'Clean wall staining using appropriate methods for your wall type', 'Light staining on UPVC or smooth render can be pressure washed', 'Deep staining on brickwork may need specialist cleaning products', 'Install gutter guards to prevent future blockages and overflow'] },
+      ],
+      faqs: [
+        { question: 'What causes green stains on walls below gutters?', answer: 'Green stains are caused by algae and organic matter deposited on the wall by overflow from a blocked or leaking gutter. The moisture keeps the wall damp, allowing algae to grow directly on the surface.' },
+        { question: 'Can green stains be removed from brickwork?', answer: 'Yes — light staining can be pressure washed off. Deep staining on porous brickwork may need specialist cleaning products or multiple treatments. Preventing further overflow is essential for a lasting result.' },
+        { question: 'Will the green stains come back after cleaning?', answer: 'They will return unless the gutter problem is fixed. WOW Gutters Ltd addresses both the cause (the blocked gutter) and the symptom (the wall staining) for a complete solution.' },
+        { question: 'How much does it cost to clean green stains off walls?', answer: 'Wall stain removal costs from £60 depending on the wall area and the severity of the staining. Combined with gutter cleaning, the total cost depends on your property size.' },
+        { question: 'Can green stains damage my walls?', answer: 'Yes — algae growth holds moisture against the wall surface, which can penetrate porous brickwork and cause internal damp over time. The staining also makes the property look neglected.' },
+      ],
+    };
+  }
+
+  if (slug === 'water-damage-from-blocked-gutters-insurance') {
+    return {
+      heroTitle: 'Water Damage From Blocked Gutters — Insurance',
+      heroDescription: 'Will insurance cover water damage from blocked gutters? It depends on maintenance history. WOW Gutters Ltd helps you document gutter conditions for insurance purposes. Call 07421 433910.',
+      sections: [
+        { heading: 'Does Home Insurance Cover Water Damage From Blocked Gutters?', content: 'Insurance claims for water damage from blocked gutters are often disputed. Most home insurance policies cover "sudden and accidental" damage but may exclude damage caused by lack of maintenance. If the insurer determines the blockage built up over months or years due to neglected maintenance, they may reduce or decline the pay-out. Regular gutter cleaning with photographic records provides evidence that you maintained the property properly.', bullets: ['Most policies cover sudden damage — like a storm causing overflow', 'Gradual damage from long-term neglect is often excluded from cover', 'Insurers may request evidence of regular gutter maintenance', 'Before and after photos from gutter cleaning visits serve as maintenance records', 'Written condition reports from professional gutter cleaners support insurance claims', 'If a claim is declined, the full cost of repairs falls on the homeowner'] },
+        { heading: 'How to Protect Your Insurance Cover With Proper Gutter Maintenance', content: 'The best way to ensure your insurance covers gutter-related water damage is to demonstrate that you maintained the gutters properly. WOW Gutters Ltd provides the documentation you need.', bullets: ['Book regular gutter cleaning at least once per year', 'Retain before and after photographs from every gutter clean', 'Keep written condition summaries from professional gutter inspections', 'Address minor gutter repairs promptly before they cause damage', 'Document any storm events that may have caused sudden gutter damage', 'Photograph external wall staining or overflow evidence before repairs'] },
+      ],
+      faqs: [
+        { question: 'Does home insurance cover water damage from blocked gutters?', answer: 'It depends on your policy and your maintenance history. Sudden damage from an unforeseen event is often covered. Gradual damage from neglected gutters is frequently excluded. Regular gutter maintenance with photographic records strengthens your position.' },
+        { question: 'How do I prove I maintained my gutters for an insurance claim?', answer: 'Retain before and after photographs from professional gutter cleaning visits, keep dated receipts and invoices, and store any written condition reports. WOW Gutters Ltd provides all of these as standard.' },
+        { question: 'What happens if my insurance claim for gutter damage is declined?', answer: 'If the insurer decides the damage resulted from lack of maintenance, you are responsible for the full cost of repairs. This is why regular, documented gutter maintenance is essential.' },
+        { question: 'Does WOW Gutters Ltd provide documentation for insurance purposes?', answer: 'Yes — every visit includes before and after photographs and a written summary of work completed. These documents serve as evidence of proper gutter maintenance.' },
+        { question: 'Can I claim for gutter repairs on my home insurance?', answer: 'Gutter repairs themselves are usually not covered by standard home insurance. However, the water damage caused by a gutter blockage may be covered if you can demonstrate proper maintenance.' },
       ],
     };
   }
