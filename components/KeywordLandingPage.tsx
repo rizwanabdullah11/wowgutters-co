@@ -251,7 +251,7 @@ export default function KeywordLandingPage({ page }: { page: KeywordPage }) {
   const cat = detectCategory(page.slug);
   const pills = heroPills(cat);
   const wq = whatsappQuestions(cat);
-  const faqs = faqItems(cat, page);
+  const faqs = page.faqs && page.faqs.length > 0 ? page.faqs : faqItems(cat, page);
   const spot = localSpotlight(cat, page);
   const { priceFrom, priceTo } = pricingInfo(cat);
   const propTypes = propertyTypes(cat);
