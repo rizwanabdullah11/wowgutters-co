@@ -203,6 +203,18 @@ const RAW_KEYWORDS = [
   'moss treatment biocide roof',
   'roof cleaning without pressure washer',
   'gutter deep clean service',
+  'school gutter cleaning West Midlands',
+  'office building gutter cleaning Birmingham',
+  'warehouse gutter cleaning',
+  'industrial gutter cleaning West Midlands',
+  'retail park gutter maintenance',
+  'church gutter cleaning Birmingham',
+  'care home gutter cleaning',
+  'property management gutter cleaning contracts',
+  'landlord gutter cleaning service Birmingham',
+  'commercial roof cleaning West Midlands',
+  'gutter cleaning Sutton Coldfield Four Oaks',
+  'gutter cleaning Marston Green',
 ];
 
 function buildBullets(slug: string): string[] {
