@@ -24,10 +24,12 @@ import { professionalGutterCleaningExtendsRooflineLifeBlogPost } from './profess
 import { lateSummerGutterMaintenanceBlogPost } from './lateSummerGutterMaintenanceBlog';
 import { drySummerWeatherGutterInspectionsBlogPost } from './drySummerWeatherGutterInspectionsBlog';
 import { yearRoundGutterProtectionBlogPost } from './yearRoundGutterProtectionBlog';
+import { preparingGuttersSummerBlogPost } from './preparingGuttersSummerBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  preparingGuttersSummerBlogPost,
   drySummerWeatherGutterInspectionsBlogPost,
   lateSummerGutterMaintenanceBlogPost,
   yearRoundGutterProtectionBlogPost,
