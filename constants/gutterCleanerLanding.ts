@@ -20,7 +20,6 @@ export const GUTTER_CLEANER_LANDING: CityGutterLandingData = {
     'Ground-level vacuum system \u2014 no ladders against your property',
     'Reaches up to 4 storeys \u2014 homes, flats and commercial buildings',
     'Before & after photos included as standard on every job',
-    '1-year service guarantee \u2014 we return free if your gutters block within 12 months',
     'Fully insured \u2014 comprehensive public liability cover on every visit',
     'Directly employed engineers \u2014 no subcontractors',
     '4.9\u2605 rating from verified Google reviews',

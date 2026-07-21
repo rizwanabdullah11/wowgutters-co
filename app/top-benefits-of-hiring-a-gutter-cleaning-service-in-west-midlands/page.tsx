@@ -113,7 +113,6 @@ const post: BlogPost = {
 <li><strong>Full downpipe clearing and flow testing</strong> — we confirm your whole system works, not just the visible channel</li>
 <li><strong>Condition report</strong> — honest notes on every section of your gutter system</li>
 <li><strong>Full insurance cover</strong> — public liability protection on every visit</li>
-<li><strong>1-year service guarantee</strong> — we return free if your gutters block within 12 months</li>
 </ul>
 
 <h2>Book Your Gutter Cleaning Service in the West Midlands</h2>

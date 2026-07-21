@@ -64,7 +64,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -149,7 +149,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -235,7 +235,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -320,7 +320,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -405,7 +405,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -494,7 +494,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -579,7 +579,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -668,7 +668,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -753,7 +753,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -839,7 +839,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -928,7 +928,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -1016,7 +1016,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -1072,7 +1072,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -1160,7 +1160,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -1211,7 +1211,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -1262,7 +1262,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -1313,7 +1313,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -1364,7 +1364,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -1445,7 +1445,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -1537,7 +1537,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D terraces, semis and flats',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -1639,7 +1639,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D period homes, detached villas and flats',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -1737,7 +1737,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D terraces, semis and student HMOs',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -1835,7 +1835,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D period homes, semis and detached villas',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -1933,7 +1933,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system \u201D no ladders placed against your property',
       'Reaches up to 4 storeys \u201D terraces, semis and detached homes',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee \u201D we return free if your gutters block within 12 months',
+      
       'Fully insured \u201D comprehensive public liability cover on every visit',
       '4.9? rating from verified Google reviews',
     ],
@@ -3154,7 +3154,6 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       'Ground-level vacuum system — no ladders placed against your property',
       'Reaches up to 4 storeys — homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      '1-year service guarantee — we return free if your gutters block within 12 months',
       'Fully insured — comprehensive public liability cover on every visit',
       '4.9★ rating from verified Google reviews',
     ],
