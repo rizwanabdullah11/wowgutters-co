@@ -215,6 +215,14 @@ const RAW_KEYWORDS = [
   'commercial roof cleaning West Midlands',
   'gutter cleaning Sutton Coldfield Four Oaks',
   'gutter cleaning Marston Green',
+  'gutter cleaning Pershore',
+  'gutter cleaning Stourport-on-Severn',
+  'gutter cleaning Bewdley',
+  'gutter cleaning Alvechurch',
+  'gutter cleaning Nuneaton',
+  'gutter cleaning Kenilworth',
+  'roof moss removal Sutton Coldfield',
+  'gutter vacuum cleaning',
 ];
 
 function buildBullets(slug: string): string[] {
