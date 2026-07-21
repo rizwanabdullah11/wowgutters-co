@@ -153,6 +153,56 @@ const RAW_KEYWORDS = [
   'gutter smells bad blocked',
   'green stains on wall from gutter',
   'water damage from blocked gutters insurance',
+  'how often should gutters be cleaned UK',
+  'best time of year to clean gutters',
+  'how to tell if gutters need cleaning',
+  'what happens if you never clean your gutters',
+  'how do professionals clean gutters',
+  'gutter vacuum vs ladder cleaning',
+  'can you clean gutters from the ground',
+  'how long does gutter cleaning take',
+  'do I need scaffolding to clean gutters',
+  'is gutter cleaning worth it',
+  'gutter cleaning before winter checklist',
+  'autumn leaves gutter maintenance',
+  'how to prevent moss on roof',
+  'does roof cleaning damage tiles',
+  'soft washing vs pressure washing roof',
+  'how often to remove moss from roof',
+  'gutter guards worth it UK',
+  'leaf guard installation pros and cons',
+  'how to maintain gutters between cleans',
+  'landlord responsibility gutter cleaning UK',
+  'gutter cleaning 3 storey house',
+  'gutter cleaning 4 storey building',
+  'gutter cleaning flats and apartments',
+  'gutter cleaning terraced house birmingham',
+  'gutter cleaning victorian house',
+  'gutter cleaning new build estate',
+  'gutter cleaning above conservatory',
+  'gutter cleaning dormer bungalow',
+  'gutter cleaning HMO landlord',
+  'block of flats gutter maintenance',
+  'emergency gutter cleaning birmingham',
+  'same day gutter unblocking',
+  'gutter overflowing during storm help',
+  'urgent downpipe unblocking near me',
+  'weekend gutter cleaning birmingham',
+  'gutter cleaning before selling house',
+  'pre-winter gutter clear birmingham',
+  'gutter cleaning after storm damage',
+  'christmas gutter cleaning availability',
+  'gutter frozen overflow ice winter',
+  'fascia soffit cleaning near me',
+  'conservatory roof cleaning birmingham',
+  'solar panel bird proofing gutter',
+  'driveway and gutter cleaning package',
+  'render cleaning birmingham',
+  'upvc cleaning birmingham',
+  'gutter brightening service',
+  'moss treatment biocide roof',
+  'roof cleaning without pressure washer',
+  'gutter deep clean service',
 ];
 
 function buildBullets(slug: string): string[] {
@@ -1179,6 +1229,906 @@ function getContent(keyword: string): { heroTitle: string; heroDescription: stri
         { question: 'What happens if my insurance claim for gutter damage is declined?', answer: 'If the insurer decides the damage resulted from lack of maintenance, you are responsible for the full cost of repairs. This is why regular, documented gutter maintenance is essential.' },
         { question: 'Does WOW Gutters Ltd provide documentation for insurance purposes?', answer: 'Yes — every visit includes before and after photographs and a written summary of work completed. These documents serve as evidence of proper gutter maintenance.' },
         { question: 'Can I claim for gutter repairs on my home insurance?', answer: 'Gutter repairs themselves are usually not covered by standard home insurance. However, the water damage caused by a gutter blockage may be covered if you can demonstrate proper maintenance.' },
+      ],
+    };
+  }
+
+  if (slug === 'how-often-should-gutters-be-cleaned-uk') {
+    return {
+      heroTitle: 'How Often Should Gutters Be Cleaned UK?',
+      heroDescription: 'In the UK, gutters should be cleaned at least twice a year — once in late spring and once in autumn after leaf fall. WOW Gutters Ltd provides professional gutter cleaning across Birmingham and the West Midlands. Call 07421 433910.',
+      sections: [
+        { heading: 'Recommended Gutter Cleaning Frequency for UK Homes', content: 'The standard recommendation for UK homes is gutter cleaning twice per year. However, the right frequency depends on your local environment. Properties near trees need more frequent cleaning — sometimes quarterly. South-facing roofs also tend to grow moss faster, which fills gutters more quickly. A professional gutter cleaner can assess your property and recommend the right schedule.', bullets: ['Spring clean (April-May) — clears winter debris and winter moss growth', 'Autumn clean (October-November) — removes fallen leaves before winter', 'Properties near trees — quarterly cleaning recommended (4 times per year)', 'Pine trees nearby — check every 2-3 months as needles accumulate quickly', 'Homes in exposed areas — more frequent checks after storms', 'Annual minimum — even properties with no nearby trees need at least one clean per year'] },
+        { heading: 'What Happens If You Do Not Clean Gutters Often Enough?', content: 'Infrequent gutter cleaning leads to progressive damage that starts small and gets expensive over time. Debris buildup blocks water flow, causing overflow that saturates walls and foundations. The cost of repairing water damage from neglected gutters far outweighs the cost of regular professional cleaning.', bullets: ['Overflow water stains walls and causes damp inside the home', 'Fascia boards rot from constant moisture contact', 'Blocked downpipes need professional clearance', 'Moss and plant seeds germinate in debris-filled gutters', 'Nesting birds and wasps are attracted to blocked gutters', 'Insurance claims may be declined if maintenance is not documented'] },
+      ],
+      faqs: [
+        { question: 'Do all UK homes need gutter cleaning twice a year?', answer: 'Most UK homes benefit from two cleans per year. However, homes surrounded by mature trees, in areas with high moss growth, or in exposed positions may need three or four cleans annually.' },
+        { question: 'What time of year should I clean my gutters in the UK?', answer: 'The best times are late spring (after the last frost) and late autumn (after most leaves have fallen). Avoid cleaning during freezing weather or heavy rain.' },
+        { question: 'How much does gutter cleaning cost per year in the UK?', answer: 'Professional gutter cleaning typically costs between £50 and £150 per visit. An annual plan with two visits provides the best value and ensures your gutters are maintained year-round.' },
+        { question: 'Can I clean my own gutters instead of hiring a professional?', answer: 'You can clean ground-floor gutters yourself with a ladder and gloves, but working at height is dangerous. Professional gutter cleaners have the equipment, insurance, and experience to do the job safely.' },
+        { question: 'Does WOW Gutters Ltd offer a gutter cleaning schedule?', answer: 'Yes — we offer scheduled visits at intervals that suit your property. We send reminders before each visit and provide before and after photos every time.' },
+      ],
+    };
+  }
+
+  if (slug === 'best-time-of-year-to-clean-gutters') {
+    return {
+      heroTitle: 'Best Time of Year to Clean Gutters',
+      heroDescription: 'The best times to clean gutters in the UK are late spring and late autumn. WOW Gutters Ltd provides professional gutter cleaning timed to protect your home year-round. Call 07421 433910.',
+      sections: [
+        { heading: 'Spring Gutter Cleaning — Prepare for Summer Rain', content: 'Spring is the ideal time for the first gutter clean of the year. Winter storms and freeze-thaw cycles often leave gutters filled with debris, moss, and sludge. Cleaning in late spring removes this buildup and ensures your gutters can handle summer rainfall. It also reveals any winter damage — cracked joints, loose brackets, or sagging sections — that needs repair before the next wet season.', bullets: ['Removes debris that accumulated over winter months', 'Reveals winter damage — cracked joints, loose brackets, sagging sections', 'Prepares gutters for spring and summer rainfall', 'Clears moss growth before it spreads and blocks downpipes', 'Gives you the full dry season to arrange any necessary repairs', 'Prevents bird nesting in clean gutters during breeding season'] },
+        { heading: 'Autumn Gutter Cleaning — Essential Before Winter', content: 'Autumn gutter cleaning is the most important of the year. Fallen leaves, twigs, and seeds fill gutters rapidly from September through November. If left uncleaned through winter, this debris compacts into a heavy sludge that blocks downpipes and causes overflow in every rain shower. Cleaning after the main leaf fall ensures your gutters are clear for the wettest months of the year.', bullets: ['Removes fallen leaves before they compact into blockages', 'Prevents ice dams forming in frozen debris during winter', 'Ensures downpipes are clear for winter rainfall', 'Reduces weight load on gutter brackets from wet debris', 'Prevents autumn seeds from germinating into plants in spring', 'Protects against freeze-thaw damage to waterlogged gutters'] },
+      ],
+      faqs: [
+        { question: 'Is it better to clean gutters in spring or autumn?', answer: 'Both are essential. Spring cleaning removes winter debris and damage. Autumn cleaning prevents blockages during the wettest months. If you can only clean once per year, choose autumn before winter rain arrives.' },
+        { question: 'Can I clean gutters in winter?', answer: 'Winter cleaning is possible but not ideal. Ice and frost make ladders dangerous, and debris may be frozen solid. If your gutters are overflowing in winter, call a professional with the right equipment for safe winter gutter cleaning.' },
+        { question: 'Should I clean gutters before or after leaf fall?', answer: 'Clean after the main leaf fall has finished — usually late October or early November in the UK. Cleaning too early means more leaves will fall into clean gutters.' },
+        { question: 'What month should I clean my gutters for winter?', answer: 'November is the best month for winter-preparation gutter cleaning in the UK. By this time, most leaves have fallen but severe winter weather has not yet arrived.' },
+        { question: 'Does WOW Gutters Ltd offer seasonal gutter cleaning plans?', answer: 'Yes — our annual plan includes spring and autumn visits timed for your property. We send reminders so you never miss a cleaning window.' },
+      ],
+    };
+  }
+
+  if (slug === 'how-to-tell-if-gutters-need-cleaning') {
+    return {
+      heroTitle: 'How to Tell if Gutters Need Cleaning',
+      heroDescription: 'Signs your gutters need cleaning — water overflowing, plants growing, birds nesting, and damp patches on walls. WOW Gutters Ltd provides professional gutter cleaning and inspection. Call 07421 433910.',
+      sections: [
+        { heading: 'Visual Signs Your Gutters Are Blocked', content: 'The most obvious sign that gutters need cleaning is water spilling over the edge during rain. But there are other visual clues you can spot from the ground. Plants sprouting from the gutter channel, moss hanging over the edge, or sagging sections all indicate a buildup of debris. You might also see birds regularly perching on your roofline — they are feeding on insects attracted to damp, decaying organic matter in the gutters.', bullets: ['Water overflowing from gutters during rain — the most obvious sign', 'Plants or grass growing out of the gutter channel', 'Moss hanging over the gutter edge', 'Sagging gutter sections weighed down by debris', 'Birds gathering on the roofline — they feed on insects in gutters', 'Green or black stains running down walls below the gutter'] },
+        { heading: 'Auditory and Performance Signs of Blocked Gutters', content: 'Not all gutter problems are visible from the ground. Listen for gurgling sounds from downpipes during rain — this indicates air trapped behind a blockage. After rain stops, note whether water continues to drip from gutters for hours. A well-draining gutter system should empty within minutes of rain stopping. Slow drainage, water pooling near foundations, and damp patches on internal walls are all signs of blocked gutters that need attention.', bullets: ['Gurgling sounds from downpipes during or after rain', 'Water dripping from gutters long after rain has stopped', 'Damp patches on upstairs ceilings or walls', 'Pooling water at the base of downpipe outlets', 'Mould or mildew on external walls below the roofline', 'Wet patches on the ground near foundations after dry weather'] },
+      ],
+      faqs: [
+        { question: 'Can I check if my gutters need cleaning from the ground?', answer: 'Yes — look for water overflowing during rain, plants growing from gutters, moss hanging over edges, and staining on walls below the gutter line. These all indicate blockages.' },
+        { question: 'How do I know if my downpipe is blocked?', answer: 'Watch the downpipe outlet during rain. If little or no water exits the bottom while the gutter overflows at the top, your downpipe is blocked. Gurgling sounds from the pipe are also a strong indicator.' },
+        { question: 'Should I check my gutters after a storm?', answer: 'Yes — storms can deposit large amounts of debris into gutters quickly. A post-storm visual check from the ground can catch problems before they cause damage.' },
+        { question: 'How often should I visually check my gutters?', answer: 'A quick visual check after heavy rain or high winds is sensible. A thorough inspection by a professional every six months is recommended.' },
+        { question: 'What does WOW Gutters Ltd check during a gutter inspection?', answer: 'Our inspection covers the gutter channel, joints, downpipe inlets and outlets, fascia boards, and brackets. We provide before and after photos and a written condition summary.' },
+      ],
+    };
+  }
+
+  if (slug === 'what-happens-if-you-never-clean-your-gutters') {
+    return {
+      heroTitle: 'What Happens If You Never Clean Your Gutters?',
+      heroDescription: 'Never cleaning your gutters leads to water damage, rotten fascia boards, damp walls, foundation problems, and expensive repairs. WOW Gutters Ltd helps you avoid these costs. Call 07421 433910.',
+      sections: [
+        { heading: 'Progressive Damage From Unmaintained Gutters', content: 'Gutters left uncleaned for years do not fail suddenly — the damage builds gradually. In the first year, leaves and debris create a partial blockage that causes minor overflow during heavy rain. By year two, the compacted debris blocks downpipes completely and water overflows against walls in every rain shower. By year three, plant seeds have germinated in the nutrient-rich debris, roots penetrate joints and cracks, and the structural integrity of the gutter system is compromised.', bullets: ['Year one — partial blockages cause overflow in heavy rain only', 'Year two — compacted debris blocks downpipes completely', 'Year three — plants grow in gutters, roots damage joints and seals', 'Fascia boards rot from continuous moisture exposure', 'Internal damp and mould develop in upstairs rooms', 'Foundation damage from water pooling at the base of walls'] },
+        { heading: 'The Financial Cost of Neglected Gutters', content: 'The cost of never cleaning your gutters far exceeds the cost of regular maintenance. A £100 gutter cleaning twice per year is negligible compared to the repair bills that accumulate from neglect. Replacing rotten fascia boards costs £500 or more per section. Repairing internal water damage runs into thousands. In extreme cases, foundation repairs can cost £5,000 to £10,000 — and insurance may not cover damage caused by lack of maintenance.', bullets: ['Regular gutter cleaning — £50 to £150 per visit (twice yearly)', 'Rotten fascia board replacement — from £500 per section', 'Internal damp repair — from £1,000 depending on severity', 'Gutter replacement — from £800 for a typical 3-bed semi', 'Mould remediation — from £500 for affected rooms', 'Foundation repairs — from £5,000 for water-damaged foundations'] },
+      ],
+      faqs: [
+        { question: 'How long can gutters go without cleaning before damage occurs?', answer: 'Damage can begin within six months if debris buildup is heavy. Most homes show signs of overflow and staining within one year of skipped cleaning. After two years, structural damage to fascia boards and walls is likely.' },
+        { question: 'Can dirty gutters cause roof damage?', answer: 'Yes — water backing up from blocked gutters can seep under roof tiles, causing rot to roof timbers and felt. Blocked gutters also keep the roof edge damp, encouraging moss and algae growth.' },
+        { question: 'Do never-cleaned gutters affect house value?', answer: 'Yes — surveyors routinely check gutters. Evidence of poorly maintained gutters can reduce property value and cause buyers to negotiate lower prices or demand repairs before purchase.' },
+        { question: 'Can neglected gutters cause subsidence?', answer: 'Consistent water overflow from blocked gutters saturates the ground around foundations. Over years, this can cause soil movement that contributes to subsidence — an extremely expensive problem.' },
+        { question: 'Does home insurance cover damage from never cleaning gutters?', answer: 'Most policies exclude damage caused by gradual deterioration or lack of maintenance. If you never cleaned your gutters and water damage results, your insurance claim may be declined.' },
+      ],
+    };
+  }
+
+  if (slug === 'how-do-professionals-clean-gutters') {
+    return {
+      heroTitle: 'How Do Professionals Clean Gutters?',
+      heroDescription: 'Professional gutter cleaning uses vacuum systems, hand removal, camera inspection, and downpipe jetting. WOW Gutters Ltd uses the most effective methods. Call 07421 433910.',
+      sections: [
+        { heading: 'Professional Gutter Cleaning Methods', content: 'Professional gutter cleaners use a combination of techniques depending on the property and the condition of the gutters. The most common method is high-reach gutter vacuum cleaning — a specialist vacuum with a long pole that removes debris from the gutter channel while the operator stays safely on the ground. For heavily blocked gutters, hand removal from a ladder may be necessary for the initial clearance. Downpipes are tested with water and jetted if blocked.', bullets: ['Gutter vacuum cleaning — removes debris from ground level using a long-reach system', 'Hand removal — ladder-based clearance for heavily compacted blockages', 'Downpipe testing — water test to confirm downpipes are clear', 'Downpipe jetting — high-pressure water jet to clear stubborn downpipe blockages', 'Camera inspection — internal camera to inspect downpipe condition when needed', 'Debris removal — all extracted debris is bagged and taken away'] },
+        { heading: 'The Professional Gutter Cleaning Process Step by Step', content: 'A professional gutter cleaning visit follows a structured process. The team arrives, assesses the property, and sets up equipment. Gutters are cleared section by section, downpipes are tested and cleared, and the entire system is checked for damage. Before and after photographs document every job. The process typically takes between 30 minutes and two hours depending on property size and the severity of the blockage.', bullets: ['Initial assessment — property walkaround to check gutter condition', 'Equipment setup — vacuum system or ladders positioned safely', 'Gutter clearance — systematic removal of all debris from the channel', 'Downpipe test — water poured into each downpipe to check flow', 'Downpipe jetting — high-pressure clearance for blocked downpipes', 'Final inspection — check all joints, brackets, and outlets before departure'] },
+      ],
+      faqs: [
+        { question: 'Do professional gutter cleaners use ladders or vacuums?', answer: 'Most professional gutter cleaners use both methods. Vacuum systems are used for routine cleaning where debris is accessible. Hand removal and ladders are used for heavily compacted blockages or when the vacuum cannot reach effectively.' },
+        { question: 'Is professional gutter cleaning worth the money?', answer: 'Yes — professional cleaners have the equipment, insurance, and experience to clean gutters thoroughly and safely. DIY gutter cleaning carries significant risk of falls and often misses hidden blockages in downpipes.' },
+        { question: 'How do professionals clean downpipes?', answer: 'Downpipes are tested by pouring water into the top and checking flow at the outlet. If blocked, a high-pressure water jet or a drain rod is used to clear the pipe. Camera inspection may be used for persistent blockages.' },
+        { question: 'Do professional gutter cleaners remove the debris?', answer: 'Yes — professional cleaners bag all extracted debris and take it away with them. You are left with clean gutters and no mess on your property.' },
+        { question: 'How long does a professional gutter clean take?', answer: 'Most residential gutter cleans take between 30 minutes and 2 hours. The time depends on the size of the property, the number of downpipes, and the severity of the blockage.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-vacuum-vs-ladder-cleaning') {
+    return {
+      heroTitle: 'Gutter Vacuum vs Ladder Cleaning',
+      heroDescription: 'Comparing gutter vacuum cleaning against traditional ladder cleaning — safety, effectiveness, cost, and which method suits your property. WOW Gutters Ltd offers both. Call 07421 433910.',
+      sections: [
+        { heading: 'Gutter Vacuum Cleaning — Pros and Cons', content: 'Gutter vacuum cleaning uses a specialist vacuum on a long pole that reaches gutters from ground level. The operator controls the vacuum nozzle from the ground, sucking debris out of the gutter channel. The main advantage is safety — no ladder work means no risk of falls. The vacuum system also captures debris immediately, so nothing falls onto the ground. However, heavily compacted sludge or plant growth may need hand removal first, and the operator cannot inspect the gutter as closely as from a ladder.', bullets: ['No ladder work — eliminates fall risk entirely', 'Fast and efficient for routine cleaning', 'Debris captured immediately — no mess on the ground', 'Ideal for two-storey and high-level gutters', 'May not handle heavily compacted debris without hand pre-clearance', 'Limited inspection ability — operator sees only what the camera shows'] },
+        { heading: 'Traditional Ladder Cleaning — Pros and Cons', content: 'Traditional ladder cleaning involves accessing the gutter directly and removing debris by hand or with a small trowel. This method allows the cleaner to inspect the gutter closely, check joint seals, and spot damage that a ground-based operator cannot see. Hand cleaning is also more effective for compacted, heavy debris. The main disadvantage is safety — ladder work at height carries significant risk, especially on wet or uneven ground. Professional cleaners are trained and insured for ladder work, but the risk is inherently higher.', bullets: ['Close inspection — cleaner can examine joints, seals, and brackets', 'Better for heavily compacted blockages and plant growth', 'More thorough debris removal from channel and downpipe inlets', 'Higher safety risk — falls from ladders are a leading cause of injury', 'Slower than vacuum cleaning for large properties', 'Requires safe ladder placement on stable, level ground'] },
+      ],
+      faqs: [
+        { question: 'Which gutter cleaning method is safer?', answer: 'Gutter vacuum cleaning is safer because the operator works from ground level with no fall risk. Ladder cleaning carries inherent risk even when proper safety procedures are followed.' },
+        { question: 'Is vacuum gutter cleaning as effective as hand cleaning?', answer: 'For routine cleaning with loose debris, vacuum cleaning is equally effective. For heavily compacted sludge, plant growth, or wet debris, hand cleaning may be more thorough. Many professionals use a combination of both methods.' },
+        { question: 'Which method is more expensive — vacuum or ladder?', answer: 'Both methods cost approximately the same for a standard property. The price depends more on property size and gutter condition than on the method used.' },
+        { question: 'Can all gutters be cleaned with a vacuum system?', answer: 'Most gutters can be vacuum cleaned, but very narrow, deep, or fragile guttering may need hand cleaning. A professional assessment will determine the best method for your gutters.' },
+        { question: 'Which method does WOW Gutters Ltd use?', answer: 'We use both methods depending on the property. Our team starts with a vacuum system for efficiency and safety, and uses hand cleaning where compacted debris or close inspection is needed.' },
+      ],
+    };
+  }
+
+  if (slug === 'can-you-clean-gutters-from-the-ground') {
+    return {
+      heroTitle: 'Can You Clean Gutters From the Ground?',
+      heroDescription: 'Yes — gutters can be cleaned from the ground using a gutter vacuum system. WOW Gutters Ltd provides professional ground-level gutter cleaning across Birmingham. Call 07421 433910.',
+      sections: [
+        { heading: 'Ground-Level Gutter Cleaning Methods', content: 'Cleaning gutters from the ground is possible with the right equipment. The most common method is using a gutter vacuum — a long-reach pole attached to a powerful industrial vacuum that sucks debris from the gutter channel while you stand safely on the ground. Some DIY methods use telescopic tools, gutter cleaning attachments for pressure washers, or garden hose attachments. Professional ground-level cleaning is more thorough and safer than DIY attempts.', bullets: ['Gutter vacuum — professional system with long-reach pole', 'Telescopic gutter cleaning tools — DIY options with scrapers or brushes', 'Pressure washer attachments — can damage gutters if not used carefully', 'Garden hose flushing — limited effectiveness for solid debris', 'Professional grade vacuums — more powerful than consumer models', 'Camera attachment — some vacuums include a camera for real-time inspection'] },
+        { heading: 'Professional vs DIY Ground-Level Gutter Cleaning', content: 'While you can buy a gutter vacuum attachment for your garden vacuum or pressure washer, professional-grade equipment is significantly more powerful. Professional vacuums generate enough suction to lift wet, compacted debris that consumer models cannot handle. Professionals also test and clear downpipes — a step DIY methods often miss. For a typical three-bedroom semi-detached house, a professional ground-level gutter clean takes under an hour and costs less than buying consumer equipment.', bullets: ['Professional vacuums have 10x the suction power of consumer models', 'Downpipe testing and jetting is included in professional cleaning', 'Consumer gutter vac attachments cost £50-150 but lack power', 'Professionals clean the entire system, not just the gutter channel', 'Before and after photos provided with professional service', 'No equipment to store, maintain, or replace'] },
+      ],
+      faqs: [
+        { question: 'Can I clean my gutters from the ground without a vacuum?', answer: 'You can use telescopic tools with scrapers or brushes to push debris out, but this is messy and less effective. Debris falls to the ground and you cannot check downpipe flow without testing from above.' },
+        { question: 'Do professional gutter cleaners work from the ground or ladders?', answer: 'Most professional gutter cleaners use a combination. They start with a vacuum system from ground level and use ladders for close inspection, downpipe testing, and hand removal of compacted debris.' },
+        { question: 'Is ground-level gutter cleaning as thorough as ladder cleaning?', answer: 'For routine maintenance, yes. For heavily blocked gutters with compacted debris or plant growth, some hand cleaning from a ladder may be needed for a thorough result.' },
+        { question: 'How much does professional ground-level gutter cleaning cost?', answer: 'Professional gutter cleaning, whether from the ground or ladders, costs between £50 and £150 for a standard UK home. The price depends on property size and gutter condition.' },
+        { question: 'Does WOW Gutters Ltd clean gutters from the ground?', answer: 'Yes — we use professional gutter vacuum systems for ground-level cleaning on most properties. We use ladders only where necessary for close inspection or compacted debris.' },
+      ],
+    };
+  }
+
+  if (slug === 'how-long-does-gutter-cleaning-take') {
+    return {
+      heroTitle: 'How Long Does Gutter Cleaning Take?',
+      heroDescription: 'Gutter cleaning typically takes 30 minutes to 2 hours for a standard UK home. WOW Gutters Ltd provides fast, efficient service. Call 07421 433910.',
+      sections: [
+        { heading: 'Gutter Cleaning Time by Property Type', content: 'The time required for gutter cleaning depends primarily on property size, the number of downpipes, and the condition of the gutters. A small terrace with accessible gutters may take as little as 30 minutes. A detached house with multiple roof valleys and several downpipes can take up to two hours. Properties with heavily compacted blockages, plant growth, or multiple downpipe blockages take longer.', bullets: ['Small terraced house — 30 to 45 minutes for a standard clean', 'Semi-detached house — 45 to 75 minutes depending on condition', 'Detached house — 60 to 120 minutes for a thorough clean', 'Bungalow — 30 to 60 minutes, all gutters easily accessible', 'Commercial property — 1 to 4 hours depending on roof area', 'Heavy blockage or plant growth — adds 30 to 60 minutes extra'] },
+        { heading: 'What Affects Gutter Cleaning Time?', content: 'Beyond property size, several factors affect how long a gutter clean takes. The extent of blockage is the biggest factor — light debris vacuums quickly while compacted wet sludge takes longer. The number of downpipes matters because each must be tested and cleared individually. Accessibility also plays a role — gutters behind conservatories or in tight valleys take longer to reach. Professional cleaners factor in setup and takedown time as well as the cleaning itself.', bullets: ['Blockage severity — light debris is fast, compacted sludge is slow', 'Number of downpipes — each one must be tested and cleared', 'Accessibility — tight spaces and roof valleys add time', 'Gutter condition — damaged sections need careful handling', 'Property height — two-storey properties take longer to set up for', 'Debris removal — bagging and removing debris adds 10-15 minutes'] },
+      ],
+      faqs: [
+        { question: 'How long does it take to clean gutters on a 3-bed semi?', answer: 'A 3-bed semi-detached house typically takes 45 to 75 minutes for a professional gutter clean, including downpipe testing.' },
+        { question: 'Does gutter cleaning take longer the first time?', answer: 'Yes — the first clean after a long period of neglect takes longer because debris is compacted and may need hand removal. Subsequent scheduled cleans are quicker.' },
+        { question: 'How long does it take to clean gutters on a bungalow?', answer: 'Bungalow gutters are the quickest to clean because they are low and accessible — typically 30 to 60 minutes.' },
+        { question: 'How long does downpipe unblocking add to the job?', answer: 'Unblocking a downpipe adds 10 to 30 minutes per downpipe depending on the severity of the blockage and whether jetting is required.' },
+        { question: 'Does WOW Gutters Ltd provide a time estimate before starting?', answer: 'Yes — we assess your property and provide a time estimate before starting work. Most jobs are completed within the estimated time.' },
+      ],
+    };
+  }
+
+  if (slug === 'do-i-need-scaffolding-to-clean-gutters') {
+    return {
+      heroTitle: 'Do I Need Scaffolding to Clean Gutters?',
+      heroDescription: 'Most gutter cleaning does not require scaffolding. Professional gutter cleaners use ladders and vacuum systems. WOW Gutters Ltd cleans gutters safely without scaffolding. Call 07421 433910.',
+      sections: [
+        { heading: 'When Scaffolding Is Not Needed for Gutter Cleaning', content: 'For the vast majority of residential gutter cleaning jobs, scaffolding is not required. Professional gutter cleaners use ladders for access and gutter vacuum systems that operate from ground level. A standard extension ladder provides safe access to gutters on two-storey properties. For higher properties, access towers or long-reach vacuum poles are used. Scaffolding is only necessary for properties above three storeys, gutters in very difficult positions, or when gutter replacement or major repair work is needed alongside cleaning.', bullets: ['Standard two-storey house — ladder access is sufficient', 'Three-storey or higher — may need tower access or scaffolding', 'Bungalow — ladder access is straightforward and quick', 'Extended-reach vacuum — cleans most gutters from ground level', 'Gutter vacuum systems eliminate the need for ladders on many properties', 'Scaffolding is typically needed for gutter replacements, not cleaning'] },
+        { heading: 'Gutter Cleaning Safety Without Scaffolding', content: 'Professional gutter cleaners are trained to work at height safely without scaffolding. Ladders are secured on stable ground, tied off where possible, and positioned at the correct angle. The cleaner never overreaches — they move the ladder as needed to maintain three points of contact. Professional insurance covers ladder work, giving you peace of mind. If the property genuinely requires scaffolding for safe access, a reputable cleaner will advise you before quoting.', bullets: ['Ladders are secured on stable, level ground with ladder stabilisers', 'Three points of contact maintained at all times during ladder work', 'Ladders are positioned at the correct 75-degree angle', 'Never overreach — ladder is repositioned as needed', 'Gutter vacuum systems reduce or eliminate need for ladder work', 'Professional insurance covers all work at height'] },
+      ],
+      faqs: [
+        { question: 'Do I need scaffolding to clean gutters on a 3-bed semi?', answer: 'No — a standard 3-bed semi-detached house does not need scaffolding for gutter cleaning. A professional gutter cleaner will use ladders and a vacuum system.' },
+        { question: 'When would scaffolding be necessary for gutter cleaning?', answer: 'Scaffolding may be needed for properties over three storeys, for gutters in very difficult positions, or if gutter replacement or major repair is planned alongside cleaning.' },
+        { question: 'Is ladder gutter cleaning safe for the cleaner?', answer: 'Yes — professional cleaners are trained in ladder safety, use stabilisers, and are insured for working at height. DIY ladder cleaning is more dangerous without training and equipment.' },
+        { question: 'How much does scaffolding add to gutter cleaning costs?', answer: 'Scaffolding for gutter access typically costs £200 to £500 for a standard house. Most residential gutter cleaning does not require it, so these costs are usually avoidable.' },
+        { question: 'Does WOW Gutters Ltd ever use scaffolding?', answer: 'We rarely need scaffolding for gutter cleaning alone. Our vacuum system and ladder access cover the vast majority of properties. We would advise you if scaffolding were genuinely needed.' },
+      ],
+    };
+  }
+
+  if (slug === 'is-gutter-cleaning-worth-it') {
+    return {
+      heroTitle: 'Is Gutter Cleaning Worth It?',
+      heroDescription: 'Yes — gutter cleaning is worth the cost. Regular cleaning prevents expensive water damage, protects your home, and maintains property value. WOW Gutters Ltd provides affordable gutter cleaning. Call 07421 433910.',
+      sections: [
+        { heading: 'The Cost-Benefit Analysis of Gutter Cleaning', content: 'Professional gutter cleaning costs between £50 and £150 per visit. Twice-yearly cleaning costs £100-300 per year. Compare that to the cost of repairing damage caused by neglected gutters — rotten fascia boards (£500+ per section), internal damp repairs (£1,000+), or a full gutter replacement (£800+ for a 3-bed semi). The math is clear: gutter cleaning pays for itself many times over by preventing damage that costs thousands to fix. It also protects your property value and gives you peace of mind.', bullets: ['Gutter cleaning — £50-£150 per visit (twice yearly recommended)', 'Rotten fascia replacement — £500+ per section', 'Internal damp and mould repair — £1,000+', 'Full gutter replacement — £800+ for a standard 3-bed semi', 'Masonry repairs from water damage — £500-£2,000', 'Insurance excess if claim is accepted — typically £100-£250'] },
+        { heading: 'Non-Financial Benefits of Regular Gutter Cleaning', content: 'Beyond the cost saving, regular gutter cleaning provides important non-financial benefits. Clean gutters prevent damp and mould, which protects your family\'s health. They prevent the stress and disruption of emergency repairs — a blocked gutter always causes problems at the worst possible time. Regular cleaning also keeps your home looking well-maintained and prevents the unsightly staining that develops below overflowing gutters. If you sell your home, a well-documented gutter maintenance history is a positive selling point.', bullets: ['Prevents damp and mould — protects your family from respiratory issues', 'Avoids emergency repairs — no mid-storm panics about overflowing water', 'Maintains kerb appeal — no wall staining or sagging gutters', 'Supports insurance claims — documented maintenance history', 'Prevents pest problems — no nesting sites for birds, wasps, or rodents', 'Peace of mind — gutters work when rain falls'] },
+      ],
+      faqs: [
+        { question: 'Is it cheaper to clean gutters yourself or hire a professional?', answer: 'DIY gutter cleaning costs nothing for labour but requires equipment and carries safety risks. Professional cleaning costs £50-£150 but is thorough, insured, and includes downpipe testing and debris removal.' },
+        { question: 'How much money does gutter cleaning save in the long run?', answer: 'Regular gutter cleaning saves thousands in avoided repairs. A £200 annual cleaning investment prevents £2,000+ in potential water damage, fascia rot, and structural repairs over time.' },
+        { question: 'Do clean gutters increase property value?', answer: 'Clean, well-maintained gutters are a positive selling point. Surveyors check gutters, and a clean system with documented maintenance history reassures buyers and supports the asking price.' },
+        { question: 'How often should I pay for gutter cleaning to make it worthwhile?', answer: 'Twice per year is the sweet spot for most UK homes — enough to prevent damage without overspending. An annual plan with WOW Gutters Ltd provides the best value.' },
+        { question: 'Does WOW Gutters Ltd offer value for money?', answer: 'Yes — we provide professional service with before and after photos, downpipe testing, and all debris removed. Our fixed quotes mean no surprises, and our annual plans offer the best per-visit rate.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-before-winter-checklist') {
+    return {
+      heroTitle: 'Gutter Cleaning Before Winter — Checklist',
+      heroDescription: 'Prepare your gutters for winter with this essential checklist. WOW Gutters Ltd provides pre-winter gutter cleaning and inspection across Birmingham. Call 07421 433910.',
+      sections: [
+        { heading: 'Essential Pre-Winter Gutter Cleaning Checklist', content: 'Preparing your gutters for winter is one of the most important home maintenance tasks. Winter brings the heaviest rainfall, freezing temperatures, and storms that can overwhelm a blocked system. Use this checklist to ensure your gutters are ready. The most critical tasks are clearing all debris from the gutter channel, testing every downpipe for flow, and checking joints and seals for leaks. Any damage found should be repaired before winter weather arrives.', bullets: ['Clear all leaves, twigs, and debris from every gutter section', 'Test each downpipe with water — confirm fast flow to the drain', 'Check all gutter joints for gaps, leaks, or separation', 'Inspect gutter brackets — tighten loose brackets, replace damaged ones', 'Check fascia boards for rot or water damage', 'Clear the area around ground-level drain outlets'] },
+        { heading: 'Additional Winter Preparation Steps', content: 'Beyond the gutters themselves, prepare the surrounding areas for winter. Trim overhanging branches that could drop leaves and debris into clean gutters during winter storms. Check that drain pipes are securely fixed and not cracked by previous freezing. If you have an underground drainage system, ensure the drain runs are clear and grates are free of debris. Consider booking your gutter cleaning for October or November — early enough to beat the winter rush but late enough that most autumn leaves have fallen.', bullets: ['Trim overhanging branches — reduces debris falling into gutters', 'Check drain pipe clips — tighten any loose fixings', 'Inspect underground drains — clear grate covers and check flow', 'Book professional cleaning for October or November', 'Document gutter condition with photos before winter', 'Schedule any necessary repairs before December'] },
+      ],
+      faqs: [
+        { question: 'When should I book pre-winter gutter cleaning?', answer: 'Book for October or November after most autumn leaves have fallen but before severe winter weather arrives. Avoid leaving it until December when freezing conditions make cleaning more difficult.' },
+        { question: 'What is the most important part of pre-winter gutter maintenance?', answer: 'Clearing downpipes is the most critical step. A clear gutter channel is useless if the downpipe is blocked underneath — water will still overflow. Always test downpipe flow after cleaning.' },
+        { question: 'Should I install gutter guards before winter?', answer: 'Gutter guards can help reduce debris accumulation but are not a replacement for cleaning. If you install guards, ensure they are fitted correctly before winter — poorly fitted guards can cause more problems than they solve.' },
+        { question: 'What happens if my gutters freeze in winter?', answer: 'Water trapped in blocked gutters can freeze and expand, cracking joints and splitting gutter sections. Regular cleaning prevents water from pooling and freezing in the system.' },
+        { question: 'Does WOW Gutters Ltd offer a pre-winter gutter cleaning service?', answer: 'Yes — we recommend booking our pre-winter clean in October or November. We test downpipes, check joints, and provide a written condition report. Call 07421 433910 to book.' },
+      ],
+    };
+  }
+
+  if (slug === 'autumn-leaves-gutter-maintenance') {
+    return {
+      heroTitle: 'Autumn Leaves Gutter Maintenance',
+      heroDescription: 'Autumn leaves are the biggest cause of blocked gutters. Professional autumn gutter maintenance keeps your system clear through the leaf-fall season. WOW Gutters Ltd — call 07421 433910.',
+      sections: [
+        { heading: 'Why Autumn Leaves Are a Problem for Gutters', content: 'Autumn leaves are the single biggest cause of gutter blockages in the UK. A single mature tree can drop thousands of leaves into your gutters over the autumn season. Leaves accumulate in the gutter channel, blocking water flow and preventing it from reaching the downpipe. As leaves decompose, they form a wet, compacted sludge that is heavy and difficult to remove. This sludge blocks downpipe inlets and creates the perfect environment for plant seeds to germinate.', bullets: ['Leaves block gutter channels — preventing water flow to downpipes', 'Decomposing leaves form wet sludge — heavy and hard to remove', 'Leaf debris blocks downpipe inlets — causing overflow at gutter edges', 'Wet leaves in gutters freeze in winter — expanding and cracking joints', 'Leaf buildup attracts insects — flies, beetles, and ants in gutters', 'Decomposing leaves stain gutters — dark organic staining on white guttering'] },
+        { heading: 'Autumn Gutter Maintenance Strategy', content: 'An effective autumn gutter maintenance strategy has three parts. The first is timing — book your main gutter clean for late October or early November after most leaves have fallen. The second is downpipe protection — ensure downpipe outlets have leaf guards or grates to prevent debris from entering at the top. The third is post-storm checks — after heavy autumn storms, a quick visual check can identify any leaf buildup that needs clearing before it compacts.', bullets: ['Book gutter cleaning for late October to early November', 'Install downpipe inlet guards to prevent leaves entering the pipe', 'Check gutters after autumn storms — clear any fresh leaf buildup', 'Trim overhanging branches to reduce leaf load entering gutters', 'Consider gutter guards for properties surrounded by mature trees', 'Schedule a spring follow-up clean to clear any moss growth from winter'] },
+      ],
+      faqs: [
+        { question: 'How quickly do autumn leaves block gutters?', answer: 'A heavy leaf fall can block gutters within days. A single autumn storm can deposit enough leaves to block downpipe inlets and cause overflow in the next rainfall.' },
+        { question: 'Should I clean gutters during autumn leaf fall?', answer: 'It is best to wait until the main leaf fall has finished — usually late October or early November. Cleaning too early means more leaves will fall into clean gutters.' },
+        { question: 'What is the best way to protect gutters from autumn leaves?', answer: 'Downpipe inlet guards and gutter guards are effective at preventing leaves from blocking the system. Professional autumn cleaning combined with guards provides the best protection.' },
+        { question: 'Can I leave autumn leaves in my gutters until spring?', answer: 'No — wet, compacted autumn leaves will freeze in winter, causing joint cracks and bracket damage. They also attract pests and create a fire risk when dry in summer.' },
+        { question: 'Does WOW Gutters Ltd provide autumn gutter maintenance?', answer: 'Yes — our autumn gutter cleaning service is our busiest. We recommend booking in September or early October to secure your preferred date.' },
+      ],
+    };
+  }
+
+  if (slug === 'how-to-prevent-moss-on-roof') {
+    return {
+      heroTitle: 'How to Prevent Moss on Roof',
+      heroDescription: 'Preventing moss on your roof saves money on cleaning and protects your tiles. WOW Gutters Ltd provides moss prevention treatments across Birmingham. Call 07421 433910.',
+      sections: [
+        { heading: 'Moss Prevention Methods for Roofs', content: 'Preventing moss growth on your roof is more effective than removing established moss. The key is to make the roof environment less hospitable to moss spores. Sunlight and airflow are natural moss deterrents — trimming overhanging tree branches lets more sun reach the roof and improves air circulation, drying the tiles faster after rain. Applying a moss-resistant treatment creates a protective barrier that prevents moss spores from establishing. Copper or zinc strips installed along the roof ridge release trace amounts of metal ions in rainwater that suppress moss growth below.', bullets: ['Trim overhanging branches — more sunlight and airflow to the roof', 'Apply moss-resistant treatment — protective barrier on tile surfaces', 'Install copper or zinc strips — metal ions suppress moss growth', 'Keep gutters clear — overflowing water keeps roof edges damp', 'Remove existing moss before treating — treatment is for prevention', 'Treat north-facing roof slopes — they get least sun and grow most moss'] },
+        { heading: 'Professional Moss Prevention vs DIY Solutions', content: 'DIY moss prevention products are available but rarely as effective as professional treatments. Professional roof treatments use commercial-grade biocides that kill moss spores on contact and provide long-lasting protection — typically 3 to 5 years. Professional application also ensures the treatment is applied evenly and safely, without damaging tiles or running off into gutters. The cost of professional treatment is usually recouped by avoiding frequent moss removal cleanings.', bullets: ['Professional treatments last 3-5 years — DIY products last 6-12 months', 'Commercial-grade biocides — more effective than shop-bought solutions', 'Professional application — even coverage without tile damage', 'Treatment includes gutter protection — prevents runoff staining', 'Cost-effective over time — fewer moss removal cleans needed', 'Safe application — professionals use correct dilution and protective equipment'] },
+      ],
+      faqs: [
+        { question: 'What causes moss to grow on UK roofs?', answer: 'Moss thrives on damp, shaded roof surfaces. North-facing slopes, roofs shaded by trees, and properties in humid areas are most prone to moss growth. Clay and concrete tiles are more susceptible than slate.' },
+        { question: 'Can I prevent moss on my roof myself?', answer: 'You can apply DIY moss killer from DIY stores, but professional treatments are more effective and longer-lasting. Treating a roof yourself also carries safety risks from working at height.' },
+        { question: 'How long does roof moss treatment last?', answer: 'Professional moss prevention treatments typically last 3 to 5 years. Zinc or copper strips provide ongoing protection for 10+ years but take longer to become effective.' },
+        { question: 'Does roof moss prevention damage tiles?', answer: 'No — professional moss treatments are designed to be safe for all common roof tile types. They kill moss without damaging the tile surface or structure.' },
+        { question: 'Does WOW Gutters Ltd offer roof moss prevention?', answer: 'Yes — we provide professional moss removal followed by a protective treatment that prevents regrowth. Our treatment is safe for all tile types and comes with a 3-year guarantee.' },
+      ],
+    };
+  }
+
+  if (slug === 'does-roof-cleaning-damage-tiles') {
+    return {
+      heroTitle: 'Does Roof Cleaning Damage Tiles?',
+      heroDescription: 'Professional roof cleaning does not damage tiles when done correctly. WOW Gutters Ltd uses safe, low-pressure soft washing methods. Call 07421 433910.',
+      sections: [
+        { heading: 'Safe Roof Cleaning Methods That Protect Tiles', content: 'The key to safe roof cleaning is using the correct method for your tile type. Soft washing — a low-pressure application of biocide and water — is the safest method for most roof tiles. It uses gentle pressure (similar to a garden hose) that cannot damage tiles, combined with a cleaning solution that kills moss, algae, and lichen at the root. The solution does the cleaning work, not the pressure. Professional cleaners never use high-pressure washing on roofs because it can force water under tiles, loosen them, and damage their surface.', bullets: ['Soft washing — low-pressure spray, safe for all tile types', 'Biocide treatment — kills moss and algae without abrasive cleaning', 'No high pressure — avoids forcing water under or loosening tiles', 'Professional application — correct dilution and technique', 'Tile-safe solutions — pH-balanced and non-damaging to clay, concrete, slate', 'Gentle rinsing — low-pressure removal of killed moss and debris'] },
+        { heading: 'When Roof Cleaning Can Damage Tiles (And How to Avoid It)', content: 'Roof cleaning damages tiles when done incorrectly or by inexperienced operators. Pressure washing a roof at high pressure can blast the surface off concrete tiles, crack clay tiles, and force water under slate tiles. Using incorrect chemical solutions can discolour or etch tile surfaces. Tackling the job in the wrong weather conditions — freezing temperatures or direct summer sun — can also cause damage. Choosing a professional roof cleaner who uses soft washing methods eliminates these risks.', bullets: ['High-pressure washing — can crack tiles and force water underneath', 'Abrasive cleaning — can remove the textured surface of concrete tiles', 'Wrong chemicals — can discolour or etch tile surfaces', 'Bad weather cleaning — freezing conditions or hot sun cause problems', 'Inexperienced operators — lack of knowledge about tile types', 'Professional soft washing avoids all these risks completely'] },
+      ],
+      faqs: [
+        { question: 'Does pressure washing a roof damage tiles?', answer: 'Yes — pressure washing a roof can damage tiles by forcing water under them, loosening them, or removing their surface texture. Professional roof cleaners use low-pressure soft washing instead.' },
+        { question: 'What is the safest roof cleaning method?', answer: 'Soft washing is the safest method — it uses low-pressure water combined with a cleaning solution that kills moss and algae without abrasive force. It is safe for all tile types.' },
+        { question: 'Can roof cleaning cause roof leaks?', answer: 'Yes — high-pressure cleaning can force water under tiles or loosen them, causing leaks. Soft washing at low pressure cannot force water under properly fitted tiles.' },
+        { question: 'How do I know if a roof cleaner will damage my tiles?', answer: 'Ask what method they use. If they mention high-pressure washing, choose a different provider. A reputable cleaner will explain their soft-washing process and provide references.' },
+        { question: 'Does WOW Gutters Ltd guarantee no tile damage?', answer: 'Yes — we use soft washing methods exclusively for roof cleaning and guarantee no damage to your tiles. Our team is experienced with all UK roof tile types.' },
+      ],
+    };
+  }
+
+  if (slug === 'soft-washing-vs-pressure-washing-roof') {
+    return {
+      heroTitle: 'Soft Washing vs Pressure Washing Roof',
+      heroDescription: 'Soft washing is safer and more effective than pressure washing for roof cleaning. WOW Gutters Ltd provides professional soft washing services. Call 07421 433910.',
+      sections: [
+        { heading: 'Soft Washing — The Better Choice for Roofs', content: 'Soft washing is the recommended method for roof cleaning by professional trade bodies and manufacturers. The process uses low-pressure water (typically 60-100 PSI — no more than a garden hose) combined with a biocide cleaning solution. The solution kills moss, algae, lichen, and bacteria at the root, and the low-pressure rinse removes the debris without damaging tiles. Soft washing cleans more thoroughly than pressure washing because the biocide kills the organisms rather than just blasting them off the surface — and they take much longer to grow back.', bullets: ['Low pressure (60-100 PSI) — cannot damage tiles or force water under them', 'Biocide treatment — kills moss, algae, and lichen at the root', 'Longer-lasting results — regrowth takes 2-3 years vs 6-12 months', 'Safe for all tile types — clay, concrete, slate, and composite', 'No water forced under tiles — eliminates leak risk', 'Environmentally responsible — biodegradable solutions used'] },
+        { heading: 'Why Pressure Washing Is Not Recommended for Roofs', content: 'Pressure washing uses high-pressure water — typically 1,500 to 3,000 PSI — to blast dirt and moss from surfaces. While effective on concrete driveways and patios, this pressure is too aggressive for roof tiles. High-pressure water can lift tile edges, crack tiles, and strip the protective surface layer from concrete tiles. Water is forced under overlapping tiles, potentially causing leaks in the roof structure below. Many tile manufacturers void their warranty if high-pressure cleaning is used on their products.', bullets: ['High pressure (1,500-3,000 PSI) — too aggressive for roof tiles', 'Can lift or crack tiles — water forced under overlaps', 'Removes tile surface — strips protective coating from concrete tiles', 'May void tile warranty — many manufacturers prohibit pressure washing', 'Short-term results — moss grows back quickly from remaining roots', 'Higher risk of leaks and damage compared to soft washing'] },
+      ],
+      faqs: [
+        { question: 'Is pressure washing ever OK for roof cleaning?', answer: 'No — pressure washing is not recommended for roof tiles by manufacturers or professional trade bodies. Soft washing is the industry-standard safe method.' },
+        { question: 'Which method lasts longer — soft washing or pressure washing?', answer: 'Soft washing lasts longer because it kills moss and algae at the root rather than just blasting the surface growth. Soft washing results typically last 2-3 years compared to 6-12 months for pressure washing.' },
+        { question: 'Is soft washing more expensive than pressure washing?', answer: 'Soft washing costs about the same as professional pressure washing for a roof. Both methods cost £200-£500 for a standard UK home. Soft washing provides better value because the results last longer.' },
+        { question: 'Can I pressure wash my own roof to save money?', answer: 'DIY pressure washing of a roof is dangerous and risks significant damage to your roof tiles. Professional soft washing is safer for both you and your roof.' },
+        { question: 'Does WOW Gutters Ltd offer soft washing?', answer: 'Yes — we specialise in soft washing for roof cleaning. Our team uses professional-grade biocide treatments applied at safe pressure levels for all tile types.' },
+      ],
+    };
+  }
+
+  if (slug === 'how-often-to-remove-moss-from-roof') {
+    return {
+      heroTitle: 'How Often to Remove Moss From Roof',
+      heroDescription: 'Moss should be removed from your roof every 3 to 5 years. WOW Gutters Ltd provides professional moss removal and prevention treatments. Call 07421 433910.',
+      sections: [
+        { heading: 'Recommended Moss Removal Frequency', content: 'The recommended frequency for roof moss removal depends on your property and local conditions. As a general rule, most UK homes need moss removal every 3 to 5 years. However, properties in damp, shaded areas — north-facing roofs, homes surrounded by trees, or properties in high-rainfall regions — may need moss removal every 2 to 3 years. Regular moss removal prevents the moss from building up to the point where it lifts tiles, blocks gutters, and causes damp problems in the roof space.', bullets: ['Standard frequency — every 3 to 5 years for most UK homes', 'Damp/shaded properties — every 2 to 3 years may be needed', 'After moss removal — apply treatment to extend time between cleans', 'Check roof annually — early moss removal is easier and cheaper', 'Gutter cleaning time — moss debris in gutters signals roof needs cleaning', 'Combine with roof treatment — prevention reduces removal frequency'] },
+        { heading: 'Signs Your Roof Needs Moss Removal Before the Recommended Interval', content: 'Even if you follow a regular moss removal schedule, certain signs indicate moss needs removing sooner. If you see moss debris in your gutters during cleaning, it means moss on the roof is breaking away — a sign the layer is thick enough to be problematic. Moss patches visible from the ground, especially at the roof edges and in valleys, need attention. If gutter cleaning reveals significant moss fragments, the roof should be inspected for moss growth.', bullets: ['Moss debris found in gutters during clean', 'Moss patches visible from ground level', 'Moss growing thickly on north-facing roof slopes', 'Moss growing in roof valleys and around chimneys', 'Moss lifting or curling roof tile edges', 'Moss debris blocking downpipe inlets'] },
+      ],
+      faqs: [
+        { question: 'How do I know when my roof needs moss removal?', answer: 'Visual signs include visible moss patches from the ground, moss debris in your gutters, and moss growing thickly in roof valleys. A professional inspection can assess the extent of growth.' },
+        { question: 'What happens if I never remove moss from my roof?', answer: 'Moss lifts roof tiles, allowing water to penetrate the roof structure. It also blocks gutters and downpipes with debris. Over time, unchecked moss growth can cause roof leaks and structural damp.' },
+        { question: 'Can I remove moss from my roof myself?', answer: 'DIY moss removal is possible with a stiff brush and moss killer, but working on a roof is extremely dangerous. Professional moss removal is safer and more thorough.' },
+        { question: 'Does moss removal damage roof tiles?', answer: 'Professional soft washing moss removal does not damage tiles. Aggressive scraping or high-pressure washing can damage tiles — which is why we use gentle, professional methods.' },
+        { question: 'Does WOW Gutters Ltd provide roof moss removal?', answer: 'Yes — we provide professional roof moss removal using soft washing methods, followed by a protective treatment that slows regrowth. We serve Birmingham and the West Midlands.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-guards-worth-it-uk') {
+    return {
+      heroTitle: 'Are Gutter Guards Worth It? UK Guide',
+      heroDescription: 'Gutter guards can reduce cleaning frequency but are not a replacement for maintenance. WOW Gutters Ltd provides honest advice on gutter guards. Call 07421 433910.',
+      sections: [
+        { heading: 'Pros of Gutter Guards for UK Homes', content: 'Gutter guards — also called gutter covers or leaf guards — sit over or inside your gutters to prevent leaves and debris from entering while allowing water to flow through. The main benefit is reducing how often you need gutter cleaning. Good quality gutter guards can extend the time between cleans from twice a year to once a year, or even longer for properties with light leaf fall. They also prevent downpipe blockages by stopping large debris from entering the system at all. For properties surrounded by mature trees, gutter guards are particularly beneficial.', bullets: ['Reduces cleaning frequency — from twice to once per year or less', 'Prevents downpipe blockages — stops large debris entering the system', 'Protects gutters during holiday periods — fewer checks needed', 'Reduces risk of bird and wasp nesting in gutters', 'Prevents plant seeds from germinating in gutter debris', 'Suitable for hard-to-access gutters on high properties'] },
+        { heading: 'Cons of Gutter Guards — What to Consider', content: 'Gutter guards are not a perfect solution. No gutter guard keeps all debris out — fine particles, moss spores, and small seeds still get through and accumulate over time. This fine sludge builds up underneath the guard where it is harder to see and more difficult to remove. Many gutter guards also require professional installation to work correctly, and poorly fitted guards can cause more problems — water can overshoot the gutter in heavy rain, and debris trapped behind the guard can accelerate rust on metal gutters. Guards also add upfront cost typically £200-£600 for a standard property.', bullets: ['Fine debris still gets through — requires cleaning eventually', 'Harder to clean — debris trapped under guards needs removal', 'Installation cost — £200-£600 upfront for a standard property', 'Can cause overshooting — water flows over the guard in heavy rain', 'Debris trapped behind guard — can cause rust on metal gutters', 'Not maintenance-free — regular inspections still needed'] },
+      ],
+      faqs: [
+        { question: 'Do gutter guards completely eliminate gutter cleaning?', answer: 'No — no gutter guard keeps all debris out. Fine particles, seeds, and moss spores still accumulate and need eventual removal. Guards reduce cleaning frequency but do not eliminate it.' },
+        { question: 'What type of gutter guard is best for UK homes?', answer: 'Mesh gutter guards with fine holes (foam and brush guards trap moisture and cause problems) are best for UK conditions. Professional installation is recommended for proper fit and function.' },
+        { question: 'Can gutter guards cause roof problems?', answer: 'Yes — poorly fitted gutter guards can cause water to overshoot the gutter, soaking the fascia boards and walls below. Professional installation is essential.' },
+        { question: 'How much do gutter guards cost in the UK?', answer: 'Gutter guard materials cost £5-£15 per metre. Professional installation for a standard 3-bed semi-detached house costs £200-£600 depending on the type and complexity.' },
+        { question: 'Does WOW Gutters Ltd install gutter guards?', answer: 'Yes — we supply and install professional-grade mesh gutter guards. We provide honest advice on whether guards are worthwhile for your specific property.' },
+      ],
+    };
+  }
+
+  if (slug === 'leaf-guard-installation-pros-and-cons') {
+    return {
+      heroTitle: 'Leaf Guard Installation — Pros and Cons',
+      heroDescription: 'Leaf guards reduce gutter cleaning but have drawbacks including cost and maintenance needs. WOW Gutters Ltd provides professional leaf guard installation. Call 07421 433910.',
+      sections: [
+        { heading: 'Benefits of Installing Leaf Guards', content: 'Leaf guards are designed to protect your gutters from the biggest cause of blockages — fallen leaves. The primary benefit is reduced cleaning frequency. Properties with heavy tree cover may need gutter cleaning four times a year without guards, but only once or twice per year with guards installed. Leaf guards also prevent the most common cause of downpipe blockages by stopping leaves from entering downpipe inlets. For homeowners who travel frequently or find gutter cleaning difficult to schedule, leaf guards provide welcome peace of mind.', bullets: ['Major reduction in gutter cleaning frequency', 'Prevents leaf-related downpipe blockages', 'Ideal for properties surrounded by mature trees', 'Reduces risk of bird nesting in gutters', 'Minimises seasonal gutter maintenance during autumn leaf fall', 'Provides peace of mind for frequent travellers'] },
+        { heading: 'Drawbacks of Leaf Guard Installation', content: 'Leaf guards have several drawbacks that homeowners should consider before installing. The upfront cost is significant — £200-£600 for a standard property. The guards need periodic inspection and cleaning themselves — fine debris accumulates on top or underneath. Some types of guard (foam inserts, for example) trap moisture against the gutter, accelerating corrosion on metal guttering. Guards can also cause water to overshoot the gutter in heavy rain if not properly aligned. In some cases, the cost of guards and their maintenance over 10 years exceeds the cost of regular professional gutter cleaning.', bullets: ['High upfront cost — £200-£600 installation', 'Guards need cleaning too — fine debris accumulates', 'Moisture trapping — some guard types promote corrosion', 'Water overshooting — poorly fitted guards cause overflow', 'Maintenance access — harder to inspect gutter condition', 'May cost more than regular cleaning over a 10-year period'] },
+      ],
+      faqs: [
+        { question: 'Are leaf guards worth the installation cost?', answer: 'Leaf guards are worth it for properties with heavy tree cover or hard-to-access gutters. For other properties, regular professional cleaning may be more cost-effective.' },
+        { question: 'Do leaf guards need maintenance after installation?', answer: 'Yes — leaf guards need periodic inspection and cleaning. Fine debris accumulates on mesh surfaces and needs removal. Most guards need attention once or twice per year.' },
+        { question: 'Can I install leaf guards myself?', answer: 'DIY leaf guard installation is possible but not recommended. Incorrect installation can cause water overshooting, debris accumulation behind the guard, and gutter damage. Professional installation ensures proper fit and function.' },
+        { question: 'Which leaf guard type is most effective?', answer: 'Fine mesh guards (stainless steel or aluminium) are the most effective for UK conditions. Foam and brush guards are less effective and can trap moisture against the gutter.' },
+        { question: 'Does WOW Gutters Ltd install leaf guards?', answer: 'Yes — we install professional-grade stainless steel mesh leaf guards. We provide a consultation to assess whether guards are suitable for your property and offer a fixed-price installation quote.' },
+      ],
+    };
+  }
+
+  if (slug === 'how-to-maintain-gutters-between-cleans') {
+    return {
+      heroTitle: 'How to Maintain Gutters Between Professional Cleans',
+      heroDescription: 'Simple gutter maintenance between professional cleans keeps your system working. WOW Gutters Ltd provides tips plus professional cleaning when needed. Call 07421 433910.',
+      sections: [
+        { heading: 'Simple DIY Gutter Maintenance Between Professional Cleans', content: 'Your gutters need attention between professional cleaning visits to stay in good working order. The most important DIY maintenance is visual inspection after heavy rain and storms — look for overflow, staining, or sagging sections from ground level. If you have a bungalow or low-level gutters, you can use a telescopic tool to clear visible debris from the gutter channel. Check downpipe outlets at ground level to ensure water is flowing freely. Trim overhanging branches that could drop leaves and debris into clean gutters.', bullets: ['Visual inspection after heavy rain — check for overflow or staining', 'Clear visible debris from low-level gutters using telescopic tools', 'Check downpipe outlets — ensure water flows freely during rain', 'Trim overhanging branches — reduces debris entering gutters', 'Check gutter joints from ground level — look for drips or gaps', 'Remove plant seedlings from gutters — pull them before roots establish'] },
+        { heading: 'What Not to Do When Maintaining Gutters Yourself', content: 'While DIY maintenance can help between professional cleans, there are important things to avoid. Never attempt to clean high-level gutters without proper equipment — the risk of falling is too great. Do not use a pressure washer to clean gutters — the force can damage joints and brackets. Never pour chemicals or bleach into gutters — these harm plants, pets, and the environment and do not solve underlying blockage issues. Avoid walking on a wet or fragile roof to access gutters — this can damage tiles and is extremely dangerous.', bullets: ['Do not climb ladders on two-storey properties without proper training', 'Never use a pressure washer on gutters — can damage joints and seals', 'Do not pour bleach or chemicals into gutters — harmful and ineffective', 'Never walk on a roof — extremely dangerous and can damage tiles', 'Do not ignore small problems — a minor leak can become a major repair', 'Avoid using wire or rods to poke downpipes — can crack the pipe'] },
+      ],
+      faqs: [
+        { question: 'How often should I check my gutters between professional cleans?', answer: 'A quick visual check after heavy rain and after autumn storms is sufficient. Full professional cleaning twice per year is still recommended even with regular DIY checks.' },
+        { question: 'Can I use a hose to flush my gutters?', answer: 'A garden hose can be used to test downpipe flow after debris removal, but it will not clear solid blockages. Use the hose only to confirm water is flowing through the system.' },
+        { question: 'What is the biggest risk with DIY gutter maintenance?', answer: 'Falls from ladders and roofs are the biggest risk. DIY gutter maintenance causes hundreds of serious injuries each year. If you have any doubt about safe access, call a professional.' },
+        { question: 'How do I spot gutter problems from the ground?', answer: 'Look for water overflowing during rain, green or black staining on walls below the gutter, plants growing from the gutter channel, sagging sections, and birds gathering on the roofline.' },
+        { question: 'Does WOW Gutters Ltd provide gutter maintenance advice?', answer: 'Yes — every professional clean includes advice on maintaining your gutters between visits. We also offer scheduled cleaning plans so you never have to remember when maintenance is due.' },
+      ],
+    };
+  }
+
+  if (slug === 'landlord-responsibility-gutter-cleaning-uk') {
+    return {
+      heroTitle: 'Landlord Responsibility — Gutter Cleaning UK',
+      heroDescription: 'In the UK, landlords are responsible for gutter cleaning and maintenance. WOW Gutters Ltd provides professional services for landlords and letting agents. Call 07421 433910.',
+      sections: [
+        { heading: 'Landlord Legal Responsibilities for Gutter Maintenance', content: 'In the UK, landlords have a legal responsibility to maintain the structure and exterior of the rental property, including gutters and downpipes. The Landlord and Tenant Act 1985 requires landlords to keep the property in good repair, which includes ensuring the rainwater system functions properly. The Homes (Fitness for Habitation) Act 2018 further requires that the property is fit for habitation — and a property with blocked, overflowing gutters causing damp is not fit for habitation. Failure to maintain gutters can result in tenants taking legal action, rent repayment orders, or enforcement action by the local council.', bullets: ['Landlord and Tenant Act 1985 — landlord must maintain structure and exterior', 'Homes (Fitness for Habitation) Act 2018 — property must be fit to live in', 'Tenant complaints about damp from gutter issues — must be addressed promptly', 'Legal action risk — tenants can sue for disrepair and claim compensation', 'Rent repayment orders — possible if property is unfit for habitation', 'Council enforcement — environmental health can demand repairs'] },
+        { heading: 'Best Practice for Landlords — Gutter Maintenance Schedules', content: 'Smart landlords treat gutter maintenance as a scheduled cost rather than reacting to emergencies. An annual or bi-annual gutter cleaning plan ensures the property remains compliant with legal requirements and protects the landlord from expensive emergency repairs and tenant complaints. Professional gutter cleaning also provides photographic evidence of maintenance — useful if a dispute arises. For landlords with multiple properties, WOW Gutters Ltd offers portfolio-wide cleaning schedules with a single point of contact.', bullets: ['Schedule bi-annual gutter cleaning — spring and autumn for each property', 'Use a professional service — provides maintenance records and photos', 'Include gutter inspection in annual property checks', 'Keep documentation — before and after photos protect against disputes', 'Respond to tenant reports of gutter issues within 24 hours', 'Consider gutter guards to reduce cleaning frequency on rental properties'] },
+      ],
+      faqs: [
+        { question: 'Is gutter cleaning the landlord or tenant responsibility?', answer: 'Gutter cleaning and maintenance are the landlord\'s responsibility in the UK. The tenant is not responsible for maintaining the structure and exterior of the property.' },
+        { question: 'Can a tenant be held responsible for blocked gutters?', answer: 'Generally no — gutter blockages from normal leaf fall and debris are the landlord\'s responsibility. However, if a tenant causes a blockage by putting inappropriate items into gutters, they may be responsible for the repair cost.' },
+        { question: 'Do I need to provide proof of gutter maintenance as a landlord?', answer: 'Yes — if a tenant complains about damp or water damage, you may need to prove that you maintained the gutters properly. Professional before and after photos provide this evidence.' },
+        { question: 'How much does landlord gutter cleaning cost?', answer: 'Landlord gutter cleaning costs the same as residential cleaning — typically £50-£150 per visit depending on property size. Multi-property discounts are available for portfolio landlords.' },
+        { question: 'Does WOW Gutters Ltd work with landlords and letting agents?', answer: 'Yes — we offer scheduled cleaning plans for rental properties and multi-property portfolios. We provide invoices and photographic evidence for your records. Call 07421 433910.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-3-storey-house') {
+    return {
+      heroTitle: 'Gutter Cleaning for 3-Storey Houses',
+      heroDescription: 'Gutter cleaning for 3-storey houses requires specialist equipment to reach higher elevations safely. WOW Gutters Ltd has the tools and experience for high-level gutter cleaning. Call 07421 433910.',
+      sections: [
+        { heading: 'Challenges of Cleaning Gutters on a 3-Storey House', content: 'Cleaning gutters on a 3-storey house is significantly more challenging than a standard 2-storey property. Standard ladders cannot safely reach the height, and working at the extended height requires specialised access equipment. Most 3-storey gutters need cleaning with a high-reach gutter vacuum system — a long-reach pole that can access gutters up to 40 feet from ground level. This eliminates the need for ladders and scaffolding, making the job safer and faster. The complexity also means the job takes longer and requires more experienced operators.', bullets: ['Standard ladders are unsafe above 2 storeys — specialist access needed', 'High-reach gutter vacuum — cleans up to 40ft from ground level', 'No scaffolding required with professional vacuum systems', 'Takes longer than standard gutter cleaning — allow 1-2 hours', 'Requires experienced operators trained for high-level work', 'More expensive than standard gutter cleaning due to specialist equipment'] },
+        { heading: 'How WOW Gutters Ltd Handles 3-Storey Gutter Cleaning', content: 'WOW Gutters Ltd uses professional high-reach gutter vacuum systems designed specifically for properties above standard height. Our equipment reaches gutters on 3-storey and higher buildings safely from the ground. The vacuum system is powerful enough to remove wet, compacted debris even at full extension. We also use camera attachments on the vacuum pole to inspect the gutter condition in real time. Downpipes are tested and cleared using our standard methods, with access from the top using long-reach tools.', bullets: ['High-reach vacuum pole — extends to 40ft for 3-storey access', 'Camera attachment — real-time visual inspection at full height', 'Powerful industrial vacuum — handles wet, compacted debris at extension', 'Downpipe testing — long-reach tools for top-level downpipe access', 'All debris bagged and removed — no mess left on your property', 'Fully insured for high-level work with £10 million public liability cover'] },
+      ],
+      faqs: [
+        { question: 'Do I need scaffolding to clean gutters on a 3-storey house?', answer: 'No — professional gutter cleaners use high-reach vacuum systems that access gutters from ground level. Scaffolding is rarely needed for cleaning, though it may be needed for repairs.' },
+        { question: 'How much does gutter cleaning cost for a 3-storey house?', answer: 'Gutter cleaning for a 3-storey house typically costs £100-£200 depending on the property size and gutter condition. The higher cost reflects the specialist equipment and operator expertise required.' },
+        { question: 'Can I clean gutters on a 3-storey house myself?', answer: 'No — cleaning gutters at 3-storey height is extremely dangerous without professional equipment and training. The risk of serious injury from a fall is too high for DIY work.' },
+        { question: 'How long does it take to clean gutters on a 3-storey house?', answer: 'Expect 1 to 2 hours for a thorough gutter clean on a 3-storey house, including downpipe testing and inspection.' },
+        { question: 'Does WOW Gutters Ltd clean gutters on 3-storey houses?', answer: 'Yes — we clean gutters on 3-storey and higher properties across Birmingham and the West Midlands using our high-reach vacuum system.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-4-storey-building') {
+    return {
+      heroTitle: 'Gutter Cleaning for 4-Storey Buildings',
+      heroDescription: 'Gutter cleaning for 4-storey buildings needs specialist high-reach equipment. WOW Gutters Ltd provides professional gutter cleaning for tall buildings across Birmingham. Call 07421 433910.',
+      sections: [
+        { heading: 'Specialist Requirements for 4-Storey Gutter Cleaning', content: 'At 4 storeys high, gutter cleaning is firmly in the specialist category. Standard access equipment does not work at this height. Professional high-reach gutter vacuum systems with extended poles are essential — reaching up to 50 feet or more. The job requires operators trained specifically for extreme-height work, with equipment certified for the extended reach. Weather conditions also play a role — wind speeds above 15mph can make high-reach vacuum work unsafe, so scheduling may need to be flexible.', bullets: ['Extended-reach vacuum pole — reaches gutters 50ft and above', 'Weather-dependent — high winds can prevent safe operation', 'Specialist training required — not all gutter cleaners handle 4-storey', 'Equipment certification — poles and vacuums rated for extended use', 'Longer job duration — allow 2-3 hours for a thorough clean', 'Site survey usually needed — to assess access and conditions'] },
+        { heading: 'Why Professional 4-Storey Gutter Cleaning Is Essential', content: 'For a 4-storey building, professional gutter cleaning is not optional — it is essential maintenance. Blocked gutters at this height cause water to cascade down the full height of the building, saturating brickwork on every floor and making damp problems much more extensive. The staining from overflowing gutters on a tall building is also more visible and damaging to the property\'s appearance. Emergency repairs at 4-storey height are expensive and disruptive, making regular professional maintenance the most cost-effective approach.', bullets: ['Water cascades down full building height — damp on multiple floors', 'Extensive wall staining — more visible and damaging at height', 'Emergency repairs are extremely expensive at 4-storey height', 'Regular cleaning prevents expensive remedial work', 'Our high-reach system eliminates scaffolding costs', 'Before and after photos document condition at all levels'] },
+      ],
+      faqs: [
+        { question: 'Can you clean gutters on a 4-storey building without scaffolding?', answer: 'Yes — professional high-reach gutter vacuum systems clean gutters on 4-storey buildings from ground level. Scaffolding is not usually needed for cleaning alone.' },
+        { question: 'How often should gutters on a 4-storey building be cleaned?', answer: 'At least twice per year, and more frequently if the building is near trees. The cost of regular cleaning is much lower than the cost of repairs for water damage at this height.' },
+        { question: 'How much does it cost to clean gutters on a 4-storey building?', answer: 'Gutter cleaning for a 4-storey building typically costs £150-£300 depending on the building size and gutter condition. A site survey provides a fixed quote.' },
+        { question: 'Is 4-storey gutter cleaning safe?', answer: 'Yes — when performed by trained professionals using certified equipment. Our operators are trained for high-level work and fully insured.' },
+        { question: 'Does WOW Gutters Ltd clean gutters on 4-storey buildings?', answer: 'Yes — we have the equipment and expertise to clean gutters on buildings up to 6 storeys. Contact us for a site survey and fixed quote.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-flats-and-apartments') {
+    return {
+      heroTitle: 'Gutter Cleaning for Flats and Apartments',
+      heroDescription: 'Gutter cleaning for flats and apartment blocks needs professional access equipment. WOW Gutters Ltd provides commercial and residential gutter cleaning for multi-occupancy buildings. Call 07421 433910.',
+      sections: [
+        { heading: 'Gutter Cleaning for Residential Flats and Apartment Blocks', content: 'Flats and apartment blocks present unique challenges for gutter cleaning. The buildings are usually higher than standard houses requiring high-reach equipment. Multiple gutters on different roof levels often need cleaning — the main roof gutters, intermediate valley gutters, and balcony gutters. Access restrictions around the building may limit where equipment can be positioned. For apartment blocks, liaison with building management or the residents\' association is often needed to arrange access dates and parking for the cleaning vehicle.', bullets: ['Multi-level gutters — main roof, intermediate valleys, and balconies', 'High-reach vacuum system — cleans elevated apartment block gutters', 'Access coordination — liaison with management or residents\' association', 'Parking arrangements — equipment vehicle needs space near the building', 'Multiple downpipes — each apartment may have its own downpipe run', 'Scheduled maintenance plans — bi-annual cleaning keeps costs predictable'] },
+        { heading: 'Commercial Gutter Cleaning for Apartment Complexes', content: 'For large apartment complexes, WOW Gutters Ltd offers commercial gutter cleaning contracts with scheduled visits. We inspect and clean all gutters on the complex, including flat roof gutters, parapet gutters, and valley gutters. A single condition report is provided for the entire building, making it easy for property managers to track maintenance. Regular commercial gutter cleaning protects the building structure, prevents complaints from residents about damp and leaks, and maintains the value of the property.', bullets: ['Full building inspection — all gutter runs inspected and documented', 'Scheduled commercial maintenance — bi-annual or quarterly cleaning visits', 'Single condition report for the entire building', 'Flat roof gutter cleaning — internal and parapet gutters', 'Valley gutter cleaning — between roof sections and around dormers', 'Competitive rates for block bookings and annual contracts'] },
+      ],
+      faqs: [
+        { question: 'Who is responsible for gutter cleaning in flats?', answer: 'In leasehold flats, the freeholder or management company is usually responsible for maintaining the structure, including gutters. In shared ownership, responsibility depends on the specific agreement.' },
+        { question: 'How much does gutter cleaning cost for an apartment block?', answer: 'Costs vary significantly depending on the size and height of the building. A small block of 4-6 flats typically costs £150-£300. Larger complexes require a site survey for an accurate quote.' },
+        { question: 'How do you access gutters on apartment blocks?', answer: 'We use high-reach gutter vacuum systems that access gutters from ground level. For very high buildings, we may use a cherry picker or access platform in addition to the vacuum system.' },
+        { question: 'Can you clean gutters on flats while residents are home?', answer: 'Yes — our work is non-intrusive. We clean gutters from outside the building with minimal disruption to residents. We coordinate with building management to agree on access times.' },
+        { question: 'Does WOW Gutters Ltd offer contracts for apartment blocks?', answer: 'Yes — we offer annual and bi-annual gutter cleaning contracts for apartment blocks and flat complexes. Contact us for a site survey and contract quote.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-terraced-house-birmingham') {
+    return {
+      heroTitle: 'Gutter Cleaning for Terraced Houses in Birmingham',
+      heroDescription: 'Professional gutter cleaning for terraced houses in Birmingham. WOW Gutters Ltd provides fast, affordable service for all Birmingham terraced properties. Call 07421 433910.',
+      sections: [
+        { heading: 'Gutter Cleaning for Birmingham Terraced Houses', content: 'Terraced houses in Birmingham typically have simpler gutter systems than detached or semi-detached properties. A standard Birmingham terraced house has one or two gutter runs and a single downpipe at the rear or front. The compact layout makes gutter cleaning quicker and more affordable. However, access can sometimes be restricted — rear gardens may be small or have limited space for equipment, and some Birmingham terraces have shared access alleys that need coordination with neighbours.', bullets: ['Simple gutter layout — 1-2 gutter runs, typically one downpipe', 'Quicker cleaning — most terraced cleans take 30-45 minutes', 'More affordable — cleaning costs less than for larger properties', 'Access restrictions — small rear gardens or shared alleys', 'Party wall considerations — shared downpipes between terraced houses', 'Birmingham-wide service — all areas covered from city centre to suburbs'] },
+        { heading: 'Why Birmingham Terraced House Owners Choose WOW Gutters Ltd', content: 'WOW Gutters Ltd understands Birmingham\'s housing stock, including Victorian and early 20th-century terraced houses that often have original cast iron guttering. These older systems need careful handling — cast iron gutters are prone to rust and cracking if mishandled. Our team knows how to clean and inspect these traditional systems properly. We also provide same-day service for emergency gutter issues, which is essential during Birmingham\'s rainy seasons.', bullets: ['Experience with Victorian and Edwardian cast iron guttering', 'Careful handling of older, fragile gutter systems', 'Same-day service available for emergencies', 'Birmingham-wide coverage — all areas and postcodes', 'Before and after photos provided on every job', 'Fixed quotes with no hidden charges'] },
+      ],
+      faqs: [
+        { question: 'How much does gutter cleaning cost for a terraced house in Birmingham?', answer: 'Gutter cleaning for a Birmingham terraced house typically costs £40-£80 depending on access and gutter condition. We provide free fixed quotes before starting work.' },
+        { question: 'How long does it take to clean gutters on a terraced house?', answer: 'Most Birmingham terraced houses take 30-45 minutes for a thorough gutter clean including downpipe testing.' },
+        { question: 'Do you need access to the rear of the terraced house?', answer: 'Yes — we need access to the rear garden or yard to clean rear gutters and the downpipe. If access is through a shared alley, we coordinate with neighbours where needed.' },
+        { question: 'Do you clean gutters on Birmingham terraced houses with cast iron guttering?', answer: 'Yes — we have extensive experience with Victorian cast iron gutters common in Birmingham\'s older terraced houses. We handle them carefully to avoid damage.' },
+        { question: 'Does WOW Gutters Ltd cover all Birmingham areas?', answer: 'Yes — we cover Birmingham city centre and all suburbs including Aston, Edgbaston, Handsworth, Kings Heath, Moseley, Sparkhill, Yardley, and all other Birmingham areas.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-victorian-house') {
+    return {
+      heroTitle: 'Gutter Cleaning for Victorian Houses',
+      heroDescription: 'Victorian houses need specialist gutter care — many have original cast iron systems that require careful handling. WOW Gutters Ltd provides expert Victorian property gutter cleaning. Call 07421 433910.',
+      sections: [
+        { heading: 'Gutter Cleaning Challenges Specific to Victorian Houses', content: 'Victorian houses have gutter systems that differ significantly from modern properties. Many still have original cast iron gutters that are heavy, prone to rust, and connected with bolted joints that can leak if disturbed. The gutter profile is often different from modern half-round or square profiles — Victorian ogee gutters have a distinctive decorative shape that requires specific cleaning techniques. Downpipes are often integrated into the brickwork or run internally, making blockages harder to diagnose and clear. These factors mean Victorian houses need a gutter cleaner who understands older properties.', bullets: ['Cast iron gutters — heavy, prone to rust, need careful handling', 'Ogee profile — decorative shape requires specific cleaning technique', 'Bolted joints — can leak if disturbed by inexperienced cleaners', 'Internal downpipes — hidden inside walls, hard to diagnose blockages', 'Shallow gutter channel — easily overwhelmed by debris buildup', 'Original brackets — may be weak and unable to support heavy debris weight'] },
+        { heading: 'How WOW Gutters Ltd Cares for Victorian Gutters', content: 'WOW Gutters Ltd treats Victorian properties with extra care. We use gentle hand-cleaning methods where cast iron gutters are fragile, avoiding heavy vacuum suction that could stress weak joints. We inspect all joints carefully and note any existing leaks or cracks. Internal downpipes are tested with measured water volumes to confirm flow without overloading the system. Where repairs are needed on Victorian guttering, we can advise on period-appropriate replacement options that maintain the character of your property.', bullets: ['Gentle hand cleaning — avoids stress on fragile cast iron joints', 'Careful joint inspection — identifies existing leaks and weaknesses', 'Internal downpipe testing — measured water test for hidden downpipes', 'Period-appropriate advice — replacement like-for-like with cast iron', 'Descaling treatment — removes internal rust flakes from cast iron gutters', 'Before and after photos — document condition of your period property'] },
+      ],
+      faqs: [
+        { question: 'Can you clean Victorian cast iron gutters?', answer: 'Yes — we specialise in cleaning Victorian cast iron gutters. We use gentle methods that avoid damaging the original ironwork or disturbing aged joint seals.' },
+        { question: 'How often should Victorian house gutters be cleaned?', answer: 'Victorian gutters should be cleaned at least twice per year. Because the gutter channels are often shallower than modern gutters, they block more quickly and benefit from more frequent maintenance.' },
+        { question: 'Do Victorian gutters need special cleaning equipment?', answer: 'Yes — the ogee profile of Victorian gutters needs specific vacuum attachments and cleaning tools. Standard gutter cleaning equipment may not fit the decorative profile properly.' },
+        { question: 'Can you repair Victorian cast iron gutters?', answer: 'We can advise on repairs and refer you to specialists for cast iron repair or replacement. We also provide detailed condition reports that help you plan any necessary restoration work.' },
+        { question: 'Does WOW Gutters Ltd clean gutters on listed Victorian buildings?', answer: 'Yes — we have experience working on listed properties and understand the additional care required. We use non-invasive methods that comply with listed building conservation requirements.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-new-build-estate') {
+    return {
+      heroTitle: 'Gutter Cleaning for New Build Estates',
+      heroDescription: 'New build estates need regular gutter cleaning to prevent common issues with modern guttering systems. WOW Gutters Ltd provides estate-wide cleaning services. Call 07421 433910.',
+      sections: [
+        { heading: 'Why New Build Estates Need Gutter Cleaning Too', content: 'Many homeowners on new build estates assume new gutters do not need cleaning for years. In reality, new build properties have their own gutter problems. During the first year of occupancy, construction dust and debris from roof works accumulate in gutters. Modern low-profile gutters installed on new builds have less capacity than traditional systems, so they block more quickly. Many new build estates also have limited landscaping, meaning soil and sediment wash into gutters during the first few rainfalls.', bullets: ['Construction debris — dust, tile fragments, and mortar in gutters', 'Low-profile gutters — less capacity, block more quickly than traditional', 'Sediment runoff — exposed soil from new landscaping washes into gutters', 'Shallow downpipe connections — more prone to blockage from fine debris', 'Warranty considerations — some warranties require proof of maintenance', 'Estate-wide programmes — discounted rates for multiple homes on same estate'] },
+        { heading: 'Keeping New Build Gutters in Top Condition', content: 'A professional gutter clean during the first year of occupancy removes construction debris and establishes a maintenance baseline. After that, twice-yearly cleaning keeps the modern gutter system working efficiently. On new build estates where houses share similar designs, WOW Gutters Ltd offers estate-wide gutter cleaning programmes — cleaning multiple homes in one visit at a reduced per-house rate. This is particularly popular with residents\' groups and estate management companies.', bullets: ['First-year clean essential — removes construction debris', 'Twice-yearly schedule — keeps modern gutters working efficiently', 'Estate-wide programmes — discounted rates for multiple homes', 'Group bookings — neighbours share a visit date for convenience', 'Before and after photos — build a maintenance record for warranty', 'Downpipe testing — essential for new build shallow connections'] },
+      ],
+      faqs: [
+        { question: 'Do new build houses need gutter cleaning?', answer: 'Yes — new build gutters accumulate construction debris, sediment, and fine dust that can cause blockages within the first year. A first-year clean is strongly recommended.' },
+        { question: 'How often should gutters on a new build be cleaned?', answer: 'Twice per year is recommended for new build properties. The first clean should be within 12 months of completion to remove construction debris.' },
+        { question: 'Can new build gutters be cleaned more cheaply as a group?', answer: 'Yes — we offer discounted rates for cleaning multiple homes on the same estate in a single visit. Group bookings with neighbours can significantly reduce individual costs.' },
+        { question: 'Does WOW Gutters Ltd offer estate-wide gutter cleaning?', answer: 'Yes — we can clean multiple homes on new build estates in one visit, providing an estate-wide maintenance programme at competitive rates.' },
+        { question: 'How do I book gutter cleaning for my new build home?', answer: 'Call 07421 433910 or contact us online. We cover new build estates across Birmingham and the West Midlands.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-above-conservatory') {
+    return {
+      heroTitle: 'Gutter Cleaning Above a Conservatory',
+      heroDescription: 'Cleaning gutters above a conservatory is challenging — the conservatory roof blocks access. WOW Gutters Ltd provides specialist gutter cleaning for conservatory roofs. Call 07421 433910.',
+      sections: [
+        { heading: 'The Challenge of Cleaning Gutters Above a Conservatory', content: 'Gutters located above a conservatory are some of the most difficult to access. The conservatory roof sits directly below the main house gutter, leaving no room for ladders. Standing on the conservatory roof is dangerous and can damage the roof panels. This is where professional gutter vacuum systems are indispensable — the long-reach pole can access the gutter from the side or from ground level at the gable end. In some cases, telescopic tools from an upstairs window or access from a neighbouring higher point may be needed.', bullets: ['Conservatory roof blocks ladder access — no room to position safely', 'Standing on conservatory roof is dangerous — can damage polycarbonate panels', 'Gutter vacuum — reaches above conservatory from ground level', 'Side access — vacuum pole extended from gable end where possible', 'Window access — telescopic tools used from upstairs windows', 'Specialist techniques needed — not a standard gutter cleaning job'] },
+        { heading: 'Why Professional Cleaning Is Essential for Conservatory Gutters', content: 'Gutters above conservatories are often neglected because they are so difficult to access. This neglect causes serious problems — water overflowing from the hidden gutter cascades directly onto the conservatory roof, causing staining, algae growth, and water pooling on the conservatory panels. Over time, the constant moisture may cause leaks in the conservatory roof seals and damage the frame. Regular professional cleaning of conservatory gutters protects both the house and the conservatory.', bullets: ['Neglected conservatory gutters cause water to pool on the roof panels', 'Staining and algae growth on the conservatory roof surface', 'Damage to conservatory roof seals from constant moisture', 'Frame corrosion from water cascading onto aluminium or uPVC frames', 'Professional cleaning prevents expensive conservatory repairs', 'Our system accesses conservatory gutters without any conservatory roof contact'] },
+      ],
+      faqs: [
+        { question: 'Can you clean gutters above a conservatory without standing on the roof?', answer: 'Yes — we use gutter vacuum systems with long-reach poles that access gutters above conservatories from ground level or gable ends, without any contact with the conservatory roof.' },
+        { question: 'How much does it cost to clean gutters above a conservatory?', answer: 'Cleaning gutters above a conservatory typically adds £20-£40 to the standard gutter cleaning cost, reflecting the additional time and specialist access required.' },
+        { question: 'How do I know if my conservatory gutters are blocked?', answer: 'Signs include water running down the conservatory roof during rain, green staining on conservatory panels, and water pooling on the conservatory roof after wet weather.' },
+        { question: 'Are conservatory gutters difficult to maintain?', answer: 'Yes — they are among the most difficult gutters to clean because the conservatory roof blocks access. This is why many homeowners leave them uncleaned until problems occur.' },
+        { question: 'Does WOW Gutters Ltd clean gutters above conservatories?', answer: 'Yes — we regularly clean gutters above conservatories using our high-reach vacuum system. Call 07421 433910 to book.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-dormer-bungalow') {
+    return {
+      heroTitle: 'Gutter Cleaning for Dormer Bungalows',
+      heroDescription: 'Dormer bungalows have gutters at two levels — the main roof and the dormer. WOW Gutters Ltd provides complete gutter cleaning for dormer bungalows. Call 07421 433910.',
+      sections: [
+        { heading: 'Understanding Dormer Bungalow Gutter Systems', content: 'Dormer bungalows have a unique gutter configuration with two distinct levels. The main roof gutters run at the standard bungalow height — easily accessible from a ladder or vacuum system. However, the dormer gutters sit at a higher level and are often tucked into small valleys between the dormer structure and the main roof. These valley gutters are prone to debris accumulation because leaves and twigs collect naturally in the tight angles. A thorough dormer bungalow gutter clean must address both the main gutters and the dormer valleys.', bullets: ['Two-level gutter system — main roof gutters and dormer gutters', 'Dormer valley gutters — tight angles where debris collects naturally', 'Dormer side gutters — short runs on each side of the dormer window', 'Main gutters — standard bungalow height, easily accessible', 'Dormer gutters — higher level, needs long-reach or ladder access', 'Complete clean — both levels essential for proper drainage'] },
+        { heading: 'Professional Dormer Bungalow Gutter Cleaning Service', content: 'WOW Gutters Ltd provides thorough gutter cleaning for dormer bungalows, addressing both gutter levels in a single visit. We start with the main gutters, then move to the dormer gutters and valley sections. The dormer gutters are cleaned using either our long-reach vacuum system or ladder access depending on the dormer height and accessibility. We pay particular attention to the valley gutters around the dormer, where debris buildup is most likely. All downpipes — both main and dormer — are tested and cleared as part of the service.', bullets: ['Main gutters — cleaned with standard vacuum or ladder access', 'Dormer gutters — cleaned with long-reach vacuum on higher levels', 'Valley gutters — careful debris removal from tight valley angles', 'Dormer downpipes — tested and cleared for proper drainage', 'Comprehensive service — both gutter levels in a single visit', 'Before and after photos — complete record of all gutter runs'] },
+      ],
+      faqs: [
+        { question: 'How long does it take to clean gutters on a dormer bungalow?', answer: 'A complete dormer bungalow gutter clean — including main gutters, dormer gutters, and valley sections — typically takes 45-75 minutes.' },
+        { question: 'Do dormer bungalows need gutter cleaning more often?', answer: 'Dormer valley gutters collect debris more quickly than standard gutter runs, so some dormer bungalows benefit from more frequent cleaning — especially those near trees.' },
+        { question: 'Can you clean dormer gutters from ground level?', answer: 'Yes — in most cases, our long-reach gutter vacuum system can access dormer gutters from ground level without ladders.' },
+        { question: 'How much does gutter cleaning cost for a dormer bungalow?', answer: 'Gutter cleaning for a dormer bungalow typically costs £60-£120 depending on the property size and the number of dormers.' },
+        { question: 'Does WOW Gutters Ltd clean dormer bungalow gutters?', answer: 'Yes — we clean all types of dormer bungalow gutters across Birmingham and the West Midlands. Call 07421 433910 for a free quote.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-hmo-landlord') {
+    return {
+      heroTitle: 'Gutter Cleaning for HMO Landlords',
+      heroDescription: 'HMO landlords must keep gutters maintained for tenant safety and legal compliance. WOW Gutters Ltd provides professional HMO gutter cleaning across Birmingham. Call 07421 433910.',
+      sections: [
+        { heading: 'Why HMO Landlords Must Prioritise Gutter Cleaning', content: 'Houses in Multiple Occupation (HMOs) have additional legal requirements beyond standard rental properties. The HMO licensing regulations require that the property is maintained in good repair, which includes functioning gutters and downpipes. Blocked gutters causing damp can render an HMO unfit for habitation, putting the landlord\'s licence at risk. Because HMOs typically have more occupants and higher turnover, gutter problems are reported less promptly than in single-let properties. Regular scheduled gutter maintenance protects the property, the tenants, and the landlord\'s compliance status.', bullets: ['HMO licence conditions — gutter maintenance required for compliance', 'Fitness for habitation — blocked gutters causing damp breaches standards', 'More occupants — gutter problems may go unreported for longer', 'Higher wear and tear — more cooking steam and bathroom moisture affects roof', 'Property value protection — prevent structural damp in high-occupancy homes', 'Tenant safety — prevent slip hazards from overflowing water and ice'] },
+        { heading: 'WOW Gutters Ltd Services for HMO Landlords', content: 'WOW Gutters Ltd provides gutter cleaning services tailored to HMO landlords. We offer scheduled bi-annual cleaning with automatic reminders so you never fall out of compliance. Each visit includes before and after photographs and a written condition report — documentation that supports your HMO licence compliance file. Turnaround is fast — we understand that empty gutter cleaning slots between tenancies need to fit tight schedules. For HMO portfolio landlords, we offer discounted multi-property rates.', bullets: ['Bi-annual scheduled cleaning — spring and autumn visits', 'Compliance documentation — photos and written reports for HMO licence file', 'Fast turnaround — fits between tenancy changeovers', 'Multi-property discounts — reduced rates for portfolio HMO landlords', 'Emergency call-out service — blocked gutters fixed within 24 hours', 'Single point of contact — one phone number for all your HMO properties'] },
+      ],
+      faqs: [
+        { question: 'Is gutter cleaning a legal requirement for HMO landlords?', answer: 'Yes — HMO licensing conditions require the property to be maintained in good repair. Functioning gutters are part of that requirement. Failure to maintain gutters can affect your HMO licence.' },
+        { question: 'How often should HMO gutters be cleaned?', answer: 'At least twice per year. High-occupancy HMOs near trees or in damp areas may need quarterly cleaning to maintain compliance.' },
+        { question: 'Can I claim HMO gutter cleaning as a business expense?', answer: 'Yes — gutter cleaning and maintenance for an HMO property is a legitimate business expense that can be offset against rental income.' },
+        { question: 'Do you provide documentation for HMO compliance files?', answer: 'Yes — every visit includes before and after photographs, a condition report, and an invoice. These documents support your HMO compliance records.' },
+        { question: 'Does WOW Gutters Ltd offer HMO portfolio discounts?', answer: 'Yes — we offer discounted rates for landlords with multiple HMO properties. Call 07421 433910 to discuss your portfolio cleaning needs.' },
+      ],
+    };
+  }
+
+  if (slug === 'block-of-flats-gutter-maintenance') {
+    return {
+      heroTitle: 'Block of Flats Gutter Maintenance',
+      heroDescription: 'Gutter maintenance for blocks of flats protects the building structure and resident satisfaction. WOW Gutters Ltd provides professional maintenance for flats across Birmingham. Call 07421 433910.',
+      sections: [
+        { heading: 'Gutter Maintenance Requirements for Blocks of Flats', content: 'Blocks of flats have complex gutter systems that need regular professional maintenance. Multiple roof levels mean multiple gutter runs — main roof gutters, parapet gutters, valley gutters between roof sections, and sometimes balcony gutters. The cost of water damage in a block of flats is multiplied because it can affect multiple flats on multiple floors. A single blocked gutter can cause water to cascade down the side of the building, penetrating the walls of every flat below. For this reason, regular scheduled gutter maintenance is essential for block management.', bullets: ['Multi-level gutters — main roof, parapet, valley, and balcony gutters', 'High risk — one blockage affects multiple flats on multiple floors', 'Expensive damage — water penetration in flats costs thousands to repair', 'Resident complaints — gutter-related damp causes tenant dissatisfaction', 'Building protection — regular maintenance extends gutter lifespan', 'Property value — well-maintained buildings retain higher value'] },
+        { heading: 'WOW Gutters Ltd Block of Flats Maintenance Service', content: 'WOW Gutters Ltd provides comprehensive gutter maintenance contracts for blocks of flats. We survey the entire building, identify all gutter runs and downpipes, and establish a cleaning schedule that matches the building\'s needs. Each visit covers all gutters — main roof, parapets, valleys, and any subsidiary gutters — with all downpipes tested and cleared. We provide a single condition report for the whole building, making it easy for property managers and freeholders to track maintenance. Annual and bi-annual contracts available with competitive block rates.', bullets: ['Full building survey — identifies all gutter runs and access requirements', 'Scheduled maintenance — bi-annual or quarterly visits as required', 'All gutters cleaned — main roof, parapet, valley, and balcony gutters', 'Downpipe testing — every downpipe tested and cleared on every visit', 'Single condition report — one document for the entire building', 'Competitive block rates — discounted pricing for regular contracts'] },
+      ],
+      faqs: [
+        { question: 'Who is responsible for gutter maintenance in a block of flats?', answer: 'The freeholder or management company is usually responsible for maintaining the structure, including gutters. Leaseholders are typically not responsible for gutter maintenance.' },
+        { question: 'How often should gutters on a block of flats be cleaned?', answer: 'At least twice per year — spring and autumn. Blocks near trees or in exposed positions may need quarterly cleaning to prevent blockages.' },
+        { question: 'How much does gutter maintenance cost for a block of flats?', answer: 'Costs depend on building size and gutter complexity. A small block of 4-6 flats typically costs £150-£300 per visit. A site survey provides a fixed annual contract quote.' },
+        { question: 'Do you provide gutter maintenance contracts for block management?', answer: 'Yes — we offer annual and bi-annual gutter maintenance contracts for blocks of flats. We provide a single point of contact and consolidated invoicing for building managers.' },
+        { question: 'Does WOW Gutters Ltd serve blocks of flats?', answer: 'Yes — we maintain gutters on blocks of flats across Birmingham and the West Midlands. Contact us for a site survey and contract quote.' },
+      ],
+    };
+  }
+
+  if (slug === 'emergency-gutter-cleaning-birmingham') {
+    return {
+      heroTitle: 'Emergency Gutter Cleaning Birmingham',
+      heroDescription: 'Emergency gutter cleaning in Birmingham — same-day and next-day call-outs for overflowing gutters, blocked downpipes, and storm damage. WOW Gutters Ltd responds fast. Call 07421 433910.',
+      sections: [
+        { heading: 'When You Need Emergency Gutter Cleaning', content: 'Gutter emergencies never happen at a convenient time. A sudden storm, a blocked downpipe during heavy rain, or a gutter that separates at the joint during a downpour can cause water to pour directly against your walls. Emergency gutter cleaning means stopping the water flow fast — clearing the blockage, unblocking the downpipe, or making temporary repairs to prevent further water ingress. WOW Gutters Ltd prioritises emergency call-outs and aims to be on-site within hours of your call for Birmingham properties.', bullets: ['Storm damage — gutters torn or dislodged by high winds', 'Overflow in heavy rain — water pouring over gutter edges during downpour', 'Sudden downpipe blockage — water backing up and flooding walls', 'Gutter joint separation — water escaping at high volume from broken joint', 'Ice damage — frozen gutters cracked or split by freeze-thaw', 'Same-day response — emergency call-outs across Birmingham'] },
+        { heading: 'Emergency Gutter Services Across Birmingham', content: 'WOW Gutts Ltd covers all Birmingham areas for emergency gutter call-outs. We carry a full set of equipment on our vans — gutter vacs, ladders, downpipe jetting kit, repair materials — so we can handle most emergencies in a single visit. If a temporary repair is needed to stop water ingress immediately, we make that first and return for permanent repairs later. We provide before and after photos for your insurance records, as emergency situations often involve insurance claims.', bullets: ['Birmingham-wide coverage — city centre to all suburbs', 'Fully equipped vans — handle most emergencies in one visit', 'Temporary repairs — stop water ingress fast, permanent fix scheduled', 'Insurance documentation — photos for emergency insurance claims', '24/7 call handling — emergency calls answered day and night', 'Fixed pricing — no surge pricing for emergency call-outs'] },
+      ],
+      faqs: [
+        { question: 'How quickly can you respond to an emergency gutter call in Birmingham?', answer: 'We aim to be on-site within 2-4 hours for emergency gutter call-outs across Birmingham. Call 07421 433910 for the fastest response.' },
+        { question: 'Do you charge more for emergency gutter cleaning?', answer: 'We keep our emergency call-out prices fair and transparent. The cost depends on the work required, not the urgency. We provide a fixed quote before starting any work.' },
+        { question: 'What gutter emergencies do you handle?', answer: 'All types — overflowing gutters, blocked downpipes, storm-damaged gutters, joint separations, frozen gutters, and any situation where water is entering your property.' },
+        { question: 'Can you repair emergency gutter damage on the same day?', answer: 'Yes — we carry repair materials and can make most emergency repairs on the same visit. Permanent repairs can be scheduled if temporary fixes are needed first.' },
+        { question: 'Does WOW Gutters Ltd offer 24/7 emergency gutter cleaning?', answer: 'We offer same-day and next-day emergency call-outs for urgent gutter problems. Call 07421 433910 — our team will prioritise your emergency.' },
+      ],
+    };
+  }
+
+  if (slug === 'same-day-gutter-unblocking') {
+    return {
+      heroTitle: 'Same Day Gutter Unblocking',
+      heroDescription: 'Need gutters unblocked today? WOW Gutters Ltd provides same-day gutter unblocking across Birmingham. Call 07421 433910 for fast, professional service.',
+      sections: [
+        { heading: 'Same-Day Gutter Unblocking Service', content: 'When your gutters are blocked and water is pouring over the edges, you cannot wait days for help. WOW Gutters Ltd offers same-day gutter unblocking for urgent situations across Birmingham. Our team arrives with everything needed to clear blockages fast — gutter vacuum, ladders, downpipe jetting equipment, and hand tools. We assess the blockage, clear it, and test the system before we leave. Same-day service is available for both residential and commercial properties.', bullets: ['Call before 12pm — same-day visit guaranteed', 'Fully equipped — gutter vac, jetting kit, hand tools on every van', 'Fast assessment — identify the blockage and clear it immediately', 'Downpipe clearance — water jetting for stubborn downpipe blockages', 'System test — every downpipe tested before we leave', 'Residential and commercial — same-day service for all property types'] },
+        { heading: 'Common Blockages We Unblock Same-Day', content: 'Most same-day gutter unblocking jobs fall into a few common categories. The most frequent is a downpipe inlet blocked with compacted leaves — the gutter channel looks clear but the downpipe is sealed at the top. Next is a gutter channel packed with wet, compacted debris after months or years of neglect. Third is a downpipe blockage at the bottom bend where debris settles over time. All three can be cleared in a single same-day visit by our experienced team.', bullets: ['Downpipe inlet blocked — compacted leaves sealing the pipe top', 'Compacted gutter debris — wet sludge filling the entire channel', 'Downpipe bottom bend — debris settled in the lower elbow', 'Nesting material — bird or rodent nests blocking downpipes', 'Moss sludge — decomposed moss blocking downpipe inlets', 'Storm debris — twigs, leaves, and sediment washed into gutters'] },
+      ],
+      faqs: [
+        { question: 'Do you offer same-day gutter unblocking at weekends?', answer: 'Yes — we offer same-day gutter unblocking 7 days a week in Birmingham. Weekend availability may be limited, so call early to secure your slot.' },
+        { question: 'How much does same-day gutter unblocking cost?', answer: 'Same-day gutter unblocking costs from £50 for a simple downpipe clearance, up to £150 for heavily blocked systems. We provide a fixed quote before starting work.' },
+        { question: 'How long does a same-day gutter unblocking visit take?', answer: 'Most same-day unblocking visits take 30-60 minutes, depending on the severity and location of the blockage.' },
+        { question: 'Can you unblock gutters on two-storey properties same-day?', answer: 'Yes — our gutter vacuum system and ladders allow us to access gutters on two-storey and higher properties for same-day unblocking.' },
+        { question: 'Does WOW Gutters Ltd provide same-day service across Birmingham?', answer: 'Yes — we provide same-day gutter unblocking across all Birmingham areas. Call 07421 433910 to book your same-day appointment.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-overflowing-during-storm-help') {
+    return {
+      heroTitle: 'Gutter Overflowing During Storm — Help',
+      heroDescription: 'Storm causing gutter overflow? WOW Gutters Ltd provides urgent storm-related gutter assistance across Birmingham. Call 07421 433910 for fast help.',
+      sections: [
+        { heading: 'What to Do When Your Gutters Overflow During a Storm', content: 'A storm is the worst time to discover your gutters are blocked. Heavy rain combined with high winds overloads gutters fast, and if the system is already partially blocked, water will pour over the edges and against your walls. The priority during a storm is to stop water entering your property. If safe, redirect water away from the building with temporary measures. Once the storm passes, call WOW Gutters Ltd for a thorough gutter clearance and inspection. We prioritise storm-damaged gutters and respond quickly to prevent further damage.', bullets: ['Stay safe — do not attempt ladder work in high winds or lightning', 'Redirect water — use temporary measures to divert water from walls', 'Check inside — look for damp patches on ceilings and upstairs walls', 'Document damage — take photos for insurance purposes', 'Call professionals — WOW Gutters Ltd prioritises storm call-outs', 'Post-storm inspection — full gutter check after weather clears'] },
+        { heading: 'How WOW Gutters Ltd Handles Storm-Related Gutter Emergencies', content: 'WOW Gutters Ltd treats storm-related gutter emergencies as highest priority. Our vans carry extra equipment for storm response — including temporary gutter repair materials, high-power vacuums for waterlogged debris, and extra downpipe jetting capacity. We can clear storm-blocked gutters, reattach dislodged sections, and make temporary repairs to stop water ingress during ongoing wet weather. Once the system is clear, we identify any damage that needs permanent repair and provide a full condition report.', bullets: ['Highest priority — storm call-outs handled before routine work', 'Waterlogged debris removal — heavy wet sludge from storm blockage', 'Temporary reattachment — re-secure dislodged gutter sections', 'Emergency joint seal — stop water escaping from damaged joints', 'Full clearance — gutters and downpipes cleared of storm debris', 'Damage report — detailed condition report for insurance purposes'] },
+      ],
+      faqs: [
+        { question: 'What should I do if my gutters overflow in a storm?', answer: 'Stay safe and do not attempt DIY fixes in dangerous conditions. Call WOW Gutters Ltd for professional emergency assistance. We prioritise storm-related call-outs.' },
+        { question: 'Can you clear storm-blocked gutters while it is still raining?', answer: 'Yes — we can clear gutters in wet conditions if safe to do so. Our equipment handles waterlogged debris effectively.' },
+        { question: 'Will my insurance cover storm damage from overflowing gutters?', answer: 'Storm damage is typically covered by home insurance, but pre-existing blockages from neglected gutters may not be. Regular maintenance records help support your claim.' },
+        { question: 'How quickly can you respond to a storm gutter emergency?', answer: 'We aim to respond within 2-4 hours for storm-related gutter emergencies. Call 07421 433910 for priority service.' },
+        { question: 'Does WOW Gutters Ltd handle post-storm gutter inspections?', answer: 'Yes — we provide thorough post-storm gutter inspections with a written condition report. This is essential for identifying damage and supporting insurance claims.' },
+      ],
+    };
+  }
+
+  if (slug === 'urgent-downpipe-unblocking-near-me') {
+    return {
+      heroTitle: 'Urgent Downpipe Unblocking Near Me',
+      heroDescription: 'Need urgent downpipe unblocking near you in Birmingham? WOW Gutters Ltd provides fast, professional downpipe clearance. Call 07421 433910 for same-day service.',
+      sections: [
+        { heading: 'Urgent Downpipe Unblocking Service', content: 'A blocked downpipe is one of the most urgent gutter problems because it causes the entire system to fail. When the downpipe is blocked, water cannot exit the gutter channel — it backs up and overflows along the entire run. This puts pressure on every joint and bracket and saturates the wall below. Urgent downpipe unblocking clears the pipe fast using high-pressure water jetting, drain rods, or vacuum extraction depending on the blockage type and location.', bullets: ['High-pressure water jetting — clears compacted debris and sludge', 'Drain rods — for stubborn solid blockages in straight pipe runs', 'Vacuum extraction — removes debris from accessible pipe sections', 'Camera inspection — identifies hidden blockages in internal downpipes', 'Same-day response — urgent downpipe call-outs prioritised', 'All Birmingham areas — downpipe unblocking near you, fast'] },
+        { heading: 'Signs You Need Urgent Downpipe Unblocking', content: 'Knowing the signs of a blocked downpipe helps you act before damage worsens. The most obvious sign is gutters overflowing during rain while the downpipe outlet shows little or no water flow. Gurgling sounds from the downpipe indicate air trapped behind a blockage. Water leaking from downpipe joints under pressure, or water pooling at the base of the downpipe outlet, are also urgent signs. If you notice any of these, call for urgent downpipe unblocking before the backup causes internal damp.', bullets: ['Gutter overflow with no downpipe flow — classic blocked downpipe sign', 'Gurgling sounds from pipe — air trapped behind blockage', 'Water leaking from pipe joints — pressure forcing water out of seals', 'Pooling at base outlet — the pipe is blocked but water is finding an exit', 'Slow drainage — water trickles from outlet long after rain stops', 'Damp patches on wall near downpipe — water penetrating masonry'] },
+      ],
+      faqs: [
+        { question: 'How quickly can you unblock a downpipe urgently?', answer: 'We provide same-day and next-day urgent downpipe unblocking across Birmingham. Call 07421 433910 for the fastest response.' },
+        { question: 'Do you use high-pressure jetting for downpipe blockages?', answer: 'Yes — high-pressure water jetting is our primary method for clearing stubborn downpipe blockages. It is effective on compacted debris, sludge, and minor root ingress.' },
+        { question: 'Can you unblock downpipes that run inside the wall?', answer: 'Yes — we use camera inspection to locate internal downpipe blockages and targeted jetting to clear them without damaging the pipe or wall.' },
+        { question: 'How much does urgent downpipe unblocking cost?', answer: 'Urgent downpipe unblocking costs from £50 for a simple clearance up to £150 for complex blockages requiring jetting or camera inspection.' },
+        { question: 'Does WOW Gutters Ltd offer urgent downpipe unblocking near me?', answer: 'Yes — we cover all Birmingham areas. When you search for urgent downpipe unblocking near you in Birmingham, WOW Gutters Ltd is ready to help. Call 07421 433910.' },
+      ],
+    };
+  }
+
+  if (slug === 'weekend-gutter-cleaning-birmingham') {
+    return {
+      heroTitle: 'Weekend Gutter Cleaning Birmingham',
+      heroDescription: 'Weekend gutter cleaning in Birmingham — Saturday and Sunday appointments available. WOW Gutters Ltd provides professional gutter cleaning at the weekend. Call 07421 433910.',
+      sections: [
+        { heading: 'Weekend Gutter Cleaning Service', content: 'We understand that weekdays are not always convenient for gutter cleaning. Many homeowners work during the week or prefer to be at home when work is done. WOW Gutters Ltd offers weekend gutter cleaning appointments on Saturdays and Sundays across Birmingham. Weekend appointments are popular, so booking in advance is recommended — especially during autumn and after storms when demand is highest. Our weekend service is the same professional standard as our weekday service, with full insurance coverage and before and after photos.', bullets: ['Saturday appointments available — morning and afternoon slots', 'Sunday appointments available — limited slots, book early', 'Same professional standard — full insurance and photos included', 'Popular service — book in advance, especially in autumn', 'No weekday disruption — weekend cleaning while you are home', 'All Birmingham areas — weekend service across the city'] },
+        { heading: 'Why Choose Weekend Gutter Cleaning?', content: 'Weekend gutter cleaning offers several advantages beyond convenience. You can be present during the work to ask questions and see the condition of your gutters first-hand. If the cleaner identifies any issues — loose brackets, damaged joints, or fascia rot — you can discuss them immediately rather than receiving a report after the fact. Weekend appointments also avoid the need to take time off work or arrange for someone to let the cleaner into a rear garden during weekday hours.', bullets: ['Be present during cleaning — see gutter condition yourself', 'Discuss issues immediately — no waiting for a phone call or report', 'No time off work needed — weekend slot fits your schedule', 'Rear access management — you are home to unlock gates', 'Same-day booking for emergencies — weekend call-outs available', 'Family-friendly timing — appointments from 8am to 4pm at weekends'] },
+      ],
+      faqs: [
+        { question: 'Do you charge extra for weekend gutter cleaning?', answer: 'No — weekend gutter cleaning is charged at the same rate as weekday cleaning. There is no premium for Saturday or Sunday appointments.' },
+        { question: 'How do I book a weekend gutter cleaning appointment?', answer: 'Call 07421 433910 or contact us online. Weekend slots fill quickly, so early booking is recommended.' },
+        { question: 'What weekend hours do you offer?', answer: 'We offer Saturday appointments from 8am to 4pm and limited Sunday appointments. We can discuss specific timing when you book.' },
+        { question: 'Is weekend gutter cleaning available for emergency call-outs?', answer: 'Yes — we offer same-day weekend call-outs for urgent gutter problems. Call 07421 433910 for weekend emergency service.' },
+        { question: 'Does WOW Gutters Ltd cover all of Birmingham at weekends?', answer: 'Yes — our weekend gutter cleaning service covers Birmingham city centre and all suburbs. Call to check availability in your area.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-before-selling-house') {
+    return {
+      heroTitle: 'Gutter Cleaning Before Selling Your House',
+      heroDescription: 'Gutter cleaning before selling your house improves kerb appeal and reassures buyers. WOW Gutters Ltd provides pre-sale gutter cleaning across Birmingham. Call 07421 433910.',
+      sections: [
+        { heading: 'Why Clean Gutters Before Selling Your House?', content: 'When selling your house, first impressions matter — and gutters are one of the first things a buyer notices. Clean gutters signal a well-maintained property. Surveyors also check gutters during their inspection, and a report noting blocked or damaged gutters can lead to the buyer renegotiating the price or demanding repairs before exchange. Pre-sale gutter cleaning costs relatively little but can save thousands in renegotiation or enforced repairs. It also prevents the embarrassment of a buyer discovering gutter problems during their viewing walkaround.', bullets: ['Positive first impression — clean gutters signal good maintenance', 'Surveyor inspection — problematic gutters flagged in homebuyer report', 'Price renegotiation — buyers use gutter defects to negotiate reductions', 'Quick to fix — cleaning costs less than a renegotiated price reduction', 'Kerb appeal — overflowing gutters stain walls and look neglected', 'Viewing confidence — walk around the property without gutter concerns'] },
+        { heading: 'Pre-Sale Gutter Cleaning Checklist', content: 'Before putting your house on the market, arrange a professional gutter clean and inspection. The clean removes all debris so gutters look clean from the ground — a simple visual difference that buyers notice. The inspection identifies any issues that a surveyor would flag — loose brackets, damaged joints, or sagging sections. If repairs are needed, get them done before the surveyor visits. Retain the invoice as proof of recent maintenance, which you can share with buyers or their solicitors.', bullets: ['Professional gutter clean — removes all visible debris', 'Full inspection — identify loose brackets, joint damage, sagging', 'Repair any issues — fix problems before surveyor visit', 'Retain invoice — proof of recent maintenance for buyer', 'Clean downpipes — test all downpipes for clear flow', 'Before and after photos — share with potential buyers'] },
+      ],
+      faqs: [
+        { question: 'Does cleaning gutters help sell a house?', answer: 'Yes — clean gutters improve kerb appeal and signal good maintenance. Surveyors check gutters, and a clean report avoids price renegotiations or repair demands.' },
+        { question: 'When should I clean gutters before selling?', answer: 'Arrange gutter cleaning 1-2 weeks before the estate agent takes photos and 2-4 weeks before the first viewings. This gives time for any repairs identified during the clean.' },
+        { question: 'Will a surveyor check my gutters?', answer: 'Yes — homebuyer surveys include a visual inspection of gutters. Surveyors note visible blockages, overflow staining, and sagging or damaged sections.' },
+        { question: 'How much does pre-sale gutter cleaning cost?', answer: 'Pre-sale gutter cleaning costs the same as standard cleaning — £50-£150 depending on property size. It is a small investment compared to the cost of renegotiation.' },
+        { question: 'Does WOW Gutters Ltd provide pre-sale gutter cleaning?', answer: 'Yes — we provide professional gutter cleaning for sellers across Birmingham. We also provide invoices for your solicitor to share with the buyer\'s solicitor.' },
+      ],
+    };
+  }
+
+  if (slug === 'pre-winter-gutter-clear-birmingham') {
+    return {
+      heroTitle: 'Pre-Winter Gutter Clear Birmingham',
+      heroDescription: 'Pre-winter gutter clearing in Birmingham protects your home from winter rain, frost, and storm damage. Book your autumn gutter clean now — call 07421 433910.',
+      sections: [
+        { heading: 'Why Pre-Winter Gutter Clearing Is Essential', content: 'Pre-winter gutter clearing is the most important gutter maintenance task of the year. Winter brings the heaviest rainfall, freezing temperatures that crack waterlogged pipes, and storms that overwhelm blocked systems. Clearing gutters before winter ensures water flows freely through the system, preventing overflow that can lead to internal damp, frost damage to pipes, and ice dams that further block the gutters. In Birmingham, with its clay soil and many Victorian properties, water damage from winter gutter blockages is a leading cause of expensive home repairs.', bullets: ['Prevents overflow — clear gutters handle winter rainfall properly', 'Stops frost damage — no trapped water to freeze and crack pipes', 'Prevents ice dams — no debris for ice to build up against', 'Protects fascia boards — no constant wetting from overflow', 'Avoids emergency call-outs — winter gutter emergencies cost more', 'Birmingham-specific — protects Victorian and older properties from damp'] },
+        { heading: 'Pre-Winter Gutter Clear Service — What We Do', content: 'WOW Gutters Ltd pre-winter gutter clear includes a thorough clean of all gutter channels, testing and clearing of every downpipe, inspection of joints and brackets, and removal of all debris from your property. We use our gutter vacuum system for efficient cleaning and ladders for close inspection where needed. After the clean, we provide before and after photos and a written condition report highlighting any issues that may need attention before winter. We recommend booking your pre-winter clean in October or November.', bullets: ['Full gutter channel clean — all debris removed from every section', 'Downpipe testing — every downpipe checked for free flow', 'Downpipe jetting — high-pressure clearance of any blockages', 'Joint and bracket inspection — identify issues before winter storms', 'Debris removal — all waste bagged and taken away', 'Condition report — written summary with before and after photos'] },
+      ],
+      faqs: [
+        { question: 'When should I book pre-winter gutter clearing in Birmingham?', answer: 'Book for October or November before winter weather sets in. September bookings also work well and avoid the November rush.' },
+        { question: 'How much does pre-winter gutter clearing cost in Birmingham?', answer: 'Pre-winter gutter clearing costs £50-£150 depending on property size. The cost is much less than emergency winter call-out charges.' },
+        { question: 'What happens if I do not clear my gutters before winter?', answer: 'Blocked gutters overflow in winter rain, causing damp and frost damage. Trapped water freezes and cracks pipes. Emergency winter call-outs are more expensive and harder to schedule.' },
+        { question: 'Do you offer pre-winter gutter clearing for commercial properties in Birmingham?', answer: 'Yes — we provide pre-winter gutter clearing for commercial properties, blocks of flats, and industrial buildings across Birmingham.' },
+        { question: 'Does WOW Gutters Ltd offer pre-winter gutter clearing in Birmingham?', answer: 'Yes — we provide pre-winter gutter clearing across all Birmingham areas. Call 07421 433910 to book your slot before the winter rush.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-after-storm-damage') {
+    return {
+      heroTitle: 'Gutter Cleaning After Storm Damage',
+      heroDescription: 'Storm-damaged gutters need urgent cleaning and inspection. WOW Gutters Ltd provides post-storm gutter cleaning across Birmingham. Call 07421 433910.',
+      sections: [
+        { heading: 'Post-Storm Gutter Cleaning and Inspection', content: 'After a severe storm, your gutters may be damaged even if they look fine from the ground. High winds can dislodge gutter sections, loosen brackets, and blow large amounts of debris into the system. Heavy rain tests every weak joint and blocked section — problems that were hidden during dry weather are exposed. A post-storm gutter clean and inspection identifies all issues: debris blockages, displaced sections, damaged joints, and loosened fixings. Early identification prevents minor storm damage from becoming major repair work.', bullets: ['Debris clearance — leaves, twigs, and sediment washed into gutters by storm', 'Dislodged sections — gutter sections knocked out of alignment by wind', 'Loose brackets — brackets loosened by storm force on debris-heavy gutters', 'Joint damage — joints stressed by sudden water volume and debris weight', 'Downpipe checks — storm debris blocking downpipe inlets', 'Full condition report — document damage for insurance purposes'] },
+        { heading: 'Why Professional Post-Storm Gutter Cleaning Matters', content: 'Attempting to assess storm damage to gutters yourself is dangerous and usually incomplete. From ground level, you cannot see displaced sections, cracked joints, or loosened brackets that are not visibly hanging. A professional inspection uses ladders and cameras to examine every part of the system. Professional cleaning after a storm also ensures that all debris is removed before it compacts and causes secondary blockages. If your home insurance covers storm damage, our documented inspection and photos support your claim.', bullets: ['Professional inspection — thorough assessment from ladders and cameras', 'Hidden damage detection — displaced sections and cracks not visible from ground', 'Debris removal — prevents secondary blockages from compacted storm debris', 'Insurance support — documented inspection with photos for claims', 'Same-day service — post-storm call-outs prioritised', 'Birmingham-wide — post-storm gutter service across all areas'] },
+      ],
+      faqs: [
+        { question: 'Should I clean my gutters after a storm?', answer: 'Yes — a post-storm clean removes debris washed into gutters and identifies any damage caused by wind or heavy rain. This prevents secondary problems.' },
+        { question: 'Can storm damage to gutters be repaired?', answer: 'Yes — most storm damage can be repaired. Dislodged sections can be reattached, loose brackets tightened, and damaged joints sealed. Severe damage may need section replacement.' },
+        { question: 'Does home insurance cover storm damage to gutters?', answer: 'Most home insurance policies cover storm damage to gutters. A professional inspection report with photos strengthens your claim.' },
+        { question: 'How quickly can you inspect gutters after a storm?', answer: 'We prioritise post-storm gutter inspections and aim to visit within 24-48 hours. Call 07421 433910 to book a post-storm inspection.' },
+        { question: 'Does WOW Gutters Ltd provide post-storm gutter cleaning?', answer: 'Yes — our post-storm gutter cleaning service covers inspection, debris removal, and a condition report for insurance purposes.' },
+      ],
+    };
+  }
+
+  if (slug === 'christmas-gutter-cleaning-availability') {
+    return {
+      heroTitle: 'Christmas Gutter Cleaning Availability',
+      heroDescription: 'Christmas gutter cleaning in Birmingham — available through the festive period. WOW Gutters Ltd provides pre-Christmas and between-Christmas gutter cleaning. Call 07421 433910.',
+      sections: [
+        { heading: 'Christmas Gutter Cleaning Service', content: 'Christmas is a busy time, and gutter cleaning is often the last thing on your list — until you need it urgently. Overflowing gutters, wet walls, and damp patches are not what you want while hosting family for Christmas. WOW Gutters Ltd offers Christmas gutter cleaning appointments in the weeks before Christmas and limited availability between Christmas and New Year. Pre-Christmas slots are the most popular and book up fast, so early booking is essential.', bullets: ['Pre-Christmas availability — late November to 23rd December', 'Between Christmas and New Year — limited slots available', 'Emergency Christmas call-outs — for urgent gutter problems', 'Popular service — book early for December availability', 'Same standard — full service with photos even through the holiday period', 'Perfect gift for homeowners — gutter cleaning gift vouchers available'] },
+        { heading: 'Christmas Gutter Preparation — What We Recommend', content: 'If you are hosting Christmas, a pre-Christmas gutter clean ensures your home is ready. Clean gutters prevent overflow during winter rain, keeping walls dry and your home comfortable for guests. We recommend booking your Christmas gutter clean for late November or early December — early enough to avoid the pre-Christmas rush but late enough that most autumn leaves have fallen. If you need gutter repairs before Christmas, book even earlier to allow time for parts and scheduling.', bullets: ['Book late November to early December for best availability', 'Pre-Christmas clean prevents overflow during family gatherings', 'Hosting confidence — no damp patches or wet walls for Christmas', 'Emergency service available for Christmas Day call-outs', 'Gift vouchers — give the gift of clean gutters this Christmas', 'Early booking recommended — December slots fill by mid-November'] },
+      ],
+      faqs: [
+        { question: 'Do you work through the Christmas period?', answer: 'Yes — we work through the festive period with limited availability. Pre-Christmas slots (up to 23rd December) and between-Christmas slots are available. Emergency call-outs are handled throughout.' },
+        { question: 'When should I book Christmas gutter cleaning?', answer: 'Book by mid-November for December availability. Early December bookings are possible but subject to availability.' },
+        { question: 'Do you charge extra for Christmas gutter cleaning?', answer: 'No — our standard pricing applies throughout the Christmas period. There is no festive surcharge.' },
+        { question: 'Can I get gutter cleaning as a Christmas gift?', answer: 'Yes — we offer gutter cleaning gift vouchers. A perfect gift for homeowners who prefer practical presents.' },
+        { question: 'Does WOW Gutters Ltd offer Christmas gutter cleaning?', answer: 'Yes — we offer Christmas gutter cleaning appointments in Birmingham. Call 07421 433910 to book your pre-Christmas slot.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-frozen-overflow-ice-winter') {
+    return {
+      heroTitle: 'Gutter Frozen — Overflow Ice Winter',
+      heroDescription: 'Frozen gutters cause ice dams, overflow, and pipe damage. WOW Gutters Ltd provides winter gutter services across Birmingham. Call 07421 433910.',
+      sections: [
+        { heading: 'Problems Caused by Frozen Gutters in Winter', content: 'Frozen gutters create a cascade of problems that can cause significant damage. When water trapped in a blocked gutter freezes, it expands and can crack cast iron gutters, split plastic guttering, and force joints apart. The ice dam at the gutter edge prevents further water from draining, causing it to overflow behind the fascia board and into the roof space. As the ice thaws, the trapped water finds its way into the building. Frozen downpipes can burst, requiring full replacement. Preventing ice buildup through regular gutter cleaning is essential.', bullets: ['Expanding ice cracks pipes — freeze-thaw splits plastic and cast iron', 'Ice dams block drainage — water trapped behind ice overflows into roof', 'Fascia damage — overflow water behind fascia causes wood rot', 'Burst downpipes — frozen water expands and splits pipe sections', 'Internal leaks — thawing water enters roof space and ceilings', 'Gutter joint failure — ice forces sealed joints apart'] },
+        { heading: 'Winter Gutter Services From WOW Gutters Ltd', content: 'WOW Gutters Ltd provides winter gutter services to prevent and resolve frozen gutter problems. Our pre-winter gutter clean removes debris that would trap water and freeze. If your gutters are already frozen, we can safely thaw downpipes using hot water treatment and clear the ice dam. After the thaw, we inspect the system for freeze damage — cracked pipes, failed joints, and loosened brackets — and provide a repair plan. We also offer ice-dam prevention advice and gutter maintenance plans that keep your system clear through winter.', bullets: ['Pre-winter clean — removes debris that would trap and freeze water', 'Safe ice dam removal — careful thawing without damaging gutters', 'Downpipe thawing — hot water treatment for frozen pipes', 'Freeze damage inspection — check for cracks, joint failure, bracket damage', 'Emergency thaw service — for burst or leaking frozen gutters', 'Winter maintenance plans — scheduled cleaning through the cold months'] },
+      ],
+      faqs: [
+        { question: 'What should I do if my gutters are frozen?', answer: 'Do not attempt to chip ice away — this can crack the gutter. Call WOW Gutters Ltd for professional thawing. In the meantime, place buckets under internal leaks to catch thawing water.' },
+        { question: 'Can frozen gutters cause roof damage?', answer: 'Yes — ice dams force water under roof tiles, causing roof leaks and damage to roof timbers. This is one of the most common winter roof problems.' },
+        { question: 'How do I stop my gutters from freezing?', answer: 'The best prevention is keeping gutters clean. Debris traps water that freezes in cold weather. Regular gutter cleaning before winter is the most effective prevention.' },
+        { question: 'Do you offer emergency frozen gutter services?', answer: 'Yes — we provide emergency winter gutter services for frozen and burst gutters. Call 07421 433910 for urgent assistance.' },
+        { question: 'Does WOW Gutters Ltd provide winter gutter maintenance?', answer: 'Yes — our pre-winter gutter cleaning service is designed specifically to prevent frozen gutter problems. We also offer winter maintenance plans.' },
+      ],
+    };
+  }
+
+  if (slug === 'fascia-soffit-cleaning-near-me') {
+    return {
+      heroTitle: 'Fascia and Soffit Cleaning Near Me',
+      heroDescription: 'Professional fascia and soffit cleaning near you in Birmingham. WOW Gutters Ltd restores the look of your roofline without expensive replacement. Call 07421 433910.',
+      sections: [
+        { heading: 'Fascia and Soffit Cleaning — What We Do', content: 'Fascia boards and soffits accumulate algae, moss, dirt, and mildew over time. Green and black staining not only looks unsightly but can also trap moisture against the wood or uPVC, accelerating deterioration. WOW Gutters Ltd uses a combination of soft washing and gentle hand cleaning to remove all biological growth and ingrained dirt from fascias and soffits. We use low-pressure water and cleaning solutions safe for uPVC, wood, and composite materials. The result is a like-new appearance that transforms the look of your property from the kerb.', bullets: ['Soft washing method — low-pressure cleaning safe for all materials', 'Removes algae, moss, mildew, and ingrained dirt', 'Safe for uPVC, timber, and composite fascia boards', 'Restores original colour — no more green or black staining', 'No need for replacement — cleaning saves thousands', 'Before and after photos — see the transformation'] },
+        { heading: 'Why Choose WOW Gutters Ltd for Fascia and Soffit Cleaning', content: 'Fascia and soffit cleaning requires the right balance of gentle cleaning and effective dirt removal. Too much pressure damages the surface; too little leaves staining behind. WOW Gutters Ltd has the experience to clean fascias and soffits properly — using the right cleaning solutions, the right pressure, and the right technique for your specific material. We also inspect your fascias for rot or damage during cleaning, alerting you to any issues that need repair. Our fascia cleaning service covers all Birmingham areas.', bullets: ['Experienced team — know the right technique for each material', 'Proper solution dilution — effective cleaning without surface damage', 'Inspection included — identify rot or damage during cleaning', 'Birmingham-wide coverage — all suburbs and city centre', 'Competitive pricing — affordable fascia and soffit cleaning', 'Combined service — book with gutter cleaning for best value'] },
+      ],
+      faqs: [
+        { question: 'How often should fascias and soffits be cleaned?', answer: 'Fascias and soffits typically need cleaning every 2-3 years, depending on local conditions. Properties near trees or in damp areas may need annual cleaning.' },
+        { question: 'Can you clean fascias without damaging them?', answer: 'Yes — we use soft washing methods with low-pressure water and appropriate cleaning solutions. This is safe for uPVC, timber, and composite fascia materials.' },
+        { question: 'Does fascia cleaning remove black streaks and green algae?', answer: 'Yes — our cleaning solutions are specifically formulated to remove algae, moss, and the black streaks caused by airborne dirt and biological growth.' },
+        { question: 'How much does fascia and soffit cleaning cost near me?', answer: 'Fascia and soffit cleaning costs £100-£250 for a standard property depending on size and condition. We provide free fixed quotes.' },
+        { question: 'Does WOW Gutters Ltd clean fascias and soffits near me?', answer: 'Yes — we provide fascia and soffit cleaning across Birmingham and the West Midlands. Call 07421 433910 for a free quote.' },
+      ],
+    };
+  }
+
+  if (slug === 'conservatory-roof-cleaning-birmingham') {
+    return {
+      heroTitle: 'Conservatory Roof Cleaning Birmingham',
+      heroDescription: 'Professional conservatory roof cleaning in Birmingham. WOW Gutters Ltd removes algae, moss, and staining from conservatory roofs. Call 07421 433910.',
+      sections: [
+        { heading: 'Conservatory Roof Cleaning Service', content: 'Conservatory roofs are prone to algae growth, moss, and staining from airborne dirt and water runoff from the main roof above. Green algae on the glass or polycarbonate panels blocks sunlight and makes the conservatory feel dark and gloomy. Bird droppings, leaf residue, and general grime also accumulate on the roof surface. WOW Gutters Ltd uses a gentle soft washing method to clean all types of conservatory roofs — glass, polycarbonate, and solid tiled roofs. Our cleaning solutions kill algae and moss at the root, leaving the roof clean and bright.', bullets: ['Soft washing method — safe for glass, polycarbonate, and solid roofs', 'Algae and moss removal — kills growth at the root', 'Bird dropping and grime removal — thorough clean of all surfaces', 'Restores light — clean roof lets natural sunlight back in', 'No pressure washing — avoids damage to seals and panels', 'Birmingham-wide — conservatory cleaning across all areas'] },
+        { heading: 'Why Professional Conservatory Roof Cleaning Matters', content: 'Cleaning a conservatory roof yourself is difficult and dangerous. Access is challenging, the roof surface is slippery when wet, and standing on the conservatory frame can damage it. Professional conservatory roof cleaning uses long-reach equipment from ground level — no walking on the roof, no risk of damage. Our cleaning solutions also include a protective treatment that slows regrowth of algae and moss, keeping the roof cleaner for longer.', bullets: ['No roof walking — all cleaning from ground level', 'Long-reach equipment — reaches all roof sections safely', 'Protective treatment — slows regrowth of algae and moss', 'Seal-safe — cleaning solutions compatible with all roof seals', 'Fascia and gutter clean available — combine for best value', 'Before and after photos — impressive transformation visible'] },
+      ],
+      faqs: [
+        { question: 'How much does conservatory roof cleaning cost in Birmingham?', answer: 'Conservatory roof cleaning costs £100-£250 depending on the size and type of roof. Glass roofs may cost more than polycarbonate due to additional care needed.' },
+        { question: 'Can you clean a conservatory roof without damaging it?', answer: 'Yes — we use soft washing methods that are safe for all conservatory roof types. We never walk on the roof and use low-pressure application only.' },
+        { question: 'How often should a conservatory roof be cleaned?', answer: 'Most conservatory roofs benefit from cleaning every 2-3 years. If you have overhanging trees or the main roof gutters above are blocked, annual cleaning may be needed.' },
+        { question: 'Will cleaning my conservatory roof make it lighter inside?', answer: 'Yes — removing algae and grime from the roof surface can significantly increase natural light levels inside the conservatory.' },
+        { question: 'Does WOW Gutters Ltd provide conservatory roof cleaning in Birmingham?', answer: 'Yes — we provide professional conservatory roof cleaning across Birmingham. Call 07421 433910 for a free quote.' },
+      ],
+    };
+  }
+
+  if (slug === 'solar-panel-bird-proofing-gutter') {
+    return {
+      heroTitle: 'Solar Panel Bird Proofing — Gutter Protection',
+      heroDescription: 'Solar panels attract nesting birds, which block gutters and damage panels. WOW Gutters Ltd provides bird proofing solutions coming soon to Birmingham. Call 07421 433910.',
+      sections: [
+        { heading: 'Coming Soon — Solar Panel Bird Proofing Service', content: 'Solar panels create a warm, sheltered gap between the panel and the roof tiles — the perfect nesting site for pigeons, gulls, and starlings. Birds nesting under solar panels drop debris, feathers, and droppings into the gutters below, causing rapid blockages. Their nesting material also traps moisture against the roof, potentially causing damp issues. WOW Gutters Ltd is developing a solar panel bird proofing service using mesh and spike systems that prevent birds from accessing the gap while allowing airflow and maintaining panel efficiency.', bullets: ['Bird mesh installation — stainless steel mesh seals the panel gap', 'Bespoke fitting — custom-cut to your solar panel layout', 'Gutter protection — prevents bird debris from blocking gutters', 'Panel protection — stops nesting damage to wiring and panels', 'Breathable design — allows airflow, maintains panel efficiency', 'Coming soon — register your interest for early availability'] },
+        { heading: 'Why Bird Proof Solar Panels?', content: 'Once birds establish nests under solar panels, they are difficult to remove and return year after year. The debris from nesting birds accelerates gutter blockage dramatically — a property with bird-nesting solar panels may need gutter cleaning every few months instead of twice a year. Bird droppings also contain acids that can damage roof tiles and solar panel frames over time. Professional bird proofing is a one-time investment that protects both your solar investment and your gutter system for years to come.', bullets: ['Prevents recurring blockages — bird debris is a major gutter blocker', 'Protects panel investment — prevents nest damage to wiring', 'Hygienic — removes bird droppings from the roof area', 'Humane — proofing prevents nesting without harming birds', 'Cost-effective — one-off cost vs repeated gutter cleaning', 'Register interest — contact us for updates on this service'] },
+      ],
+      faqs: [
+        { question: 'Is solar panel bird proofing available now?', answer: 'This service is coming soon. Register your interest by calling 07421 433910 and we will contact you when the service launches.' },
+        { question: 'Does bird proofing affect solar panel performance?', answer: 'No — professional bird proofing is designed to allow full airflow around the panels, maintaining their efficiency while preventing bird access.' },
+        { question: 'How does bird nesting under solar panels affect gutters?', answer: 'Nesting birds drop feathers, droppings, and nesting material into gutters, causing rapid blockages that require much more frequent gutter cleaning.' },
+        { question: 'Is bird proofing humane?', answer: 'Yes — bird proofing uses mesh and spikes to prevent access without harming birds. It is a humane deterrent that keeps birds safe while protecting your property.' },
+        { question: 'Does WOW Gutters Ltd offer solar panel bird proofing?', answer: 'We are launching this service soon. Call 07421 433910 to register your interest and be the first to know when it is available.' },
+      ],
+    };
+  }
+
+  if (slug === 'driveway-and-gutter-cleaning-package') {
+    return {
+      heroTitle: 'Driveway and Gutter Cleaning Package',
+      heroDescription: 'Our driveway and gutter cleaning package saves you money on combined exterior cleaning. WOW Gutters Ltd provides professional cleaning across Birmingham. Call 07421 433910.',
+      sections: [
+        { heading: 'Combined Driveway and Gutter Cleaning Package', content: 'WOW Gutters Ltd offers a combined driveway and gutter cleaning package that provides better value than booking each service separately. While our team is at your property cleaning gutters, we can also pressure wash your driveway, patio, or paths — saving you the cost of a separate call-out and reducing disruption to one visit instead of two. The package covers a full gutter clean with downpipe testing plus a full driveway or patio pressure wash. The combined service takes 2-4 hours for a standard property.', bullets: ['Full gutter clean — all channels cleared and downpipes tested', 'Driveway or patio pressure wash — algae, moss, oil stains removed', 'One visit — both services completed in a single appointment', 'Lower total cost — package discount vs booking separately', 'Any combination — driveway, patio, paths, or all three', 'Before and after photos — documentation for both services'] },
+        { heading: 'Package Options and Pricing', content: 'Our driveway and gutter cleaning package is available for all property types. The standard package includes gutter cleaning for the main house plus pressure washing for a standard driveway or patio area. Larger driveways or additional patio areas can be included at a reduced add-on rate. We also offer a premium package that includes gutter cleaning, driveway pressure washing, and fascia and soffit cleaning — the complete exterior clean for your property.', bullets: ['Standard package — gutter clean + driveway up to 40m²', 'Large driveway package — gutter clean + driveway up to 80m²', 'Premium package — gutter clean + driveway + fascia cleaning', 'Add-on options — additional patios, paths, or wall cleaning', 'Fixed pricing — no hidden charges, quoted before work starts', 'Birmingham-wide — package available across all areas'] },
+      ],
+      faqs: [
+        { question: 'How much does the driveway and gutter cleaning package cost?', answer: 'The combined package starts from £150 for a standard property including gutter cleaning and driveway pressure washing. The exact price depends on property size.' },
+        { question: 'How long does the combined service take?', answer: 'Most combined gutter and driveway cleaning visits take 2-4 hours, depending on the size of the driveway and the condition of the gutters.' },
+        { question: 'Can I add other services to the package?', answer: 'Yes — you can add patio or path cleaning, fascia cleaning, or conservatory roof cleaning at a reduced combined rate.' },
+        { question: 'Is the driveway cleaning included in the package as thorough as a standalone service?', answer: 'Yes — the same professional-grade hot water pressure washing equipment is used, with the same attention to detail and the same before and after photos.' },
+        { question: 'Does WOW Gutters Ltd offer package deals?', answer: 'Yes — our driveway and gutter cleaning package provides excellent value. Call 07421 433910 for a combined quote.' },
+      ],
+    };
+  }
+
+  if (slug === 'render-cleaning-birmingham') {
+    return {
+      heroTitle: 'Render Cleaning Birmingham',
+      heroDescription: 'Professional render cleaning in Birmingham — safe removal of algae, moss, and staining from all render types. WOW Gutters Ltd provides expert soft washing. Call 07421 433910.',
+      sections: [
+        { heading: 'Render Cleaning Service — Safe Soft Washing', content: 'Render is a popular exterior finish for Birmingham homes, but it is prone to green algae growth, moss, and black staining — especially on north-facing walls and shaded elevations. Render is porous and delicate, so high-pressure washing can damage the surface, cause pitting, and force water into the wall structure. WOW Gutters Ltd uses soft washing — low-pressure application of a biocide cleaning solution — that kills algae and moss at the root without damaging the render. The solution lifts the staining, and a gentle rinse reveals the original colour.', bullets: ['Soft washing only — low pressure safe for all render types', 'Removes algae, moss, and black carbon staining', 'Safe for silicone, acrylic, mineral, and monocouche render', 'Biocide treatment — kills growth at the root, not just surface', 'Long-lasting results — regrowth takes 2-3 years', 'Before and after photos — visible transformation'] },
+        { heading: 'Render Types We Clean and Why Soft Washing Is Best', content: 'Different render types need different approaches. Silicone render is the most delicate — high-pressure cleaning can strip the silicone layer and leave patchy marks. Acrylic render is more durable but still vulnerable to pressure damage. Mineral render and monocouche are more robust but can be pitted by pressure washing. Soft washing with the right biocide solution is safe for all render types. WOW Gutters Ltd uses pH-neutral cleaning solutions that are effective on biological growth but gentle on the render surface.', bullets: ['Silicone render cleaning — gentle soft wash, no pressure damage', 'Acrylic render cleaning — biocide treatment removes staining safely', 'Mineral render cleaning — effective cleaning without surface pitting', 'Monocouche render cleaning — colour-restoring treatment available', 'No pressure washing — eliminates risk of water ingress behind render', 'All Birmingham areas — render cleaning service across the city'] },
+      ],
+      faqs: [
+        { question: 'Can I pressure wash render?', answer: 'No — pressure washing render is not recommended. It can damage the surface, cause pitting, and force water behind the render. Soft washing is the safe and effective method.' },
+        { question: 'How often does render need cleaning?', answer: 'Most render needs cleaning every 3-5 years, depending on exposure. North-facing walls and properties near trees may need more frequent cleaning.' },
+        { question: 'Will render cleaning remove the colour from my render?', answer: 'No — professional soft washing removes the algae and staining to reveal the original colour of your render. It does not strip or fade the render finish.' },
+        { question: 'How much does render cleaning cost in Birmingham?', answer: 'Render cleaning costs depend on the wall area and render type. Typical costs range from £200-£500 for a semi-detached house. We provide free quotes.' },
+        { question: 'Does WOW Gutters Ltd offer render cleaning in Birmingham?', answer: 'Yes — we provide professional render cleaning across Birmingham using safe soft washing methods. Call 07421 433910 for a free quote.' },
+      ],
+    };
+  }
+
+  if (slug === 'upvc-cleaning-birmingham') {
+    return {
+      heroTitle: 'UPVC Cleaning Birmingham',
+      heroDescription: 'Professional UPVC cleaning in Birmingham — restores doors, windows, and cladding to like-new condition. WOW Gutters Ltd provides soft washing for UPVC. Call 07421 433910.',
+      sections: [
+        { heading: 'UPVC Cleaning Service', content: 'UPVC windows, doors, fascias, and cladding accumulate dirt, algae, and black carbon staining over time. The white finish that once looked pristine can become dull, streaked, and discoloured. Standard washing with soap and water rarely removes ingrained staining. WOW Gutters Ltd uses a specialist UPVC cleaning treatment applied through our soft washing system. The cleaning solution lifts years of ingrained dirt and biological staining, restoring the original white finish. We do not use abrasive methods that could scratch or dull the UPVC surface.', bullets: ['Restores white finish — removes ingrained dirt and carbon staining', 'Algae and moss removal — biological growth cleaned from UPVC', 'Soft wash method — no abrasive scrubbing or pressure damage', 'Windows, doors, fascias, cladding — all UPVC surfaces cleaned', 'Long-lasting results — protective treatment slows regrowth', 'Before and after photos — dramatic difference visible'] },
+        { heading: 'Why Choose Professional UPVC Cleaning?', content: 'DIY UPVC cleaning rarely achieves professional results. Household cleaning products may remove surface dirt but struggle with ingrained algae and carbon staining that builds up over years. Some DIY methods — like pressure washing at close range — can actually damage UPVC by forcing water into seals and scratching the surface. Professional UPVC cleaning uses commercial-grade cleaning solutions that dissolve years of staining without abrasive force. The investment in professional cleaning is a fraction of the cost of replacing UPVC windows, doors, or cladding.', bullets: ['Professional results — commercial-grade solutions dissolve ingrained staining', 'No surface damage — soft washing protects UPVC finish', 'Seal-safe — cleaning does not compromise window or door seals', 'Cost-effective — cleaning costs far less than replacement', 'Combined service — book with gutter cleaning for best value', 'All Birmingham — UPVC cleaning across all areas'] },
+      ],
+      faqs: [
+        { question: 'How much does UPVC cleaning cost in Birmingham?', answer: 'UPVC cleaning costs £100-£300 depending on the property size and the amount of UPVC to be cleaned. A full quote is provided before work starts.' },
+        { question: 'Can you clean UPVC without scratching it?', answer: 'Yes — we use soft washing methods with no abrasive scrubbing. Our cleaning solutions do the work, not mechanical force, so there is no risk of scratching.' },
+        { question: 'How often should UPVC be cleaned?', answer: 'Most UPVC benefits from cleaning every 2-3 years. Properties near busy roads (carbon staining) or trees (algae growth) may need annual cleaning.' },
+        { question: 'Will UPVC cleaning remove yellowing?', answer: 'Yes — our specialist cleaning treatment is effective at removing the yellowing that develops on UPVC over time, especially on south-facing elevations.' },
+        { question: 'Does WOW Gutters Ltd clean UPVC in Birmingham?', answer: 'Yes — we provide professional UPVC cleaning across Birmingham. Call 07421 433910 for a free quote.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-brightening-service') {
+    return {
+      heroTitle: 'Gutter Brightening Service',
+      heroDescription: 'Restore your gutters to like-new condition with our gutter brightening service. WOW Gutters Ltd removes years of staining from plastic, metal, and painted gutters. Call 07421 433910.',
+      sections: [
+        { heading: 'What Is Gutter Brightening?', content: 'Over time, gutters lose their original colour and finish. White uPVC gutters develop yellowing and black carbon staining. Metal gutters oxidise and fade. Painted gutters chip and discolour. Gutter brightening is a specialist cleaning treatment that restores the original colour and finish of your gutters without the cost of replacement. Our process uses a combination of cleaning solutions and gentle agitation to remove ingrained staining, followed by a protective treatment that helps the gutters stay cleaner for longer.', bullets: ['uPVC gutter restoration — removes yellowing and carbon staining', 'Metal gutter restoration — removes oxidation and restores finish', 'Painted gutter restoration — gentle cleaning without paint damage', 'Colour-matching treatment — available for coloured guttering', 'Protective coating — slows future staining and algae growth', 'Cost-effective — brightening costs a fraction of replacement'] },
+        { heading: 'Gutter Brightening Process', content: 'WOW Gutters Ltd follows a structured gutter brightening process. First, the gutters are thoroughly cleaned of all debris and tested for drainage. Next, a specialist brightening solution is applied to the gutter surface and allowed to dwell, breaking down staining and oxidation. The solution is gently agitated and rinsed off with low-pressure water. Finally, a protective treatment is applied that helps prevent future staining and makes subsequent cleaning easier. The whole process takes 1-3 hours depending on gutter length and condition.', bullets: ['Step 1 — thorough gutter clean and debris removal', 'Step 2 — brightening solution application and dwell time', 'Step 3 — gentle agitation to lift staining', 'Step 4 — low-pressure rinse of all gutter surfaces', 'Step 5 — protective treatment application', 'Step 6 — final inspection and before/after photos'] },
+      ],
+      faqs: [
+        { question: 'How much does gutter brightening cost?', answer: 'Gutter brightening costs from £150 for a standard property, depending on gutter length and condition. A free quote is provided before work starts.' },
+        { question: 'How long does gutter brightening last?', answer: 'With our protective treatment, gutter brightening results typically last 3-5 years before the gutters begin to show staining again.' },
+        { question: 'Can gutter brightening fix faded coloured gutters?', answer: 'Yes — our brightening treatment can restore the colour of faded black, brown, and grey gutters significantly, though the exact result depends on the original colour and fading extent.' },
+        { question: 'Is gutter brightening the same as gutter cleaning?', answer: 'No — gutter cleaning removes debris from inside the channel. Gutter brightening restores the exterior appearance of the gutter itself. They are complementary services.' },
+        { question: 'Does WOW Gutters Ltd provide gutter brightening?', answer: 'Yes — we offer professional gutter brightening across Birmingham. Call 07421 433910 for a free quote.' },
+      ],
+    };
+  }
+
+  if (slug === 'moss-treatment-biocide-roof') {
+    return {
+      heroTitle: 'Moss Treatment — Biocide Roof',
+      heroDescription: 'Professional biocide moss treatment for roofs in Birmingham. WOW Gutters Ltd kills moss at the root and prevents regrowth for years. Call 07421 433910.',
+      sections: [
+        { heading: 'Biocide Moss Treatment for Roofs', content: 'Biocide moss treatment is the most effective method for removing and preventing moss on roof tiles. Unlike scraping or pressure washing (which only removes the visible moss and damages tiles), a biocide treatment is applied as a low-pressure spray that penetrates the moss growth and kills it at the root. The moss gradually dries out and falls away over 2-4 weeks, leaving the roof clean without any mechanical abrasion. The biocide also leaves a residual protective layer on the tiles that prevents new moss from establishing for years.', bullets: ['Kills moss at the root — complete eradication, not just surface removal', 'No scraping or pressure washing — safe for all tile types', 'Gradual natural removal — moss dries and falls away over weeks', 'Residual protection — prevents regrowth for 3-5 years', 'Safe for all roof tiles — clay, concrete, and slate', 'Environmentally responsible — biodegradable biocide solutions'] },
+        { heading: 'The Biocide Roof Treatment Process', content: 'WOW Gutters Ltd biocide roof treatment is a straightforward process. Our team accesses the roof safely using ladders and spray equipment. The biocide solution is mixed to the correct concentration for your roof type and moss severity. The solution is applied evenly across all affected roof areas using a low-pressure spray — no high pressure that could damage tiles. We treat the entire roof slope, including ridges, valleys, and the areas around chimneys. After application, the moss dies off naturally. We recommend a follow-up gutter clean after the moss has fallen to clear any debris.', bullets: ['Safe access — ladders and long-reach spray equipment', 'Correct dilution — biocide mixed for your roof type and moss severity', 'Even coverage — full roof slope, ridges, valleys, and chimney areas', 'Low-pressure application — safe for all tile types', 'No mess during treatment — moss falls away naturally weeks later', 'Follow-up gutter clean recommended — after moss has fallen'] },
+      ],
+      faqs: [
+        { question: 'How long does biocide roof treatment take to work?', answer: 'The moss begins to die within days. It turns brown and falls away naturally over 2-4 weeks. The roof looks clean within a month of treatment.' },
+        { question: 'Is biocide roof treatment safe for pets and plants?', answer: 'Yes — our biocide solutions are biodegradable and safe when used as directed. We take precautions to protect plants near the treatment area.' },
+        { question: 'How long does biocide treatment prevent moss regrowth?', answer: 'Professional biocide treatment typically prevents significant moss regrowth for 3-5 years, depending on your roof\'s exposure to shade and moisture.' },
+        { question: 'Do I need to remove moss before biocide treatment?', answer: 'No — the biocide kills the moss in place and it falls away naturally. In cases of very thick moss, we may recommend light pre-treatment brushing.' },
+        { question: 'Does WOW Gutters Ltd provide biocide roof moss treatment?', answer: 'Yes — we provide professional biocide moss treatment for roofs across Birmingham. Call 07421 433910 for a free quote.' },
+      ],
+    };
+  }
+
+  if (slug === 'roof-cleaning-without-pressure-washer') {
+    return {
+      heroTitle: 'Roof Cleaning Without Pressure Washer',
+      heroDescription: 'Safe roof cleaning without a pressure washer — soft washing protects your tiles. WOW Gutters Ltd provides professional low-pressure roof cleaning. Call 07421 433910.',
+      sections: [
+        { heading: 'Roof Cleaning Without Pressure Washing — The Soft Wash Method', content: 'The safest and most effective way to clean a roof without using a pressure washer is soft washing. This method uses low-pressure water (similar to a garden hose) combined with a biocide cleaning solution. The solution does the cleaning work — it kills moss, algae, and lichen at the root. The low-pressure rinse simply removes the dead growth and rinses the roof clean. No high pressure means no risk of damaged tiles, no water forced under overlaps, and no loosening of roof fixtures. Soft washing is the professional standard recommended by tile manufacturers.', bullets: ['No pressure washer used — zero risk of tile damage', 'Biocide cleaning — kills moss and algae at the root', 'Low-pressure rinse — gentle removal of dead growth', 'Tile-safe — safe for clay, concrete, slate, and composite', 'No water forced under tiles — eliminates leak risk', 'Longer-lasting results — regrowth takes 3-5 years'] },
+        { heading: 'Why Choose Non-Pressure Roof Cleaning?', content: 'Many homeowners search for roof cleaning without pressure washing because they have heard the horror stories — cracked tiles, damaged surfaces, leaks caused by high-pressure cleaning. Unfortunately, some less reputable roof cleaners still use pressure washers because they are faster and require less skill. WOW Gutters Ltd never uses pressure washers on roofs. Our soft washing system is safer for your roof, more effective at killing moss (not just blasting it off), and delivers results that last longer because the biocide prevents regrowth.', bullets: ['Safer for your roof — no cracked or loosened tiles', 'More effective — biocide kills at root, pressure only removes surface', 'Longer-lasting — 3-5 years vs 6-12 months for pressure washing', 'Professional standard — recommended by tile manufacturers', 'Experienced operators — trained in correct soft washing technique', 'Birmingham-wide — safe roof cleaning across all areas'] },
+      ],
+      faqs: [
+        { question: 'Can a roof be cleaned without a pressure washer?', answer: 'Yes — soft washing is the professional standard for roof cleaning. It uses low-pressure water and biocide solutions to clean roofs safely and effectively.' },
+        { question: 'Is soft washing as effective as pressure washing for roofs?', answer: 'Yes — soft washing is more effective because it kills moss and algae at the root. Pressure washing only blasts away surface growth, which grows back quickly.' },
+        { question: 'How long does a soft wash roof clean take?', answer: 'Most residential roof soft washes take 1-3 hours depending on roof size and moss severity. The biocide needs no scrubbing, so the process is straightforward.' },
+        { question: 'Does soft washing a roof cost more than pressure washing?', answer: 'No — soft washing costs about the same as professional pressure washing. The results last longer, so soft washing is better value.' },
+        { question: 'Does WOW Gutters Ltd clean roofs without a pressure washer?', answer: 'Yes — we never use pressure washers on roofs. All our roof cleaning is done using professional soft washing methods. Call 07421 433910.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-deep-clean-service') {
+    return {
+      heroTitle: 'Gutter Deep Clean Service',
+      heroDescription: 'Our gutter deep clean service goes beyond standard cleaning — every section hand-cleaned, downpipes jetted, and gutters brightened. WOW Gutters Ltd. Call 07421 433910.',
+      sections: [
+        { heading: 'What Makes Our Gutter Deep Clean Different', content: 'A standard gutter clean removes debris from the channel and tests downpipes. Our deep clean service goes significantly further. Every gutter section is hand-inspected and cleaned with extra attention to compacted debris at downpipe inlets. Downpipes are not just tested — they are jetted with high-pressure water to ensure complete clearance. The exterior of the gutters is brightened to remove staining. Joints are inspected and resealed where needed. Brackets are checked and tightened. The result is a gutter system that looks and performs like new.', bullets: ['Hand inspection of every gutter section', 'Compacted debris removed from downpipe inlets', 'High-pressure downpipe jetting on every pipe', 'Gutter exterior brightening included', 'Joint inspection and resealing', 'Bracket check and tightening'] },
+        { heading: 'Gutter Deep Clean Process', content: 'Our gutter deep clean follows a comprehensive 8-step process. First, we conduct a full property survey to assess gutter condition. All debris is removed from the gutter channel and bagged. Downpipe inlets are hand-cleared of compacted debris. Every downpipe is jetted with high-pressure water to ensure complete clearance. The gutter exterior is brightened and stained areas treated. Joints are inspected and any gaps resealed. Brackets are checked and tightened. Finally, a full condition report with before and after photos is provided.', bullets: ['Step 1 — full property survey and gutter assessment', 'Step 2 — complete debris removal from all gutter channels', 'Step 3 — hand clearance of compacted debris at downpipe inlets', 'Step 4 — high-pressure water jetting of every downpipe', 'Step 5 — gutter exterior brightening and stain treatment', 'Step 6 — joint inspection, resealing, and bracket tightening'] },
+      ],
+      faqs: [
+        { question: 'How is a deep clean different from a standard gutter clean?', answer: 'A deep clean includes downpipe jetting (not just testing), exterior gutter brightening, joint resealing, and bracket tightening. It is a comprehensive restoration of your gutter system.' },
+        { question: 'How much does a gutter deep clean cost?', answer: 'A gutter deep clean costs from £150 for a standard property, depending on gutter length and condition. A free quote is provided before work starts.' },
+        { question: 'How long does a gutter deep clean take?', answer: 'A deep clean takes longer than a standard clean — typically 1.5 to 3 hours for a standard property, depending on the extent of cleaning and treatment needed.' },
+        { question: 'How often should I get a gutter deep clean?', answer: 'A deep clean is recommended every 2-3 years as an intensive maintenance service, with standard gutter cleaning in between.' },
+        { question: 'Does WOW Gutters Ltd offer a gutter deep clean service?', answer: 'Yes — our gutter deep clean service is available across Birmingham. Call 07421 433910 for a free quote.' },
       ],
     };
   }
