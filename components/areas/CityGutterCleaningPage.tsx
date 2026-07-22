@@ -18,6 +18,7 @@ import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
 import { normalizeAreaHeroTitle } from '@/lib/areaHeroTitle';
 
+
 export default function CityGutterCleaningPage({
   data,
   priceFrom = 50,
@@ -239,15 +240,18 @@ export default function CityGutterCleaningPage({
           <p className="text-slate-700 text-lg">{data.areasInline}</p>
           {data.internalLinks?.length ? (
             <div className="flex flex-wrap justify-center gap-3 mt-8">
-              {data.internalLinks.map((l) => (
-                <Link
-                  key={l.href}
-                  href={l.href}
-                  className="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors shadow-sm"
-                >
-                  {l.label}
-                </Link>
-              ))}
+              {data.internalLinks.map((l, i) => {
+                const variants = [l.label, l.label.replace(/^(Gutter cleaning) /i, 'Gutter cleaning in '), l.label.replace(/^(Gutter cleaning) /i, '')];
+                return (
+                  <Link
+                    key={l.href}
+                    href={l.href}
+                    className="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors shadow-sm"
+                  >
+                    {variants[i % variants.length]}
+                  </Link>
+                );
+              })}
             </div>
           ) : null}
         </div>

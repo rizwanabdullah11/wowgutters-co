@@ -23,7 +23,6 @@ export const GUTTER_CLEANING_SERVICE_NEAR_ME_LANDING: CityGutterLandingData = {
     'Reaches up to 4 storeys \u2014 homes, flats and commercial buildings',
     'Downpipe clearance and flow test included as standard',
     'Before & after photos on every job, sent same day',
-    '1-year service guarantee \u2014 we return free if your gutters block within 12 months',
     'Fully insured \u2014 comprehensive public liability cover on every visit',
     '4.9\u2605 rating from verified Google reviews',
   ],

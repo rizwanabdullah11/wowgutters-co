@@ -203,6 +203,32 @@ const RAW_KEYWORDS = [
   'moss treatment biocide roof',
   'roof cleaning without pressure washer',
   'gutter deep clean service',
+  'school gutter cleaning West Midlands',
+  'office building gutter cleaning Birmingham',
+  'warehouse gutter cleaning',
+  'industrial gutter cleaning West Midlands',
+  'retail park gutter maintenance',
+  'church gutter cleaning Birmingham',
+  'care home gutter cleaning',
+  'property management gutter cleaning contracts',
+  'landlord gutter cleaning service Birmingham',
+  'commercial roof cleaning West Midlands',
+  'gutter cleaning Sutton Coldfield Four Oaks',
+  'gutter cleaning Marston Green',
+  'gutter cleaning Pershore',
+  'gutter cleaning Stourport-on-Severn',
+  'gutter cleaning Bewdley',
+  'gutter cleaning Alvechurch',
+  'gutter cleaning Nuneaton',
+  'gutter cleaning Kenilworth',
+  'roof moss removal Sutton Coldfield',
+  'gutter vacuum cleaning',
+  'roof moss removal',
+  'fascia soffit cleaning',
+  'downpipe unblocking',
+  'commercial gutter cleaning',
+  'emergency gutter cleaning',
+  'home guard plan',
 ];
 
 function buildBullets(slug: string): string[] {
@@ -2782,6 +2808,403 @@ function getContent(keyword: string): { heroTitle: string; heroDescription: stri
             'Before and after photos on every moss removal job',
           ],
         },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-sutton-coldfield-four-oaks') {
+    return {
+      heroTitle: 'Gutter Cleaning Sutton Coldfield & Four Oaks',
+      heroDescription: 'Professional gutter cleaning in Sutton Coldfield and Four Oaks. WOW Gutters Ltd serves B74 and B75 postcodes with ground-level vacuum cleaning, downpipe testing, and before and after photos. Free quote: 07421 433910.',
+      sections: [
+        { heading: 'Gutter Cleaning in Sutton Coldfield & Four Oaks', content: 'Sutton Coldfield\'s tree-lined streets and the exclusive Four Oaks area create heavy leaf fall and moss accumulation that fills gutters rapidly. WOW Gutters Ltd provides professional gutter cleaning across B74 and B75 using our ground-level vacuum system — no ladders against your property.', bullets: ['Full gutter clearance across Sutton Coldfield and Four Oaks', 'Ground-level vacuum system reaching up to four storeys', 'Downpipe testing and flow check on every outlet', 'Before and after photos sent on completion', 'Covers Four Oaks, Boldmere, Wylde Green, Mere Green, Walmley', 'Free quote with no obligation — call 07421 433910'] },
+        { heading: 'Why Sutton Coldfield & Four Oaks Gutters Need Regular Cleaning', content: 'The mature oak, beech, and lime trees throughout Sutton Coldfield\'s residential streets — particularly in the Four Oaks area — shed enormous volumes of leaves and seeds. Combined with moss from roof tiles, this creates blockages that cause overflow and damp if left uncleared.', bullets: ['Heavy leaf fall from mature trees lining residential streets', 'Moss accumulation from damp conditions near Sutton Park', 'Large detached homes in Four Oaks with complex gutter runs', 'Period properties requiring careful handling', 'Prevents damp walls, fascia rot, and foundation issues'] },
+      ],
+      faqs: [
+        { question: 'How much does gutter cleaning cost in Sutton Coldfield?', answer: 'Most homes in Sutton Coldfield and Four Oaks cost between £50 and £140 depending on property size. We provide a fixed quote before any work starts.' },
+        { question: 'Do you cover Four Oaks and Boldmere?', answer: 'Yes — we cover all Sutton Coldfield neighbourhoods including Four Oaks, Boldmere, Wylde Green, Mere Green, Streetly, Walmley, and all B72–B76 postcodes.' },
+        { question: 'Can you clean gutters on large detached homes in Four Oaks?', answer: 'Yes — our high-reach vacuum system handles large detached properties with complex rooflines, including gutters above conservatories and extensions.' },
+      ],
+    };
+  }
+
+  if (slug === 'school-gutter-cleaning-west-midlands') {
+    return {
+      heroTitle: 'School Gutter Cleaning West Midlands',
+      heroDescription: 'Professional gutter cleaning for schools across the West Midlands. WOW Gutters Ltd services school buildings, halls, sports facilities, and admin blocks. Planned maintenance and holiday scheduling available. Call 07421 433910.',
+      sections: [
+        { heading: 'School Gutter Cleaning in the West Midlands', content: 'Schools require regular gutter maintenance to prevent water damage to buildings, protect student areas from damp, and maintain a safe environment. WOW Gutters Ltd provides professional gutter cleaning for schools across Birmingham, Wolverhampton, Coventry, Walsall, Dudley, Solihull, and the wider West Midlands.', bullets: ['Full gutter clearance for school buildings and facilities', 'Work scheduled around school hours and holiday periods', 'Downpipe testing and flow check on all outlets', 'Before and after photo records for compliance', 'Planned maintenance contracts available for MATs and academies', 'Fully insured with £10 million public liability cover'] },
+        { heading: 'Why Schools Need Regular Gutter Cleaning', content: 'Blocked gutters on school buildings cause water damage to roofs, walls, and interiors. Health and safety regulations require that school drainage systems are maintained in good working order to prevent slip hazards and building damage.', bullets: ['Prevents water damage to classrooms, halls, and corridors', 'Eliminates slip hazards from overflowing water near entrances', 'Protects expensive equipment in IT suites and science labs', 'Meets compliance requirements for school building maintenance', 'Holiday scheduling means no disruption to lessons', 'Photographic records provided for your maintenance files'] },
+      ],
+      faqs: [
+        { question: 'Do you work around school hours?', answer: 'Yes — we can schedule gutter cleaning during school holidays, weekends, or after hours to minimise disruption to students and staff.' },
+        { question: 'Do you provide documentation for schools?', answer: 'Yes — every school clean includes before and after photographs and a written summary of work completed, suitable for compliance and maintenance records.' },
+        { question: 'What areas do you cover for school gutter cleaning?', answer: 'We cover all West Midlands areas including Birmingham, Coventry, Wolverhampton, Walsall, Dudley, Sandwell, Solihull, and surrounding areas.' },
+      ],
+    };
+  }
+
+  if (slug === 'office-building-gutter-cleaning-birmingham') {
+    return {
+      heroTitle: 'Office Building Gutter Cleaning Birmingham',
+      heroDescription: 'Professional gutter cleaning for office buildings across Birmingham. WOW Gutters Ltd services commercial offices, business parks, and managed workspaces. Out-of-hours availability. Call 07421 433910.',
+      sections: [
+        { heading: 'Office Building Gutter Cleaning in Birmingham', content: 'Office buildings across Birmingham city centre, business parks, and suburban commercial areas need regular gutter maintenance to protect premises, equipment, and tenant comfort. WOW Gutters Ltd provides professional gutter cleaning for all types of office accommodation.', bullets: ['Gutter clearance for office buildings of all sizes', 'Out-of-hours work to avoid business disruption', 'Downpipe testing and flow check on all outlets', 'Photographic records for property management files', 'Planned maintenance contracts for managed buildings', 'Fully insured with comprehensive public liability cover'] },
+        { heading: 'Why Birmingham Offices Need Regular Gutter Cleaning', content: 'Blocked gutters on office buildings cause water ingress that damages interiors, equipment, and tenant fit-outs. For landlords and property managers, regular gutter maintenance protects asset value and maintains professional standards.', bullets: ['Prevents water damage to office interiors and equipment', 'Maintains professional appearance of commercial premises', 'Protects tenant relationships with proactive maintenance', 'Reduces emergency callout costs with planned maintenance', 'Suitable for city centre offices, business parks, and managed workspaces', 'Fixed pricing with no hidden charges'] },
+      ],
+      faqs: [
+        { question: 'Can you work outside business hours?', answer: 'Yes — we schedule office gutter cleaning outside business hours, at weekends, or whenever suits your building management schedule.' },
+        { question: 'What Birmingham areas do you cover for offices?', answer: 'All Birmingham postcodes including city centre B1–B7, business parks in B37, B90, and all surrounding commercial areas.' },
+      ],
+    };
+  }
+
+  if (slug === 'warehouse-gutter-cleaning') {
+    return {
+      heroTitle: 'Warehouse Gutter Cleaning',
+      heroDescription: 'Professional gutter cleaning for warehouses and industrial units across Birmingham and the West Midlands. WOW Gutters Ltd handles large gutter runs, multiple downpipes, and complex access requirements. Call 07421 433910.',
+      sections: [
+        { heading: 'Warehouse Gutter Cleaning Services', content: 'Warehouses and industrial units have large roof areas with extensive gutter runs that collect debris. WOW Gutters Ltd provides professional gutter cleaning for warehouses using industrial-grade equipment capable of handling long runs and multiple downpipe outlets.', bullets: ['Industrial vacuum system for large warehouse gutter runs', 'Multi-downpipe testing and clearance on every visit', 'Flexible scheduling — out-of-hours and weekend work available', 'Before and after photographic records for compliance', 'Planned maintenance programmes for regular clearance', 'Fully insured with £10 million public liability cover'] },
+        { heading: 'Why Warehouses Need Regular Gutter Maintenance', content: 'Blocked gutters on warehouses cause water damage to stock, equipment, and the building fabric. Health and safety regulations require that industrial drainage systems are maintained. A single blocked gutter on a large roof can cause significant damage quickly.', bullets: ['Prevents water damage to stock and stored materials', 'Protects warehouse equipment and machinery', 'Meets health and safety compliance requirements', 'Reduces liability risks from overflowing water', 'Extends the life of industrial gutter systems', 'Planned maintenance reduces costs vs emergency callouts'] },
+      ],
+      faqs: [
+        { question: 'How much does warehouse gutter cleaning cost?', answer: 'Costs vary by roof size, gutter length, and access requirements. WOW Gutters Ltd provides free site surveys and fixed quotes for all warehouse gutter cleaning.' },
+        { question: 'Do you work outside regular hours?', answer: 'Yes — we can schedule warehouse gutter cleaning outside business hours, at weekends, or during shutdown periods to minimise disruption.' },
+      ],
+    };
+  }
+
+  if (slug === 'industrial-gutter-cleaning-west-midlands') {
+    return {
+      heroTitle: 'Industrial Gutter Cleaning West Midlands',
+      heroDescription: 'Professional industrial gutter cleaning across the West Midlands. WOW Gutters Ltd services factories, industrial estates, manufacturing facilities, and processing plants. Planned maintenance available. Call 07421 433910.',
+      sections: [
+        { heading: 'Industrial Gutter Cleaning in the West Midlands', content: 'Industrial properties present unique gutter cleaning challenges — large roof areas, complex drainage systems, restricted access, and the need for minimal operational disruption. WOW Gutters Ltd provides professional industrial gutter cleaning across the West Midlands.', bullets: ['Industrial-grade vacuum equipment for large-scale gutter clearance', 'Complex multi-downpipe systems tested on every visit', 'Out-of-hours and shutdown period scheduling available', 'Photographic records for health and safety compliance', 'Planned maintenance contracts for regular servicing', 'Fully insured with comprehensive public liability cover'] },
+        { heading: 'Industrial Areas We Cover', content: 'We serve industrial estates and facilities across the entire West Midlands region, from Birmingham\'s industrial heartland to the Black Country and beyond.', bullets: ['Birmingham — Aston, Nechells, Tyseley, Small Heath, Saltley', 'Black Country — Wolverhampton, Dudley, Walsall, Sandwell', 'Solihull — Bickenhill, Shirley, Chelmsley Wood industrial estates', 'Coventry — Binley, Walsgrave, Canley industrial areas', 'All major West Midlands industrial estates and business parks', 'Free site survey and fixed price quotation'] },
+      ],
+      faqs: [
+        { question: 'What type of industrial properties do you clean?', answer: 'We clean gutters on factories, warehouses, manufacturing plants, processing facilities, distribution centres, and industrial units of all sizes.' },
+        { question: 'Do you provide compliance documentation?', answer: 'Yes — every industrial clean includes before and after photographs and a written summary of work completed, suitable for health and safety records.' },
+      ],
+    };
+  }
+
+  if (slug === 'retail-park-gutter-maintenance') {
+    return {
+      heroTitle: 'Retail Park Gutter Maintenance',
+      heroDescription: 'Professional gutter maintenance for retail parks across Birmingham and the West Midlands. WOW Gutters Ltd services shopping centres, retail units, and commercial parades. Call 07421 433910.',
+      sections: [
+        { heading: 'Retail Park Gutter Maintenance Services', content: 'Retail parks and shopping centres have extensive gutter systems serving multiple units under a single roof structure. WOW Gutters Ltd provides planned gutter maintenance for retail properties, ensuring continuous protection for tenants and customers.', bullets: ['Full gutter clearance for retail park buildings of all sizes', 'Multi-unit drainage systems tested comprehensively', 'Out-of-hours work scheduled around trading hours', 'Photographic records for property management files', 'Planned maintenance contracts for shopping centres', 'Fully insured with comprehensive public liability cover'] },
+        { heading: 'Why Retail Parks Need Regular Gutter Maintenance', content: 'Blocked gutters on retail properties cause water damage that disrupts trading, affects customer experience, and creates liability issues. Regular maintenance protects the retail environment and property value.', bullets: ['Prevents water damage to retail units and stock', 'Maintains safe environment for customers and staff', 'Protects landlord and tenant relationships', 'Reduces emergency maintenance costs', 'Suitable for retail parks, shopping centres, and retail parades', 'Fixed pricing with no hidden charges'] },
+      ],
+      faqs: [
+        { question: 'Do you work around retail trading hours?', answer: 'Yes — we schedule gutter maintenance outside trading hours, overnight, or on Sundays to avoid disruption to retail operations.' },
+        { question: 'What areas do you cover for retail parks?', answer: 'We cover all retail parks and shopping centres across Birmingham, Solihull, Wolverhampton, Coventry, Walsall, Dudley, and the wider West Midlands.' },
+      ],
+    };
+  }
+
+  if (slug === 'church-gutter-cleaning-birmingham') {
+    return {
+      heroTitle: 'Church Gutter Cleaning Birmingham',
+      heroDescription: 'Professional gutter cleaning for churches across Birmingham. WOW Gutters Ltd provides sensitive gutter care for historic church buildings, listed properties, and modern places of worship. Call 07421 433910.',
+      sections: [
+        { heading: 'Church Gutter Cleaning in Birmingham', content: 'Churches have complex rooflines, historic gutter systems, and often restricted access that makes gutter cleaning challenging. WOW Gutters Ltd provides professional gutter cleaning for churches across Birmingham, treating every building with the care its age and architecture deserves.', bullets: ['Gentle gutter cleaning for historic and listed church buildings', 'Ground-level vacuum system — no ladders against historic stonework', 'Complex roofline navigation including towers and aisles', 'Downpipe testing and flow check on all outlets', 'Photographic records for church maintenance files and insurers', 'Fully insured for work on historic and listed buildings'] },
+        { heading: 'Why Birmingham Churches Need Regular Gutter Cleaning', content: 'Birmingham\'s historic churches — from Victorian Gothic buildings in the city centre to medieval parish churches in surrounding areas — have gutter systems that are often original cast iron. These need careful maintenance to prevent water damage to historic fabric.', bullets: ['Protects historic stonework and brickwork from water damage', 'Prevents damp in church interiors affecting fabric and fittings', 'Identifies cast iron gutter deterioration before it becomes critical', 'Maintains access for congregation and visitors', 'Suitable for all denominations and building types', 'Free site survey for listed and complex buildings'] },
+      ],
+      faqs: [
+        { question: 'Can you work on listed church buildings?', answer: 'Yes — our ground-level vacuum system does not require ladders against historic fabric, making it ideal for listed and heritage church buildings.' },
+        { question: 'Do you provide documentation for church insurers?', answer: 'Yes — every church clean includes before and after photographs and a written summary suitable for insurance and maintenance records.' },
+      ],
+    };
+  }
+
+  if (slug === 'care-home-gutter-cleaning') {
+    return {
+      heroTitle: 'Care Home Gutter Cleaning',
+      heroDescription: 'Professional gutter cleaning for care homes across Birmingham and the West Midlands. WOW Gutters Ltd services residential care homes, nursing homes, and assisted living facilities. Call 07421 433910.',
+      sections: [
+        { heading: 'Care Home Gutter Cleaning Services', content: 'Care homes require regular gutter maintenance to protect vulnerable residents and sensitive building environments. WOW Gutters Ltd provides professional gutter cleaning for care homes across Birmingham and the West Midlands, working discreetly and respectfully.', bullets: ['Full gutter clearance for care home buildings and extensions', 'Discreet service — minimal disruption to residents', 'Downpipe testing and flow check on all outlets', 'Before and after photos for compliance records', 'Planned maintenance contracts for care home groups', 'Fully insured with comprehensive public liability cover'] },
+        { heading: 'Why Care Homes Need Regular Gutter Maintenance', content: 'Water damage from blocked gutters is particularly serious in care homes, where it can affect resident rooms, communal areas, and medical equipment. Regular gutter maintenance protects both the building and the people who live and work in it.', bullets: ['Prevents water ingress affecting resident rooms and communal areas', 'Eliminates slip hazards from overflowing water near entrances', 'Protects medical equipment and sensitive environments', 'Meets CQC compliance requirements for building maintenance', 'Respectful service that works around your schedule', 'Fixed pricing with no hidden charges'] },
+      ],
+      faqs: [
+        { question: 'Do you offer planned maintenance for care homes?', answer: 'Yes — we offer scheduled gutter cleaning programmes for care homes with regular visits timed to your property\'s specific needs.' },
+        { question: 'Can you work around residents?', answer: 'Yes — our ground-level system operates quietly and discreetly, with no ladders or scaffolding required, minimising disruption to residents and staff.' },
+      ],
+    };
+  }
+
+  if (slug === 'property-management-gutter-cleaning-contracts') {
+    return {
+      heroTitle: 'Property Management Gutter Cleaning Contracts',
+      heroDescription: 'Professional gutter cleaning contracts for property managers across Birmingham and the West Midlands. WOW Gutters Ltd offers planned maintenance, multi-property discounts, and compliance documentation. Call 07421 433910.',
+      sections: [
+        { heading: 'Property Management Gutter Cleaning Contracts', content: 'Property managers and letting agents need reliable gutter maintenance across multiple properties. WOW Gutters Ltd provides contract gutter cleaning for property management companies, with scheduled visits, compliance documentation, and single-invoice convenience.', bullets: ['Planned gutter maintenance for entire property portfolios', 'Scheduled visits timed to seasonal requirements', 'Multi-property discounts for portfolio landlords', 'Photographic records for compliance and tenant communication', 'Single monthly invoice for all properties', 'Priority scheduling for contract customers'] },
+        { heading: 'Why Property Managers Choose WOW Gutters Ltd', content: 'Managing gutter maintenance across multiple properties is time-consuming. WOW Gutters Ltd simplifies the process with planned schedules, automated reminders, and comprehensive documentation for every visit.', bullets: ['Reduces administrative burden on property management teams', 'Ensures consistent maintenance across all properties', 'Provides documented evidence of compliance for landlords', 'Prevents emergency callout costs with proactive maintenance', 'Flexible scheduling to match tenancy cycles', 'Dedicated account management for portfolio clients'] },
+      ],
+      faqs: [
+        { question: 'Do you offer discounts for portfolio contracts?', answer: 'Yes — we offer discounted rates for property management contracts covering multiple properties, with single-invoice billing for convenience.' },
+        { question: 'What documentation do you provide?', answer: 'Every visit includes before and after photographs, a written condition summary, and an annual compliance report suitable for landlord and insurance records.' },
+      ],
+    };
+  }
+
+  if (slug === 'landlord-gutter-cleaning-service-birmingham') {
+    return {
+      heroTitle: 'Landlord Gutter Cleaning Service Birmingham',
+      heroDescription: 'Professional gutter cleaning for landlords across Birmingham. WOW Gutters Ltd helps landlords meet maintenance obligations with documented evidence. Free quotes — call 07421 433910.',
+      sections: [
+        { heading: 'Landlord Gutter Cleaning in Birmingham', content: 'Landlords in Birmingham have a legal responsibility to maintain their properties in good repair, including gutters. WOW Gutters Ltd provides professional gutter cleaning for rental properties with photographic evidence for compliance and tenant communication.', bullets: ['Professional gutter cleaning for rental properties across Birmingham', 'Photographic before and after evidence for compliance records', 'Downpipe testing and flow check on every visit', 'Written condition summary after every clean', 'Discounted rates for multi-property landlord portfolios', 'Free quotes with fixed pricing — no hidden charges'] },
+        { heading: 'Why Birmingham Landlords Need Professional Gutter Cleaning', content: 'Blocked gutters cause damp, structural damage, and tenant complaints. For landlords, regular gutter maintenance protects property value, maintains tenant satisfaction, and demonstrates compliance with repairing obligations.', bullets: ['Protects property value with regular roofline maintenance', 'Prevents tenant complaints about damp and water ingress', 'Meets landlord legal obligations for property repair', 'Photographic evidence proves maintenance was completed', 'Reduces costly emergency repairs with proactive care', 'Flexible scheduling between tenancies'] },
+      ],
+      faqs: [
+        { question: 'How often should landlords clean gutters?', answer: 'Most rental properties benefit from gutter cleaning at least once a year. Properties near trees may need twice-yearly cleaning.' },
+        { question: 'Do you provide proof of gutter cleaning for landlords?', answer: 'Yes — every visit includes before and after photographs and a written summary, providing clear evidence of completed maintenance for your records.' },
+      ],
+    };
+  }
+
+  if (slug === 'commercial-roof-cleaning-west-midlands') {
+    return {
+      heroTitle: 'Commercial Roof Cleaning West Midlands',
+      heroDescription: 'Professional commercial roof cleaning across the West Midlands. WOW Gutters Ltd provides soft wash moss removal, algae treatment, and roof restoration for commercial buildings. Call 07421 433910.',
+      sections: [
+        { heading: 'Commercial Roof Cleaning in the West Midlands', content: 'Commercial roofs require professional cleaning to remove moss, algae, lichen, and organic debris that cause damage and reduce roof life. WOW Gutters Ltd provides commercial roof cleaning using low-pressure soft wash methods safe for all roof types.', bullets: ['Low-pressure soft wash — safe for concrete, clay, slate, and metal roofs', 'Moss, algae, and lichen killed at the root with biocide treatment', 'Commercial-grade equipment for large roof areas', 'Gutter cleaning combined with roof work for full roofline care', 'Photographic records for insurance and compliance', 'Fully insured with £10 million public liability cover'] },
+        { heading: 'Why Commercial Properties Need Roof Cleaning', content: 'Moss and algae growth on commercial roofs causes tile damage, blocked gutters, and reduced roof life. Regular professional cleaning protects the building and meets maintenance obligations.', bullets: ['Prevents moss roots from lifting and loosening roof tiles', 'Eliminates algae and lichen growth that causes staining', 'Restores roof appearance for professional premises', 'Extends commercial roof life significantly', 'Biocide treatment slows regrowth for longer-lasting results', 'Free site survey and fixed price quotation'] },
+      ],
+      faqs: [
+        { question: 'How much does commercial roof cleaning cost?', answer: 'Costs vary by roof size, moss coverage, and access. WOW Gutters Ltd provides free site surveys and fixed quotes for all commercial roof cleaning work.' },
+        { question: 'Is commercial roof cleaning safe for my roof type?', answer: 'Yes — we use low-pressure soft wash methods suitable for concrete, clay, slate, metal, and composite commercial roofing materials.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-marston-green') {
+    return {
+      heroTitle: 'Gutter Cleaning Marston Green',
+      heroDescription: 'Professional gutter cleaning in Marston Green, Solihull. WOW Gutters Ltd serves B37 postcode with ground-level vacuum cleaning. Before and after photos on every job. Call 07421 433910.',
+      sections: [
+        { heading: 'Gutter Cleaning in Marston Green', content: 'Marston Green is a popular Solihull area with a mix of modern housing developments and mature garden trees. WOW Gutters Ltd provides professional gutter cleaning for all property types in the B37 postcode area.', bullets: ['Full gutter clearance for all property types in Marston Green', 'Ground-level vacuum system — no ladders against your walls', 'Downpipe testing and flow check on every outlet', 'Before and after photos sent on completion', 'Covers all B37 postcodes and surrounding areas', 'Free quote with no obligation'] },
+        { heading: 'Marston Green Gutter Cleaning Services', content: 'We cover all streets in Marston Green including Station Road, Land Lane, Elmdon Lane, and surrounding residential roads. Our service includes complete debris removal, downpipe testing, and a written condition summary.', bullets: ['Complete leaf, moss, and debris removal from all gutters', 'Compacted silt extraction from channel base', 'Downpipe inlet clearing and flow testing', 'Fascia and soffit condition check', 'Fixed pricing with no hidden charges', 'Same-day and next-day availability where possible'] },
+      ],
+      faqs: [
+        { question: 'How much does gutter cleaning cost in Marston Green?', answer: 'Most Marston Green homes cost between £50 and £120 depending on property size. We provide a fixed quote before any work starts.' },
+        { question: 'What postcodes do you cover in Marston Green?', answer: 'We cover the B37 postcode area including all residential streets in Marston Green and surrounding areas.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-pershore') {
+    return {
+      heroTitle: 'Gutter Cleaning Pershore',
+      heroDescription: 'Professional gutter cleaning in Pershore, Worcestershire. WOW Gutters Ltd serves Pershore and surrounding villages with ground-level vacuum cleaning. Call 07421 433910.',
+      sections: [
+        { heading: 'Gutter Cleaning in Pershore', content: 'Pershore is a historic Worcestershire market town with a mix of period properties and modern homes. WOW Gutters Ltd provides professional gutter cleaning for all property types in Pershore and the surrounding villages.', bullets: ['Full gutter clearance for Pershore homes and businesses', 'Ground-level vacuum system — no ladders against your walls', 'Downpipe testing and flow check on every visit', 'Before and after photos provided as standard', 'Suitable for period properties and modern homes', 'Free quote with fixed pricing'] },
+        { heading: 'Why Pershore Properties Need Regular Gutter Cleaning', content: 'Pershore\'s location in the Worcestershire countryside means properties experience heavy leaf fall from surrounding trees and moss growth typical of rural environments. Regular gutter cleaning prevents damp and structural damage.', bullets: ['Heavy leaf fall from mature garden and countryside trees', 'Moss accumulation from Worcestershire\'s damp conditions', 'Period properties with cast iron gutter systems need careful handling', 'Prevents damp walls and fascia board deterioration', 'Protects property value in this desirable market town', 'Before and after photos on every job'] },
+      ],
+      faqs: [
+        { question: 'How much does gutter cleaning cost in Pershore?', answer: 'Most Pershore properties cost between £50 and £120 depending on size and access. Fixed quote provided before work starts.' },
+        { question: 'Do you cover villages around Pershore?', answer: 'Yes — we cover Pershore town and surrounding villages including Pinvin, Drakes Broughton, Wadborough, and Eckington.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-stourport-on-severn') {
+    return {
+      heroTitle: 'Gutter Cleaning Stourport-on-Severn',
+      heroDescription: 'Professional gutter cleaning in Stourport-on-Severn, Worcestershire. WOW Gutters Ltd serves Stourport and surrounding areas with ground-level vacuum cleaning. Call 07421 433910.',
+      sections: [
+        { heading: 'Gutter Cleaning in Stourport-on-Severn', content: 'Stourport-on-Severn is a historic Worcestershire town on the River Severn, known for its canalside properties and leafy residential streets. WOW Gutters Ltd provides professional gutter cleaning for all property types in the DY13 area.', bullets: ['Full gutter clearance for Stourport homes and businesses', 'Ground-level vacuum system — no ladders against your walls', 'Downpipe testing and flow check on every outlet', 'Before and after photos on every job', 'Suitable for canalside, period, and modern properties', 'Free quote with fixed pricing'] },
+        { heading: 'Why Stourport Gutters Need Regular Cleaning', content: 'Stourport\'s riverside location and mature tree canopy create ideal conditions for moss growth and heavy leaf fall. Properties near the river experience higher moisture levels that accelerate gutter debris accumulation.', bullets: ['Riverside location creates higher moisture levels', 'Mature trees shed heavily in autumn months', 'Canalside and period properties need careful handling', 'Prevents damp problems in older housing stock', 'Regular maintenance extends gutter system life', 'Professional service with before and after photos'] },
+      ],
+      faqs: [
+        { question: 'How much does gutter cleaning cost in Stourport-on-Severn?', answer: 'Most Stourport properties cost between £50 and £120 depending on property size. Fixed quote provided before any work starts.' },
+        { question: 'Do you cover rural areas around Stourport?', answer: 'Yes — we cover Stourport town and surrounding villages including Areley Kings, Astley, and Dunley.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-bewdley') {
+    return {
+      heroTitle: 'Gutter Cleaning Bewdley',
+      heroDescription: 'Professional gutter cleaning in Bewdley, Worcestershire. WOW Gutters Ltd serves Bewdley and surrounding villages with ground-level vacuum cleaning. Call 07421 433910.',
+      sections: [
+        { heading: 'Gutter Cleaning in Bewdley', content: 'Bewdley is a historic Worcestershire town on the River Severn, famous for its Georgian architecture and beautiful riverside setting. WOW Gutters Ltd provides professional gutter cleaning for all property types in Bewdley and the surrounding Wyre Forest area.', bullets: ['Full gutter clearance for Bewdley homes and businesses', 'Ground-level vacuum system — no ladders against your walls', 'Downpipe testing and flow check on every visit', 'Before and after photos on every job', 'Sensitive care for historic and period properties', 'Free quote with fixed pricing'] },
+        { heading: 'Why Bewdley Properties Need Gutter Cleaning', content: 'Bewdley\'s location within the Wyre Forest area means properties experience significant leaf fall and moss accumulation. The town\'s historic buildings need regular gutter maintenance to prevent water damage to precious fabric.', bullets: ['Heavy leaf fall from proximity to Wyre Forest', 'Historic Georgian properties need careful gutter maintenance', 'Riverside location creates higher moisture conditions', 'Prevents damp in period properties with solid walls', 'Protects the character and value of historic buildings', 'Professional care for listed and heritage properties'] },
+      ],
+      faqs: [
+        { question: 'How much does gutter cleaning cost in Bewdley?', answer: 'Most Bewdley properties cost between £50 and £120 depending on property size and access. Fixed quote provided before work starts.' },
+        { question: 'Can you clean gutters on listed buildings?', answer: 'Yes — our ground-level system is ideal for historic and listed buildings as no ladders are placed against the fabric.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-alvechurch') {
+    return {
+      heroTitle: 'Gutter Cleaning Alvechurch',
+      heroDescription: 'Professional gutter cleaning in Alvechurch, Worcestershire. WOW Gutters Ltd serves Alvechurch and surrounding villages with ground-level vacuum cleaning. Call 07421 433910.',
+      sections: [
+        { heading: 'Gutter Cleaning in Alvechurch', content: 'Alvechurch is a popular Worcestershire village near Birmingham with a mix of period properties and modern homes. WOW Gutters Ltd provides professional gutter cleaning for all property types in Alvechurch and the surrounding countryside.', bullets: ['Full gutter clearance for Alvechurch homes and businesses', 'Ground-level vacuum system — no ladders against your walls', 'Downpipe testing and flow check on every outlet', 'Before and after photos on every job', 'Covers Alvechurch village and surrounding rural areas', 'Free quote with no obligation'] },
+        { heading: 'Why Alvechurch Properties Need Gutter Cleaning', content: 'Alvechurch\'s semi-rural setting means properties deal with leaf fall from surrounding woodland, moss growth from damp conditions, and debris from countryside environments.', bullets: ['Semi-rural setting with heavy leaf fall from surrounding trees', 'Moss growth typical of Worcestershire\'s damp climate', 'Mix of period and modern properties all benefit from regular care', 'Prevents damp and structural damage in rural properties', 'Professional service tailored to village properties', 'Before and after photos provided as standard'] },
+      ],
+      faqs: [
+        { question: 'How much does gutter cleaning cost in Alvechurch?', answer: 'Most Alvechurch properties cost between £50 and £120 depending on property size. Fixed quote provided before work starts.' },
+        { question: 'Do you cover villages near Alvechurch?', answer: 'Yes — we cover Alvechurch and surrounding villages including Barnt Green, Cofton Hackett, and Rowney Green.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-nuneaton') {
+    return {
+      heroTitle: 'Gutter Cleaning Nuneaton',
+      heroDescription: 'Professional gutter cleaning in Nuneaton, Warwickshire. WOW Gutters Ltd serves Nuneaton and surrounding areas with ground-level vacuum cleaning. Call 07421 433910.',
+      sections: [
+        { heading: 'Gutter Cleaning in Nuneaton', content: 'Nuneaton is a historic Warwickshire market town with a mix of Victorian terraces, post-war housing, and modern developments. WOW Gutters Ltd provides professional gutter cleaning for all property types across Nuneaton and surrounding villages.', bullets: ['Full gutter clearance for Nuneaton homes and businesses', 'Ground-level vacuum system — no ladders against your walls', 'Downpipe testing and flow check on every outlet', 'Before and after photos on every job', 'Covers all Nuneaton postcodes and surrounding areas', 'Free quote with fixed pricing'] },
+        { heading: 'Nuneaton Gutter Cleaning Services', content: 'We cover all areas of Nuneaton from the town centre to surrounding residential areas. Our professional gutter cleaning service includes complete debris removal, downpipe clearance, and flow testing.', bullets: ['Complete leaf, moss, and debris removal from all gutters', 'Compacted silt extraction from channel base', 'Downpipe inlet clearing and flow testing', 'Fascia board and soffit condition observation', 'Fixed pricing with no hidden charges', 'Professional service with before and after documentation'] },
+      ],
+      faqs: [
+        { question: 'How much does gutter cleaning cost in Nuneaton?', answer: 'Most Nuneaton properties cost between £50 and £120 depending on property size. Fixed quote provided before work starts.' },
+        { question: 'What areas of Nuneaton do you cover?', answer: 'We cover all Nuneaton postcodes including CV10, CV11, and surrounding villages such as Bedworth and Bulkington.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-cleaning-kenilworth') {
+    return {
+      heroTitle: 'Gutter Cleaning Kenilworth',
+      heroDescription: 'Professional gutter cleaning in Kenilworth, Warwickshire. WOW Gutters Ltd serves Kenilworth with ground-level vacuum cleaning, downpipe testing, and before and after photos. Call 07421 433910.',
+      sections: [
+        { heading: 'Gutter Cleaning in Kenilworth', content: 'Kenilworth is a historic Warwickshire town with a stunning castle, period properties, and modern family homes. WOW Gutters Ltd provides professional gutter cleaning for all property types in Kenilworth and the surrounding area.', bullets: ['Full gutter clearance for Kenilworth homes and businesses', 'Ground-level vacuum system — no ladders against your walls', 'Downpipe testing and flow check on every outlet', 'Before and after photos on every job', 'Suitable for all property types from period to modern', 'Free quote with no obligation'] },
+        { heading: 'Why Kenilworth Properties Need Gutter Cleaning', content: 'Kenilworth\'s leafy streets and historic buildings create specific gutter maintenance needs. Regular cleaning prevents water damage to period properties and maintains the town\'s high standards of property care.', bullets: ['Leafy residential streets with mature tree cover', 'Historic properties need careful gutter maintenance', 'Modern family homes benefit from regular care', 'Prevents damp in period properties with solid walls', 'Protects property value in this desirable town', 'Professional service with photographic documentation'] },
+      ],
+      faqs: [
+        { question: 'How much does gutter cleaning cost in Kenilworth?', answer: 'Most Kenilworth properties cost between £50 and £120 depending on property size. Fixed quote provided before work starts.' },
+        { question: 'Do you cover the surrounding Kenilworth area?', answer: 'Yes — we cover Kenilworth town and surrounding areas including Burton Green and Balsall Common.' },
+      ],
+    };
+  }
+
+  if (slug === 'roof-moss-removal-sutton-coldfield') {
+    return {
+      heroTitle: 'Roof Moss Removal Sutton Coldfield',
+      heroDescription: 'Professional roof moss removal in Sutton Coldfield. WOW Gutters Ltd treats and removes moss, algae, and lichen from all roof types. Low-pressure soft wash method safe for all tiles. Call 07421 433910.',
+      sections: [
+        { heading: 'Roof Moss Removal in Sutton Coldfield', content: 'Sutton Coldfield\'s leafy environment and proximity to Sutton Park create ideal conditions for roof moss growth. WOW Gutters Ltd provides professional roof moss removal using low-pressure soft wash methods safe for all tile types including concrete, clay, and slate.', bullets: ['Low-pressure soft wash — safe for all roof tile types', 'Moss, algae, and lichen killed at the root', 'Biocide treatment applied to slow regrowth', 'Dead debris gently cleared from the roof surface', 'Gutters cleaned after roof treatment to remove fallen moss', 'Before and after photos on every roof cleaning job'] },
+        { heading: 'Why Remove Roof Moss in Sutton Coldfield?', content: 'Sutton Coldfield\'s damp climate and extensive tree cover create perfect conditions for moss growth. Left untreated, moss causes tile damage, blocks gutters, and reduces roof life.', bullets: ['Moss roots lift and loosen roof tiles over time', 'Moisture trapped by moss accelerates tile weathering', 'Moss debris blocks gutters and downpipes', 'Algae and lichen growth makes properties look neglected', 'Professional removal extends roof tile life significantly', 'Improves property appearance and kerb appeal'] },
+      ],
+      faqs: [
+        { question: 'How much does roof moss removal cost in Sutton Coldfield?', answer: 'Roof moss removal starts from £150 for standard homes. Final price depends on roof size and moss coverage. Fixed quote provided before work starts.' },
+        { question: 'Is roof moss removal safe for my tiles?', answer: 'Yes — we use low-pressure soft wash methods safe for concrete, clay, slate, and composite roof tiles. High-pressure washing is not used on any roof surface.' },
+      ],
+    };
+  }
+
+  if (slug === 'gutter-vacuum-cleaning') {
+    return {
+      heroTitle: 'Gutter Vacuum Cleaning',
+      heroDescription: 'Professional gutter vacuum cleaning across Birmingham and the West Midlands. WOW Gutters Ltd uses industrial SkyVac systems — 4-storey reach, no ladders, no mess. Before and after photos included. Call 07421 433910.',
+      sections: [
+        { heading: 'Gutter Vacuum Cleaning Service', content: 'Gutter vacuum cleaning is the modern, safe, and effective way to clear gutters. WOW Gutters Ltd uses industrial-grade SkyVac systems that operate entirely from ground level — no ladders against your walls, no risk of damage to your property, and no mess on your drive or borders.', bullets: ['Industrial SkyVac vacuum system — most powerful in the industry', 'Reaches gutters up to 4 storeys high from ground level', 'No ladders placed against your walls or fascias', 'Complete debris extraction including compacted silt layer', 'Camera inspection head provides real-time internal view', 'All debris bagged and removed — no mess left behind'] },
+        { heading: 'Why Choose Vacuum Gutter Cleaning?', content: 'Vacuum gutter cleaning offers significant advantages over traditional ladder-based methods. It is safer, more thorough, and causes no damage to your property.', bullets: ['No ladder damage to fascias, soffits, or brickwork', 'Safer — operatives stay on the ground at all times', 'More thorough — industrial vacuum extracts compacted silt', 'Faster — covers more gutter length per hour than hand cleaning', 'Before and after camera evidence of complete clearance', 'Ideal for 2-storey, 3-storey, and 4-storey properties'] },
+      ],
+      faqs: [
+        { question: 'How does gutter vacuum cleaning work?', answer: 'A powerful industrial vacuum is connected to a carbon-fibre reach pole with a camera head. The operative guides the pole along the gutter channel from ground level, extracting all debris through the vacuum system.' },
+        { question: 'Can vacuum cleaning handle heavy blockages?', answer: 'Yes — our industrial-grade SkyVac system handles wet leaves, compacted debris, moss, silt, and even small stones with ease.' },
+        { question: 'How high can the vacuum reach?', answer: 'Our system reaches gutters up to 4 storeys high — approximately 12 metres — covering most homes, townhouses, apartment blocks, and commercial buildings.' },
+      ],
+    };
+  }
+
+  if (slug === 'roof-moss-removal') {
+    return {
+      heroTitle: 'Roof Moss Removal',
+      heroDescription: 'Professional roof moss removal across Birmingham and the West Midlands. WOW Gutters Ltd uses low-pressure soft wash methods safe for all roof tiles. Biocide treatment prevents rapid regrowth. Call 07421 433910.',
+      sections: [
+        { heading: 'Professional Roof Moss Removal', content: 'Moss growth on roofs causes tile damage, blocked gutters, and reduced roof life. WOW Gutters Ltd provides professional roof moss removal using low-pressure soft wash methods that are safe for all roof tile types including concrete, clay, slate, and composite.', bullets: ['Low-pressure soft wash — safe for all roof tile types', 'Moss, algae, and lichen killed at the root', 'Biocide treatment applied to slow regrowth significantly', 'Dead debris gently cleared from the roof surface', 'Gutters cleaned after roof treatment', 'Before and after photos on every job'] },
+        { heading: 'Why Remove Moss From Your Roof?', content: 'Moss is more than a cosmetic issue. It holds moisture against roof surfaces, lifts tiles, blocks gutters, and accelerates roof deterioration.', bullets: ['Moss roots lift and loosen roof tiles', 'Moisture trapped by moss accelerates weathering', 'Moss debris blocks gutters and causes overflow', 'Professional cleaning extends roof life significantly', 'Improves property appearance and kerb appeal'] },
+      ],
+      faqs: [
+        { question: 'How much does roof moss removal cost?', answer: 'Roof moss removal starts from £150 for standard homes. The final price depends on roof size and moss coverage. Fixed quote provided before work starts.' },
+        { question: 'Does the moss grow back?', answer: 'We apply a biocide treatment that kills moss at the root and significantly slows regrowth. Most properties stay clear for 12–24 months.' },
+      ],
+    };
+  }
+
+  if (slug === 'fascia-soffit-cleaning') {
+    return {
+      heroTitle: 'Fascia and Soffit Cleaning',
+      heroDescription: 'Professional fascia and soffit cleaning across Birmingham and the West Midlands. WOW Gutters Ltd restores UPVC to bright white using hot purified water. No harsh chemicals. Call 07421 433910.',
+      sections: [
+        { heading: 'Professional Fascia and Soffit Cleaning', content: 'Fascias and soffits take the brunt of the weather — rain, wind, and airborne dirt combine to create algae and mould growth that turns white UPVC green or black. WOW Gutters Ltd restores them using hot purified water cleaning that removes all biological growth without chemicals.', bullets: ['Hot purified water cleaning — no harsh chemicals needed', 'Algae, mould, and lichen removed from all UPVC surfaces', 'Bright white finish restored to original appearance', 'Soffit vents cleaned without damage', 'Gutter cleaning combined in the same visit', 'Before and after photos on every job'] },
+        { heading: 'Why Clean Your Fascias and Soffits?', content: 'Clean fascias and soffits transform property appearance. Regular cleaning prevents long-term damage from algae that etches into UPVC surfaces over time.', bullets: ['Restores kerb appeal — essential when selling your property', 'Prevents algae from etching permanently into UPVC surfaces', 'Extends the life of your fascias and soffits', 'Identifies any damage or deterioration early', 'Combined gutter cleaning prevents water damage behind fascias', 'Most fascia and soffit cleaning completed in under an hour'] },
+      ],
+      faqs: [
+        { question: 'How much does fascia and soffit cleaning cost?', answer: 'Fascia and soffit cleaning typically costs from £60 for standard homes. Larger properties may cost more. Fixed quote provided before work starts.' },
+        { question: 'How do you clean fascias and soffits?', answer: 'We use a hot purified water cleaning system that removes algae, mould, and dirt without chemicals or abrasives. The hot water dissolves biological growth while pure water leaves a spot-free finish.' },
+      ],
+    };
+  }
+
+  if (slug === 'downpipe-unblocking') {
+    return {
+      heroTitle: 'Downpipe Unblocking',
+      heroDescription: 'Professional downpipe unblocking across Birmingham and the West Midlands. WOW Gutters Ltd clears blocked downpipes using industrial vacuum and rodding equipment. Free flow test after every clearance. Call 07421 433910.',
+      sections: [
+        { heading: 'Professional Downpipe Unblocking', content: 'A blocked downpipe causes water to back up into your gutters and overflow during rain. WOW Gutters Ltd clears blockages using professional equipment, then tests the flow to confirm the pipe is running freely from gutter to drain.', bullets: ['Blocked downpipe diagnosis and clearance', 'Vacuum and rodding equipment for stubborn blockages', 'Flow testing on every outlet after clearance', 'Leaf guards and mesh outlets to prevent future blockages', 'Combined gutter and downpipe clearance in one visit', 'Free quotes with no obligation'] },
+        { heading: 'What Causes Downpipe Blockages?', content: 'Downpipes block from compacted leaves, moss, bird nesting material, silt, and sycamore seeds. Understanding the cause helps prevent recurrence.', bullets: ['Debris washing from gutters into the downpipe inlet', 'Compacted leaves and moss forming a plug at bends', 'Bird nesting material and droppings accumulating', 'Silt and mineral deposits building up over years', 'Sycamore seed cases compacting in narrow sections', 'Frozen blockages in winter that expand and crack pipes'] },
+      ],
+      faqs: [
+        { question: 'How much does downpipe unblocking cost?', answer: 'Downpipe unblocking typically costs between £40 and £80 depending on the severity and location of the blockage. Fixed quote provided before work starts.' },
+        { question: 'How do you unblock a downpipe?', answer: 'We use vacuum suction for accessible blockages and rodding equipment for deeper ones. Every clearance is followed by a flow test to confirm free drainage.' },
+        { question: 'Can a blocked downpipe cause damp?', answer: 'Yes — a blocked downpipe forces water to overflow from gutters, running down external walls and saturating brickwork, leading to internal damp.' },
+      ],
+    };
+  }
+
+  if (slug === 'commercial-gutter-cleaning') {
+    return {
+      heroTitle: 'Commercial Gutter Cleaning',
+      heroDescription: 'Professional commercial gutter cleaning across Birmingham and the West Midlands. WOW Gutters Ltd services offices, retail units, warehouses, and industrial buildings. Planned maintenance available. Call 07421 433910.',
+      sections: [
+        { heading: 'Commercial Gutter Cleaning Services', content: 'Commercial properties have larger gutter systems, multiple downpipes, and more complex access requirements than domestic properties. WOW Gutters Ltd provides professional commercial gutter cleaning across Birmingham, Wolverhampton, Coventry, Dudley, Walsall, Solihull, and the wider West Midlands.', bullets: ['Industrial-grade vacuum system for large gutter runs', 'Multi-downpipe testing and clearance on every visit', 'Flexible scheduling — out-of-hours work available', 'Planned maintenance programmes for regular clearance', 'Before and after photographic records for compliance', 'Fully insured with £10 million public liability cover'] },
+        { heading: 'Why Commercial Properties Need Regular Gutter Cleaning', content: 'Blocked gutters on commercial properties cause water damage to stock, equipment, and interiors. Health and safety regulations require commercial drainage maintenance.', bullets: ['Prevents water damage to stock, equipment, and interiors', 'Meets health and safety requirements for drainage maintenance', 'Reduces liability risks from overflowing water', 'Extends the life of commercial gutter systems', 'Planned maintenance reduces costs compared to emergency callouts', 'Photographic records provided for compliance documentation'] },
+      ],
+      faqs: [
+        { question: 'How much does commercial gutter cleaning cost?', answer: 'Costs vary by property size, gutter length, and access. WOW Gutters Ltd provides free site surveys and fixed quotes for all commercial work.' },
+        { question: 'Do you offer planned maintenance contracts?', answer: 'Yes — scheduled gutter cleaning programmes for commercial properties with regular visits timed to your property\'s specific needs.' },
+        { question: 'What areas do you cover for commercial work?', answer: 'We cover Birmingham, Coventry, Wolverhampton, Dudley, Walsall, Sandwell, Solihull, and all surrounding West Midlands areas.' },
+      ],
+    };
+  }
+
+  if (slug === 'emergency-gutter-cleaning') {
+    return {
+      heroTitle: 'Emergency Gutter Cleaning',
+      heroDescription: 'Emergency gutter cleaning across Birmingham and the West Midlands. WOW Gutters Ltd offers rapid response for overflowing gutters, blocked downpipes, and storm damage. Same-day availability. Call 07421 433910.',
+      sections: [
+        { heading: 'Emergency Gutter Cleaning Service', content: 'When your gutters are overflowing during heavy rain, you need help fast. WOW Gutters Ltd offers emergency gutter cleaning across Birmingham and the West Midlands for urgent blockages, storm damage, and sudden overflow problems.', bullets: ['Same-day emergency response subject to availability', 'Rapid clearance of overflowing gutters and blocked downpipes', 'Industrial vacuum system for quick, thorough results', 'Downpipe testing and flow check before we leave', 'No extra charge for emergency callouts', 'Fixed pricing quoted before work starts'] },
+        { heading: 'Common Emergency Scenarios', content: 'We handle a range of urgent gutter situations. Our rapid response team can usually attend within hours of your call.', bullets: ['Gutters overflowing during heavy rain', 'Downpipes completely blocked with water backing up', 'Storm damage causing gutter sagging or detachment', 'Water pouring over gutters behind fascia boards', 'Urgent clearance needed before further rainfall', 'Pre-winter emergency clearance for vulnerable properties'] },
+      ],
+      faqs: [
+        { question: 'How quickly can you respond to an emergency?', answer: 'We offer same-day emergency gutter cleaning across Birmingham and the West Midlands subject to current availability. Call 07421 433910 for the earliest appointment.' },
+        { question: 'Do you charge extra for emergency callouts?', answer: 'No — our emergency gutter cleaning is charged at the same rate as our standard service. Fixed pricing quoted before work starts.' },
+        { question: 'What areas do you cover for emergencies?', answer: 'All Birmingham postcodes and the wider West Midlands including Solihull, Wolverhampton, Walsall, Dudley, and Coventry.' },
+      ],
+    };
+  }
+
+  if (slug === 'home-guard-plan') {
+    return {
+      heroTitle: 'Home Guard Plan — Annual Gutter Maintenance',
+      heroDescription: 'Protect your property with the WOW Gutters Ltd Home Guard Plan. Annual gutter maintenance with scheduled visits, priority booking, and discounted rates. Birmingham and West Midlands. Call 07421 433910.',
+      sections: [
+        { heading: 'What Is the Home Guard Plan?', content: 'The Home Guard Plan is WOW Gutters Ltd\'s annual gutter maintenance programme. It provides scheduled gutter cleaning visits timed to your property\'s needs, priority booking, discounted rates, and peace of mind knowing your gutters are professionally maintained throughout the year.', bullets: ['Scheduled gutter cleaning visits — typically spring and autumn', 'Priority booking over one-off customers', 'Discounted rates for plan members', 'Before and after photos on every visit', 'Written condition summary after each clean', 'Annual inspection report for your records'] },
+        { heading: 'Why Choose the Home Guard Plan?', content: 'Regular gutter maintenance prevents the small problems that become expensive emergencies. The Home Guard Plan makes it easy to stay on top of gutter care without having to remember to book.', bullets: ['Never forget to book your gutter clean again', 'Prevents emergency callouts with proactive maintenance', 'Priority service during busy autumn period', 'Fixed annual price — no surprises', 'Extends the life of your gutter system and roofline', 'Ideal for homeowners, landlords, and property managers'] },
+      ],
+      faqs: [
+        { question: 'How much does the Home Guard Plan cost?', answer: 'Plan pricing depends on your property size and visit frequency. We provide a fixed annual price after a free initial assessment.' },
+        { question: 'How many visits are included?', answer: 'Most plans include two visits per year — one in spring and one in autumn. Additional visits can be arranged if needed.' },
+        { question: 'Can I cancel the plan at any time?', answer: 'Yes — the Home Guard Plan has no long-term commitment. You can cancel at any time with no penalty.' },
       ],
     };
   }

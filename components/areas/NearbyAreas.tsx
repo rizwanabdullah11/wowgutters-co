@@ -19,12 +19,14 @@ function toServiceSlug(gutterSlug: string, serviceKind: AreaServiceKind): string
 export default function NearbyAreas({
   area,
   serviceKind = 'gutter',
+  maxLinks = 4,
 }: {
   area: string;
   serviceKind?: AreaServiceKind;
+  maxLinks?: number;
 }) {
   const key = area.toLowerCase();
-  const links = nearbyAreas[key] ?? [];
+  const links = (nearbyAreas[key] ?? []).slice(0, maxLinks);
   const meta = AREA_SERVICE_META[serviceKind];
   if (!links.length) return null;
 
@@ -35,16 +37,24 @@ export default function NearbyAreas({
           Areas near {toAreaTitle(key)} we also cover
         </h2>
         <ul className="flex flex-wrap justify-center gap-3">
-          {links.map((link) => (
-            <li key={link.slug}>
-              <Link
-                href={`/${toServiceSlug(link.slug, serviceKind)}/`}
-                className="px-4 py-2 rounded-full bg-slate-50 border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
-              >
-                {meta.nearbyLinkPrefix} {link.name}
-              </Link>
-            </li>
-          ))}
+          {links.map((link, i) => {
+            const variants = [
+              `${meta.nearbyLinkPrefix} ${link.name}`,
+              `${link.name} ${meta.labelLower}`,
+              `${meta.labelLower} in ${link.name}`,
+            ];
+            const label = variants[i % variants.length];
+            return (
+              <li key={link.slug}>
+                <Link
+                  href={`/${toServiceSlug(link.slug, serviceKind)}/`}
+                  className="px-4 py-2 rounded-full bg-slate-50 border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
+                >
+                  {label}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </section>

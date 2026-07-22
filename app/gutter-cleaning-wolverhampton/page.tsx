@@ -24,7 +24,6 @@ const landingData: CityGutterLandingData = {
     'Ground-level vacuum system — no ladders placed against your property',
     'Reaches up to 4 storeys — homes, flats and commercial buildings',
     'Before & after photos included as standard on every job',
-    '1-year service guarantee — we return free if your gutters block within 12 months',
     'Fully insured — comprehensive public liability cover on every visit',
     '4.9★ rating from verified Google reviews',
   ],
