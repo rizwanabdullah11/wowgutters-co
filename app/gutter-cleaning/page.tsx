@@ -1,7 +1,11 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import ServiceDetailPage from '@/components/services/ServiceDetailPage';
 import type { ServiceDetail } from '@/constants/servicesData';
 import { buildMetadata } from '@/lib/seo';
+import { FOOTER_HUB_SLUGS } from '@/lib/crawlHub';
+import { areaLinkLabel } from '@/lib/crawlHub';
+import { areaPath } from '@/lib/areaSlugs';
 
 export const metadata: Metadata = buildMetadata({
   absoluteTitle: 'Professional Gutter Cleaning Birmingham & West Midlands | WOW Gutters Ltd',
@@ -98,6 +102,52 @@ const service: ServiceDetail = {
   },
 };
 
+function ServiceAreasList() {
+  const cities = FOOTER_HUB_SLUGS
+    .filter((slug) => slug !== 'birmingham')
+    .map((slug) => ({
+      slug,
+      href: areaPath(slug),
+      label: areaLinkLabel(slug),
+    }));
+  return (
+    <section className="py-16 px-4 bg-slate-50 border-t border-slate-200">
+      <div className="max-w-6xl mx-auto text-center">
+        <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
+          Gutter Cleaning Across the West Midlands
+        </h2>
+        <p className="text-slate-600 text-lg mb-8 max-w-2xl mx-auto">
+          We cover every major town and city in the West Midlands. Click your area below for local prices, availability, and booking.
+        </p>
+        <ul className="flex flex-wrap justify-center gap-3">
+          {cities.map((city) => (
+            <li key={city.slug}>
+              <Link
+                href={city.href}
+                className="inline-block px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors shadow-sm"
+              >
+                {city.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <p className="text-slate-500 text-sm mt-8">
+          Also covering{' '}
+          <Link href="/gutter-cleaning-birmingham/" className="font-bold underline text-slate-700 hover:text-[#0f766e]">
+            Gutter Cleaning Birmingham
+          </Link>{' '}
+          and surrounding suburbs.
+        </p>
+      </div>
+    </section>
+  );
+}
+
 export default function GutterCleaningPage() {
-  return <ServiceDetailPage service={service} />;
+  return (
+    <>
+      <ServiceDetailPage service={service} />
+      <ServiceAreasList />
+    </>
+  );
 }

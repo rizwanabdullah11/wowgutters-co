@@ -18,6 +18,7 @@ import AreaFeatures from '@/components/areas/AreaFeatures';
 import NearbyAreas from '@/components/areas/NearbyAreas';
 import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
 
+
 interface AreaPageProps {
   areaName: string;
   county?: string;

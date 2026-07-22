@@ -13,6 +13,7 @@ import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
 
+
 export interface SuburbPageData {
   city: string
   heroBadge: string
@@ -246,15 +247,18 @@ export default function SuburbGutterCleaningPage({
           <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">{data.areasCoveredTitle}</h2>
           <p className="text-slate-700 text-lg">{data.areasCoveredText}</p>
           <div className="flex flex-wrap justify-center gap-3 mt-8">
-            {data.areaLinks.map((l) => (
-              <Link
-                key={l.href}
-                href={l.href}
-                className="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors shadow-sm"
-              >
-                {l.label}
-              </Link>
-            ))}
+            {data.areaLinks.map((l, i) => {
+              const variants = [l.label, `Gutter cleaning in ${l.label.replace(/^(Gutter cleaning) /i, '')}`, `${l.label.replace(/^(Gutter cleaning) /i, '')} gutter services`];
+              return (
+                <Link
+                  key={l.href}
+                  href={l.href}
+                  className="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors shadow-sm"
+                >
+                  {variants[i % variants.length]}
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>

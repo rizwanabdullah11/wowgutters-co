@@ -27,6 +27,7 @@ import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaFeatures from '@/components/areas/AreaFeatures';
 import SchemaMarkup from '@/components/seo/SchemaMarkup';
 
+
 interface ServiceDetailPageProps {
   service: ServiceDetail;
 }
