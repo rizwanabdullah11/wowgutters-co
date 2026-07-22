@@ -59,8 +59,6 @@ export const hiddenGutterDamageBlogPost: BlogPost = {
 
 <p>This is what summer reveals. This is what those findings cost when they are missed. And this is why every Birmingham homeowner with an older property, mature trees nearby, or a gutter system that has never had a summer inspection should book one before the diagnostic window closes.</p>
 
-<p><strong>WOW Gutters Ltd — Birmingham's gutter inspection specialists: <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a></strong></p>
-
 ${sectionCta}
 
 <nav style="background: #f8fafc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 24px 28px; margin: 32px 0;">
