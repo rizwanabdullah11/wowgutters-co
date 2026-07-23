@@ -26,10 +26,12 @@ import { drySummerWeatherGutterInspectionsBlogPost } from './drySummerWeatherGut
 import { yearRoundGutterProtectionBlogPost } from './yearRoundGutterProtectionBlog';
 import { preparingGuttersSummerBlogPost } from './preparingGuttersSummerBlog';
 import { hiddenGutterDamageBlogPost } from './hiddenGutterDamageBlog';
+import { beatAutumnRushBlogPost } from './beatAutumnRushBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  beatAutumnRushBlogPost,
   hiddenGutterDamageBlogPost,
   preparingGuttersSummerBlogPost,
   drySummerWeatherGutterInspectionsBlogPost,
