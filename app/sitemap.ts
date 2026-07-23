@@ -3,6 +3,7 @@ import { AREA_SLUGS, areaPath, roofAreaPath } from '@/lib/areaSlugs';
 import { blogPosts } from '@/constants/blogData';
 import { servicesData } from '@/constants/servicesData';
 import { CONTENT_LAST_UPDATED_ISO } from '@/lib/contentFreshness';
+import { getAllKeywordSlugs } from '@/lib/keywordPages';
 
 export const dynamic = 'force-static';
 export const revalidate = false;
@@ -151,6 +152,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ]);
 
+  const keywordSlugs = getAllKeywordSlugs();
+
+  const keywordRoutes = keywordSlugs.map((slug) => ({
+    url: withTrailingSlash(`/${slug}`),
+    lastModified: lastUpdated,
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }));
+
   const blogRoutes = blogPosts.map((post) => {
     let postDate = lastUpdated;
     if (post.date) {
@@ -176,6 +186,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...staticRoutes,
     ...serviceRoutes,
     ...areaRoutes,
+    ...keywordRoutes,
     ...blogRoutes,
   ];
 
