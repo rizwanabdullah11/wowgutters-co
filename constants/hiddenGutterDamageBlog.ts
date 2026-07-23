@@ -57,7 +57,7 @@ export const hiddenGutterDamageBlogPost: BlogPost = {
 
 <p>Summer removes that concealment. Dry surfaces. Clear light. No competing moisture. And the specific evidence of hidden gutter damage — staining, biological growth patterns, surface changes, silt layers — stands out plainly against dry backgrounds in a way it simply cannot when everything is wet.</p>
 
-<p>This is what summer reveals. This is what those findings cost when they are missed. And this is why every Birmingham homeowner with an older property, mature trees nearby, or a gutter system that has never had a summer inspection should book one before the diagnostic window closes.</p>
+<p>This is what summer reveals. This is what those findings cost when they are missed. And this is why every Birmingham homeowner with an older property, mature trees nearby, or a gutter system that has never had a summer inspection should book one before the diagnostic window closes.</p>    
 
 ${sectionCta}
 
