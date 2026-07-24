@@ -30,7 +30,7 @@ const ctaFinal = `
 </div>`;
 
 export const beatAutumnRushBlogPost: BlogPost = {
-  id: 'beat-autumn-rush-book-summer-gutter-cleaning-early',
+  id: 'summer-gutter-cleaning-early',
   seoTitle: 'Beat the Autumn Rush: Book Your Summer Gutter Cleaning Early | WOW Gutters Ltd Birmingham',
   title: 'Beat the Autumn Rush: Book Your Summer Gutter Cleaning Early',
   excerpt:
