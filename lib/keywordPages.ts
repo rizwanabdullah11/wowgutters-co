@@ -317,6 +317,10 @@ const RAW_KEYWORDS = [
   'gutter cleaning company with public liability insurance',
   'gutter cleaning contractor Birmingham with references',
   'commercial gutter cleaning case study Birmingham',
+  'retail gutter cleaning',
+  'landlord gutter cleaning',
+  'letting agent gutter cleaning',
+  'property management gutter cleaning',
 ];
 
 function buildBullets(slug: string): string[] {
@@ -4613,6 +4617,66 @@ function getContent(keyword: string): { heroTitle: string; heroDescription: stri
       faqs: [
         { question: 'Can you provide case studies of Birmingham commercial projects?', answer: 'Yes — we can share examples of commercial gutter cleaning projects we have completed across Birmingham.' },
         { question: 'Can you visit my Birmingham commercial property for a survey?', answer: 'Yes — we provide free site surveys for all commercial properties in Birmingham. Contact us to arrange a convenient time.' },
+      ],
+    };
+  }
+
+  if (slug === 'retail-gutter-cleaning') {
+    return {
+      heroTitle: 'Retail Gutter Cleaning',
+      heroDescription: 'Professional gutter cleaning for retail properties across Birmingham and the West Midlands. WOW Gutters Ltd services shops, shopping centres, retail parks, and commercial parades. Call 07421 433910.',
+      sections: [
+        { heading: 'Retail Gutter Cleaning Services', content: 'Retail properties — from high street shops to retail parks and shopping centres — need reliable gutter maintenance to protect stock, customers, and the building. WOW Gutters Ltd provides professional gutter cleaning for all types of retail premises across Birmingham and the West Midlands.', bullets: ['Full gutter clearance for shops, retail parks, and shopping centres', 'Out-of-hours cleaning to avoid disrupting trading hours', 'Multi-unit shopping centre drainage systems cleaned comprehensively', 'Downpipe testing and flow check on all outlets', 'Before and after photos for property management records', 'Planned maintenance contracts for retail portfolios'] },
+        { heading: 'Why Retail Properties Need Regular Gutter Cleaning', content: 'Blocked gutters on retail properties cause water damage to stock, create slip hazards for customers, and make the premises look neglected. Regular maintenance protects your business and your reputation.', bullets: ['Prevents water damage to stock, displays, and shop interiors', 'Eliminates slip hazards from overflowing water near entrances', 'Maintains professional appearance for customers and visitors', 'Protects landlord and tenant relationships in retail parks', 'Planned maintenance for multi-unit retail centres', 'Free site survey for retail properties of all sizes'] },
+      ],
+      faqs: [
+        { question: 'Do you work around retail trading hours?', answer: 'Yes — we schedule retail gutter cleaning outside trading hours, overnight, or on Sundays to avoid disruption.' },
+        { question: 'What retail areas do you cover?', answer: 'We cover all retail premises across Birmingham and the West Midlands, from city centre shops to out-of-town retail parks.' },
+      ],
+    };
+  }
+
+  if (slug === 'landlord-gutter-cleaning') {
+    return {
+      heroTitle: 'Landlord Gutter Cleaning',
+      heroDescription: 'Professional gutter cleaning for landlords across Birmingham and the West Midlands. WOW Gutters Ltd helps landlords meet legal obligations with documented evidence. Call 07421 433910.',
+      sections: [
+        { heading: 'Landlord Gutter Cleaning Services', content: 'Landlords have a legal responsibility to maintain their rental properties in good repair, including gutters and drainage. WOW Gutters Ltd provides professional gutter cleaning for landlords with full photographic evidence for compliance, tenant communication, and insurance records.', bullets: ['Professional gutter cleaning for all types of rental property', 'Photographic before and after evidence for compliance', 'Downpipe testing and flow check on every visit', 'Written condition summary after every clean', 'Discounted rates for multi-property landlord portfolios', 'Free quotes with fixed pricing — no hidden charges'] },
+        { heading: 'Why Landlords Need Professional Gutter Cleaning', content: 'Blocked gutters on rental properties cause damp, structural damage, and tenant complaints. Regular gutter maintenance protects property value and demonstrates compliance with Section 11 obligations.', bullets: ['Protects property value with regular roofline maintenance', 'Prevents tenant complaints about damp and water ingress', 'Meets landlord legal obligations for property repair', 'Photographic evidence proves maintenance was completed', 'Reduces costly emergency repairs with proactive care', 'Flexible scheduling between tenancies'] },
+      ],
+      faqs: [
+        { question: 'Do landlords have to clean gutters?', answer: 'Yes — under Section 11 of the Landlord and Tenant Act 1985, landlords are responsible for maintaining the structure and exterior, including gutters.' },
+        { question: 'What evidence do you provide for landlords?', answer: 'Every visit includes before and after photographs and a written summary, providing clear evidence of completed maintenance.' },
+      ],
+    };
+  }
+
+  if (slug === 'letting-agent-gutter-cleaning') {
+    return {
+      heroTitle: 'Letting Agent Gutter Cleaning',
+      heroDescription: 'Professional gutter cleaning for letting agents across Birmingham and the West Midlands. WOW Gutters Ltd provides reliable maintenance for managed rental portfolios. Call 07421 433910.',
+      sections: [
+        { heading: 'Letting Agent Gutter Cleaning Services', content: 'Letting agents need reliable, documented gutter maintenance across their managed property portfolios. WOW Gutters Ltd provides professional gutter cleaning for letting agents with scheduled visits, photographic evidence, and simple invoicing.', bullets: ['Planned gutter maintenance across your managed property portfolio', 'Scheduled visits with automated reminders', 'Photographic before and after evidence for landlord reports', 'Single monthly invoice for all managed properties', 'Priority scheduling for portfolio landlords', 'Dedicated account management for letting agency clients'] },
+        { heading: 'Why Letting Agents Choose WOW Gutters Ltd', content: 'Managing gutter maintenance across multiple rental properties is time-consuming. WOW Gutters Ltd simplifies the process for letting agents.', bullets: ['Reduces administrative burden on agency management teams', 'Ensures consistent maintenance across all managed properties', 'Provides documented evidence for landlord communication', 'Demonstrates professional property management to landlords', 'Prevents tenant complaints with proactive gutter care', 'Competitive rates for portfolio contracts'] },
+      ],
+      faqs: [
+        { question: 'Can you invoice the letting agency directly?', answer: 'Yes — we invoice letting agents directly for work across their managed portfolio, saving time on individual billing.' },
+        { question: 'Do you provide reports for landlords?', answer: 'Yes — every gutter clean includes before and after photos and a written summary suitable for landlord reports.' },
+      ],
+    };
+  }
+
+  if (slug === 'property-management-gutter-cleaning') {
+    return {
+      heroTitle: 'Property Management Gutter Cleaning',
+      heroDescription: 'Professional gutter cleaning for property managers across Birmingham and the West Midlands. WOW Gutters Ltd provides reliable maintenance, compliance documentation, and portfolio management. Call 07421 433910.',
+      sections: [
+        { heading: 'Property Management Gutter Cleaning Services', content: 'Property managers need a gutter cleaning partner they can trust to maintain properties to a consistent standard. WOW Gutters Ltd provides professional gutter cleaning for property managers, with portfolio-wide coordination, comprehensive documentation, and simplified billing.', bullets: ['Planned gutter maintenance across your entire managed portfolio', 'Consistent service standards at every property', 'Comprehensive photographic documentation for client reporting', 'Single-invoice billing for all properties under management', 'Dedicated account management for property management clients', 'Priority scheduling for contract customers'] },
+        { heading: 'Why Property Managers Choose WOW Gutters Ltd', content: 'Managing gutter maintenance across multiple properties is challenging. WOW Gutters Ltd makes it simple for property managers.', bullets: ['Reduces administrative burden on your management team', 'Ensures consistent maintenance standards across all properties', 'Provides documented evidence for landlord and client reports', 'Prevents emergency callout costs with proactive maintenance', 'Flexible scheduling to match tenancy cycles', 'Competitive rates for portfolio contracts'] },
+      ],
+      faqs: [
+        { question: 'Do you offer portfolio discounts for property managers?', answer: 'Yes — we offer discounted rates for property management contracts covering multiple properties.' },
+        { question: 'What documentation do you provide?', answer: 'Every visit includes before and after photographs, a written condition summary, and an annual compliance report for client files.' },
       ],
     };
   }

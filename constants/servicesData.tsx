@@ -1035,6 +1035,7 @@ export const servicesData: ServiceDetail[] = [
     name: 'Commercial Downpipe Cleaning',
     icon: '🏢',
     heroImage: '/gutter-cleaning-westmidlands.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Commercial Downpipe Cleaning',
     heroDescription:
       'Professional downpipe cleaning for commercial properties across Birmingham and the West Midlands. Blocked downpipes cleared, flow restored, and preventative maintenance contracts available. Call 07421 433910.',
@@ -1043,7 +1044,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Commercial Downpipe Cleaning Services',
         content:
           'Blocked downpipes on commercial properties cause water to back up in gutters, overflow against walls, and pool at ground level creating slip hazards. WOW Gutters Ltd provides professional commercial downpipe cleaning using specialist rods, vacuum suction, and water jetting to clear blockages and confirm flow restoration on every outlet.',
-        image: '/files/17_aerial_warehouse_roof_overview.jpg',
+        image: '/files/10_downpipe_outlet_completely_blocked.jpg',
         imagePosition: 'right',
         bulletPoints: [
           'Professional downpipe clearance for offices, warehouses, and retail units',
@@ -1097,7 +1098,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Commercial Services & Related Options',
         content:
           'Downpipe cleaning is often combined with gutter cleaning for comprehensive drainage maintenance across commercial properties.',
-        image: '/files/16_gutter_cleared_clean_result.jpg',
+        image: '/files/04_blocked_downpipe_outlet_closeup.jpg',
         imagePosition: 'left',
         bulletPoints: [
           'Commercial gutter cleaning — full gutter clearance on the same visit',
@@ -1122,6 +1123,7 @@ export const servicesData: ServiceDetail[] = [
     name: 'Commercial Fascia & Soffit Cleaning',
     icon: '🏢',
     heroImage: '/gutter-cleaning-westmidlands.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Commercial Fascia & Soffit Cleaning',
     heroDescription:
       'Professional fascia and soffit cleaning for commercial properties across Birmingham and the West Midlands. Hot water washing restores UPVC on offices, retail units, and industrial buildings. Call 07421 433910.',
@@ -1130,7 +1132,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Commercial Fascia and Soffit Cleaning Services',
         content:
           'Dirty fascias and soffits make commercial premises look neglected. WOW Gutters Ltd provides professional fascia and soffit cleaning for commercial properties using hot water washing and safe access methods, removing algae, moss, and grime without damaging UPVC surfaces.',
-        image: '/files/17_aerial_warehouse_roof_overview.jpg',
+        image: '/files/05_roof_overview_moss_streaks.jpg',
         imagePosition: 'right',
         bulletPoints: [
           'Hot water fascia cleaning for commercial premises of all sizes',
@@ -1171,7 +1173,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Commercial Services & Related Options',
         content:
           'Fascia and soffit cleaning is often combined with other roofline services. WOW Gutters Ltd can coordinate multiple services in one visit.',
-        image: '/files/16_gutter_cleared_clean_result.jpg',
+        image: '/files/18_aerial_moss_patches_roof.jpg',
         imagePosition: 'left',
         bulletPoints: [
           'Commercial gutter cleaning — clear gutters at the same time',
@@ -1196,6 +1198,7 @@ export const servicesData: ServiceDetail[] = [
     name: 'Commercial Property Gutter Maintenance',
     icon: '🏢',
     heroImage: '/gutter-cleaning-westmidlands.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Commercial Property Gutter Maintenance',
     heroDescription:
       'Planned gutter maintenance programmes for commercial properties across Birmingham and the West Midlands. Scheduled cleaning, inspection, and repairs for offices, retail, and industrial premises. Call 07421 433910.',
@@ -1204,7 +1207,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Commercial Property Gutter Maintenance Programme',
         content:
           'Commercial properties need gutter maintenance that protects the building, meets compliance requirements, and fits around business operations. WOW Gutters Ltd provides planned gutter maintenance programmes with flexible scheduling and professional documentation.',
-        image: '/files/17_aerial_warehouse_roof_overview.jpg',
+        image: '/files/19_aerial_full_warehouse_complex.jpg',
         imagePosition: 'right',
         bulletPoints: [
           'Planned maintenance programmes for all commercial property types',
@@ -1245,7 +1248,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Commercial Services & Related Options',
         content:
           'Gutter maintenance programmes can be combined with other commercial services for comprehensive roofline care.',
-        image: '/files/16_gutter_cleared_clean_result.jpg',
+        image: '/files/20_aerial_treeside_roof_section.jpg',
         imagePosition: 'left',
         bulletPoints: [
           'Commercial roof cleaning — treat moss that refills gutters quickly',
@@ -1270,6 +1273,7 @@ export const servicesData: ServiceDetail[] = [
     name: 'Gutter Cleaning Contracts',
     icon: '🏢',
     heroImage: '/gutter-cleaning-westmidlands.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Gutter Cleaning Contracts',
     heroDescription:
       'Reliable gutter cleaning contracts for commercial and residential properties across Birmingham and the West Midlands. Fixed annual pricing, scheduled visits, and comprehensive documentation. Call 07421 433910.',
@@ -1278,7 +1282,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Gutter Cleaning Contract Services',
         content:
           'A gutter cleaning contract provides scheduled maintenance with fixed pricing, priority booking, and peace of mind. WOW Gutters Ltd offers gutter cleaning contracts for commercial properties, landlords, managing agents, and homeowners who want reliable year-round gutter care.',
-        image: '/files/17_aerial_warehouse_roof_overview.jpg',
+        image: '/files/13_cherry_picker_access_street.jpg',
         imagePosition: 'right',
         bulletPoints: [
           'Scheduled gutter cleaning visits tailored to your property\'s needs',
@@ -1319,7 +1323,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Who Benefits from Gutter Cleaning Contracts',
         content:
           'Our gutter cleaning contracts are popular with a wide range of customers across Birmingham and the West Midlands.',
-        image: '/files/16_gutter_cleared_clean_result.jpg',
+        image: '/files/15_ground_based_vacuum_operative.jpg',
         imagePosition: 'left',
         bulletPoints: [
           'Commercial property owners and facilities managers',
@@ -1344,6 +1348,7 @@ export const servicesData: ServiceDetail[] = [
     name: 'Gutter Cleaning for Landlords',
     icon: '🏢',
     heroImage: '/gutter-cleaning-westmidlands.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Gutter Cleaning for Landlords',
     heroDescription:
       'Professional gutter cleaning for landlords across Birmingham and the West Midlands. Meet your legal obligations with documented evidence. Portfolio discounts available. Call 07421 433910.',
@@ -1352,7 +1357,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Gutter Cleaning Services for Landlords',
         content:
           'Landlords have a legal responsibility to maintain their properties in good repair, including gutters. WOW Gutters Ltd provides professional gutter cleaning for rental properties with photographic evidence for compliance and tenant communication. We serve private landlords, letting agents, and portfolio investors.',
-        image: '/files/17_aerial_warehouse_roof_overview.jpg',
+        image: '/files/15_ground_based_vacuum_operative.jpg',
         imagePosition: 'right',
         bulletPoints: [
           'Professional gutter cleaning for all rental property types',
@@ -1393,7 +1398,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Landlord Services & Related Options',
         content:
           'Beyond gutter cleaning, we offer complementary services that help landlords maintain their properties to a high standard.',
-        image: '/files/16_gutter_cleared_clean_result.jpg',
+        image: '/files/12_gutter_overflow_water_damage.jpg',
         imagePosition: 'left',
         bulletPoints: [
           'HMO gutter cleaning — documented evidence for HMO licensing',
@@ -1418,6 +1423,7 @@ export const servicesData: ServiceDetail[] = [
     name: 'Block Management Gutter Cleaning',
     icon: '🏢',
     heroImage: '/gutter-cleaning-westmidlands.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Block Management Gutter Cleaning',
     heroDescription:
       'Professional gutter cleaning for block management companies across Birmingham and the West Midlands. Planned maintenance, compliance documentation, and single-invoice billing. Call 07421 433910.',
@@ -1426,7 +1432,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Block Management Gutter Cleaning Services',
         content:
           'Block management companies oversee gutter maintenance across multiple properties and need services that are reliable, documented, and easy to administer. WOW Gutters Ltd partners with managing agents to provide professional gutter cleaning programmes with comprehensive reporting.',
-        image: '/files/17_aerial_warehouse_roof_overview.jpg',
+        image: '/files/20_aerial_treeside_roof_section.jpg',
         imagePosition: 'right',
         bulletPoints: [
           'Planned gutter maintenance for entire block portfolios',
@@ -1467,7 +1473,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Areas & Related Services',
         content:
           'We serve block management companies across all Birmingham and West Midlands postcodes, with coordinated services for managed blocks.',
-        image: '/files/16_gutter_cleared_clean_result.jpg',
+        image: '/files/13_cherry_picker_access_street.jpg',
         imagePosition: 'left',
         bulletPoints: [
           'Apartment block gutter cleaning — shared roofline systems',
@@ -1492,6 +1498,7 @@ export const servicesData: ServiceDetail[] = [
     name: 'Commercial Gutter Cleaning Services',
     icon: '🏢',
     heroImage: '/gutter-cleaning-westmidlands.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Commercial Gutter Cleaning Services',
     heroDescription:
       'Comprehensive commercial gutter cleaning services across Birmingham and the West Midlands. Gutter clearance, maintenance, and inspection for all business premises. Call 07421 433910.',
@@ -1500,7 +1507,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Our Full Range of Commercial Gutter Services',
         content:
           'WOW Gutters Ltd offers a complete range of commercial gutter cleaning services across Birmingham and the West Midlands. From one-off clearances to planned maintenance programmes, our industrial-grade equipment and experienced team handle commercial properties of all sizes — including offices, warehouses, retail units, schools, and industrial premises.',
-        image: '/files/17_aerial_warehouse_roof_overview.jpg',
+        image: '/files/19_aerial_full_warehouse_complex.jpg',
         imagePosition: 'right',
         bulletPoints: [
           'One-off commercial gutter clearance for urgent requirements',
@@ -1566,6 +1573,7 @@ export const servicesData: ServiceDetail[] = [
     name: 'Gutter Cleaning for Facilities Managers',
     icon: '🏢',
     heroImage: '/gutter-cleaning-westmidlands.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Gutter Cleaning for Facilities Managers',
     heroDescription:
       'Professional gutter cleaning for facilities managers across Birmingham and the West Midlands. Reliable maintenance, compliance documentation, and multi-site management. Call 07421 433910.',
@@ -1574,7 +1582,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Gutter Cleaning Services for Facilities Managers',
         content:
           'Facilities managers need gutter maintenance that is reliable, documented, and coordinated with other building services. WOW Gutters Ltd provides professional gutter cleaning for FMs across Birmingham and the West Midlands, with flexible contracts and comprehensive reporting.',
-        image: '/files/17_aerial_warehouse_roof_overview.jpg',
+        image: '/files/08_canalside_drop_downpipe_view.jpg',
         imagePosition: 'right',
         bulletPoints: [
           'Reliable gutter maintenance for all facilities under management',
@@ -1615,7 +1623,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Properties & Related Services',
         content:
           'We serve facilities managers across all property types with a range of coordinated services.',
-        image: '/files/16_gutter_cleared_clean_result.jpg',
+        image: '/files/17_aerial_warehouse_roof_overview.jpg',
         imagePosition: 'left',
         bulletPoints: [
           'Office buildings and corporate headquarters',
@@ -1640,6 +1648,7 @@ export const servicesData: ServiceDetail[] = [
     name: 'Gutter Cleaning for Property Developers',
     icon: '🏢',
     heroImage: '/gutter-cleaning-westmidlands.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Gutter Cleaning for Property Developers',
     heroDescription:
       'Professional gutter cleaning for property developers across Birmingham and the West Midlands. Snagging clearance, pre-handover cleaning, and new build gutter maintenance. Call 07421 433910.',
@@ -1648,7 +1657,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Gutter Cleaning for Property Developers',
         content:
           'Property developers need reliable gutter cleaning at key stages of the development process — from snagging clearance before handover to maintenance during the defect period. WOW Gutters Ltd provides professional gutter services for developers across Birmingham and the West Midlands.',
-        image: '/files/17_aerial_warehouse_roof_overview.jpg',
+        image: '/files/13_cherry_picker_access_street.jpg',
         imagePosition: 'right',
         bulletPoints: [
           'Pre-handover gutter clearance for new build properties',
@@ -1689,7 +1698,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Developer Services & Related Options',
         content:
           'Beyond gutter snagging, we offer services that support developers throughout the build process.',
-        image: '/files/16_gutter_cleared_clean_result.jpg',
+        image: '/files/09_gutter_standing_water_debris.jpg',
         imagePosition: 'left',
         bulletPoints: [
           'New build gutter snagging — catch installation defects early',
@@ -1714,6 +1723,7 @@ export const servicesData: ServiceDetail[] = [
     name: 'Approved Gutter Cleaning Contractor',
     icon: '🏢',
     heroImage: '/gutter-cleaning-westmidlands.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Approved Gutter Cleaning Contractor',
     heroDescription:
       'An approved gutter cleaning contractor serving Birmingham and the West Midlands. WOW Gutters Ltd is fully insured, trusted, and recommended for commercial and residential gutter maintenance. Call 07421 433910.',
@@ -1722,7 +1732,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Approved Gutter Cleaning Contractor',
         content:
           'WOW Gutters Ltd operates as an approved gutter cleaning contractor across Birmingham and the West Midlands, trusted by commercial clients, letting agents, block managers, and homeowners for reliable, professional gutter maintenance.',
-        image: '/files/17_aerial_warehouse_roof_overview.jpg',
+        image: '/files/15_ground_based_vacuum_operative.jpg',
         imagePosition: 'right',
         bulletPoints: [
           'Fully insured with £10 million public liability cover',
@@ -1763,7 +1773,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Who We Work With',
         content:
           'Our approved contractor status means we work with a wide range of clients who need reliable, documented gutter maintenance.',
-        image: '/files/16_gutter_cleared_clean_result.jpg',
+        image: '/files/18_aerial_moss_patches_roof.jpg',
         imagePosition: 'left',
         bulletPoints: [
           'Commercial property owners and facilities managers',
@@ -1788,6 +1798,7 @@ export const servicesData: ServiceDetail[] = [
     name: 'Gutter Cleaning for Multiple Sites',
     icon: '🏢',
     heroImage: '/gutter-cleaning-westmidlands.png',
+    heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Gutter Cleaning for Multiple Sites',
     heroDescription:
       'Professional gutter cleaning for multiple sites across Birmingham and the West Midlands. WOW Gutters Ltd provides coordinated maintenance for businesses with several locations. Call 07421 433910.',
@@ -1796,7 +1807,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Multi-Site Gutter Cleaning Services',
         content:
           'Managing gutter maintenance across multiple sites is a challenge for any business. WOW Gutters Ltd provides coordinated gutter cleaning for multi-site organisations with centralised billing, consistent service standards, and flexible scheduling across Birmingham and the West Midlands.',
-        image: '/files/17_aerial_warehouse_roof_overview.jpg',
+        image: '/files/19_aerial_full_warehouse_complex.jpg',
         imagePosition: 'right',
         bulletPoints: [
           'Coordinated gutter cleaning across all your sites',
@@ -1837,7 +1848,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Related Services for Multi-Site Portfolios',
         content:
           'Beyond gutter cleaning, we provide complementary services that can be coordinated across your multi-site portfolio.',
-        image: '/files/16_gutter_cleared_clean_result.jpg',
+        image: '/files/07_canalside_gutter_moss_vegetation.jpg',
         imagePosition: 'left',
         bulletPoints: [
           'Gutter cleaning contracts — fixed annual pricing across portfolio',
