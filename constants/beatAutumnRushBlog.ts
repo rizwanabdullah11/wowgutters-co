@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  'https://disgusted-brown-kjd4cirv.edgeone.dev/autunm-gutter-cleaning-hero.png';
+  'https://zeroth-purple-a402avmi.edgeone.dev/summer-rush-gutter-cleaning-hero.png';
 const IMG_BEFORE =
-  'https://disgusted-brown-kjd4cirv.edgeone.dev/autunm-gutter-cleaning-before.png';
+  'https://zeroth-purple-a402avmi.edgeone.dev/summer-rush-gutter-cleaning-before.png';
 const IMG_AFTER =
-  'https://disgusted-brown-kjd4cirv.edgeone.dev/autunm-gutter-cleaning-after.png';
+  'https://zeroth-purple-a402avmi.edgeone.dev/summer-rush-gutter-cleaning-after.png';
 
 const link = 'color: #19C58B; font-weight: 600; text-decoration: none;';
 
@@ -30,7 +30,7 @@ const ctaFinal = `
 </div>`;
 
 export const beatAutumnRushBlogPost: BlogPost = {
-  id: 'summer-gutter-booking ',
+  id: 'beat-autumn-rush-book-summer-gutter-cleaning-early',
   seoTitle: 'Beat the Autumn Rush: Book Your Summer Gutter Cleaning Early | WOW Gutters Ltd Birmingham',
   title: 'Beat the Autumn Rush: Book Your Summer Gutter Cleaning Early',
   excerpt:
