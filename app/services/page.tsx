@@ -25,6 +25,17 @@ const SERVICE_CARD_IMAGES: Record<string, string> = {
   'commercial-gutter-cleaning': '/gutter-cleaning-westmidlands.png',
   'commercial-roof-cleaning': '/roof-cleaning.JPG',
   'gutter-installation': '/gutter-installation.png',
+  'commercial-downpipe-cleaning': '/gutter-cleaning-westmidlands.png',
+  'commercial-fascia-soffit-cleaning': '/gutter-cleaning-westmidlands.png',
+  'commercial-property-gutter-maintenance': '/gutter-cleaning-westmidlands.png',
+  'gutter-cleaning-contracts': '/gutter-cleaning-westmidlands.png',
+  'gutter-cleaning-for-landlords': '/gutter-cleaning-westmidlands.png',
+  'block-management-gutter-cleaning': '/gutter-cleaning-westmidlands.png',
+  'commercial-gutter-cleaning-services': '/gutter-cleaning-westmidlands.png',
+  'gutter-cleaning-for-facilities-managers': '/gutter-cleaning-westmidlands.png',
+  'gutter-cleaning-for-property-developers': '/gutter-cleaning-westmidlands.png',
+  'approved-gutter-cleaning-contractor': '/gutter-cleaning-westmidlands.png',
+  'gutter-cleaning-for-multiple-sites': '/gutter-cleaning-westmidlands.png',
 };
 
 const RESIDENTIAL_IDS = new Set([

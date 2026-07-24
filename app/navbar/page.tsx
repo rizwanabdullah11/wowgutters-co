@@ -23,6 +23,11 @@ export default function Navbar() {
     { name: 'Conservatory Gutter Replacement', icon: Hammer, href: '/services/conservatory' },
     { name: 'Commercial Gutter Cleaning', icon: Building, href: '/services/commercial-gutter-cleaning' },
     { name: 'Commercial Roof Cleaning', icon: Building, href: '/services/commercial-roof-cleaning' },
+    { name: 'Commercial Downpipe Cleaning', icon: Building, href: '/services/commercial-downpipe-cleaning' },
+    { name: 'Commercial Gutter Maintenance', icon: Building, href: '/services/commercial-property-gutter-maintenance' },
+    { name: 'Gutter Cleaning Contracts', icon: Building, href: '/services/gutter-cleaning-contracts' },
+    { name: 'Gutter Cleaning for Landlords', icon: Building, href: '/services/gutter-cleaning-for-landlords' },
+    { name: 'Block Management Gutter Cleaning', icon: Building, href: '/services/block-management-gutter-cleaning' },
   ];
 
   return (
