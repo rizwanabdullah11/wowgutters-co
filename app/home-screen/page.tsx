@@ -33,7 +33,6 @@ export default function HomeScreen() {
       <QuestionsAnswers />
       <WhyChooseUs />
       <ReviewsSection />
-      <WhyChooseUs />
       <FeaturesSection />
       <GetTheBest />
       <FindLocalTeam />
