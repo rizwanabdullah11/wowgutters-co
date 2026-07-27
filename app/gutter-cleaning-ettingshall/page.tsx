@@ -5,7 +5,7 @@ import SuburbGutterCleaningPage from '@/components/areas/SuburbGutterCleaningPag
 import { suburbPages } from '@/lib/suburbPageData'
 
 const URL_PATH = 'https://wowgutters.co.uk/gutter-cleaning-ettingshall/'
-const pageData = suburbPages.etthingshall
+const pageData = suburbPages.ettingshall
 
 export const metadata: Metadata = {
   title: 'Gutter Cleaning Ettingshall Wolverhampton | WOW Gutters Ltd',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
 }
 
-const etthingshallHowToSchema = {
+const ettingshallHowToSchema = {
   '@context': 'https://schema.org',
   '@type': 'HowTo',
   name: 'How WOW Gutters Ltd Cleans Your Gutters in Ettingshall',
@@ -52,7 +52,7 @@ export default function EttingshallPage() {
         postcodes={['WV2', 'WV4', 'WV2 0', 'WV4 4']}
         faqs={pageData.faqs}
       />
-      <JsonLd data={etthingshallHowToSchema} />
+      <JsonLd data={ettingshallHowToSchema} />
       <SuburbGutterCleaningPage data={pageData} />
     </>
   )
