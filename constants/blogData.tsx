@@ -27,10 +27,12 @@ import { yearRoundGutterProtectionBlogPost } from './yearRoundGutterProtectionBl
 import { preparingGuttersSummerBlogPost } from './preparingGuttersSummerBlog';
 import { hiddenGutterDamageBlogPost } from './hiddenGutterDamageBlog';
 import { beatAutumnRushBlogPost } from './beatAutumnRushBlog';
+import { guttersTellingYouSummerBlogPost } from './guttersTellingYouSummerBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  guttersTellingYouSummerBlogPost,
   beatAutumnRushBlogPost,
   hiddenGutterDamageBlogPost,
   preparingGuttersSummerBlogPost,
