@@ -301,6 +301,19 @@ const RAW_KEYWORDS = [
   'commercial gutter cleaning Walsall',
   'commercial gutter cleaning Wolverhampton',
   'commercial gutter cleaning West Bromwich',
+  'commercial gutter clearing Acocks Green',
+  'commercial gutter clearing Aldridge',
+  'commercial gutter clearing Allens Cross',
+  'commercial gutter clearing Allesley',
+  'commercial gutter clearing Alum Rock',
+  'commercial gutter clearing Amblecote',
+  'commercial gutter clearing Aston',
+  'commercial gutter clearing Balsall Common',
+  'commercial gutter clearing Balsall Heath',
+  'commercial gutter clearing Bartley Green',
+  'commercial gutter clearing Billesley',
+  'commercial gutter clearing Bilston',
+  'commercial gutter clearing Binley',
   'gutter cleaning facilities management company Birmingham',
   'gutter cleaning managing agent Birmingham',
   'gutter cleaning contractor CHAS accredited',
@@ -4677,6 +4690,24 @@ function getContent(keyword: string): { heroTitle: string; heroDescription: stri
       faqs: [
         { question: 'Do you offer portfolio discounts for property managers?', answer: 'Yes — we offer discounted rates for property management contracts covering multiple properties.' },
         { question: 'What documentation do you provide?', answer: 'Every visit includes before and after photographs, a written condition summary, and an annual compliance report for client files.' },
+      ],
+    };
+  }
+
+  if (slug.startsWith('commercial-gutter-clearing-')) {
+    const area = slug.replace('commercial-gutter-clearing-', '');
+    const areaName = titleCase(area.replace(/-/g, ' '));
+    return {
+      heroTitle: `Commercial Gutter Clearing ${areaName}`,
+      heroDescription: `Professional commercial gutter clearing in ${areaName}. WOW Gutters Ltd services offices, retail units, warehouses, and industrial premises across ${areaName} and surrounding areas. Industrial-grade vacuum system, out-of-hours scheduling, and full photographic documentation. Call 07421 433910 for a free quote.`,
+      sections: [
+        { heading: `Commercial Gutter Clearing in ${areaName}`, content: `${areaName}'s commercial properties — from the town centre to industrial estates and retail parks — need professional gutter maintenance. WOW Gutters Ltd provides commercial gutter clearing across ${areaName}, serving all types of business premises with industrial-grade equipment and flexible scheduling.`, bullets: ['Full gutter clearance for all commercial properties', 'Industrial-grade vacuum system for large gutter runs', 'Multi-downpipe testing on every commercial visit', 'Out-of-hours cleaning to minimise business disruption', 'Before and after photos for property management records', 'Free site survey and fixed price quotation'] },
+        { heading: `Why ${areaName} Businesses Need Regular Gutter Clearing`, content: `Regular commercial gutter clearing protects ${areaName} businesses from water damage, complies with health and safety requirements, and maintains property value. WOW Gutters Ltd provides reliable scheduled maintenance for all types of commercial premises.`, bullets: ['Protects business premises from water damage and damp', 'Meets health and safety compliance obligations', 'Maintains professional appearance for your business', 'Planned maintenance contracts for regular servicing', 'Emergency response available for urgent issues', 'Fixed pricing with no hidden charges'] },
+      ],
+      faqs: [
+        { question: `What commercial areas of ${areaName} do you cover?`, answer: `We cover all ${areaName} commercial areas including the town centre, retail parks, industrial estates, and business premises throughout the ${areaName} area.` },
+        { question: 'Do you offer planned maintenance contracts?', answer: 'Yes — we offer planned maintenance contracts for commercial properties with scheduled visits at discounted rates.' },
+        { question: 'Do you provide compliance documentation?', answer: 'Yes — every commercial clean includes before and after photographs and a written summary suitable for health and safety records.' },
       ],
     };
   }
