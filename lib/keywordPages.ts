@@ -1,5 +1,6 @@
 import { suburbPages } from '@/lib/suburbPageData';
 import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
+import { AREA_SLUGS } from '@/lib/areaSlugs';
 
 export interface KeywordPage {
   slug: string;
@@ -489,60 +490,6 @@ const RAW_KEYWORDS = [
   'landlord gutter cleaning',
   'letting agent gutter cleaning',
   'property management gutter cleaning',
-  'commercial-roof-cleaning-selly-park',
-  'commercial-roof-cleaning-bromford',
-  'commercial-roof-cleaning-duddeston',
-  'commercial-roof-cleaning-lea-hall',
-  'commercial-roof-cleaning-south-yardley',
-  'commercial-roof-cleaning-tile-cross',
-  'commercial-roof-cleaning-kingshurst',
-  'commercial-roof-cleaning-fordbridge',
-  'commercial-roof-cleaning-bordesley',
-  'commercial-roof-cleaning-rotton-park',
-  'commercial-roof-cleaning-summerfield',
-  'commercial-roof-cleaning-oscott',
-  'commercial-roof-cleaning-warstock',
-  'commercial-roof-cleaning-maypole',
-  'commercial-roof-cleaning-vauxhall',
-  'commercial-roof-cleaning-bickenhill',
-  'commercial-roof-cleaning-cranmore',
-  'commercial-roof-cleaning-dickens-heath',
-  'commercial-roof-cleaning-elmdon',
-  'commercial-roof-cleaning-hillfield',
-  'commercial-roof-cleaning-monkspath',
-  'commercial-roof-cleaning-silhill',
-  'commercial-roof-cleaning-smiths-wood',
-  'commercial-roof-cleaning-solihull-lodge',
-  'commercial-roof-cleaning-tidbury-green',
-  'commercial-roof-cleaning-bearwood',
-  'commercial-roof-cleaning-warley',
-  'commercial-roof-cleaning-tividale',
-  'commercial-roof-cleaning-great-bridge',
-  'commercial-roof-cleaning-wollaston',
-  'commercial-roof-cleaning-pensnett',
-  'commercial-roof-cleaning-quarry-bank',
-  'commercial-roof-cleaning-wordsley',
-  'commercial-roof-cleaning-bentley',
-  'commercial-roof-cleaning-pleck',
-  'commercial-roof-cleaning-compton',
-  'commercial-roof-cleaning-ettingshall',
-  'commercial-roof-cleaning-fallings-park',
-  'commercial-roof-cleaning-finchfield',
-  'commercial-roof-cleaning-heath-town',
-  'commercial-roof-cleaning-low-hill',
-  'commercial-roof-cleaning-merry-hill-wolverhampton',
-  'commercial-roof-cleaning-parkfield',
-  'commercial-roof-cleaning-whitmore-reans',
-  'commercial-roof-cleaning-bell-green',
-  'commercial-roof-cleaning-cheylesmore',
-  'commercial-roof-cleaning-coundon',
-  'commercial-roof-cleaning-green-lane',
-  'commercial-roof-cleaning-holbrooks',
-  'commercial-roof-cleaning-keresley',
-  'commercial-roof-cleaning-longford',
-  'commercial-roof-cleaning-walsgrave',
-  'commercial-roof-cleaning-lichfield',
-  'commercial-roof-cleaning-derby',
   'commercial-gutter-cleaning-selly-park',
   'commercial-gutter-cleaning-bromford',
   'commercial-gutter-cleaning-duddeston',
@@ -5104,6 +5051,11 @@ function getContent(keyword: string): { heroTitle: string; heroDescription: stri
 }
 
 export const KEYWORD_PAGES: Record<string, KeywordPage> = {};
+
+/* Add commercial-roof-cleaning pages for all AREA_SLUGS */
+for (const areaSlug of AREA_SLUGS) {
+  RAW_KEYWORDS.push(`commercial-roof-cleaning-${areaSlug}`);
+}
 
 for (const raw of RAW_KEYWORDS) {
   const slug = slugify(raw);
