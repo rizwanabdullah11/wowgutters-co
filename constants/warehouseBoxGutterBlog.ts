@@ -53,7 +53,7 @@ export const warehouseBoxGutterBlogPost: BlogPost = {
   authorRole: 'Commercial Gutter Cleaning Specialists',
   category: 'Commercial',
   lastUpdated: '2026-07-28',
-  featured: false,
+  featured: true,
   shortSummary: 'Box gutter case study',
   quickAnswer: 'Grass or plants growing in a gutter indicates years of unaddressed debris accumulation. Dust, seed matter, and organic material settle and compact over successive seasons into a soil-like growing medium, which combined with consistent rainfall moisture creates ideal germination conditions for windblown grass and other seeds. This typically means the gutter has gone without professional clearing for multiple years and requires manual extraction rather than routine cleaning.',
   breadcrumbName: 'Warehouse Box Gutter Clearing Case Study',
