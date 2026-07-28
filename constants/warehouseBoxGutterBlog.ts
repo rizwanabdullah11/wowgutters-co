@@ -42,7 +42,7 @@ const ctaBox = `
 </div>`;
 
 export const warehouseBoxGutterBlogPost: BlogPost = {
-  id: 'warehouse-gutter-clearing-box-gutter-case-study',
+  id: 'warehouse-gutter-case-study',
   seoTitle: 'Warehouse Gutter Clearing Birmingham & West Midlands | WOW Gutters Ltd',
   title: 'Warehouse Gutter Clearing: When Grass Is Growing in Your Box Gutter',
   excerpt: 'We recently cleared a distribution warehouse box gutter where grass and wheat were actively growing in years of compacted silt — 20+ buckets removed by hand. See what happens when large commercial gutters are left unmaintained. Call 07421 433910.',
