@@ -1,3 +1,6 @@
+import { suburbPages } from '@/lib/suburbPageData';
+import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
+
 export interface KeywordPage {
   slug: string;
   titleTag: string;
@@ -301,6 +304,171 @@ const RAW_KEYWORDS = [
   'commercial gutter cleaning Walsall',
   'commercial gutter cleaning Wolverhampton',
   'commercial gutter cleaning West Bromwich',
+  'commercial gutter cleaning Birchfield',
+  'commercial gutter cleaning Blackheath',
+  'commercial gutter cleaning Bloxwich',
+  'commercial gutter cleaning Boldmere',
+  'commercial gutter cleaning Bordesley Green',
+  'commercial gutter cleaning Bournbrook',
+  'commercial gutter cleaning Bournville',
+  'commercial gutter cleaning Brierley Hill',
+  'commercial gutter cleaning Bromsgrove',
+  'commercial gutter cleaning Brownhills',
+  'commercial gutter cleaning Browns Green',
+  'commercial gutter cleaning Bushbury',
+  'commercial gutter cleaning Canley',
+  'commercial gutter cleaning Cannock',
+  'commercial gutter cleaning Castle Bromwich',
+  'commercial gutter cleaning Castle Vale',
+  'commercial gutter cleaning Chad Valley',
+  'commercial gutter cleaning Chelmsley Wood',
+  'commercial gutter cleaning Chemical Heath',
+  'commercial gutter cleaning Cofton Hackett',
+  'commercial gutter cleaning Coseley',
+  'commercial gutter cleaning Cotteridge',
+  'commercial gutter cleaning Coventry',
+  'commercial gutter cleaning Cradley Heath',
+  'commercial gutter cleaning Darlaston',
+  'commercial gutter cleaning Digbeth',
+  'commercial gutter cleaning Dorridge',
+  'commercial gutter cleaning Droitwich Spa',
+  'commercial gutter cleaning Druids Heath',
+  'commercial gutter cleaning Earlsdon',
+  'commercial gutter cleaning Edgbaston',
+  'commercial gutter cleaning Erdington',
+  'commercial gutter cleaning Evesham',
+  'commercial gutter cleaning Five Ways',
+  'commercial gutter cleaning Foleshill',
+  'commercial gutter cleaning Four Oaks',
+  'commercial gutter cleaning Fox Hollies',
+  'commercial gutter cleaning Frankley',
+  'commercial gutter cleaning Garretts Green',
+  'commercial gutter cleaning Gilbertstone',
+  'commercial gutter cleaning Glebe Farm',
+  'commercial gutter cleaning Gornal',
+  'commercial gutter cleaning Gravelly Hill',
+  'commercial gutter cleaning Great Barr',
+  'commercial gutter cleaning Halesowen',
+  'commercial gutter cleaning Hall Green',
+  'commercial gutter cleaning Hampton in Arden',
+  'commercial gutter cleaning Hamstead',
+  'commercial gutter cleaning Handsworth',
+  'commercial gutter cleaning Handsworth Wood',
+  'commercial gutter cleaning Harborne',
+  'commercial gutter cleaning Hawkesley',
+  'commercial gutter cleaning Hay Mills',
+  'commercial gutter cleaning Highgate',
+  'commercial gutter cleaning Highters Heath',
+  'commercial gutter cleaning Hill Cross',
+  'commercial gutter cleaning Hockley',
+  'commercial gutter cleaning Hockley Heath',
+  'commercial gutter cleaning Hodge Hill',
+  'commercial gutter cleaning Hollywood Birmingham',
+  'commercial gutter cleaning Jewellery Quarter',
+  'commercial gutter cleaning Kidderminster',
+  'commercial gutter cleaning King Edward',
+  'commercial gutter cleaning Kings Heath',
+  'commercial gutter cleaning Kings Norton',
+  'commercial gutter cleaning Kingstanding',
+  'commercial gutter cleaning Kingswinford',
+  'commercial gutter cleaning Kitts Green',
+  'commercial gutter cleaning Knowle',
+  'commercial gutter cleaning Ladywood',
+  'commercial gutter cleaning Lee Bank',
+  'commercial gutter cleaning Lichfield',
+  'commercial gutter cleaning Longbridge',
+  'commercial gutter cleaning Lozells',
+  'commercial gutter cleaning Lye',
+  'commercial gutter cleaning Malvern',
+  'commercial gutter cleaning Maney',
+  'commercial gutter cleaning Marston Green',
+  'commercial gutter cleaning Mere Green',
+  'commercial gutter cleaning Meriden',
+  'commercial gutter cleaning Minworth',
+  'commercial gutter cleaning Moor Green',
+  'commercial gutter cleaning Moseley',
+  'commercial gutter cleaning Nechells',
+  'commercial gutter cleaning Netherton',
+  'commercial gutter cleaning New Oscott',
+  'commercial gutter cleaning Newtown',
+  'commercial gutter cleaning Northfield',
+  'commercial gutter cleaning Old Oscott',
+  'commercial gutter cleaning Oldbury',
+  'commercial gutter cleaning Olton',
+  'commercial gutter cleaning Oxley',
+  'commercial gutter cleaning Pelsall',
+  'commercial gutter cleaning Penn',
+  'commercial gutter cleaning Perry Barr',
+  'commercial gutter cleaning Perry Common',
+  'commercial gutter cleaning Pype Hayes',
+  'commercial gutter cleaning Queslett',
+  'commercial gutter cleaning Quinton',
+  'commercial gutter cleaning Radford',
+  'commercial gutter cleaning Redditch',
+  'commercial gutter cleaning Rednal',
+  'commercial gutter cleaning Roughley',
+  'commercial gutter cleaning Rowley Regis',
+  'commercial gutter cleaning Rubery',
+  'commercial gutter cleaning Rushall',
+  'commercial gutter cleaning Saltley',
+  'commercial gutter cleaning Sandwell',
+  'commercial gutter cleaning Sedgley',
+  'commercial gutter cleaning Selly Oak',
+  'commercial gutter cleaning Shard End',
+  'commercial gutter cleaning Sheldon',
+  'commercial gutter cleaning Shelfield',
+  'commercial gutter cleaning Shenley Fields',
+  'commercial gutter cleaning Shenley Green',
+  'commercial gutter cleaning Shirley',
+  'commercial gutter cleaning Short Heath',
+  'commercial gutter cleaning Small Heath',
+  'commercial gutter cleaning Smethwick',
+  'commercial gutter cleaning Sparkbrook',
+  'commercial gutter cleaning Sparkhill',
+  'commercial gutter cleaning Stechford',
+  'commercial gutter cleaning Stirchley',
+  'commercial gutter cleaning Stockland Green',
+  'commercial gutter cleaning Stoke',
+  'commercial gutter cleaning Stourbridge',
+  'commercial gutter cleaning Streetly',
+  'commercial gutter cleaning Tamworth',
+  'commercial gutter cleaning Tettenhall',
+  'commercial gutter cleaning Tile Hill',
+  'commercial gutter cleaning Tipton',
+  'commercial gutter cleaning Turves Green',
+  'commercial gutter cleaning Tyburn',
+  'commercial gutter cleaning Tyseley',
+  'commercial gutter cleaning Walmley',
+  'commercial gutter cleaning Ward End',
+  'commercial gutter cleaning Washwood Heath',
+  'commercial gutter cleaning Wednesbury',
+  'commercial gutter cleaning Wednesfield',
+  'commercial gutter cleaning Weoley Castle',
+  'commercial gutter cleaning Weoley Hill',
+  'commercial gutter cleaning West Heath',
+  'commercial gutter cleaning West Midlands',
+  'commercial gutter cleaning Willenhall',
+  'commercial gutter cleaning Winson Green',
+  'commercial gutter cleaning Witton',
+  'commercial gutter cleaning Worcester',
+  'commercial gutter cleaning World\'s End',
+  'commercial gutter cleaning Wyken',
+  'commercial gutter cleaning Wylde Green',
+  'commercial gutter cleaning Yardley',
+  'commercial gutter cleaning Yardley Wood',
+  'commercial gutter clearing Acocks Green',
+  'commercial gutter clearing Aldridge',
+  'commercial gutter clearing Allens Cross',
+  'commercial gutter clearing Allesley',
+  'commercial gutter clearing Alum Rock',
+  'commercial gutter clearing Amblecote',
+  'commercial gutter clearing Aston',
+  'commercial gutter clearing Balsall Common',
+  'commercial gutter clearing Balsall Heath',
+  'commercial gutter clearing Bartley Green',
+  'commercial gutter clearing Billesley',
+  'commercial gutter clearing Bilston',
+  'commercial gutter clearing Binley',
   'gutter cleaning facilities management company Birmingham',
   'gutter cleaning managing agent Birmingham',
   'gutter cleaning contractor CHAS accredited',
@@ -321,6 +489,114 @@ const RAW_KEYWORDS = [
   'landlord gutter cleaning',
   'letting agent gutter cleaning',
   'property management gutter cleaning',
+  'commercial-roof-cleaning-selly-park',
+  'commercial-roof-cleaning-bromford',
+  'commercial-roof-cleaning-duddeston',
+  'commercial-roof-cleaning-lea-hall',
+  'commercial-roof-cleaning-south-yardley',
+  'commercial-roof-cleaning-tile-cross',
+  'commercial-roof-cleaning-kingshurst',
+  'commercial-roof-cleaning-fordbridge',
+  'commercial-roof-cleaning-bordesley',
+  'commercial-roof-cleaning-rotton-park',
+  'commercial-roof-cleaning-summerfield',
+  'commercial-roof-cleaning-oscott',
+  'commercial-roof-cleaning-warstock',
+  'commercial-roof-cleaning-maypole',
+  'commercial-roof-cleaning-vauxhall',
+  'commercial-roof-cleaning-bickenhill',
+  'commercial-roof-cleaning-cranmore',
+  'commercial-roof-cleaning-dickens-heath',
+  'commercial-roof-cleaning-elmdon',
+  'commercial-roof-cleaning-hillfield',
+  'commercial-roof-cleaning-monkspath',
+  'commercial-roof-cleaning-silhill',
+  'commercial-roof-cleaning-smiths-wood',
+  'commercial-roof-cleaning-solihull-lodge',
+  'commercial-roof-cleaning-tidbury-green',
+  'commercial-roof-cleaning-bearwood',
+  'commercial-roof-cleaning-warley',
+  'commercial-roof-cleaning-tividale',
+  'commercial-roof-cleaning-great-bridge',
+  'commercial-roof-cleaning-wollaston',
+  'commercial-roof-cleaning-pensnett',
+  'commercial-roof-cleaning-quarry-bank',
+  'commercial-roof-cleaning-wordsley',
+  'commercial-roof-cleaning-bentley',
+  'commercial-roof-cleaning-pleck',
+  'commercial-roof-cleaning-compton',
+  'commercial-roof-cleaning-ettingshall',
+  'commercial-roof-cleaning-fallings-park',
+  'commercial-roof-cleaning-finchfield',
+  'commercial-roof-cleaning-heath-town',
+  'commercial-roof-cleaning-low-hill',
+  'commercial-roof-cleaning-merry-hill-wolverhampton',
+  'commercial-roof-cleaning-parkfield',
+  'commercial-roof-cleaning-whitmore-reans',
+  'commercial-roof-cleaning-bell-green',
+  'commercial-roof-cleaning-cheylesmore',
+  'commercial-roof-cleaning-coundon',
+  'commercial-roof-cleaning-green-lane',
+  'commercial-roof-cleaning-holbrooks',
+  'commercial-roof-cleaning-keresley',
+  'commercial-roof-cleaning-longford',
+  'commercial-roof-cleaning-walsgrave',
+  'commercial-roof-cleaning-lichfield',
+  'commercial-roof-cleaning-derby',
+  'commercial-gutter-cleaning-selly-park',
+  'commercial-gutter-cleaning-bromford',
+  'commercial-gutter-cleaning-duddeston',
+  'commercial-gutter-cleaning-lea-hall',
+  'commercial-gutter-cleaning-south-yardley',
+  'commercial-gutter-cleaning-tile-cross',
+  'commercial-gutter-cleaning-kingshurst',
+  'commercial-gutter-cleaning-fordbridge',
+  'commercial-gutter-cleaning-bordesley',
+  'commercial-gutter-cleaning-rotton-park',
+  'commercial-gutter-cleaning-summerfield',
+  'commercial-gutter-cleaning-oscott',
+  'commercial-gutter-cleaning-warstock',
+  'commercial-gutter-cleaning-maypole',
+  'commercial-gutter-cleaning-vauxhall',
+  'commercial-gutter-cleaning-bickenhill',
+  'commercial-gutter-cleaning-cranmore',
+  'commercial-gutter-cleaning-dickens-heath',
+  'commercial-gutter-cleaning-elmdon',
+  'commercial-gutter-cleaning-hillfield',
+  'commercial-gutter-cleaning-monkspath',
+  'commercial-gutter-cleaning-silhill',
+  'commercial-gutter-cleaning-smiths-wood',
+  'commercial-gutter-cleaning-solihull-lodge',
+  'commercial-gutter-cleaning-tidbury-green',
+  'commercial-gutter-cleaning-bearwood',
+  'commercial-gutter-cleaning-warley',
+  'commercial-gutter-cleaning-tividale',
+  'commercial-gutter-cleaning-great-bridge',
+  'commercial-gutter-cleaning-wollaston',
+  'commercial-gutter-cleaning-pensnett',
+  'commercial-gutter-cleaning-quarry-bank',
+  'commercial-gutter-cleaning-wordsley',
+  'commercial-gutter-cleaning-bentley',
+  'commercial-gutter-cleaning-pleck',
+  'commercial-gutter-cleaning-compton',
+  'commercial-gutter-cleaning-ettingshall',
+  'commercial-gutter-cleaning-fallings-park',
+  'commercial-gutter-cleaning-finchfield',
+  'commercial-gutter-cleaning-heath-town',
+  'commercial-gutter-cleaning-low-hill',
+  'commercial-gutter-cleaning-merry-hill-wolverhampton',
+  'commercial-gutter-cleaning-parkfield',
+  'commercial-gutter-cleaning-whitmore-reans',
+  'commercial-gutter-cleaning-bell-green',
+  'commercial-gutter-cleaning-cheylesmore',
+  'commercial-gutter-cleaning-coundon',
+  'commercial-gutter-cleaning-green-lane',
+  'commercial-gutter-cleaning-holbrooks',
+  'commercial-gutter-cleaning-keresley',
+  'commercial-gutter-cleaning-longford',
+  'commercial-gutter-cleaning-walsgrave',
+  'commercial-gutter-cleaning-lichfield',
+  'commercial-gutter-cleaning-derby',
 ];
 
 function buildBullets(slug: string): string[] {
@@ -4677,6 +4953,120 @@ function getContent(keyword: string): { heroTitle: string; heroDescription: stri
       faqs: [
         { question: 'Do you offer portfolio discounts for property managers?', answer: 'Yes — we offer discounted rates for property management contracts covering multiple properties.' },
         { question: 'What documentation do you provide?', answer: 'Every visit includes before and after photographs, a written condition summary, and an annual compliance report for client files.' },
+      ],
+    };
+  }
+
+  if (slug.startsWith('commercial-gutter-cleaning-')) {
+    const area = slug.replace('commercial-gutter-cleaning-', '');
+    const areaName = titleCase(area.replace(/-/g, ' '));
+    const suburb = suburbPages[area];
+    const cityLanding = CITY_GUTTER_LANDINGS[area];
+
+    const nearbyText = suburb?.areasCoveredText
+      ? suburb.areasCoveredText
+      : cityLanding?.areasInline
+      ? cityLanding.areasInline
+      : `${areaName} and surrounding West Midlands areas`;
+
+    const postcodeText = suburb?.postcodeFooter
+      ? suburb.postcodeFooter
+      : cityLanding?.postcodes
+      ? cityLanding.postcodes.join(', ')
+      : '';
+
+    const streets = suburb?.postcodeStreets?.slice(0, 4).join(', ') ?? '';
+
+    const introContent = suburb
+      ? `${areaName} is a residential and commercial area with ${suburb.propertyTypes.slice(0, 2).map(p => p.label.toLowerCase()).join(' and ')}. Commercial properties in ${areaName} — from local retail and office premises to industrial units and business parks — need professional gutter maintenance to prevent water damage and meet health and safety requirements. WOW Gutters Ltd provides commercial gutter cleaning across ${areaName}, serving all types of business premises with industrial-grade equipment and flexible scheduling.`
+      : cityLanding
+      ? `${areaName}'s commercial properties — from the town centre to business parks and industrial estates — need reliable gutter maintenance. WOW Gutters Ltd provides commercial gutter cleaning across ${areaName}, serving all types of business premises with industrial-grade equipment and out-of-hours scheduling.`
+      : `${areaName}'s commercial properties — from the town centre to industrial estates and retail parks — need professional gutter maintenance. WOW Gutters Ltd provides commercial gutter cleaning across ${areaName}, serving all types of business premises with industrial-grade equipment and flexible scheduling.`;
+
+    const whyContent = suburb
+      ? `Regular commercial gutter cleaning protects ${areaName} businesses from water damage and disruption. ${areaName}'s ${suburb.propertyTypes.slice(0, 2).map(p => p.label.toLowerCase()).join(' and ')} have gutter systems that require professional maintenance to prevent blockage and overflow. WOW Gutters Ltd provides reliable scheduled maintenance using ground-level vacuum technology — no ladders against your commercial premises.`
+      : `Regular commercial gutter cleaning protects ${areaName} businesses from water damage, complies with health and safety requirements, and maintains property value. WOW Gutters Ltd provides reliable scheduled maintenance for all types of commercial premises.`;
+
+    const areaFaq = suburb
+      ? `We cover all ${areaName} commercial areas${streets ? ` including ${streets}` : ''}${postcodeText ? ` and the ${postcodeText} postcode area` : ''}. Our team provides commercial gutter cleaning for retail units, offices, industrial premises, and business parks across ${areaName}.`
+      : `We cover all ${areaName} commercial areas including the town centre, retail parks, industrial estates, and business premises throughout the ${areaName} area.`;
+
+    return {
+      heroTitle: `Commercial Gutter Cleaning ${areaName}`,
+      heroDescription: `Professional commercial gutter cleaning in ${areaName}. WOW Gutters Ltd services offices, retail units, warehouses, and industrial premises across ${areaName}${nearbyText !== `${areaName} and surrounding West Midlands areas` ? ` and surrounding areas` : ''}. Industrial-grade vacuum system, out-of-hours scheduling, and full photographic documentation. Call 07421 433910 for a free quote.`,
+      sections: [
+        { heading: `Commercial Gutter Cleaning in ${areaName}`, content: introContent, bullets: ['Full gutter clearance for all commercial properties', 'Industrial-grade vacuum system for large gutter runs', 'Multi-downpipe testing on every commercial visit', 'Out-of-hours cleaning to minimise business disruption', 'Before and after photos for property management records', 'Free site survey and fixed price quotation'] },
+        { heading: `Why ${areaName} Businesses Need Regular Gutter Cleaning`, content: whyContent, bullets: ['Protects business premises from water damage and damp', 'Meets health and safety compliance obligations', 'Maintains professional appearance for your business', 'Planned maintenance contracts for regular servicing', 'Emergency response available for urgent issues', 'Fixed pricing with no hidden charges'] },
+      ],
+      faqs: [
+        { question: `What commercial areas of ${areaName} do you cover?`, answer: areaFaq },
+        { question: 'Do you offer planned maintenance contracts?', answer: 'Yes — we offer planned maintenance contracts for commercial properties with scheduled visits at discounted rates.' },
+        { question: 'Do you provide compliance documentation?', answer: 'Yes — every commercial clean includes before and after photographs and a written summary suitable for health and safety records.' },
+      ],
+    };
+  }
+
+  if (slug.startsWith('commercial-roof-cleaning-')) {
+    const area = slug.replace('commercial-roof-cleaning-', '');
+    const areaName = titleCase(area.replace(/-/g, ' '));
+    const suburb = suburbPages[area];
+    const cityLanding = CITY_GUTTER_LANDINGS[area];
+
+    const nearbyText = suburb?.areasCoveredText
+      ? suburb.areasCoveredText
+      : cityLanding?.areasInline
+      ? cityLanding.areasInline
+      : `${areaName} and surrounding West Midlands areas`;
+
+    const postcodeText = suburb?.postcodeFooter
+      ? suburb.postcodeFooter
+      : cityLanding?.postcodes
+      ? cityLanding.postcodes.join(', ')
+      : '';
+
+    const introContent = suburb
+      ? `${areaName} is a residential and commercial area with ${suburb.propertyTypes.slice(0, 2).map(p => p.label.toLowerCase()).join(' and ')}. Commercial properties in ${areaName} — from local retail and office premises to industrial units and business parks — need professional roof cleaning to remove moss, algae, and lichen that damage roof tiles and block gutter systems. WOW Gutters Ltd provides commercial roof cleaning across ${areaName} using low-pressure soft wash methods safe for all roof types.`
+      : cityLanding
+      ? `${areaName}'s commercial properties — from the town centre to business parks and industrial estates — need professional roof maintenance. WOW Gutters Ltd provides commercial roof cleaning across ${areaName} using low-pressure soft wash with biocide treatment for lasting results.`
+      : `${areaName}'s commercial properties — from the town centre to industrial estates and retail parks — need professional roof cleaning. WOW Gutters Ltd provides commercial roof cleaning across ${areaName} using low-pressure soft wash methods safe for all roof types.`;
+
+    const whyContent = suburb
+      ? `Regular commercial roof cleaning protects ${areaName} businesses from costly tile damage and blocked gutter systems. ${areaName}'s ${suburb.propertyTypes.slice(0, 2).map(p => p.label.toLowerCase()).join(' and ')} are prone to moss and algae growth that lift tiles and retain moisture against the roof structure. WOW Gutters Ltd provides professional soft wash treatment that kills growth at the root and prevents rapid regrowth.`
+      : `Regular commercial roof cleaning protects ${areaName} businesses from moss and algae damage, maintains property value, and extends roof life. WOW Gutters Ltd provides professional soft wash treatment for all types of commercial premises.`;
+
+    const areaFaq = suburb
+      ? `We cover all ${areaName} commercial areas${postcodeText ? ` including the ${postcodeText} postcode area` : ''}. Our team provides commercial roof cleaning for retail units, offices, industrial premises, and business parks across ${areaName}. We also cover ${nearbyText}.`
+      : `We cover all ${areaName} commercial areas including the town centre, retail parks, industrial estates, and business premises throughout the ${areaName} area.`;
+
+    return {
+      heroTitle: `Commercial Roof Cleaning ${areaName}`,
+      heroDescription: `Professional commercial roof cleaning in ${areaName}. WOW Gutters Ltd provides soft wash moss removal, algae treatment, and roof restoration for offices, retail units, warehouses, and industrial premises across ${areaName}${nearbyText !== `${areaName} and surrounding West Midlands areas` ? ` and surrounding areas` : ''}. Low-pressure biocide treatment safe for all roof types. Call 07421 433910 for a free quote.`,
+      sections: [
+        { heading: `Commercial Roof Cleaning in ${areaName}`, content: introContent, bullets: ['Low-pressure soft wash — safe for concrete, clay, slate, and metal roofs', 'Moss, algae, and lichen killed at the root with biocide treatment', 'Commercial-grade equipment for large roof areas', 'Gutter cleaning combined with roof work for full roofline care', 'Photographic records for insurance and compliance', 'Free site survey and fixed price quotation'] },
+        { heading: `Why ${areaName} Businesses Need Commercial Roof Cleaning`, content: whyContent, bullets: ['Prevents moss roots from lifting and loosening roof tiles', 'Eliminates algae and lichen growth that causes staining', 'Restores roof appearance for professional premises', 'Extends commercial roof life significantly', 'Biocide treatment slows regrowth for longer-lasting results', 'Planned maintenance contracts for regular servicing'] },
+      ],
+      faqs: [
+        { question: `What commercial areas of ${areaName} do you cover?`, answer: areaFaq },
+        { question: 'How much does commercial roof cleaning cost?', answer: `Costs vary by roof size and moss coverage. WOW Gutters Ltd provides free site surveys and fixed quotes for all commercial roof cleaning in ${areaName}.` },
+        { question: 'Is commercial roof cleaning safe for my roof type?', answer: 'Yes — we use low-pressure soft wash methods suitable for concrete, clay, slate, metal, and composite commercial roofing materials.' },
+      ],
+    };
+  }
+
+  if (slug.startsWith('commercial-gutter-clearing-')) {
+    const area = slug.replace('commercial-gutter-clearing-', '');
+    const areaName = titleCase(area.replace(/-/g, ' '));
+    return {
+      heroTitle: `Commercial Gutter Clearing ${areaName}`,
+      heroDescription: `Professional commercial gutter clearing in ${areaName}. WOW Gutters Ltd services offices, retail units, warehouses, and industrial premises across ${areaName} and surrounding areas. Industrial-grade vacuum system, out-of-hours scheduling, and full photographic documentation. Call 07421 433910 for a free quote.`,
+      sections: [
+        { heading: `Commercial Gutter Clearing in ${areaName}`, content: `${areaName}'s commercial properties — from the town centre to industrial estates and retail parks — need professional gutter maintenance. WOW Gutters Ltd provides commercial gutter clearing across ${areaName}, serving all types of business premises with industrial-grade equipment and flexible scheduling.`, bullets: ['Full gutter clearance for all commercial properties', 'Industrial-grade vacuum system for large gutter runs', 'Multi-downpipe testing on every commercial visit', 'Out-of-hours cleaning to minimise business disruption', 'Before and after photos for property management records', 'Free site survey and fixed price quotation'] },
+        { heading: `Why ${areaName} Businesses Need Regular Gutter Clearing`, content: `Regular commercial gutter clearing protects ${areaName} businesses from water damage, complies with health and safety requirements, and maintains property value. WOW Gutters Ltd provides reliable scheduled maintenance for all types of commercial premises.`, bullets: ['Protects business premises from water damage and damp', 'Meets health and safety compliance obligations', 'Maintains professional appearance for your business', 'Planned maintenance contracts for regular servicing', 'Emergency response available for urgent issues', 'Fixed pricing with no hidden charges'] },
+      ],
+      faqs: [
+        { question: `What commercial areas of ${areaName} do you cover?`, answer: `We cover all ${areaName} commercial areas including the town centre, retail parks, industrial estates, and business premises throughout the ${areaName} area.` },
+        { question: 'Do you offer planned maintenance contracts?', answer: 'Yes — we offer planned maintenance contracts for commercial properties with scheduled visits at discounted rates.' },
+        { question: 'Do you provide compliance documentation?', answer: 'Yes — every commercial clean includes before and after photographs and a written summary suitable for health and safety records.' },
       ],
     };
   }

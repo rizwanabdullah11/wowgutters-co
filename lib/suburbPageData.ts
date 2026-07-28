@@ -6992,7 +6992,7 @@ export const suburbPages: Record<string, SuburbPageData> = {
     blogLocality: 'Compton',
   },
 
-  etthingshall: {
+  ettingshall: {
     city: 'Ettingshall',
     heroBadge: 'Local Ettingshall specialists \u2022 Same-day booking',
     heroTitleLine1: 'Gutter Cleaning Ettingshall',
