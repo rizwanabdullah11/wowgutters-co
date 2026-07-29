@@ -54,7 +54,7 @@ export const birminghamHomeownersForgetSummerBlogPost: BlogPost = {
   authorRole: 'Professional Gutter Cleaning Specialists',
   category: 'Maintenance',
   lastUpdated: '2026-07-29',
-  featured: false,
+  featured: true,
   quickAnswer:
     'Homeowners forget to clean their gutters every summer because gutters sit above normal eye level and produce no daily visual reminder the way an overgrown lawn or peeling fence does. Without a visible trigger such as an overflow or damp patch, the job doesn\'t register as urgent and gets left off seasonal maintenance lists year after year — even though gutter neglect causes more structural damage than any other commonly skipped home maintenance task.',
   breadcrumbName:
