@@ -62,6 +62,12 @@ const nextConfig: NextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "smooth-magenta-uctn3vj4.edgeone.dev",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };
