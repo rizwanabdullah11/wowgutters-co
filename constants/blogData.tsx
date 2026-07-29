@@ -29,10 +29,12 @@ import { hiddenGutterDamageBlogPost } from './hiddenGutterDamageBlog';
 import { beatAutumnRushBlogPost } from './beatAutumnRushBlog';
 import { guttersTellingYouSummerBlogPost } from './guttersTellingYouSummerBlog';
 import { warehouseBoxGutterBlogPost } from './warehouseBoxGutterBlog';
+import { birminghamHomeownersForgetSummerBlogPost } from './birminghamHomeownersForgetSummerBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  birminghamHomeownersForgetSummerBlogPost,
   warehouseBoxGutterBlogPost,
   guttersTellingYouSummerBlogPost,
   beatAutumnRushBlogPost,
