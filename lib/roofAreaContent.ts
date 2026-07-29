@@ -37,8 +37,11 @@ function transformRoofPrices(text: string): string {
 
 /** Convert gutter-focused copy to roof cleaning copy for area landing pages. */
 export function transformTextToRoof(text: string): string {
+  const COMPANY_PLACEHOLDER = '__WOW_GUTTERS_LTD__';
   return transformRoofPrices(
     text
+    .replace(/WOW Gutters Ltd/g, COMPANY_PLACEHOLDER)
+    .replace(/WOW Gutters/g, COMPANY_PLACEHOLDER)
     .replace(/\bGutter Cleaning\b/g, 'Roof Cleaning')
     .replace(/\bgutter cleaning\b/g, 'roof cleaning')
     .replace(/\bgutters\b/gi, 'roofs')
@@ -59,7 +62,8 @@ export function transformTextToRoof(text: string): string {
       const base = parseInt(n, 10);
       if (!Number.isNaN(base) && base < 120) return `from £${roofPriceFrom(base)}`;
       return `from £${n}`;
-    }),
+    })
+    .replace(new RegExp(COMPANY_PLACEHOLDER, 'g'), 'WOW Gutters Ltd'),
   );
 }
 
@@ -105,7 +109,7 @@ export function transformCityGutterToRoof(data: CityGutterLandingData): CityGutt
 
   return {
     ...data,
-    titleTag: transformTextToRoof(data.titleTag).replace('WOW Gutters Ltd', 'WOW Gutters Ltd'),
+    titleTag: transformTextToRoof(data.titleTag),
     metaDescription: transformTextToRoof(data.metaDescription),
     h1: transformTextToRoof(data.h1),
     heroIntro: transformTextToRoof(data.heroIntro),
