@@ -478,6 +478,36 @@ export default function KeywordLandingPage({ page }: { page: KeywordPage }) {
         </section>
       ))}
 
+      {/* COMMERCIAL IMAGE GALLERY */}
+      {page.slug.includes('commercial-roof-cleaning-') || page.slug.includes('commercial-gutter-cleaning-') || page.slug.includes('commercial-gutter-clearing-') ? (
+        <section className="py-16 md:py-20 px-4 bg-white">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4 text-center">
+              Commercial {page.slug.includes('roof') ? 'Roof Cleaning' : 'Gutter Cleaning'} <span style={{ color: colors.primary }}>Gallery</span>
+            </h2>
+            <p className="text-slate-600 text-lg text-center mb-10 max-w-2xl mx-auto">
+              See examples of our commercial {page.slug.includes('roof') ? 'roof cleaning' : 'gutter cleaning'} work — before, during and after treatment.
+            </p>
+            <div className="grid md:grid-cols-3 gap-6">
+              {[
+                { src: 'https://smooth-magenta-uctn3vj4.edgeone.dev/warehouse-gutter-cleaning-2.jpeg', alt: 'Commercial gutter and roof cleaning — warehouse' },
+                { src: 'https://smooth-magenta-uctn3vj4.edgeone.dev/warehouse-gutter-cleaning-11.jpeg', alt: 'Commercial gutter and roof cleaning — industrial' },
+                { src: 'https://smooth-magenta-uctn3vj4.edgeone.dev/warehouse-gutter-cleaning-8.jpeg', alt: 'Commercial gutter and roof cleaning — after treatment' },
+              ].map((img) => (
+                <div key={img.src} className="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow">
+                  <img
+                    src={img.src}
+                    alt={img.alt}
+                    className="w-full h-72 object-cover"
+                    loading="lazy"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
       {/* WHATSAPP */}
       <section className="relative overflow-hidden border-t border-white/10 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] py-20 px-4">
         <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center gap-10 md:flex-row md:items-center md:justify-between">
