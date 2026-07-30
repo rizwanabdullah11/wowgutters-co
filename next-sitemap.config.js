@@ -18,7 +18,11 @@ const HIGH_PRIORITY = new Set([
 ]);
 
 function areaPagePriority(path) {
-  if (path.startsWith('/gutter-cleaning-') || path.startsWith('/roof-cleaning-')) {
+  if (
+    path.startsWith('/gutter-cleaning-') ||
+    path.startsWith('/roof-cleaning-') ||
+    path.startsWith('/gutter-repair-')
+  ) {
     return 0.85;
   }
   return 0.7;

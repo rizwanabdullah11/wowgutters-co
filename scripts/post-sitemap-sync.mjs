@@ -32,7 +32,9 @@ function buildUrlEntry(path, lastmod) {
       ? '1'
       : path === '/contact/' || path === '/quote/'
         ? '0.95'
-        : path.startsWith('/gutter-cleaning-') || path.startsWith('/roof-cleaning-')
+        : path.startsWith('/gutter-cleaning-') ||
+            path.startsWith('/roof-cleaning-') ||
+            path.startsWith('/gutter-repair-')
           ? '0.85'
           : path === '/roof-cleaning-service-areas/'
             ? '0.75'
