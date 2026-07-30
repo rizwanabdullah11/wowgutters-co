@@ -34,8 +34,6 @@ export function transformTextToRepair(text: string): string {
       .replace(/\bGutter Cleaning\b/g, 'Gutter Repairs')
       .replace(/\bgutter cleaning\b/g, 'gutter repairs')
       .replace(/\bGutter cleaning\b/g, 'Gutter repairs')
-      .replace(/\bgutters\b/gi, 'gutters')
-      .replace(/\bgutter\b/gi, 'gutter')
       .replace(/vacuum system\b/gi, 'repair service')
       .replace(/ground-level vacuum\b/gi, 'full repair service from ground level')
       .replace(/ground-level vacuum system\b/gi, 'full repair service from ground level')
