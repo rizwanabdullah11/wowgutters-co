@@ -78,6 +78,12 @@ export default function Footer() {
     'Evesham', 'Droitwich Spa'
   ];
 
+  const hubLinks = [
+    { name: 'All Gutter Cleaning Areas', path: '/gutter-cleaning-service-areas/' },
+    { name: 'All Roof Cleaning Areas', path: '/roof-cleaning-service-areas/' },
+    { name: 'Full Service Directory', path: '/service-areas/' },
+  ];
+
   if (isQuoteEmbedPath(pathname)) {
     return null;
   }
@@ -186,6 +192,21 @@ export default function Footer() {
                         </Link>
                       </li>
                     ))}
+                    <li className="mt-3 pt-3 border-t border-white/10">
+                      <Link href="/gutter-cleaning-service-areas/" className="footer-link text-white font-bold">
+                        <ArrowRight className="w-3 h-3 link-arrow" /> All Gutter Cleaning Areas
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/roof-cleaning-service-areas/" className="footer-link text-white font-bold">
+                        <ArrowRight className="w-3 h-3 link-arrow" /> All Roof Cleaning Areas
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/service-areas/" className="footer-link text-white font-bold">
+                        <ArrowRight className="w-3 h-3 link-arrow" /> Full Service Directory
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>

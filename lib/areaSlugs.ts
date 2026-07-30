@@ -248,6 +248,16 @@ export function roofAreaPath(slug: string): string {
   return `/${roofAreaSegment(slug)}`;
 }
 
+/** Path segment for gutter repair area pages: gutter-repair-{city}/ */
+export function repairAreaSegment(slug: string): string {
+  return `gutter-repair-${slug}/`;
+}
+
+/** Public SEO URL: /gutter-repair-{city}/ */
+export function repairAreaPath(slug: string): string {
+  return `/${repairAreaSegment(slug)}`;
+}
+
 /** Prefix from the current page to the static-export site root (./ or ../). */
 export function siteRootRelativePrefix(): string {
   if (typeof window === 'undefined') {

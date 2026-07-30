@@ -15,11 +15,18 @@ import {
   renderRoofGeneratedAreaLanding,
   renderRoofSuburbLanding,
 } from '@/components/areas/CityRoofCleaningRoutes';
+import {
+  renderBirminghamRepairLanding,
+  renderRepairCityLanding,
+  renderRepairGeneratedAreaLanding,
+  renderRepairSuburbLanding,
+} from '@/components/areas/CityRepairRoutes';
 import { getSuburbPageForSlug } from '@/lib/suburbPageData';
 import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
 import { buildAreaLandingFromSlug } from '@/lib/buildAreaLandingFromCity';
 import { getRoofCityLanding, getRoofGeneratedLanding, getRoofSuburbLanding } from '@/lib/roofAreaContent';
-import { AREA_SLUGS, areaPath, roofAreaPath } from '@/lib/areaSlugs';
+import { getRepairCityLanding, getRepairGeneratedLanding, getRepairSuburbLanding } from '@/lib/repairAreaContent';
+import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath } from '@/lib/areaSlugs';
 import { buildMetadata } from '@/lib/seo';
 import { getKeywordPage, getAllKeywordSlugs } from '@/lib/keywordPages';
 import KeywordLandingPage from '@/components/KeywordLandingPage';
@@ -32,6 +39,7 @@ interface PageProps {
 
 const GUTTER_PREFIX = 'gutter-cleaning-';
 const ROOF_PREFIX = 'roof-cleaning-';
+const REPAIR_PREFIX = 'gutter-repair-';
 const slugSet = new Set(AREA_SLUGS);
 
 const COMMON_TYPOS: Record<string, string> = {
@@ -52,6 +60,12 @@ function getRoofAreaSlug(slug: string): string | null {
   return slugSet.has(areaSlug) ? areaSlug : null;
 }
 
+function getRepairAreaSlug(slug: string): string | null {
+  if (!slug.startsWith(REPAIR_PREFIX)) return null;
+  const areaSlug = slug.slice(REPAIR_PREFIX.length);
+  return slugSet.has(areaSlug) ? areaSlug : null;
+}
+
 function formatAreaName(slug: string): string {
   return slug
     .split('-')
@@ -67,6 +81,7 @@ export async function generateStaticParams() {
   return [
     ...AREA_SLUGS.map((slug) => ({ slug: `${GUTTER_PREFIX}${slug}` })),
     ...AREA_SLUGS.map((slug) => ({ slug: `${ROOF_PREFIX}${slug}` })),
+    ...AREA_SLUGS.map((slug) => ({ slug: `${REPAIR_PREFIX}${slug}` })),
     ...Object.keys(COMMON_TYPOS).map((slug) => ({ slug })),
     ...getAllKeywordSlugs().map((slug) => ({ slug })),
   ];
@@ -182,6 +197,61 @@ function buildRoofMetadata(areaSlug: string): Metadata {
   });
 }
 
+function buildRepairMetadata(areaSlug: string): Metadata {
+  const areaName = formatAreaName(areaSlug);
+
+  if (areaSlug === 'birmingham') {
+    return buildMetadata({
+      absoluteTitle: 'Gutter Repairs Birmingham | Leaks, Sagging & Broken Gutters Fixed | WOW Gutters Ltd',
+      description:
+        'Expert gutter repairs in Birmingham. Leaking joints, sagging runs, cracked sections, broken brackets — diagnosed and fixed with a 6-month guarantee. Call WOW Gutters Ltd: 07421 433910.',
+      canonicalPath: repairAreaPath(areaSlug),
+      ogImagePath: '/og/birmingham.jpg',
+    });
+  }
+
+  const cityLanding = getRepairCityLanding(areaSlug);
+  if (cityLanding) {
+    return buildMetadata({
+      absoluteTitle: cityLanding.titleTag,
+      description: cityLanding.metaDescription,
+      canonicalPath: repairAreaPath(areaSlug),
+      ogImagePath: `/og/${areaSlug}.jpg`,
+    });
+  }
+
+  const suburb = getRepairSuburbLanding(areaSlug);
+  if (suburb) {
+    const intro = suburb.whyParagraphs[0] ?? '';
+    const description =
+      intro.length > 155 ? `${intro.slice(0, 152).trim()}…` : intro ||
+      `Expert gutter repairs in ${suburb.city}. Leaking joints, sagging runs — fixed with a 6-month guarantee. Call 07421 433910.`;
+    return buildMetadata({
+      absoluteTitle: `${suburb.heroTitleLine1} | WOW Gutters Ltd`,
+      description,
+      canonicalPath: repairAreaPath(areaSlug),
+      ogImagePath: `/og/${areaSlug}.jpg`,
+    });
+  }
+
+  const generated = getRepairGeneratedLanding(areaSlug);
+  if (generated) {
+    return buildMetadata({
+      absoluteTitle: generated.titleTag,
+      description: generated.metaDescription,
+      canonicalPath: repairAreaPath(areaSlug),
+      ogImagePath: `/og/${areaSlug}.jpg`,
+    });
+  }
+
+  return buildMetadata({
+    title: `Gutter Repairs ${areaName}`,
+    description: `Expert gutter repairs in ${areaName}. Leaking joints, sagging runs, cracked sections — fixed with a 6-month guarantee. Call WOW Gutters Ltd: 07421 433910.`,
+    canonicalPath: repairAreaPath(areaSlug),
+    ogImagePath: `/og/${areaSlug}.jpg`,
+  });
+}
+
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;
 
@@ -190,6 +260,9 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 
   const roofSlug = getRoofAreaSlug(params.slug);
   if (roofSlug) return buildRoofMetadata(roofSlug);
+
+  const repairSlug = getRepairAreaSlug(params.slug);
+  if (repairSlug) return buildRepairMetadata(repairSlug);
 
   const keywordSlug = getKeywordSlug(params.slug);
   if (keywordSlug) {
@@ -267,6 +340,24 @@ export default async function SingleSegmentAreaPage(props: PageProps) {
     if (maybeSuburb) return maybeSuburb;
 
     const generated = renderRoofGeneratedAreaLanding(roofAreaSlug);
+    if (generated) return generated;
+
+    notFound();
+  }
+
+  const repairAreaSlug = getRepairAreaSlug(params.slug);
+  if (repairAreaSlug) {
+    if (repairAreaSlug === 'birmingham') {
+      return renderBirminghamRepairLanding();
+    }
+
+    const maybeCity = renderRepairCityLanding(repairAreaSlug);
+    if (maybeCity) return maybeCity;
+
+    const maybeSuburb = renderRepairSuburbLanding(repairAreaSlug);
+    if (maybeSuburb) return maybeSuburb;
+
+    const generated = renderRepairGeneratedAreaLanding(repairAreaSlug);
     if (generated) return generated;
 
     notFound();

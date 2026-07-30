@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { AREA_SLUGS, areaPath, roofAreaPath } from '@/lib/areaSlugs';
 import {
   FOOTER_HUB_SLUGS,
+  GUTTER_SERVICE_AREAS_HUB,
   ROOF_SERVICE_AREAS_HUB,
   areaLinkLabel,
 } from '@/lib/crawlHub';
@@ -44,6 +45,14 @@ export default function AreaCrawlFooter({
               </Link>
               .
             </>
+          ) : serviceKind === 'gutter' ? (
+            <>
+              Browse all locations or jump to a major town — every area is linked from our{' '}
+              <Link href={GUTTER_SERVICE_AREAS_HUB} className="font-bold underline" style={{ color: colors.primary }}>
+                full gutter cleaning service areas map
+              </Link>
+              .
+            </>
           ) : (
             'Jump to a major town below — we cover Birmingham and the wider West Midlands.'
           )}
@@ -68,6 +77,15 @@ export default function AreaCrawlFooter({
             style={{ color: colors.primary }}
           >
             View all {AREA_SLUGS.length} roof cleaning service areas →
+          </Link>
+        )}
+        {serviceKind === 'gutter' && (
+          <Link
+            href={GUTTER_SERVICE_AREAS_HUB}
+            className="inline-flex items-center gap-1 text-sm font-bold underline"
+            style={{ color: colors.primary }}
+          >
+            View all {AREA_SLUGS.length} gutter cleaning service areas →
           </Link>
         )}
       </div>

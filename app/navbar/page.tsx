@@ -191,9 +191,9 @@ export default function Navbar() {
               <Link href="/contact" className="text-gray-700 hover:text-[#19C58B] transition-colors font-semibold text-[17px] tracking-tight">
                 Contact
               </Link>
-              {/* <Link href="/service-areas/" className="text-gray-700 hover:text-[#19C58B] transition-colors font-semibold text-[17px] tracking-tight">
+              <Link href="/service-areas/" className="text-gray-700 hover:text-[#19C58B] transition-colors font-semibold text-[17px] tracking-tight">
                 Areas
-              </Link> */}
+              </Link>
 
               {/* Services Dropdown */}
               <details className="relative services-details">

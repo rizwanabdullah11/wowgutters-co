@@ -1,6 +1,6 @@
-import { areaPath, roofAreaPath } from '@/lib/areaSlugs';
+import { areaPath, roofAreaPath, repairAreaPath } from '@/lib/areaSlugs';
 
-export type AreaServiceKind = 'gutter' | 'roof';
+export type AreaServiceKind = 'gutter' | 'roof' | 'repair';
 
 export type AreaServiceMeta = {
   kind: AreaServiceKind;
@@ -83,9 +83,40 @@ export const ROOF_SERVICE_META: AreaServiceMeta = {
   nearbyLinkPrefix: 'Roof Cleaning',
 };
 
+export const REPAIR_SERVICE_META: AreaServiceMeta = {
+  kind: 'repair',
+  prefix: 'gutter-repair-',
+  pathForSlug: repairAreaPath,
+  label: 'Gutter Repairs',
+  labelLower: 'gutter repairs',
+  defaultPriceFrom: 80,
+  defaultPriceTo: 250,
+  heroVideo: '/gutter-repair (2).mp4',
+  heroPoster: '/gutter-repair-before.png',
+  heroPills: [
+    { label: '6-month guarantee' },
+    { label: 'Before & after photos' },
+    { label: 'Fully insured' },
+  ],
+  whatsappQuestions: [
+    'How much does gutter repair cost for my property?',
+    'Do you have availability this week?',
+    'Can you fix a leaking joint or sagging gutter?',
+    'Could I get a fast quote for my home?',
+  ],
+  priceGuideHref: '/help/repair/',
+  servicePageHref: '/services/gutter-repairs/',
+  schemaHubHref: 'https://wowgutters.co.uk/gutter-repairs/',
+  schemaHubLabel: 'Gutter Repairs',
+  crawlFooterTitle: 'Find gutter repairs near you',
+  crawlFooterAria: 'More gutter repair service areas',
+  nearbyLinkPrefix: 'Gutter Repairs',
+};
+
 export const AREA_SERVICE_META: Record<AreaServiceKind, AreaServiceMeta> = {
   gutter: GUTTER_SERVICE_META,
   roof: ROOF_SERVICE_META,
+  repair: REPAIR_SERVICE_META,
 };
 
 export function roofPriceFrom(gutterFrom: number): number {
@@ -94,4 +125,12 @@ export function roofPriceFrom(gutterFrom: number): number {
 
 export function roofPriceTo(gutterTo: number): number {
   return Math.max(350, Math.round(gutterTo * 2.5));
+}
+
+export function repairPriceFrom(gutterFrom: number): number {
+  return Math.max(80, Math.round(gutterFrom * 1.6));
+}
+
+export function repairPriceTo(gutterTo: number): number {
+  return Math.max(180, Math.round(gutterTo * 1.6));
 }

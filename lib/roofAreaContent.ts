@@ -1,216 +1,113 @@
 import type { CityGutterLandingData } from '@/constants/cityGutterLandingData';
-import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
 import type { SuburbPageData } from '@/components/areas/SuburbGutterCleaningPage';
 import { buildRoofLandingFromSlug } from '@/lib/buildRoofLandingFromCity';
 import { getSuburbPageForSlug } from '@/lib/suburbPageData';
 import { getAreaData } from '@/lib/getAreaData';
 import { areaPath, roofAreaPath } from '@/lib/areaSlugs';
 import { roofPriceFrom, roofPriceTo } from '@/lib/areaServiceMeta';
-import { roofLocalSpotlight, roofSpecificFaq, roofUniqueWhyParagraphs } from '@/lib/roofUniqueContent';
 import { buildRoofSchemaFaqs, roofInternalLinks } from '@/lib/roofCityFaqs';
+import { roofLocalSpotlight, roofSpecificFaq } from '@/lib/roofUniqueContent';
 
-function swapAreaLinks(href: string): string {
-  if (href.startsWith('/gutter-cleaning-')) {
-    return href.replace('/gutter-cleaning-', '/roof-cleaning-');
-  }
-  return href;
+function formatAreaName(slug: string): string {
+  return slug
+    .split('-')
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ');
 }
 
-function swapAreaLinkLabel(label: string): string {
-  return label
-    .replace(/Gutter Cleaning/g, 'Roof Cleaning')
-    .replace(/Gutter cleaning/g, 'Roof Cleaning')
-    .replace(/gutter cleaning/g, 'roof cleaning');
-}
-
-function transformRoofPrices(text: string): string {
-  return text.replace(/£(\d+)(?:\s*[–-]\s*£(\d+))?/g, (match, a, b) => {
-    const low = parseInt(a, 10);
-    if (Number.isNaN(low) || low >= 120) return match;
-    if (b) {
-      const high = parseInt(b, 10);
-      return `£${roofPriceFrom(low)}–£${roofPriceTo(Number.isNaN(high) ? low + 40 : high)}`;
-    }
-    return `£${roofPriceFrom(low)}`;
-  });
-}
-
-/** Convert gutter-focused copy to roof cleaning copy for area landing pages. */
-export function transformTextToRoof(text: string): string {
-  return transformRoofPrices(
-    text
-    .replace(/\bGutter Cleaning\b/g, 'Roof Cleaning')
-    .replace(/\bgutter cleaning\b/g, 'roof cleaning')
-    .replace(/\bgutters\b/gi, 'roofs')
-    .replace(/\bGutters\b/g, 'Roofs')
-    .replace(/\bgutter\b/gi, 'roof')
-    .replace(/\bGutter\b/g, 'Roof')
-    .replace(/\bdownpipe flushing\b/gi, 'biocide treatment')
-    .replace(/\bdownpipe clearance\b/gi, 'moss removal')
-    .replace(/\bdownpipes\b/gi, 'roof valleys')
-    .replace(/\bdownpipe\b/gi, 'roof valley')
-    .replace(/\bvacuum system\b/gi, 'soft-wash system')
-    .replace(/\bground-level vacuum\b/gi, 'controlled soft-wash')
-    .replace(/\b1-year service guarantee\b/gi, 'biocide treatment included')
-    .replace(/\bwe return free if your roofs block within 12 months\b/gi, 'biocide slows moss regrowth after treatment')
-    .replace(/\boverflow\b/gi, 'moss build-up')
-    .replace(/\bblocked\b/gi, 'moss-covered')
-    .replace(/from £(\d+)/gi, (_, n) => {
-      const base = parseInt(n, 10);
-      if (!Number.isNaN(base) && base < 120) return `from £${roofPriceFrom(base)}`;
-      return `from £${n}`;
-    }),
-  );
-}
-
-function transformFaqToRoof(faq: { question: string; answer: string }): { question: string; answer: string } {
-  return {
-    question: transformTextToRoof(faq.question),
-    answer: transformTextToRoof(faq.answer),
-  };
-}
-
-function roofFaqsForArea(
-  slug: string,
+function roofSuburbFaqs(
   city: string,
-  sourceFaqs: { question: string; answer: string }[],
-  gutterPriceFrom: number,
-  gutterPriceTo: number,
+  slug: string,
+  priceFrom: number,
+  priceTo: number,
   postcodes: string[],
   nearbyAreas: string[],
 ): { question: string; answer: string }[] {
+  const base = buildRoofSchemaFaqs({ city, slug, priceFrom, priceTo, postcodes, nearbyAreas });
   const areaData = getAreaData(slug);
-  const transformed = sourceFaqs.length > 0
-    ? sourceFaqs.map(transformFaqToRoof)
-    : buildRoofSchemaFaqs({
-        city,
-        slug,
-        priceFrom: roofPriceFrom(gutterPriceFrom),
-        priceTo: roofPriceTo(gutterPriceTo),
-        postcodes,
-        nearbyAreas,
-      });
-
-  const extraFaq = areaData ? roofSpecificFaq(areaData) : null;
-  if (extraFaq && !transformed.some((f) => f.question.includes(extraFaq.question.slice(0, 20)))) {
-    return [...transformed, extraFaq];
-  }
-  return transformed;
+  const extra = areaData ? roofSpecificFaq(areaData) : null;
+  return extra ? [...base, extra] : base;
 }
 
-export function transformCityGutterToRoof(data: CityGutterLandingData): CityGutterLandingData {
-  const priceFrom = roofPriceFrom(50);
-  const priceTo = roofPriceTo(data.priceTo ?? 140);
-  const areaData = getAreaData(data.slug);
-
-  return {
-    ...data,
-    titleTag: transformTextToRoof(data.titleTag).replace('WOW Gutters Ltd', 'WOW Gutters Ltd'),
-    metaDescription: transformTextToRoof(data.metaDescription),
-    h1: transformTextToRoof(data.h1),
-    heroIntro: transformTextToRoof(data.heroIntro),
-    whyTitle: transformTextToRoof(data.whyTitle),
-    whyBody: [
-      ...data.whyBody.map(transformTextToRoof),
-      ...(areaData ? roofUniqueWhyParagraphs(areaData) : []),
-    ],
-    localSpotlight: data.localSpotlight
-      ? transformTextToRoof(data.localSpotlight)
-      : areaData
-        ? roofLocalSpotlight(areaData)
-        : undefined,
-    guarantees: data.guarantees.map((g) =>
-      transformTextToRoof(g)
-        .replace(/no ladders placed against your property/gi, 'soft-wash methods that protect tiles and pointing')
-        .replace(/Reaches up to 4 storeys/gi, 'Suitable for terraced, semi-detached and detached homes'),
-    ),
-    propertyTypesTitle: transformTextToRoof(data.propertyTypesTitle),
-    propertyTypes: data.propertyTypes.map((row) => ({
-      label: transformTextToRoof(row.label),
-      detail: transformTextToRoof(row.detail),
-    })),
-    areasTitle: data.areasTitle,
-    areasInline: data.areasInline,
-    faqsTitle: transformTextToRoof(data.faqsTitle),
-    faqs: roofFaqsForArea(
-      data.slug,
-      data.city,
-      data.faqs,
-      50,
-      data.priceTo ?? 140,
-      data.postcodes ?? [],
-      data.nearbyAreas ?? [],
-    ),
-    internalLinks: (data.internalLinks ?? []).map((l) => ({
-      label: swapAreaLinkLabel(l.label),
-      href: swapAreaLinks(l.href),
-    })),
-    ctaHeading: transformTextToRoof(data.ctaHeading ?? `Book your roof clean in ${data.city} — free quote in 60 seconds`),
-    priceTo,
-  };
+function roofSuburbPropertyTypes(name: string): { label: string; detail: string }[] {
+  return [
+    { label: `Terraced homes in ${name}`, detail: `Compact rooflines where moss builds on shaded rear slopes — soft-wash cleared without ladders against brickwork.` },
+    { label: `1930s–60s semis around ${name}`, detail: `Concrete interlocking tiles with moss on north-facing elevations — biocide treatment slows regrowth after cleaning.` },
+    { label: 'Post-war estates', detail: `Mature street trees cause moss accumulation on roof valleys and abutments — fully treated in a single visit.` },
+    { label: `Larger detached properties near ${name}`, detail: `Multi-pitch roofs and rear extensions — full surface treatment documented with before and after photos.` },
+  ];
 }
 
-export function transformSuburbGutterToRoof(data: SuburbPageData, slug: string): SuburbPageData {
-  const cityData = getAreaData(slug);
-
-  return {
-    ...data,
-    heroBadge: data.heroBadge.replace(/gutter/gi, 'roof'),
-    heroTitleLine1: transformTextToRoof(data.heroTitleLine1),
-    heroTitleLine2: transformTextToRoof(data.heroTitleLine2),
-    whyTitle: transformTextToRoof(data.whyTitle),
-    whyParagraphs: [
-      ...data.whyParagraphs.map(transformTextToRoof),
-      ...(cityData ? roofUniqueWhyParagraphs(cityData) : []),
-    ],
-    guarantees: (data.guarantees ?? []).map(transformTextToRoof),
-    propertyTypesTitle: transformTextToRoof(data.propertyTypesTitle),
-    propertyTypes: data.propertyTypes.map((row) => ({
-      label: transformTextToRoof(row.label),
-      detail: transformTextToRoof(row.detail),
-    })),
-    areasCoveredTitle: data.areasCoveredTitle,
-    areasCoveredText: data.areasCoveredText,
-    areaLinks: [
-      { href: roofAreaPath(slug), label: `Roof Cleaning ${data.city}` },
-      { href: areaPath(slug), label: `Gutter cleaning ${data.city}` },
-      ...data.areaLinks.slice(0, 4).map((l) => ({
-        href: swapAreaLinks(l.href),
-        label: swapAreaLinkLabel(l.label),
-      })),
-      { href: '/services/roof-inspection/', label: 'Roof inspection' },
-      { href: '/help/clean/', label: 'Moss removal' },
-    ],
-    faqs: roofFaqsForArea(
-      slug,
-      data.city,
-      data.faqs,
-      cityData?.priceFrom ?? 50,
-      cityData?.priceTo ?? 140,
-      cityData?.postcodes ?? [],
-      cityData?.nearbyAreas ?? [],
-    ),
-    postcodesTitle: transformTextToRoof(data.postcodesTitle),
-    bookingTitle: transformTextToRoof(data.bookingTitle),
-    blogLocality: data.blogLocality,
-  };
-}
-
-/** Rich primary-city landing only (mirrors CITY_GUTTER_LANDINGS lookup). */
+/** Rich primary-city landing — builds fresh roof content from city data, not transformed from gutter text. */
 export function getRoofCityLanding(slug: string): CityGutterLandingData | null {
-  const gutterCity = CITY_GUTTER_LANDINGS[slug];
-  if (!gutterCity) return null;
-  return transformCityGutterToRoof(gutterCity);
+  return buildRoofLandingFromSlug(slug);
 }
 
 export function getRoofGeneratedLanding(slug: string): CityGutterLandingData | null {
   return buildRoofLandingFromSlug(slug);
 }
 
+/** Build roof-specific suburb landing from city data — completely independent of gutter suburb content. */
 export function getRoofSuburbLanding(slug: string): SuburbPageData | null {
   const suburb = getSuburbPageForSlug(slug);
   if (!suburb) return null;
-  return transformSuburbGutterToRoof(suburb, slug);
+
+  const cityData = getAreaData(slug);
+  const priceFrom = roofPriceFrom(cityData?.priceFrom ?? 50);
+  const priceTo = roofPriceTo(cityData?.priceTo ?? 140);
+  const areaName = formatAreaName(slug);
+  const pcLabel = cityData?.postcodes?.join('–') ?? 'local postcodes';
+
+  const faqs = roofSuburbFaqs(
+    suburb.city,
+    slug,
+    priceFrom,
+    priceTo,
+    cityData?.postcodes ?? [],
+    cityData?.nearbyAreas ?? [],
+  );
+
+  return {
+    city: suburb.city,
+    heroBadge: `${suburb.city} roof moss removal specialists • Same-day booking`,
+    heroTitleLine1: `Roof Cleaning ${suburb.city}`,
+    heroTitleLine2: `Moss Removal & Biocide Treatment Across ${pcLabel}`,
+    whyTitle: `Why ${suburb.city} Roofs Need Professional Cleaning`,
+    whyParagraphs: [
+      `${suburb.city}'s West Midlands climate creates ideal conditions for moss, algae and lichen on roof tiles. Damp weather, shaded north-facing slopes and mature garden trees all contribute to organic growth that holds moisture against tiles and pointing. Left untreated, moss accelerates frost damage in winter and sheds into gutters — causing blockages that overflow onto fascias and brickwork.`,
+      `Professional roof cleaning with biocide treatment every 2\u20133 years is the most cost-effective way to protect your roof and maintain kerb appeal across ${suburb.city}. Our controlled soft-wash methods remove moss, algae and lichen without high-pressure damage to tiles, leaving your roofline looking restored and protected.`,
+      ...(cityData ? [roofLocalSpotlight(cityData)].filter(Boolean as unknown as (x: string | undefined) => x is string) : []),
+    ],
+    guarantees: [
+      'Controlled soft-wash methods — no damaging high-pressure washing on tiles',
+      'Moss, algae and lichen removal included on every job',
+      'Biocide treatment applied after cleaning to slow regrowth',
+      'Before & after photos included as standard on every job',
+      'Fully insured — comprehensive public liability cover on every visit',
+      '4.9★ rating from verified Google reviews',
+    ],
+    propertyTypesTitle: `Roof Cleaning for All Property Types in ${suburb.city}`,
+    propertyTypes: roofSuburbPropertyTypes(suburb.city),
+    areasCoveredTitle: suburb.areasCoveredTitle,
+    areasCoveredText: suburb.areasCoveredText,
+    areaLinks: [
+      { href: roofAreaPath(slug), label: `Roof Cleaning ${suburb.city}` },
+      { href: areaPath(slug), label: `Gutter cleaning ${suburb.city}` },
+      ...suburb.areaLinks.slice(0, 4),
+      { href: '/services/roof-inspection/', label: 'Roof inspection' },
+      { href: '/help/clean/', label: 'Moss removal' },
+    ],
+    whatsappPrefix: `Hi WOW Gutters Ltd, I'm interested in roof cleaning in ${suburb.city}.`,
+    faqs,
+    postcodesTitle: `Roof Cleaning Postcodes We Cover in ${suburb.city}`,
+    postcodeStreetTitle: suburb.postcodeStreetTitle,
+    postcodeStreets: suburb.postcodeStreets,
+    postcodeFooter: suburb.postcodeFooter,
+    bookingTitle: `Book Your Roof Clean in ${suburb.city} Today`,
+    mapTitle: suburb.mapTitle.replace(/gutter cleaning|Gutter Cleaning/gi, 'roof cleaning'),
+    mapSrc: suburb.mapSrc,
+    blogLocality: suburb.blogLocality,
+  };
 }
 
 export function buildBirminghamRoofLanding(): CityGutterLandingData {
@@ -233,7 +130,7 @@ export function buildBirminghamRoofLanding(): CityGutterLandingData {
     whyBody: [
       'Birmingham\'s damp West Midlands climate creates ideal conditions for moss, algae and lichen on roof tiles. Left untreated, moss holds moisture against tiles and pointing, accelerates frost damage in winter, and sheds into gutters — causing blockages and overflow that stain brickwork and fascia boards.',
       'Tree-lined suburbs such as Moseley, Harborne, Sutton Coldfield and Kings Heath see faster moss growth on north-facing and shaded roof slopes. Professional roof cleaning with biocide treatment every 2–3 years is the most cost-effective way to protect your roof and maintain kerb appeal.',
-      ...(city ? roofUniqueWhyParagraphs(city) : []),
+      ...(city ? [roofLocalSpotlight(city)].filter(Boolean as unknown as (x: string | undefined) => x is string) : []),
     ],
     guarantees: [
       'Controlled soft-wash methods — no damaging high-pressure washing on tiles',

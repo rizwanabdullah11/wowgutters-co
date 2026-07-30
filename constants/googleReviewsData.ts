@@ -68,13 +68,10 @@ export const FEATURED_GOOGLE_REVIEWS: FeaturedGoogleReview[] = [
 ];
 
 export function featuredReviewsAggregateRating() {
-  const reviews = FEATURED_GOOGLE_REVIEWS;
-  const total = reviews.reduce((sum, r) => sum + r.rating, 0);
-  const avg = Math.round((total / reviews.length) * 10) / 10;
   return {
     '@type': 'AggregateRating' as const,
-    ratingValue: String(avg),
-    reviewCount: String(reviews.length),
+    ratingValue: '4.9',
+    reviewCount: '2696',
     bestRating: '5',
     worstRating: '1',
   };
