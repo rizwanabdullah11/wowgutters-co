@@ -1,8 +1,14 @@
 import { AREA_SLUGS, areaPath } from '@/lib/areaSlugs';
 import { getAreaData } from '@/lib/getAreaData';
 
+/** Central HTML hub for gutter cleaning area index. */
+export const GUTTER_SERVICE_AREAS_HUB = '/gutter-cleaning-service-areas/';
+
 /** Central HTML hub for roof cleaning area index. */
 export const ROOF_SERVICE_AREAS_HUB = '/roof-cleaning-service-areas/';
+
+/** Combined service areas hub (gutter + roof). */
+export const SERVICE_AREAS_HUB = '/service-areas/';
 
 export function areaLinkLabel(slug: string): string {
   return getAreaData(slug)?.name ?? slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
