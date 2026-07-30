@@ -1,5 +1,6 @@
 import type { CityGutterLandingData, CityPropertyRow } from '@/constants/cityGutterLandingData';
 import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
+import { getDedicatedRepairLanding } from '@/constants/repairAreaLandings';
 import type { SuburbPageData } from '@/components/areas/SuburbGutterCleaningPage';
 import type { CityData } from '@/lib/cities';
 import { getSuburbPageForSlug } from '@/lib/suburbPageData';
@@ -182,8 +183,11 @@ export function transformSuburbGutterToRepair(data: SuburbPageData, slug: string
   };
 }
 
-/** Rich primary-city landing only (mirrors CITY_GUTTER_LANDINGS lookup). */
+/** Dedicated repair landings first, then city cleaning→repair transforms. */
 export function getRepairCityLanding(slug: string): CityGutterLandingData | null {
+  const dedicated = getDedicatedRepairLanding(slug);
+  if (dedicated) return dedicated;
+
   const gutterCity = CITY_GUTTER_LANDINGS[slug];
   if (!gutterCity) return null;
   return transformCityGutterToRepair(gutterCity);
