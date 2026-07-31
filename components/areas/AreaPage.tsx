@@ -17,6 +17,7 @@ import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaFeatures from '@/components/areas/AreaFeatures';
 import NearbyAreas from '@/components/areas/NearbyAreas';
 import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
+import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 
 
 interface AreaPageProps {
@@ -365,7 +366,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
       <AreaRecentWork />
       <AreaReviews />
       <AreaContactMap />
-      <AreaCrawlFooter currentSlug={areaName.toLowerCase().replace(/\s+/g, '-')} />
+      <AreaServicesHub currentSlug={areaName.toLowerCase().replace(/\s+/g, '-')} serviceKind="gutter" cityName={areaName} />
 
       <style>{`
         /* Hero Section Scoped Styles */
