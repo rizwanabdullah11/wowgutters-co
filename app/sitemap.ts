@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { AREA_SLUGS, areaPath, roofAreaPath } from '@/lib/areaSlugs';
+import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath } from '@/lib/areaSlugs';
 import { blogPosts } from '@/constants/blogData';
 import { servicesData } from '@/constants/servicesData';
 import { CONTENT_LAST_UPDATED_ISO } from '@/lib/contentFreshness';
@@ -46,7 +46,9 @@ function lastModForRoute(route: string, fallback: Date): Date {
   if (FRESH_SERVICE_ROUTES.has(route)) {
     return new Date(`${CONTENT_LAST_UPDATED_ISO}T12:00:00.000Z`);
   }
-  const areaSlug = route.match(/^\/(?:gutter|roof)-cleaning-(.+)$/)?.[1];
+  const areaSlug =
+    route.match(/^\/(?:gutter|roof)-cleaning-(.+)$/)?.[1] ??
+    route.match(/^\/gutter-repair-(.+)$/)?.[1];
   if (areaSlug) {
     const base = new Date('2026-05-20T09:00:00.000Z');
     const offset = [...areaSlug].reduce((n, c) => n + c.charCodeAt(0), 0) % 12;
@@ -153,6 +155,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: withTrailingSlash(roofAreaPath(slug)),
       lastModified: lastModForRoute(roofAreaPath(slug), lastUpdated),
+      changeFrequency: 'monthly' as const,
+      priority: 0.85,
+    },
+    {
+      url: withTrailingSlash(repairAreaPath(slug)),
+      lastModified: lastModForRoute(repairAreaPath(slug), lastUpdated),
       changeFrequency: 'monthly' as const,
       priority: 0.85,
     },

@@ -1,180 +1,199 @@
 # ===========================================================================
-# robots.txt — wowgutters.co.uk
+# robots.txt  wowgutters.co.uk
 # WOW Gutters Ltd | Birmingham, West Midlands, UK
-# Updated: May 2026 | Version: 3.1
+# Updated: July 2026 | Version: 3.2
+# CHANGE LOG v3.2:
+#   - Added "Disallow: /*?" to EVERY crawler group to stop the infinite
+#     query-string URL trap (the ?xxxx junk showing as 1.79m in GSC).
+#   - Because each search bot has its own group, the rule MUST be repeated
+#     per-group; a rule under "User-agent: *" alone does NOT reach Googlebot.
+#   - Real pages (clean path URLs) remain fully crawlable.
 # ===========================================================================
 
-# ===========================================================================
-# SECTION 1 — MAJOR SEARCH ENGINES
-# ===========================================================================
 User-agent: Googlebot
 Allow: /
+Disallow: /*?
 User-agent: Googlebot-Image
 Allow: /
+Disallow: /*?
 User-agent: Googlebot-News
 Allow: /
+Disallow: /*?
 User-agent: Googlebot-Video
 Allow: /
+Disallow: /*?
 User-agent: Googlebot-Mobile
 Allow: /
+Disallow: /*?
 User-agent: Bingbot
 Allow: /
+Disallow: /*?
 User-agent: BingPreview
 Allow: /
+Disallow: /*?
 User-agent: msnbot
 Allow: /
+Disallow: /*?
 User-agent: Slurp
 Allow: /
+Disallow: /*?
 User-agent: DuckDuckBot
 Allow: /
+Disallow: /*?
 User-agent: YandexBot
 Allow: /
+Disallow: /*?
 User-agent: YandexImages
 Allow: /
+Disallow: /*?
 User-agent: Baiduspider
 Allow: /
+Disallow: /*?
 User-agent: Ecosiabot
 Allow: /
+Disallow: /*?
 User-agent: Brave
 Allow: /
-
-# ===========================================================================
-# SECTION 2 — OPENAI / CHATGPT
-# ===========================================================================
+Disallow: /*?
 User-agent: GPTBot
 Allow: /
+Disallow: /*?
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /*?
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /*?
 User-agent: openai-crawler
 Allow: /
-
-# ===========================================================================
-# SECTION 3 — ANTHROPIC / CLAUDE
-# ===========================================================================
+Disallow: /*?
 User-agent: ClaudeBot
 Allow: /
+Disallow: /*?
 User-agent: Anthropic-AI
 Allow: /
+Disallow: /*?
 User-agent: Claude-Web
 Allow: /
-
-# ===========================================================================
-# SECTION 4 — GOOGLE AI / GEMINI
-# ===========================================================================
+Disallow: /*?
 User-agent: Google-Extended
 Allow: /
+Disallow: /*?
 User-agent: Google-CloudVertexBot
 Allow: /
-
-# ===========================================================================
-# SECTION 5 — PERPLEXITY AI
-# ===========================================================================
+Disallow: /*?
 User-agent: PerplexityBot
 Allow: /
+Disallow: /*?
 User-agent: Perplexity-User
 Allow: /
-
-# ===========================================================================
-# SECTION 6 — META AI
-# ===========================================================================
+Disallow: /*?
 User-agent: FacebookBot
 Allow: /
+Disallow: /*?
 User-agent: Meta-ExternalAgent
 Allow: /
+Disallow: /*?
 User-agent: Meta-ExternalFetcher
 Allow: /
-
-# ===========================================================================
-# SECTION 7 — APPLE / SIRI
-# ===========================================================================
+Disallow: /*?
 User-agent: Applebot
 Allow: /
+Disallow: /*?
 User-agent: Applebot-Extended
 Allow: /
-
-# ===========================================================================
-# SECTION 8 — MICROSOFT COPILOT
-# ===========================================================================
+Disallow: /*?
 User-agent: CopilotBot
 Allow: /
+Disallow: /*?
 User-agent: msnbot-media
 Allow: /
-
-# ===========================================================================
-# SECTION 9 — OTHER AI PLATFORMS
-# ===========================================================================
+Disallow: /*?
 User-agent: cohere-ai
 Allow: /
+Disallow: /*?
 User-agent: YouBot
 Allow: /
+Disallow: /*?
 User-agent: Diffbot
 Allow: /
+Disallow: /*?
 User-agent: Bytespider
 Allow: /
+Disallow: /*?
 User-agent: Amazonbot
 Allow: /
+Disallow: /*?
 User-agent: ia_archiver
 Allow: /
+Disallow: /*?
 User-agent: MistralBot
 Allow: /
+Disallow: /*?
 User-agent: Grok
 Allow: /
+Disallow: /*?
 User-agent: xAI
 Allow: /
+Disallow: /*?
 User-agent: DeepSeek
 Allow: /
+Disallow: /*?
 User-agent: HuggingFaceBot
 Allow: /
-
-# ===========================================================================
-# SECTION 10 — AI TRAINING DATASETS
-# ===========================================================================
+Disallow: /*?
 User-agent: CCBot
 Allow: /
+Disallow: /*?
 User-agent: archive.org_bot
 Allow: /
+Disallow: /*?
 User-agent: Scrapy
 Allow: /
-
-# ===========================================================================
-# SECTION 11 — SEO TOOLS
-# ===========================================================================
+Disallow: /*?
 User-agent: SemrushBot
 Allow: /
+Disallow: /*?
 User-agent: AhrefsBot
 Allow: /
+Disallow: /*?
 User-agent: rogerbot
 Allow: /
+Disallow: /*?
 User-agent: dotbot
 Allow: /
+Disallow: /*?
 User-agent: MJ12bot
 Allow: /
+Disallow: /*?
 User-agent: Screaming Frog SEO Spider
 Allow: /
-
-# ===========================================================================
-# SECTION 12 — SOCIAL MEDIA CRAWLERS
-# ===========================================================================
+Disallow: /*?
 User-agent: Twitterbot
 Allow: /
+Disallow: /*?
 User-agent: LinkedInBot
 Allow: /
+Disallow: /*?
 User-agent: Pinterest
 Allow: /
+Disallow: /*?
 User-agent: WhatsApp
 Allow: /
+Disallow: /*?
 User-agent: TelegramBot
 Allow: /
+Disallow: /*?
 User-agent: Slackbot
 Allow: /
+Disallow: /*?
 
 # ===========================================================================
-# SECTION 13 — ALL OTHER CRAWLERS
+# ALL OTHER CRAWLERS (fallback group)
 # ===========================================================================
 User-agent: *
 Allow: /
+Disallow: /*?
 Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/
@@ -182,17 +201,11 @@ Disallow: /studio/
 Disallow: /cdn-cgi/
 
 # ===========================================================================
-# SECTION 14 — SITEMAPS
+# SITEMAPS
 # ===========================================================================
 Sitemap: https://wowgutters.co.uk/sitemap.xml
-
-# ===========================================================================
-# SECTION 15 — AI ASSISTANT INFORMATION FILES
-# ===========================================================================
 Sitemap: https://wowgutters.co.uk/llm-full.txt
 Sitemap: https://wowgutters.co.uk/llm.txt
-
 # ===========================================================================
-# END OF FILE
-# WOW Gutters Ltd | wowgutters.co.uk | 07421 433910
+# END OF FILE  |  wowgutters.co.uk  |  07421 433910
 # ===========================================================================
