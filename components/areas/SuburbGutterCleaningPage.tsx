@@ -11,6 +11,7 @@ import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
+import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
 
 
@@ -381,7 +382,11 @@ export default function SuburbGutterCleaningPage({
       <AreaServicesRange />
       <AreaRecentWork />
       <AreaContactMap />
-      <AreaCrawlFooter currentSlug={areaSlug} serviceKind={serviceKind} />
+      {serviceKind === 'repair' || serviceKind === 'inspection' ? (
+        <AreaCrawlFooter currentSlug={areaSlug} serviceKind={serviceKind} />
+      ) : (
+        <AreaServicesHub currentSlug={areaSlug ?? data.city.toLowerCase().replace(/\s+/g, '-')} serviceKind={serviceKind} cityName={data.city} />
+      )}
 
       <style>{`
         .area-page-wrapper { overflow-x: hidden; }

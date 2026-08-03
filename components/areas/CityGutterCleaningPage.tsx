@@ -15,6 +15,7 @@ import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
 import NearbyAreas from '@/components/areas/NearbyAreas';
 import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
+import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
 import { normalizeAreaHeroTitle } from '@/lib/areaHeroTitle';
 
@@ -314,7 +315,11 @@ export default function CityGutterCleaningPage({
       <AreaServicesRange />
       <AreaRecentWork />
       <AreaContactMap geo={data.geo} />
-      <AreaCrawlFooter currentSlug={data.slug} serviceKind={serviceKind} />
+      {serviceKind === 'repair' || serviceKind === 'inspection' ? (
+        <AreaCrawlFooter currentSlug={data.slug} serviceKind={serviceKind} />
+      ) : (
+        <AreaServicesHub currentSlug={data.slug} serviceKind={serviceKind} cityName={data.city} />
+      )}
 
       <style>{`
         .area-page-wrapper { overflow-x: hidden; }

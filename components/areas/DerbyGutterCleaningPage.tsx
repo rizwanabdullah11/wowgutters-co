@@ -12,6 +12,7 @@ import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
+import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
 
 const HERO_USP_PILLS: { label: string; Icon: LucideIcon }[] = [
@@ -625,7 +626,7 @@ export default function DerbyGutterCleaningPage() {
       <AreaBlogSnippet locality="Derby" />
       <AreaRecentWork />
       <AreaContactMap geo={{ latitude: 52.9225, longitude: -1.4746 }} />
-      <AreaCrawlFooter currentSlug="derby" />
+      <AreaServicesHub currentSlug="derby" serviceKind="gutter" cityName="Derby" />
 
       <style>{`
         .area-page-wrapper { overflow-x: hidden; }

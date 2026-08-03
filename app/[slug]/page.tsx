@@ -21,12 +21,19 @@ import {
   renderRepairGeneratedAreaLanding,
   renderRepairSuburbLanding,
 } from '@/components/areas/CityRepairRoutes';
+import {
+  renderBirminghamInspectionLanding,
+  renderInspectionCityLanding,
+  renderInspectionGeneratedAreaLanding,
+  renderInspectionSuburbLanding,
+} from '@/components/areas/CityInspectionRoutes';
 import { getSuburbPageForSlug } from '@/lib/suburbPageData';
 import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
 import { buildAreaLandingFromSlug } from '@/lib/buildAreaLandingFromCity';
 import { getRoofCityLanding, getRoofGeneratedLanding, getRoofSuburbLanding } from '@/lib/roofAreaContent';
 import { getRepairCityLanding, getRepairGeneratedLanding, getRepairSuburbLanding } from '@/lib/repairAreaContent';
-import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath } from '@/lib/areaSlugs';
+import { getInspectionCityLanding, getInspectionGeneratedLanding, getInspectionSuburbLanding } from '@/lib/inspectionAreaContent';
+import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, inspectionAreaPath } from '@/lib/areaSlugs';
 import { buildMetadata } from '@/lib/seo';
 import { getKeywordPage, getAllKeywordSlugs } from '@/lib/keywordPages';
 import KeywordLandingPage from '@/components/KeywordLandingPage';
@@ -40,6 +47,7 @@ interface PageProps {
 const GUTTER_PREFIX = 'gutter-cleaning-';
 const ROOF_PREFIX = 'roof-cleaning-';
 const REPAIR_PREFIX = 'gutter-repair-';
+const INSPECTION_PREFIX = 'gutter-inspection-';
 const slugSet = new Set(AREA_SLUGS);
 
 const COMMON_TYPOS: Record<string, string> = {
@@ -66,6 +74,12 @@ function getRepairAreaSlug(slug: string): string | null {
   return slugSet.has(areaSlug) ? areaSlug : null;
 }
 
+function getInspectionAreaSlug(slug: string): string | null {
+  if (!slug.startsWith(INSPECTION_PREFIX)) return null;
+  const areaSlug = slug.slice(INSPECTION_PREFIX.length);
+  return slugSet.has(areaSlug) ? areaSlug : null;
+}
+
 function formatAreaName(slug: string): string {
   return slug
     .split('-')
@@ -82,6 +96,7 @@ export async function generateStaticParams() {
     ...AREA_SLUGS.map((slug) => ({ slug: `${GUTTER_PREFIX}${slug}` })),
     ...AREA_SLUGS.map((slug) => ({ slug: `${ROOF_PREFIX}${slug}` })),
     ...AREA_SLUGS.map((slug) => ({ slug: `${REPAIR_PREFIX}${slug}` })),
+    ...AREA_SLUGS.map((slug) => ({ slug: `${INSPECTION_PREFIX}${slug}` })),
     ...Object.keys(COMMON_TYPOS).map((slug) => ({ slug })),
     ...getAllKeywordSlugs().map((slug) => ({ slug })),
   ];
@@ -252,6 +267,61 @@ function buildRepairMetadata(areaSlug: string): Metadata {
   });
 }
 
+function buildInspectionMetadata(areaSlug: string): Metadata {
+  const areaName = formatAreaName(areaSlug);
+
+  if (areaSlug === 'birmingham') {
+    return buildMetadata({
+      absoluteTitle: 'Gutter Inspection Birmingham | Free Condition Report | WOW Gutters Ltd',
+      description:
+        'Free gutter inspection across Birmingham. We check gutters, downpipes, joints, brackets and fascia — photo report, honest advice, no obligation. Call WOW Gutters Ltd: 07421 433910.',
+      canonicalPath: inspectionAreaPath(areaSlug),
+      ogImagePath: '/gutter-inspection.png',
+    });
+  }
+
+  const cityLanding = getInspectionCityLanding(areaSlug);
+  if (cityLanding) {
+    return buildMetadata({
+      absoluteTitle: cityLanding.titleTag,
+      description: cityLanding.metaDescription,
+      canonicalPath: inspectionAreaPath(areaSlug),
+      ogImagePath: '/gutter-inspection.png',
+    });
+  }
+
+  const suburb = getInspectionSuburbLanding(areaSlug);
+  if (suburb) {
+    const intro = suburb.whyParagraphs[0] ?? '';
+    const description =
+      intro.length > 155 ? `${intro.slice(0, 152).trim()}…` : intro ||
+      `Free gutter inspection in ${suburb.city}. Gutters, downpipes, joints and fascia checked — photo report, no obligation. Call 07421 433910.`;
+    return buildMetadata({
+      absoluteTitle: `${suburb.heroTitleLine1} | WOW Gutters Ltd`,
+      description,
+      canonicalPath: inspectionAreaPath(areaSlug),
+      ogImagePath: '/gutter-inspection.png',
+    });
+  }
+
+  const generated = getInspectionGeneratedLanding(areaSlug);
+  if (generated) {
+    return buildMetadata({
+      absoluteTitle: generated.titleTag,
+      description: generated.metaDescription,
+      canonicalPath: inspectionAreaPath(areaSlug),
+      ogImagePath: '/gutter-inspection.png',
+    });
+  }
+
+  return buildMetadata({
+    title: `Gutter Inspection ${areaName}`,
+    description: `Free gutter inspection in ${areaName}. We check gutters, downpipes, joints, brackets and fascia — honest advice, no obligation. Call WOW Gutters Ltd: 07421 433910.`,
+    canonicalPath: inspectionAreaPath(areaSlug),
+    ogImagePath: '/gutter-inspection.png',
+  });
+}
+
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;
 
@@ -263,6 +333,9 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 
   const repairSlug = getRepairAreaSlug(params.slug);
   if (repairSlug) return buildRepairMetadata(repairSlug);
+
+  const inspectionSlug = getInspectionAreaSlug(params.slug);
+  if (inspectionSlug) return buildInspectionMetadata(inspectionSlug);
 
   const keywordSlug = getKeywordSlug(params.slug);
   if (keywordSlug) {
@@ -358,6 +431,24 @@ export default async function SingleSegmentAreaPage(props: PageProps) {
     if (maybeSuburb) return maybeSuburb;
 
     const generated = renderRepairGeneratedAreaLanding(repairAreaSlug);
+    if (generated) return generated;
+
+    notFound();
+  }
+
+  const inspectionAreaSlug = getInspectionAreaSlug(params.slug);
+  if (inspectionAreaSlug) {
+    if (inspectionAreaSlug === 'birmingham') {
+      return renderBirminghamInspectionLanding();
+    }
+
+    const maybeCity = renderInspectionCityLanding(inspectionAreaSlug);
+    if (maybeCity) return maybeCity;
+
+    const maybeSuburb = renderInspectionSuburbLanding(inspectionAreaSlug);
+    if (maybeSuburb) return maybeSuburb;
+
+    const generated = renderInspectionGeneratedAreaLanding(inspectionAreaSlug);
     if (generated) return generated;
 
     notFound();

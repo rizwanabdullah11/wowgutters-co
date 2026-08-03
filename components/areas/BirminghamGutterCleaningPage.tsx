@@ -15,6 +15,7 @@ import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
+import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
 
 /** Hero USP tags with icons. */
@@ -629,7 +630,7 @@ export default function BirminghamGutterCleaningPage() {
       <AreaBlogSnippet locality="Birmingham" />
       <AreaRecentWork />
       <AreaContactMap variant="birmingham" />
-      <AreaCrawlFooter currentSlug="birmingham" />
+      <AreaServicesHub currentSlug="birmingham" serviceKind="gutter" cityName="Birmingham" />
 
       <style>{`
         .area-page-wrapper { overflow-x: hidden; }

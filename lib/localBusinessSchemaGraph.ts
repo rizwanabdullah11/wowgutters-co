@@ -28,6 +28,27 @@ export type LocalBusinessSchemaInput = {
 
 const LOGO_URL = 'https://wowgutters.co.uk/favicon.png';
 
+export function buildInspectionSchemaFaqs(city: string): SchemaFaq[] {
+  return [
+    {
+      question: `Is the gutter inspection in ${city} really free?`,
+      answer: `Yes. Our gutter inspection in ${city} is completely free with no obligation to book any work. We check gutters, downpipes, joints, brackets and fascia line, then give honest advice on cleaning, repairs or monitoring.`,
+    },
+    {
+      question: `What does a gutter inspection in ${city} cover?`,
+      answer: `Gutter channel condition and alignment, downpipe flow and blockages, joints and seals, bracket spacing and sagging, fascia and soffit condition near the gutter line, and overflow staining on walls.`,
+    },
+    {
+      question: `How long does a gutter inspection in ${city} take?`,
+      answer: `A typical domestic inspection takes 20–40 minutes, with a clear explanation of findings on site and photos of any problem areas where access allows.`,
+    },
+    {
+      question: 'Do you provide before and after photos?',
+      answer: 'Yes. We photograph any problem areas found during the inspection where access allows, and you receive a no-obligation quote for cleaning or repairs if needed.',
+    },
+  ];
+}
+
 export function buildDefaultFaqs(
   city: string,
   priceFrom: number,
@@ -88,7 +109,9 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
             postcodes,
             nearbyAreas: input.nearbyAreas,
           })
-        : buildDefaultFaqs(input.city, input.priceFrom, input.priceTo, postcodes, input.nearbyAreas);
+        : serviceKind === 'inspection'
+          ? buildInspectionSchemaFaqs(input.city)
+          : buildDefaultFaqs(input.city, input.priceFrom, input.priceTo, postcodes, input.nearbyAreas);
 
   const { city, url, priceFrom, priceTo, nearbyAreas, geo } = input;
   const businessId = `${url}#business`;
@@ -98,12 +121,16 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
   const businessDescription =
     serviceKind === 'roof'
       ? `Professional roof cleaning in ${city}. Soft-wash moss removal, biocide treatment, before & after photos, fully insured. Call 07421 433910.`
-      : `Professional gutter cleaning in ${city}. Ground-level vacuum, before & after photos, 1-year guarantee, fully insured. Call 07421 433910.`;
+      : serviceKind === 'inspection'
+        ? `Free gutter inspection in ${city}. We check gutters, downpipes, joints, brackets and fascia — photo report, honest advice, no obligation. Call 07421 433910.`
+        : `Professional gutter cleaning in ${city}. Ground-level vacuum, before & after photos, 1-year guarantee, fully insured. Call 07421 433910.`;
 
   const serviceDescription =
     serviceKind === 'roof'
       ? `Professional roof cleaning in ${city}. Soft-wash moss and algae removal, biocide treatment, before & after photos, fully insured.`
-      : `Professional gutter cleaning in ${city}. Ground-level vacuum, no ladders, up to 4 storeys, before & after photos, downpipes cleared, 1-year guarantee.`;
+      : serviceKind === 'inspection'
+        ? `Free gutter inspection in ${city}. Checks gutters, downpipes, joints, brackets and fascia line from safe access points, with photo documentation and a no-obligation recommendation.`
+        : `Professional gutter cleaning in ${city}. Ground-level vacuum, no ladders, up to 4 storeys, before & after photos, downpipes cleared, 1-year guarantee.`;
 
   return {
     '@context': 'https://schema.org',
