@@ -192,21 +192,7 @@ export default function Footer() {
                         </Link>
                       </li>
                     ))}
-                    <li className="mt-3 pt-3 border-t border-white/10">
-                      <Link href="/gutter-cleaning-service-areas/" className="footer-link text-white font-bold">
-                        <ArrowRight className="w-3 h-3 link-arrow" /> All Gutter Cleaning Areas
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/roof-cleaning-service-areas/" className="footer-link text-white font-bold">
-                        <ArrowRight className="w-3 h-3 link-arrow" /> All Roof Cleaning Areas
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/service-areas/" className="footer-link text-white font-bold">
-                        <ArrowRight className="w-3 h-3 link-arrow" /> Full Service Directory
-                      </Link>
-                    </li>
+                  
                   </ul>
                 </div>
               </div>
