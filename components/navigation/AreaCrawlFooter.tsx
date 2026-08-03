@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { AREA_SLUGS, areaPath, roofAreaPath } from '@/lib/areaSlugs';
+import { AREA_SLUGS } from '@/lib/areaSlugs';
 import {
   FOOTER_HUB_SLUGS,
   GUTTER_SERVICE_AREAS_HUB,
@@ -20,11 +20,14 @@ export default function AreaCrawlFooter({
   serviceKind?: AreaServiceKind;
 }) {
   const meta = AREA_SERVICE_META[serviceKind];
-  const pathForSlug = serviceKind === 'roof' ? roofAreaPath : areaPath;
-  const linkLabel = (slug: string) =>
-    serviceKind === 'roof'
-      ? `Roof Cleaning ${areaLinkLabel(slug).replace(/^Gutter cleaning /i, '')}`
-      : areaLinkLabel(slug);
+  const pathForSlug = meta.pathForSlug;
+  const linkLabel = (slug: string) => {
+    const area = areaLinkLabel(slug);
+    if (serviceKind === 'roof') return `Roof Cleaning ${area.replace(/^Gutter cleaning /i, '')}`;
+    if (serviceKind === 'repair') return `Gutter Repairs ${area}`;
+    if (serviceKind === 'inspection') return `Gutter Inspection ${area}`;
+    return area;
+  };
 
   return (
     <nav

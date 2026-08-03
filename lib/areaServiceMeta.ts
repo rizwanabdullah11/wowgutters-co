@@ -1,6 +1,6 @@
-import { areaPath, roofAreaPath, repairAreaPath } from '@/lib/areaSlugs';
+import { areaPath, roofAreaPath, repairAreaPath, inspectionAreaPath } from '@/lib/areaSlugs';
 
-export type AreaServiceKind = 'gutter' | 'roof' | 'repair';
+export type AreaServiceKind = 'gutter' | 'roof' | 'repair' | 'inspection';
 
 export type AreaServiceMeta = {
   kind: AreaServiceKind;
@@ -113,10 +113,41 @@ export const REPAIR_SERVICE_META: AreaServiceMeta = {
   nearbyLinkPrefix: 'Gutter Repairs',
 };
 
+export const INSPECTION_SERVICE_META: AreaServiceMeta = {
+  kind: 'inspection',
+  prefix: 'gutter-inspection-',
+  pathForSlug: inspectionAreaPath,
+  label: 'Gutter Inspection',
+  labelLower: 'gutter inspection',
+  defaultPriceFrom: 0,
+  defaultPriceTo: 0,
+  heroVideo: '/gutter-cleaning-video.mp4',
+  heroPoster: '/gutter-inspection.png',
+  heroPills: [
+    { label: 'Free of charge' },
+    { label: 'Photo report included' },
+    { label: 'Fully insured' },
+  ],
+  whatsappQuestions: [
+    'Is the gutter inspection really free?',
+    'What do you check during a gutter inspection?',
+    'How long does a gutter inspection take?',
+    'Do you send a report after the inspection?',
+  ],
+  priceGuideHref: '/services/gutter-inspection/',
+  servicePageHref: '/services/gutter-inspection/',
+  schemaHubHref: 'https://wowgutters.co.uk/services/gutter-inspection/',
+  schemaHubLabel: 'Gutter Inspection',
+  crawlFooterTitle: 'Find gutter inspections near you',
+  crawlFooterAria: 'More gutter inspection service areas',
+  nearbyLinkPrefix: 'Gutter Inspection',
+};
+
 export const AREA_SERVICE_META: Record<AreaServiceKind, AreaServiceMeta> = {
   gutter: GUTTER_SERVICE_META,
   roof: ROOF_SERVICE_META,
   repair: REPAIR_SERVICE_META,
+  inspection: INSPECTION_SERVICE_META,
 };
 
 export function roofPriceFrom(gutterFrom: number): number {

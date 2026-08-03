@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { CheckCircle2, ArrowRight } from 'lucide-react';
 import { colors } from '@/constants/colors';
 import { AREA_SERVICE_META, type AreaServiceKind } from '@/lib/areaServiceMeta';
-import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath } from '@/lib/areaSlugs';
+import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, inspectionAreaPath } from '@/lib/areaSlugs';
 import { getAreaData } from '@/lib/getAreaData';
 import { areaLinkLabel } from '@/lib/crawlHub';
 
@@ -94,7 +94,11 @@ export default function AreaServicesHub({
   }
 
   const heading = `More from WOW Gutters Ltd in ${displayName}`;
-  const eyebrow = serviceKind === 'roof' ? 'Roof Care' : serviceKind === 'gutter' ? 'Gutter Care' : 'Gutter Repairs';
+  const eyebrow =
+    serviceKind === 'roof' ? 'Roof Care'
+    : serviceKind === 'gutter' ? 'Gutter Care'
+    : serviceKind === 'repair' ? 'Gutter Repairs'
+    : 'Gutter Inspections';
 
   return (
     <nav
@@ -163,7 +167,9 @@ export default function AreaServicesHub({
                       ? `Roof Cleaning ${l.label}`
                       : serviceKind === 'repair'
                         ? `Gutter Repairs ${l.label}`
-                        : `Gutter Cleaning ${l.label}`}
+                        : serviceKind === 'inspection'
+                          ? `Gutter Inspection ${l.label}`
+                          : `Gutter Cleaning ${l.label}`}
                   </Link>
                 </li>
               ))}
@@ -216,6 +222,7 @@ export default function AreaServicesHub({
 function pathForKind(kind: AreaServiceKind, slug: string): string {
   if (kind === 'roof') return roofAreaPath(slug);
   if (kind === 'repair') return repairAreaPath(slug);
+  if (kind === 'inspection') return inspectionAreaPath(slug);
   return areaPath(slug);
 }
 

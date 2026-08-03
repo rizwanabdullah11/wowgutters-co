@@ -382,7 +382,7 @@ export default function SuburbGutterCleaningPage({
       <AreaServicesRange />
       <AreaRecentWork />
       <AreaContactMap />
-      {serviceKind === 'repair' ? (
+      {serviceKind === 'repair' || serviceKind === 'inspection' ? (
         <AreaCrawlFooter currentSlug={areaSlug} serviceKind={serviceKind} />
       ) : (
         <AreaServicesHub currentSlug={areaSlug ?? data.city.toLowerCase().replace(/\s+/g, '-')} serviceKind={serviceKind} cityName={data.city} />
