@@ -24,7 +24,7 @@ export default function TopPageAreaLinks({
           Gutter cleaning near you
         </h2>
         <p className="text-center text-slate-600 max-w-2xl mx-auto mb-8">{intro}</p>
-        <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
+        {/* <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2">
           {TOP_SERVICE_PAGE_AREA_LINKS.map(({ slug, href, label }) => (
             <li key={slug}>
               <Link
@@ -35,7 +35,7 @@ export default function TopPageAreaLinks({
               </Link>
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </section>
   );

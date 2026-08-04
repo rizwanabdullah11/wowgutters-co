@@ -32,10 +32,12 @@ import { warehouseBoxGutterBlogPost } from './warehouseBoxGutterBlog';
 import { birminghamHomeownersForgetSummerBlogPost } from './birminghamHomeownersForgetSummerBlog';
 import { birminghamHomeownersMissSummerBlogPost } from './birminghamHomeownersMissSummerBlog';
 import { westMidlandsHomeStoringWaterDamageBlogPost } from './westMidlandsHomeStoringWaterDamageBlog';
+import { canYouCleanYourOwnGuttersBlogPost } from './canYouCleanYourOwnGuttersBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  canYouCleanYourOwnGuttersBlogPost,
   westMidlandsHomeStoringWaterDamageBlogPost,
   birminghamHomeownersMissSummerBlogPost,
   birminghamHomeownersForgetSummerBlogPost,
