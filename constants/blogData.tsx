@@ -34,10 +34,12 @@ import { birminghamHomeownersMissSummerBlogPost } from './birminghamHomeownersMi
 import { westMidlandsHomeStoringWaterDamageBlogPost } from './westMidlandsHomeStoringWaterDamageBlog';
 import { canYouCleanYourOwnGuttersBlogPost } from './canYouCleanYourOwnGuttersBlog';
 import { professionalGutterCleanWalkthroughBlogPost } from './professionalGutterCleanWalkthroughBlog';
+import { flatRoofGuttersBirminghamMaintenanceGuideBlogPost } from './flatRoofGuttersBirminghamMaintenanceGuideBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  flatRoofGuttersBirminghamMaintenanceGuideBlogPost,
   professionalGutterCleanWalkthroughBlogPost,
   canYouCleanYourOwnGuttersBlogPost,
   westMidlandsHomeStoringWaterDamageBlogPost,
