@@ -53,11 +53,15 @@ if (!fs.existsSync(SITEMAP)) {
 
   const areaCount = [...paths].filter((p) => p.startsWith('/gutter-cleaning-')).length;
   const roofAreaCount = [...paths].filter((p) => p.startsWith('/roof-cleaning-')).length;
+  const roofInspectionCount = [...paths].filter((p) => p.startsWith('/roof-inspection-')).length;
   if (areaCount < 160) {
     errors.push(`sitemap only lists ${areaCount} gutter area pages (expected 160+ indexable suburbs)`);
   }
   if (roofAreaCount < 160) {
     errors.push(`sitemap only lists ${roofAreaCount} roof cleaning area pages (expected 160+ indexable suburbs)`);
+  }
+  if (roofInspectionCount < 160) {
+    errors.push(`sitemap only lists ${roofInspectionCount} roof inspection area pages (expected 160+ indexable suburbs)`);
   }
   if (urls.length < 380) {
     errors.push(`sitemap only has ${urls.length} URLs (expected 380+ with gutter, roof, blog, and key landings)`);

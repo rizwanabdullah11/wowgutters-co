@@ -69,6 +69,10 @@ function repairAreaSitemapPath(slug) {
   return `/gutter-repair-${slug}/`;
 }
 
+function roofInspectionAreaSitemapPath(slug) {
+  return `/roof-inspection-${slug}/`;
+}
+
 function normalizePath(path) {
   if (!path || path === '/') return '/';
   const p = path.startsWith('/') ? path : `/${path}`;
@@ -86,6 +90,7 @@ function isExcludedSitemapPath(path) {
   if (isExcludedAreaSlugPath(norm, 'gutter-cleaning')) return true;
   if (isExcludedAreaSlugPath(norm, 'roof-cleaning')) return true;
   if (isExcludedAreaSlugPath(norm, 'gutter-repair')) return true;
+  if (isExcludedAreaSlugPath(norm, 'roof-inspection')) return true;
   return false;
 }
 
@@ -107,11 +112,18 @@ function allRepairAreaSitemapPaths() {
     .map((slug) => repairAreaSitemapPath(slug));
 }
 
+function allRoofInspectionAreaSitemapPaths() {
+  return readAreaSlugsFromRepo()
+    .filter((slug) => !EXCLUDED_AREA_SLUGS.has(slug))
+    .map((slug) => roofInspectionAreaSitemapPath(slug));
+}
+
 function allAreaSitemapPaths() {
   return [
     ...allGutterAreaSitemapPaths(),
     ...allRoofAreaSitemapPaths(),
     ...allRepairAreaSitemapPaths(),
+    ...allRoofInspectionAreaSitemapPaths(),
   ];
 }
 
@@ -123,10 +135,12 @@ module.exports = {
   areaSitemapPath,
   roofAreaSitemapPath,
   repairAreaSitemapPath,
+  roofInspectionAreaSitemapPath,
   normalizePath,
   isExcludedSitemapPath,
   allGutterAreaSitemapPaths,
   allRoofAreaSitemapPaths,
   allRepairAreaSitemapPaths,
+  allRoofInspectionAreaSitemapPaths,
   allAreaSitemapPaths,
 };

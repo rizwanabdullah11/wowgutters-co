@@ -19,6 +19,9 @@ function toServiceSlug(gutterSlug: string, serviceKind: AreaServiceKind): string
   if (serviceKind === 'inspection') {
     return gutterSlug.replace(/^gutter-cleaning-/, 'gutter-inspection-');
   }
+  if (serviceKind === 'roof-inspection') {
+    return gutterSlug.replace(/^gutter-cleaning-/, 'roof-inspection-');
+  }
   return gutterSlug;
 }
 

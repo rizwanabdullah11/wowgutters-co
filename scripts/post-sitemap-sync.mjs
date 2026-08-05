@@ -34,7 +34,8 @@ function buildUrlEntry(path, lastmod) {
         ? '0.95'
         : path.startsWith('/gutter-cleaning-') ||
             path.startsWith('/roof-cleaning-') ||
-            path.startsWith('/gutter-repair-')
+            path.startsWith('/gutter-repair-') ||
+            path.startsWith('/roof-inspection-')
           ? '0.85'
           : path === '/roof-cleaning-service-areas/'
             ? '0.75'
