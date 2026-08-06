@@ -27,13 +27,20 @@ import {
   renderInspectionGeneratedAreaLanding,
   renderInspectionSuburbLanding,
 } from '@/components/areas/CityInspectionRoutes';
+import {
+  renderBirminghamRoofInspectionLanding,
+  renderRoofInspectionCityLanding,
+  renderRoofInspectionGeneratedAreaLanding,
+  renderRoofInspectionSuburbLanding,
+} from '@/components/areas/CityRoofInspectionRoutes';
 import { getSuburbPageForSlug } from '@/lib/suburbPageData';
 import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
 import { buildAreaLandingFromSlug } from '@/lib/buildAreaLandingFromCity';
 import { getRoofCityLanding, getRoofGeneratedLanding, getRoofSuburbLanding } from '@/lib/roofAreaContent';
 import { getRepairCityLanding, getRepairGeneratedLanding, getRepairSuburbLanding } from '@/lib/repairAreaContent';
 import { getInspectionCityLanding, getInspectionGeneratedLanding, getInspectionSuburbLanding } from '@/lib/inspectionAreaContent';
-import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, inspectionAreaPath } from '@/lib/areaSlugs';
+import { getRoofInspectionCityLanding, getRoofInspectionGeneratedLanding, getRoofInspectionSuburbLanding } from '@/lib/roofInspectionAreaContent';
+import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, inspectionAreaPath, roofInspectionAreaPath } from '@/lib/areaSlugs';
 import { buildMetadata } from '@/lib/seo';
 import { getKeywordPage, getAllKeywordSlugs } from '@/lib/keywordPages';
 import KeywordLandingPage from '@/components/KeywordLandingPage';
@@ -48,6 +55,7 @@ const GUTTER_PREFIX = 'gutter-cleaning-';
 const ROOF_PREFIX = 'roof-cleaning-';
 const REPAIR_PREFIX = 'gutter-repair-';
 const INSPECTION_PREFIX = 'gutter-inspection-';
+const ROOF_INSPECTION_PREFIX = 'roof-inspection-';
 const slugSet = new Set(AREA_SLUGS);
 
 const COMMON_TYPOS: Record<string, string> = {
@@ -80,6 +88,12 @@ function getInspectionAreaSlug(slug: string): string | null {
   return slugSet.has(areaSlug) ? areaSlug : null;
 }
 
+function getRoofInspectionAreaSlug(slug: string): string | null {
+  if (!slug.startsWith(ROOF_INSPECTION_PREFIX)) return null;
+  const areaSlug = slug.slice(ROOF_INSPECTION_PREFIX.length);
+  return slugSet.has(areaSlug) ? areaSlug : null;
+}
+
 function formatAreaName(slug: string): string {
   return slug
     .split('-')
@@ -97,6 +111,7 @@ export async function generateStaticParams() {
     ...AREA_SLUGS.map((slug) => ({ slug: `${ROOF_PREFIX}${slug}` })),
     ...AREA_SLUGS.map((slug) => ({ slug: `${REPAIR_PREFIX}${slug}` })),
     ...AREA_SLUGS.map((slug) => ({ slug: `${INSPECTION_PREFIX}${slug}` })),
+    ...AREA_SLUGS.map((slug) => ({ slug: `${ROOF_INSPECTION_PREFIX}${slug}` })),
     ...Object.keys(COMMON_TYPOS).map((slug) => ({ slug })),
     ...getAllKeywordSlugs().map((slug) => ({ slug })),
   ];
@@ -322,6 +337,61 @@ function buildInspectionMetadata(areaSlug: string): Metadata {
   });
 }
 
+function buildRoofInspectionMetadata(areaSlug: string): Metadata {
+  const areaName = formatAreaName(areaSlug);
+
+  if (areaSlug === 'birmingham') {
+    return buildMetadata({
+      absoluteTitle: 'Roof Inspection Birmingham | Free Condition Report | WOW Gutters Ltd',
+      description:
+        'Free roof inspection across Birmingham. We check tiles, ridges, flashing, moss coverage and ventilation — photo report, honest advice, no obligation. Call WOW Gutters Ltd: 07421 433910.',
+      canonicalPath: roofInspectionAreaPath(areaSlug),
+      ogImagePath: '/roof-cleaning.JPG',
+    });
+  }
+
+  const cityLanding = getRoofInspectionCityLanding(areaSlug);
+  if (cityLanding) {
+    return buildMetadata({
+      absoluteTitle: cityLanding.titleTag,
+      description: cityLanding.metaDescription,
+      canonicalPath: roofInspectionAreaPath(areaSlug),
+      ogImagePath: '/roof-cleaning.JPG',
+    });
+  }
+
+  const suburb = getRoofInspectionSuburbLanding(areaSlug);
+  if (suburb) {
+    const intro = suburb.whyParagraphs[0] ?? '';
+    const description =
+      intro.length > 155 ? `${intro.slice(0, 152).trim()}…` : intro ||
+      `Free roof inspection in ${suburb.city}. Tiles, ridges, flashing, moss coverage and ventilation checked — no obligation. Call 07421 433910.`;
+    return buildMetadata({
+      absoluteTitle: `${suburb.heroTitleLine1} | WOW Gutters Ltd`,
+      description,
+      canonicalPath: roofInspectionAreaPath(areaSlug),
+      ogImagePath: '/roof-cleaning.JPG',
+    });
+  }
+
+  const generated = getRoofInspectionGeneratedLanding(areaSlug);
+  if (generated) {
+    return buildMetadata({
+      absoluteTitle: generated.titleTag,
+      description: generated.metaDescription,
+      canonicalPath: roofInspectionAreaPath(areaSlug),
+      ogImagePath: '/roof-cleaning.JPG',
+    });
+  }
+
+  return buildMetadata({
+    title: `Roof Inspection ${areaName}`,
+    description: `Free roof inspection in ${areaName}. We check tiles, ridges, flashing, moss coverage and ventilation — honest advice, no obligation. Call WOW Gutters Ltd: 07421 433910.`,
+    canonicalPath: roofInspectionAreaPath(areaSlug),
+    ogImagePath: '/roof-cleaning.JPG',
+  });
+}
+
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;
 
@@ -336,6 +406,9 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 
   const inspectionSlug = getInspectionAreaSlug(params.slug);
   if (inspectionSlug) return buildInspectionMetadata(inspectionSlug);
+
+  const roofInspectionSlug = getRoofInspectionAreaSlug(params.slug);
+  if (roofInspectionSlug) return buildRoofInspectionMetadata(roofInspectionSlug);
 
   const keywordSlug = getKeywordSlug(params.slug);
   if (keywordSlug) {
@@ -449,6 +522,24 @@ export default async function SingleSegmentAreaPage(props: PageProps) {
     if (maybeSuburb) return maybeSuburb;
 
     const generated = renderInspectionGeneratedAreaLanding(inspectionAreaSlug);
+    if (generated) return generated;
+
+    notFound();
+  }
+
+  const roofInspectionAreaSlug = getRoofInspectionAreaSlug(params.slug);
+  if (roofInspectionAreaSlug) {
+    if (roofInspectionAreaSlug === 'birmingham') {
+      return renderBirminghamRoofInspectionLanding();
+    }
+
+    const maybeCity = renderRoofInspectionCityLanding(roofInspectionAreaSlug);
+    if (maybeCity) return maybeCity;
+
+    const maybeSuburb = renderRoofInspectionSuburbLanding(roofInspectionAreaSlug);
+    if (maybeSuburb) return maybeSuburb;
+
+    const generated = renderRoofInspectionGeneratedAreaLanding(roofInspectionAreaSlug);
     if (generated) return generated;
 
     notFound();

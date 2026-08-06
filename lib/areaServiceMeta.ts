@@ -1,6 +1,6 @@
-import { areaPath, roofAreaPath, repairAreaPath, inspectionAreaPath } from '@/lib/areaSlugs';
+import { areaPath, roofAreaPath, repairAreaPath, inspectionAreaPath, roofInspectionAreaPath } from '@/lib/areaSlugs';
 
-export type AreaServiceKind = 'gutter' | 'roof' | 'repair' | 'inspection';
+export type AreaServiceKind = 'gutter' | 'roof' | 'repair' | 'inspection' | 'roof-inspection';
 
 export type AreaServiceMeta = {
   kind: AreaServiceKind;
@@ -143,11 +143,42 @@ export const INSPECTION_SERVICE_META: AreaServiceMeta = {
   nearbyLinkPrefix: 'Gutter Inspection',
 };
 
+export const ROOF_INSPECTION_SERVICE_META: AreaServiceMeta = {
+  kind: 'roof-inspection',
+  prefix: 'roof-inspection-',
+  pathForSlug: roofInspectionAreaPath,
+  label: 'Roof Inspection',
+  labelLower: 'roof inspection',
+  defaultPriceFrom: 0,
+  defaultPriceTo: 0,
+  heroVideo: '/roof-cleaning-video.mp4',
+  heroPoster: '/roof-cleaning.JPG',
+  heroPills: [
+    { label: 'Free of charge' },
+    { label: 'Condition report included' },
+    { label: 'Fully insured' },
+  ],
+  whatsappQuestions: [
+    'Is the roof inspection really free?',
+    'What do you check during a roof inspection?',
+    'How long does a roof inspection take?',
+    'Do you send a report after the inspection?',
+  ],
+  priceGuideHref: '/services/roof-inspection/',
+  servicePageHref: '/services/roof-inspection/',
+  schemaHubHref: 'https://wowgutters.co.uk/services/roof-inspection/',
+  schemaHubLabel: 'Roof Inspection',
+  crawlFooterTitle: 'Find roof inspections near you',
+  crawlFooterAria: 'More roof inspection service areas',
+  nearbyLinkPrefix: 'Roof Inspection',
+};
+
 export const AREA_SERVICE_META: Record<AreaServiceKind, AreaServiceMeta> = {
   gutter: GUTTER_SERVICE_META,
   roof: ROOF_SERVICE_META,
   repair: REPAIR_SERVICE_META,
   inspection: INSPECTION_SERVICE_META,
+  'roof-inspection': ROOF_INSPECTION_SERVICE_META,
 };
 
 export function roofPriceFrom(gutterFrom: number): number {

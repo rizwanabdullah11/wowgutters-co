@@ -49,6 +49,27 @@ export function buildInspectionSchemaFaqs(city: string): SchemaFaq[] {
   ];
 }
 
+export function buildRoofInspectionSchemaFaqs(city: string): SchemaFaq[] {
+  return [
+    {
+      question: `Is the roof inspection in ${city} really free?`,
+      answer: `Yes. Our roof inspection in ${city} is completely free with no obligation to book any work. We assess tiles, ridges, flashing, valleys, moss coverage and ventilation, then give honest advice on cleaning, repairs or monitoring.`,
+    },
+    {
+      question: `What does a roof inspection in ${city} cover?`,
+      answer: `Tile condition, ridge stability, flashing around chimneys and valleys, moss and algae coverage, fascia and soffit condition at the eaves, and ventilation.`,
+    },
+    {
+      question: `How long does a roof inspection in ${city} take?`,
+      answer: `A typical domestic inspection takes 20–40 minutes, with a clear explanation of findings on site and photos of any issues where access allows.`,
+    },
+    {
+      question: 'Do you provide a photo report?',
+      answer: 'Yes. We photograph any issues found during the inspection where access allows, and you receive a no-obligation quote for roof cleaning or repairs if needed.',
+    },
+  ];
+}
+
 export function buildDefaultFaqs(
   city: string,
   priceFrom: number,
@@ -111,7 +132,9 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
           })
         : serviceKind === 'inspection'
           ? buildInspectionSchemaFaqs(input.city)
-          : buildDefaultFaqs(input.city, input.priceFrom, input.priceTo, postcodes, input.nearbyAreas);
+          : serviceKind === 'roof-inspection'
+            ? buildRoofInspectionSchemaFaqs(input.city)
+            : buildDefaultFaqs(input.city, input.priceFrom, input.priceTo, postcodes, input.nearbyAreas);
 
   const { city, url, priceFrom, priceTo, nearbyAreas, geo } = input;
   const businessId = `${url}#business`;
@@ -123,14 +146,18 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
       ? `Professional roof cleaning in ${city}. Soft-wash moss removal, biocide treatment, before & after photos, fully insured. Call 07421 433910.`
       : serviceKind === 'inspection'
         ? `Free gutter inspection in ${city}. We check gutters, downpipes, joints, brackets and fascia — photo report, honest advice, no obligation. Call 07421 433910.`
-        : `Professional gutter cleaning in ${city}. Ground-level vacuum, before & after photos, 1-year guarantee, fully insured. Call 07421 433910.`;
+        : serviceKind === 'roof-inspection'
+          ? `Free roof inspection in ${city}. We check tiles, ridges, flashing, moss coverage and ventilation — photo report, honest advice, no obligation. Call 07421 433910.`
+          : `Professional gutter cleaning in ${city}. Ground-level vacuum, before & after photos, 1-year guarantee, fully insured. Call 07421 433910.`;
 
   const serviceDescription =
     serviceKind === 'roof'
       ? `Professional roof cleaning in ${city}. Soft-wash moss and algae removal, biocide treatment, before & after photos, fully insured.`
       : serviceKind === 'inspection'
         ? `Free gutter inspection in ${city}. Checks gutters, downpipes, joints, brackets and fascia line from safe access points, with photo documentation and a no-obligation recommendation.`
-        : `Professional gutter cleaning in ${city}. Ground-level vacuum, no ladders, up to 4 storeys, before & after photos, downpipes cleared, 1-year guarantee.`;
+        : serviceKind === 'roof-inspection'
+          ? `Free roof inspection in ${city}. Checks tiles, ridges, flashing, valleys, moss coverage and ventilation from ground level and, where safe, from a ladder, with photo documentation and a no-obligation recommendation.`
+          : `Professional gutter cleaning in ${city}. Ground-level vacuum, no ladders, up to 4 storeys, before & after photos, downpipes cleared, 1-year guarantee.`;
 
   return {
     '@context': 'https://schema.org',

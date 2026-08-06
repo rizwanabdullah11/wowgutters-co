@@ -26,6 +26,7 @@ export default function AreaCrawlFooter({
     if (serviceKind === 'roof') return `Roof Cleaning ${area.replace(/^Gutter cleaning /i, '')}`;
     if (serviceKind === 'repair') return `Gutter Repairs ${area}`;
     if (serviceKind === 'inspection') return `Gutter Inspection ${area}`;
+    if (serviceKind === 'roof-inspection') return `Roof Inspection ${area}`;
     return area;
   };
 
