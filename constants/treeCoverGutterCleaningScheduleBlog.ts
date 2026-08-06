@@ -31,7 +31,7 @@ const sectionCta = `
 </div>`;
 
 export const treeCoverGutterScheduleBlogPost: BlogPost = {
-  id: 'tree-cover-gutter-cleaning-schedule-birmingham',
+  id: 'tree-gutter-cleaning',
   seoTitle:
     'How Tree Cover Changes Your Gutter Cleaning Schedule in Birmingham | WOW Gutters Ltd',
   title: 'How Tree Cover Changes Your Gutter Cleaning Schedule in Birmingham',
