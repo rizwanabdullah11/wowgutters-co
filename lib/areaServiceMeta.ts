@@ -1,6 +1,6 @@
-import { areaPath, roofAreaPath, repairAreaPath, inspectionAreaPath, roofInspectionAreaPath } from '@/lib/areaSlugs';
+import { areaPath, roofAreaPath, repairAreaPath, inspectionAreaPath, roofInspectionAreaPath, upvcAreaPath } from '@/lib/areaSlugs';
 
-export type AreaServiceKind = 'gutter' | 'roof' | 'repair' | 'inspection' | 'roof-inspection';
+export type AreaServiceKind = 'gutter' | 'roof' | 'repair' | 'inspection' | 'roof-inspection' | 'upvc';
 
 export type AreaServiceMeta = {
   kind: AreaServiceKind;
@@ -143,6 +143,36 @@ export const INSPECTION_SERVICE_META: AreaServiceMeta = {
   nearbyLinkPrefix: 'Gutter Inspection',
 };
 
+export const UPVC_SERVICE_META: AreaServiceMeta = {
+  kind: 'upvc',
+  prefix: 'exterior-upvc-cleaning-',
+  pathForSlug: upvcAreaPath,
+  label: 'Exterior uPVC Cleaning',
+  labelLower: 'exterior uPVC cleaning',
+  defaultPriceFrom: 120,
+  defaultPriceTo: 400,
+  heroVideo: '/exterior-upvc-video.mp4',
+  heroPoster: '/upvc-cleaning.jpg',
+  heroPills: [
+    { label: 'Hot purified water' },
+    { label: 'Algae & mould removal' },
+    { label: 'Streak-free finish' },
+  ],
+  whatsappQuestions: [
+    'How much is exterior uPVC cleaning for my property?',
+    'Can you clean fascias, soffits and window frames?',
+    'Do you remove green algae and black mould from uPVC?',
+    'Could I get a fast quote for my home?',
+  ],
+  priceGuideHref: '/help/clean/',
+  servicePageHref: '/services/upvc-cleaning/',
+  schemaHubHref: 'https://wowgutters.co.uk/upvc-cleaning/',
+  schemaHubLabel: 'Exterior uPVC Cleaning',
+  crawlFooterTitle: 'Find exterior uPVC cleaning near you',
+  crawlFooterAria: 'More exterior uPVC cleaning service areas',
+  nearbyLinkPrefix: 'Exterior uPVC Cleaning',
+};
+
 export const ROOF_INSPECTION_SERVICE_META: AreaServiceMeta = {
   kind: 'roof-inspection',
   prefix: 'roof-inspection-',
@@ -179,6 +209,7 @@ export const AREA_SERVICE_META: Record<AreaServiceKind, AreaServiceMeta> = {
   repair: REPAIR_SERVICE_META,
   inspection: INSPECTION_SERVICE_META,
   'roof-inspection': ROOF_INSPECTION_SERVICE_META,
+  upvc: UPVC_SERVICE_META,
 };
 
 export function roofPriceFrom(gutterFrom: number): number {
@@ -195,4 +226,12 @@ export function repairPriceFrom(gutterFrom: number): number {
 
 export function repairPriceTo(gutterTo: number): number {
   return Math.max(180, Math.round(gutterTo * 1.6));
+}
+
+export function upvcPriceFrom(gutterFrom: number): number {
+  return Math.max(120, Math.round(gutterFrom * 2.2));
+}
+
+export function upvcPriceTo(gutterTo: number): number {
+  return Math.max(280, Math.round(gutterTo * 2.6));
 }

@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, roofInspectionAreaPath } from '@/lib/areaSlugs';
+import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, roofInspectionAreaPath, upvcAreaPath } from '@/lib/areaSlugs';
 import { blogPosts } from '@/constants/blogData';
 import { servicesData } from '@/constants/servicesData';
 import { CONTENT_LAST_UPDATED_ISO } from '@/lib/contentFreshness';
@@ -50,7 +50,8 @@ function lastModForRoute(route: string, fallback: Date): Date {
     route.match(/^\/(?:gutter|roof)-cleaning-(.+)$/)?.[1] ??
     route.match(/^\/gutter-repair-(.+)$/)?.[1] ??
     route.match(/^\/gutter-inspection-(.+)$/)?.[1] ??
-    route.match(/^\/roof-inspection-(.+)$/)?.[1];
+    route.match(/^\/roof-inspection-(.+)$/)?.[1] ??
+    route.match(/^\/exterior-upvc-cleaning-(.+)$/)?.[1];
   if (areaSlug) {
     const base = new Date('2026-05-20T09:00:00.000Z');
     const offset = [...areaSlug].reduce((n, c) => n + c.charCodeAt(0), 0) % 12;
@@ -169,6 +170,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: withTrailingSlash(roofInspectionAreaPath(slug)),
       lastModified: lastModForRoute(roofInspectionAreaPath(slug), lastUpdated),
+      changeFrequency: 'monthly' as const,
+      priority: 0.85,
+    },
+    {
+      url: withTrailingSlash(upvcAreaPath(slug)),
+      lastModified: lastModForRoute(upvcAreaPath(slug), lastUpdated),
       changeFrequency: 'monthly' as const,
       priority: 0.85,
     },

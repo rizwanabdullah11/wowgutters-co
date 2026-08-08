@@ -278,6 +278,16 @@ export function roofInspectionAreaPath(slug: string): string {
   return `/${roofInspectionAreaSegment(slug)}`;
 }
 
+/** Path segment for exterior uPVC cleaning area pages: exterior-upvc-cleaning-{city}/ */
+export function upvcAreaSegment(slug: string): string {
+  return `exterior-upvc-cleaning-${slug}/`;
+}
+
+/** Public SEO URL: /exterior-upvc-cleaning-{city}/ */
+export function upvcAreaPath(slug: string): string {
+  return `/${upvcAreaSegment(slug)}`;
+}
+
 /** Prefix from the current page to the static-export site root (./ or ../). */
 export function siteRootRelativePrefix(): string {
   if (typeof window === 'undefined') {

@@ -148,7 +148,9 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
         ? `Free gutter inspection in ${city}. We check gutters, downpipes, joints, brackets and fascia — photo report, honest advice, no obligation. Call 07421 433910.`
         : serviceKind === 'roof-inspection'
           ? `Free roof inspection in ${city}. We check tiles, ridges, flashing, moss coverage and ventilation — photo report, honest advice, no obligation. Call 07421 433910.`
-          : `Professional gutter cleaning in ${city}. Ground-level vacuum, before & after photos, 1-year guarantee, fully insured. Call 07421 433910.`;
+          : serviceKind === 'upvc'
+            ? `Professional exterior uPVC cleaning in ${city}. Hot purified water restores fascias, soffits, window frames & doors. Streak-free, chemical-free, fully insured. Call 07421 433910.`
+            : `Professional gutter cleaning in ${city}. Ground-level vacuum, before & after photos, 1-year guarantee, fully insured. Call 07421 433910.`;
 
   const serviceDescription =
     serviceKind === 'roof'
@@ -157,7 +159,9 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
         ? `Free gutter inspection in ${city}. Checks gutters, downpipes, joints, brackets and fascia line from safe access points, with photo documentation and a no-obligation recommendation.`
         : serviceKind === 'roof-inspection'
           ? `Free roof inspection in ${city}. Checks tiles, ridges, flashing, valleys, moss coverage and ventilation from ground level and, where safe, from a ladder, with photo documentation and a no-obligation recommendation.`
-          : `Professional gutter cleaning in ${city}. Ground-level vacuum, no ladders, up to 4 storeys, before & after photos, downpipes cleared, 1-year guarantee.`;
+          : serviceKind === 'upvc'
+            ? `Professional exterior uPVC cleaning in ${city}. Hot purified water removes algae, mould and carbon staining from fascias, soffits, window frames and doors — streak-free finish, no harsh chemicals, fully insured.`
+            : `Professional gutter cleaning in ${city}. Ground-level vacuum, no ladders, up to 4 storeys, before & after photos, downpipes cleared, 1-year guarantee.`;
 
   return {
     '@context': 'https://schema.org',
