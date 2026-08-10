@@ -31,7 +31,7 @@ const sectionCta = `
 </div>`;
 
 export const mossOnYourRoofBirminghamGuttersBlogPost: BlogPost = {
-  id: 'moss-on-your-roof-what-its-doing-to-birmingham-gutters',
+  id: 'roof-moss-damage',
   seoTitle:
     'Moss on Your Roof? What It\u2019s Doing to Your Birmingham Gutters Right Now | WOW Gutters Ltd',
   title:
@@ -48,6 +48,7 @@ export const mossOnYourRoofBirminghamGuttersBlogPost: BlogPost = {
   quickAnswer:
     'Yes, roof moss damages gutters \u2014 continuously rather than as a single seasonal event. Moss sheds fragments throughout the year, particularly during and after rainfall, which accumulate as silt in the gutter channel and clump at downpipe inlets. Moss retained within a gutter also keeps the channel consistently damp, creating conditions that encourage further moss growth in a self-reinforcing cycle. Breaking this cycle requires both treating the roof moss at its source with biocide application and thoroughly clearing the gutter of existing moss-derived accumulation. Call 07421 433910.',
   shortSummary: 'Moss is actively damaging your Birmingham gutters',
+  featured: true,
   breadcrumbName: 'Moss on Your Roof and Gutter Damage Birmingham',
   content: `
 <p>If you can see green or dark patches on your roof from the pavement outside your Birmingham property, something is actively happening to your gutters right now — not eventually, not next season, but continuously, with every rainfall event, whether it's visible from ground level or not.</p>
