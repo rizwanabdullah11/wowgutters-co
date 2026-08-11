@@ -39,6 +39,12 @@ import {
   renderUpvcGeneratedAreaLanding,
   renderUpvcSuburbLanding,
 } from '@/components/areas/CityUpvcCleaningRoutes';
+import {
+  renderBirminghamInstallationLanding,
+  renderInstallationCityLanding,
+  renderInstallationGeneratedAreaLanding,
+  renderInstallationSuburbLanding,
+} from '@/components/areas/CityInstallationRoutes';
 import { getSuburbPageForSlug } from '@/lib/suburbPageData';
 import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
 import { buildAreaLandingFromSlug } from '@/lib/buildAreaLandingFromCity';
@@ -47,7 +53,8 @@ import { getRepairCityLanding, getRepairGeneratedLanding, getRepairSuburbLanding
 import { getInspectionCityLanding, getInspectionGeneratedLanding, getInspectionSuburbLanding } from '@/lib/inspectionAreaContent';
 import { getRoofInspectionCityLanding, getRoofInspectionGeneratedLanding, getRoofInspectionSuburbLanding } from '@/lib/roofInspectionAreaContent';
 import { getUpvcCityLanding, getUpvcGeneratedLanding, getUpvcSuburbLanding } from '@/lib/upvcAreaContent';
-import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, inspectionAreaPath, roofInspectionAreaPath, upvcAreaPath } from '@/lib/areaSlugs';
+import { getInstallationCityLanding, getInstallationGeneratedLanding, getInstallationSuburbLanding } from '@/lib/installationAreaContent';
+import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, inspectionAreaPath, roofInspectionAreaPath, upvcAreaPath, installationAreaPath } from '@/lib/areaSlugs';
 import { buildMetadata } from '@/lib/seo';
 import { getKeywordPage, getAllKeywordSlugs } from '@/lib/keywordPages';
 import KeywordLandingPage from '@/components/KeywordLandingPage';
@@ -64,6 +71,7 @@ const REPAIR_PREFIX = 'gutter-repair-';
 const INSPECTION_PREFIX = 'gutter-inspection-';
 const ROOF_INSPECTION_PREFIX = 'roof-inspection-';
 const UPVC_PREFIX = 'exterior-upvc-cleaning-';
+const INSTALLATION_PREFIX = 'gutter-installation-';
 const slugSet = new Set(AREA_SLUGS);
 
 const COMMON_TYPOS: Record<string, string> = {
@@ -108,6 +116,12 @@ function getUpvcAreaSlug(slug: string): string | null {
   return slugSet.has(areaSlug) ? areaSlug : null;
 }
 
+function getInstallationAreaSlug(slug: string): string | null {
+  if (!slug.startsWith(INSTALLATION_PREFIX)) return null;
+  const areaSlug = slug.slice(INSTALLATION_PREFIX.length);
+  return slugSet.has(areaSlug) ? areaSlug : null;
+}
+
 function formatAreaName(slug: string): string {
   return slug
     .split('-')
@@ -127,6 +141,7 @@ export async function generateStaticParams() {
     ...AREA_SLUGS.map((slug) => ({ slug: `${INSPECTION_PREFIX}${slug}` })),
     ...AREA_SLUGS.map((slug) => ({ slug: `${ROOF_INSPECTION_PREFIX}${slug}` })),
     ...AREA_SLUGS.map((slug) => ({ slug: `${UPVC_PREFIX}${slug}` })),
+    ...AREA_SLUGS.map((slug) => ({ slug: `${INSTALLATION_PREFIX}${slug}` })),
     ...Object.keys(COMMON_TYPOS).map((slug) => ({ slug })),
     ...getAllKeywordSlugs().map((slug) => ({ slug })),
   ];
@@ -462,6 +477,61 @@ function buildUpvcMetadata(areaSlug: string): Metadata {
   });
 }
 
+function buildInstallationMetadata(areaSlug: string): Metadata {
+  const areaName = formatAreaName(areaSlug);
+
+  if (areaSlug === 'birmingham') {
+    return buildMetadata({
+      absoluteTitle: 'Gutter Installation Birmingham | New uPVC Systems Fitted | WOW Gutters Ltd',
+      description:
+        'Professional uPVC gutter installation in Birmingham. Free survey, measured and fitted with correct fall, 10-year guarantee on workmanship. Call WOW Gutters Ltd: 07421 433910.',
+      canonicalPath: installationAreaPath(areaSlug),
+      ogImagePath: '/gutter-installation.png',
+    });
+  }
+
+  const cityLanding = getInstallationCityLanding(areaSlug);
+  if (cityLanding) {
+    return buildMetadata({
+      absoluteTitle: cityLanding.titleTag,
+      description: cityLanding.metaDescription,
+      canonicalPath: installationAreaPath(areaSlug),
+      ogImagePath: '/gutter-installation.png',
+    });
+  }
+
+  const suburb = getInstallationSuburbLanding(areaSlug);
+  if (suburb) {
+    const intro = suburb.whyParagraphs[0] ?? '';
+    const description =
+      intro.length > 155 ? `${intro.slice(0, 152).trim()}…` : intro ||
+      `Professional gutter installation in ${suburb.city}. New uPVC systems measured, supplied and fitted with a 10-year guarantee. Call 07421 433910.`;
+    return buildMetadata({
+      absoluteTitle: `${suburb.heroTitleLine1} | WOW Gutters Ltd`,
+      description,
+      canonicalPath: installationAreaPath(areaSlug),
+      ogImagePath: '/gutter-installation.png',
+    });
+  }
+
+  const generated = getInstallationGeneratedLanding(areaSlug);
+  if (generated) {
+    return buildMetadata({
+      absoluteTitle: generated.titleTag,
+      description: generated.metaDescription,
+      canonicalPath: installationAreaPath(areaSlug),
+      ogImagePath: '/gutter-installation.png',
+    });
+  }
+
+  return buildMetadata({
+    title: `Gutter Installation ${areaName}`,
+    description: `Professional gutter installation in ${areaName}. New uPVC systems measured, supplied and fitted with a 10-year guarantee. Call WOW Gutters Ltd: 07421 433910.`,
+    canonicalPath: installationAreaPath(areaSlug),
+    ogImagePath: '/gutter-installation.png',
+  });
+}
+
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;
 
@@ -482,6 +552,9 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
 
   const upvcSlug = getUpvcAreaSlug(params.slug);
   if (upvcSlug) return buildUpvcMetadata(upvcSlug);
+
+  const installationSlug = getInstallationAreaSlug(params.slug);
+  if (installationSlug) return buildInstallationMetadata(installationSlug);
 
   const keywordSlug = getKeywordSlug(params.slug);
   if (keywordSlug) {
@@ -631,6 +704,24 @@ export default async function SingleSegmentAreaPage(props: PageProps) {
     if (maybeSuburb) return maybeSuburb;
 
     const generated = renderUpvcGeneratedAreaLanding(upvcAreaSlug);
+    if (generated) return generated;
+
+    notFound();
+  }
+
+  const installationAreaSlug = getInstallationAreaSlug(params.slug);
+  if (installationAreaSlug) {
+    if (installationAreaSlug === 'birmingham') {
+      return renderBirminghamInstallationLanding();
+    }
+
+    const maybeCity = renderInstallationCityLanding(installationAreaSlug);
+    if (maybeCity) return maybeCity;
+
+    const maybeSuburb = renderInstallationSuburbLanding(installationAreaSlug);
+    if (maybeSuburb) return maybeSuburb;
+
+    const generated = renderInstallationGeneratedAreaLanding(installationAreaSlug);
     if (generated) return generated;
 
     notFound();

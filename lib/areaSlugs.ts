@@ -288,6 +288,16 @@ export function upvcAreaPath(slug: string): string {
   return `/${upvcAreaSegment(slug)}`;
 }
 
+/** Path segment for gutter installation area pages: gutter-installation-{city}/ */
+export function installationAreaSegment(slug: string): string {
+  return `gutter-installation-${slug}/`;
+}
+
+/** Public SEO URL: /gutter-installation-{city}/ */
+export function installationAreaPath(slug: string): string {
+  return `/${installationAreaSegment(slug)}`;
+}
+
 /** Prefix from the current page to the static-export site root (./ or ../). */
 export function siteRootRelativePrefix(): string {
   if (typeof window === 'undefined') {

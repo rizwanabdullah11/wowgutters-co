@@ -70,6 +70,27 @@ export function buildRoofInspectionSchemaFaqs(city: string): SchemaFaq[] {
   ];
 }
 
+export function buildInstallationSchemaFaqs(city: string): SchemaFaq[] {
+  return [
+    {
+      question: `Does WOW Gutters Ltd supply and install guttering in ${city}?`,
+      answer: `Yes. We survey your property, measure every run, and supply and fit quality uPVC gutter and downpipe systems across ${city}. Every installation has the correct fall, properly spaced brackets and fully sealed joints, backed by a 10-year guarantee on workmanship.`,
+    },
+    {
+      question: `How much does gutter installation cost in ${city}?`,
+      answer: `Costs depend on the length of guttering, the number of downpipes, the system type and access. A typical replacement starts from around £300 and a full new system can reach £1,500. We provide a free, fixed quote after a site survey.`,
+    },
+    {
+      question: `Can you replace existing gutters in ${city}?`,
+      answer: `Yes. We remove old or damaged guttering and install a new uPVC system with correct fall and bracket spacing, and advise honestly on whether repair or replacement is better value.`,
+    },
+    {
+      question: 'Do you guarantee your installation work?',
+      answer: 'Yes. All installation work carries a 10-year guarantee on workmanship, covering correct fall, secure brackets and sealed joints.',
+    },
+  ];
+}
+
 export function buildDefaultFaqs(
   city: string,
   priceFrom: number,
@@ -134,7 +155,9 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
           ? buildInspectionSchemaFaqs(input.city)
           : serviceKind === 'roof-inspection'
             ? buildRoofInspectionSchemaFaqs(input.city)
-            : buildDefaultFaqs(input.city, input.priceFrom, input.priceTo, postcodes, input.nearbyAreas);
+            : serviceKind === 'installation'
+              ? buildInstallationSchemaFaqs(input.city)
+              : buildDefaultFaqs(input.city, input.priceFrom, input.priceTo, postcodes, input.nearbyAreas);
 
   const { city, url, priceFrom, priceTo, nearbyAreas, geo } = input;
   const businessId = `${url}#business`;
@@ -150,7 +173,9 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
           ? `Free roof inspection in ${city}. We check tiles, ridges, flashing, moss coverage and ventilation — photo report, honest advice, no obligation. Call 07421 433910.`
           : serviceKind === 'upvc'
             ? `Professional exterior uPVC cleaning in ${city}. Hot purified water restores fascias, soffits, window frames & doors. Streak-free, chemical-free, fully insured. Call 07421 433910.`
-            : `Professional gutter cleaning in ${city}. Ground-level vacuum, before & after photos, 1-year guarantee, fully insured. Call 07421 433910.`;
+            : serviceKind === 'installation'
+              ? `Professional gutter installation in ${city}. New uPVC systems measured, supplied and fitted — correct fall, proper brackets, sealed joints. Free survey, 10-year guarantee. Call 07421 433910.`
+              : `Professional gutter cleaning in ${city}. Ground-level vacuum, before & after photos, 1-year guarantee, fully insured. Call 07421 433910.`;
 
   const serviceDescription =
     serviceKind === 'roof'
@@ -161,7 +186,9 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
           ? `Free roof inspection in ${city}. Checks tiles, ridges, flashing, valleys, moss coverage and ventilation from ground level and, where safe, from a ladder, with photo documentation and a no-obligation recommendation.`
           : serviceKind === 'upvc'
             ? `Professional exterior uPVC cleaning in ${city}. Hot purified water removes algae, mould and carbon staining from fascias, soffits, window frames and doors — streak-free finish, no harsh chemicals, fully insured.`
-            : `Professional gutter cleaning in ${city}. Ground-level vacuum, no ladders, up to 4 storeys, before & after photos, downpipes cleared, 1-year guarantee.`;
+            : serviceKind === 'installation'
+              ? `Professional gutter installation in ${city}. New uPVC gutter and downpipe systems measured, supplied and fitted with correct fall, properly spaced brackets and sealed joints, backed by a 10-year workmanship guarantee.`
+              : `Professional gutter cleaning in ${city}. Ground-level vacuum, no ladders, up to 4 storeys, before & after photos, downpipes cleared, 1-year guarantee.`;
 
   return {
     '@context': 'https://schema.org',

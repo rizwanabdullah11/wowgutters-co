@@ -69,6 +69,10 @@ function repairAreaSitemapPath(slug) {
   return `/gutter-repair-${slug}/`;
 }
 
+function installationAreaSitemapPath(slug) {
+  return `/gutter-installation-${slug}/`;
+}
+
 function roofInspectionAreaSitemapPath(slug) {
   return `/roof-inspection-${slug}/`;
 }
@@ -90,6 +94,7 @@ function isExcludedSitemapPath(path) {
   if (isExcludedAreaSlugPath(norm, 'gutter-cleaning')) return true;
   if (isExcludedAreaSlugPath(norm, 'roof-cleaning')) return true;
   if (isExcludedAreaSlugPath(norm, 'gutter-repair')) return true;
+  if (isExcludedAreaSlugPath(norm, 'gutter-installation')) return true;
   if (isExcludedAreaSlugPath(norm, 'roof-inspection')) return true;
   return false;
 }
@@ -112,6 +117,12 @@ function allRepairAreaSitemapPaths() {
     .map((slug) => repairAreaSitemapPath(slug));
 }
 
+function allInstallationAreaSitemapPaths() {
+  return readAreaSlugsFromRepo()
+    .filter((slug) => !EXCLUDED_AREA_SLUGS.has(slug))
+    .map((slug) => installationAreaSitemapPath(slug));
+}
+
 function allRoofInspectionAreaSitemapPaths() {
   return readAreaSlugsFromRepo()
     .filter((slug) => !EXCLUDED_AREA_SLUGS.has(slug))
@@ -123,6 +134,7 @@ function allAreaSitemapPaths() {
     ...allGutterAreaSitemapPaths(),
     ...allRoofAreaSitemapPaths(),
     ...allRepairAreaSitemapPaths(),
+    ...allInstallationAreaSitemapPaths(),
     ...allRoofInspectionAreaSitemapPaths(),
   ];
 }
@@ -135,12 +147,14 @@ module.exports = {
   areaSitemapPath,
   roofAreaSitemapPath,
   repairAreaSitemapPath,
+  installationAreaSitemapPath,
   roofInspectionAreaSitemapPath,
   normalizePath,
   isExcludedSitemapPath,
   allGutterAreaSitemapPaths,
   allRoofAreaSitemapPaths,
   allRepairAreaSitemapPaths,
+  allInstallationAreaSitemapPaths,
   allRoofInspectionAreaSitemapPaths,
   allAreaSitemapPaths,
 };
