@@ -1,6 +1,6 @@
-import { areaPath, roofAreaPath, repairAreaPath, inspectionAreaPath, roofInspectionAreaPath, upvcAreaPath } from '@/lib/areaSlugs';
+import { areaPath, roofAreaPath, repairAreaPath, inspectionAreaPath, roofInspectionAreaPath, upvcAreaPath, installationAreaPath } from '@/lib/areaSlugs';
 
-export type AreaServiceKind = 'gutter' | 'roof' | 'repair' | 'inspection' | 'roof-inspection' | 'upvc';
+export type AreaServiceKind = 'gutter' | 'roof' | 'repair' | 'inspection' | 'roof-inspection' | 'upvc' | 'installation';
 
 export type AreaServiceMeta = {
   kind: AreaServiceKind;
@@ -203,6 +203,36 @@ export const ROOF_INSPECTION_SERVICE_META: AreaServiceMeta = {
   nearbyLinkPrefix: 'Roof Inspection',
 };
 
+export const INSTALLATION_SERVICE_META: AreaServiceMeta = {
+  kind: 'installation',
+  prefix: 'gutter-installation-',
+  pathForSlug: installationAreaPath,
+  label: 'Gutter Installation',
+  labelLower: 'gutter installation',
+  defaultPriceFrom: 300,
+  defaultPriceTo: 1500,
+  heroVideo: '/gutter-cleaning-video.mp4',
+  heroPoster: '/gutter-installation.png',
+  heroPills: [
+    { label: 'Free site survey' },
+    { label: '10-year guarantee' },
+    { label: 'Fully insured' },
+  ],
+  whatsappQuestions: [
+    'How much does gutter installation cost for my property?',
+    'Do you supply and fit new guttering systems?',
+    'Can you replace my existing gutters?',
+    'Could I get a free quote and survey arranged?',
+  ],
+  priceGuideHref: '/gutter-cleaning-prices/',
+  servicePageHref: '/services/gutter-installation/',
+  schemaHubHref: 'https://wowgutters.co.uk/services/gutter-installation/',
+  schemaHubLabel: 'Gutter Installation',
+  crawlFooterTitle: 'Find gutter installation near you',
+  crawlFooterAria: 'More gutter installation service areas',
+  nearbyLinkPrefix: 'Gutter Installation',
+};
+
 export const AREA_SERVICE_META: Record<AreaServiceKind, AreaServiceMeta> = {
   gutter: GUTTER_SERVICE_META,
   roof: ROOF_SERVICE_META,
@@ -210,6 +240,7 @@ export const AREA_SERVICE_META: Record<AreaServiceKind, AreaServiceMeta> = {
   inspection: INSPECTION_SERVICE_META,
   'roof-inspection': ROOF_INSPECTION_SERVICE_META,
   upvc: UPVC_SERVICE_META,
+  installation: INSTALLATION_SERVICE_META,
 };
 
 export function roofPriceFrom(gutterFrom: number): number {
@@ -234,4 +265,12 @@ export function upvcPriceFrom(gutterFrom: number): number {
 
 export function upvcPriceTo(gutterTo: number): number {
   return Math.max(280, Math.round(gutterTo * 2.6));
+}
+
+export function installationPriceFrom(gutterFrom: number): number {
+  return Math.max(300, Math.round(gutterFrom * 6));
+}
+
+export function installationPriceTo(gutterTo: number): number {
+  return Math.max(400, Math.round(gutterTo * 10.5));
 }

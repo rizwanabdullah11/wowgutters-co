@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { CheckCircle2, ArrowRight } from 'lucide-react';
 import { colors } from '@/constants/colors';
 import { AREA_SERVICE_META, type AreaServiceKind } from '@/lib/areaServiceMeta';
-import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, inspectionAreaPath, roofInspectionAreaPath, upvcAreaPath } from '@/lib/areaSlugs';
+import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, inspectionAreaPath, roofInspectionAreaPath, upvcAreaPath, installationAreaPath } from '@/lib/areaSlugs';
 import { getAreaData } from '@/lib/getAreaData';
 import { areaLinkLabel } from '@/lib/crawlHub';
 
@@ -48,11 +48,18 @@ export default function AreaServicesHub({
   // the complementary roof/gutter/repair services the user may also need).
   const relatedServices: { label: string; href: string; description: string }[] = [
     {
-      label: 'Gutter Cleaning',
-      href: meta.servicePageHref === '/services/gutter-cleaning/' ? '/services/gutter-cleaning/' : meta.servicePageHref,
+      label: meta.kind === 'installation' ? 'Gutter Installation' : 'Gutter Cleaning',
+      href: meta.kind === 'gutter' ? '/services/gutter-cleaning/' : meta.servicePageHref,
       description: meta.kind === 'gutter'
         ? 'You are on a gutter cleaning page — book a full clean with our vacuum system.'
-        : 'Add a full gutter clean to the same visit for a discounted combined price.',
+        : meta.kind === 'installation'
+          ? 'You are on a gutter installation page — free survey and fixed quote available.'
+          : 'Add a full gutter clean to the same visit for a discounted combined price.',
+    },
+    {
+      label: 'Gutter Installation',
+      href: '/services/gutter-installation/',
+      description: 'New uPVC and seamless guttering measured, supplied and fitted with a 10-year guarantee.',
     },
     {
       label: 'Gutter Repairs',
@@ -100,6 +107,7 @@ export default function AreaServicesHub({
     : serviceKind === 'repair' ? 'Gutter Repairs'
     : serviceKind === 'roof-inspection' ? 'Roof Inspections'
     : serviceKind === 'upvc' ? 'Exterior uPVC Care'
+    : serviceKind === 'installation' ? 'Gutter Installations'
     : 'Gutter Inspections';
 
   return (
@@ -175,7 +183,9 @@ export default function AreaServicesHub({
                             ? `Roof Inspection ${l.label}`
                             : serviceKind === 'upvc'
                               ? `Exterior uPVC Cleaning ${l.label}`
-                              : `Gutter Cleaning ${l.label}`}
+                              : serviceKind === 'installation'
+                                ? `Gutter Installation ${l.label}`
+                                : `Gutter Cleaning ${l.label}`}
                   </Link>
                 </li>
               ))}
@@ -231,6 +241,7 @@ function pathForKind(kind: AreaServiceKind, slug: string): string {
   if (kind === 'inspection') return inspectionAreaPath(slug);
   if (kind === 'roof-inspection') return roofInspectionAreaPath(slug);
   if (kind === 'upvc') return upvcAreaPath(slug);
+  if (kind === 'installation') return installationAreaPath(slug);
   return areaPath(slug);
 }
 

@@ -25,6 +25,9 @@ function toServiceSlug(gutterSlug: string, serviceKind: AreaServiceKind): string
   if (serviceKind === 'upvc') {
     return gutterSlug.replace(/^gutter-cleaning-/, 'exterior-upvc-cleaning-');
   }
+  if (serviceKind === 'installation') {
+    return gutterSlug.replace(/^gutter-cleaning-/, 'gutter-installation-');
+  }
   return gutterSlug;
 }
 

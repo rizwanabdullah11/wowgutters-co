@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, roofInspectionAreaPath, upvcAreaPath } from '@/lib/areaSlugs';
+import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, roofInspectionAreaPath, upvcAreaPath, installationAreaPath } from '@/lib/areaSlugs';
 import { blogPosts } from '@/constants/blogData';
 import { servicesData } from '@/constants/servicesData';
 import { CONTENT_LAST_UPDATED_ISO } from '@/lib/contentFreshness';
@@ -49,6 +49,7 @@ function lastModForRoute(route: string, fallback: Date): Date {
   const areaSlug =
     route.match(/^\/(?:gutter|roof)-cleaning-(.+)$/)?.[1] ??
     route.match(/^\/gutter-repair-(.+)$/)?.[1] ??
+    route.match(/^\/gutter-installation-(.+)$/)?.[1] ??
     route.match(/^\/gutter-inspection-(.+)$/)?.[1] ??
     route.match(/^\/roof-inspection-(.+)$/)?.[1] ??
     route.match(/^\/exterior-upvc-cleaning-(.+)$/)?.[1];
@@ -176,6 +177,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: withTrailingSlash(upvcAreaPath(slug)),
       lastModified: lastModForRoute(upvcAreaPath(slug), lastUpdated),
+      changeFrequency: 'monthly' as const,
+      priority: 0.85,
+    },
+    {
+      url: withTrailingSlash(installationAreaPath(slug)),
+      lastModified: lastModForRoute(installationAreaPath(slug), lastUpdated),
       changeFrequency: 'monthly' as const,
       priority: 0.85,
     },

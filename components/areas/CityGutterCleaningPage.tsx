@@ -315,7 +315,7 @@ export default function CityGutterCleaningPage({
       <AreaServicesRange />
       <AreaRecentWork />
       <AreaContactMap geo={data.geo} />
-      {serviceKind === 'repair' || serviceKind === 'inspection' ? (
+      {serviceKind === 'repair' || serviceKind === 'inspection' || serviceKind === 'installation' ? (
         <AreaCrawlFooter currentSlug={data.slug} serviceKind={serviceKind} />
       ) : (
         <AreaServicesHub currentSlug={data.slug} serviceKind={serviceKind} cityName={data.city} />
