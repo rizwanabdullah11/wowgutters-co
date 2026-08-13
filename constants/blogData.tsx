@@ -38,10 +38,12 @@ import { flatRoofGuttersBirminghamMaintenanceGuideBlogPost } from './flatRoofGut
 import { treeCoverGutterScheduleBlogPost } from './treeCoverGutterCleaningScheduleBlog';
 import { mossOnYourRoofBirminghamGuttersBlogPost } from './mossOnYourRoofBirminghamGuttersBlog';
 import { blockManagementGutterMaintenanceBlogPost } from './blockManagementGutterMaintenanceBlog';
+import { soffitDamageWestMidlandsEarlySignsBlogPost } from './soffitDamageWestMidlandsEarlySignsBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  soffitDamageWestMidlandsEarlySignsBlogPost,
   blockManagementGutterMaintenanceBlogPost,
   mossOnYourRoofBirminghamGuttersBlogPost,
   treeCoverGutterScheduleBlogPost,
