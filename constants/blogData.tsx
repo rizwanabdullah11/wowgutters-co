@@ -40,10 +40,12 @@ import { mossOnYourRoofBirminghamGuttersBlogPost } from './mossOnYourRoofBirming
 import { blockManagementGutterMaintenanceBlogPost } from './blockManagementGutterMaintenanceBlog';
 import { soffitDamageWestMidlandsEarlySignsBlogPost } from './soffitDamageWestMidlandsEarlySignsBlog';
 import { windDirectionDebrisBuildupBlogPost } from './windDirectionDebrisBuildupBlog';
+import { autumnLeafFallTreeTypeBlogPost } from './autumnLeafFallTreeTypeBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  autumnLeafFallTreeTypeBlogPost,
   windDirectionDebrisBuildupBlogPost,
   soffitDamageWestMidlandsEarlySignsBlogPost,
   blockManagementGutterMaintenanceBlogPost,
