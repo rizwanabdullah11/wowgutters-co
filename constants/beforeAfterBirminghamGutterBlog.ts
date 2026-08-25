@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  'https://vertical-amaranth-ungrtgjm.edgeone.app/birmingham-gutter-clean-hero.png';
+  '/blog-images/professional-gutter-clean/professional-gutter-cleaning-hero.png';
 const IMG_BEFORE =
-  'https://conservative-sapphire-ozataxgk.edgeone.app/birmingham-gutter-clean-before.png';
+  '/blog-images/professional-gutter-clean/professional-gutter-cleaning-before.png';
 const IMG_AFTER =
-  'https://conservative-sapphire-ozataxgk.edgeone.app/birmingham-gutter-clean-after.png';
+  '/blog-images/professional-gutter-clean/professional-gutter-cleaning-after.png';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 const ctaBox = `

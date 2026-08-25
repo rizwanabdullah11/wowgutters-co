@@ -26,48 +26,6 @@ const nextConfig: NextConfig = {
         port: "",
         pathname: "/**",
       },
-      {
-        protocol: "https",
-        hostname: "impossible-salmon-kblbwhsr.edgeone.app",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "electric-orange-ibaaimtl.edgeone.app",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "regional-apricot-mdidwxeu.edgeone.app",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "brilliant-scarlet-yk3rny0o.edgeone.app",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "damp-brown-aythdjbu.edgeone.dev",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "sacred-purple-gnerkdvb.edgeone.app",
-        port: "",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "smooth-magenta-uctn3vj4.edgeone.dev",
-        port: "",
-        pathname: "/**",
-      },
     ],
   },
 };

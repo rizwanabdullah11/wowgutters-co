@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  'https://regional-apricot-mdidwxeu.edgeone.app/Ladywood-gutter-cleaning-hero.png';
+  '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-hero.png';
 const IMG_BEFORE =
-  'https://regional-apricot-mdidwxeu.edgeone.app/Ladywood-gutter-cleaning-before.png';
+  '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-before.png';
 const IMG_AFTER =
-  'https://regional-apricot-mdidwxeu.edgeone.app/Ladywood-gutter-cleaning-after.png';
+  '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-after.png';
 
 const link = 'color: #19C58B; font-weight: 600; text-decoration: none;';
 const ctaBox = `
@@ -235,7 +235,7 @@ Monument Road · Ryland Road · Icknield Port Road · Sherborne Street · Sheepc
   <li><strong>We work from the ground on every property.</strong> Victorian terraces, new-build canalside townhouses, managed apartment blocks — the vacuum system operates from ground level on all of them. No ladder contacts the roofline of any B16 property we clean.</li>
   <li><strong>We include downpipe clearance as standard.</strong> On every visit. Not as an additional service. Not something we offer if asked. The downpipe is part of the drainage system, and clearing the channel while leaving the downpipe blocked is an incomplete job.</li>
   <li><strong>We are honest about what we find.</strong> If we identify a gutter joint failing, a bracket pulling away, a parapet outlet blocked, or any roofline condition that needs attention beyond the clean, we tell you clearly in writing. No pressure. No upselling. Accurate information about your property's condition.</li>
-  <li><strong>4.9 stars from over 2,696 verified customers</strong> across Birmingham and the West Midlands. Read the reviews before you call. Nearly three thousand customers across a wide range of property types and postcodes.</li>
+  <li><strong>4.9 stars from verified customers</strong> across Birmingham and the West Midlands. Read the reviews before you call.</li>
   <li><strong>We are fully insured.</strong> Public liability insurance on every visit, every property type, every time.</li>
   <li><strong>We are a Birmingham company.</strong> Working across the full city, including Ladywood B16 and all surrounding inner-city and suburban postcodes. We don't treat some areas of Birmingham better than others, and we don't send a different standard of service to postcodes that don't match a premium image. Every property gets the same vacuum equipment, the same photographic documentation, and the same thorough process.</li>
 </ul>

@@ -93,7 +93,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 'fascias-soffits-west-midlands',
     title: 'Fascias & Soffits — Professional Gutter Cleaning & Fixing Across the West Midlands',
-    excerpt: 'Expert gutter cleaning, debris removal, fascia & soffit washing, and moss & algae treatments — serving Birmingham, Coventry, Wolverhampton, Solihull, Walsall, Dudley and all surrounding areas. Rated 4.9? by 2,696+ customers.',
+    excerpt: 'Expert gutter cleaning, debris removal, fascia & soffit washing, and moss & algae treatments — serving Birmingham, Coventry, Wolverhampton, Solihull, Walsall, Dudley and all surrounding areas. Highly rated by verified customers.',
     image: '/westmidlands-before-after.png',
     heroVideo: '/fasica-soffits.mp4',
     date: '2026-05-20',
@@ -102,7 +102,7 @@ export const blogPosts: BlogPost[] = [
     authorRole: 'Professional Gutter Cleaning Specialists',
     category: 'Maintenance',
     lastUpdated: '2026-05-20',
-    quickAnswer: 'WOW Gutters Ltd provides complete roofline care across the West Midlands — from deep gutter cleaning and blocked downpipe clearing, to fascia and soffit washing and full moss and algae treatments. All carried out safely from ground level, with no mess left behind. Rated 4.9? by over 2,696 customers. Call 07421 433910 for same-day booking.',
+    quickAnswer: 'WOW Gutters Ltd provides complete roofline care across the West Midlands — from deep gutter cleaning and blocked downpipe clearing, to fascia and soffit washing and full moss and algae treatments. All carried out safely from ground level, with no mess left behind. Highly rated by verified customers. Call 07421 433910 for same-day booking.',
     breadcrumbName: 'Fascias & Soffits West Midlands',
     content: `
 <h2>Real West Midlands Job: Before &amp; After</h2>
@@ -286,7 +286,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>With thousands of <strong>roofline cleans</strong> completed across <a href="/gutter-cleaning-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">Birmingham</a>, <a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; font-weight: 600; text-decoration: none;">Coventry</a>, <a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <strong>Walsall</strong>, <strong>Dudley</strong> and beyond, <a href="https://wowgutters.co.uk" style="color: #19C58B; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> has built a reputation for honest, reliable, and high-quality work.</p>
 
-<h3>? Rated 4.9 Stars by 2,696+ Customers</h3>
+<h3>? Highly Rated by Verified Customers</h3>
 
 <p>Our reviews speak for themselves. Homeowners from Sutton Coldfield to Stourbridge, Coventry to Wolverhampton consistently rate us as their most trusted local roofline specialist.</p>
 
@@ -419,7 +419,7 @@ export const blogPosts: BlogPost[] = [
   <li>? Fully insured, professional local technicians</li>
   <li>? <strong>Ground-level vacuum system</strong> — zero ladders</li>
   <li>? Before and after photo evidence on every single job</li>
-  <li>? <strong>4.9? rated</strong> with over 2,696 verified Google reviews</li>
+  <li>? <strong>Highly rated</strong> with verified Google reviews</li>
   <li>? Available <strong>24 hours a day</strong> including weekends</li>
 </ul>
 
@@ -627,7 +627,7 @@ export const blogPosts: BlogPost[] = [
   <li>? Ground-level vacuum system — zero ladders</li>
   <li>? Before and after photo evidence on every single job</li>
   <li>? 12-month guarantee on all cleaning work</li>
-  <li>? 4.9? rated with over 2,696 verified Google reviews</li>
+  <li>? Highly rated with verified Google reviews</li>
 </ul>
 
 <p>?? <strong>Call us now:</strong> <strong><a href="tel:07421433910" style="color: #000000; text-decoration: none;">07421 433910</a></strong><br>
@@ -936,7 +936,7 @@ export const blogPosts: BlogPost[] = [
   <li>? Ground-level vacuum system — zero ladders</li>
   <li>? Before and after photo evidence on every single job</li>
   <li>? 12-month guarantee on all cleaning work</li>
-  <li>? 4.9? rated with over 2,696 verified Google reviews</li>
+  <li>? Highly rated with verified Google reviews</li>
 </ul>
 
 <p>?? <strong>Call us now:</strong> <strong><a href="tel:07421433910" style="color: #000000; text-decoration: none;">07421 433910</a></strong><br>
@@ -1151,7 +1151,7 @@ export const blogPosts: BlogPost[] = [
         <li>? Ground-level vacuum system — no ladders, no scaffolding</li>
         <li>? Before & after photo evidence on every job</li>
         <li>? 1-year guarantee on all cleaning work</li>
-        <li>? 4.9? rated with over 2,696 verified Google reviews</li>
+        <li>? Highly rated with verified Google reviews</li>
       </ul>
 
       <p>?? <strong>Call us now:</strong> 07421 433910<br>
@@ -1361,7 +1361,7 @@ export const blogPosts: BlogPost[] = [
         <li>? Ground-level vacuum system — no ladders, no scaffolding, no disruption</li>
         <li>? Before & after photo evidence on every job</li>
         <li>? 1-year guarantee on all cleaning work</li>
-        <li>? 4.9? rated with over 2,696 verified Google reviews</li>
+        <li>? Highly rated with verified Google reviews</li>
       </ul>
       <p>?? <strong>Call us now:</strong> 07421 433910<br>
       ?? <strong>Email:</strong> support@wowgutters.co.uk<br>
@@ -1930,7 +1930,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 'gutter-cleaning-solihull',
     title: 'Gutter Cleaning Solihull — Professional, Reliable & Fully Guaranteed',
-    excerpt: 'Professional gutter cleaning, downpipe clearing, fascia & soffit washing and gutter repairs across Solihull, Shirley, Knowle, Dorridge, Balsall Common, Meriden, Cheswick Green and all surrounding areas. Rated 4.9? by 2,696+ customers.',
+    excerpt: 'Professional gutter cleaning, downpipe clearing, fascia & soffit washing and gutter repairs across Solihull, Shirley, Knowle, Dorridge, Balsall Common, Meriden, Cheswick Green and all surrounding areas. Highly rated by verified customers.',
     image: '/solihull-gutter-cleaning-hero.png',
     heroVideo: '/gutter-cleaning-video.mp4',
     date: '2026-05-21',
@@ -1939,7 +1939,7 @@ export const blogPosts: BlogPost[] = [
     authorRole: 'Professional Gutter Cleaning Specialists',
     category: 'Maintenance',
     lastUpdated: '2026-05-21',
-    quickAnswer: 'WOW Gutters Ltd provides professional gutter cleaning, downpipe clearing, fascia & soffit washing and gutter repairs across Solihull and all surrounding areas — Shirley, Knowle, Dorridge, Balsall Common, Cheswick Green, Meriden and beyond. Ground-level vacuum system, no ladders, before & after photos on every job. Rated 4.9? by over 2,696 customers. Call 07421 433910 for same-day booking.',
+    quickAnswer: 'WOW Gutters Ltd provides professional gutter cleaning, downpipe clearing, fascia & soffit washing and gutter repairs across Solihull and all surrounding areas — Shirley, Knowle, Dorridge, Balsall Common, Cheswick Green, Meriden and beyond. Ground-level vacuum system, no ladders, before & after photos on every job. Highly rated by verified customers. Call 07421 433910 for same-day booking.',
     breadcrumbName: 'Gutter Cleaning Solihull',
     content: `
 <h2>Real Solihull Job: Before &amp; After</h2>
@@ -2116,7 +2116,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Domestic and commercial</strong> — both covered</li>
 </ul>
 
-<h3>? Rated 4.9 Stars by 2,696+ Customers</h3>
+<h3>? Highly Rated by Verified Customers</h3>
 
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <em>"Excellent service from start to finish. The team arrived on time, cleaned our gutters without any fuss, and left the drive spotless. Will definitely use again."</em><br/>
@@ -2263,7 +2263,7 @@ export const blogPosts: BlogPost[] = [
   <li>? <strong>Ground-level vacuum system</strong> — zero ladders</li>
   <li>? Before and after photo evidence on every single job</li>
   <li>? <strong>6-month guarantee</strong> on all repair work</li>
-  <li>? <strong>4.9? rated</strong> with over 2,696 verified Google reviews</li>
+  <li>? <strong>Highly rated</strong> with verified Google reviews</li>
   <li>? Available <strong>24 hours a day</strong> including weekends</li>
 </ul>
 
@@ -2388,7 +2388,7 @@ export const blogPosts: BlogPost[] = [
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
     <h3 style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.2;">BOOK YOUR WALSALL GUTTER CLEAN</h3>
-    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Same-day availability across all WS postcodes. Fixed price, no hidden fees. Rated 4.9? by 2,696+ customers.</p>
+    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Same-day availability across all WS postcodes. Fixed price, no hidden fees. Highly rated by verified customers.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
     <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
@@ -2461,7 +2461,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Why Walsall Homeowners Choose WOW Gutters Ltd</h2>
 
-<p>There are plenty of companies offering gutter cleaning across Walsall and the West Midlands. Here's why homeowners come back to WOW Gutters Ltd — and why we're rated 4.9? by more than 2,696 customers:</p>
+<p>There are plenty of companies offering gutter cleaning across Walsall and the West Midlands. Here's why homeowners come back to WOW Gutters Ltd — and why we're highly rated by verified customers:</p>
 
 <ul>
   <li>?? <strong>No ladders, ever.</strong> Our ground-level vacuum system reaches up to four storeys — no ladders placed against your property, no risk to your fascias, render, or windows</li>
@@ -2671,7 +2671,7 @@ export const blogPosts: BlogPost[] = [
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
     <h3 style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.2;">BOOK YOUR WALSALL GUTTER CLEAN</h3>
-    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Same-day availability across all WS postcodes. Rated 4.9? by 2,696+ customers.</p>
+    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Same-day availability across all WS postcodes. Highly rated by verified customers.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
     <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
@@ -2858,7 +2858,7 @@ export const blogPosts: BlogPost[] = [
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
     <h3 style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.2;">BOOK YOUR DUDLEY ROOF CLEAN</h3>
-    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Same-day availability across all DY postcodes. Rated 4.9? by 2,696+ customers across the West Midlands.</p>
+    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Same-day availability across all DY postcodes. Highly rated by verified customers across the West Midlands.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
     <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
@@ -3121,7 +3121,7 @@ export const blogPosts: BlogPost[] = [
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
     <h3 style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.2;">BOOK YOUR BARTLEY GREEN GUTTER CLEAN</h3>
-    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Same-day availability across all B31 and B32 postcodes. Rated 4.9? by 2,696+ customers across Birmingham and the West Midlands.</p>
+    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Same-day availability across all B31 and B32 postcodes. Highly rated by verified customers across Birmingham and the West Midlands.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
     <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">

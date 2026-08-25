@@ -213,7 +213,7 @@ export const yardleyBlogPost: BlogPost = {
   <li><strong>We work from the ground on every property.</strong> Our vacuum system reaches the full gutter run from ground level. No ladder is positioned against your property. This protects your fascia boards, your gutter brackets, and your brickwork from the contact damage that traditional cleaning methods can cause.</li>
   <li><strong>We don't leave until the downpipe is clear.</strong> Downpipe clearance is part of the job — included on every visit, without being asked. We test every downpipe, clear any blockage found, and flush the system before we leave. A gutter clean that doesn't include the downpipe is an incomplete job.</li>
   <li><strong>We are honest about what we find.</strong> After every clean, you receive a written summary of the gutter and roofline condition. If something needs attention beyond a clean, we tell you clearly — without pressure, without upselling. You get the facts and you decide what to do next.</li>
-  <li><strong>4.9 stars from over 2,696 verified customers.</strong> Across Birmingham and the West Midlands. Real reviews, real customers, real results. Check them before you call.</li>
+  <li><strong>4.9 stars from verified customers.</strong> Across Birmingham and the West Midlands. Real reviews, real customers, real results. Check them before you call.</li>
   <li><strong>We are a Birmingham company.</strong> Not a booking platform. Not a national franchise with a regional subcontractor. A local team, working across east Birmingham every week, who understand the properties and the conditions on B25 streets.</li>
 </ul>
 

@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  'https://linear-peach-hud0dr6g.edgeone.dev/scoffts-gutter-cleaning-hero.png';
+  '/blog-images/scoffts-gutter-cleaning/scoffts-gutter-cleaning-hero.png';
 const IMG_BEFORE =
-  'https://linear-peach-hud0dr6g.edgeone.dev/scoffts-gutter-cleaning-before.png';
+  '/blog-images/scoffts-gutter-cleaning/scoffts-gutter-cleaning-before.png';
 const IMG_AFTER =
-  'https://linear-peach-hud0dr6g.edgeone.dev/scoffts-gutter-cleaning-after.png';
+  '/blog-images/scoffts-gutter-cleaning/scoffts-gutter-cleaning-after.png';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

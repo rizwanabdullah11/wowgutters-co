@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HOME =
-  'https://fixed-amaranth-gmxdxn1h.edgeone.dev/can-gutter-cleaning-hero.png';
+  '/blog-images/can-gutter-cleaning/can-gutter-cleaning-hero.png';
 const IMG_BEFORE =
-  'https://fixed-amaranth-gmxdxn1h.edgeone.dev/can-gutter-cleaning-before.png';
+  '/blog-images/can-gutter-cleaning/can-gutter-cleaning-before.png';
 const IMG_AFTER =
-  'https://fixed-amaranth-gmxdxn1h.edgeone.dev/can-gutter-cleaning-after.png';
+  '/blog-images/can-gutter-cleaning/can-gutter-cleaning-after.png';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

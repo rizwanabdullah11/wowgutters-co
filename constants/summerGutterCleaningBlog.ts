@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  'https://electric-orange-ibaaimtl.edgeone.app/birmingham-gutter-cleaning-hero.png';
+  '/blog-images/professional-gutter-clean/professional-gutter-cleaning-hero.png';
 const IMG_BEFORE =
-  'https://electric-orange-ibaaimtl.edgeone.app/birmingham-gutter-cleaning-before.png';
+  '/blog-images/professional-gutter-clean/professional-gutter-cleaning-before.png';
 const IMG_AFTER =
-  'https://electric-orange-ibaaimtl.edgeone.app/birmingham-gutter-cleaning-after.png';
+  '/blog-images/professional-gutter-clean/professional-gutter-cleaning-after.png';
 
 const link = 'color: #19C58B; font-weight: 600; text-decoration: none;';
 const ctaBox = `

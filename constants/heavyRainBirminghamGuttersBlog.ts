@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  'https://outstanding-lavender-rj5txoju.edgeone.app/gutter-cleaning-handworths-hero.png';
+  '/blog-images/clay-gutter-cleaning/clay-gutter-cleaning-hero.png';
 const IMG_BEFORE =
-  'https://outstanding-lavender-rj5txoju.edgeone.app/gutter-cleaning-handsworth-before.png';
+  '/blog-images/clay-gutter-cleaning/clay-gutter-cleaning-before.png';
 const IMG_AFTER =
-  'https://outstanding-lavender-rj5txoju.edgeone.app/gutter-cleaning-handsworth-after.png';
+  '/blog-images/clay-gutter-cleaning/clay-gutter-cleaning-after.png';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 const ctaBox = `

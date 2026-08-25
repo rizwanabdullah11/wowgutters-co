@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  'https://absent-chocolate-jfvuie6j.edgeone.dev/professional-gutter-cleaning-hero.png';
+  '/blog-images/clay-gutter-cleaning/clay-gutter-cleaning-hero.png';
 const IMG_BEFORE =
-  'https://absent-chocolate-jfvuie6j.edgeone.dev/professional-gutter-cleaning-before.png';
+  '/blog-images/clay-gutter-cleaning/clay-gutter-cleaning-before.png';
 const IMG_AFTER =
-  'https://absent-chocolate-jfvuie6j.edgeone.dev/professional-gutter-cleaning-after.png';
+  '/blog-images/clay-gutter-cleaning/clay-gutter-cleaning-after.png';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 const ctaBox = `

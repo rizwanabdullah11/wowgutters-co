@@ -490,9 +490,9 @@ export default function KeywordLandingPage({ page }: { page: KeywordPage }) {
             </p>
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                { src: 'https://smooth-magenta-uctn3vj4.edgeone.dev/warehouse-gutter-cleaning-2.jpeg', alt: 'Commercial gutter and roof cleaning — warehouse' },
-                { src: 'https://smooth-magenta-uctn3vj4.edgeone.dev/warehouse-gutter-cleaning-11.jpeg', alt: 'Commercial gutter and roof cleaning — industrial' },
-                { src: 'https://smooth-magenta-uctn3vj4.edgeone.dev/warehouse-gutter-cleaning-8.jpeg', alt: 'Commercial gutter and roof cleaning — after treatment' },
+                { src: '/blog-images/leaf-removing-gutter-cleaning-hero.png', alt: 'Commercial gutter and roof cleaning — warehouse' },
+                { src: '/blog-images/leaf-removing-gutter-cleaning-after.png', alt: 'Commercial gutter and roof cleaning — industrial' },
+                { src: '/blog-images/leaf-removing-gutter-cleaning-image1.png', alt: 'Commercial gutter and roof cleaning — after treatment' },
               ].map((img) => (
                 <div key={img.src} className="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow">
                   <img

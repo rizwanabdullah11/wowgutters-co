@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HOME =
-  'https://grubby-tan-jq7qgqxo.edgeone.dev/home-quietly-gutter-home.png';
+  '/blog-images/home-quietly-gutter/home-quietly-gutter-home.png';
 const IMG_BEFORE =
-  'https://grubby-tan-jq7qgqxo.edgeone.dev/home-quietly-gutter-before.png';
+  '/blog-images/home-quietly-gutter/home-quietly-gutter-before.png';
 const IMG_AFTER =
-  'https://grubby-tan-jq7qgqxo.edgeone.dev/home-quietly-gutter-after.png';
+  '/blog-images/home-quietly-gutter/home-quietly-gutter-after.png';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

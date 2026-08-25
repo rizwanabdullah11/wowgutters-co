@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  'https://nursing-moccasin-vsjulsoa.edgeone.dev/preparing-gutter-summer-hero.png';
+  '/blog-images/dispatch-gutter-cleaning/dispatch-gutter-cleaning-hero.png';
 const IMG_BEFORE =
-  'https://nursing-moccasin-vsjulsoa.edgeone.dev/preparing-gutter-summer-before.png';
+  '/blog-images/dispatch-gutter-cleaning/dispatch-gutter-cleaning-before.png';
 const IMG_AFTER =
-  'https://nursing-moccasin-vsjulsoa.edgeone.dev/preparing-gutter-summer-after.png';
+  '/blog-images/dispatch-gutter-cleaning/dispatch-gutter-cleaning-after.png';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 const ctaBox = `

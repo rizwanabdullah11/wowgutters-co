@@ -188,7 +188,7 @@ ${ctaBox}
   <li><strong>We don't leave until the downpipe is clear.</strong> Downpipe clearance is part of every visit — not an extra charge.</li>
   <li><strong>We tell you the truth about what we find.</strong> No pressure to book unnecessary work — just accurate information about your property.</li>
   <li><strong>We are a Birmingham company serving Birmingham properties.</strong> A local team working across east Birmingham regularly, with genuine understanding of B27 streets.</li>
-  <li><strong>4.9 stars from over 2,696 verified customers</strong> across Birmingham and the West Midlands.</li>
+  <li><strong>Highly rated by verified customers</strong> across Birmingham and the West Midlands.</li>
 </ul>
 
 <p>See our full <a href="/gutter-cleaning-birmingham/" style="${link}">gutter cleaning in Birmingham</a> service area.</p>

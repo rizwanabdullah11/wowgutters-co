@@ -80,7 +80,7 @@ export function buildAboutPageSchemaGraph() {
         aggregateRating: {
           '@type': 'AggregateRating',
           ratingValue: '4.9',
-          reviewCount: '2696',
+          reviewCount: '100',
           bestRating: '5',
           worstRating: '1',
         },

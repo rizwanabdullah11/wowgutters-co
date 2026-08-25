@@ -3,7 +3,7 @@ import { lowValuePageRobots } from '@/lib/lowValuePageSeo';
 
 export const metadata: Metadata = {
   title: 'Awards & Recognition',
-  description: 'WOW Gutters Ltd awards & recognition. 4.9★ rated, 2,696+ reviews. Trusted Birmingham & West Midlands gutter cleaning service.',
+  description: 'WOW Gutters Ltd awards & recognition. Highly rated with verified reviews. Trusted Birmingham & West Midlands gutter cleaning service.',
   alternates: {
     canonical: 'https://wowgutters.co.uk/awards/',
   },

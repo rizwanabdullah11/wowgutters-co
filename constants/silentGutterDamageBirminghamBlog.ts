@@ -1,9 +1,9 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  'https://sacred-purple-gnerkdvb.edgeone.app/blocked-gutter-cleaning-hero.png';
+  '/blog-images/home-quietly-gutter/home-quietly-gutter-home.png';
 const IMG_BEFORE =
-  'https://sacred-purple-gnerkdvb.edgeone.app/blocked-gutter-cleaning-before.png';
+  '/blog-images/home-quietly-gutter/home-quietly-gutter-before.png';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

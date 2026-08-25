@@ -21,7 +21,7 @@ export const guttersTellingYouSummerBlogPost: BlogPost = {
   seoTitle: 'What Your Gutters Are Trying to Tell You This Summer | WOW Gutters Ltd Birmingham',
   title: 'What Your Gutters Are Trying to Tell You This Summer',
   excerpt: 'Your gutters are already showing signs of trouble — most homeowners just don\'t know how to read them. Here are the specific summer warning signals every Birmingham property gives off, and what each one means. Call 07421 433910.',
-  image: 'https://minor-copper-e2qqaqtd.edgeone.dev/gutter-cleaning-summer-hero.png',
+  image: '/blog-images/leaf-removing-gutter-cleaning-hero.png',
   date: '2026-07-27',
   views: '0',
   author: 'WOW Gutters Ltd Technical Team',
@@ -184,12 +184,12 @@ ${ctaBox}
 <p>The photographs below show a Birmingham property where multiple warning signs were present — a dark fascia stain, visible overflow points, and slow drainage after rainfall. One professional visit identified every issue and resolved it while summer conditions made the work straightforward.</p>
 
 <figure style="margin: 20px 0;">
-  <img src="https://minor-copper-e2qqaqtd.edgeone.dev/gutter-cleaning-summer-before.png" alt="Before — Birmingham property with blocked gutters showing fascia staining, debris buildup, and visible overflow warning signs in summer" width="1280" height="720" loading="eager" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="/blog-images/leaf-removing-gutter-cleaning-before.png" alt="Before — Birmingham property with blocked gutters showing fascia staining, debris buildup, and visible overflow warning signs in summer" width="1280" height="720" loading="eager" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">Before: A Birmingham property's gutter system showing multiple warning signs — fascia staining, debris visible from ground level, and evidence of repeated overflow at the downpipe entry point.</figcaption>
 </figure>
 
 <figure style="margin: 20px 0;">
-  <img src="https://minor-copper-e2qqaqtd.edgeone.dev/gutter-cleaning-summer-after.png" alt="After — Same Birmingham property after professional gutter cleaning — channel fully cleared, downpipe flowing freely, all warning signs resolved" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="/blog-images/leaf-removing-gutter-cleaning-after.png" alt="After — Same Birmingham property after professional gutter cleaning — channel fully cleared, downpipe flowing freely, all warning signs resolved" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">After: The same gutter system fully cleared — channel open, downpipe flowing freely, and every warning sign addressed before autumn rainfall arrives. Real-time camera inspection confirmed the result.</figcaption>
 </figure>
 

@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  'https://old-azure-myu9ywx8.edgeone.dev/tree-cover-gutter-cleaning-hero.png';
+  '/blog-images/tree-cover-gutter-cleaning/tree-cover-gutter-cleaning-hero.png';
 const IMG_BEFORE =
-  'https://old-azure-myu9ywx8.edgeone.dev/tree-cover-gutter-cleaning-before.png';
+  '/blog-images/tree-cover-gutter-cleaning/tree-cover-gutter-cleaning-before.png';
 const IMG_AFTER =
-  'https://old-azure-myu9ywx8.edgeone.dev/tree-cover-gutter-cleaning-after.png';
+  '/blog-images/tree-cover-gutter-cleaning/tree-cover-gutter-cleaning-after.png';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 
