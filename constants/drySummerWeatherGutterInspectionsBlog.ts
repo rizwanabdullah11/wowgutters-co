@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  'https://kind-blue-j6uo1gpk.edgeone.dev/summer-gutter-inspection-hero.png';
+  '/blog-images/leaf-removing-gutter-cleaning-hero.png';
 const IMG_BEFORE =
-  'https://kind-blue-j6uo1gpk.edgeone.dev/summer-gutter-inspection-before.png';
+  '/blog-images/leaf-removing-gutter-cleaning-before.png';
 const IMG_AFTER =
-  'https://kind-blue-j6uo1gpk.edgeone.dev/summer-gutter-inspection-after.png';
+  '/blog-images/leaf-removing-gutter-cleaning-after.png';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 const ctaBox = `

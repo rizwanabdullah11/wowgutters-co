@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  'https://colonial-aqua-ospsmrps.edgeone.dev/moss-removal-gutter-hero.png';
+  '/blog-images/leaf-removing-gutter-cleaning-hero.png';
 const IMG_BEFORE =
-  'https://colonial-aqua-ospsmrps.edgeone.dev/moss-removal-gutter-before.png';
+  '/blog-images/leaf-removing-gutter-cleaning-before.png';
 const IMG_AFTER =
-  'https://colonial-aqua-ospsmrps.edgeone.dev/moss-removal-gutter-after.png';
+  '/blog-images/leaf-removing-gutter-cleaning-after.png';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

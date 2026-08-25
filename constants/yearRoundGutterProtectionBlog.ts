@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  'https://raspy-magenta-tgez8ums.edgeone.dev/gutter-cleaning-help-hero.png';
+  '/blog-images/leaf-removing-gutter-cleaning-hero.png';
 const IMG_BEFORE =
-  'https://raspy-magenta-tgez8ums.edgeone.dev/gutter-cleaning-help-before.png';
+  '/blog-images/leaf-removing-gutter-cleaning-before.png';
 const IMG_AFTER =
-  'https://raspy-magenta-tgez8ums.edgeone.dev/gutter-cleaning-help-after.png';
+  '/blog-images/leaf-removing-gutter-cleaning-after.png';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

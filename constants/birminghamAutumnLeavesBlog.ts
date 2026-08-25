@@ -1,8 +1,8 @@
 import type { BlogPost } from './blogTypes';
 
-const HERO = 'https://old-emerald-p93nx0i3.edgeone.dev/spot-gutter-cleaning-hero.png';
-const BEFORE = 'https://old-emerald-p93nx0i3.edgeone.dev/spot-gutter-cleaning-before.png';
-const AFTER = 'https://old-emerald-p93nx0i3.edgeone.dev/spot-gutter-cleaning-after.png';
+const HERO = '/blog-images/leaf-removing-gutter-cleaning-hero.png';
+const BEFORE = '/blog-images/leaf-removing-gutter-cleaning-before.png';
+const AFTER = '/blog-images/leaf-removing-gutter-cleaning-after.png';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 const ctaBox = `

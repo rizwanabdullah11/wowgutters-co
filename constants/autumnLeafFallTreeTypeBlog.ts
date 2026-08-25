@@ -1,10 +1,10 @@
 import type { BlogPost } from './blogTypes';
 
-const HERO = 'https://latin-gray-l7qtbatu.edgeone.dev/leaf-removing-gutter-cleaning-hero.png';
-const IMAGE_ONE = 'https://latin-gray-l7qtbatu.edgeone.dev/leaf-removing-gutter-cleaning-image1.png';
-const IMAGE_TWO = 'https://latin-gray-l7qtbatu.edgeone.dev/leaf-removing-gutter-cleaning-image2.png';
-const BEFORE = 'https://latin-gray-l7qtbatu.edgeone.dev/leaf-removing-gutter-cleaning-before.png';
-const AFTER = 'https://latin-gray-l7qtbatu.edgeone.dev/leaf-removing-gutter-cleaning-after.png';
+const HERO = '/blog-images/leaf-removing-gutter-cleaning-hero.png';
+const IMAGE_ONE = '/blog-images/leaf-removing-gutter-cleaning-image1.png';
+const IMAGE_TWO = '/blog-images/leaf-removing-gutter-cleaning-image2.png';
+const BEFORE = '/blog-images/leaf-removing-gutter-cleaning-before.png';
+const AFTER = '/blog-images/leaf-removing-gutter-cleaning-after.png';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

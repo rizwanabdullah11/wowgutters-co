@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  'https://statutory-lime-ymjfndwp.edgeone.app/birmingham-gutter-ceaning-hero.png';
+  '/blog-images/leaf-removing-gutter-cleaning-hero.png';
 const IMG_BEFORE =
-  'https://statutory-lime-ymjfndwp.edgeone.app/birmingham-gutter-ceaning-before.png';
+  '/blog-images/leaf-removing-gutter-cleaning-before.png';
 const IMG_AFTER =
-  'https://statutory-lime-ymjfndwp.edgeone.app/birmingham-gutter-ceaning-after.png';
+  '/blog-images/leaf-removing-gutter-cleaning-after.png';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 const ctaBox = `

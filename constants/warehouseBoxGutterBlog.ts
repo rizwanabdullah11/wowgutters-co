@@ -1,19 +1,19 @@
 import type { BlogPost } from './blogTypes';
 
-const CDN = 'https://smooth-magenta-uctn3vj4.edgeone.dev';
+const CDN = '/blog-images';
 
 const IMG = {
-  hero: `${CDN}/warehouse-gutter-cleaning-2.jpeg`,
-  gutterOverview: `${CDN}/warehouse-gutter-cleaning-1.jpeg`,
-  grassGrowing: `${CDN}/warehouse-gutter-cleaning-3.jpeg`,
-  rootedPlants: `${CDN}/warehouse-gutter-cleaning-4.jpeg`,
-  siltLayer: `${CDN}/warehouse-gutter-cleaning-5.jpeg`,
-  bucketsDebris: `${CDN}/warehouse-gutter-cleaning-6.jpeg`,
-  clearedSection: `${CDN}/warehouse-gutter-cleaning-7.jpeg`,
-  standingWater: `${CDN}/warehouse-gutter-cleaning-8.jpeg`,
-  beforeOverview: `${CDN}/warehouse-gutter-cleaning-9.jpeg`,
-  duringClearing: `${CDN}/warehouse-gutter-cleaning-10.jpeg`,
-  finalResult: `${CDN}/warehouse-gutter-cleaning-11.jpeg`,
+  hero: `${CDN}/leaf-removing-gutter-cleaning-hero.png`,
+  gutterOverview: `${CDN}/leaf-removing-gutter-cleaning-image1.png`,
+  grassGrowing: `${CDN}/leaf-removing-gutter-cleaning-image2.png`,
+  rootedPlants: `${CDN}/leaf-removing-gutter-cleaning-image1.png`,
+  siltLayer: `${CDN}/leaf-removing-gutter-cleaning-image2.png`,
+  bucketsDebris: `${CDN}/leaf-removing-gutter-cleaning-before.png`,
+  clearedSection: `${CDN}/leaf-removing-gutter-cleaning-after.png`,
+  standingWater: `${CDN}/leaf-removing-gutter-cleaning-image1.png`,
+  beforeOverview: `${CDN}/leaf-removing-gutter-cleaning-before.png`,
+  duringClearing: `${CDN}/leaf-removing-gutter-cleaning-image2.png`,
+  finalResult: `${CDN}/leaf-removing-gutter-cleaning-after.png`,
 } as const;
 
 const link = 'color: #19C58B; font-weight: 600; text-decoration: none;';
