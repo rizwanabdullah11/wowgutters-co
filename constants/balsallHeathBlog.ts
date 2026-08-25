@@ -235,7 +235,7 @@ export const balsallHeathBlogPost: BlogPost = {
   <li><strong>We work from the ground.</strong> Our vacuum system reaches the full gutter run of any B12 terrace from ground level. No ladder leans against your property.</li>
   <li><strong>We clear the downpipes</strong> on every visit, as part of the standard service. On connected terrace runs in B12, this is the step that determines whether the clean actually works.</li>
   <li><strong>We are honest about what we find.</strong> If there's a problem beyond the clean — a failing fascia board, a cracked joint, a bracket pulling away from the timber — we tell you clearly, in writing, without pressure.</li>
-  <li><strong>4.9 stars from over 2,696 verified customers</strong> across Birmingham and the West Midlands.</li>
+  <li><strong>Highly rated by verified customers</strong> across Birmingham and the West Midlands.</li>
   <li><strong>We are a Birmingham company</strong> working across the full city, including the inner-city postcodes that some companies skip or send a reduced service to.</li>
 </ul>
 

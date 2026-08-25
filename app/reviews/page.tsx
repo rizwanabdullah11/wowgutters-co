@@ -68,7 +68,7 @@ export default function ReviewsPage() {
         <div className="mx-auto grid max-w-4xl gap-6 sm:grid-cols-3">
           {[
             { value: GOOGLE_REVIEWS_SUMMARY.starsDisplay, label: 'Average Google rating' },
-            { value: '2,696+', label: 'Verified customers' },
+            { value: '100+', label: 'Verified customers' },
             { value: '24 hrs', label: 'Open every day' },
           ].map((stat) => (
             <div

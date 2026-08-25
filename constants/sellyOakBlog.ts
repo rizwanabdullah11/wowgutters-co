@@ -16,7 +16,7 @@ export const sellyOakBlogPost: BlogPost = {
   lastUpdated: '2026-06-02',
   featured: false,
   quickAnswer:
-    'WOW Gutters Ltd provides professional gutter cleaning across Selly Oak and all B29 postcodes. Ground-based SkyVac vacuum system — no ladders — with downpipe clearance, flow testing, and before and after photos on every job. Rated 4.9★ by 2,696+ customers. Free quote: call 07421 433910.',
+    'WOW Gutters Ltd provides professional gutter cleaning across Selly Oak and all B29 postcodes. Ground-based SkyVac vacuum system — no ladders — with downpipe clearance, flow testing, and before and after photos on every job. Highly rated by verified customers. Free quote: call 07421 433910.',
   breadcrumbName: 'Gutter Cleaning Selly Oak B29',
   content: `
 <p>Selly Oak is one of those parts of Birmingham where the gutters take a real beating. Mature tree canopy on almost every residential street. Victorian and Edwardian terraces that haven't had their rooflines touched in years. Tightly packed housing where one blocked downpipe backs up an entire run. A wet south Birmingham microclimate that barely dries out between autumn and spring.</p>
@@ -176,7 +176,7 @@ export const sellyOakBlogPost: BlogPost = {
   <li>🌀 <strong>We work from the ground — always.</strong> No ladders against your property. SkyVac vacuum reaches your full gutter run safely.</li>
   <li>📸 <strong>We photograph every job.</strong> Before and after. Every time. Proof of what we found and what we cleared.</li>
   <li>🔧 <strong>We include downpipe clearance.</strong> Part of the job, not an extra charge.</li>
-  <li>⭐ <strong>4.9★ rating from 2,696+ verified customers</strong> across Birmingham and the West Midlands.</li>
+  <li>⭐ <strong>4.9★ rating from verified customers</strong> across Birmingham and the West Midlands.</li>
   <li>🛡️ <strong>Fully insured</strong> — public liability insurance on every visit.</li>
   <li>📍 <strong>We know B29.</strong> Regular work on Selly Oak terraces, access challenges, and local moss and leaf patterns — not a national franchise.</li>
 </ul>

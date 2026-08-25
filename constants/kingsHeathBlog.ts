@@ -255,7 +255,7 @@ export const kingsHeathBlogPost: BlogPost = {
   <li><strong>We work from the ground throughout.</strong> Our vacuum system reaches the full gutter run of any Kings Heath property from ground level. No ladder contacts your fascia, your brackets, or your brickwork.</li>
   <li><strong>We clear downpipes on every visit.</strong> Included as standard. Not an additional service. On a Kings Heath extended semi with multiple downpipe runs, downpipe clearance is what determines whether the clean actually works.</li>
   <li><strong>We tell you honestly what we find.</strong> If a bracket is failing, a joint has cracked, or a fascia board is showing early moisture damage, you hear about it from us — clearly, specifically, and without pressure to book further work.</li>
-  <li><strong>4.9 stars from over 2,696 verified customers</strong> across Birmingham and the West Midlands.</li>
+  <li><strong>4.9 stars from verified customers</strong> across Birmingham and the West Midlands.</li>
   <li><strong>We are a Birmingham company</strong> working across the full city and West Midlands. We work in Kings Heath regularly and understand the properties in B14.</li>
   <li><strong>Fully insured on every visit</strong> — public liability cover on every job, every property type, every time.</li>
 </ul>

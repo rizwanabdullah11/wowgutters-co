@@ -262,7 +262,7 @@ export default function CoventryGutterCleaningBlogContent() {
           <li>✅ Ground-level vacuum system — zero ladders</li>
           <li>✅ Before and after photo evidence on every single job</li>
           <li>✅ 12-month guarantee on all cleaning work</li>
-          <li>✅ 4.9★ rated with over 2,696 verified Google reviews</li>
+          <li>✅ Highly rated with verified Google reviews</li>
         </ul>
 
         <div className="contact-info">

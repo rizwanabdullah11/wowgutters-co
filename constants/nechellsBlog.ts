@@ -254,7 +254,7 @@ export const nechellsBlogPost: BlogPost = {
   <li><strong>Every job is photographed — before and after, without exception.</strong> Every B7 gutter clean produces a complete photographic record, sent to the customer or managing agent the same day.</li>
   <li><strong>We include downpipe clearance on every visit.</strong> In the connected terrace configurations of Nechells, this is the difference between a clean that works and a clean that leaves the problem half-solved.</li>
   <li><strong>We are honest about what we find.</strong> If a property has fascia deterioration, joint failure, or a roofline condition that needs attention beyond a clean, we say so clearly.</li>
-  <li><strong>4.9 stars from over 2,696 verified customers</strong> across Birmingham and the West Midlands.</li>
+  <li><strong>4.9 stars from verified customers</strong> across Birmingham and the West Midlands.</li>
   <li><strong>We are a Birmingham company</strong> — operating across the full West Midlands, including the inner-city postcodes that many cleaning companies don't prioritise.</li>
 </ul>
 
