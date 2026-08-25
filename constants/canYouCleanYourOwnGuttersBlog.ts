@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HOME =
-  '/blog-images/leaf-removing-gutter-cleaning-hero.png';
+  '/blog-images/can-gutter-cleaning/can-gutter-cleaning-hero.png';
 const IMG_BEFORE =
-  '/blog-images/leaf-removing-gutter-cleaning-before.png';
+  '/blog-images/can-gutter-cleaning/can-gutter-cleaning-before.png';
 const IMG_AFTER =
-  '/blog-images/leaf-removing-gutter-cleaning-after.png';
+  '/blog-images/can-gutter-cleaning/can-gutter-cleaning-after.png';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

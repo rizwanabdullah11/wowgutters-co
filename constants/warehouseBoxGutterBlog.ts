@@ -1,19 +1,19 @@
 import type { BlogPost } from './blogTypes';
 
-const CDN = '/blog-images';
+const CDN = '/blog-images/professional-gutter-clean';
 
 const IMG = {
-  hero: `${CDN}/leaf-removing-gutter-cleaning-hero.png`,
-  gutterOverview: `${CDN}/leaf-removing-gutter-cleaning-image1.png`,
-  grassGrowing: `${CDN}/leaf-removing-gutter-cleaning-image2.png`,
-  rootedPlants: `${CDN}/leaf-removing-gutter-cleaning-image1.png`,
-  siltLayer: `${CDN}/leaf-removing-gutter-cleaning-image2.png`,
-  bucketsDebris: `${CDN}/leaf-removing-gutter-cleaning-before.png`,
-  clearedSection: `${CDN}/leaf-removing-gutter-cleaning-after.png`,
-  standingWater: `${CDN}/leaf-removing-gutter-cleaning-image1.png`,
-  beforeOverview: `${CDN}/leaf-removing-gutter-cleaning-before.png`,
-  duringClearing: `${CDN}/leaf-removing-gutter-cleaning-image2.png`,
-  finalResult: `${CDN}/leaf-removing-gutter-cleaning-after.png`,
+  hero: `${CDN}/professional-gutter-cleaning-hero.png`,
+  gutterOverview: `/blog-images/clay-gutter-cleaning/clay-gutter-cleaning-image1.png`,
+  grassGrowing: `/blog-images/clay-gutter-cleaning/clay-gutter-cleaning-image2.png`,
+  rootedPlants: `/blog-images/leaf-removing-gutter-cleaning-image1.png`,
+  siltLayer: `/blog-images/leaf-removing-gutter-cleaning-image2.png`,
+  bucketsDebris: `${CDN}/professional-gutter-cleaning-before.png`,
+  clearedSection: `${CDN}/professional-gutter-cleaning-after.png`,
+  standingWater: `/blog-images/clay-gutter-cleaning/clay-gutter-cleaning-image1.png`,
+  beforeOverview: `${CDN}/professional-gutter-cleaning-before.png`,
+  duringClearing: `/blog-images/clay-gutter-cleaning/clay-gutter-cleaning-image2.png`,
+  finalResult: `${CDN}/professional-gutter-cleaning-after.png`,
 } as const;
 
 const link = 'color: #19C58B; font-weight: 600; text-decoration: none;';
