@@ -42,10 +42,12 @@ import { soffitDamageWestMidlandsEarlySignsBlogPost } from './soffitDamageWestMi
 import { windDirectionDebrisBuildupBlogPost } from './windDirectionDebrisBuildupBlog';
 import { autumnLeafFallTreeTypeBlogPost } from './autumnLeafFallTreeTypeBlog';
 import { semiDetachedSharedGutterBlogPost } from './semiDetachedSharedGutterBlog';
+import { howCleanGuttersWithoutLadderBlogPost } from './howCleanGuttersWithoutLadderBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  howCleanGuttersWithoutLadderBlogPost,
   semiDetachedSharedGutterBlogPost,
   autumnLeafFallTreeTypeBlogPost,
   windDirectionDebrisBuildupBlogPost,
