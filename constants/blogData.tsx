@@ -43,11 +43,13 @@ import { windDirectionDebrisBuildupBlogPost } from './windDirectionDebrisBuildup
 import { autumnLeafFallTreeTypeBlogPost } from './autumnLeafFallTreeTypeBlog';
 import { semiDetachedSharedGutterBlogPost } from './semiDetachedSharedGutterBlog';
 import { howCleanGuttersWithoutLadderBlogPost } from './howCleanGuttersWithoutLadderBlog';
+import { cleanGuttersTwoStoreyHouseBirminghamSafelyBlogPost } from './cleanGuttersTwoStoreyHouseBirminghamSafelyBlog';
 import { downpipeBlockedSignsBlogPost } from './downpipeBlockedSignsBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  cleanGuttersTwoStoreyHouseBirminghamSafelyBlogPost,
   downpipeBlockedSignsBlogPost,
   howCleanGuttersWithoutLadderBlogPost,
   semiDetachedSharedGutterBlogPost,
