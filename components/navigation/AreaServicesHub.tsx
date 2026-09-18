@@ -153,7 +153,7 @@ export default function AreaServicesHub({
                     className="inline-flex items-center gap-1 mt-2 text-sm font-bold"
                     style={{ color: colors.primary }}
                   >
-                    Learn more <ArrowRight className="w-4 h-4" />
+                    View {s.label} <ArrowRight className="w-4 h-4" />
                   </span>
                 </div>
               </div>

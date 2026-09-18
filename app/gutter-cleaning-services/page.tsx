@@ -155,7 +155,7 @@ export default function GutterCleaningServicesPage() {
                     {s.description}
                   </p>
                   <span className="inline-flex items-center gap-1 text-sm font-bold" style={{ color: colors.primary }}>
-                    Learn more <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5" />
+                    View service details <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5" />
                   </span>
                 </Link>
               );

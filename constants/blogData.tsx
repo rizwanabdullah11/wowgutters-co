@@ -45,10 +45,12 @@ import { semiDetachedSharedGutterBlogPost } from './semiDetachedSharedGutterBlog
 import { howCleanGuttersWithoutLadderBlogPost } from './howCleanGuttersWithoutLadderBlog';
 import { cleanGuttersTwoStoreyHouseBirminghamSafelyBlogPost } from './cleanGuttersTwoStoreyHouseBirminghamSafelyBlog';
 import { downpipeBlockedSignsBlogPost } from './downpipeBlockedSignsBlog';
+import { hiddenDamageBlockedDownpipeSolihullBlogPost } from './hiddenDamageBlockedDownpipeSolihullBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  hiddenDamageBlockedDownpipeSolihullBlogPost,
   cleanGuttersTwoStoreyHouseBirminghamSafelyBlogPost,
   downpipeBlockedSignsBlogPost,
   howCleanGuttersWithoutLadderBlogPost,
