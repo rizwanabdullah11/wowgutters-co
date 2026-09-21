@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { blogPosts } from '@/constants/blogData';
 import { colors } from '@/constants/colors';
-import { Calendar, User, Eye, Share2, Phone, PenTool, BookOpen } from 'lucide-react';
+import { Calendar, User, Share2, Phone, PenTool, BookOpen } from 'lucide-react';
 import Link from 'next/link';
 import BlogViewCount from '@/components/blog/BlogViewCount';
 import { formatBlogDate } from '@/lib/dateUtils';
@@ -394,24 +394,7 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
               <Calendar className="w-5 h-5" />
               <span>{formatBlogDate(post.date)}</span>
             </div>
-            <div className="meta-item">
-              <Eye className="w-5 h-5" />
-              <BlogViewCount postId={post.id} publishedDate={post.date} incrementOnMount suffix="views" />
-            </div>
           </div>
-
-          {/* URL + Short Summary */}
-          {post.shortSummary && (
-            <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 text-white/70 text-sm animate-fade-in-up delay-400">
-              <span className="font-mono text-xs bg-white/10 px-3 py-1.5 rounded-full">
-                wowgutters.co.uk/blog/{post.id}/
-              </span>
-              <span className="hidden sm:inline">&mdash;</span>
-              <span className="font-semibold text-white/90 italic">
-                {post.shortSummary}
-              </span>
-            </div>
-          )}
         </div>
 
         {/* Decorative Bottom Wave */}

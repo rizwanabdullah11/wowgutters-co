@@ -32,7 +32,7 @@ const ctaBox = `
 </div>`;
 
 export const victorianHomesBirminghamDifferentGutterCleaningApproachBlogPost: BlogPost = {
-  id: 'victorian-homes-birmingham-different-gutter-cleaning-approach',
+  id: 'victorian-gutter-cleaning-birmingham',
   seoTitle:
     'Why Victorian Homes in Birmingham Need a Different Gutter Cleaning Approach | WOW Gutters Ltd',
   title:
