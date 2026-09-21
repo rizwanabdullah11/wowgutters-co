@@ -389,6 +389,16 @@
       "source": "/blog/blocked-gutters-silently-damaging-birmingham-home-how-to-spot-it/",
       "destination": "/blog/silent-gutter-damage-birmingham/",
       "permanent": true
+    },
+    {
+      "source": "/blog/victorian-homes-birmingham-different-gutter-cleaning-approach",
+      "destination": "/blog/victorian-gutter-cleaning-birmingham/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/victorian-homes-birmingham-different-gutter-cleaning-approach/",
+      "destination": "/blog/victorian-gutter-cleaning-birmingham/",
+      "permanent": true
     }
   ]
 }

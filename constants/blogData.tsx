@@ -46,10 +46,12 @@ import { howCleanGuttersWithoutLadderBlogPost } from './howCleanGuttersWithoutLa
 import { cleanGuttersTwoStoreyHouseBirminghamSafelyBlogPost } from './cleanGuttersTwoStoreyHouseBirminghamSafelyBlog';
 import { downpipeBlockedSignsBlogPost } from './downpipeBlockedSignsBlog';
 import { hiddenDamageBlockedDownpipeSolihullBlogPost } from './hiddenDamageBlockedDownpipeSolihullBlog';
+import { victorianHomesBirminghamDifferentGutterCleaningApproachBlogPost } from './victorianHomesBirminghamDifferentGutterCleaningApproachBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  victorianHomesBirminghamDifferentGutterCleaningApproachBlogPost,
   hiddenDamageBlockedDownpipeSolihullBlogPost,
   cleanGuttersTwoStoreyHouseBirminghamSafelyBlogPost,
   downpipeBlockedSignsBlogPost,
