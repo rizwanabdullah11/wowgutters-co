@@ -16,11 +16,12 @@ export default function About() {
 
   useEffect(() => {
     if (videoRef.current) {
+      videoRef.current.defaultMuted = true;
+      videoRef.current.muted = true;
       videoRef.current.play().catch((error) => {
         console.log('Video autoplay failed:', error);
       });
     }
-
   }, []);
 
   const values = [
@@ -69,14 +70,12 @@ export default function About() {
             loop
             muted
             playsInline
-            preload="none"
-            poster="/gutter-hero-poster.jpg"
+            preload="auto"
+            poster="/gutter-cleaning.jpeg"
             className="hero-video"
-            onError={(e) => {
-              (e.target as HTMLVideoElement).style.display = 'none';
-            }}
           >
             <source src="/gutter-final-video.mp4" type="video/mp4" />
+            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
           </video>
           <div className="about-hero-overlay"></div>
         </div>

@@ -43,6 +43,8 @@ export default function AwardsPage() {
 
   useEffect(() => {
     if (videoRef.current) {
+      videoRef.current.defaultMuted = true;
+      videoRef.current.muted = true;
       videoRef.current.play().catch((error) => {
         console.log('Video autoplay failed:', error);
       });
@@ -60,9 +62,12 @@ export default function AwardsPage() {
             loop
             muted
             playsInline
+            preload="auto"
+            poster="/gutter-cleaning.jpeg"
             className="hero-video"
           >
-            <source src="/wow_gutters_final.mp4" type="video/mp4" />
+            <source src="/gutter-final-video.mp4" type="video/mp4" />
+            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
           </video>
           <div className="awards-hero-overlay"></div>
         </div>

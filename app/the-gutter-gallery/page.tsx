@@ -146,36 +146,32 @@ export default function GutterGallery() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-20 px-4 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] text-white relative overflow-hidden">
+      {/* Call to Action Banner */}
+      <section className="py-16 px-4 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] text-white relative overflow-hidden">
         <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#16c784]/20 blur-[100px]" />
         <div className="pointer-events-none absolute -right-8 -top-12 h-52 w-[45%] rotate-6 rounded-[35%] bg-[#2dd4bf]/15 blur-[100px]" />
         
-        <div className="max-w-7xl mx-auto relative z-10">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-black mb-4">
-              Proven <span style={{ color: colors.primary }}>Results</span>
-            </h2>
-            <p className="text-xl text-white/80">Numbers that speak to our quality and reliability</p>
-          </div>
-
-          <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-5xl font-black mb-2" style={{ color: colors.primary }}>450+</div>
-              <div className="text-white/80 font-semibold">Projects Completed</div>
-            </div>
-            <div>
-              <div className="text-5xl font-black mb-2" style={{ color: colors.primary }}>4.9/5</div>
-              <div className="text-white/80 font-semibold">Average Rating</div>
-            </div>
-            <div>
-              <div className="text-5xl font-black mb-2" style={{ color: colors.primary }}>98%</div>
-              <div className="text-white/80 font-semibold">Customer Satisfaction</div>
-            </div>
-            <div>
-              <div className="text-5xl font-black mb-2" style={{ color: colors.primary }}>2+</div>
-              <div className="text-white/80 font-semibold">Years Experience</div>
-            </div>
+        <div className="max-w-4xl mx-auto relative z-10 text-center space-y-6">
+          <h2 className="text-3xl md:text-4xl font-black">
+            Have Questions About Your <span style={{ color: colors.primary }}>Roofline Drainage?</span>
+          </h2>
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+            Our local technicians are ready to assess your gutters from the ground with precision camera inspection and powerful vacuum extraction.
+          </p>
+          <div className="flex flex-wrap gap-4 justify-center pt-2">
+            <Link
+              href="/quote"
+              className="px-8 py-4 rounded-full font-bold text-white shadow-xl transition hover:scale-105"
+              style={{ background: colors.primaryGradient }}
+            >
+              Get A Fast Free Quote
+            </Link>
+            <Link
+              href="/reviews"
+              className="px-8 py-4 rounded-full font-bold text-slate-800 bg-white hover:bg-slate-100 transition shadow-md"
+            >
+              Read Customer Reviews
+            </Link>
           </div>
         </div>
       </section>
