@@ -230,6 +230,52 @@ export default function NeighbourhoodDiscount() {
           </div>
         </div>
       </section>
+      {/* Detailed Street Coordination Guide */}
+      <section className="py-20 px-4 bg-white border-t border-slate-100">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center max-w-3xl mx-auto mb-14">
+            <span className="text-sm font-bold uppercase tracking-wider text-emerald-600">Smart Community Savings</span>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 mt-2">
+              How Street-By-Street <span style={{ color: colors.primary }}>Coordination Works</span>
+            </h2>
+            <p className="mt-4 text-lg text-slate-600 leading-relaxed">
+              When multiple neighbours on the same street or cul-de-sac book together, we pass travel and logistical savings directly back to you. Every property receives our full commercial-standard vacuum clean and condition report.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-8 hover:shadow-md transition-shadow">
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Terraced &amp; Semi-Detached Streets</h3>
+              <p className="text-slate-600 leading-relaxed text-sm mb-4">
+                Shared gutter runs on semi-detached and terraced homes frequently overflow when one neighbour clears debris but the adjoining run remains clogged. Group bookings ensure continuous downpipe drainage from end to end.
+              </p>
+              <Link href="/services/gutter-cleaning/" className="text-emerald-700 font-bold text-sm hover:underline">
+                Explore residential gutter cleaning →
+              </Link>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-8 hover:shadow-md transition-shadow">
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Add-On Exterior Treatments</h3>
+              <p className="text-slate-600 leading-relaxed text-sm mb-4">
+                Combine group gutter vacuuming with <Link href="/services/upvc-cleaning/" className="text-emerald-700 font-semibold hover:underline">fascia &amp; soffit washing</Link>, <Link href="/services/conservatory/" className="text-emerald-700 font-semibold hover:underline">conservatory roof cleaning</Link>, or low-pressure <Link href="/services/roof-cleaning/" className="text-emerald-700 font-semibold hover:underline">roof moss removal</Link> for additional street-wide discounts.
+              </p>
+              <Link href="/gutter-cleaning-prices/" className="text-emerald-700 font-bold text-sm hover:underline">
+                View fixed pricing packages →
+              </Link>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-8 hover:shadow-md transition-shadow">
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Before &amp; After Photo Reports</h3>
+              <p className="text-slate-600 leading-relaxed text-sm mb-4">
+                Each participating homeowner receives individual photographic proof of cleared channels and flow-tested downpipes. If leaks or cracks are spotted, our technicians provide on-site <Link href="/services/gutter-repairs/" className="text-emerald-700 font-semibold hover:underline">minor gutter repairs</Link>.
+              </p>
+              <Link href="/the-gutter-gallery/" className="text-emerald-700 font-bold text-sm hover:underline">
+                See real project gallery photos →
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

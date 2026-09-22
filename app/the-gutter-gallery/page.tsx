@@ -177,6 +177,53 @@ export default function GutterGallery() {
         </div>
       </section>
 
+      {/* Technical Standards & Equipment Section */}
+      <section className="py-20 px-4 bg-white border-t border-slate-100">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center max-w-3xl mx-auto mb-14">
+            <span className="text-sm font-bold uppercase tracking-wider text-emerald-600">Precision Workmanship</span>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 mt-2">
+              How We Achieve <span style={{ color: colors.primary }}>Flawless Results</span>
+            </h2>
+            <p className="mt-4 text-lg text-slate-600 leading-relaxed">
+              Every photo in our gallery represents a real property across Birmingham and the West Midlands. Here is how our certified technicians tackle even the most stubborn debris, moss, and blockages.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-8 hover:shadow-md transition-shadow">
+              <div className="w-12 h-12 rounded-xl bg-emerald-100 flex items-center justify-center mb-6 text-emerald-700 font-black text-xl">
+                01
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">High-Reach Vacuum Suction</h3>
+              <p className="text-slate-600 leading-relaxed text-sm">
+                Our commercial-grade wet/dry vacuum system reaches up to 4 storeys from ground level, extracting compacted silt, weeds, and fallen leaves without resting ladders against fragile gutter brackets or tiles. Learn more about our specialized <Link href="/services/gutter-cleaning/" className="text-emerald-700 font-semibold hover:underline">gutter cleaning service</Link>.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-8 hover:shadow-md transition-shadow">
+              <div className="w-12 h-12 rounded-xl bg-teal-100 flex items-center justify-center mb-6 text-teal-700 font-black text-xl">
+                02
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Downpipe Unblocking &amp; Flow Test</h3>
+              <p className="text-slate-600 leading-relaxed text-sm">
+                Clearing horizontal gutter runs is only half the job. We dislodge underground downpipe swan-necks and execute high-volume water flow tests to guarantee water runs freely. If damaged unions are found, our team provides instant <Link href="/services/gutter-repairs/" className="text-emerald-700 font-semibold hover:underline">gutter repairs</Link> and seal replacements.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-8 hover:shadow-md transition-shadow">
+              <div className="w-12 h-12 rounded-xl bg-cyan-100 flex items-center justify-center mb-6 text-cyan-700 font-black text-xl">
+                03
+              </div>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Purified Hot-Wash Finish</h3>
+              <p className="text-slate-600 leading-relaxed text-sm">
+                For complete curb appeal transformations, we combine gutter vacuuming with purified <Link href="/services/upvc-cleaning/" className="text-emerald-700 font-semibold hover:underline">exterior UPVC cleaning</Link> and low-pressure <Link href="/services/roof-cleaning/" className="text-emerald-700 font-semibold hover:underline">roof moss removal</Link> to prevent immediate re-soiling.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Call to Action Banner */}
       <section className="py-16 px-4 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] text-white relative overflow-hidden">
         <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#16c784]/20 blur-[100px]" />

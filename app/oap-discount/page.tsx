@@ -192,28 +192,78 @@ export default function OAPDiscount() {
             </div>
           </div>
 
-          {/* Trust Section */}
-          <div className="bg-white rounded-3xl shadow-xl p-12 text-center border border-gray-100">
-            <h3 className="text-3xl font-black text-gray-900 mb-6">
-              Trusted by <span style={{ color: colors.primary }}>Thousands</span> of Seniors
+          {/* Genuine Trust & Senior Safety Section */}
+          <div className="bg-white rounded-3xl shadow-xl p-8 sm:p-12 text-center border border-gray-100">
+            <h3 className="text-3xl font-black text-gray-900 mb-4">
+              Safe, Reliable &amp; <span style={{ color: colors.primary }}>Ladder-Free Service</span>
             </h3>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              We understand the importance of reliable, trustworthy service. That's why we're committed 
-              to providing exceptional care and value to our senior customers.
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
+              We understand the importance of trustworthy, considerate service for senior homeowners and their families. Our ground-level high-reach vacuum technology clears high-elevation gutters without placing heavy ladders against brickwork or roof tiles.
             </p>
-            <div className="flex flex-wrap justify-center gap-8 text-center">
-              <div>
-                <div className="text-4xl font-black mb-2" style={{ color: colors.primary }}>5,000+</div>
-                <div className="text-gray-600 font-semibold">Senior Customers</div>
+            <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-100">
+                <div className="font-bold text-slate-900 text-lg mb-1">Ground-Level Safety</div>
+                <p className="text-xs text-slate-600">No ladders against walls or fragile gutters</p>
               </div>
-              <div>
-                <div className="text-4xl font-black mb-2" style={{ color: colors.primary }}>4.9/5</div>
-                <div className="text-gray-600 font-semibold">Average Rating</div>
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-100">
+                <div className="font-bold text-slate-900 text-lg mb-1">Photo Verification</div>
+                <p className="text-xs text-slate-600">Clear before &amp; after photographic proof</p>
               </div>
-              <div>
-                <div className="text-4xl font-black mb-2" style={{ color: colors.primary }}>2+</div>
-                <div className="text-gray-600 font-semibold">Years Experience</div>
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-100">
+                <div className="font-bold text-slate-900 text-lg mb-1">£5M Fully Insured</div>
+                <p className="text-xs text-slate-600">Complete public liability insurance</p>
               </div>
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-100">
+                <div className="font-bold text-slate-900 text-lg mb-1">Same-Day Bookings</div>
+                <p className="text-xs text-slate-600">Fast quotes and transparent fixed prices</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Senior Maintenance Advice & Services Section */}
+      <section className="py-20 px-4 bg-white border-t border-slate-100">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center max-w-3xl mx-auto mb-14">
+            <span className="text-sm font-bold uppercase tracking-wider text-emerald-600">Home Protection</span>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 mt-2">
+              Essential Roofline Services for <span style={{ color: colors.primary }}>Senior Homeowners</span>
+            </h2>
+            <p className="mt-4 text-lg text-slate-600 leading-relaxed">
+              Blocked gutters are the leading cause of exterior damp, mould, and masonry erosion. Family members can book directly on behalf of senior relatives across the West Midlands.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 mb-16">
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-8 hover:shadow-md transition-shadow">
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Residential Gutter Clearance</h3>
+              <p className="text-slate-600 leading-relaxed text-sm mb-4">
+                Full removal of pine needles, leaves, and roofing silt from gutters and downpipe outlets. Check our <Link href="/services/gutter-cleaning/" className="text-emerald-700 font-semibold hover:underline">residential gutter cleaning</Link> for full details.
+              </p>
+              <Link href="/gutter-cleaning-calculator/" className="text-emerald-700 font-bold text-sm hover:underline">
+                Calculate estimated pricing →
+              </Link>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-8 hover:shadow-md transition-shadow">
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Downpipe Testing &amp; Repairs</h3>
+              <p className="text-slate-600 leading-relaxed text-sm mb-4">
+                Prevent rainwater overflows before winter freezes cause cracked pipes. If leaks are identified, our technicians carry replacement gaskets for quick <Link href="/services/gutter-repairs/" className="text-emerald-700 font-semibold hover:underline">gutter repairs</Link>.
+              </p>
+              <Link href="/the-gutter-gallery/" className="text-emerald-700 font-bold text-sm hover:underline">
+                View before &amp; after project gallery →
+              </Link>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-8 hover:shadow-md transition-shadow">
+              <h3 className="text-xl font-bold text-slate-900 mb-3">UPVC &amp; Conservatory Wash</h3>
+              <p className="text-slate-600 leading-relaxed text-sm mb-4">
+                Keep fascias, soffits, and glass bright with low-pressure <Link href="/services/upvc-cleaning/" className="text-emerald-700 font-semibold hover:underline">UPVC wash</Link> and specialist <Link href="/services/conservatory/" className="text-emerald-700 font-semibold hover:underline">conservatory roof cleaning</Link>.
+              </p>
+              <Link href="/gutter-cleaning-prices/" className="text-emerald-700 font-bold text-sm hover:underline">
+                Review fixed price packages →
+              </Link>
             </div>
           </div>
         </div>

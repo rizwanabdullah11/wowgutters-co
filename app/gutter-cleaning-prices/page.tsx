@@ -377,6 +377,72 @@ export default function GutterCleaningPrices() {
         </div>
       </section>
 
+      {/* Detailed Property Cost Breakdown */}
+      <section className="py-20 px-4 bg-white border-t border-slate-100">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center max-w-3xl mx-auto mb-14">
+            <span className="text-sm font-bold uppercase tracking-wider text-emerald-600">Fixed &amp; Transparent Rates</span>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 mt-2">
+              Average Gutter Cleaning Costs by <span style={{ color: colors.primary }}>Property Type</span>
+            </h2>
+            <p className="mt-4 text-lg text-slate-600 leading-relaxed">
+              We believe in upfront, transparent pricing with no hidden travel fees across Birmingham and the West Midlands. Every job includes high-reach vacuum clearance, downpipe unblocking, and full before/after photos.
+            </p>
+          </div>
+
+          <div className="overflow-x-auto mb-16 rounded-2xl border border-slate-200 shadow-sm">
+            <table className="w-full text-left border-collapse text-sm sm:text-base">
+              <thead>
+                <tr className="bg-slate-900 text-white">
+                  <th className="p-4 sm:p-5 font-bold">Property Type</th>
+                  <th className="p-4 sm:p-5 font-bold">Gutter Run</th>
+                  <th className="p-4 sm:p-5 font-bold">Price Range</th>
+                  <th className="p-4 sm:p-5 font-bold">Estimated Time</th>
+                  <th className="p-4 sm:p-5 font-bold">Key Inclusions</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-100 bg-white">
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="p-4 sm:p-5 font-bold text-slate-900">2-Bed Terraced</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Front &amp; Rear (12–15m)</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-600">From £65 – £95</td>
+                  <td className="p-4 sm:p-5 text-slate-600">30–45 mins</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Vacuum clean, downpipe flow check, photos</td>
+                </tr>
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="p-4 sm:p-5 font-bold text-slate-900">3-Bed Semi-Detached</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Front, Side &amp; Rear (20–25m)</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-600">From £95 – £140</td>
+                  <td className="p-4 sm:p-5 text-slate-600">45–60 mins</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Full perimeter vacuum, swan-neck clear, report</td>
+                </tr>
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="p-4 sm:p-5 font-bold text-slate-900">4+ Bed Detached</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Full 360° Perimeter (30–40m)</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-600">From £140 – £210</td>
+                  <td className="p-4 sm:p-5 text-slate-600">60–90 mins</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Complete clearance, all downpipes, photo proof</td>
+                </tr>
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="p-4 sm:p-5 font-bold text-slate-900">Townhouse / 3-Storey</td>
+                  <td className="p-4 sm:p-5 text-slate-600">High-Elevation Runs</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-600">From £130 – £195</td>
+                  <td className="p-4 sm:p-5 text-slate-600">60–75 mins</td>
+                  <td className="p-4 sm:p-5 text-slate-600">40ft ground vacuum access, no scaffolding needed</td>
+                </tr>
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="p-4 sm:p-5 font-bold text-slate-900">Commercial Unit / Block</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Custom Box / Deep Gutters</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-600">Bespoke Quote</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Flexible</td>
+                  <td className="p-4 sm:p-5 text-slate-600">RAMS supplied, scheduled maintenance plans</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
       {/* Special Offers */}
       <section className="py-20 px-4 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] text-white relative overflow-hidden">
         <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#16c784]/20 blur-[100px]" />
@@ -388,7 +454,7 @@ export default function GutterCleaningPrices() {
             Special Offers <span style={{ color: colors.primary }}>Available</span>
           </h3>
           <p className="text-xl text-white/80 mb-8">
-            Ask about our OAP and Neighbourhood Discounts to save even more
+            Ask about our OAP and Neighbourhood Discounts to save even more on your booking.
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center mb-8">
@@ -401,8 +467,8 @@ export default function GutterCleaningPrices() {
           </div>
 
           <div className="flex items-center justify-center gap-2 text-white/80">
-            <Shield className="w-5 h-5" />
-            <span>6-month guarantee on all qualifying repairs</span>
+            <Shield className="w-5 h-5 text-emerald-400" />
+            <span>Guaranteed satisfaction &amp; full photographic proof on every job</span>
           </div>
         </div>
       </section>
