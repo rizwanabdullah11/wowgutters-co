@@ -1,6 +1,7 @@
 import { suburbPages } from '@/lib/suburbPageData';
 import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
 import { AREA_SLUGS } from '@/lib/areaSlugs';
+import { CUSTOM_KEYWORD_CONTENT } from '@/lib/customKeywordData';
 
 export interface KeywordPage {
   slug: string;
@@ -611,6 +612,10 @@ function buildBullets(slug: string): string[] {
 
 function getContent(keyword: string): { heroTitle: string; heroDescription: string; sections: { heading: string; content: string; bullets: string[] }[]; faqs?: { question: string; answer: string }[] } {
   const slug = slugify(keyword);
+
+  if (CUSTOM_KEYWORD_CONTENT[slug]) {
+    return CUSTOM_KEYWORD_CONTENT[slug];
+  }
 
   if (slug === 'gutter-cleaning-worcestershire') {
     return {
@@ -5623,6 +5628,11 @@ for (const areaSlug of AREA_SLUGS) {
   RAW_KEYWORDS.push(`commercial-roof-cleaning-${areaSlug}`);
   RAW_KEYWORDS.push(`commercial-gutter-cleaning-${areaSlug}`);
   RAW_KEYWORDS.push(`commercial-gutter-clearing-${areaSlug}`);
+}
+
+/* Add custom unique keyword landing pages */
+for (const customSlug of Object.keys(CUSTOM_KEYWORD_CONTENT)) {
+  RAW_KEYWORDS.push(customSlug);
 }
 
 for (const raw of RAW_KEYWORDS) {
