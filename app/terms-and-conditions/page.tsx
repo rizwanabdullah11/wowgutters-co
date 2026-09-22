@@ -291,7 +291,7 @@ export default function TermsAndConditions() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span style={{ color: colors.primary }}>•</span>
-                    <span>All repairs include a 12-month workmanship guarantee</span>
+                    <span>All repairs include full water flow testing and photographic proof</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span style={{ color: colors.primary }}>•</span>
@@ -337,7 +337,7 @@ export default function TermsAndConditions() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span style={{ color: colors.primary }}>•</span>
-                    <span>All installations come with a 10-year guarantee on materials and workmanship</span>
+                    <span>All installations undergo full water flow testing and quality checks before sign-off</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span style={{ color: colors.primary }}>•</span>
@@ -384,16 +384,16 @@ export default function TermsAndConditions() {
               <div className="w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: `${colors.primary}20` }}>
                 <span className="font-bold" style={{ color: colors.primary }}>8</span>
               </div>
-              <h2 className="text-2xl font-bold text-gray-900">Service Guarantee</h2>
+              <h2 className="text-2xl font-bold text-gray-900">Quality Standards</h2>
             </div>
             <div className="pl-13 space-y-3">
               <p className="text-gray-700 leading-relaxed">
-                We guarantee our workmanship. If you are not satisfied with our service, please contact us within 
+                We take pride in our workmanship. If you are not satisfied with our service, please contact us within 
                 48 hours and we will rectify any issues at no additional cost.
               </p>
               <div className="rounded-lg p-4" style={{ backgroundColor: `${colors.primary}15` }}>
                 <p className="text-sm text-gray-700">
-                  Our guarantee covers workmanship quality but does not extend to issues arising from property defects 
+                  Our service standards cover workmanship quality but does not extend to issues arising from property defects 
                   or subsequent weather damage.
                 </p>
               </div>

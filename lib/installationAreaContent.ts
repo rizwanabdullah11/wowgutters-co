@@ -43,9 +43,9 @@ export function transformTextToInstallation(text: string): string {
       .replace(/clear\b/gi, 'fit')
       .replace(/downpipe flushing\b/gi, 'downpipe system installation')
       .replace(/downpipe clearance\b/gi, 'downpipe installation')
-      .replace(/1-year service guarantee\b/gi, '10-year workmanship guarantee')
-      .replace(/1-year guarantee\b/gi, '10-year guarantee')
-      .replace(/we return free if your gutters block within 12 months\b/gi, 'all installation work carries a 10-year guarantee')
+      .replace(/1-year service guarantee\b/gi, 'professional workmanship')
+      .replace(/1-year guarantee\b/gi, 'professional workmanship')
+      .replace(/we return free if your gutters block within 12 months\b/gi, 'all installation work includes complete flow testing')
       .replace(/no ladders placed against your property\b/gi, 'careful, tidy fitting with no avoidable mess')
       .replace(/Reaches up to 4 storeys\b/gi, 'Installs gutters and downpipes on properties up to 4 storeys'),
   );
@@ -67,7 +67,7 @@ function installationFaqsForArea(
     const installationSpecific: { question: string; answer: string }[] = [
       {
         question: `Do you supply and install new gutter systems in ${city}?`,
-        answer: `Yes. We survey your property, measure every run, and supply and fit quality uPVC gutter and downpipe systems across ${city}. Every installation has the correct fall, properly spaced brackets and fully sealed joints, backed by a 10-year guarantee on workmanship.`,
+        answer: `Yes. We survey your property, measure every run, and supply and fit quality uPVC gutter and downpipe systems across ${city}. Every installation has the correct fall, properly spaced brackets and fully sealed joints with complete flow testing.`,
       },
       {
         question: `How much does gutter installation cost in ${city}?`,
@@ -79,7 +79,7 @@ function installationFaqsForArea(
   return [
     {
       question: `Do you supply and install new gutter systems in ${city}?`,
-      answer: `Yes. We survey your property, measure every run, and supply and fit quality uPVC gutter and downpipe systems across ${city}. Every installation has the correct fall, properly spaced brackets and fully sealed joints, backed by a 10-year guarantee on workmanship.`,
+      answer: `Yes. We survey your property, measure every run, and supply and fit quality uPVC gutter and downpipe systems across ${city}. Every installation has the correct fall, properly spaced brackets and fully sealed joints with complete flow testing.`,
     },
     {
       question: `How much does gutter installation cost in ${city}?`,
@@ -119,7 +119,7 @@ export function transformCityGutterToInstallation(data: CityGutterLandingData): 
       'Quality uPVC gutter and downpipe systems supplied & fitted',
       'Correct fall set for reliable drainage on every run',
       'Properly spaced brackets and fully sealed joints',
-      '10-year guarantee on workmanship for every installation',
+      'Full water flow testing and quality inspection before sign-off',
       'Fully insured — comprehensive public liability cover on every visit',
     ],
     propertyTypesTitle: transformTextToInstallation(data.propertyTypesTitle),
@@ -227,7 +227,7 @@ function installationGeneratedPropertyTypes(
 function installationGeneratedWhyBody(name: string): string[] {
   return [
     `Old gutters in ${name} leak from joint failure, sag under debris weight and develop cracks that resealing cannot fix. A worn system sends water down external walls and into foundations — one of the most common causes of damp we see. Correct installation, with the right fall and bracketing, removes the problem permanently.`,
-    `We survey every ${name} property before quoting, measure every run and downpipe, and give honest advice on whether repair or full replacement is better value. Quality uPVC systems are supplied and fitted with a 10-year guarantee on workmanship.`,
+    `We survey every ${name} property before quoting, measure every run and downpipe, and give honest advice on whether repair or full replacement is better value. Quality uPVC systems are supplied and fitted with professional flow testing.`,
   ];
 }
 
@@ -260,9 +260,9 @@ export function buildInstallationLandingFromCity(input: CityData & { streets?: s
     slug,
     city: name,
     titleTag: `Gutter Installation ${name} | New uPVC Systems Fitted | WOW Gutters Ltd`,
-    metaDescription: `Professional gutter installation in ${name} from £${installationFrom}. Free survey, quality uPVC systems supplied & fitted, 10-year guarantee. Postcodes ${pcLabel}. Call WOW Gutters Ltd: 07421 433910.`,
+    metaDescription: `Professional gutter installation in ${name} from £${installationFrom}. Free survey, quality uPVC systems supplied & fitted, fully insured. Postcodes ${pcLabel}. Call WOW Gutters Ltd: 07421 433910.`,
     h1: `Gutter Installation ${name} — New uPVC Systems Measured, Supplied & Fitted`,
-    heroIntro: `WOW Gutters Ltd installs new uPVC gutter and downpipe systems across ${name} (${pcLabel}). We survey every property, measure each run, set the correct fall for drainage, space brackets properly and seal every joint. Quality materials, a tidy finish and a 10-year guarantee on workmanship. Free survey and fixed quote before any work starts.`,
+    heroIntro: `WOW Gutters Ltd installs new uPVC gutter and downpipe systems across ${name} (${pcLabel}). We survey every property, measure each run, set the correct fall for drainage, space brackets properly and seal every joint. Quality materials, a tidy finish and full flow testing. Free survey and fixed quote before any work starts.`,
     whyTitle: `Why ${name} Homeowners Choose Professional Gutter Installation`,
     whyBody: installationGeneratedWhyBody(name),
     localSpotlight: undefined,
@@ -271,7 +271,7 @@ export function buildInstallationLandingFromCity(input: CityData & { streets?: s
       'Quality uPVC gutter and downpipe systems supplied & fitted',
       'Correct fall set for reliable drainage on every run',
       'Properly spaced brackets and fully sealed joints',
-      '10-year guarantee on workmanship for every installation',
+      'Full water flow testing and quality inspection before sign-off',
       'Fully insured — comprehensive public liability cover on every visit',
     ],
     propertyTypesTitle: `Gutter Installation for All Property Types in ${name}`,
@@ -300,21 +300,21 @@ export function buildBirminghamInstallationLanding(): CityGutterLandingData {
     city: 'Birmingham',
     titleTag: 'Gutter Installation Birmingham | New uPVC Systems Fitted | WOW Gutters Ltd',
     metaDescription:
-      'Professional uPVC gutter installation in Birmingham. Free survey, measured and fitted with correct fall, 10-year guarantee on workmanship. Call WOW Gutters Ltd: 07421 433910.',
+      'Professional uPVC gutter installation in Birmingham. Free survey, measured and fitted with correct fall, fully insured workmanship. Call WOW Gutters Ltd: 07421 433910.',
     h1: 'Gutter Installation Birmingham — New uPVC Systems Measured, Supplied & Fitted',
     heroIntro:
       'WOW Gutters Ltd supplies and installs new uPVC gutter and downpipe systems across Birmingham and all surrounding West Midlands postcodes. From replacing worn runs on Victorian terraces in Moseley to full new systems on detached homes in Sutton Coldfield, every installation is surveyed, measured and fitted with the correct fall, properly spaced brackets and fully sealed joints. Free survey and fixed quote — call 07421 433910.',
     whyTitle: 'Why Birmingham Homeowners Choose Professional Gutter Installation',
     whyBody: [
       'A gutter that has cracked, sagged or repeatedly leaked is rarely worth chasing with repairs. New uPVC guttering, fitted with the correct fall and bracket spacing, removes the problem at the source and protects your walls, soffits and foundations for decades.',
-      'Birmingham\'s housing stock — Victorian terraces, 1930s semis and modern estates — each suits a specific system size and fitting approach. We survey every property, advise honestly on repair versus replacement, and back all installation work with a 10-year guarantee.',
+      'Birmingham\'s housing stock — Victorian terraces, 1930s semis and modern estates — each suits a specific system size and fitting approach. We survey every property, advise honestly on repair versus replacement, and back all installation work with full flow testing and insured workmanship.',
     ],
     guarantees: [
       'Free site survey and fixed quote before any work starts',
       'Quality uPVC gutter and downpipe systems supplied & fitted',
       'Correct fall set for reliable drainage on every run',
       'Properly spaced brackets and fully sealed joints',
-      '10-year guarantee on workmanship for every installation',
+      'Full water flow testing and quality inspection before sign-off',
       'Fully insured — comprehensive public liability cover on every visit',
     ],
     propertyTypesTitle: 'Gutter Installation for All Birmingham Property Types',

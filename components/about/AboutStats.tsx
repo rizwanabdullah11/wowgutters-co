@@ -4,7 +4,7 @@ export default function AboutStats() {
   const stats = [
     { value: '40ft', label: 'Ground Vacuum Reach' },
     { value: '100%', label: 'Photo Proof Provided' },
-    { value: '1-Year', label: 'Service Guarantee' },
+    { value: '£10M', label: 'Public Liability Cover' },
   ];
 
   return (

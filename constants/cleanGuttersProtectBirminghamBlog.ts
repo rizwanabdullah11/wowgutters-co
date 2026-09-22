@@ -369,7 +369,7 @@ export const cleanGuttersProtectBirminghamBlogPost: BlogPost = {
   <li>✅ Before and after photographs — every section of the gutter system photographed before the clean and after. Sent to you on the same day. Visual proof of the damp defence restored.</li>
   <li>✅ Written condition report — joint conditions, bracket integrity, fascia moisture evidence, roof moss coverage, and specific recommendations documented in writing.</li>
   <li>✅ Fully insured team — public liability cover on every visit, every property.</li>
-  <li>✅ 1-year service guarantee — if anything related to our work causes a concern within twelve months, we return and address it.</li>
+  <li>✅ Water flow testing & photographic verification on every clean.</li>
 </ul>
 
 ${ctaBox}
@@ -509,7 +509,7 @@ ${ctaBox}
 
 <p>The cost of the damp that overflow produces — the investigation, the treatment, the replastering, the redecorating, the timber assessment, the insurance complication — is multiple times more.</p>
 
-<p><a href="https://wowgutters.co.uk" style="${link}">Wow Gutters Ltd</a> provides professional gutter cleaning and damp prevention services across Birmingham and the full West Midlands. Industrial SkyVac vacuum system from ground level — no ladders. Before and after photographs on every job. Written condition report documenting every developing issue. 1-year service guarantee on every visit.</p>
+<p><a href="https://wowgutters.co.uk" style="${link}">Wow Gutters Ltd</a> provides professional gutter cleaning and damp prevention services across Birmingham and the full West Midlands. Industrial SkyVac vacuum system from ground level — no ladders. Before and after photographs on every job. Written condition report documenting every developing issue. Thorough water flow testing on every visit.</p>
 
 <p>Call today and restore the damp defence your property deserves.</p>
 
@@ -517,7 +517,7 @@ ${ctaBox}
 📧 <strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a><br/>
 🌐 <strong>Free quote:</strong> <a href="/quote/" style="${link}">wowgutters.co.uk/quote</a><br/>
 💬 <strong>WhatsApp:</strong> <a href="https://wa.me/447421433910" style="${link}" rel="noopener">wa.me/447421433910</a><br/>
-Free quote · No hidden charges · Before and after photos every job · 1-year service guarantee · Fully insured<br/>
+Free quote · No hidden charges · Before and after photos every job · Water flow tested · Fully insured<br/>
 Open 7 days — Mon–Fri 7am–8pm · Sat 9am–6pm · Sun 10am–6pm<br/>
 We cover: Birmingham · Solihull · Sutton Coldfield · Wolverhampton · Walsall · Dudley · Redditch · Bromsgrove · Coventry · Warwick · Worcester · Kidderminster · and all surrounding areas</p>
 

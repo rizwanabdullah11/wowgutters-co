@@ -152,8 +152,8 @@ export default function CleanPage() {
                     description: 'Professional cleaning that lasts longer with optional protective treatments.'
                   },
                   {
-                    title: 'No Damage Guarantee',
-                    description: 'Safe cleaning methods with guarantee against damage to your property.'
+                    title: 'Safe Soft-Wash Method',
+                    description: 'Safe cleaning methods engineered to protect tiles, fascias, and masonry.'
                   }
                 ].map((benefit, index) => (
                   <div key={index} className="flex items-start gap-4">

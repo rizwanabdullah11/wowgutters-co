@@ -93,7 +93,7 @@ function heroIntroFor(input: AreaInput, tone: RegionTone): string {
     solihull: `${name} is in the Solihull borough — village streets, 1930s semis and larger detached homes that benefit from annual professional gutter clearing.`,
   };
 
-  return `${toneLead[tone]} WOW Gutters Ltd cleans gutters across ${name} (${pc}) using our ground-level vacuum system — no ladders against your home, before & after photos on every job, and a 1-year service guarantee.${streetBit}${nearbyBit}`;
+  return `${toneLead[tone]} WOW Gutters Ltd cleans gutters across ${name} (${pc}) using our ground-level vacuum system — no ladders against your home, before & after photos on every job, and full water flow testing.${streetBit}${nearbyBit}`;
 }
 
 function whyBodyFor(input: AreaInput, tone: RegionTone): string[] {
@@ -148,8 +148,8 @@ export function buildAreaLandingFromCity(input: AreaInput): CityGutterLandingDat
   return {
     slug,
     city: name,
-    titleTag: `Gutter Cleaning ${name} | Professional, Safe & Guaranteed | WOW Gutters Ltd`,
-    metaDescription: `Professional gutter cleaning in ${name} from £${priceFrom}. Ground-level vacuum, before & after photos, 1-year guarantee. Postcodes ${pcLabel}. Call WOW Gutters Ltd: 07421 433910.`,
+    titleTag: `Gutter Cleaning ${name} | Professional, Safe & Fully Insured | WOW Gutters Ltd`,
+    metaDescription: `Professional gutter cleaning in ${name} from £${priceFrom}. Ground-level vacuum, before & after photos, fully insured. Postcodes ${pcLabel}. Call WOW Gutters Ltd: 07421 433910.`,
     h1: `Gutter Cleaning ${name}${tone === 'birmingham' ? ' Birmingham' : ''} — Professional Service for ${pcLabel} Properties`,
     heroIntro: heroIntroFor(input, tone),
     whyTitle: `Why ${name} Homeowners Choose Professional Gutter Cleaning`,
@@ -159,8 +159,8 @@ export function buildAreaLandingFromCity(input: AreaInput): CityGutterLandingDat
       'Ground-level vacuum system — no ladders placed against your property',
       'Reaches up to 4 storeys — homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      'Fully insured — comprehensive public liability cover on every visit',
-      '4.9★ rating from verified Google reviews',
+      'Fully insured — comprehensive £10m public liability cover on every visit',
+      'Complete water flow testing on downpipes and gutters',
     ],
     propertyTypesTitle: `Gutter Cleaning for All Property Types in ${name}`,
     propertyTypes: propertyTypesFor(tone, name, nearbyAreas),

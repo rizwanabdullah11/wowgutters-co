@@ -58,11 +58,11 @@ const gutterServices = [
   },
   {
     title: 'Gutter Repairs',
-    subtitle: '6-MONTH GUARANTEE',
+    subtitle: 'FLOW TESTED',
     description:
       'Gutter repairs for leaking joints, broken brackets and sagging sections, completed by trained local technicians.',
     backContent: {
-      features: ['6-month guarantee', 'Same-day repairs', 'Quality materials', 'Leak-proof joints'],
+      features: ['Water flow tested', 'Same-day repairs', 'Quality materials', 'Leak-proof joints'],
       price: 'From £80'
     },
     image: '/gutter-repair.png',
@@ -74,7 +74,7 @@ const gutterServices = [
     description:
       'uPVC gutter and downpipe installations measured and fitted for smooth rainwater flow and a clean finish.',
     backContent: {
-      features: ['Quality uPVC systems', 'Professional fitting', '10-year warranty', 'Custom measurements'],
+      features: ['Quality uPVC systems', 'Professional fitting', 'British standard uPVC', 'Custom measurements'],
       price: 'From £300'
     },
     image: '/gutter-installation.png',

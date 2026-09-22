@@ -104,9 +104,9 @@ const post: BlogPost = {
 
 <p>We provide a straightforward condition report after every clean, together with before and after photos. If we see something that needs attention, we explain it clearly. There is never any pressure to book additional work.</p>
 
-<h2>10. Professional Standards and Guaranteed Work</h2>
+<h2>10. Professional Standards and Flow Testing</h2>
 
-<p>When you book a professional gutter cleaning service, you are paying for guaranteed standards. At WOW Gutters Ltd, every clean includes:</p>
+<p>When you book a professional gutter cleaning service, you are paying for high professional standards. At WOW Gutters Ltd, every clean includes:</p>
 
 <ul>
 <li><strong>Before and after photos</strong> — sent to you on the same day</li>

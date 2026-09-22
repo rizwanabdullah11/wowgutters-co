@@ -144,7 +144,7 @@ export default function About() {
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-emerald-400" />
-                  <span className="text-gray-200"><strong>Pristine Environment:</strong> State-of-the-art suction guarantees zero overflow onto your patios or lawns.</span>
+                  <span className="text-gray-200"><strong>Pristine Environment:</strong> State-of-the-art suction prevents any overflow onto your patios or lawns.</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-emerald-400" />
@@ -153,7 +153,7 @@ export default function About() {
               </div>
 
               <p className="text-gray-300 leading-relaxed text-lg">
-                Our procedures are not only drastically safer but considerably faster, guaranteeing
+                Our procedures are not only drastically safer but considerably faster, ensuring
                 your roofline remains clear without disruptive scaffolding or dangerous climbing.
                 Fast bookings available and unwavering in our pursuit of thorough customer satisfaction.
               </p>
@@ -236,7 +236,7 @@ export default function About() {
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 We are dedicated to the holistic well-being of your property's exterior. Our full-scale approach
-                guarantees that every component functions seamlessly and looks immaculate.
+                ensures that every component functions seamlessly and looks immaculate.
               </p>
 
               <div className="space-y-6">

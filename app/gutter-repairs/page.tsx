@@ -6,7 +6,7 @@ import { buildMetadata } from '@/lib/seo';
 export const metadata: Metadata = buildMetadata({
   absoluteTitle: 'Professional Gutter Repairs | Leaks, Sagging & Broken Gutters Fixed | WOW Gutters Ltd',
   description:
-    'Expert gutter repairs across Birmingham and the West Midlands. Leaking joints, sagging runs, cracked sections, broken brackets — diagnosed and fixed with a 6-month guarantee. Call 07421 433910.',
+    'Expert gutter repairs across Birmingham and the West Midlands. Leaking joints, sagging runs, cracked sections, broken brackets — diagnosed and fixed with complete water flow testing. Call 07421 433910.',
   canonicalPath: '/gutter-repairs/',
 });
 
@@ -17,7 +17,7 @@ const service: ServiceDetail = {
   heroImage: '/gutter-repair-before.png',
   heroTitle: 'Gutter Repairs You Can Rely On',
   heroDescription:
-    'WOW Gutters Ltd repairs all types of gutter problems — leaking joints, sagging sections, loose brackets, cracked downpipes, and poor fall. Every repair is flow-tested before we leave, and qualifying work carries a 6-month guarantee.',
+    'WOW Gutters Ltd repairs all types of gutter problems — leaking joints, sagging sections, loose brackets, cracked downpipes, and poor fall. Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.',
   sections: [
     {
       title: 'Why Choose WOW Gutters Ltd for Gutter Repairs?',
@@ -28,7 +28,7 @@ const service: ServiceDetail = {
       bulletPoints: [
         'Leaks diagnosed at the source — not just silicone over the symptom',
         'Quality uPVC seals, brackets, and connectors used on every repair',
-        '6-month guarantee on qualifying repair work for peace of mind',
+        'Thorough water flow testing and before & after camera verification',
         'Water flow test after every repair to confirm proper drainage',
         'Fully insured with £10 million public liability cover',
         'Honest advice if replacement is more cost-effective than repair',

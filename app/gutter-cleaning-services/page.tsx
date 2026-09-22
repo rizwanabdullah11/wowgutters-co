@@ -21,7 +21,7 @@ const services = [
   {
     icon: Wrench,
     title: 'Gutter Repairs',
-    description: 'Leaking joints, broken brackets, sagging sections, cracked downpipes — all repaired with a 6-month guarantee. Trained engineers with fully stocked vans.',
+    description: 'Leaking joints, broken brackets, sagging sections, cracked downpipes — all repaired with complete water flow testing. Trained engineers with fully stocked vans.',
     link: '/services/gutter-repairs/',
   },
   {

@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { useEffect, useRef } from 'react';
 import Link from 'next/link';
@@ -172,7 +172,7 @@ export default function CityGutterCleaningPage({
       {showGuarantee && data.guarantees.length > 0 ? (
         <section className="py-16 px-4 bg-slate-50">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-8 text-center">Our Guarantee</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-8 text-center">Our Service Standards</h2>
             <ul className="grid sm:grid-cols-2 gap-4">
               {data.guarantees.map((g) => (
                 <li key={g} className="flex gap-3 p-5 rounded-2xl bg-white border border-slate-200 shadow-sm">
@@ -235,29 +235,97 @@ export default function CityGutterCleaningPage({
         </div>
       </section>
 
-      <section className="py-16 px-4 bg-slate-50">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">{data.areasTitle}</h2>
-          <p className="text-slate-700 text-lg">{data.areasInline}</p>
-          {data.internalLinks?.length ? (
-            <div className="flex flex-wrap justify-center gap-3 mt-8">
-              {data.internalLinks.map((l, i) => {
-                const variants = [l.label, l.label.replace(/^(Gutter cleaning) /i, 'Gutter cleaning in '), l.label.replace(/^(Gutter cleaning) /i, '')];
-                return (
-                  <Link
-                    key={l.href}
-                    href={l.href}
-                    className="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors shadow-sm"
-                  >
-                    {variants[i % variants.length]}
-                  </Link>
-                );
-              })}
+      {/* Complete Exterior Maintenance & Property Services Hub */}
+      <section className="py-16 px-4 bg-slate-50 border-t border-slate-200/60">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
+              Complete Exterior Property Solutions in {data.city}
+            </h2>
+            <p className="text-slate-600 text-base md:text-lg leading-relaxed">
+              In addition to our high-reach vacuum gutter clearance, WOW Gutters Ltd provides a comprehensive range of exterior maintenance services, fixed-rate pricing tools, and special discount programs for {data.city} residents.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6 mb-10">
+            {/* Card 1: Gutter Repairs & Inspections */}
+            <div className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-emerald-100 flex items-center justify-center mb-5 text-emerald-700 font-black text-xl">
+                  🔧
+                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-3">Gutter Repairs &amp; Inspection</h3>
+                <p className="text-slate-600 text-sm leading-relaxed mb-4">
+                  Leaking union joints, sagging brackets, and fractured downpipes cause damp masonry. Our engineers conduct on-site <Link href="/services/gutter-repairs/" className="text-emerald-700 font-semibold hover:underline">gutter repairs</Link> and provide <Link href="/services/gutter-inspection/" className="text-emerald-700 font-semibold hover:underline">free gutter inspections</Link> with camera footage.
+                </p>
+              </div>
+              <div className="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <Link href="/services/gutter-repairs/" className="text-emerald-700 hover:text-emerald-800 font-bold text-sm inline-flex items-center gap-1 hover:underline">
+                  Explore Gutter Repairs →
+                </Link>
+                <Link href="/services/gutter-inspection/" className="text-slate-600 hover:text-emerald-700 text-xs inline-flex items-center gap-1 hover:underline">
+                  Free Camera Inspection Guide →
+                </Link>
+              </div>
             </div>
-          ) : null}
+
+            {/* Card 2: Roof Cleaning & UPVC Washing */}
+            <div className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-teal-100 flex items-center justify-center mb-5 text-teal-700 font-black text-xl">
+                  🏠
+                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-3">Roof Moss &amp; UPVC Washing</h3>
+                <p className="text-slate-600 text-sm leading-relaxed mb-4">
+                  Heavy moss growth on roof tiles is the primary cause of recurrent gutter blockages. We provide low-pressure <Link href="/services/roof-cleaning/" className="text-emerald-700 font-semibold hover:underline">roof moss removal</Link> and pure-water <Link href="/services/upvc-cleaning/" className="text-emerald-700 font-semibold hover:underline">UPVC &amp; fascia washing</Link> to brighten your roofline.
+                </p>
+              </div>
+              <div className="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <Link href="/services/roof-cleaning/" className="text-emerald-700 hover:text-emerald-800 font-bold text-sm inline-flex items-center gap-1 hover:underline">
+                  Roof Cleaning Solutions →
+                </Link>
+                <Link href="/services/upvc-cleaning/" className="text-slate-600 hover:text-emerald-700 text-xs inline-flex items-center gap-1 hover:underline">
+                  UPVC &amp; Soffit Cleaning →
+                </Link>
+              </div>
+            </div>
+
+            {/* Card 3: Pricing, Calculator & Discounts */}
+            <div className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+              <div>
+                <div className="w-12 h-12 rounded-xl bg-cyan-100 flex items-center justify-center mb-5 text-cyan-700 font-black text-xl">
+                  💷
+                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-3">Fixed Rates &amp; Discounts</h3>
+                <p className="text-slate-600 text-sm leading-relaxed mb-4">
+                  Check upfront costs on our <Link href="/gutter-cleaning-calculator/" className="text-emerald-700 font-semibold hover:underline">price calculator</Link> or view our full <Link href="/gutter-cleaning-prices/" className="text-emerald-700 font-semibold hover:underline">pricing matrix</Link>. Save up to 20% with <Link href="/neighbourhood-discount/" className="text-emerald-700 font-semibold hover:underline">neighbourhood discounts</Link> and special <Link href="/oap-discount/" className="text-emerald-700 font-semibold hover:underline">OAP rates</Link>.
+                </p>
+              </div>
+              <div className="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <Link href="/gutter-cleaning-calculator/" className="text-emerald-700 hover:text-emerald-800 font-bold text-sm inline-flex items-center gap-1 hover:underline">
+                  Instant Price Calculator →
+                </Link>
+                <Link href="/neighbourhood-discount/" className="text-slate-600 hover:text-emerald-700 text-xs inline-flex items-center gap-1 hover:underline">
+                  Neighbourhood Group Savings →
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Additional Service Navigation Links */}
+          <div className="p-6 rounded-2xl bg-white border border-slate-200 flex flex-wrap items-center justify-between gap-4 text-sm text-slate-600">
+            <span className="font-bold text-slate-900">Explore Further:</span>
+            <div className="flex flex-wrap items-center gap-4">
+              <Link href="/services/conservatory/" className="text-emerald-700 hover:underline font-medium">Conservatory Roofs</Link>
+              <Link href="/services/commercial-gutter-cleaning/" className="text-emerald-700 hover:underline font-medium">Commercial Clearance</Link>
+              <Link href="/the-gutter-gallery/" className="text-emerald-700 hover:underline font-medium">Project Gallery</Link>
+              <Link href="/reviews/" className="text-emerald-700 hover:underline font-medium">Customer Reviews</Link>
+              <Link href="/help/" className="text-emerald-700 hover:underline font-medium">FAQ &amp; Advice</Link>
+              <Link href="/quote/" className="text-emerald-700 hover:underline font-semibold">Free Quote Form</Link>
+            </div>
+          </div>
         </div>
       </section>
-      <NearbyAreas area={data.slug} serviceKind={serviceKind} />
 
       <section className="relative overflow-hidden border-t border-white/10 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] py-20 px-4">
         <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center gap-10 md:flex-row md:items-center md:justify-between">

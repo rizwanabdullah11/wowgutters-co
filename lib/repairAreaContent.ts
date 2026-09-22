@@ -10,7 +10,7 @@ import { repairPriceFrom, repairPriceTo } from '@/lib/areaServiceMeta';
 
 function repairHeroPills(): string[] {
   return [
-    '6-month guarantee on qualifying repairs',
+    'Full water flow testing on every repair',
     'Leaking joints fixed, flow tested',
     'Same-day repairs where available',
   ];
@@ -46,9 +46,9 @@ export function transformTextToRepair(text: string): string {
       .replace(/clear\b/gi, 'repair')
       .replace(/downpipe flushing\b/gi, 'downpipe repair')
       .replace(/downpipe clearance\b/gi, 'downpipe repair')
-      .replace(/1-year service guarantee\b/gi, '6-month repair guarantee')
-      .replace(/1-year guarantee\b/gi, '6-month guarantee')
-      .replace(/we return free if your gutters block within 12 months\b/gi, 'qualifying repairs carry a 6-month guarantee')
+      .replace(/1-year service guarantee\b/gi, 'full water flow testing')
+      .replace(/1-year guarantee\b/gi, 'full water flow testing')
+      .replace(/we return free if your gutters block within 12 months\b/gi, 'repairs undergo full water flow testing')
       .replace(/no ladders placed against your property\b/gi, 'no ladders used during repair work')
       .replace(/Reaches up to 4 storeys\b/gi, 'Repairs on gutters up to 4 storeys'),
   );
@@ -70,7 +70,7 @@ function repairFaqsForArea(
     const repairSpecific: { question: string; answer: string }[] = [
       {
         question: `What gutter repair services do you offer in ${city}?`,
-        answer: `We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes, and poor fall. Every repair is flow-tested before we leave, and qualifying work carries a 6-month guarantee.`,
+        answer: `We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes, and poor fall. Every repair is flow-tested before we leave, and repairs undergo full water flow testing.`,
       },
       {
         question: `How much does gutter repair cost in ${city}?`,
@@ -82,15 +82,15 @@ function repairFaqsForArea(
   return [
     {
       question: `What gutter repair services do you offer in ${city}?`,
-      answer: `We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes, and poor fall. Every repair is flow-tested before we leave, and qualifying work carries a 6-month guarantee.`,
+      answer: `We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes, and poor fall. Every repair is flow-tested before we leave, and repairs undergo full water flow testing.`,
     },
     {
       question: `How much does gutter repair cost in ${city}?`,
       answer: `Gutter repair costs vary depending on the issue. A leaking joint reseal starts from around £80, while a full section replacement may cost more. We provide a free, no-obligation quote before any work starts.`,
     },
     {
-      question: `Do you guarantee your gutter repair work in ${city}?`,
-      answer: `Yes. Qualifying repair work carries a 6-month guarantee. If the repaired section develops the same issue within six months, we return and fix it at no additional cost.`,
+      question: `Do you test your gutter repair work in ${city}?`,
+      answer: `Yes. Every repair is thoroughly flow-tested before we leave to ensure watertight joints and smooth rainwater flow.`,
     },
     {
       question: `Can you repair gutters on tall properties in ${city}?`,
@@ -121,7 +121,7 @@ export function transformCityGutterToRepair(data: CityGutterLandingData): CityGu
       ? transformTextToRepair(data.localSpotlight)
       : undefined,
     guarantees: [
-      '6-month guarantee on qualifying repairs — peace of mind included',
+      'Full water flow testing and £10m public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -266,14 +266,14 @@ export function buildRepairLandingFromCity(input: CityData & { streets?: string[
     slug,
     city: name,
     titleTag: `Gutter Repairs ${name} | Leaks, Sagging & Broken Gutters Fixed | WOW Gutters Ltd`,
-    metaDescription: `Expert gutter repairs in ${name} from £${repairFrom}. Leaking joints, sagging runs, cracked sections — fixed with a 6-month guarantee. Postcodes ${pcLabel}. Call WOW Gutters Ltd: 07421 433910.`,
+    metaDescription: `Expert gutter repairs in ${name} from £${repairFrom}. Leaking joints, sagging runs, cracked sections — fixed with full flow testing. Postcodes ${pcLabel}. Call WOW Gutters Ltd: 07421 433910.`,
     h1: `Gutter Repairs ${name} — Leaks, Sagging & Broken Gutters Fixed`,
-    heroIntro: `WOW Gutters Ltd provides professional gutter repairs in ${name} (${pcLabel}). From leaking joints on terraced homes to sagging uPVC runs on semis and bracket replacements on detached properties, we fix every type of gutter problem. Every repair is flow-tested before we leave, and qualifying work carries a 6-month guarantee.`,
+    heroIntro: `WOW Gutters Ltd provides professional gutter repairs in ${name} (${pcLabel}). From leaking joints on terraced homes to sagging uPVC runs on semis and bracket replacements on detached properties, we fix every type of gutter problem. Every repair is flow-tested before we leave, and repairs undergo full water flow testing.`,
     whyTitle: `Why ${name} Homes Need Professional Gutter Repairs`,
     whyBody: repairGeneratedWhyBody(name),
     localSpotlight: undefined,
     guarantees: [
-      '6-month guarantee on qualifying repairs — peace of mind included',
+      'Full water flow testing and £10m public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -307,17 +307,17 @@ export function buildBirminghamRepairLanding(): CityGutterLandingData {
     city: 'Birmingham',
     titleTag: 'Gutter Repairs Birmingham | Leaks, Sagging & Broken Gutters Fixed | WOW Gutters Ltd',
     metaDescription:
-      'Expert gutter repairs in Birmingham. Leaking joints, sagging runs, cracked sections, broken brackets — diagnosed and fixed with a 6-month guarantee. Call WOW Gutters Ltd: 07421 433910.',
+      'Expert gutter repairs in Birmingham. Leaking joints, sagging runs, cracked sections, broken brackets — diagnosed and fixed with full flow testing. Call WOW Gutters Ltd: 07421 433910.',
     h1: 'Gutter Repairs Birmingham — Leaks, Sagging & Broken Gutters Fixed Across the West Midlands',
     heroIntro:
-      'WOW Gutters Ltd provides professional gutter repairs across Birmingham and all surrounding West Midlands postcodes. From leaking joints on Victorian terraces in Moseley to sagging uPVC runs on semis in Sutton Coldfield and bracket replacements on detached homes across B15–B76, we fix every type of gutter problem. Every repair is flow-tested before we leave, and qualifying work carries a 6-month guarantee.',
+      'WOW Gutters Ltd provides professional gutter repairs across Birmingham and all surrounding West Midlands postcodes. From leaking joints on Victorian terraces in Moseley to sagging uPVC runs on semis in Sutton Coldfield and bracket replacements on detached homes across B15–B76, we fix every type of gutter problem. Every repair is flow-tested before we leave, and repairs undergo full water flow testing.',
     whyTitle: 'Why Birmingham Homes Need Professional Gutter Repairs',
     whyBody: [
       'A leaking gutter rarely fixes itself. Water that misses the downpipe ends up against your walls, saturating brickwork, rotting fascias, and finding its way into your home. In Birmingham\'s damp West Midlands climate, small gutter issues escalate quickly into structural problems.',
-      'Tree-lined suburbs such as Moseley, Harborne, Sutton Coldfield and Kings Heath see more gutter damage as debris weight pulls brackets loose and joints open over time. Professional repair with flow testing and a 6-month guarantee is the most cost-effective way to protect your property.',
+      'Tree-lined suburbs such as Moseley, Harborne, Sutton Coldfield and Kings Heath see more gutter damage as debris weight pulls brackets loose and joints open over time. Professional repair with thorough flow testing is the most cost-effective way to protect your property.',
     ],
     guarantees: [
-      '6-month guarantee on qualifying repairs — peace of mind included',
+      'Full water flow testing and £10m public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',

@@ -130,7 +130,7 @@ export const servicesData: ServiceDetail[] = [
     heroVideo: '/gutter-repair%20(2).mp4',
     heroTitle: 'Professional Gutter Repairs',
     heroDescription:
-      'Expert gutter repairs for leaking joints, sagging runs, loose brackets, cracked sections, and damaged downpipes. Quality materials, flow testing on every job, and a 6-month guarantee on qualifying repair work from WOW Gutters Ltd.',
+      'Expert gutter repairs for leaking joints, sagging runs, loose brackets, cracked sections, and damaged downpipes. Quality materials, flow testing on every job, and thorough water flow testing on every repair from WOW Gutters Ltd.',
     sections: [
       {
         title: 'Why Choose WOW Gutters Ltd for Gutter Repairs?',
@@ -141,7 +141,7 @@ export const servicesData: ServiceDetail[] = [
         bulletPoints: [
           'Leaking joints, sagging gutters, and loose brackets repaired by trained technicians',
           'Quality uPVC seals, connectors, and brackets — not temporary DIY fixes',
-          '6-month guarantee on qualifying gutter repair work',
+          'Full water flow testing on qualifying gutter repair work',
           'Flow testing after every repair to confirm rainwater drains correctly',
           'Fully insured with £10 million public liability cover',
           'Same-day and emergency gutter repairs where availability allows',
@@ -994,7 +994,7 @@ export const servicesData: ServiceDetail[] = [
     icon: '🔩',
     heroImage: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920',
     heroTitle: 'Professional Gutter Installation',
-    heroDescription: 'New uPVC gutter and downpipe systems measured, supplied and fitted by WOW Gutters Ltd. Quality materials, professional finish, 10-year warranty on parts.',
+    heroDescription: 'New uPVC gutter and downpipe systems measured, supplied and fitted by WOW Gutters Ltd. Quality materials, professional finish, quality British standard materials.',
     sections: [
       {
         title: 'Why Replace Your Gutters?',
@@ -1018,7 +1018,7 @@ export const servicesData: ServiceDetail[] = [
           'Quality uPVC gutters and downpipes',
           'Professional fitting with correct fall angles',
           'Old gutter removal and disposal',
-          '10-year manufacturer warranty on parts',
+          'Quality British standard uPVC components',
           'Before and after photos'
         ]
       }
@@ -1298,7 +1298,7 @@ export const servicesData: ServiceDetail[] = [
         content:
           'A contract gutter cleaning service ensures your gutters are maintained regularly without the hassle of remembering to book. It also costs less per visit than one-off bookings.',
         bulletPoints: [
-          'Guaranteed regular maintenance — never miss a gutter clean',
+          'Scheduled regular maintenance — never miss a gutter clean',
           'Lower cost per visit compared to one-off bookings',
           'Emergency callout included in some contract tiers',
           'Documented evidence for insurance and compliance',

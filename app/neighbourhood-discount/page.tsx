@@ -23,7 +23,7 @@ export default function NeighbourhoodDiscount() {
     'Convenient scheduling for the whole street',
     'Build stronger community connections',
     'Same-day service for multiple properties',
-    'Guaranteed quality across all homes',
+    'Consistent quality across all homes',
     'Flexible payment options available'
   ];
 

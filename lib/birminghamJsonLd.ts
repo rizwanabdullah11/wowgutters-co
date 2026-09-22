@@ -56,7 +56,7 @@ export function getBirminghamLocalBusinessSchema() {
         "@id": "https://wowgutters.co.uk/gutter-cleaning-birmingham/#service",
         "name": "Gutter Cleaning Birmingham",
         "serviceType": "Gutter cleaning",
-        "description": "Professional gutter cleaning in Birmingham. Ground-level vacuum system, no ladders, up to 4 storeys, before & after photos, downpipes cleared, 1-year guarantee.",
+        "description": "Professional gutter cleaning in Birmingham. Ground-level vacuum system, no ladders, up to 4 storeys, before & after photos, downpipes cleared, fully insured.",
         "provider": { "@id": "https://wowgutters.co.uk/#business" },
         "areaServed": { "@type": "City", "name": "Birmingham" },
         "url": "https://wowgutters.co.uk/gutter-cleaning-birmingham/"

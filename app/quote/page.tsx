@@ -34,7 +34,7 @@ const whyChooseUs = [
   { icon: Shield, title: 'Insured & Fully Covered', desc: 'Full public liability insurance included — your home is always protected.' },
   { icon: Award, title: 'Loved by Local Homeowners', desc: 'Verified 5-star ratings across Birmingham & the West Midlands.' },
   { icon: Zap, title: 'We Move Fast', desc: 'Same-day booking available — we work around your schedule.' },
-  { icon: CheckCircle, title: 'Clear 48-Hr Work Guarantee', desc: 'Every service backed by our 48-hour satisfaction promise.' },
+  { icon: CheckCircle, title: 'Fully Insured & Tested', desc: 'Every service backed by £10m cover and full water flow testing.' },
 ];
 
 const ourPromise = [

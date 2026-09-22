@@ -456,7 +456,7 @@ function buildBullets(slug: string): string[] {
   if (slug.includes('repair') || slug.includes('replace')) {
     return [
       'Expert gutter repairs for leaking joints, sagging runs, and loose brackets',
-      'Quality materials with a 6-month guarantee on qualifying work',
+      'Quality British standard materials with complete water flow testing',
       'Flow testing after every repair to confirm proper drainage',
       'Gutter replacement and installation services available',
       'Same-day and emergency repair slots where available',
@@ -558,7 +558,7 @@ function buildBullets(slug: string): string[] {
       'Custom-made on-site for a perfect fit on your property',
       'Fewer joints means reduced risk of leaks',
       'Available in a range of colours and finishes',
-      'Professional installation with full guarantee',
+      'Professional installation with complete water flow testing',
       'Free quotes and expert advice from experienced gutters specialists',
     ];
   }
@@ -863,7 +863,7 @@ function getContent(keyword: string): { heroTitle: string; heroDescription: stri
         { question: 'Who provides the best gutter cleaning in Birmingham?', answer: 'WOW Gutters Ltd is consistently rated as one of Birmingham\'s top gutter cleaning companies with a 4.9-star Google rating from thousands of verified customer reviews.' },
         { question: 'What equipment do the best gutter cleaners use?', answer: 'The best gutter cleaners use professional ground-level vacuum systems that clean gutters thoroughly without ladders against your property.' },
         { question: 'How do I choose a gutter cleaning company in Birmingham?', answer: 'Look for professional equipment, public liability insurance, before and after photo evidence, transparent pricing, and verified customer reviews. WOW Gutters Ltd meets all these criteria.' },
-        { question: 'Do you offer a guarantee on gutter cleaning?', answer: 'Yes — all our gutter cleaning work is backed by our quality guarantee. If you are not satisfied, we will return to address any issues.' },
+        { question: 'Do you test downpipes after gutter cleaning?', answer: 'Yes — every clean includes full water flow testing of downpipes and gutters to ensure rainwater drains freely.' },
         { question: 'How quickly can Birmingham\'s best gutter cleaners attend?', answer: 'We offer same-day and next-day appointments across Birmingham subject to availability. Call 07421 433910 for the earliest booking.' },
       ],
     };
@@ -1008,7 +1008,7 @@ function getContent(keyword: string): { heroTitle: string; heroDescription: stri
         { question: 'Is roof moss removal worth the cost?', answer: 'Yes — moss damages roof tiles over time, lifts tiles, and blocks gutters. Professional removal protects your roof and prevents costly repairs.' },
         { question: 'Does roof moss removal include gutter cleaning?', answer: 'WOW Gutters Ltd clears gutters after roof moss treatment to remove any fallen debris, but this is separate from a full gutter clean.' },
         { question: 'How long does roof moss removal last?', answer: 'Our biocide treatment slows regrowth significantly. Most roofs stay clear for 12–24 months before retreatment is needed.' },
-        { question: 'Do you guarantee your roof moss removal work?', answer: 'Yes — we stand behind our work. If any issues arise after treatment, we will address them promptly.' },
+        { question: 'Do you apply protective treatment after roof moss removal?', answer: 'Yes — after clearing moss, we apply a professional biocide wash that slows down future regrowth.' },
       ],
     };
   }
@@ -1054,7 +1054,7 @@ function getContent(keyword: string): { heroTitle: string; heroDescription: stri
       heroTitle: 'Gutter Cleaning Price Per Metre',
       heroDescription: 'Gutter cleaning price per metre — typically £3–£8 per metre depending on access and debris level. WOW Gutters Ltd provides fixed quotes. Call 07421 433910.',
       sections: [
-        { heading: 'Gutter Cleaning Price Per Metre', content: 'Some gutter cleaning companies quote by the metre, particularly for larger properties and commercial work. WOW Gutters Ltd typically provides fixed quotes per property, which is simpler and gives you a guaranteed price.', bullets: ['Typical price per metre: £3–£8 depending on access', 'Ground-level accessible gutters: £3–£5 per metre', 'High-level gutters needing specialist equipment: £5–£8 per metre', 'Most domestic properties: fixed price quoted per job', 'Most cost-effective: book by property rather than per metre', 'Free quotes with fixed pricing — no hidden charges'] },
+        { heading: 'Gutter Cleaning Price Per Metre', content: 'Some gutter cleaning companies quote by the metre, particularly for larger properties and commercial work. WOW Gutters Ltd typically provides fixed quotes per property, which is simpler and provides transparent, upfront pricing.', bullets: ['Typical price per metre: £3–£8 depending on access', 'Ground-level accessible gutters: £3–£5 per metre', 'High-level gutters needing specialist equipment: £5–£8 per metre', 'Most domestic properties: fixed price quoted per job', 'Most cost-effective: book by property rather than per metre', 'Free quotes with fixed pricing — no hidden charges'] },
         { heading: 'Is Price Per Metre or Fixed Price Better?', content: 'Most homeowners prefer fixed pricing because it gives certainty. Price per metre can vary depending on how the gutter length is measured. WOW Gutters Ltd uses fixed pricing for most residential work.', bullets: ['Fixed pricing gives certainty — you know the cost upfront', 'Price per metre can be ambiguous — what is included?', 'Fixed quotes include all gutters, downpipes, and photos', 'Per metre quotes may exclude downpipe testing or silt removal', 'Ask any gutter cleaner for a fixed price before agreeing', 'WOW Gutters Ltd provides fixed quotes on all domestic work'] },
       ],
       faqs: [
@@ -1638,7 +1638,7 @@ function getContent(keyword: string): { heroTitle: string; heroDescription: stri
         { question: 'Can I prevent moss on my roof myself?', answer: 'You can apply DIY moss killer from DIY stores, but professional treatments are more effective and longer-lasting. Treating a roof yourself also carries safety risks from working at height.' },
         { question: 'How long does roof moss treatment last?', answer: 'Professional moss prevention treatments typically last 3 to 5 years. Zinc or copper strips provide ongoing protection for 10+ years but take longer to become effective.' },
         { question: 'Does roof moss prevention damage tiles?', answer: 'No — professional moss treatments are designed to be safe for all common roof tile types. They kill moss without damaging the tile surface or structure.' },
-        { question: 'Does WOW Gutters Ltd offer roof moss prevention?', answer: 'Yes — we provide professional moss removal followed by a protective treatment that prevents regrowth. Our treatment is safe for all tile types and comes with a 3-year guarantee.' },
+        { question: 'Does WOW Gutters Ltd offer roof moss prevention?', answer: 'Yes — we provide professional moss removal followed by a protective treatment that prevents regrowth. Our treatment is safe for all tile types and effectively prevents organic regrowth.' },
       ],
     };
   }
@@ -1656,7 +1656,7 @@ function getContent(keyword: string): { heroTitle: string; heroDescription: stri
         { question: 'What is the safest roof cleaning method?', answer: 'Soft washing is the safest method — it uses low-pressure water combined with a cleaning solution that kills moss and algae without abrasive force. It is safe for all tile types.' },
         { question: 'Can roof cleaning cause roof leaks?', answer: 'Yes — high-pressure cleaning can force water under tiles or loosen them, causing leaks. Soft washing at low pressure cannot force water under properly fitted tiles.' },
         { question: 'How do I know if a roof cleaner will damage my tiles?', answer: 'Ask what method they use. If they mention high-pressure washing, choose a different provider. A reputable cleaner will explain their soft-washing process and provide references.' },
-        { question: 'Does WOW Gutters Ltd guarantee no tile damage?', answer: 'Yes — we use soft washing methods exclusively for roof cleaning and guarantee no damage to your tiles. Our team is experienced with all UK roof tile types.' },
+        { question: 'How does WOW Gutters Ltd prevent tile damage during roof cleaning?', answer: 'Yes — we use soft washing methods exclusively for roof cleaning and ensure zero damage to your tiles using controlled low-pressure wash methods. Our team is experienced with all UK roof tile types.' },
       ],
     };
   }
@@ -1972,7 +1972,7 @@ function getContent(keyword: string): { heroTitle: string; heroDescription: stri
       heroTitle: 'Same Day Gutter Unblocking',
       heroDescription: 'Need gutters unblocked today? WOW Gutters Ltd provides same-day gutter unblocking across Birmingham. Call 07421 433910 for fast, professional service.',
       sections: [
-        { heading: 'Same-Day Gutter Unblocking Service', content: 'When your gutters are blocked and water is pouring over the edges, you cannot wait days for help. WOW Gutters Ltd offers same-day gutter unblocking for urgent situations across Birmingham. Our team arrives with everything needed to clear blockages fast — gutter vacuum, ladders, downpipe jetting equipment, and hand tools. We assess the blockage, clear it, and test the system before we leave. Same-day service is available for both residential and commercial properties.', bullets: ['Call before 12pm — same-day visit guaranteed', 'Fully equipped — gutter vac, jetting kit, hand tools on every van', 'Fast assessment — identify the blockage and clear it immediately', 'Downpipe clearance — water jetting for stubborn downpipe blockages', 'System test — every downpipe tested before we leave', 'Residential and commercial — same-day service for all property types'] },
+        { heading: 'Same-Day Gutter Unblocking Service', content: 'When your gutters are blocked and water is pouring over the edges, you cannot wait days for help. WOW Gutters Ltd offers same-day gutter unblocking for urgent situations across Birmingham. Our team arrives with everything needed to clear blockages fast — gutter vacuum, ladders, downpipe jetting equipment, and hand tools. We assess the blockage, clear it, and test the system before we leave. Same-day service is available for both residential and commercial properties.', bullets: ['Call before 12pm — same-day rapid response', 'Fully equipped — gutter vac, jetting kit, hand tools on every van', 'Fast assessment — identify the blockage and clear it immediately', 'Downpipe clearance — water jetting for stubborn downpipe blockages', 'System test — every downpipe tested before we leave', 'Residential and commercial — same-day service for all property types'] },
         { heading: 'Common Blockages We Unblock Same-Day', content: 'Most same-day gutter unblocking jobs fall into a few common categories. The most frequent is a downpipe inlet blocked with compacted leaves — the gutter channel looks clear but the downpipe is sealed at the top. Next is a gutter channel packed with wet, compacted debris after months or years of neglect. Third is a downpipe blockage at the bottom bend where debris settles over time. All three can be cleared in a single same-day visit by our experienced team.', bullets: ['Downpipe inlet blocked — compacted leaves sealing the pipe top', 'Compacted gutter debris — wet sludge filling the entire channel', 'Downpipe bottom bend — debris settled in the lower elbow', 'Nesting material — bird or rodent nests blocking downpipes', 'Moss sludge — decomposed moss blocking downpipe inlets', 'Storm debris — twigs, leaves, and sediment washed into gutters'] },
       ],
       faqs: [
@@ -2514,7 +2514,7 @@ function getContent(keyword: string): { heroTitle: string; heroDescription: stri
   if (slug.includes('gutter') && (slug.includes('repair') || slug.includes('replacement') || slug.includes('replace'))) {
     return {
       heroTitle: titleCase(keyword),
-      heroDescription: `Expert gutter repair and replacement services across Birmingham and the West Midlands. WOW Gutters Ltd fixes leaking joints, sagging runs, loose brackets, and damaged sections. Quality materials with a 6-month guarantee on qualifying work. Free inspection and quote — call 07421 433910.`,
+      heroDescription: `Expert gutter repair and replacement services across Birmingham and the West Midlands. WOW Gutters Ltd fixes leaking joints, sagging runs, loose brackets, and damaged sections. Quality materials with complete water flow testing. Free inspection and quote — call 07421 433910.`,
       sections: [
         {
           heading: 'Gutter Repair and Replacement Services',
@@ -3531,7 +3531,7 @@ function getContent(keyword: string): { heroTitle: string; heroDescription: stri
       heroDescription: 'Reliable gutter cleaning contracts for commercial and residential properties across Birmingham and the West Midlands. WOW Gutters Ltd offers scheduled maintenance with fixed annual pricing. Call 07421 433910.',
       sections: [
         { heading: 'Gutter Cleaning Contract Services', content: 'A gutter cleaning contract provides scheduled maintenance with fixed pricing, priority booking, and peace of mind. WOW Gutters Ltd offers gutter cleaning contracts for commercial properties, landlords, managing agents, and homeowners who want reliable year-round gutter care.', bullets: ['Scheduled gutter cleaning visits — tailored to your property\'s needs', 'Fixed annual price with no hidden charges', 'Priority booking over one-off customers', 'Comprehensive documentation after every visit', 'Flexible visit frequency — quarterly, bi-annual, or annual', 'Dedicated account management for contract customers'] },
-        { heading: 'Benefits of a Gutter Cleaning Contract', content: 'A contract gutter cleaning service ensures your gutters are maintained regularly without the hassle of remembering to book. It also costs less per visit than one-off bookings.', bullets: ['Guaranteed regular maintenance — never miss a gutter clean', 'Lower cost per visit compared to one-off bookings', 'Emergency callout included in some contract tiers', 'Documented evidence for insurance and compliance', 'Extends the life of your gutter system', 'Free initial assessment and fixed price quote'] },
+        { heading: 'Benefits of a Gutter Cleaning Contract', content: 'A contract gutter cleaning service ensures your gutters are maintained regularly without the hassle of remembering to book. It also costs less per visit than one-off bookings.', bullets: ['Scheduled regular maintenance — never miss a gutter clean', 'Lower cost per visit compared to one-off bookings', 'Emergency callout included in some contract tiers', 'Documented evidence for insurance and compliance', 'Extends the life of your gutter system', 'Free initial assessment and fixed price quote'] },
       ],
       faqs: [
         { question: 'How often do contract visits happen?', answer: 'Contract frequency is tailored to your property. Most contracts include 1–4 visits per year depending on location, tree cover, and property type.' },
@@ -4264,7 +4264,7 @@ function getContent(keyword: string): { heroTitle: string; heroDescription: stri
       heroTitle: 'Gutter Cleaning Service Level Agreement',
       heroDescription: 'Professional gutter cleaning service level agreements for commercial properties. WOW Gutters Ltd provides SLAs with defined visit frequencies, response times, and reporting standards. Call 07421 433910.',
       sections: [
-        { heading: 'Gutter Cleaning Service Level Agreements', content: 'A gutter cleaning service level agreement (SLA) defines the scope, frequency, and quality standards for gutter maintenance on your commercial property. WOW Gutters Ltd provides structured SLAs that give facilities managers and property owners clarity on what is delivered, when, and to what standard.', bullets: ['Defined visit frequency — monthly, quarterly, bi-annual, or annual', 'Clear scope of work for each gutter cleaning visit', 'Response time guarantees for urgent gutter issues', 'Quality standards and reporting requirements', 'Documented evidence for compliance and audit', 'Dedicated account management for SLA customers'] },
+        { heading: 'Gutter Cleaning Service Level Agreements', content: 'A gutter cleaning service level agreement (SLA) defines the scope, frequency, and quality standards for gutter maintenance on your commercial property. WOW Gutters Ltd provides structured SLAs that give facilities managers and property owners clarity on what is delivered, when, and to what standard.', bullets: ['Defined visit frequency — monthly, quarterly, bi-annual, or annual', 'Clear scope of work for each gutter cleaning visit', 'Priority response times for urgent gutter issues', 'Quality standards and reporting requirements', 'Documented evidence for compliance and audit', 'Dedicated account management for SLA customers'] },
         { heading: 'What Our Gutter Cleaning SLAs Include', content: 'WOW Gutters Ltd gutter cleaning service level agreements are designed to meet the needs of commercial property owners, facilities managers, and property management companies.', bullets: ['Scheduled gutter cleaning visits to agreed frequency', 'Full clearance of all gutter channels and downpipes', 'Before and after photographic documentation', 'Written condition reports identifying any defects', 'Priority response for emergency callouts between visits', 'Quarterly and annual performance reporting'] },
       ],
       faqs: [

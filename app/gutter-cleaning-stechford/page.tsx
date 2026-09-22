@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning Stechford, Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Stechford B33. From £50. No ladders, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
+    description: 'Professional gutter cleaning in Stechford B33. From £50. No ladders, before & after photos, fully insured. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/stechford.jpg'],
   },
 }

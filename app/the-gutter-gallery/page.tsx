@@ -169,7 +169,7 @@ export default function GutterGallery() {
                 </div>
                 <div className="flex items-center gap-3 text-gray-600">
                   <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
-                  <span className="text-sm font-medium">Satisfaction guaranteed</span>
+                  <span className="text-sm font-medium">Fully insured (£10m)</span>
                 </div>
               </div>
             </div>
@@ -207,7 +207,7 @@ export default function GutterGallery() {
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">Downpipe Unblocking &amp; Flow Test</h3>
               <p className="text-slate-600 leading-relaxed text-sm">
-                Clearing horizontal gutter runs is only half the job. We dislodge underground downpipe swan-necks and execute high-volume water flow tests to guarantee water runs freely. If damaged unions are found, our team provides instant <Link href="/services/gutter-repairs/" className="text-emerald-700 font-semibold hover:underline">gutter repairs</Link> and seal replacements.
+                Clearing horizontal gutter runs is only half the job. We dislodge underground downpipe swan-necks and execute high-volume water flow tests to ensure water runs freely. If damaged unions are found, our team provides instant <Link href="/services/gutter-repairs/" className="text-emerald-700 font-semibold hover:underline">gutter repairs</Link> and seal replacements.
               </p>
             </div>
 

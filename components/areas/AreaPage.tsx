@@ -94,7 +94,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
             <span className="title-prefix">Gutter Cleaning</span>{' '}
             <span className="title-service" style={{ color: colors.primary }}>{formattedArea}</span>
             <br />
-            <span className="title-secondary">Professional, Safe &amp; Guaranteed</span>
+            <span className="title-secondary">Professional, Safe &amp; Fully Insured</span>
           </h1>
 
           <p className="hero-subtitle animate-fade-in-up delay-200">
@@ -212,7 +212,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
               </p>
               <p>
                 Every job includes before and after photos sent directly to you, downpipe clearing as standard, and a
-                fully guaranteed professional service.
+                fully insured professional service.
               </p>
               <div className="p-6 rounded-xl bg-[#f1f5f9] border border-slate-200 mt-8">
                 <p className="text-slate-800 font-medium flex items-center gap-3 text-xl mb-4">

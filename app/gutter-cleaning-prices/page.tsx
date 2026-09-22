@@ -468,7 +468,7 @@ export default function GutterCleaningPrices() {
 
           <div className="flex items-center justify-center gap-2 text-white/80">
             <Shield className="w-5 h-5 text-emerald-400" />
-            <span>Guaranteed satisfaction &amp; full photographic proof on every job</span>
+            <span>Full water flow testing &amp; photographic proof on every job</span>
           </div>
         </div>
       </section>

@@ -9,7 +9,7 @@ import { buildMetadata } from '@/lib/seo';
 export const metadata: Metadata = buildMetadata({
   absoluteTitle: 'Gutter Installation — New uPVC Systems Fitted | WOW Gutters Ltd',
   description:
-    'Professional uPVC gutter installation in Birmingham and the West Midlands. Free survey, fixed quote, 10-year warranty on parts. Call WOW Gutters Ltd: 07421 433910.',
+    'Professional uPVC gutter installation in Birmingham and the West Midlands. Free survey, fixed quote, quality British standard uPVC materials. Call WOW Gutters Ltd: 07421 433910.',
   canonicalPath: '/services/gutter-installation/',
 });
 
@@ -19,7 +19,7 @@ const serviceSchema = {
   name: 'Gutter Installation',
   serviceType: 'Gutter Installation',
   description:
-    'New uPVC gutter and downpipe systems measured, supplied and fitted by WOW Gutters Ltd. Quality materials, professional finish, 10-year warranty on parts.',
+    'New uPVC gutter and downpipe systems measured, supplied and fitted by WOW Gutters Ltd. Quality materials, professional finish, quality British standard uPVC materials.',
   provider: {
     '@id': 'https://wowgutters.co.uk/#business',
   },

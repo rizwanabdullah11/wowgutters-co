@@ -25,7 +25,7 @@ export const allFAQs: FAQItem[] = [
   {
     id: 'gutter-cleaning-messy',
     question: 'Is gutter cleaning messy?',
-    answer: 'No mess guaranteed! We use professional vacuum equipment that collects all debris directly into sealed bags. We also lay protective sheets where needed and thoroughly clean up after ourselves. You won\'t even know we\'ve been there - except for your sparkling clean gutters!',
+    answer: 'No mess left behind! We use professional vacuum equipment that collects all debris directly into sealed bags. We also lay protective sheets where needed and thoroughly clean up after ourselves. You won\'t even know we\'ve been there - except for your sparkling clean gutters!',
     category: 'Gutter Cleaning',
     icon: '✨'
   },
@@ -121,9 +121,9 @@ export const allFAQs: FAQItem[] = [
     icon: '🏢'
   },
   {
-    id: 'gutter-cleaning-guarantee',
-    question: 'Do you offer a guarantee?',
-    answer: 'Yes! We offer a 100% satisfaction guarantee. If you\'re not happy with our work, we\'ll return and make it right at no extra cost.',
+    id: 'gutter-cleaning-flow-testing',
+    question: 'Do you test water flow after cleaning?',
+    answer: 'Yes! We inspect and flow-test downpipes and gutters to ensure rainwater drains freely and cleanly to ground level.',
     category: 'General',
     icon: '✅'
   },
@@ -287,8 +287,8 @@ export const allFAQs: FAQItem[] = [
   },
   {
     id: 'gutter-warranty',
-    question: 'Do you offer a warranty on gutter installation?',
-    answer: 'Yes! We provide a 10-year guarantee on workmanship and materials carry manufacturer warranties (typically 10-20 years). You\'re fully protected.',
+    question: 'How do you ensure quality on gutter installation?',
+    answer: 'Every installation uses quality materials, correct fall alignment, and undergoes full water flow testing before completion to ensure proper drainage.',
     category: 'Gutter Installation',
     icon: '✅'
   },

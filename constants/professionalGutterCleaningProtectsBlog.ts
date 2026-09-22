@@ -28,7 +28,7 @@ const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
     <h3 style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.2;">PROTECT ALL THREE TODAY</h3>
-    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Roof, walls, and foundations — protected in a single professional visit. Free quote · Before and after photos · 1-year guarantee.</p>
+    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Roof, walls, and foundations — protected in a single professional visit. Free quote · Before and after photos · fully insured.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
     <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
@@ -237,7 +237,7 @@ ${ctaMid}
   <li><strong>Stage 6 — Written condition report:</strong> Every joint observation, bracket condition, fascia board section showing moisture contact evidence, and roof moss coverage observation is documented in writing with specific recommendations.</li>
 </ol>
 
-<p>Our 1-year service guarantee covers every job we complete — if anything related to our work causes a concern within twelve months, we return and address it. No disputes. No conditions.</p>
+<p>Every job we complete includes full water flow testing and photographic verification before we leave.</p>
 
 <p>Book an inspection: <a href="/services/gutter-inspection/" style="${link}">gutter inspection Birmingham</a> · <a href="/blog/birmingham-gutter-inspection/" style="${link}">gutter inspection saves thousands</a></p>
 
@@ -374,7 +374,7 @@ ${ctaMid}
 
 <p>Professional gutter cleaning is not a maintenance task you arrange when something goes wrong. It is the structural protection investment you make so that something going wrong becomes significantly less likely.</p>
 
-<p>Wow Gutters Ltd provides this protection across Birmingham and the full West Midlands. Industrial vacuum system from ground level — no ladders. Before and after photographs on every job. Written condition report identifying every developing issue. 1-year service guarantee on every visit.</p>
+<p>Wow Gutters Ltd provides this protection across Birmingham and the full West Midlands. Industrial vacuum system from ground level — no ladders. Before and after photographs on every job. Written condition report identifying every developing issue. Thorough water flow testing on every visit.</p>
 
 ${ctaBox}
 
@@ -383,7 +383,7 @@ ${ctaBox}
 🌐 <a href="/quote/" style="${link}">wowgutters.co.uk/quote</a><br/>
 💬 WhatsApp: <a href="https://wa.me/447421433910" style="${link}">wa.me/447421433910</a></p>
 
-<p>Free quote · Before and after photos every job · 1-year service guarantee · Fully insured<br/>
+<p>Free quote · Before and after photos every job · Water flow tested · Fully insured<br/>
 Open 24 hours a day, 7 days a week</p>
 
 <p>We cover: Birmingham · Solihull · Sutton Coldfield · Wolverhampton · Walsall · Dudley · Redditch · Bromsgrove · Coventry · Warwick · Worcester · Kidderminster · West Midlands · Worcestershire · Warwickshire</p>

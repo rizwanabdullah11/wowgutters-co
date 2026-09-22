@@ -163,7 +163,7 @@ export default function ReviewsPage() {
                   <strong>Not happy?</strong> Contact us within 48 hours and we will put it right at no extra
                   charge — see our{' '}
                   <Link href="/terms-and-conditions/" className="font-bold underline" style={{ color: colors.primary }}>
-                    service guarantee
+                    flow testing
                   </Link>
                   .
                 </span>
@@ -250,7 +250,7 @@ export default function ReviewsPage() {
               <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4" style={{ backgroundColor: `${colors.primary}20` }}>
                 <span className="text-2xl">🤝</span>
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">48-Hour Guarantee Support</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Dedicated Customer Support</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
                 Should you notice any overflow or missed debris within 48 hours of service, our mobile team returns promptly to address the issue at zero additional charge.
               </p>

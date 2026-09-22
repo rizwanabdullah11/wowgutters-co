@@ -152,9 +152,9 @@ function buildGutterMetadata(areaSlug: string): Metadata {
 
   if (areaSlug === 'birmingham') {
     return buildMetadata({
-      absoluteTitle: 'Gutter Cleaning Birmingham | Professional, Safe & Guaranteed | WOW Gutters Ltd',
+      absoluteTitle: 'Gutter Cleaning Birmingham | Professional, Safe & Fully Insured | WOW Gutters Ltd',
       description:
-        'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
+        'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum system, before & after photos, fully insured (£10m). Call WOW Gutters Ltd: 07421 433910.',
       canonicalPath: areaPath(areaSlug),
       ogImagePath: '/og/birmingham.jpg',
     });
@@ -264,7 +264,7 @@ function buildRepairMetadata(areaSlug: string): Metadata {
     return buildMetadata({
       absoluteTitle: 'Gutter Repairs Birmingham | Leaks, Sagging & Broken Gutters Fixed | WOW Gutters Ltd',
       description:
-        'Expert gutter repairs in Birmingham. Leaking joints, sagging runs, cracked sections, broken brackets — diagnosed and fixed with a 6-month guarantee. Call WOW Gutters Ltd: 07421 433910.',
+        'Expert gutter repairs in Birmingham. Leaking joints, sagging runs, cracked sections, broken brackets — diagnosed and fixed with full flow testing. Call WOW Gutters Ltd: 07421 433910.',
       canonicalPath: repairAreaPath(areaSlug),
       ogImagePath: '/og/birmingham.jpg',
     });
@@ -285,7 +285,7 @@ function buildRepairMetadata(areaSlug: string): Metadata {
     const intro = suburb.whyParagraphs[0] ?? '';
     const description =
       intro.length > 155 ? `${intro.slice(0, 152).trim()}…` : intro ||
-      `Expert gutter repairs in ${suburb.city}. Leaking joints, sagging runs — fixed with a 6-month guarantee. Call 07421 433910.`;
+      `Expert gutter repairs in ${suburb.city}. Leaking joints, sagging runs — fixed with full flow testing. Call 07421 433910.`;
     return buildMetadata({
       absoluteTitle: `${suburb.heroTitleLine1} | WOW Gutters Ltd`,
       description,
@@ -306,7 +306,7 @@ function buildRepairMetadata(areaSlug: string): Metadata {
 
   return buildMetadata({
     title: `Gutter Repairs ${areaName}`,
-    description: `Expert gutter repairs in ${areaName}. Leaking joints, sagging runs, cracked sections — fixed with a 6-month guarantee. Call WOW Gutters Ltd: 07421 433910.`,
+    description: `Expert gutter repairs in ${areaName}. Leaking joints, sagging runs, cracked sections — fixed with full flow testing. Call WOW Gutters Ltd: 07421 433910.`,
     canonicalPath: repairAreaPath(areaSlug),
     ogImagePath: `/og/${areaSlug}.jpg`,
   });
@@ -484,7 +484,7 @@ function buildInstallationMetadata(areaSlug: string): Metadata {
     return buildMetadata({
       absoluteTitle: 'Gutter Installation Birmingham | New uPVC Systems Fitted | WOW Gutters Ltd',
       description:
-        'Professional uPVC gutter installation in Birmingham. Free survey, measured and fitted with correct fall, 10-year guarantee on workmanship. Call WOW Gutters Ltd: 07421 433910.',
+        'Professional uPVC gutter installation in Birmingham. Free survey, measured and fitted with correct fall, fully insured workmanship. Call WOW Gutters Ltd: 07421 433910.',
       canonicalPath: installationAreaPath(areaSlug),
       ogImagePath: '/gutter-installation.png',
     });
@@ -505,7 +505,7 @@ function buildInstallationMetadata(areaSlug: string): Metadata {
     const intro = suburb.whyParagraphs[0] ?? '';
     const description =
       intro.length > 155 ? `${intro.slice(0, 152).trim()}…` : intro ||
-      `Professional gutter installation in ${suburb.city}. New uPVC systems measured, supplied and fitted with a 10-year guarantee. Call 07421 433910.`;
+      `Professional gutter installation in ${suburb.city}. New uPVC systems measured, supplied and fitted with professional flow testing. Call 07421 433910.`;
     return buildMetadata({
       absoluteTitle: `${suburb.heroTitleLine1} | WOW Gutters Ltd`,
       description,
@@ -526,7 +526,7 @@ function buildInstallationMetadata(areaSlug: string): Metadata {
 
   return buildMetadata({
     title: `Gutter Installation ${areaName}`,
-    description: `Professional gutter installation in ${areaName}. New uPVC systems measured, supplied and fitted with a 10-year guarantee. Call WOW Gutters Ltd: 07421 433910.`,
+    description: `Professional gutter installation in ${areaName}. New uPVC systems measured, supplied and fitted with professional flow testing. Call WOW Gutters Ltd: 07421 433910.`,
     canonicalPath: installationAreaPath(areaSlug),
     ogImagePath: '/gutter-installation.png',
   });

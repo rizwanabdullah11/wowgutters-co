@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning Sutton Coldfield, Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Sutton Coldfield B72-B76. From £60. No ladders, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
+    description: 'Professional gutter cleaning in Sutton Coldfield B72-B76. From £60. No ladders, before & after photos, fully insured. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/sutton-coldfield.jpg'],
   },
 }
