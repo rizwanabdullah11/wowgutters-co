@@ -19,23 +19,38 @@ import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
 const WA = 'https://wa.me/447421433910';
 
 function detectCategory(slug: string): string {
-  if (slug.includes('pressure-wash') || slug.includes('jetwash') || slug.includes('smouts')) return 'pressure-wash';
-  if (slug.includes('window-clean') || slug.includes('window-cleaners')) return 'window';
+  if (slug.includes('solar-panel') || slug.includes('solar')) return 'solar';
+  if (slug.includes('pressure-wash') || slug.includes('jetwash') || slug.includes('smouts') || slug.includes('patio') || slug.includes('driveway')) return 'pressure-wash';
+  if (slug.includes('window-clean') || slug.includes('window-cleaners') || slug.includes('window-cleaning')) return 'window';
   if (slug.includes('roof-clean') || slug.includes('roof-moss') || slug.includes('roof-replacement') || slug.includes('roof-and-gutter') || slug.includes('soft-wash')) return 'roof';
   if (slug.includes('conservatory')) return 'conservatory';
-  if (slug.includes('fascia') || slug.includes('fascias') || slug.includes('upvc') || slug.includes('flawless')) return 'upvc';
-  if (slug.includes('gutter') || slug.includes('guttering') || slug.includes('downpipe') || slug.includes('spouting')) return 'gutter';
-  if (slug.includes('handyman') || slug.includes('property-maintenance') || slug.includes('professional-clean')) return 'handyman';
+  if (slug.includes('fascia') || slug.includes('fascias') || slug.includes('soffit') || slug.includes('soffits') || slug.includes('upvc') || slug.includes('flawless')) return 'upvc';
+  if (slug.includes('gutter') || slug.includes('guttering') || slug.includes('downpipe') || slug.includes('spouting') || slug.includes('rainwater-pipe') || slug.includes('eavestrough') || slug.includes('lining')) return 'gutter';
+  if (slug.includes('refurbishment') || slug.includes('handyman') || slug.includes('property-maintenance') || slug.includes('professional-clean')) return 'handyman';
   return 'gutter';
 }
 
 function categoryLabel(cat: string, slug: string): string {
-  if (cat === 'pressure-wash') return 'Pressure Washing';
+  if (cat === 'solar') return 'Solar Panel Cleaning';
+  if (cat === 'pressure-wash') {
+    if (slug.includes('patio')) return 'Patio Cleaning';
+    if (slug.includes('driveway')) return 'Driveway Cleaning';
+    return 'Pressure Washing';
+  }
   if (cat === 'window') return 'Window Cleaning';
   if (cat === 'roof') return 'Roof Cleaning';
   if (cat === 'conservatory') return 'Conservatory Cleaning';
-  if (cat === 'upvc') return 'UPVC & Fascia Cleaning';
-  if (cat === 'handyman') return 'Handyman & Property Maintenance';
+  if (cat === 'upvc') {
+    if (slug.includes('soffit') && !slug.includes('fascia')) return 'Soffit Cleaning';
+    if (slug.includes('fascia') && !slug.includes('soffit')) return 'Fascia Cleaning';
+    return 'Fascia & Soffit Cleaning';
+  }
+  if (cat === 'handyman') {
+    if (slug.includes('refurbishment')) return 'Property Refurbishment';
+    return 'Handyman & Property Maintenance';
+  }
+  if (slug.includes('lining')) return 'Gutter Lining';
+  if (slug.includes('downpipe') || slug.includes('rainwater-pipe')) return 'Downpipe & Rainwater Pipe Services';
   return slug.includes('gutter-prices') || slug.includes('how-much') || slug.includes('cost') ? 'Gutter Services' : 'Gutter Cleaning';
 }
 
@@ -44,6 +59,11 @@ function categoryLabelLower(cat: string, slug: string): string {
 }
 
 function heroPills(cat: string) {
+  if (cat === 'solar') return [
+    { label: 'Pure deionised water', Icon: Cable },
+    { label: 'Boosts energy output', Icon: Images },
+    { label: 'Fully insured', Icon: Shield },
+  ];
   if (cat === 'window') return [
     { label: 'Purified water system', Icon: Cable },
     { label: 'Streak-free finish', Icon: Images },
@@ -86,6 +106,14 @@ function whyTitle(cat: string, slug: string): string {
 }
 
 function guarantees(cat: string): string[] {
+  if (cat === 'solar') return [
+    '100% pure deionised water cleaning — zero spots or mineral streaks',
+    'Scratch-free soft brushes preserve anti-reflective glass coatings',
+    'Chemical-free cleaning protecting manufacturer warranties',
+    'Increases solar energy generation by up to 30%',
+    'Fully insured with £10 million public liability cover',
+    'Free quotes with fast scheduling across Birmingham & West Midlands',
+  ];
   if (cat === 'window') return [
     'Purified water cleaning system — no spots or residue',
     'Streak-free finish on all glass and UPVC frames',
@@ -129,6 +157,7 @@ function guarantees(cat: string): string[] {
 }
 
 function pricingInfo(cat: string): { priceFrom: number; priceTo: number; label: string } {
+  if (cat === 'solar') return { priceFrom: 60, priceTo: 140, label: 'solar panel cleaning' };
   if (cat === 'window') return { priceFrom: 25, priceTo: 60, label: 'window cleaning' };
   if (cat === 'pressure-wash') return { priceFrom: 60, priceTo: 200, label: 'pressure washing' };
   if (cat === 'roof') return { priceFrom: 150, priceTo: 400, label: 'roof cleaning' };
@@ -144,6 +173,12 @@ function localSpotlight(cat: string, page: KeywordPage): string | null {
 }
 
 function propertyTypes(cat: string): { label: string; detail: string }[] {
+  if (cat === 'solar') return [
+    { label: 'Residential Rooftops', detail: '8–16 panel arrays on houses and bungalows cleaned safely from ground level.' },
+    { label: 'Commercial Buildings', detail: 'Warehouse and office solar PV arrays cleaned with high-reach equipment.' },
+    { label: 'Agricultural & Barns', detail: 'Solar installations on outbuildings, stables, and rural properties.' },
+    { label: 'Ground-Mounted Arrays', detail: 'Large ground arrays cleaned efficiently with pure water systems.' },
+  ];
   if (cat === 'roof') return [
     { label: 'Terraced Houses', detail: 'Small to medium roof areas — quick turnaround with our soft-wash system.' },
     { label: 'Semi-Detached Homes', detail: 'Two-storey roofs cleaned efficiently using low-pressure methods.' },
@@ -171,6 +206,12 @@ function propertyTypes(cat: string): { label: string; detail: string }[] {
 }
 
 function whatsappQuestions(cat: string): string[] {
+  if (cat === 'solar') return [
+    'How much is solar panel cleaning for my roof?',
+    'How soon can you clean my solar panels?',
+    'Do you use pure deionised water?',
+    'Could I get a fast quote?',
+  ];
   if (cat === 'window') return [
     'How much is window cleaning for my property?',
     'Do you clean windows inside and out?',
