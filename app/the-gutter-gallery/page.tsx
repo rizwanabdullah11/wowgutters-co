@@ -1,11 +1,24 @@
 'use client';
 
+import { useEffect, useRef } from 'react';
 import { colors } from '@/constants/colors';
 import GalleryGrid from '@/components/gallery/GalleryGrid';
 import { Camera, CheckCircle, Phone } from 'lucide-react';
 import Link from 'next/link';
 
 export default function GutterGallery() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.defaultMuted = true;
+      videoRef.current.muted = true;
+      videoRef.current.play().catch((error) => {
+        console.log('Video autoplay failed:', error);
+      });
+    }
+  }, []);
+
   const features = [
     'Before & after transformations',
     'Residential & commercial projects',
@@ -17,37 +30,55 @@ export default function GutterGallery() {
 
   return (
     <main className="bg-white">
-      {/* Hero Section */}
-      <section className="relative py-20 px-4" style={{ background: colors.primaryGradient }}>
-        <div className="max-w-7xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
-            <Camera className="w-5 h-5 text-white" />
+      {/* Hero Section with Video Background */}
+      <section className="relative overflow-hidden bg-slate-900 py-24 px-4 min-h-[460px] flex items-center justify-center">
+        {/* Video Background */}
+        <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+          <video
+            ref={videoRef}
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
+            poster="/gutter-cleaning.jpeg"
+            className="w-full h-full object-cover"
+          >
+            <source src="/gutter-final-video.mp4" type="video/mp4" />
+            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-900/70 to-slate-950/90 z-10" />
+        </div>
+
+        <div className="relative z-20 max-w-7xl mx-auto text-center">
+          <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 backdrop-blur-md px-4 py-2 rounded-full mb-6">
+            <Camera className="w-5 h-5" style={{ color: colors.primary }} />
             <span className="text-white font-semibold text-sm">Our Work Portfolio</span>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-black text-white mb-6">
-            The Gutter Gallery
+            The <span style={{ color: colors.primary }}>Gutter Gallery</span>
           </h1>
           
-          <p className="text-xl text-white/90 max-w-3xl mx-auto mb-8">
+          <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">
             Browse through our collection of completed projects and see the quality of our work. 
             From residential properties to commercial buildings, we deliver exceptional results every time.
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center">
-            <Link href="/quote" className="inline-flex items-center gap-2 bg-white px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl" style={{ color: colors.primary }}>
+            <Link href="/quote" className="inline-flex items-center gap-2 bg-[#19C58B] hover:bg-[#14B27D] text-white px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl">
               Get Your Free Quote
             </Link>
-            <a href="tel:07421433910" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border-2 border-white text-white px-8 py-4 rounded-full font-bold transition-all hover:bg-white hover:text-[#19C58B]">
-              <Phone className="w-5 h-5" /> Call Us
+            <a href="tel:07421433910" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border-2 border-white/40 text-white px-8 py-4 rounded-full font-bold transition-all hover:bg-white hover:text-slate-900">
+              <Phone className="w-5 h-5 text-emerald-400" /> Call Us: 07421 433910
             </a>
           </div>
         </div>
 
         {/* Wave Bottom */}
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-12">
-            <path d="M0,60 C480,0 960,0 1440,60 L1440,60 L0,60 Z" fill="white" />
+        <div className="absolute bottom-0 left-0 right-0 z-20 line-height-0">
+          <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-12 block">
+            <path d="M0,60 C480,0 960,0 1440,60 L1440,60 L0,60 Z" fill="#ffffff" />
           </svg>
         </div>
       </section>
