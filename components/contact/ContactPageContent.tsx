@@ -1,45 +1,90 @@
 'use client';
+
+import React, { useRef, useEffect } from 'react';
+import Link from 'next/link';
 import { colors } from '@/constants/colors';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
 import ServiceSEOSection from '@/components/sections/ServiceSEOSection';
 import QuoteModal from '@/components/QuoteModal';
 import GoogleMapsEmbed from '@/components/seo/GoogleMapsEmbed';
 import { formatNapAddress } from '@/lib/businessDetails';
-import { Clock3, Mail, MapPin, Phone, ShieldCheck } from 'lucide-react';
+import { Clock3, Mail, MapPin, Phone, ShieldCheck, MessageSquare } from 'lucide-react';
 
 export default function ContactPageContent() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.defaultMuted = true;
+      videoRef.current.muted = true;
+      videoRef.current.play().catch((error) => {
+        console.log('Video autoplay failed:', error);
+      });
+    }
+  }, []);
+
   return (
     <div className="min-h-screen bg-gray-50">
-      <section className="relative overflow-hidden border-b border-gray-100 bg-gradient-to-br from-emerald-50 via-white to-slate-100">
-        <div className="mx-auto grid max-w-7xl gap-10 px-4 py-8 sm:px-6 lg:grid-cols-2 lg:items-start lg:py-10">
+      {/* Hero Section with Video Background */}
+      <section className="relative overflow-hidden bg-slate-900 border-b border-gray-100 min-h-[500px] flex items-center">
+        {/* Background Video */}
+        <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+          <video
+            ref={videoRef}
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
+            poster="/gutter-cleaning.jpeg"
+            className="w-full h-full object-cover"
+          >
+            <source src="/gutter-final-video.mp4" type="video/mp4" />
+            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/80 to-slate-950/70 z-10" />
+        </div>
+
+        <div className="relative z-20 mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-2 lg:items-center">
           <div>
-            <p className="mb-3 inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-white px-4 py-1.5 text-xs font-semibold text-emerald-700">
-              <ShieldCheck className="h-4 w-4" />
-              Fast support from local gutter experts
+            <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 backdrop-blur-md px-4 py-1.5 text-xs font-semibold text-white">
+              <ShieldCheck className="h-4 w-4" style={{ color: colors.primary }} />
+              Fast support from local West Midlands gutter specialists
             </p>
-            <h1 className="text-4xl font-black leading-tight text-slate-900 sm:text-5xl">
-              Contact Wow Gutters
-              <span className="block" style={{ color: colors.primary }}>
-                Get Your Free Quote Today
+            <h1 className="text-4xl font-black leading-tight text-white sm:text-5xl">
+              Contact <span style={{ color: colors.primary }}>WOW Gutters Ltd</span>
+              <span className="block text-2xl sm:text-3xl text-gray-200 mt-2 font-bold">
+                Get Your Free Instant Quote Today
               </span>
             </h1>
-            <p className="mt-4 max-w-2xl text-base text-slate-600 sm:text-lg">
-              Need gutter cleaning, repairs, or an inspection? Speak to our team now, or use the quote form already open on the right.
+            <p className="mt-4 max-w-2xl text-base text-gray-200 sm:text-lg">
+              Need gutter cleaning, leak repairs, roof moss removal, or an inspection? Speak directly to our local dispatch team or complete the quick quote form on the right.
             </p>
 
-            <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <a
                 href="tel:07421433910"
-                className="inline-flex items-center justify-center gap-2 rounded-xl px-6 py-3.5 text-base font-bold text-white shadow-sm transition hover:opacity-95"
-                style={{ backgroundColor: colors.primary }}
+                className="inline-flex items-center justify-center gap-2 rounded-full px-8 py-4 text-base font-bold text-white shadow-xl transition hover:scale-105"
+                style={{ background: colors.primaryGradient }}
               >
-                <Phone className="h-4 w-4" />
-                Call Us
+                <Phone className="h-5 w-5" />
+                Call 07421 433910
+              </a>
+              <a
+                href="https://wa.me/447421433910"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-8 py-4 text-base font-bold text-white shadow-xl transition hover:scale-105"
+              >
+                <MessageSquare className="h-5 w-5" />
+                Chat on WhatsApp
               </a>
             </div>
           </div>
 
-          <QuoteModal isOpen={true} onClose={() => {}} mode="inline" showClose={false} align="right" />
+          <div className="relative z-20">
+            <QuoteModal isOpen={true} onClose={() => {}} mode="inline" showClose={false} align="right" />
+          </div>
         </div>
       </section>
 
@@ -87,7 +132,7 @@ export default function ContactPageContent() {
             <ul className="mt-4 space-y-3 text-slate-700">
               <li className="flex items-start gap-3">
                 <span className="mt-1 h-2.5 w-2.5 rounded-full bg-emerald-500" />
-                <span>Fast response with local teams available 24 hours a day.</span>
+                <span>Fast response with local teams available 7 days a week.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="mt-1 h-2.5 w-2.5 rounded-full bg-emerald-500" />
@@ -95,7 +140,11 @@ export default function ContactPageContent() {
               </li>
               <li className="flex items-start gap-3">
                 <span className="mt-1 h-2.5 w-2.5 rounded-full bg-emerald-500" />
-                <span>Trusted gutter cleaning, repair, and inspection specialists.</span>
+                <span>Modern ground-level high suction vacuum clearance up to 4 stories.</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="mt-1 h-2.5 w-2.5 rounded-full bg-emerald-500" />
+                <span>Digital before-and-after photo confirmation on every job.</span>
               </li>
             </ul>
           </div>

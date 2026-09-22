@@ -16,24 +16,24 @@ export const TEAM_PROFILES: TeamProfile[] = [
     role: 'Lead Gutter Technician',
     experience:
       '8+ years on residential and commercial roofline work across Birmingham. Certified in ground-level high-reach vacuum systems.',
-    image: '/gutter-cleaning.jpeg',
-    imageAlt: 'WOW Gutters Ltd lead technician using ground-level gutter vacuum equipment',
+    image: '/assets/team/james-m.svg',
+    imageAlt: 'James M. - Lead Gutter Technician at WOW Gutters Ltd',
   },
   {
     name: 'Sarah K.',
     role: 'Service Coordinator',
     experience:
       'Manages same-day bookings, quotes, and customer updates. Ensures every job includes before-and-after photos and a written condition report.',
-    image: '/gutter-cleaning-before.jpeg',
-    imageAlt: 'WOW Gutters Ltd service coordinator reviewing a gutter condition report',
+    image: '/assets/team/sarah-k.svg',
+    imageAlt: 'Sarah K. - Service Coordinator at WOW Gutters Ltd',
   },
   {
     name: 'David R.',
     role: 'Hot Wash & Exterior Specialist',
     experience:
       'Trained in purified hot-water systems for fascias, UPVC, and driveway cleaning. Works ladder-free on most residential properties.',
-    image: '/gutter-cleaning-after.jpeg',
-    imageAlt: 'WOW Gutters Ltd exterior cleaning specialist with hot wash equipment',
+    image: '/assets/team/david-r.svg',
+    imageAlt: 'David R. - Hot Wash & Exterior Specialist at WOW Gutters Ltd',
   },
 ];
 
@@ -43,12 +43,12 @@ export const EEAT_TRUST_POINTS = [
     detail: 'Comprehensive public liability insurance on every residential and commercial visit.',
   },
   {
-    title: '1-year service guarantee',
-    detail: 'If gutters block again within 12 months of a full clean, we return at no extra charge.',
+    title: 'Trained technicians',
+    detail: 'Experienced local staff using high-reach ground vacuum systems and camera inspection equipment.',
   },
   {
-    title: '4.9★ from 2,600+ customers',
-    detail: 'Verified reviews across Google and our website — real jobs, real before-and-after proof.',
+    title: 'Verified Google reviews',
+    detail: 'Genuine customer feedback across Google and our website — real jobs, real before-and-after photographic proof.',
   },
   {
     title: 'Ground-level vacuum system',

@@ -74,7 +74,7 @@ export function buildInstallationSchemaFaqs(city: string): SchemaFaq[] {
   return [
     {
       question: `Does WOW Gutters Ltd supply and install guttering in ${city}?`,
-      answer: `Yes. We survey your property, measure every run, and supply and fit quality uPVC gutter and downpipe systems across ${city}. Every installation has the correct fall, properly spaced brackets and fully sealed joints, backed by a 10-year guarantee on workmanship.`,
+      answer: `Yes. We survey your property, measure every run, and supply and fit quality uPVC gutter and downpipe systems across ${city}. Every installation has the correct fall, properly spaced brackets and fully sealed joints with complete flow testing.`,
     },
     {
       question: `How much does gutter installation cost in ${city}?`,
@@ -85,8 +85,8 @@ export function buildInstallationSchemaFaqs(city: string): SchemaFaq[] {
       answer: `Yes. We remove old or damaged guttering and install a new uPVC system with correct fall and bracket spacing, and advise honestly on whether repair or replacement is better value.`,
     },
     {
-      question: 'Do you guarantee your installation work?',
-      answer: 'Yes. All installation work carries a 10-year guarantee on workmanship, covering correct fall, secure brackets and sealed joints.',
+      question: 'Do you test the system after installation?',
+      answer: 'Yes. All installation work includes complete water flow testing to verify correct falls, secure brackets, and watertight joints.',
     },
   ];
 }
@@ -174,8 +174,8 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
           : serviceKind === 'upvc'
             ? `Professional exterior uPVC cleaning in ${city}. Hot purified water restores fascias, soffits, window frames & doors. Streak-free, chemical-free, fully insured. Call 07421 433910.`
             : serviceKind === 'installation'
-              ? `Professional gutter installation in ${city}. New uPVC systems measured, supplied and fitted — correct fall, proper brackets, sealed joints. Free survey, 10-year guarantee. Call 07421 433910.`
-              : `Professional gutter cleaning in ${city}. Ground-level vacuum, before & after photos, 1-year guarantee, fully insured. Call 07421 433910.`;
+              ? `Professional gutter installation in ${city}. New uPVC systems measured, supplied and fitted — correct fall, proper brackets, sealed joints. Free survey, fully insured. Call 07421 433910.`
+              : `Professional gutter cleaning in ${city}. Ground-level vacuum, before & after photos, flow-tested downpipes, fully insured. Call 07421 433910.`;
 
   const serviceDescription =
     serviceKind === 'roof'
@@ -187,8 +187,8 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
           : serviceKind === 'upvc'
             ? `Professional exterior uPVC cleaning in ${city}. Hot purified water removes algae, mould and carbon staining from fascias, soffits, window frames and doors — streak-free finish, no harsh chemicals, fully insured.`
             : serviceKind === 'installation'
-              ? `Professional gutter installation in ${city}. New uPVC gutter and downpipe systems measured, supplied and fitted with correct fall, properly spaced brackets and sealed joints, backed by a 10-year workmanship guarantee.`
-              : `Professional gutter cleaning in ${city}. Ground-level vacuum, no ladders, up to 4 storeys, before & after photos, downpipes cleared, 1-year guarantee.`;
+              ? `Professional gutter installation in ${city}. New uPVC gutter and downpipe systems measured, supplied and fitted with correct fall, properly spaced brackets and sealed joints, with complete flow testing.`
+              : `Professional gutter cleaning in ${city}. Ground-level vacuum, no ladders, up to 4 storeys, before & after photos, downpipes cleared and flow-tested.`;
 
   return {
     '@context': 'https://schema.org',

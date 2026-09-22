@@ -148,12 +148,12 @@ export const servicesData: ServicePageData[] = [
   {
     slug: 'repair',
     metadata: {
-      title: 'Guaranteed Gutter Repair Services | WOW Gutter Cleaning',
-      description: 'Expert gutter repair services with guaranteed workmanship. Our trained professionals fix leaks, replace damaged sections, and restore your gutter system to perfect condition.',
-      keywords: 'gutter repair, gutter fixing, leak repair, gutter replacement, fascia repair, downpipe repair, guaranteed repairs',
+      title: 'Professional Gutter Repair Services | WOW Gutter Cleaning',
+      description: 'Expert gutter repair services with thorough water flow testing. Our trained professionals fix leaks, replace damaged sections, and restore your gutter system to perfect condition.',
+      keywords: 'gutter repair, gutter fixing, leak repair, gutter replacement, fascia repair, downpipe repair, reliable gutter repairs',
     },
-    heroTitle: 'Guaranteed Gutter Repair Services',
-    heroSubtitle: 'Expert repairs by trained professionals with quality guarantee',
+    heroTitle: 'Professional Gutter Repair Services',
+    heroSubtitle: 'Expert repairs by trained professionals with water flow testing',
     heroButtonText: 'Request Repair Quote',
     processTitle: 'Repair Services We Offer',
     processSteps: [
@@ -181,8 +181,8 @@ export const servicesData: ServicePageData[] = [
     benefitsTitle: 'Why Choose Our Repair Service?',
     benefits: [
       {
-        title: 'Guaranteed Workmanship',
-        description: 'All repairs come with our quality guarantee'
+        title: 'Quality Workmanship',
+        description: 'All repairs undergo full water flow testing before sign-off'
       },
       {
         title: 'Trained Experts',

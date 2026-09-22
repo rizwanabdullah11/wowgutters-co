@@ -1,63 +1,91 @@
 'use client';
 
+import React, { useEffect, useRef } from 'react';
 import { colors } from '@/constants/colors';
-import { Calendar, Clock, ArrowRight, Newspaper } from 'lucide-react';
+import { Calendar, ArrowRight, Newspaper } from 'lucide-react';
 import Link from 'next/link';
 
 const newsArticles = [
   {
-    id: 1,
-    title: 'Spring Gutter Maintenance: Essential Tips for Homeowners',
-    excerpt: 'As spring arrives, it\'s crucial to prepare your gutters for the rainy season. Learn the essential maintenance tips to protect your home.',
-    date: '2024-03-15',
+    slug: 'ask-before-hiring-gutter-cleaner',
+    title: 'The One Question to Ask Before Hiring Any Gutter Cleaner in the West Midlands',
+    excerpt: 'One question genuinely separates a thorough gutter cleaning service from a surface-level one. Here is what to ask before hiring anyone across Birmingham.',
+    date: '2026-03-20',
+    readTime: '6 min read',
+    category: 'Consumer Guide',
+  },
+  {
+    slug: 'birmingham-gutter-health-check',
+    title: 'Essential Gutter Health Checks for West Midlands Homeowners',
+    excerpt: 'How regular ground-level camera inspection and vacuum extraction prevent costly water ingress and foundation damp during seasonal storms.',
+    date: '2026-02-28',
     readTime: '5 min read',
-    category: 'Maintenance Tips',
-    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800'
+    category: 'Maintenance',
   },
   {
-    id: 2,
-    title: 'Why Regular Gutter Cleaning Saves You Money',
-    excerpt: 'Discover how investing in regular gutter cleaning can prevent costly repairs and protect your property value.',
-    date: '2024-03-10',
-    readTime: '4 min read',
-    category: 'Cost Savings',
-    image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800'
-  },
-  {
-    id: 3,
-    title: 'New Service Areas Announced',
-    excerpt: 'We\'re excited to announce our expansion into new areas. Check if we now service your location.',
-    date: '2024-03-05',
-    readTime: '3 min read',
-    category: 'Company News',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800'
+    slug: 'victorian-terrace-cast-iron-gutters',
+    title: 'Maintaining Victorian & Period Cast-Iron Gutters in Birmingham',
+    excerpt: 'Specialist advice on handling heavy cast-iron gutters, high-reach vacuuming without ladder damage, and seal maintenance on heritage properties.',
+    date: '2026-01-15',
+    readTime: '7 min read',
+    category: 'Heritage Care',
   }
 ];
 
 export default function LatestNews() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.defaultMuted = true;
+      videoRef.current.muted = true;
+      videoRef.current.play().catch((error) => {
+        console.log('Video autoplay failed:', error);
+      });
+    }
+  }, []);
+
   return (
     <main className="bg-white">
-      {/* Hero Section */}
-      <section className="relative py-20 px-4" style={{ background: colors.primaryGradient }}>
-        <div className="max-w-7xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
-            <Newspaper className="w-5 h-5 text-white" />
-            <span className="text-white font-semibold text-sm">News & Updates</span>
+      {/* Hero Section with Video Background */}
+      <section className="relative overflow-hidden bg-slate-900 py-24 px-4 min-h-[460px] flex items-center justify-center">
+        {/* Video Background */}
+        <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+          <video
+            ref={videoRef}
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
+            poster="/gutter-cleaning.jpeg"
+            className="w-full h-full object-cover"
+          >
+            <source src="/gutter-final-video.mp4" type="video/mp4" />
+            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-900/70 to-slate-950/90 z-10" />
+        </div>
+
+        <div className="relative z-20 max-w-7xl mx-auto text-center">
+          <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 backdrop-blur-md px-4 py-2 rounded-full mb-6">
+            <Newspaper className="w-5 h-5" style={{ color: colors.primary }} />
+            <span className="text-white font-semibold text-sm">News &amp; Updates</span>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-black text-white mb-6">
-            Latest News
+            Latest <span style={{ color: colors.primary }}>News &amp; Advisories</span>
           </h1>
           
-          <p className="text-xl text-white/90 max-w-3xl mx-auto">
-            Stay updated with the latest news, tips, and insights from WOW Gutter Cleaning
+          <p className="text-xl text-gray-200 max-w-3xl mx-auto">
+            Stay updated with seasonal maintenance advice, weather warnings, and exterior cleaning guides across the West Midlands.
           </p>
         </div>
 
         {/* Wave Bottom */}
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-12">
-            <path d="M0,60 C480,0 960,0 1440,60 L1440,60 L0,60 Z" fill="white" />
+        <div className="absolute bottom-0 left-0 right-0 z-20 line-height-0">
+          <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-12 block">
+            <path d="M0,60 C480,0 960,0 1440,60 L1440,60 L0,60 Z" fill="#ffffff" />
           </svg>
         </div>
       </section>
@@ -68,82 +96,67 @@ export default function LatestNews() {
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {newsArticles.map((article) => (
               <article 
-                key={article.id}
-                className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group"
+                key={article.slug}
+                className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group flex flex-col justify-between"
               >
-                <div className="relative h-48 bg-gradient-to-br from-gray-200 to-gray-300 overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-10" />
-                  <div className="absolute top-4 left-4 z-20">
-                    <span className="px-3 py-1 rounded-full text-xs font-bold text-white" style={{ backgroundColor: colors.primary }}>
+                <div className="p-6">
+                  <div className="flex items-center justify-between gap-4 text-xs font-semibold text-gray-500 mb-3">
+                    <span className="px-3 py-1 rounded-full text-white" style={{ backgroundColor: colors.primary }}>
                       {article.category}
                     </span>
-                  </div>
-                </div>
-                
-                <div className="p-6">
-                  <div className="flex items-center gap-4 text-sm text-gray-500 mb-3">
                     <span className="flex items-center gap-1">
-                      <Calendar className="w-4 h-4" />
+                      <Calendar className="w-3.5 h-3.5" />
                       {new Date(article.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}
-                    </span>
-                    <span className="flex items-center gap-1">
-                      <Clock className="w-4 h-4" />
-                      {article.readTime}
                     </span>
                   </div>
                   
-                  <h2 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-[#19C58B] transition-colors">
+                  <h2 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-[#19C58B] transition-colors leading-snug">
                     {article.title}
                   </h2>
                   
-                  <p className="text-gray-600 mb-4 line-clamp-3">
+                  <p className="text-gray-600 mb-4 text-sm leading-relaxed">
                     {article.excerpt}
                   </p>
-                  
+                </div>
+
+                <div className="p-6 pt-0">
                   <Link 
-                    href={`/blog/${article.id}`}
-                    className="inline-flex items-center gap-2 font-semibold group-hover:gap-3 transition-all"
+                    href={`/blog/${article.slug}/`}
+                    className="inline-flex items-center gap-2 font-bold text-sm group-hover:gap-3 transition-all"
                     style={{ color: colors.primary }}
                   >
-                    Read: {article.title} <ArrowRight className="w-4 h-4" />
+                    Read article <ArrowRight className="w-4 h-4" />
                   </Link>
                 </div>
               </article>
             ))}
           </div>
-
-          {/* Coming Soon Card */}
-          <div className="mt-12 bg-gradient-to-br from-gray-50 to-white rounded-2xl border-2 border-dashed border-gray-300 p-12 text-center">
-            <div className="text-6xl mb-4">📰</div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-3">More News Coming Soon</h3>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Stay tuned for more updates, tips, and insights from our team of gutter cleaning experts.
-            </p>
-          </div>
         </div>
       </section>
 
-      {/* Newsletter CTA */}
-      <section className="py-20 px-4" style={{ backgroundColor: colors.navy }}>
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-black text-white mb-4">
-            Never Miss an Update
+      {/* Booking CTA */}
+      <section className="py-16 px-4 bg-slate-900 text-white border-t border-slate-800">
+        <div className="max-w-4xl mx-auto text-center space-y-6">
+          <h2 className="text-3xl md:text-4xl font-black">
+            Book Your Seasonal <span style={{ color: colors.primary }}>Gutter Clean</span>
           </h2>
-          <p className="text-white/80 text-lg mb-8">
-            Subscribe to our newsletter for the latest news, tips, and exclusive offers
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+            Get an upfront fixed quote with before &amp; after photographic proof on every visit.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-6 py-4 rounded-full border-2 border-white/20 bg-white/10 text-white placeholder-white/60 focus:outline-none focus:border-white/40"
-            />
-            <button 
-              className="px-8 py-4 rounded-full font-bold text-white transition-all hover:scale-105 shadow-lg"
+          <div className="flex flex-wrap gap-4 justify-center">
+            <Link
+              href="/quote"
+              className="px-8 py-4 rounded-full font-bold text-white shadow-xl transition hover:scale-105"
               style={{ background: colors.primaryGradient }}
             >
-              Subscribe
-            </button>
+              Get Free Instant Quote
+            </Link>
+            <a
+              href="tel:07421433910"
+              className="px-8 py-4 rounded-full font-bold text-white bg-white/10 hover:bg-white/20 border border-white/20 transition"
+            >
+              📞 07421 433910
+            </a>
           </div>
         </div>
       </section>

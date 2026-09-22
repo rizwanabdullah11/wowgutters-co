@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { colors } from '@/constants/colors';
 import PricingCard from '@/components/pricing/PricingCard';
 import { PoundSterling, CheckCircle, Phone, TrendingDown, Shield } from 'lucide-react';
@@ -8,6 +8,18 @@ import Link from 'next/link';
 import { GUTTER_PRICING, formatGbp } from '@/constants/gutterPricing';
 
 export default function GutterCleaningPrices() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.defaultMuted = true;
+      videoRef.current.muted = true;
+      videoRef.current.play().catch((error) => {
+        console.log('Video autoplay failed:', error);
+      });
+    }
+  }, []);
+
   // Quote buttons use data-static-quote-open (wow-cta-dialog-init.js) for static-host reliability.
   useEffect(() => {
     const schema = {
@@ -66,36 +78,54 @@ export default function GutterCleaningPrices() {
 
   return (
     <main className="bg-white">
-      {/* Hero Section */}
-      <section className="relative py-20 px-4" style={{ background: colors.primaryGradient }}>
-        <div className="max-w-7xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
-            <PoundSterling className="w-5 h-5 text-white" />
+      {/* Hero Section with Video Background */}
+      <section className="relative overflow-hidden bg-slate-900 py-24 px-4 min-h-[460px] flex items-center justify-center">
+        {/* Video Background */}
+        <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+          <video
+            ref={videoRef}
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
+            poster="/gutter-cleaning.jpeg"
+            className="w-full h-full object-cover"
+          >
+            <source src="/gutter-final-video.mp4" type="video/mp4" />
+            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-900/70 to-slate-950/90 z-10" />
+        </div>
+
+        <div className="relative z-20 max-w-7xl mx-auto text-center">
+          <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 backdrop-blur-md px-4 py-2 rounded-full mb-6">
+            <PoundSterling className="w-5 h-5" style={{ color: colors.primary }} />
             <span className="text-white font-semibold text-sm">Transparent Pricing</span>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-black text-white mb-6">
-            Gutter Cleaning Prices
+            Gutter Cleaning <span style={{ color: colors.primary }}>Prices</span>
           </h1>
           
-          <p className="text-xl text-white/90 max-w-3xl mx-auto mb-8">
+          <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">
             Transparent pricing for professional gutter cleaning services. No hidden fees, just honest quotes.
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center">
-            <Link href="/quote" className="inline-flex items-center gap-2 bg-white px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl" style={{ color: colors.primary }}>
+            <Link href="/quote" className="inline-flex items-center gap-2 bg-[#19C58B] hover:bg-[#14B27D] text-white px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl">
               Get Free Quote
             </Link>
-            <a href="tel:07421433910" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border-2 border-white text-white px-8 py-4 rounded-full font-bold transition-all hover:bg-white hover:text-[#19C58B]">
-              <Phone className="w-5 h-5" /> Call Us
+            <a href="tel:07421433910" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border-2 border-white/40 text-white px-8 py-4 rounded-full font-bold transition-all hover:bg-white hover:text-slate-900">
+              <Phone className="w-5 h-5 text-emerald-400" /> Call Us: 07421 433910
             </a>
           </div>
         </div>
 
         {/* Wave Bottom */}
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-12">
-            <path d="M0,60 C480,0 960,0 1440,60 L1440,60 L0,60 Z" fill="white" />
+        <div className="absolute bottom-0 left-0 right-0 z-20 line-height-0">
+          <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-12 block">
+            <path d="M0,60 C480,0 960,0 1440,60 L1440,60 L0,60 Z" fill="#ffffff" />
           </svg>
         </div>
       </section>
@@ -347,6 +377,72 @@ export default function GutterCleaningPrices() {
         </div>
       </section>
 
+      {/* Detailed Property Cost Breakdown */}
+      <section className="py-20 px-4 bg-white border-t border-slate-100">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center max-w-3xl mx-auto mb-14">
+            <span className="text-sm font-bold uppercase tracking-wider text-emerald-600">Fixed &amp; Transparent Rates</span>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 mt-2">
+              Average Gutter Cleaning Costs by <span style={{ color: colors.primary }}>Property Type</span>
+            </h2>
+            <p className="mt-4 text-lg text-slate-600 leading-relaxed">
+              We believe in upfront, transparent pricing with no hidden travel fees across Birmingham and the West Midlands. Every job includes high-reach vacuum clearance, downpipe unblocking, and full before/after photos.
+            </p>
+          </div>
+
+          <div className="overflow-x-auto mb-16 rounded-2xl border border-slate-200 shadow-sm">
+            <table className="w-full text-left border-collapse text-sm sm:text-base">
+              <thead>
+                <tr className="bg-slate-900 text-white">
+                  <th className="p-4 sm:p-5 font-bold">Property Type</th>
+                  <th className="p-4 sm:p-5 font-bold">Gutter Run</th>
+                  <th className="p-4 sm:p-5 font-bold">Price Range</th>
+                  <th className="p-4 sm:p-5 font-bold">Estimated Time</th>
+                  <th className="p-4 sm:p-5 font-bold">Key Inclusions</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-100 bg-white">
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="p-4 sm:p-5 font-bold text-slate-900">2-Bed Terraced</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Front &amp; Rear (12–15m)</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-600">From £65 – £95</td>
+                  <td className="p-4 sm:p-5 text-slate-600">30–45 mins</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Vacuum clean, downpipe flow check, photos</td>
+                </tr>
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="p-4 sm:p-5 font-bold text-slate-900">3-Bed Semi-Detached</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Front, Side &amp; Rear (20–25m)</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-600">From £95 – £140</td>
+                  <td className="p-4 sm:p-5 text-slate-600">45–60 mins</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Full perimeter vacuum, swan-neck clear, report</td>
+                </tr>
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="p-4 sm:p-5 font-bold text-slate-900">4+ Bed Detached</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Full 360° Perimeter (30–40m)</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-600">From £140 – £210</td>
+                  <td className="p-4 sm:p-5 text-slate-600">60–90 mins</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Complete clearance, all downpipes, photo proof</td>
+                </tr>
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="p-4 sm:p-5 font-bold text-slate-900">Townhouse / 3-Storey</td>
+                  <td className="p-4 sm:p-5 text-slate-600">High-Elevation Runs</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-600">From £130 – £195</td>
+                  <td className="p-4 sm:p-5 text-slate-600">60–75 mins</td>
+                  <td className="p-4 sm:p-5 text-slate-600">40ft ground vacuum access, no scaffolding needed</td>
+                </tr>
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="p-4 sm:p-5 font-bold text-slate-900">Commercial Unit / Block</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Custom Box / Deep Gutters</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-600">Bespoke Quote</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Flexible</td>
+                  <td className="p-4 sm:p-5 text-slate-600">RAMS supplied, scheduled maintenance plans</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
       {/* Special Offers */}
       <section className="py-20 px-4 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] text-white relative overflow-hidden">
         <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#16c784]/20 blur-[100px]" />
@@ -358,7 +454,7 @@ export default function GutterCleaningPrices() {
             Special Offers <span style={{ color: colors.primary }}>Available</span>
           </h3>
           <p className="text-xl text-white/80 mb-8">
-            Ask about our OAP and Neighbourhood Discounts to save even more
+            Ask about our OAP and Neighbourhood Discounts to save even more on your booking.
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center mb-8">
@@ -371,8 +467,8 @@ export default function GutterCleaningPrices() {
           </div>
 
           <div className="flex items-center justify-center gap-2 text-white/80">
-            <Shield className="w-5 h-5" />
-            <span>6-month guarantee on all qualifying repairs</span>
+            <Shield className="w-5 h-5 text-emerald-400" />
+            <span>Full water flow testing &amp; photographic proof on every job</span>
           </div>
         </div>
       </section>

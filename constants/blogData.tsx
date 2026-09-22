@@ -638,7 +638,7 @@ export const blogPosts: BlogPost[] = [
   <li>? Fully insured, professional local technicians</li>
   <li>? Ground-level vacuum system — zero ladders</li>
   <li>? Before and after photo evidence on every single job</li>
-  <li>? 12-month guarantee on all cleaning work</li>
+  <li>? Complete water flow testing on all cleaning work</li>
   <li>? Highly rated with verified Google reviews</li>
 </ul>
 
@@ -682,13 +682,13 @@ export const blogPosts: BlogPost[] = [
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Is there a guarantee?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. All WOW Gutters Ltd cleaning work is backed by a 12-month guarantee. If your gutters block again within 12 months of our clean, we return and clear them at no additional charge.</p>
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you test downpipes after cleaning?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. All WOW Gutters Ltd cleaning work includes high-volume water flow testing on downpipes and gutters to ensure free, unrestricted drainage.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you also repair gutters in Coventry?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. In addition to cleaning, we repair leaking joints, broken brackets, sagging sections, and cracked downpipes. All repair work comes with a 6-month guarantee. <a href="/services/gutter-repairs" style="color: #000000; text-decoration: none;">View our gutter repairs service</a>.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. In addition to cleaning, we repair leaking joints, broken brackets, sagging sections, and cracked downpipes. All repair work comes with a complete water flow testing. <a href="/services/gutter-repairs" style="color: #000000; text-decoration: none;">View our gutter repairs service</a>.</p>
   </div>
 </div>
 
@@ -947,7 +947,7 @@ export const blogPosts: BlogPost[] = [
   <li>? Fully insured, professional local technicians</li>
   <li>? Ground-level vacuum system — zero ladders</li>
   <li>? Before and after photo evidence on every single job</li>
-  <li>? 12-month guarantee on all cleaning work</li>
+  <li>? Complete water flow testing on all cleaning work</li>
   <li>? Highly rated with verified Google reviews</li>
 </ul>
 
@@ -986,13 +986,13 @@ export const blogPosts: BlogPost[] = [
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Is there a guarantee?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. All WOW Gutters Ltd cleaning work is backed by a 12-month guarantee. If your gutters block again within 12 months of our clean, we return and clear them at no additional charge.</p>
+    <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you test downpipes after cleaning?</h3>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. All WOW Gutters Ltd cleaning work includes high-volume water flow testing on downpipes and gutters to ensure free, unrestricted drainage.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you also repair gutters in Wolverhampton?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. In addition to cleaning, we repair leaking joints, broken brackets, sagging sections, and cracked downpipes. All repair work comes with a 6-month guarantee. <a href="/services/gutter-repairs" style="color: #000000; text-decoration: none;">View our gutter repairs service</a>.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. In addition to cleaning, we repair leaking joints, broken brackets, sagging sections, and cracked downpipes. All repair work comes with a complete water flow testing. <a href="/services/gutter-repairs" style="color: #000000; text-decoration: none;">View our gutter repairs service</a>.</p>
   </div>
 </div>
 
@@ -1162,7 +1162,7 @@ export const blogPosts: BlogPost[] = [
         <li>? Fully insured, professional team</li>
         <li>? Ground-level vacuum system — no ladders, no scaffolding</li>
         <li>? Before & after photo evidence on every job</li>
-        <li>? 1-year guarantee on all cleaning work</li>
+        <li>? Complete water flow testing on all cleaning work</li>
         <li>? Highly rated with verified Google reviews</li>
       </ul>
 
@@ -1328,7 +1328,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Before & after photographs</strong> — sent directly to you as evidence of the work completed, just like the image you see above</li>
         <li><strong>Final check</strong> — we confirm all sections run clear and water flows freely to every outlet</li>
       </ul>
-      <p>Every job comes with our <strong>1-year guarantee</strong>. If your gutters block within 12 months of our clean, we return and clear them at no additional cost.</p>
+      <p>Every job includes our <strong>thorough flow test</strong> to ensure downpipes and gutters are completely free-flowing.</p>
       <p>We cover all areas across Birmingham and the West Midlands, including Solihull, Sutton Coldfield, Wolverhampton, Walsall, Dudley, and Coventry.</p>
 
       <h2>How Much Does Gutter Cleaning Cost in Birmingham?</h2>
@@ -1372,7 +1372,7 @@ export const blogPosts: BlogPost[] = [
         <li>? Fully insured, professional team</li>
         <li>? Ground-level vacuum system — no ladders, no scaffolding, no disruption</li>
         <li>? Before & after photo evidence on every job</li>
-        <li>? 1-year guarantee on all cleaning work</li>
+        <li>? Complete water flow testing on all cleaning work</li>
         <li>? Highly rated with verified Google reviews</li>
       </ul>
       <p>?? <strong>Call us now:</strong> 07421 433910<br>
@@ -1419,8 +1419,8 @@ export const blogPosts: BlogPost[] = [
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
-          <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Is there a guarantee on the work?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. All WOW Gutters Ltd cleaning work is fully guaranteed. If you have any concerns after your clean, contact us and we will return to resolve them at no additional charge.</p>
+          <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you test downpipes after cleaning?</h3>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. All WOW Gutters Ltd cleaning work includes high-volume water flow testing on downpipes and gutters to ensure free, unrestricted drainage.</p>
         </div>
       </div>
 
@@ -1527,7 +1527,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 'dome-cleaning-service-wow-gutters',
     title: 'Dome Cleaning Service: Restoring Temples, Mosques & Commercial Domes Across the UK',
-    excerpt: 'Is the dome on your religious building, commercial property, or residence looking green, grimy, or stained? WOW Gutters Ltd offers a specialist dome cleaning service — reaching up to 6 storeys high with zero ladders, zero risk, and guaranteed visible results.',
+    excerpt: 'Is the dome on your religious building, commercial property, or residence looking green, grimy, or stained? WOW Gutters Ltd offers a specialist dome cleaning service — reaching up to 6 storeys high with zero ladders, zero risk, and proven visible results.',
     image: '/Blog.png',
     date: '2026-03-31',
     lastUpdated: '2026-04-15',
@@ -1900,7 +1900,7 @@ export const blogPosts: BlogPost[] = [
       <h2>The Professional Advantage</h2>
       <p>At WOW Gutters Ltd, we don't just 'patch' leaks. We diagnose the root cause. If a joint is leaking, we replace the internal rubber seals with high-spec EPDM gaskets. If a section is sagging, we use laser levels to ensure a perfect 1:500 fall toward the downpipe.</p>
 
-      <p>Our repairs come with a <strong>12-month watertight guarantee</strong>. We use industrial-grade components and fixings that are designed to last for a decade, not just a season.</p>
+      <p>Our repairs come with a <strong>flawless watertight seal and flow testing</strong>. We use industrial-grade components and fixings that are designed to last for a decade, not just a season.</p>
 
       <h2>Do It Once, Do It Right</h2>
       <p>Gutter repairs are about precision, not just persistence. Save your weekends and your roofline by calling in the experts. We'll get your system flowing perfectly, usually in under an hour, with materials that actually do the job.</p>
@@ -1941,7 +1941,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     id: 'gutter-cleaning-solihull',
-    title: 'Gutter Cleaning Solihull — Professional, Reliable & Fully Guaranteed',
+    title: 'Gutter Cleaning Solihull — Professional, Reliable & Fully Insured',
     excerpt: 'Professional gutter cleaning, downpipe clearing, fascia & soffit washing and gutter repairs across Solihull, Shirley, Knowle, Dorridge, Balsall Common, Meriden, Cheswick Green and all surrounding areas. Highly rated by verified customers.',
     image: '/solihull-gutter-cleaning-hero.png',
     heroVideo: '/gutter-cleaning-video.mp4',
@@ -2045,7 +2045,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
-  ?? All gutter repairs carried out by <a href="https://wowgutters.co.uk" style="color: #0f172a; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> in Solihull come with a <strong>6-month guarantee</strong> on parts and labour.
+  ?? All gutter repairs carried out by <a href="https://wowgutters.co.uk" style="color: #0f172a; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> in Solihull come with a <strong>complete water flow testing</strong> on parts and labour.
 </blockquote>
 
 <h3>?? Fascia &amp; Soffit Cleaning in Solihull</h3>
@@ -2124,7 +2124,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Same day booking</strong> — subject to availability</li>
   <li><strong>24 hours a day, 7 days a week</strong> — including weekends</li>
   <li><strong>Fully insured team</strong> — public liability covered</li>
-  <li><strong>6-month repair guarantee</strong> — on all repair work</li>
+  <li><strong>full flow testing on repairs</strong> — on all repair work</li>
   <li><strong>Domestic and commercial</strong> — both covered</li>
 </ul>
 
@@ -2274,7 +2274,7 @@ export const blogPosts: BlogPost[] = [
   <li>? Fully insured, professional local technicians</li>
   <li>? <strong>Ground-level vacuum system</strong> — zero ladders</li>
   <li>? Before and after photo evidence on every single job</li>
-  <li>? <strong>6-month guarantee</strong> on all repair work</li>
+  <li>? <strong>complete water flow testing</strong> on all repair work</li>
   <li>? <strong>Highly rated</strong> with verified Google reviews</li>
   <li>? Available <strong>24 hours a day</strong> including weekends</li>
 </ul>
@@ -3326,7 +3326,7 @@ export const blogPosts: BlogPost[] = [
     authorRole: 'Professional Roof & Gutter Cleaning Specialists',
     category: 'Case Studies',
     lastUpdated: '2026-06-02',
-    quickAnswer: 'This B30 Kings Norton property had severe moss growth across both roof aspects, requiring cherry picker access and a full-day professional clean. WOW Gutters Ltd cleared 100% of moss using high-pressure treatment and applied biocidal protection. Gutters cleared as part of the same visit. 1-year written guarantee. Call 07421 433910 for a free quote.',
+    quickAnswer: 'This B30 Kings Norton property had severe moss growth across both roof aspects, requiring cherry picker access and a full-day professional clean. WOW Gutters Ltd cleared 100% of moss using high-pressure treatment and applied biocidal protection. Gutters cleared as part of the same visit. Full water flow testing & camera verification. Call 07421 433910 for a free quote.',
     breadcrumbName: 'Roof Cleaning B30 Birmingham',
     featured: false,
     content: `
@@ -3483,7 +3483,7 @@ export const blogPosts: BlogPost[] = [
     ['Treatment', 'High-pressure wash + biocidal treatment'],
     ['Gutter Clear', 'Included at no extra charge'],
     ['Photos', 'Before & after photos provided same day'],
-    ['Guarantee', '1-year written guarantee'],
+    ['Verification', 'Full water flow testing & camera verification'],
   ].map(([label, value], i, arr) => `
   <div style="display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 12px 20px; ${i < arr.length - 1 ? 'border-bottom: 1px solid #e2e8f0;' : ''}">
     <span style="font-size: 0.82rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; flex-shrink: 0;">${label}</span>

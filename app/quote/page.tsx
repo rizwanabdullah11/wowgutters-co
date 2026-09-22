@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
+import Link from 'next/link';
 import { colors } from '@/constants/colors';
 import QuoteModal from '@/components/QuoteModal';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
@@ -24,16 +25,16 @@ import {
 
 const trustStats = [
   { icon: Shield, title: 'Always Free', desc: 'Quotes cost you nothing — ever' },
-  { icon: Clock, title: 'Same-Day Book', desc: 'We come to you fast' },
-  { icon: Users, title: '450+ Homes', desc: 'Served across the West Midlands' },
-  { icon: Award, title: 'Top Rated', desc: 'Trusted by local homeowners' },
+  { icon: Clock, title: 'Same-Day Book', desc: 'Fast West Midlands response' },
+  { icon: Users, title: '100+ Homes', desc: 'Verified local customers' },
+  { icon: Award, title: 'Top Rated', desc: 'Google rated 5.0★ specialists' },
 ];
 
 const whyChooseUs = [
-  { icon: Shield, title: 'Insured & Fully Covered', desc: 'Public liability insurance included — your home is always protected.' },
-  { icon: Award, title: 'Loved by Local Homeowners', desc: 'Over 1,000 five-star experiences across the West Midlands.' },
-  { icon: Zap, title: 'We Move Fast', desc: 'Same-day booking available — we work around you.' },
-  { icon: CheckCircle, title: 'Guaranteed Workmanship', desc: 'Every installation backed by our written lifetime guarantee.' },
+  { icon: Shield, title: 'Insured & Fully Covered', desc: 'Full public liability insurance included — your home is always protected.' },
+  { icon: Award, title: 'Loved by Local Homeowners', desc: 'Verified 5-star ratings across Birmingham & the West Midlands.' },
+  { icon: Zap, title: 'We Move Fast', desc: 'Same-day booking available — we work around your schedule.' },
+  { icon: CheckCircle, title: 'Fully Insured & Tested', desc: 'Every service backed by £10m cover and full water flow testing.' },
 ];
 
 const ourPromise = [
@@ -43,6 +44,7 @@ const ourPromise = [
 ];
 
 export default function QuotePage() {
+  const videoRef = useRef<HTMLVideoElement>(null);
   const [isQuoteModalOpen, setIsQuoteModalOpen] = useState(false);
   const [currentService, setCurrentService] = useState(0);
   const services = [
@@ -51,86 +53,89 @@ export default function QuotePage() {
     'Gutter Repairs',
     'Gutter Inspection',
     'Conservatory Cleaning',
-    'Hot Wash Cleaning',
-    'Commercial Services'
+    'Commercial Guttering',
+    'Fascias & Soffits'
   ];
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.defaultMuted = true;
+      videoRef.current.muted = true;
+      videoRef.current.play().catch((error) => {
+        console.log('Video autoplay failed:', error);
+      });
+    }
+  }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentService((prev) => (prev + 1) % services.length);
-    }, 3000); // Switch every 3 seconds
+    }, 3000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [services.length]);
 
   const openModal = () => setIsQuoteModalOpen(true);
   const closeModal = () => setIsQuoteModalOpen(false);
 
   return (
     <main className="min-h-screen bg-white overflow-x-hidden">
-      <style jsx>{`
-        @keyframes fadeInUp {
-          0% {
-            opacity: 0;
-            transform: translateY(10px);
-          }
-          100% {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-      `}</style>
+      {/* ═══════════════════════════════════ HERO WITH VIDEO BACKGROUND ═══════════════════════════════════ */}
+      <section className="relative overflow-hidden bg-slate-900 py-20 sm:py-24 lg:py-28 min-h-[560px] flex items-center justify-center">
+        {/* Video Background */}
+        <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+          <video
+            ref={videoRef}
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
+            poster="/gutter-cleaning.jpeg"
+            className="w-full h-full object-cover"
+          >
+            <source src="/gutter-final-video.mp4" type="video/mp4" />
+            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/85 via-slate-900/75 to-slate-950/90 z-10" />
+        </div>
 
-      {/* ═══════════════════════════════════ HERO ═══════════════════════════════════ */}
-      <section
-        className="relative py-16 sm:py-20 lg:py-28 overflow-hidden"
-        style={{ background: 'linear-gradient(160deg, #f0fdf8 0%, #ffffff 50%, #fff7f0 100%)' }}
-      >
-        {/* Decorative blobs */}
-        <div className="absolute -top-32 -left-32 w-80 h-80 rounded-full opacity-20 blur-3xl pointer-events-none" style={{ backgroundColor: colors.primary }} />
-        <div className="absolute -bottom-20 -right-20 w-72 h-72 rounded-full opacity-15 blur-3xl pointer-events-none" style={{ backgroundColor: colors.cta }} />
-
-        <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-
+        <div className="relative z-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-white text-xs sm:text-sm font-semibold shadow-lg mb-6 sm:mb-8 animate-fadeInUp" style={{ backgroundColor: colors.primary }}>
-            <Sparkles className="w-4 h-4 flex-shrink-0" />
-            West Midlands\'s Most Trusted Gutter Specialists — WowGutters!
-            <Sparkles className="w-4 h-4 flex-shrink-0" />
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-white text-xs sm:text-sm font-semibold shadow-lg mb-6 border border-white/20 bg-white/10 backdrop-blur-md">
+            <Sparkles className="w-4 h-4 flex-shrink-0" style={{ color: colors.primary }} />
+            West Midlands's Trusted Gutter Specialists — WOW Gutters Ltd
+            <Sparkles className="w-4 h-4 flex-shrink-0" style={{ color: colors.primary }} />
           </div>
 
           {/* Heading */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight tracking-tight animate-fadeInUp animation-delay-200">
-            <span className="text-gray-900">Get A </span>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight tracking-tight text-white">
+            <span>Get A </span>
             <span className="relative inline-block px-2">
               <span className="relative z-10" style={{ color: colors.primary }}>FREE</span>
               <span
-                className="absolute bottom-0 left-0 right-0 h-3 opacity-20 rounded-full"
+                className="absolute bottom-0 left-0 right-0 h-3 opacity-30 rounded-full"
                 style={{ backgroundColor: colors.primary, transform: 'rotate(-1deg)' }}
               />
             </span>
-            <span className="text-gray-900"> </span>
-            <span className="relative inline-block min-w-[320px] sm:min-w-[450px] md:min-w-[550px]">
+            <span> </span>
+            <span className="relative inline-block min-w-[280px] sm:min-w-[420px] md:min-w-[500px]">
               <span
                 key={currentService}
-                className="absolute left-0 right-0 text-gray-900 animate-fadeInUp whitespace-nowrap"
-                style={{
-                  animation: 'fadeInUp 0.5s ease-in-out',
-                }}
+                className="text-white whitespace-nowrap transition-all duration-300"
               >
                 {services[currentService]}
               </span>
-              <span className="invisible whitespace-nowrap">{services[4]}</span>
             </span>
             <br />
-            <span className="text-gray-900">& Quote — Today!</span>
+            <span className="text-gray-100">Quote — In 60 Seconds</span>
           </h1>
 
           {/* Guarantee pill */}
-          <div className="flex justify-center mb-8 sm:mb-10 animate-fadeInUp animation-delay-400">
+          <div className="flex justify-center mb-8 sm:mb-10">
             <button
               onClick={openModal}
-              className="inline-flex items-center gap-3 px-5 py-3 sm:px-7 sm:py-4 bg-white rounded-2xl shadow-xl border-2 hover:shadow-2xl transition-all duration-300 hover:-translate-y-0.5 cursor-pointer"
+              className="inline-flex items-center gap-3 px-5 py-3 sm:px-7 sm:py-4 bg-white/95 backdrop-blur-md rounded-2xl shadow-xl border-2 hover:shadow-2xl transition-all duration-300 hover:-translate-y-0.5 cursor-pointer"
               style={{ borderColor: colors.primary }}
             >
               <div
@@ -141,18 +146,66 @@ export default function QuotePage() {
               </div>
               <div className="text-left">
                 <p className="text-base sm:text-xl font-bold" style={{ color: colors.primary }}>Completely Free Quote</p>
-                <p className="text-xs sm:text-sm text-gray-500">No commitment · No surprise charges</p>
+                <p className="text-xs sm:text-sm text-gray-600">No obligation · Direct fixed prices · Fast response</p>
               </div>
             </button>
           </div>
 
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+            <button
+              onClick={openModal}
+              className="group relative w-full sm:w-auto px-8 sm:px-12 py-4 sm:py-5 text-base sm:text-lg font-bold text-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 overflow-hidden flex items-center justify-center gap-3"
+              style={{ background: colors.primaryGradient }}
+            >
+              <Zap className="w-5 h-5 flex-shrink-0" />
+              Book My Free Gutter Quote
+              <ArrowRight className="w-5 h-5 flex-shrink-0 group-hover:translate-x-1 transition-transform duration-200" />
+            </button>
+
+            <a
+              href="tel:07421433910"
+              className="group w-full sm:w-auto px-8 py-4 sm:py-5 text-base sm:text-lg font-bold text-white rounded-2xl border-2 border-white/40 hover:bg-white/10 transition-all duration-300 flex items-center justify-center gap-3"
+            >
+              <Phone className="w-5 h-5 flex-shrink-0" />
+              Call: 07421 433910
+            </a>
+          </div>
+
+          {/* Social proof strip */}
+          <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-xs sm:text-sm text-gray-300">
+            {[
+              { icon: CheckCircle, label: 'Zero Sales Pressure' },
+              { icon: Shield, label: 'Liability Insured' },
+              { icon: Award, label: 'Experienced Specialists' },
+              { icon: Clock, label: 'Same-Day Bookings' },
+              { icon: MapPin, label: 'West Midlands Coverage' },
+            ].map(({ icon: Icon, label }) => (
+              <div key={label} className="flex items-center gap-1.5">
+                <Icon className="w-4 h-4 flex-shrink-0" style={{ color: colors.primary }} />
+                <span>{label}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Decorative Wave Bottom */}
+        <div className="absolute bottom-0 left-0 right-0 z-20 line-height-0">
+          <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-12 block">
+            <path d="M0,60 C480,0 960,0 1440,60 L1440,60 L0,60 Z" fill="#ffffff" />
+          </svg>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════ PROMISES & STATS ═══════════════════════════════ */}
+      <section className="py-12 px-4 bg-white border-b border-gray-100">
+        <div className="max-w-6xl mx-auto">
           {/* Our Promise cards */}
-          <div className="grid sm:grid-cols-3 gap-3 sm:gap-4 mb-10 sm:mb-12 animate-fadeInUp animation-delay-600">
+          <div className="grid sm:grid-cols-3 gap-4 mb-8">
             {ourPromise.map((item, i) => (
               <div
                 key={i}
-                className="flex items-start gap-3 bg-white/90 backdrop-blur-sm rounded-2xl p-4 shadow-md border hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5 text-left"
-                style={{ borderColor: `${colors.primary}30` }}
+                className="flex items-start gap-3 bg-gray-50 rounded-2xl p-4 shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300 hover:-translate-y-0.5 text-left"
               >
                 <div
                   className="w-9 h-9 rounded-full flex items-center justify-center flex-shrink-0 shadow"
@@ -161,7 +214,7 @@ export default function QuotePage() {
                   <item.icon className="w-4 h-4 text-white" />
                 </div>
                 <div>
-                  <span className="text-sm font-bold" style={{ color: colors.primary }}>{item.title}</span>
+                  <span className="text-sm font-bold text-gray-900">{item.title}</span>
                   <p className="text-xs text-gray-600 mt-0.5 leading-snug">{item.desc}</p>
                 </div>
               </div>
@@ -169,11 +222,11 @@ export default function QuotePage() {
           </div>
 
           {/* Trust stats */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mb-10 sm:mb-12 animate-fadeInUp animation-delay-800">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {trustStats.map((item, i) => (
               <div
                 key={i}
-                className="flex flex-col items-center p-4 sm:p-6 bg-white rounded-2xl shadow-md border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group"
+                className="flex flex-col items-center p-4 sm:p-6 bg-emerald-50/50 rounded-2xl border border-emerald-100 hover:shadow-md transition-all duration-300 hover:-translate-y-1"
               >
                 <div className="w-11 h-11 sm:w-14 sm:h-14 mb-3 rounded-xl flex items-center justify-center shadow-md" style={{ backgroundColor: colors.primary }}>
                   <item.icon className="w-5 h-5 sm:w-7 sm:h-7 text-white" />
@@ -183,49 +236,11 @@ export default function QuotePage() {
               </div>
             ))}
           </div>
-
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8 animate-fadeInUp animation-delay-1000">
-            <button
-              onClick={openModal}
-              className="group relative w-full sm:w-auto px-8 sm:px-12 py-4 sm:py-5 text-base sm:text-lg font-bold text-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 overflow-hidden flex items-center justify-center gap-3"
-              style={{ backgroundColor: colors.cta }}
-            >
-              <Zap className="w-5 h-5 flex-shrink-0" />
-              Book My Free Gutter Quote
-              <ArrowRight className="w-5 h-5 flex-shrink-0 group-hover:translate-x-1 transition-transform duration-200" />
-            </button>
-
-            <a
-              href="tel:07421433910"
-              className="group w-full sm:w-auto px-8 py-4 sm:py-5 text-base sm:text-lg font-bold rounded-2xl border-2 hover:bg-green-50 transition-all duration-300 flex items-center justify-center gap-3"
-              style={{ borderColor: colors.primary, color: colors.primary }}
-            >
-              <Phone className="w-5 h-5 flex-shrink-0" />
-              Call: 07421 433910
-            </a>
-          </div>
-
-          {/* Social proof strip */}
-          <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 text-xs sm:text-sm text-gray-500 animate-fadeInUp animation-delay-1200">
-            {[
-              { icon: CheckCircle, label: 'Zero Sales Pressure' },
-              { icon: Shield, label: 'Liability Insured' },
-              { icon: Award, label: 'Experienced Specialists' },
-              { icon: Clock, label: 'Same-Day Book' },
-              { icon: MapPin, label: 'West Midlands & Surrounding Areas' },
-            ].map(({ icon: Icon, label }) => (
-              <div key={label} className="flex items-center gap-1.5">
-                <Icon className="w-4 h-4 flex-shrink-0" style={{ color: colors.primary }} />
-                <span>{label}</span>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
       {/* ═══════════════════════════════ POPULAR SERVICES ═══════════════════════════════ */}
-      <section className="py-16 sm:py-20 bg-white">
+      <section className="py-16 sm:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-4">
@@ -242,31 +257,31 @@ export default function QuotePage() {
               {
                 icon: '🧹',
                 title: 'Gutter Cleaning',
-                desc: 'Professional cleaning to prevent blockages and water damage',
+                desc: 'Professional vacuum clearance up to 4 stories to prevent overflow and water damage.',
                 popular: true,
               },
               {
                 icon: '🏠',
                 title: 'Roof Cleaning',
-                desc: 'Remove moss, algae, and debris for a pristine roof',
+                desc: 'Manual moss scraping and biocide treatment to preserve roof tile integrity.',
                 popular: true,
               },
               {
                 icon: '🔧',
                 title: 'Gutter Repairs',
-                desc: 'Fix leaks, cracks, and damaged sections quickly',
+                desc: 'Fix leaky joints, loose unions, broken clips, and misaligned downpipes quickly.',
                 popular: false,
               },
               {
                 icon: '🔍',
                 title: 'Free Inspection',
-                desc: 'Comprehensive assessment with no obligation',
+                desc: 'Comprehensive visual check and condition report with no obligation.',
                 popular: false,
               },
             ].map((service, index) => (
               <div
                 key={index}
-                className="relative bg-gradient-to-br from-white to-gray-50 rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group"
+                className="relative bg-white rounded-2xl p-6 shadow-lg border border-gray-200 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group"
               >
                 {service.popular && (
                   <div className="absolute -top-3 -right-3">
@@ -298,20 +313,31 @@ export default function QuotePage() {
 
           {/* Additional Services Link */}
           <div className="text-center mt-10">
-            <p className="text-gray-600 mb-4">Need something else?</p>
-            <a
-              href="/services"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border-2 font-bold transition-all duration-300 hover:bg-green-50"
-              style={{ borderColor: colors.primary, color: colors.primary }}
-            >
-              View All Services
-              <ArrowRight className="w-5 h-5" />
-            </a>
+            <p className="text-gray-600 mb-4">Looking for calculators or specific pricing?</p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <Link
+                href="/gutter-cleaning-calculator/"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border-2 font-bold transition-all duration-300 hover:bg-emerald-50"
+                style={{ borderColor: colors.primary, color: colors.primary }}
+              >
+                Instant Price Calculator
+                <ArrowRight className="w-5 h-5" />
+              </Link>
+              <Link
+                href="/gutter-cleaning-prices/"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-xl border-2 font-bold transition-all duration-300 hover:bg-emerald-50"
+                style={{ borderColor: colors.primary, color: colors.primary }}
+              >
+                Full Price Guide
+                <ArrowRight className="w-5 h-5" />
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="py-16 sm:py-20 bg-gray-50">
+      {/* ═══════════════════════════════ REVIEWS ═══════════════════════════════ */}
+      <section className="py-16 sm:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-white text-xs sm:text-sm font-semibold shadow mb-4" style={{ backgroundColor: colors.primary }}>
@@ -345,49 +371,43 @@ export default function QuotePage() {
 
       {/* ═══════════════════════════════ WHY CHOOSE US ═══════════════════════════════ */}
       <section className="py-16 sm:py-20 bg-gray-50 relative overflow-hidden">
-        <div className="absolute top-0 left-0 right-0 h-1" style={{ background: `linear-gradient(to right, ${colors.primary}, ${colors.cta})` }} />
-
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-
             {/* Image */}
-            <div className="relative group animate-fadeInLeft order-2 lg:order-1">
+            <div className="relative group order-2 lg:order-1">
               <div
                 className="absolute -inset-4 rounded-3xl blur-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500"
                 style={{ backgroundColor: colors.primary }}
               />
-              <div className="relative bg-white p-4 sm:p-6 rounded-3xl shadow-2xl overflow-hidden">
+              <div className="relative bg-white p-4 sm:p-6 rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
                 <img
                   src="/Roof-Cleaner.webp"
                   alt="Professional Gutter Cleaning Services"
                   className="w-full h-64 sm:h-80 lg:h-96 object-cover rounded-2xl"
                 />
-                {/* Image badge */}
                 <div className="absolute top-8 left-8">
                   <div className="px-4 py-2 rounded-full text-white text-xs sm:text-sm font-bold shadow-lg" style={{ backgroundColor: colors.primary }}>
-                    ✨ Professional Service
+                    ✨ Professional High Suction Vacuum
                   </div>
                 </div>
-                {/* Rating badge */}
                 <div className="absolute bottom-8 right-8">
                   <div className="bg-white rounded-2xl shadow-xl px-4 py-3 flex items-center gap-2">
-                    <span className="text-sm font-bold text-gray-900">4.9 Rating</span>
+                    <span className="text-sm font-bold text-gray-900">Google 5.0★ Rated</span>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* Content */}
-            <div className="space-y-6 sm:space-y-8 animate-fadeInRight order-1 lg:order-2">
+            <div className="space-y-6 sm:space-y-8 order-1 lg:order-2">
               <div>
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-4 leading-tight">
-                  <span className="text-gray-900">What Makes WowGutters</span>
+                  <span className="text-gray-900">What Makes WOW Gutters</span>
                   <br />
                   <span style={{ color: colors.primary }}>The Right Choice?</span>
                 </h2>
                 <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
-                  We show up, we get the job done right, and we back every single piece of work
-                  with a guarantee you can actually rely on. No fuss, no surprises.
+                  We show up punctually, clear downpipes and gutter runs completely, and provide photo proof with every visit.
                 </p>
               </div>
 
@@ -449,7 +469,7 @@ export default function QuotePage() {
       <ServiceSEOSection
         title="Free Gutter Quotes"
         subtitle="West Midlands"
-        mainParagraph1="Getting a professional gutter quote shouldn't be complicated or expensive. At WowGutters, we provide completely free, no-obligation quotes for all gutter services across the West Midlands. Whether you need routine cleaning, urgent repairs, or a complete gutter replacement, our transparent pricing ensures you know exactly what to expect before any work begins."
+        mainParagraph1="Getting a professional gutter quote shouldn't be complicated or expensive. At WOW Gutters Ltd, we provide completely free, no-obligation quotes for all gutter services across the West Midlands. Whether you need routine cleaning, urgent repairs, or a complete gutter inspection, our transparent pricing ensures you know exactly what to expect before any work begins."
         mainParagraph2="Our free quote service includes a thorough inspection of your gutters, downpipes, and drainage system. We assess the condition, identify any issues, and provide honest recommendations for the work that's actually needed—not unnecessary upsells. With same-day booking available and flexible scheduling, getting your free quote has never been easier."
         processTitle="What's Included in Your Free Quote:"
         processSteps={[
@@ -458,7 +478,7 @@ export default function QuotePage() {
           { text: 'Transparent pricing with no hidden fees' },
           { text: 'Professional recommendations for your property' },
           { text: 'Same-day or next-day appointment options' },
-          { text: 'Written guarantee on all quoted work' }
+          { text: 'Digital photo confirmation upon job completion' }
         ]}
         problemsTitle="Common Gutter Issues We Quote For"
         problems={[
@@ -469,7 +489,7 @@ export default function QuotePage() {
           { icon: '🔧', title: 'Gutter Repairs', desc: 'Damaged sections needing replacement' },
           { icon: '🏠', title: 'Full Replacement', desc: 'Old gutters beyond economical repair' }
         ]}
-        highlightBoxTitle="Why Choose WowGutters for Your Quote?"
+        highlightBoxTitle="Why Choose WOW Gutters Ltd for Your Quote?"
         highlightBoxColor="green"
         highlightBoxes={[
           { icon: '💰', title: 'Always Free', desc: 'No charge for quotes, inspections, or assessments' },
@@ -477,7 +497,7 @@ export default function QuotePage() {
           { icon: '✅', title: 'Honest Pricing', desc: 'Transparent costs with no hidden surprises' }
         ]}
         ctaTitle="Ready for Your Free Gutter Quote?"
-        ctaDescription="Join hundreds of satisfied homeowners across the West Midlands who trust WowGutters for honest, professional gutter services. Get your free quote today and protect your property from water damage."
+        ctaDescription="Join hundreds of satisfied homeowners across the West Midlands who trust WOW Gutters Ltd for honest, professional gutter services. Get your free quote today and protect your property from water damage."
         ctaButtonText="Get Your Free Quote Now"
       />
 
@@ -492,22 +512,8 @@ export default function QuotePage() {
             Let&apos;s Sort Your Gutters Out!
           </h2>
           <p className="text-base sm:text-xl text-white/80 mb-8 sm:mb-10 leading-relaxed">
-            Hundreds of homeowners across the West Midlands have already chosen WowGutters — book your free visit today.
+            Local homeowners across the West Midlands choose WOW Gutters Ltd — book your free quote today.
           </p>
-
-          {/* Stats row */}
-          <div className="grid grid-cols-3 gap-4 sm:gap-8 mb-8 sm:mb-10">
-            {[
-              { value: '450+', label: 'Gutters Cleaned & Fixed' },
-              { value: '4.9★', label: 'Homeowner Rating' },
-              { value: '100%', label: 'Free Quotes, Always' },
-            ].map(({ value, label }) => (
-              <div key={label} className="text-white">
-                <p className="text-2xl sm:text-4xl font-black">{value}</p>
-                <p className="text-xs sm:text-sm text-white/70 mt-1">{label}</p>
-              </div>
-            ))}
-          </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button
@@ -539,7 +545,6 @@ export default function QuotePage() {
 
       {/* ═══════════════ MOBILE STICKY WHATSAPP BAR ═══════════════ */}
       <div className="fixed bottom-0 left-0 right-0 z-50 flex sm:hidden items-center justify-between gap-3 px-4 py-3 bg-white border-t border-gray-200 shadow-[0_-4px_20px_rgba(0,0,0,0.12)]">
-        {/* Avatar */}
         <div
           className="w-11 h-11 rounded-full flex items-center justify-center text-white font-black text-lg flex-shrink-0 shadow-md"
           style={{ backgroundColor: colors.primary }}
@@ -547,9 +552,8 @@ export default function QuotePage() {
           W
         </div>
 
-        {/* Info */}
         <div className="flex-1 min-w-0">
-          <p className="text-sm font-bold text-gray-900 truncate">WowGutters</p>
+          <p className="text-sm font-bold text-gray-900 truncate">WOW Gutters Ltd</p>
           <a
             href="tel:07421433910"
             className="text-xs font-semibold truncate block"
@@ -559,7 +563,6 @@ export default function QuotePage() {
           </a>
         </div>
 
-        {/* WhatsApp Button */}
         <a
           href="https://wa.me/447421433910?text=Hi%2C%20I%27d%20like%20a%20free%20gutter%20quote%20please!"
           target="_blank"
@@ -567,7 +570,6 @@ export default function QuotePage() {
           className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-white text-sm font-bold shadow-lg flex-shrink-0 active:scale-95 transition-transform duration-150"
           style={{ backgroundColor: '#25D366' }}
         >
-          {/* WhatsApp SVG icon */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -580,7 +582,6 @@ export default function QuotePage() {
         </a>
       </div>
 
-      {/* Bottom padding so content isn't hidden behind sticky bar on mobile */}
       <div className="block sm:hidden h-20" />
     </main>
   );

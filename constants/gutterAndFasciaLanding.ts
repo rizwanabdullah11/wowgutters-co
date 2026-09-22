@@ -21,7 +21,7 @@ export const GUTTER_AND_FASCIA_LANDING: CityGutterLandingData = {
     'Hot purified water fascia and soffit wash — streak-free, chemical-free finish',
     'Downpipe clearance and flow test included as standard',
     'Before & after photos of gutters and fascias sent same day',
-    '1-year guarantee — we return free if your gutters block within 12 months',
+    'Full water flow testing and £10m public liability insurance',
     'Fully insured — comprehensive public liability cover on every visit',
     '4.9★ rating from verified Google reviews',
   ],

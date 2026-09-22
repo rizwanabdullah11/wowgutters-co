@@ -28,7 +28,7 @@ export default function AboutCompany() {
             <p className="text-gray-300 leading-relaxed">
               Our professional technicians are thoroughly trained and experienced, possessing the expertise 
               and dedication to deliver outstanding results on every job. We utilize premium tools and 
-              industry-leading equipment to guarantee exceptional outcomes.
+              industry-leading equipment to deliver exceptional outcomes.
             </p>
 
             <p className="text-gray-300 leading-relaxed">

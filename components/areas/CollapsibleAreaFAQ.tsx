@@ -106,7 +106,7 @@ export default function CollapsibleAreaFAQ({ city, faqs, heading }: CollapsibleA
                 </Link>
               </div>
               <div className="bg-white rounded-2xl p-6 border-2 border-slate-200 shadow-sm">
-                <p className="text-slate-900 font-bold text-lg mb-4">Our guarantees</p>
+                <p className="text-slate-900 font-bold text-lg mb-4">Our Standards</p>
                 <div className="space-y-3">
                   {['Fully insured', 'Before & after photos', 'No ladders on your walls', '24 hours a day'].map(
                     (item) => (

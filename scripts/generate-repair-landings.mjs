@@ -644,7 +644,7 @@ const AREAS = {
 };
 
 const GUARANTEES = [
-  '6-month guarantee on qualifying repairs — peace of mind included',
+  'Full water flow testing and £10m public liability insurance',
   'Leaking joints, sagging runs and cracked sections all fixed',
   'Water flow test after every repair to confirm proper drainage',
   'Honest advice if replacement is more cost-effective than repair',
@@ -675,9 +675,9 @@ function buildEntry(slug, a) {
 
   const placeTitle = `${a.name} ${hubLabel}`;
   const titleTag = `Gutter Repairs ${placeTitle} | Leaks, Sagging & Broken Gutters Fixed | WOW Gutters Ltd`;
-  const metaDescription = `Expert gutter repairs in ${a.name}, ${hubLabel} (${pc}). Leaking joints, sagging runs and cracked sections fixed with a 6-month guarantee. Call WOW Gutters Ltd: 07421 433910.`;
+  const metaDescription = `Expert gutter repairs in ${a.name}, ${hubLabel} (${pc}). Leaking joints, sagging runs and cracked sections fixed with complete water flow testing. Call WOW Gutters Ltd: 07421 433910.`;
   const h1 = `Gutter Repairs ${placeTitle} — Leaks, Sagging & Broken Gutters Fixed`;
-  const heroIntro = `WOW Gutters Ltd provides professional gutter repairs across ${a.name} (${pc}), a ${a.character}. We specialise in ${a.repairFocus}. From ${streets} to neighbouring ${a.nearby[0]}, every repair is flow-tested before we leave and qualifying work carries a 6-month guarantee.`;
+  const heroIntro = `WOW Gutters Ltd provides professional gutter repairs across ${a.name} (${pc}), a ${a.character}. We specialise in ${a.repairFocus}. From ${streets} to neighbouring ${a.nearby[0]}, every repair is flow-tested before we leave and all repairs undergo thorough water flow testing.`;
   const whyTitle = `Why ${a.name} Homes Need Professional Gutter Repairs`;
   const why1 = `${a.name}'s ${housingPhrase(a)} sit under ${a.treesOrWeather}. When debris weight builds up, brackets loosen, joints open and water sheets down external walls — one of the fastest routes to damp we see across ${hubLabel}.`;
   const why2 = `Most ${a.name} homeowners call us after noticing a drip, a sagging mid-run or stained brickwork. We inspect the full system, repair with quality materials, and water-test every fix so you know the problem is solved — not just patched.`;
@@ -690,15 +690,15 @@ function buildEntry(slug, a) {
   const faqs = [
     {
       q: `What gutter repair services do you offer in ${a.name}?`,
-      a: `We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across ${a.name} (${pc}). Every repair is flow-tested before we leave, and qualifying work carries a 6-month guarantee.`,
+      a: `We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across ${a.name} (${pc}). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.`,
     },
     {
       q: `How much does gutter repair cost in ${a.name}?`,
       a: `A leaking joint reseal in ${a.name} typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.`,
     },
     {
-      q: `Do you guarantee gutter repairs in ${a.name}?`,
-      a: `Yes. Qualifying repair work in ${a.name} carries a 6-month guarantee. If the same issue returns on the section we repaired, we come back and put it right at no extra labour charge.`,
+      q: `Do you test gutter repairs in ${a.name}?`,
+      a: `Yes. Every repair in ${a.name} is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.`,
     },
     {
       q: `Can you repair gutters near ${a.nearby[0]} and ${a.nearby[1]}?`,

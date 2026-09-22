@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   
   const url = `https://wowgutters.co.uk/gutter-cleaning-${slug}/`
   const title = `Gutter Cleaning ${city.name} | WOW Gutters Ltd`
-  const description = `Professional gutter cleaning in ${city.name} from £${city.priceFrom}. Ground-level vacuum system, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.`
+  const description = `Professional gutter cleaning in ${city.name} from £${city.priceFrom}. Ground-level vacuum system, before & after photos, fully insured. Call WOW Gutters Ltd: 07421 433910.`
   
   return {
     title,

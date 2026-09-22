@@ -115,7 +115,7 @@ const PDF_PROPERTY_ROWS: { type: string; issue: string; approach: string }[] = [
   {
     type: 'Bungalows',
     issue: 'Single-storey but ground-level gutters clog with lawn clippings and low-hanging tree debris',
-    approach: 'Rapid clean and flush in under 30 minutes; full guarantee included',
+    approach: 'Rapid clean and flush in under 30 minutes; full flow testing included',
   },
   {
     type: 'Flats & apartment blocks',
@@ -210,8 +210,7 @@ export default function DerbyGutterCleaningPage() {
 
           <p className="hero-subtitle hidden md:block">
             WOW Gutters Ltd is Derby&apos;s trusted gutter cleaning specialist. We use a ground-level vacuum system &mdash;
-            no ladders, no damage, no mess. Up to 4-storey reach, before &amp; after photos on every job, and a 1-year
-            service guarantee. Fully insured.
+            no ladders, no damage, no mess. Up to 4-storey reach, before &amp; after photos on every job, and full water flow testing. Fully insured (£10m).
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch justify-center gap-4 w-full max-w-xl animate-fade-in-up delay-300">
@@ -531,7 +530,7 @@ export default function DerbyGutterCleaningPage() {
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">Gutter repairs</h3>
               <p className="text-slate-600 text-sm leading-relaxed">
-                Leaking joints, broken brackets, sagging sections. Fast repairs with a 6-month guarantee by trained
+                Leaking joints, broken brackets, sagging sections. Fast repairs with full flow testing by trained
                 engineers.
               </p>
             </Link>

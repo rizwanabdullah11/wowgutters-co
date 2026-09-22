@@ -40,9 +40,9 @@ export const GUTTER_REPAIR_FAQS = [
     icon: '💳',
   },
   {
-    question: 'Do you guarantee gutter repair work?',
+    question: 'Do you test gutter repair work before finishing?',
     answer:
-      'Yes. Qualifying gutter repairs come with a 6-month guarantee on workmanship. If a joint or bracket we fitted fails within that period, we will put it right.',
+      'Yes. Every repair is fully water flow tested with photographic verification before we leave to ensure leak-free performance.',
     icon: '✅',
   },
   {
@@ -430,7 +430,7 @@ export default function AreaFAQ({
 
               {/* Trust Badges */}
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                <p className="text-white font-bold text-lg mb-4">Our Guarantees</p>
+                <p className="text-white font-bold text-lg mb-4">Our Standards</p>
                 <div className="space-y-3">
                   {[
                     'Comprehensive Public Liability',

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning Shirley, Solihull, Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Shirley B90. From £55. No ladders, before & after photos, 1-year guarantee. Call WOW Gutters Ltd: 07421 433910.',
+    description: 'Professional gutter cleaning in Shirley B90. From £55. No ladders, before & after photos, fully insured. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/shirley.jpg'],
   },
 }

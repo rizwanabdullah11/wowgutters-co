@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import {
   Calculator,
@@ -29,6 +29,18 @@ const INCLUDED = [
 ];
 
 export default function GutterCleaningCalculator() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.defaultMuted = true;
+      videoRef.current.muted = true;
+      videoRef.current.play().catch((error) => {
+        console.log('Video autoplay failed:', error);
+      });
+    }
+  }, []);
+
   const [propertyType, setPropertyType] = useState<PropertyType | ''>('');
   const [bedrooms, setBedrooms] = useState('');
   const [gutterLength, setGutterLength] = useState<GutterLength | ''>('');
@@ -55,21 +67,44 @@ export default function GutterCleaningCalculator() {
 
   return (
     <main className="bg-white">
-      <section className="relative px-4 py-20" style={{ background: colors.primaryGradient }}>
-        <div className="mx-auto max-w-3xl text-center">
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-white/20 px-4 py-2 backdrop-blur-sm">
-            <Calculator className="h-5 w-5 text-white" />
+      {/* Hero Section with Video Background */}
+      <section className="relative overflow-hidden bg-slate-900 py-24 px-4 min-h-[460px] flex items-center justify-center">
+        {/* Video Background */}
+        <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+          <video
+            ref={videoRef}
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
+            poster="/gutter-cleaning.jpeg"
+            className="w-full h-full object-cover"
+          >
+            <source src="/gutter-final-video.mp4" type="video/mp4" />
+            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-900/70 to-slate-950/90 z-10" />
+        </div>
+
+        <div className="relative z-20 mx-auto max-w-3xl text-center">
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-white/10 border border-white/20 px-4 py-2 backdrop-blur-md">
+            <Calculator className="h-5 w-5" style={{ color: colors.primary }} />
             <span className="text-sm font-bold text-white">Instant estimate</span>
           </div>
-          <h1 className="text-4xl font-black text-white md:text-5xl">Gutter Cleaning Calculator</h1>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-white/90">
+          <h1 className="text-4xl font-black text-white md:text-5xl">
+            Gutter Cleaning <span style={{ color: colors.primary }}>Calculator</span>
+          </h1>
+          <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-200">
             Get a ballpark price for professional gutter cleaning in Birmingham and the West Midlands.
             Final quotes are confirmed after a quick property check.
           </p>
         </div>
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg viewBox="0 0 1440 60" preserveAspectRatio="none" className="h-12 w-full">
-            <path d="M0,60 C480,0 960,0 1440,60 L1440,60 L0,60 Z" fill="white" />
+
+        {/* Wave Bottom */}
+        <div className="absolute bottom-0 left-0 right-0 z-20 line-height-0">
+          <svg viewBox="0 0 1440 60" preserveAspectRatio="none" className="h-12 w-full block">
+            <path d="M0,60 C480,0 960,0 1440,60 L1440,60 L0,60 Z" fill="#ffffff" />
           </svg>
         </div>
       </section>

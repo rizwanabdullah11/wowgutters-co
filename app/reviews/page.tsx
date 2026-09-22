@@ -13,7 +13,13 @@ export default function ReviewsPage() {
   const reviewUrl = gbpReviewUrl();
 
   useEffect(() => {
-    videoRef.current?.play().catch(() => {});
+    if (videoRef.current) {
+      videoRef.current.defaultMuted = true;
+      videoRef.current.muted = true;
+      videoRef.current.play().catch((error) => {
+        console.log('Video autoplay failed:', error);
+      });
+    }
   }, []);
 
   return (
@@ -26,14 +32,12 @@ export default function ReviewsPage() {
             loop
             muted
             playsInline
-            preload="none"
-            poster="/gutter-hero-poster.jpg"
+            preload="auto"
+            poster="/gutter-cleaning.jpeg"
             className="hero-video"
-            onError={(e) => {
-              (e.target as HTMLVideoElement).style.display = 'none';
-            }}
           >
             <source src="/gutter-final-video.mp4" type="video/mp4" />
+            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
           </video>
           <div className="reviews-hero-overlay" />
         </div>
@@ -159,7 +163,7 @@ export default function ReviewsPage() {
                   <strong>Not happy?</strong> Contact us within 48 hours and we will put it right at no extra
                   charge — see our{' '}
                   <Link href="/terms-and-conditions/" className="font-bold underline" style={{ color: colors.primary }}>
-                    service guarantee
+                    flow testing
                   </Link>
                   .
                 </span>
@@ -204,6 +208,52 @@ export default function ReviewsPage() {
               >
                 Get a free quote
               </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Quality Standards & Review Verification */}
+      <section className="py-16 px-4 bg-gray-50 border-t border-gray-200">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-black text-gray-900 mb-4">
+              Our <span style={{ color: colors.primary }}>Review Standards</span> &amp; Service Commitments
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              How WOW Gutters Ltd maintains transparent communication, photo-verified clearances, and responsive customer care across every West Midlands borough.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+              <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4" style={{ backgroundColor: `${colors.primary}20` }}>
+                <span className="text-2xl">📸</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Timestamped Photo Proof</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Before packing away our equipment, technicians capture clear digital high-resolution photos of your cleared gutters, downpipes, and outlets, delivering them straight to your phone.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+              <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4" style={{ backgroundColor: `${colors.primary}20` }}>
+                <span className="text-2xl">💬</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Verified Real Feedback</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                We believe in authentic customer experiences. Every review displayed is drawn from real homeowners with direct links to our Google Business Profile.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+              <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4" style={{ backgroundColor: `${colors.primary}20` }}>
+                <span className="text-2xl">🤝</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Dedicated Customer Support</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                Should you notice any overflow or missed debris within 48 hours of service, our mobile team returns promptly to address the issue at zero additional charge.
+              </p>
             </div>
           </div>
         </div>

@@ -94,7 +94,7 @@ export const REPAIR_SERVICE_META: AreaServiceMeta = {
   heroVideo: '/gutter-repair (2).mp4',
   heroPoster: '/gutter-repair-before.png',
   heroPills: [
-    { label: '6-month guarantee' },
+    { label: 'Water-tested & sealed' },
     { label: 'Before & after photos' },
     { label: 'Fully insured' },
   ],
@@ -215,7 +215,7 @@ export const INSTALLATION_SERVICE_META: AreaServiceMeta = {
   heroPoster: '/gutter-installation.png',
   heroPills: [
     { label: 'Free site survey' },
-    { label: '10-year guarantee' },
+    { label: 'Flow tested & aligned' },
     { label: 'Fully insured' },
   ],
   whatsappQuestions: [

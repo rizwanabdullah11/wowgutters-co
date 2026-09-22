@@ -38,8 +38,8 @@ export default function AreaFeatures({
     },
     {
       icon: ShieldCheck,
-      title: 'Fully insured & guaranteed',
-      desc: `WOW Gutters Ltd is fully insured, and we stand behind professional workmanship${locality ? ` throughout ${locality}` : ''} with clear guarantees on qualifying work.`,
+      title: 'Fully insured & certified',
+      desc: `WOW Gutters Ltd is fully insured (£10m cover), and we deliver professional workmanship${locality ? ` throughout ${locality}` : ''} with rigorous flow testing on every job.`,
     },
   ];
 

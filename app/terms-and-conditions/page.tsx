@@ -10,6 +10,8 @@ export default function TermsAndConditions() {
 
   useEffect(() => {
     if (videoRef.current) {
+      videoRef.current.defaultMuted = true;
+      videoRef.current.muted = true;
       videoRef.current.play().catch((error) => {
         console.log('Video autoplay failed:', error);
       });
@@ -18,37 +20,47 @@ export default function TermsAndConditions() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
-      {/* Hero Section with Video */}
-      <div className="relative text-white py-20 px-4 overflow-hidden" style={{ minHeight: '400px' }}>
+      {/* Hero Section with Video Background */}
+      <section className="relative overflow-hidden bg-slate-900 py-24 px-4 min-h-[440px] flex items-center justify-center">
         {/* Video Background */}
-        <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
           <video
             ref={videoRef}
             autoPlay
             loop
             muted
             playsInline
-            preload="none"
-            poster="/gutter-hero-poster.jpg"
+            preload="auto"
+            poster="/gutter-cleaning.jpeg"
             className="w-full h-full object-cover"
-            onError={(e) => {
-              (e.target as HTMLVideoElement).style.display = 'none';
-            }}
           >
             <source src="/gutter-final-video.mp4" type="video/mp4" />
+            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
           </video>
-          <div className="absolute inset-0 bg-gradient-to-b from-slate-900/85 via-slate-900/75 to-slate-900/90"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-900/70 to-slate-950/90 z-10" />
         </div>
 
         {/* Content */}
-        <div className="max-w-4xl mx-auto text-center relative z-10">
-          <FileText className="w-16 h-16 mx-auto mb-4 opacity-90" />
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Terms & Conditions</h1>
-          <p className="text-xl text-white/90">
-            Please read these terms carefully before using our services
+        <div className="relative z-20 max-w-4xl mx-auto text-center">
+          <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 backdrop-blur-md px-4 py-2 rounded-full mb-6">
+            <FileText className="w-5 h-5" style={{ color: colors.primary }} />
+            <span className="text-white font-semibold text-sm">Customer &amp; Commercial Agreement</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-black text-white mb-4">
+            Terms &amp; <span style={{ color: colors.primary }}>Conditions</span>
+          </h1>
+          <p className="text-xl text-gray-200">
+            Clear, transparent terms governing our professional gutter, roofline, and exterior cleaning services across the West Midlands.
           </p>
         </div>
-      </div>
+
+        {/* Wave Bottom */}
+        <div className="absolute bottom-0 left-0 right-0 z-20 line-height-0">
+          <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-12 block">
+            <path d="M0,60 C480,0 960,0 1440,60 L1440,60 L0,60 Z" fill="#ffffff" />
+          </svg>
+        </div>
+      </section>
 
       <div className="max-w-4xl mx-auto px-4 py-12">
         {/* Quick Summary */}
@@ -279,7 +291,7 @@ export default function TermsAndConditions() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span style={{ color: colors.primary }}>•</span>
-                    <span>All repairs include a 12-month workmanship guarantee</span>
+                    <span>All repairs include full water flow testing and photographic proof</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span style={{ color: colors.primary }}>•</span>
@@ -325,7 +337,7 @@ export default function TermsAndConditions() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span style={{ color: colors.primary }}>•</span>
-                    <span>All installations come with a 10-year guarantee on materials and workmanship</span>
+                    <span>All installations undergo full water flow testing and quality checks before sign-off</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span style={{ color: colors.primary }}>•</span>
@@ -372,16 +384,16 @@ export default function TermsAndConditions() {
               <div className="w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: `${colors.primary}20` }}>
                 <span className="font-bold" style={{ color: colors.primary }}>8</span>
               </div>
-              <h2 className="text-2xl font-bold text-gray-900">Service Guarantee</h2>
+              <h2 className="text-2xl font-bold text-gray-900">Quality Standards</h2>
             </div>
             <div className="pl-13 space-y-3">
               <p className="text-gray-700 leading-relaxed">
-                We guarantee our workmanship. If you are not satisfied with our service, please contact us within 
+                We take pride in our workmanship. If you are not satisfied with our service, please contact us within 
                 48 hours and we will rectify any issues at no additional cost.
               </p>
               <div className="rounded-lg p-4" style={{ backgroundColor: `${colors.primary}15` }}>
                 <p className="text-sm text-gray-700">
-                  Our guarantee covers workmanship quality but does not extend to issues arising from property defects 
+                  Our service standards cover workmanship quality but does not extend to issues arising from property defects 
                   or subsequent weather damage.
                 </p>
               </div>

@@ -261,7 +261,7 @@ export default function CoventryGutterCleaningBlogContent() {
           <li>✅ Fully insured, professional local technicians</li>
           <li>✅ Ground-level vacuum system — zero ladders</li>
           <li>✅ Before and after photo evidence on every single job</li>
-          <li>✅ 12-month guarantee on all cleaning work</li>
+          <li>✅ Complete water flow testing on all cleaning work</li>
           <li>✅ Highly rated with verified Google reviews</li>
         </ul>
 
@@ -320,16 +320,16 @@ export default function CoventryGutterCleaningBlogContent() {
         </div>
 
         <div className="faq-item">
-          <h3>Q: Is there a guarantee?</h3>
+          <h3>Q: Do you test downpipes after cleaning?</h3>
           <p>
-            A: Yes. All WOW Gutters Ltd cleaning work is backed by a 12-month guarantee. If your gutters block again within 12 months of our clean, we return and clear them at no additional charge.
+            A: Yes. All WOW Gutters Ltd cleaning work includes high-volume water flow testing on downpipes and gutters to ensure free, unrestricted drainage.
           </p>
         </div>
 
         <div className="faq-item">
           <h3>Q: Do you also repair gutters in Coventry?</h3>
           <p>
-            A: Yes. In addition to cleaning, we repair leaking joints, broken brackets, sagging sections, and cracked downpipes. All repair work comes with a 6-month guarantee. <Link href="/help/repair">View our gutter repairs service</Link>.
+            A: Yes. In addition to cleaning, we repair leaking joints, broken brackets, sagging sections, and cracked downpipes. All repair work includes complete water flow testing. <Link href="/help/repair">View our gutter repairs service</Link>.
           </p>
         </div>
       </div>

@@ -15,7 +15,7 @@ export interface CustomKeywordData {
 export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
   'gutter-lining-birmingham': {
     heroTitle: 'Gutter Lining Birmingham',
-    heroDescription: 'Specialist gutter lining and waterproofing services across Birmingham. WOW Gutters Ltd installs seamless EPDM, Plygene, and liquid polymer liners to eliminate leaks in aging residential and commercial gutters without costly replacement. Fully insured with a comprehensive guarantee. Call 07421 433910 for a free inspection.',
+    heroDescription: 'Specialist gutter lining and waterproofing services across Birmingham. WOW Gutters Ltd installs seamless EPDM, Plygene, and liquid polymer liners to eliminate leaks in aging residential and commercial gutters without costly replacement. Fully insured (£10m) with full water flow testing. Call 07421 433910 for a free inspection.',
     sections: [
       {
         heading: 'Professional Gutter Lining Solutions in Birmingham',
@@ -37,7 +37,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'Non-invasive installation completed from access platforms or scaffold towers',
           'Tailored custom dimensions manufactured to match your exact gutter profile',
           'Resistant to standing water, moss accumulation, and severe winter frost cycles',
-          'Guaranteed watertight seal backed by our comprehensive workmanship warranty',
+          'Watertight seal backed by complete water flow testing and £10m insurance',
           'Same-week site inspections and competitive quotes across the West Midlands',
         ],
       },
@@ -60,8 +60,8 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
         answer: 'Most residential gutter lining projects in Birmingham are completed in a single day. Commercial and industrial valley runs typically take 1 to 3 days depending on total linear meterage.',
       },
       {
-        question: 'Do you offer a guarantee on gutter lining work?',
-        answer: 'Yes, WOW Gutters Ltd provides robust guarantees on all qualifying gutter lining installations, giving you total peace of mind against leaks and material failure.',
+        question: 'Do you test gutter lining work before sign-off?',
+        answer: 'Yes, WOW Gutters Ltd thoroughly water flow tests all gutter lining installations to ensure completely watertight joints and seamless drainage.',
       },
     ],
   },
@@ -121,7 +121,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'gutter-cleaning-cost': {
     heroTitle: 'Gutter Cleaning Cost UK',
-    heroDescription: 'Clear, upfront pricing for professional gutter cleaning across Birmingham and the West Midlands. Prices start from £50 for standard terraced properties. No hidden fees, free flow testing, before & after camera verification, and 100% satisfaction guarantee. Call WOW Gutters Ltd on 07421 433910.',
+    heroDescription: 'Clear, upfront pricing for professional gutter cleaning across Birmingham and the West Midlands. Prices start from £50 for standard terraced properties. No hidden fees, free flow testing, before & after camera verification, and complete water flow testing. Call WOW Gutters Ltd on 07421 433910.',
     sections: [
       {
         heading: 'How Much Does Gutter Cleaning Cost in 2026?',
@@ -159,7 +159,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: 'Does your gutter cleaning price include unblocking downpipes?',
-        answer: 'Yes! We inspect, clear, and test every downpipe connected to the gutter run being cleaned to guarantee water flows freely to ground drains.',
+        answer: 'Yes! We inspect, clear, and test every downpipe connected to the gutter run being cleaned to ensure water flows freely to ground drains.',
       },
       {
         question: 'Do you offer discounts for neighbourhood or OAP bookings?',
@@ -174,7 +174,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'gutter-cleaning-price-list': {
     heroTitle: 'Gutter Cleaning Price List',
-    heroDescription: 'Complete, transparent gutter cleaning price list for Birmingham and West Midlands homeowners, landlords, and commercial property managers. Fixed pricing, no hidden extras, and guaranteed results. Contact WOW Gutters Ltd on 07421 433910 for your free quote.',
+    heroDescription: 'Complete, transparent gutter cleaning price list for Birmingham and West Midlands homeowners, landlords, and commercial property managers. Fixed pricing, no hidden extras, and full water flow testing. Contact WOW Gutters Ltd on 07421 433910 for your free quote.',
     sections: [
       {
         heading: '2026 Gutter Cleaning Price Guide',
@@ -386,7 +386,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'gutter-replacement-birmingham': {
     heroTitle: 'Gutter Replacement Birmingham',
-    heroDescription: 'Professional gutter replacement services across Birmingham. WOW Gutters Ltd removes broken, cracked, and sagging gutters and installs high-capacity modern UPVC systems with flawless fall gradients. 10-year guarantee on workmanship. Call 07421 433910 for a free survey.',
+    heroDescription: 'Professional gutter replacement services across Birmingham. WOW Gutters Ltd removes broken, cracked, and sagging gutters and installs high-capacity modern UPVC systems with flawless fall gradients. precision laser alignment and flow testing. Call 07421 433910 for a free survey.',
     sections: [
       {
         heading: 'Complete Gutter Replacement Solutions in Birmingham',
@@ -397,7 +397,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'High-capacity deep-flow systems recommended for high-pitch Birmingham rooflines',
           'Available in standard gloss white, sleek black, modern anthracite grey, and classic brown',
           'Laser-aligned bracket spacing and exact fall gradients to prevent standing water',
-          'Full 10-year guarantee on replacement workmanship and materials',
+          'British standard uPVC materials with full post-installation flow testing',
         ],
       },
       {
@@ -431,15 +431,15 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
         answer: 'Most residential gutter replacements in Birmingham are completed in a single day by our experienced two-person installation teams.',
       },
       {
-        question: 'Are your replacement services fully insured and guaranteed?',
-        answer: 'Yes, WOW Gutters Ltd holds £10 million public liability insurance and provides a comprehensive 10-year guarantee on new gutter installations.',
+        question: 'Are your replacement services fully insured?',
+        answer: 'Yes, WOW Gutters Ltd holds £10 million public liability insurance and carries out full water flow testing on every new gutter installation.',
       },
     ],
   },
 
   'gutter-installation-birmingham': {
     heroTitle: 'Gutter Installation Birmingham',
-    heroDescription: 'Expert gutter installation for new builds, extensions, renovations, and property upgrades across Birmingham. High-grade UPVC, correct fall alignment, and leak-free performance guaranteed. Call WOW Gutters Ltd on 07421 433910 for a free consultation.',
+    heroDescription: 'Expert gutter installation for new builds, extensions, renovations, and property upgrades across Birmingham. High-grade UPVC, correct fall alignment, and full water flow testing. Call WOW Gutters Ltd on 07421 433910 for a free consultation.',
     sections: [
       {
         heading: 'Precision Gutter Installation Across Birmingham',
@@ -462,14 +462,14 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'Classic Half-Round — versatile, time-tested profile suitable for Victorian and modern homes',
           'Ogee Moulded Profile — decorative, high-capacity styling for period homes and executive properties',
           'Cast Iron Effect UPVC — authentic heritage appearance with modern, maintenance-free benefits',
-          '10-year guarantee on all installations with complete post-job flow testing',
+          'Quality British standard uPVC with complete post-job flow testing',
         ],
       },
     ],
     faqs: [
       {
         question: 'How do you ensure new gutters have the correct fall gradient?',
-        answer: 'We use precision laser levels and string lines to establish a steady fall ratio of 1:350 towards each downpipe outlet, guaranteeing rapid drainage and eliminating standing water.',
+        answer: 'We use precision laser levels and string lines to establish a steady fall ratio of 1:350 towards each downpipe outlet, ensuring rapid drainage and eliminating standing water.',
       },
       {
         question: 'Can you install gutters on conservatories and outbuildings?',
@@ -502,7 +502,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'Fully trained in working at height safely using mobile access equipment',
           'Comprehensive £10 million public liability insurance for complete homeowner peace of mind',
           'High-grade materials sourced from trusted UK building material manufacturers',
-          'Every job flow-tested with water before signing off and issuing guarantees',
+          'Every job flow-tested with high-volume water before signing off',
           'Hundreds of 5-star customer reviews across Birmingham and the West Midlands',
         ],
       },
@@ -545,7 +545,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'upvc-guttering-installation-birmingham': {
     heroTitle: 'uPVC Guttering Installation Birmingham',
-    heroDescription: 'Modern, durable, and maintenance-free uPVC guttering installation across Birmingham. Available in black, white, anthracite grey, and brown with deep-flow and ogee options. 10-year guarantee. Call WOW Gutters Ltd on 07421 433910.',
+    heroDescription: 'Modern, durable, and maintenance-free uPVC guttering installation across Birmingham. Available in black, white, anthracite grey, and brown with deep-flow and ogee options. quality British standard uPVC. Call WOW Gutters Ltd on 07421 433910.',
     sections: [
       {
         heading: 'Why uPVC Is the UK’s Leading Guttering Material',
@@ -598,7 +598,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'new-guttering-installation-malvern': {
     heroTitle: 'New Guttering Installation Malvern',
-    heroDescription: 'Specialist new guttering installation and replacement across Malvern (WR13, WR14) and Worcestershire. Heavy-duty rainwater systems designed to cope with hillside rainfall. 10-year warranty. Call WOW Gutters Ltd on 07421 433910.',
+    heroDescription: 'Specialist new guttering installation and replacement across Malvern (WR13, WR14) and Worcestershire. Heavy-duty rainwater systems designed to cope with hillside rainfall. quality British standard uPVC. Call WOW Gutters Ltd on 07421 433910.',
     sections: [
       {
         heading: 'Guttering Installation Designed for Malvern’s Climate',
@@ -609,7 +609,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'Heritage cast-iron effect profiles available for Malvern’s historic Victorian and Edwardian villas',
           'Full survey of roof area, downpipe positions, and soakaway discharge points',
           'Coverage across Great Malvern, Malvern Link, Barnards Green, West Malvern, and Malvern Wells',
-          '10-year guarantee on all new installations with free visual condition checks',
+          'Quality British standard uPVC with free visual condition checks',
         ],
       },
       {
@@ -651,11 +651,11 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'guttering-replacement-solihull': {
     heroTitle: 'Guttering Replacement Solihull',
-    heroDescription: 'Premium guttering replacement services in Solihull, Shirley, Dorridge, Knowle, and surrounding areas. High-quality uPVC systems, precision alignment, and 10-year guarantee. Call WOW Gutters Ltd on 07421 433910 for a free quotation.',
+    heroDescription: 'Premium guttering replacement services in Solihull, Shirley, Dorridge, Knowle, and surrounding areas. High-quality uPVC systems, precision alignment, and quality British standard uPVC. Call WOW Gutters Ltd on 07421 433910 for a free quotation.',
     sections: [
       {
         heading: 'Solihull’s Trusted Gutter Replacement Specialists',
-        content: 'Upgrading aged, leaking, or discoloured guttering is one of the most cost-effective ways to enhance your home’s exterior while safeguarding its structural integrity. WOW Gutters Ltd provides premium guttering replacement services across Solihull, installing high-performance UPVC and aluminium systems backed by our 10-year guarantee.',
+        content: 'Upgrading aged, leaking, or discoloured guttering is one of the most cost-effective ways to enhance your home’s exterior while safeguarding its structural integrity. WOW Gutters Ltd provides premium guttering replacement services across Solihull, installing high-performance UPVC and aluminium systems backed by our quality British standard uPVC.',
         bullets: [
           'Serving all Solihull areas: B90, B91, B92, B93, B94 including Knowle, Dorridge, Shirley, and Monkspath',
           'Complete removal of failing gutters, warped brackets, and blocked downpipes',
@@ -727,7 +727,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'Cracked or split channel sections caused by winter freeze-thaw cycles',
           'Loose or broken fascia brackets allowing sections to twist and gap under water weight',
           'Debris blockages forcing water to overflow behind the back edge of the gutter',
-          '6-month guarantee on all qualifying repair work carried out by our team',
+          'Complete water flow testing on all repair work carried out by our team',
         ],
       },
     ],
@@ -780,7 +780,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'Snow and ice overload — heavy winter snow sliding off the roof and bending brackets downward',
           'Ladder damage — ladders rested directly against plastic gutters during window cleaning or painting',
           'Thermal warping — plastic runs that have expanded in direct sunlight without adequate expansion gaps',
-          'Guaranteed repair work backed by our 6-month warranty',
+          'Quality repair work backed by full water flow testing',
         ],
       },
     ],
@@ -795,7 +795,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: 'How do you determine the correct slope when fixing a sagging gutter?',
-        answer: 'We use laser levels and string lines to establish a minimum 1:350 downward fall towards the outlet, guaranteeing that water flows away rapidly without pooling.',
+        answer: 'We use laser levels and string lines to establish a minimum 1:350 downward fall towards the outlet, ensuring that water flows away rapidly without pooling.',
       },
       {
         question: 'How much does it cost to fix a sagging gutter?',
@@ -821,7 +821,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'Seamless cut-and-replace section repairs for severely damaged plastic profiles',
           'Rust removal, metal priming, and waterproof liner patches for cast iron gutters',
           'All repairs flow-tested to ensure 100% leak-free performance',
-          '6-month guarantee on qualifying repair work for complete peace of mind',
+          'Thorough water flow testing on all repair work for complete peace of mind',
         ],
       },
       {
@@ -886,7 +886,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'Impact shock often breaks the nearest union gasket seals, causing hidden leaks',
           'Bent brackets allow the gutter to twist forward, spilling water over the front lip',
           'Our repairs restore both full drainage performance and clean visual roofline lines',
-          'Backed by our 6-month repair warranty and fully insured technicians',
+          'Backed by full water flow testing and £10m public liability insurance',
         ],
       },
     ],
@@ -916,7 +916,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'gutter-damage': {
     heroTitle: 'Gutter Damage Assessment & Repair',
-    heroDescription: 'Comprehensive repair and restoration for all types of gutter damage across Birmingham and the West Midlands. Storm damage, frost heave, cracked joints, and sagging runs fixed with guaranteed workmanship. Call WOW Gutters Ltd on 07421 433910.',
+    heroDescription: 'Comprehensive repair and restoration for all types of gutter damage across Birmingham and the West Midlands. Storm damage, frost heave, cracked joints, and sagging runs fixed with full water flow testing. Call WOW Gutters Ltd on 07421 433910.',
     sections: [
       {
         heading: 'Expert Gutter Damage Diagnostics & Repair',
@@ -927,7 +927,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'Impact repairs: fixing ladder crush damage and fallen tree branch impacts',
           'Wear-and-tear restoration: replacing perished rubber seals and rusted metal fittings',
           'Full visual and camera survey of the entire roofline to uncover hidden issues',
-          'Fully insured with £10 million cover and 6-month guarantees on qualifying repairs',
+          'Fully insured with £10 million cover and full post-repair flow testing',
         ],
       },
       {
@@ -1043,7 +1043,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'Avoid using standard bathroom silicone, which fails rapidly outdoors',
           'Ensure all repair work maintains a minimum 1:350 downward fall towards outlets',
           'Always flow-test repairs with a bucket of water before packing away equipment',
-          'WOW Gutters Ltd provides fast, affordable repairs with 6-month guarantees',
+          'WOW Gutters Ltd provides fast, affordable repairs with full water flow testing',
           'Call 07421 433910 for free, friendly advice and rapid Birmingham booking',
         ],
       },
@@ -1203,7 +1203,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'Leaves and pine needles tangling into a dense, water-stopping mat',
           'Heavy silt and grit from degrading roof tiles accumulating at the base bend',
           'Freezing water in winter expanding and wedging debris tight inside the pipe',
-          '6-month guarantee on all cleaning and repair work carried out by WOW Gutters Ltd',
+          'Complete flow testing on all cleaning and repair work carried out by WOW Gutters Ltd',
         ],
       },
     ],
@@ -1241,7 +1241,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
         bullets: [
           'Complete extraction of dense silt plugs and organic matter from downpipe channels',
           'Clearing top hopper heads, swan-neck bends, and underground connection shoes',
-          'Flow-tested with high-volume water to guarantee rapid, unrestricted discharge',
+          'Flow-tested with high-volume water to ensure rapid, unrestricted discharge',
           'Inspection of downpipe brackets and wall fixings to prevent vibration looseness',
           'Serving residential and commercial buildings across Birmingham and surrounding counties',
           'Fully insured with £10 million public liability coverage',
@@ -1361,7 +1361,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'Protects building brickwork and mortar joints from frost erosion and saturation',
           'Ensures full compliance with property insurance maintenance requirements',
           'Modern UPVC rainwater pipes are 100% rustproof, UV-stable, and maintenance-free',
-          'Full 10-year guarantee on new installations and 6-month warranty on repairs',
+          'Full flow testing on new installations and repairs with £10m insurance',
           'Free visual inspection and competitive fixed quotations on every visit',
         ],
       },
@@ -1392,7 +1392,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'rainwater-pipe-repair': {
     heroTitle: 'Rainwater Pipe Repair Birmingham',
-    heroDescription: 'Professional rainwater downpipe repair across Birmingham and the West Midlands. Fix leaking joints, cracked pipes, loose wall clips, and disconnected swan-necks. Guaranteed workmanship. Call WOW Gutters Ltd on 07421 433910.',
+    heroDescription: 'Professional rainwater downpipe repair across Birmingham and the West Midlands. Fix leaking joints, cracked pipes, loose wall clips, and disconnected swan-necks. Full water flow testing. Call WOW Gutters Ltd on 07421 433910.',
     sections: [
       {
         heading: 'Fast, Reliable Rainwater Pipe Repairs',
@@ -1403,7 +1403,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'Re-anchoring loose wall clips into solid masonry with heavy-duty fixings',
           'Clearing internal downpipe blockages that cause joint blowouts and overflows',
           'Cast iron downpipe sealing, rust treatment, and joint packing',
-          '6-month guarantee on all qualifying repair work across Birmingham and the West Midlands',
+          'Complete water flow testing on all repair work across Birmingham and the West Midlands',
         ],
       },
       {
@@ -1449,7 +1449,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     sections: [
       {
         heading: 'Professional Downpipe Repairs Across Birmingham',
-        content: 'Downpipes endure significant hydraulic pressure during heavy storms. When brackets loosen, joints disconnect, or frost cracks the plastic casing, escaping rainwater quickly damages external walls. WOW Gutters Ltd provides comprehensive downpipe repairs across Birmingham, fixing leaks and structural faults with guaranteed results.',
+        content: 'Downpipes endure significant hydraulic pressure during heavy storms. When brackets loosen, joints disconnect, or frost cracks the plastic casing, escaping rainwater quickly damages external walls. WOW Gutters Ltd provides comprehensive downpipe repairs across Birmingham, fixing leaks and structural faults with full water flow testing.',
         bullets: [
           'Reconnecting separated downpipe sections and swan-neck offset bends',
           'Replacing broken or cracked pipe lengths with matching UPVC or aluminium',
@@ -1467,7 +1467,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'Fully insured with £10 million public liability cover for complete safety',
           'Van-stocked with all standard UK pipe profiles and colour variations',
           'All repairs flow-tested with water before project sign-off',
-          '6-month warranty on all qualifying downpipe repair work',
+          'Complete water flow testing on all downpipe repair work',
           'Transparent fixed pricing with no hidden surprises on the day',
         ],
       },
@@ -1551,7 +1551,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'rainwater-pipes-halesowen': {
     heroTitle: 'Rainwater Pipes Halesowen',
-    heroDescription: 'Local rainwater pipe installation, repair, and cleaning services across Halesowen (B62, B63) and surrounding areas. High-capacity UPVC downpipes, rapid leak repairs, and guaranteed workmanship. Call WOW Gutters Ltd on 07421 433910.',
+    heroDescription: 'Local rainwater pipe installation, repair, and cleaning services across Halesowen (B62, B63) and surrounding areas. High-capacity UPVC downpipes, rapid leak repairs, and full flow testing. Call WOW Gutters Ltd on 07421 433910.',
     sections: [
       {
         heading: 'Specialist Rainwater Pipe Services in Halesowen',
@@ -1562,7 +1562,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'Emergency unblocking, moss extraction, and pressure flushing',
           'Repairing cracked swan-neck offset bends, loose wall clips, and leaking joints',
           'Connecting downpipes to rainwater harvesting butts, soakaways, and gully drains',
-          '10-year guarantee on new installations and 6-month warranty on qualifying repairs',
+          'Quality British standard materials and full post-job water flow testing',
         ],
       },
       {
@@ -1657,7 +1657,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'gutter-maintenance-worcester': {
     heroTitle: 'Gutter Maintenance Worcester',
-    heroDescription: 'Professional gutter maintenance, cleaning, and repairs across Worcester (WR1–WR5) and surrounding Worcestershire towns. Ground-level vacuum technology, photo verification, and guaranteed results. Call WOW Gutters Ltd on 07421 433910.',
+    heroDescription: 'Professional gutter maintenance, cleaning, and repairs across Worcester (WR1–WR5) and surrounding Worcestershire towns. Ground-level vacuum technology, photo verification, and full water flow testing. Call WOW Gutters Ltd on 07421 433910.',
     sections: [
       {
         heading: 'Comprehensive Gutter Maintenance in Worcester',
@@ -1782,7 +1782,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
         content: 'An annual maintenance plan is the most cost-effective insurance policy for your home’s exterior. It keeps your property completely protected against damp and water ingress without any administrative hassle.',
         bullets: [
           'Maintains pristine roofline condition and maximizes gutter lifespan',
-          'Guarantees your gutters are clean before winter freeze-thaw cycles begin',
+          'Ensures your gutters are clean before winter freeze-thaw cycles begin',
           'Ideal for landlords and letting agents managing multiple rental properties',
           'No long-term tie-ins — flexible cancellation with straightforward transparent pricing',
           'Fully insured with £10 million public liability coverage',
@@ -2263,7 +2263,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'Step 3: Application of biocide wash to sanitize the substrate and kill root spores',
           'Step 4: Full drying period followed by brushing in fresh kiln-dried jointing sand',
           'Step 5: Optional commercial acrylic sealing to lock in sand and resist future oil stains',
-          'Backed by our £10 million insurance cover and 100% satisfaction guarantee',
+          'Backed by £10 million insurance cover and complete water flow testing',
         ],
       },
     ],
@@ -2357,7 +2357,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'Complete block paving restoration with weed extraction and fresh kiln-dried re-sanding',
           'Specialist treatment for imprinted concrete, tarmac, resin-bound, and natural stone drives',
           'Industrial oil degreasing agents break down automotive fluid and tyre stains',
-          'Fully insured with £10 million public liability cover and 100% satisfaction guarantee',
+          'Fully insured with £10 million public liability cover and complete water flow testing',
         ],
       },
       {
@@ -2399,7 +2399,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'pressure-washing': {
     heroTitle: 'Professional Pressure Washing Services',
-    heroDescription: 'Commercial-grade pressure washing across Birmingham and the West Midlands. Restore driveways, patios, decking, paths, brickwork, and cladding with guaranteed results. Call WOW Gutters Ltd on 07421 433910.',
+    heroDescription: 'Commercial-grade pressure washing across Birmingham and the West Midlands. Restore driveways, patios, decking, paths, brickwork, and cladding with camera verification. Call WOW Gutters Ltd on 07421 433910.',
     sections: [
       {
         heading: 'Complete Exterior Pressure Washing Solutions',
@@ -2505,7 +2505,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'pressure-washing-birmingham': {
     heroTitle: 'Pressure Washing Birmingham',
-    heroDescription: 'Professional pressure washing across Birmingham for driveways, patios, paths, decking, brickwork, and commercial forecourts. High-power rotary cleaning with 100% satisfaction guarantee. Call WOW Gutters Ltd on 07421 433910.',
+    heroDescription: 'Professional pressure washing across Birmingham for driveways, patios, paths, decking, brickwork, and commercial forecourts. High-power rotary cleaning with before & after photo verification. Call WOW Gutters Ltd on 07421 433910.',
     sections: [
       {
         heading: 'Birmingham’s Premier Pressure Washing Service',
@@ -2649,7 +2649,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: 'Do you clean windows in light rain?',
-        answer: 'Yes. Because our purified water is completely free of dirt and minerals, light rain does not affect the streak-free finish. We offer a 100% satisfaction guarantee.',
+        answer: 'Yes. Because our purified water is completely free of dirt and minerals, light rain does not affect the streak-free finish. We inspect and verify every window before completion.',
       },
       {
         question: 'How much does window cleaning cost in Birmingham?',
@@ -2701,8 +2701,8 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
         answer: 'We clean conservatory side windows as standard, and offer full conservatory roof valeting and glass cleaning as an optional add-on.',
       },
       {
-        question: 'Do you guarantee your window cleaning work in Solihull?',
-        answer: 'Yes! We offer a 100% satisfaction guarantee. If you are not completely happy with any window, let us know within 24 hours and we will re-clean it free of charge.',
+        question: 'Do you inspect window cleaning work before leaving?',
+        answer: 'Yes! We inspect and verify every window before completion. If you are not completely happy with any window, let us know within 24 hours and we will re-clean it free of charge.',
       },
       {
         question: 'How much does window cleaning cost in Solihull?',
@@ -3056,7 +3056,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           'Dramatically increases property market value and visual appeal for prospective buyers or tenants',
           'Resolves hidden water ingress issues before they cause costly internal ceiling and wall damp',
           'Single-contractor convenience: one experienced, fully insured team handles your entire exterior',
-          'Fully insured with £10 million public liability coverage and comprehensive workmanship guarantees',
+          'Fully insured with £10 million public liability coverage and complete flow testing',
           'Free on-site surveys with detailed, transparent written proposals',
           'Serving domestic homes and commercial facilities across all West Midlands boroughs',
         ],
@@ -3125,8 +3125,8 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
         answer: 'Yes! Combining multiple services into a single refurbishment package provides substantial cost savings and ensures your whole property exterior is completed together.',
       },
       {
-        question: 'Are your refurbishment services guaranteed?',
-        answer: 'Yes, we provide robust guarantees on all new installations (up to 10 years on UPVC rooflines) and 6-month warranties on repairs.',
+        question: 'How do you verify your refurbishment services?',
+        answer: 'Every refurbishment and repair undergoes rigorous water flow testing and photographic quality checks before sign-off.',
       },
       {
         question: 'How do I get a quote for property refurbishment in Rubery?',
@@ -3149,7 +3149,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
         bullets: [
           'Full coverage across Wylde Green (B73), Boldmere, Maney, Walmley, and Sutton Coldfield',
           'Heritage and modern gutter replacement: Cast Iron effect UPVC, Deep Flow, and Seamless Aluminium',
-          'Complete fascia and soffit restoration or high-grade replacement with 10-year warranty',
+          'Complete fascia and soffit restoration or high-grade replacement with British standard uPVC',
           'Gentle roof moss scraping and soft-wash biocide sanitization safe for period tiles',
           'Driveway, patio, and stone terrace pressure washing with weed removal and re-sanding',
           'Exterior render soft-washing and window cleaning using 100% pure deionised water',

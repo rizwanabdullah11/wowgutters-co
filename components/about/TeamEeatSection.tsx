@@ -26,8 +26,15 @@ export default function TeamEeatSection() {
               key={member.name}
               className="rounded-2xl border border-gray-100 bg-gray-50 overflow-hidden shadow-sm hover:shadow-md transition-shadow"
             >
-              <div className="relative h-52 w-full">
-                <Image src={member.image} alt={member.imageAlt} fill className="object-cover" sizes="(max-width:768px) 100vw, 33vw" />
+              <div className="relative h-56 w-full bg-slate-900 flex items-center justify-center p-2">
+                <Image
+                  src={member.image}
+                  alt={member.imageAlt}
+                  fill
+                  unoptimized
+                  className="object-contain p-2"
+                  sizes="(max-width:768px) 100vw, 33vw"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900">{member.name}</h3>

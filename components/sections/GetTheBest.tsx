@@ -2,7 +2,7 @@ import { colors } from '@/constants/colors';
 import Link from 'next/link';
 import { ArrowRight, CheckCircle } from 'lucide-react';
 
-const guarantees = [
+const keyBenefits = [
   'Free instant quote',
   'Fully insured team',
   'Same day booking',
@@ -64,9 +64,9 @@ export default function GetTheBest() {
                 We keep pricing simple for homeowners, landlords and businesses. Request a free quote, choose a convenient booking time, and let our local team take care of the work.
               </p>
 
-              {/* Guarantees */}
+              {/* Key Benefits */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-7">
-                {guarantees.map((g, i) => (
+                {keyBenefits.map((g, i) => (
                   <div key={i} className="flex items-center gap-2">
                     <CheckCircle className="w-5 h-5 flex-shrink-0" style={{ color: colors.primary }} />
                     <span className="text-sm font-medium" style={{ color: colors.text }}>{g}</span>

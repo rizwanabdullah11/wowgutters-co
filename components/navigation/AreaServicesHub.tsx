@@ -59,12 +59,12 @@ export default function AreaServicesHub({
     {
       label: 'Gutter Installation',
       href: '/services/gutter-installation/',
-      description: 'New uPVC and seamless guttering measured, supplied and fitted with a 10-year guarantee.',
+      description: 'New uPVC and seamless guttering measured, supplied and fitted with full water flow testing.',
     },
     {
       label: 'Gutter Repairs',
       href: '/services/gutter-repairs/',
-      description: 'Leaking joints, sagging runs, and broken brackets fixed with a 6-month guarantee.',
+      description: 'Leaking joints, sagging runs, and broken brackets repaired and resealed on-site.',
     },
     {
       label: 'Roof Cleaning',

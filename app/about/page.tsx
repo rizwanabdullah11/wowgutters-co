@@ -5,7 +5,7 @@ import { colors } from '@/constants/colors';
 import Link from 'next/link';
 import Image from 'next/image';
 import {
-  ShieldCheck, Award, Users, Clock, CheckCircle,
+  ShieldCheck, Award, CheckCircle,
   Phone, Star, Target, Heart, Zap, PenTool
 } from 'lucide-react';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
@@ -16,19 +16,13 @@ export default function About() {
 
   useEffect(() => {
     if (videoRef.current) {
+      videoRef.current.defaultMuted = true;
+      videoRef.current.muted = true;
       videoRef.current.play().catch((error) => {
         console.log('Video autoplay failed:', error);
       });
     }
-
   }, []);
-
-  const stats = [
-    { value: '2,600+', label: '5-Star Reviews', icon: Star },
-    { value: '14+', label: 'Local Areas Served', icon: Users },
-    { value: '40ft', label: 'Ground-Level Vacuum Reach', icon: Award },
-    { value: '4.9/5', label: 'Average Customer Rating', icon: Clock }
-  ];
 
   const values = [
     {
@@ -76,14 +70,12 @@ export default function About() {
             loop
             muted
             playsInline
-            preload="none"
-            poster="/gutter-hero-poster.jpg"
+            preload="auto"
+            poster="/gutter-cleaning.jpeg"
             className="hero-video"
-            onError={(e) => {
-              (e.target as HTMLVideoElement).style.display = 'none';
-            }}
           >
             <source src="/gutter-final-video.mp4" type="video/mp4" />
+            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
           </video>
           <div className="about-hero-overlay"></div>
         </div>
@@ -102,7 +94,7 @@ export default function About() {
           </h1>
 
           <p className="hero-subtitle animate-fade-in-up delay-200">
-            Rated 4.9★ by over 2,600 customers. Same Day Booking, ladder-free vacuum technology — fast bookings available.
+            Professional gutter cleaning and roofline maintenance across Birmingham and the West Midlands. Ground-level vacuum technology, real-time camera inspection, and fast bookings available.
           </p>
 
           <div className="hero-cta-row animate-fade-in-up delay-300">
@@ -120,29 +112,6 @@ export default function About() {
           <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0,60 C480,0 960,0 1440,60 L1440,60 L0,60 Z" fill="#ffffff" />
           </svg>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className="py-16 px-4 bg-gradient-to-b from-white to-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
-            {stats.map((stat, index) => {
-              const IconComponent = stat.icon;
-              return (
-                <div
-                  key={index}
-                  className="bg-white p-6 rounded-2xl shadow-lg border border-gray-100 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
-                >
-                  <IconComponent className="w-10 h-10 mx-auto mb-3" style={{ color: colors.primary }} />
-                  <div className="text-4xl font-black mb-2" style={{ color: colors.navy }}>
-                    {stat.value}
-                  </div>
-                  <div className="text-sm font-semibold text-gray-600">{stat.label}</div>
-                </div>
-              );
-            })}
-          </div>
         </div>
       </section>
 
@@ -175,7 +144,7 @@ export default function About() {
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-emerald-400" />
-                  <span className="text-gray-200"><strong>Pristine Environment:</strong> State-of-the-art suction guarantees zero overflow onto your patios or lawns.</span>
+                  <span className="text-gray-200"><strong>Pristine Environment:</strong> State-of-the-art suction prevents any overflow onto your patios or lawns.</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-emerald-400" />
@@ -184,14 +153,20 @@ export default function About() {
               </div>
 
               <p className="text-gray-300 leading-relaxed text-lg">
-                Our procedures are not only drastically safer but considerably faster, guaranteeing
+                Our procedures are not only drastically safer but considerably faster, ensuring
                 your roofline remains clear without disruptive scaffolding or dangerous climbing.
-                Same Day Booking and unwavering in our pursuit of 5-star customer gratification.
+                Fast bookings available and unwavering in our pursuit of thorough customer satisfaction.
               </p>
 
 
               <div className="flex items-center gap-4 pt-4">
-                <span className="text-lg font-bold">Rated 4.9/5 by 2,600+ customers</span>
+                <Link
+                  href="/reviews"
+                  className="inline-flex items-center gap-2 text-emerald-400 font-bold hover:text-emerald-300 transition-colors text-lg"
+                >
+                  <Star className="w-5 h-5 text-amber-400 fill-amber-400" />
+                  Read verified customer reviews &rarr;
+                </Link>
               </div>
             </div>
 
@@ -261,7 +236,7 @@ export default function About() {
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 We are dedicated to the holistic well-being of your property's exterior. Our full-scale approach
-                guarantees that every component functions seamlessly and looks immaculate.
+                ensures that every component functions seamlessly and looks immaculate.
               </p>
 
               <div className="space-y-6">
