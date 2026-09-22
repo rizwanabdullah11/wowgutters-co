@@ -5,7 +5,7 @@ import { colors } from '@/constants/colors';
 import Link from 'next/link';
 import Image from 'next/image';
 import {
-  ShieldCheck, Award, Users, Clock, CheckCircle,
+  ShieldCheck, Award, CheckCircle,
   Phone, Star, Target, Heart, Zap, PenTool
 } from 'lucide-react';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
@@ -22,13 +22,6 @@ export default function About() {
     }
 
   }, []);
-
-  const stats = [
-    { value: '2,600+', label: '5-Star Reviews', icon: Star },
-    { value: '14+', label: 'Local Areas Served', icon: Users },
-    { value: '40ft', label: 'Ground-Level Vacuum Reach', icon: Award },
-    { value: '4.9/5', label: 'Average Customer Rating', icon: Clock }
-  ];
 
   const values = [
     {
@@ -102,7 +95,7 @@ export default function About() {
           </h1>
 
           <p className="hero-subtitle animate-fade-in-up delay-200">
-            Rated 4.9★ by over 2,600 customers. Same Day Booking, ladder-free vacuum technology — fast bookings available.
+            Professional gutter cleaning and roofline maintenance across Birmingham and the West Midlands. Ground-level vacuum technology, real-time camera inspection, and fast bookings available.
           </p>
 
           <div className="hero-cta-row animate-fade-in-up delay-300">
@@ -120,29 +113,6 @@ export default function About() {
           <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0,60 C480,0 960,0 1440,60 L1440,60 L0,60 Z" fill="#ffffff" />
           </svg>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className="py-16 px-4 bg-gradient-to-b from-white to-gray-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
-            {stats.map((stat, index) => {
-              const IconComponent = stat.icon;
-              return (
-                <div
-                  key={index}
-                  className="bg-white p-6 rounded-2xl shadow-lg border border-gray-100 text-center transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
-                >
-                  <IconComponent className="w-10 h-10 mx-auto mb-3" style={{ color: colors.primary }} />
-                  <div className="text-4xl font-black mb-2" style={{ color: colors.navy }}>
-                    {stat.value}
-                  </div>
-                  <div className="text-sm font-semibold text-gray-600">{stat.label}</div>
-                </div>
-              );
-            })}
-          </div>
         </div>
       </section>
 
@@ -186,12 +156,18 @@ export default function About() {
               <p className="text-gray-300 leading-relaxed text-lg">
                 Our procedures are not only drastically safer but considerably faster, guaranteeing
                 your roofline remains clear without disruptive scaffolding or dangerous climbing.
-                Same Day Booking and unwavering in our pursuit of 5-star customer gratification.
+                Fast bookings available and unwavering in our pursuit of thorough customer satisfaction.
               </p>
 
 
               <div className="flex items-center gap-4 pt-4">
-                <span className="text-lg font-bold">Rated 4.9/5 by 2,600+ customers</span>
+                <Link
+                  href="/reviews"
+                  className="inline-flex items-center gap-2 text-emerald-400 font-bold hover:text-emerald-300 transition-colors text-lg"
+                >
+                  <Star className="w-5 h-5 text-amber-400 fill-amber-400" />
+                  Read verified customer reviews &rarr;
+                </Link>
               </div>
             </div>
 

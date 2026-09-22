@@ -2,10 +2,9 @@ import { colors } from '@/constants/colors';
 
 export default function AboutStats() {
   const stats = [
-    { value: '2+', label: 'Years Experience' },
-    { value: '450+', label: 'Happy Customers' },
-    { value: '100%', label: 'Satisfaction Rate' },
-    // { value: '24/7', label: 'Emergency Service' }
+    { value: '40ft', label: 'Ground Vacuum Reach' },
+    { value: '100%', label: 'Photo Proof Provided' },
+    { value: '1-Year', label: 'Service Guarantee' },
   ];
 
   return (

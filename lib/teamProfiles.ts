@@ -43,12 +43,12 @@ export const EEAT_TRUST_POINTS = [
     detail: 'Comprehensive public liability insurance on every residential and commercial visit.',
   },
   {
-    title: '1-year service guarantee',
-    detail: 'If gutters block again within 12 months of a full clean, we return at no extra charge.',
+    title: 'Trained technicians',
+    detail: 'Experienced local staff using high-reach ground vacuum systems and camera inspection equipment.',
   },
   {
-    title: '4.9★ from 2,600+ customers',
-    detail: 'Verified reviews across Google and our website — real jobs, real before-and-after proof.',
+    title: 'Verified Google reviews',
+    detail: 'Genuine customer feedback across Google and our website — real jobs, real before-and-after photographic proof.',
   },
   {
     title: 'Ground-level vacuum system',
