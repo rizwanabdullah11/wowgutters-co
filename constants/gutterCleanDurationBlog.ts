@@ -262,28 +262,265 @@ ${ctaBox}
 📧 Email: <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a><br/>
 🌐 Website: <a href="/" style="${link}">wowgutters.co.uk</a></p>
 
-<p>Serving <a href="/gutter-cleaning-birmingham" style="${link}">Birmingham</a>, <a href="/gutter-cleaning-solihull" style="${link}">Solihull</a>, <a href="/gutter-cleaning-sutton-coldfield" style="${link}">Sutton Coldfield</a>, <a href="/gutter-cleaning-edgbaston" style="${link}">Edgbaston</a>, <a href="/blog/gutter-cleaning-harborne" style="${link}">Harborne</a>, <a href="/blog/gutter-cleaning-kings-heath" style="${link}">Kings Heath</a>, <a href="/gutter-cleaning-moseley" style="${link}">Moseley</a>, <a href="/gutter-cleaning-bournville" style="${link}">Bournville</a>, <a href="/gutter-cleaning-erdington" style="${link}">Erdington</a>, <a href="/blog/gutter-cleaning-wolverhampton" style="${link}">Wolverhampton</a>, <a href="/gutter-cleaning-dudley" style="${link}">Dudley</a>, <a href="/gutter-cleaning-walsall" style="${link}">Walsall</a>, <a href="/gutter-cleaning-west-bromwich" style="${link}">West Bromwich</a>, <a href="/blog/gutter-cleaning-coventry" style="${link}">Coventry</a>, <a href="/gutter-cleaning-redditch" style="${link}">Redditch</a>, <a href="/gutter-cleaning-bromsgrove" style="${link}">Bromsgrove</a>, <a href="/gutter-cleaning-worcester" style="${link}">Worcester</a>, <a href="/gutter-cleaning-kidderminster" style="${link}">Kidderminster</a> and all West Midlands areas.</p>
+<h3 style="font-size: 1.4rem; font-weight: 800; color: #0f172a; margin: 32px 0 16px;">Gutter Cleaning Service Locations Across Birmingham & the West Midlands (100+ Areas Covered)</h3>
+<p style="color: #475569; margin-bottom: 20px;">We provide ground-based vacuum gutter cleaning, camera condition surveys, and downpipe unblocking across more than 100 dedicated service areas across the West Midlands, Worcestershire, and Warwickshire:</p>
 
-<h2>Suggested Internal Links & Related Guides</h2>
-<ul style="line-height: 2;">
-  <li><a href="/blog/professional-gutter-walkthrough" style="${link}">What Happens During a Professional Gutter Clean?</a></li>
-  <li><a href="/blog/ask-before-hiring-gutter-cleaner" style="${link}">The One Question to Ask Before Hiring Any Gutter Cleaner in the West Midlands</a></li>
-  <li><a href="/blog/how-clean-gutters-without-ladder-birmingham-method" style="${link}">How Do You Clean Gutters Without a Ladder?</a></li>
-  <li><a href="/blog/clean-gutters-two-storey-house-birmingham-safely" style="${link}">How Do You Clean Gutters on a Two-Storey House in Birmingham Safely?</a></li>
-  <li><a href="/blog/hidden-gutter-damage-summer" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a></li>
-  <li><a href="/blog/victorian-gutter-cleaning-birmingham" style="${link}">Why Victorian Homes in Birmingham Need a Different Gutter Cleaning Approach</a></li>
-  <li><a href="/blog/tree-gutter-cleaning" style="${link}">How Tree Cover Changes Your Gutter Cleaning Schedule in Birmingham</a></li>
-  <li><a href="/blog/autumn-leaf-buildup" style="${link}">Autumn Leaf Fall by Tree Type</a></li>
-  <li><a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham" style="${link}">Gutter Cleaning for Semi-Detached Homes</a></li>
-  <li><a href="/blog/flat-roof-gutters" style="${link}">Flat Roof Gutters in Birmingham</a></li>
-  <li><a href="/blog/roof-moss-damage" style="${link}">Moss on Your Roof? What It's Doing to Your Birmingham Gutters</a></li>
-  <li><a href="/blog/birmingham-autumn-gutter-guide" style="${link}">Why Autumn Is the Most Dangerous Season for Birmingham Gutters</a></li>
-  <li><a href="/blog/summer-gutter-cleaning-early" style="${link}">Beat the Autumn Rush</a></li>
-  <li><a href="/blog/summer-gutter-inspections" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a></li>
-  <li><a href="/blog/downpipe-blocked-signs-birmingham-homes" style="${link}">Downpipes Blocked Again? The Birmingham Fix Most Homeowners Miss</a></li>
-  <li><a href="/blog/soffit-damage-signs" style="${link}">Soffit Damage in West Midlands Homes</a></li>
-  <li><a href="/blog/commercial-warehouse" style="${link}">Commercial Warehouse Gutter Clearing Birmingham</a></li>
-  <li><a href="/blog/warehouse-gutter-case-study" style="${link}">Warehouse Gutter Clearing: When Grass Is Growing in Your Box Gutter</a></li>
-</ul>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; margin: 24px 0 40px;">
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px;">
+    <h4 style="font-size: 1.05rem; font-weight: 800; color: #0f172a; margin: 0 0 12px 0; border-bottom: 2px solid #19C58B; padding-bottom: 6px;">Birmingham South & West</h4>
+    <ul style="list-style: none; padding: 0; margin: 0; line-height: 1.8; font-size: 0.95rem;">
+      <li><a href="/gutter-cleaning-birmingham" style="${link}">Birmingham Central</a></li>
+      <li><a href="/gutter-cleaning-edgbaston" style="${link}">Edgbaston B15</a></li>
+      <li><a href="/gutter-cleaning-harborne" style="${link}">Harborne B17</a></li>
+      <li><a href="/gutter-cleaning-moseley" style="${link}">Moseley B13</a></li>
+      <li><a href="/gutter-cleaning-kings-heath" style="${link}">Kings Heath B14</a></li>
+      <li><a href="/gutter-cleaning-bournville" style="${link}">Bournville B30</a></li>
+      <li><a href="/gutter-cleaning-selly-oak" style="${link}">Selly Oak B29</a></li>
+      <li><a href="/gutter-cleaning/selly-park" style="${link}">Selly Park</a></li>
+      <li><a href="/gutter-cleaning/stirchley" style="${link}">Stirchley B30</a></li>
+      <li><a href="/gutter-cleaning/cotteridge" style="${link}">Cotteridge B30</a></li>
+      <li><a href="/gutter-cleaning/kings-norton" style="${link}">Kings Norton B38</a></li>
+      <li><a href="/gutter-cleaning/northfield" style="${link}">Northfield B31</a></li>
+      <li><a href="/gutter-cleaning/longbridge" style="${link}">Longbridge B31</a></li>
+      <li><a href="/gutter-cleaning/weoley-castle" style="${link}">Weoley Castle B29</a></li>
+      <li><a href="/gutter-cleaning/bartley-green" style="${link}">Bartley Green B32</a></li>
+      <li><a href="/gutter-cleaning/quinton" style="${link}">Quinton B32</a></li>
+      <li><a href="/gutter-cleaning/woodgate" style="${link}">Woodgate Valley</a></li>
+      <li><a href="/gutter-cleaning/frankley" style="${link}">Frankley B45</a></li>
+      <li><a href="/gutter-cleaning/rednal" style="${link}">Rednal B45</a></li>
+      <li><a href="/gutter-cleaning/west-heath" style="${link}">West Heath B31</a></li>
+      <li><a href="/gutter-cleaning/turves-green" style="${link}">Turves Green</a></li>
+      <li><a href="/gutter-cleaning/druids-heath" style="${link}">Druids Heath B14</a></li>
+      <li><a href="/gutter-cleaning/maypole" style="${link}">Maypole B14</a></li>
+      <li><a href="/gutter-cleaning/hawkesley" style="${link}">Hawkesley B38</a></li>
+    </ul>
+  </div>
+
+  <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px;">
+    <h4 style="font-size: 1.05rem; font-weight: 800; color: #0f172a; margin: 0 0 12px 0; border-bottom: 2px solid #19C58B; padding-bottom: 6px;">Birmingham North & East</h4>
+    <ul style="list-style: none; padding: 0; margin: 0; line-height: 1.8; font-size: 0.95rem;">
+      <li><a href="/gutter-cleaning-sutton-coldfield" style="${link}">Sutton Coldfield B72-B76</a></li>
+      <li><a href="/gutter-cleaning-erdington" style="${link}">Erdington B23-B24</a></li>
+      <li><a href="/gutter-cleaning-yardley" style="${link}">Yardley B25</a></li>
+      <li><a href="/gutter-cleaning-acocks-green" style="${link}">Acocks Green B27</a></li>
+      <li><a href="/gutter-cleaning-balsall-heath" style="${link}">Balsall Heath B12</a></li>
+      <li><a href="/gutter-cleaning-ladywood" style="${link}">Ladywood B16</a></li>
+      <li><a href="/gutter-cleaning-nechells" style="${link}">Nechells B7</a></li>
+      <li><a href="/gutter-cleaning/boldmere" style="${link}">Boldmere B73</a></li>
+      <li><a href="/gutter-cleaning/walmley" style="${link}">Walmley B76</a></li>
+      <li><a href="/gutter-cleaning/new-oscott" style="${link}">New Oscott B73</a></li>
+      <li><a href="/gutter-cleaning/wylde-green" style="${link}">Wylde Green B73</a></li>
+      <li><a href="/gutter-cleaning/great-barr" style="${link}">Great Barr B43-B44</a></li>
+      <li><a href="/gutter-cleaning/kingstanding" style="${link}">Kingstanding B44</a></li>
+      <li><a href="/gutter-cleaning/perry-barr" style="${link}">Perry Barr B42</a></li>
+      <li><a href="/gutter-cleaning/perry-common" style="${link}">Perry Common B23</a></li>
+      <li><a href="/gutter-cleaning/gravelly-hill" style="${link}">Gravelly Hill B23</a></li>
+      <li><a href="/gutter-cleaning/pype-hayes" style="${link}">Pype Hayes B24</a></li>
+      <li><a href="/gutter-cleaning/stockland-green" style="${link}">Stockland Green B23</a></li>
+      <li><a href="/gutter-cleaning/castle-vale" style="${link}">Castle Vale B35</a></li>
+      <li><a href="/gutter-cleaning/tyburn" style="${link}">Tyburn B24</a></li>
+      <li><a href="/gutter-cleaning/handsworth" style="${link}">Handsworth B21</a></li>
+      <li><a href="/gutter-cleaning/handsworth-wood" style="${link}">Handsworth Wood B20</a></li>
+      <li><a href="/gutter-cleaning/aston" style="${link}">Aston B6</a></li>
+      <li><a href="/gutter-cleaning/witton" style="${link}">Witton B6</a></li>
+      <li><a href="/gutter-cleaning/lozells" style="${link}">Lozells B19</a></li>
+      <li><a href="/gutter-cleaning/hockley" style="${link}">Hockley B18</a></li>
+      <li><a href="/gutter-cleaning/jewellery-quarter" style="${link}">Jewellery Quarter B1</a></li>
+      <li><a href="/gutter-cleaning/digbeth" style="${link}">Digbeth B5</a></li>
+      <li><a href="/gutter-cleaning/highgate" style="${link}">Highgate B12</a></li>
+      <li><a href="/gutter-cleaning/sparkbrook" style="${link}">Sparkbrook B11</a></li>
+      <li><a href="/gutter-cleaning/sparkhill" style="${link}">Sparkhill B11</a></li>
+      <li><a href="/gutter-cleaning/hall-green" style="${link}">Hall Green B28</a></li>
+      <li><a href="/gutter-cleaning/billesley" style="${link}">Billesley B13</a></li>
+      <li><a href="/gutter-cleaning/yardley-wood" style="${link}">Yardley Wood B14</a></li>
+      <li><a href="/gutter-cleaning/sheldon" style="${link}">Sheldon B26</a></li>
+      <li><a href="/gutter-cleaning/stechford" style="${link}">Stechford B33</a></li>
+      <li><a href="/gutter-cleaning/shard-end" style="${link}">Shard End B34</a></li>
+      <li><a href="/gutter-cleaning/tile-cross" style="${link}">Tile Cross B33</a></li>
+      <li><a href="/gutter-cleaning/hodge-hill" style="${link}">Hodge Hill B36</a></li>
+      <li><a href="/gutter-cleaning/ward-end" style="${link}">Ward End B8</a></li>
+      <li><a href="/gutter-cleaning/washwood-heath" style="${link}">Washwood Heath B8</a></li>
+      <li><a href="/gutter-cleaning/saltley" style="${link}">Saltley B8</a></li>
+      <li><a href="/gutter-cleaning/small-heath" style="${link}">Small Heath B10</a></li>
+      <li><a href="/gutter-cleaning/bordesley-green" style="${link}">Bordesley Green B9</a></li>
+      <li><a href="/gutter-cleaning/tyseley" style="${link}">Tyseley B11</a></li>
+      <li><a href="/gutter-cleaning/vauxhall" style="${link}">Vauxhall B7</a></li>
+      <li><a href="/gutter-cleaning/winson-green" style="${link}">Winson Green B18</a></li>
+      <li><a href="/gutter-cleaning/summerfield" style="${link}">Summerfield B16</a></li>
+      <li><a href="/gutter-cleaning/soho" style="${link}">Soho B21</a></li>
+      <li><a href="/gutter-cleaning/birchfield" style="${link}">Birchfield B20</a></li>
+    </ul>
+  </div>
+
+  <div style="background: #f8fafc; border-radius: 12px; padding: 20px; border: 1px solid #e2e8f0;">
+    <h4 style="font-size: 1.05rem; font-weight: 800; color: #0f172a; margin: 0 0 12px 0; border-bottom: 2px solid #19C58B; padding-bottom: 6px;">Solihull & Borough</h4>
+    <ul style="list-style: none; padding: 0; margin: 0; line-height: 1.8; font-size: 0.95rem;">
+      <li><a href="/gutter-cleaning-solihull" style="${link}">Solihull Town B91</a></li>
+      <li><a href="/gutter-cleaning/shirley" style="${link}">Shirley B90</a></li>
+      <li><a href="/gutter-cleaning/olton" style="${link}">Olton B92</a></li>
+      <li><a href="/gutter-cleaning/dorridge" style="${link}">Dorridge B93</a></li>
+      <li><a href="/gutter-cleaning/knowle" style="${link}">Knowle B93</a></li>
+      <li><a href="/gutter-cleaning/balsall-common" style="${link}">Balsall Common CV7</a></li>
+      <li><a href="/gutter-cleaning/monkspath" style="${link}">Monkspath B90</a></li>
+      <li><a href="/gutter-cleaning/dickens-heath" style="${link}">Dickens Heath B90</a></li>
+      <li><a href="/gutter-cleaning/cheswick-green" style="${link}">Cheswick Green B90</a></li>
+      <li><a href="/gutter-cleaning/hockley-heath" style="${link}">Hockley Heath B94</a></li>
+      <li><a href="/gutter-cleaning/hampton-in-arden" style="${link}">Hampton-in-Arden B92</a></li>
+      <li><a href="/gutter-cleaning/castle-bromwich" style="${link}">Castle Bromwich B36</a></li>
+      <li><a href="/gutter-cleaning/marston-green" style="${link}">Marston Green B37</a></li>
+      <li><a href="/gutter-cleaning/chelmsley-wood" style="${link}">Chelmsley Wood B37</a></li>
+      <li><a href="/gutter-cleaning/kingshurst" style="${link}">Kingshurst B37</a></li>
+      <li><a href="/gutter-cleaning/smiths-wood" style="${link}">Smith's Wood B36</a></li>
+      <li><a href="/gutter-cleaning/elmdon" style="${link}">Elmdon B92</a></li>
+      <li><a href="/gutter-cleaning/barston" style="${link}">Barston B92</a></li>
+      <li><a href="/gutter-cleaning/meriden" style="${link}">Meriden CV7</a></li>
+      <li><a href="/gutter-cleaning/earlswood" style="${link}">Earlswood B94</a></li>
+      <li><a href="/gutter-cleaning/tanworth-in-arden" style="${link}">Tanworth-in-Arden B94</a></li>
+      <li><a href="/gutter-cleaning/lapworth" style="${link}">Lapworth B94</a></li>
+    </ul>
+  </div>
+
+  <div style="background: #f8fafc; border-radius: 12px; padding: 20px; border: 1px solid #e2e8f0;">
+    <h4 style="font-size: 1.05rem; font-weight: 800; color: #0f172a; margin: 0 0 12px 0; border-bottom: 2px solid #19C58B; padding-bottom: 6px;">Black Country & Coventry</h4>
+    <ul style="list-style: none; padding: 0; margin: 0; line-height: 1.8; font-size: 0.95rem;">
+      <li><a href="/gutter-cleaning-wolverhampton" style="${link}">Wolverhampton WV1-WV14</a></li>
+      <li><a href="/gutter-cleaning-walsall" style="${link}">Walsall WS1-WS9</a></li>
+      <li><a href="/gutter-cleaning-dudley" style="${link}">Dudley DY1-DY3</a></li>
+      <li><a href="/gutter-cleaning-west-bromwich" style="${link}">West Bromwich B70-B71</a></li>
+      <li><a href="/gutter-cleaning-coventry" style="${link}">Coventry CV1-CV8</a></li>
+      <li><a href="/gutter-cleaning/stourbridge" style="${link}">Stourbridge DY8-DY9</a></li>
+      <li><a href="/gutter-cleaning/halesowen" style="${link}">Halesowen B62-B63</a></li>
+      <li><a href="/gutter-cleaning/brierley-hill" style="${link}">Brierley Hill DY5</a></li>
+      <li><a href="/gutter-cleaning/tipton" style="${link}">Tipton DY4</a></li>
+      <li><a href="/gutter-cleaning/oldbury" style="${link}">Oldbury B68-B69</a></li>
+      <li><a href="/gutter-cleaning/smethwick" style="${link}">Smethwick B66-B67</a></li>
+      <li><a href="/gutter-cleaning/wednesbury" style="${link}">Wednesbury WS10</a></li>
+      <li><a href="/gutter-cleaning/willenhall" style="${link}">Willenhall WV12-WV13</a></li>
+      <li><a href="/gutter-cleaning/bilston" style="${link}">Bilston WV14</a></li>
+      <li><a href="/gutter-cleaning/bloxwich" style="${link}">Bloxwich WS3</a></li>
+      <li><a href="/gutter-cleaning/aldridge" style="${link}">Aldridge WS9</a></li>
+      <li><a href="/gutter-cleaning/brownhills" style="${link}">Brownhills WS8</a></li>
+      <li><a href="/gutter-cleaning/sedgley" style="${link}">Sedgley DY3</a></li>
+      <li><a href="/gutter-cleaning/kingswinford" style="${link}">Kingswinford DY6</a></li>
+      <li><a href="/gutter-cleaning/cradley-heath" style="${link}">Cradley Heath B64</a></li>
+      <li><a href="/gutter-cleaning/blackheath" style="${link}">Blackheath B65</a></li>
+      <li><a href="/gutter-cleaning/rowley-regis" style="${link}">Rowley Regis B65</a></li>
+      <li><a href="/gutter-cleaning/tettenhall" style="${link}">Tettenhall WV6</a></li>
+      <li><a href="/gutter-cleaning/wednesfield" style="${link}">Wednesfield WV11</a></li>
+      <li><a href="/gutter-cleaning/penn" style="${link}">Penn WV4</a></li>
+      <li><a href="/gutter-cleaning/earlsdon" style="${link}">Earlsdon CV5</a></li>
+      <li><a href="/gutter-cleaning/cheylemore" style="${link}">Cheylemore CV3</a></li>
+      <li><a href="/gutter-cleaning/tile-hill" style="${link}">Tile Hill CV4</a></li>
+      <li><a href="/gutter-cleaning/finham" style="${link}">Finham CV3</a></li>
+      <li><a href="/gutter-cleaning/walsgrave" style="${link}">Walsgrave CV2</a></li>
+    </ul>
+  </div>
+
+  <div style="background: #f8fafc; border-radius: 12px; padding: 20px; border: 1px solid #e2e8f0;">
+    <h4 style="font-size: 1.05rem; font-weight: 800; color: #0f172a; margin: 0 0 12px 0; border-bottom: 2px solid #19C58B; padding-bottom: 6px;">Worcestershire & Warwickshire</h4>
+    <ul style="list-style: none; padding: 0; margin: 0; line-height: 1.8; font-size: 0.95rem;">
+      <li><a href="/gutter-cleaning-worcester" style="${link}">Worcester WR1-WR5</a></li>
+      <li><a href="/gutter-cleaning-bromsgrove" style="${link}">Bromsgrove B60-B61</a></li>
+      <li><a href="/gutter-cleaning-redditch" style="${link}">Redditch B97-B98</a></li>
+      <li><a href="/gutter-cleaning-kidderminster" style="${link}">Kidderminster DY10-DY11</a></li>
+      <li><a href="/gutter-cleaning/stourport" style="${link}">Stourport-on-Severn DY13</a></li>
+      <li><a href="/gutter-cleaning/bewdley" style="${link}">Bewdley DY12</a></li>
+      <li><a href="/gutter-cleaning/droitwich-spa" style="${link}">Droitwich Spa WR9</a></li>
+      <li><a href="/gutter-cleaning/malvern" style="${link}">Malvern WR14</a></li>
+      <li><a href="/gutter-cleaning/evesham" style="${link}">Evesham WR11</a></li>
+      <li><a href="/gutter-cleaning/pershore" style="${link}">Pershore WR10</a></li>
+      <li><a href="/gutter-cleaning/hagley" style="${link}">Hagley DY9</a></li>
+      <li><a href="/gutter-cleaning/clent" style="${link}">Clent DY9</a></li>
+      <li><a href="/gutter-cleaning/belbroughton" style="${link}">Belbroughton DY9</a></li>
+      <li><a href="/gutter-cleaning/rubery" style="${link}">Rubery B45</a></li>
+      <li><a href="/gutter-cleaning/alvechurch" style="${link}">Alvechurch B48</a></li>
+      <li><a href="/gutter-cleaning/barnt-green" style="${link}">Barnt Green B45</a></li>
+      <li><a href="/gutter-cleaning/studley" style="${link}">Studley B80</a></li>
+      <li><a href="/gutter-cleaning/astwood-bank" style="${link}">Astwood Bank B96</a></li>
+      <li><a href="/gutter-cleaning/tamworth" style="${link}">Tamworth B77-B79</a></li>
+      <li><a href="/gutter-cleaning/kenilworth" style="${link}">Kenilworth CV8</a></li>
+      <li><a href="/gutter-cleaning/warwick" style="${link}">Warwick CV34</a></li>
+      <li><a href="/gutter-cleaning/leamington-spa" style="${link}">Leamington Spa CV31-CV32</a></li>
+      <li><a href="/gutter-cleaning/stratford-upon-avon" style="${link}">Stratford-upon-Avon CV37</a></li>
+      <li><a href="/gutter-cleaning/nuneaton" style="${link}">Nuneaton CV10-CV11</a></li>
+      <li><a href="/gutter-cleaning/bedworth" style="${link}">Bedworth CV12</a></li>
+      <li><a href="/gutter-cleaning/rugby" style="${link}">Rugby CV21-CV22</a></li>
+      <li><a href="/gutter-cleaning/lichfield" style="${link}">Lichfield WS13-WS14</a></li>
+      <li><a href="/gutter-cleaning/cannock" style="${link}">Cannock WS11-WS12</a></li>
+    </ul>
+  </div>
+</div>
+
+<h3 style="font-size: 1.4rem; font-weight: 800; color: #0f172a; margin: 40px 0 16px;">Comprehensive Services & Technical Guides (50+ Internal Links)</h3>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin: 20px 0 40px;">
+  <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 22px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+    <h4 style="font-size: 1.1rem; font-weight: 800; color: #0f172a; margin: 0 0 14px 0; border-bottom: 2px solid #19C58B; padding-bottom: 6px;">Professional Services & Portals</h4>
+    <ul style="list-style: none; padding: 0; margin: 0; line-height: 2; font-size: 0.95rem;">
+      <li><a href="/services/gutter-cleaning" style="${link}">Residential Gutter Cleaning Service</a></li>
+      <li><a href="/services/gutter-repairs" style="${link}">Gutter Repairs & Joint Sealing</a></li>
+      <li><a href="/services/upvc-cleaning" style="${link}">Exterior UPVC, Fascia & Soffit Washing</a></li>
+      <li><a href="/services/roof-cleaning" style="${link}">Roof Cleaning & Moss Removal</a></li>
+      <li><a href="/services/gutter-inspection" style="${link}">Wireless Gutter Camera Inspection</a></li>
+      <li><a href="/services/roof-inspection" style="${link}">Comprehensive Roof Condition Survey</a></li>
+      <li><a href="/services/conservatory" style="${link}">Conservatory Gutter & Valeting</a></li>
+      <li><a href="/services/commercial-gutter-cleaning" style="${link}">Commercial Gutter Cleaning</a></li>
+      <li><a href="/services/commercial-roof-cleaning" style="${link}">Commercial Roof Cleaning</a></li>
+      <li><a href="/services/commercial-downpipe-cleaning" style="${link}">Commercial Downpipe Clearance</a></li>
+      <li><a href="/services/commercial-property-gutter-maintenance" style="${link}">Commercial Property Maintenance</a></li>
+      <li><a href="/services/block-management-gutter-cleaning" style="${link}">Block Management Gutter Cleaning</a></li>
+      <li><a href="/services/gutter-cleaning-contracts" style="${link}">Scheduled Maintenance Contracts</a></li>
+      <li><a href="/services/gutter-cleaning-for-landlords" style="${link}">Landlord Gutter Cleaning Compliance</a></li>
+      <li><a href="/pricing" style="${link}">Transparent Gutter Cleaning Pricing Guide</a></li>
+      <li><a href="/quote" style="${link}">Get An Instant Online Free Quote</a></li>
+      <li><a href="/gallery" style="${link}">Before & After Clean Gallery</a></li>
+      <li><a href="/reviews" style="${link}">Verified Customer Reviews & Ratings</a></li>
+      <li><a href="/about" style="${link}">About WOW Gutters Ltd & Our Standards</a></li>
+      <li><a href="/contact" style="${link}">Contact Our Birmingham Office</a></li>
+    </ul>
+  </div>
+
+  <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 22px; box-shadow: 0 2px 8px rgba(0,0,0,0.03);">
+    <h4 style="font-size: 1.1rem; font-weight: 800; color: #0f172a; margin: 0 0 14px 0; border-bottom: 2px solid #19C58B; padding-bottom: 6px;">Technical Guides & Walkthroughs</h4>
+    <ul style="list-style: none; padding: 0; margin: 0; line-height: 2; font-size: 0.95rem;">
+      <li><a href="/blog/professional-gutter-walkthrough" style="${link}">What Happens During a Professional Gutter Clean?</a></li>
+      <li><a href="/blog/ask-before-hiring-gutter-cleaner" style="${link}">The One Question to Ask Before Hiring Any Gutter Cleaner</a></li>
+      <li><a href="/blog/how-clean-gutters-without-ladder-birmingham-method" style="${link}">How Ground-Based Vacuum Systems Work Without Ladders</a></li>
+      <li><a href="/blog/clean-gutters-two-storey-house-birmingham-safely" style="${link}">Cleaning Gutters on a Two-Storey House Safely</a></li>
+      <li><a href="/blog/hidden-gutter-damage-summer" style="${link}">Why Hidden Gutter Damage Is Easier to Spot in Summer</a></li>
+      <li><a href="/blog/victorian-gutter-cleaning-birmingham" style="${link}">Why Victorian Homes Need a Different Approach</a></li>
+      <li><a href="/blog/tree-gutter-cleaning" style="${link}">How Tree Cover Changes Your Cleaning Schedule</a></li>
+      <li><a href="/blog/autumn-leaf-buildup" style="${link}">Autumn Leaf Fall Severity by Tree Species</a></li>
+      <li><a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham" style="${link}">Semi-Detached Gutter Cleaning & Shared Boundary Guidance</a></li>
+      <li><a href="/blog/flat-roof-gutters" style="${link}">Flat Roof Gutters in Birmingham: Maintenance Guide</a></li>
+      <li><a href="/blog/roof-moss-damage" style="${link}">Roof Moss: What It Is Doing to Your Gutters Right Now</a></li>
+      <li><a href="/blog/birmingham-autumn-gutter-guide" style="${link}">Why Autumn Is the Most Dangerous Gutter Season</a></li>
+      <li><a href="/blog/summer-gutter-cleaning-early" style="${link}">Beat the Autumn Rush: Early Gutter Cleaning</a></li>
+      <li><a href="/blog/summer-gutter-inspections" style="${link}">How Dry Summer Weather Makes Gutter Inspections Accurate</a></li>
+      <li><a href="/blog/downpipe-blocked-signs-birmingham-homes" style="${link}">Downpipes Blocked Again? The Birmingham Fix Most Miss</a></li>
+      <li><a href="/blog/hidden-damage-blocked-downpipe-solihull" style="${link}">Hidden Damage from Blocked Downpipes in Solihull</a></li>
+      <li><a href="/blog/soffit-damage-signs" style="${link}">Soffit Damage in West Midlands Homes: Early Warning Signs</a></li>
+      <li><a href="/blog/block-gutter-maintenance" style="${link}">Block Management Gutter Maintenance Protocol</a></li>
+      <li><a href="/blog/wind-direction-debris-buildup" style="${link}">Wind Direction and Gutter Debris Accumulation Patterns</a></li>
+      <li><a href="/blog/commercial-warehouse" style="${link}">Commercial Warehouse Gutter Clearing Birmingham</a></li>
+      <li><a href="/blog/warehouse-gutter-case-study" style="${link}">When Grass Is Growing in Your Box Gutter: Case Study</a></li>
+      <li><a href="/blog/roofline-damage-prevention" style="${link}">How Professional Cleaning Extends Roofline Lifespan</a></li>
+      <li><a href="/blog/water-damage-birmingham-home" style="${link}">Is Your Home Quietly Storing Water Damage Right Now?</a></li>
+      <li><a href="/blog/clean-gutters-prevent-damp" style="${link}">Can Blocked Gutters Cause Internal Damp & Mould?</a></li>
+      <li><a href="/blog/gutter-ladder-safety" style="${link}">Can You Clean Your Own Gutters Safely? (Ladder Safety)</a></li>
+      <li><a href="/blog/birmingham-rain-gutter-damage" style="${link}">Birmingham Clay Soil & Foundation Water Damage Risks</a></li>
+      <li><a href="/blog/birmingham-seasonal-gutter-guide" style="${link}">12-Month Birmingham Gutter Maintenance Calendar</a></li>
+      <li><a href="/blog/birmingham-gutter-health-check-summer" style="${link}">Summer Gutter Health Check Checklist</a></li>
+      <li><a href="/blog/early-gutter-signs-birmingham" style="${link}">Early Signs of Blocked Gutters You Shouldn't Ignore</a></li>
+      <li><a href="/blog/silent-gutter-damage-birmingham" style="${link}">Silent Gutter Damage Patterns Across Birmingham Suburbs</a></li>
+      <li><a href="/blog/birmingham-gutter-inspection" style="${link}">How Real-Time Camera Inspections Save Thousands</a></li>
+      <li><a href="/blog/preparing-gutters-summer" style="${link}">Summer Gutter Preparation for Heavy Autumn Storms</a></li>
+      <li><a href="/blog/late-summer-gutter-maintenance" style="${link}">Late Summer Gutter Cleaning Essentials</a></li>
+      <li><a href="/blog/year-round-gutter-protection" style="${link}">Year-Round Gutter Protection Strategies</a></li>
+      <li><a href="/blog/before-after-gutter-cleaning-walsall" style="${link}">Before & After Walsall Gutter Cleaning Case Study</a></li>
+    </ul>
+  </div>
+</div>
 `
 };
+
