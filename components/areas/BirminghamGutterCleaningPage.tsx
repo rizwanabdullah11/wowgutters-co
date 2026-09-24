@@ -692,6 +692,8 @@ export default function BirminghamGutterCleaningPage() {
         </div>
       </section>
 
+      <AreaCrawlFooter currentSlug="birmingham" serviceKind="gutter" />
+      <AreaServicesRange />
       <AreaBlogSnippet locality="Birmingham" />
       <AreaRecentWork />
       <AreaContactMap variant="birmingham" />

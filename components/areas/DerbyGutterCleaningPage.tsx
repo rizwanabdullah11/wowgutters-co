@@ -622,6 +622,8 @@ export default function DerbyGutterCleaningPage() {
         </div>
       </section>
 
+      <AreaCrawlFooter currentSlug="derby" serviceKind="gutter" />
+      <AreaServicesRange />
       <AreaBlogSnippet locality="Derby" />
       <AreaRecentWork />
       <AreaContactMap geo={{ latitude: 52.9225, longitude: -1.4746 }} />

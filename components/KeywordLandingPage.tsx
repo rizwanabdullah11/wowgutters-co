@@ -715,11 +715,11 @@ export default function KeywordLandingPage({ page }: { page: KeywordPage }) {
         </div>
       </section>
 
-      <AreaBlogSnippet />
+      <AreaCrawlFooter currentSlug={page.slug} />
       <AreaServicesRange />
+      <AreaBlogSnippet />
       <AreaRecentWork />
       <AreaContactMap />
-      <AreaCrawlFooter currentSlug={page.slug} />
 
       <style>{`
         .area-page-wrapper { overflow-x: hidden; }
