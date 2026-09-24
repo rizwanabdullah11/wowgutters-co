@@ -133,23 +133,22 @@ function splitBlogContent(content: string): { mainHtml: string; bottomHtml: stri
   // 1. Check if there's an FAQ section heading (<h2 id="faq"...)
   const faqHeadingMatch = content.match(/<h2[^>]*id=["']faq["'][^>]*>[\s\S]*?<\/h2>/i);
   if (faqHeadingMatch && faqHeadingMatch.index !== undefined) {
-    const fromFaq = content.slice(faqHeadingMatch.index);
-    const detailsLastIndex = fromFaq.lastIndexOf('</details>');
-    if (detailsLastIndex !== -1) {
-      const afterDetails = fromFaq.slice(detailsLastIndex + '</details>'.length);
-      const nextHeadingMatch = afterDetails.match(/<h2/i);
-      if (nextHeadingMatch && nextHeadingMatch.index !== undefined) {
-        const splitPos = faqHeadingMatch.index + detailsLastIndex + '</details>'.length + nextHeadingMatch.index;
-        return {
-          mainHtml: content.slice(0, splitPos).trim(),
-          bottomHtml: content.slice(splitPos).trim(),
-        };
-      }
+    const afterFaqHeadingPos = faqHeadingMatch.index + faqHeadingMatch[0].length;
+    const afterFaqHeading = content.slice(afterFaqHeadingPos);
+    
+    // Look for the next section heading (<h2...) after the FAQ list
+    const nextHeadingMatch = afterFaqHeading.match(/<h2/i);
+    if (nextHeadingMatch && nextHeadingMatch.index !== undefined) {
+      const splitPos = afterFaqHeadingPos + nextHeadingMatch.index;
+      return {
+        mainHtml: content.slice(0, splitPos).trim(),
+        bottomHtml: content.slice(splitPos).trim(),
+      };
     }
   }
 
-  // 2. Alternative: Look for closing CTA heading if FAQ wasn't matched with id="faq"
-  const ctaHeadingMatch = content.match(/<h2[^>]*id=["'](?:book|ask|ready|contact|take-action|conclusion|coverage)[^"']*["'][^>]*>/i);
+  // 2. Alternative: Look for closing CTA / summary heading
+  const ctaHeadingMatch = content.match(/<h2[^>]*id=["'](?:book|ask|ready|contact|take-action|conclusion|coverage|fix-the-cause)[^"']*["'][^>]*>/i);
   if (ctaHeadingMatch && ctaHeadingMatch.index !== undefined && ctaHeadingMatch.index > 500) {
     return {
       mainHtml: content.slice(0, ctaHeadingMatch.index).trim(),

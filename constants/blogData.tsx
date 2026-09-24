@@ -47,12 +47,14 @@ import { cleanGuttersTwoStoreyHouseBirminghamSafelyBlogPost } from './cleanGutte
 import { downpipeBlockedSignsBlogPost } from './downpipeBlockedSignsBlog';
 import { hiddenDamageBlockedDownpipeSolihullBlogPost } from './hiddenDamageBlockedDownpipeSolihullBlog';
 import { gutterCleanDurationBlogPost } from './gutterCleanDurationBlog';
+import { stopGuttersBlockingBlogPost } from './stopGuttersBlockingBlog';
 import { askBeforeHiringGutterCleanerBlogPost } from './askBeforeHiringGutterCleanerBlog';
 import { victorianHomesBirminghamDifferentGutterCleaningApproachBlogPost } from './victorianHomesBirminghamDifferentGutterCleaningApproachBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  stopGuttersBlockingBlogPost,
   gutterCleanDurationBlogPost,
   askBeforeHiringGutterCleanerBlogPost,
   victorianHomesBirminghamDifferentGutterCleaningApproachBlogPost,
