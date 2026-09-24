@@ -255,9 +255,9 @@ ${ctaBox}
   <p style="margin: 0 0 8px 0; color: #334155;">📞 <strong>Call:</strong> <a href="tel:07421433910" style="${link}">07421 433910</a></p>
   <p style="margin: 0 0 8px 0; color: #334155;">📧 <strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a></p>
   <p style="margin: 0 0 8px 0; color: #334155;">🌐 <strong>Website:</strong> <a href="https://wowgutters.co.uk" style="${link}">wowgutters.co.uk</a></p>
-  <p style="margin: 12px 0 0 0; color: #64748b; font-size: 0.85rem; line-height: 1.5;">
-    <strong>Serving:</strong> Birmingham, Solihull, Sutton Coldfield, Edgbaston, Harborne, Kings Heath, Moseley, Bournville, Erdington, Wolverhampton, Dudley, Walsall, West Bromwich, Coventry, Redditch, Bromsgrove, Worcester, Kidderminster, and all West Midlands areas.
+  <p style="margin: 12px 0 0 0; color: #64748b; font-size: 0.85rem; line-height: 1.8;">
+    <strong>Serving:</strong> <a href="/gutter-cleaning-birmingham" style="${link}">Birmingham</a>, <a href="/gutter-cleaning-solihull" style="${link}">Solihull</a>, <a href="/gutter-cleaning-sutton-coldfield" style="${link}">Sutton Coldfield</a>, <a href="/gutter-cleaning-edgbaston" style="${link}">Edgbaston</a>, <a href="/gutter-cleaning-harborne" style="${link}">Harborne</a>, <a href="/gutter-cleaning-kings-heath" style="${link}">Kings Heath</a>, <a href="/gutter-cleaning-moseley" style="${link}">Moseley</a>, <a href="/gutter-cleaning-bournville" style="${link}">Bournville</a>, <a href="/gutter-cleaning-erdington" style="${link}">Erdington</a>, <a href="/gutter-cleaning-wolverhampton" style="${link}">Wolverhampton</a>, <a href="/gutter-cleaning-dudley" style="${link}">Dudley</a>, <a href="/gutter-cleaning-walsall" style="${link}">Walsall</a>, <a href="/gutter-cleaning-west-bromwich" style="${link}">West Bromwich</a>, <a href="/gutter-cleaning-coventry" style="${link}">Coventry</a>, <a href="/gutter-cleaning-redditch" style="${link}">Redditch</a>, <a href="/gutter-cleaning-bromsgrove" style="${link}">Bromsgrove</a>, <a href="/gutter-cleaning-worcester" style="${link}">Worcester</a>, <a href="/gutter-cleaning-kidderminster" style="${link}">Kidderminster</a>, and all <a href="/gutter-cleaning-westmidlands" style="${link}">West Midlands areas</a>.
   </p>
 </div>
-`,
+`
 };
