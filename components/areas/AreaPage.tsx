@@ -353,6 +353,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
           </div>
         </div>
       </section>
+      <AreaCrawlFooter currentSlug={areaName.toLowerCase().replace(/\s+/g, '-')} serviceKind="gutter" />
       <AreaServicesRange />
       <AreaFAQ />
       <AreaFacts />

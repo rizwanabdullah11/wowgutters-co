@@ -379,13 +379,12 @@ export default function CityGutterCleaningPage({
         </div>
       </section>
 
-      <AreaBlogSnippet locality={data.city} />
+      <AreaCrawlFooter currentSlug={data.slug} serviceKind={serviceKind} />
       <AreaServicesRange />
+      <AreaBlogSnippet locality={data.city} />
       <AreaRecentWork />
       <AreaContactMap geo={data.geo} />
-      {serviceKind === 'repair' || serviceKind === 'inspection' || serviceKind === 'installation' ? (
-        <AreaCrawlFooter currentSlug={data.slug} serviceKind={serviceKind} />
-      ) : (
+      {serviceKind !== 'repair' && serviceKind !== 'inspection' && serviceKind !== 'installation' && (
         <AreaServicesHub currentSlug={data.slug} serviceKind={serviceKind} cityName={data.city} />
       )}
 

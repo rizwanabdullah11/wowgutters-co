@@ -448,13 +448,12 @@ export default function SuburbGutterCleaningPage({
         </div>
       </section>
 
-      <AreaBlogSnippet locality={data.blogLocality} />
+      <AreaCrawlFooter currentSlug={areaSlug} serviceKind={serviceKind} />
       <AreaServicesRange />
+      <AreaBlogSnippet locality={data.blogLocality} />
       <AreaRecentWork />
       <AreaContactMap />
-      {serviceKind === 'repair' || serviceKind === 'inspection' || serviceKind === 'installation' ? (
-        <AreaCrawlFooter currentSlug={areaSlug} serviceKind={serviceKind} />
-      ) : (
+      {serviceKind !== 'repair' && serviceKind !== 'inspection' && serviceKind !== 'installation' && (
         <AreaServicesHub currentSlug={areaSlug ?? data.city.toLowerCase().replace(/\s+/g, '-')} serviceKind={serviceKind} cityName={data.city} />
       )}
 
