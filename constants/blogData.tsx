@@ -1,3 +1,4 @@
+import { guttersBlockedChecklistBlogPost } from './guttersBlockedChecklistBlog';
 import { professionalGutterCleaningProtectsBlogPost } from './professionalGutterCleaningProtectsBlog';
 import { gutterInspectionSaveBirminghamBlogPost } from './gutterInspectionSaveBirminghamBlog';
 import { birminghamHeavyRainfallDamageBlogPost } from './birminghamHeavyRainfallDamageBlog';
@@ -54,6 +55,7 @@ export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  guttersBlockedChecklistBlogPost,
   stopGuttersBlockingBlogPost,
   gutterCleanDurationBlogPost,
   askBeforeHiringGutterCleanerBlogPost,
