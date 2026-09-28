@@ -172,63 +172,45 @@ ${ctaTop}
   <figcaption style="margin-top: 0.6rem; font-size: 0.9rem; color: #64748b;">A Birmingham gutter channel fully cleared by WOW Gutters Ltd – the uPVC floor is visible, no debris remains, and the downpipe outlet is unobstructed.</figcaption>
 </figure>
 
-<h2 id="vs-ladder-cleaning" style="font-size: 1.6rem; color: #1e293b; margin-top: 2.5rem;">Vacuum Cleaning vs Ladder Cleaning – Which Is Better?</h2>
+<h2 id="vs-ladder-cleaning" style="font-size: 1.6rem; color: #1e293b; margin-top: 2.5rem;">Why Ground-Based Vacuum Cleaning Is the Smarter Choice for Birmingham Homes</h2>
 
-<p>Ladder-based gutter cleaning is the traditional method. An operative climbs to gutter height, hand-scoops debris into a bucket, and works along the run section by section. It is still the right choice in specific situations – heavily rooted plant growth, concrete valleys, inaccessible flat-roof box gutters – but for the majority of Birmingham residential gutters, vacuum cleaning is superior on every practical measure:</p>
+<p>Ladder-based gutter cleaning has been the traditional method for decades – but for the majority of Birmingham residential and light-commercial properties, the <strong>ground-based vacuum approach delivers better results with fewer risks</strong>. Here is what that means in practice:</p>
 
-<div style="overflow-x: auto; margin: 1.5rem 0;">
-  <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem;">
-    <thead>
-      <tr style="background: #19C58B; color: #fff;">
-        <th style="padding: 0.75rem 1rem; text-align: left; border-radius: 6px 0 0 0;">Factor</th>
-        <th style="padding: 0.75rem 1rem; text-align: center;">Vacuum (ground-based)</th>
-        <th style="padding: 0.75rem 1rem; text-align: center; border-radius: 0 6px 0 0;">Ladder</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr style="background: #f8fafc;">
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0;">Operative safety</td>
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0; text-align: center;">✅ No work at height</td>
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0; text-align: center;">⚠️ Falls at height risk</td>
-      </tr>
-      <tr>
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0;">Property damage risk</td>
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0; text-align: center;">✅ Zero ladder contact</td>
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0; text-align: center;">⚠️ Render, fascia, conservatory risk</td>
-      </tr>
-      <tr style="background: #f8fafc;">
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0;">Camera inspection</td>
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0; text-align: center;">✅ Every job, live feed</td>
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0; text-align: center;">❌ Not standard</td>
-      </tr>
-      <tr>
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0;">Before/after photos</td>
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0; text-align: center;">✅ Included</td>
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0; text-align: center;">❌ Rarely offered</td>
-      </tr>
-      <tr style="background: #f8fafc;">
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0;">Garden / driveway disturbance</td>
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0; text-align: center;">✅ Minimal</td>
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0; text-align: center;">⚠️ Ladder feet damage soft landscaping</td>
-      </tr>
-      <tr>
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0;">Neighbour access needed?</td>
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0; text-align: center;">✅ Rarely</td>
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0; text-align: center;">⚠️ Often for terraces / semis</td>
-      </tr>
-      <tr style="background: #f8fafc;">
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0;">Heavy root / vegetation</td>
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0; text-align: center;">⚠️ May need follow-up</td>
-        <td style="padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0; text-align: center;">✅ Direct removal possible</td>
-      </tr>
-      <tr>
-        <td style="padding: 0.65rem 1rem;">Reach (storeys)</td>
-        <td style="padding: 0.65rem 1rem; text-align: center;">✅ Up to 4 storeys</td>
-        <td style="padding: 0.65rem 1rem; text-align: center;">⚠️ Limited by ladder length &amp; safety</td>
-      </tr>
-    </tbody>
-  </table>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin: 2rem 0;">
+
+  <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
+    <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.05rem;">🛡️ No Work at Height – Safer for Everyone</h3>
+    <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">Our operatives stay on the ground for the entire visit. This eliminates the principal hazard in gutter cleaning work and fully complies with the <a href="https://www.hse.gov.uk/work-at-height/the-regulations.htm" target="_blank" rel="noopener noreferrer" style="${link}">HSE Working at Height Regulations</a>. You can also learn more about <a href="/blog/how-clean-gutters-without-ladder" style="${link}">how gutters are cleaned without a ladder</a> in our dedicated guide.</p>
+  </div>
+
+  <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
+    <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.05rem;">🏠 Zero Risk of Ladder Damage to Your Property</h3>
+    <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">Ladder feet mark rendered walls, crack period stonework, and crush polycarbonate conservatory roofs. Because we never erect a ladder, there is no contact risk to your render, fascia boards, guttering joints, or garden planting. This is especially important for <a href="/blog/victorian-homes-birmingham-different-gutter-cleaning-approach" style="${link}">Victorian and period homes in Birmingham</a> where original masonry is irreplaceable.</p>
+  </div>
+
+  <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
+    <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.05rem;">📷 Live Camera Inspection on Every Single Visit</h3>
+    <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">The SkyVac pole carries a live-view camera that streams footage to a hand-held screen. You see exactly what is in the gutter, and every defect – cracked joints, sagging brackets, blocked outlets – is identified and photographed in real time. Read more about what the <a href="/blog/gutter-inspection-save-birmingham" style="${link}">camera inspection can reveal and save you</a> in the long run.</p>
+  </div>
+
+  <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
+    <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.05rem;">📸 Before &amp; After Photos Included as Standard</h3>
+    <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">Still photos captured from the camera feed are emailed to you after every job at no extra charge. These are invaluable for insurance records, landlord compliance, and planned <a href="/gutter-cleaning" style="${link}">gutter maintenance</a> schedules. Traditional ladder cleans rarely offer this level of documented proof.</p>
+  </div>
+
+  <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
+    <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.05rem;">🌿 No Disruption to Gardens, Drives, or Neighbours</h3>
+    <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">No ladder feet in borders, no scaffold poles across the driveway, and no need to ask a neighbour for garden access. For <a href="/blog/semi-detached-shared-gutter" style="${link}">semi-detached properties with shared or party gutter runs</a>, the vacuum system completes the full job from your side of the boundary without any need to cross next door.</p>
+  </div>
+
+  <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
+    <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.05rem;">🏗️ Four-Storey Reach Without Scaffolding</h3>
+    <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">The SkyVac Industrial system reaches up to 13 m (four storeys), covering blocks of flats, large detached houses, and light-commercial premises that would otherwise require a mobile elevated work platform or scaffold tower. This keeps costs down and scheduling simple. See our full <a href="/gutter-cleaning" style="${link}">Birmingham gutter cleaning service</a> for details on property types we cover.</p>
+  </div>
+
 </div>
+
+<p style="color: #374151;">There are situations where a ladder remains the right tool – heavily rooted plant growth in gutters not cleaned for several seasons, concealed valley gutters on steep pitches, or certain flat-roof box gutter configurations. WOW Gutters will always advise you honestly at the point of booking if the vacuum method is not the best fit for your property. You can read more in our guide on <a href="/blog/can-you-clean-your-own-gutters" style="${link}">whether DIY gutter cleaning is a realistic option</a>.</p>
 
 <h2 id="what-to-check-before-booking" style="font-size: 1.6rem; color: #1e293b; margin-top: 2.5rem;">What to Check Before You Book a Gutter Vacuum Clean in Birmingham</h2>
 
