@@ -45,7 +45,7 @@ export const stopGuttersBlockingBlogPost: BlogPost = {
   author: 'WOW Gutters Ltd Technical Team',
   authorRole: 'Professional Gutter Cleaning & Roofline Specialists',
   category: 'Guides',
-  featured: true,
+  featured: false,
   lastUpdated: '2026-09-24',
   quickAnswer:
     'Recurring gutter blockages usually stem from an unaddressed underlying cause rather than insufficient clearing frequency. Common causes include a compacted silt layer at the channel base, an incorrect fall angle from a dropped bracket, a failing joint where debris catches, ongoing roof moss shedding, or clearing timed incorrectly relative to specific tree species. The genuine fix is a thorough visit that includes structural assessment — joint, bracket, and fall angle checking — alongside full extraction to the channel floor, rather than repeated surface-level clears that never address the actual cause.',
