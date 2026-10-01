@@ -14,17 +14,22 @@ const ctaTop = `
 </blockquote>`;
 
 const ctaBox = `
-<div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
-  <div style="flex: 1; min-width: 220px;">
-    <h3 style="font-size: 1.5rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.2;">GET A PROPER ASSESSMENT AFTER SEVERE WEATHER</h3>
-    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Most gutter damage noticed after heavy rain, however alarming it looks, isn't a genuine same-day emergency — but knowing the real difference, and getting the right level of attention promptly either way, matters for protecting your property properly. WOW Gutters Ltd provides genuine post-storm gutter assessment across Birmingham and the West Midlands, checking the full system rather than just the visibly damaged section. Ground-based vacuum system with real-time camera inspection. No ladders. Before and after photographs on every job without exception.</p>
-  </div>
-  <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
-      <span>&#9658;</span> Get A Free Quote
-    </a>
-    <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week appointments across Birmingham &amp; West Midlands</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+<div style="background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%); border: 2px solid #19C58B; border-radius: 16px; padding: 28px 32px; margin: 40px 0; box-shadow: 0 4px 20px rgba(25, 197, 139, 0.12);">
+  <h3 style="font-size: 1.4rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.3; text-transform: uppercase;">GET A PROPER ASSESSMENT AFTER SEVERE WEATHER</h3>
+  <p style="color: #334155; font-size: 0.98rem; line-height: 1.75; margin: 0 0 20px 0;">Most gutter damage noticed after heavy rain, however alarming it looks, isn't a genuine same-day emergency — but knowing the real difference, and getting the right level of attention promptly either way, matters for protecting your property properly. WOW Gutters Ltd provides genuine post-storm gutter assessment across Birmingham and the West Midlands, checking the full system rather than just the visibly damaged section. Ground-based vacuum system with real-time camera inspection. No ladders. Before and after photographs on every job without exception.</p>
+  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 12px; padding: 18px 24px;">
+    <div>
+      <span style="display: block; font-weight: 800; color: #0f172a; font-size: 1rem;">Need urgent assistance or a free quote?</span>
+      <span style="display: block; color: #64748b; font-size: 0.825rem; margin-top: 2px;">Same-week appointments across Birmingham &amp; West Midlands</span>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px;">
+      <a href="/quote/" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #19C58B; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 22px; border-radius: 8px; text-decoration: none; box-shadow: 0 2px 8px rgba(25, 197, 139, 0.3);">
+        <span>&#9658;</span> Get Free Quote
+      </a>
+      <a href="tel:07421433910" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #0f172a; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 22px; border-radius: 8px; text-decoration: none;">
+        <span>📞</span> 07421 433910
+      </a>
+    </div>
   </div>
 </div>`;
 
@@ -255,7 +260,16 @@ ${ctaBox}
 </div>
 
 <h2 id="coverage" style="font-size: 1.4rem; font-weight: 800; color: #0f172a; margin-top: 40px;">Coverage Areas Across Birmingham &amp; West Midlands</h2>
-<p>Serving Birmingham, Solihull, Sutton Coldfield, Edgbaston, Harborne, Kings Heath, Moseley, Bournville, Erdington, Wolverhampton, Dudley, Walsall, West Bromwich, Coventry, Redditch, Bromsgrove, Worcester, Kidderminster and all West Midlands areas.</p>
+<p>Providing emergency post-storm assessments and gutter clearing in <a href="/gutter-cleaning-birmingham" style="${link}">Birmingham</a>, <a href="/gutter-cleaning-solihull" style="${link}">Solihull</a>, <a href="/gutter-cleaning-sutton-coldfield" style="${link}">Sutton Coldfield</a>, Edgbaston, Harborne, Kings Heath, Moseley, Bournville, Erdington, <a href="/gutter-cleaning-wolverhampton" style="${link}">Wolverhampton</a>, <a href="/gutter-cleaning-dudley" style="${link}">Dudley</a>, <a href="/gutter-cleaning-walsall" style="${link}">Walsall</a>, West Bromwich, <a href="/gutter-cleaning-coventry" style="${link}">Coventry</a>, <a href="/gutter-cleaning-redditch" style="${link}">Redditch</a>, Bromsgrove, <a href="/gutter-cleaning-worcester" style="${link}">Worcester</a>, Kidderminster and all surrounding West Midlands regions.</p>
+
+<h2 id="services" style="font-size: 1.4rem; font-weight: 800; color: #0f172a; margin-top: 32px;">Gutter Services in Birmingham</h2>
+<ul>
+  <li><strong><a href="/gutter-cleaning-birmingham" style="${link}">Professional Gutter Cleaning Birmingham</a></strong> — Ground-based skyVac extraction with live HD camera inspection.</li>
+  <li><strong><a href="/gutter-repairs-birmingham" style="${link}">Gutter Repairs Birmingham</a></strong> — Joint seals, dropped brackets, fall angle corrections, and downpipe repairs.</li>
+  <li><strong><a href="/commercial-gutter-cleaning-birmingham" style="${link}">Commercial Gutter Cleaning</a></strong> — Industrial estates, commercial premises, schools, and managed properties.</li>
+  <li><strong><a href="/roof-cleaning-birmingham" style="${link}">Roof Cleaning &amp; Moss Removal</a></strong> — Stop roof moss from continuously blocking your guttering.</li>
+  <li><strong><a href="/quote" style="${link}">Get a Free Instant Quote</a></strong> — Fast, transparent pricing with same-week booking.</li>
+</ul>
 
 <h2 id="related-articles" style="font-size: 1.4rem; font-weight: 800; color: #0f172a; margin-top: 40px;">Related Articles</h2>
 <ul>

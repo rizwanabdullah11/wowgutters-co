@@ -17,17 +17,22 @@ const ctaTop = `
 </blockquote>`;
 
 const ctaBox = `
-<div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
-  <div style="flex: 1; min-width: 220px;">
-    <h3 style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.2;">GET A GENUINE FIX-OR-REPLACE ASSESSMENT</h3>
-    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">WOW Gutters Ltd provides genuine structural assessment across Birmingham and the West Midlands, checking the whole run rather than simply resealing whatever's visibly leaking, so you get an honest fix-or-replace recommendation based on actual condition. Ground-based vacuum system with real-time camera inspection. No ladders. Before and after photographs on every job without exception.</p>
-  </div>
-  <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
-      <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
-    </a>
-    <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Serving Birmingham & West Midlands</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+<div style="background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%); border: 2px solid #19C58B; border-radius: 16px; padding: 28px 32px; margin: 40px 0; box-shadow: 0 4px 20px rgba(25, 197, 139, 0.12);">
+  <h3 style="font-size: 1.4rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.3; text-transform: uppercase;">GET A GENUINE FIX-OR-REPLACE ASSESSMENT</h3>
+  <p style="color: #334155; font-size: 0.98rem; line-height: 1.75; margin: 0 0 20px 0;">WOW Gutters Ltd provides genuine structural assessment across Birmingham and the West Midlands, checking the whole run rather than simply resealing whatever's visibly leaking, so you get an honest fix-or-replace recommendation based on actual condition. Ground-based vacuum system with real-time camera inspection. No ladders. Before and after photographs on every job without exception.</p>
+  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 12px; padding: 18px 24px;">
+    <div>
+      <span style="display: block; font-weight: 800; color: #0f172a; font-size: 1rem;">Unsure whether your leaking gutter needs repair or replacement?</span>
+      <span style="display: block; color: #64748b; font-size: 0.825rem; margin-top: 2px;">Same-week appointments across Birmingham &amp; West Midlands</span>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px;">
+      <a href="/quote/" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #19C58B; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 22px; border-radius: 8px; text-decoration: none; box-shadow: 0 2px 8px rgba(25, 197, 139, 0.3);">
+        <span>&#9658;</span> Get Free Quote
+      </a>
+      <a href="tel:07421433910" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #0f172a; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 22px; border-radius: 8px; text-decoration: none;">
+        <span>📞</span> 07421 433910
+      </a>
+    </div>
   </div>
 </div>`;
 
