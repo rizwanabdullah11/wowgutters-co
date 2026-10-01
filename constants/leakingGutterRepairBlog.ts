@@ -44,7 +44,7 @@ export const leakingGutterRepairBlogPost: BlogPost = {
   author: 'WOW Gutters Ltd Technical Team',
   authorRole: 'Professional Gutter Cleaning & Repair Specialists',
   category: 'Guides',
-  featured: true,
+  featured: false,
   lastUpdated: '2026-09-29',
   quickAnswer:
     'A leaking gutter suits repair when the leak is isolated to a single joint or section, the surrounding material is structurally sound, and the cause is clearly identifiable. Replacement is the better option when multiple joints show comparable wear at once, the material is brittle or corroded, or the fall angle is incorrect across a meaningful length. A proper assessment checks the whole run with camera inspection rather than only the visibly leaking point, since fixing an isolated symptom on a system that needs wider replacement often wastes money without genuinely solving the problem.',
