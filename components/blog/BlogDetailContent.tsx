@@ -664,6 +664,41 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
                 )}
               </div>
             )}
+
+            {/* Popular Birmingham Guides Sidebar Card */}
+            <div className="bg-white p-6 sm:p-7 rounded-3xl border border-gray-100 shadow-md">
+              <div className="flex items-center gap-2 mb-4 pb-3 border-b border-gray-100">
+                <BookOpen className="w-4 h-4 text-emerald-600" />
+                <h4 className="font-extrabold text-gray-900 text-base m-0">Popular Birmingham Guides</h4>
+              </div>
+              <ul className="space-y-3 m-0 p-0 list-none text-xs sm:text-sm">
+                <li>
+                  <Link href="/blog/emergency-gutter-cleaning" className="font-semibold text-gray-800 hover:text-emerald-600 transition-colors line-clamp-2">
+                    • Emergency Gutter Cleaning After Heavy Rain
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/blog/overflowing-gutters-fix" className="font-semibold text-gray-800 hover:text-emerald-600 transition-colors line-clamp-2">
+                    • Overflowing Gutters in Birmingham: Causes &amp; Fixes
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/blog/leaking-gutter-repair" className="font-semibold text-gray-800 hover:text-emerald-600 transition-colors line-clamp-2">
+                    • Leaking Gutter Repair: Fix or Replace?
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/blog/hidden-gutter-damage-easier-spot-summer" className="font-semibold text-gray-800 hover:text-emerald-600 transition-colors line-clamp-2">
+                    • Hidden Gutter Damage Easier to Spot in Summer
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/blog/can-blocked-gutters-cause-damp" className="font-semibold text-gray-800 hover:text-emerald-600 transition-colors line-clamp-2">
+                    • Can Blocked Gutters Cause Damp?
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </aside>
         </div>
 
