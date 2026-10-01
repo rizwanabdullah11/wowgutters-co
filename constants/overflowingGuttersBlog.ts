@@ -48,7 +48,7 @@ export const overflowingGuttersBlogPost: BlogPost = {
   author: 'WOW Gutters Ltd Technical Team',
   authorRole: 'Professional Gutter Cleaning & Repair Specialists',
   category: 'Guides',
-  featured: true,
+  featured: false,
   lastUpdated: '2026-09-30',
   quickAnswer:
     'Overflowing gutters are usually caused by debris blockage, a hidden compacted silt layer at the channel base, an incorrect fall angle from a dropped bracket, or a restriction within the downpipe itself. Overflow concentrated at one point usually indicates a localised debris or fall angle issue, while overflow along the entire run typically points to a downpipe restriction. A professional visit with camera inspection identifies the specific cause rather than just clearing visible debris.',
