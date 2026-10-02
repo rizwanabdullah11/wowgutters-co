@@ -46,7 +46,7 @@ export const emergencyGutterCleaningBlogPost: BlogPost = {
   author: 'WOW Gutters Ltd Technical Team',
   authorRole: 'Professional Gutter Cleaning & Repair Specialists',
   category: 'Guides',
-  featured: true,
+  featured: false,
   lastUpdated: '2026-10-01',
   quickAnswer:
     'A genuine gutter emergency involves water actively entering the property right now, a gutter section visibly detaching from the wall with risk of falling, or fresh structural cracking appearing alongside overflow. Standard overflow during a storm, wall staining that has stopped actively running, or gurgling sounds during rain typically warrant prompt rather than emergency attention. A severe storm usually exposes an existing weakness, such as a marginal joint or hidden silt build-up, rather than creating a new problem from scratch.',
