@@ -46,7 +46,7 @@ export const guttersFullOfWeedsBlogPost: BlogPost = {
   author: 'WOW Gutters Ltd Technical Team',
   authorRole: 'Professional Gutter Cleaning & Repair Specialists',
   category: 'Guides',
-  featured: false,
+  featured: true,
   lastUpdated: '2026-10-05',
   quickAnswer:
     "Weeds grow in gutters because fine organic debris compacts over seasons into a dense layer of silt that holds standing moisture, giving windborne and tree seeds somewhere to germinate. The plant growth adds extreme weight, chokes downpipe outlets, and forces overflowing water onto fascias and brickwork. Removing gutter vegetation safely requires powerful ground-based vacuum extraction to clear the underlying silt down to the channel floor, followed by flow testing and correcting fall angles so seeds cannot take root again.",
