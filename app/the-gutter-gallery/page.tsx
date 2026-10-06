@@ -135,7 +135,7 @@ export default function GutterGallery() {
                   Ready to Transform Your Gutters?
                 </h3>
                 <p className="text-gray-600 text-lg">
-                  Join hundreds of satisfied customers who trust us with their gutter cleaning needs
+                  Professional gutter cleaning trusted by homeowners across Birmingham and the West Midlands
                 </p>
               </div>
 

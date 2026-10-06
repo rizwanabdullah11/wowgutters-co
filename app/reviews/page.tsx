@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { colors } from '@/constants/colors';
 import { ThumbsUp, Star, MessageSquare, Clock } from 'lucide-react';
 import ElfsightReviews from '@/components/sections/ElfsightReviews';
-import FeaturedReviewsGrid from '@/components/reviews/FeaturedReviewsGrid';
 import { GOOGLE_REVIEWS_SUMMARY, gbpReviewUrl } from '@/lib/googleReviews';
 
 export default function ReviewsPage() {
@@ -69,10 +68,9 @@ export default function ReviewsPage() {
       </section>
 
       <section className="px-4 py-12 bg-white">
-        <div className="mx-auto grid max-w-4xl gap-6 sm:grid-cols-3">
+        <div className="mx-auto grid max-w-4xl gap-6 sm:grid-cols-2">
           {[
             { value: GOOGLE_REVIEWS_SUMMARY.starsDisplay, label: 'Average Google rating' },
-            { value: '100+', label: 'Verified customers' },
             { value: '24 hrs', label: 'Open every day' },
           ].map((stat) => (
             <div
@@ -85,41 +83,6 @@ export default function ReviewsPage() {
               <div className="mt-1 text-sm font-semibold text-gray-600">{stat.label}</div>
             </div>
           ))}
-        </div>
-      </section>
-
-      <section className="px-4 pb-8 bg-white">
-        <div className="mx-auto max-w-3xl rounded-2xl border border-emerald-100 bg-emerald-50/60 p-6 sm:p-8 text-center">
-          <p className="text-sm font-bold uppercase tracking-wide text-emerald-800">Google Business Profile</p>
-          <p className="mt-2 text-slate-700 leading-relaxed">
-            WOW Gutters Ltd is rated {GOOGLE_REVIEWS_SUMMARY.ratingLabel}★ on Google Business Profile. Reviews
-            below update automatically from Google. We read every review and reply on Google within two working days.
-          </p>
-          {reviewUrl ? (
-            <a
-              href={reviewUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-5 inline-flex rounded-full px-6 py-3 text-sm font-bold text-white shadow-sm transition hover:scale-105"
-              style={{ backgroundColor: colors.primary }}
-            >
-              Leave a Google review
-            </a>
-          ) : null}
-        </div>
-      </section>
-
-      <section className="px-4 py-16 bg-gradient-to-b from-white to-gray-50">
-        <div className="mx-auto max-w-7xl">
-          <div className="mb-10 text-center">
-            <h2 className="text-3xl font-black text-gray-900 md:text-4xl">
-              Featured <span style={{ color: colors.primary }}>reviews</span>
-            </h2>
-            <p className="mt-3 text-lg text-gray-600">
-              A sample of what customers say about our gutter cleaning service
-            </p>
-          </div>
-          <FeaturedReviewsGrid />
         </div>
       </section>
 

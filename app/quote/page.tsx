@@ -497,7 +497,7 @@ export default function QuotePage() {
           { icon: '✅', title: 'Honest Pricing', desc: 'Transparent costs with no hidden surprises' }
         ]}
         ctaTitle="Ready for Your Free Gutter Quote?"
-        ctaDescription="Join hundreds of satisfied homeowners across the West Midlands who trust WOW Gutters Ltd for honest, professional gutter services. Get your free quote today and protect your property from water damage."
+        ctaDescription="Get your free quote today and protect your property from water damage with professional gutter services across the West Midlands."
         ctaButtonText="Get Your Free Quote Now"
       />
 

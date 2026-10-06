@@ -8,12 +8,6 @@ import Link from 'next/link';
 const achievements = [
   {
     year: '2023',
-    title: '450+ Happy Customers',
-    organization: 'West Midlands & Surrounding Areas',
-    description: 'Serving over 450 satisfied homeowners with professional gutter services'
-  },
-  {
-    year: '2023',
     title: '4.9 Star Rating',
     organization: 'Customer Reviews',
     description: 'Consistently rated 4.9 stars for exceptional service quality and customer care'
@@ -185,7 +179,7 @@ export default function AwardsPage() {
             Experience <span style={{ color: colors.primary }}>Professional</span> Service
           </h3>
           <p className="text-xl text-white/80 mb-8">
-            Join hundreds of satisfied customers who trust our professional team
+            Experience the professional gutter service trusted by homeowners across the West Midlands
           </p>
           <Link href="/quote">
             <button className="px-8 py-4 rounded-full font-bold text-lg text-white shadow-xl hover:scale-105 transition-all" style={{ background: colors.primaryGradient }}>
