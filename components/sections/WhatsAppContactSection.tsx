@@ -67,7 +67,7 @@ export default function WhatsAppContactSection({
                 ))}
               </div>
               <div>
-                <p className="text-white font-bold">450+ Happy Customers</p>
+                <p className="text-white font-bold">Rated 4.9★ on Google</p>
                 <div className="flex items-center gap-1">
                   {[1, 2, 3, 4, 5].map((star) => (
                     <svg key={star} className="w-4 h-4" fill="#FCD34D" viewBox="0 0 20 20">

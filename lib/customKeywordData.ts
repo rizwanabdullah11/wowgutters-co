@@ -621,7 +621,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           "Seamless connection into rainwater harvesting tanks and soakaway drainage",
           "Full range of contemporary and heritage colours (black, grey, white, cast-iron effect)",
           "Complete removal and eco-friendly recycling of old guttering included",
-          "Local, dependable service with hundreds of satisfied Worcestershire customers",
+          "Local, dependable service with verified reviews across Worcestershire",
         ],
       },
     ],

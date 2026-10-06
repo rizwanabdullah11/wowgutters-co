@@ -55,7 +55,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
     <main className="bg-white area-page-wrapper">
       <Head>
         <title>Gutter Cleaning {formattedArea} | Professional Service | WowGutters</title>
-        <meta name="description" content={`Professional gutter cleaning, repairs & maintenance in ${formattedArea}. Same-day booking, 450+ happy customers. Free quotes available. Call 07421 433910.`} />
+        <meta name="description" content={`Professional gutter cleaning, repairs & maintenance in ${formattedArea}. Same-day booking, 4.9★ on Google. Free quotes available. Call 07421 433910.`} />
         <meta name="keywords" content={`gutter cleaning ${areaName}, ${areaName} gutter services, gutter repair ${areaName}, ${areaName} gutter maintenance, professional gutters ${areaName}`} />
         <meta property="og:title" content={`Gutter Cleaning ${formattedArea} - WowGutters`} />
         <meta property="og:description" content={`Professional gutter services in ${formattedArea}. Same-day booking available. Free quotes.`} />
