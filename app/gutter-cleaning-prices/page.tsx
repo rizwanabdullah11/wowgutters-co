@@ -403,16 +403,16 @@ export default function GutterCleaningPrices() {
               </thead>
               <tbody className="divide-y divide-slate-100 bg-white">
                 <tr className="hover:bg-slate-50 transition-colors">
-                  <td className="p-4 sm:p-5 font-bold text-slate-900">2-Bed Terraced</td>
+                  <td className="p-4 sm:p-5 font-bold text-slate-900">2-Bed Terraced / Flat</td>
                   <td className="p-4 sm:p-5 text-slate-600">Front &amp; Rear (12–15m)</td>
-                  <td className="p-4 sm:p-5 font-bold text-emerald-600">From £65 – £95</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-600">£100 Fixed</td>
                   <td className="p-4 sm:p-5 text-slate-600">30–45 mins</td>
                   <td className="p-4 sm:p-5 text-slate-600">Vacuum clean, downpipe flow check, photos</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition-colors">
                   <td className="p-4 sm:p-5 font-bold text-slate-900">3-Bed Semi-Detached</td>
                   <td className="p-4 sm:p-5 text-slate-600">Front, Side &amp; Rear (20–25m)</td>
-                  <td className="p-4 sm:p-5 font-bold text-emerald-600">From £95 – £140</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-600">£110 Fixed</td>
                   <td className="p-4 sm:p-5 text-slate-600">45–60 mins</td>
                   <td className="p-4 sm:p-5 text-slate-600">Full perimeter vacuum, swan-neck clear, report</td>
                 </tr>

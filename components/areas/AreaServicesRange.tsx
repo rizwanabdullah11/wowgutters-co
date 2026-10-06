@@ -12,7 +12,7 @@ const gutterServices = [
       'Professional gutter cleaning using high-reach vacuum systems to clear moss, leaves and debris before overflow causes water damage.',
     backContent: {
       features: ['High-reach vacuum system', 'Before & after photos', 'Debris disposal included', 'Same-day book available'],
-      price: 'From £45'
+      price: 'From £100'
     },
     image: '/gutter-cleaning.jpeg',
     link: '/services/gutter-cleaning/',

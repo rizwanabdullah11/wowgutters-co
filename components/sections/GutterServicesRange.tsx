@@ -15,7 +15,7 @@ const gutterServices = [
       'Local gutter cleaning using high-reach vacuum systems to remove leaves, moss and debris before overflow causes damage.',
     backContent: {
       features: ['High-reach vacuum system', 'Debris removal included', 'Downpipe checks', 'Flexible appointments'],
-      price: 'From £45'
+      price: 'From £100'
     },
     image: '/gutter-cleaning.jpeg',
     link: '/services/gutter-cleaning/',
