@@ -203,6 +203,23 @@ export default function Footer() {
 
           {!isHomePage && <hr className="footer-divider" />}
 
+          {/* Business Directory Citations */}
+          <div className="footer-citations">
+            <p className="footer-citations-label">WOW Gutters Ltd — Listed on</p>
+            <ul className="footer-citations-list">
+              <li><a href="https://www.fyple.co.uk/company/wow-gutters-ltd-texh084/" target="_blank" rel="noopener noreferrer" className="footer-citation-link">Fyple</a></li>
+              <li><a href="https://ratingsplus.co.uk/city/birmingham/gutter-cleaners/wow-gutters-ltd" target="_blank" rel="noopener noreferrer" className="footer-citation-link">RatingsPlus</a></li>
+              <li><a href="https://www.friday-ad.co.uk/business/-/wow-gutters-ltd/7124953" target="_blank" rel="noopener noreferrer" className="footer-citation-link">Friday-Ad</a></li>
+              <li><a href="https://www.yellowleaf.co.uk/pages/63019-wow-gutters-ltd.html" target="_blank" rel="noopener noreferrer" className="footer-citation-link">Yellow Leaf</a></li>
+              <li><a href="https://find-open.co.uk/birmingham/wow-gutters-ltd-4426278" target="_blank" rel="noopener noreferrer" className="footer-citation-link">Find Open</a></li>
+              <li><a href="https://www.bing.com/forbusiness/singleEntity?bizid=f252fb7c-de29-4a90-a23f-641c49097484" target="_blank" rel="noopener noreferrer" className="footer-citation-link">Bing Places</a></li>
+              <li><a href="https://www.openstreetmap.org/user/Wow%20Gutters" target="_blank" rel="noopener noreferrer" className="footer-citation-link">OpenStreetMap</a></li>
+              <li><a href="https://www.bizify.co.uk/search/wow-gutters-ltd-in-birmingham" target="_blank" rel="noopener noreferrer" className="footer-citation-link">Bizify</a></li>
+              <li><a href="https://www.hotfrog.co.uk/company/AC_Jc5Tkc3-Wrx18WK3Nfw/wow-gutters-ltd/birmingham/cleaning-services" target="_blank" rel="noopener noreferrer" className="footer-citation-link">Hotfrog</a></li>
+            </ul>
+          </div>
+          <hr className="footer-divider" />
+
           {/* Bottom Row */}
           <div className="footer-bottom-row">
             <div className="footer-social-box">
@@ -496,6 +513,43 @@ export default function Footer() {
           background: rgba(22, 101, 52, 0.4);
           padding: 10px 20px;
           border-radius: 100px;
+        }
+
+        .footer-citations {
+          padding: 16px 0 8px;
+          text-align: center;
+        }
+        .footer-citations-label {
+          font-size: 0.75rem;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+          color: #475569;
+          margin-bottom: 10px;
+        }
+        .footer-citations-list {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 8px 12px;
+        }
+        .footer-citation-link {
+          font-size: 0.8rem;
+          font-weight: 600;
+          color: #64748B;
+          text-decoration: none;
+          padding: 3px 10px;
+          border-radius: 20px;
+          border: 1px solid rgba(255,255,255,0.08);
+          background: rgba(255,255,255,0.04);
+          transition: color 0.2s, background 0.2s;
+        }
+        .footer-citation-link:hover {
+          color: #19C58B;
+          background: rgba(25,197,139,0.1);
         }
 
         /* Scroll Top Btn */
