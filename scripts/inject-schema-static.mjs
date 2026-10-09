@@ -83,6 +83,9 @@ function areaSlugFromPath(relPath) {
   }
   const nested = norm.match(/^gutter-cleaning\/([^/]+)\/index\.html$/);
   if (nested) return nested[1];
+  const regional = norm.match(/^(?:west-midlands|worcestershire|warwickshire|staffordshire|shropshire)\/gutter-cleaning-([^/]+)\/index\.html$/);
+  if (regional) return regional[1];
+  if (norm === 'index.html') return 'birmingham';
   return null;
 }
 
