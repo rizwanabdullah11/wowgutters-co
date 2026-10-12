@@ -60,10 +60,12 @@ import { gutterCleanDurationBlogPost } from './gutterCleanDurationBlog';
 import { stopGuttersBlockingBlogPost } from './stopGuttersBlockingBlog';
 import { askBeforeHiringGutterCleanerBlogPost } from './askBeforeHiringGutterCleanerBlog';
 import { victorianHomesBirminghamDifferentGutterCleaningApproachBlogPost } from './victorianHomesBirminghamDifferentGutterCleaningApproachBlog';
+import { gutterWaterDamageGuideBlogPost } from './gutterWaterDamageGuideBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  gutterWaterDamageGuideBlogPost,
   rooflineCleaningBirminghamBlogPost,
   highLevelGutterCleaningBlogPost,
   cloggedGuttersSignsBlogPost,
