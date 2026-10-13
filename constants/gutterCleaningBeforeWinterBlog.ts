@@ -49,6 +49,7 @@ export const gutterCleaningBeforeWinterBlogPost: BlogPost = {
   authorRole: 'Professional Gutter Cleaning Specialists',
   category: 'Maintenance',
   lastUpdated: '2026-10-12',
+  featured: true,
   quickAnswer: 'Gutters should be cleaned once the main leaf fall is down and before winter\'s heavy rain and frost, usually late October to mid-November in the West Midlands. Properties near oak may need a later visit because oak holds its leaves into December. A proper visit clears to the channel floor, checks joints and brackets and tests the downpipes.',
   breadcrumbName: 'Gutter Cleaning Before Winter Birmingham | Book Now',
   content: `
