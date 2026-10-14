@@ -8,7 +8,12 @@ import path from 'node:path';
 import { createRequire } from 'node:module';
 
 const require = createRequire(import.meta.url);
-const { REQUIRED_INDEXABLE_PATHS, allAreaSitemapPaths, normalizePath } = require('./sitemap-config.cjs');
+const {
+  REQUIRED_INDEXABLE_PATHS,
+  allAreaSitemapPaths,
+  normalizePath,
+  isExcludedSitemapPath,
+} = require('./sitemap-config.cjs');
 const { getLastModForPath, refreshSitemapLastmods } = require('./content-freshness.cjs');
 
 const SITE = 'https://wowgutters.co.uk';
@@ -67,6 +72,20 @@ for (const dir of [OUT, PUBLIC]) {
 
 const lastmod = getLastModForPath('/');
 let xml = fs.readFileSync(SITEMAP, 'utf8');
+
+// out/sitemap.xml starts as a copy of the committed public/sitemap.xml (next build copies
+// public/ → out/), so URLs excluded since the last build would otherwise never leave.
+// Prune every <url> that sitemap-config now excludes (redirects, noindex, index policy).
+let pruned = 0;
+xml = xml.replace(/<url>\s*<loc>([^<]+)<\/loc>[\s\S]*?<\/url>\s*/g, (block, loc) => {
+  if (isExcludedSitemapPath(urlToPath(loc))) {
+    pruned++;
+    return '';
+  }
+  return block;
+});
+if (pruned > 0) console.log(`post-sitemap-sync: pruned ${pruned} excluded URL(s)`);
+
 const existing = new Set(parseUrls(xml).map(urlToPath));
 
 const mustInclude = [
@@ -85,11 +104,11 @@ for (const p of mustInclude) {
 if (added.length > 0) {
   const block = added.map((p) => buildUrlEntry(p, lastmod)).join('\n');
   xml = xml.replace('</urlset>', `${block}\n</urlset>`);
-  fs.writeFileSync(SITEMAP, xml, 'utf8');
   console.log(`post-sitemap-sync: appended ${added.length} missing URL(s)`);
 } else {
   console.log('post-sitemap-sync: all required URLs already present');
 }
+fs.writeFileSync(SITEMAP, xml, 'utf8');
 
 let finalXml = fs.readFileSync(SITEMAP, 'utf8');
 finalXml = refreshSitemapLastmods(finalXml);

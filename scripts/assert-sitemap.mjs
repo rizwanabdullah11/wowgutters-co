@@ -7,7 +7,12 @@ import path from 'node:path';
 import { createRequire } from 'node:module';
 
 const require = createRequire(import.meta.url);
-const { REQUIRED_INDEXABLE_PATHS, allAreaSitemapPaths, normalizePath } = require('./sitemap-config.cjs');
+const {
+  REQUIRED_INDEXABLE_PATHS,
+  allAreaSitemapPaths,
+  normalizePath,
+  isExcludedSitemapPath,
+} = require('./sitemap-config.cjs');
 
 const SITE = 'https://wowgutters.co.uk';
 const SITEMAP = path.join(process.cwd(), 'out', 'sitemap.xml');
@@ -53,15 +58,18 @@ if (!fs.existsSync(SITEMAP)) {
 
   const areaCount = [...paths].filter((p) => p.startsWith('/gutter-cleaning-')).length;
   const roofAreaCount = [...paths].filter((p) => p.startsWith('/roof-cleaning-')).length;
-  const roofInspectionCount = [...paths].filter((p) => p.startsWith('/roof-inspection-')).length;
   if (areaCount < 160) {
     errors.push(`sitemap only lists ${areaCount} gutter area pages (expected 160+ indexable suburbs)`);
   }
   if (roofAreaCount < 160) {
     errors.push(`sitemap only lists ${roofAreaCount} roof cleaning area pages (expected 160+ indexable suburbs)`);
   }
-  if (roofInspectionCount < 160) {
-    errors.push(`sitemap only lists ${roofInspectionCount} roof inspection area pages (expected 160+ indexable suburbs)`);
+
+  // Index policy (lib/index-policy.cjs): noindexed templates/out-of-area pages and
+  // redirected URLs must never be submitted — GSC flags them and wastes crawl budget.
+  const excluded = [...paths].filter((p) => isExcludedSitemapPath(p));
+  if (excluded.length > 0) {
+    errors.push(`sitemap lists ${excluded.length} excluded/noindex URL(s) (e.g. ${excluded.slice(0, 3).join(', ')})`);
   }
   if (urls.length < 380) {
     errors.push(`sitemap only has ${urls.length} URLs (expected 380+ with gutter, roof, blog, and key landings)`);
