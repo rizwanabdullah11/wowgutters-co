@@ -4,6 +4,7 @@
 
 const { readFileSync } = require('node:fs');
 const { join } = require('node:path');
+const { isNoindexPolicyPath } = require('../lib/index-policy.cjs');
 
 const EXCLUDED_AREA_SLUGS = new Set([
   'gunnislake',
@@ -37,6 +38,10 @@ const EXCLUDED_PATHS = new Set([
   '/home-screen/',
   '/testimonials/',
   '/quote/embed/',
+  // Duplicate of /gutter-cleaning-birmingham/ (301 in .htaccess) — was cannibalising the money page
+  '/west-midlands/gutter-cleaning-birmingham/',
+  // 301 → / in .htaccess (GSC "Page with redirect")
+  '/service-areas/',
 ]);
 
 const REQUIRED_INDEXABLE_PATHS = [
@@ -91,6 +96,7 @@ function isExcludedAreaSlugPath(path, prefix) {
 function isExcludedSitemapPath(path) {
   const norm = normalizePath(path);
   if (EXCLUDED_PATHS.has(norm)) return true;
+  if (isNoindexPolicyPath(norm)) return true;
   if (isExcludedAreaSlugPath(norm, 'gutter-cleaning')) return true;
   if (isExcludedAreaSlugPath(norm, 'roof-cleaning')) return true;
   if (isExcludedAreaSlugPath(norm, 'gutter-repair')) return true;
@@ -136,7 +142,7 @@ function allAreaSitemapPaths() {
     ...allRepairAreaSitemapPaths(),
     ...allInstallationAreaSitemapPaths(),
     ...allRoofInspectionAreaSitemapPaths(),
-  ];
+  ].filter((p) => !isNoindexPolicyPath(p));
 }
 
 module.exports = {
