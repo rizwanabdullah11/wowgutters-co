@@ -28,7 +28,10 @@ function featuredReviewsAggregateRating() {
   };
 }
 
+// Review markup disabled — see lib/reviewSchema.ts (duplicated reviews on every page).
 function buildReviewSchemaFields(businessId) {
+  return { aggregateRating: undefined, review: undefined };
+  // eslint-disable-next-line no-unreachable
   const aggregateRating = featuredReviewsAggregateRating();
   const review = FEATURED_GOOGLE_REVIEWS.map((item, index) => ({
     '@type': 'Review',

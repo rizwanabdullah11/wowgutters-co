@@ -328,19 +328,6 @@ export const blogPosts: BlogPost[] = [
 
 <p>With thousands of <strong>roofline cleans</strong> completed across <a href="/gutter-cleaning-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">Birmingham</a>, <a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; font-weight: 600; text-decoration: none;">Coventry</a>, <a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <strong>Walsall</strong>, <strong>Dudley</strong> and beyond, <a href="https://wowgutters.co.uk" style="color: #19C58B; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> has built a reputation for honest, reliable, and high-quality work.</p>
 
-<h3>? Highly Rated by Verified Customers</h3>
-
-<p>Our reviews speak for themselves. Homeowners from Sutton Coldfield to Stourbridge, Coventry to Wolverhampton consistently rate us as their most trusted local roofline specialist.</p>
-
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
-  <em>"Excellent service, really professional and left everything spotless. Highly recommended."</em><br/>
-  — Verified customer, Birmingham
-</blockquote>
-
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
-  <em>"Used WOW Gutters Ltd for the second year running — always reliable, always tidy. Wouldn't use anyone else."</em><br/>
-  — Verified customer, Solihull
-</blockquote>
 
 <h3>? What Makes Us Different</h3>
 
@@ -2158,22 +2145,6 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Domestic and commercial</strong> — both covered</li>
 </ul>
 
-<h3>? Highly Rated by Verified Customers</h3>
-
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
-  <em>"Excellent service from start to finish. The team arrived on time, cleaned our gutters without any fuss, and left the drive spotless. Will definitely use again."</em><br/>
-  — Verified customer, Knowle, Solihull
-</blockquote>
-
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
-  <em>"Used WOW Gutters Ltd for our property in Shirley — they cleared a full blockage that had been causing overflow for months. Very professional, great value, and they showed us photos of the before and after. Highly recommend."</em><br/>
-  — Verified customer, Shirley, Solihull
-</blockquote>
-
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
-  <em>"Second year running we've booked WOW Gutters Ltd in Dorridge. Reliable, thorough, and always tidy. The peace of mind knowing the gutters are properly clear before winter is worth every penny."</em><br/>
-  — Verified customer, Dorridge, Solihull
-</blockquote>
 
 <h2>Signs Your Solihull Property Needs a Gutter Clean Right Now</h2>
 
@@ -2515,11 +2486,6 @@ export const blogPosts: BlogPost[] = [
 
 <p>We also carry out <a href="/help/repair" style="color: #19C58B; font-weight: 600; text-decoration: none;">gutter repairs</a> for leaking joints, loose brackets, and sagging sections. And if your roof moss is contributing to repeat gutter blockages, our <a href="/help/clean" style="color: #19C58B; font-weight: 600; text-decoration: none;">roof cleaning and moss removal service</a> removes the problem at the source.</p>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
-  ????? <em>"Absolutely brilliant service. Had my gutters cleaned in Bloxwich — they were there within 24 hours, sent me before and after photos, and it cost exactly what they quoted. Will definitely use again."</em><br/>
-  — Walsall homeowner, verified Google review
-</blockquote>
-
 <h2>Frequently Asked Questions — Gutter Cleaning Walsall</h2>
 
 <div style="margin: 40px 0;">
@@ -2677,11 +2643,6 @@ export const blogPosts: BlogPost[] = [
 <p>The after photograph shows the same gutter completely clear — right down to the plastic channel surface. The downpipe was flushed and confirmed flowing freely before we left.</p>
 
 <p>Both photographs were sent directly to the homeowner within an hour. That is standard on every single WOW Gutters Ltd job. No exceptions.</p>
-
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
-  ????? <em>"Turned up on time, did the job in under half an hour and sent me photos straight after. Exactly what I needed."</em><br/>
-  — Walsall homeowner, verified Google review
-</blockquote>
 
 <h2>Why Walsall Gutters Block So Fast</h2>
 
@@ -3256,11 +3217,6 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <p>We also carry out <a href="/help/repair" style="color: #19C58B; font-weight: 600; text-decoration: none;">gutter repairs</a> for leaking joints, sagging sections, and loose brackets — so if your gutters need more than a clean, we can handle both in a single visit.</p>
-
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
-  ????? <em>"Booked for a gutter clean in Bartley Green — arrived on time, did the job without any fuss, sent me the before and after photos within the hour. Exactly what I needed. Will book again in autumn."</em><br/>
-  — Bartley Green homeowner, verified Google review
-</blockquote>
 
 <h2>Frequently Asked Questions — Gutter Cleaning Bartley Green</h2>
 

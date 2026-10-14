@@ -172,6 +172,17 @@ AddDefaultCharset UTF-8
   RewriteRule ^home/?$ / [R=301,L]
   RewriteRule ^blog/roof-moss-removal-kings-norton-b30-birmingham/?$ /roof-cleaning-kings-norton/ [R=301,L]
 
+  # Ranking consolidation (Oct 2026): 15 pages competed for "gutter cleaning birmingham".
+  # Homepage ranked #12 with 657/903 backlinks, so it is the single Birmingham target.
+  RewriteRule ^gutter-cleaning-birmingham/?$ / [R=301,L]
+  RewriteRule ^trusted-gutter-cleaners-birmingham/?$ / [R=301,L]
+  RewriteRule ^next-day-gutter-cleaning-birmingham/?$ / [R=301,L]
+  RewriteRule ^autumn-gutter-cleaning-birmingham/?$ / [R=301,L]
+  RewriteRule ^residential-gutter-cleaning/?$ / [R=301,L]
+  # Blog posts outranking their own service pages → merge into the service page
+  RewriteRule ^blog/gutter-cleaning-walsall/?$ /gutter-cleaning-walsall/ [R=301,L]
+  RewriteRule ^blog/gutter-cleaning-solihull/?$ /gutter-cleaning-solihull/ [R=301,L]
+
   # Never rewrite Next.js bundles — must load as real files
   RewriteRule ^_next/ - [L]
 

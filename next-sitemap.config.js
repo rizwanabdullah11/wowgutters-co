@@ -9,7 +9,7 @@ const {
 
 const HIGH_PRIORITY = new Set([
   '/',
-  '/gutter-cleaning-birmingham/',
+  // '/gutter-cleaning-birmingham/' → 301 to / (Oct 2026)
   '/roof-cleaning-birmingham/',
   '/help/unblock/',
   '/help/clean/',

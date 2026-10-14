@@ -33,13 +33,6 @@ export function getBirminghamLocalBusinessSchema() {
           "latitude": 52.4862,
           "longitude": -1.8904
         },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "100",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
         "priceRange": "££",
         "openingHoursSpecification": OPENING_HOURS_SCHEMA,
         "areaServed": [

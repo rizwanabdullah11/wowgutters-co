@@ -77,13 +77,6 @@ export function buildAboutPageSchemaGraph() {
         },
         address: HQ_ADDRESS,
         foundingDate: WOW_BUSINESS_FOUNDED,
-        aggregateRating: {
-          '@type': 'AggregateRating',
-          ratingValue: '4.9',
-          reviewCount: '100',
-          bestRating: '5',
-          worstRating: '1',
-        },
         employee: TEAM_PROFILES.map((p) => ({
           '@type': 'Person',
           name: p.name,

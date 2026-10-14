@@ -69,11 +69,8 @@ const genFaqQs = (slug) => {
     ]`;
 };
 
-const genReviews = (n) => `[
-      { initial: 'J', name: 'James M.', place: '${n}', text: 'Excellent service from start to finish. Gutters cleared and downpipes flushed. The photos showed the difference clearly. Very professional. Will use again.' },
-      { initial: 'L', name: 'Linda T.', place: '${n}', text: 'Ian came to clean our gutters. Very thorough, arrived on time, cleared everything from ground level. Fair price and great service. Highly recommend.' },
-      { initial: 'R', name: 'Robert P.', place: 'Birmingham', text: 'Great work from WOW Gutters Ltd. On time, professional, no mess. Clear before and after photos provided. Definitely recommend.' },
-    ]`;
+// Invented reviews removed (Oct 2026) — only ever show real customer reviews.
+const genReviews = (n) => `[]`;
 
 for (const p of pages) {
   const dir = path.join(BASE, `app/gutter-cleaning-${p.slug}`);

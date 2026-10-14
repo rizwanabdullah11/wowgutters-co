@@ -193,6 +193,24 @@ export default function AreaServicesHub({
           </div>
         )}
 
+        <div className="mb-8">
+          <h3 className="text-base font-black text-slate-900 text-center mb-4 uppercase tracking-wider">
+            Our main gutter cleaning areas
+          </h3>
+          <ul className="flex flex-wrap justify-center gap-2">
+            {MAIN_GUTTER_HUBS.filter((h) => !(serviceKind === 'gutter' && h.slug === currentSlug)).map((h) => (
+              <li key={h.slug}>
+                <Link
+                  href={h.href}
+                  className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
+                >
+                  {h.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
         <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm font-bold">
           <Link
             href="/pricing/"
@@ -297,6 +315,23 @@ const DETAIL_LINES = [
   'Customers moving from {neighbour} into {area} usually ring us within the first month — we are happy to quote both properties in a single visit.',
   'Most jobs in {area} are completed the same day you book, and we will always tell you if a neighbouring visit to {neighbour} would speed up your appointment.',
   'Need a quote for {area} and {neighbour} together? We are happy to give a combined price for adjacent streets.',
+];
+
+/**
+ * Main gutter-cleaning hubs, linked from every area page (Oct 2026).
+ * Town hubs ranked #13–16 with few internal links (e.g. Coventry: 34 of 3,362 pages).
+ * Birmingham points to the homepage — the single Birmingham target page.
+ */
+const MAIN_GUTTER_HUBS: { slug: string; label: string; href: string }[] = [
+  { slug: 'birmingham', label: 'Gutter Cleaning Birmingham', href: '/' },
+  { slug: 'coventry', label: 'Gutter Cleaning Coventry', href: '/gutter-cleaning-coventry/' },
+  { slug: 'wolverhampton', label: 'Gutter Cleaning Wolverhampton', href: '/gutter-cleaning-wolverhampton/' },
+  { slug: 'dudley', label: 'Gutter Cleaning Dudley', href: '/gutter-cleaning-dudley/' },
+  { slug: 'walsall', label: 'Gutter Cleaning Walsall', href: '/gutter-cleaning-walsall/' },
+  { slug: 'sandwell', label: 'Gutter Cleaning West Bromwich & Sandwell', href: '/gutter-cleaning-sandwell/' },
+  { slug: 'solihull', label: 'Gutter Cleaning Solihull', href: '/gutter-cleaning-solihull/' },
+  { slug: 'kidderminster', label: 'Gutter Cleaning Kidderminster', href: '/gutter-cleaning-kidderminster/' },
+  { slug: 'worcester', label: 'Gutter Cleaning Worcester', href: '/gutter-cleaning-worcester/' },
 ];
 
 // Used when an area does not have nearby areas defined in the data layer.

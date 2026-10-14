@@ -49,9 +49,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   coventry: {
     slug: 'coventry',
     city: 'Coventry',
-    titleTag: 'Gutter Cleaning Coventry | WOW Gutters Ltd \u201D Free Quote',
-    metaDescription:
-      'Professional gutter cleaning in Coventry from £50. Ground-level vacuum system, before & after photos, fully insured. Call WOW Gutters Ltd: 07421 433910.',
+    titleTag: 'Gutter Cleaning Coventry | Vacuum, No Ladders | WOW Gutters',
+    metaDescription: 'Gutter cleaning in Coventry using ground-based vacuums up to 4 storeys. Before & after photos, fully insured, from £50. Call 07421 433910.',
     h1: 'Gutter Cleaning Coventry — Professional Service Across CV1-CV8',
     heroIntro:
       "Coventry is the UK's most bombed city outside London and was extensively rebuilt after the Second World War \u201D which means a significant proportion of the housing stock dates from the 1950s and 1960s. Post-war terraces and semis dominate Foleshill, Radford and Bell Green, while the areas around Allesley Park and Earlsdon contain older pre-war properties with cast iron gutter systems that need particular attention. The Coventry Ring Road corridor creates wind funnelling that accelerates debris build-up on rooflines. WOW Gutters Ltd serves all Coventry postcodes with our ground-level vacuum system \u201D no ladders, no risk, no mess.",
@@ -134,9 +133,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   walsall: {
     slug: 'walsall',
     city: 'Walsall',
-    titleTag: 'Gutter Cleaning Walsall | WOW Gutters Ltd',
-    metaDescription:
-      'Professional gutter cleaning in Walsall from £50. Ground-level vacuum system, before & after photos, fully insured. Call WOW Gutters Ltd: 07421 433910.',
+    titleTag: 'Gutter Cleaning Walsall | No Ladders, From £50 | WOW Gutters',
+    metaDescription: 'Gutter cleaning in Walsall from the ground with high-reach vacuums. Before & after photos on every job, fully insured. Free quote: 07421 433910.',
     h1: 'Gutter Cleaning Walsall — Reliable Service Across WS1-WS9',
     heroIntro:
       "Walsall is the heart of the Black Country \u201D a former industrial powerhouse now home to a diverse mix of Victorian terraces, 1930s semis and post-war housing estates. The elevated ground around Walsall town centre and the residential streets of Streetly, Aldridge and Brownhills to the north sit on the edge of Cannock Chase, meaning these areas experience above-average wind exposure and leaf fall from adjacent countryside. Properties near Walsall Arboretum and along the canal network benefit from our annual clean service. The Walsall FC stadium area on Bescot is surrounded by terraced housing that needs regular gutter maintenance.",
@@ -220,9 +218,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   dudley: {
     slug: 'dudley',
     city: 'Dudley',
-    titleTag: 'Gutter Cleaning Dudley | WOW Gutters Ltd',
-    metaDescription:
-      'Professional gutter cleaning in Dudley from £50. Ground-level vacuum system, before & after photos, fully insured. Call WOW Gutters Ltd: 07421 433910.',
+    titleTag: 'Gutter Cleaning Dudley | Photo Proof | WOW Gutters',
+    metaDescription: 'Gutter cleaning in Dudley without ladders. High-reach vacuum, before & after photos and fully insured. Call 07421 433910 today.',
     h1: 'Gutter Cleaning Dudley — Expert Service Across the Black Country',
     heroIntro:
       "Dudley sits at the heart of the Black Country, dominated by Dudley Castle and its famous zoo on a hill that is visible for miles. The borough contains some of the most diverse housing in the West Midlands \u201D from the Victorian back-to-backs of Netherton and Cradley Heath to the large detached homes of Pedmore and Hagley. Properties near the Dudley Canal and close to the Waterfront development experience debris from adjacent mature woodland. Stourbridge Road and the A459 corridor contain a mix of 1930s and post-war housing that benefits from our annual clean service.",
@@ -305,9 +302,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   sandwell: {
     slug: 'sandwell',
     city: 'Sandwell',
-    titleTag: 'Gutter Cleaning Sandwell & West Bromwich | WOW Gutters Ltd',
-    metaDescription:
-      'Professional gutter cleaning in Sandwell & West Bromwich from £50. Vacuum system, before & after photos, fully insured. Call: 07421 433910.',
+    titleTag: 'Gutter Cleaning West Bromwich & Sandwell | WOW Gutters',
+    metaDescription: 'Gutter cleaning in West Bromwich, Oldbury, Smethwick & Tipton. Ground-level vacuum, photo proof, fully insured, from £50. Call 07421 433910.',
     h1: 'Gutter Cleaning Sandwell — Professional Service for West Bromwich, Smethwick & Beyond',
     heroIntro:
       "Sandwell Metropolitan Borough covers a densely populated urban area between Birmingham and Wolverhampton \u201D including West Bromwich, Smethwick, Oldbury, Tipton, Wednesbury and Rowley Regis. The housing is predominantly Victorian and Edwardian terraces in Smethwick and West Bromwich, with 1930s and post-war semis in Oldbury and Rowley Regis. Properties near West Bromwich Albion FC at The Hawthorns are surrounded by some of the densest terraced housing in the West Midlands. The areas around Sandwell Valley Country Park experience significant leaf fall each autumn.",
@@ -653,9 +649,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   kidderminster: {
     slug: 'kidderminster',
     city: 'Kidderminster',
-    titleTag: 'Gutter Cleaning Kidderminster | WOW Gutters Ltd',
-    metaDescription:
-      'Professional gutter cleaning in Kidderminster from £55. Ground-level vacuum system, before & after photos, fully insured. Call: 07421 433910.',
+    titleTag: 'Gutter Cleaning Kidderminster | No Ladders | WOW Gutters',
+    metaDescription: 'Gutter cleaning in Kidderminster with a ground-based vacuum system. Reaches up to 4 storeys, photo proof on every job. Free quote: 07421 433910.',
     h1: 'Gutter Cleaning Kidderminster — Professional Service Across DY10-DY11',
     heroIntro:
       "Kidderminster is Worcestershire\u2019s second largest town, historically famous for its carpet manufacturing industry \u201D many of the town\u2019s older properties still have the solid construction associated with Victorian industrial prosperity. The town sits in the Stour Valley and is surrounded by the Wyre Forest, one of the largest ancient oak woodlands in England. Properties along the Wyre Forest edge in Habberley, Blakedown and Wolverley experience the most significant leaf fall of any area we serve \u201D heavy oak leaf accumulation from September through to December.",
@@ -1001,9 +996,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   solihull: {
     slug: 'solihull',
     city: 'Solihull',
-    titleTag: 'Gutter Cleaning Solihull | WOW Gutters Ltd \u201D Free Quote',
-    metaDescription:
-      'Professional gutter cleaning in Solihull from £55. Ground-level vacuum system, before & after photos, fully insured. Call WOW Gutters Ltd: 07421 433910.',
+    titleTag: 'Gutter Cleaning Solihull | Vacuum, From £55 | WOW Gutters',
+    metaDescription: 'Gutter cleaning in Solihull, Shirley, Knowle & Dorridge. Ground-level vacuum, before & after photos, fully insured. Call 07421 433910.',
     h1: 'Gutter Cleaning Solihull — Professional Service Across B90-B94',
     heroIntro:
       "Solihull is one of the most prosperous boroughs in the UK \u201D its housing stock reflects this, with a high proportion of detached homes and large semis in Dorridge, Knowle, Bentley Heath and Cheswick Green. Properties around Tudor Grange Park and near Touchwood Shopping Centre include many executive homes with complex rooflines and conservatory additions. The Meriden Gap woodland corridors to the north and east of Solihull create above-average leaf fall on residential streets each autumn. WOW Gutters Ltd serves all Solihull postcodes with same-day availability, using our ground-level vacuum system \u201D no ladders placed against your property.",
