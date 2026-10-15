@@ -24,8 +24,10 @@ if (!index) {
   errors.push('missing index.html');
 } else {
   const areaLinks = countAreaLinks(index);
-  if (areaLinks < 30) {
-    errors.push(`homepage: expected 30+ area links, found ${areaLinks}`);
+  // 28 (was 30): homepage links to /gutter-cleaning-birmingham/ were removed when that page
+  // was 301'd into the homepage (Oct 2026) — they would now be self-links.
+  if (areaLinks < 28) {
+    errors.push(`homepage: expected 28+ area links, found ${areaLinks}`);
   }
   // HomeServiceAreasHub grid intentionally hidden from homepage UI
 }

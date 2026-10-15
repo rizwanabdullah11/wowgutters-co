@@ -32,8 +32,10 @@ for (const rel of mustHaveSchema) {
   if (!html.includes('dateModified')) {
     missing.push(`${rel} (no dateModified in schema)`);
   }
-  if (!/"@type"\s*:\s*"Review"/.test(html)) {
-    missing.push(`${rel} (no Review nodes in schema)`);
+  // Review markup is intentionally disabled (lib/reviewSchema.ts): the same reviews on
+  // every page breaks Google's review-snippet guidelines. Fail if it creeps back in.
+  if (/"@type"\s*:\s*"(Review|AggregateRating)"/.test(html)) {
+    missing.push(`${rel} (Review/AggregateRating markup present — must stay disabled)`);
   }
 }
 

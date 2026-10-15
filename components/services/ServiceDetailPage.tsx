@@ -540,13 +540,6 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
               '@type': 'LocalBusiness',
               '@id': 'https://wowgutters.co.uk/#business',
               name: 'WOW Gutters Ltd',
-              aggregateRating: {
-                '@type': 'AggregateRating',
-                ratingValue: '4.9',
-                reviewCount: '100',
-                bestRating: '5',
-                worstRating: '1',
-              },
             },
             {
               '@type': 'Service',

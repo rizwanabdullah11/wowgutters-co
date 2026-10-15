@@ -87,15 +87,16 @@ if (!home) {
   if (!/elfsight-app-/i.test(home) && !/verified Google reviews/i.test(home)) {
     errors.push('homepage missing crawlable review summary text');
   }
-  if (!/"@type"\s*:\s*"Review"/.test(home)) {
-    errors.push('homepage missing Review JSON-LD in export');
+  // Review markup intentionally disabled (lib/reviewSchema.ts) — fail if it returns.
+  if (/"@type"\s*:\s*"(Review|AggregateRating)"/.test(home)) {
+    errors.push('homepage has Review/AggregateRating JSON-LD — must stay disabled');
   }
 }
 
 const aston = read('gutter-cleaning-aston/index.html');
 if (aston) {
-  if (!/"@type"\s*:\s*"Review"/.test(aston)) {
-    errors.push('gutter-cleaning-aston missing Review JSON-LD');
+  if (/"@type"\s*:\s*"(Review|AggregateRating)"/.test(aston)) {
+    errors.push('gutter-cleaning-aston has Review/AggregateRating JSON-LD — must stay disabled');
   }
 } else {
   errors.push('missing gutter-cleaning-aston/index.html');

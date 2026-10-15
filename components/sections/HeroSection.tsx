@@ -10,7 +10,7 @@ const HERO_POSTER = '/gutter-cleaning.jpeg';
 // Rotating headlines — location-first for local SEO
 const HERO_HEADLINES = [
   {
-    prefix: 'Trusted',
+    prefix: 'Birmingham',
     service: 'Gutter Cleaning',
     highlight: 'Specialists',
     bottom: 'Fast • Fully Insured • Same Day Booking',

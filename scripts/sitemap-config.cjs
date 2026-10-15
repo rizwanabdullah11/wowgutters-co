@@ -42,6 +42,14 @@ const EXCLUDED_PATHS = new Set([
   '/west-midlands/gutter-cleaning-birmingham/',
   // 301 → / in .htaccess (GSC "Page with redirect")
   '/service-areas/',
+  // Ranking consolidation (Oct 2026) — 301 in .htaccess
+  '/gutter-cleaning-birmingham/',
+  '/trusted-gutter-cleaners-birmingham/',
+  '/next-day-gutter-cleaning-birmingham/',
+  '/autumn-gutter-cleaning-birmingham/',
+  '/residential-gutter-cleaning/',
+  '/blog/gutter-cleaning-walsall/',
+  '/blog/gutter-cleaning-solihull/',
 ]);
 
 const REQUIRED_INDEXABLE_PATHS = [
@@ -142,7 +150,7 @@ function allAreaSitemapPaths() {
     ...allRepairAreaSitemapPaths(),
     ...allInstallationAreaSitemapPaths(),
     ...allRoofInspectionAreaSitemapPaths(),
-  ].filter((p) => !isNoindexPolicyPath(p));
+  ].filter((p) => !isExcludedSitemapPath(p));
 }
 
 module.exports = {
