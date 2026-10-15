@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { CheckCircle2, ArrowRight } from 'lucide-react';
 import { colors } from '@/constants/colors';
 import { AREA_SERVICE_META, type AreaServiceKind } from '@/lib/areaServiceMeta';
-import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, inspectionAreaPath, roofInspectionAreaPath, upvcAreaPath, installationAreaPath } from '@/lib/areaSlugs';
+import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, installationAreaPath } from '@/lib/areaSlugs';
 import { getAreaData } from '@/lib/getAreaData';
 import { areaLinkLabel } from '@/lib/crawlHub';
 
@@ -256,9 +256,6 @@ export default function AreaServicesHub({
 function pathForKind(kind: AreaServiceKind, slug: string): string {
   if (kind === 'roof') return roofAreaPath(slug);
   if (kind === 'repair') return repairAreaPath(slug);
-  if (kind === 'inspection') return inspectionAreaPath(slug);
-  if (kind === 'roof-inspection') return roofInspectionAreaPath(slug);
-  if (kind === 'upvc') return upvcAreaPath(slug);
   if (kind === 'installation') return installationAreaPath(slug);
   return areaPath(slug);
 }

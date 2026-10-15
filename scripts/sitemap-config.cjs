@@ -149,7 +149,6 @@ function allAreaSitemapPaths() {
     ...allRoofAreaSitemapPaths(),
     ...allRepairAreaSitemapPaths(),
     ...allInstallationAreaSitemapPaths(),
-    ...allRoofInspectionAreaSitemapPaths(),
   ].filter((p) => !isExcludedSitemapPath(p));
 }
 
@@ -169,6 +168,5 @@ module.exports = {
   allRoofAreaSitemapPaths,
   allRepairAreaSitemapPaths,
   allInstallationAreaSitemapPaths,
-  allRoofInspectionAreaSitemapPaths,
   allAreaSitemapPaths,
 };

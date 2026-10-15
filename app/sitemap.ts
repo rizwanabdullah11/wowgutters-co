@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, roofInspectionAreaPath, upvcAreaPath, installationAreaPath } from '@/lib/areaSlugs';
+import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, installationAreaPath } from '@/lib/areaSlugs';
 import { blogPosts } from '@/constants/blogData';
 import { servicesData } from '@/constants/servicesData';
 import { CONTENT_LAST_UPDATED_ISO } from '@/lib/contentFreshness';
@@ -165,18 +165,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: withTrailingSlash(repairAreaPath(slug)),
       lastModified: lastModForRoute(repairAreaPath(slug), lastUpdated),
-      changeFrequency: 'monthly' as const,
-      priority: 0.85,
-    },
-    {
-      url: withTrailingSlash(roofInspectionAreaPath(slug)),
-      lastModified: lastModForRoute(roofInspectionAreaPath(slug), lastUpdated),
-      changeFrequency: 'monthly' as const,
-      priority: 0.85,
-    },
-    {
-      url: withTrailingSlash(upvcAreaPath(slug)),
-      lastModified: lastModForRoute(upvcAreaPath(slug), lastUpdated),
       changeFrequency: 'monthly' as const,
       priority: 0.85,
     },

@@ -1123,18 +1123,9 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         iconSrc={
           service.id === 'gutter-repairs'
             ? '/gutter-repair-icon.png'
-            : service.id === 'gutter-inspection'
-              ? '/gutter-inspection.png'
-              : service.id === 'conservatory'
-                ? '/upvc-cleaning.jpg'
-                : service.id === 'commercial-gutter-cleaning'
-                  ? '/gutter-cleaning-icon.png'
-                  : service.id === 'upvc-cleaning' ||
-                      service.id === 'roof-cleaning' ||
-                      service.id === 'roof-inspection' ||
-                      service.id === 'commercial-roof-cleaning'
-                    ? '/Roof-Cleaner.webp'
-                    : '/gutter-cleaning-icon.png'
+            : service.id === 'roof-cleaning'
+              ? '/Roof-Cleaner.webp'
+              : '/gutter-cleaning-icon.png'
         }
         backgroundColor="bg-white"
         buttonText={service.ctaSection.buttonText}
@@ -1209,9 +1200,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         <AreaFeatures
           serviceLabel={service.name}
           featureSet={
-            service.id === 'roof-cleaning' ||
-            service.id === 'roof-inspection' ||
-            service.id === 'commercial-roof-cleaning'
+            service.id === 'roof-cleaning'
               ? 'roof'
               : 'gutter'
           }
