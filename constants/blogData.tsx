@@ -63,10 +63,12 @@ import { victorianHomesBirminghamDifferentGutterCleaningApproachBlogPost } from 
 import { gutterWaterDamageGuideBlogPost } from './gutterWaterDamageGuideBlog';
 import { gutterCleaningBeforeWinterBlogPost } from './gutterCleaningBeforeWinterBlog';
 import { leavesInGuttersBlogPost } from './leavesInGuttersBlog';
+import { bungalowGutterCleaningBlogPost } from './bungalowGutterCleaningBlog';
 export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  bungalowGutterCleaningBlogPost,
   leavesInGuttersBlogPost,
   gutterCleaningBeforeWinterBlogPost,
   gutterWaterDamageGuideBlogPost,
