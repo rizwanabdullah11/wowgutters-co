@@ -168,7 +168,7 @@ AddDefaultCharset UTF-8
   RewriteRule ^shop(/.*)?$ - [G,L]
 
   # Cannibalisation + dead URLs found in GSC (Oct 2026)
-  RewriteRule ^west-midlands/gutter-cleaning-birmingham/?$ /gutter-cleaning-birmingham/ [R=301,L]
+  RewriteRule ^west-midlands/gutter-cleaning-birmingham/?$ / [R=301,L]
   RewriteRule ^home/?$ / [R=301,L]
   RewriteRule ^blog/roof-moss-removal-kings-norton-b30-birmingham/?$ /roof-cleaning-kings-norton/ [R=301,L]
 
