@@ -22,8 +22,7 @@ function areaPagePriority(path) {
     path.startsWith('/gutter-cleaning-') ||
     path.startsWith('/roof-cleaning-') ||
     path.startsWith('/gutter-repair-') ||
-    path.startsWith('/gutter-installation-') ||
-    path.startsWith('/roof-inspection-')
+    path.startsWith('/gutter-installation-')
   ) {
     return 0.85;
   }

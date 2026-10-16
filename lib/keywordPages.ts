@@ -1,6 +1,5 @@
 import { suburbPages } from '@/lib/suburbPageData';
 import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
-import { AREA_SLUGS } from '@/lib/areaSlugs';
 import { CUSTOM_KEYWORD_CONTENT } from '@/lib/customKeywordData';
 
 export interface KeywordPage {
@@ -199,11 +198,9 @@ const RAW_KEYWORDS = [
   "christmas gutter cleaning availability",
   "gutter frozen overflow ice winter",
   "fascia soffit cleaning near me",
-  "conservatory roof cleaning birmingham",
   "solar panel bird proofing gutter",
   "driveway and gutter cleaning package",
   "render cleaning birmingham",
-  "upvc cleaning birmingham",
   "gutter brightening service",
   "moss treatment biocide roof",
   "roof cleaning without pressure washer",
@@ -217,7 +214,6 @@ const RAW_KEYWORDS = [
   "care home gutter cleaning",
   "property management gutter cleaning contracts",
   "landlord gutter cleaning service Birmingham",
-  "commercial roof cleaning West Midlands",
   "gutter cleaning Sutton Coldfield Four Oaks",
   "gutter cleaning Marston Green",
   "gutter cleaning Pershore",
@@ -234,7 +230,6 @@ const RAW_KEYWORDS = [
   "commercial gutter cleaning",
   "emergency gutter cleaning",
   "home guard plan",
-  "commercial gutter cleaning Birmingham",
   "office gutter cleaning",
   "industrial gutter cleaning",
   "school gutter cleaning",
@@ -300,12 +295,6 @@ const RAW_KEYWORDS = [
   "gutter cleaning quote for multiple properties",
   "annual gutter maintenance plan for landlords",
   "gutter cleaning contract renewal reminder",
-  "commercial gutter cleaning Solihull",
-  "commercial gutter cleaning Sutton Coldfield",
-  "commercial gutter cleaning Dudley",
-  "commercial gutter cleaning Walsall",
-  "commercial gutter cleaning Wolverhampton",
-  "commercial gutter cleaning West Bromwich",
   "gutter cleaning facilities management company Birmingham",
   "gutter cleaning managing agent Birmingham",
   "gutter cleaning contractor CHAS accredited",
@@ -321,7 +310,6 @@ const RAW_KEYWORDS = [
   "recurring gutter cleaning service business",
   "gutter cleaning company with public liability insurance",
   "gutter cleaning contractor Birmingham with references",
-  "commercial gutter cleaning case study Birmingham",
   "retail gutter cleaning",
   "landlord gutter cleaning",
   "letting agent gutter cleaning",
@@ -369,8 +357,6 @@ const RAW_KEYWORDS = [
   "roof moss cleaning cost uk",
   "factory gutter cleaning",
   "blocked gutters and downpipes",
-  "conservatory cleaning erdington",
-  "conservatory roof cleaning dronfield",
   "how do you know if your gutters need cleaning",
   "industrial gutter cleaning near me",
   "gutter clearing",
@@ -484,7 +470,6 @@ const RAW_KEYWORDS = [
   "gutter installation worcester",
   "worcester guttering",
   "local guttering specialists worcester",
-  "roof inspections birmingham",
   "gutter cleaning and repairs",
   "gutter cleaning latham",
   "gutter cleaning westminster",
@@ -1319,12 +1304,6 @@ function getContent(keyword: string): { heroTitle: string; heroDescription: stri
 
 export const KEYWORD_PAGES: Record<string, KeywordPage> = {};
 
-/* Add commercial pages for all AREA_SLUGS */
-for (const areaSlug of AREA_SLUGS) {
-  RAW_KEYWORDS.push(`commercial-roof-cleaning-${areaSlug}`);
-  RAW_KEYWORDS.push(`commercial-gutter-cleaning-${areaSlug}`);
-  RAW_KEYWORDS.push(`commercial-gutter-clearing-${areaSlug}`);
-}
 
 /* Add custom unique keyword landing pages */
 for (const customSlug of Object.keys(CUSTOM_KEYWORD_CONTENT)) {

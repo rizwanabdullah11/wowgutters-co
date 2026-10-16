@@ -8,6 +8,7 @@ const {
   allAreaSitemapPaths,
   normalizePath,
   REQUIRED_INDEXABLE_PATHS,
+  isExcludedSitemapPath,
 } = require('./sitemap-config.cjs');
 const { getLastModForPath, refreshSitemapLastmods } = require('./content-freshness.cjs');
 
@@ -44,6 +45,19 @@ function buildUrlEntry(p, lastmod) {
 }
 
 let xml = fs.readFileSync(file, 'utf8');
+
+// Prune any excluded/removed URLs from public/sitemap.xml
+let pruned = 0;
+xml = xml.replace(/<url>\s*<loc>([^<]+)<\/loc>[\s\S]*?<\/url>\s*/g, (block, loc) => {
+  const norm = normalizePath(loc.replace(SITE, '') || '/');
+  if (isExcludedSitemapPath(norm)) {
+    pruned++;
+    return '';
+  }
+  return block;
+});
+if (pruned > 0) console.log(`sync-public-sitemap: pruned ${pruned} excluded URL(s)`);
+
 const existing = new Set(parsePaths(xml));
 
 const mustInclude = [

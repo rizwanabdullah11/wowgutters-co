@@ -158,6 +158,17 @@ AddDefaultCharset UTF-8
   RewriteRule ^gutter-cleaning-callington/?$ - [G,L]
   RewriteRule ^gutter-cleaning-wendover/?$ - [G,L]
 
+  # Removed service area pages (410 Gone)
+  RewriteRule ^exterior-upvc-cleaning-[a-zA-Z0-9-]+/?$ - [G,L]
+  RewriteRule ^commercial-roof-cleaning-[a-zA-Z0-9-]+/?$ - [G,L]
+  RewriteRule ^commercial-gutter-cleaning-[a-zA-Z0-9-]+/?$ - [G,L]
+  RewriteRule ^commercial-gutter-clearing-[a-zA-Z0-9-]+/?$ - [G,L]
+  RewriteRule ^roof-inspection-[a-zA-Z0-9-]+/?$ - [G,L]
+  RewriteRule ^gutter-inspection-[a-zA-Z0-9-]+/?$ - [G,L]
+  RewriteRule ^conservatory-cleaning-[a-zA-Z0-9-]+/?$ - [G,L]
+  RewriteRule ^conservatory-roof-cleaning-[a-zA-Z0-9-]+/?$ - [G,L]
+  RewriteRule ^conservatory-gutter-cleaning-.*$ - [G,L]
+
   # Spam-link URLs from third-party sites (GSC Oct 2026: 1.96M "Alternative page with
   # proper canonical tag" + most 404s). 410 Gone tells Google to drop them for good.
   # Examples: /?shop/T784216772/  /?h21230297560550/  /shop/pg/68418848-2

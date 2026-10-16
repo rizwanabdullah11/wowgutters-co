@@ -48,6 +48,7 @@ export const gutterWaterDamageGuideBlogPost: BlogPost = {
   author: 'WOW Gutters Ltd Technical Team',
   authorRole: 'Professional Gutter Cleaning Specialists',
   category: 'Maintenance',
+  featured: true,
   lastUpdated: '2026-10-12',
   quickAnswer: 'Yes. Blocked gutters can\'t carry water away, so it spills behind the gutter into the fascia, then the soffit, down the wall and, over time, into interior walls. Early signs are wall staining, peeling fascia paint, a sagging gutter and a musty smell upstairs. Clearing the gutters stops new water arriving, but damaged timber and interior damp need separate repair and diagnosis.',
   breadcrumbName: 'Water Damage From Gutters: Birmingham Homeowner Guide',

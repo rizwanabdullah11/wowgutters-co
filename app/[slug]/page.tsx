@@ -22,24 +22,6 @@ import {
   renderRepairSuburbLanding,
 } from '@/components/areas/CityRepairRoutes';
 import {
-  renderBirminghamInspectionLanding,
-  renderInspectionCityLanding,
-  renderInspectionGeneratedAreaLanding,
-  renderInspectionSuburbLanding,
-} from '@/components/areas/CityInspectionRoutes';
-import {
-  renderBirminghamRoofInspectionLanding,
-  renderRoofInspectionCityLanding,
-  renderRoofInspectionGeneratedAreaLanding,
-  renderRoofInspectionSuburbLanding,
-} from '@/components/areas/CityRoofInspectionRoutes';
-import {
-  renderBirminghamUpvcLanding,
-  renderUpvcCityLanding,
-  renderUpvcGeneratedAreaLanding,
-  renderUpvcSuburbLanding,
-} from '@/components/areas/CityUpvcCleaningRoutes';
-import {
   renderBirminghamInstallationLanding,
   renderInstallationCityLanding,
   renderInstallationGeneratedAreaLanding,
@@ -50,11 +32,8 @@ import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
 import { buildAreaLandingFromSlug } from '@/lib/buildAreaLandingFromCity';
 import { getRoofCityLanding, getRoofGeneratedLanding, getRoofSuburbLanding } from '@/lib/roofAreaContent';
 import { getRepairCityLanding, getRepairGeneratedLanding, getRepairSuburbLanding } from '@/lib/repairAreaContent';
-import { getInspectionCityLanding, getInspectionGeneratedLanding, getInspectionSuburbLanding } from '@/lib/inspectionAreaContent';
-import { getRoofInspectionCityLanding, getRoofInspectionGeneratedLanding, getRoofInspectionSuburbLanding } from '@/lib/roofInspectionAreaContent';
-import { getUpvcCityLanding, getUpvcGeneratedLanding, getUpvcSuburbLanding } from '@/lib/upvcAreaContent';
 import { getInstallationCityLanding, getInstallationGeneratedLanding, getInstallationSuburbLanding } from '@/lib/installationAreaContent';
-import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, inspectionAreaPath, roofInspectionAreaPath, upvcAreaPath, installationAreaPath } from '@/lib/areaSlugs';
+import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, installationAreaPath } from '@/lib/areaSlugs';
 import { buildMetadata } from '@/lib/seo';
 import { getKeywordPage, getAllKeywordSlugs } from '@/lib/keywordPages';
 import KeywordLandingPage from '@/components/KeywordLandingPage';
@@ -68,9 +47,6 @@ interface PageProps {
 const GUTTER_PREFIX = 'gutter-cleaning-';
 const ROOF_PREFIX = 'roof-cleaning-';
 const REPAIR_PREFIX = 'gutter-repair-';
-const INSPECTION_PREFIX = 'gutter-inspection-';
-const ROOF_INSPECTION_PREFIX = 'roof-inspection-';
-const UPVC_PREFIX = 'exterior-upvc-cleaning-';
 const INSTALLATION_PREFIX = 'gutter-installation-';
 const slugSet = new Set(AREA_SLUGS);
 
@@ -98,24 +74,6 @@ function getRepairAreaSlug(slug: string): string | null {
   return slugSet.has(areaSlug) ? areaSlug : null;
 }
 
-function getInspectionAreaSlug(slug: string): string | null {
-  if (!slug.startsWith(INSPECTION_PREFIX)) return null;
-  const areaSlug = slug.slice(INSPECTION_PREFIX.length);
-  return slugSet.has(areaSlug) ? areaSlug : null;
-}
-
-function getRoofInspectionAreaSlug(slug: string): string | null {
-  if (!slug.startsWith(ROOF_INSPECTION_PREFIX)) return null;
-  const areaSlug = slug.slice(ROOF_INSPECTION_PREFIX.length);
-  return slugSet.has(areaSlug) ? areaSlug : null;
-}
-
-function getUpvcAreaSlug(slug: string): string | null {
-  if (!slug.startsWith(UPVC_PREFIX)) return null;
-  const areaSlug = slug.slice(UPVC_PREFIX.length);
-  return slugSet.has(areaSlug) ? areaSlug : null;
-}
-
 function getInstallationAreaSlug(slug: string): string | null {
   if (!slug.startsWith(INSTALLATION_PREFIX)) return null;
   const areaSlug = slug.slice(INSTALLATION_PREFIX.length);
@@ -138,9 +96,6 @@ export async function generateStaticParams() {
     ...AREA_SLUGS.map((slug) => ({ slug: `${GUTTER_PREFIX}${slug}` })),
     ...AREA_SLUGS.map((slug) => ({ slug: `${ROOF_PREFIX}${slug}` })),
     ...AREA_SLUGS.map((slug) => ({ slug: `${REPAIR_PREFIX}${slug}` })),
-    ...AREA_SLUGS.map((slug) => ({ slug: `${INSPECTION_PREFIX}${slug}` })),
-    ...AREA_SLUGS.map((slug) => ({ slug: `${ROOF_INSPECTION_PREFIX}${slug}` })),
-    ...AREA_SLUGS.map((slug) => ({ slug: `${UPVC_PREFIX}${slug}` })),
     ...AREA_SLUGS.map((slug) => ({ slug: `${INSTALLATION_PREFIX}${slug}` })),
     ...Object.keys(COMMON_TYPOS).map((slug) => ({ slug })),
     ...getAllKeywordSlugs().map((slug) => ({ slug })),
@@ -312,170 +267,6 @@ function buildRepairMetadata(areaSlug: string): Metadata {
   });
 }
 
-function buildInspectionMetadata(areaSlug: string): Metadata {
-  const areaName = formatAreaName(areaSlug);
-
-  if (areaSlug === 'birmingham') {
-    return buildMetadata({
-      absoluteTitle: 'Gutter Inspection Birmingham | Free Condition Report | WOW Gutters Ltd',
-      description:
-        'Free gutter inspection across Birmingham. We check gutters, downpipes, joints, brackets and fascia — photo report, honest advice, no obligation. Call WOW Gutters Ltd: 07421 433910.',
-      canonicalPath: inspectionAreaPath(areaSlug),
-      ogImagePath: '/gutter-inspection.png',
-    });
-  }
-
-  const cityLanding = getInspectionCityLanding(areaSlug);
-  if (cityLanding) {
-    return buildMetadata({
-      absoluteTitle: cityLanding.titleTag,
-      description: cityLanding.metaDescription,
-      canonicalPath: inspectionAreaPath(areaSlug),
-      ogImagePath: '/gutter-inspection.png',
-    });
-  }
-
-  const suburb = getInspectionSuburbLanding(areaSlug);
-  if (suburb) {
-    const intro = suburb.whyParagraphs[0] ?? '';
-    const description =
-      intro.length > 155 ? `${intro.slice(0, 152).trim()}…` : intro ||
-      `Free gutter inspection in ${suburb.city}. Gutters, downpipes, joints and fascia checked — photo report, no obligation. Call 07421 433910.`;
-    return buildMetadata({
-      absoluteTitle: `${suburb.heroTitleLine1} | WOW Gutters Ltd`,
-      description,
-      canonicalPath: inspectionAreaPath(areaSlug),
-      ogImagePath: '/gutter-inspection.png',
-    });
-  }
-
-  const generated = getInspectionGeneratedLanding(areaSlug);
-  if (generated) {
-    return buildMetadata({
-      absoluteTitle: generated.titleTag,
-      description: generated.metaDescription,
-      canonicalPath: inspectionAreaPath(areaSlug),
-      ogImagePath: '/gutter-inspection.png',
-    });
-  }
-
-  return buildMetadata({
-    title: `Gutter Inspection ${areaName}`,
-    description: `Free gutter inspection in ${areaName}. We check gutters, downpipes, joints, brackets and fascia — honest advice, no obligation. Call WOW Gutters Ltd: 07421 433910.`,
-    canonicalPath: inspectionAreaPath(areaSlug),
-    ogImagePath: '/gutter-inspection.png',
-  });
-}
-
-function buildRoofInspectionMetadata(areaSlug: string): Metadata {
-  const areaName = formatAreaName(areaSlug);
-
-  if (areaSlug === 'birmingham') {
-    return buildMetadata({
-      absoluteTitle: 'Roof Inspection Birmingham | Free Condition Report | WOW Gutters Ltd',
-      description:
-        'Free roof inspection across Birmingham. We check tiles, ridges, flashing, moss coverage and ventilation — photo report, honest advice, no obligation. Call WOW Gutters Ltd: 07421 433910.',
-      canonicalPath: roofInspectionAreaPath(areaSlug),
-      ogImagePath: '/roof-cleaning.JPG',
-    });
-  }
-
-  const cityLanding = getRoofInspectionCityLanding(areaSlug);
-  if (cityLanding) {
-    return buildMetadata({
-      absoluteTitle: cityLanding.titleTag,
-      description: cityLanding.metaDescription,
-      canonicalPath: roofInspectionAreaPath(areaSlug),
-      ogImagePath: '/roof-cleaning.JPG',
-    });
-  }
-
-  const suburb = getRoofInspectionSuburbLanding(areaSlug);
-  if (suburb) {
-    const intro = suburb.whyParagraphs[0] ?? '';
-    const description =
-      intro.length > 155 ? `${intro.slice(0, 152).trim()}…` : intro ||
-      `Free roof inspection in ${suburb.city}. Tiles, ridges, flashing, moss coverage and ventilation checked — no obligation. Call 07421 433910.`;
-    return buildMetadata({
-      absoluteTitle: `${suburb.heroTitleLine1} | WOW Gutters Ltd`,
-      description,
-      canonicalPath: roofInspectionAreaPath(areaSlug),
-      ogImagePath: '/roof-cleaning.JPG',
-    });
-  }
-
-  const generated = getRoofInspectionGeneratedLanding(areaSlug);
-  if (generated) {
-    return buildMetadata({
-      absoluteTitle: generated.titleTag,
-      description: generated.metaDescription,
-      canonicalPath: roofInspectionAreaPath(areaSlug),
-      ogImagePath: '/roof-cleaning.JPG',
-    });
-  }
-
-  return buildMetadata({
-    title: `Roof Inspection ${areaName}`,
-    description: `Free roof inspection in ${areaName}. We check tiles, ridges, flashing, moss coverage and ventilation — honest advice, no obligation. Call WOW Gutters Ltd: 07421 433910.`,
-    canonicalPath: roofInspectionAreaPath(areaSlug),
-    ogImagePath: '/roof-cleaning.JPG',
-  });
-}
-
-function buildUpvcMetadata(areaSlug: string): Metadata {
-  const areaName = formatAreaName(areaSlug);
-
-  if (areaSlug === 'birmingham') {
-    return buildMetadata({
-      absoluteTitle: 'Exterior uPVC Cleaning Birmingham | Fascias, Soffits & Frames | WOW Gutters Ltd',
-      description:
-        'Professional exterior uPVC cleaning in Birmingham from £120. Hot purified water restores fascias, soffits, window frames & doors — streak-free, chemical-free. Call WOW Gutters Ltd: 07421 433910.',
-      canonicalPath: upvcAreaPath(areaSlug),
-      ogImagePath: '/upvc-cleaning.jpg',
-    });
-  }
-
-  const cityLanding = getUpvcCityLanding(areaSlug);
-  if (cityLanding) {
-    return buildMetadata({
-      absoluteTitle: cityLanding.titleTag,
-      description: cityLanding.metaDescription,
-      canonicalPath: upvcAreaPath(areaSlug),
-      ogImagePath: '/upvc-cleaning.jpg',
-    });
-  }
-
-  const suburb = getUpvcSuburbLanding(areaSlug);
-  if (suburb) {
-    const intro = suburb.whyParagraphs[0] ?? '';
-    const description =
-      intro.length > 155 ? `${intro.slice(0, 152).trim()}…` : intro ||
-      `Professional exterior uPVC cleaning in ${suburb.city}. Fascias, soffits, window frames & doors — streak-free, chemical-free. Call 07421 433910.`;
-    return buildMetadata({
-      absoluteTitle: `${suburb.heroTitleLine1} | WOW Gutters Ltd`,
-      description,
-      canonicalPath: upvcAreaPath(areaSlug),
-      ogImagePath: '/upvc-cleaning.jpg',
-    });
-  }
-
-  const generated = getUpvcGeneratedLanding(areaSlug);
-  if (generated) {
-    return buildMetadata({
-      absoluteTitle: generated.titleTag,
-      description: generated.metaDescription,
-      canonicalPath: upvcAreaPath(areaSlug),
-      ogImagePath: '/upvc-cleaning.jpg',
-    });
-  }
-
-  return buildMetadata({
-    title: `Exterior uPVC Cleaning ${areaName}`,
-    description: `Professional exterior uPVC cleaning in ${areaName}. Fascias, soffits, window frames & doors restored — hot purified water, no chemicals. Call WOW Gutters Ltd: 07421 433910.`,
-    canonicalPath: upvcAreaPath(areaSlug),
-    ogImagePath: '/upvc-cleaning.jpg',
-  });
-}
 
 function buildInstallationMetadata(areaSlug: string): Metadata {
   const areaName = formatAreaName(areaSlug);
@@ -544,14 +335,6 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const repairSlug = getRepairAreaSlug(params.slug);
   if (repairSlug) return buildRepairMetadata(repairSlug);
 
-  const inspectionSlug = getInspectionAreaSlug(params.slug);
-  if (inspectionSlug) return buildInspectionMetadata(inspectionSlug);
-
-  const roofInspectionSlug = getRoofInspectionAreaSlug(params.slug);
-  if (roofInspectionSlug) return buildRoofInspectionMetadata(roofInspectionSlug);
-
-  const upvcSlug = getUpvcAreaSlug(params.slug);
-  if (upvcSlug) return buildUpvcMetadata(upvcSlug);
 
   const installationSlug = getInstallationAreaSlug(params.slug);
   if (installationSlug) return buildInstallationMetadata(installationSlug);
@@ -655,59 +438,6 @@ export default async function SingleSegmentAreaPage(props: PageProps) {
     notFound();
   }
 
-  const inspectionAreaSlug = getInspectionAreaSlug(params.slug);
-  if (inspectionAreaSlug) {
-    if (inspectionAreaSlug === 'birmingham') {
-      return renderBirminghamInspectionLanding();
-    }
-
-    const maybeCity = renderInspectionCityLanding(inspectionAreaSlug);
-    if (maybeCity) return maybeCity;
-
-    const maybeSuburb = renderInspectionSuburbLanding(inspectionAreaSlug);
-    if (maybeSuburb) return maybeSuburb;
-
-    const generated = renderInspectionGeneratedAreaLanding(inspectionAreaSlug);
-    if (generated) return generated;
-
-    notFound();
-  }
-
-  const roofInspectionAreaSlug = getRoofInspectionAreaSlug(params.slug);
-  if (roofInspectionAreaSlug) {
-    if (roofInspectionAreaSlug === 'birmingham') {
-      return renderBirminghamRoofInspectionLanding();
-    }
-
-    const maybeCity = renderRoofInspectionCityLanding(roofInspectionAreaSlug);
-    if (maybeCity) return maybeCity;
-
-    const maybeSuburb = renderRoofInspectionSuburbLanding(roofInspectionAreaSlug);
-    if (maybeSuburb) return maybeSuburb;
-
-    const generated = renderRoofInspectionGeneratedAreaLanding(roofInspectionAreaSlug);
-    if (generated) return generated;
-
-    notFound();
-  }
-
-  const upvcAreaSlug = getUpvcAreaSlug(params.slug);
-  if (upvcAreaSlug) {
-    if (upvcAreaSlug === 'birmingham') {
-      return renderBirminghamUpvcLanding();
-    }
-
-    const maybeCity = renderUpvcCityLanding(upvcAreaSlug);
-    if (maybeCity) return maybeCity;
-
-    const maybeSuburb = renderUpvcSuburbLanding(upvcAreaSlug);
-    if (maybeSuburb) return maybeSuburb;
-
-    const generated = renderUpvcGeneratedAreaLanding(upvcAreaSlug);
-    if (generated) return generated;
-
-    notFound();
-  }
 
   const installationAreaSlug = getInstallationAreaSlug(params.slug);
   if (installationAreaSlug) {
