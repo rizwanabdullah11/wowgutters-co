@@ -101,9 +101,33 @@ function isExcludedAreaSlugPath(path, prefix) {
   return Boolean(areaMatch && EXCLUDED_AREA_SLUGS.has(areaMatch[1]));
 }
 
+const REMOVED_AREA_PREFIXES = [
+  '/exterior-upvc-cleaning-',
+  '/commercial-roof-cleaning-',
+  '/commercial-gutter-cleaning-',
+  '/commercial-gutter-clearing-',
+  '/roof-inspection-',
+  '/gutter-inspection-',
+  '/conservatory-cleaning-',
+  '/conservatory-roof-cleaning-',
+  '/conservatory-gutter-cleaning-',
+];
+
+const REMOVED_SPECIFIC_URLS = new Set([
+  '/conservatory-roof-cleaning-birmingham/',
+  '/conservatory-cleaning-erdington/',
+  '/conservatory-roof-cleaning-dronfield/',
+  '/roof-inspections-birmingham/',
+  '/upvc-cleaning-birmingham/',
+  '/commercial-roof-cleaning-west-midlands/',
+  '/commercial-gutter-cleaning-west-midlands/',
+]);
+
 function isExcludedSitemapPath(path) {
   const norm = normalizePath(path);
   if (EXCLUDED_PATHS.has(norm)) return true;
+  if (REMOVED_SPECIFIC_URLS.has(norm)) return true;
+  if (REMOVED_AREA_PREFIXES.some((prefix) => norm.startsWith(prefix))) return true;
   if (isNoindexPolicyPath(norm)) return true;
   if (isExcludedAreaSlugPath(norm, 'gutter-cleaning')) return true;
   if (isExcludedAreaSlugPath(norm, 'roof-cleaning')) return true;

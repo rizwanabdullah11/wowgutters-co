@@ -1,3 +1,4 @@
+import { downpipeUnblockingBirminghamBlogPost } from './downpipeUnblockingBirminghamBlog';
 import { rooflineCleaningBirminghamBlogPost } from './rooflineCleaningBirminghamBlog';
 import { highLevelGutterCleaningBlogPost } from './highLevelGutterCleaningBlog';
 import { cloggedGuttersSignsBlogPost } from './cloggedGuttersSignsBlog';
@@ -68,6 +69,7 @@ export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  downpipeUnblockingBirminghamBlogPost,
   bungalowGutterCleaningBlogPost,
   leavesInGuttersBlogPost,
   gutterCleaningBeforeWinterBlogPost,
