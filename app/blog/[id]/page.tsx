@@ -4,6 +4,7 @@ import BlogDetailContent from '@/components/blog/BlogDetailContent';
 import { getRelatedBlogSummaries } from '@/lib/blogSummaries';
 import { resolveBlogImageUrl } from '@/lib/blogImageUrl';
 import { Metadata } from 'next';
+import { seoTitle, seoDescription } from '@/lib/seo';
 
 interface BlogPageProps {
   params: Promise<{
@@ -39,11 +40,12 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
 
   const canonicalUrl = `https://wowgutters.co.uk/blog/${id}/`;
 
-  const pageTitle = post.seoTitle ?? `${post.title} | WOW Gutters Ltd`;
+  const pageTitle = seoTitle(post.seoTitle ?? `${post.title} | WOW Gutters Ltd`, { keepSegments: true });
+  const pageDescription = seoDescription(post.excerpt);
 
   return {
-    title: pageTitle,
-    description: post.excerpt,
+    title: { absolute: pageTitle },
+    description: pageDescription,
     keywords: `${post.category}, gutter cleaning, gutter maintenance, blocked gutters, gutter repair, ${id.replace(/-/g, ' ')}`,
     authors: [{ name: post.author || 'WOW Gutters Ltd Technical Team' }],
     alternates: {
@@ -65,7 +67,7 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
     },
     openGraph: {
       title: pageTitle,
-      description: post.excerpt,
+      description: pageDescription,
       images: [{
         url: resolveBlogImageUrl(post.image),
         width: 1200,
@@ -83,7 +85,7 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
     twitter: {
       card: 'summary_large_image',
       title: pageTitle,
-      description: post.excerpt,
+      description: pageDescription,
       images: [resolveBlogImageUrl(post.image)],
       creator: '@wowgutters',
       site: '@wowgutters'

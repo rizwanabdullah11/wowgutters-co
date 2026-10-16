@@ -1,3 +1,4 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next'
 import type { CityGutterLandingData } from '@/constants/cityGutterLandingData'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
@@ -91,13 +92,13 @@ const landingData: CityGutterLandingData = {
     { label: 'Roof cleaning', href: '/help/clean/' },
     { label: 'Professional gutter cleaning', href: '/help/unblock/' },
   ],
-  ctaHeading: 'Book Your Gutter Clean in Wolverhampton \u201D Free Quote in 60 Seconds',
+  ctaHeading: 'Book Your Gutter Clean in Wolverhampton \u2014 Free Quote in 60 Seconds',
   priceTo: 130,
   nearbyAreas: ['Penn', 'Tettenhall', 'Wednesfield', 'Bilston', 'Willenhall', 'Fordhouses'],
   postcodes: ['WV1', 'WV2', 'WV3', 'WV4', 'WV5', 'WV6', 'WV7', 'WV8', 'WV9', 'WV10', 'WV11', 'WV12', 'WV13', 'WV14'],
 }
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: landingData.titleTag,
   description: landingData.metaDescription,
   alternates: {
@@ -134,7 +135,7 @@ export const metadata: Metadata = {
     description: landingData.metaDescription,
     images: ['https://wowgutters.co.uk/og/default.jpg'],
   },
-}
+})
 
 const SCHEMA_FAQS = buildCitySchemaFaqs({
   city: 'Wolverhampton',

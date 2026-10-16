@@ -1,3 +1,4 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next'
 import { JsonLd } from '@/components/JsonLd'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
@@ -7,7 +8,7 @@ import { suburbPages } from '@/lib/suburbPageData'
 const URL_PATH = 'https://wowgutters.co.uk/gutter-cleaning-hillfield/'
 const pageData = suburbPages['hillfield']
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Hillfield Solihull | WOW Gutters Ltd',
   description: 'Professional gutter cleaning in Hillfield, Solihull (B91). Town centre & Touchwood area specialist. From £55. Call: 07421 433910.',
   alternates: { canonical: URL_PATH, languages: { 'en-GB': URL_PATH, 'x-default': URL_PATH } },
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     description: 'Professional gutter cleaning in Hillfield B91. From £55. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/hillfield.jpg'],
   },
-}
+})
 
 const howToSchema = {
   '@context': 'https://schema.org',

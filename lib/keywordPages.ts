@@ -1323,7 +1323,8 @@ for (const raw of RAW_KEYWORDS) {
   KEYWORD_PAGES[slug] = {
     slug,
     titleTag: `${displayName} | WOW Gutters Ltd`,
-    metaDescription: data.heroDescription.slice(0, 160),
+    // Unique per page (was a shared category blurb cut at 160 chars mid-word on ~600 pages).
+    metaDescription: `${displayName} by WOW Gutters Ltd across Birmingham & the West Midlands. Ground-level vacuum cleaning, before & after photos, free quotes. Call 07421 433910.`,
     heroTitle: data.heroTitle,
     heroDescription: data.heroDescription,
     sections: data.sections,

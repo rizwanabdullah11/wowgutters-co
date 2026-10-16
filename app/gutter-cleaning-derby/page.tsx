@@ -1,3 +1,4 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
 import DerbyGutterCleaningPage from '@/components/areas/DerbyGutterCleaningPage'
@@ -5,7 +6,7 @@ import { buildCitySchemaFaqs } from '@/lib/cityFaqs'
 
 const URL_PATH = 'https://wowgutters.co.uk/gutter-cleaning-derby/'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Derby | WOW Gutters Ltd',
   description: 'Professional gutter cleaning in Derby from £50. Ground-level vacuum system, before & after photos, fully insured. Call WOW Gutters Ltd: 07421 433910.',
   alternates: {
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
     description: 'Professional gutter cleaning in Derby from £50. Ground-level vacuum system, before & after photos, fully insured.',
     images: ['https://wowgutters.co.uk/og/default.jpg'],
   },
-}
+})
 
 const DERBY_POSTCODES = [
   'DE1', 'DE2', 'DE3', 'DE4', 'DE5', 'DE6', 'DE7', 'DE8', 'DE9', 'DE10',

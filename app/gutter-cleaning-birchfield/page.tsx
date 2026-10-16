@@ -1,3 +1,4 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next'
 import { JsonLd } from '@/components/JsonLd'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
@@ -7,7 +8,7 @@ import { suburbPages } from '@/lib/suburbPageData'
 const URL_PATH = 'https://wowgutters.co.uk/gutter-cleaning-birchfield/'
 const pageData = suburbPages['birchfield']
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Birchfield Birmingham | WOW Gutters Ltd',
   description: 'Professional gutter cleaning in Birchfield, Birmingham (B6, B20). Victorian terraces & post-war, no ladders, vacuum system, before & after photos. From \u00a345. Call: 07421 433910.',
   alternates: { canonical: URL_PATH, languages: { 'en-GB': URL_PATH, 'x-default': URL_PATH } },
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     description: 'Professional gutter cleaning in Birchfield B6, B20. From \u00a345. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/birchfield.jpg'],
   },
-}
+})
 
 const howToSchema = {
   '@context': 'https://schema.org',

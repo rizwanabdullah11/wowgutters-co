@@ -1,7 +1,8 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next';
 import RepairPage from '@/components/services/RepairPage';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'Expert Gutter Repair Service | WOW Gutter Cleaning',
   description:
     'Expert gutter repair service to fix leaks, sagging and damage and protect your property from water problems.',
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
     index: false,
     follow: false,
   },
-};
+});
 
 export default function HelpRepairPage() {
   return <RepairPage />;

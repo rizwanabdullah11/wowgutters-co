@@ -1,3 +1,4 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
 import SuburbGutterCleaningPage from '@/components/areas/SuburbGutterCleaningPage'
@@ -6,7 +7,7 @@ import { suburbPages } from '@/lib/suburbPageData'
 const URL_PATH = 'https://wowgutters.co.uk/gutter-cleaning-world-s-end/'
 const pageData = suburbPages['world-s-end']
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Worlds End Birmingham | WOW Gutters Ltd',
   description: 'Professional gutter cleaning in Worlds End, Birmingham (B8, B10). Victorian & post-war terraces, no ladders, vacuum system, before & after photos. From £50. Call: 07421 433910.',
   alternates: { canonical: URL_PATH, languages: { 'en-GB': URL_PATH, 'x-default': URL_PATH } },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     description: 'Professional gutter cleaning in Worlds End B8. From £50. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/world-s-end.jpg'],
   },
-}
+})
 
 export default function WorldsEndPage() {
   return (

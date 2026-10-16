@@ -1,11 +1,12 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next';
 import ServiceRedirect from '@/components/services/ServiceRedirect';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Inspection | WOW Gutters Ltd',
   description: 'This page has moved to our dedicated gutter inspection service.',
   robots: { index: false, follow: true },
-};
+});
 
 export default function InspectionRedirectPage() {
   return <ServiceRedirect target="/services/gutter-inspection/" label="gutter inspection" />;

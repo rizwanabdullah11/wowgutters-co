@@ -1,3 +1,4 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next';
 import LocalBusinessSchema from '@/components/LocalBusinessSchema';
 import CityGutterCleaningPage from '@/components/areas/CityGutterCleaningPage';
@@ -7,7 +8,7 @@ const URL_PATH = 'https://wowgutters.co.uk/gutter-cleaning-service-near-me/';
 const landingData = GUTTER_CLEANING_SERVICE_NEAR_ME_LANDING;
 const SCHEMA_FAQS = landingData.faqs.map(({ question, answer }) => ({ question, answer }));
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: landingData.titleTag,
   description: landingData.metaDescription,
   alternates: {
@@ -44,7 +45,7 @@ export const metadata: Metadata = {
     description: landingData.metaDescription,
     images: ['https://wowgutters.co.uk/og/default.jpg'],
   },
-};
+});
 
 export default function GutterCleaningServiceNearMePage() {
   return (

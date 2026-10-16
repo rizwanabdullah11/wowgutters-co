@@ -1,7 +1,8 @@
+import { normalizeMetadata } from '@/lib/seo';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'SEO Audit & Performance',
   description: 'View our website performance metrics, SEO audit results, and technical optimizations for WOW Gutters Ltd.',
   robots: {
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://wowgutters.co.uk/audit/',
   },
-};
+});
 
 export default function AuditPage() {
   return (

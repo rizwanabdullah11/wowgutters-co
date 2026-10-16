@@ -1,9 +1,10 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next';
 import FreeInspectionRedirect from './FreeInspectionRedirect';
 
 const CANONICAL = 'https://wowgutters.co.uk/services/gutter-inspection/';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'Free Gutter Inspection',
   description:
     'Free roof and gutter inspection — expert assessment, honest advice, no obligation. This page redirects to our main inspection service.',
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
     index: false,
     follow: true,
   },
-};
+});
 
 export default function FreeGutterInspectionAliasPage() {
   return <FreeInspectionRedirect />;
