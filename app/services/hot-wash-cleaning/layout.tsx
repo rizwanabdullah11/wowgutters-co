@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { buildMetadata } from '@/lib/seo';
 import { buildServicePageSchemaGraph } from '@/lib/pageSchemaGraphs';
 import PageSchema from '@/components/seo/PageSchema';
-import TopPageAreaLinks from '@/components/seo/TopPageAreaLinks';
+import LocalCoverageSection from '@/components/seo/LocalCoverageSection';
 
 export const metadata: Metadata = buildMetadata({
   absoluteTitle: 'Hot Wash Cleaning | WOW Gutters Ltd',
@@ -27,7 +27,7 @@ export default function HotWashCleaningLayout({ children }: { children: React.Re
         })}
       />
       {children}
-      <TopPageAreaLinks intro="Hot wash and exterior cleaning booked alongside gutter work in these areas." />
+      <LocalCoverageSection variant="hotwash" />
     </>
   );
 }

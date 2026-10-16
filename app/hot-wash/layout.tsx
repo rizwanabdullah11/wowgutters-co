@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { buildMetadata } from '@/lib/seo';
-import TopPageAreaLinks from '@/components/seo/TopPageAreaLinks';
+import LocalCoverageSection from '@/components/seo/LocalCoverageSection';
 
 /** Canonical targets the live service URL (301 from /hot-wash/ via .htaccess). */
 export const metadata: Metadata = buildMetadata({
@@ -14,7 +14,7 @@ export default function HotWashLayout({ children }: { children: React.ReactNode 
   return (
     <>
       {children}
-      <TopPageAreaLinks intro="Hot wash and exterior cleaning booked alongside gutter work in these areas." />
+      <LocalCoverageSection variant="hotwash" />
     </>
   );
 }

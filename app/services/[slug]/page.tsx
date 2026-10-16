@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import ServiceDetailPage from '@/components/services/ServiceDetailPage';
-import TopPageAreaLinks from '@/components/seo/TopPageAreaLinks';
+import LocalCoverageSection from '@/components/seo/LocalCoverageSection';
 import { servicesData, getServiceById } from '@/constants/servicesData';
 import { buildMetadata } from '@/lib/seo';
 
@@ -56,8 +56,10 @@ export default async function ServicesSlugPage(props: PageProps) {
     <>
       <ServiceDetailPage service={service} />
       {(!FOCUSED_SERVICE_SLUGS.has(params.slug) || params.slug === 'gutter-cleaning') && (
-        <TopPageAreaLinks
-          intro={`${service.name} across Birmingham and the West Midlands — choose your local area for pricing and booking.`}
+        <LocalCoverageSection
+          variant={params.slug === 'gutter-cleaning' ? 'gutter-cleaning' : 'service'}
+          serviceName={service.name}
+          slug={params.slug}
         />
       )}
     </>

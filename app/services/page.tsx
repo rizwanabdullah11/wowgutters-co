@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowRight, Phone, ShieldCheck } from 'lucide-react';
-import TopPageAreaLinks from '@/components/seo/TopPageAreaLinks';
+import LocalCoverageSection from '@/components/seo/LocalCoverageSection';
 import { servicesData } from '@/constants/servicesData';
 import { colors } from '@/constants/colors';
 import { buildMetadata } from '@/lib/seo';
@@ -220,7 +220,7 @@ export default function Services() {
         </section>
       )}
 
-      <TopPageAreaLinks intro="Gutter cleaning, repairs, and roof care booked across these Birmingham and West Midlands locations." />
+      <LocalCoverageSection variant="services" />
 
       {/* CTA */}
       <section className="py-16 px-4 sm:px-6 lg:px-8" style={{ background: colors.primaryGradient }}>

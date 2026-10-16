@@ -40,8 +40,8 @@ if (!services) {
   if (areaLinks < 20) {
     errors.push(`services hub: expected 20+ area links, found ${areaLinks}`);
   }
-  if (!/Gutter cleaning near you/i.test(services)) {
-    errors.push('services hub: missing TopPageAreaLinks section');
+  if (!/id="coverage-services"/.test(services)) {
+    errors.push('services hub: missing LocalCoverageSection');
   }
 }
 
@@ -57,7 +57,7 @@ if (!gutterService) {
   errors.push('missing services/gutter-cleaning/index.html');
 } else if (countAreaLinks(gutterService) < 15) {
   errors.push(
-    `services/gutter-cleaning: expected TopPageAreaLinks (${countAreaLinks(gutterService)} area links)`
+    `services/gutter-cleaning: expected LocalCoverageSection (${countAreaLinks(gutterService)} area links)`
   );
 }
 

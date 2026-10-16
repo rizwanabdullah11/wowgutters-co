@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { colors } from '@/constants/colors';
-import TopPageAreaLinks from '@/components/seo/TopPageAreaLinks';
+import LocalCoverageSection from '@/components/seo/LocalCoverageSection';
 import { GUTTER_PRICING, GUTTER_PRICING_PACKAGES, formatGbp } from '@/constants/gutterPricing';
 
 export default function Pricing() {
@@ -71,7 +71,7 @@ export default function Pricing() {
         </div>
       </div>
 
-      <TopPageAreaLinks intro="Gutter cleaning prices vary by property size and area — open your local page for typical rates." />
+      <LocalCoverageSection variant="pricing" />
     </div>
   );
 }
