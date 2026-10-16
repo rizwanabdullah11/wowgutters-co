@@ -55,7 +55,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
       <section className="area-hero-section">
         {/* Video Background */}
         <div className="hero-video-wrapper">
-          <HeroVideo src="https://wowgutters.co.uk/gutter-final-video.mp4" poster="/gutter-hero-poster.jpg" className="hero-video" />
+          <HeroVideo src="https://wowgutters.co.uk/gutter-final-video.mp4" className="hero-video" />
           <div className="area-hero-overlay"></div>
         </div>
 

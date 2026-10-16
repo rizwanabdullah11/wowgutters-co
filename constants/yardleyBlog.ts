@@ -22,7 +22,7 @@ export const yardleyBlogPost: BlogPost = {
   title: 'Gutter Cleaning in Yardley B25 — Protecting Family Homes Across East Birmingham',
   excerpt:
     'Professional gutter cleaning in Yardley B25 Birmingham. Wow Gutters Ltd — industrial vacuum system, no ladders, before & after photos on every job. Fully insured. Free quote: 07421 433910.',
-  image: '/yardley-gutter-cleaning-hero.webp',
+  image: '/gutter-clean.webp',
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-06',
   views: '0',
@@ -148,12 +148,12 @@ export const yardleyBlogPost: BlogPost = {
 <h2 id="before-after">Before and After — Yardley B25</h2>
 
 <figure style="margin: 20px 0;">
-  <img src="/yardley-gutter-cleaning-before.png" alt="Before gutter cleaning Yardley B25 — compacted debris and leaf matter" width="1280" height="720" loading="eager" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="/gutter-cleaning-before.webp" alt="Before gutter cleaning — compacted debris and leaf matter in the gutter" width="1280" height="720" loading="eager" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">Before: Blocked gutter on a Victorian terrace in Yardley B25 — compacted debris, leaf matter, and silt before professional vacuum clearance.</figcaption>
 </figure>
 
 <figure style="margin: 20px 0;">
-  <img src="/yardley-gutter-cleaning-after.png" alt="After professional gutter clean Yardley B25 Birmingham Wow Gutters" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="/gutter-cleaning-after.webp" alt="After a professional gutter clean by WOW Gutters" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">After: The same gutter run fully cleared — channel open, downpipe flowing, before and after photos sent the same day.</figcaption>
 </figure>
 

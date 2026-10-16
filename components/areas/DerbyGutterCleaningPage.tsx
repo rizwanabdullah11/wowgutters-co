@@ -157,7 +157,7 @@ export default function DerbyGutterCleaningPage() {
     <main className="bg-white area-page-wrapper">
       <section className="area-hero-section">
         <div className="hero-video-wrapper">
-          <HeroVideo src="https://wowgutters.co.uk/gutter-final-video.mp4" poster="/gutter-hero-poster.jpg" className="hero-video" />
+          <HeroVideo src="https://wowgutters.co.uk/gutter-final-video.mp4" className="hero-video" />
           <div className="area-hero-overlay" />
         </div>
 
@@ -722,4 +722,4 @@ export default function DerbyGutterCleaningPage() {
       `}</style>
     </main>
   );
-}
+}

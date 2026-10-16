@@ -105,6 +105,11 @@ AddDefaultCharset UTF-8
   RewriteCond %{HTTP_HOST} !^wowgutters\\.co\\.uk$ [NC]
   RewriteRule ^(.*)$ https://wowgutters.co.uk/$1 [R=301,L]
 
+  # Share images: town pages point at /og/<town>.jpg, which mostly don't exist.
+  # Serve the shared default instead of a 404 (Oct 2026).
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^og/[^/]+\\.jpg$ /og/default.jpg [L]
+
   # SEO: /gutter-cleaning/{city}/ → /gutter-cleaning-{city}/
   RewriteRule ^gutter-cleaning/([a-zA-Z0-9-]+)/?$ /gutter-cleaning-$1/ [R=301,L]
 
