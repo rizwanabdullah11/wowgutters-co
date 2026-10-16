@@ -2,6 +2,7 @@ import Link from 'next/link';
 import GoogleMapsEmbed from '@/components/seo/GoogleMapsEmbed';
 import { WOW_GUTTERS_NAP, formatNapAddress, gbpProfileUrl, gbpReviewUrl } from '@/lib/businessDetails';
 import { MARKETING_DESTINATION_URLS } from '@/lib/utmLinks';
+import { BUSINESS_DIRECTORY_LISTINGS, BRAND_PROFILE_LISTINGS } from '@/lib/citationListings';
 import {
   BACKLINK_OUTREACH_TARGETS,
   MONTHLY_BACKLINK_AUDIT_STEPS,
@@ -260,6 +261,43 @@ export default function CitationsHubContent() {
           In Meta Events Manager, map the <strong>Lead</strong> standard event to quote form submissions only — not
           PageView. PageView is fired on every page load by design; Lead fires only after a successful Web3Forms submit.
         </p>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-black text-slate-900">Where WOW Gutters Ltd is listed</h2>
+        <p className="mt-2 text-slate-600">
+          Our business details (name, address and phone) on independent UK directories. Each listing matches
+          the NAP above.
+        </p>
+        <ul className="mt-4 grid gap-2 sm:grid-cols-2">
+          {BUSINESS_DIRECTORY_LISTINGS.map((l) => (
+            <li key={l.url}>
+              <a
+                href={l.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-emerald-700 underline underline-offset-2 hover:text-emerald-800"
+              >
+                WOW Gutters Ltd on {l.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+        <h3 className="mt-6 text-lg font-bold text-slate-900">Brand profiles</h3>
+        <ul className="mt-2 grid gap-2 sm:grid-cols-2">
+          {BRAND_PROFILE_LISTINGS.map((l) => (
+            <li key={l.url}>
+              <a
+                href={l.url}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                className="text-slate-700 underline underline-offset-2 hover:text-slate-900"
+              >
+                {l.name}
+              </a>
+            </li>
+          ))}
+        </ul>
       </section>
 
       <section>
