@@ -1,3 +1,4 @@
+import { HERO_IMAGE_SRC, HERO_IMAGE_SRCSET } from '@/lib/heroImage';
 import type { Metadata } from 'next';
 import HomeScreen from './home-screen/page';
 
@@ -45,13 +46,12 @@ export const metadata: Metadata = {
   }
 };
 
-const HERO_LCP_IMAGE = '/gutter-cleaning.jpeg';
 
 export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Homepage-only LCP preload (not applied site-wide) */}
-      <link rel="preload" as="image" href={HERO_LCP_IMAGE} fetchPriority="high" />
+      <link rel="preload" as="image" href={HERO_IMAGE_SRC} imageSrcSet={HERO_IMAGE_SRCSET} imageSizes="100vw" fetchPriority="high" />
       <HomeScreen />
     </div>
   );

@@ -34,7 +34,7 @@ export const servicesData: ServiceDetail[] = [
       {
         title: 'Why Choose WOW Gutters Ltd?',
         content: 'WOW Gutters Ltd specialises in gutter cleaning using a professional ground-level vacuum system — no ladders against your walls, no fascia damage, and no mess left on your driveway or garden. Our team clears the full gutter run, tests downpipes, and sends before and after photos so you can see exactly what was done.',
-        image: '/gutter-cleaning.jpeg',
+        image: '/gutter-cleaning.webp',
         imagePosition: 'right',
         bulletPoints: [
           'Ground-level gutter cleaning — no ladders placed against your property',
@@ -48,7 +48,7 @@ export const servicesData: ServiceDetail[] = [
       {
         title: 'What\'s Included in Every Gutter Clean',
         content: 'Every gutter cleaning appointment follows the same thorough process. We do not just scoop visible debris — we clear the channel, check outlets, and confirm rainwater can flow away from your property. If we spot damage, we explain whether gutter repairs are needed without pressure to book extra work.',
-        image: '/gutter-cleaning-before.jpeg',
+        image: '/gutter-cleaning-before.webp',
         imagePosition: 'left',
         bulletPoints: [
           'Full gutter vacuum clean — leaves, moss, silt, and compacted debris removed',
@@ -75,7 +75,7 @@ export const servicesData: ServiceDetail[] = [
       {
         title: 'Why Regular Gutter Cleaning Matters',
         content: 'Blocked gutters force rainwater over the edge of the channel instead of into the downpipe. That overflow leads to damp walls, fascia rot, foundation problems, and internal mould. Regular gutter cleaning is one of the most cost-effective ways to protect your home — far cheaper than roof cleaning, fascia replacement, or damp repairs after the damage is done.',
-        image: '/files/12_gutter_overflow_water_damage.jpg',
+        image: '/files/12_gutter_overflow_water_damage.webp',
         imagePosition: 'left',
         bulletPoints: [
           'Prevents damp patches and water staining on external walls',
@@ -89,7 +89,7 @@ export const servicesData: ServiceDetail[] = [
       {
         title: 'Our Ground-Level Vacuum System',
         content: 'Traditional ladder-based gutter cleaning can mark walls, damage fascias, and leave debris on the ground. Our high-reach vacuum system lets us complete professional gutter cleaning from the ground — including gutters above conservatories, porches, and extensions where ladder access is awkward.',
-        image: '/files/15_ground_based_vacuum_operative.jpg',
+        image: '/files/15_ground_based_vacuum_operative.webp',
         imagePosition: 'right',
         bulletPoints: [
           'No ladders against your property — safer for your home and our team',
@@ -103,7 +103,7 @@ export const servicesData: ServiceDetail[] = [
       {
         title: 'Gutter Cleaning & Related Services',
         content: 'Many customers book gutter cleaning alongside gutter inspection, gutter repairs, roof cleaning, or exterior uPVC cleaning. WOW Gutters Ltd covers the full roofline — from clearing blocked gutters to fixing leaking joints and removing moss from the roof.',
-        image: '/gutter-cleaning-westmidlands.png',
+        image: '/gutter-cleaning-westmidlands.webp',
         imagePosition: 'right',
         bulletPoints: [
           'Gutter inspection — check condition before problems become costly',
@@ -126,7 +126,7 @@ export const servicesData: ServiceDetail[] = [
     id: 'gutter-repairs',
     name: 'Gutter Repairs',
     icon: '🔧',
-    heroImage: '/gutter-repair-before.png',
+    heroImage: '/gutter-repair-before.webp',
     heroVideo: '/gutter-repair%20(2).mp4',
     heroTitle: 'Professional Gutter Repairs',
     heroDescription:
@@ -136,7 +136,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Why Choose WOW Gutters Ltd for Gutter Repairs?',
         content:
           'WOW Gutters Ltd fixes gutter problems properly — not quick silicone patches that fail in the next downpour. Our technicians diagnose the root cause, use quality seals and brackets, and test water flow before we leave. Many repairs are completed on the first visit, with honest advice if a full gutter replacement makes more sense.',
-        image: '/gutter-repair-after.jpeg',
+        image: '/gutter-repair-after.webp',
         imagePosition: 'right',
         bulletPoints: [
           'Leaking joints, sagging gutters, and loose brackets repaired by trained technicians',
@@ -151,7 +151,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Common Gutter Problems We Fix',
         content:
           'From small drips at a joint to a full run pulling away from the fascia, we repair the gutter issues that cause damp walls, stained brickwork, and rotten fascia boards. If we spot blockages or moss contributing to the damage, we will explain whether gutter cleaning or roof cleaning should be booked alongside the repair.',
-        image: '/gutter-repair-before.png',
+        image: '/gutter-repair-before.webp',
         imagePosition: 'left',
         bulletPoints: [
           'Leaking joints and failed seals at corners and connectors',
@@ -205,7 +205,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Gutter Repairs & Related Services',
         content:
           'Many customers book gutter repairs after a gutter clean or inspection reveals joint failure, bracket fatigue, or storm damage. WOW Gutters Ltd covers the full roofline — from fixing leaking gutters to clearing blockages and removing moss that accelerates wear.',
-        image: '/gutter-repair-after.jpeg',
+        image: '/gutter-repair-after.webp',
         imagePosition: 'right',
         bulletPoints: [
           'Gutter cleaning — clear debris before it strains brackets and joints',
@@ -431,7 +431,7 @@ export const servicesData: ServiceDetail[] = [
     id: 'gutter-inspection',
     name: 'Gutter Inspection',
     icon: '🔍',
-    heroImage: '/gutter-inspection.png',
+    heroImage: '/gutter-inspection.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Free Gutter Inspection',
     heroDescription:
@@ -441,7 +441,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Why Choose WOW Gutters Ltd for Gutter Inspection?',
         content:
           'WOW Gutters Ltd offers free gutter inspections so you can spot blockages, leaks, and bracket problems before they cause damp or expensive repairs. Our technicians explain what they find in plain English, send photos where helpful, and never pressure you to book work you do not need.',
-        image: '/gutter-inspection.png',
+        image: '/gutter-inspection.webp',
         imagePosition: 'right',
         bulletPoints: [
           'Free gutter inspection with no obligation to proceed',
@@ -508,7 +508,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Gutter Inspection & Related Services',
         content:
           'Many customers book a gutter inspection before cleaning, after spotting a leak, or alongside roof and fascia work. WOW Gutters Ltd can handle the full roofline in one visit where needed.',
-        image: '/professional-gutter-clean.png',
+        image: '/professional-gutter-clean.webp',
         imagePosition: 'left',
         bulletPoints: [
           'Gutter cleaning — clear debris found during inspection',
@@ -710,7 +710,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Conservatory Cleaning & Related Services',
         content:
           'Conservatory gutters often block faster than house gutters because the channels are smaller and roof moss washes straight in. WOW Gutters Ltd can clean the conservatory, clear the main house gutters, and refresh fascias in one coordinated visit.',
-        image: '/gutter-cleaning-westmidlands.png',
+        image: '/gutter-cleaning-westmidlands.webp',
         imagePosition: 'left',
         bulletPoints: [
           'Gutter cleaning — clear house gutters that feed the conservatory',
@@ -790,7 +790,7 @@ export const servicesData: ServiceDetail[] = [
     id: 'commercial-gutter-cleaning',
     name: 'Commercial Gutter Cleaning',
     icon: '🏢',
-    heroImage: '/gutter-cleaning-westmidlands.png',
+    heroImage: '/gutter-cleaning-westmidlands.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Commercial Gutter Cleaning',
     heroDescription:
@@ -800,7 +800,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Why Choose WOW Gutters Ltd for Commercial Gutter Cleaning?',
         content:
           'WOW Gutters Ltd delivers commercial gutter cleaning that fits around your operations — not the other way around. We clear gutters on warehouses, offices, schools, and retail parks using ground-level vacuum systems and safe access methods where height requires it. Every visit includes downpipe testing, defect notes, and before and after photos for your maintenance records.',
-        image: '/files/17_aerial_warehouse_roof_overview.jpg',
+        image: '/files/17_aerial_warehouse_roof_overview.webp',
         imagePosition: 'right',
         bulletPoints: [
           'Commercial gutter cleaning for warehouses, offices, schools, and retail',
@@ -867,7 +867,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Commercial Gutter Cleaning & Related Services',
         content:
           'Many commercial sites need more than gutter clearing alone. WOW Gutters Ltd can combine commercial gutter cleaning with roof treatment, fascia cleaning, and repairs in one coordinated programme.',
-        image: '/files/16_gutter_cleared_clean_result.jpg',
+        image: '/files/16_gutter_cleared_clean_result.webp',
         imagePosition: 'left',
         bulletPoints: [
           'Commercial roof cleaning — treat moss that refills gutters quickly',
@@ -901,7 +901,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Why Choose WOW Gutters Ltd for Commercial Roof Cleaning?',
         content:
           'WOW Gutters Ltd treats commercial roof cleaning as asset protection — not aggressive jet washing that damages membranes, dislodges fixings, or forces water into the building. We remove moss and algae carefully, apply treatment to slow regrowth, and coordinate with gutter clearing so debris does not block drainage straight after the roof is treated.',
-        image: '/files/18_aerial_moss_patches_roof.jpg',
+        image: '/files/18_aerial_moss_patches_roof.webp',
         imagePosition: 'right',
         bulletPoints: [
           'Soft-wash commercial roof cleaning — suited to UK warehouse and office roofs',
@@ -1034,7 +1034,7 @@ export const servicesData: ServiceDetail[] = [
     id: 'commercial-downpipe-cleaning',
     name: 'Commercial Downpipe Cleaning',
     icon: '🏢',
-    heroImage: '/gutter-cleaning-westmidlands.png',
+    heroImage: '/gutter-cleaning-westmidlands.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Commercial Downpipe Cleaning',
     heroDescription:
@@ -1044,7 +1044,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Commercial Downpipe Cleaning Services',
         content:
           'Blocked downpipes on commercial properties cause water to back up in gutters, overflow against walls, and pool at ground level creating slip hazards. WOW Gutters Ltd provides professional commercial downpipe cleaning using specialist rods, vacuum suction, and water jetting to clear blockages and confirm flow restoration on every outlet.',
-        image: '/files/10_downpipe_outlet_completely_blocked.jpg',
+        image: '/files/10_downpipe_outlet_completely_blocked.webp',
         imagePosition: 'right',
         bulletPoints: [
           'Professional downpipe clearance for offices, warehouses, and retail units',
@@ -1098,7 +1098,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Commercial Services & Related Options',
         content:
           'Downpipe cleaning is often combined with gutter cleaning for comprehensive drainage maintenance across commercial properties.',
-        image: '/files/04_blocked_downpipe_outlet_closeup.jpg',
+        image: '/files/04_blocked_downpipe_outlet_closeup.webp',
         imagePosition: 'left',
         bulletPoints: [
           'Commercial gutter cleaning — full gutter clearance on the same visit',
@@ -1122,7 +1122,7 @@ export const servicesData: ServiceDetail[] = [
     id: 'commercial-fascia-soffit-cleaning',
     name: 'Commercial Fascia & Soffit Cleaning',
     icon: '🏢',
-    heroImage: '/gutter-cleaning-westmidlands.png',
+    heroImage: '/gutter-cleaning-westmidlands.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Commercial Fascia & Soffit Cleaning',
     heroDescription:
@@ -1132,7 +1132,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Commercial Fascia and Soffit Cleaning Services',
         content:
           'Dirty fascias and soffits make commercial premises look neglected. WOW Gutters Ltd provides professional fascia and soffit cleaning for commercial properties using hot water washing and safe access methods, removing algae, moss, and grime without damaging UPVC surfaces.',
-        image: '/files/05_roof_overview_moss_streaks.jpg',
+        image: '/files/05_roof_overview_moss_streaks.webp',
         imagePosition: 'right',
         bulletPoints: [
           'Hot water fascia cleaning for commercial premises of all sizes',
@@ -1173,7 +1173,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Commercial Services & Related Options',
         content:
           'Fascia and soffit cleaning is often combined with other roofline services. WOW Gutters Ltd can coordinate multiple services in one visit.',
-        image: '/files/18_aerial_moss_patches_roof.jpg',
+        image: '/files/18_aerial_moss_patches_roof.webp',
         imagePosition: 'left',
         bulletPoints: [
           'Commercial gutter cleaning — clear gutters at the same time',
@@ -1197,7 +1197,7 @@ export const servicesData: ServiceDetail[] = [
     id: 'commercial-property-gutter-maintenance',
     name: 'Commercial Property Gutter Maintenance',
     icon: '🏢',
-    heroImage: '/gutter-cleaning-westmidlands.png',
+    heroImage: '/gutter-cleaning-westmidlands.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Commercial Property Gutter Maintenance',
     heroDescription:
@@ -1207,7 +1207,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Commercial Property Gutter Maintenance Programme',
         content:
           'Commercial properties need gutter maintenance that protects the building, meets compliance requirements, and fits around business operations. WOW Gutters Ltd provides planned gutter maintenance programmes with flexible scheduling and professional documentation.',
-        image: '/files/19_aerial_full_warehouse_complex.jpg',
+        image: '/files/19_aerial_full_warehouse_complex.webp',
         imagePosition: 'right',
         bulletPoints: [
           'Planned maintenance programmes for all commercial property types',
@@ -1248,7 +1248,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Commercial Services & Related Options',
         content:
           'Gutter maintenance programmes can be combined with other commercial services for comprehensive roofline care.',
-        image: '/files/20_aerial_treeside_roof_section.jpg',
+        image: '/files/20_aerial_treeside_roof_section.webp',
         imagePosition: 'left',
         bulletPoints: [
           'Commercial roof cleaning — treat moss that refills gutters quickly',
@@ -1272,7 +1272,7 @@ export const servicesData: ServiceDetail[] = [
     id: 'gutter-cleaning-contracts',
     name: 'Gutter Cleaning Contracts',
     icon: '🏢',
-    heroImage: '/gutter-cleaning-westmidlands.png',
+    heroImage: '/gutter-cleaning-westmidlands.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Gutter Cleaning Contracts',
     heroDescription:
@@ -1282,7 +1282,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Gutter Cleaning Contract Services',
         content:
           'A gutter cleaning contract provides scheduled maintenance with fixed pricing, priority booking, and peace of mind. WOW Gutters Ltd offers gutter cleaning contracts for commercial properties, landlords, managing agents, and homeowners who want reliable year-round gutter care.',
-        image: '/files/13_cherry_picker_access_street.jpg',
+        image: '/files/13_cherry_picker_access_street.webp',
         imagePosition: 'right',
         bulletPoints: [
           'Scheduled gutter cleaning visits tailored to your property\'s needs',
@@ -1323,7 +1323,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Who Benefits from Gutter Cleaning Contracts',
         content:
           'Our gutter cleaning contracts are popular with a wide range of customers across Birmingham and the West Midlands.',
-        image: '/files/15_ground_based_vacuum_operative.jpg',
+        image: '/files/15_ground_based_vacuum_operative.webp',
         imagePosition: 'left',
         bulletPoints: [
           'Commercial property owners and facilities managers',
@@ -1347,7 +1347,7 @@ export const servicesData: ServiceDetail[] = [
     id: 'gutter-cleaning-for-landlords',
     name: 'Gutter Cleaning for Landlords',
     icon: '🏢',
-    heroImage: '/gutter-cleaning-westmidlands.png',
+    heroImage: '/gutter-cleaning-westmidlands.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Gutter Cleaning for Landlords',
     heroDescription:
@@ -1357,7 +1357,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Gutter Cleaning Services for Landlords',
         content:
           'Landlords have a legal responsibility to maintain their properties in good repair, including gutters. WOW Gutters Ltd provides professional gutter cleaning for rental properties with photographic evidence for compliance and tenant communication. We serve private landlords, letting agents, and portfolio investors.',
-        image: '/files/15_ground_based_vacuum_operative.jpg',
+        image: '/files/15_ground_based_vacuum_operative.webp',
         imagePosition: 'right',
         bulletPoints: [
           'Professional gutter cleaning for all rental property types',
@@ -1398,7 +1398,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Landlord Services & Related Options',
         content:
           'Beyond gutter cleaning, we offer complementary services that help landlords maintain their properties to a high standard.',
-        image: '/files/12_gutter_overflow_water_damage.jpg',
+        image: '/files/12_gutter_overflow_water_damage.webp',
         imagePosition: 'left',
         bulletPoints: [
           'HMO gutter cleaning — documented evidence for HMO licensing',
@@ -1422,7 +1422,7 @@ export const servicesData: ServiceDetail[] = [
     id: 'block-management-gutter-cleaning',
     name: 'Block Management Gutter Cleaning',
     icon: '🏢',
-    heroImage: '/gutter-cleaning-westmidlands.png',
+    heroImage: '/gutter-cleaning-westmidlands.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Block Management Gutter Cleaning',
     heroDescription:
@@ -1432,7 +1432,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Block Management Gutter Cleaning Services',
         content:
           'Block management companies oversee gutter maintenance across multiple properties and need services that are reliable, documented, and easy to administer. WOW Gutters Ltd partners with managing agents to provide professional gutter cleaning programmes with comprehensive reporting.',
-        image: '/files/20_aerial_treeside_roof_section.jpg',
+        image: '/files/20_aerial_treeside_roof_section.webp',
         imagePosition: 'right',
         bulletPoints: [
           'Planned gutter maintenance for entire block portfolios',
@@ -1473,7 +1473,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Areas & Related Services',
         content:
           'We serve block management companies across all Birmingham and West Midlands postcodes, with coordinated services for managed blocks.',
-        image: '/files/13_cherry_picker_access_street.jpg',
+        image: '/files/13_cherry_picker_access_street.webp',
         imagePosition: 'left',
         bulletPoints: [
           'Apartment block gutter cleaning — shared roofline systems',
@@ -1497,7 +1497,7 @@ export const servicesData: ServiceDetail[] = [
     id: 'commercial-gutter-cleaning-services',
     name: 'Commercial Gutter Cleaning Services',
     icon: '🏢',
-    heroImage: '/gutter-cleaning-westmidlands.png',
+    heroImage: '/gutter-cleaning-westmidlands.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Commercial Gutter Cleaning Services',
     heroDescription:
@@ -1507,7 +1507,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Our Full Range of Commercial Gutter Services',
         content:
           'WOW Gutters Ltd offers a complete range of commercial gutter cleaning services across Birmingham and the West Midlands. From one-off clearances to planned maintenance programmes, our industrial-grade equipment and experienced team handle commercial properties of all sizes — including offices, warehouses, retail units, schools, and industrial premises.',
-        image: '/files/19_aerial_full_warehouse_complex.jpg',
+        image: '/files/19_aerial_full_warehouse_complex.webp',
         imagePosition: 'right',
         bulletPoints: [
           'One-off commercial gutter clearance for urgent requirements',
@@ -1548,7 +1548,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Additional Commercial Services Available',
         content:
           'Beyond gutter cleaning, we offer complementary services that many commercial properties need as part of their roofline maintenance programme.',
-        image: '/files/16_gutter_cleared_clean_result.jpg',
+        image: '/files/16_gutter_cleared_clean_result.webp',
         imagePosition: 'left',
         bulletPoints: [
           'Commercial roof cleaning — moss removal and biocide treatment',
@@ -1572,7 +1572,7 @@ export const servicesData: ServiceDetail[] = [
     id: 'gutter-cleaning-for-facilities-managers',
     name: 'Gutter Cleaning for Facilities Managers',
     icon: '🏢',
-    heroImage: '/gutter-cleaning-westmidlands.png',
+    heroImage: '/gutter-cleaning-westmidlands.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Gutter Cleaning for Facilities Managers',
     heroDescription:
@@ -1582,7 +1582,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Gutter Cleaning Services for Facilities Managers',
         content:
           'Facilities managers need gutter maintenance that is reliable, documented, and coordinated with other building services. WOW Gutters Ltd provides professional gutter cleaning for FMs across Birmingham and the West Midlands, with flexible contracts and comprehensive reporting.',
-        image: '/files/08_canalside_drop_downpipe_view.jpg',
+        image: '/files/08_canalside_drop_downpipe_view.webp',
         imagePosition: 'right',
         bulletPoints: [
           'Reliable gutter maintenance for all facilities under management',
@@ -1623,7 +1623,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Properties & Related Services',
         content:
           'We serve facilities managers across all property types with a range of coordinated services.',
-        image: '/files/17_aerial_warehouse_roof_overview.jpg',
+        image: '/files/17_aerial_warehouse_roof_overview.webp',
         imagePosition: 'left',
         bulletPoints: [
           'Office buildings and corporate headquarters',
@@ -1647,7 +1647,7 @@ export const servicesData: ServiceDetail[] = [
     id: 'gutter-cleaning-for-property-developers',
     name: 'Gutter Cleaning for Property Developers',
     icon: '🏢',
-    heroImage: '/gutter-cleaning-westmidlands.png',
+    heroImage: '/gutter-cleaning-westmidlands.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Gutter Cleaning for Property Developers',
     heroDescription:
@@ -1657,7 +1657,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Gutter Cleaning for Property Developers',
         content:
           'Property developers need reliable gutter cleaning at key stages of the development process — from snagging clearance before handover to maintenance during the defect period. WOW Gutters Ltd provides professional gutter services for developers across Birmingham and the West Midlands.',
-        image: '/files/13_cherry_picker_access_street.jpg',
+        image: '/files/13_cherry_picker_access_street.webp',
         imagePosition: 'right',
         bulletPoints: [
           'Pre-handover gutter clearance for new build properties',
@@ -1698,7 +1698,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Developer Services & Related Options',
         content:
           'Beyond gutter snagging, we offer services that support developers throughout the build process.',
-        image: '/files/09_gutter_standing_water_debris.jpg',
+        image: '/files/09_gutter_standing_water_debris.webp',
         imagePosition: 'left',
         bulletPoints: [
           'New build gutter snagging — catch installation defects early',
@@ -1722,7 +1722,7 @@ export const servicesData: ServiceDetail[] = [
     id: 'approved-gutter-cleaning-contractor',
     name: 'Approved Gutter Cleaning Contractor',
     icon: '🏢',
-    heroImage: '/gutter-cleaning-westmidlands.png',
+    heroImage: '/gutter-cleaning-westmidlands.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Approved Gutter Cleaning Contractor',
     heroDescription:
@@ -1732,7 +1732,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Approved Gutter Cleaning Contractor',
         content:
           'WOW Gutters Ltd operates as an approved gutter cleaning contractor across Birmingham and the West Midlands, trusted by commercial clients, letting agents, block managers, and homeowners for reliable, professional gutter maintenance.',
-        image: '/files/15_ground_based_vacuum_operative.jpg',
+        image: '/files/15_ground_based_vacuum_operative.webp',
         imagePosition: 'right',
         bulletPoints: [
           'Fully insured with £10 million public liability cover',
@@ -1773,7 +1773,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Who We Work With',
         content:
           'Our approved contractor status means we work with a wide range of clients who need reliable, documented gutter maintenance.',
-        image: '/files/18_aerial_moss_patches_roof.jpg',
+        image: '/files/18_aerial_moss_patches_roof.webp',
         imagePosition: 'left',
         bulletPoints: [
           'Commercial property owners and facilities managers',
@@ -1797,7 +1797,7 @@ export const servicesData: ServiceDetail[] = [
     id: 'gutter-cleaning-for-multiple-sites',
     name: 'Gutter Cleaning for Multiple Sites',
     icon: '🏢',
-    heroImage: '/gutter-cleaning-westmidlands.png',
+    heroImage: '/gutter-cleaning-westmidlands.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     heroTitle: 'Gutter Cleaning for Multiple Sites',
     heroDescription:
@@ -1807,7 +1807,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Multi-Site Gutter Cleaning Services',
         content:
           'Managing gutter maintenance across multiple sites is a challenge for any business. WOW Gutters Ltd provides coordinated gutter cleaning for multi-site organisations with centralised billing, consistent service standards, and flexible scheduling across Birmingham and the West Midlands.',
-        image: '/files/19_aerial_full_warehouse_complex.jpg',
+        image: '/files/19_aerial_full_warehouse_complex.webp',
         imagePosition: 'right',
         bulletPoints: [
           'Coordinated gutter cleaning across all your sites',
@@ -1848,7 +1848,7 @@ export const servicesData: ServiceDetail[] = [
         title: 'Related Services for Multi-Site Portfolios',
         content:
           'Beyond gutter cleaning, we provide complementary services that can be coordinated across your multi-site portfolio.',
-        image: '/files/07_canalside_gutter_moss_vegetation.jpg',
+        image: '/files/07_canalside_gutter_moss_vegetation.webp',
         imagePosition: 'left',
         bulletPoints: [
           'Gutter cleaning contracts — fixed annual pricing across portfolio',

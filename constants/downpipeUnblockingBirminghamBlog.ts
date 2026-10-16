@@ -1,10 +1,10 @@
 import type { BlogPost } from './blogTypes';
 
-const IMG_HERO   = '/blog-images/downpipe-unblock/downpipe-unblock-hero.png';
-const IMG_BEFORE = '/blog-images/downpipe-unblock/downpipe-unblock-before.png';
-const IMG_AFTER  = '/blog-images/downpipe-unblock/downpipe-unblock-after.png';
-const IMG_DETAIL1 = '/blog-images/downpipe-unblock/downpipe-unblock-image1.png';
-const IMG_DETAIL2 = '/blog-images/downpipe-unblock/downpipe-unblock-image2.png';
+const IMG_HERO   = '/blog-images/downpipe-unblock/downpipe-unblock-hero.webp';
+const IMG_BEFORE = '/blog-images/downpipe-unblock/downpipe-unblock-before.webp';
+const IMG_AFTER  = '/blog-images/downpipe-unblock/downpipe-unblock-after.webp';
+const IMG_DETAIL1 = '/blog-images/downpipe-unblock/downpipe-unblock-image1.webp';
+const IMG_DETAIL2 = '/blog-images/downpipe-unblock/downpipe-unblock-image2.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

@@ -1,10 +1,10 @@
 import type { BlogPost } from './blogTypes';
 
-const IMG_HERO = '/blog-images/bungalow-gutter-cleaning/bungalow-proper-hero.jpg';
-const IMG_LOW_ROOF = '/blog-images/bungalow-gutter-cleaning/low-roof-access.jpg';
-const IMG_TREES_OVERHANGING = '/blog-images/bungalow-gutter-cleaning/overhanging-trees.jpg';
-const IMG_MOSS_WIDE_ROOF = '/blog-images/bungalow-gutter-cleaning/moss-wide-roof.jpg';
-const IMG_EXTENSIONS = '/blog-images/bungalow-gutter-cleaning/bungalow-extensions.jpg';
+const IMG_HERO = '/blog-images/bungalow-gutter-cleaning/bungalow-proper-hero.webp';
+const IMG_LOW_ROOF = '/blog-images/bungalow-gutter-cleaning/low-roof-access.webp';
+const IMG_TREES_OVERHANGING = '/blog-images/bungalow-gutter-cleaning/overhanging-trees.webp';
+const IMG_MOSS_WIDE_ROOF = '/blog-images/bungalow-gutter-cleaning/moss-wide-roof.webp';
+const IMG_EXTENSIONS = '/blog-images/bungalow-gutter-cleaning/bungalow-extensions.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 
@@ -320,4 +320,4 @@ ${ctaBox}
 
 <p><strong>Related reading:</strong> <a href="/blog/gutter-ladder-safety/" style="${link}">Can You Clean Your Own Gutters Safely?</a> · <a href="/blog/tree-cover-gutter-cleaning-schedule-birmingham/" style="${link}">How Tree Cover Changes Your Gutter Cleaning Schedule in Birmingham</a> · <a href="/blog/flat-roof-gutters-birmingham-maintenance/" style="${link}">Flat Roof Gutters in Birmingham</a> · <a href="/gutter-vacuum-cleaning-birmingham/" style="${link}">Gutter Vacuum Cleaning Birmingham</a> · <a href="/roofline-cleaning-birmingham/" style="${link}">Roofline Cleaning Birmingham</a> · <a href="/blog/leaves-in-gutters/" style="${link}">Leaves in Gutters?</a> · <a href="/blog/gutter-water-damage-guide/" style="${link}">Water Damage From Gutters</a> · <a href="/blog/complete-gutter-maintenance-birmingham-west-midlands/" style="${link}">The Complete Guide to Gutter Maintenance</a></p>
 `
-};
+};

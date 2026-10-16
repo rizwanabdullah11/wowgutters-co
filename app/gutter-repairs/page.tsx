@@ -14,7 +14,7 @@ const service: ServiceDetail = {
   id: 'gutter-repairs',
   name: 'Gutter Repairs',
   icon: '🔧',
-  heroImage: '/gutter-repair-before.png',
+  heroImage: '/gutter-repair-before.webp',
   heroTitle: 'Gutter Repairs You Can Rely On',
   heroDescription:
     'WOW Gutters Ltd repairs all types of gutter problems — leaking joints, sagging sections, loose brackets, cracked downpipes, and poor fall. Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.',
@@ -23,7 +23,7 @@ const service: ServiceDetail = {
       title: 'Why Choose WOW Gutters Ltd for Gutter Repairs?',
       content:
         'A leaking gutter rarely fixes itself. Water that misses the downpipe ends up against your walls, saturating brickwork, rotting fascias, and finding its way into your home. WOW Gutters Ltd treats every repair as a permanent solution — not a temporary patch. Our technicians carry a full stock of seals, brackets, connectors, and pipe sections so most repairs are completed in a single visit.',
-      image: '/gutter-repair-after.jpeg',
+      image: '/gutter-repair-after.webp',
       imagePosition: 'right',
       bulletPoints: [
         'Leaks diagnosed at the source — not just silicone over the symptom',
@@ -38,7 +38,7 @@ const service: ServiceDetail = {
       title: 'What We Fix',
       content:
         'Gutters take a lot of punishment — sun, frost, wind, and the weight of wet debris. Over time joints open up, brackets snap, and sections sag. WOW Gutters Ltd covers the full range of repairs, from a single leaking union to a full gutter run re-hung with new brackets.',
-      image: '/gutter-repair-before.png',
+      image: '/gutter-repair-before.webp',
       imagePosition: 'left',
       bulletPoints: [
         'Leaking joints — corner pieces, unions, and stop-ends resealed',
@@ -75,7 +75,7 @@ const service: ServiceDetail = {
       title: 'Gutter Repairs & Related Services',
       content:
         'A repair visit is a good opportunity to check the rest of your roofline. Many customers combine repairs with a gutter clean, roof moss removal, or a full exterior uPVC clean. WOW Gutters Ltd can handle everything in one visit.',
-      image: '/gutter-cleaning-westmidlands.png',
+      image: '/gutter-cleaning-westmidlands.webp',
       imagePosition: 'right',
       bulletPoints: [
         'Gutter cleaning — remove debris that may be hiding further damage',

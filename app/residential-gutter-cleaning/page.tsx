@@ -23,7 +23,7 @@ const service: ServiceDetail = {
       title: 'Residential Gutter Cleaning — What We Do',
       content:
         'WOW Gutters Ltd specialises in residential gutter cleaning across the West Midlands. We use a commercial-grade vacuum system that reaches up to four storeys from ground level, meaning no ladders ever touch your property. We remove leaves, moss, silt, and compacted debris from the full gutter channel, clear every downpipe outlet, and flush each downpipe with water to confirm free flow. Every job is photographed and the images are sent to you the same day. Most domestic cleans are completed in 30–60 minutes.',
-      image: '/gutter-cleaning.jpeg',
+      image: '/gutter-cleaning.webp',
       imagePosition: 'right',
       bulletPoints: [
         'Ground-level operation — no ladders touch your property',
@@ -38,7 +38,7 @@ const service: ServiceDetail = {
       title: 'Why Residential Gutter Cleaning Matters',
       content:
         'Blocked gutters are one of the most common causes of property damage in UK homes. When gutters fill with leaves, moss and debris, rainwater overflows the channel edge and runs down your walls. Over time this leads to damp inside the property, mould growth, rotting fascias, and even foundation damage. For homeowners across Birmingham, Wolverhampton, Coventry and the wider West Midlands, regular gutter cleaning is the simplest and most cost-effective way to protect your property.',
-      image: '/files/12_gutter_overflow_water_damage.jpg',
+      image: '/files/12_gutter_overflow_water_damage.webp',
       imagePosition: 'left',
       bulletPoints: [
         'Prevents damp patches and water staining on external walls',
@@ -78,7 +78,7 @@ const service: ServiceDetail = {
       title: 'Residential Gutter Cleaning & Related Services',
       content:
         'A clean gutter system works best when the full roofline is maintained. Many homeowners book gutter cleaning alongside roof moss treatment, uPVC restoration, or a free gutter inspection. We cover all aspects of residential roofline care across the West Midlands.',
-      image: '/gutter-cleaning-westmidlands.png',
+      image: '/gutter-cleaning-westmidlands.webp',
       imagePosition: 'right',
       bulletPoints: [
         'Gutter inspection — check the condition of your full system',
@@ -100,4 +100,4 @@ const service: ServiceDetail = {
 
 export default function ResidentialGutterCleaningPage() {
   return <ServiceDetailPage service={service} />;
-}
+}

@@ -1,9 +1,9 @@
 import type { BlogPost } from './blogTypes';
 
-const IMG_HERO = '/water-gutter-cleaning/water-damage-hero.jpg';
-const IMG_FASCIA_DAMAGE = '/water-gutter-cleaning/fascia-damage.jpg';
-const IMG_OVERFLOW = '/water-gutter-cleaning/gutter-overflow.jpg';
-const IMG_INTERIOR_DAMP = '/water-gutter-cleaning/interior-damp.jpg';
+const IMG_HERO = '/water-gutter-cleaning/water-damage-hero.webp';
+const IMG_FASCIA_DAMAGE = '/water-gutter-cleaning/fascia-damage.webp';
+const IMG_OVERFLOW = '/water-gutter-cleaning/gutter-overflow.webp';
+const IMG_INTERIOR_DAMP = '/water-gutter-cleaning/interior-damp.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 
@@ -363,4 +363,4 @@ ${ctaBox}
 
 <p><strong>Related reading:</strong> <a href="/blog/blocked-gutters-cause-damp/" style="${link}">Can Blocked Gutters Cause Damp?</a> · <a href="/blog/west-midlands-home-storing-water-damage/" style="${link}">Is Your West Midlands Home Quietly Storing Water Damage Right Now?</a> · <a href="/blog/professional-gutter-cleaning-extends-roofline-life/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a> · <a href="/roofline-cleaning-birmingham/" style="${link}">Roofline Cleaning Birmingham</a> · <a href="/blog/soffit-damage-west-midlands-early-signs/" style="${link}">Soffit Damage in West Midlands Homes</a> · <a href="/blog/clogged-gutters-signs/" style="${link}">Clogged Gutters Birmingham: Signs You're Missing</a> · <a href="/blog/hidden-gutter-damage-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a> · <a href="/blog/complete-gutter-maintenance-birmingham-west-midlands/" style="${link}">The Complete Guide to Gutter Maintenance</a></p>
 `
-};
+};

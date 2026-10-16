@@ -217,7 +217,7 @@ export default function CommercialGutterCleaningPage() {
           'Do you cover multi-site portfolios?',
           'What documentation do you provide?',
         ]}
-        backgroundImage="/gutter-cleaning.jpeg"
+        backgroundImage="/gutter-cleaning.webp"
       />
 
       <section className="py-20 bg-white">

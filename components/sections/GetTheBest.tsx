@@ -33,7 +33,7 @@ export default function GetTheBest() {
             >
               <div className="relative">
                 <img
-                  src="/get-info.png"
+                  src="/get-info.webp"
                   alt="WOW Gutters Ltd professional gutter services"
                   className="w-full object-cover"
                   style={{ maxHeight: '480px' }}

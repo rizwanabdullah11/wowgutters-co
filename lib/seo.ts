@@ -1,4 +1,13 @@
 import type { Metadata } from 'next';
+import { existsSync } from 'node:fs';
+import { join } from 'node:path';
+
+/** Per-town OG images were never created; fall back to the shared one so shares never show a broken image. */
+function resolveOgImage(path?: string): string {
+  if (!path) return '/og/default.jpg';
+  if (path.startsWith('/') && !existsSync(join(process.cwd(), 'public', path))) return '/og/default.jpg';
+  return path;
+}
 
 type BuildMetadataInput = {
   /** Plain title; root layout appends ` | WOW Gutters Ltd` unless `absoluteTitle` is set. */
@@ -34,7 +43,7 @@ function toAbsoluteUrl(pathname: string) {
 }
 
 export function buildMetadata(input: BuildMetadataInput): Metadata {
-  const ogImage = input.ogImagePath ?? '/og/default.jpg';
+  const ogImage = resolveOgImage(input.ogImagePath);
   const canonical = input.canonicalPath ? toAbsoluteUrl(input.canonicalPath) : undefined;
 
   const titleForTags = input.absoluteTitle ?? input.title ?? 'WOW Gutters Ltd';

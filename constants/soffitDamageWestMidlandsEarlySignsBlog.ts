@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  '/blog-images/scoffts-gutter-cleaning/scoffts-gutter-cleaning-hero.png';
+  '/blog-images/scoffts-gutter-cleaning/scoffts-gutter-cleaning-hero.webp';
 const IMG_BEFORE =
-  '/blog-images/scoffts-gutter-cleaning/scoffts-gutter-cleaning-before.png';
+  '/blog-images/scoffts-gutter-cleaning/scoffts-gutter-cleaning-before.webp';
 const IMG_AFTER =
-  '/blog-images/scoffts-gutter-cleaning/scoffts-gutter-cleaning-after.png';
+  '/blog-images/scoffts-gutter-cleaning/scoffts-gutter-cleaning-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 
@@ -356,4 +356,4 @@ ${ctaBox}
   <li><a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
 </ul>
 `,
-};
+};

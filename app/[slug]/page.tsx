@@ -277,7 +277,7 @@ function buildInstallationMetadata(areaSlug: string): Metadata {
       description:
         'Professional uPVC gutter installation in Birmingham. Free survey, measured and fitted with correct fall, fully insured workmanship. Call WOW Gutters Ltd: 07421 433910.',
       canonicalPath: installationAreaPath(areaSlug),
-      ogImagePath: '/gutter-installation.png',
+      ogImagePath: '/gutter-installation.webp',
     });
   }
 
@@ -287,7 +287,7 @@ function buildInstallationMetadata(areaSlug: string): Metadata {
       absoluteTitle: cityLanding.titleTag,
       description: cityLanding.metaDescription,
       canonicalPath: installationAreaPath(areaSlug),
-      ogImagePath: '/gutter-installation.png',
+      ogImagePath: '/gutter-installation.webp',
     });
   }
 
@@ -301,7 +301,7 @@ function buildInstallationMetadata(areaSlug: string): Metadata {
       absoluteTitle: `${suburb.heroTitleLine1} | WOW Gutters Ltd`,
       description,
       canonicalPath: installationAreaPath(areaSlug),
-      ogImagePath: '/gutter-installation.png',
+      ogImagePath: '/gutter-installation.webp',
     });
   }
 
@@ -311,7 +311,7 @@ function buildInstallationMetadata(areaSlug: string): Metadata {
       absoluteTitle: generated.titleTag,
       description: generated.metaDescription,
       canonicalPath: installationAreaPath(areaSlug),
-      ogImagePath: '/gutter-installation.png',
+      ogImagePath: '/gutter-installation.webp',
     });
   }
 
@@ -319,7 +319,7 @@ function buildInstallationMetadata(areaSlug: string): Metadata {
     title: `Gutter Installation ${areaName}`,
     description: `Professional gutter installation in ${areaName}. New uPVC systems measured, supplied and fitted with professional flow testing. Call WOW Gutters Ltd: 07421 433910.`,
     canonicalPath: installationAreaPath(areaSlug),
-    ogImagePath: '/gutter-installation.png',
+    ogImagePath: '/gutter-installation.webp',
   });
 }
 

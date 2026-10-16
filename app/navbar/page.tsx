@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Home, ChevronDown, Phone, Mail, Droplets, Wrench, Circle, Search, Hammer, Building } from 'lucide-react';
-import mobileLogo from '@/assets/wow-gutter-logo.png';
+import mobileLogo from '@/assets/wow-gutter-logo.webp';
 import { colors } from '@/constants/colors';
 import { isQuoteEmbedPath } from '@/lib/isQuoteEmbedPath';
 

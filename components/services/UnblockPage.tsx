@@ -217,7 +217,7 @@ export default function UnblockPage() {
           'What causes gutter blockages?',
           'How much does gutter unblocking cost?',
         ]}
-        backgroundImage="/gutter-cleaning.jpeg"
+        backgroundImage="/gutter-cleaning.webp"
       />
 
       {/* Unblock Service Section - Text Left, Image Right */}
@@ -273,7 +273,7 @@ export default function UnblockPage() {
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="/gutter-cleaning.jpeg" 
+                  src="/gutter-cleaning.webp" 
                   alt="Professional Gutter Unblocking Service" 
                   className="w-full h-auto object-cover"
                 />
@@ -447,4 +447,4 @@ export default function UnblockPage() {
       </section>
     </main>
   );
-}
+}

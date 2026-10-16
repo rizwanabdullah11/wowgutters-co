@@ -44,7 +44,7 @@ ${ctaTop}
 
 <figure style="margin: 2rem 0; text-align: center;">
   <img
-    src="/blog-images/gutter-vacuum-cleaning-birmingham/gutter-vacuum-cleaning-birmingham-hero.png"
+    src="/blog-images/gutter-vacuum-cleaning-birmingham/gutter-vacuum-cleaning-birmingham-hero.webp"
     alt="WOW Gutters Ltd operative using ground-based SkyVac vacuum system for gutter vacuum cleaning in Birmingham – no ladders, four-storey reach"
     width="900"
     height="500"
@@ -71,7 +71,7 @@ ${ctaTop}
 
 <figure style="margin: 2rem 0; text-align: center;">
   <img
-    src="/files/15_ground_based_vacuum_operative.jpg"
+    src="/files/15_ground_based_vacuum_operative.webp"
     alt="WOW Gutters Ltd technician operating ground-based carbon-fibre pole vacuum system from ground level to clear gutters in Birmingham without ladders"
     width="900"
     height="600"
@@ -98,7 +98,7 @@ ${ctaTop}
 
 <figure style="margin: 2rem 0; text-align: center;">
   <img
-    src="/files/02_operative_removing_debris.jpg"
+    src="/files/02_operative_removing_debris.webp"
     alt="WOW Gutters Ltd operative removing compacted leaf and silt debris from a blocked Birmingham residential gutter – typical build-up extracted by the vacuum system"
     width="900"
     height="600"
@@ -138,7 +138,7 @@ ${ctaTop}
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 2rem 0;">
   <figure style="margin: 0; text-align: center;">
     <img
-      src="/blog-images/gutter-vacuum-cleaning-birmingham/gutter-vacuum-cleaning-birmingham-before.png"
+      src="/blog-images/gutter-vacuum-cleaning-birmingham/gutter-vacuum-cleaning-birmingham-before.webp"
       alt="Severely blocked Birmingham residential gutter packed with compacted leaf silt, moss and debris before WOW Gutters vacuum extraction – standing water visible"
       width="440"
       height="300"
@@ -149,7 +149,7 @@ ${ctaTop}
   </figure>
   <figure style="margin: 0; text-align: center;">
     <img
-      src="/blog-images/gutter-vacuum-cleaning-birmingham/gutter-vacuum-cleaning-birmingham-after.png"
+      src="/blog-images/gutter-vacuum-cleaning-birmingham/gutter-vacuum-cleaning-birmingham-after.webp"
       alt="Same Birmingham gutter channel fully cleared to the uPVC floor after professional ground-based vacuum cleaning by WOW Gutters Ltd – unobstructed rainwater drainage restored"
       width="440"
       height="300"
@@ -162,7 +162,7 @@ ${ctaTop}
 
 <figure style="margin: 2rem 0; text-align: center;">
   <img
-    src="/files/16_gutter_cleared_clean_result.jpg"
+    src="/files/16_gutter_cleared_clean_result.webp"
     alt="Clean Birmingham gutter channel after professional vacuum extraction by WOW Gutters Ltd – uPVC floor fully visible, no debris remaining, downpipe outlet clear"
     width="900"
     height="600"
@@ -357,7 +357,7 @@ export const gutterVacuumCleaningBirminghamBlogPost: BlogPost = {
   excerpt: 'Ground-based gutter vacuum cleaning in Birmingham: no ladders, four-storey reach, live camera inspection and before and after photos on every job. Call 07421 433910.',
   shortSummary: 'How WOW Gutters Ltd uses a ground-based SkyVac vacuum system to clean gutters up to four storeys high across Birmingham – no ladders, live camera, before and after photos on every visit.',
   quickAnswer: 'WOW Gutters Ltd uses a ground-based SkyVac vacuum system that reaches gutters up to four storeys without ladders. Every visit includes a live camera inspection, before and after photos, downpipe flush, and debris removal. Call 07421 433910 for a free quote.',
-  image: '/blog-images/gutter-vacuum-cleaning-birmingham/gutter-vacuum-cleaning-birmingham-hero.png',
+  image: '/blog-images/gutter-vacuum-cleaning-birmingham/gutter-vacuum-cleaning-birmingham-hero.webp',
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-09-28',
   featured: true,

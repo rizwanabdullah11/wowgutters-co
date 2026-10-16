@@ -89,7 +89,7 @@ export default function GutterCleaningPrices() {
             muted
             playsInline
             preload="auto"
-            poster="/gutter-cleaning.jpeg"
+            poster="/gutter-cleaning.webp"
             className="w-full h-full object-cover"
           >
             <source src="/gutter-final-video.mp4" type="video/mp4" />

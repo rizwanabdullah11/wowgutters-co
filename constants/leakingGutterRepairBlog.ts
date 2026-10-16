@@ -3,7 +3,7 @@ import type { BlogPost } from './blogTypes';
 const IMG_HERO =
   '/blog-images/gutter-repair-blog/gutter-repair-blog-hero.jpg';
 const IMG_BEFORE =
-  '/blog-images/gutter-repair-blog/gutter-repair-blog-before.jpg';
+  '/blog-images/gutter-repair-blog/gutter-repair-blog-before.webp';
 const IMG_AFTER =
   '/blog-images/gutter-repair-blog/gutter-repair-blog-after.jpg';
 

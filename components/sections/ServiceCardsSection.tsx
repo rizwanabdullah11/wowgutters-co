@@ -4,8 +4,8 @@ import Link from 'next/link';
 const cards = [
   {
     id: 'inspect',
-    imageSrc: '/professional-gutter-clean.png',
-    backgroundImage: '/gutter-inspection.jfif',
+    imageSrc: '/professional-gutter-clean.webp',
+    backgroundImage: '/gutter-inspection.webp',
     imageAlt: 'Gutter inspection illustration',
     title: 'Inspect',
     description: 'Careful roofline and gutter checks to find leaks, blockages and weak points before they become costly.',
@@ -15,8 +15,8 @@ const cards = [
   },
   {
     id: 'unblock',
-    imageSrc: '/gutter-cleaning-icon.png',
-    backgroundImage: '/gutter-cleaning.jpeg',
+    imageSrc: '/gutter-cleaning-icon.webp',
+    backgroundImage: '/gutter-cleaning.webp',
     imageAlt: 'Gutter cleaning illustration',
     title: 'Unblock',
     description: 'High-reach gutter vacuum cleaning and downpipe unblocking to keep rainwater flowing safely away.',
@@ -26,8 +26,8 @@ const cards = [
   },
   {
     id: 'repair',
-    imageSrc: '/gutter-repair-icon.png',
-    backgroundImage: '/gutter-repair.jfif',
+    imageSrc: '/gutter-repair-icon.webp',
+    backgroundImage: '/gutter-repair.webp',
     imageAlt: 'Gutter repair illustration',
     title: 'Repair',
     description: 'Gutter repairs for leaking joints, loose clips, sagging sections and damaged brackets.',

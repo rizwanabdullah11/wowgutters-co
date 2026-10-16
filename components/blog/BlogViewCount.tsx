@@ -19,9 +19,9 @@ export default function BlogViewCount({
   suffix = 'views',
   className,
 }: BlogViewCountProps) {
-  const [count, setCount] = useState<number>(() =>
-    typeof window !== 'undefined' ? getBlogViews(postId, publishedDate) : 0,
-  );
+  // Start at 0 on both server and client so hydration matches; the real
+  // (localStorage) count is applied in the effect below.
+  const [count, setCount] = useState<number>(0);
 
   useEffect(() => {
     setCount(

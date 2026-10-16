@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { colors } from '@/constants/colors';
 import { buildMetadata } from '@/lib/seo';
 import BlogDetailContent from '@/components/blog/BlogDetailContent';
+import { getRelatedBlogSummaries } from '@/lib/blogSummaries';
 import type { BlogPost } from '@/constants/blogTypes';
 
 const CANONICAL_PATH = '/top-benefits-of-hiring-a-gutter-cleaning-service-in-west-midlands/';
@@ -18,7 +19,7 @@ const post: BlogPost = {
   id: 'top-benefits-of-hiring-a-gutter-cleaning-service-in-west-midlands',
   title: 'Top Benefits of Hiring a Gutter Cleaning Service in West Midlands',
   excerpt: 'Discover the top benefits of hiring a professional gutter cleaning service in the West Midlands — from preventing costly water damage to extending the life of your roofline. WOW Gutters Ltd covers Birmingham, Wolverhampton, Coventry and 170+ neighbourhoods.',
-  image: '/gutter-cleaning.jpeg',
+  image: '/gutter-cleaning.webp',
   date: '2026-07-09',
   author: 'WOW Gutters Ltd Technical Team',
   authorRole: 'Professional Gutter Cleaning Specialists',
@@ -124,5 +125,5 @@ const post: BlogPost = {
 };
 
 export default function TopBenefitsPage() {
-  return <BlogDetailContent post={post} />;
-}
+  return <BlogDetailContent post={post} relatedPosts={getRelatedBlogSummaries(post)} />;
+}

@@ -1,7 +1,5 @@
-'use client';
-
-import { useEffect, useRef } from 'react';
 import Head from 'next/head';
+import HeroVideo from '@/components/media/HeroVideo';
 import { colors } from '@/constants/colors';
 import Link from 'next/link';
 import { ShieldCheck, Phone } from 'lucide-react';
@@ -27,16 +25,7 @@ interface AreaPageProps {
 }
 
 export default function AreaPage({ areaName }: AreaPageProps) {
-  const videoRef = useRef<HTMLVideoElement>(null);
 
-  useEffect(() => {
-    // Force play the video on mount
-    if (videoRef.current) {
-      videoRef.current.play().catch((error) => {
-        console.log('Video autoplay failed:', error);
-      });
-    }
-  }, []);
   // Format area name for display (e.g., "mansfield" -> "Mansfield")
   const formattedArea = areaName
     .split('-')
@@ -66,21 +55,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
       <section className="area-hero-section">
         {/* Video Background */}
         <div className="hero-video-wrapper">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="none"
-            poster="/gutter-hero-poster.jpg"
-            className="hero-video"
-            onError={(e) => {
-              (e.target as HTMLVideoElement).style.display = 'none';
-            }}
-          >
-            <source src="https://wowgutters.co.uk/gutter-final-video.mp4" type="video/mp4" />
-          </video>
+          <HeroVideo src="https://wowgutters.co.uk/gutter-final-video.mp4" poster="/gutter-hero-poster.jpg" className="hero-video" />
           <div className="area-hero-overlay"></div>
         </div>
 
@@ -242,7 +217,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
           `WOW Gutters Ltd provides professional gutter cleaning for homes in ${formattedArea} using a high-reach vacuum system that clears leaves, moss, silt and debris from ground level — no ladders placed against your property. Every clean includes downpipe clearing as standard and before and after photos sent directly to you.`,
           `Blocked gutters are one of the most common causes of damp and water damage in UK homes. When gutters overflow, water runs down external walls instead of safely away via the downpipe — leading to damp patches, staining on brickwork, and in severe cases, penetration into the foundations. Most ${formattedArea} homes need their gutters cleaned once or twice a year, with late autumn being the most critical time.`
         ]}
-        iconSrc="/gutter-cleaning-icon.png"
+        iconSrc="/gutter-cleaning-icon.webp"
         backgroundColor="bg-white"
         buttonText="GET A FREE QUOTE"
         phoneNumber="07421 433910"
@@ -254,7 +229,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
           `WOW Gutters Ltd provides commercial gutter cleaning for offices, retail premises, schools, landlords and managing agents in ${formattedArea}. Our high-reach vacuum system clears gutters safely from ground level with minimal disruption to your business operations.`,
           `We offer planned maintenance contracts for commercial properties — scheduled visits to keep your gutters clear year-round and avoid emergency call-outs. All commercial work is fully insured and completed by trained technicians with stocked vans.`
         ]}
-        iconSrc="/gutter-repair-icon.png"
+        iconSrc="/gutter-repair-icon.webp"
         backgroundColor="bg-gray-50"
         buttonText="GET A FREE QUOTE"
         phoneNumber="07421 433910"
@@ -266,7 +241,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
           `Our domestic gutter cleaning service in ${formattedArea} uses a high-reach vacuum system to clear all debris from ground level — no ladders, no mess, no risk of fascia damage. We reach up to four storeys and can access gutters over conservatories, porches and extensions that ladder-based services struggle with.`,
           `Every domestic clean includes downpipe clearing and testing, before and after photos, and a written condition report flagging any damage or repairs needed. We give honest advice without pressure.`
         ]}
-        iconSrc="/gutter-cleaning-icon.png"
+        iconSrc="/gutter-cleaning-icon.webp"
         backgroundColor="bg-[#e4e4e4]"
         buttonText="GET A FREE QUOTE"
         phoneNumber="07421 433910"
@@ -279,7 +254,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
           `Gutters channel rainwater from your roof safely away from the property. Soffits close the gap beneath the eaves, aiding ventilation and keeping pests out. Fascias run along the roof edge and hold the gutters in place. When any of these fail, water can penetrate the roof structure and cause expensive damage.`,
           `WOW Gutters Ltd can clean, inspect and repair all three elements in a single visit. Ask about our combined service when booking.`
         ]}
-        iconSrc="/gutter-repair-icon.png"
+        iconSrc="/gutter-repair-icon.webp"
         backgroundColor="bg-white"
         buttonText="GET A FREE QUOTE"
         phoneNumber="07421 433910"
@@ -292,7 +267,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
           `We use the latest high-reach vacuum technology to clean gutters efficiently and safely. Our vans are fully stocked so we can carry out minor repairs on the same visit. We are available 24 hours a day, 7 days a week and aim to offer bookings within 2–5 working days, with same-day availability sometimes possible.`,
           `Whether you need a one-off clean, a repair, or a planned maintenance schedule, call 07421 433910 or request a free quote online. We cover ${formattedArea} and all surrounding postcodes.`
         ]}
-        iconSrc="/gutter-cleaning-icon.png"
+        iconSrc="/gutter-cleaning-icon.webp"
         backgroundColor="bg-gray-50"
         buttonText="GET A FREE QUOTE"
         phoneNumber="07421 433910"

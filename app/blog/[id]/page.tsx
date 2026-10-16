@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import { blogPosts } from '@/constants/blogData';
 import BlogDetailContent from '@/components/blog/BlogDetailContent';
+import { getRelatedBlogSummaries } from '@/lib/blogSummaries';
 import { resolveBlogImageUrl } from '@/lib/blogImageUrl';
 import { Metadata } from 'next';
 
@@ -106,5 +107,5 @@ export default async function BlogPostPage(props: BlogPageProps) {
     notFound();
   }
 
-  return <BlogDetailContent post={post} />;
+  return <BlogDetailContent post={post} relatedPosts={getRelatedBlogSummaries(post)} />;
 }

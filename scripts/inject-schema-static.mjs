@@ -35,6 +35,14 @@ function listHtmlFiles(dir) {
   return results;
 }
 
+/**
+ * Duplicate JSON-LD blocks rendered by React must not be deleted outright: React
+ * expects that <script> element when it hydrates and a missing node throws
+ * error #418 (whole page re-renders on the client). An inert text/plain script
+ * keeps the DOM shape identical while Google ignores it. (Oct 2026)
+ */
+const HYDRATION_SAFE_PLACEHOLDER = '<script type="text/plain" data-schema-dedup=""></script>';
+
 function unescapeJsString(str) {
   return str
     .replace(/\\"/g, '"')
@@ -101,8 +109,8 @@ function dedupeSchemaStaticScripts(html) {
 
   let kept = false;
   return html.replace(re, (block) => {
-    if (kept) return '';
-    if (block !== preferred) return '';
+    if (kept) return HYDRATION_SAFE_PLACEHOLDER;
+    if (block !== preferred) return HYDRATION_SAFE_PLACEHOLDER;
     kept = true;
     return block;
   });
@@ -120,7 +128,7 @@ function dedupeDuplicateGraphLdJson(html) {
       if (!block.includes('@graph') && !block.includes('HomeAndConstructionBusiness')) {
         return block;
       }
-      return '';
+      return HYDRATION_SAFE_PLACEHOLDER;
     },
   );
 }
@@ -133,7 +141,9 @@ function writeSchemaToHead(htmlPath, jsonStr, replace = false) {
   let html = fs.readFileSync(htmlPath, 'utf8');
   if (html.includes('id="schema-static"')) {
     if (!replace) return false;
-    html = html.replace(/<script id="schema-static"[^>]*>[\s\S]*?<\/script>\s*/i, '');
+    // React may have rendered this block in <body>; swap it for an inert
+    // placeholder rather than deleting it so hydration still matches.
+    html = html.replace(/<script id="schema-static"[^>]*>[\s\S]*?<\/script>/i, HYDRATION_SAFE_PLACEHOLDER);
   }
 
   try {

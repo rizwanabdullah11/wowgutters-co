@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  '/blog-images/victorian-gutter-cleaning/victorian-gutter-cleaning-hero.png';
+  '/blog-images/victorian-gutter-cleaning/victorian-gutter-cleaning-hero.webp';
 const IMG_BEFORE =
-  '/blog-images/victorian-gutter-cleaning/victorian-gutter-cleaning-before.png';
+  '/blog-images/victorian-gutter-cleaning/victorian-gutter-cleaning-before.webp';
 const IMG_AFTER =
-  '/blog-images/victorian-gutter-cleaning/victorian-gutter-cleaning-after.png';
+  '/blog-images/victorian-gutter-cleaning/victorian-gutter-cleaning-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

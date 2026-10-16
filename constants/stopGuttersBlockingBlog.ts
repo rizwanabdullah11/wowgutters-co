@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  '/blog-images/stop-gutter-cleaning-birmingham/stop-gutter-cleaning-birmingham-hero.png';
+  '/blog-images/stop-gutter-cleaning-birmingham/stop-gutter-cleaning-birmingham-hero.webp';
 const IMG_BEFORE =
-  '/blog-images/stop-gutter-cleaning-birmingham/stop-gutter-cleaning-birmingham-before.png';
+  '/blog-images/stop-gutter-cleaning-birmingham/stop-gutter-cleaning-birmingham-before.webp';
 const IMG_AFTER =
-  '/blog-images/stop-gutter-cleaning-birmingham/stop-gutter-cleaning-birmingham-after.png';
+  '/blog-images/stop-gutter-cleaning-birmingham/stop-gutter-cleaning-birmingham-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

@@ -1,4 +1,3 @@
-'use client';
 
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
@@ -15,7 +14,7 @@ export default function ProfessionalServices() {
           {/* Left side — Image */}
           <div className="w-full md:w-1/2 flex-shrink-0">
             <img
-              src="/professional-image .jpeg"
+              src="/professional-image .webp"
               alt="WOW Gutters Ltd branded service van — professional gutter services across Birmingham and the West Midlands"
               width={800}
               height={560}

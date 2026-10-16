@@ -1,8 +1,8 @@
 import type { BlogPost } from './blogTypes';
 
-const IMG_HERO   = '/blog-images/blocked-gutter-maintance/blocked-gutter-hero.png';
-const IMG_BEFORE = '/blog-images/blocked-gutter-maintance/blocked-gutter-before.png';
-const IMG_AFTER  = '/blog-images/blocked-gutter-maintance/blocked-gutter-after.png';
+const IMG_HERO   = '/blog-images/blocked-gutter-maintance/blocked-gutter-hero.webp';
+const IMG_BEFORE = '/blog-images/blocked-gutter-maintance/blocked-gutter-before.webp';
+const IMG_AFTER  = '/blog-images/blocked-gutter-maintance/blocked-gutter-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

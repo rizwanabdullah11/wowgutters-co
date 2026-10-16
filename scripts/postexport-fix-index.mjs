@@ -30,6 +30,9 @@ function listHtmlFiles(dir) {
 
 function fixHtmlForFileProtocol(htmlPath) {
   const relFromOut = path.relative(outDir, htmlPath).replaceAll("\\", "/");
+  // 404.html is served at whatever URL was requested, so relative paths break
+  // on nested URLs (scripts/favicon 404'd). Keep it site-root absolute.
+  if (relFromOut === "404.html" || relFromOut === "404/index.html") return;
   const depth = relFromOut.split("/").length - 1; // number of parent folders
   const prefix = depth === 0 ? "." : "../".repeat(depth).replace(/\/$/, "");
 
@@ -54,6 +57,11 @@ function fixHtmlForFileProtocol(htmlPath) {
       return match;
     }
     if (!url.startsWith("/")) return match;
+    // Keep Next.js assets site-root absolute. Turbopack matches loaded chunks by
+    // their exact src; "../_next/..." never matched the "/_next/..." paths in the
+    // RSC payload, so React never hydrated (menus, FAQs, search, quote dialog
+    // were dead on the live site). Fixed Oct 2026.
+    if (url.startsWith("/_next/")) return match;
     return `${attr}="${prefix}${url}"`;
   };
 

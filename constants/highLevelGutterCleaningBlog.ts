@@ -1,8 +1,8 @@
 import type { BlogPost } from './blogTypes';
 
-const IMG_HERO   = '/blog-images/gutter-vacuum-cleaning-birmingham/gutter-vacuum-cleaning-birmingham-hero.png';
-const IMG_BEFORE = '/blog-images/gutter-vacuum-cleaning-birmingham/gutter-vacuum-cleaning-birmingham-before.png';
-const IMG_AFTER  = '/blog-images/gutter-vacuum-cleaning-birmingham/gutter-vacuum-cleaning-birmingham-after.png';
+const IMG_HERO   = '/blog-images/gutter-vacuum-cleaning-birmingham/gutter-vacuum-cleaning-birmingham-hero.webp';
+const IMG_BEFORE = '/blog-images/gutter-vacuum-cleaning-birmingham/gutter-vacuum-cleaning-birmingham-before.webp';
+const IMG_AFTER  = '/blog-images/gutter-vacuum-cleaning-birmingham/gutter-vacuum-cleaning-birmingham-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

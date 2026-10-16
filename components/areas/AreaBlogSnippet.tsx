@@ -44,7 +44,7 @@ export default function AreaBlogSnippet({ locality }: AreaBlogSnippetProps) {
               >
                 <div className="w-full sm:w-[280px] shrink-0 rounded overflow-hidden aspect-video relative shadow-sm border border-gray-200">
                   <img
-                    src={post.image ?? '/professional-gutter-clean.png'}
+                    src={post.image ?? '/professional-gutter-clean.webp'}
                     alt={post.title}
                     className="w-full h-full object-cover absolute inset-0"
                   />
@@ -68,7 +68,7 @@ export default function AreaBlogSnippet({ locality }: AreaBlogSnippetProps) {
             >
               <div className="w-full sm:w-[280px] shrink-0 rounded overflow-hidden aspect-video relative shadow-sm border border-gray-200">
                 <img
-                  src="/professional-gutter-clean.png"
+                  src="/professional-gutter-clean.webp"
                   alt="Professional Gutter Cleaning"
                   className="w-full h-full object-cover absolute inset-0"
                 />

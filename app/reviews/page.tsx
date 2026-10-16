@@ -32,7 +32,7 @@ export default function ReviewsPage() {
             muted
             playsInline
             preload="auto"
-            poster="/gutter-cleaning.jpeg"
+            poster="/gutter-cleaning.webp"
             className="hero-video"
           >
             <source src="/gutter-final-video.mp4" type="video/mp4" />

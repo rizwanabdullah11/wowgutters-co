@@ -22,7 +22,7 @@ export const yardleyBlogPost: BlogPost = {
   title: 'Gutter Cleaning in Yardley B25 — Protecting Family Homes Across East Birmingham',
   excerpt:
     'Professional gutter cleaning in Yardley B25 Birmingham. Wow Gutters Ltd — industrial vacuum system, no ladders, before & after photos on every job. Fully insured. Free quote: 07421 433910.',
-  image: '/yardley-gutter-cleaning-hero.png',
+  image: '/yardley-gutter-cleaning-hero.webp',
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-06',
   views: '0',

@@ -33,7 +33,7 @@ export default function RepairPage() {
             muted
             playsInline
             preload="none"
-            poster="/gutter-repair-before.png"
+            poster="/gutter-repair-before.webp"
             className="w-full h-full object-cover"
             onError={(e) => {
               (e.target as HTMLVideoElement).style.display = 'none';
@@ -219,7 +219,7 @@ export default function RepairPage() {
           'Do you offer warranty on repairs?',
           'What types of gutter damage can you fix?',
         ]}
-        backgroundImage="/gutter-repair.png"
+        backgroundImage="/gutter-repair.webp"
       />
 
       {/* Repair Results Section - Text Left, Images Right */}
@@ -305,7 +305,7 @@ export default function RepairPage() {
                 <p className="text-lg font-bold mb-3 text-gray-600 uppercase tracking-wide">Before Repair</p>
                 <div className="rounded-2xl overflow-hidden shadow-2xl" style={{ maxHeight: '250px' }}>
                   <img 
-                    src="/gutter-repair-before.png" 
+                    src="/gutter-repair-before.webp" 
                     alt="Damaged Gutter Before Repair - Leaking and Broken" 
                     className="w-full h-full object-cover"
                     style={{ maxHeight: '250px' }}
@@ -318,7 +318,7 @@ export default function RepairPage() {
                 <p className="text-lg font-bold mb-3 uppercase tracking-wide" style={{ color: colors.primary }}>After Repair</p>
                 <div className="rounded-2xl overflow-hidden shadow-2xl">
                   <img 
-                    src="/gutter-repair-after.jpeg" 
+                    src="/gutter-repair-after.webp" 
                     alt="Repaired Gutter After Service - Clean and Functional" 
                     className="w-full h-auto object-cover"
                   />
@@ -493,4 +493,4 @@ export default function RepairPage() {
       </section>
     </main>
   );
-}
+}

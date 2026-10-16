@@ -1,7 +1,5 @@
-'use client';
-
-import { useEffect, useRef } from 'react';
 import Link from 'next/link';
+import HeroVideo from '@/components/media/HeroVideo';
 import type { LucideIcon } from 'lucide-react';
 import { ShieldCheck, Phone, Check, Building2, Home, Warehouse, Cable, Images, Shield } from 'lucide-react';
 import { colors } from '@/constants/colors';
@@ -154,31 +152,12 @@ const WHATSAPP_QS = [
 const WA = 'https://wa.me/447421433910';
 
 export default function DerbyGutterCleaningPage() {
-  const videoRef = useRef<HTMLVideoElement>(null);
-
-  useEffect(() => {
-    videoRef.current?.play().catch(() => {});
-  }, []);
 
   return (
     <main className="bg-white area-page-wrapper">
       <section className="area-hero-section">
         <div className="hero-video-wrapper">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="none"
-            poster="/gutter-hero-poster.jpg"
-            className="hero-video"
-            onError={(e) => {
-              (e.target as HTMLVideoElement).style.display = 'none';
-            }}
-          >
-            <source src="https://wowgutters.co.uk/gutter-final-video.mp4" type="video/mp4" />
-          </video>
+          <HeroVideo src="https://wowgutters.co.uk/gutter-final-video.mp4" poster="/gutter-hero-poster.jpg" className="hero-video" />
           <div className="area-hero-overlay" />
         </div>
 
@@ -743,4 +722,4 @@ export default function DerbyGutterCleaningPage() {
       `}</style>
     </main>
   );
-}
+}

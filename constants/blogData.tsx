@@ -140,7 +140,7 @@ export const blogPosts: BlogPost[] = [
     id: 'fascias-soffits-west-midlands',
     title: 'Fascias & Soffits — Professional Gutter Cleaning & Fixing Across the West Midlands',
     excerpt: 'Expert gutter cleaning, debris removal, fascia & soffit washing, and moss & algae treatments — serving Birmingham, Coventry, Wolverhampton, Solihull, Walsall, Dudley and all surrounding areas. Highly rated by verified customers.',
-    image: '/westmidlands-before-after.png',
+    image: '/westmidlands-before-after.webp',
     heroVideo: '/fasica-soffits.mp4',
     date: '2026-05-20',
     views: '0',
@@ -155,7 +155,7 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/westmidlands-before.png"
+    src="/westmidlands-before.webp"
     alt="Before gutter cleaning in the West Midlands — gutters packed with leaves, moss, debris and algae-stained fascias"
     width="1280"
     height="720"
@@ -173,7 +173,7 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/westmidlands-after.png"
+    src="/westmidlands-after.webp"
     alt="After gutter cleaning and fascia washing in the West Midlands — gutters fully cleared, fascias and soffits restored to bright white finish"
     width="1280"
     height="720"
@@ -478,7 +478,7 @@ export const blogPosts: BlogPost[] = [
     id: 'gutter-cleaning-coventry',
     title: 'Gutter Cleaning in Coventry: Real Job, Real Results — What Every Homeowner Needs to Know (2026 Guide)',
     excerpt: 'Need gutter cleaning in Coventry? See a real before & after from a March 2026 job — gutters packed with weeds, moss and debris, cleared in 23 minutes. Same-day booking.',
-    image: '/gutter-cleaning-coventry-hero.png',
+    image: '/gutter-cleaning-coventry-hero.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     date: '2026-05-19',
     views: '0',
@@ -490,7 +490,7 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/gutter-cleaning-coventry-before.png"
+    src="/gutter-cleaning-coventry-before.webp"
     alt="Before and after gutter cleaning in Coventry — heavily clogged gutter with growing weeds, heavy moss and substantial debris cleared in 23 minutes"
     width="1280"
     height="720"
@@ -516,7 +516,7 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/gutter-cleaning-coventry-after.png"
+    src="/gutter-cleaning-coventry-after.webp"
     alt="After photo — gutter cleaning complete in Coventry, 23 March 2026. Gutter cleared to the plastic channel in 23 minutes"
     width="1280"
     height="720"
@@ -728,7 +728,7 @@ export const blogPosts: BlogPost[] = [
     id: 'gutter-cleaning-wolverhampton',
     title: 'Gutter Cleaning Wolverhampton | WOW Gutters Ltd — Local Specialists',
     excerpt: 'Need gutter cleaning in Wolverhampton? WOW Gutters Ltd covers the whole city — same-day booking, ground-level vacuum system. See what is blocking your gutters.',
-    image: '/wolverhamtpon-gutter-cleaning-hero-section.png',
+    image: '/wolverhamtpon-gutter-cleaning-hero-section.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     date: '2026-05-18',
     views: '2850',
@@ -740,7 +740,7 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/wolverhampton-gutter-cleaning-before.png"
+    src="/wolverhampton-gutter-cleaning-before.webp"
     alt="Before and after gutter cleaning in Wolverhampton — blocked gutters packed with leaves, moss and debris, cleared and flowing freely"
     width="1280"
     height="720"
@@ -758,7 +758,7 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/wolverhampton-gutter-cleaning-after.png"
+    src="/wolverhampton-gutter-cleaning-after.webp"
     alt="After gutter cleaning in Wolverhampton — gutter fully cleared down to the plastic channel, downpipe flowing freely"
     width="1280"
     height="720"
@@ -1032,7 +1032,7 @@ export const blogPosts: BlogPost[] = [
     id: 'blocked-gutters-sycamore-seeds',
     title: 'Blocked Gutters Packed With Sycamore Seeds — What Happens If You Leave Them (Real Before & After)',
     excerpt: 'Sycamore seeds are one of the most common causes of blocked gutters in the West Midlands. See a real before & after from WOW Gutters Ltd — and find out what happens if the blockage is left untreated.',
-    image: '/gutter-cleaning-before.jpeg',
+    image: '/gutter-cleaning-before.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     date: '2026-05-13',
     views: '0',
@@ -1045,7 +1045,7 @@ export const blogPosts: BlogPost[] = [
       
       <figure style="margin: 20px 0;">
         <img
-          src="/gutter-cleaning-before.jpeg"
+          src="/gutter-cleaning-before.webp"
           alt="Close-up of a residential gutter completely blocked with dry sycamore helicopter seeds, compacted moss, and leaf debris"
           width="800"
           height="600"
@@ -1073,7 +1073,7 @@ export const blogPosts: BlogPost[] = [
 
       <figure style="margin: 20px 0;">
         <img
-          src="/gutter-cleaning-after.jpeg"
+          src="/gutter-cleaning-after.webp"
           alt="After professional gutter cleaning - clean gutter channel flowing freely"
           width="800"
           height="600"
@@ -1458,7 +1458,7 @@ export const blogPosts: BlogPost[] = [
     id: 'gutter-repairs-guide',
     title: 'Gutter Repairs: How to Spot Damage Early (Plus Before/After & Video)',
     excerpt: 'Leaking joints, sagging sections, and broken brackets don\'t just look bad — they can cause damp, staining, and expensive water damage. Here\'s how to spot common gutter problems early, what a professional repair includes, and real before/after media from WOW Gutters Ltd.',
-    image: '/gutter-repair-after.jpeg',
+    image: '/gutter-repair-after.webp',
     heroVideo: '/gutter-repair%20(2).mp4',
     date: '2026-04-27',
     lastUpdated: '2026-04-30',
@@ -1499,8 +1499,8 @@ export const blogPosts: BlogPost[] = [
 
       <h2>Before &amp; After: Real Repair Results</h2>
       <p>Here's a quick example of a damaged gutter line before repair and the finished result after our team restored the system.</p>
-      <img src="/gutter-repair-before.png" alt="Gutter before repair" />
-      <img src="/gutter-repair-after.jpeg" alt="Gutter after repair" />
+      <img src="/gutter-repair-before.webp" alt="Gutter before repair" />
+      <img src="/gutter-repair-after.webp" alt="Gutter after repair" />
 
       <h2>What causes gutter leaks and sagging?</h2>
       <ul>
@@ -1549,7 +1549,7 @@ export const blogPosts: BlogPost[] = [
     id: 'dome-cleaning-service-wow-gutters',
     title: 'Dome Cleaning Service: Restoring Temples, Mosques & Commercial Domes Across the UK',
     excerpt: 'Is the dome on your religious building, commercial property, or residence looking green, grimy, or stained? WOW Gutters Ltd offers a specialist dome cleaning service — reaching up to 6 storeys high with zero ladders, zero risk, and proven visible results.',
-    image: '/Blog.png',
+    image: '/Blog.webp',
     date: '2026-03-31',
     lastUpdated: '2026-04-15',
     views: '0',
@@ -1563,7 +1563,7 @@ export const blogPosts: BlogPost[] = [
 
       <p>At <strong>WOW Gutters Ltd</strong>, we've developed a specialist dome cleaning service that delivers stunning, visible results — safely, efficiently, and without a single ladder touching your building.</p>
 
-      <img src="/Blog.png" alt="Before and after dome cleaning by WOW Gutters Ltd — removing moss and algae stains from a religious building dome" />
+      <img src="/Blog.webp" alt="Before and after dome cleaning by WOW Gutters Ltd — removing moss and algae stains from a religious building dome" />
 
       <h2>Why Dome Cleaning Is Not a DIY Job</h2>
       <p>The curved, elevated surface of a dome presents a unique challenge that standard cleaning methods simply cannot address:</p>
@@ -1618,7 +1618,7 @@ export const blogPosts: BlogPost[] = [
     id: 'downpipe-shoe',
     title: 'Why a Downpipe Shoe is the Secret to Ending Repeated Gutter Blockages',
     excerpt: 'Tired of cleaning the same downpipe month after month? The problem might not be the debris, but the lack of a proper downpipe shoe. Discover how this simple component protects your UK home from foundation damage and splashback.',
-    image: '/blog1.png',
+    image: '/blog1.webp',
     date: '2026-02-23',
     lastUpdated: '2026-04-10',
     views: '0',
@@ -1666,7 +1666,7 @@ export const blogPosts: BlogPost[] = [
     id: 'winter-gutter-cleaning-maintenance',
     title: 'The Essential Winter Gutter Maintenance Guide for UK Homeowners',
     excerpt: 'Freezing temperatures and heavy rainfall can turn a small gutter issue into a structural disaster. Learn how to winter-proof your guttering system and avoid the dreaded "freeze-thaw" damage this season.',
-    image: '/blog2.png',
+    image: '/blog2.webp',
     date: '2025-12-08',
     lastUpdated: '2026-05-06',
     views: '0',
@@ -1713,7 +1713,7 @@ export const blogPosts: BlogPost[] = [
     id: 'road-sign-cleaning-community',
     title: 'Making UK Roads Safer: Why We Clean Local Signs Every Month',
     excerpt: 'Visibility saves lives. At WOW Gutters Ltd, we believe in giving back to the communities we serve. Here\'s why our "Hot Wash" team dedicates time every month to restoring the shine to our local road signs.',
-    image: '/blog3.png',
+    image: '/blog3.webp',
     date: '2025-12-04',
     views: '0',
     author: 'Community Outreach',
@@ -1749,7 +1749,7 @@ export const blogPosts: BlogPost[] = [
     id: 'winter-gutter-maintenance-tips',
     title: '7 Critical Steps to Audit Your Gutters Before the First UK Frost',
     excerpt: 'Don\'t wait for the ice to set in. Our professional pre-winter checklist covers everything from bracket tension to downpipe flow, ensuring your home remains dry during the wettest months of the year.',
-    image: '/blog4.png',
+    image: '/blog4.webp',
     date: '2025-10-11',
     views: '0',
     author: 'Maintenance Lead',
@@ -1791,7 +1791,7 @@ export const blogPosts: BlogPost[] = [
     id: 'gutter-cleaning-dangers',
     title: 'Height Hazards: The Real Risks of DIY Gutter Cleaning in the UK',
     excerpt: 'Working at height causes over 6,000 serious accidents in the UK every year. Before you grab that ladder, learn the hidden risks of DIY gutter cleaning—and why professional vacuum systems are the safer choice.',
-    image: '/blog5.png',
+    image: '/blog5.webp',
     date: '2024-12-04',
     views: '0',
     author: 'Health & Safety Team',
@@ -1832,7 +1832,7 @@ export const blogPosts: BlogPost[] = [
     id: 'prevent-damp-winter',
     title: 'Stopping Penetrating Damp: The Link Between Gutters and Interior Mold',
     excerpt: 'Is your home feeling damp this winter? The culprit might be hanging right above your windows. Explore 12 expert strategies to prevent moisture ingress and keep your family healthy and dry.',
-    image: '/blog6.png',
+    image: '/blog6.webp',
     date: '2024-01-25',
     views: '0',
     author: 'Damp Specialist',
@@ -1890,7 +1890,7 @@ export const blogPosts: BlogPost[] = [
     id: 'diy-gutter-repair-dangers',
     title: 'Why Sealant Isn\'t a Fix: The Real Pitfalls of Amateur Gutter Repairs',
     excerpt: 'A "quick fix" with a tube of sealant often leads to a much bigger repair bill later. We break down the most common DIY repair mistakes and why professional-grade materials are non-negotiable.',
-    image: '/blog7.png',
+    image: '/blog7.webp',
     date: '2023-11-18',
     views: '0',
     author: 'Repair Expert',
@@ -1931,7 +1931,7 @@ export const blogPosts: BlogPost[] = [
     id: 'ladder-free-gutter-cleaning',
     title: 'The Tech Behind Clean Gutters: Why We Ditched the Ladders',
     excerpt: 'Welcome to the future of gutter maintenance. No heavy scaffolding, no risky ladders, and no mess. See how our advanced vacuum systems reach up to four stories to deliver a pristine clean every time.',
-    image: '/blog8.png',
+    image: '/blog8.webp',
     date: '2026-03-31',
     views: '0',
     author: 'Tech Lead',
@@ -1964,7 +1964,7 @@ export const blogPosts: BlogPost[] = [
     id: 'gutter-cleaning-solihull',
     title: 'Gutter Cleaning Solihull — Professional, Reliable & Fully Insured',
     excerpt: 'Professional gutter cleaning, downpipe clearing, fascia & soffit washing and gutter repairs across Solihull, Shirley, Knowle, Dorridge, Balsall Common, Meriden, Cheswick Green and all surrounding areas. Highly rated by verified customers.',
-    image: '/solihull-gutter-cleaning-hero.png',
+    image: '/solihull-gutter-cleaning-hero.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     date: '2026-05-21',
     views: '0',
@@ -1979,7 +1979,7 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/solihull-gutter-cleaning-before.png"
+    src="/solihull-gutter-cleaning-before.webp"
     alt="Before gutter cleaning in Solihull — gutters packed with leaves, moss, sycamore seeds and compacted debris"
     width="1280"
     height="720"
@@ -1997,7 +1997,7 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/solihull-gutter-cleaning-after.png"
+    src="/solihull-gutter-cleaning-after.webp"
     alt="After gutter cleaning in Solihull — gutters fully cleared to the plastic channel, downpipe flowing freely"
     width="1280"
     height="720"
@@ -2307,7 +2307,7 @@ export const blogPosts: BlogPost[] = [
     id: 'gutter-cleaning-walsall',
     title: 'Gutter Cleaning Walsall | WOW Gutters Ltd — Local Specialists',
     excerpt: 'Need gutter cleaning in Walsall? WOW Gutters Ltd covers all WS postcodes — same-day booking, ground-level vacuum system. See what\'s blocking your gutters.',
-    image: '/walsall-gutter-cleaning-hero.png',
+    image: '/walsall-gutter-cleaning-hero.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     date: '2026-05-25',
     views: '0',
@@ -2323,7 +2323,7 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/walsall-gutter-cleaning-before.png"
+    src="/walsall-gutter-cleaning-before.webp"
     alt="Before gutter cleaning in Walsall — gutter packed with autumn leaves, moss and compacted debris, WOW Gutters Ltd"
     width="1200"
     height="800"
@@ -2341,7 +2341,7 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/walsall-gutter-cleaning-after.png"
+    src="/walsall-gutter-cleaning-after.webp"
     alt="After gutter cleaning in Walsall — gutter fully cleared to the plastic channel, downpipe flowing freely, WOW Gutters Ltd"
     width="1200"
     height="800"
@@ -2577,7 +2577,7 @@ export const blogPosts: BlogPost[] = [
     id: 'before-after-gutter-cleaning-walsall',
     title: 'Before & After Gutter Cleaning Walsall | Moss & Debris Removal 2026 | WOW Gutters Ltd',
     excerpt: 'Real before & after gutter cleaning photos from Walsall homes. WOW Gutters Ltd removes moss, leaves and blocked debris from the ground — no ladders, photo proof every job. From —50.',
-    image: '/gutter-cleaning-walsall-hero.png',
+    image: '/gutter-cleaning-walsall-hero.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     date: '2026-05-25',
     views: '0',
@@ -2594,7 +2594,7 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/gutter-cleaning-walsall-before.png"
+    src="/gutter-cleaning-walsall-before.webp"
     alt="Before gutter cleaning in Walsall — gutter packed with moss, autumn leaves and compacted debris, WOW Gutters Ltd 2026"
     width="1200"
     height="800"
@@ -2632,7 +2632,7 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/gutter-cleaning-walsall-after.png"
+    src="/gutter-cleaning-walsall-after.webp"
     alt="After gutter cleaning in Walsall — gutter fully cleared to the plastic channel by WOW Gutters Ltd, flowing freely"
     width="1200"
     height="800"
@@ -2766,7 +2766,7 @@ export const blogPosts: BlogPost[] = [
     id: 'roof-cleaning-dudley',
     title: 'Roof Cleaning Dudley — Before & After Moss Removal 2026 | WOW Gutters Ltd',
     excerpt: 'Real before & after roof cleaning results from Dudley homes. WOW Gutters Ltd removes moss, algae and debris using soft wash — no scaffolding, photo proof every job. Book today.',
-    image: '/dudley-roof-cleaning-hero.png',
+    image: '/dudley-roof-cleaning-hero.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     date: '2026-05-26',
     views: '0',
@@ -2783,7 +2783,7 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/dudley-roof-cleaning-before.png"
+    src="/dudley-roof-cleaning-before.webp"
     alt="Before roof cleaning in Dudley — heavy moss, green algae and lichen covering roof tiles on a Dudley semi-detached, WOW Gutters Ltd West Midlands 2026"
     width="1200"
     height="800"
@@ -2808,7 +2808,7 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/dudley-roof-cleaning-after.png"
+    src="/dudley-roof-cleaning-after.webp"
     alt="After roof cleaning in Dudley — tiles fully restored, moss algae and lichen removed by WOW Gutters Ltd soft wash, West Midlands 2026"
     width="1200"
     height="800"
@@ -3040,7 +3040,7 @@ export const blogPosts: BlogPost[] = [
     id: 'gutter-cleaning-bartley-green',
     title: 'Gutter Cleaning Bartley Green Birmingham | Before & After | WOW Gutters Ltd 2026',
     excerpt: 'Real before & after gutter cleaning in Bartley Green B32. WOW Gutters Ltd removes leaves, moss and woodland debris from the ground — no ladders, photo proof every job. Same-day booking.',
-    image: '/gutter-ceaning-bartley-green-hero.png',
+    image: '/gutter-ceaning-bartley-green-hero.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     date: '2026-05-28',
     views: '0',
@@ -3058,7 +3058,7 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/gutter-ceaning-bartley-green-before.png"
+    src="/gutter-ceaning-bartley-green-before.webp"
     alt="Before gutter cleaning in Bartley Green Birmingham B32 — gutter blocked with leaves, moss and compacted woodland debris, WOW Gutters Ltd 2026"
     width="1200"
     height="800"
@@ -3084,7 +3084,7 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 20px 0;">
   <img
-    src="/gutter-ceaning-bartley-green-after.png"
+    src="/gutter-ceaning-bartley-green-after.webp"
     alt="After gutter cleaning in Bartley Green Birmingham B32 — gutter fully cleared to the plastic channel, downpipe flowing freely, WOW Gutters Ltd 2026"
     width="1200"
     height="800"
@@ -3309,7 +3309,7 @@ export const blogPosts: BlogPost[] = [
     id: 'roof-moss-kings-norton',
     title: 'Roof Moss Removal Kings Norton B30 Birmingham — Before & After Case Study',
     excerpt: 'A heavily moss-covered detached property in Kings Norton B30 transformed in a single day. Cherry picker access, high-pressure wash, biocidal treatment, gutter clear included — here\'s the full before and after.',
-    image: '/B30-gutter-cleaning-hero.png',
+    image: '/B30-gutter-cleaning-hero.webp',
     date: '2026-06-02',
     views: '0',
     author: 'WOW Gutters Ltd Technical Team',
@@ -3322,7 +3322,7 @@ export const blogPosts: BlogPost[] = [
     content: `
 <figure style="margin: 0 0 28px;">
   <img
-    src="/B30-gutter-cleaning-hero.png"
+    src="/B30-gutter-cleaning-hero.webp"
     alt="Professional roof moss removal completed on detached property in Kings Norton Birmingham B30 by WOW Gutters Ltd"
     width="1280"
     height="720"
@@ -3349,7 +3349,7 @@ export const blogPosts: BlogPost[] = [
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 24px 0;">
   <figure style="margin: 0;">
     <img
-      src="/B30-gutter-cleaning1.png"
+      src="/B30-gutter-cleaning1.webp"
       alt="Dense moss covering entire roof slope on B30 Kings Norton Birmingham property before professional cleaning by WOW Gutters Ltd"
       width="800"
       height="600"
@@ -3360,7 +3360,7 @@ export const blogPosts: BlogPost[] = [
   </figure>
   <figure style="margin: 0;">
     <img
-      src="/B30-gutter-cleaning2.png"
+      src="/B30-gutter-cleaning2.webp"
       alt="Thick moss packed into ridge tiles and tile joints on Birmingham B30 roof before treatment"
       width="800"
       height="600"
@@ -3374,7 +3374,7 @@ export const blogPosts: BlogPost[] = [
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 0 0 24px;">
   <figure style="margin: 0;">
     <img
-      src="/B30-gutter-cleaning3.png"
+      src="/B30-gutter-cleaning3.webp"
       alt="Years of moss and lichen accumulation on concrete roof tiles West Midlands before professional treatment"
       width="800"
       height="600"
@@ -3385,7 +3385,7 @@ export const blogPosts: BlogPost[] = [
   </figure>
   <figure style="margin: 0;">
     <img
-      src="/B30-gutter-cleaning4.png"
+      src="/B30-gutter-cleaning4.webp"
       alt="Heavy moss coverage across entire roof of detached property Kings Norton Birmingham before cleaning"
       width="800"
       height="600"
@@ -3398,7 +3398,7 @@ export const blogPosts: BlogPost[] = [
 
 <figure style="margin: 0 0 32px;">
   <img
-    src="/B30-gutter-cleaning5.png"
+    src="/B30-gutter-cleaning5.webp"
     alt="Full property view showing complete moss coverage on detached home Kings Norton B30 Birmingham before roof cleaning"
     width="1280"
     height="720"
@@ -3429,7 +3429,7 @@ export const blogPosts: BlogPost[] = [
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px; border-radius: 10px; overflow: hidden; margin: 24px 0;">
   <div style="position: relative;">
     <img
-      src="/B30-gutter-cleaning4.png"
+      src="/B30-gutter-cleaning4.webp"
       alt="Before roof cleaning Kings Norton B30 Birmingham — heavy moss coverage across full roof"
       width="800"
       height="600"
@@ -3440,7 +3440,7 @@ export const blogPosts: BlogPost[] = [
   </div>
   <div style="position: relative;">
     <img
-      src="/B30-gutter-cleaning5.png"
+      src="/B30-gutter-cleaning5.webp"
       alt="After roof moss removal Kings Norton B30 Birmingham — fully cleared and restored by WOW Gutters Ltd"
       width="800"
       height="600"

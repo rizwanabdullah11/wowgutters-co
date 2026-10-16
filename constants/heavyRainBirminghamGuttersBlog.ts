@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  '/blog-images/clay-gutter-cleaning/clay-gutter-cleaning-hero.png';
+  '/blog-images/clay-gutter-cleaning/clay-gutter-cleaning-hero.webp';
 const IMG_BEFORE =
-  '/blog-images/clay-gutter-cleaning/clay-gutter-cleaning-before.png';
+  '/blog-images/clay-gutter-cleaning/clay-gutter-cleaning-before.webp';
 const IMG_AFTER =
-  '/blog-images/clay-gutter-cleaning/clay-gutter-cleaning-after.png';
+  '/blog-images/clay-gutter-cleaning/clay-gutter-cleaning-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 const ctaBox = `

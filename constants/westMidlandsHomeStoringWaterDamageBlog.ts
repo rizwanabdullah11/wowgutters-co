@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HOME =
-  '/blog-images/home-quietly-gutter/home-quietly-gutter-home.png';
+  '/blog-images/home-quietly-gutter/home-quietly-gutter-home.webp';
 const IMG_BEFORE =
-  '/blog-images/home-quietly-gutter/home-quietly-gutter-before.png';
+  '/blog-images/home-quietly-gutter/home-quietly-gutter-before.webp';
 const IMG_AFTER =
-  '/blog-images/home-quietly-gutter/home-quietly-gutter-after.png';
+  '/blog-images/home-quietly-gutter/home-quietly-gutter-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  '/blog-images/dispatch-gutter-cleaning/dispatch-gutter-cleaning-hero.png';
+  '/blog-images/dispatch-gutter-cleaning/dispatch-gutter-cleaning-hero.webp';
 const IMG_BEFORE =
-  '/blog-images/dispatch-gutter-cleaning/dispatch-gutter-cleaning-before.png';
+  '/blog-images/dispatch-gutter-cleaning/dispatch-gutter-cleaning-before.webp';
 const IMG_AFTER =
-  '/blog-images/dispatch-gutter-cleaning/dispatch-gutter-cleaning-after.png';
+  '/blog-images/dispatch-gutter-cleaning/dispatch-gutter-cleaning-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 const ctaBox = `

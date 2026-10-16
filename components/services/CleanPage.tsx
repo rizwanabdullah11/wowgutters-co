@@ -217,7 +217,7 @@ export default function CleanPage() {
           'How often should I clean my roof?',
           'Do you remove moss and algae?',
         ]}
-        backgroundImage="/gutter-clean.png"
+        backgroundImage="/gutter-clean.webp"
       />
 
       {/* Roof Cleaning Results Section - Text Left, Image Right */}
@@ -450,4 +450,4 @@ export default function CleanPage() {
       </section>
     </main>
   );
-}
+}

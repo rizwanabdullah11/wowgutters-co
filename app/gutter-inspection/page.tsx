@@ -14,7 +14,7 @@ const service: ServiceDetail = {
   id: 'gutter-inspection',
   name: 'Gutter Inspection',
   icon: '🔍',
-  heroImage: '/gutter-inspection.png',
+  heroImage: '/gutter-inspection.webp',
   heroTitle: 'Free Gutter Inspection & Condition Report',
   heroDescription:
     'A free, no-obligation gutter inspection that checks the full system — channels, downpipes, joints, brackets, and fascia condition. You get a clear report with honest recommendations. No charge, no commitment, and no pressure to book further work.',
@@ -23,7 +23,7 @@ const service: ServiceDetail = {
       title: 'Why Book a Gutter Inspection?',
       content:
         'Most gutter problems develop slowly. A joint that drips occasionally, a bracket that is slightly loose, a downpipe that drains a little slower than it should — small issues that become expensive repairs if left unnoticed. A professional gutter inspection catches these problems early and gives you a clear picture of your roofline condition.',
-      image: '/gutter-inspection.png',
+      image: '/gutter-inspection.webp',
       imagePosition: 'right',
       bulletPoints: [
         'Catches small problems before they become costly repairs',
@@ -38,7 +38,7 @@ const service: ServiceDetail = {
       title: 'What We Check During an Inspection',
       content:
         'WOW Gutters Ltd inspects every part of the gutter system that is accessible from ground level or ladder. We look at the condition of the channel, the alignment of the brackets, the seals at joints, and the flow from downpipes. We also check the fascia condition where visible and note any roof-edge issues.',
-      image: '/gutter-inspection.png',
+      image: '/gutter-inspection.webp',
       imagePosition: 'left',
       bulletPoints: [
         'Gutter channels — checked for cracks, splits, and standing water',
@@ -78,7 +78,7 @@ const service: ServiceDetail = {
       title: 'Gutter Inspection & Related Services',
       content:
         'An inspection often leads to a small repair, a gutter clean, or peace of mind that everything is fine. WOW Gutters Ltd can carry out any recommended work immediately or schedule it for a convenient time.',
-      image: '/gutter-cleaning-westmidlands.png',
+      image: '/gutter-cleaning-westmidlands.webp',
       imagePosition: 'right',
       bulletPoints: [
         'Gutter cleaning — if blockages are found during inspection',

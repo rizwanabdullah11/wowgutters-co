@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  '/blog-images/summer-gutter-inspection/summer-gutter-inspection-hero.png';
+  '/blog-images/summer-gutter-inspection/summer-gutter-inspection-hero.webp';
 const IMG_BEFORE =
-  '/blog-images/summer-gutter-inspection/summer-gutter-inspection-before.png';
+  '/blog-images/summer-gutter-inspection/summer-gutter-inspection-before.webp';
 const IMG_AFTER =
-  '/blog-images/summer-gutter-inspection/summer-gutter-inspection-after.png';
+  '/blog-images/summer-gutter-inspection/summer-gutter-inspection-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

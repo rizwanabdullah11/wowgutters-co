@@ -22,7 +22,7 @@ export const harborneBlogPost: BlogPost = {
   title: "Gutter Cleaning in Harborne B17 — Protecting Birmingham's Most Valued Homes",
   excerpt:
     'Professional gutter cleaning for Harborne B17 period properties. Wow Gutters Ltd — vacuum system, no ladders, before & after photos. Free quote: 07421 433910.',
-  image: '/harborne-gutter-cleaning-hero.png',
+  image: '/harborne-gutter-cleaning-hero.webp',
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-04',
   views: '0',
@@ -110,12 +110,12 @@ export const harborneBlogPost: BlogPost = {
 <h2 id="before-after">Before and After — Harborne B17</h2>
 
 <figure style="margin: 20px 0;">
-  <img src="/harborne-gutter-cleaning-before.png" alt="Blocked gutter on period property Harborne B17 Birmingham before cleaning" width="1280" height="720" loading="eager" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="/harborne-gutter-cleaning-before.webp" alt="Blocked gutter on period property Harborne B17 Birmingham before cleaning" width="1280" height="720" loading="eager" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">Before: Blocked gutter on a Harborne B17 period property — compacted leaves and debris before professional vacuum clearance.</figcaption>
 </figure>
 
 <figure style="margin: 20px 0;">
-  <img src="/harborne-gutter-cleaning-after.png" alt="Clean gutter after professional service Harborne B17 Wow Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="/harborne-gutter-cleaning-after.webp" alt="Clean gutter after professional service Harborne B17 Wow Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">After: The same gutter run fully cleared — channel open, downpipe flowing, before and after photos sent the same day.</figcaption>
 </figure>
 

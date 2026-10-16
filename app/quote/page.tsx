@@ -91,7 +91,7 @@ export default function QuotePage() {
             muted
             playsInline
             preload="auto"
-            poster="/gutter-cleaning.jpeg"
+            poster="/gutter-cleaning.webp"
             className="w-full h-full object-cover"
           >
             <source src="/gutter-final-video.mp4" type="video/mp4" />
@@ -462,7 +462,7 @@ export default function QuotePage() {
           'What areas do you cover?',
           'Can you repair damaged gutters too?',
         ]}
-        backgroundImage="/gutter-cleaning.jpeg"
+        backgroundImage="/gutter-cleaning.webp"
       />
 
       {/* ═══════════════════════════════ SEO SECTION ═══════════════════════════════ */}

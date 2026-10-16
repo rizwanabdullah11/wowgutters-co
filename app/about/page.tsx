@@ -71,7 +71,7 @@ export default function About() {
             muted
             playsInline
             preload="auto"
-            poster="/gutter-cleaning.jpeg"
+            poster="/gutter-cleaning.webp"
             className="hero-video"
           >
             <source src="/gutter-final-video.mp4" type="video/mp4" />
@@ -174,7 +174,7 @@ export default function About() {
             <div className="flex justify-center">
               <div className="relative w-full max-w-md aspect-square bg-white/5 backdrop-blur-sm rounded-3xl p-8 border border-white/10">
                 <Image
-                  src="/blog8.png"
+                  src="/blog8.webp"
                   alt="WOW Gutter Cleaning Logo"
                   fill
                   className="object-contain p-8"
@@ -224,7 +224,7 @@ export default function About() {
           <div className="grid lg:grid-cols-2 gap-12 lg:items-center">
             <div className="relative h-[400px] lg:h-full lg:min-h-[550px] w-full rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/gutter-cleaning.jpeg"
+                src="/gutter-cleaning.webp"
                 alt="Full gutter service"
                 fill
                 className="object-cover"
@@ -347,7 +347,7 @@ export default function About() {
           'Do you offer same-day service?',
           'Can you repair damaged gutters?',
         ]}
-        backgroundImage="/gutter-cleaning.jpeg"
+        backgroundImage="/gutter-cleaning.webp"
       />
 
       {/* Trust Badges Section */}

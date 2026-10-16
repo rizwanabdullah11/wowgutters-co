@@ -236,7 +236,7 @@ export default function InspectionPage() {
           'Can I book an inspection for today?',
           'What will the inspection report include?',
         ]}
-        backgroundImage="/gutter-inspection.jfif"
+        backgroundImage="/gutter-inspection.webp"
       />
 
       <section className="py-20 bg-white">
@@ -284,7 +284,7 @@ export default function InspectionPage() {
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/gutter-inspection.png"
+                  src="/gutter-inspection.webp"
                   alt="Professional Gutter Inspection Service"
                   className="w-full h-auto object-cover"
                 />

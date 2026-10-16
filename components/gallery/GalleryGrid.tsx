@@ -19,7 +19,7 @@ export const galleryItems: GalleryItem[] = [
     id: 1,
     title: 'Gutter Clearance - West Midlands Home',
     description: 'Deep compacted organic silt, weeds, and moss completely extracted down to the channel floor.',
-    image: '/blog-images/hiring-gutter-cleaning-westmidlands/hiring-gutter-cleaning-westmidlands-after.png',
+    image: '/blog-images/hiring-gutter-cleaning-westmidlands/hiring-gutter-cleaning-westmidlands-after.webp',
     category: 'Before & After',
     location: 'West Midlands',
     tag: 'After'
@@ -28,7 +28,7 @@ export const galleryItems: GalleryItem[] = [
     id: 2,
     title: 'Heavily Blocked Gutter Channel',
     description: 'Severe weed and sediment blockage restricting rainwater discharge before extraction.',
-    image: '/blog-images/hiring-gutter-cleaning-westmidlands/hiring-gutter-cleaning-westmidlands-before.png',
+    image: '/blog-images/hiring-gutter-cleaning-westmidlands/hiring-gutter-cleaning-westmidlands-before.webp',
     category: 'Before & After',
     location: 'West Midlands',
     tag: 'Before'
@@ -37,7 +37,7 @@ export const galleryItems: GalleryItem[] = [
     id: 3,
     title: 'Walsall Gutter Clearance - After',
     description: 'Channel floor cleared and downpipe flow tested using ground-level high-reach vacuum suction.',
-    image: '/gutter-cleaning-walsall-after.png',
+    image: '/gutter-cleaning-walsall-after.webp',
     category: 'Before & After',
     location: 'Walsall',
     tag: 'After'
@@ -46,7 +46,7 @@ export const galleryItems: GalleryItem[] = [
     id: 4,
     title: 'Walsall Gutter Clearance - Before',
     description: 'Heavy silt and moss buildup threatening overflow onto external brickwork and foundations.',
-    image: '/gutter-cleaning-walsall-before.png',
+    image: '/gutter-cleaning-walsall-before.webp',
     category: 'Before & After',
     location: 'Walsall',
     tag: 'Before'
@@ -55,7 +55,7 @@ export const galleryItems: GalleryItem[] = [
     id: 5,
     title: 'Harborne Residential Gutter - After',
     description: 'Complete removal of dense tree debris with joints and brackets verified in pristine condition.',
-    image: '/harborne-gutter-cleaning-after.png',
+    image: '/harborne-gutter-cleaning-after.webp',
     category: 'Before & After',
     location: 'Harborne',
     tag: 'After'
@@ -64,7 +64,7 @@ export const galleryItems: GalleryItem[] = [
     id: 6,
     title: 'Harborne Residential Gutter - Before',
     description: 'Severe seasonal leaf fall and moss blocking the primary downpipe outlet.',
-    image: '/harborne-gutter-cleaning-before.png',
+    image: '/harborne-gutter-cleaning-before.webp',
     category: 'Before & After',
     location: 'Harborne',
     tag: 'Before'
@@ -73,7 +73,7 @@ export const galleryItems: GalleryItem[] = [
     id: 7,
     title: 'Solihull Gutter Channel - After',
     description: 'Spotless UPVC channel restored to maximum capacity with unrestricted flow lines.',
-    image: '/solihull-gutter-cleaning-after.png',
+    image: '/solihull-gutter-cleaning-after.webp',
     category: 'Before & After',
     location: 'Solihull',
     tag: 'After'
@@ -82,7 +82,7 @@ export const galleryItems: GalleryItem[] = [
     id: 8,
     title: 'Solihull Gutter Channel - Before',
     description: 'Soil, moss, and decaying organic debris choking the full length of the gutter run.',
-    image: '/solihull-gutter-cleaning-before.png',
+    image: '/solihull-gutter-cleaning-before.webp',
     category: 'Before & After',
     location: 'Solihull',
     tag: 'Before'
@@ -91,7 +91,7 @@ export const galleryItems: GalleryItem[] = [
     id: 9,
     title: 'Acocks Green Gutter Clean - After',
     description: 'Vacuum extraction completed with before-and-after photo confirmation delivered to customer.',
-    image: '/gutter-cleaning-acocks-green-after.png',
+    image: '/gutter-cleaning-acocks-green-after.webp',
     category: 'Before & After',
     location: 'Acocks Green',
     tag: 'After'
@@ -100,7 +100,7 @@ export const galleryItems: GalleryItem[] = [
     id: 10,
     title: 'Acocks Green Gutter Clean - Before',
     description: 'Overflowing gutters showing weed growth and standing water in channel.',
-    image: '/gutter-cleaning-acocks-green-before.png',
+    image: '/gutter-cleaning-acocks-green-before.webp',
     category: 'Before & After',
     location: 'Acocks Green',
     tag: 'Before'
@@ -109,7 +109,7 @@ export const galleryItems: GalleryItem[] = [
     id: 11,
     title: 'Bartley Green Gutter Clean - After',
     description: 'Clean channel floor with outlets cleared and checked for free rainwater flow.',
-    image: '/gutter-ceaning-bartley-green-after.png',
+    image: '/gutter-ceaning-bartley-green-after.webp',
     category: 'Before & After',
     location: 'Bartley Green',
     tag: 'After'
@@ -118,7 +118,7 @@ export const galleryItems: GalleryItem[] = [
     id: 12,
     title: 'Bartley Green Gutter Clean - Before',
     description: 'Full blockage along roofline causing water pooling behind fascia board.',
-    image: '/gutter-ceaning-bartley-green-before.png',
+    image: '/gutter-ceaning-bartley-green-before.webp',
     category: 'Before & After',
     location: 'Bartley Green',
     tag: 'Before'
@@ -127,7 +127,7 @@ export const galleryItems: GalleryItem[] = [
     id: 13,
     title: 'Selly Oak Property Clean - After',
     description: 'Terraced house guttering fully cleared and structural alignment checked from ground.',
-    image: '/selly-oak-gutter-cleaning-after.png',
+    image: '/selly-oak-gutter-cleaning-after.webp',
     category: 'Before & After',
     location: 'Selly Oak',
     tag: 'After'
@@ -136,7 +136,7 @@ export const galleryItems: GalleryItem[] = [
     id: 14,
     title: 'Selly Oak Property Clean - Before',
     description: 'Congested gutter channel with heavy debris causing eaves damp risks.',
-    image: '/selly-oak-gutter-cleaning-before.png',
+    image: '/selly-oak-gutter-cleaning-before.webp',
     category: 'Before & After',
     location: 'Selly Oak',
     tag: 'Before'
@@ -145,7 +145,7 @@ export const galleryItems: GalleryItem[] = [
     id: 15,
     title: 'Coventry Gutter Clearance - After',
     description: 'Full-depth vacuum extraction leaving zero mess on surrounding ground or driveways.',
-    image: '/gutter-cleaning-coventry-after.png',
+    image: '/gutter-cleaning-coventry-after.webp',
     category: 'Before & After',
     location: 'Coventry',
     tag: 'After'
@@ -154,7 +154,7 @@ export const galleryItems: GalleryItem[] = [
     id: 16,
     title: 'Coventry Gutter Clearance - Before',
     description: 'Downpipe junction backed up with moss clumps dislodged from the main roof tiles.',
-    image: '/gutter-cleaning-coventry-before.png',
+    image: '/gutter-cleaning-coventry-before.webp',
     category: 'Before & After',
     location: 'Coventry',
     tag: 'Before'
@@ -163,7 +163,7 @@ export const galleryItems: GalleryItem[] = [
     id: 17,
     title: 'Wolverhampton Gutter Clearance - After',
     description: 'Restored drainage lines on detached property with overhanging tree cover.',
-    image: '/wolverhampton-gutter-cleaning-after.png',
+    image: '/wolverhampton-gutter-cleaning-after.webp',
     category: 'Before & After',
     location: 'Wolverhampton',
     tag: 'After'
@@ -172,7 +172,7 @@ export const galleryItems: GalleryItem[] = [
     id: 18,
     title: 'Wolverhampton Gutter Clearance - Before',
     description: 'Heavy seasonal organic sludge putting structural weight on supporting brackets.',
-    image: '/wolverhampton-gutter-cleaning-before.png',
+    image: '/wolverhampton-gutter-cleaning-before.webp',
     category: 'Before & After',
     location: 'Wolverhampton',
     tag: 'Before'
@@ -181,7 +181,7 @@ export const galleryItems: GalleryItem[] = [
     id: 19,
     title: 'West Midlands Dual Transformation',
     description: 'Side-by-side verification showing full extraction of dense rooted vegetation.',
-    image: '/westmidlands-before-after.png',
+    image: '/westmidlands-before-after.webp',
     category: 'Before & After',
     location: 'West Midlands',
     tag: 'Before & After'
@@ -192,7 +192,7 @@ export const galleryItems: GalleryItem[] = [
     id: 20,
     title: 'Victorian Cast Iron System - After',
     description: 'Heritage cast iron guttering cleaned to the channel floor without abrasive damage to original seals.',
-    image: '/blog-images/victorian-gutter-cleaning/victorian-gutter-cleaning-after.png',
+    image: '/blog-images/victorian-gutter-cleaning/victorian-gutter-cleaning-after.webp',
     category: 'Heritage & Period',
     location: 'Bournville',
     tag: 'After'
@@ -201,7 +201,7 @@ export const galleryItems: GalleryItem[] = [
     id: 21,
     title: 'Victorian Cast Iron System - Before',
     description: 'Heavy mud and organic buildup placing extreme stress on period cast iron bracket fixings.',
-    image: '/blog-images/victorian-gutter-cleaning/victorian-gutter-cleaning-before.png',
+    image: '/blog-images/victorian-gutter-cleaning/victorian-gutter-cleaning-before.webp',
     category: 'Heritage & Period',
     location: 'Bournville',
     tag: 'Before'
@@ -210,7 +210,7 @@ export const galleryItems: GalleryItem[] = [
     id: 22,
     title: 'Victorian Property Roofline Clearance',
     description: 'Ground-level vacuum reach safely maintaining historic fascias and decorative mouldings without ladder contact.',
-    image: '/blog-images/victorian-gutter-cleaning/victorian-gutter-cleaning-hero.png',
+    image: '/blog-images/victorian-gutter-cleaning/victorian-gutter-cleaning-hero.webp',
     category: 'Heritage & Period',
     location: 'Edgbaston',
     tag: 'In Action'
@@ -221,7 +221,7 @@ export const galleryItems: GalleryItem[] = [
     id: 23,
     title: 'High-Reach Vacuum Cleaning on Semi-Detached Home',
     description: 'Industrial-grade suction reaching gutters over conservatories and extensions safely from the ground.',
-    image: '/blog-images/hiring-gutter-cleaning-westmidlands/hiring-gutter-cleaning-westmidlands-hero.png',
+    image: '/blog-images/hiring-gutter-cleaning-westmidlands/hiring-gutter-cleaning-westmidlands-hero.webp',
     category: 'Residential',
     location: 'Solihull',
     tag: 'In Action'
@@ -230,7 +230,7 @@ export const galleryItems: GalleryItem[] = [
     id: 24,
     title: 'Ground-Based Gutter Maintenance System',
     description: 'Technician operating high-flow vacuum system with wireless camera guidance for precision clearance.',
-    image: '/gutter-cleaning.jpeg',
+    image: '/gutter-cleaning.webp',
     category: 'Residential',
     location: 'Birmingham',
     tag: 'Equipment'
@@ -239,7 +239,7 @@ export const galleryItems: GalleryItem[] = [
     id: 25,
     title: 'Two-Storey Residential Gutter Clearance',
     description: 'Safe clearance up to 40ft without setting ladders against walls, windows, or painted render.',
-    image: '/B30-gutter-cleaning-hero.png',
+    image: '/B30-gutter-cleaning-hero.webp',
     category: 'Residential',
     location: 'Kings Norton',
     tag: 'In Action'
@@ -248,7 +248,7 @@ export const galleryItems: GalleryItem[] = [
     id: 26,
     title: 'Canopy & Tree Cover Clearance Project',
     description: 'Extraction of fine silt and pine needles that typical scooping methods leave behind on the channel floor.',
-    image: '/blog-images/tree-cover-gutter-cleaning/tree-cover-gutter-cleaning-hero.png',
+    image: '/blog-images/tree-cover-gutter-cleaning/tree-cover-gutter-cleaning-hero.webp',
     category: 'Residential',
     location: 'Moseley',
     tag: 'In Action'
@@ -257,7 +257,7 @@ export const galleryItems: GalleryItem[] = [
     id: 27,
     title: 'Seasonal Gutter Health Inspection',
     description: 'Comprehensive assessment of fall angle, joint seals, and downpipe outlets.',
-    image: '/blog-images/summer-gutter-inspection/summer-gutter-inspection-hero.png',
+    image: '/blog-images/summer-gutter-inspection/summer-gutter-inspection-hero.webp',
     category: 'Residential',
     location: 'Sutton Coldfield',
     tag: 'Inspection'
@@ -268,7 +268,7 @@ export const galleryItems: GalleryItem[] = [
     id: 28,
     title: 'Commercial Box Gutter Clearance - After',
     description: 'Industrial property drainage run cleared to prevent internal warehouse leaks and stock damage.',
-    image: '/blog-images/flat-roof-cleaning/flat-roof-cleaning-after.png',
+    image: '/blog-images/flat-roof-cleaning/flat-roof-cleaning-after.webp',
     category: 'Commercial',
     location: 'Nechells Industrial Estate',
     tag: 'After'
@@ -277,7 +277,7 @@ export const galleryItems: GalleryItem[] = [
     id: 29,
     title: 'Commercial Box Gutter Clearance - Before',
     description: 'Compacted industrial dust, debris, and moss obstructing commercial rainwater drainage.',
-    image: '/blog-images/flat-roof-cleaning/flat-roof-cleaning-before.png',
+    image: '/blog-images/flat-roof-cleaning/flat-roof-cleaning-before.webp',
     category: 'Commercial',
     location: 'Nechells Industrial Estate',
     tag: 'Before'
@@ -286,7 +286,7 @@ export const galleryItems: GalleryItem[] = [
     id: 30,
     title: 'Commercial Gutter & Parapet Assessment',
     description: 'Ground-based vacuum maintenance for business premises, industrial units, and office blocks.',
-    image: '/blog-images/flat-roof-cleaning/flat-roof-cleaning-hero.png',
+    image: '/blog-images/flat-roof-cleaning/flat-roof-cleaning-hero.webp',
     category: 'Commercial',
     location: 'Birmingham Commercial Zone',
     tag: 'Commercial'
@@ -295,7 +295,7 @@ export const galleryItems: GalleryItem[] = [
     id: 31,
     title: 'Nechells Commercial Unit - After',
     description: 'Cleaned box gutter and high-capacity drainage ready for heavy rainfall.',
-    image: '/nechells-gutter-cleaning-after.png',
+    image: '/nechells-gutter-cleaning-after.webp',
     category: 'Commercial',
     location: 'Nechells',
     tag: 'After'
@@ -304,7 +304,7 @@ export const galleryItems: GalleryItem[] = [
     id: 32,
     title: 'Nechells Commercial Unit - Before',
     description: 'Extensive vegetation growth in commercial roof drainage channel.',
-    image: '/nechells-gutter-cleaning-before.png',
+    image: '/nechells-gutter-cleaning-before.webp',
     category: 'Commercial',
     location: 'Nechells',
     tag: 'Before'
@@ -315,7 +315,7 @@ export const galleryItems: GalleryItem[] = [
     id: 33,
     title: 'Roof De-Mossing & Gutter Extraction - After',
     description: 'Roofline and gutters cleared of invasive moss that causes repeated seasonal downpipe clogs.',
-    image: '/dudley-roof-cleaning-after.png',
+    image: '/dudley-roof-cleaning-after.webp',
     category: 'Roof & UPVC',
     location: 'Dudley',
     tag: 'After'
@@ -324,7 +324,7 @@ export const galleryItems: GalleryItem[] = [
     id: 34,
     title: 'Roof De-Mossing & Gutter Extraction - Before',
     description: 'Severe moss infestation rolling off roof tiles and filling gutter capacity.',
-    image: '/dudley-roof-cleaning-before.png',
+    image: '/dudley-roof-cleaning-before.webp',
     category: 'Roof & UPVC',
     location: 'Dudley',
     tag: 'Before'
@@ -333,7 +333,7 @@ export const galleryItems: GalleryItem[] = [
     id: 35,
     title: 'Fascia & Soffit Washing - After',
     description: 'UPVC restored to bright, clean condition removing green algae and traffic film.',
-    image: '/blog-images/scoffts-gutter-cleaning/scoffts-gutter-cleaning-after.png',
+    image: '/blog-images/scoffts-gutter-cleaning/scoffts-gutter-cleaning-after.webp',
     category: 'Roof & UPVC',
     location: 'West Midlands',
     tag: 'After'
@@ -342,7 +342,7 @@ export const galleryItems: GalleryItem[] = [
     id: 36,
     title: 'Fascia & Soffit Washing - Before',
     description: 'Heavy grime, atmospheric staining, and mildew coating UPVC roofline boards.',
-    image: '/blog-images/scoffts-gutter-cleaning/scoffts-gutter-cleaning-before.png',
+    image: '/blog-images/scoffts-gutter-cleaning/scoffts-gutter-cleaning-before.webp',
     category: 'Roof & UPVC',
     location: 'West Midlands',
     tag: 'Before'
