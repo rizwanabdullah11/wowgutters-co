@@ -1,3 +1,4 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
 import SuburbGutterCleaningPage from '@/components/areas/SuburbGutterCleaningPage'
@@ -6,7 +7,7 @@ import { suburbPages } from '@/lib/suburbPageData'
 const URL_PATH = 'https://wowgutters.co.uk/gutter-cleaning-fox-hollies/'
 const pageData = suburbPages['fox-hollies']
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Fox Hollies Birmingham | WOW Gutters Ltd',
   description: 'Professional gutter cleaning in Fox Hollies, Birmingham (B26, B27). 1930s semis & terraces, no ladders, vacuum system, before & after photos. From £50. Call: 07421 433910.',
   alternates: { canonical: URL_PATH, languages: { 'en-GB': URL_PATH, 'x-default': URL_PATH } },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     description: 'Professional gutter cleaning in Fox Hollies B26. From £50. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/fox-hollies.jpg'],
   },
-}
+})
 
 export default function FoxHolliesPage() {
   return (

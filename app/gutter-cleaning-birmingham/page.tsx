@@ -1,3 +1,4 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
 import BirminghamGutterCleaningPage from '@/components/areas/BirminghamGutterCleaningPage'
@@ -5,7 +6,7 @@ import { buildCitySchemaFaqs } from '@/lib/cityFaqs'
 
 const URL_PATH = 'https://wowgutters.co.uk/gutter-cleaning-birmingham/'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Birmingham | WOW Gutters Ltd',
   description: 'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum system, before & after photos, fully insured. Call WOW Gutters Ltd: 07421 433910.',
   alternates: {
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
     description: 'Professional gutter cleaning in Birmingham from £50. Ground-level vacuum system, before & after photos, fully insured.',
     images: ['https://wowgutters.co.uk/og/default.jpg'],
   },
-}
+})
 
 const BIRMINGHAM_POSTCODES = [
   'B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8', 'B9', 'B10', 'B11', 'B12', 'B13', 'B14', 'B15', 'B16',

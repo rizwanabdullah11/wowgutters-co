@@ -1,9 +1,9 @@
 import type { BlogPost } from './blogTypes';
 
-const IMG_HERO = '/blog-images/leaves-gutter-cleaning/leaves-hero.jpg';
-const IMG_SILT_FORMATION = '/blog-images/leaves-gutter-cleaning/leaves-to-silt.jpg';
-const IMG_LEAF_TYPES = '/blog-images/leaves-gutter-cleaning/leaf-types-trouble.jpg';
-const IMG_BLOCKED_DOWNPIPE = '/blog-images/leaves-gutter-cleaning/blocked-downpipe-leaves.jpg';
+const IMG_HERO = '/blog-images/leaves-gutter-cleaning/leaves-hero.webp';
+const IMG_SILT_FORMATION = '/blog-images/leaves-gutter-cleaning/leaves-to-silt.webp';
+const IMG_LEAF_TYPES = '/blog-images/leaves-gutter-cleaning/leaf-types-trouble.webp';
+const IMG_BLOCKED_DOWNPIPE = '/blog-images/leaves-gutter-cleaning/blocked-downpipe-leaves.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 
@@ -323,4 +323,4 @@ ${ctaBox}
 
 <p><strong>Related reading:</strong> <a href="/blog/autumn-leaf-fall-tree-type-birmingham/" style="${link}">Autumn Leaf Fall by Tree Type</a> · <a href="/blog/birmingham-autumn-leaves/" style="${link}">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a> · <a href="/blog/autumn-dangerous-season-birmingham-gutters/" style="${link}">Why Autumn Is the Most Dangerous Season for Birmingham Gutters</a> · <a href="/blog/gutter-cleaning-before-winter/" style="${link}">Gutter Cleaning Before Winter Birmingham</a> · <a href="/blog/gutter-water-damage-guide/" style="${link}">Water Damage From Gutters: Birmingham Homeowner Guide</a> · <a href="/blog/gutter-cleaning-rainy-season-west-midlands/" style="${link}">Gutter Cleaning in Rainy Season: A West Midlands Prep List</a> · <a href="/roofline-cleaning-birmingham/" style="${link}">Roofline Cleaning Birmingham</a> · <a href="/blog/complete-gutter-maintenance-birmingham-west-midlands/" style="${link}">The Complete Guide to Gutter Maintenance</a></p>
 `
-};
+};

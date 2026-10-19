@@ -1,10 +1,10 @@
 import type { BlogPost } from './blogTypes';
 
-const HERO = '/blog-images/leaf-removing-gutter-cleaning-hero.png';
-const IMAGE_ONE = '/blog-images/leaf-removing-gutter-cleaning-image1.png';
-const IMAGE_TWO = '/blog-images/leaf-removing-gutter-cleaning-image2.png';
-const BEFORE = '/blog-images/leaf-removing-gutter-cleaning-before.png';
-const AFTER = '/blog-images/leaf-removing-gutter-cleaning-after.png';
+const HERO = '/blog-images/leaf-removing-gutter-cleaning-hero.webp';
+const IMAGE_ONE = '/blog-images/leaf-removing-gutter-cleaning-image1.webp';
+const IMAGE_TWO = '/blog-images/leaf-removing-gutter-cleaning-image2.webp';
+const BEFORE = '/blog-images/leaf-removing-gutter-cleaning-before.webp';
+const AFTER = '/blog-images/leaf-removing-gutter-cleaning-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 
@@ -318,4 +318,4 @@ ${ctaBox}
   <li><a href="/blog/roof-moss-damage/" style="${link}">Moss on Your Roof? What It's Doing to Your Birmingham Gutters</a></li>
 </ul>
   `,
-};
+};

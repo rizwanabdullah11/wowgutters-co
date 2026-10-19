@@ -6,7 +6,7 @@ export const sellyOakBlogPost: BlogPost = {
   title: 'Gutter Cleaning in Selly Oak B29 — Local, Reliable & Professional',
   excerpt:
     'Professional gutter cleaning in Selly Oak B29. Wow Gutters Ltd covers all B29 streets — vacuum system, no ladders, before & after photos on every job. Free quote: 07421 433910.',
-  image: '/selly-oak-gutter-cleaning-hero.png',
+  image: '/selly-oak-gutter-cleaning-hero.webp',
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-02',
   views: '0',
@@ -64,7 +64,7 @@ export const sellyOakBlogPost: BlogPost = {
 
 <figure style="margin: 20px 0;">
   <img
-    src="/selly-oak-gutter-cleaning-before.png"
+    src="/selly-oak-gutter-cleaning-before.webp"
     alt="Blocked gutter full of leaves and moss Selly Oak B29 Birmingham before cleaning"
     width="1280"
     height="720"
@@ -78,7 +78,7 @@ export const sellyOakBlogPost: BlogPost = {
 
 <figure style="margin: 20px 0;">
   <img
-    src="/selly-oak-gutter-cleaning-after.png"
+    src="/selly-oak-gutter-cleaning-after.webp"
     alt="Clean gutter after professional clearing Selly Oak Birmingham Wow Gutters Ltd"
     width="1280"
     height="720"

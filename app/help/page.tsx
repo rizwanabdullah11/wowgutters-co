@@ -1,4 +1,5 @@
 'use client';
+import HeroVideo from '@/components/media/HeroVideo';
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
@@ -65,19 +66,7 @@ export default function HelpPage() {
       <section className="help-hero-section">
         {/* Video Background */}
         <div className="hero-video-wrapper">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="auto"
-            poster="/gutter-cleaning.jpeg"
-            className="hero-video"
-          >
-            <source src="/gutter-final-video.mp4" type="video/mp4" />
-            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
-          </video>
+          <HeroVideo className="hero-video" />
           <div className="help-hero-overlay"></div>
         </div>
 

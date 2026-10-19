@@ -14,7 +14,7 @@ export default function CoventryGutterCleaningBlogContent() {
       <figure className="hero-image">
         <div className="hero-image-wrapper">
           <Image
-            src="/gutter-cleaning-coventry-hero.png"
+            src="/gutter-cleaning-coventry-hero.webp"
             alt="Real before and after — gutter cleaning Coventry, 23 March 2026. Left: gutter heavily packed with growing weeds, moss and debris. Right: completely cleared down to the plastic, 23 minutes later."
             width={1728}
             height={608}
@@ -56,7 +56,7 @@ export default function CoventryGutterCleaningBlogContent() {
 
       <figure>
         <Image
-          src="/gutter-cleaning-coventry-before.jpeg"
+          src="/gutter-cleaning-coventry-before.webp"
           alt="Before photo — severely blocked gutters in Coventry, 23 March 2026. Gutter packed with growing weeds, heavy moss and compacted leaf debris."
           width={800}
           height={600}
@@ -73,7 +73,7 @@ export default function CoventryGutterCleaningBlogContent() {
 
       <figure>
         <Image
-          src="/gutter-cleaning-coventry-after.jpeg"
+          src="/gutter-cleaning-coventry-after.webp"
           alt="After photo — gutter cleaning complete in Coventry, 23 March 2026. Gutter cleared to the plastic channel in 23 minutes, ground-level vacuum service."
           width={800}
           height={600}

@@ -1,10 +1,11 @@
 /**
  * Elfsight Google Reviews — static export helper.
  *
- * The platform script is injected in app/layout.tsx with
- * data-cookieconsent="ignore" so Cookiebot auto-blocking does NOT block it.
- * This helper just (re)initialises the widget once the platform is ready,
- * including for visitors who arrive before hydration completes.
+ * Performance (Oct 2026): the platform script is no longer in <head>. It is
+ * fetched only on pages that actually contain a reviews widget, and only when
+ * that widget comes within 400px of the viewport. data-cookieconsent="ignore"
+ * keeps Cookiebot auto-blocking from blocking it. Works before hydration too;
+ * components/sections/ElfsightReviews.tsx uses the same script tag.
  */
 (function () {
   'use strict';
@@ -22,26 +23,44 @@
   }
 
   function ensurePlatform() {
-    var existing =
-      document.getElementById('elfsight-platform') ||
-      document.querySelector('script[src="' + PLATFORM_SRC + '"]');
-
+    var existing = document.querySelector('script[src="' + PLATFORM_SRC + '"]');
     if (existing) {
       refreshElfsightApps();
       return;
     }
-
     var script = document.createElement('script');
     script.src = PLATFORM_SRC;
     script.async = true;
     script.setAttribute('data-cookieconsent', 'ignore');
-    script.onload = refreshElfsightApps;
+    script.onload = function () {
+      script.dataset.loaded = '1';
+      refreshElfsightApps();
+    };
     document.body.appendChild(script);
   }
 
   function boot() {
-    ensurePlatform();
-    refreshElfsightApps();
+    var widgets = document.querySelectorAll('[class*="elfsight-app-"]');
+    if (!widgets.length) return;
+
+    if (!('IntersectionObserver' in window)) {
+      ensurePlatform();
+      return;
+    }
+
+    var io = new IntersectionObserver(
+      function (entries) {
+        for (var i = 0; i < entries.length; i++) {
+          if (entries[i].isIntersecting) {
+            io.disconnect();
+            ensurePlatform();
+            return;
+          }
+        }
+      },
+      { rootMargin: '400px 0px' }
+    );
+    for (var j = 0; j < widgets.length; j++) io.observe(widgets[j]);
   }
 
   if (document.readyState === 'loading') {
@@ -49,8 +68,4 @@
   } else {
     boot();
   }
-
-  // Retry after hydration / late platform load.
-  setTimeout(boot, 1200);
-  setTimeout(boot, 3500);
 })();

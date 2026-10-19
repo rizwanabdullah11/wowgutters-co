@@ -22,7 +22,7 @@ export const nechellsBlogPost: BlogPost = {
   title: 'Gutter Cleaning in Nechells B7 — Urban Properties Deserve Professional Care',
   excerpt:
     'Professional gutter cleaning in Nechells B7 Birmingham. Wow Gutters Ltd — industrial vacuum system, no ladders, before & after photos every job. Landlords welcome. Free quote: 07421 433910.',
-  image: '/nechells-gutter-cleaning-hero.png',
+  image: '/nechells-gutter-cleaning-hero.webp',
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-06',
   views: '0',
@@ -186,12 +186,12 @@ export const nechellsBlogPost: BlogPost = {
 <h2 id="before-after">Before and After — Nechells B7</h2>
 
 <figure style="margin: 20px 0;">
-  <img src="/nechells-gutter-cleaning-before.png" alt="Before gutter cleaning Nechells B7 Birmingham — compacted urban silt and debris" width="1280" height="720" loading="eager" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="/nechells-gutter-cleaning-before.webp" alt="Before gutter cleaning Nechells B7 Birmingham — compacted urban silt and debris" width="1280" height="720" loading="eager" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">Before: Blocked gutter on an inner-city terrace in Nechells B7 — compacted urban silt, particulate matter, and organic debris before professional vacuum clearance.</figcaption>
 </figure>
 
 <figure style="margin: 20px 0;">
-  <img src="/nechells-gutter-cleaning-after.png" alt="After professional gutter cleaning Nechells B7 Birmingham Wow Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="/nechells-gutter-cleaning-after.webp" alt="After professional gutter cleaning Nechells B7 Birmingham Wow Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">After: The same gutter run fully cleared — channel open, downpipe flowing, before and after photos sent the same day.</figcaption>
 </figure>
 

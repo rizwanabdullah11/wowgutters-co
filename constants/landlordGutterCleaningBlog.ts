@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
-const IMG_HERO   = '/blog-images/hiring-gutter-cleaning-westmidlands/hiring-gutter-cleaning-westmidlands-hero.png';
-const IMG_1      = '/blog-images/home-maintenance-gutter-cleaning/home-maintenance-gutter-cleaning-before.png';
-const IMG_2      = '/blog-images/home-quietly-gutter/home-quietly-gutter-before.png';
-const IMG_3      = '/blog-images/professional-gutter-clean/professional-gutter-cleaning-after.png';
-const IMG_4      = '/blog-images/victorian-gutter-cleaning/victorian-gutter-cleaning-before.png';
-const IMG_5      = '/blog-images/hiring-gutter-cleaning-westmidlands/hiring-gutter-cleaning-westmidlands-after.png';
+const IMG_HERO   = '/blog-images/hiring-gutter-cleaning-westmidlands/hiring-gutter-cleaning-westmidlands-hero.webp';
+const IMG_1      = '/blog-images/home-maintenance-gutter-cleaning/home-maintenance-gutter-cleaning-before.webp';
+const IMG_2      = '/blog-images/home-quietly-gutter/home-quietly-gutter-before.webp';
+const IMG_3      = '/blog-images/professional-gutter-clean/professional-gutter-cleaning-after.webp';
+const IMG_4      = '/blog-images/victorian-gutter-cleaning/victorian-gutter-cleaning-before.webp';
+const IMG_5      = '/blog-images/hiring-gutter-cleaning-westmidlands/hiring-gutter-cleaning-westmidlands-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

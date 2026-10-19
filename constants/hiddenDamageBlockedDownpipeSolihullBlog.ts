@@ -1,17 +1,17 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-hero.png';
+  '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-hero.webp';
 const IMG_FASCIA =
-  '/blog-images/leaf-removing-gutter-cleaning-image1.png';
+  '/blog-images/leaf-removing-gutter-cleaning-image1.webp';
 const IMG_WALL_DAMP =
-  '/blog-images/leaf-removing-gutter-cleaning-image2.png';
+  '/blog-images/leaf-removing-gutter-cleaning-image2.webp';
 const IMG_TREE_COVER =
-  '/blog-images/home-quietly-gutter/home-quietly-gutter-home.png';
+  '/blog-images/home-quietly-gutter/home-quietly-gutter-home.webp';
 const IMG_BEFORE =
-  '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-before.png';
+  '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-before.webp';
 const IMG_AFTER =
-  '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-after.png';
+  '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

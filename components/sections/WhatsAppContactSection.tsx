@@ -15,7 +15,7 @@ export default function WhatsAppContactSection({
   subtitle,
   description,
   questions,
-  backgroundImage = '/gutter-cleaning.jpeg'
+  backgroundImage = '/gutter-cleaning.webp'
 }: WhatsAppContactSectionProps) {
   return (
     <section className="py-20 px-4 relative overflow-hidden bg-gradient-to-br from-[#0b1634] via-[#0f2347] to-[#0b1f3f]">

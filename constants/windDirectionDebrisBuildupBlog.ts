@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-hero.png';
+  '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-hero.webp';
 const IMG_BEFORE =
-  '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-before.png';
+  '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-before.webp';
 const IMG_AFTER =
-  '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-after.png';
+  '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

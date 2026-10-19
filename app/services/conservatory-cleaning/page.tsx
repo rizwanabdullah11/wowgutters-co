@@ -1,9 +1,10 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next';
 import ConservatoryRedirect from './ConservatoryRedirect';
 
 const CANONICAL = 'https://wowgutters.co.uk/services/conservatory/';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'Conservatory Cleaning',
   description:
     'Conservatory cleaning and restoration service. This alias route redirects to the main conservatory service page.',
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
     index: false,
     follow: true,
   },
-};
+});
 
 export default function ConservatoryCleaningAliasPage() {
   return <ConservatoryRedirect />;

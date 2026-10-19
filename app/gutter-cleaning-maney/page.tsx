@@ -1,3 +1,4 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
 import SuburbGutterCleaningPage from '@/components/areas/SuburbGutterCleaningPage'
@@ -6,7 +7,7 @@ import { suburbPages } from '@/lib/suburbPageData'
 const URL_PATH = 'https://wowgutters.co.uk/gutter-cleaning-maney/'
 const pageData = suburbPages.maney
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Maney Sutton Coldfield | WOW Gutters Ltd',
   description: 'Professional gutter cleaning in Maney, Sutton Coldfield (B72, B73). Victorian & Edwardian properties, no ladders, vacuum system, before & after photos. From £55. Call: 07421 433910.',
   alternates: { canonical: URL_PATH, languages: { 'en-GB': URL_PATH, 'x-default': URL_PATH } },
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
     description: 'Professional gutter cleaning in Maney B72. From £55. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/maney.jpg'],
   },
-}
+})
 
 export default function ManeyPage() {
   return (

@@ -1,7 +1,5 @@
-'use client';
-
-import { useEffect, useRef } from 'react';
 import Link from 'next/link';
+import HeroVideo from '@/components/media/HeroVideo';
 import {
   Phone, ShieldCheck, CheckCircle, PenTool, Cable, Images, Shield,
   CheckCircle2, ChevronDown,
@@ -288,7 +286,6 @@ function areasContent(cat: string, slug: string): string {
 }
 
 export default function KeywordLandingPage({ page }: { page: KeywordPage }) {
-  const videoRef = useRef<HTMLVideoElement>(null);
   const cat = detectCategory(page.slug);
   const pills = heroPills(cat);
   const wq = whatsappQuestions(cat);
@@ -301,30 +298,12 @@ export default function KeywordLandingPage({ page }: { page: KeywordPage }) {
   const labelLc = categoryLabelLower(cat, page.slug);
   const faqLabel = page.heroTitle.replace(/Professional | services/gi, '').trim() || label;
 
-  useEffect(() => {
-    videoRef.current?.play().catch(() => {});
-  }, []);
-
   return (
     <main className="bg-white area-page-wrapper">
       {/* HERO */}
       <section className="area-hero-section">
         <div className="hero-video-wrapper">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="none"
-            poster="/gutter-hero-poster.jpg"
-            className="hero-video"
-            onError={(e) => {
-              (e.target as HTMLVideoElement).style.display = 'none';
-            }}
-          >
-            <source src="https://wowgutters.co.uk/gutter-final-video.mp4" type="video/mp4" />
-          </video>
+          <HeroVideo className="hero-video" />
           <div className="area-hero-overlay" />
         </div>
 
@@ -605,9 +584,9 @@ export default function KeywordLandingPage({ page }: { page: KeywordPage }) {
             </p>
             <div className="grid md:grid-cols-3 gap-6">
               {[
-                { src: '/blog-images/leaf-removing-gutter-cleaning-hero.png', alt: 'Commercial gutter and roof cleaning — warehouse' },
-                { src: '/blog-images/leaf-removing-gutter-cleaning-after.png', alt: 'Commercial gutter and roof cleaning — industrial' },
-                { src: '/blog-images/leaf-removing-gutter-cleaning-image1.png', alt: 'Commercial gutter and roof cleaning — after treatment' },
+                { src: '/blog-images/leaf-removing-gutter-cleaning-hero.webp', alt: 'Commercial gutter and roof cleaning — warehouse' },
+                { src: '/blog-images/leaf-removing-gutter-cleaning-after.webp', alt: 'Commercial gutter and roof cleaning — industrial' },
+                { src: '/blog-images/leaf-removing-gutter-cleaning-image1.webp', alt: 'Commercial gutter and roof cleaning — after treatment' },
               ].map((img) => (
                 <div key={img.src} className="rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow">
                   <img

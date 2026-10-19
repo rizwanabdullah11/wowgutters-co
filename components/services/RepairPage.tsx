@@ -1,4 +1,5 @@
 'use client';
+import HeroVideo from '@/components/media/HeroVideo';
 
 import { colors } from '@/constants/colors';
 import { Button } from '@/components/ui/button';
@@ -26,21 +27,7 @@ export default function RepairPage() {
       >
         {/* Video Background */}
         <div className="absolute inset-0 z-0">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="none"
-            poster="/gutter-repair-before.png"
-            className="w-full h-full object-cover"
-            onError={(e) => {
-              (e.target as HTMLVideoElement).style.display = 'none';
-            }}
-          >
-            <source src="/gutter-repair%20(2).mp4" type="video/mp4" />
-          </video>
+          <HeroVideo className="w-full h-full object-cover" />
           {/* Gradient overlay for text readability */}
           <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(15, 23, 42, 0.75) 0%, rgba(15, 23, 42, 0.65) 50%, rgba(15, 23, 42, 0.85) 100%)' }}></div>
         </div>
@@ -219,7 +206,7 @@ export default function RepairPage() {
           'Do you offer warranty on repairs?',
           'What types of gutter damage can you fix?',
         ]}
-        backgroundImage="/gutter-repair.png"
+        backgroundImage="/gutter-repair.webp"
       />
 
       {/* Repair Results Section - Text Left, Images Right */}
@@ -305,7 +292,7 @@ export default function RepairPage() {
                 <p className="text-lg font-bold mb-3 text-gray-600 uppercase tracking-wide">Before Repair</p>
                 <div className="rounded-2xl overflow-hidden shadow-2xl" style={{ maxHeight: '250px' }}>
                   <img 
-                    src="/gutter-repair-before.png" 
+                    src="/gutter-repair-before.webp" 
                     alt="Damaged Gutter Before Repair - Leaking and Broken" 
                     className="w-full h-full object-cover"
                     style={{ maxHeight: '250px' }}
@@ -318,7 +305,7 @@ export default function RepairPage() {
                 <p className="text-lg font-bold mb-3 uppercase tracking-wide" style={{ color: colors.primary }}>After Repair</p>
                 <div className="rounded-2xl overflow-hidden shadow-2xl">
                   <img 
-                    src="/gutter-repair-after.jpeg" 
+                    src="/gutter-repair-after.webp" 
                     alt="Repaired Gutter After Service - Clean and Functional" 
                     className="w-full h-auto object-cover"
                   />

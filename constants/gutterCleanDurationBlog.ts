@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  '/blog-images/gutter-cleaning-protection/gutter-cleaning-protection-hero.png';
+  '/blog-images/gutter-cleaning-protection/gutter-cleaning-protection-hero.webp';
 const IMG_BEFORE =
-  '/blog-images/gutter-cleaning-protection/gutter-cleaning-protection-before.png';
+  '/blog-images/gutter-cleaning-protection/gutter-cleaning-protection-before.webp';
 const IMG_AFTER =
-  '/blog-images/gutter-cleaning-protection/gutter-cleaning-protection-after.png';
+  '/blog-images/gutter-cleaning-protection/gutter-cleaning-protection-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

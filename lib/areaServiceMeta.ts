@@ -92,7 +92,7 @@ export const REPAIR_SERVICE_META: AreaServiceMeta = {
   defaultPriceFrom: 80,
   defaultPriceTo: 250,
   heroVideo: '/gutter-repair (2).mp4',
-  heroPoster: '/gutter-repair-before.png',
+  heroPoster: '/gutter-repair-before.webp',
   heroPills: [
     { label: 'Water-tested & sealed' },
     { label: 'Before & after photos' },
@@ -122,7 +122,7 @@ export const INSPECTION_SERVICE_META: AreaServiceMeta = {
   defaultPriceFrom: 0,
   defaultPriceTo: 0,
   heroVideo: '/gutter-cleaning-video.mp4',
-  heroPoster: '/gutter-inspection.png',
+  heroPoster: '/gutter-inspection.webp',
   heroPills: [
     { label: 'Free of charge' },
     { label: 'Photo report included' },
@@ -212,7 +212,7 @@ export const INSTALLATION_SERVICE_META: AreaServiceMeta = {
   defaultPriceFrom: 300,
   defaultPriceTo: 1500,
   heroVideo: '/gutter-cleaning-video.mp4',
-  heroPoster: '/gutter-installation.png',
+  heroPoster: '/gutter-installation.webp',
   heroPills: [
     { label: 'Free site survey' },
     { label: 'Flow tested & aligned' },

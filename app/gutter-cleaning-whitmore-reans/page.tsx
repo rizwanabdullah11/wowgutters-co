@@ -1,3 +1,4 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next'
 import { JsonLd } from '@/components/JsonLd'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
@@ -7,7 +8,7 @@ import { suburbPages } from '@/lib/suburbPageData'
 const URL_PATH = 'https://wowgutters.co.uk/gutter-cleaning-whitmore-reans/'
 const pageData = suburbPages['whitmore-reans']
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Whitmore Reans Wolverhampton | WOW Gutters Ltd',
   description: 'Professional gutter cleaning in Whitmore Reans, Wolverhampton (WV1, WV6). Victorian terraces, city centre homes, no ladders, vacuum system, before & after photos. From £40. Call: 07421 433910.',
   alternates: { canonical: URL_PATH, languages: { 'en-GB': URL_PATH, 'x-default': URL_PATH } },
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     description: 'Professional gutter cleaning in Whitmore Reans Wolverhampton WV1. From £40. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/whitmore-reans.jpg'],
   },
-}
+})
 
 const whitmoreReansHowToSchema = {
   '@context': 'https://schema.org',

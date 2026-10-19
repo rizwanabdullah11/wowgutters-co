@@ -1,4 +1,5 @@
 'use client';
+import HeroVideo from '@/components/media/HeroVideo';
 
 import React, { useRef, useEffect } from 'react';
 import { Shield, FileText, AlertCircle, CheckCircle, ArrowRight, MessageCircle } from 'lucide-react';
@@ -24,19 +25,7 @@ export default function TermsAndConditions() {
       <section className="relative overflow-hidden bg-slate-900 py-24 px-4 min-h-[440px] flex items-center justify-center">
         {/* Video Background */}
         <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="auto"
-            poster="/gutter-cleaning.jpeg"
-            className="w-full h-full object-cover"
-          >
-            <source src="/gutter-final-video.mp4" type="video/mp4" />
-            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
-          </video>
+          <HeroVideo className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-b from-slate-950/80 via-slate-900/70 to-slate-950/90 z-10" />
         </div>
 

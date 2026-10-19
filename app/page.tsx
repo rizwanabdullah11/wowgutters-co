@@ -1,9 +1,11 @@
+import { HERO_IMAGE_SRC, HERO_IMAGE_SRCSET } from '@/lib/heroImage';
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next';
 import HomeScreen from './home-screen/page';
 
 const URL_PATH = 'https://wowgutters.co.uk/';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Birmingham & West Midlands | WOW Gutters Ltd',
   
   description: 'Gutter cleaning in Birmingham & the West Midlands from £50. Ground-level vacuum, no ladders, before & after photos, fully insured. Free quote: 07421 433910.',
@@ -43,15 +45,14 @@ export const metadata: Metadata = {
     description: 'Gutter cleaning in Birmingham & the West Midlands from £50. Ground-level vacuum, no ladders, before & after photos, fully insured. Free quote: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/default.jpg']
   }
-};
+});
 
-const HERO_LCP_IMAGE = '/gutter-cleaning.jpeg';
 
 export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Homepage-only LCP preload (not applied site-wide) */}
-      <link rel="preload" as="image" href={HERO_LCP_IMAGE} fetchPriority="high" />
+      <link rel="preload" as="image" href={HERO_IMAGE_SRC} imageSrcSet={HERO_IMAGE_SRCSET} imageSizes="100vw" fetchPriority="high" />
       <HomeScreen />
     </div>
   );

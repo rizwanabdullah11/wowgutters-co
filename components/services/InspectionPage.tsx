@@ -1,4 +1,5 @@
 'use client';
+import HeroVideo from '@/components/media/HeroVideo';
 
 import { colors } from '@/constants/colors';
 import { Button } from '@/components/ui/button';
@@ -36,20 +37,7 @@ export default function InspectionPage() {
     <main className="bg-white">
       <section className="relative overflow-hidden" style={{ height: '70vh', minHeight: '500px' }}>
         <div className="absolute inset-0 z-0">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-full object-cover"
-            key={currentVideoIndex}
-            onError={(e) => {
-              (e.target as HTMLVideoElement).style.display = 'none';
-            }}
-          >
-            <source src={videos[currentVideoIndex]} type="video/mp4" />
-          </video>
+          <HeroVideo className="w-full h-full object-cover" />
           <div
             className="absolute inset-0"
             style={{
@@ -236,7 +224,7 @@ export default function InspectionPage() {
           'Can I book an inspection for today?',
           'What will the inspection report include?',
         ]}
-        backgroundImage="/gutter-inspection.jfif"
+        backgroundImage="/gutter-inspection.webp"
       />
 
       <section className="py-20 bg-white">
@@ -284,7 +272,7 @@ export default function InspectionPage() {
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/gutter-inspection.png"
+                  src="/gutter-inspection.webp"
                   alt="Professional Gutter Inspection Service"
                   className="w-full h-auto object-cover"
                 />

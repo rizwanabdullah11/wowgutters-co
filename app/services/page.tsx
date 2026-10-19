@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowRight, Phone, ShieldCheck } from 'lucide-react';
-import TopPageAreaLinks from '@/components/seo/TopPageAreaLinks';
+import LocalCoverageSection from '@/components/seo/LocalCoverageSection';
 import { servicesData } from '@/constants/servicesData';
 import { colors } from '@/constants/colors';
 import { buildMetadata } from '@/lib/seo';
@@ -14,28 +14,28 @@ export const metadata: Metadata = buildMetadata({
 });
 
 const SERVICE_CARD_IMAGES: Record<string, string> = {
-  'gutter-cleaning': '/gutter-cleaning.jpeg',
-  'gutter-repairs': '/gutter-repair.png',
+  'gutter-cleaning': '/gutter-cleaning.webp',
+  'gutter-repairs': '/gutter-repair.webp',
   'upvc-cleaning': '/upvc-cleaning.jpg',
   'roof-cleaning': '/roof-cleaning.JPG',
-  'gutter-inspection': '/gutter-inspection.png',
+  'gutter-inspection': '/gutter-inspection.webp',
   'roof-inspection': '/roof-cleaning.JPG',
-  'conservatory': '/gutter-cleaning.jpeg',
-  'water-butt': '/gutter-cleaning.jpeg',
-  'commercial-gutter-cleaning': '/gutter-cleaning-westmidlands.png',
+  'conservatory': '/gutter-cleaning.webp',
+  'water-butt': '/gutter-cleaning.webp',
+  'commercial-gutter-cleaning': '/gutter-cleaning-westmidlands.webp',
   'commercial-roof-cleaning': '/roof-cleaning.JPG',
-  'gutter-installation': '/gutter-installation.png',
-  'commercial-downpipe-cleaning': '/gutter-cleaning-westmidlands.png',
-  'commercial-fascia-soffit-cleaning': '/gutter-cleaning-westmidlands.png',
-  'commercial-property-gutter-maintenance': '/gutter-cleaning-westmidlands.png',
-  'gutter-cleaning-contracts': '/gutter-cleaning-westmidlands.png',
-  'gutter-cleaning-for-landlords': '/gutter-cleaning-westmidlands.png',
-  'block-management-gutter-cleaning': '/gutter-cleaning-westmidlands.png',
-  'commercial-gutter-cleaning-services': '/gutter-cleaning-westmidlands.png',
-  'gutter-cleaning-for-facilities-managers': '/gutter-cleaning-westmidlands.png',
-  'gutter-cleaning-for-property-developers': '/gutter-cleaning-westmidlands.png',
-  'approved-gutter-cleaning-contractor': '/gutter-cleaning-westmidlands.png',
-  'gutter-cleaning-for-multiple-sites': '/gutter-cleaning-westmidlands.png',
+  'gutter-installation': '/gutter-installation.webp',
+  'commercial-downpipe-cleaning': '/gutter-cleaning-westmidlands.webp',
+  'commercial-fascia-soffit-cleaning': '/gutter-cleaning-westmidlands.webp',
+  'commercial-property-gutter-maintenance': '/gutter-cleaning-westmidlands.webp',
+  'gutter-cleaning-contracts': '/gutter-cleaning-westmidlands.webp',
+  'gutter-cleaning-for-landlords': '/gutter-cleaning-westmidlands.webp',
+  'block-management-gutter-cleaning': '/gutter-cleaning-westmidlands.webp',
+  'commercial-gutter-cleaning-services': '/gutter-cleaning-westmidlands.webp',
+  'gutter-cleaning-for-facilities-managers': '/gutter-cleaning-westmidlands.webp',
+  'gutter-cleaning-for-property-developers': '/gutter-cleaning-westmidlands.webp',
+  'approved-gutter-cleaning-contractor': '/gutter-cleaning-westmidlands.webp',
+  'gutter-cleaning-for-multiple-sites': '/gutter-cleaning-westmidlands.webp',
 };
 
 const RESIDENTIAL_IDS = new Set([
@@ -110,7 +110,7 @@ export default function Services() {
       <section className="relative overflow-hidden bg-[#0f172a]">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-35"
-          style={{ backgroundImage: "url('/gutter-cleaning.jpeg')" }}
+          style={{ backgroundImage: "url('/gutter-cleaning.webp')" }}
           aria-hidden
         />
         <div
@@ -220,7 +220,7 @@ export default function Services() {
         </section>
       )}
 
-      <TopPageAreaLinks intro="Gutter cleaning, repairs, and roof care booked across these Birmingham and West Midlands locations." />
+      <LocalCoverageSection variant="services" />
 
       {/* CTA */}
       <section className="py-16 px-4 sm:px-6 lg:px-8" style={{ background: colors.primaryGradient }}>

@@ -1,13 +1,13 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  '/blog-images/blocked-gutter-maintance/blocked-gutter-hero.png';
+  '/blog-images/blocked-gutter-maintance/blocked-gutter-hero.webp';
 const IMG_BEFORE =
-  '/files/04_blocked_downpipe_outlet_closeup.jpg';
+  '/files/04_blocked_downpipe_outlet_closeup.webp';
 const IMG_AFTER =
-  '/files/10_downpipe_outlet_completely_blocked.jpg';
+  '/files/10_downpipe_outlet_completely_blocked.webp';
 const IMG_OVERFLOW =
-  '/files/12_gutter_overflow_water_damage.jpg';
+  '/files/12_gutter_overflow_water_damage.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

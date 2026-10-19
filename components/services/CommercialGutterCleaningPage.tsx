@@ -1,4 +1,5 @@
 'use client';
+import HeroVideo from '@/components/media/HeroVideo';
 
 import { colors } from '@/constants/colors';
 import { Button } from '@/components/ui/button';
@@ -18,19 +19,7 @@ export default function CommercialGutterCleaningPage() {
     <main className="bg-white">
       <section className="relative overflow-hidden" style={{ height: '70vh', minHeight: '500px' }}>
         <div className="absolute inset-0 z-0">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-full object-cover"
-            onError={(e) => {
-              (e.target as HTMLVideoElement).style.display = 'none';
-            }}
-          >
-            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
-          </video>
+          <HeroVideo className="w-full h-full object-cover" />
           <div
             className="absolute inset-0"
             style={{
@@ -217,7 +206,7 @@ export default function CommercialGutterCleaningPage() {
           'Do you cover multi-site portfolios?',
           'What documentation do you provide?',
         ]}
-        backgroundImage="/gutter-cleaning.jpeg"
+        backgroundImage="/gutter-cleaning.webp"
       />
 
       <section className="py-20 bg-white">

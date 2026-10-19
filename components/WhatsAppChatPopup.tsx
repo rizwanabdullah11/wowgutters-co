@@ -4,7 +4,7 @@ import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import { isQuoteEmbedPath } from '@/lib/isQuoteEmbedPath';
 import { X, Send } from 'lucide-react';
-import logo from '@/assets/wow-gutter-logo.png';
+import logo from '@/assets/wow-gutter-logo.webp';
 import { colors } from '@/constants/colors';
 
 type Message = {
@@ -267,4 +267,4 @@ export default function WhatsAppChatPopup() {
       )}
     </>
   );
-}
+}

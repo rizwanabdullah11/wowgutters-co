@@ -1,11 +1,8 @@
-'use client';
-
-import React, { useState } from 'react';
-import { usePathname } from 'next/navigation';
-import { isQuoteEmbedPath } from '@/lib/isQuoteEmbedPath';
+import { HideOnQuoteEmbed, OnlyOnHome } from '@/components/navigation/PathGate';
+import ScrollTopButton from '@/components/navigation/ScrollTopButton';
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '@/assets/wow-gutter-logo.png';
+import logo from '@/assets/wow-gutter-logo.webp';
 import { colors } from '@/constants/colors';
 import { areaPath } from '@/lib/areaSlugs';
 import { 
@@ -15,21 +12,6 @@ import {
 } from 'lucide-react';
 
 export default function Footer() {
-  const pathname = usePathname();
-  const [showScrollTop, setShowScrollTop] = useState(false);
-
-  React.useEffect(() => {
-    const handleScroll = () => {
-      setShowScrollTop(window.scrollY > 300);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
   const services = [
     'Gutter Cleaning', 'Gutter Repairs', 'Roof Cleaning',
     'Hot Wash Cleaning'
@@ -84,14 +66,8 @@ export default function Footer() {
     { name: 'Full Service Directory', path: '/service-areas/' },
   ];
 
-  if (isQuoteEmbedPath(pathname)) {
-    return null;
-  }
-
-  const isHomePage = pathname === '/' || pathname === '';
-
   return (
-    <>
+    <HideOnQuoteEmbed>
       <footer className="site-footer">
         <div className="footer-wave-top">
         <svg viewBox="0 0 1440 48" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
@@ -129,11 +105,10 @@ export default function Footer() {
             </div>
           </div>
 
-          {isHomePage && <hr className="footer-divider" />}
+          <OnlyOnHome><hr className="footer-divider" /></OnlyOnHome>
 
           {/* Four-column link grid — homepage only */}
-          {isHomePage && (
-          <>
+          <OnlyOnHome>
               <h2 className="sr-only">Site navigation and service areas</h2>
               <div className="footer-links-grid">
                 <div className="footer-col">
@@ -198,10 +173,9 @@ export default function Footer() {
               </div>
 
               <hr className="footer-divider" />
-          </>
-          )}
+          </OnlyOnHome>
 
-          {!isHomePage && <hr className="footer-divider" />}
+          <OnlyOnHome invert><hr className="footer-divider" /></OnlyOnHome>
 
           {/* Business Directory Citations */}
           <div className="footer-citations">
@@ -250,11 +224,7 @@ export default function Footer() {
         </div>
       </div>
 
-      {showScrollTop && (
-        <button onClick={scrollToTop} className="scroll-top-btn" aria-label="Scroll to top">
-          <ArrowUp className="w-6 h-6" />
-        </button>
-      )}
+      <ScrollTopButton />
 
       <style>{`
         .site-footer {
@@ -635,6 +605,6 @@ export default function Footer() {
           WhatsApp
         </a>
       </div>
-    </>
+    </HideOnQuoteEmbed>
   );
 }

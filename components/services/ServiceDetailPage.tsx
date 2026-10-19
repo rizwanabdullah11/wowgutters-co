@@ -1,6 +1,5 @@
-'use client';
-
-import { useEffect, useRef, type ReactNode } from 'react';
+import type { ReactNode } from 'react';
+import HeroVideo from '@/components/media/HeroVideo';
 import Head from 'next/head';
 import { colors } from '@/constants/colors';
 import Link from 'next/link';
@@ -8,7 +7,8 @@ import { ShieldCheck, PenTool, CheckCircle, Phone, AlertTriangle, ClipboardCheck
 import { ServiceDetail } from '@/constants/servicesData';
 import SeoLinkify from '@/components/SeoLinkify';
 import AreaServiceBlock from '@/components/areas/AreaServiceBlock';
-import AreaFAQ, {
+import AreaFAQ from '@/components/areas/AreaFAQ';
+import {
   AREA_FAQS,
   GUTTER_REPAIR_FAQS,
   UPVC_CLEANING_FAQS,
@@ -18,7 +18,7 @@ import AreaFAQ, {
   CONSERVATORY_CLEANING_FAQS,
   COMMERCIAL_GUTTER_CLEANING_FAQS,
   COMMERCIAL_ROOF_CLEANING_FAQS,
-} from '@/components/areas/AreaFAQ';
+} from '@/components/areas/areaFaqData';
 import AreaFacts from '@/components/areas/AreaFacts';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
@@ -509,16 +509,6 @@ function TextOnlyServiceSection({
 }
 
 export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
-  const videoRef = useRef<HTMLVideoElement>(null);
-
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.play().catch((error) => {
-        console.log('Video autoplay failed:', error);
-      });
-    }
-  }, []);
-
   const whatsappQuestions = [
     `How much is ${service.name.toLowerCase()} for my property?`,
     'Can you help with my gutter problem?',
@@ -606,20 +596,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         {/* Video Background */}
         <div className="hero-video-wrapper">
           {service.heroVideo && (
-            <video
-              ref={videoRef}
-              autoPlay
-              loop
-              muted
-              playsInline
-              poster={service.heroImage}
-              className="hero-video"
-              onError={(e) => {
-                (e.target as HTMLVideoElement).style.display = 'none';
-              }}
-            >
-              <source src={service.heroVideo} type="video/mp4" />
-            </video>
+            <HeroVideo poster={service.heroImage} className="hero-video" />
           )}
           <div className="service-hero-overlay"></div>
         </div>
@@ -1122,10 +1099,10 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         descriptions={[service.ctaSection.description]}
         iconSrc={
           service.id === 'gutter-repairs'
-            ? '/gutter-repair-icon.png'
+            ? '/gutter-repair-icon.webp'
             : service.id === 'roof-cleaning'
               ? '/Roof-Cleaner.webp'
-              : '/gutter-cleaning-icon.png'
+              : '/gutter-cleaning-icon.webp'
         }
         backgroundColor="bg-white"
         buttonText={service.ctaSection.buttonText}

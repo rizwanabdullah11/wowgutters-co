@@ -17,7 +17,7 @@ export const talksData: TalkPost[] = [
     excerpt: 'Practical gutter maintenance advice from WOW Gutters Ltd. Learn when to clean, what to check, and how to spot problems early to avoid costly repairs.',
     author: 'WOW Gutters Ltd Team',
     date: 'March 8, 2026',
-    image: '/gutter-cleaning.jpeg',
+    image: '/gutter-cleaning.webp',
     category: 'Maintenance',
     readTime: '5 min read',
     content: `
@@ -50,7 +50,7 @@ export const talksData: TalkPost[] = [
     excerpt: 'Our hot wash system cleans conservatories, fascias, and gutters more effectively than cold water. Here\'s the science behind why it works better.',
     author: 'WOW Gutters Ltd Team',
     date: 'March 5, 2026',
-    image: '/gutter-repair-after.jpeg',
+    image: '/gutter-repair-after.webp',
     category: 'Technology',
     readTime: '7 min read',
     content: `
@@ -86,7 +86,7 @@ export const talksData: TalkPost[] = [
     excerpt: 'Keep your conservatory in perfect condition with this practical maintenance guide. Based on our experience with hundreds of Birmingham conservatories.',
     author: 'WOW Gutters Ltd Team',
     date: 'March 1, 2026',
-    image: '/gutter-repair-before.png',
+    image: '/gutter-repair-before.webp',
     category: 'Guides',
     readTime: '8 min read',
     content: `
@@ -125,7 +125,7 @@ export const talksData: TalkPost[] = [
     excerpt: 'Winter puts extra strain on your gutters. Here\'s how to prepare them for cold weather and prevent ice damage, blockages, and overflow.',
     author: 'WOW Gutters Ltd Team',
     date: 'February 28, 2026',
-    image: '/Blog.png',
+    image: '/Blog.webp',
     category: 'Seasonal',
     readTime: '6 min read',
     content: `
@@ -158,7 +158,7 @@ export const talksData: TalkPost[] = [
     excerpt: 'Commercial properties need professional gutter maintenance to prevent water damage, maintain appearance, and avoid costly emergency repairs.',
     author: 'WOW Gutters Ltd Team',
     date: 'February 25, 2026',
-    image: '/blog1.png',
+    image: '/blog1.webp',
     category: 'Commercial',
     readTime: '5 min read',
     content: `
@@ -191,7 +191,7 @@ export const talksData: TalkPost[] = [
     excerpt: 'Our cleaning methods are safe for your plants, pets, and the environment. Here\'s how we clean effectively without harsh chemicals.',
     author: 'WOW Gutters Ltd Team',
     date: 'February 22, 2026',
-    image: '/professional-gutter-clean.png',
+    image: '/professional-gutter-clean.webp',
     category: 'Environment',
     readTime: '7 min read',
     content: `
@@ -223,4 +223,4 @@ export const talksData: TalkPost[] = [
   }
 ];
 
-export const categories = ['All', 'Maintenance', 'Technology', 'Guides', 'Seasonal', 'Commercial', 'Environment'];
+export const categories = ['All', 'Maintenance', 'Technology', 'Guides', 'Seasonal', 'Commercial', 'Environment'];

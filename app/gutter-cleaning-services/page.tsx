@@ -55,7 +55,7 @@ export default function GutterCleaningServicesPage() {
     <main className="bg-white">
       {/* Hero */}
       <section className="relative overflow-hidden bg-[#0f172a]">
-        <div className="absolute inset-0 bg-[url('/gutter-cleaning.jpeg')] bg-cover bg-center opacity-30" aria-hidden />
+        <div className="absolute inset-0 bg-[url('/gutter-cleaning.webp')] bg-cover bg-center opacity-30" aria-hidden />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0f172a]/90 via-[#0f172a]/80 to-[#0f172a]/95" aria-hidden />
         <div className="relative z-10 mx-auto max-w-7xl px-4 py-20 sm:px-6 sm:py-28 lg:px-8 text-center">
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-5 py-2 backdrop-blur-sm">

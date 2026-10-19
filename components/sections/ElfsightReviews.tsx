@@ -69,23 +69,21 @@ export default function ElfsightReviews({ showSummary = true }: ElfsightReviewsP
   const containerRef = useRef<HTMLDivElement>(null);
   const widgetId = getWidgetId();
 
-  useEffect(() => {
-    loadElfsightPlatform();
-
-    // Re-init a few times in case the platform script finishes after mount.
-    const timers = [400, 1200, 3000].map((ms) => window.setTimeout(refreshElfsightApps, ms));
-    return () => timers.forEach((t) => window.clearTimeout(t));
-  }, []);
-
+  // Performance (Oct 2026): the Elfsight platform script (~130 ms of main-thread
+  // work) is only fetched when the reviews block comes within 400px of view.
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
 
-    if (!('IntersectionObserver' in window)) return;
+    if (!('IntersectionObserver' in window)) {
+      loadElfsightPlatform();
+      return;
+    }
 
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (!entry?.isIntersecting) return;
+        observer.disconnect();
         loadElfsightPlatform();
       },
       { rootMargin: '400px 0px' }

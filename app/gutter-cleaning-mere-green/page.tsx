@@ -1,3 +1,4 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next'
 import { JsonLd } from '@/components/JsonLd'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
@@ -7,7 +8,7 @@ import { suburbPages } from '@/lib/suburbPageData'
 const URL_PATH = 'https://wowgutters.co.uk/gutter-cleaning-mere-green/'
 const pageData = suburbPages['mere-green']
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Mere Green, Sutton Coldfield, Birmingham | WOW Gutters Ltd',
   description: 'Professional gutter cleaning in Mere Green, Sutton Coldfield (B75). Executive homes, 1930s semis, no ladders, vacuum system, before & after photos. From £55. Call: 07421 433910.',
   alternates: { canonical: URL_PATH, languages: { 'en-GB': URL_PATH, 'x-default': URL_PATH } },
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     description: 'Professional gutter cleaning in Mere Green B75. From £55. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/mere-green.jpg'],
   },
-}
+})
 
 const howToSchema = {
   '@context': 'https://schema.org',

@@ -1,4 +1,3 @@
-'use client';
 import ServiceCardsSection from './ServiceCardsSection';
 import CommercialBanner from './CommercialBanner';
 

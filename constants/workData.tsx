@@ -16,7 +16,7 @@ export const workPosts: WorkPost[] = [
     id: 'downpipe-shoe-project',
     title: 'Downpipe Shoe Installation Prevents Repeat Blockages in Birmingham Home',
     excerpt: 'A Birmingham homeowner was experiencing repeated downpipe blockages every few months. We installed a downpipe shoe with leaf guard, which has completely eliminated the problem. The customer reported no blockages in the 8 months since installation.',
-    image: '/gutter-repair-after.jpeg',
+    image: '/gutter-repair-after.webp',
     date: 'February 23rd, 2026',
     views: '21',
     location: 'Birmingham',
@@ -43,7 +43,7 @@ export const workPosts: WorkPost[] = [
     id: 'rugby-club-gutter-cleaning',
     title: 'Commercial Gutter Cleaning for Local Sports Club in Birmingham',
     excerpt: 'A Birmingham sports club contacted us about severely blocked gutters on their clubhouse. We cleared 15 bags of compacted leaves and moss, repaired two leaking joints, and set up a maintenance schedule to prevent future issues.',
-    image: '/gutter-cleaning.jpeg',
+    image: '/gutter-cleaning.webp',
     date: 'November 29th, 2024',
     views: '522',
     location: 'Birmingham',
@@ -70,7 +70,7 @@ export const workPosts: WorkPost[] = [
     id: 'gutter-jungle-weeds',
     title: 'Extreme Gutter Cleaning: Removing 1-Meter Weeds from Birmingham Property',
     excerpt: 'A Birmingham homeowner called us about plants growing from their gutters. We found weeds over 1 meter tall with roots penetrating the gutter seams. We cleared everything, repaired the damage, and the gutters are now functioning perfectly.',
-    image: '/gutter-repair-before.png',
+    image: '/gutter-repair-before.webp',
     date: 'June 12th, 2024',
     views: '1322',
     location: 'Birmingham',
@@ -120,4 +120,4 @@ export const workPosts: WorkPost[] = [
       <p>"The difference is night and day. The gutters look straight and work perfectly. WOW Gutters Ltd explained everything they were doing and the work was completed in one day. Very professional service." - Birmingham Homeowner</p>
     `
   }
-];
+];

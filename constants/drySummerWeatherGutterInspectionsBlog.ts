@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  '/blog-images/flat-roof-cleaning/flat-roof-cleaning-hero.png';
+  '/blog-images/flat-roof-cleaning/flat-roof-cleaning-hero.webp';
 const IMG_BEFORE =
-  '/blog-images/flat-roof-cleaning/flat-roof-cleaning-before.png';
+  '/blog-images/flat-roof-cleaning/flat-roof-cleaning-before.webp';
 const IMG_AFTER =
-  '/blog-images/flat-roof-cleaning/flat-roof-cleaning-after.png';
+  '/blog-images/flat-roof-cleaning/flat-roof-cleaning-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 const ctaBox = `

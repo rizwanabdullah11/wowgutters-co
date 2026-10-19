@@ -1,9 +1,9 @@
 import type { BlogPost } from './blogTypes';
 
-const IMG_HERO = '/water-gutter-cleaning/winter-gutter-hero.jpg';
-const IMG_FROST = '/water-gutter-cleaning/frost-damage.jpg';
-const IMG_LATE_LEAVES = '/water-gutter-cleaning/late-leaf-fall.jpg';
-const IMG_WINTER_RAIN = '/water-gutter-cleaning/winter-rain-overflow.jpg';
+const IMG_HERO = '/water-gutter-cleaning/winter-gutter-hero.webp';
+const IMG_FROST = '/water-gutter-cleaning/frost-damage.webp';
+const IMG_LATE_LEAVES = '/water-gutter-cleaning/late-leaf-fall.webp';
+const IMG_WINTER_RAIN = '/water-gutter-cleaning/winter-rain-overflow.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 
@@ -302,4 +302,4 @@ ${ctaBox}
 
 <p><strong>Related reading:</strong> <a href="/blog/autumn-dangerous-season-birmingham-gutters/" style="${link}">Why Autumn Is the Most Dangerous Season for Birmingham Gutters</a> · <a href="/blog/birmingham-autumn-leaves/" style="${link}">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a> · <a href="/blog/autumn-leaf-fall-tree-type-birmingham/" style="${link}">Autumn Leaf Fall by Tree Type</a> · <a href="/blog/gutter-water-damage-guide/" style="${link}">Water Damage From Gutters: Birmingham Homeowner Guide</a> · <a href="/blog/gutter-cleaning-rainy-season-west-midlands/" style="${link}">Gutter Cleaning in Rainy Season: A West Midlands Prep List</a> · <a href="/emergency-gutter-cleaning-birmingham/" style="${link}">Emergency Gutter Cleaning Birmingham After Heavy Rain</a> · <a href="/roofline-cleaning-birmingham/" style="${link}">Roofline Cleaning Birmingham</a> · <a href="/blog/complete-gutter-maintenance-birmingham-west-midlands/" style="${link}">The Complete Guide to Gutter Maintenance</a></p>
 `
-};
+};

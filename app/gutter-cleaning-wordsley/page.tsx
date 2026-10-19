@@ -1,3 +1,4 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next'
 import { JsonLd } from '@/components/JsonLd'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
@@ -7,7 +8,7 @@ import { suburbPages } from '@/lib/suburbPageData'
 const URL_PATH = 'https://wowgutters.co.uk/gutter-cleaning-wordsley/'
 const pageData = suburbPages.wordsley
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Wordsley Stourbridge | WOW Gutters Ltd',
   description: 'Professional gutter cleaning in Wordsley, Stourbridge (DY8). Georgian & Victorian cottages, no ladders, vacuum system, before & after photos. From £45. Call: 07421 433910.',
   alternates: { canonical: URL_PATH, languages: { 'en-GB': URL_PATH, 'x-default': URL_PATH } },
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     description: 'Professional gutter cleaning in Wordsley DY8. From £45. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/wordsley.jpg'],
   },
-}
+})
 
 const wordsleyHowToSchema = {
   '@context': 'https://schema.org',

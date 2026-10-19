@@ -1,6 +1,7 @@
 'use client';
 
-import React, { useRef, useEffect } from 'react';
+import HeroVideo from '@/components/media/HeroVideo';
+import React from 'react';
 import Link from 'next/link';
 import { colors } from '@/constants/colors';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
@@ -11,17 +12,7 @@ import { formatNapAddress } from '@/lib/businessDetails';
 import { Clock3, Mail, MapPin, Phone, ShieldCheck, MessageSquare } from 'lucide-react';
 
 export default function ContactPageContent() {
-  const videoRef = useRef<HTMLVideoElement>(null);
 
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.defaultMuted = true;
-      videoRef.current.muted = true;
-      videoRef.current.play().catch((error) => {
-        console.log('Video autoplay failed:', error);
-      });
-    }
-  }, []);
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -29,19 +20,7 @@ export default function ContactPageContent() {
       <section className="relative overflow-hidden bg-slate-900 border-b border-gray-100 min-h-[500px] flex items-center">
         {/* Background Video */}
         <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="auto"
-            poster="/gutter-cleaning.jpeg"
-            className="w-full h-full object-cover"
-          >
-            <source src="/gutter-final-video.mp4" type="video/mp4" />
-            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
-          </video>
+          <HeroVideo className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/80 to-slate-950/70 z-10" />
         </div>
 
@@ -173,7 +152,7 @@ export default function ContactPageContent() {
           'Can you come today?',
           'Do you offer emergency services?',
         ]}
-        backgroundImage="/gutter-cleaning.jpeg"
+        backgroundImage="/gutter-cleaning.webp"
       />
 
       {/* SEO Content Section */}

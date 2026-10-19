@@ -50,6 +50,22 @@ const EXCLUDED_PATHS = new Set([
   '/residential-gutter-cleaning/',
   '/blog/gutter-cleaning-walsall/',
   '/blog/gutter-cleaning-solihull/',
+  // On-page audit (Oct 2026): noindex pages must not be in the sitemap
+  '/services/drain-cleaning/',
+  '/blog/dome-cleaning-service-wow-gutters/',
+  '/blog/road-sign-cleaning-community/',
+  // Duplicate copies — canonical points to the linked version (lib/seo.ts CANONICAL_OVERRIDES)
+  '/professional-gutter-cleaning/',
+  '/free-roof-inspection/',
+  '/commercial-gutter-cleaning/',
+  '/commercial-downpipe-cleaning/',
+  '/commercial-property-gutter-maintenance/',
+  '/block-management-gutter-cleaning/',
+  '/approved-gutter-cleaning-contractor/',
+  '/gutter-repairs-bromsgrove/',
+  '/gutter-repairs-wolverhampton/',
+  '/gutter-cleaning-cost-calculator/',
+  '/gutter-repairs/',
 ]);
 
 const REQUIRED_INDEXABLE_PATHS = [

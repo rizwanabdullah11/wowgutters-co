@@ -17,7 +17,7 @@ export const metadata: Metadata = {
       { url: "/favicon.png", type: "image/png" },
     ],
     apple: [
-      { url: "/apple-touch-icon.png", type: "image/png" },
+      { url: "/apple-touch-icon.webp", type: "image/png" },
     ],
   },
   authors: [{ name: "WOW Gutters Ltd", url: "https://wowgutters.co.uk" }],
@@ -230,15 +230,10 @@ fbq('track', 'PageView');`,
             __html: `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "xlyw5gi8p0");`,
           }}
         />
-        {/* Elfsight Google Reviews — data-cookieconsent="ignore" tells Cookiebot
-            auto-blocking NOT to block this, so the widget loads in every
-            environment (localhost + production) without requiring consent. */}
-        <script
-          id="elfsight-platform"
-          data-cookieconsent="ignore"
-          async
-          src="https://elfsightcdn.com/platform.js"
-        />
+        {/* Elfsight Google Reviews: platform.js is loaded on demand by
+            components/sections/ElfsightReviews.tsx when the widget scrolls near
+            view (data-cookieconsent="ignore" is set there), so pages without
+            reviews no longer pay for it. */}
       </head>
       <body className="font-sans antialiased content-protected" suppressHydrationWarning>
         <IosViewportStabilizer />
@@ -261,7 +256,7 @@ fbq('track', 'PageView');`,
         />
         <script src="/wow-cta-dialog-init.js?v=20260706" defer />
         <script src="/wow-quote-form-init.js?v=20260706" defer />
-        <script src="/wow-elfsight-init.js?v=20260630" defer />
+        <script src="/wow-elfsight-init.js?v=20261016" defer />
       </body>
     </html>
   );

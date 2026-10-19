@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import { isQuoteEmbedPath } from '@/lib/isQuoteEmbedPath';
 import { areaNavigationUrl } from '@/lib/areaSlugs';
 import { resolveAreaSlug } from '@/lib/resolveAreaSlug';
-import logo from '@/assets/wow-gutters-logo1.png';
+import logo from '@/assets/wow-gutters-logo1.webp';
 import { Phone, Mail, Facebook, Youtube, Twitter, Instagram, MessageCircle, Search, FileText, HelpCircle, MapPin, Map, Navigation } from 'lucide-react';
 import { BUSINESS_HOURS, getFormattedBusinessHours, getFormattedHours } from '@/lib/businessHours';
 

@@ -1,7 +1,8 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next';
 import { redirect } from 'next/navigation';
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'Customer Reviews | WOW Gutters Ltd',
   description:
     'Read verified Google reviews for WOW Gutters Ltd — 4.9★ on Google across Birmingham and the West Midlands.',
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
     canonical: 'https://wowgutters.co.uk/reviews/',
   },
   robots: { index: false, follow: true },
-};
+});
 
 /** Legacy URL — reviews are loaded dynamically on /reviews */
 export default function TestimonialsPage() {

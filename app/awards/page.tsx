@@ -1,4 +1,5 @@
 'use client';
+import HeroVideo from '@/components/media/HeroVideo';
 
 import { useEffect, useRef } from 'react';
 import { colors } from '@/constants/colors';
@@ -50,19 +51,7 @@ export default function AwardsPage() {
       {/* Hero Section */}
       <section className="awards-hero-section">
         <div className="hero-video-wrapper">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="auto"
-            poster="/gutter-cleaning.jpeg"
-            className="hero-video"
-          >
-            <source src="/gutter-final-video.mp4" type="video/mp4" />
-            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
-          </video>
+          <HeroVideo className="hero-video" />
           <div className="awards-hero-overlay"></div>
         </div>
 

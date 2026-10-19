@@ -1,7 +1,9 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
-import { blogPosts } from '@/constants/blogData';
+import HeroVideo from '@/components/media/HeroVideo';
+import { useState } from 'react';
+import type { BlogPost } from '@/constants/blogTypes';
+import type { BlogSummary } from '@/lib/blogSummaries';
 import { colors } from '@/constants/colors';
 import { Calendar, User, Share2, Phone, PenTool, BookOpen } from 'lucide-react';
 import Link from 'next/link';
@@ -160,23 +162,13 @@ function splitBlogContent(content: string): { mainHtml: string; bottomHtml: stri
 }
 
 interface BlogDetailContentProps {
-  post: typeof blogPosts[0];
+  post: BlogPost;
+  relatedPosts?: BlogSummary[];
 }
 
-export default function BlogDetailContent({ post }: BlogDetailContentProps) {
-  const videoRef = useRef<HTMLVideoElement>(null);
+export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetailContentProps) {
 
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.play().catch((error) => {
-        console.log('Video autoplay failed:', error);
-      });
-    }
-  }, []);
 
-  const sameCategoryPosts = blogPosts.filter(p => p.id !== post.id && p.category === post.category);
-  const otherPosts = blogPosts.filter(p => p.id !== post.id && p.category !== post.category);
-  const relatedPosts = [...sameCategoryPosts, ...otherPosts].slice(0, 3);
 
   // Extract FAQ data from content if present
   const extractFAQs = (content: string) => {
@@ -388,19 +380,7 @@ export default function BlogDetailContent({ post }: BlogDetailContentProps) {
       <section className="blog-detail-hero-section">
         {/* Video Background */}
         <div className="hero-video-wrapper">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="hero-video"
-            onError={(e) => {
-              (e.target as HTMLVideoElement).style.display = 'none';
-            }}
-          >
-            <source src={post.heroVideo || '/wow_gutters_final.mp4'} type="video/mp4" />
-          </video>
+          <HeroVideo className="hero-video" />
           <div className="blog-detail-hero-overlay"></div>
         </div>
 

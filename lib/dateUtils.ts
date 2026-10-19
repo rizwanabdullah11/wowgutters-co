@@ -15,7 +15,9 @@ export function formatBlogDate(isoDate: string): string {
     const options: Intl.DateTimeFormatOptions = {
       year: 'numeric',
       month: 'long',
-      day: 'numeric'
+      day: 'numeric',
+      // Fixed zone so server (UTC build) and browser render the same date text.
+      timeZone: 'UTC',
     };
     
     return date.toLocaleDateString('en-GB', options);
@@ -42,7 +44,9 @@ export function formatBlogDateShort(isoDate: string): string {
     const options: Intl.DateTimeFormatOptions = {
       year: 'numeric',
       month: 'short',
-      day: 'numeric'
+      day: 'numeric',
+      // Fixed zone so server (UTC build) and browser render the same date text.
+      timeZone: 'UTC',
     };
     
     return date.toLocaleDateString('en-GB', options);

@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  '/blog-images/tree-cover-gutter-cleaning/tree-cover-gutter-cleaning-hero.png';
+  '/blog-images/tree-cover-gutter-cleaning/tree-cover-gutter-cleaning-hero.webp';
 const IMG_BEFORE =
-  '/blog-images/tree-cover-gutter-cleaning/tree-cover-gutter-cleaning-before.png';
+  '/blog-images/tree-cover-gutter-cleaning/tree-cover-gutter-cleaning-before.webp';
 const IMG_AFTER =
-  '/blog-images/tree-cover-gutter-cleaning/tree-cover-gutter-cleaning-after.png';
+  '/blog-images/tree-cover-gutter-cleaning/tree-cover-gutter-cleaning-after.webp';
 
 const link = 'color: #19C58B; font-weight: 600; text-decoration: none;';
 
@@ -323,4 +323,4 @@ ${ctaFinal}
   <li><a href="https://wowgutters.co.uk" style="${link}">Areas We Cover</a></li>
 </ul>
 `,
-};
+};

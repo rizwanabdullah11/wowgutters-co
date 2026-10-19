@@ -1,7 +1,5 @@
-'use client';
-
-import { useEffect, useRef } from 'react';
 import Link from 'next/link';
+import HeroVideo from '@/components/media/HeroVideo';
 import { Phone, CheckCircle2, ShieldCheck, Cable, Images, Shield } from 'lucide-react';
 import { colors } from '@/constants/colors';
 import type { CityGutterLandingData } from '@/constants/cityGutterLandingData';
@@ -37,12 +35,7 @@ export default function CityGutterCleaningPage({
   showPricing?: boolean;
   useLandingFaqs?: boolean;
 }) {
-  const videoRef = useRef<HTMLVideoElement>(null);
   const meta = AREA_SERVICE_META[serviceKind];
-
-  useEffect(() => {
-    videoRef.current?.play().catch(() => {});
-  }, []);
 
   const whatsappQuestions = [...meta.whatsappQuestions];
 
@@ -71,21 +64,7 @@ export default function CityGutterCleaningPage({
     <main className="bg-white area-page-wrapper">
       <section className="area-hero-section">
         <div className="hero-video-wrapper">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="none"
-            poster={meta.heroPoster}
-            className="hero-video"
-            onError={(e) => {
-              (e.target as HTMLVideoElement).style.display = 'none';
-            }}
-          >
-            <source src={meta.heroVideo} type="video/mp4" />
-          </video>
+          <HeroVideo poster={meta.heroPoster} className="hero-video" />
           <div className="area-hero-overlay" />
         </div>
 

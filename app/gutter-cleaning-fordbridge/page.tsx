@@ -1,3 +1,4 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next'
 import { JsonLd } from '@/components/JsonLd'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
@@ -7,7 +8,7 @@ import { suburbPages } from '@/lib/suburbPageData'
 const URL_PATH = 'https://wowgutters.co.uk/gutter-cleaning-fordbridge/'
 const pageData = suburbPages['fordbridge']
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Fordbridge Birmingham | WOW Gutters Ltd',
   description: 'Professional gutter cleaning in Fordbridge, Birmingham (B37). 1960s/70s estate homes near Babbs Mill Lake, no ladders, vacuum system, before & after photos. From \u00a345. Call: 07421 433910.',
   alternates: { canonical: URL_PATH, languages: { 'en-GB': URL_PATH, 'x-default': URL_PATH } },
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     description: 'Professional gutter cleaning in Fordbridge B37. From \u00a345. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/fordbridge.jpg'],
   },
-}
+})
 
 const fordbridgeHowToSchema = {
   '@context': 'https://schema.org',

@@ -1,8 +1,8 @@
 import type { BlogPost } from './blogTypes';
 
-const IMG_HERO   = '/blog-images/gutter-cleaning-weeds/weeds-hero.png';
-const IMG_BEFORE = '/blog-images/gutter-cleaning-weeds/weeds-before.png';
-const IMG_AFTER  = '/blog-images/gutter-cleaning-weeds/weeds-after.png';
+const IMG_HERO   = '/blog-images/gutter-cleaning-weeds/weeds-hero.webp';
+const IMG_BEFORE = '/blog-images/gutter-cleaning-weeds/weeds-before.webp';
+const IMG_AFTER  = '/blog-images/gutter-cleaning-weeds/weeds-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

@@ -1,3 +1,4 @@
+import { normalizeMetadata } from '@/lib/seo';
 import type { Metadata } from 'next'
 import { JsonLd } from '@/components/JsonLd'
 import LocalBusinessSchema from '@/components/LocalBusinessSchema'
@@ -7,7 +8,7 @@ import { suburbPages } from '@/lib/suburbPageData'
 const URL_PATH = 'https://wowgutters.co.uk/gutter-cleaning-castle-vale/'
 const pageData = suburbPages['castle-vale']
 
-export const metadata: Metadata = {
+export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Castle Vale Birmingham | WOW Gutters Ltd',
   description: 'Professional gutter cleaning in Castle Vale, Birmingham (B35). Modern family homes, no ladders, vacuum system, before & after photos. From \u00a340. Call: 07421 433910.',
   alternates: { canonical: URL_PATH, languages: { 'en-GB': URL_PATH, 'x-default': URL_PATH } },
@@ -24,7 +25,7 @@ export const metadata: Metadata = {
     description: 'Professional gutter cleaning in Castle Vale B35. From \u00a340. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/castle-vale.jpg'],
   },
-}
+})
 
 const howToSchema = {
   '@context': 'https://schema.org',

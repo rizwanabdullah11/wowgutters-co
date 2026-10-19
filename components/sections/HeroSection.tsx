@@ -1,11 +1,10 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import HeroVideo from '@/components/media/HeroVideo';
 
 // Keep these outside the component so they are stable in production builds.
 const HERO_VIDEO_PRIMARY = '/gutter-final-video.mp4';
-const HERO_VIDEO_SECONDARY = '/gutter-cleaning-video.mp4';
-const HERO_POSTER = '/gutter-cleaning.jpeg';
 
 // Rotating headlines — location-first for local SEO
 const HERO_HEADLINES = [
@@ -30,26 +29,10 @@ const HERO_HEADLINES = [
 ] as const;
 
 export default function HeroSection() {
-  const videoRef = useRef<HTMLVideoElement>(null);
   const [headlineIndex, setHeadlineIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
-  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
-  const [secondaryVideoReady, setSecondaryVideoReady] = useState(false);
   const headlineTimeoutRef = useRef<number | null>(null);
   const headlineIntervalRef = useRef<number | null>(null);
-
-  useEffect(() => {
-    // Defer video playback until after first paint (poster image is LCP)
-    const play = () => {
-      videoRef.current?.play().catch(() => {});
-    };
-    if (typeof window.requestIdleCallback === 'function') {
-      const id = window.requestIdleCallback(play, { timeout: 2000 });
-      return () => window.cancelIdleCallback(id);
-    }
-    const t = window.setTimeout(play, 150);
-    return () => window.clearTimeout(t);
-  }, []);
 
   // Headline switching (use a stable interval + internal timeout for animation)
   useEffect(() => {
@@ -83,74 +66,13 @@ export default function HeroSection() {
     };
   }, []);
 
-  // Defer loading the second hero video until after first paint (smaller initial download).
-  useEffect(() => {
-    const id = window.setTimeout(() => setSecondaryVideoReady(true), 8000);
-    return () => window.clearTimeout(id);
-  }, []);
-
-  // Switch videos every 15 seconds (only after secondary source is allowed to load)
-  useEffect(() => {
-    if (!secondaryVideoReady) return;
-    const videoSwitchInterval = setInterval(() => {
-      setCurrentVideoIndex((prev) => (prev === 0 ? 1 : 0));
-    }, 15000);
-
-    return () => clearInterval(videoSwitchInterval);
-  }, [secondaryVideoReady]);
-
-  // Play video when it changes
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.load();
-      videoRef.current.play().catch((error) => {
-        console.log('Video autoplay failed:', error);
-      });
-    }
-  }, [currentVideoIndex]);
-
   return (
     <>
       <section className="hero-section">
         {/* Video Background */}
         <div className="hero-video-wrapper">
-          {/* LCP: poster image paints before video (preload on homepage) */}
-          <img
-            src={HERO_POSTER}
-            alt=""
-            width={1920}
-            height={1080}
-            fetchPriority="high"
-            decoding="async"
-            className="hero-video hero-poster-fallback"
-            aria-hidden
-          />
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="none"
-            poster={HERO_POSTER}
-            width={1920}
-            height={1080}
-            aria-label="WOW Gutters Ltd professional gutter cleaning and roofline services"
-            className="hero-video"
-            key={currentVideoIndex}
-            onError={(e) => {
-              (e.target as HTMLVideoElement).style.display = 'none';
-            }}
-          >
-            <source
-              src={
-                currentVideoIndex === 0 || !secondaryVideoReady
-                  ? HERO_VIDEO_PRIMARY
-                  : HERO_VIDEO_SECONDARY
-              }
-              type="video/mp4"
-            />
-          </video>
+          {/* LCP: responsive still; video loads on desktop only, after page load */}
+          <HeroVideo src={HERO_VIDEO_PRIMARY} className="hero-video" />
           {/* Advanced Gradient Overlay for better text legibility */}
           <div className="hero-overlay"></div>
         </div>

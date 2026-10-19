@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  '/blog-images/moss-removal-gutter/moss-removal-gutter-hero.png';
+  '/blog-images/moss-removal-gutter/moss-removal-gutter-hero.webp';
 const IMG_BEFORE =
-  '/blog-images/moss-removal-gutter/moss-removal-gutter-before.png';
+  '/blog-images/moss-removal-gutter/moss-removal-gutter-before.webp';
 const IMG_AFTER =
-  '/blog-images/moss-removal-gutter/moss-removal-gutter-after.png';
+  '/blog-images/moss-removal-gutter/moss-removal-gutter-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 
@@ -351,4 +351,4 @@ ${ctaBox}
   <li><a href="/blog/summer-gutter-maintenance/" style="${link}">Late Summer Gutter Maintenance</a></li>
 </ul>
 `,
-};
+};

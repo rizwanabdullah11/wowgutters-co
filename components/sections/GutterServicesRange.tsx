@@ -17,7 +17,7 @@ const gutterServices = [
       features: ['High-reach vacuum system', 'Debris removal included', 'Downpipe checks', 'Flexible appointments'],
       price: 'From £100'
     },
-    image: '/gutter-cleaning.jpeg',
+    image: '/gutter-cleaning.webp',
     link: '/services/gutter-cleaning/',
   },
   {
@@ -53,7 +53,7 @@ const gutterServices = [
       features: ['Visual inspection', 'Clear advice', 'No obligation quote', 'Expert recommendations'],
       price: 'FREE'
     },
-    image: '/gutter-inspection.png',
+    image: '/gutter-inspection.webp',
     link: '/services/gutter-inspection/',
   },
   {
@@ -65,7 +65,7 @@ const gutterServices = [
       features: ['Water flow tested', 'Same-day repairs', 'Quality materials', 'Leak-proof joints'],
       price: 'From £80'
     },
-    image: '/gutter-repair.png',
+    image: '/gutter-repair.webp',
     link: '/services/gutter-repairs/',
   },
   {
@@ -77,7 +77,7 @@ const gutterServices = [
       features: ['Quality uPVC systems', 'Professional fitting', 'British standard uPVC', 'Custom measurements'],
       price: 'From £300'
     },
-    image: '/gutter-installation.png',
+    image: '/gutter-installation.webp',
     link: '/services/gutter-installation/',
   },
 ];

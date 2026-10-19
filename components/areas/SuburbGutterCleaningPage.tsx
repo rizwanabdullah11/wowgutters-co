@@ -1,7 +1,5 @@
-'use client';
-
-import { useEffect, useRef } from 'react';
 import Link from 'next/link';
+import HeroVideo from '@/components/media/HeroVideo';
 import { ShieldCheck, Phone, Cable, Images, Shield, ChevronDown, CheckCircle } from 'lucide-react';
 import { colors } from '@/constants/colors';
 import { AREA_SERVICE_META, type AreaServiceKind } from '@/lib/areaServiceMeta';
@@ -70,7 +68,6 @@ export default function SuburbGutterCleaningPage({
   priceTo?: number;
   areaSlug?: string;
 }) {
-  const videoRef = useRef<HTMLVideoElement>(null);
   const meta = AREA_SERVICE_META[serviceKind];
   const guarantees = data.guarantees ?? (serviceKind === 'roof'
     ? [
@@ -85,30 +82,12 @@ export default function SuburbGutterCleaningPage({
   const whatsappQuestions = [...meta.whatsappQuestions];
   const faqGroupName = `faq-${data.city.toLowerCase().replace(/\s+/g, '-')}`;
 
-  useEffect(() => {
-    videoRef.current?.play().catch(() => {});
-  }, []);
-
   return (
     <main className="bg-white area-page-wrapper">
       {/* HERO */}
       <section className="area-hero-section">
         <div className="hero-video-wrapper">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="none"
-            poster={meta.heroPoster}
-            className="hero-video"
-            onError={(e) => {
-              (e.target as HTMLVideoElement).style.display = 'none';
-            }}
-          >
-            <source src={meta.heroVideo} type="video/mp4" />
-          </video>
+          <HeroVideo poster={meta.heroPoster} className="hero-video" />
           <div className="area-hero-overlay" />
         </div>
 

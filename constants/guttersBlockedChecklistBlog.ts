@@ -1,11 +1,11 @@
 import type { BlogPost } from './blogTypes';
 
 const IMG_HERO =
-  '/blog-images/birmingham-gutter-cleaning-checklist/birmingham-gutter-cleaning-checklist-hero.png';
+  '/blog-images/birmingham-gutter-cleaning-checklist/birmingham-gutter-cleaning-checklist-hero.webp';
 const IMG_BEFORE =
-  '/blog-images/birmingham-gutter-cleaning-checklist/birmingham-gutter-cleaning-checklist-before.png';
+  '/blog-images/birmingham-gutter-cleaning-checklist/birmingham-gutter-cleaning-checklist-before.webp';
 const IMG_AFTER =
-  '/blog-images/birmingham-gutter-cleaning-checklist/birmingham-gutter-cleaning-checklist-after.png';
+  '/blog-images/birmingham-gutter-cleaning-checklist/birmingham-gutter-cleaning-checklist-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 

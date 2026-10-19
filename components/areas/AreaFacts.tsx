@@ -17,7 +17,7 @@ const tabContent = [
       "Overflowing water, sagging gutters, visible plant growth, or water stains on your walls are all indicators your gutters are blocked.",
       "While it's possible to clean gutters yourself, professional gutter cleaning ensures thorough removal of debris, safe access to hard-to-reach areas, and early detection of damage."
     ],
-    image: "/gutter-cleaning-before.jpeg",
+    image: "/gutter-cleaning-before.webp",
     buttonText: "Schedule a Clearance",
     buttonLink: "/quote"
   },
@@ -30,7 +30,7 @@ const tabContent = [
       "Our knowledgeable staff removes obstructions, carries out small repairs, and checks loose joints for a fair cost.",
       "We also clean downspouts to assure you of steady water flow and peace of mind."
     ],
-    image: "/gutter-cleaning-before.jpeg",
+    image: "/gutter-cleaning-before.webp",
     buttonText: "Request Your Estimate",
     buttonLink: "/quote"
   },
@@ -43,7 +43,7 @@ const tabContent = [
       "From £70.",
       "No Obligation."
     ],
-    image: "/gutter-cleaning-before.jpeg",
+    image: "/gutter-cleaning-before.webp",
     buttonText: "Explore Promotions",
     buttonLink: "/neighbourhood-discount"
   },
@@ -56,7 +56,7 @@ const tabContent = [
       "Every job includes before and after photos, downpipe clearing as standard, and a full condition report flagging any repairs needed. We are fully insured with £10 million public liability cover.",
       "Call 07421 433910 or request a free instant quote online. Same-day and next-day appointments available across the West Midlands."
     ],
-    image: "/gutter-cleaning-before.jpeg",
+    image: "/gutter-cleaning-before.webp",
     buttonText: "Get Your Free Quote",
     buttonLink: "/quote"
   }

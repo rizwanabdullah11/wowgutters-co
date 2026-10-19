@@ -27,7 +27,7 @@ const service: ServiceDetail = {
       title: 'How Our Gutter Cleaning Works',
       content:
         'WOW Gutters Ltd uses a commercial-grade vacuum system that reaches up to four storeys from ground level. We remove leaves, moss, silt, and compacted debris from the full gutter channel, clear every downpipe outlet, and flush each downpipe with water to confirm free flow. The entire job is photographed and the images are sent to you the same day.',
-      image: '/gutter-cleaning.jpeg',
+      image: '/gutter-cleaning.webp',
       imagePosition: 'right',
       bulletPoints: [
         'Ground-level operation — no ladders touch your property',
@@ -42,7 +42,7 @@ const service: ServiceDetail = {
       title: 'What Happens If Gutters Are Not Cleaned',
       content:
         'Blocked gutters force rainwater over the channel edge instead of into the downpipe. That overflow runs down walls, soaks into fascia boards, and pools around foundations. Over time this leads to damp inside the property, mould growth, and costly structural repairs. Regular gutter cleaning is the simplest way to avoid this damage.',
-      image: '/files/12_gutter_overflow_water_damage.jpg',
+      image: '/files/12_gutter_overflow_water_damage.webp',
       imagePosition: 'left',
       bulletPoints: [
         'Damp patches and water staining on external walls',
@@ -82,7 +82,7 @@ const service: ServiceDetail = {
       title: 'Gutter Cleaning & Related Services',
       content:
         'A clean gutter system works best when the full roofline is maintained. Many customers book gutter cleaning alongside roof moss treatment, uPVC restoration, or a free gutter inspection. WOW Gutters Ltd covers all aspects of roofline care.',
-      image: '/gutter-cleaning-westmidlands.png',
+      image: '/gutter-cleaning-westmidlands.webp',
       imagePosition: 'right',
       bulletPoints: [
         'Gutter inspection — check the condition of your full system',

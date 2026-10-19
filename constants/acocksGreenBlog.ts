@@ -22,7 +22,7 @@ export const acocksGreenBlogPost: BlogPost = {
   title: 'Gutter Cleaning in Acocks Green B27 — Fast, Reliable, and Done Properly',
   excerpt:
     'Blocked gutters in Acocks Green B27? Wow Gutters Ltd provides professional vacuum gutter cleaning across all B27 streets. No ladders. Before & after photos. Call 07421 433910.',
-  image: '/gutter-cleaning-acocks-green-hero.png',
+  image: '/gutter-cleaning-acocks-green-hero.webp',
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-05',
   views: '0',
@@ -125,12 +125,12 @@ export const acocksGreenBlogPost: BlogPost = {
 <h2 id="before-after">Before and After — Acocks Green B27</h2>
 
 <figure style="margin: 20px 0;">
-  <img src="/gutter-cleaning-acocks-green-before.png" alt="Before gutter cleaning Acocks Green B27 — debris and leaf compaction in blocked gutter channel" width="1280" height="720" loading="eager" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="/gutter-cleaning-acocks-green-before.webp" alt="Before gutter cleaning Acocks Green B27 — debris and leaf compaction in blocked gutter channel" width="1280" height="720" loading="eager" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">Before: Blocked gutter on a 1930s semi in Acocks Green B27 — compacted leaves, silt, and debris before professional vacuum clearance.</figcaption>
 </figure>
 
 <figure style="margin: 20px 0;">
-  <img src="/gutter-cleaning-acocks-green-after.png" alt="After professional gutter cleaning Acocks Green B27 Wow Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="/gutter-cleaning-acocks-green-after.webp" alt="After professional gutter cleaning Acocks Green B27 Wow Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">After: The same gutter run fully cleared — channel open, downpipe flowing, before and after photos sent the same day.</figcaption>
 </figure>
 

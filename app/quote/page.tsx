@@ -1,4 +1,5 @@
 'use client';
+import HeroVideo from '@/components/media/HeroVideo';
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
@@ -84,19 +85,7 @@ export default function QuotePage() {
       <section className="relative overflow-hidden bg-slate-900 py-20 sm:py-24 lg:py-28 min-h-[560px] flex items-center justify-center">
         {/* Video Background */}
         <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="auto"
-            poster="/gutter-cleaning.jpeg"
-            className="w-full h-full object-cover"
-          >
-            <source src="/gutter-final-video.mp4" type="video/mp4" />
-            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
-          </video>
+          <HeroVideo className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-b from-slate-950/85 via-slate-900/75 to-slate-950/90 z-10" />
         </div>
 
@@ -462,7 +451,7 @@ export default function QuotePage() {
           'What areas do you cover?',
           'Can you repair damaged gutters too?',
         ]}
-        backgroundImage="/gutter-cleaning.jpeg"
+        backgroundImage="/gutter-cleaning.webp"
       />
 
       {/* ═══════════════════════════════ SEO SECTION ═══════════════════════════════ */}
