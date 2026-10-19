@@ -21,10 +21,10 @@ const reasons = [
   },
   {
     icon: <Shield className="w-5 h-5" />,
-    title: '1-Year Guarantee',
+    title: 'Same Day Booking',
     subtitle: 'PEACE OF MIND',
     description:
-      'If your gutters block again within 12 months of a full clean, we come back and clear them at no extra charge.',
+      'Your home or business is protected by an insured team using safe, professional working methods.',
   },
   {
     icon: <Wrench className="w-5 h-5" />,

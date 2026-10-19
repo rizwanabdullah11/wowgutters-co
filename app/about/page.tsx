@@ -52,7 +52,7 @@ export default function About() {
     'Fully Certified & Insured Technicians',
     'Available 7 Days A Week',
     'Complimentary Quotes & Surveys',
-    'Total Satisfaction Promise',
+    'Before & After Photo Proof',
     'Fair & Transparent Rates',
     'Cutting-Edge Vacuum Gear',
     'Wealth of Industry Experience',

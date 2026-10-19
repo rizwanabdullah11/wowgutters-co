@@ -96,7 +96,7 @@ export const ROOF_CLEANING_KEYWORDS: KeywordItem[] = [
   { id: 71, keyword: 'family run roof cleaning company', category: 'Trust & Reputation', link: '/about/' },
   { id: 72, keyword: 'rated roof cleaning company', category: 'Trust & Reputation', link: '/reviews/' },
   { id: 73, keyword: 'roof cleaning before and after', category: 'Trust & Reputation', link: '/gallery/', badge: 'Photos' },
-  { id: 74, keyword: 'roof cleaning with guarantee', category: 'Trust & Reputation', link: '/services/roof-cleaning/' },
+  { id: 74, keyword: 'fully insured roof cleaning', category: 'Trust & Reputation', link: '/services/roof-cleaning/' },
   { id: 75, keyword: 'roof cleaning testimonials', category: 'Trust & Reputation', link: '/reviews/' },
 
   // Commercial (76-88)

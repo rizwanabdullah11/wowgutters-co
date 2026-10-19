@@ -96,7 +96,7 @@ export const COMMERCIAL_GUTTER_CLEANING_KEYWORDS: KeywordItem[] = [
   { id: 71, keyword: 'accredited commercial gutter cleaning company', category: 'Trust & Compliance', link: '/about/', badge: 'RAMS / Safe' },
   { id: 72, keyword: 'rated commercial gutter cleaning company', category: 'Trust & Compliance', link: '/reviews/' },
   { id: 73, keyword: 'commercial gutter cleaning before and after', category: 'Trust & Compliance', link: '/gallery/', badge: 'Photos' },
-  { id: 74, keyword: 'commercial gutter cleaning with guarantee', category: 'Trust & Compliance', link: '/services/commercial-gutter-cleaning/' },
+  { id: 74, keyword: 'fully insured commercial gutter cleaning', category: 'Trust & Compliance', link: '/services/commercial-gutter-cleaning/' },
   { id: 75, keyword: 'commercial gutter cleaning testimonials', category: 'Trust & Compliance', link: '/reviews/' },
 
   // Commercial Sectors (76-88)

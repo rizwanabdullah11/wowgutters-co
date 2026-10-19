@@ -366,7 +366,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       {
         question: 'Do you test downpipes and gutters after cleaning?',
         answer:
-          'Yes \u2014 every gutter clean is fully guaranteed. If you have any concerns after your clean, contact us and we will return to resolve them.',
+          'Yes \u2014 every gutter clean includes downpipe flow testing before we leave, and all work is fully insured. If you have any concerns after your clean, contact us and we will discuss them with you.',
       },
     ],
     geo: { latitude: 52.5191, longitude: -1.9840 },
@@ -1032,7 +1032,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { question: 'Is there a gutter cleaning service near me in Solihull?', answer: 'Yes \u2014 we cover the entire Solihull borough including B90, B91, B92, B93 and B94 postcodes. Same-day availability in many areas \u2014 call 07421 433910 to check.' },
       { question: 'Can you clean gutters on executive detached homes in Dorridge?', answer: 'Yes. Our 4-storey vacuum reach handles complex rooflines on larger Solihull properties without scaffolding or cherry pickers.' },
       { question: 'Do you clear downpipes too?', answer: 'Yes \u2014 downpipe flow checks and clearing are included as standard in every gutter clean at no extra charge.' },
-      { question: 'Do you test the gutters after cleaning?', answer: 'Yes. Every clean includes complete water flow testing on downpipes and gutters to ensure free, unrestricted drainage. If you have any concerns after your visit, contact us and we will return to resolve them.' },
+      { question: 'Do you test the gutters after cleaning?', answer: 'Yes. Every clean includes complete water flow testing on downpipes and gutters to ensure free, unrestricted drainage. If you have any concerns after your visit, contact us and we will discuss them with you.' },
     ],
     geo: { latitude: 52.4129, longitude: -1.7782 },
     internalLinks: [
@@ -1226,7 +1226,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { question: 'Do you cover Amington, Wilnecote and Dosthill?', answer: 'Yes \u2014 we cover all Tamworth districts including Amington, Glascote, Wilnecote, Fazeley, Dosthill, Two Gates, Stonydelph and the town centre.' },
       { question: 'How often should Tamworth gutters be cleaned?', answer: 'Most properties benefit from an annual clean. Homes near the rivers Tame and Anker or under mature trees may need a spring and autumn visit.' },
       { question: 'Do you offer weekend appointments in Tamworth?', answer: 'Yes \u2014 we operate seven days a week including Saturday and Sunday. Call 07421 433910 to check availability for your area.' },
-      { question: 'Do you test the gutters after cleaning?', answer: 'Yes \u2014 every clean is fully guaranteed with a full water flow testing. If your gutters block within 12 months, we return free of charge.' },
+      { question: 'Do you test the gutters after cleaning?', answer: 'Yes \u2014 every clean includes full water flow testing on downpipes and outlets before we leave, and all work is fully insured.' },
     ],
     geo: { latitude: 52.6336, longitude: -1.6959 },
     internalLinks: [
@@ -1408,7 +1408,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       },
       {
         question: 'Do you test the gutters after cleaning?',
-        answer: 'Yes. Every clean includes complete water flow testing on downpipes and gutters to ensure free, unrestricted drainage. If you have any concerns after your clean, contact us and we will return to resolve them.'
+        answer: 'Yes. Every clean includes complete water flow testing on downpipes and gutters to ensure free, unrestricted drainage. If you have any concerns after your clean, contact us and we will discuss them with you.'
       },
     ],
     geo: { latitude: 52.5043, longitude: -2.0157 },

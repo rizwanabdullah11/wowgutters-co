@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ShieldCheck, Star, Award, FileCheck } from 'lucide-react';
 import { colors } from '@/constants/colors';
-import { EEAT_TRUST_POINTS, TEAM_PROFILES, WOW_BUSINESS_FOUNDED, teamInitials } from '@/lib/teamProfiles';
+import { EEAT_TRUST_POINTS, TEAM_PROFILES, WOW_BUSINESS_FOUNDED } from '@/lib/teamProfiles';
 
 export default function TeamEeatSection() {
   return (
@@ -20,32 +20,21 @@ export default function TeamEeatSection() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-14">
+        <div className="grid md:grid-cols-3 gap-8 mb-14">
           {TEAM_PROFILES.map((member) => (
             <article
               key={member.name}
               className="rounded-2xl border border-gray-100 bg-gray-50 overflow-hidden shadow-sm hover:shadow-md transition-shadow"
             >
               <div className="relative h-56 w-full bg-slate-900 flex items-center justify-center p-2">
-                {member.image ? (
-                  <Image
-                    src={member.image}
-                    alt={member.imageAlt}
-                    fill
-                    unoptimized
-                    className="object-cover"
-                    sizes="(max-width:768px) 100vw, 25vw"
-                  />
-                ) : (
-                  <span
-                    className="flex h-28 w-28 items-center justify-center rounded-full text-4xl font-black text-white"
-                    style={{ background: colors.primaryGradient }}
-                    role="img"
-                    aria-label={member.imageAlt}
-                  >
-                    {teamInitials(member.name)}
-                  </span>
-                )}
+                <Image
+                  src={member.image}
+                  alt={member.imageAlt}
+                  fill
+                  unoptimized
+                  className="object-contain p-2"
+                  sizes="(max-width:768px) 100vw, 33vw"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900">{member.name}</h3>

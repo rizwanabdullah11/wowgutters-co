@@ -2678,7 +2678,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "Do you inspect window cleaning work before leaving?",
-        answer: "Yes! We inspect and verify every window before completion. If you are not completely happy with any window, let us know within 24 hours and we will re-clean it free of charge.",
+        answer: "Yes! We inspect and verify every window before completion. If you have any questions about the finish, just let us know.",
       },
       {
         question: "How much does window cleaning cost in Solihull?",

@@ -96,7 +96,7 @@ export const GUTTER_CLEANING_KEYWORDS: KeywordItem[] = [
   { id: 71, keyword: 'family run gutter cleaning company', category: 'Trust & Reputation', link: '/about/' },
   { id: 72, keyword: 'rated gutter cleaning company', category: 'Trust & Reputation', link: '/reviews/' },
   { id: 73, keyword: 'gutter cleaning before and after', category: 'Trust & Reputation', link: '/gallery/', badge: 'Photos' },
-  { id: 74, keyword: 'gutter cleaning with guarantee', category: 'Trust & Reputation', link: '/services/gutter-cleaning/' },
+  { id: 74, keyword: 'fully insured gutter cleaning', category: 'Trust & Reputation', link: '/services/gutter-cleaning/' },
   { id: 75, keyword: 'gutter cleaning testimonials', category: 'Trust & Reputation', link: '/reviews/' },
 
   // Commercial (76-88)

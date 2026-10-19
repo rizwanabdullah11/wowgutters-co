@@ -82,7 +82,7 @@ export function buildAboutPageSchemaGraph() {
           name: p.name,
           jobTitle: p.role,
           description: p.experience,
-          ...(p.image ? { image: `${SITE}${p.image}` } : {}),
+          image: `${SITE}${p.image}`,
           worksFor: { '@id': `${url}#organization` },
         })),
       },

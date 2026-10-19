@@ -81,7 +81,7 @@ const landingData: CityGutterLandingData = {
     {
       question: 'Do you test downpipes after cleaning?',
       answer:
-        'Yes. Every gutter clean includes thorough flow testing of downpipes and gutters to ensure free, unrestricted drainage. If you have any concerns after your clean, contact us and we will return to resolve them.',
+        'Yes. Every gutter clean includes thorough flow testing of downpipes and gutters to ensure free, unrestricted drainage. If you have any concerns after your clean, contact us and we will discuss them with you.',
     },
   ],
   geo: { latitude: 52.5862, longitude: -2.1288 },

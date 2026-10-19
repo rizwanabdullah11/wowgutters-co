@@ -166,7 +166,7 @@ function ServiceCopy({ serviceName, slug }: { serviceName: string; slug: string 
         Many customers in <A s={set[4]} />, <A s={set[5]} />, <A s={set[6]} /> and <A s={set[7]} /> book{' '}
         {lower} before autumn leaf fall or after a heavy storm. We also cover <A s={next[0]} />,{' '}
         <A s={next[2]} />, <A s="coventry" /> and <A s="worcester" />. Every visit comes with before and after
-        photos and our 1-year guarantee.
+        photos, and all work is fully insured.
       </p>
     </Shell>
   );
