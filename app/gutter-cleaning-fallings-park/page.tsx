@@ -10,19 +10,19 @@ const pageData = suburbPages['fallings-park']
 
 export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Fallings Park Wolverhampton | WOW Gutters Ltd',
-  description: 'Professional gutter cleaning in Fallings Park, Wolverhampton (WV10). Interwar semis, post-war estates, no ladders, vacuum system, before & after photos. From £45. Call: 07421 433910.',
+  description: 'Professional gutter cleaning in Fallings Park, Wolverhampton (WV10). Interwar semis, post-war estates, no ladders, vacuum system, before & after photos. From £100. Call: 07421 433910.',
   alternates: { canonical: URL_PATH, languages: { 'en-GB': URL_PATH, 'x-default': URL_PATH } },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     title: 'Gutter Cleaning Fallings Park Wolverhampton | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Fallings Park, Wolverhampton (WV10). From £45. Call WOW Gutters Ltd: 07421 433910.',
+    description: 'Professional gutter cleaning in Fallings Park, Wolverhampton (WV10). From £100. Call WOW Gutters Ltd: 07421 433910.',
     url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters Ltd',
     images: [{ url: 'https://wowgutters.co.uk/og/fallings-park.jpg', width: 1200, height: 630, alt: 'WOW Gutters Ltd — Gutter Cleaning Fallings Park Wolverhampton' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning Fallings Park Wolverhampton | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Fallings Park Wolverhampton WV10. From £45. Call WOW Gutters Ltd: 07421 433910.',
+    description: 'Professional gutter cleaning in Fallings Park Wolverhampton WV10. From £100. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/fallings-park.jpg'],
   },
 })

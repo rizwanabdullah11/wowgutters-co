@@ -5,6 +5,7 @@ import Image from 'next/image';
 import logo from '@/assets/wow-gutter-logo.webp';
 import { colors } from '@/constants/colors';
 import { areaPath } from '@/lib/areaSlugs';
+import { formatNapAddress } from '@/lib/businessDetails';
 import { 
   Phone, Mail, MapPin, Star, ArrowUp, 
   Facebook, Twitter, Instagram, Linkedin, Youtube,
@@ -20,7 +21,6 @@ export default function Footer() {
   const specialServices = [
     { name: 'Gutter Inspection', path: '/services/gutter-inspection' },
     { name: 'Roof Inspection', path: '/services/roof-inspection' },
-    { name: 'Free Gutter Inspection', path: '/help/inspect' },
     { name: 'Commercial Gutter Cleaning', path: '/services/commercial-gutter-cleaning' },
     { name: 'Commercial Roof Cleaning', path: '/services/commercial-roof-cleaning' },
     { name: 'Conservatory Cleaning', path: '/services/conservatory' },
@@ -54,8 +54,9 @@ export default function Footer() {
   ];
 
   const areas = [
-    'Birmingham', 'Coventry', 'Wolverhampton', 'Dudley',
-    'Sandwell', 'Solihull', 'Walsall', 'Worcester',
+    'Birmingham', 'Solihull', 'Sutton Coldfield', 'Wolverhampton',
+    'Walsall', 'Dudley', 'West Bromwich', 'Sandwell', 'Halesowen',
+    'Coventry', 'Worcester',
     'Redditch', 'Bromsgrove', 'Kidderminster', 'Malvern',
     'Evesham', 'Droitwich Spa'
   ];
@@ -102,6 +103,7 @@ export default function Footer() {
             <div className="footer-contact-pills">
               <div className="contact-pill"><Phone className="w-4 h-4"/> 07421 433910</div>
               <div className="contact-pill"><Mail className="w-4 h-4"/> support@wowgutters.co.uk</div>
+              <address className="contact-pill not-italic"><MapPin className="w-4 h-4"/> {formatNapAddress()}</address>
             </div>
           </div>
 

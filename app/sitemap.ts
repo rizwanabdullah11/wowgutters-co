@@ -33,7 +33,6 @@ export const revalidate = false;
 const FRESH_SERVICE_ROUTES = new Set([
   '/windows-cleaning',
   '/services/hot-wash-cleaning',
-  '/hot-wash',
   '/the-gutter-gallery',
   '/pricing',
   '/about',
@@ -99,7 +98,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/help/unblock',
     '/help/repair',
     '/help/clean',
-    '/help/inspect',
     '/services/hot-wash-cleaning',
     '/services/drain-cleaning',
     ...servicesData.map((s) => `/services/${s.id}`),

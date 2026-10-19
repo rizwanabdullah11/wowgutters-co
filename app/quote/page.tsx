@@ -246,7 +246,7 @@ export default function QuotePage() {
               {
                 icon: '🧹',
                 title: 'Gutter Cleaning',
-                desc: 'Professional vacuum clearance up to 4 stories to prevent overflow and water damage.',
+                desc: 'Professional vacuum clearance up to 4 storeys to prevent overflow and water damage.',
                 popular: true,
               },
               {

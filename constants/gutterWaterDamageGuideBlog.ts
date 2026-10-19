@@ -169,7 +169,7 @@ ${ctaMid}
 
 <p><strong>Semi-detached houses</strong> often share gutter sections and sometimes a downpipe. One side's neglect can damage the other. See <a href="/blog/semi-detached-shared-gutter-boundary-birmingham/" style="${link}">Gutter Cleaning for Semi-Detached Homes: The Shared Boundary Issue in Birmingham</a>.</p>
 
-<p><strong>Extensions and garages</strong> have flat roof drainage with its own failure points. See <a href="/blog/flat-roof-gutters-birmingham-maintenance/" style="${link}">Flat Roof Gutters in Birmingham: The Maintenance Problem Most Guides Ignore</a>. Glazed roofs are covered by our <a href="/conservatory-cleaning" style="${link}">conservatory roof cleaning service</a>.</p>
+<p><strong>Extensions and garages</strong> have flat roof drainage with its own failure points. See <a href="/blog/flat-roof-gutters-birmingham-maintenance/" style="${link}">Flat Roof Gutters in Birmingham: The Maintenance Problem Most Guides Ignore</a>. Glazed roofs are covered by our <a href="/services/conservatory/" style="${link}">conservatory roof cleaning service</a>.</p>
 
 <p><strong>Taller buildings</strong> hide faults at height and send water further. See <a href="/high-level-gutter-cleaning-birmingham/" style="${link}">High-Level Gutter Cleaning Birmingham | Fully Insured</a>.</p>
 
@@ -363,4 +363,4 @@ ${ctaBox}
 
 <p><strong>Related reading:</strong> <a href="/blog/blocked-gutters-cause-damp/" style="${link}">Can Blocked Gutters Cause Damp?</a> · <a href="/blog/west-midlands-home-storing-water-damage/" style="${link}">Is Your West Midlands Home Quietly Storing Water Damage Right Now?</a> · <a href="/blog/professional-gutter-cleaning-extends-roofline-life/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a> · <a href="/roofline-cleaning-birmingham/" style="${link}">Roofline Cleaning Birmingham</a> · <a href="/blog/soffit-damage-west-midlands-early-signs/" style="${link}">Soffit Damage in West Midlands Homes</a> · <a href="/blog/clogged-gutters-signs/" style="${link}">Clogged Gutters Birmingham: Signs You're Missing</a> · <a href="/blog/hidden-gutter-damage-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a> · <a href="/blog/complete-gutter-maintenance-birmingham-west-midlands/" style="${link}">The Complete Guide to Gutter Maintenance</a></p>
 `
-};
+};

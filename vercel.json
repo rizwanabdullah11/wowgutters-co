@@ -22,12 +22,12 @@
     },
     {
       "source": "/gutters-cleaning",
-      "destination": "/help/unblock/",
+      "destination": "/services/gutter-cleaning/",
       "permanent": true
     },
     {
       "source": "/gutters-cleaning/",
-      "destination": "/help/unblock/",
+      "destination": "/services/gutter-cleaning/",
       "permanent": true
     },
     {

@@ -7,6 +7,7 @@ const keyBenefits = [
   'Fully insured team',
   'Same day booking',
   'Before & after photos',
+  '1-year service guarantee',
 ];
 
 export default function GetTheBest() {

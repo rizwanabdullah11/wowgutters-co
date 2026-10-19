@@ -10,7 +10,7 @@ import { areaPath } from '@/lib/areaSlugs';
 export const metadata: Metadata = buildMetadata({
   absoluteTitle: 'Professional Gutter Cleaning Birmingham & West Midlands | WOW Gutters Ltd',
   description:
-    'Gutter cleaning by WOW Gutters Ltd. Industrial vacuum system, no ladders, before and after photos, downpipe testing included. From £50. Same-day appointments available. Call 07421 433910.',
+    'Gutter cleaning by WOW Gutters Ltd. Industrial vacuum system, no ladders, before and after photos, downpipe testing included. From £100. Same-day appointments available. Call 07421 433910.',
   canonicalPath: '/gutter-cleaning/',
 });
 

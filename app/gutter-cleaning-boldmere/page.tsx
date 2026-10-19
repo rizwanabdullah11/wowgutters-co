@@ -10,19 +10,19 @@ const pageData = suburbPages['boldmere']
 
 export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Boldmere, Sutton Coldfield, Birmingham | WOW Gutters Ltd',
-  description: 'Professional gutter cleaning in Boldmere, Sutton Coldfield (B73). Victorian & Edwardian semis, no ladders, vacuum system, before & after photos. From \u00a355. Call: 07421 433910.',
+  description: 'Professional gutter cleaning in Boldmere, Sutton Coldfield (B73). Victorian & Edwardian semis, no ladders, vacuum system, before & after photos. From £100. Call: 07421 433910.',
   alternates: { canonical: URL_PATH, languages: { 'en-GB': URL_PATH, 'x-default': URL_PATH } },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     title: 'Gutter Cleaning Boldmere, Sutton Coldfield, Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Boldmere, Sutton Coldfield (B73). No ladders, vacuum system, before & after photos. From \u00a355. Call WOW Gutters Ltd: 07421 433910.',
+    description: 'Professional gutter cleaning in Boldmere, Sutton Coldfield (B73). No ladders, vacuum system, before & after photos. From £100. Call WOW Gutters Ltd: 07421 433910.',
     url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters Ltd',
     images: [{ url: 'https://wowgutters.co.uk/og/boldmere.jpg', width: 1200, height: 630, alt: 'WOW Gutters Ltd \u2014 Gutter Cleaning Boldmere, Sutton Coldfield, Birmingham' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning Boldmere, Sutton Coldfield, Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Boldmere B73. From \u00a355. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
+    description: 'Professional gutter cleaning in Boldmere B73. From £100. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/boldmere.jpg'],
   },
 })

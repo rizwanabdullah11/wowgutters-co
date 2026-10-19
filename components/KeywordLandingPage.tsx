@@ -268,7 +268,7 @@ function faqItems(cat: string, page: KeywordPage): { question: string; answer: s
     { question: 'Are you insured?', answer: 'Yes — we hold comprehensive public liability insurance covering all conservatory cleaning work.' },
   ];
   return [
-    { question: `How much does ${l} cost?`, answer: `Most homes are quoted from £50 for a standard terrace up to £140+ for larger detached properties. Your price is confirmed before we visit.` },
+    { question: `How much does ${l} cost?`, answer: `Most homes are £100 (2-bed) or £110 (3-bed), and £140–£210 for larger detached properties. Your price is confirmed before we visit.` },
     { question: 'Do you use ladders or a vacuum system?', answer: 'We use a ground-level high-reach vacuum system — no ladders placed against your property. It reaches up to 4 storeys.' },
     { question: 'How long does a gutter clean take?', answer: 'Most homes take 30–60 minutes. We clear all debris, test downpipes and provide before and after photos.' },
     { question: 'Do you include downpipe clearing?', answer: 'Yes — every clean includes downpipe clearing and flow testing as standard at no extra charge.' },

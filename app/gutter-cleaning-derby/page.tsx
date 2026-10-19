@@ -8,7 +8,7 @@ const URL_PATH = 'https://wowgutters.co.uk/gutter-cleaning-derby/'
 
 export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Derby | WOW Gutters Ltd',
-  description: 'Professional gutter cleaning in Derby from £50. Ground-level vacuum system, before & after photos, fully insured. Call WOW Gutters Ltd: 07421 433910.',
+  description: 'Professional gutter cleaning in Derby from £100. Ground-level vacuum system, before & after photos, fully insured. Call WOW Gutters Ltd: 07421 433910.',
   alternates: {
     canonical: URL_PATH,
     languages: {
@@ -23,7 +23,7 @@ export const metadata: Metadata = normalizeMetadata({
   },
   openGraph: {
     title: 'Gutter Cleaning Derby | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Derby from £50. Ground-level vacuum system, before & after photos, fully insured.',
+    description: 'Professional gutter cleaning in Derby from £100. Ground-level vacuum system, before & after photos, fully insured.',
     url: URL_PATH,
     type: 'website',
     locale: 'en_GB',
@@ -40,7 +40,7 @@ export const metadata: Metadata = normalizeMetadata({
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning Derby | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Derby from £50. Ground-level vacuum system, before & after photos, fully insured.',
+    description: 'Professional gutter cleaning in Derby from £100. Ground-level vacuum system, before & after photos, fully insured.',
     images: ['https://wowgutters.co.uk/og/default.jpg'],
   },
 })

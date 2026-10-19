@@ -112,10 +112,10 @@ export default function ReviewsPage() {
               <li className="flex gap-3">
                 <ThumbsUp className="mt-1 h-5 w-5 shrink-0" style={{ color: colors.primary }} />
                 <span>
-                  <strong>Not happy?</strong> Contact us within 48 hours and we will put it right at no extra
-                  charge — see our{' '}
+                  <strong>1-year service guarantee.</strong> If your gutters block again within 12 months of a
+                  full clean, we come back and clear them at no extra charge — see our{' '}
                   <Link href="/terms-and-conditions/" className="font-bold underline" style={{ color: colors.primary }}>
-                    flow testing
+                    terms
                   </Link>
                   .
                 </span>
@@ -204,7 +204,7 @@ export default function ReviewsPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">Dedicated Customer Support</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Should you notice any overflow or missed debris within 48 hours of service, our mobile team returns promptly to address the issue at zero additional charge.
+                Spot any overflow or missed debris after your visit? Every full clean comes with our 1-year service guarantee — if your gutters block again within 12 months, we return and clear them at no extra charge.
               </p>
             </div>
           </div>

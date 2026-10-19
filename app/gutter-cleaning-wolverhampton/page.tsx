@@ -12,7 +12,7 @@ const landingData: CityGutterLandingData = {
   city: 'Wolverhampton',
   titleTag: 'Gutter Cleaning Wolverhampton | WOW Gutters Ltd',
   metaDescription:
-    'Professional gutter cleaning in Wolverhampton from £50. Ground-level vacuum, before & after photos, fully insured. Call: 07421 433910.',
+    'Professional gutter cleaning in Wolverhampton from £100. Ground-level vacuum, before & after photos, fully insured. Call: 07421 433910.',
   h1: 'Gutter Cleaning Wolverhampton — Expert Service Across the City',
   heroIntro:
     "WOW Gutters Ltd provides professional gutter cleaning across Wolverhampton and the surrounding areas, serving homeowners from Penn and Tettenhall to Wednesfield, Bilston and Willenhall. Wolverhampton's mix of Victorian terraced streets, post-war semis and newer developments all present different gutter challenges — and our team has the experience and equipment to handle all of them. We operate a ground-based high-reach vacuum system that cleans your gutters safely without ladders, reaching up to four storeys and leaving no mess behind.",

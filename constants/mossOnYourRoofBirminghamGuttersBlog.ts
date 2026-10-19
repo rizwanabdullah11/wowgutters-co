@@ -175,7 +175,7 @@ ${sectionCta}
 
 <p>Addressing this properly and effectively requires tackling both ends of the cycle simultaneously, rather than treating the roof moss and the gutter accumulation as two entirely separate, independently timed problems to be dealt with in isolation from one another.</p>
 
-<p>Treating the moss at its source on the roof surface itself, using appropriate biocide application — the approach used by our <a href="/hot-wash/" style="${link}">roof cleaning and moss removal service</a> — addresses the origin of the continuous fragment-shedding process described throughout this article. This treatment is considerably more effective when applied in dry summer conditions, because dry moss tissue absorbs biocide treatment more thoroughly and completely than moss that's currently saturated with water, producing a more reliable and complete kill of the existing growth before it has further opportunity to shed additional fragments into the gutter below.</p>
+<p>Treating the moss at its source on the roof surface itself, using appropriate biocide application — the approach used by our <a href="/services/hot-wash-cleaning/" style="${link}">roof cleaning and moss removal service</a> — addresses the origin of the continuous fragment-shedding process described throughout this article. This treatment is considerably more effective when applied in dry summer conditions, because dry moss tissue absorbs biocide treatment more thoroughly and completely than moss that's currently saturated with water, producing a more reliable and complete kill of the existing growth before it has further opportunity to shed additional fragments into the gutter below.</p>
 
 <p>Simultaneously, and just as importantly, the gutter clearance itself needs to properly remove the moss and moss-derived silt material that has already accumulated within the channel — extraction genuinely reaching the channel floor rather than simply addressing the visible surface layer of debris. Treating the roof-level moss source without properly clearing what has already accumulated and established within the gutter leaves the existing cycle-reinforcing material firmly in place, meaning the gutter continues retaining moisture and supporting further localised moss growth even after the original roof-level source has been successfully treated. Conversely, clearing the gutter thoroughly without addressing the roof moss source means the entire cycle simply restarts as soon as the next round of fragments inevitably sheds down from the untreated roof surface above.</p>
 
@@ -344,11 +344,11 @@ ${ctaBox}
   <li><a href="/blog/roofline-damage-prevention/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
   <li><a href="/blog/professional-gutter-walkthrough/" style="${link}">What Happens During a Professional Gutter Clean?</a></li>
   <li><a href="/blog/west-midlands-water-damage/" style="${link}">Is Your West Midlands Home Quietly Storing Water Damage Right Now?</a></li>
-  <li><a href="/hot-wash/" style="${link}">Roof Cleaning and Moss Removal</a></li>
+  <li><a href="/services/roof-cleaning/" style="${link}">Roof Cleaning and Moss Removal</a></li>
   <li><a href="/services/gutter-cleaning/" style="${link}">Downpipe Unblocking</a></li>
   <li><a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">Birmingham Gutter Maintenance Calendar</a></li>
   <li><a href="/blog/flat-roof-gutters/" style="${link}">Flat Roof Gutters in Birmingham</a></li>
   <li><a href="/blog/summer-gutter-maintenance/" style="${link}">Late Summer Gutter Maintenance</a></li>
 </ul>
 `,
-};
+};

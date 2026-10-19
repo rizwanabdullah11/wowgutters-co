@@ -380,6 +380,10 @@ export default function TermsAndConditions() {
                 We take pride in our workmanship. If you are not satisfied with our service, please contact us within 
                 48 hours and we will rectify any issues at no additional cost.
               </p>
+              <p className="text-gray-700 leading-relaxed">
+                <strong>1-year service guarantee:</strong> if gutters we have fully cleaned block again within 12 months
+                of the visit, we will return and clear them at no extra charge.
+              </p>
               <div className="rounded-lg p-4" style={{ backgroundColor: `${colors.primary}15` }}>
                 <p className="text-sm text-gray-700">
                   Our service standards cover workmanship quality but does not extend to issues arising from property defects 

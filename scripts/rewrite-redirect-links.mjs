@@ -20,6 +20,12 @@ const REDIRECTS = {
   'blog/gutter-cleaning-walsall/': 'gutter-cleaning-walsall/',
   'blog/gutter-cleaning-solihull/': 'gutter-cleaning-solihull/',
   'service-areas/': '',
+  'hot-wash/': 'services/hot-wash-cleaning/',
+  'gutters-cleaning/': 'services/gutter-cleaning/',
+  'conservatory-cleaning/': 'services/conservatory/',
+  'help/inspect/': 'services/gutter-inspection/',
+  'services/inspection/': 'services/gutter-inspection/',
+  'services/free-gutter-inspection/': 'services/gutter-inspection/',
   'home/': '',
 };
 

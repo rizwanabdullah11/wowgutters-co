@@ -34,7 +34,7 @@ if (!about) {
   if (!/Our Team/i.test(about) || !/Credentials/i.test(about)) {
     errors.push('about: missing team E-E-A-T section');
   }
-  if (!/James M\./i.test(about) || !/Fully insured/i.test(about)) {
+  if (!/Abid Nazir/i.test(about) || !/Fully insured/i.test(about)) {
     errors.push('about: missing team profiles or trust signals');
   }
   if (!/"employee"/.test(about) || !/"foundingDate":"2019"/.test(about)) {

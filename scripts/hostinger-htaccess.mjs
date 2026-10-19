@@ -133,6 +133,7 @@ AddDefaultCharset UTF-8
   RewriteRule ^help/gutter-installation/?$ /services/gutter-installation/ [R=301,L]
   RewriteRule ^services/free-gutter-inspection/?$ /services/gutter-inspection/ [R=301,L]
   RewriteRule ^services/inspection/?$ /services/gutter-inspection/ [R=301,L]
+  RewriteRule ^help/inspect/?$ /services/gutter-inspection/ [R=301,L]
 
   # Blog slug shorten
   RewriteRule ^blog/birmingham-gutter-maintenance-calendar-seasonal-guide/?$ /blog/birmingham-seasonal-gutter-guide/ [R=301,L]

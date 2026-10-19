@@ -1,7 +1,7 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
-import { googleReviewsCrawlSummary } from '@/lib/googleReviews';
+import { useEffect, useRef, useState } from 'react';
+import { GOOGLE_REVIEWS_SUMMARY, googleReviewsCrawlSummary } from '@/lib/googleReviews';
 
 const ELFSIGHT_PLATFORM_SRC = 'https://elfsightcdn.com/platform.js';
 
@@ -65,9 +65,45 @@ type ElfsightReviewsProps = {
   showSummary?: boolean;
 };
 
+/** Public Google listing — used when the Elfsight widget can't render (e.g. plan view limit reached). */
+const GOOGLE_REVIEWS_FALLBACK_URL =
+  (process.env.NEXT_PUBLIC_GBP_REVIEW_URL || process.env.NEXT_PUBLIC_GBP_CID_URL || process.env.NEXT_PUBLIC_GBP_URL || '').trim() ||
+  'https://www.google.com/maps/search/?api=1&query=WOW+Gutters+Ltd+38+Ryland+Street+Birmingham+B16+8DD';
+
 export default function ElfsightReviews({ showSummary = true }: ElfsightReviewsProps) {
   const containerRef = useRef<HTMLDivElement>(null);
+  const widgetRef = useRef<HTMLDivElement>(null);
+  const [widgetFailed, setWidgetFailed] = useState(false);
   const widgetId = getWidgetId();
+
+  // Oct 2026: Elfsight returned APP_VIEWS_LIMIT_REACHED and the widget rendered
+  // nothing, leaving an empty "Live Google feed". If the widget is still empty
+  // a few seconds after it should have loaded, show a link to the real Google reviews.
+  useEffect(() => {
+    let timer: number | undefined;
+    const check = () => {
+      const h = widgetRef.current?.getBoundingClientRect().height ?? 0;
+      if (h < 40) setWidgetFailed(true);
+    };
+    const start = () => {
+      timer = window.setTimeout(check, 9000);
+    };
+    const el = containerRef.current;
+    if (!el || !('IntersectionObserver' in window)) {
+      start();
+      return () => window.clearTimeout(timer);
+    }
+    const io = new IntersectionObserver(([entry]) => {
+      if (!entry?.isIntersecting) return;
+      io.disconnect();
+      start();
+    });
+    io.observe(el);
+    return () => {
+      io.disconnect();
+      window.clearTimeout(timer);
+    };
+  }, []);
 
   // Performance (Oct 2026): the Elfsight platform script (~130 ms of main-thread
   // work) is only fetched when the reviews block comes within 400px of view.
@@ -94,13 +130,31 @@ export default function ElfsightReviews({ showSummary = true }: ElfsightReviewsP
   }, []);
 
   return (
-    <div ref={containerRef} className="w-full min-h-[360px]">
+    <div ref={containerRef} className={`w-full ${widgetFailed ? '' : 'min-h-[360px]'}`}>
       {showSummary ? (
         <p className="mb-6 text-center text-slate-600 text-base max-w-2xl mx-auto">
           {googleReviewsCrawlSummary()}
         </p>
       ) : null}
-      <div key={widgetId} className={`elfsight-app-${widgetId}`} />
+      <div ref={widgetRef} key={widgetId} className={`elfsight-app-${widgetId}`} />
+      {widgetFailed ? (
+        <div className="mx-auto max-w-xl rounded-2xl border border-amber-200 bg-amber-50 p-6 text-center">
+          <p className="text-2xl font-black text-slate-900">
+            <span className="text-amber-500" aria-hidden>★★★★★</span> {GOOGLE_REVIEWS_SUMMARY.starsDisplay} on Google
+          </p>
+          <p className="mt-2 text-slate-700">
+            Read every verified review from Birmingham and West Midlands customers on our Google Business Profile.
+          </p>
+          <a
+            href={GOOGLE_REVIEWS_FALLBACK_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-flex items-center justify-center rounded-full bg-emerald-600 px-6 py-3 font-bold text-white hover:bg-emerald-700"
+          >
+            Read our Google reviews
+          </a>
+        </div>
+      ) : null}
     </div>
   );
 }

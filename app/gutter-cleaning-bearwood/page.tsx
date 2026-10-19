@@ -10,19 +10,19 @@ const pageData = suburbPages.bearwood
 
 export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Bearwood | WOW Gutters Ltd',
-  description: 'Professional gutter cleaning in Bearwood, Smethwick (B66). Victorian & Edwardian homes, Warley Woods area, vacuum system, before & after photos. From £50. Call: 07421 433910.',
+  description: 'Professional gutter cleaning in Bearwood, Smethwick (B66). Victorian & Edwardian homes, Warley Woods area, vacuum system, before & after photos. From £100. Call: 07421 433910.',
   alternates: { canonical: URL_PATH, languages: { 'en-GB': URL_PATH, 'x-default': URL_PATH } },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     title: 'Gutter Cleaning Bearwood | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Bearwood, Smethwick (B66). Warley Woods area, vacuum system, before & after photos. From £50. Call WOW Gutters Ltd: 07421 433910.',
+    description: 'Professional gutter cleaning in Bearwood, Smethwick (B66). Warley Woods area, vacuum system, before & after photos. From £100. Call WOW Gutters Ltd: 07421 433910.',
     url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters Ltd',
     images: [{ url: 'https://wowgutters.co.uk/og/bearwood.jpg', width: 1200, height: 630, alt: 'WOW Gutters Ltd \u2014 Gutter Cleaning Bearwood' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning Bearwood | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Bearwood B66. From £50. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
+    description: 'Professional gutter cleaning in Bearwood B66. From £100. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/bearwood.jpg'],
   },
 })

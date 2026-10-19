@@ -6,7 +6,7 @@ import { buildMetadata } from '@/lib/seo';
 export const metadata: Metadata = buildMetadata({
   absoluteTitle: 'Residential Gutter Cleaning Birmingham & West Midlands | WOW Gutters Ltd',
   description:
-    'Residential gutter cleaning by WOW Gutters Ltd. Ground-level vacuum system, no ladders, before and after photos, downpipe testing included. From £50. Same-day appointments available across the West Midlands. Call 07421 433910.',
+    'Residential gutter cleaning by WOW Gutters Ltd. Ground-level vacuum system, no ladders, before and after photos, downpipe testing included. From £100. Same-day appointments available across the West Midlands. Call 07421 433910.',
   canonicalPath: '/residential-gutter-cleaning/',
 });
 

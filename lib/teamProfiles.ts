@@ -6,36 +6,58 @@ export type TeamProfile = {
   name: string;
   role: string;
   experience: string;
+  /** Optional photo in /public. Leave empty to show initials until a real photo is added. */
   image: string;
   imageAlt: string;
 };
 
+/**
+ * Real WOW Gutters Ltd team. To add a photo, drop it in /public/assets/team/
+ * (e.g. harley-davies.jpg) and set `image: '/assets/team/harley-davies.jpg'`.
+ */
 export const TEAM_PROFILES: TeamProfile[] = [
   {
-    name: 'James M.',
-    role: 'Lead Gutter Technician',
+    name: 'Abid Nazir',
+    role: 'Founder & Director',
     experience:
-      '8+ years on residential and commercial roofline work across Birmingham. Certified in ground-level high-reach vacuum systems.',
-    image: '/assets/team/james-m.svg',
-    imageAlt: 'James M. - Lead Gutter Technician at WOW Gutters Ltd',
+      'Runs WOW Gutters Ltd from our Birmingham base at 38 Ryland Street (B16).',
+    image: '',
+    imageAlt: 'Abid Nazir - Founder & Director of WOW Gutters Ltd',
   },
   {
-    name: 'Sarah K.',
-    role: 'Service Coordinator',
+    name: 'Harley Davies',
+    role: 'Gutter Cleaning Engineer',
     experience:
-      'Manages same-day bookings, quotes, and customer updates. Ensures every job includes before-and-after photos and a written condition report.',
-    image: '/assets/team/sarah-k.svg',
-    imageAlt: 'Sarah K. - Service Coordinator at WOW Gutters Ltd',
+      'Ground-level vacuum gutter cleaning, downpipe unblocking and before-and-after photo reports across Birmingham and the West Midlands.',
+    image: '',
+    imageAlt: 'Harley Davies - Gutter Cleaning Engineer at WOW Gutters Ltd',
   },
   {
-    name: 'David R.',
-    role: 'Hot Wash & Exterior Specialist',
+    name: 'Ian Thompson',
+    role: 'Gutter Cleaning Engineer',
     experience:
-      'Trained in purified hot-water systems for fascias, UPVC, and driveway cleaning. Works ladder-free on most residential properties.',
-    image: '/assets/team/david-r.svg',
-    imageAlt: 'David R. - Hot Wash & Exterior Specialist at WOW Gutters Ltd',
+      'Ground-level vacuum gutter cleaning, downpipe unblocking and before-and-after photo reports across Birmingham and the West Midlands.',
+    image: '',
+    imageAlt: 'Ian Thompson - Gutter Cleaning Engineer at WOW Gutters Ltd',
+  },
+  {
+    name: 'Rikesh Patel',
+    role: 'Gutter Cleaning Engineer',
+    experience:
+      'Ground-level vacuum gutter cleaning, downpipe unblocking and before-and-after photo reports across Birmingham and the West Midlands.',
+    image: '',
+    imageAlt: 'Rikesh Patel - Gutter Cleaning Engineer at WOW Gutters Ltd',
   },
 ];
+
+export function teamInitials(name: string): string {
+  return name
+    .split(/\s+/)
+    .map((part) => part[0] ?? '')
+    .join('')
+    .slice(0, 2)
+    .toUpperCase();
+}
 
 export const EEAT_TRUST_POINTS = [
   {
@@ -43,8 +65,8 @@ export const EEAT_TRUST_POINTS = [
     detail: 'Comprehensive public liability insurance on every residential and commercial visit.',
   },
   {
-    title: 'Trained technicians',
-    detail: 'Experienced local staff using high-reach ground vacuum systems and camera inspection equipment.',
+    title: '1-year service guarantee',
+    detail: 'If your gutters block again within 12 months of a full clean, we return and clear them at no extra charge.',
   },
   {
     title: 'Verified Google reviews',

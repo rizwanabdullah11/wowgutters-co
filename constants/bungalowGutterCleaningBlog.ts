@@ -142,7 +142,7 @@ ${ctaTop}
 ${ctaMid}
 <h2 id="extensions">Extensions, Conservatories and Flat Roofs</h2>
 
-<p>Many bungalows have been extended, often with a flat roof or a glazed conservatory. Flat roof drainage holds water and leaves, and it needs a different assessment, as <a href="/blog/flat-roof-gutters-birmingham-maintenance/" style="${link}">Flat Roof Gutters in Birmingham: The Maintenance Problem Most Guides Ignore</a> explains. Glazed roofs are covered by our <a href="/conservatory-cleaning" style="${link}">conservatory roof cleaning service</a>.</p>
+<p>Many bungalows have been extended, often with a flat roof or a glazed conservatory. Flat roof drainage holds water and leaves, and it needs a different assessment, as <a href="/blog/flat-roof-gutters-birmingham-maintenance/" style="${link}">Flat Roof Gutters in Birmingham: The Maintenance Problem Most Guides Ignore</a> explains. Glazed roofs are covered by our <a href="/services/conservatory/" style="${link}">conservatory roof cleaning service</a>.</p>
 
 <p>Check the junction where an extension meets the original roof. Water collects there, and it is easy to miss.</p>
 
@@ -320,4 +320,4 @@ ${ctaBox}
 
 <p><strong>Related reading:</strong> <a href="/blog/gutter-ladder-safety/" style="${link}">Can You Clean Your Own Gutters Safely?</a> · <a href="/blog/tree-cover-gutter-cleaning-schedule-birmingham/" style="${link}">How Tree Cover Changes Your Gutter Cleaning Schedule in Birmingham</a> · <a href="/blog/flat-roof-gutters-birmingham-maintenance/" style="${link}">Flat Roof Gutters in Birmingham</a> · <a href="/gutter-vacuum-cleaning-birmingham/" style="${link}">Gutter Vacuum Cleaning Birmingham</a> · <a href="/roofline-cleaning-birmingham/" style="${link}">Roofline Cleaning Birmingham</a> · <a href="/blog/leaves-in-gutters/" style="${link}">Leaves in Gutters?</a> · <a href="/blog/gutter-water-damage-guide/" style="${link}">Water Damage From Gutters</a> · <a href="/blog/complete-gutter-maintenance-birmingham-west-midlands/" style="${link}">The Complete Guide to Gutter Maintenance</a></p>
 `
-};
+};

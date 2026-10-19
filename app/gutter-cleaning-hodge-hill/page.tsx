@@ -10,19 +10,19 @@ const pageData = suburbPages['hodge-hill']
 
 export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Hodge Hill Birmingham | WOW Gutters Ltd',
-  description: 'Professional gutter cleaning in Hodge Hill, Birmingham (B36). Post-war semis, no ladders, vacuum system, before & after photos. From £50. Call: 07421 433910.',
+  description: 'Professional gutter cleaning in Hodge Hill, Birmingham (B36). Post-war semis, no ladders, vacuum system, before & after photos. From £100. Call: 07421 433910.',
   alternates: { canonical: URL_PATH, languages: { 'en-GB': URL_PATH, 'x-default': URL_PATH } },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     title: 'Gutter Cleaning Hodge Hill Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Hodge Hill, Birmingham (B36). No ladders, vacuum system, before & after photos. From £50. Call WOW Gutters Ltd: 07421 433910.',
+    description: 'Professional gutter cleaning in Hodge Hill, Birmingham (B36). No ladders, vacuum system, before & after photos. From £100. Call WOW Gutters Ltd: 07421 433910.',
     url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters Ltd',
     images: [{ url: 'https://wowgutters.co.uk/og/hodge-hill.jpg', width: 1200, height: 630, alt: 'WOW Gutters Ltd — Gutter Cleaning Hodge Hill Birmingham' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning Hodge Hill Birmingham | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Hodge Hill B36. From £50. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
+    description: 'Professional gutter cleaning in Hodge Hill B36. From £100. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/hodge-hill.jpg'],
   },
 })

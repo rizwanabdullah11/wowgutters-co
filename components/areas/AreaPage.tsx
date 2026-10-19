@@ -152,7 +152,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
               />
               <div className="absolute bottom-8 left-8 right-8 z-20">
                 <h4 className="text-white text-2xl font-bold mb-2">High-Reach Technology</h4>
-                <p className="text-gray-200 shadow-sm">Cleaning safely from the ground up to 4 stories.</p>
+                <p className="text-gray-200 shadow-sm">Cleaning safely from the ground up to 4 storeys.</p>
               </div>
             </div>
           </div> */}

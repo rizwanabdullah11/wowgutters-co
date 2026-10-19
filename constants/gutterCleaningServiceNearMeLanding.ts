@@ -77,7 +77,7 @@ export const GUTTER_CLEANING_SERVICE_NEAR_ME_LANDING: CityGutterLandingData = {
     {
       question: 'How much does your gutter cleaning service cost near me?',
       answer:
-        'Prices start from \u00a350 for a standard terraced or semi-detached property. Detached homes and commercial premises are quoted individually based on size. All prices are fixed upfront \u2014 no call-out charge, no hourly rate, no hidden fees.',
+        'Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Detached homes and commercial premises are quoted individually based on size. All prices are fixed upfront \u2014 no call-out charge, no hourly rate, no hidden fees.',
     },
     {
       question: 'Do you use ladders for your gutter cleaning service?',

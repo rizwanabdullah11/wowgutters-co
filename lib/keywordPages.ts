@@ -865,7 +865,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
         },
         {
           question: 'How much does it cost to clear nest blockages from gutters?',
-          answer: 'Standard residential gutter clearing with nest extraction starts from £50 to £120 depending on property size and roof height. We provide fixed upfront quotes before commencing work.',
+          answer: 'Standard residential gutter clearing with nest extraction costs £100 to £210 depending on property size and roof height. We provide fixed upfront quotes before commencing work.',
         },
       ],
     };
@@ -1175,7 +1175,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
         },
         {
           question: `How much does gutter cleaning cost in ${areaName}?`,
-          answer: `Standard residential gutter cleaning in ${areaName} costs between £50 and £120 depending on property size, height, and accessibility. Fixed quotes are provided before work begins.`,
+          answer: `Standard residential gutter cleaning in ${areaName} costs £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes, depending on height and accessibility. Fixed quotes are provided before work begins.`,
         },
         {
           question: 'Do you use ladders or vacuum systems?',
@@ -1278,7 +1278,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
       },
       {
         question: 'How much does professional gutter cleaning cost?',
-        answer: 'Standard residential gutter cleaning costs between £50 and £120 depending on property size, height, and access. We provide fixed quotes before commencing work.',
+        answer: 'Standard residential gutter cleaning costs £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes, depending on height and access. We provide fixed quotes before commencing work.',
       },
       {
         question: 'Do you check downpipes as part of the clean?',

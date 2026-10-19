@@ -4,8 +4,8 @@ import Link from 'next/link';
 
 const services = [
   { icon: <Sparkles className="w-6 h-6" />, label: 'Windows & Frames', link: '/windows-cleaning', accent: '#3B82F6', desc: 'Streak-free finish' },
-  { icon: <Droplets className="w-6 h-6" />, label: 'Gutters & Fascias', link: '/gutters-cleaning', accent: '#19C58B', desc: 'Deep exterior clean' },
-  { icon: <Home className="w-6 h-6" />, label: 'Conservatories', link: '/conservatory-cleaning', accent: '#F97316', desc: 'Restore the shine' },
+  { icon: <Droplets className="w-6 h-6" />, label: 'Gutters & Fascias', link: '/services/gutter-cleaning/', accent: '#19C58B', desc: 'Deep exterior clean' },
+  { icon: <Home className="w-6 h-6" />, label: 'Conservatories', link: '/services/conservatory/', accent: '#F97316', desc: 'Restore the shine' },
 ];
 
 export default function HotWashBanner() {
@@ -43,7 +43,7 @@ export default function HotWashBanner() {
                 Hot wash cleaning helps lift stubborn grime, algae and dirt from exterior surfaces for a brighter finish on gutters, fascias, soffits, frames and conservatories.
               </p>
               
-              <Link href="/hot-wash" className="hot-wash-cta">
+              <Link href="/services/hot-wash-cleaning/" className="hot-wash-cta">
                 Explore Hot Wash Cleaning
                 <span className="hot-wash-cta-icon">
                   <ArrowRight className="w-5 h-5" />

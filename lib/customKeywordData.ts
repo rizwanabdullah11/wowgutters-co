@@ -121,16 +121,16 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'gutter-cleaning-cost': {
     heroTitle: "Gutter Cleaning Cost UK",
-    heroDescription: "Clear, upfront pricing for professional gutter cleaning across Birmingham and the West Midlands. Prices start from £50 for standard terraced properties. No hidden fees, free flow testing, before & after camera verification, and complete water flow testing. Call WOW Gutters Ltd on 07421 433910.",
+    heroDescription: "Clear, upfront pricing for professional gutter cleaning across Birmingham and the West Midlands. Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. No hidden fees, free flow testing, before & after camera verification, and complete water flow testing. Call WOW Gutters Ltd on 07421 433910.",
     sections: [
       {
         heading: "How Much Does Gutter Cleaning Cost in 2026?",
-        content: "At WOW Gutters Ltd, we believe in transparent, fixed-price gutter cleaning with zero surprises. Gutter cleaning prices generally range between £50 and £140 for residential properties depending on house size, height, and accessibility. Commercial buildings and large detached residences are quoted based on total linear metres and roof complexity.",
+        content: "At WOW Gutters Ltd, we believe in transparent, fixed-price gutter cleaning with zero surprises. Gutter cleaning prices generally range between £100 and £210 for residential properties depending on house size, height, and accessibility. Commercial buildings and large detached residences are quoted based on total linear metres and roof complexity.",
         bullets: [
-          "Small 2-bedroom terraced home: from £50 – £65",
-          "3-bedroom semi-detached property: from £70 – £90",
-          "4-5 bedroom detached executive house: from £95 – £140",
-          "Bungalows and single-storey properties: from £50 – £70",
+          "2-bedroom home: £100 fixed",
+          "3-bedroom semi-detached property: £110 fixed",
+          "4-5 bedroom detached executive house: from £100 – £140",
+          "Bungalows: from £100",
           "Commercial premises & multi-storey blocks: tailored quotes from £120",
           "All cleans include downpipe clearance, flow testing, and photographic proof",
         ],
@@ -151,7 +151,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning cost on average in the UK?",
-        answer: "The UK average for residential gutter cleaning is between £60 and £110. WOW Gutters Ltd offers highly competitive rates starting at just £50, including full vacuum clearance and before/after photos.",
+        answer: "WOW Gutters Ltd prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes, including full vacuum clearance and before/after photos.",
       },
       {
         question: "Are there any hidden costs added on the day?",
@@ -180,11 +180,11 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
         heading: "2026 Gutter Cleaning Price Guide",
         content: "We take the guesswork out of exterior property maintenance with clear, upfront pricing tiers. Every gutter clean performed by WOW Gutters Ltd uses commercial high-suction vacuum systems with wireless inspection cameras, ensuring your gutters are 100% clear of leaves, moss, and silt.",
         bullets: [
-          "Standard 2-Bed Terrace / Townhouse: £50.00 – £65.00",
-          "Standard 3-Bed Semi-Detached: £70.00 – £85.00",
-          "Large 4-Bed Detached: £90.00 – £120.00",
-          "Executive 5+ Bed / Multi-Elevation Detached: £120.00 – £160.00",
-          "Single Storey Bungalow (Front & Back): £50.00 – £65.00",
+          "2-Bed Terrace / Flat: £100 fixed",
+          "3-Bed Semi-Detached: £110 fixed",
+          "4+ Bed Detached: £140 – £210",
+          "Townhouse / 3-Storey: £130 – £195",
+          "Bungalow (Front & Back): from £100",
           "Conservatory Gutter Clearance Add-on: £20.00 – £35.00",
         ],
       },
@@ -280,7 +280,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'fascia-soffit-cleaning-cost': {
     heroTitle: "Fascia & Soffit Cleaning Cost",
-    heroDescription: "Affordable, professional fascia and soffit cleaning across Birmingham and the West Midlands. Hot purified water wash restores discoloured, algae-stained UPVC to a pristine finish. Prices from £60. Call WOW Gutters Ltd on 07421 433910 for a free quote.",
+    heroDescription: "Affordable, professional fascia and soffit cleaning across Birmingham and the West Midlands. Hot purified water wash restores discoloured, algae-stained UPVC to a pristine finish. Prices from £100. Call WOW Gutters Ltd on 07421 433910 for a free quote.",
     sections: [
       {
         heading: "How Much Does Fascia and Soffit Cleaning Cost?",
@@ -289,7 +289,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           "2-bedroom terraced property: £60.00 – £80.00",
           "3-bedroom semi-detached home: £80.00 – £110.00",
           "4-5 bedroom detached executive house: £110.00 – £160.00",
-          "Bungalow / single-storey roofline: £50.00 – £75.00",
+          "Bungalow / single-storey roofline: from £100",
           "Gutter clear + fascia/soffit wash bundle: save up to 25% on combined packages",
           "Includes external gutter washing, downpipe wipe down, and window frame rinse",
         ],
@@ -958,7 +958,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much do gutter damage repairs cost?",
-        answer: "Minor repairs start from £30–£50 when booked with a clean, with standalone repair visits typically costing between £50 and £120 depending on scope.",
+        answer: "Minor repairs start from £30–£50 when booked with a clean, with standalone repair visits typically costing between £100 and £210 depending on scope.",
       },
       {
         question: "How do I request emergency gutter damage repairs in Birmingham?",
@@ -1116,7 +1116,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does it cost to clear a wasp nest from gutters?",
-        answer: "Gutter vacuum clearance including nest removal starts from £50–£75 for standard residential properties.",
+        answer: "Gutter vacuum clearance including nest removal starts from £100 for standard residential properties.",
       },
       {
         question: "How do I book a gutter unblocking appointment?",
@@ -1222,7 +1222,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does it cost to unblock a downpipe?",
-        answer: "Downpipe unblocking is included free with our full gutter cleaning service, or starts from £45 as an individual callout.",
+        answer: "Downpipe unblocking is included free with our full gutter cleaning service, or starts from £100 as an individual callout.",
       },
       {
         question: "How do I prevent my downpipe from blocking again?",
@@ -1308,7 +1308,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           "All extracted debris is contained cleanly inside our mobile vacuum tanks",
           "Capable of reaching over difficult extensions, conservatories, and narrow side passages",
           "Fully insured team with £10 million public liability cover",
-          "Fixed, transparent pricing from £50 with no hidden surcharges",
+          "Fixed, transparent pricing from £100 with no hidden surcharges",
           "Trusted by thousands of Birmingham homeowners, landlords, and businesses",
         ],
       },
@@ -1328,7 +1328,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does gutter unblocking cost in Birmingham?",
-        answer: "Gutter unblocking prices start from just £50 for standard terraced and semi-detached homes. We provide an exact fixed price before starting.",
+        answer: "Gutter unblocking prices start from £100 for standard terraced and semi-detached homes. We provide an exact fixed price before starting.",
       },
       {
         question: "How do I book an unblocking appointment?",
@@ -1646,7 +1646,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does routine gutter maintenance cost?",
-        answer: "Residential maintenance starts from just £50 for standard properties. Contact us for a fixed quotation.",
+        answer: "Residential maintenance starts from £100 for standard properties. Contact us for a fixed quotation.",
       },
       {
         question: "How do I find availability for my area?",
@@ -1699,7 +1699,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does gutter maintenance cost in Worcester?",
-        answer: "Standard domestic gutter maintenance in Worcester starts from £50–£75 depending on property size.",
+        answer: "Standard domestic gutter maintenance in Worcester starts from £100 depending on property size.",
       },
       {
         question: "How do I book an appointment in Worcester?",
@@ -1839,7 +1839,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           "Eliminates mosquito breeding grounds and insect nesting sites under your roofline",
           "Protects landscaping, patios, and flowerbeds from destructive waterfall runoff",
           "Fully insured service with £10 million public liability cover",
-          "Fixed upfront pricing from £50 with no hidden surcharges",
+          "Fixed upfront pricing from £100 with no hidden surcharges",
         ],
       },
     ],
@@ -1858,7 +1858,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does eavestrough cleaning cost?",
-        answer: "Eavestrough cleaning starts from £50 for standard 2-bedroom homes and £70 for 3-bedroom semi-detached properties.",
+        answer: "Eavestrough cleaning costs £100 for standard 2-bedroom homes and £110 for 3-bedroom semi-detached properties.",
       },
       {
         question: "How do I book an eavestrough clean?",
@@ -1911,7 +1911,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does eavestrough cleaning cost in my area?",
-        answer: "Standard residential cleans start from just £50. Call 07421 433910 with your postcode for an instant exact quote.",
+        answer: "Standard residential cleans start from £100. Call 07421 433910 with your postcode for an instant exact quote.",
       },
       {
         question: "How do I book a local eavestrough clean today?",
@@ -2005,7 +2005,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does solar panel cleaning birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for solar panel cleaning birmingham?",
@@ -2168,7 +2168,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does patio cleaning cost in Kings Norton?",
-        answer: "Patio cleaning in Kings Norton starts from £60 for standard residential patios. Contact us for a free exact quote.",
+        answer: "Patio cleaning in Kings Norton starts from £100 for standard residential patios. Contact us for a free exact quote.",
       },
       {
         question: "How do I book patio cleaning in Kings Norton?",
@@ -2221,7 +2221,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does patio cleaning cost in Birmingham?",
-        answer: "Prices start from £60 for smaller patios and £90–£180 for medium to large paved areas.",
+        answer: "Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes.",
       },
       {
         question: "How do I book patio cleaning in Birmingham?",
@@ -2327,7 +2327,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does driveway cleaning cost in Quinton?",
-        answer: "Driveway cleaning in Quinton starts from £60 for standard single driveways. Contact us for a free exact quote.",
+        answer: "Driveway cleaning in Quinton starts from £100 for standard single driveways. Contact us for a free exact quote.",
       },
       {
         question: "How do I book driveway cleaning in Quinton?",
@@ -2368,7 +2368,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does driveway cleaning birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for driveway cleaning birmingham?",
@@ -2478,7 +2478,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does pressure washing cost in Sandwell?",
-        answer: "Prices start from £60 for standard patios and single driveways. Contact us for a free exact quote.",
+        answer: "Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Contact us for a free exact quote.",
       },
       {
         question: "How do I book pressure washing in Sandwell?",
@@ -2519,7 +2519,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does pressure washing birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for pressure washing birmingham?",
@@ -2788,7 +2788,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does fascia cleaning cost?",
-        answer: "Fascia cleaning starts from £50–£75 for standard homes, with package discounts available when combined with gutter clearing.",
+        answer: "Fascia & soffit cleaning is £90 for standard homes, with package discounts available when combined with gutter clearing.",
       },
       {
         question: "How do I book a fascia clean?",
@@ -2841,7 +2841,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does soffit cleaning cost?",
-        answer: "Soffit cleaning typically costs £50–£80, or is discounted when bundled with fascia and gutter cleaning.",
+        answer: "Fascia & soffit cleaning together is £90, or discounted when bundled with gutter cleaning.",
       },
       {
         question: "How do I book a soffit clean?",
@@ -3920,7 +3920,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does roofline cleaning birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for roofline cleaning birmingham?",
@@ -3965,7 +3965,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does roofline repairs birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for roofline repairs birmingham?",
@@ -4010,7 +4010,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does roofline replacement west midlands cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for roofline replacement west midlands?",
@@ -4055,7 +4055,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does guttering and roofline specialists cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for guttering and roofline specialists?",
@@ -4100,7 +4100,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does roofline maintenance contract cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for roofline maintenance contract?",
@@ -4145,7 +4145,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does fascia soffit and guttering package cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for fascia soffit and guttering package?",
@@ -4190,7 +4190,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does roofline restoration birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for roofline restoration birmingham?",
@@ -4235,7 +4235,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does complete roofline service cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for complete roofline service?",
@@ -4280,7 +4280,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does fascia replacement birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for fascia replacement birmingham?",
@@ -4325,7 +4325,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does soffit replacement cost uk cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for soffit replacement cost uk?",
@@ -4370,7 +4370,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does fascia board repair cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for fascia board repair?",
@@ -4415,7 +4415,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does soffit board repair birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for soffit board repair birmingham?",
@@ -4460,7 +4460,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does upvc fascia installation cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for upvc fascia installation?",
@@ -4505,7 +4505,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does fascia and soffit fitters birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for fascia and soffit fitters birmingham?",
@@ -4550,7 +4550,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does cladding and fascia repair cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for cladding and fascia repair?",
@@ -4595,7 +4595,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does guttering fascia soffit quote cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for guttering fascia soffit quote?",
@@ -4640,7 +4640,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does patio cleaning west midlands cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for patio cleaning west midlands?",
@@ -4685,7 +4685,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does render cleaning cost cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for render cleaning cost?",
@@ -4730,7 +4730,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does bird proofing gutters birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for bird proofing gutters birmingham?",
@@ -4775,7 +4775,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does pigeon proofing birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for pigeon proofing birmingham?",
@@ -4820,7 +4820,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does chimney gutter flashing repair cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for chimney gutter flashing repair?",
@@ -4865,7 +4865,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does exterior cleaning package birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for exterior cleaning package birmingham?",
@@ -4910,7 +4910,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does softwashing services birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for softwashing services birmingham?",
@@ -4955,7 +4955,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does conservatory roof valley cleaning cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for conservatory roof valley cleaning?",
@@ -5000,7 +5000,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does window cleaning and gutter package cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for window cleaning and gutter package?",
@@ -5045,7 +5045,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does trusted gutter cleaners birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for trusted gutter cleaners birmingham?",
@@ -5064,7 +5064,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     sections: [
       {
         heading: "Professional Affordable Gutter Cleaning West Midlands in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert affordable gutter cleaning west midlands tailored to residential homeowners, landlords, and commercial property managers. We specialise in cost-effective, transparent gutter cleaning across the West Midlands starting from £50 with no hidden fees, call-out charges, or surprise extras, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        content: "WOW Gutters Ltd provides expert affordable gutter cleaning west midlands tailored to residential homeowners, landlords, and commercial property managers. We specialise in cost-effective, transparent gutter cleaning across the West Midlands starting from £100 with no hidden fees, call-out charges, or surprise extras, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
           "Specialist service for affordable gutter cleaning west midlands across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
@@ -5090,7 +5090,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does affordable gutter cleaning west midlands cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for affordable gutter cleaning west midlands?",
@@ -5135,7 +5135,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does insured gutter cleaning company birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for insured gutter cleaning company birmingham?",
@@ -5180,7 +5180,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does family run gutter cleaners birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for family run gutter cleaners birmingham?",
@@ -5225,7 +5225,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning reviews birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter cleaning reviews birmingham?",
@@ -5270,7 +5270,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does local gutter cleaning company near me cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for local gutter cleaning company near me?",
@@ -5315,7 +5315,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does reliable gutter cleaners west midlands cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for reliable gutter cleaners west midlands?",
@@ -5360,7 +5360,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning with verified flow testing cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter cleaning with verified flow testing?",
@@ -5405,7 +5405,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does rated gutter cleaning company birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for rated gutter cleaning company birmingham?",
@@ -5450,7 +5450,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning before and after cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter cleaning before and after?",
@@ -5495,7 +5495,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does autumn gutter cleaning birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for autumn gutter cleaning birmingham?",
@@ -5540,7 +5540,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does spring gutter clear out cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for spring gutter clear out?",
@@ -5585,7 +5585,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning before winter cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter cleaning before winter?",
@@ -5630,7 +5630,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning after storm cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter cleaning after storm?",
@@ -5675,7 +5675,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does leaf season gutter maintenance cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for leaf season gutter maintenance?",
@@ -5720,7 +5720,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does winter gutter maintenance west midlands cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for winter gutter maintenance west midlands?",
@@ -5765,7 +5765,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning booking availability cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter cleaning booking availability?",
@@ -5810,7 +5810,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does next day gutter cleaning birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for next day gutter cleaning birmingham?",
@@ -5855,7 +5855,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning this week near me cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter cleaning this week near me?",
@@ -5900,7 +5900,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does annual gutter clean subscription cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for annual gutter clean subscription?",
@@ -5945,7 +5945,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter pulling away from house cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter pulling away from house?",
@@ -5990,7 +5990,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter bracket repair cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter bracket repair?",
@@ -6035,7 +6035,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does cracked gutter repair cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for cracked gutter repair?",
@@ -6080,7 +6080,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter downspout replacement cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter downspout replacement?",
@@ -6125,7 +6125,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter overflow onto pavement cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter overflow onto pavement?",
@@ -6170,7 +6170,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does ice dam gutter damage cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for ice dam gutter damage?",
@@ -6215,7 +6215,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter rust repair cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter rust repair?",
@@ -6260,7 +6260,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter hanger replacement cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter hanger replacement?",
@@ -6305,7 +6305,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter silicone seal repair cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter silicone seal repair?",
@@ -6350,7 +6350,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter falling down fix cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter falling down fix?",
@@ -6395,7 +6395,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does water ingress gutter repair cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for water ingress gutter repair?",
@@ -6440,7 +6440,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter end cap replacement cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter end cap replacement?",
@@ -6485,7 +6485,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning vs gutter guards cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter cleaning vs gutter guards?",
@@ -6504,7 +6504,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     sections: [
       {
         heading: "Professional Average Gutter Cleaning Cost 2 Storey House in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert average gutter cleaning cost 2 storey house tailored to residential homeowners, landlords, and commercial property managers. We specialise in comprehensive cost breakdown for cleaning gutters on standard 2-storey terraced, semi-detached, and detached homes in Birmingham (£50–£90 average), using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        content: "WOW Gutters Ltd provides expert average gutter cleaning cost 2 storey house tailored to residential homeowners, landlords, and commercial property managers. We specialise in comprehensive cost breakdown for cleaning gutters on standard 2-storey terraced, semi-detached, and detached homes in Birmingham (£100 for a 2-bed, £110 for a 3-bed), using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
           "Specialist service for average gutter cleaning cost 2 storey house across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
@@ -6530,7 +6530,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does average gutter cleaning cost 2 storey house cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for average gutter cleaning cost 2 storey house?",
@@ -6575,7 +6575,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter replacement cost per metre uk cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter replacement cost per metre uk?",
@@ -6620,7 +6620,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does cheapest gutter cleaning birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for cheapest gutter cleaning birmingham?",
@@ -6665,7 +6665,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning package deals cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter cleaning package deals?",
@@ -6710,7 +6710,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does compare gutter cleaning quotes birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for compare gutter cleaning quotes birmingham?",
@@ -6755,7 +6755,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning cost calculator cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter cleaning cost calculator?",
@@ -6800,7 +6800,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does how much does roofline replacement cost cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for how much does roofline replacement cost?",
@@ -6845,7 +6845,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter repair vs replacement cost cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter repair vs replacement cost?",
@@ -6890,7 +6890,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does bulk gutter cleaning discount landlords cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for bulk gutter cleaning discount landlords?",
@@ -6935,7 +6935,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning listed building birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter cleaning listed building birmingham?",
@@ -6980,7 +6980,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning period property cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter cleaning period property?",
@@ -7025,7 +7025,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning semi-detached house birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter cleaning semi-detached house birmingham?",
@@ -7070,7 +7070,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning end of terrace cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter cleaning end of terrace?",
@@ -7115,7 +7115,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning extension roof cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter cleaning extension roof?",
@@ -7160,7 +7160,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning garage roof cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter cleaning garage roof?",
@@ -7205,7 +7205,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning outbuilding cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter cleaning outbuilding?",
@@ -7250,7 +7250,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning shop front birmingham cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for gutter cleaning shop front birmingham?",
@@ -7295,7 +7295,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does who fixes gutters near me cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for who fixes gutters near me?",
@@ -7340,7 +7340,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does what causes gutters to leak cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for what causes gutters to leak?",
@@ -7385,7 +7385,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does how to stop gutters overflowing cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for how to stop gutters overflowing?",
@@ -7430,7 +7430,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does can you repair guttering without replacing it cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for can you repair guttering without replacing it?",
@@ -7475,7 +7475,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does when should fascias be replaced cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for when should fascias be replaced?",
@@ -7520,7 +7520,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does is roofline replacement covered by insurance cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard domestic services start from £50. We provide a transparent, fixed quote before any work starts.",
+        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
       },
       {
         question: "Do you provide photographic proof for is roofline replacement covered by insurance?",

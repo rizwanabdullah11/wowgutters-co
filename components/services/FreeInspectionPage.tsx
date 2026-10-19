@@ -55,7 +55,7 @@ export default function FreeInspectionPage() {
                 <div className="p-6 bg-gray-50 rounded-lg shadow-sm">
                     <div className="text-4xl mb-4">🪜</div>
                     <h3 className="text-xl font-bold mb-3" style={{ color: colors.primary }}>Safety First</h3>
-                    <p style={{ color: colors.textLight }}>No need for you to climb dangerous ladders. Our high-reach carbon fiber poles check up to 4 stories safely from the ground.</p>
+                    <p style={{ color: colors.textLight }}>No need for you to climb dangerous ladders. Our high-reach carbon fiber poles check up to 4 storeys safely from the ground.</p>
                 </div>
                 <div className="p-6 bg-gray-50 rounded-lg shadow-sm">
                     <div className="text-4xl mb-4">💷</div>

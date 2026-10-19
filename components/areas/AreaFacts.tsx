@@ -25,7 +25,7 @@ const tabContent = [
     // Gutter Cleaning Prices
     title: "How Much Does Gutter Cleaning Cost?",
     content: [
-      "Costs vary based on the property size, gutter condition, and accessibility, but typical residential cleanings range from £50-£150.",
+      "Costs vary based on the property size, gutter condition, and accessibility, but typical residential cleanings range from £100–£210.",
       "WOW Gutters Ltd offers Expert Local Gutter Cleaning to keep your gutters maintained for homes and businesses.",
       "Our knowledgeable staff removes obstructions, carries out small repairs, and checks loose joints for a fair cost.",
       "We also clean downspouts to assure you of steady water flow and peace of mind."
@@ -40,7 +40,7 @@ const tabContent = [
     content: [
       "We'll text you your quote and you'll even be able to book-in online.",
       "No Card Required.",
-      "From £70.",
+      "From £100.",
       "No Obligation."
     ],
     image: "/gutter-cleaning-before.webp",
