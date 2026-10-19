@@ -596,7 +596,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         {/* Video Background */}
         <div className="hero-video-wrapper">
           {service.heroVideo && (
-            <HeroVideo src={service.heroVideo} poster={service.heroImage} className="hero-video" />
+            <HeroVideo poster={service.heroImage} className="hero-video" />
           )}
           <div className="service-hero-overlay"></div>
         </div>

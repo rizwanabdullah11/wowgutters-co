@@ -45,7 +45,7 @@ export default function BlogIndexClient({ blogPosts }: { blogPosts: BlogSummary[
       <section className="blog-hero-section">
         {/* Video Background */}
         <div className="hero-video-wrapper">
-          <HeroVideo src="/gutter-final-video.mp4" className="hero-video" />
+          <HeroVideo className="hero-video" />
           <div className="blog-hero-overlay"></div>
         </div>
 
@@ -660,4 +660,4 @@ export default function BlogIndexClient({ blogPosts }: { blogPosts: BlogSummary[
       `}</style>
     </main>
   );
-}
+}

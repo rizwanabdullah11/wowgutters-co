@@ -1,4 +1,5 @@
 'use client';
+import HeroVideo from '@/components/media/HeroVideo';
 
 import { colors } from '@/constants/colors';
 import { Button } from '@/components/ui/button';
@@ -26,19 +27,7 @@ export default function UnblockPage() {
       >
         {/* Video Background */}
         <div className="absolute inset-0 z-0">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-full object-cover"
-            onError={(e) => {
-              (e.target as HTMLVideoElement).style.display = 'none';
-            }}
-          >
-            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
-          </video>
+          <HeroVideo className="w-full h-full object-cover" />
           {/* Gradient overlay for text readability */}
           <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(15, 23, 42, 0.75) 0%, rgba(15, 23, 42, 0.65) 50%, rgba(15, 23, 42, 0.85) 100%)' }}></div>
         </div>
@@ -447,4 +436,4 @@ export default function UnblockPage() {
       </section>
     </main>
   );
-}
+}

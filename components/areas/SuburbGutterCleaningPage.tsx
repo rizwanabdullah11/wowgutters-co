@@ -87,7 +87,7 @@ export default function SuburbGutterCleaningPage({
       {/* HERO */}
       <section className="area-hero-section">
         <div className="hero-video-wrapper">
-          <HeroVideo src={meta.heroVideo} poster={meta.heroPoster} className="hero-video" />
+          <HeroVideo poster={meta.heroPoster} className="hero-video" />
           <div className="area-hero-overlay" />
         </div>
 

@@ -20,7 +20,7 @@ export default function ContactPageContent() {
       <section className="relative overflow-hidden bg-slate-900 border-b border-gray-100 min-h-[500px] flex items-center">
         {/* Background Video */}
         <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-          <HeroVideo src="/gutter-final-video.mp4" className="w-full h-full object-cover" />
+          <HeroVideo className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/80 to-slate-950/70 z-10" />
         </div>
 

@@ -380,7 +380,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
       <section className="blog-detail-hero-section">
         {/* Video Background */}
         <div className="hero-video-wrapper">
-          <HeroVideo src={post.heroVideo || '/gutter-final-video.mp4'} className="hero-video" />
+          <HeroVideo className="hero-video" />
           <div className="blog-detail-hero-overlay"></div>
         </div>
 

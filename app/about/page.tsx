@@ -1,4 +1,5 @@
 'use client';
+import HeroVideo from '@/components/media/HeroVideo';
 
 import { useEffect, useRef } from 'react';
 import { colors } from '@/constants/colors';
@@ -64,19 +65,7 @@ export default function About() {
       <section className="about-hero-section">
         {/* Video Background */}
         <div className="hero-video-wrapper">
-          <video
-            ref={videoRef}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="auto"
-            poster="/gutter-cleaning.webp"
-            className="hero-video"
-          >
-            <source src="/gutter-final-video.mp4" type="video/mp4" />
-            <source src="/gutter-cleaning-video.mp4" type="video/mp4" />
-          </video>
+          <HeroVideo className="hero-video" />
           <div className="about-hero-overlay"></div>
         </div>
 
