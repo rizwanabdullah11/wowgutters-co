@@ -349,8 +349,8 @@ ${ctaBox}
   <li><a href="/blog/summer-gutter-warning/" style="${link}">What Your Gutters Are Trying to Tell You This Summer</a></li>
   <li><a href="/blog/west-midlands-water-damage/" style="${link}">Is Your West Midlands Home Quietly Storing Water Damage Right Now?</a></li>
   <li><a href="/services/gutter-cleaning/" style="${link}">Downpipe Unblocking</a></li>
-  <li><a href="/hot-wash/" style="${link}">Roof Cleaning and Moss Removal</a></li>
+  <li><a href="/services/roof-cleaning/" style="${link}">Roof Cleaning and Moss Removal</a></li>
   <li><a href="/blog/summer-gutter-cleaning-early/" style="${link}">Beat the Autumn Rush</a></li>
 </ul>
 `,
-};
+};

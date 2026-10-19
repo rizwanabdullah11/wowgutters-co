@@ -321,7 +321,7 @@ export const servicesData: ServiceDetail[] = [
     ctaSection: {
       title: 'Book Your UPVC Clean Today',
       description:
-        'Get a free, no-obligation quote in 60 seconds. Fascia and soffit cleaning from £60. Call 07421 433910 or request a quote online.',
+        'Get a free, no-obligation quote in 60 seconds. Fascia and soffit cleaning from £100. Call 07421 433910 or request a quote online.',
       phone: '07421 433910',
       buttonText: 'Get A Free Quote',
     },

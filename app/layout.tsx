@@ -8,6 +8,18 @@ import ContentProtection from "@/components/ContentProtection";
 import MaybeStaticQuoteDialog from "@/components/MaybeStaticQuoteDialog";
 import IosViewportStabilizer from "@/components/IosViewportStabilizer";
 
+/**
+ * Google Search Console meta-tag token. The env var was set to the HTML-file
+ * name ("google463adee36af827ed.html"), which printed an invalid tag on every
+ * page. The HTML file in /public already verifies the site, so only a real
+ * meta token (no ".html", not the filename) is output.
+ */
+function googleSiteVerificationToken(): string | undefined {
+  const raw = (process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || '').trim();
+  if (!raw || /\.html?$/i.test(raw) || /^google[0-9a-f]+$/i.test(raw)) return undefined;
+  return raw;
+}
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://wowgutters.co.uk'),
   title: "WOW Gutters Ltd | Gutter Cleaning & Roofline Services",
@@ -64,7 +76,7 @@ export const metadata: Metadata = {
     images: ["/og/default.jpg"],
   },
   verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || undefined,
+    google: googleSiteVerificationToken(),
     other: {
       "msvalidate.01":
         process.env.NEXT_PUBLIC_BING_VERIFICATION || "733327357EAC2C662B6C711EA4E78993",
@@ -101,7 +113,6 @@ export default function RootLayout({
   const bingVerificationCode = (
     process.env.NEXT_PUBLIC_BING_VERIFICATION || "733327357EAC2C662B6C711EA4E78993"
   ).trim();
-  const googleVerificationCode = (process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || '').trim();
 
   const videoObjectSchema = {
     "@context": "https://schema.org",
@@ -145,9 +156,6 @@ export default function RootLayout({
         ) : null}
         
         {/* Google Search Console Verification */}
-        {googleVerificationCode ? (
-          <meta name="google-site-verification" content={googleVerificationCode} />
-        ) : null}
         
         {/* Structured Data — plain <script> so next/script doesn't strip it from static export */}
         <script

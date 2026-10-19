@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Gutter Cleaning Prices Birmingham',
-  description: 'Transparent gutter cleaning prices from £50. Houses, bungalows, commercial. Birmingham & West Midlands. Free quotes.',
+  description: 'Transparent gutter cleaning prices from £100. Houses, bungalows, commercial. Birmingham & West Midlands. Free quotes.',
   alternates: {
     canonical: 'https://wowgutters.co.uk/gutter-cleaning-prices/',
   },

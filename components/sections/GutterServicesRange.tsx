@@ -39,7 +39,7 @@ const gutterServices = [
       'Exterior uPVC cleaning for fascias, soffits, frames and conservatories for a brighter, fresher finish.',
     backContent: {
       features: ['Purified water system', 'Streak-free finish', 'Fascias & soffits', 'Conservatory cleaning'],
-      price: 'From £60'
+      price: 'From £100'
     },
     image: '/upvc-cleaning.jpg',
     link: '/services/upvc-cleaning',
@@ -63,7 +63,7 @@ const gutterServices = [
       'Gutter repairs for leaking joints, broken brackets and sagging sections, completed by trained local technicians.',
     backContent: {
       features: ['Water flow tested', 'Same-day repairs', 'Quality materials', 'Leak-proof joints'],
-      price: 'From £80'
+      price: 'From £100'
     },
     image: '/gutter-repair.webp',
     link: '/services/gutter-repairs/',

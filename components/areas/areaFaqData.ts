@@ -22,7 +22,7 @@ export const AREA_FAQS = [
   },
   {
     question: "How much does gutter cleaning cost?",
-    answer: "Costs vary based on the property size, gutter condition, and accessibility, but typical residential cleanings range from £50–£150.",
+    answer: "Costs vary based on the property size, gutter condition, and accessibility, but typical residential cleanings range from £100–£210.",
     icon: "💳"
   }
 ];

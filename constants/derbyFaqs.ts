@@ -2,7 +2,7 @@ export const DERBY_AREA_FAQS = [
   {
     question: 'How much does gutter cleaning cost in Derby?',
     answer:
-      'Derby gutter cleaning prices start at £50 for a standard terrace, £60–£80 for most semis, and £80–£120 for larger detached homes. Commercial and multi-storey buildings are quoted individually. We always give a fixed price upfront — no call-out fee, no extras.',
+      'Derby gutter cleaning is £100 for a 2-bed home, £110 for a 3-bed home, and £140–£210 for larger detached homes. Commercial and multi-storey buildings are quoted individually. We always give a fixed price upfront — no call-out fee, no extras.',
     icon: '\u{1F4B3}',
   },
   {

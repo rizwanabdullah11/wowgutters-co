@@ -377,8 +377,8 @@ export default function TermsAndConditions() {
             </div>
             <div className="pl-13 space-y-3">
               <p className="text-gray-700 leading-relaxed">
-                We take pride in our workmanship. If you are not satisfied with our service, please contact us within 
-                48 hours and we will rectify any issues at no additional cost.
+                We take pride in our workmanship. If you have any concerns about our service, please contact us and we
+                will discuss them with you. All work is carried out by our fully insured team.
               </p>
               <div className="rounded-lg p-4" style={{ backgroundColor: `${colors.primary}15` }}>
                 <p className="text-sm text-gray-700">

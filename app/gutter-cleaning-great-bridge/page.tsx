@@ -10,19 +10,19 @@ const pageData = suburbPages['great-bridge']
 
 export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Great Bridge | WOW Gutters Ltd',
-  description: 'Professional gutter cleaning in Great Bridge, West Bromwich (DY4). Victorian terraces & modern homes, vacuum system, before & after photos. From £45. Call: 07421 433910.',
+  description: 'Professional gutter cleaning in Great Bridge, West Bromwich (DY4). Victorian terraces & modern homes, vacuum system, before & after photos. From £100. Call: 07421 433910.',
   alternates: { canonical: URL_PATH, languages: { 'en-GB': URL_PATH, 'x-default': URL_PATH } },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     title: 'Gutter Cleaning Great Bridge | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Great Bridge, West Bromwich (DY4). Vacuum system, before & after photos. From £45. Call WOW Gutters Ltd: 07421 433910.',
+    description: 'Professional gutter cleaning in Great Bridge, West Bromwich (DY4). Vacuum system, before & after photos. From £100. Call WOW Gutters Ltd: 07421 433910.',
     url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters Ltd',
     images: [{ url: 'https://wowgutters.co.uk/og/great-bridge.jpg', width: 1200, height: 630, alt: 'WOW Gutters Ltd \u2014 Gutter Cleaning Great Bridge' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning Great Bridge | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Great Bridge DY4. From £45. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
+    description: 'Professional gutter cleaning in Great Bridge DY4. From £100. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/great-bridge.jpg'],
   },
 })

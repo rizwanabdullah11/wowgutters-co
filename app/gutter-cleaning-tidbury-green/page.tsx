@@ -10,19 +10,19 @@ const pageData = suburbPages['tidbury-green']
 
 export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Tidbury Green Solihull | WOW Gutters Ltd',
-  description: 'Professional gutter cleaning in Tidbury Green, Solihull (B90). Rural homes, country properties, no ladders, vacuum system, before & after photos. From £60. Call: 07421 433910.',
+  description: 'Professional gutter cleaning in Tidbury Green, Solihull (B90). Rural homes, country properties, no ladders, vacuum system, before & after photos. From £100. Call: 07421 433910.',
   alternates: { canonical: URL_PATH, languages: { 'en-GB': URL_PATH, 'x-default': URL_PATH } },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     title: 'Gutter Cleaning Tidbury Green Solihull | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Tidbury Green, Solihull (B90). No ladders, vacuum system, before & after photos. From £60. Call WOW Gutters Ltd: 07421 433910.',
+    description: 'Professional gutter cleaning in Tidbury Green, Solihull (B90). No ladders, vacuum system, before & after photos. From £100. Call WOW Gutters Ltd: 07421 433910.',
     url: URL_PATH, type: 'website', locale: 'en_GB', siteName: 'WOW Gutters Ltd',
     images: [{ url: 'https://wowgutters.co.uk/og/tidbury-green.jpg', width: 1200, height: 630, alt: 'WOW Gutters Ltd — Gutter Cleaning Tidbury Green Solihull' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning Tidbury Green Solihull | WOW Gutters Ltd',
-    description: 'Professional gutter cleaning in Tidbury Green B90. From £60. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
+    description: 'Professional gutter cleaning in Tidbury Green B90. From £100. No ladders, before & after photos. Call WOW Gutters Ltd: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/tidbury-green.jpg'],
   },
 })

@@ -258,7 +258,7 @@ export const blogPosts: BlogPost[] = [
   <li>White and coloured <strong>uPVC fascias and soffits</strong></li>
   <li><strong>Timber fascias</strong> and soffits</li>
   <li>Composite and aluminium roofline products</li>
-  <li><a href="/conservatory-cleaning" style="color: #19C58B; font-weight: 600; text-decoration: none;">Conservatory frames and trims</a></li>
+  <li><a href="/services/conservatory/" style="color: #19C58B; font-weight: 600; text-decoration: none;">Conservatory frames and trims</a></li>
 </ul>
 
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
@@ -269,7 +269,7 @@ export const blogPosts: BlogPost[] = [
 
 <p><strong>Moss</strong> isn't just unsightly — it's damaging. On roof tiles, moss lifts the edges, holds moisture, and accelerates cracking. In gutters, it blocks outlets and adds weight that causes brackets to fail. Left on fascias and soffits, <strong>algae</strong> eats into the uPVC surface over time.</p>
 
-<p>Our <a href="/hot-wash" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>moss and algae treatment service</strong></a> includes:</p>
+<p>Our <a href="/services/roof-cleaning/" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>moss and algae treatment service</strong></a> includes:</p>
 
 <ol>
   <li><strong>Soft-wash moss removal</strong> from roof tiles — low-pressure, no tile damage</li>
@@ -447,7 +447,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Book Your Roofline Service Today</h2>
 
-<p>Whether you need a simple <a href="/gutter-cleaning-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>gutter clean in Birmingham</strong></a>, a full <strong>fascia and soffit wash</strong> in <strong>Solihull</strong>, <a href="/hot-wash" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>moss removal</strong></a> in <strong>Wolverhampton</strong>, or a <a href="/help/repair" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>leaking joint repaired</strong></a> in <strong>Coventry</strong> — <a href="https://wowgutters.co.uk" style="color: #19C58B; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> is your trusted local specialist across the <strong>West Midlands</strong>.</p>
+<p>Whether you need a simple <a href="/gutter-cleaning-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>gutter clean in Birmingham</strong></a>, a full <strong>fascia and soffit wash</strong> in <strong>Solihull</strong>, <a href="/services/roof-cleaning/" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>moss removal</strong></a> in <strong>Wolverhampton</strong>, or a <a href="/help/repair" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>leaking joint repaired</strong></a> in <strong>Coventry</strong> — <a href="https://wowgutters.co.uk" style="color: #19C58B; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> is your trusted local specialist across the <strong>West Midlands</strong>.</p>
 
 <ul>
   <li>? <strong>Same-day and next-day appointments</strong> across the West Midlands</li>
@@ -472,7 +472,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong><a href="/gutter-cleaning-calculator" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Cost Calculator</a></strong></li>
   <li><strong><a href="/help/repair" style="color: #19C58B; text-decoration: none;">Gutter Repairs &amp; Fixing West Midlands</a></strong></li>
   <li><strong><a href="/commercial" style="color: #19C58B; text-decoration: none;">Commercial Gutter Cleaning West Midlands</a></strong></li>
-  <li><strong><a href="/conservatory-cleaning" style="color: #19C58B; text-decoration: none;">Conservatory Gutter Cleaning</a></strong></li>
+  <li><strong><a href="/services/conservatory/" style="color: #19C58B; text-decoration: none;">Conservatory Gutter Cleaning</a></strong></li>
 </ul>
     `,
   },
@@ -1550,7 +1550,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 'dome-cleaning-service-wow-gutters',
     title: 'Dome Cleaning Service: Restoring Temples, Mosques & Commercial Domes Across the UK',
-    excerpt: 'Is the dome on your religious building, commercial property, or residence looking green, grimy, or stained? WOW Gutters Ltd offers a specialist dome cleaning service — reaching up to 6 storeys high with zero ladders, zero risk, and proven visible results.',
+    excerpt: 'Is the dome on your religious building, commercial property, or residence looking green, grimy, or stained? WOW Gutters Ltd offers a specialist dome cleaning service — reaching up to 4 storeys (40ft) high with zero ladders, zero risk, and proven visible results.',
     image: '/Blog.webp',
     date: '2026-03-31',
     lastUpdated: '2026-04-15',
@@ -1558,7 +1558,7 @@ export const blogPosts: BlogPost[] = [
     author: 'WOW Gutter Experts',
     authorRole: 'Senior Gutter & Exterior Specialists at WOW Gutters Ltd',
     category: 'Specialist Services',
-    quickAnswer: 'Dome cleaning safely removes moss, algae and pollution stains from domes up to 6 storeys high using ground-level soft-wash vacuum systems — no ladders or scaffolding required. WOW Gutters Ltd uses eco-friendly biocides that kill biological growth at the spore level, delivering long-lasting, damage-free results on religious, commercial and heritage buildings across the UK.',
+    quickAnswer: 'Dome cleaning safely removes moss, algae and pollution stains from domes up to 4 storeys (40ft) high using ground-level soft-wash vacuum systems — no ladders or scaffolding required. WOW Gutters Ltd uses eco-friendly biocides that kill biological growth at the spore level, delivering long-lasting, damage-free results on religious, commercial and heritage buildings across the UK.',
     content: `
       <h2>Professional Dome Cleaning — Safely Restored to Its Former Glory</h2>
       <p>A dome is more than a structural feature — it's a statement of heritage, pride, and architectural beauty. Whether it crowns a mosque, temple, church, or a modern commercial building, a dome that has been neglected quickly becomes covered in unsightly moss, algae, grey streaks, and biological staining.</p>
@@ -1820,7 +1820,7 @@ export const blogPosts: BlogPost[] = [
       </ul>
 
       <h2>The WOW Solution: Safe, Professional, No Ladders</h2>
-      <p>We believe that no one should risk their life for a clean gutter. That's why WOW Gutters Ltd invested in the latest <strong>SpaceVac and GutterVac technology</strong>. Our systems allow us to reach up to 40 feet high while our operators keep both feet firmly on the ground.</p>
+      <p>We believe that no one should risk their life for a clean gutter. That's why WOW Gutters Ltd invested in the latest <strong>SpaceVac and GutterVac technology</strong>. Our systems allow us to reach up to 4 storeys (40ft) high while our operators keep both feet firmly on the ground.</p>
 
       <p>Our method is not only safer but more thorough. We use high-suction vacuums inspired by industrial standards to remove every scrap of soil and debris, something often missed by hand cleaning.</p>
 
@@ -1943,7 +1943,7 @@ export const blogPosts: BlogPost[] = [
       <p>For decades, the image of gutter cleaning has been a man balanced precariously on a silver ladder, digging out handfuls of mud into a bucket. It was slow, dangerous, and often left a mess on the lawn. At WOW Gutters Ltd, we decided there had to be a better way. We've revolutionized our service by adopting <strong>industrial gutter vacuum technology</strong>.</p>
 
       <h2>How the GutterVac System Works</h2>
-      <p>Our system is essentially a high-powered, industrial-grade liquid and debris vacuum connected to lightweight, carbon-fiber poles. These poles allow us to reach incredible heights—up to 48 feet or 4 stories—while our technicians remain safely on the ground.</p>
+      <p>Our system is essentially a high-powered, industrial-grade liquid and debris vacuum connected to lightweight, carbon-fiber poles. These poles allow us to reach incredible heights—up to 4 storeys (40ft)—while our technicians remain safely on the ground.</p>
 
       <p>But it's not just about height. Here's why this technology is superior:</p>
       <ul>
@@ -2082,7 +2082,7 @@ export const blogPosts: BlogPost[] = [
   <li>White and coloured uPVC fascias and soffits</li>
   <li>Timber fascias with painted or stained finish</li>
   <li>Ogee and deepline profile guttering</li>
-  <li><a href="/conservatory-cleaning" style="color: #19C58B; font-weight: 600; text-decoration: none;">Conservatory frames and trims</a></li>
+  <li><a href="/services/conservatory/" style="color: #19C58B; font-weight: 600; text-decoration: none;">Conservatory frames and trims</a></li>
   <li>Bargeboards and cladding panels</li>
 </ul>
 
@@ -2094,7 +2094,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Properties across Solihull, Knowle, Dorridge and Balsall Common are particularly prone to moss growth — especially on north-facing roofs and properties sheltered by mature trees.</p>
 
-<p>Our <a href="/hot-wash" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>professional moss and algae treatment service</strong></a> goes beyond a simple brush-off:</p>
+<p>Our <a href="/services/roof-cleaning/" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>professional moss and algae treatment service</strong></a> goes beyond a simple brush-off:</p>
 <ol>
   <li><strong>Soft-wash roof cleaning</strong> — low-pressure removal of moss from tiles without dislodging or cracking them</li>
   <li><strong>Biocide treatment</strong> — applied after cleaning to kill remaining spores and inhibit regrowth for 12—24 months</li>
@@ -2296,9 +2296,9 @@ export const blogPosts: BlogPost[] = [
 <ul>
   <li><strong><a href="/gutter-cleaning-birmingham" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Birmingham</a></strong></li>
   <li><strong><a href="/blog/fascias-soffits-west-midlands" style="color: #19C58B; text-decoration: none;">Fascia &amp; Soffit Cleaning West Midlands</a></strong></li>
-  <li><strong><a href="/hot-wash" style="color: #19C58B; text-decoration: none;">Roof Moss Removal Solihull</a></strong></li>
+  <li><strong><a href="/services/roof-cleaning/" style="color: #19C58B; text-decoration: none;">Roof Moss Removal Solihull</a></strong></li>
   <li><strong><a href="/help/repair" style="color: #19C58B; text-decoration: none;">Gutter Repairs Solihull</a></strong></li>
-  <li><strong><a href="/conservatory-cleaning" style="color: #19C58B; text-decoration: none;">Conservatory Gutter Cleaning Solihull</a></strong></li>
+  <li><strong><a href="/services/conservatory/" style="color: #19C58B; text-decoration: none;">Conservatory Gutter Cleaning Solihull</a></strong></li>
   <li><strong><a href="/commercial" style="color: #19C58B; text-decoration: none;">Commercial Gutter Cleaning West Midlands</a></strong></li>
   <li><strong><a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Coventry</a></strong></li>
   <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Wolverhampton</a></strong></li>

@@ -7,7 +7,7 @@ export default function CoventryGutterCleaningBlogContent() {
       <h2>Quick Answer</h2>
       <div className="quick-answer-box">
         <p>
-          This is a real WOW Gutters Ltd job completed in Coventry on 23 March 2026. The gutters were heavily packed with growing weeds, thick moss, and substantial leaf debris — completely blocking water flow. Our team cleared them 100% from ground level in 23 minutes, with zero ladders used. Gutter cleaning in Coventry starts from £50, with same-day appointments available across all CV postcodes.
+          This is a real WOW Gutters Ltd job completed in Coventry on 23 March 2026. The gutters were heavily packed with growing weeds, thick moss, and substantial leaf debris — completely blocking water flow. Our team cleared them 100% from ground level in 23 minutes, with zero ladders used. Gutter cleaning in Coventry starts from £100, with same-day appointments available across all CV postcodes.
         </p>
       </div>
 
@@ -287,7 +287,7 @@ export default function CoventryGutterCleaningBlogContent() {
         <div className="faq-item">
           <h3>Q: How much does gutter cleaning cost in Coventry?</h3>
           <p>
-            A: WOW Gutters Ltd prices start from £50 for a bungalow, £75 for a semi-detached, and £95 for a detached property. Downpipe inspection is included. Use our <Link href="/gutter-cleaning-calculator">cost calculator</Link> for an instant estimate.
+            A: WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection is included. Use our <Link href="/gutter-cleaning-calculator">cost calculator</Link> for an instant estimate.
           </p>
         </div>
 

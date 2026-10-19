@@ -865,7 +865,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
         },
         {
           question: 'How much does it cost to clear nest blockages from gutters?',
-          answer: 'Standard residential gutter clearing with nest extraction starts from £50 to £120 depending on property size and roof height. We provide fixed upfront quotes before commencing work.',
+          answer: 'Standard residential gutter clearing with nest extraction costs £100 to £210 depending on property size and roof height. We provide fixed upfront quotes before commencing work.',
         },
       ],
     };
@@ -991,7 +991,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
             'Fixing standing water pooling by resetting bracket gradients to the correct fall angle',
             'Industrial EPDM and silicone gasket replacements that accommodate thermal expansion',
             'Seamless gutter lining options for corroded cast iron, valley, or concrete gutters',
-            'Full water flow testing following every repair to guarantee watertight performance',
+            'Full water flow testing following every repair to confirm watertight performance',
             'Free photographic condition survey before and after every repair',
           ],
         },
@@ -1003,7 +1003,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
             'Restores optimal rainwater pitch so gutters drain completely with zero standing sludge',
             'Mobile service vans fully stocked with all standard uPVC, cast iron, and aluminium fittings',
             'Cost-effective alternative to complete gutter and roofline replacement',
-            'Backed by written workmanship guarantees and £10m public liability insurance',
+            'Fully insured with £10m public liability cover',
             'Same-week repair appointments across Birmingham, Solihull, and the West Midlands',
           ],
         },
@@ -1049,7 +1049,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
         },
         {
           heading: `Why Early Leak Detection Saves Thousands in Repairs`,
-          content: `Left unresolved, a minor gutter drip or fractured downpipe elbow can saturate exterior brickwork, cause toxic black mould indoors, and rot structural roof joists. Our rapid diagnostic service identifies the exact failure source and provides an immediate, guaranteed fix before structural damage spreads.`,
+          content: `Left unresolved, a minor gutter drip or fractured downpipe elbow can saturate exterior brickwork, cause toxic black mould indoors, and rot structural roof joists. Our rapid diagnostic service identifies the exact failure source and provides an immediate fix before structural damage spreads.`,
           bullets: [
             'Prevents expensive internal plaster damage, ceiling collapse, and timber dry rot',
             'Eliminates damp patches and salt efflorescence on exterior walls',
@@ -1141,7 +1141,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
 
     return {
       heroTitle: title,
-      heroDescription: `Professional ${isRepair ? 'gutter repairs, replacement and installation' : 'gutter cleaning and maintenance'} in ${areaName}. WOW Gutters Ltd provides ground-level vacuum clearing, camera surveys, and guaranteed workmanship. Call 07421 433910.`,
+      heroDescription: `Professional ${isRepair ? 'gutter repairs, replacement and installation' : 'gutter cleaning and maintenance'} in ${areaName}. WOW Gutters Ltd provides ground-level vacuum clearing, camera surveys, and a fully insured team. Call 07421 433910.`,
       sections: [
         {
           heading: `Trusted Gutter Services Across ${areaName}`,
@@ -1175,7 +1175,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
         },
         {
           question: `How much does gutter cleaning cost in ${areaName}?`,
-          answer: `Standard residential gutter cleaning in ${areaName} costs between £50 and £120 depending on property size, height, and accessibility. Fixed quotes are provided before work begins.`,
+          answer: `Standard residential gutter cleaning in ${areaName} costs £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes, depending on height and accessibility. Fixed quotes are provided before work begins.`,
         },
         {
           question: 'Do you use ladders or vacuum systems?',
@@ -1278,7 +1278,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
       },
       {
         question: 'How much does professional gutter cleaning cost?',
-        answer: 'Standard residential gutter cleaning costs between £50 and £120 depending on property size, height, and access. We provide fixed quotes before commencing work.',
+        answer: 'Standard residential gutter cleaning costs £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes, depending on height and access. We provide fixed quotes before commencing work.',
       },
       {
         question: 'Do you check downpipes as part of the clean?',

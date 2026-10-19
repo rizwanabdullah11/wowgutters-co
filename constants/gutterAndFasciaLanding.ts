@@ -66,7 +66,7 @@ export const GUTTER_AND_FASCIA_LANDING: CityGutterLandingData = {
     {
       question: 'How much does gutter and fascia cleaning cost?',
       answer:
-        'Prices depend on property size and the extent of fascia staining. Most standard semi-detached and detached properties across the West Midlands start from £75 for a combined clean. Call 07421 433910 or use our online quote tool for a fixed price with no hidden charges.',
+        'Prices depend on property size and the extent of fascia staining. Most standard semi-detached and detached properties across the West Midlands start from £90 for a combined fascia and soffit clean. Call 07421 433910 or use our online quote tool for a fixed price with no hidden charges.',
     },
     {
       question: 'How often should I have my gutters and fascias cleaned?',

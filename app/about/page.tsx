@@ -52,7 +52,7 @@ export default function About() {
     'Fully Certified & Insured Technicians',
     'Available 7 Days A Week',
     'Complimentary Quotes & Surveys',
-    'Total Satisfaction Promise',
+    'Before & After Photo Proof',
     'Fair & Transparent Rates',
     'Cutting-Edge Vacuum Gear',
     'Wealth of Industry Experience',
@@ -72,7 +72,7 @@ export default function About() {
         <div className="about-hero-content">
           <div className="hero-badge animate-fade-in-up">
             <Award className="w-4 h-4" style={{ color: colors.primary }} />
-            <span className="hero-badge-text">Premium Standards • UK-Wide Excellence</span>
+            <span className="hero-badge-text">Birmingham &amp; West Midlands Gutter Specialists</span>
           </div>
 
           <h1 className="hero-title animate-fade-in-up delay-100">
@@ -120,7 +120,7 @@ export default function About() {
               </h2>
 
               <p className="text-gray-300 leading-relaxed text-lg">
-                Welcome to WOW GUtters an innovative exterior maintenance firm focused
+                Welcome to WOW Gutters Ltd, an innovative exterior maintenance firm focused
                 on combatting routine damp and drainage issues through modern methodology.
                 We specialise in delivering an <strong>exceptional ground-operated clearance service</strong>,
                 bypassing traditional risks with powerful vacuum equipment.
@@ -129,7 +129,7 @@ export default function About() {
               <div className="space-y-4 my-6">
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-emerald-400" />
-                  <span className="text-gray-200"><strong>High-Elevation Access:</strong> Safely clear pipework up to 40 feet without ever setting foot on a ladder.</span>
+                  <span className="text-gray-200"><strong>High-Elevation Access:</strong> Safely clear gutters up to 4 storeys (40ft) high without ever setting foot on a ladder.</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-5 h-5 text-emerald-400" />

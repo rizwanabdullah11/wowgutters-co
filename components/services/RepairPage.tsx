@@ -133,8 +133,8 @@ export default function RepairPage() {
                     description: 'Skilled professionals with years of experience in gutter repair work.'
                   },
                   {
-                    title: 'Warranty Included',
-                    description: 'All repairs come with our comprehensive warranty for your peace of mind.'
+                    title: 'Fully Insured',
+                    description: 'Every repair is carried out by our fully insured team for your peace of mind.'
                   },
                   {
                     title: 'Emergency Repairs',
@@ -199,11 +199,11 @@ export default function RepairPage() {
       <WhatsAppContactSection
         title="Need gutter repairs?"
         subtitle="Message us on WhatsApp"
-        description="Get instant answers about our gutter repair service. Our team is ready to help with repair quotes, emergency fixes, warranty information, and any concerns about damaged gutters."
+        description="Get instant answers about our gutter repair service. Our team is ready to help with repair quotes, emergency fixes, availability, and any concerns about damaged gutters."
         questions={[
           'How much do gutter repairs cost?',
           'Can you repair my leaking gutters today?',
-          'Do you offer warranty on repairs?',
+          'Are you fully insured?',
           'What types of gutter damage can you fix?',
         ]}
         backgroundImage="/gutter-repair.webp"
@@ -225,8 +225,8 @@ export default function RepairPage() {
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 Using quality materials and proven repair techniques, we restore your gutters to optimal condition. 
-                Every repair is backed by our comprehensive warranty, giving you peace of mind that your gutter 
-                system will perform reliably for years to come.
+                Every repair is carried out by our fully insured team, giving you peace of mind from start
+                to finish.
               </p>
               
               <div className="space-y-6 mb-8">
@@ -340,7 +340,7 @@ export default function RepairPage() {
               <p className="text-lg text-gray-700 leading-relaxed">
                 We specialize in all types of gutter repairs, from simple joint resealing to complete section 
                 replacement. Our experienced technicians use quality materials and proven techniques to ensure 
-                repairs last for years, backed by our comprehensive warranty.
+                repairs are done properly, carried out by our fully insured team.
               </p>
 
               <div className="bg-gradient-to-br from-gray-50 to-white rounded-xl p-6 border border-gray-200">

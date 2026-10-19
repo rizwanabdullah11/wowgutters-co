@@ -8,7 +8,7 @@ const URL_PATH = 'https://wowgutters.co.uk/';
 export const metadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Birmingham & West Midlands | WOW Gutters Ltd',
   
-  description: 'Gutter cleaning in Birmingham & the West Midlands from £50. Ground-level vacuum, no ladders, before & after photos, fully insured. Free quote: 07421 433910.',
+  description: 'Gutter cleaning in Birmingham & the West Midlands from £100. Ground-level vacuum, no ladders, before & after photos, fully insured. Free quote: 07421 433910.',
   
   alternates: {
     canonical: URL_PATH,
@@ -26,7 +26,7 @@ export const metadata: Metadata = normalizeMetadata({
   
   openGraph: {
     title: 'Gutter Cleaning Birmingham & West Midlands | WOW Gutters Ltd',
-    description: 'Gutter cleaning in Birmingham & the West Midlands from £50. Ground-level vacuum, no ladders, before & after photos, fully insured. Free quote: 07421 433910.',
+    description: 'Gutter cleaning in Birmingham & the West Midlands from £100. Ground-level vacuum, no ladders, before & after photos, fully insured. Free quote: 07421 433910.',
     url: URL_PATH,
     siteName: 'WOW Gutters Ltd',
     locale: 'en_GB',
@@ -42,7 +42,7 @@ export const metadata: Metadata = normalizeMetadata({
   twitter: {
     card: 'summary_large_image',
     title: 'Gutter Cleaning Birmingham & West Midlands | WOW Gutters Ltd',
-    description: 'Gutter cleaning in Birmingham & the West Midlands from £50. Ground-level vacuum, no ladders, before & after photos, fully insured. Free quote: 07421 433910.',
+    description: 'Gutter cleaning in Birmingham & the West Midlands from £100. Ground-level vacuum, no ladders, before & after photos, fully insured. Free quote: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/default.jpg']
   }
 });

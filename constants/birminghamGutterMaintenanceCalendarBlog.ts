@@ -173,7 +173,7 @@ ${sectionCta}
 
 <p>Birmingham\u2019s annual rainfall peaks in October and November. Missing the autumn maintenance window means your blocked gutters are meeting the year\u2019s heaviest rainfall in their worst condition.</p>
 
-<p>This is the season when the WOW Gutters Ltd diary fills fastest. If you want an autumn clear, booking in September or early October guarantees availability. Call <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a> or email <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">support@wowgutters.co.uk</a> \u2014 our ground-based vacuum system means we can operate safely regardless of weather conditions that would make ladder work dangerous.</p>
+<p>This is the season when the WOW Gutters Ltd diary fills fastest. If you want an autumn clear, booking in September or early October gives you the best chance of your preferred date. Call <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a> or email <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">support@wowgutters.co.uk</a> \u2014 our ground-based vacuum system means we can operate safely regardless of weather conditions that would make ladder work dangerous.</p>
 
 <h3>The Downpipe Test</h3>
 

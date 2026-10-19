@@ -88,7 +88,7 @@ export const LOCAL_GUTTER_CLEANING_NEAR_ME_LANDING: CityGutterLandingData = {
     {
       question: 'How much does local gutter cleaning near me cost?',
       answer:
-        'Most West Midlands homes are quoted between £50 and £140 depending on property size, moss coverage, and access. We provide a fixed price before we arrive — no call-out fee, no hidden charges on the day.',
+        'Most West Midlands homes are quoted between £100 and £210 depending on property size, moss coverage, and access. We provide a fixed price before we arrive — no call-out fee, no hidden charges on the day.',
     },
     {
       question: 'Are you insured for work in my area?',

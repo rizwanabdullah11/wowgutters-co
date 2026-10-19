@@ -29,8 +29,8 @@ export const GUTTER_SERVICE_META: AreaServiceMeta = {
   pathForSlug: areaPath,
   label: 'Gutter Cleaning',
   labelLower: 'gutter cleaning',
-  defaultPriceFrom: 50,
-  defaultPriceTo: 140,
+  defaultPriceFrom: 100,
+  defaultPriceTo: 210,
   heroVideo: 'https://wowgutters.co.uk/gutter-final-video.mp4',
   heroPoster: '/gutter-hero-poster.jpg',
   heroPills: [

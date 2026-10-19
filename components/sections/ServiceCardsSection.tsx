@@ -10,7 +10,7 @@ const cards = [
     title: 'Inspect',
     description: 'Careful roofline and gutter checks to find leaks, blockages and weak points before they become costly.',
     buttonText: 'Book a Free Inspection',
-    link: '/help/inspect',
+    link: '/services/gutter-inspection/',
     accentColor: '#19C58B',
   },
   {

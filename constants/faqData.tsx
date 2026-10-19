@@ -18,7 +18,7 @@ export const allFAQs: FAQItem[] = [
   {
     id: 'gutter-cleaning-cost',
     question: 'How much does gutter cleaning cost?',
-    answer: 'Gutter cleaning costs vary depending on property size, gutter length, and accessibility. On average, residential properties range from £60-£150. We offer free quotes and transparent pricing with no hidden fees. Contact us for an accurate estimate for your property.',
+    answer: 'Gutter cleaning costs vary depending on property size, gutter length, and accessibility. On average, residential gutter cleaning is £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. We offer free quotes and transparent pricing with no hidden fees. Contact us for an accurate estimate for your property.',
     category: 'Gutter Cleaning',
     icon: '💷'
   },
@@ -39,7 +39,7 @@ export const allFAQs: FAQItem[] = [
   {
     id: 'gutter-cleaning-methods',
     question: 'What methods do you use for gutter cleaning?',
-    answer: 'We use advanced vacuum systems that work from the ground up to 4 stories high - safer and more efficient! For hard-to-reach areas, we have professional ladder equipment. All our technicians are fully trained and insured.',
+    answer: 'We use advanced vacuum systems that work from the ground up to 4 storeys high - safer and more efficient! For hard-to-reach areas, we have professional ladder equipment. All our technicians are fully trained and insured.',
     category: 'Gutter Cleaning',
     icon: '🔧'
   },
@@ -88,7 +88,7 @@ export const allFAQs: FAQItem[] = [
   {
     id: 'gutter-cleaning-equipment',
     question: 'What equipment do you use?',
-    answer: 'We use industrial-grade vacuum systems, high-reach poles (up to 40ft), professional ladders, safety harnesses, and inspection cameras. All equipment is regularly maintained and meets safety standards.',
+    answer: 'We use industrial-grade vacuum systems, high-reach poles (up to 4 storeys / 40ft), professional ladders, safety harnesses, and inspection cameras. All equipment is regularly maintained and meets safety standards.',
     category: 'Gutter Cleaning',
     icon: '🔨'
   },
@@ -130,7 +130,7 @@ export const allFAQs: FAQItem[] = [
   {
     id: 'gutter-cleaning-high-reach',
     question: 'Can you reach high gutters?',
-    answer: 'Yes, our vacuum systems can reach up to 40 feet (4 stories) from the ground. For higher buildings, we have specialized access equipment and trained technicians.',
+    answer: 'Yes, our vacuum systems can reach up to 4 storeys (40ft) from the ground. For higher buildings, we have specialized access equipment and trained technicians.',
     category: 'Gutter Cleaning',
     icon: '📏'
   },

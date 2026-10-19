@@ -109,7 +109,7 @@ export const EXTERIOR_UPVC_GUTTER_CLEANING_KEYWORDS: KeywordItem[] = [
   { id: 85, keyword: 'commercial upvc gutter & fascia wash', category: 'Methods & Finishes', link: '/services/commercial-gutter-cleaning/' },
   { id: 86, keyword: 'upvc guttering seasonal wash', category: 'Methods & Finishes', link: '/services/gutter-cleaning/' },
   { id: 87, keyword: 'upvc guttering inspection and wash', category: 'Methods & Finishes', link: '/services/gutter-cleaning/' },
-  { id: 88, keyword: 'upvc gutter cleaning service guarantee', category: 'Methods & Finishes', link: '/services/gutter-cleaning/' },
+  { id: 88, keyword: 'fully insured upvc gutter cleaning', category: 'Methods & Finishes', link: '/services/gutter-cleaning/' },
   { id: 89, keyword: 'insured upvc gutter washing Birmingham', category: 'Methods & Finishes', link: '/services/gutter-cleaning/' },
   { id: 90, keyword: 'upvc gutter streak-free finish', category: 'Methods & Finishes', link: '/services/gutter-cleaning/' },
   { id: 91, keyword: 'upvc roofline glow restoration', category: 'Methods & Finishes', link: '/services/gutter-cleaning/' },

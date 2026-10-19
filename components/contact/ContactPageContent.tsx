@@ -119,7 +119,7 @@ export default function ContactPageContent() {
               </li>
               <li className="flex items-start gap-3">
                 <span className="mt-1 h-2.5 w-2.5 rounded-full bg-emerald-500" />
-                <span>Modern ground-level high suction vacuum clearance up to 4 stories.</span>
+                <span>Modern ground-level high suction vacuum clearance up to 4 storeys.</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="mt-1 h-2.5 w-2.5 rounded-full bg-emerald-500" />

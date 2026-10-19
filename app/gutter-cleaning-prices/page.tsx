@@ -133,30 +133,31 @@ export default function GutterCleaningPrices() {
 
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4 mb-16">
             <PricingCard
-              title="Basic Service"
+              title="2 Bedroom Clean"
               price={formatGbp(GUTTER_PRICING.twoBedroom)}
               priceSubtext="2 bedroom — fixed price"
               color="blue"
               features={[
-                'Standard gutter cleaning',
-                'Debris removal',
-                'Basic inspection',
+                'Full gutter vacuum clean',
+                'Downpipe flow check',
+                'Before & after photos',
                 'Up to 2 bedrooms',
-                'Ground floor access',
+                'Reach up to 4 storeys (40ft)',
               ]}
             />
 
             <PricingCard
-              title="3 Bedroom Service"
+              title="3 Bedroom Clean"
               price={formatGbp(GUTTER_PRICING.threeBedroom)}
               priceSubtext="3 bedroom — fixed price"
               color="orange"
+              popular={true}
               features={[
-                'Standard gutter cleaning',
-                'Debris removal',
-                'Basic inspection',
+                'Full gutter vacuum clean',
+                'Downpipe flow check',
+                'Before & after photos',
                 'Up to 3 bedrooms',
-                'Ground & first floor access',
+                'Reach up to 4 storeys (40ft)',
               ]}
             />
 
@@ -165,14 +166,13 @@ export default function GutterCleaningPrices() {
               price={formatGbp(GUTTER_PRICING.premium)}
               priceSubtext="Starting from"
               color="green"
-              popular={true}
               features={[
                 'Complete gutter cleaning',
                 'Downpipe clearing',
                 'Full inspection report',
                 'Before/after photos',
-                'All property sizes',
-                'Up to 2 stories',
+                'Priority scheduling',
+                'All property sizes, up to 4 storeys',
               ]}
             />
 
@@ -417,7 +417,7 @@ export default function GutterCleaningPrices() {
                   <td className="p-4 sm:p-5 text-slate-600">High-Elevation Runs</td>
                   <td className="p-4 sm:p-5 font-bold text-emerald-600">From £130 – £195</td>
                   <td className="p-4 sm:p-5 text-slate-600">60–75 mins</td>
-                  <td className="p-4 sm:p-5 text-slate-600">40ft ground vacuum access, no scaffolding needed</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Up to 4 storeys (40ft) from the ground, no scaffolding needed</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition-colors">
                   <td className="p-4 sm:p-5 font-bold text-slate-900">Commercial Unit / Block</td>

@@ -45,7 +45,7 @@ export const beatAutumnRushBlogPost: BlogPost = {
   lastUpdated: '2026-07-23',
   featured: true,
   quickAnswer:
-    'Book gutter cleaning in June or July to avoid the autumn rush that hits every Birmingham contractor\'s diary in late September and early October. Booking early secures your preferred date, guarantees dry-condition inspection accuracy, and allows time to schedule both a late summer clear and correctly timed autumn visits before availability becomes limited.',
+    'Book gutter cleaning in June or July to avoid the autumn rush that hits every Birmingham contractor\'s diary in late September and early October. Booking early secures your preferred date, allows dry-condition inspection, and allows time to schedule both a late summer clear and correctly timed autumn visits before availability becomes limited.',
   breadcrumbName: 'Beat the Autumn Rush',
   content: `
 <p>There is a two-week window every October when every gutter cleaning company across Birmingham and the West Midlands receives more calls than the rest of the year combined.</p>
@@ -145,7 +145,7 @@ ${ctaPhone}
 
 <h3>You Protect Every Part of Your Roofline on Schedule</h3>
 
-<p>Every roofline component your gutters protect — fascia boards, soffits, roof felt, external brickwork, the damp-proof course, foundations, and internal walls — benefits from maintenance completed on a planned schedule rather than squeezed in under time pressure. A summer booking guarantees that schedule holds. Full guide: <a href="/blog/how-clean-gutters-protect-your-home-year-round/" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a>.</p>
+<p>Every roofline component your gutters protect — fascia boards, soffits, roof felt, external brickwork, the damp-proof course, foundations, and internal walls — benefits from maintenance completed on a planned schedule rather than squeezed in under time pressure. A summer booking makes that schedule far easier to keep. Full guide: <a href="/blog/how-clean-gutters-protect-your-home-year-round/" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a>.</p>
 
 <h2 id="booking-timeline">4. The Complete Booking Timeline for a Trouble-Free Year</h2>
 

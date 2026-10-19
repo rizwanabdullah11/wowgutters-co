@@ -20,7 +20,7 @@ export default function Navbar() {
     { name: 'Roof Cleaning', icon: Home, href: '/services/roof-cleaning' },
     { name: 'Gutter Inspection', icon: Search, href: '/services/gutter-inspection' },
     { name: 'Roof Inspection', icon: Search, href: '/services/roof-inspection' },
-    { name: 'Conservatory Gutter Replacement', icon: Hammer, href: '/services/conservatory' },
+    { name: 'Conservatory Cleaning', icon: Hammer, href: '/services/conservatory' },
     { name: 'Commercial Gutter Cleaning', icon: Building, href: '/services/commercial-gutter-cleaning' },
     { name: 'Commercial Roof Cleaning', icon: Building, href: '/services/commercial-roof-cleaning' },
     { name: 'Commercial Downpipe Cleaning', icon: Building, href: '/services/commercial-downpipe-cleaning' },
