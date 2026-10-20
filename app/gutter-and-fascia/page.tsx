@@ -53,7 +53,7 @@ export default function GutterAndFasciaPage() {
       <LocalBusinessSchema
         city="West Midlands"
         url={URL_PATH}
-        priceFrom={75}
+        priceFrom={100}
         priceTo={landingData.priceTo ?? 160}
         nearbyAreas={landingData.nearbyAreas ?? []}
         geo={landingData.geo}

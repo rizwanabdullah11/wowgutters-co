@@ -46,8 +46,8 @@ export default function CranmorePage() {
       <LocalBusinessSchema
         city="Cranmore"
         url={URL_PATH}
-        priceFrom={55}
-        priceTo={130}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Solihull', 'Shirley', 'Monkspath', 'Olton']}
         geo={{ latitude: 52.410, longitude: -1.808 }}
         postcodes={['B90']}

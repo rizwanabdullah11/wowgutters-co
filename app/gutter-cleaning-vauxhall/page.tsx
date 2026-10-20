@@ -46,8 +46,8 @@ export default function VauxhallPage() {
       <LocalBusinessSchema
         city="Vauxhall"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={150}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Aston', 'Nechells', 'Duddeston', 'Saltley', 'Birmingham city centre']}
         geo={{ latitude: 52.488, longitude: -1.862 }}
         postcodes={['B7', 'B7 4', 'B7 5']}

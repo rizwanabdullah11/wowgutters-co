@@ -8,6 +8,7 @@ import {
 import { colors } from '@/constants/colors';
 import { AREA_SERVICE_META, type AreaServiceKind } from '@/lib/areaServiceMeta';
 import { getAreaData } from '@/lib/getAreaData';
+import { AREA_SLUGS } from '@/lib/areaSlugs';
 
 function formatTopicName(slug: string): string {
   if (!slug) return 'Birmingham & the West Midlands';
@@ -23,10 +24,17 @@ function formatTopicName(slug: string): string {
   const area = getAreaData(clean);
   if (area?.name) return area.name;
 
-  return clean
-    .split('-')
-    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(' ');
+  // Known area slug without full data: use a title-cased name.
+  if (AREA_SLUGS.includes(clean)) {
+    return clean
+      .split('-')
+      .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+      .join(' ');
+  }
+
+  // Not a town/suburb (e.g. keyword pages like "cheapest-gutter-cleaning-birmingham"):
+  // never turn the search phrase into a fake place name.
+  return 'Birmingham & the West Midlands';
 }
 
 function hashSlug(str: string): number {

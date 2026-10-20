@@ -46,8 +46,8 @@ export default function QueslettPage() {
       <LocalBusinessSchema
         city="Queslett"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Great Barr', 'Kingstanding', 'Perry Barr', 'Walsall', 'Birmingham']}
         geo={{ latitude: 52.5430, longitude: -1.9200 }}
         postcodes={['B43']}

@@ -594,14 +594,14 @@ export const blogPosts: BlogPost[] = [
 
 <ul>
   <li><strong>External wall staining</strong> — persistent green and black streaking penetrating the brickwork and mortar joints</li>
-  <li><strong>Internal damp</strong> — in upstairs rooms and loft spaces, requiring replastering and redecoration (cost: —300——1,500+ per room)</li>
-  <li><strong>Fascia board rot</strong> — the sustained weight of wet debris would eventually cause the fascia to soften and fail, requiring full replacement (cost: —500——2,000+)</li>
+  <li><strong>Internal damp</strong> — in upstairs rooms and loft spaces, requiring replastering and redecoration (cost: £300–£1,500+ per room)</li>
+  <li><strong>Fascia board rot</strong> — the sustained weight of wet debris would eventually cause the fascia to soften and fail, requiring full replacement (cost: £500–£2,000+)</li>
   <li><strong>Gutter channel damage</strong> — the root systems of established weeds can crack and deform plastic guttering from the inside, requiring section replacement</li>
   <li><strong>Downpipe failure</strong> — debris washing from an overfull gutter into the downpipe inlet would eventually cause a complete downpipe blockage or, in winter, a freeze-crack</li>
   <li><strong>Legal liability</strong> — homeowners can be held responsible under UK common law if overflow from their blocked gutters causes water damage to a neighbouring property or creates a hazard on a public path</li>
 </ul>
 
-<p>The cost of the professional clean that resolved this Coventry job: under —100. The cost of letting a blockage this severe go untreated for another two seasons: potentially several thousand pounds in structural repairs.</p>
+<p>The cost of the professional clean that resolved this Coventry job: under £100. The cost of letting a blockage this severe go untreated for another two seasons: potentially several thousand pounds in structural repairs.</p>
 
 <h2>How WOW Gutters Ltd Cleared This Coventry Property in 23 Minutes</h2>
 
@@ -681,7 +681,7 @@ export const blogPosts: BlogPost[] = [
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does gutter cleaning cost in Coventry?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> WOW Gutters Ltd prices start from —50 for a bungalow, —75 for a semi-detached, and —95 for a detached property. Downpipe inspection is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
@@ -737,7 +737,7 @@ export const blogPosts: BlogPost[] = [
     author: 'WOW Gutters Ltd Technical Team',
     authorRole: 'Professional Gutter Cleaning Specialists',
     category: 'Maintenance',
-    quickAnswer: 'Gutters in Wolverhampton should be cleaned at least once a year — twice if your property is near trees. The most common warning signs of a blockage include water overflowing during rainfall, green or black staining on external walls, damp patches in upstairs rooms, and fascia boards pulling away from the roofline. Professional gutter cleaning in Wolverhampton starts from —50 for a bungalow and —75 for a semi-detached house, with same-day appointments available across the city and surrounding WV postcodes.',
+    quickAnswer: 'Gutters in Wolverhampton should be cleaned at least once a year — twice if your property is near trees. The most common warning signs of a blockage include water overflowing during rainfall, green or black staining on external walls, damp patches in upstairs rooms, and fascia boards pulling away from the roofline. Professional gutter cleaning in Wolverhampton is £100 for a 2-bed home and £110 for a 3-bed home, with same-day appointments available across the city and surrounding WV postcodes.',
     content: `<h2>Real Wolverhampton Job: Before & After</h2>
 
 <figure style="margin: 20px 0;">
@@ -904,7 +904,7 @@ export const blogPosts: BlogPost[] = [
 <h3>Fascia Board Rot</h3>
 <p>When a gutter overflows, water runs back behind the gutter bracket and onto the fascia board. Sustained damp on the fascia causes the paint to peel, the timber to soften, and eventually the board to rot through.</p>
 
-<p>A fascia board replacement costs significantly more than a gutter clean — typically —500 to —2,000+ depending on the size of the property and access requirements. Check our <strong><a href="/gutter-cleaning-prices" style="color: #000000; text-decoration: none;">gutter cleaning prices</a></strong> to see how affordable preventive maintenance is.</p>
+<p>A fascia board replacement costs significantly more than a gutter clean — typically £500 to £2,000+ depending on the size of the property and access requirements. Check our <strong><a href="/gutter-cleaning-prices" style="color: #000000; text-decoration: none;">gutter cleaning prices</a></strong> to see how affordable preventive maintenance is.</p>
 
 <h3>Foundation Splash Damage</h3>
 <p>Water overflowing from ground-floor gutters and lower rooflines lands at the base of the wall, soaking into the ground around the foundations. Over time this can contribute to subsidence on certain soil types, and on older properties can saturate the base course of brickwork.</p>
@@ -990,7 +990,7 @@ export const blogPosts: BlogPost[] = [
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does gutter cleaning cost in Wolverhampton?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> WOW Gutters Ltd prices start from —50 for a bungalow, —75 for a semi-detached, and —95 for a detached property. Downpipe inspection is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
@@ -1041,7 +1041,7 @@ export const blogPosts: BlogPost[] = [
     author: 'WOW Gutters Ltd',
     authorRole: 'Professional Gutter Cleaning Specialists',
     category: 'Maintenance',
-    quickAnswer: 'Sycamore seeds are one of the leading causes of blocked gutters across Birmingham and the West Midlands. They pack tightly into the gutter channel along with moss and leaf debris, forming a dense mat that stops water draining entirely. If left untreated, this type of blockage causes overflow, wall staining, damp, and fascia rot. Professional gutter cleaning in Birmingham starts from —75 for a semi-detached house.',
+    quickAnswer: 'Sycamore seeds are one of the leading causes of blocked gutters across Birmingham and the West Midlands. They pack tightly into the gutter channel along with moss and leaf debris, forming a dense mat that stops water draining entirely. If left untreated, this type of blockage causes overflow, wall staining, damp, and fascia rot. Professional gutter cleaning in Birmingham is £110 for a 3-bed semi-detached house.',
     content: `
       <h2>The Before: A Gutter Completely Packed With Sycamore Seeds</h2>
       
@@ -1153,20 +1153,20 @@ export const blogPosts: BlogPost[] = [
         </thead>
         <tbody>
           <tr>
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Bungalow</td>
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">—50</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">2-bed home</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£100</td>
           </tr>
           <tr style="background-color: #f9f9f9;">
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Semi-detached house</td>
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">—75</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">3-bed semi-detached</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£110</td>
           </tr>
           <tr>
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Detached house</td>
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">—95</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">4+ bed detached</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£140–£210</td>
           </tr>
           <tr style="background-color: #f9f9f9;">
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Large detached / 3-storey</td>
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">—120</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Townhouse / 3-storey</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£130–£195</td>
           </tr>
           <tr>
             <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Commercial premises</td>
@@ -1220,7 +1220,7 @@ export const blogPosts: BlogPost[] = [
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does gutter cleaning cost in Birmingham?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Prices start from —50 for a bungalow, —75 for a semi-detached, and —95 for a detached property. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate or call 07421 433910 for a free quote.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate or call 07421 433910 for a free quote.</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
@@ -1248,7 +1248,7 @@ export const blogPosts: BlogPost[] = [
     author: 'WOW Gutters Ltd',
     authorRole: 'Professional Gutter Cleaning Specialists',
     category: 'Maintenance',
-    quickAnswer: 'The 10 warning signs of blocked gutters include: water overflowing over the edge, green/black staining on walls, damp patches inside, plants growing from gutters, sagging sections, downpipe blockages, ice dams in winter, fascia staining, birds/pests near gutterline, and not remembering when they were last cleaned. Professional gutter cleaning in Birmingham costs —50-—250+ depending on property size.',
+    quickAnswer: 'The 10 warning signs of blocked gutters include: water overflowing over the edge, green/black staining on walls, damp patches inside, plants growing from gutters, sagging sections, downpipe blockages, ice dams in winter, fascia staining, birds/pests near gutterline, and not remembering when they were last cleaned. Professional gutter cleaning in Birmingham costs £100–£210 depending on property size.',
     content: `
       <figure style="margin: 20px 0;">
         <img
@@ -1332,12 +1332,12 @@ export const blogPosts: BlogPost[] = [
       <ul>
         <li>Severe brickwork and stonework staining (as seen in our real Birmingham job photo above)</li>
         <li>Internal damp and mould in upstairs rooms and loft spaces</li>
-        <li>Fascia and soffit rot requiring full board replacement (cost: —500——2,000+)</li>
+        <li>Fascia and soffit rot requiring full board replacement (cost: £500–£2,000+)</li>
         <li>Foundation damage from water pooling at the base of external walls</li>
         <li>Roof tile damage from ice dams in winter</li>
         <li>Legal liability — under UK common law, homeowners can be held responsible if overflow from their blocked gutters damages a neighbouring property or causes a slip hazard</li>
       </ul>
-      <p>A professional gutter clean in Birmingham starts from —50. Repairing the structural and cosmetic damage caused by ignoring it can run to thousands. It is one of the clearest value-for-money maintenance decisions a Birmingham homeowner or property manager can make.</p>
+      <p>A professional gutter clean in Birmingham starts from £100. Repairing the structural and cosmetic damage caused by ignoring it can run to thousands. It is one of the clearest value-for-money maintenance decisions a Birmingham homeowner or property manager can make.</p>
 
       <h2>How WOW Gutters Ltd Clears Blocked Gutters in Birmingham</h2>
       <p>As you can see from the before-and-after photograph above, WOW Gutters Ltd delivers a genuinely transformative result — not just a surface tidy. Here is how we achieve it:</p>
@@ -1364,20 +1364,20 @@ export const blogPosts: BlogPost[] = [
         </thead>
         <tbody>
           <tr>
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Bungalow</td>
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">—50</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">2-bed home</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£100</td>
           </tr>
           <tr style="background-color: #f9f9f9;">
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Semi-detached house</td>
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">—75</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">3-bed semi-detached</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£110</td>
           </tr>
           <tr>
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Detached house</td>
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">—95</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">4+ bed detached</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£140–£210</td>
           </tr>
           <tr style="background-color: #f9f9f9;">
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Large detached / 3-storey</td>
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">—120</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Townhouse / 3-storey</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£130–£195</td>
           </tr>
           <tr>
             <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Commercial premises</td>
@@ -1428,7 +1428,7 @@ export const blogPosts: BlogPost[] = [
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does it cost to clear a blocked gutter in Birmingham?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> WOW Gutters Ltd prices start from —50 for a bungalow, —75 for a semi-detached house, and —95 for a detached property. Downpipe inspection and clearance is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection and clearance is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
@@ -1570,7 +1570,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Why Dome Cleaning Is Not a DIY Job</h2>
       <p>The curved, elevated surface of a dome presents a unique challenge that standard cleaning methods simply cannot address:</p>
       <ul>
-        <li><strong>Extreme Height:</strong> Most domes start where standard ladders end. Working at 4—6 storeys without the right equipment is extremely dangerous and illegal without proper risk assessment.</li>
+        <li><strong>Extreme Height:</strong> Most domes start where standard ladders end. Working at 4–6 storeys without the right equipment is extremely dangerous and illegal without proper risk assessment.</li>
         <li><strong>Curved Architecture:</strong> Traditional pressure washing can damage the surface finish or force water under sealant layers on a dome's curved panels.</li>
         <li><strong>Specialised Contamination:</strong> Domes accumulate a unique mix of biological growth (algae, lichen, moss) combined with urban pollution deposits that require targeted treatment, not just high-pressure water.</li>
         <li><strong>Delicate Cultural & Religious Significance:</strong> Many domes belong to places of worship or listed buildings. An aggressive or incorrect approach risks permanent damage to irreplaceable structures.</li>
@@ -1957,7 +1957,7 @@ export const blogPosts: BlogPost[] = [
       <p>When you clean gutters by hand, debris inevitably falls onto your flower beds, windows, and patio. With our vacuum system, 100% of the waste is sucked directly into the tank in our van. We then take this organic waste away and dispose of it at a licensed green-waste facility where it's turned into compost.</p>
 
       <h2>The WOW Gutters Ltd Standard</h2>
-      <p>We've invested over —15,000 in the latest equipment to ensure our customers get the most efficient clean possible. Our tech-led approach means we're faster, safer, and more thorough than any traditional 'bucket and ladder' service in the UK.</p>
+      <p>We've invested over £15,000 in the latest equipment to ensure our customers get the most efficient clean possible. Our tech-led approach means we're faster, safer, and more thorough than any traditional 'bucket and ladder' service in the UK.</p>
 
       <p>Experience the future of property maintenance. No ladders, no mess, just <strong>WOW results</strong>. Get your tech-powered quote today.</p>
     `
@@ -2097,7 +2097,7 @@ export const blogPosts: BlogPost[] = [
 <p>Our <a href="/services/roof-cleaning/" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>professional moss and algae treatment service</strong></a> goes beyond a simple brush-off:</p>
 <ol>
   <li><strong>Soft-wash roof cleaning</strong> — low-pressure removal of moss from tiles without dislodging or cracking them</li>
-  <li><strong>Biocide treatment</strong> — applied after cleaning to kill remaining spores and inhibit regrowth for 12—24 months</li>
+  <li><strong>Biocide treatment</strong> — applied after cleaning to kill remaining spores and inhibit regrowth for 12–24 months</li>
   <li><strong>Gutter outlet clearance</strong> — removes moss that has already fallen into the drainage system</li>
   <li><strong>Fascia algae treatment</strong> — hot wash with protective solution for long-lasting results</li>
 </ol>
@@ -2206,7 +2206,7 @@ export const blogPosts: BlogPost[] = [
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Prices vary based on property size, number of storeys, and the level of blockage. WOW Gutters Ltd offers free no-obligation quotes for all Solihull properties — get yours online at wowgutters.co.uk or by calling 07421 433910. Prices start from —50 for a bungalow and —75 for a semi-detached.</p>
+      <p style="margin: 16px 0 0;">Prices vary based on property size, number of storeys, and the level of blockage. WOW Gutters Ltd offers free no-obligation quotes for all Solihull properties — get yours online at wowgutters.co.uk or by calling 07421 433910. Prices are £100 for a 2-bed home and £110 for a 3-bed home.</p>
     </div>
   </details>
 
@@ -2386,7 +2386,7 @@ export const blogPosts: BlogPost[] = [
 <p>Once a year is sufficient for properties in more urban parts of Walsall town centre where tree coverage is lighter. But for properties in Aldridge, Streetly, Pelsall, Great Wyrley, and Brownhills — all of which have heavy tree canopy and proximity to wider woodland — twice annually is the realistic maintenance schedule to prevent blockages causing overflow and damage.</p>
 
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
-  ?? <strong>The cost of not cleaning:</strong> A blocked gutter that overflows continuously can cause damp penetration (—500——2,000 to treat), damaged fascia boards (—150——400 per section to replace), and in serious cases, water getting under roof tiles. A professional clean costs —50——130. The maths aren't difficult.
+  ?? <strong>The cost of not cleaning:</strong> A blocked gutter that overflows continuously can cause damp penetration (£500–£2,000 to treat), damaged fascia boards (£150–£400 per section to replace), and in serious cases, water getting under roof tiles. A professional clean costs £100–£210. The maths aren't difficult.
 </blockquote>
 
 <h2>Signs Your Walsall Gutters Need Cleaning</h2>
@@ -2470,7 +2470,7 @@ export const blogPosts: BlogPost[] = [
       <tr style="background: #f8fafc;">
         <td style="padding: 12px 16px; font-weight: 700; color: #0f172a;">Rushall</td>
         <td style="padding: 12px 16px; color: #0f172a;">WS4</td>
-        <td style="padding: 12px 16px; color: #0f172a;">Mix of 1960s—1980s housing stock. Established gardens with mature hedging and trees.</td>
+        <td style="padding: 12px 16px; color: #0f172a;">Mix of 1960s£1980s housing stock. Established gardens with mature hedging and trees.</td>
       </tr>
     </tbody>
   </table>
@@ -2578,7 +2578,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 'before-after-gutter-cleaning-walsall',
     title: 'Before & After Gutter Cleaning Walsall | Moss & Debris Removal 2026 | WOW Gutters Ltd',
-    excerpt: 'Real before & after gutter cleaning photos from Walsall homes. WOW Gutters Ltd removes moss, leaves and blocked debris from the ground — no ladders, photo proof every job. From —50.',
+    excerpt: 'Real before & after gutter cleaning photos from Walsall homes. WOW Gutters Ltd removes moss, leaves and blocked debris from the ground — no ladders, photo proof every job. From £100.',
     image: '/gutter-cleaning-walsall-hero.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
     date: '2026-05-25',
@@ -2587,7 +2587,7 @@ export const blogPosts: BlogPost[] = [
     authorRole: 'Professional Gutter Cleaning Specialists',
     category: 'Before & After',
     lastUpdated: '2026-05-25',
-    quickAnswer: 'These before and after photographs are from a real WOW Gutters Ltd job completed in Walsall in 2026. Every blocked gutter shown was cleared using our ground-level vacuum system — no ladders, no scaffolding. Before and after photos are included on every job as standard. Gutter cleaning in Walsall starts from —50.',
+    quickAnswer: 'These before and after photographs are from a real WOW Gutters Ltd job completed in Walsall in 2026. Every blocked gutter shown was cleared using our ground-level vacuum system — no ladders, no scaffolding. Before and after photos are included on every job as standard. Gutter cleaning in Walsall starts from £100.',
     breadcrumbName: 'Before & After Gutter Cleaning Walsall',
     content: `
 <p>If you live in Walsall and your gutters are overflowing every time it rains, you're not alone. Blocked gutters are one of the most common — and most ignored — home maintenance problems across the West Midlands. This post shows you exactly what builds up inside a typical Walsall gutter, what it looks like after a professional clean, and why leaving it any longer always ends up costing more.</p>
@@ -2707,7 +2707,7 @@ export const blogPosts: BlogPost[] = [
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">From —50 for a standard terraced house. Semi-detached —65——90. Detached from —90——130. Fixed price confirmed before we start — no hidden fees.</p>
+      <p style="margin: 16px 0 0;">From £100 for a 2-bed home. 3-bed £110. Larger detached £140–£210. Fixed price confirmed before we start — no hidden fees.</p>
     </div>
   </details>
 
@@ -2818,7 +2818,7 @@ export const blogPosts: BlogPost[] = [
     style="width: 100%; height: auto; max-width: 1200px; border-radius: 8px; display: block;"
   />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">
-    After: The same Dudley roof following WOW Gutters Ltd soft wash treatment. Tiles restored, ridge line clear, biocide applied. Results continue improving over the following 4—6 weeks as treated growth breaks down.
+    After: The same Dudley roof following WOW Gutters Ltd soft wash treatment. Tiles restored, ridge line clear, biocide applied. Results continue improving over the following 4–6 weeks as treated growth breaks down.
   </figcaption>
 </figure>
 
@@ -2996,7 +2996,7 @@ export const blogPosts: BlogPost[] = [
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">A professional soft wash treatment typically lasts 3—5 years in the West Midlands climate. North-facing sections in Sedgley and Gornal may need retreatment after 2—3 years due to reduced sunlight drying.</p>
+      <p style="margin: 16px 0 0;">A professional soft wash treatment typically lasts 3–5 years in the West Midlands climate. North-facing sections in Sedgley and Gornal may need retreatment after 2–3 years due to reduced sunlight drying.</p>
     </div>
   </details>
 
@@ -3507,7 +3507,7 @@ export const blogPosts: BlogPost[] = [
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Professional roof cleaning in B30 Birmingham typically ranges from —300 to —800 depending on roof size, pitch, and level of moss growth. WOW Gutters Ltd provides free, no-obligation quotes with transparent fixed pricing before any work begins. Call 07421 433910 for your free assessment.</p>
+      <p style="margin: 16px 0 0;">Professional roof cleaning in B30 Birmingham typically ranges from £300 to £800 depending on roof size, pitch, and level of moss growth. WOW Gutters Ltd provides free, no-obligation quotes with transparent fixed pricing before any work begins. Call 07421 433910 for your free assessment.</p>
     </div>
   </details>
 

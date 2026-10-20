@@ -46,8 +46,8 @@ export default function BournbrookPage() {
       <LocalBusinessSchema
         city="Bournbrook"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Selly Oak', 'Edgbaston', 'Harborne', 'Moseley', 'Birmingham']}
         geo={{ latitude: 52.4450, longitude: -1.9200 }}
         postcodes={['B29']}

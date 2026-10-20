@@ -73,7 +73,7 @@ export function getBirminghamFAQSchema() {
         "name": "How much does gutter cleaning cost in Birmingham?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Prices start from GBP 50 for a terraced house, GBP 60-80 for semi-detached, GBP 80-120 for detached. Fixed quote before work starts."
+          "text": "Prices are fixed: GBP 100 for a 2-bed home, GBP 110 for a 3-bed home and GBP 140-210 for larger detached homes."
         }
       },
       {

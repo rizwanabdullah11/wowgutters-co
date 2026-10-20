@@ -46,8 +46,8 @@ export default function SellyParkPage() {
       <LocalBusinessSchema
         city="Selly Park"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Selly Oak', 'Bournbrook', 'Moseley', 'Kings Heath', 'Harborne']}
         geo={{ latitude: 52.445, longitude: -1.910 }}
         postcodes={['B29']}

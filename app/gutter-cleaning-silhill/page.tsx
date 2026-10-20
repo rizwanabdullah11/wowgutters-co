@@ -46,8 +46,8 @@ export default function SilhillPage() {
       <LocalBusinessSchema
         city="Silhill"
         url={URL_PATH}
-        priceFrom={55}
-        priceTo={140}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Solihull', 'Olton', 'Shirley', 'Hillfield']}
         geo={{ latitude: 52.410, longitude: -1.770 }}
         postcodes={['B91']}

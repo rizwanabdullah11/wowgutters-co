@@ -32,8 +32,8 @@ export default function ChemicalHeathPage() {
       <LocalBusinessSchema
         city="Chemical Heath"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={105}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Stechford', 'Ward End', 'Bordesley Green', 'Birmingham', 'Small Heath']}
         geo={{ latitude: 52.478, longitude: -1.835 }}
         postcodes={['B33', 'B8']}

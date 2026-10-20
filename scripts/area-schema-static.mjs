@@ -74,7 +74,7 @@ export function buildDefaultFaqs(city, priceFrom, priceTo, postcodes, nearbyArea
   return [
     {
       question: `How much does gutter cleaning cost in ${city}?`,
-      answer: `Prices start from £${priceFrom} for a terraced house, £${priceFrom + 10}–£${priceFrom + 30} for semi-detached, and £${priceFrom + 30}–£${priceTo} for detached properties. Fixed quote before work starts.`,
+      answer: `Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Fixed quote before work starts.`,
     },
     {
       question: `How often should I have my gutters cleaned in ${city}?`,
@@ -250,8 +250,8 @@ export function parseCitiesFromFile(citiesTsContent) {
         latitude: latM ? parseFloat(latM[1]) : 52.4862,
         longitude: lngM ? parseFloat(lngM[1]) : -1.8904,
       },
-      priceFrom: terracedMinM ? parseInt(terracedMinM[1], 10) : 50,
-      priceTo: detachedMaxM ? parseInt(detachedMaxM[1], 10) : 120,
+      priceFrom: 100,
+      priceTo: 210,
       postcodes: postcodesM ? [...postcodesM[1].matchAll(/'([^']+)'/g)].map((x) => x[1]) : [],
       nearbyAreas: nearbyM ? [...nearbyM[1].matchAll(/'([^']+)'/g)].map((x) => x[1]) : [],
     };
@@ -293,8 +293,8 @@ export function schemaForAreaSlug(slug, citiesMap) {
   return buildLocalBusinessSchemaGraph({
     city: slugToTitle(slug),
     url,
-    priceFrom: 50,
-    priceTo: 120,
+    priceFrom: 100,
+    priceTo: 210,
     nearbyAreas: [],
     geo: { latitude: 52.4862, longitude: -1.8904 },
   });

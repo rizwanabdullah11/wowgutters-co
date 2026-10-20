@@ -32,8 +32,8 @@ export default function MoorGreenPage() {
       <LocalBusinessSchema
         city="Moor Green"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Kingstanding', 'Erdington', 'Birmingham', 'Perry Barr', 'Great Barr']}
         geo={{ latitude: 52.53, longitude: -1.87 }}
         postcodes={['B44', 'B23']}

@@ -32,8 +32,8 @@ export default function StocklandGreenPage() {
       <LocalBusinessSchema
         city="Stockland Green"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={105}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Stechford', 'Castle Bromwich', 'Birmingham', 'Ward End', 'Hodge Hill']}
         geo={{ latitude: 52.49, longitude: -1.81 }}
         postcodes={['B33', 'B34']}

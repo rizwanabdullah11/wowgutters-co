@@ -46,8 +46,8 @@ export default function QuarryBankPage() {
       <LocalBusinessSchema
         city="Quarry Bank"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Brierley Hill', 'Kingswinford', 'Stourbridge', 'Wordsley', 'Himley', 'Wollaston']}
         geo={{ latitude: 52.478, longitude: -2.102 }}
         postcodes={['DY5', 'DY5 0', 'DY5 1', 'DY5 2']}

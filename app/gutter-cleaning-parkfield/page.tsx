@@ -46,8 +46,8 @@ export default function ParkfieldPage() {
       <LocalBusinessSchema
         city="Parkfield"
         url={URL_PATH}
-        priceFrom={40}
-        priceTo={95}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Bilston', 'Ettingshall', 'Penn', 'Bradley']}
         geo={{ latitude: 52.560, longitude: -2.080 }}
         postcodes={['WV4', 'WV4 0', 'WV4 1', 'WV4 2']}

@@ -32,8 +32,8 @@ export default function OldOscottPage() {
       <LocalBusinessSchema
         city="Old Oscott"
         url={URL_PATH}
-        priceFrom={55}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Sutton Coldfield', 'Erdington', 'Birmingham', 'Walmley', 'Kingstanding']}
         geo={{ latitude: 52.545, longitude: -1.84 }}
         postcodes={['B73']}

@@ -46,8 +46,8 @@ export default function FallingsParkPage() {
       <LocalBusinessSchema
         city="Fallings Park"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Bushbury', 'Dunstall Park', 'Fordhouses', 'Pendeford', 'Ashmore Park']}
         geo={{ latitude: 52.610, longitude: -2.115 }}
         postcodes={['WV10', 'WV10 0', 'WV10 1', 'WV10 2']}

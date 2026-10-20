@@ -1975,13 +1975,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'solar-panel-cleaning-birmingham': {
     heroTitle: "Solar Panel Cleaning Birmingham",
-    heroDescription: "Professional solar panel cleaning birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional solar panel cleaning across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Solar Panel Cleaning Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert solar panel cleaning birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in pure deionised water solar panel cleaning in Birmingham, boosting PV energy efficiency by removing dust, bird droppings, traffic grime, and lichen, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Solar Panel Cleaning in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert solar panel cleaning tailored to residential homeowners, landlords, and commercial property managers. We specialise in pure deionised water solar panel cleaning in Birmingham, boosting PV energy efficiency by removing dust, bird droppings, traffic grime, and lichen, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for solar panel cleaning birmingham across all Birmingham postcodes",
+          "Specialist service for solar panel cleaning across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -2338,13 +2338,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'driveway-cleaning-birmingham': {
     heroTitle: "Driveway Cleaning Birmingham",
-    heroDescription: "Professional driveway cleaning birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional driveway cleaning across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Driveway Cleaning Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert driveway cleaning birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in professional rotary driveway cleaning, weed removal, oil stain treatment, and kiln-dried re-sanding for block paving and concrete driveways in Birmingham, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Driveway Cleaning in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert driveway cleaning tailored to residential homeowners, landlords, and commercial property managers. We specialise in professional rotary driveway cleaning, weed removal, oil stain treatment, and kiln-dried re-sanding for block paving and concrete driveways in Birmingham, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for driveway cleaning birmingham across all Birmingham postcodes",
+          "Specialist service for driveway cleaning across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -2489,13 +2489,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'pressure-washing-birmingham': {
     heroTitle: "Pressure Washing Birmingham",
-    heroDescription: "Professional pressure washing birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional pressure washing across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Pressure Washing Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert pressure washing birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in commercial-grade pressure washing across Birmingham for driveways, block paving, stone patios, decking, tarmac, and brick walls, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Pressure Washing in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert pressure washing tailored to residential homeowners, landlords, and commercial property managers. We specialise in commercial-grade pressure washing across Birmingham for driveways, block paving, stone patios, decking, tarmac, and brick walls, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for pressure washing birmingham across all Birmingham postcodes",
+          "Specialist service for pressure washing across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -3890,13 +3890,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'roofline-cleaning-birmingham': {
     heroTitle: "Roofline Cleaning Birmingham",
-    heroDescription: "Professional roofline cleaning birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional roofline cleaning across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Roofline Cleaning Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert roofline cleaning birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in complete exterior roofline cleaning including fascias, soffits, bargeboards, and gutters across Birmingham with hot pure water wash, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Roofline Cleaning in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert roofline cleaning tailored to residential homeowners, landlords, and commercial property managers. We specialise in complete exterior roofline cleaning including fascias, soffits, bargeboards, and gutters across Birmingham with hot pure water wash, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for roofline cleaning birmingham across all Birmingham postcodes",
+          "Specialist service for roofline cleaning across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -3935,13 +3935,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'roofline-repairs-birmingham': {
     heroTitle: "Roofline Repairs Birmingham",
-    heroDescription: "Professional roofline repairs birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional roofline repairs across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Roofline Repairs Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert roofline repairs birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in emergency and scheduled roofline repairs, replacing damaged timber fascia sections, securing loose soffits, and fixing leaking guttering across Birmingham, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Roofline Repairs in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert roofline repairs tailored to residential homeowners, landlords, and commercial property managers. We specialise in emergency and scheduled roofline repairs, replacing damaged timber fascia sections, securing loose soffits, and fixing leaking guttering across Birmingham, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for roofline repairs birmingham across all Birmingham postcodes",
+          "Specialist service for roofline repairs across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -3980,13 +3980,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'roofline-replacement-west-midlands': {
     heroTitle: "Roofline Replacement West Midlands",
-    heroDescription: "Professional roofline replacement west midlands across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional roofline replacement across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Roofline Replacement West Midlands in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert roofline replacement west midlands tailored to residential homeowners, landlords, and commercial property managers. We specialise in full roofline replacement across the West Midlands, stripping rotten timber and installing 18mm full-replacement uPVC fascias, ventilated soffits, and deepflow gutters, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Roofline Replacement in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert roofline replacement tailored to residential homeowners, landlords, and commercial property managers. We specialise in full roofline replacement across the West Midlands, stripping rotten timber and installing 18mm full-replacement uPVC fascias, ventilated soffits, and deepflow gutters, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for roofline replacement west midlands across all Birmingham postcodes",
+          "Specialist service for roofline replacement across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -4160,13 +4160,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'roofline-restoration-birmingham': {
     heroTitle: "Roofline Restoration Birmingham",
-    heroDescription: "Professional roofline restoration birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional roofline restoration across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Roofline Restoration Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert roofline restoration birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in heritage and period roofline restoration in Birmingham, repairing historic timber eaves, decorative bargeboards, cast iron gutters, and lead flashings, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Roofline Restoration in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert roofline restoration tailored to residential homeowners, landlords, and commercial property managers. We specialise in heritage and period roofline restoration in Birmingham, repairing historic timber eaves, decorative bargeboards, cast iron gutters, and lead flashings, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for roofline restoration birmingham across all Birmingham postcodes",
+          "Specialist service for roofline restoration across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -4250,13 +4250,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'fascia-replacement-birmingham': {
     heroTitle: "Fascia Replacement Birmingham",
-    heroDescription: "Professional fascia replacement birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional fascia replacement across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Fascia Replacement Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert fascia replacement birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in expert uPVC fascia board replacement across Birmingham, removing decaying wood and fitting 18mm load-bearing structural fascia boards, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Fascia Replacement in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert fascia replacement tailored to residential homeowners, landlords, and commercial property managers. We specialise in expert uPVC fascia board replacement across Birmingham, removing decaying wood and fitting 18mm load-bearing structural fascia boards, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for fascia replacement birmingham across all Birmingham postcodes",
+          "Specialist service for fascia replacement across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -4295,13 +4295,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'soffit-replacement-cost-uk': {
     heroTitle: "Soffit Replacement Cost UK",
-    heroDescription: "Professional soffit replacement cost uk across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional soffit replacement cost across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Soffit Replacement Cost UK in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert soffit replacement cost uk tailored to residential homeowners, landlords, and commercial property managers. We specialise in transparent pricing and cost breakdown for soffit replacement across the UK, explaining ventilated vs unventilated options, material costs, and labour estimates, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Soffit Replacement Cost in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert soffit replacement cost tailored to residential homeowners, landlords, and commercial property managers. We specialise in transparent pricing and cost breakdown for soffit replacement across the UK, explaining ventilated vs unventilated options, material costs, and labour estimates, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for soffit replacement cost uk across all Birmingham postcodes",
+          "Specialist service for soffit replacement cost across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -4385,13 +4385,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'soffit-board-repair-birmingham': {
     heroTitle: "Soffit Board Repair Birmingham",
-    heroDescription: "Professional soffit board repair birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional soffit board repair across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Soffit Board Repair Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert soffit board repair birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in professional soffit repair in Birmingham, fixing dislodged panels, resolving bird and wasp entry points, and installing modern eave ventilation strips, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Soffit Board Repair in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert soffit board repair tailored to residential homeowners, landlords, and commercial property managers. We specialise in professional soffit repair in Birmingham, fixing dislodged panels, resolving bird and wasp entry points, and installing modern eave ventilation strips, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for soffit board repair birmingham across all Birmingham postcodes",
+          "Specialist service for soffit board repair across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -4475,13 +4475,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'fascia-and-soffit-fitters-birmingham': {
     heroTitle: "Fascia and Soffit Fitters Birmingham",
-    heroDescription: "Professional fascia and soffit fitters birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional fascia and soffit fitters across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Fascia and Soffit Fitters Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert fascia and soffit fitters birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in experienced, certified fascia and soffit fitters covering all Birmingham postcodes with precision alignment and full insurance cover, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Fascia and Soffit Fitters in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert fascia and soffit fitters tailored to residential homeowners, landlords, and commercial property managers. We specialise in experienced, certified fascia and soffit fitters covering all Birmingham postcodes with precision alignment and full insurance cover, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for fascia and soffit fitters birmingham across all Birmingham postcodes",
+          "Specialist service for fascia and soffit fitters across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -4610,13 +4610,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'patio-cleaning-west-midlands': {
     heroTitle: "Patio Cleaning West Midlands",
-    heroDescription: "Professional patio cleaning west midlands across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional patio cleaning across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Patio Cleaning West Midlands in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert patio cleaning west midlands tailored to residential homeowners, landlords, and commercial property managers. We specialise in specialist patio pressure washing and softwashing across the West Midlands, restoring Indian sandstone, porcelain tiles, concrete slabs, and natural stone, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Patio Cleaning in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert patio cleaning tailored to residential homeowners, landlords, and commercial property managers. We specialise in specialist patio pressure washing and softwashing across the West Midlands, restoring Indian sandstone, porcelain tiles, concrete slabs, and natural stone, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for patio cleaning west midlands across all Birmingham postcodes",
+          "Specialist service for patio cleaning across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -4700,13 +4700,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'bird-proofing-gutters-birmingham': {
     heroTitle: "Bird Proofing Gutters Birmingham",
-    heroDescription: "Professional bird proofing gutters birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional bird proofing gutters across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Bird Proofing Gutters Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert bird proofing gutters birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in installation of durable gutter mesh guards, hedgehog brushes, and solar panel skirt barriers to stop birds nesting and blocking rainwater drainage, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Bird Proofing Gutters in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert bird proofing gutters tailored to residential homeowners, landlords, and commercial property managers. We specialise in installation of durable gutter mesh guards, hedgehog brushes, and solar panel skirt barriers to stop birds nesting and blocking rainwater drainage, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for bird proofing gutters birmingham across all Birmingham postcodes",
+          "Specialist service for bird proofing gutters across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -4745,13 +4745,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'pigeon-proofing-birmingham': {
     heroTitle: "Pigeon Proofing Birmingham",
-    heroDescription: "Professional pigeon proofing birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional pigeon proofing across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Pigeon Proofing Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert pigeon proofing birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in humane pigeon proofing solutions for roof valleys, solar panels, and gutter eaves across Birmingham, preventing heavy guano contamination, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Pigeon Proofing in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert pigeon proofing tailored to residential homeowners, landlords, and commercial property managers. We specialise in humane pigeon proofing solutions for roof valleys, solar panels, and gutter eaves across Birmingham, preventing heavy guano contamination, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for pigeon proofing birmingham across all Birmingham postcodes",
+          "Specialist service for pigeon proofing across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -4835,13 +4835,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'exterior-cleaning-package-birmingham': {
     heroTitle: "Exterior Cleaning Package Birmingham",
-    heroDescription: "Professional exterior cleaning package birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional exterior cleaning package across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Exterior Cleaning Package Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert exterior cleaning package birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in comprehensive multi-service exterior cleaning packages combining gutter vacuuming, fascia washing, window cleaning, and driveway pressure washing, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Exterior Cleaning Package in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert exterior cleaning package tailored to residential homeowners, landlords, and commercial property managers. We specialise in comprehensive multi-service exterior cleaning packages combining gutter vacuuming, fascia washing, window cleaning, and driveway pressure washing, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for exterior cleaning package birmingham across all Birmingham postcodes",
+          "Specialist service for exterior cleaning package across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -4880,13 +4880,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'softwashing-services-birmingham': {
     heroTitle: "Softwashing Services Birmingham",
-    heroDescription: "Professional softwashing services birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional softwashing services across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Softwashing Services Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert softwashing services birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in low-pressure softwash biocidal cleaning for delicate roof tiles, render, stone walls, and cladding across Birmingham with long-lasting protection, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Softwashing Services in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert softwashing services tailored to residential homeowners, landlords, and commercial property managers. We specialise in low-pressure softwash biocidal cleaning for delicate roof tiles, render, stone walls, and cladding across Birmingham with long-lasting protection, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for softwashing services birmingham across all Birmingham postcodes",
+          "Specialist service for softwashing services across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -5015,13 +5015,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'trusted-gutter-cleaners-birmingham': {
     heroTitle: "Trusted Gutter Cleaners Birmingham",
-    heroDescription: "Professional trusted gutter cleaners birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional trusted gutter cleaners across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Trusted Gutter Cleaners Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert trusted gutter cleaners birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in why WOW Gutters Ltd is Birmingham’s most trusted gutter cleaning company, highlighting our £10m insurance, photographic proof, and transparent pricing, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Trusted Gutter Cleaners in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert trusted gutter cleaners tailored to residential homeowners, landlords, and commercial property managers. We explain why WOW Gutters Ltd is Birmingham’s most trusted gutter cleaning company, highlighting our £10m insurance, photographic proof, and transparent pricing, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for trusted gutter cleaners birmingham across all Birmingham postcodes",
+          "Specialist service for trusted gutter cleaners across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -5060,13 +5060,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'affordable-gutter-cleaning-west-midlands': {
     heroTitle: "Affordable Gutter Cleaning West Midlands",
-    heroDescription: "Professional affordable gutter cleaning west midlands across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional affordable gutter cleaning across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Affordable Gutter Cleaning West Midlands in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert affordable gutter cleaning west midlands tailored to residential homeowners, landlords, and commercial property managers. We specialise in cost-effective, transparent gutter cleaning across the West Midlands starting from £100 with no hidden fees, call-out charges, or surprise extras, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Affordable Gutter Cleaning in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert affordable gutter cleaning tailored to residential homeowners, landlords, and commercial property managers. We specialise in cost-effective, transparent gutter cleaning across the West Midlands starting from £100 with no hidden fees, call-out charges, or surprise extras, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for affordable gutter cleaning west midlands across all Birmingham postcodes",
+          "Specialist service for affordable gutter cleaning across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -5105,13 +5105,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'insured-gutter-cleaning-company-birmingham': {
     heroTitle: "Insured Gutter Cleaning Company Birmingham",
-    heroDescription: "Professional insured gutter cleaning company birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional insured gutter cleaning company across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Insured Gutter Cleaning Company Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert insured gutter cleaning company birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in fully insured gutter cleaning and roofline maintenance with £10 million public liability coverage, safe ladder-free systems, and verified compliance, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Insured Gutter Cleaning Company in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert insured gutter cleaning company tailored to residential homeowners, landlords, and commercial property managers. We specialise in fully insured gutter cleaning and roofline maintenance with £10 million public liability coverage, safe ladder-free systems, and verified compliance, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for insured gutter cleaning company birmingham across all Birmingham postcodes",
+          "Specialist service for insured gutter cleaning company across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -5150,13 +5150,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'family-run-gutter-cleaners-birmingham': {
     heroTitle: "Family Run Gutter Cleaners Birmingham",
-    heroDescription: "Professional family run gutter cleaners birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional family run gutter cleaners across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Family Run Gutter Cleaners Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert family run gutter cleaners birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in friendly, dependable local family-run exterior cleaning business dedicated to serving Birmingham homeowners with integrity and personal care, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Family Run Gutter Cleaners in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert family run gutter cleaners tailored to residential homeowners, landlords, and commercial property managers. We specialise in friendly, dependable local family-run exterior cleaning business dedicated to serving Birmingham homeowners with integrity and personal care, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for family run gutter cleaners birmingham across all Birmingham postcodes",
+          "Specialist service for family run gutter cleaners across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -5195,13 +5195,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'gutter-cleaning-reviews-birmingham': {
     heroTitle: "Gutter Cleaning Reviews Birmingham",
-    heroDescription: "Professional gutter cleaning reviews birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional gutter cleaning reviews across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Gutter Cleaning Reviews Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert gutter cleaning reviews birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in what Birmingham customers say about WOW Gutters Ltd, featuring real feedback on our punctuality, ground-level vacuum tech, and photo reports, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Gutter Cleaning Reviews in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert gutter cleaning reviews tailored to residential homeowners, landlords, and commercial property managers. We explain what Birmingham customers say about WOW Gutters Ltd, featuring real feedback on our punctuality, ground-level vacuum tech, and photo reports, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for gutter cleaning reviews birmingham across all Birmingham postcodes",
+          "Specialist service for gutter cleaning reviews across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -5240,13 +5240,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'local-gutter-cleaning-company-near-me': {
     heroTitle: "Local Gutter Cleaning Company Near Me",
-    heroDescription: "Professional local gutter cleaning company near me across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional local gutter cleaning company across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Local Gutter Cleaning Company Near Me in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert local gutter cleaning company near me tailored to residential homeowners, landlords, and commercial property managers. We specialise in finding an experienced, local, and fully equipped gutter cleaning company in your neighbourhood with fast response times and fixed quotes, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Local Gutter Cleaning Company in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert local gutter cleaning company tailored to residential homeowners, landlords, and commercial property managers. We specialise in finding an experienced, local, and fully equipped gutter cleaning company in your neighbourhood with fast response times and fixed quotes, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for local gutter cleaning company near me across all Birmingham postcodes",
+          "Specialist service for local gutter cleaning company across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -5285,13 +5285,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'reliable-gutter-cleaners-west-midlands': {
     heroTitle: "Reliable Gutter Cleaners West Midlands",
-    heroDescription: "Professional reliable gutter cleaners west midlands across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional reliable gutter cleaners across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Reliable Gutter Cleaners West Midlands in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert reliable gutter cleaners west midlands tailored to residential homeowners, landlords, and commercial property managers. We specialise in dependable, punctual gutter cleaning services across Birmingham, Coventry, Wolverhampton, Solihull, Dudley, and Walsall with automated reminders, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Reliable Gutter Cleaners in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert reliable gutter cleaners tailored to residential homeowners, landlords, and commercial property managers. We specialise in dependable, punctual gutter cleaning services across Birmingham, Coventry, Wolverhampton, Solihull, Dudley, and Walsall with automated reminders, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for reliable gutter cleaners west midlands across all Birmingham postcodes",
+          "Specialist service for reliable gutter cleaners across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -5328,60 +5328,15 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     ],
   },
 
-  'gutter-cleaning-with-guarantee': {
-    heroTitle: "Gutter Cleaning With Verified Flow Testing",
-    heroDescription: "Professional gutter cleaning with verified flow testing across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
-    sections: [
-      {
-        heading: "Professional Gutter Cleaning With Verified Flow Testing in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert gutter cleaning with verified flow testing tailored to residential homeowners, landlords, and commercial property managers. We specialise in why photographic camera proof, full downpipe water flow testing, and £10m insurance protection matter more than empty verbal promises, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
-        bullets: [
-          "Specialist service for gutter cleaning with verified flow testing across all Birmingham postcodes",
-          "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
-          "Before and after photographic evidence provided directly to you on every visit",
-          "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
-          "Fully insured with comprehensive £10 million public liability coverage",
-          "Transparent, fixed pricing with free no-obligation quotes delivered in 60 seconds",
-        ],
-      },
-      {
-        heading: "Why Choose WOW Gutters Ltd for Gutter Cleaning With Verified Flow Testing?",
-        content: "Neglecting exterior maintenance can lead to expensive internal damp, rotting fascia boards, and damaged brickwork. Our experienced local team brings industrial-grade tools, honest advice, and meticulous attention to detail to every project.",
-        bullets: [
-          "Experienced, certified technicians trained in modern roofline and gutter standards",
-          "Zero mess left behind — all debris vacuumed and disposed of responsibly",
-          "Fast response times with same-day and next-day appointment availability",
-          "Clear condition assessments explaining whether cleaning, repair, or upgrade is best",
-          "High customer satisfaction backed by verified Google reviews across Birmingham",
-          "Honest, upfront pricing with no hidden call-out charges or unexpected fees",
-        ],
-      },
-    ],
-    faqs: [
-      {
-        question: "How much does gutter cleaning with verified flow testing cost in Birmingham?",
-        answer: "Pricing depends on your property size, height, and specific requirements. Standard gutter cleaning is £100 (2-bed) or £110 (3-bed); other services are quoted after a free survey. We provide a transparent, fixed quote before any work starts.",
-      },
-      {
-        question: "Do you provide photographic proof for gutter cleaning with verified flow testing?",
-        answer: "Yes! We capture high-definition before and after camera inspection photos on every job so you can verify the completed work clearly.",
-      },
-      {
-        question: "Are you fully insured for gutter cleaning with verified flow testing?",
-        answer: "Yes. WOW Gutters Ltd holds £10 million public liability insurance covering all residential, commercial, and high-level exterior work.",
-      },
-    ],
-  },
-
   'rated-gutter-cleaning-company-birmingham': {
     heroTitle: "Rated Gutter Cleaning Company Birmingham",
-    heroDescription: "Professional rated gutter cleaning company birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional rated gutter cleaning company across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Rated Gutter Cleaning Company Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert rated gutter cleaning company birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in top-rated gutter cleaning and repairs in Birmingham, trusted by residential homeowners, commercial property managers, and local landlords, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Rated Gutter Cleaning Company in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert rated gutter cleaning company tailored to residential homeowners, landlords, and commercial property managers. We specialise in top-rated gutter cleaning and repairs in Birmingham, trusted by residential homeowners, commercial property managers, and local landlords, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for rated gutter cleaning company birmingham across all Birmingham postcodes",
+          "Specialist service for rated gutter cleaning company across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -5465,13 +5420,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'autumn-gutter-cleaning-birmingham': {
     heroTitle: "Autumn Gutter Cleaning Birmingham",
-    heroDescription: "Professional autumn gutter cleaning birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional autumn gutter cleaning across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Autumn Gutter Cleaning Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert autumn gutter cleaning birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in essential autumn gutter clearance across Birmingham, removing heavy deciduous leaf fall, sycamore seeds, and twigs before winter rains begin, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Autumn Gutter Cleaning in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert autumn gutter cleaning tailored to residential homeowners, landlords, and commercial property managers. We specialise in essential autumn gutter clearance across Birmingham, removing heavy deciduous leaf fall, sycamore seeds, and twigs before winter rains begin, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for autumn gutter cleaning birmingham across all Birmingham postcodes",
+          "Specialist service for autumn gutter cleaning across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -5690,13 +5645,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'winter-gutter-maintenance-west-midlands': {
     heroTitle: "Winter Gutter Maintenance West Midlands",
-    heroDescription: "Professional winter gutter maintenance west midlands across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional winter gutter maintenance across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Winter Gutter Maintenance West Midlands in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert winter gutter maintenance west midlands tailored to residential homeowners, landlords, and commercial property managers. We specialise in winter gutter care across the West Midlands, resolving frost blockages, clearing frozen outlets, and preventing ice dam water backup, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Winter Gutter Maintenance in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert winter gutter maintenance tailored to residential homeowners, landlords, and commercial property managers. We specialise in winter gutter care across the West Midlands, resolving frost blockages, clearing frozen outlets, and preventing ice dam water backup, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for winter gutter maintenance west midlands across all Birmingham postcodes",
+          "Specialist service for winter gutter maintenance across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -5780,13 +5735,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'next-day-gutter-cleaning-birmingham': {
     heroTitle: "Next Day Gutter Cleaning Birmingham",
-    heroDescription: "Professional next day gutter cleaning birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional next day gutter cleaning across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Next Day Gutter Cleaning Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert next day gutter cleaning birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in fast next-day gutter cleaning appointments for urgent blockages, sudden overflowing gutters, or imminent property sales across Birmingham, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Next Day Gutter Cleaning in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert next day gutter cleaning tailored to residential homeowners, landlords, and commercial property managers. We specialise in fast next-day gutter cleaning appointments for urgent blockages, sudden overflowing gutters, or imminent property sales across Birmingham, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for next day gutter cleaning birmingham across all Birmingham postcodes",
+          "Specialist service for next day gutter cleaning across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -5825,13 +5780,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'gutter-cleaning-this-week-near-me': {
     heroTitle: "Gutter Cleaning This Week Near Me",
-    heroDescription: "Professional gutter cleaning this week near me across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional gutter cleaning across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Gutter Cleaning This Week Near Me in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert gutter cleaning this week near me tailored to residential homeowners, landlords, and commercial property managers. We specialise in same-week local gutter cleaning availability, providing rapid turnaround for residential homeowners and landlords across Birmingham, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Gutter Cleaning in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert gutter cleaning tailored to residential homeowners, landlords, and commercial property managers. We specialise in same-week local gutter cleaning availability, providing rapid turnaround for residential homeowners and landlords across Birmingham, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for gutter cleaning this week near me across all Birmingham postcodes",
+          "Specialist service for gutter cleaning across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -6545,13 +6500,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'gutter-replacement-cost-per-metre-uk': {
     heroTitle: "Gutter Replacement Cost Per Metre UK",
-    heroDescription: "Professional gutter replacement cost per metre uk across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional gutter replacement cost per metre across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Gutter Replacement Cost Per Metre UK in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert gutter replacement cost per metre uk tailored to residential homeowners, landlords, and commercial property managers. We specialise in detailed per-metre pricing guide for replacing uPVC, aluminium, and cast iron guttering across the UK, including labour, brackets, and downpipes, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Gutter Replacement Cost Per Metre in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert gutter replacement cost per metre tailored to residential homeowners, landlords, and commercial property managers. We specialise in detailed per-metre pricing guide for replacing uPVC, aluminium, and cast iron guttering across the UK, including labour, brackets, and downpipes, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for gutter replacement cost per metre uk across all Birmingham postcodes",
+          "Specialist service for gutter replacement cost per metre across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -6590,13 +6545,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'cheapest-gutter-cleaning-birmingham': {
     heroTitle: "Cheapest Gutter Cleaning Birmingham",
-    heroDescription: "Professional cheapest gutter cleaning birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional cheapest gutter cleaning across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Cheapest Gutter Cleaning Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert cheapest gutter cleaning birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in why WOW Gutters Ltd delivers the best value gutter cleaning in Birmingham, combining budget-friendly fixed pricing with high-power vacuum technology, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Cheapest Gutter Cleaning in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert cheapest gutter cleaning tailored to residential homeowners, landlords, and commercial property managers. We explain why WOW Gutters Ltd delivers the best value gutter cleaning in Birmingham, combining budget-friendly fixed pricing with high-power vacuum technology, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for cheapest gutter cleaning birmingham across all Birmingham postcodes",
+          "Specialist service for cheapest gutter cleaning across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -6680,13 +6635,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'compare-gutter-cleaning-quotes-birmingham': {
     heroTitle: "Compare Gutter Cleaning Quotes Birmingham",
-    heroDescription: "Professional compare gutter cleaning quotes birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional compare gutter cleaning quotes across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Compare Gutter Cleaning Quotes Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert compare gutter cleaning quotes birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in how to compare gutter cleaning quotes in Birmingham, checking for hidden ladder fees, downpipe inclusion, photo proof, and public liability insurance, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Compare Gutter Cleaning Quotes in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert compare gutter cleaning quotes tailored to residential homeowners, landlords, and commercial property managers. We explain how to compare gutter cleaning quotes in Birmingham, checking for hidden ladder fees, downpipe inclusion, photo proof, and public liability insurance, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for compare gutter cleaning quotes birmingham across all Birmingham postcodes",
+          "Specialist service for compare gutter cleaning quotes across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -6770,13 +6725,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'how-much-does-roofline-replacement-cost': {
     heroTitle: "How Much Does Roofline Replacement Cost",
-    heroDescription: "Professional how much does roofline replacement cost across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Expert advice on how much does roofline replacement cost across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional How Much Does Roofline Replacement Cost in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert how much does roofline replacement cost tailored to residential homeowners, landlords, and commercial property managers. We specialise in realistic cost estimates for full roofline replacement across the UK, covering fascia boards, soffits, ventilation, dry verges, and guttering, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "How Much Does Roofline Replacement Cost? Birmingham & West Midlands Guide",
+        content: "WOW Gutters Ltd provides expert advice on how much does roofline replacement cost, tailored to residential homeowners, landlords, and commercial property managers. We specialise in realistic cost estimates for full roofline replacement across the UK, covering fascia boards, soffits, ventilation, dry verges, and guttering, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for how much does roofline replacement cost across all Birmingham postcodes",
+          "Specialist help with how much does roofline replacement cost across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -6905,13 +6860,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'gutter-cleaning-listed-building-birmingham': {
     heroTitle: "Gutter Cleaning Listed Building Birmingham",
-    heroDescription: "Professional gutter cleaning listed building birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional gutter cleaning listed building across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Gutter Cleaning Listed Building Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert gutter cleaning listed building birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in non-invasive, conservation-compliant gutter cleaning for Grade II listed buildings across Birmingham using safe ground-level vacuum suction, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Gutter Cleaning Listed Building in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert gutter cleaning listed building tailored to residential homeowners, landlords, and commercial property managers. We specialise in non-invasive, conservation-compliant gutter cleaning for Grade II listed buildings across Birmingham using safe ground-level vacuum suction, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for gutter cleaning listed building birmingham across all Birmingham postcodes",
+          "Specialist service for gutter cleaning listed building across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -6995,13 +6950,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'gutter-cleaning-semi-detached-house-birmingham': {
     heroTitle: "Gutter Cleaning Semi-Detached House Birmingham",
-    heroDescription: "Professional gutter cleaning semi-detached house birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional gutter cleaning semi-detached house across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Gutter Cleaning Semi-Detached House Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert gutter cleaning semi-detached house birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in thorough gutter cleaning for 1930s to modern semi-detached properties in Birmingham, covering front, side, and rear runs with downpipe flushing, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Gutter Cleaning Semi-Detached House in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert gutter cleaning semi-detached house tailored to residential homeowners, landlords, and commercial property managers. We specialise in thorough gutter cleaning for 1930s to modern semi-detached properties in Birmingham, covering front, side, and rear runs with downpipe flushing, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for gutter cleaning semi-detached house birmingham across all Birmingham postcodes",
+          "Specialist service for gutter cleaning semi-detached house across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -7220,13 +7175,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'gutter-cleaning-shop-front-birmingham': {
     heroTitle: "Gutter Cleaning Shop Front Birmingham",
-    heroDescription: "Professional gutter cleaning shop front birmingham across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Professional gutter cleaning shop front across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Gutter Cleaning Shop Front Birmingham in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert gutter cleaning shop front birmingham tailored to residential homeowners, landlords, and commercial property managers. We specialise in commercial shopfront gutter cleaning across Birmingham high streets and shopping parades, preventing water dripping on customers and signage, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Professional Gutter Cleaning Shop Front in Birmingham & West Midlands",
+        content: "WOW Gutters Ltd provides expert gutter cleaning shop front tailored to residential homeowners, landlords, and commercial property managers. We specialise in commercial shopfront gutter cleaning across Birmingham high streets and shopping parades, preventing water dripping on customers and signage, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for gutter cleaning shop front birmingham across all Birmingham postcodes",
+          "Specialist service for gutter cleaning shop front across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -7265,13 +7220,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'who-fixes-gutters-near-me': {
     heroTitle: "Who Fixes Gutters Near Me",
-    heroDescription: "Professional who fixes gutters near me across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Expert advice on who fixes gutters across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Who Fixes Gutters Near Me in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert who fixes gutters near me tailored to residential homeowners, landlords, and commercial property managers. We specialise in how to choose a certified local gutter repair company near you in Birmingham, what qualifications to check, and expected repair turnaround times, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Who Fixes Gutters? Birmingham & West Midlands Guide",
+        content: "WOW Gutters Ltd provides expert advice on who fixes gutters, tailored to residential homeowners, landlords, and commercial property managers. We explain how to choose a certified local gutter repair company near you in Birmingham, what qualifications to check, and expected repair turnaround times, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for who fixes gutters near me across all Birmingham postcodes",
+          "Specialist help with who fixes gutters across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -7310,13 +7265,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'what-causes-gutters-to-leak': {
     heroTitle: "What Causes Gutters to Leak",
-    heroDescription: "Professional what causes gutters to leak across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Expert advice on what causes gutters to leak across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional What Causes Gutters to Leak in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert what causes gutters to leak tailored to residential homeowners, landlords, and commercial property managers. We specialise in the top 7 causes of leaking gutters in UK homes, including perished rubber seals, incorrect fall gradient, loose brackets, cracks, and heavy moss dams, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "What Causes Gutters to Leak? Birmingham & West Midlands Guide",
+        content: "WOW Gutters Ltd provides expert advice on what causes gutters to leak, tailored to residential homeowners, landlords, and commercial property managers. We specialise in the top 7 causes of leaking gutters in UK homes, including perished rubber seals, incorrect fall gradient, loose brackets, cracks, and heavy moss dams, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for what causes gutters to leak across all Birmingham postcodes",
+          "Specialist help with what causes gutters to leak across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -7355,13 +7310,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'how-to-stop-gutters-overflowing': {
     heroTitle: "How to Stop Gutters Overflowing",
-    heroDescription: "Professional how to stop gutters overflowing across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Expert advice on how to stop gutters overflowing across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional How to Stop Gutters Overflowing in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert how to stop gutters overflowing tailored to residential homeowners, landlords, and commercial property managers. We specialise in practical, professional solutions to stop overflowing gutters during heavy rain, from vacuum clearance and downpipe rodding to Deepflow upgrades, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "How to Stop Gutters Overflowing? Birmingham & West Midlands Guide",
+        content: "WOW Gutters Ltd provides expert advice on how to stop gutters overflowing, tailored to residential homeowners, landlords, and commercial property managers. We specialise in practical, professional solutions to stop overflowing gutters during heavy rain, from vacuum clearance and downpipe rodding to Deepflow upgrades, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for how to stop gutters overflowing across all Birmingham postcodes",
+          "Specialist help with how to stop gutters overflowing across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -7400,13 +7355,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'can-you-repair-guttering-without-replacing-it': {
     heroTitle: "Can You Repair Guttering Without Replacing It",
-    heroDescription: "Professional can you repair guttering without replacing it across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Expert advice on can you repair guttering without replacing it across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Can You Repair Guttering Without Replacing It in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert can you repair guttering without replacing it tailored to residential homeowners, landlords, and commercial property managers. We specialise in when localized repairs like union resealing, bracket replacement, and downpipe re-clipping are viable vs when full replacement is necessary, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Can You Repair Guttering Without Replacing It? Birmingham & West Midlands Guide",
+        content: "WOW Gutters Ltd provides expert advice on can you repair guttering without replacing it, tailored to residential homeowners, landlords, and commercial property managers. We explain when localized repairs like union resealing, bracket replacement, and downpipe re-clipping are viable vs when full replacement is necessary, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for can you repair guttering without replacing it across all Birmingham postcodes",
+          "Specialist help with can you repair guttering without replacing it across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -7445,13 +7400,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'when-should-fascias-be-replaced': {
     heroTitle: "When Should Fascias Be Replaced",
-    heroDescription: "Professional when should fascias be replaced across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Expert advice on when should fascias be replaced across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional When Should Fascias Be Replaced in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert when should fascias be replaced tailored to residential homeowners, landlords, and commercial property managers. We specialise in clear warning signs indicating your timber or uPVC fascias need replacing, such as wood rot, peeling paint, bracket detachment, and damp soffits, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "When Should Fascias Be Replaced? Birmingham & West Midlands Guide",
+        content: "WOW Gutters Ltd provides expert advice on when should fascias be replaced, tailored to residential homeowners, landlords, and commercial property managers. We specialise in clear warning signs indicating your timber or uPVC fascias need replacing, such as wood rot, peeling paint, bracket detachment, and damp soffits, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for when should fascias be replaced across all Birmingham postcodes",
+          "Specialist help with when should fascias be replaced across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",
@@ -7490,13 +7445,13 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'is-roofline-replacement-covered-by-insurance': {
     heroTitle: "Is Roofline Replacement Covered by Insurance",
-    heroDescription: "Professional is roofline replacement covered by insurance across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
+    heroDescription: "Expert advice on is roofline replacement covered by insurance across Birmingham and the West Midlands. WOW Gutters Ltd delivers reliable, fully insured services with high-reach vacuum technology, camera verification, and free fixed quotes. Call 07421 433910.",
     sections: [
       {
-        heading: "Professional Is Roofline Replacement Covered by Insurance in Birmingham & West Midlands",
-        content: "WOW Gutters Ltd provides expert is roofline replacement covered by insurance tailored to residential homeowners, landlords, and commercial property managers. We specialise in understanding home insurance coverage for storm damage vs wear-and-tear on gutters, fascias, and rooflines, and how maintenance reports help claims, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
+        heading: "Is Roofline Replacement Covered by Insurance? Birmingham & West Midlands Guide",
+        content: "WOW Gutters Ltd provides expert advice on is roofline replacement covered by insurance, tailored to residential homeowners, landlords, and commercial property managers. We explain home insurance coverage for storm damage vs wear-and-tear on gutters, fascias, and rooflines, and how maintenance reports help claims, using modern equipment and proven techniques to ensure your property remains protected from water damage, damp, and structural wear.",
         bullets: [
-          "Specialist service for is roofline replacement covered by insurance across all Birmingham postcodes",
+          "Specialist help with is roofline replacement covered by insurance across all Birmingham postcodes",
           "High-reach equipment capable of servicing up to 4 storeys safely from ground level",
           "Before and after photographic evidence provided directly to you on every visit",
           "Full water flow testing on downpipes and outlets to verify unrestricted drainage",

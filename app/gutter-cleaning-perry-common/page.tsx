@@ -46,8 +46,8 @@ export default function PerryCommonPage() {
       <LocalBusinessSchema
         city="Perry Common"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={105}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Erdington', 'Kingstanding', 'Perry Barr', 'Birmingham', 'Sutton Coldfield']}
         geo={{ latitude: 52.5350, longitude: -1.8500 }}
         postcodes={['B23', 'B24']}

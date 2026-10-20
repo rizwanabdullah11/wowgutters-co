@@ -46,8 +46,8 @@ export default function GreenLanePage() {
       <LocalBusinessSchema
         city="Green Lane"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Coventry', 'Walsgrave', 'Binley', 'Stoke', 'Wood End']}
         geo={{ latitude: 52.430, longitude: -1.475 }}
         postcodes={['CV3', 'CV6']}

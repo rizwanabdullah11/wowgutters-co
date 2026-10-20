@@ -32,8 +32,8 @@ export default function GilbertstonePage() {
       <LocalBusinessSchema
         city="Gilbertstone"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Yardley', 'Sheldon', 'Acocks Green', 'Birmingham', 'Stechford']}
         geo={{ latitude: 52.45, longitude: -1.8 }}
         postcodes={['B26']}

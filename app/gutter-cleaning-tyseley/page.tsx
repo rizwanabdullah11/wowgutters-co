@@ -46,8 +46,8 @@ export default function TyseleyPage() {
       <LocalBusinessSchema
         city="Tyseley"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={100}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Sparkhill', 'Acocks Green', 'Yardley', 'Birmingham', 'Small Heath', 'Sparkbrook']}
         geo={{ latitude: 52.4480, longitude: -1.8580 }}
         postcodes={['B11']}

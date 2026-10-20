@@ -46,8 +46,8 @@ export default function LowHillPage() {
       <LocalBusinessSchema
         city="Low Hill"
         url={URL_PATH}
-        priceFrom={40}
-        priceTo={105}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Bushbury', 'Fallings Park', 'Fordhouses', 'Pendeford']}
         geo={{ latitude: 52.615, longitude: -2.100 }}
         postcodes={['WV10', 'WV10 1', 'WV10 2', 'WV10 3']}

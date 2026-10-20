@@ -46,8 +46,8 @@ export default function TileCrossPage() {
       <LocalBusinessSchema
         city="Tile Cross"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Stechford', 'Marston Green', 'Chelmsley Wood', 'Kitts Green', 'Hodge Hill', 'Yardley']}
         geo={{ latitude: 52.479, longitude: -1.790 }}
         postcodes={['B33', 'B33 0', 'B33 8', 'B33 9']}

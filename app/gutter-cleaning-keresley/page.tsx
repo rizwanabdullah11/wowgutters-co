@@ -46,8 +46,8 @@ export default function KeresleyPage() {
       <LocalBusinessSchema
         city="Keresley"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Coventry', 'Coundon', 'Allesley', 'Whitmore Park', 'Bedworth', 'Nuneaton']}
         geo={{ latitude: 52.440, longitude: -1.540 }}
         postcodes={['CV6', 'CV6 2', 'CV6 4', 'CV6 6', 'CV6 7']}

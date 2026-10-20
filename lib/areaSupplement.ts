@@ -26,11 +26,11 @@ const BIRMINGHAM_HUB: CityData = {
   nearbyAreas: ['Solihull', 'Sutton Coldfield', 'Wolverhampton', 'Walsall', 'Dudley'],
   geo: { latitude: 52.4862, longitude: -1.8904 },
   pricing: {
-    terraced: { min: 50, max: 70 },
-    semiDetached: { min: 60, max: 85 },
-    detached: { min: 85, max: 120 },
+    terraced: { min: 100, max: 100 },
+    semiDetached: { min: 110, max: 110 },
+    detached: { min: 140, max: 210 },
   },
-  priceFrom: 50,
+  priceFrom: 100,
   priceTo: 120,
   region: 'West Midlands',
   county: 'West Midlands',
@@ -40,11 +40,11 @@ const BIRMINGHAM_HUB: CityData = {
 function suburb(def: Def): AreaSupplementEntry {
   const hub = def.hubSlug === 'birmingham' ? BIRMINGHAM_HUB : CITIES[def.hubSlug];
   const pricing = hub?.pricing ?? {
-    terraced: { min: 50, max: 70 },
-    semiDetached: { min: 60, max: 85 },
-    detached: { min: 85, max: 120 },
+    terraced: { min: 100, max: 100 },
+    semiDetached: { min: 110, max: 110 },
+    detached: { min: 140, max: 210 },
   };
-  const priceFrom = def.priceFrom ?? hub?.priceFrom ?? 50;
+  const priceFrom = def.priceFrom ?? hub?.priceFrom ?? 100;
   const priceTo = def.priceTo ?? hub?.priceTo ?? 120;
 
   return {
@@ -172,7 +172,7 @@ const DEFINITIONS: Def[] = [
     hubSlug: 'birmingham',
     geo: { latitude: 52.475, longitude: -1.865 },
     streets: ['Bordesley Street', 'Coventry Road', 'Derby Road', 'Arthur Street'],
-    priceFrom: 50,
+    priceFrom: 100,
     priceTo: 105,
   },
   {
@@ -183,7 +183,7 @@ const DEFINITIONS: Def[] = [
     hubSlug: 'birmingham',
     geo: { latitude: 52.500, longitude: -1.790 },
     streets: ['Bromford Lane', 'Henhurst Road', 'Hall Road', 'Newstead Road'],
-    priceFrom: 50,
+    priceFrom: 100,
     priceTo: 105,
   },
   {
@@ -194,7 +194,7 @@ const DEFINITIONS: Def[] = [
     hubSlug: 'birmingham',
     geo: { latitude: 52.492, longitude: -1.875 },
     streets: ['Duddeston Manor Road', 'George Arthur Road', 'Cato Street', 'Nechells Park Road'],
-    priceFrom: 50,
+    priceFrom: 100,
     priceTo: 105,
   },
   {
@@ -205,7 +205,7 @@ const DEFINITIONS: Def[] = [
     hubSlug: 'birmingham',
     geo: { latitude: 52.492, longitude: -1.753 },
     streets: ['Fordbridge Road', 'Bosworth Drive', 'Marlene Croft', 'Pennine Way'],
-    priceFrom: 50,
+    priceFrom: 100,
     priceTo: 105,
   },
   {
@@ -216,7 +216,7 @@ const DEFINITIONS: Def[] = [
     hubSlug: 'birmingham',
     geo: { latitude: 52.488, longitude: -1.752 },
     streets: ['Kingshurst Way', 'Bosworth Drive', 'Marlene Croft', 'Helmswood Drive'],
-    priceFrom: 50,
+    priceFrom: 100,
     priceTo: 105,
   },
   {
@@ -227,7 +227,7 @@ const DEFINITIONS: Def[] = [
     hubSlug: 'birmingham',
     geo: { latitude: 52.485, longitude: -1.780 },
     streets: ['Lea Hall Road', 'Flaxley Road', 'Yew Tree Road', 'Old Lea Hall Road'],
-    priceFrom: 50,
+    priceFrom: 100,
     priceTo: 105,
   },
   {
@@ -238,7 +238,7 @@ const DEFINITIONS: Def[] = [
     hubSlug: 'birmingham',
     geo: { latitude: 52.400, longitude: -1.844 },
     streets: ['Alcester Road', 'Maypole Lane', 'Billesley Lane', 'School Road'],
-    priceFrom: 50,
+    priceFrom: 100,
     priceTo: 105,
   },
   {
@@ -249,7 +249,7 @@ const DEFINITIONS: Def[] = [
     hubSlug: 'birmingham',
     geo: { latitude: 52.535, longitude: -1.868 },
     streets: ['Oscott Road', 'Aldridge Road', 'Walsall Road', 'Birchdale Road'],
-    priceFrom: 50,
+    priceFrom: 100,
     priceTo: 105,
   },
   {
@@ -260,7 +260,7 @@ const DEFINITIONS: Def[] = [
     hubSlug: 'birmingham',
     geo: { latitude: 52.475, longitude: -1.918 },
     streets: ['Rotton Park Road', 'City Road', 'Icknield Street', 'Monument Road'],
-    priceFrom: 50,
+    priceFrom: 100,
     priceTo: 105,
   },
   {
@@ -271,7 +271,7 @@ const DEFINITIONS: Def[] = [
     hubSlug: 'birmingham',
     geo: { latitude: 52.445, longitude: -1.910 },
     streets: ['Lonsdale Road', 'Elmfield Road', 'Bournbrook Road', 'Frankland Road'],
-    priceFrom: 50,
+    priceFrom: 100,
     priceTo: 105,
   },
   {
@@ -282,7 +282,7 @@ const DEFINITIONS: Def[] = [
     hubSlug: 'birmingham',
     geo: { latitude: 52.456, longitude: -1.816 },
     streets: ['Westley Road', 'Church Road', 'Stoney Lane', 'Kineton Road'],
-    priceFrom: 50,
+    priceFrom: 100,
     priceTo: 105,
   },
   {
@@ -293,7 +293,7 @@ const DEFINITIONS: Def[] = [
     hubSlug: 'birmingham',
     geo: { latitude: 52.493, longitude: -1.918 },
     streets: ['Summerfield Crescent', 'City Road', 'Icknield Street', 'Dudley Road'],
-    priceFrom: 50,
+    priceFrom: 100,
     priceTo: 105,
   },
   {
@@ -304,7 +304,7 @@ const DEFINITIONS: Def[] = [
     hubSlug: 'birmingham',
     geo: { latitude: 52.479, longitude: -1.790 },
     streets: ['Tile Cross Road', 'Bosworth Drive', 'Gilson Way', 'Lyttelton Road'],
-    priceFrom: 50,
+    priceFrom: 100,
     priceTo: 105,
   },
   {
@@ -315,7 +315,7 @@ const DEFINITIONS: Def[] = [
     hubSlug: 'birmingham',
     geo: { latitude: 52.488, longitude: -1.862 },
     streets: ['Vauxhall Road', 'Thimble Mill Lane', 'Miller Street', 'Lichfield Road'],
-    priceFrom: 50,
+    priceFrom: 100,
     priceTo: 105,
   },
   {
@@ -326,7 +326,7 @@ const DEFINITIONS: Def[] = [
     hubSlug: 'birmingham',
     geo: { latitude: 52.411, longitude: -1.864 },
     streets: ['Warstock Road', 'Alcester Road', 'School Road', 'Yardley Wood Road'],
-    priceFrom: 50,
+    priceFrom: 100,
     priceTo: 105,
   },
   {
@@ -337,7 +337,7 @@ const DEFINITIONS: Def[] = [
     hubSlug: 'birmingham',
     geo: { latitude: 52.495, longitude: -1.925 },
     streets: ['Winson Green Road', 'Soho Road', 'Heath Street'],
-    priceFrom: 50,
+    priceFrom: 100,
     priceTo: 105,
   },
 ];

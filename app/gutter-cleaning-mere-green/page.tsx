@@ -46,8 +46,8 @@ export default function MereGreenPage() {
       <LocalBusinessSchema
         city="Mere Green"
         url={URL_PATH}
-        priceFrom={55}
-        priceTo={140}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Sutton Coldfield', 'Four Oaks', 'Little Aston', 'Birmingham', 'Streetly']}
         geo={{ latitude: 52.5590, longitude: -1.8360 }}
         postcodes={['B75']}

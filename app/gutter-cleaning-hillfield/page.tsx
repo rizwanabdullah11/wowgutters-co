@@ -46,8 +46,8 @@ export default function HillfieldPage() {
       <LocalBusinessSchema
         city="Hillfield"
         url={URL_PATH}
-        priceFrom={55}
-        priceTo={130}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Solihull', 'Olton', 'Shirley', 'Monkspath']}
         geo={{ latitude: 52.417, longitude: -1.773 }}
         postcodes={['B91']}

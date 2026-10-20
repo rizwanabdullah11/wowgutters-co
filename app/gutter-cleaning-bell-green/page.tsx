@@ -46,8 +46,8 @@ export default function BellGreenPage() {
       <LocalBusinessSchema
         city="Bell Green"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Coventry', 'Bedworth', 'Nuneaton', 'Foleshill', 'Longford']}
         geo={{ latitude: 52.455, longitude: -1.480 }}
         postcodes={['CV2', 'CV6']}

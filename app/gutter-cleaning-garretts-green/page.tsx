@@ -46,8 +46,8 @@ export default function GarrettsGreenPage() {
       <LocalBusinessSchema
         city="Garretts Green"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={105}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Sheldon', 'Yardley', 'Stechford', 'Birmingham', 'Solihull']}
         geo={{ latitude: 52.4630, longitude: -1.7950 }}
         postcodes={['B26', 'B33']}

@@ -32,8 +32,8 @@ export default function ManeyPage() {
       <LocalBusinessSchema
         city="Maney"
         url={URL_PATH}
-        priceFrom={55}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Sutton Coldfield', 'Wylde Green', 'Birmingham', 'Erdington', 'Walmley']}
         geo={{ latitude: 52.56, longitude: -1.82 }}
         postcodes={['B72', 'B73']}

@@ -53,8 +53,8 @@ export default function GutterCleaningServiceNearMePage() {
       <LocalBusinessSchema
         city="West Midlands"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={140}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={landingData.nearbyAreas ?? []}
         geo={landingData.geo}
         postcodes={landingData.postcodes ?? []}

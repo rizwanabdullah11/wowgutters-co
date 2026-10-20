@@ -109,7 +109,7 @@ export default function QuoteModal({
       <div className="min-h-0 flex-1 overflow-y-auto overflow-x-hidden w-full min-w-0 px-4 pt-5 pb-4 sm:px-5 space-y-4">
 
         {/* SUCCESS SCREEN */}
-        <div data-success style={{ display: 'none' }}>
+        <div data-success data-nosnippet style={{ display: 'none' }}>
           <div className="text-center py-8">
             <div className="mb-6 flex justify-center">
               <div className="relative">

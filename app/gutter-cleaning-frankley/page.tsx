@@ -46,8 +46,8 @@ export default function FrankleyPage() {
       <LocalBusinessSchema
         city="Frankley"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Rubery', 'Longbridge', 'Rednal', 'Birmingham', 'Halesowen']}
         geo={{ latitude: 52.4000, longitude: -2.0100 }}
         postcodes={['B45']}

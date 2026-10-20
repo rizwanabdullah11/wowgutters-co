@@ -46,8 +46,8 @@ export default function BickenhillPage() {
       <LocalBusinessSchema
         city="Bickenhill"
         url={URL_PATH}
-        priceFrom={55}
-        priceTo={150}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Solihull', 'Birmingham', 'Marston Green', 'Hampton-in-Arden']}
         geo={{ latitude: 52.448, longitude: -1.745 }}
         postcodes={['B92']}

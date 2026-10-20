@@ -46,8 +46,8 @@ export default function BirchfieldPage() {
       <LocalBusinessSchema
         city="Birchfield"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={105}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Handsworth', 'Aston', 'Perry Barr', 'Witton', 'Birmingham']}
         geo={{ latitude: 52.5100, longitude: -1.9100 }}
         postcodes={['B6', 'B20']}

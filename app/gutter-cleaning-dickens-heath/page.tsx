@@ -46,8 +46,8 @@ export default function DickensHeathPage() {
       <LocalBusinessSchema
         city="Dickens Heath"
         url={URL_PATH}
-        priceFrom={60}
-        priceTo={150}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Solihull', 'Shirley', 'Blythe Valley', 'Cheswick Green']}
         geo={{ latitude: 52.396, longitude: -1.790 }}
         postcodes={['B90']}

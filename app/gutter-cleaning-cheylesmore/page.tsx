@@ -46,8 +46,8 @@ export default function CheylesmorePage() {
       <LocalBusinessSchema
         city="Cheylesmore"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={125}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Coventry', 'Kenilworth', 'Leamington Spa', 'Earlsdon', 'Stivichall']}
         geo={{ latitude: 52.400, longitude: -1.535 }}
         postcodes={['CV3']}

@@ -46,8 +46,8 @@ export default function TividalePage() {
       <LocalBusinessSchema
         city="Tividale"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={100}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Tipton', 'Dudley', 'Great Bridge', 'West Bromwich', 'Oldbury', 'Rowley Regis']}
         geo={{ latitude: 52.519, longitude: -2.048 }}
         postcodes={['DY4']}

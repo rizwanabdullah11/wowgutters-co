@@ -46,8 +46,8 @@ export default function FinchfieldPage() {
       <LocalBusinessSchema
         city="Finchfield"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Compton', 'Tettenhall', 'Castlecroft', 'Newbridge', 'Penn']}
         geo={{ latitude: 52.573, longitude: -2.160 }}
         postcodes={['WV3', 'WV3 0', 'WV3 1', 'WV3 2']}

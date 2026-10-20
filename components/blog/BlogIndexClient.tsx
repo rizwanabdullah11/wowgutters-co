@@ -7,11 +7,10 @@ import Image from 'next/image';
 import type { BlogSummary } from '@/lib/blogSummaries';
 import { colors } from '@/constants/colors';
 import { 
-  BookOpen, Calendar, Eye, User, ArrowRight, 
+  BookOpen, Calendar, User, ArrowRight, 
   Search, Tag, TrendingUp, Clock
 } from 'lucide-react';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
-import BlogViewCount from '@/components/blog/BlogViewCount';
 import { formatBlogDateShort } from '@/lib/dateUtils';
 
 export default function BlogIndexClient({ blogPosts }: { blogPosts: BlogSummary[] }) {
@@ -128,10 +127,6 @@ export default function BlogIndexClient({ blogPosts }: { blogPosts: BlogSummary[
                     {formatBlogDateShort(featuredPost.date)}
                   </span>
                   <span className="flex items-center gap-1">
-                    <Eye className="w-4 h-4" />
-                    <BlogViewCount postId={featuredPost.id} publishedDate={featuredPost.date} suffix="views" />
-                  </span>
-                  <span className="flex items-center gap-1">
                     <User className="w-4 h-4" />
                     {featuredPost.author}
                   </span>
@@ -223,10 +218,6 @@ export default function BlogIndexClient({ blogPosts }: { blogPosts: BlogSummary[
                         <span className="flex items-center gap-1">
                           <Calendar className="w-3.5 h-3.5" />
                           {formatBlogDateShort(post.date)}
-                        </span>
-                        <span className="flex items-center gap-1">
-                          <Eye className="w-3.5 h-3.5" />
-                          <BlogViewCount postId={post.id} publishedDate={post.date} suffix="" />
                         </span>
                       </div>
 

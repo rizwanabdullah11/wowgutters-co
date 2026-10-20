@@ -46,8 +46,8 @@ export default function PleckPage() {
       <LocalBusinessSchema
         city="Pleck"
         url={URL_PATH}
-        priceFrom={40}
-        priceTo={95}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Walsall', 'Caldmore', 'Alumwell', 'Bentley', 'Birchills', 'Blakenall']}
         geo={{ latitude: 52.583, longitude: -1.987 }}
         postcodes={['WS2', 'WS2 9', 'WS2 6', 'WS2 7']}

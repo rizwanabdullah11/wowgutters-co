@@ -93,7 +93,7 @@ const landingData: CityGutterLandingData = {
     { label: 'Professional gutter cleaning', href: '/help/unblock/' },
   ],
   ctaHeading: 'Book Your Gutter Clean in Wolverhampton \u2014 Free Quote in 60 Seconds',
-  priceTo: 130,
+  priceTo: 210,
   nearbyAreas: ['Penn', 'Tettenhall', 'Wednesfield', 'Bilston', 'Willenhall', 'Fordhouses'],
   postcodes: ['WV1', 'WV2', 'WV3', 'WV4', 'WV5', 'WV6', 'WV7', 'WV8', 'WV9', 'WV10', 'WV11', 'WV12', 'WV13', 'WV14'],
 }
@@ -140,8 +140,8 @@ export const metadata: Metadata = normalizeMetadata({
 const SCHEMA_FAQS = buildCitySchemaFaqs({
   city: 'Wolverhampton',
   slug: 'wolverhampton',
-  priceFrom: 50,
-  priceTo: 130,
+  priceFrom: 100,
+  priceTo: 210,
   postcodes: ['WV1', 'WV2', 'WV3', 'WV4', 'WV5', 'WV6', 'WV7', 'WV8', 'WV9', 'WV10', 'WV11', 'WV12', 'WV13', 'WV14'],
   nearbyAreas: ['Penn', 'Tettenhall', 'Wednesfield', 'Bilston', 'Willenhall', 'Fordhouses'],
 })
@@ -152,14 +152,14 @@ export default function WolverhamptonPage() {
       <LocalBusinessSchema
         city="Wolverhampton"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={130}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Penn', 'Tettenhall', 'Wednesfield', 'Bilston', 'Willenhall', 'Fordhouses']}
         geo={{ latitude: 52.5862, longitude: -2.1288 }}
         postcodes={['WV1', 'WV2', 'WV3', 'WV4', 'WV5', 'WV6', 'WV7', 'WV8', 'WV9', 'WV10', 'WV11', 'WV12', 'WV13', 'WV14']}
         faqs={SCHEMA_FAQS}
       />
-      <CityGutterCleaningPage data={landingData} priceFrom={50} priceTo={130} />
+      <CityGutterCleaningPage data={landingData} priceFrom={100} priceTo={210} />
     </>
   )
 }

@@ -46,8 +46,8 @@ export default function LeaHallPage() {
       <LocalBusinessSchema
         city="Lea Hall"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Stechford', 'Kitts Green', 'Sheldon', 'Yardley', 'Bordesley Green']}
         geo={{ latitude: 52.485, longitude: -1.780 }}
         postcodes={['B33']}

@@ -18,15 +18,15 @@ export default function BirminghamGutterPageSchema() {
     <LocalBusinessSchema
       city="Birmingham"
       url="https://wowgutters.co.uk/gutter-cleaning-birmingham/"
-      priceFrom={50}
-      priceTo={120}
+      priceFrom={100}
+      priceTo={210}
       nearbyAreas={['Solihull', 'Sutton Coldfield', 'Wolverhampton', 'Walsall', 'Dudley', 'West Bromwich']}
       geo={{ latitude: 52.4862, longitude: -1.8904 }}
       faqs={buildCitySchemaFaqs({
         city: 'Birmingham',
         slug: 'birmingham',
-        priceFrom: 50,
-        priceTo: 120,
+        priceFrom: 100,
+        priceTo: 210,
         postcodes: ['B1', 'B13', 'B14', 'B15', 'B16', 'B17', 'B23', 'B27', 'B28', 'B29', 'B31', 'B43', 'B73', 'B74', 'B76'],
         nearbyAreas: ['Solihull', 'Sutton Coldfield', 'Wolverhampton', 'Walsall', 'Dudley', 'West Bromwich'],
       })}

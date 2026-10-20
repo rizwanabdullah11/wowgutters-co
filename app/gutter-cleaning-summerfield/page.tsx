@@ -46,8 +46,8 @@ export default function SummerfieldPage() {
       <LocalBusinessSchema
         city="Summerfield"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Winson Green', 'Ladywood', 'Jewellery Quarter', 'Hockley', 'Newtown']}
         geo={{ latitude: 52.493, longitude: -1.918 }}
         postcodes={['B19', 'B19 1', 'B19 2', 'B19 3']}

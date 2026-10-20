@@ -46,8 +46,8 @@ export default function HighgatePage() {
       <LocalBusinessSchema
         city="Highgate"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={105}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Birmingham', 'Balsall Heath', 'Moseley', 'Sparkbrook', 'Edgbaston']}
         geo={{ latitude: 52.4650, longitude: -1.8950 }}
         postcodes={['B12', 'B5']}

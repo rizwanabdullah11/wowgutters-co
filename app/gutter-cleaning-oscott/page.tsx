@@ -46,8 +46,8 @@ export default function OscottPage() {
       <LocalBusinessSchema
         city="Oscott"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={140}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Kingstanding', 'Perry Barr', 'Great Barr', 'Perry Common', 'Hamstead']}
         geo={{ latitude: 52.535, longitude: -1.868 }}
         postcodes={['B44', 'B44 0', 'B44 8', 'B44 9']}

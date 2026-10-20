@@ -46,8 +46,8 @@ export default function WestHeathPage() {
       <LocalBusinessSchema
         city="West Heath"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Northfield', 'Longbridge', 'Kings Norton', 'Cofton Hackett', 'Birmingham']}
         geo={{ latitude: 52.4010, longitude: -1.9620 }}
         postcodes={['B31', 'B31 3', 'B31 4']}

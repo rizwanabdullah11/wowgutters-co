@@ -46,8 +46,8 @@ export default function PensnettPage() {
       <LocalBusinessSchema
         city="Pensnett"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Dudley', 'Kingswinford', 'Brierley Hill', 'Stourbridge', 'Wollaston', 'Sedgley']}
         geo={{ latitude: 52.498, longitude: -2.127 }}
         postcodes={['DY5']}

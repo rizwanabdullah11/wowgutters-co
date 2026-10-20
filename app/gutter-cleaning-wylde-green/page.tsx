@@ -46,8 +46,8 @@ export default function WyldeGreenPage() {
       <LocalBusinessSchema
         city="Wylde Green"
         url={URL_PATH}
-        priceFrom={60}
-        priceTo={150}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Sutton Coldfield', 'Boldmere', 'Four Oaks', 'Erdington', 'Birmingham']}
         geo={{ latitude: 52.5370, longitude: -1.8310 }}
         postcodes={['B73', 'B73 5', 'B73 6', 'B73 9']}

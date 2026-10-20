@@ -32,8 +32,8 @@ export default function CoftonHackettPage() {
       <LocalBusinessSchema
         city="Cofton Hackett"
         url={URL_PATH}
-        priceFrom={55}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Longbridge', 'Rednal', 'Birmingham', 'Barnt Green', 'Rubery']}
         geo={{ latitude: 52.38, longitude: -1.99 }}
         postcodes={['B45', 'B31']}

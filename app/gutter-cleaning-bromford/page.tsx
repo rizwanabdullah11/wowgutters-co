@@ -46,8 +46,8 @@ export default function BromfordPage() {
       <LocalBusinessSchema
         city="Bromford"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Castle Bromwich', 'Hodge Hill', 'Stechford', 'Birmingham', 'Washwood Heath']}
         geo={{ latitude: 52.500, longitude: -1.790 }}
         postcodes={['B36']}

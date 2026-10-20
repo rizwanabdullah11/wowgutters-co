@@ -46,8 +46,8 @@ export default function BrownsGreenPage() {
       <LocalBusinessSchema
         city="Browns Green"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Kings Heath', 'Solihull', 'Hall Green', 'Shirley', 'Birmingham']}
         geo={{ latitude: 52.4200, longitude: -1.8500 }}
         postcodes={['B13', 'B90']}

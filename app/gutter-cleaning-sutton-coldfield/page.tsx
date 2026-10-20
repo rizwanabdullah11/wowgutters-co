@@ -46,8 +46,8 @@ export default function SuttonColdfieldPage() {
       <LocalBusinessSchema
         city="Sutton Coldfield"
         url={URL_PATH}
-        priceFrom={60}
-        priceTo={150}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Birmingham', 'Boldmere', 'Four Oaks', 'Walmley', 'Erdington', 'Lichfield']}
         geo={{ latitude: 52.5642, longitude: -1.8206 }}
         postcodes={['B72', 'B73', 'B74', 'B75', 'B76']}

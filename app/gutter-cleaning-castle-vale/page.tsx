@@ -46,8 +46,8 @@ export default function CastleValePage() {
       <LocalBusinessSchema
         city="Castle Vale"
         url={URL_PATH}
-        priceFrom={40}
-        priceTo={100}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Erdington', 'Minworth', 'Castle Bromwich', 'Walmley', 'Birmingham']}
         geo={{ latitude: 52.5200, longitude: -1.8000 }}
         postcodes={['B35']}

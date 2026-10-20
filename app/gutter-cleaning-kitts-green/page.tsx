@@ -46,8 +46,8 @@ export default function KittsGreenPage() {
       <LocalBusinessSchema
         city="Kitts Green"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={105}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Yardley', 'Sheldon', 'Stechford', 'Birmingham', 'Shard End']}
         geo={{ latitude: 52.4770, longitude: -1.7800 }}
         postcodes={['B26']}

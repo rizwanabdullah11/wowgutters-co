@@ -32,8 +32,8 @@ export default function HamsteadPage() {
       <LocalBusinessSchema
         city="Hamstead"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Great Barr', 'Kingstanding', 'Perry Barr', 'Birmingham', 'Walsall']}
         geo={{ latitude: 52.54, longitude: -1.93 }}
         postcodes={['B43', 'B44']}

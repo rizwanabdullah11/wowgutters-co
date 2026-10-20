@@ -46,8 +46,8 @@ export default function BordesleyGreenPage() {
       <LocalBusinessSchema
         city="Bordesley Green"
         url={URL_PATH}
-        priceFrom={40}
-        priceTo={100}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Small Heath', 'Hay Mills', 'Stechford', 'Yardley', 'Birmingham']}
         geo={{ latitude: 52.4730, longitude: -1.8500 }}
         postcodes={['B9', 'B10']}

@@ -46,8 +46,8 @@ export default function DruidsHeathPage() {
       <LocalBusinessSchema
         city="Druids Heath"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Solihull', 'Shirley', 'Hall Green', 'Yardley Wood', 'Birmingham']}
         geo={{ latitude: 52.4100, longitude: -1.8300 }}
         postcodes={['B90', 'B91']}

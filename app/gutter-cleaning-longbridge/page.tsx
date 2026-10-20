@@ -46,8 +46,8 @@ export default function LongbridgePage() {
       <LocalBusinessSchema
         city="Longbridge"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Northfield', 'Rubery', 'Rednal', 'Birmingham', 'Bromsgrove']}
         geo={{ latitude: 52.3950, longitude: -1.9800 }}
         postcodes={['B31', 'B45']}

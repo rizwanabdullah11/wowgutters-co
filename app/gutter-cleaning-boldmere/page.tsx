@@ -46,8 +46,8 @@ export default function BoldmerePage() {
       <LocalBusinessSchema
         city="Boldmere"
         url={URL_PATH}
-        priceFrom={55}
-        priceTo={130}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Sutton Coldfield', 'Erdington', 'Wylde Green', 'Walmley', 'Birmingham']}
         geo={{ latitude: 52.5400, longitude: -1.8300 }}
         postcodes={['B73']}

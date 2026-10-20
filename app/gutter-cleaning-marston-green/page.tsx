@@ -32,8 +32,8 @@ export default function MarstonGreenPage() {
       <LocalBusinessSchema
         city="Marston Green"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Chelmsley Wood', 'Birmingham', 'Solihull', 'Castle Bromwich', 'Coleshill']}
         geo={{ latitude: 52.47, longitude: -1.74 }}
         postcodes={['B37']}

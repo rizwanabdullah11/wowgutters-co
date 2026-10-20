@@ -46,8 +46,8 @@ export default function RednalPage() {
       <LocalBusinessSchema
         city="Rednal"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={105}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Rubery', 'Longbridge', 'Northfield', 'Birmingham', 'Bromsgrove']}
         geo={{ latitude: 52.3870, longitude: -2.0080 }}
         postcodes={['B45']}

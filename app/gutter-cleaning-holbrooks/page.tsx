@@ -46,8 +46,8 @@ export default function HolbrooksPage() {
       <LocalBusinessSchema
         city="Holbrooks"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Coventry', 'Bedworth', 'Nuneaton', 'Keresley', 'Longford']}
         geo={{ latitude: 52.438, longitude: -1.498 }}
         postcodes={['CV6']}

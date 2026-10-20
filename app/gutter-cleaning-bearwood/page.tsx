@@ -46,8 +46,8 @@ export default function BearwoodPage() {
       <LocalBusinessSchema
         city="Bearwood"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Smethwick', 'Warley', 'Oldbury', 'Harborne', 'Quinton', 'Edgbaston']}
         geo={{ latitude: 52.478, longitude: -1.969 }}
         postcodes={['B66']}

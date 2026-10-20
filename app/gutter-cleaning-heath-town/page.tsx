@@ -46,8 +46,8 @@ export default function HeathTownPage() {
       <LocalBusinessSchema
         city="Heath Town"
         url={URL_PATH}
-        priceFrom={40}
-        priceTo={95}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Wednesfield', 'New Cross', 'Fallings Park', 'Bushbury']}
         geo={{ latitude: 52.593, longitude: -2.085 }}
         postcodes={['WV10', 'WV2', 'WV10 0', 'WV10 1']}

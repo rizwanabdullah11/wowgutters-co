@@ -134,6 +134,8 @@ AddDefaultCharset UTF-8
   RewriteRule ^services/free-gutter-inspection/?$ /services/gutter-inspection/ [R=301,L]
   RewriteRule ^services/inspection/?$ /services/gutter-inspection/ [R=301,L]
   RewriteRule ^help/inspect/?$ /services/gutter-inspection/ [R=301,L]
+  # No guarantees offered — old keyword page removed (Oct 2026)
+  RewriteRule ^gutter-cleaning-with-guarantee/?$ /services/gutter-cleaning/ [R=301,L]
 
   # Blog slug shorten
   RewriteRule ^blog/birmingham-gutter-maintenance-calendar-seasonal-guide/?$ /blog/birmingham-seasonal-gutter-guide/ [R=301,L]

@@ -32,8 +32,8 @@ export default function TyburnPage() {
       <LocalBusinessSchema
         city="Tyburn"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Castle Vale', 'Erdington', 'Birmingham', 'Minworth', 'Walmley']}
         geo={{ latitude: 52.515, longitude: -1.79 }}
         postcodes={['B35']}

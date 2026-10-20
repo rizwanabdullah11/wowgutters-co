@@ -46,8 +46,8 @@ export default function HawkesleyPage() {
       <LocalBusinessSchema
         city="Hawkesley"
         url={URL_PATH}
-        priceFrom={40}
-        priceTo={95}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Kings Norton', 'Northfield', 'Turves Green', 'Birmingham', 'Longbridge']}
         geo={{ latitude: 52.3980, longitude: -1.9480 }}
         postcodes={['B38']}

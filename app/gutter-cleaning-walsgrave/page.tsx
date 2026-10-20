@@ -46,8 +46,8 @@ export default function WalsgravePage() {
       <LocalBusinessSchema
         city="Walsgrave"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Coventry', 'Wyken', 'Stoke', 'Binley', 'Wood End', 'Hinckley']}
         geo={{ latitude: 52.420, longitude: -1.430 }}
         postcodes={['CV2', 'CV2 1', 'CV2 2', 'CV2 3', 'CV2 5']}

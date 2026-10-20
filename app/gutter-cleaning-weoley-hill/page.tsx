@@ -32,8 +32,8 @@ export default function WeoleyHillPage() {
       <LocalBusinessSchema
         city="Weoley Hill"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Selly Oak', 'Weoley Castle', 'Birmingham', 'Northfield', 'Harborne']}
         geo={{ latitude: 52.435, longitude: -1.945 }}
         postcodes={['B29']}

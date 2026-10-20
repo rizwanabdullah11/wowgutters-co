@@ -46,8 +46,8 @@ export default function WordsleyPage() {
       <LocalBusinessSchema
         city="Wordsley"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Stourbridge', 'Kingswinford', 'Wollaston', 'Brierley Hill', 'Amblecote', 'Norton']}
         geo={{ latitude: 52.472, longitude: -2.113 }}
         postcodes={['DY8', 'DY8 0', 'DY8 3', 'DY8 4']}

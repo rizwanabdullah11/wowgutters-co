@@ -116,7 +116,7 @@ export default function ContactInfoSection() {
               <a href="https://www.youtube.com/@wowgutters" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on YouTube" className="social-pill"><Youtube className="w-5 h-5"/></a>
               <a href="https://twitter.com/wowgutters" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on X/Twitter" className="social-pill"><Twitter className="w-5 h-5"/></a>
               <a href="https://www.instagram.com/wowgutters/" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on Instagram" className="social-pill"><Instagram className="w-5 h-5"/></a>
-              <a href="#" className="social-pill"><MessageCircle className="w-5 h-5"/></a>
+              <a href="https://wa.me/447421433910" target="_blank" rel="noopener noreferrer" aria-label="Message WOW Gutters Ltd on WhatsApp" className="social-pill"><MessageCircle className="w-5 h-5"/></a>
             </div>
           </div>
           

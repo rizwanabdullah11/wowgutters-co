@@ -32,8 +32,8 @@ export default function RoughleyPage() {
       <LocalBusinessSchema
         city="Roughley"
         url={URL_PATH}
-        priceFrom={55}
-        priceTo={125}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Sutton Coldfield', 'Four Oaks', 'Birmingham', 'Mere Green', 'Streetly']}
         geo={{ latitude: 52.57, longitude: -1.84 }}
         postcodes={['B74', 'B75']}

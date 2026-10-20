@@ -46,8 +46,8 @@ export default function HightersHeathPage() {
       <LocalBusinessSchema
         city="Highter's Heath"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={105}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Yardley Wood', 'Kings Heath', 'Hall Green', 'Birmingham', 'Shirley']}
         geo={{ latitude: 52.4150, longitude: -1.8600 }}
         postcodes={['B14']}

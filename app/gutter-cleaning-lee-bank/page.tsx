@@ -46,8 +46,8 @@ export default function LeeBankPage() {
       <LocalBusinessSchema
         city="Lee Bank"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={105}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Birmingham', 'Edgbaston', 'Highgate', 'Ladywood', 'Jewellery Quarter']}
         geo={{ latitude: 52.4700, longitude: -1.9050 }}
         postcodes={['B1', 'B5']}

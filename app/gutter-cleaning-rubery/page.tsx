@@ -46,8 +46,8 @@ export default function RuberyPage() {
       <LocalBusinessSchema
         city="Rubery"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Rednal', 'Longbridge', 'Northfield', 'Birmingham', 'Bromsgrove']}
         geo={{ latitude: 52.3930, longitude: -2.0170 }}
         postcodes={['B45']}

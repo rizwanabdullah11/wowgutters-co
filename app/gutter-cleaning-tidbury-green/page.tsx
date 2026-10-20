@@ -46,8 +46,8 @@ export default function TidburyGreenPage() {
       <LocalBusinessSchema
         city="Tidbury Green"
         url={URL_PATH}
-        priceFrom={60}
-        priceTo={160}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Solihull', 'Dickens Heath', 'Shirley', 'Monkspath']}
         geo={{ latitude: 52.375, longitude: -1.815 }}
         postcodes={['B90']}

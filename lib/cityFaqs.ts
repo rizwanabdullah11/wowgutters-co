@@ -164,7 +164,7 @@ export function buildCitySchemaFaqs({
   return [
     {
       question: `How much does gutter cleaning cost in ${city}?`,
-      answer: `Prices start from £${priceFrom} for a terraced house, £${semiLow}–£${semiHigh} for semi-detached, £${detachedLow}–£${priceTo} for detached. Fixed quote before work starts.`,
+      answer: `Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Fixed quote before work starts.`,
     },
     {
       question: `How often should I have my gutters cleaned in ${city}?`,
@@ -205,8 +205,8 @@ export function buildCityPageFaqs(input: BuildCityFaqsInput): CityFaqItem[] {
   const pairs: Array<{ question: string; schema: string; page: string }> = [
     {
       question: `How much does gutter cleaning cost in ${city}?`,
-      schema: `Prices start from £${priceFrom} for a terraced house, £${semiLow}–£${semiHigh} for semi-detached, £${detachedLow}–£${priceTo} for detached. Fixed quote before work starts.`,
-      page: `Our gutter cleaning prices in ${city} start from £${priceFrom} for a standard terraced house. Semi-detached homes typically range from £${semiLow}–£${semiHigh}, and larger detached properties from £${detachedLow}–£${priceTo}. Commercial properties are priced individually. We provide a fixed, transparent quote before any work starts — no hidden fees, no surprises.`,
+      schema: `Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Fixed quote before work starts.`,
+      page: `Our gutter cleaning prices in ${city} are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Commercial properties are priced individually. We provide a fixed quote before any work starts.`,
     },
     {
       question: `How often should I have my gutters cleaned in ${city}?`,

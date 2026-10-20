@@ -46,8 +46,8 @@ export default function NewOscottPage() {
       <LocalBusinessSchema
         city="New Oscott"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Sutton Coldfield', 'Wylde Green', 'Erdington', 'Birmingham', 'Perry Common']}
         geo={{ latitude: 52.5410, longitude: -1.8450 }}
         postcodes={['B73']}

@@ -46,8 +46,8 @@ export default function ShirleyPage() {
       <LocalBusinessSchema
         city="Shirley"
         url={URL_PATH}
-        priceFrom={55}
-        priceTo={140}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Solihull', 'Olton', 'Hall Green', 'Yardley Wood', 'Cheswick Green', 'Birmingham']}
         geo={{ latitude: 52.4065, longitude: -1.8566 }}
         postcodes={['B90']}

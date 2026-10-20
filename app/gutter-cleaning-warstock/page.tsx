@@ -46,8 +46,8 @@ export default function WarstockPage() {
       <LocalBusinessSchema
         city="Warstock"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={140}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Kings Heath', 'Maypole', 'Yardley Wood', 'Shirley', 'Tidbury Green']}
         geo={{ latitude: 52.411, longitude: -1.864 }}
         postcodes={['B14', 'B14 4', 'B14 5', 'B14 6']}

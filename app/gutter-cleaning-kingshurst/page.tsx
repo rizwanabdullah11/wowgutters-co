@@ -46,8 +46,8 @@ export default function KingshurstPage() {
       <LocalBusinessSchema
         city="Kingshurst"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Chelmsley Wood', 'Fordbridge', 'Marston Green', 'Castle Bromwich', 'Smith\'s Wood']}
         geo={{ latitude: 52.488, longitude: -1.752 }}
         postcodes={['B37', 'B37 5', 'B37 6', 'B37 7']}
