@@ -46,8 +46,8 @@ export default function NorthfieldPage() {
       <LocalBusinessSchema
         city="Northfield"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Longbridge', 'Bournville', 'Birmingham', 'Frankley', 'Rubery']}
         geo={{ latitude: 52.4117, longitude: -1.9633 }}
         postcodes={['B31']}

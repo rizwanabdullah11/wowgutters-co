@@ -32,8 +32,8 @@ export default function PypeHayesPage() {
       <LocalBusinessSchema
         city="Pype Hayes"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Erdington', 'Sutton Coldfield', 'Birmingham', 'Walmley', 'Minworth']}
         geo={{ latitude: 52.52, longitude: -1.83 }}
         postcodes={['B23', 'B24']}

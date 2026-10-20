@@ -46,8 +46,8 @@ export default function HollywoodBirminghamPage() {
       <LocalBusinessSchema
         city="Hollywood"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Wythall', 'Kings Heath', 'Yardley Wood', 'Solihull', 'Redditch']}
         geo={{ latitude: 52.3830, longitude: -1.8630 }}
         postcodes={['B47', 'B14']}

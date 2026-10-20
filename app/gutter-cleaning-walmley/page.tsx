@@ -32,8 +32,8 @@ export default function WalmleyPage() {
       <LocalBusinessSchema
         city="Walmley"
         url={URL_PATH}
-        priceFrom={55}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Sutton Coldfield', 'Minworth', 'Birmingham', 'Erdington', 'Castle Bromwich']}
         geo={{ latitude: 52.54, longitude: -1.79 }}
         postcodes={['B76']}

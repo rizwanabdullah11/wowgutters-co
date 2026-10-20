@@ -46,8 +46,8 @@ export default function StreetlyPage() {
       <LocalBusinessSchema
         city="Streetly"
         url={URL_PATH}
-        priceFrom={60}
-        priceTo={150}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Sutton Coldfield', 'Four Oaks', 'Little Aston', 'Birmingham', 'Walsall', 'Aldridge']}
         geo={{ latitude: 52.5720, longitude: -1.8910 }}
         postcodes={['B74']}

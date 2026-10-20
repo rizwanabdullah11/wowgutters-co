@@ -46,8 +46,8 @@ export default function WittonPage() {
       <LocalBusinessSchema
         city="Witton"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Aston', 'Perry Barr', 'Erdington', 'Birmingham', 'Nechells']}
         geo={{ latitude: 52.5050, longitude: -1.8850 }}
         postcodes={['B6', 'B6 4', 'B6 5', 'B6 6', 'B6 7']}

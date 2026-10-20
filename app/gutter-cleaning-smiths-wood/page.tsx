@@ -46,8 +46,8 @@ export default function SmithsWoodPage() {
       <LocalBusinessSchema
         city="Smiths Wood"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={95}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Chelmsley Wood', 'Kingshurst', 'Fordbridge', 'Castle Vale']}
         geo={{ latitude: 52.495, longitude: -1.750 }}
         postcodes={['B36']}

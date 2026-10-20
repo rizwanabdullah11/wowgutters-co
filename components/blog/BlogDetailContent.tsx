@@ -7,7 +7,6 @@ import type { BlogSummary } from '@/lib/blogSummaries';
 import { colors } from '@/constants/colors';
 import { Calendar, User, Share2, Phone, PenTool, BookOpen } from 'lucide-react';
 import Link from 'next/link';
-import BlogViewCount from '@/components/blog/BlogViewCount';
 import { formatBlogDate } from '@/lib/dateUtils';
 import { resolveBlogImageUrl } from '@/lib/blogImageUrl';
 
@@ -785,9 +784,6 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
                       </p>
                       <div className="flex items-center justify-between text-xs text-gray-500">
                         <span>{formatBlogDate(relatedPost.date)}</span>
-                        <span>
-                          <BlogViewCount postId={relatedPost.id} publishedDate={relatedPost.date} suffix="views" />
-                        </span>
                       </div>
                     </div>
                   </article>

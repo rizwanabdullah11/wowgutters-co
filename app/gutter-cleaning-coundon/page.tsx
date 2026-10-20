@@ -46,8 +46,8 @@ export default function CoundonPage() {
       <LocalBusinessSchema
         city="Coundon"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Coventry', 'Allesley', 'Meriden', 'Berkswell', 'Kenilworth']}
         geo={{ latitude: 52.433, longitude: -1.520 }}
         postcodes={['CV6']}

@@ -46,8 +46,8 @@ export default function WarleyPage() {
       <LocalBusinessSchema
         city="Warley"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Oldbury', 'Bearwood', 'Smethwick', 'Quinton', 'Harborne', 'Halesowen']}
         geo={{ latitude: 52.485, longitude: -1.998 }}
         postcodes={['B68']}

@@ -46,8 +46,8 @@ export default function HodgeHillPage() {
       <LocalBusinessSchema
         city="Hodge Hill"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Stechford', 'Shard End', 'Castle Bromwich', 'Birmingham', 'Erdington']}
         geo={{ latitude: 52.5000, longitude: -1.8000 }}
         postcodes={['B36']}

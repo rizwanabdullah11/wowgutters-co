@@ -32,8 +32,8 @@ export default function WorldsEndPage() {
       <LocalBusinessSchema
         city="Worlds End"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={105}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Alum Rock', 'Small Heath', 'Birmingham', 'Washwood Heath', 'Saltley']}
         geo={{ latitude: 52.48, longitude: -1.845 }}
         postcodes={['B8', 'B10']}

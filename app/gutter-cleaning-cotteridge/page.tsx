@@ -46,8 +46,8 @@ export default function CotteridgePage() {
       <LocalBusinessSchema
         city="Cotteridge"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Bournville', 'Kings Norton', 'Stirchley', 'Selly Oak', 'Birmingham']}
         geo={{ latitude: 52.4200, longitude: -1.9300 }}
         postcodes={['B30']}

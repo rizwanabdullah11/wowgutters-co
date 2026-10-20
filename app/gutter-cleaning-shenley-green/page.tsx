@@ -46,8 +46,8 @@ export default function ShenleyGreenPage() {
       <LocalBusinessSchema
         city="Shenley Green"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Weoley Castle', 'Northfield', 'Kings Norton', 'Selly Oak', 'Birmingham', 'Rubery']}
         geo={{ latitude: 52.4350, longitude: -1.9600 }}
         postcodes={['B29']}

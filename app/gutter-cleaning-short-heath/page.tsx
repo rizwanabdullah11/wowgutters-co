@@ -32,8 +32,8 @@ export default function ShortHeathPage() {
       <LocalBusinessSchema
         city="Short Heath"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Erdington', 'Sutton Coldfield', 'Birmingham', 'Pype Hayes', 'Kingstanding']}
         geo={{ latitude: 52.53, longitude: -1.84 }}
         postcodes={['B23', 'B24']}

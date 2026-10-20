@@ -46,8 +46,8 @@ export default function BournvillePage() {
       <LocalBusinessSchema
         city="Bournville"
         url={URL_PATH}
-        priceFrom={55}
-        priceTo={135}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Cotteridge', 'Stirchley', 'Selly Oak', 'Kings Norton', 'Birmingham']}
         geo={{ latitude: 52.4270, longitude: -1.9360 }}
         postcodes={['B30']}

@@ -46,8 +46,8 @@ export default function DigbethPage() {
       <LocalBusinessSchema
         city="Digbeth"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Birmingham', 'Bordesley Green', 'Small Heath', 'Sparkbrook', 'Deritend']}
         geo={{ latitude: 52.4750, longitude: -1.8800 }}
         postcodes={['B5', 'B9', 'B11', 'B12']}

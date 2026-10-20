@@ -46,8 +46,8 @@ export default function BillesleyPage() {
       <LocalBusinessSchema
         city="Billesley"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Moseley', 'Kings Heath', 'Hall Green', 'Acocks Green', 'Birmingham']}
         geo={{ latitude: 52.4330, longitude: -1.8600 }}
         postcodes={['B13']}

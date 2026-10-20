@@ -46,8 +46,8 @@ export default function FourOaksPage() {
       <LocalBusinessSchema
         city="Four Oaks"
         url={URL_PATH}
-        priceFrom={60}
-        priceTo={140}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Sutton Coldfield', 'Little Aston', 'Mere Green', 'Birmingham', 'Lichfield']}
         geo={{ latitude: 52.5650, longitude: -1.8450 }}
         postcodes={['B74', 'B75']}

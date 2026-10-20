@@ -46,8 +46,8 @@ export default function MaypolePage() {
       <LocalBusinessSchema
         city="Maypole"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={140}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Kings Heath', 'Warstock', 'Yardley Wood', 'Shirley', 'Dickens Heath']}
         geo={{ latitude: 52.400, longitude: -1.844 }}
         postcodes={['B14', 'B14 4', 'B14 5', 'B14 6']}

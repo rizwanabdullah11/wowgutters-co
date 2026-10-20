@@ -46,8 +46,8 @@ export default function HockleyPage() {
       <LocalBusinessSchema
         city="Hockley"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={105}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Birmingham', 'Jewellery Quarter', 'Handsworth', 'Aston', 'Ladywood']}
         geo={{ latitude: 52.4900, longitude: -1.9200 }}
         postcodes={['B18', 'B19']}

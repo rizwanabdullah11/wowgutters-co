@@ -42,6 +42,7 @@ const EXCLUDED_PATHS = new Set([
   '/west-midlands/gutter-cleaning-birmingham/',
   // 301 → / in .htaccess (GSC "Page with redirect")
   '/service-areas/',
+  '/gutter-cleaning-with-guarantee/',
   // Ranking consolidation (Oct 2026) — 301 in .htaccess
   '/gutter-cleaning-birmingham/',
   '/trusted-gutter-cleaners-birmingham/',

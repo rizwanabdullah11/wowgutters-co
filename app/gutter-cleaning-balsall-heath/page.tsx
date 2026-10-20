@@ -46,8 +46,8 @@ export default function BalsallHeathPage() {
       <LocalBusinessSchema
         city="Balsall Heath"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Moseley', 'Sparkbrook', 'Edgbaston', 'Birmingham', 'Highgate']}
         geo={{ latitude: 52.4617, longitude: -1.8883 }}
         postcodes={['B12']}

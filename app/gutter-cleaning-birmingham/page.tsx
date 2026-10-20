@@ -56,8 +56,8 @@ const BIRMINGHAM_POSTCODES = [
 const SCHEMA_FAQS = buildCitySchemaFaqs({
   city: 'Birmingham',
   slug: 'birmingham',
-  priceFrom: 50,
-  priceTo: 120,
+  priceFrom: 100,
+  priceTo: 210,
   postcodes: BIRMINGHAM_POSTCODES,
   nearbyAreas: ['Solihull', 'Sutton Coldfield', 'Wolverhampton', 'Walsall', 'Dudley', 'West Bromwich'],
 })
@@ -68,8 +68,8 @@ export default function BirminghamPage() {
       <LocalBusinessSchema
         city="Birmingham"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Solihull', 'Sutton Coldfield', 'Wolverhampton', 'Walsall', 'Dudley', 'West Bromwich']}
         geo={{ latitude: 52.4862, longitude: -1.8904 }}
         postcodes={BIRMINGHAM_POSTCODES}

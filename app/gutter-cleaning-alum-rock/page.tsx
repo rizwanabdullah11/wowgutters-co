@@ -32,8 +32,8 @@ export default function AlumRockPage() {
       <LocalBusinessSchema
         city="Alum Rock"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={105}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Washwood Heath', 'Ward End', 'Saltley', 'Birmingham', 'Stechford']}
         geo={{ latitude: 52.485, longitude: -1.85 }}
         postcodes={['B8']}

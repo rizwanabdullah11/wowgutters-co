@@ -46,8 +46,8 @@ export default function TurvesGreenPage() {
       <LocalBusinessSchema
         city="Turves Green"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={100}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['West Heath', 'Northfield', 'Longbridge', 'Birmingham', 'Kings Norton', 'Rubery']}
         geo={{ latitude: 52.4030, longitude: -1.9650 }}
         postcodes={['B31']}

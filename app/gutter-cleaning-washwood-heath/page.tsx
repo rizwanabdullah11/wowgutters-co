@@ -46,8 +46,8 @@ export default function WashwoodHeathPage() {
       <LocalBusinessSchema
         city="Washwood Heath"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={100}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Ward End', 'Saltley', 'Hodge Hill', 'Birmingham', 'Aston', 'Nechells']}
         geo={{ latitude: 52.4930, longitude: -1.8450 }}
         postcodes={['B8']}

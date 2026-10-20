@@ -46,8 +46,8 @@ export default function BartleyGreenPage() {
       <LocalBusinessSchema
         city="Bartley Green"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Selly Oak', 'Northfield', 'Halesowen', 'Rubery', 'Birmingham']}
         geo={{ latitude: 52.4350, longitude: -1.9820 }}
         postcodes={['B29']}

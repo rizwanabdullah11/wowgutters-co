@@ -46,8 +46,8 @@ export default function KingsNortonPage() {
       <LocalBusinessSchema
         city="Kings Norton"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={125}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Northfield', 'Bournville', 'Cotteridge', 'Birmingham', 'Redditch']}
         geo={{ latitude: 52.4050, longitude: -1.9283 }}
         postcodes={['B30', 'B38']}

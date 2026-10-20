@@ -32,8 +32,8 @@ export default function HillCrossPage() {
       <LocalBusinessSchema
         city="Hill Cross"
         url={URL_PATH}
-        priceFrom={55}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Sutton Coldfield', 'Maney', 'Walmley', 'Birmingham', 'Erdington']}
         geo={{ latitude: 52.555, longitude: -1.82 }}
         postcodes={['B73', 'B72']}

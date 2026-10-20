@@ -32,8 +32,8 @@ export default function ChadValleyPage() {
       <LocalBusinessSchema
         city="Chad Valley"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Kingstanding', 'Perry Barr', 'Great Barr', 'Birmingham', 'Hamstead']}
         geo={{ latitude: 52.53, longitude: -1.9 }}
         postcodes={['B44', 'B42']}

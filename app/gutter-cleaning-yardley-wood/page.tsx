@@ -46,8 +46,8 @@ export default function YardleyWoodPage() {
       <LocalBusinessSchema
         city="Yardley Wood"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Billesley', 'Kings Heath', 'Hall Green', 'Shirley', 'Warstock', 'Solihull']}
         geo={{ latitude: 52.4120, longitude: -1.8530 }}
         postcodes={['B14']}

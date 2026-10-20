@@ -46,8 +46,8 @@ export default function ElmdonPage() {
       <LocalBusinessSchema
         city="Elmdon"
         url={URL_PATH}
-        priceFrom={55}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Solihull', 'Birmingham', 'Sheldon', 'Marston Green']}
         geo={{ latitude: 52.445, longitude: -1.760 }}
         postcodes={['B26']}

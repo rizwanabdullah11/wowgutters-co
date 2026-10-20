@@ -46,8 +46,8 @@ export default function JewelleryQuarterPage() {
       <LocalBusinessSchema
         city="Jewellery Quarter"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Birmingham', 'Hockley', 'Ladywood', 'Edgbaston', 'Lee Bank']}
         geo={{ latitude: 52.4850, longitude: -1.9150 }}
         postcodes={['B1', 'B3', 'B4', 'B18']}

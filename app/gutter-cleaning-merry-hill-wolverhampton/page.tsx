@@ -46,8 +46,8 @@ export default function MerryHillWolverhamptonPage() {
       <LocalBusinessSchema
         city="Merry Hill"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Tettenhall', 'Compton', 'Finchfield', 'Newbridge', 'Wightwick']}
         geo={{ latitude: 52.587, longitude: -2.155 }}
         postcodes={['WV6', 'WV6 0', 'WV6 1', 'WV6 2']}

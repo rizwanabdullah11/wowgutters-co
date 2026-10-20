@@ -32,8 +32,8 @@ export default function KingEdwardPage() {
       <LocalBusinessSchema
         city="King Edward"
         url={URL_PATH}
-        priceFrom={55}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Ladywood', 'Edgbaston', 'Birmingham', 'Harborne', 'Jewellery Quarter']}
         geo={{ latitude: 52.475, longitude: -1.92 }}
         postcodes={['B1', 'B16']}

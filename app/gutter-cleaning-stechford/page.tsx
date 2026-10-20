@@ -46,8 +46,8 @@ export default function StechfordPage() {
       <LocalBusinessSchema
         city="Stechford"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Yardley', 'Shard End', 'Acocks Green', 'Birmingham', 'Sheldon', 'Hodge Hill']}
         geo={{ latitude: 52.4817, longitude: -1.8017 }}
         postcodes={['B33']}

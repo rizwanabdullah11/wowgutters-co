@@ -46,8 +46,8 @@ export default function PerryBarrPage() {
       <LocalBusinessSchema
         city="Perry Barr"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Great Barr', 'Handsworth', 'Kingstanding', 'Birmingham', 'Walsall']}
         geo={{ latitude: 52.5267, longitude: -1.9083 }}
         postcodes={['B42', 'B42 1', 'B42 2', 'B42 8', 'B42 9']}

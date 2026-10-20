@@ -32,8 +32,8 @@ export default function NewtownPage() {
       <LocalBusinessSchema
         city="Newtown"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={105}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Aston', 'Birmingham', 'Hockley', 'Ladywood', 'Winson Green']}
         geo={{ latitude: 52.495, longitude: -1.905 }}
         postcodes={['B19']}

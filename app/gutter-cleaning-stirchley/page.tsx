@@ -46,8 +46,8 @@ export default function StirchleyPage() {
       <LocalBusinessSchema
         city="Stirchley"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Bournville', 'Kings Heath', 'Selly Park', 'Birmingham', 'Cotteridge', 'Kings Norton']}
         geo={{ latitude: 52.4286, longitude: -1.9181 }}
         postcodes={['B30']}

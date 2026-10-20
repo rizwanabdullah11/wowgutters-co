@@ -46,8 +46,8 @@ export default function KingstandingPage() {
       <LocalBusinessSchema
         city="Kingstanding"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Great Barr', 'Perry Barr', 'Erdington', 'Birmingham', 'Sutton Coldfield']}
         geo={{ latitude: 52.5383, longitude: -1.8817 }}
         postcodes={['B44']}

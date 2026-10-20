@@ -46,8 +46,8 @@ export default function SheldonPage() {
       <LocalBusinessSchema
         city="Sheldon"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Yardley', 'Stechford', 'Solihull', 'Marston Green', 'Birmingham', 'Elmdon']}
         geo={{ latitude: 52.4590, longitude: -1.7780 }}
         postcodes={['B26']}

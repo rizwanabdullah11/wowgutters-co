@@ -46,8 +46,8 @@ export default function MinworthPage() {
       <LocalBusinessSchema
         city="Minworth"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Sutton Coldfield', 'Walmley', 'Castle Vale', 'Birmingham', 'Erdington']}
         geo={{ latitude: 52.5280, longitude: -1.7850 }}
         postcodes={['B76']}

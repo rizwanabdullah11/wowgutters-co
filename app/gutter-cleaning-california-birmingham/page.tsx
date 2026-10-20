@@ -46,8 +46,8 @@ export default function CaliforniaBirminghamPage() {
       <LocalBusinessSchema
         city="California"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Frankley', 'Rubery', 'Longbridge', 'Halesowen', 'Birmingham']}
         geo={{ latitude: 52.4050, longitude: -2.0000 }}
         postcodes={['B31', 'B45']}

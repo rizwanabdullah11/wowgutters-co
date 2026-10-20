@@ -46,8 +46,8 @@ export default function HayMillsPage() {
       <LocalBusinessSchema
         city="Hay Mills"
         url={URL_PATH}
-        priceFrom={40}
-        priceTo={95}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Yardley', 'Bordesley Green', 'Birmingham', 'Small Heath', 'Acocks Green']}
         geo={{ latitude: 52.4650, longitude: -1.8300 }}
         postcodes={['B25']}

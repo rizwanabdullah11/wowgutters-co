@@ -46,8 +46,8 @@ export default function GravellyHillPage() {
       <LocalBusinessSchema
         city="Gravelly Hill"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Erdington', 'Witton', 'Aston', 'Birmingham', 'Stockland Green']}
         geo={{ latitude: 52.5150, longitude: -1.8550 }}
         postcodes={['B23', 'B24']}

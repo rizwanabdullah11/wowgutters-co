@@ -46,8 +46,8 @@ export default function SolihullLodgePage() {
       <LocalBusinessSchema
         city="Solihull Lodge"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={140}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Shirley', 'Monkspath', 'Cheswick Green', 'Dickens Heath']}
         geo={{ latitude: 52.385, longitude: -1.825 }}
         postcodes={['B90']}

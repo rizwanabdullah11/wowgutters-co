@@ -53,7 +53,7 @@ export default function GutterCleaningBedworthPage() {
       <LocalBusinessSchema
         city="Bedworth"
         url={URL_PATH}
-        priceFrom={55}
+        priceFrom={100}
         priceTo={landingData.priceTo ?? 130}
         nearbyAreas={landingData.nearbyAreas ?? []}
         geo={landingData.geo}

@@ -46,8 +46,8 @@ export default function NechellsPage() {
       <LocalBusinessSchema
         city="Nechells"
         url={URL_PATH}
-        priceFrom={40}
-        priceTo={95}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Aston', 'Saltley', 'Washwood Heath', 'Birmingham', 'Ward End']}
         geo={{ latitude: 52.4950, longitude: -1.8680 }}
         postcodes={['B7', 'B7 4', 'B7 5', 'B7 6', 'B7 7', 'B7 8', 'B7 9']}

@@ -46,8 +46,8 @@ export default function QuintonPage() {
       <LocalBusinessSchema
         city="Quinton"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Harborne', 'Bartley Green', 'Halesowen', 'Birmingham', 'Edgbaston']}
         geo={{ latitude: 52.4580, longitude: -1.9900 }}
         postcodes={['B32']}

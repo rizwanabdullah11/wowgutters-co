@@ -46,8 +46,8 @@ export default function SouthYardleyPage() {
       <LocalBusinessSchema
         city="South Yardley"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Yardley', 'Acocks Green', 'Sheldon', 'Hall Green', 'Tyseley']}
         geo={{ latitude: 52.470, longitude: -1.820 }}
         postcodes={['B25', 'B26']}

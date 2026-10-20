@@ -46,8 +46,8 @@ export default function LadywoodPage() {
       <LocalBusinessSchema
         city="Ladywood"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={105}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Birmingham', 'Edgbaston', 'Harborne', 'Jewellery Quarter', 'Broad Street']}
         geo={{ latitude: 52.4750, longitude: -1.9200 }}
         postcodes={['B16']}

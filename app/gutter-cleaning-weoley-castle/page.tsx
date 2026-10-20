@@ -46,8 +46,8 @@ export default function WeoleyCastlePage() {
       <LocalBusinessSchema
         city="Weoley Castle"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Selly Oak', 'Harborne', 'Bartley Green', 'Northfield', 'Kings Norton']}
         geo={{ latitude: 52.4370, longitude: -1.9700 }}
         postcodes={['B29', 'B29 5', 'B29 6']}

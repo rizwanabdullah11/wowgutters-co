@@ -46,8 +46,8 @@ export default function FordbridgePage() {
       <LocalBusinessSchema
         city="Fordbridge"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Kingshurst', 'Chelmsley Wood', 'Marston Green', 'Smith\'s Wood', 'Castle Bromwich', 'Coleshill Heath']}
         geo={{ latitude: 52.492, longitude: -1.753 }}
         postcodes={['B37', 'B37 5', 'B37 6', 'B37 7']}

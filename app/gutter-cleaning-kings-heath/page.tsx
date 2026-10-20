@@ -22,14 +22,14 @@ export default function KingsHeathPage() {
       <LocalBusinessSchema
         city="Kings Heath"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Moseley', 'Hall Green', 'Stirchley', 'Birmingham', 'Yardley Wood']}
         geo={{ latitude: 52.4333, longitude: -1.8917 }}
         postcodes={['B14']}
         faqs={data.faqs}
       />
-      <CityGutterCleaningPage data={data} priceFrom={50} priceTo={120} />
+      <CityGutterCleaningPage data={data} priceFrom={100} priceTo={210} />
     </>
   )
 }

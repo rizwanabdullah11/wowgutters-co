@@ -46,8 +46,8 @@ export default function WardEndPage() {
       <LocalBusinessSchema
         city="Ward End"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={100}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Stechford', 'Bordesley Green', 'Hodge Hill', 'Birmingham', 'Shard End', 'Saltley']}
         geo={{ latitude: 52.4900, longitude: -1.8330 }}
         postcodes={['B8', 'B34']}

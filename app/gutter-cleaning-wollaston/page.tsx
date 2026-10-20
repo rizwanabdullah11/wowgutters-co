@@ -46,8 +46,8 @@ export default function WollastonPage() {
       <LocalBusinessSchema
         city="Wollaston"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={115}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Stourbridge', 'Amblecote', 'Norton', 'Wordsley', 'Kingswinford', 'Pensnett']}
         geo={{ latitude: 52.462, longitude: -2.137 }}
         postcodes={['DY8']}

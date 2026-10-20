@@ -54,8 +54,8 @@ const DERBY_POSTCODES = [
 const SCHEMA_FAQS = buildCitySchemaFaqs({
   city: 'Derby',
   slug: 'derby',
-  priceFrom: 50,
-  priceTo: 120,
+  priceFrom: 100,
+  priceTo: 210,
   postcodes: DERBY_POSTCODES,
   nearbyAreas: ['Nottingham', 'Burton upon Trent', 'Chesterfield', 'Mansfield', 'Long Eaton', 'Swadlincote'],
 })
@@ -66,8 +66,8 @@ export default function DerbyPage() {
       <LocalBusinessSchema
         city="Derby"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={120}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Nottingham', 'Burton upon Trent', 'Chesterfield', 'Mansfield', 'Long Eaton', 'Swadlincote']}
         geo={{ latitude: 52.9225, longitude: -1.4746 }}
         postcodes={DERBY_POSTCODES}

@@ -46,8 +46,8 @@ export default function RottenParkPage() {
       <LocalBusinessSchema
         city="Rotten Park"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Ladywood', 'Edgbaston', 'Jewellery Quarter', 'Lee Bank', 'Winson Green', 'Hockley']}
         geo={{ latitude: 52.475, longitude: -1.918 }}
         postcodes={['B16', 'B16 0', 'B16 8', 'B16 9']}

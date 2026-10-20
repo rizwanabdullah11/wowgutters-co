@@ -46,8 +46,8 @@ export default function WhitmoreReansPage() {
       <LocalBusinessSchema
         city="Whitmore Reans"
         url={URL_PATH}
-        priceFrom={40}
-        priceTo={100}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Dunstall Park', 'Tettenhall', 'Penn', 'Newbridge', 'Fallings Park']}
         geo={{ latitude: 52.593, longitude: -2.124 }}
         postcodes={['WV1', 'WV6', 'WV1 0', 'WV1 1']}

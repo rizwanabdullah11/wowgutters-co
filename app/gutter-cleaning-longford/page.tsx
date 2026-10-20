@@ -46,8 +46,8 @@ export default function LongfordPage() {
       <LocalBusinessSchema
         city="Longford"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Coventry', 'Holbrooks', 'Wood End', 'Bell Green', 'Bedworth', 'Foleshill']}
         geo={{ latitude: 52.440, longitude: -1.460 }}
         postcodes={['CV6', 'CV6 1', 'CV6 3', 'CV6 5', 'CV6 6']}

@@ -46,8 +46,8 @@ export default function MoseleyPage() {
       <LocalBusinessSchema
         city="Moseley"
         url={URL_PATH}
-        priceFrom={55}
-        priceTo={140}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Kings Heath', 'Balsall Heath', 'Sparkhill', 'Stirchley', 'Edgbaston', 'Hall Green']}
         geo={{ latitude: 52.4479, longitude: -1.8831 }}
         postcodes={['B13', 'B13 0', 'B13 8', 'B13 9']}

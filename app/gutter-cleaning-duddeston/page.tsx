@@ -46,8 +46,8 @@ export default function DuddestonPage() {
       <LocalBusinessSchema
         city="Duddeston"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={110}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Nechells', 'Saltley', 'Aston', 'Birmingham', 'Vauxhall']}
         geo={{ latitude: 52.492, longitude: -1.875 }}
         postcodes={['B7']}

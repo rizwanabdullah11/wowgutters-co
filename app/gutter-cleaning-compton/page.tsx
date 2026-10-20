@@ -46,8 +46,8 @@ export default function ComptonPage() {
       <LocalBusinessSchema
         city="Compton"
         url={URL_PATH}
-        priceFrom={50}
-        priceTo={130}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Wolverhampton', 'Tettenhall', 'Finchfield', 'Penn', 'Merridale', 'Claregate']}
         geo={{ latitude: 52.597, longitude: -2.125 }}
         postcodes={['WV3', 'WV3 7', 'WV3 8', 'WV3 9']}

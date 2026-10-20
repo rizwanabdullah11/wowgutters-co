@@ -46,8 +46,8 @@ export default function GreatBridgePage() {
       <LocalBusinessSchema
         city="Great Bridge"
         url={URL_PATH}
-        priceFrom={45}
-        priceTo={100}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['West Bromwich', 'Tipton', 'Dudley', 'Oldbury', 'Wednesbury', 'Rowley Regis']}
         geo={{ latitude: 52.528, longitude: -2.038 }}
         postcodes={['DY4']}

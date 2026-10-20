@@ -46,8 +46,8 @@ export default function LozellsPage() {
       <LocalBusinessSchema
         city="Lozells"
         url={URL_PATH}
-        priceFrom={40}
-        priceTo={95}
+        priceFrom={100}
+        priceTo={210}
         nearbyAreas={['Handsworth', 'Aston', 'Birmingham', 'Perry Barr', 'Witton']}
         geo={{ latitude: 52.5000, longitude: -1.9000 }}
         postcodes={['B19']}
