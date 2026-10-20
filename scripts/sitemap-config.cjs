@@ -15,7 +15,11 @@ const EXCLUDED_AREA_SLUGS = new Set([
   'wendover',
 ]);
 
+const KEYWORD_REDIRECTS = require('../lib/keyword-redirects.json');
 const EXCLUDED_PATHS = new Set([
+  // Day-1 consolidation: redirected / removed keyword pages
+  ...Object.keys(KEYWORD_REDIRECTS.redirects).map((slug) => `/${slug}/`),
+  ...Object.keys(KEYWORD_REDIRECTS.staticPages).map((slug) => `/${slug}/`),
   '/contact-us/',
   '/about-us/',
   '/gutters-cleaning/',
