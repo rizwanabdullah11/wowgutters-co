@@ -26,10 +26,10 @@ const ctaBox = `
 export const birminghamHeavyRainfallDamageBlogPost: BlogPost = {
   id: 'birmingham-rain-gutter-damage',
   seoTitle:
-    "How Birmingham's Heavy Rainfall Can Damage Your Home Through Blocked Gutters | Wow Gutters Ltd",
+    "How Birmingham's Heavy Rainfall Can Damage Your Home Through Blocked Gutters | WOW Gutters Ltd",
   title: "How Birmingham's Heavy Rainfall Can Damage Your Home Through Blocked Gutters",
   excerpt:
-    "Discover exactly how Birmingham's heavy rainfall causes damage through blocked gutters — from brickwork saturation to foundation risk. Wow Gutters Ltd explains and prevents it. Call 07421 433910.",
+    "Discover exactly how Birmingham's heavy rainfall causes damage through blocked gutters — from brickwork saturation to foundation risk. WOW Gutters Ltd explains and prevents it. Call 07421 433910.",
   image: IMG_HERO,
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-22',
@@ -292,7 +292,7 @@ ${ctaBox}
 
 <p>This is why professional gutter cleaning is not simply a maintenance task. On a Birmingham property in the West Midlands' rainfall climate, it is the intervention that interrupts five simultaneous damage mechanisms — every one of which is active during every significant rainfall event on a property whose gutters are blocked.</p>
 
-<p><a href="/help/unblock/" style="${link}">Professional gutter cleaning service</a> from <a href="https://wowgutters.co.uk" style="${link}">Wow Gutters Ltd</a> addresses every component of the drainage system in a single visit:</p>
+<p><a href="/help/unblock/" style="${link}">Professional gutter cleaning service</a> from <a href="https://wowgutters.co.uk" style="${link}">WOW Gutters Ltd</a> addresses every component of the drainage system in a single visit:</p>
 
 <p>The full channel length is vacuumed using our industrial SkyVac system — extracting the compacted debris base that causes Mechanism 1 and Mechanism 4 to operate — as well as the surface debris above it. Every downpipe is tested and cleared, eliminating Mechanism 3. The flow test before we leave confirms the drainage path is fully restored, removing the standing water conditions that drive Mechanism 4. Learn more about our <a href="/blog/ladder-free-gutter-cleaning/" style="${link}">ladder-free gutter cleaning method</a> and why ground-level clearance matters on two-storey Birmingham properties.</p>
 
@@ -336,7 +336,7 @@ ${ctaBox}
 </figure>
 
 <figure style="margin: 20px 0;">
-  <img src="${IMG_AFTER}" alt="Clean clear gutter after professional service Birmingham Wow Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="${IMG_AFTER}" alt="Clean clear gutter after professional service Birmingham WOW Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">After: Fully cleared gutter channel — controlled drainage path restored, all mechanisms interrupted.</figcaption>
 </figure>
 
@@ -379,7 +379,7 @@ ${ctaBox}
 
 <p>The five mechanisms described in this post are not hypothetical. They are operating on thousands of Birmingham properties right now — quietly, progressively, and at a cost that increases with every rainfall event that passes without the blockage being cleared.</p>
 
-<p><a href="https://wowgutters.co.uk" style="${link}">Wow Gutters Ltd</a> covers all of Birmingham and the West Midlands. Industrial vacuum system. Ground-based method. Before and after photographs on every job. Written condition report on everything observed. View our <a href="/services/" style="${link}">full services range</a>, <a href="/pricing/" style="${link}">pricing guide</a>, and <a href="/reviews/" style="${link}">customer reviews</a>.</p>
+<p><a href="https://wowgutters.co.uk" style="${link}">WOW Gutters Ltd</a> covers all of Birmingham and the West Midlands. Industrial vacuum system. Ground-based method. Before and after photographs on every job. Written condition report on everything observed. View our <a href="/services/" style="${link}">full services range</a>, <a href="/pricing/" style="${link}">pricing guide</a>, and <a href="/reviews/" style="${link}">customer reviews</a>.</p>
 
 <p>One visit interrupts every mechanism simultaneously. Call us today.</p>
 
@@ -396,7 +396,7 @@ Open 24 hours a day, 7 days a week</p>
 
 <p>The mechanisms are preventable. The intervention is straightforward. And the cost of prevention is a fraction of the cost of remediation at any stage of the damage progression.</p>
 
-<p><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a> — call Wow Gutters Ltd today and stop the mechanisms before the next heavy rainfall arrives.</p>
+<p><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a> — call WOW Gutters Ltd today and stop the mechanisms before the next heavy rainfall arrives.</p>
 
 <h2>Related Guides</h2>
 <ul>

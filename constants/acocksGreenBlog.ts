@@ -18,10 +18,10 @@ const ctaBox = `
 
 export const acocksGreenBlogPost: BlogPost = {
   id: 'gutter-cleaning-acocks-green',
-  seoTitle: 'Gutter Cleaning Acocks Green B27 Birmingham | Wow Gutters Ltd',
+  seoTitle: 'Gutter Cleaning Acocks Green B27 Birmingham | WOW Gutters Ltd',
   title: 'Gutter Cleaning in Acocks Green B27 — Fast, Reliable, and Done Properly',
   excerpt:
-    'Blocked gutters in Acocks Green B27? Wow Gutters Ltd provides professional vacuum gutter cleaning across all B27 streets. No ladders. Before & after photos. Call 07421 433910.',
+    'Blocked gutters in Acocks Green B27? WOW Gutters Ltd provides professional vacuum gutter cleaning across all B27 streets. No ladders. Before & after photos. Call 07421 433910.',
   image: '/gutter-cleaning-acocks-green-hero.webp',
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-05',
@@ -60,7 +60,7 @@ export const acocksGreenBlogPost: BlogPost = {
   <li><a href="#every-visit" style="${link}">What We Do on Every Visit</a></li>
   <li><a href="#landlords" style="${link}">Landlords and Rental Properties in Acocks Green</a></li>
   <li><a href="#areas" style="${link}">Areas We Cover Around B27</a></li>
-  <li><a href="#why-choose" style="${link}">What Sets Wow Gutters Apart in B27</a></li>
+  <li><a href="#why-choose" style="${link}">What Sets WOW Gutters Apart in B27</a></li>
   <li><a href="#before-after" style="${link}">Before and After — Acocks Green B27</a></li>
   <li><a href="#faq" style="${link}">Frequently Asked Questions</a></li>
 </ul>
@@ -92,7 +92,7 @@ export const acocksGreenBlogPost: BlogPost = {
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>🔔 Recognise any of these at your B27 property?</strong><br/>
   Don't leave it another season. Each one gets more expensive to deal with the longer it sits.<br/>
-  📞 Call Wow Gutters now: <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
+  📞 Call WOW Gutters now: <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
   Or WhatsApp us: <a href="https://wa.me/447421433910" style="${link}" rel="noopener">wa.me/447421433910</a>
 </blockquote>
 
@@ -130,7 +130,7 @@ export const acocksGreenBlogPost: BlogPost = {
 </figure>
 
 <figure style="margin: 20px 0;">
-  <img src="/gutter-cleaning-acocks-green-after.webp" alt="After professional gutter cleaning Acocks Green B27 Wow Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="/gutter-cleaning-acocks-green-after.webp" alt="After professional gutter cleaning Acocks Green B27 WOW Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">After: The same gutter run fully cleared — channel open, downpipe flowing, before and after photos sent the same day.</figcaption>
 </figure>
 
@@ -180,7 +180,7 @@ ${ctaBox}
 
 <p>Not certain we cover your street? Call <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a> and we'll confirm straight away.</p>
 
-<h2 id="why-choose">What Sets Wow Gutters Apart in B27</h2>
+<h2 id="why-choose">What Sets WOW Gutters Apart in B27</h2>
 
 <ul>
   <li><strong>We photograph every job without being asked.</strong> Before and after. Every time. Not on request — on every single visit.</li>

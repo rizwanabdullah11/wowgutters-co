@@ -2,10 +2,10 @@ import type { BlogPost } from './blogTypes';
 
 export const sellyOakBlogPost: BlogPost = {
   id: 'gutter-cleaning-selly-oak',
-  seoTitle: 'Gutter Cleaning Selly Oak B29 Birmingham | Wow Gutters Ltd',
+  seoTitle: 'Gutter Cleaning Selly Oak B29 Birmingham | WOW Gutters Ltd',
   title: 'Gutter Cleaning in Selly Oak B29 — Local, Reliable & Professional',
   excerpt:
-    'Professional gutter cleaning in Selly Oak B29. Wow Gutters Ltd covers all B29 streets — vacuum system, no ladders, before & after photos on every job. Free quote: 07421 433910.',
+    'Professional gutter cleaning in Selly Oak B29. WOW Gutters Ltd covers all B29 streets — vacuum system, no ladders, before & after photos on every job. Free quote: 07421 433910.',
   image: '/selly-oak-gutter-cleaning-hero.webp',
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-02',
@@ -79,7 +79,7 @@ export const sellyOakBlogPost: BlogPost = {
 <figure style="margin: 20px 0;">
   <img
     src="/selly-oak-gutter-cleaning-after.webp"
-    alt="Clean gutter after professional clearing Selly Oak Birmingham Wow Gutters Ltd"
+    alt="Clean gutter after professional clearing Selly Oak Birmingham WOW Gutters Ltd"
     width="1280"
     height="720"
     loading="lazy"

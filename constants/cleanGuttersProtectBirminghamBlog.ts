@@ -28,7 +28,7 @@ export const cleanGuttersProtectBirminghamBlogPost: BlogPost = {
   seoTitle: 'Clean Gutters Prevent Damp & Water Damage Birmingham',
   title: 'How Clean Gutters Help Protect Birmingham Homes from Damp and Water Damage',
   excerpt:
-    'Find out how clean gutters protect Birmingham homes from damp and water damage. Expert guide from Wow Gutters Ltd — your local West Midlands gutter specialists. Call 07421 433910.',
+    'Find out how clean gutters protect Birmingham homes from damp and water damage. Expert guide from WOW Gutters Ltd — your local West Midlands gutter specialists. Call 07421 433910.',
   image: IMG_HERO,
   date: '2026-07-08',
   views: '0',
@@ -91,7 +91,7 @@ export const cleanGuttersProtectBirminghamBlogPost: BlogPost = {
   <li><a href="#spotting-connection" style="${link}">Spotting the Connection Between Your Gutters and Your Damp Problem</a></li>
   <li><a href="#seasonal-calendar" style="${link}">The Seasonal Damp Protection Calendar for Birmingham Homeowners</a></li>
   <li><a href="#professional-vs-diy" style="${link}">Why Professional Cleaning Outperforms DIY for Damp Prevention</a></li>
-  <li><a href="#every-visit" style="${link}">What Wow Gutters Ltd Does on Every Visit</a></li>
+  <li><a href="#every-visit" style="${link}">What WOW Gutters Ltd Does on Every Visit</a></li>
   <li><a href="#areas-we-cover" style="${link}">Areas We Cover</a></li>
   <li><a href="#faq" style="${link}">Frequently Asked Questions — Gutters, Damp, and Water Damage in Birmingham</a></li>
   <li><a href="#protect-today" style="${link}">Protect Your Birmingham Home from Damp Today</a></li>
@@ -159,7 +159,7 @@ export const cleanGuttersProtectBirminghamBlogPost: BlogPost = {
 
 <p>A blocked downpipe delivers the full roof drainage volume to the soil at the building's base — directly adjacent to the foundation structure. In Birmingham's clay-heavy soils, this repeated concentrated water delivery softens the foundation zone, creating the differential soil conditions that contribute to structural movement over extended periods.</p>
 
-<p>Clean gutters and clear downpipes deliver that drainage volume to a controlled exit point — the drain — keeping the foundation zone soil at its normal moisture equilibrium. Downpipe clearance is included as standard on every Wow Gutters Ltd visit, because a clear channel serving a blocked downpipe is not a functioning damp defence system.</p>
+<p>Clean gutters and clear downpipes deliver that drainage volume to a controlled exit point — the drain — keeping the foundation zone soil at its normal moisture equilibrium. Downpipe clearance is included as standard on every WOW Gutters Ltd visit, because a clear channel serving a blocked downpipe is not a functioning damp defence system.</p>
 
 <h3>Defence Five — Maintaining Fascia Board Integrity</h3>
 
@@ -191,7 +191,7 @@ export const cleanGuttersProtectBirminghamBlogPost: BlogPost = {
 
 <p><strong>A cleared channel on a moss-covered roof is not a permanently maintained damp defence system.</strong> Without treating the roof tile surface that is actively supplying moss fragments to the channel, the cleared channel begins reaccumulating the blockage that clears it within weeks of the professional visit. Combined roof treatment and professional gutter cleaning provides the complete damp defence cycle — not just the single-event clearance.</p>
 
-<p>The Wow Gutters Ltd professional process addresses all of these elements on every visit. Full channel vacuum clearance including the compacted silt base. End-to-end downpipe clearance and flow confirmation. Joint condition assessment and written reporting. Before and after photographs documenting the complete system condition. The result is an active damp defence system — not simply a cleaner-looking gutter.</p>
+<p>The WOW Gutters Ltd professional process addresses all of these elements on every visit. Full channel vacuum clearance including the compacted silt base. End-to-end downpipe clearance and flow confirmation. Joint condition assessment and written reporting. Before and after photographs documenting the complete system condition. The result is an active damp defence system — not simply a cleaner-looking gutter.</p>
 
 <h2 id="most-at-risk">5. Which Birmingham Properties Are Most at Risk from Gutter-Related Damp</h2>
 
@@ -358,9 +358,9 @@ export const cleanGuttersProtectBirminghamBlogPost: BlogPost = {
 
 <p>An intermediate blockage within a downpipe — invisible from any external position — produces identical overflow and damp consequences to a channel blockage, but is not addressable by any approach that does not include a full-length downpipe clearance procedure. Our end-to-end downpipe testing and clearance on every visit is what eliminates this hidden damp source.</p>
 
-<h2 id="every-visit">10. What Wow Gutters Ltd Does on Every Visit</h2>
+<h2 id="every-visit">10. What WOW Gutters Ltd Does on Every Visit</h2>
 
-<p>Every <a href="/gutter-cleaning-birmingham/" style="${link}">gutter cleaning Birmingham</a> visit from Wow Gutters Ltd delivers the complete damp defence restoration:</p>
+<p>Every <a href="/gutter-cleaning-birmingham/" style="${link}">gutter cleaning Birmingham</a> visit from WOW Gutters Ltd delivers the complete damp defence restoration:</p>
 
 <ul>
   <li>✅ Industrial SkyVac vacuum clearance — full channel depth, front, rear, and extension runs. No ladder contacts your property at any point. Ground-based method to four storeys.</li>
@@ -386,7 +386,7 @@ ${ctaBox}
 
 <h2 id="areas-we-cover">11. Areas We Cover</h2>
 
-<p><a href="https://wowgutters.co.uk" style="${link}">Wow Gutters Ltd</a> provides professional gutter cleaning and damp protection services across:</p>
+<p><a href="https://wowgutters.co.uk" style="${link}">WOW Gutters Ltd</a> provides professional gutter cleaning and damp protection services across:</p>
 
 <p><strong>Birmingham:</strong> All city postcodes — B1 through B45 including all residential areas</p>
 <p><strong>West Midlands:</strong> Solihull · Sutton Coldfield · Wolverhampton · Walsall · Dudley · West Bromwich · Smethwick</p>
@@ -509,7 +509,7 @@ ${ctaBox}
 
 <p>The cost of the damp that overflow produces — the investigation, the treatment, the replastering, the redecorating, the timber assessment, the insurance complication — is multiple times more.</p>
 
-<p><a href="https://wowgutters.co.uk" style="${link}">Wow Gutters Ltd</a> provides professional gutter cleaning and damp prevention services across Birmingham and the full West Midlands. Industrial SkyVac vacuum system from ground level — no ladders. Before and after photographs on every job. Written condition report documenting every developing issue. Thorough water flow testing on every visit.</p>
+<p><a href="https://wowgutters.co.uk" style="${link}">WOW Gutters Ltd</a> provides professional gutter cleaning and damp prevention services across Birmingham and the full West Midlands. Industrial SkyVac vacuum system from ground level — no ladders. Before and after photographs on every job. Written condition report documenting every developing issue. Thorough water flow testing on every visit.</p>
 
 <p>Call today and restore the damp defence your property deserves.</p>
 
@@ -527,6 +527,6 @@ We cover: Birmingham · Solihull · Sutton Coldfield · Wolverhampton · Walsall
 
 <p>Professional gutter cleaning is the intervention that restores all six. Not partially. Not temporarily. Completely — with photographic evidence, a written condition report, and a confirmed drainage path before the team leaves your property.</p>
 
-<p><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a> — call Wow Gutters Ltd today and protect your Birmingham home from damp before the next rainfall makes it more expensive not to.</p>
+<p><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a> — call WOW Gutters Ltd today and protect your Birmingham home from damp before the next rainfall makes it more expensive not to.</p>
   `,
 };

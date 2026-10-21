@@ -25,10 +25,10 @@ const ctaBox = `
 
 export const balsallHeathBlogPost: BlogPost = {
   id: 'gutter-cleaning-balsall-heath',
-  seoTitle: 'Gutter Cleaning Balsall Heath B12 Birmingham | Wow Gutters Ltd',
+  seoTitle: 'Gutter Cleaning Balsall Heath B12 Birmingham | WOW Gutters Ltd',
   title: 'Gutter Cleaning in Balsall Heath B12 — Professional Care for a Neighbourhood Worth Protecting',
   excerpt:
-    'Professional gutter cleaning in Balsall Heath B12. Wow Gutters Ltd — industrial vacuum system, no ladders, before & after photos on every job. Fully insured. Free quote: 07421 433910.',
+    'Professional gutter cleaning in Balsall Heath B12. WOW Gutters Ltd — industrial vacuum system, no ladders, before & after photos on every job. Fully insured. Free quote: 07421 433910.',
   image: IMG_HERO,
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-09',
@@ -251,7 +251,7 @@ ${ctaBox}
 </figure>
 
 <figure style="margin: 20px 0;">
-  <img src="${IMG_AFTER}" alt="After professional gutter cleaning Balsall Heath B12 Wow Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="${IMG_AFTER}" alt="After professional gutter cleaning Balsall Heath B12 WOW Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">After: Clean gutter channel on a Balsall Heath terrace — fully cleared, downpipe flowing, documented with same-day before and after photos.</figcaption>
 </figure>
 

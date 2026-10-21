@@ -23,10 +23,10 @@ const ctaBox = `
 export const gutterInspectionSaveBirminghamBlogPost: BlogPost = {
   id: 'birmingham-gutter-inspection',
   seoTitle:
-    'How a Simple Gutter Inspection Can Save Birmingham Homeowners Thousands | Wow Gutters Ltd',
+    'How a Simple Gutter Inspection Can Save Birmingham Homeowners Thousands | WOW Gutters Ltd',
   title: 'How a Simple Gutter Inspection Can Save Birmingham Homeowners Thousands',
   excerpt:
-    'A professional gutter inspection in Birmingham reveals what\'s quietly damaging your property before it becomes expensive. Wow Gutters Ltd — full inspection, condition report, before & after photos. Call 07421 433910.',
+    'A professional gutter inspection in Birmingham reveals what\'s quietly damaging your property before it becomes expensive. WOW Gutters Ltd — full inspection, condition report, before & after photos. Call 07421 433910.',
   image: IMG_HERO,
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-23',
@@ -90,7 +90,7 @@ export const gutterInspectionSaveBirminghamBlogPost: BlogPost = {
 <p><a href="/blog/birmingham-gutter-before-after/" style="${link}">Before and after gutter cleaning results</a> — our documentation standard on every inspection visit includes before and after photographs of the complete gutter system, sent to the property owner the same day. These photographs are not simply evidence that the work was done. They are a current record of the drainage system's condition — available for reference, for insurance purposes, for property sale documentation, and for comparison with the next inspection's findings.</p>
 
 <figure style="margin: 20px 0;">
-  <img src="${IMG_HERO}" alt="Professional gutter inspection Birmingham Wow Gutters Ltd industrial vacuum system at roofline" width="1280" height="720" loading="eager" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="${IMG_HERO}" alt="Professional gutter inspection Birmingham WOW Gutters Ltd industrial vacuum system at roofline" width="1280" height="720" loading="eager" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">Professional gutter inspection in Birmingham — ground-level assessment before clearance begins.</figcaption>
 </figure>
 
@@ -112,7 +112,7 @@ export const gutterInspectionSaveBirminghamBlogPost: BlogPost = {
 
 <p>A channel with a moderate debris load that is still partially draining produces intermittent overflow during the heaviest rainfall events. A channel with a blocked downpipe produces overflow during every rainfall event of any significance — because the full drainage volume from the roof area has no exit point and must overflow the channel front edge entirely.</p>
 
-<p><a href="/help/unblock/" style="${link}">Downpipe unblocking Birmingham</a> is included on every Wow Gutters inspection and cleaning visit as standard — not an additional service, not something requested separately. Every downpipe is tested and cleared where a blockage is found, because a clear channel draining into a blocked downpipe is a non-functioning system. See also our <a href="/blog/downpipe-shoe/" style="${link}">downpipe shoe guide</a> for how blockages at the base concentrate overflow.</p>
+<p><a href="/help/unblock/" style="${link}">Downpipe unblocking Birmingham</a> is included on every WOW Gutters inspection and cleaning visit as standard — not an additional service, not something requested separately. Every downpipe is tested and cleared where a blockage is found, because a clear channel draining into a blocked downpipe is a non-functioning system. See also our <a href="/blog/downpipe-shoe/" style="${link}">downpipe shoe guide</a> for how blockages at the base concentrate overflow.</p>
 
 <h3>Joint failures and sealant deterioration</h3>
 
@@ -254,7 +254,7 @@ ${ctaBox}
 
 <h2 id="process">What Our Inspection Process Covers on Every Visit</h2>
 
-<p>Every <a href="/services/gutter-inspection/" style="${link}">gutter inspection Birmingham</a> from <a href="https://wowgutters.co.uk" style="${link}">Wow Gutters Ltd</a> follows the same comprehensive process — from the initial assessment to the final condition report.</p>
+<p>Every <a href="/services/gutter-inspection/" style="${link}">gutter inspection Birmingham</a> from <a href="https://wowgutters.co.uk" style="${link}">WOW Gutters Ltd</a> follows the same comprehensive process — from the initial assessment to the final condition report.</p>
 
 <h3>Pre-clean assessment</h3>
 
@@ -341,7 +341,7 @@ ${ctaBox}
 <div style="margin: 40px 0;">
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">What is the difference between a gutter clean and a gutter inspection?</summary>
-    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">A gutter clean removes what is in the channel and clears the downpipes. A <a href="/services/gutter-inspection/" style="${link}">gutter inspection Birmingham</a> does all of this and additionally produces a written condition report assessing every component of the drainage system — joints, brackets, fascia boards, downpipe conditions, and roofline observations including moss coverage. The condition report is what converts the visit from a maintenance event into a diagnostic assessment. Every Wow Gutters visit includes both the clean and the inspection report as standard.</p></div>
+    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">A gutter clean removes what is in the channel and clears the downpipes. A <a href="/services/gutter-inspection/" style="${link}">gutter inspection Birmingham</a> does all of this and additionally produces a written condition report assessing every component of the drainage system — joints, brackets, fascia boards, downpipe conditions, and roofline observations including moss coverage. The condition report is what converts the visit from a maintenance event into a diagnostic assessment. Every WOW Gutters visit includes both the clean and the inspection report as standard.</p></div>
   </details>
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">How often should a Birmingham property have a professional gutter inspection?</summary>
@@ -379,7 +379,7 @@ ${ctaBox}
 
 <p>Each one of those issues is currently in the maintenance cost category. Each one progresses toward the repair cost category with every autumn and winter that passes without inspection.</p>
 
-<p><a href="https://wowgutters.co.uk" style="${link}">Wow Gutters Ltd</a> provides professional gutter inspection across Birmingham and the full West Midlands. Industrial vacuum system from ground level. Full condition report in writing. Before and after photographs same day. Honest assessment of every developing issue — clearly reported, without pressure.</p>
+<p><a href="https://wowgutters.co.uk" style="${link}">WOW Gutters Ltd</a> provides professional gutter inspection across Birmingham and the full West Midlands. Industrial vacuum system from ground level. Full condition report in writing. Before and after photographs same day. Honest assessment of every developing issue — clearly reported, without pressure.</p>
 
 <p>The inspection that saves thousands costs a fraction of what it prevents. Call us today and find out exactly what is above your head.</p>
 
@@ -396,7 +396,7 @@ Open 24 hours a day, 7 days a week</p>
 
 <p>In Birmingham's consistent rainfall climate, on a housing stock that ranges from Victorian solid-wall terraces to aging interwar semis to premium period detacheds, the inspection is the most cost-effective single visit available to any homeowner.</p>
 
-<p><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a> — call Wow Gutters Ltd today and get a documented picture of your property's drainage condition before the next heavy rainfall arrives to test it.</p>
+<p><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a> — call WOW Gutters Ltd today and get a documented picture of your property's drainage condition before the next heavy rainfall arrives to test it.</p>
 
 <h2>Related Guides</h2>
 <ul>

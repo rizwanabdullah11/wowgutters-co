@@ -25,7 +25,7 @@ const ctaBox = `
 
 export const ladywoodBlogPost: BlogPost = {
   id: 'gutter-cleaning-ladywood',
-  seoTitle: 'Gutter Cleaning Ladywood B16 Birmingham | Wow Gutters Ltd',
+  seoTitle: 'Gutter Cleaning Ladywood B16 Birmingham | WOW Gutters Ltd',
   title:
     "Gutter Cleaning in Ladywood B16 — Professional Maintenance Across Birmingham's Most Varied Postcode",
   excerpt:
@@ -71,7 +71,7 @@ export const ladywoodBlogPost: BlogPost = {
   <li><a href="#every-visit" style="${link}">What Every Visit Includes</a></li>
   <li><a href="#housing-associations" style="${link}">Housing Associations and Managing Agents in Ladywood</a></li>
   <li><a href="#areas" style="${link}">Areas We Cover Around Ladywood B16</a></li>
-  <li><a href="#why-choose" style="${link}">Why B16 Property Owners Choose Wow Gutters</a></li>
+  <li><a href="#why-choose" style="${link}">Why B16 Property Owners Choose WOW Gutters</a></li>
   <li><a href="#before-after" style="${link}">Before and After — Ladywood B16</a></li>
   <li><a href="#faq" style="${link}">Frequently Asked Questions</a></li>
 </ul>
@@ -252,7 +252,7 @@ ${ctaBox}
 </figure>
 
 <figure style="margin: 20px 0;">
-  <img src="${IMG_AFTER}" alt="After professional gutter cleaning Ladywood B16 Birmingham Wow Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="${IMG_AFTER}" alt="After professional gutter cleaning Ladywood B16 Birmingham WOW Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">After: Cleared gutter channel on a Ladywood B16 property — fully vacuumed, downpipe flowing, documented with same-day before and after photos.</figcaption>
 </figure>
 

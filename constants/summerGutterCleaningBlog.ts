@@ -26,7 +26,7 @@ const ctaBox = `
 export const summerGutterCleaningBlogPost: BlogPost = {
   id: 'gutter-cleaning-birmingham-summer',
   seoTitle:
-    'Why Summer Is the Best Time to Get Your Gutters Cleaned in Birmingham | Wow Gutters Ltd',
+    'Why Summer Is the Best Time to Get Your Gutters Cleaned in Birmingham | WOW Gutters Ltd',
   title:
     'Why Summer Is the Best Time to Get Your Gutters Cleaned in Birmingham — And Most Homeowners Get This Completely Backwards',
   excerpt:
@@ -214,12 +214,12 @@ ${ctaBox}
 <h2 id="before-after">Before and After — Summer Gutter Clean Birmingham</h2>
 
 <figure style="margin: 20px 0;">
-  <img src="${IMG_BEFORE}" alt="Summer gutter debris Birmingham — seed matter and moss in gutter channel before professional cleaning Wow Gutters Ltd" width="1280" height="720" loading="eager" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="${IMG_BEFORE}" alt="Summer gutter debris Birmingham — seed matter and moss in gutter channel before professional cleaning WOW Gutters Ltd" width="1280" height="720" loading="eager" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">Before: Summer gutter debris in Birmingham — compacted seed matter, moss, and organic silt in the channel before professional vacuum clearance.</figcaption>
 </figure>
 
 <figure style="margin: 20px 0;">
-  <img src="${IMG_AFTER}" alt="After summer gutter cleaning Birmingham — cleared gutter channel Wow Gutters Ltd West Midlands" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="${IMG_AFTER}" alt="After summer gutter cleaning Birmingham — cleared gutter channel WOW Gutters Ltd West Midlands" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">After: Cleared gutter channel on a Birmingham property — fully vacuumed, downpipe flowing, documented with same-day before and after photos.</figcaption>
 </figure>
 

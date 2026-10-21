@@ -12,7 +12,7 @@ const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
     <h3 style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.2;">SEE YOUR OWN BEFORE &amp; AFTER</h3>
-    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Every Wow Gutters visit includes same-day photographs. Free quote across Birmingham.</p>
+    <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Every WOW Gutters visit includes same-day photographs. Free quote across Birmingham.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
     <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
@@ -26,11 +26,11 @@ const ctaBox = `
 export const beforeAfterBirminghamGutterBlogPost: BlogPost = {
   id: 'birmingham-gutter-before-after',
   seoTitle:
-    'Before and After: Real Birmingham Gutter Cleaning Results That Saved Properties From Water Damage | Wow Gutters Ltd',
+    'Before and After: Real Birmingham Gutter Cleaning Results That Saved Properties From Water Damage | WOW Gutters Ltd',
   title:
     'Before and After: Real Birmingham Gutter Cleaning Results That Saved Properties From Water Damage',
   excerpt:
-    'Real before and after gutter cleaning results from Birmingham properties. See what we found, what we cleared, and what damage was prevented. Wow Gutters Ltd — 07421 433910.',
+    'Real before and after gutter cleaning results from Birmingham properties. See what we found, what we cleared, and what damage was prevented. WOW Gutters Ltd — 07421 433910.',
   image: IMG_HERO,
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-17',
@@ -340,7 +340,7 @@ ${ctaBox}
 </figure>
 
 <figure style="margin: 20px 0;">
-  <img src="${IMG_AFTER}" alt="After gutter cleaning Birmingham Wow Gutters Ltd clear channel" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="${IMG_AFTER}" alt="After gutter cleaning Birmingham WOW Gutters Ltd clear channel" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">After: Clean gutter channel on a Birmingham property — fully cleared, downpipe flowing, same-day photos sent.</figcaption>
 </figure>
 

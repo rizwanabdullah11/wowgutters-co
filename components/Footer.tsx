@@ -8,7 +8,7 @@ import { areaPath } from '@/lib/areaSlugs';
 import { formatNapAddress } from '@/lib/businessDetails';
 import { 
   Phone, Mail, MapPin, Star, ArrowUp, 
-  Facebook, Twitter, Instagram, Linkedin, Youtube,
+  Facebook, Instagram, Linkedin,
   CheckCircle, ArrowRight 
 } from 'lucide-react';
 
@@ -207,10 +207,9 @@ export default function Footer() {
           <div className="footer-bottom-row">
             <div className="footer-social-box">
               <a href="https://web.facebook.com/wowgutters.co.uk" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on Facebook"><Facebook className="w-5 h-5"/></a>
-              <a href="https://twitter.com/wowgutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on X/Twitter"><Twitter className="w-5 h-5"/></a>
               <a href="https://www.instagram.com/wowgutters/" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on Instagram"><Instagram className="w-5 h-5"/></a>
               <a href="https://www.linkedin.com/company/wow-gutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on LinkedIn"><Linkedin className="w-5 h-5"/></a>
-              <a href="https://www.youtube.com/@wowgutters" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on YouTube"><Youtube className="w-5 h-5"/></a>
+              <a href="https://uk.pinterest.com/wowguttersltd/" className="social-icon" target="_blank" rel="noopener noreferrer" aria-label="WOW Gutters Ltd on Pinterest"><svg viewBox="0 0 24 24" className="w-5 h-5" fill="currentColor" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.24 2.64 7.86 6.36 9.32-.09-.79-.17-2 .03-2.86.18-.78 1.17-4.97 1.17-4.97s-.3-.6-.3-1.48c0-1.39.81-2.43 1.81-2.43.85 0 1.27.64 1.27 1.41 0 .86-.55 2.14-.83 3.33-.24 1 .5 1.81 1.48 1.81 1.78 0 3.14-1.87 3.14-4.57 0-2.39-1.72-4.06-4.17-4.06-2.84 0-4.51 2.13-4.51 4.34 0 .86.33 1.78.74 2.28.08.1.09.19.07.29-.08.31-.24.99-.27 1.13-.04.18-.14.22-.33.13-1.25-.58-2.03-2.4-2.03-3.87 0-3.15 2.29-6.04 6.6-6.04 3.46 0 6.16 2.47 6.16 5.77 0 3.44-2.17 6.21-5.18 6.21-1.01 0-1.97-.53-2.29-1.15l-.62 2.38c-.23.87-.84 1.96-1.25 2.62.94.29 1.94.45 2.97.45 5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg></a>
             </div>
 
             <div className="footer-copyright">
@@ -597,7 +596,7 @@ export default function Footer() {
             />
           </div>
           <div className="min-w-0 leading-[1.05]">
-            <div className="truncate text-[16px] font-black text-slate-900">Wow Gutters</div>
+            <div className="truncate text-[16px] font-black text-slate-900">WOW Gutters Ltd</div>
             <a className="mt-0.5 inline-block text-[14px] font-extrabold text-teal-500 no-underline" href="tel:+447421433910">
               07421 433910
             </a>

@@ -1,6 +1,8 @@
 import { JsonLd } from '@/components/JsonLd';
 import { OPENING_HOURS_SCHEMA } from '@/lib/businessHours';
 import { buildReviewSchemaFields } from '@/lib/reviewSchema';
+import { SOCIAL_PROFILES } from '@/lib/businessDetails';
+import { BUSINESS_DIRECTORY_LISTINGS } from '@/lib/citationListings';
 
 /** Homepage LocalBusiness schema - server-rendered for static export */
 export default function HomepageSchema() {
@@ -59,11 +61,8 @@ export default function HomepageSchema() {
       "Droitwich Spa"
     ],
     "sameAs": [
-      "https://web.facebook.com/wowgutters.co.uk",
-      "https://twitter.com/wowgutters",
-      "https://www.instagram.com/wowgutters/",
-      "https://www.linkedin.com/company/wow-gutters",
-      "https://www.youtube.com/@wowgutters"
+      ...SOCIAL_PROFILES.map((p) => p.url),
+      ...BUSINESS_DIRECTORY_LISTINGS.map((l) => l.url),
     ]
   };
 

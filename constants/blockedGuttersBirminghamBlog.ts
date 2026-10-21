@@ -25,7 +25,7 @@ const ctaBox = `
 
 export const blockedGuttersBirminghamBlogPost: BlogPost = {
   id: 'blocked-gutters-birmingham',
-  seoTitle: "Blocked Gutters in Birmingham? Here's What Happens If You Ignore Them | Wow Gutters Ltd",
+  seoTitle: "Blocked Gutters in Birmingham? Here's What Happens If You Ignore Them | WOW Gutters Ltd",
   title: "Blocked Gutters in Birmingham? Here's What Happens If You Ignore Them",
   excerpt:
     "Ignoring blocked gutters in Birmingham doesn't make the problem go away — it makes it worse. See the exact damage timeline and what it costs when left too long. Call 07421 433910.",
@@ -277,7 +277,7 @@ ${ctaBox}
 </figure>
 
 <figure style="margin: 20px 0;">
-  <img src="${IMG_AFTER}" alt="After professional gutter cleaning Birmingham Wow Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="${IMG_AFTER}" alt="After professional gutter cleaning Birmingham WOW Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">After: Clean gutter channel on a Birmingham property — fully cleared, downpipe flowing, documented with same-day before and after photos.</figcaption>
 </figure>
 
@@ -324,7 +324,7 @@ ${ctaBox}
 
 <p>If your property is at Stage 1 or 2, a professional clean today stops the sequence entirely. If you are at Stage 3 or 4, the clean is still the essential first action — but it is now accompanied by damage that needs assessment and treatment.</p>
 
-<p>Wow Gutters Ltd covers Birmingham and the full West Midlands. Free quote. Same-week availability. Before and after photographs on every single job. Honest written report on what we find.</p>
+<p>WOW Gutters Ltd covers Birmingham and the full West Midlands. Free quote. Same-week availability. Before and after photographs on every single job. Honest written report on what we find.</p>
 
 <p>📞 <strong>Call now:</strong> <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
 📧 <strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a><br/>

@@ -18,10 +18,10 @@ const ctaBox = `
 
 export const harborneBlogPost: BlogPost = {
   id: 'gutter-cleaning-harborne',
-  seoTitle: 'Gutter Cleaning Harborne B17 Birmingham | Wow Gutters Ltd',
+  seoTitle: 'Gutter Cleaning Harborne B17 Birmingham | WOW Gutters Ltd',
   title: "Gutter Cleaning in Harborne B17 — Protecting Birmingham's Most Valued Homes",
   excerpt:
-    'Professional gutter cleaning for Harborne B17 period properties. Wow Gutters Ltd — vacuum system, no ladders, before & after photos. Free quote: 07421 433910.',
+    'Professional gutter cleaning for Harborne B17 period properties. WOW Gutters Ltd — vacuum system, no ladders, before & after photos. Free quote: 07421 433910.',
   image: '/harborne-gutter-cleaning-hero.webp',
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-04',
@@ -115,7 +115,7 @@ export const harborneBlogPost: BlogPost = {
 </figure>
 
 <figure style="margin: 20px 0;">
-  <img src="/harborne-gutter-cleaning-after.webp" alt="Clean gutter after professional service Harborne B17 Wow Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="/harborne-gutter-cleaning-after.webp" alt="Clean gutter after professional service Harborne B17 WOW Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">After: The same gutter run fully cleared — channel open, downpipe flowing, before and after photos sent the same day.</figcaption>
 </figure>
 

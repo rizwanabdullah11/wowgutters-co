@@ -47,10 +47,10 @@ const tdStyle = 'border: 1px solid #e2e8f0; padding: 12px; color: #334155;';
 
 export const earlySignsBlockedGuttersBirminghamBlogPost: BlogPost = {
   id: 'early-gutter-signs-birmingham',
-  seoTitle: 'Early Signs of Blocked Gutters Birmingham | Wow Gutters',
+  seoTitle: 'Early Signs of Blocked Gutters Birmingham | WOW Gutters',
   title: 'Blocked Gutters? The Early Signs Every Birmingham Homeowner Should Know',
   excerpt:
-    'Know the early signs of blocked gutters in Birmingham before damage gets expensive. Expert advice from Wow Gutters Ltd — West Midlands specialists. Free quote: 07421 433910.',
+    'Know the early signs of blocked gutters in Birmingham before damage gets expensive. Expert advice from WOW Gutters Ltd — West Midlands specialists. Free quote: 07421 433910.',
   image: IMG_HERO,
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-07-02',
@@ -70,7 +70,7 @@ export const earlySignsBlockedGuttersBirminghamBlogPost: BlogPost = {
 
 <p>The problem is not that Birmingham homeowners ignore their gutters out of carelessness. The problem is that nobody has ever given them a practical, plain-English guide to what the early warning signs actually look like — what to check, where to look, what each indicator means, and how much urgency it carries.</p>
 
-<p>That is precisely what this guide provides. As <a href="/gutter-cleaning-birmingham/" style="${link}">gutter cleaning Birmingham</a> specialists, the <a href="https://wowgutters.co.uk/" style="${link}">Wow Gutters Ltd</a> team has attended thousands of properties across the West Midlands. We have read the signals these properties were sending — in staining patterns, in downpipe performance, in fascia board condition — and we know exactly what each one indicates about the underlying state of the drainage system.</p>
+<p>That is precisely what this guide provides. As <a href="/gutter-cleaning-birmingham/" style="${link}">gutter cleaning Birmingham</a> specialists, the <a href="https://wowgutters.co.uk/" style="${link}">WOW Gutters Ltd</a> team has attended thousands of properties across the West Midlands. We have read the signals these properties were sending — in staining patterns, in downpipe performance, in fascia board condition — and we know exactly what each one indicates about the underlying state of the drainage system.</p>
 
 <p>Read it once. Then walk around your property and look at it differently. What you find might surprise you.</p>
 
@@ -114,11 +114,11 @@ ${ctaTop}
 
 <p>A homeowner in Birmingham who misses a gutter warning sign for two months has allowed 10 to 15 significant rainfall events to advance the damage during that window. In drier parts of the UK, missing the same sign might involve 4 or 5 comparable events.</p>
 
-<p><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning West Midlands</a> — the warning sign vocabulary in this guide is calibrated to Birmingham's specific rainfall pattern and housing stock, reflecting what Wow Gutters Ltd actually finds on properties across the region.</p>
+<p><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning West Midlands</a> — the warning sign vocabulary in this guide is calibrated to Birmingham's specific rainfall pattern and housing stock, reflecting what WOW Gutters Ltd actually finds on properties across the region.</p>
 
 <h2 id="expert-assessment">2. The Expert's Ground-Level Assessment — How Professionals Read a Property</h2>
 
-<p>When the Wow Gutters Ltd team arrives for an <a href="/blog/birmingham-gutter-inspection/" style="${link}">gutter inspection Birmingham</a> visit, the assessment begins before any equipment is deployed. A systematic ground-level reading produces a provisional diagnosis before the vacuum poles go anywhere near the channel.</p>
+<p>When the WOW Gutters Ltd team arrives for an <a href="/blog/birmingham-gutter-inspection/" style="${link}">gutter inspection Birmingham</a> visit, the assessment begins before any equipment is deployed. A systematic ground-level reading produces a provisional diagnosis before the vacuum poles go anywhere near the channel.</p>
 
 <p><strong>What the expert looks at, in sequence:</strong></p>
 <ul>
@@ -201,7 +201,7 @@ ${ctaMid}
   </tbody>
 </table>
 
-<p><a href="/services/gutter-cleaning/" style="${link}">Downpipe unblocking Birmingham</a> — included on every Wow Gutters visit as standard. <a href="/blog/heavy-rain-birmingham-gutters-ready/" style="${link}">Heavy rain gutter preparation Birmingham</a> — a downpipe showing reduced flow in summer will fail completely in autumn's sustained downpours.</p>
+<p><a href="/services/gutter-cleaning/" style="${link}">Downpipe unblocking Birmingham</a> — included on every WOW Gutters visit as standard. <a href="/blog/heavy-rain-birmingham-gutters-ready/" style="${link}">Heavy rain gutter preparation Birmingham</a> — a downpipe showing reduced flow in summer will fail completely in autumn's sustained downpours.</p>
 
 <p>Properties in <a href="/blog/gutter-cleaning-nechells/" style="${link}">gutter cleaning Nechells B7</a> and <a href="/blog/gutter-cleaning-ladywood/" style="${link}">gutter cleaning Ladywood B16</a> face the densest urban atmospheric particulate compression at downpipe entry points. Terraced rooflines in <a href="/blog/gutter-cleaning-balsall-heath/" style="${link}">Balsall Heath B12</a> and <a href="/blog/gutter-cleaning-selly-oak/" style="${link}">Selly Oak B29</a> mean a single shared downpipe blockage can affect multiple adjacent properties.</p>
 
@@ -229,12 +229,12 @@ ${ctaMid}
 
 <figure style="margin: 24px 0;">
   <img src="${IMG_AFTER}" alt="After professional gutter cleaning in Birmingham — clear white gutter channel fully restored" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 12px; display: block;" />
-  <figcaption style="font-size: 14px; color: #64748b; margin-top: 10px;">After: the same Birmingham gutter run cleared by Wow Gutters Ltd — full drainage capacity restored from ground level with no ladders against the property.</figcaption>
+  <figcaption style="font-size: 14px; color: #64748b; margin-top: 10px;">After: the same Birmingham gutter run cleared by WOW Gutters Ltd — full drainage capacity restored from ground level with no ladders against the property.</figcaption>
 </figure>
 
 <h2 id="urgency-matrix">9. The Early Sign Urgency Matrix — When to Act and How Fast</h2>
 
-<p><strong>Expert summary from Wow Gutters Ltd:</strong> Homeowners who act at the first or second sign spend the least money overall. Those who act at the fourth or fifth sign spend significantly more — not because gutter work costs more, but because downstream damage requires additional remediation.</p>
+<p><strong>Expert summary from WOW Gutters Ltd:</strong> Homeowners who act at the first or second sign spend the least money overall. Those who act at the fourth or fifth sign spend significantly more — not because gutter work costs more, but because downstream damage requires additional remediation.</p>
 
 <table style="${tableStyle}">
   <thead><tr><th style="${thStyle}">Early Sign</th><th style="${thStyle}">Stage</th><th style="${thStyle}">Act Within</th><th style="${thStyle}">Cost Impact if Deferred</th></tr></thead>
@@ -287,7 +287,7 @@ ${ctaMid}
   <li><strong>Channel interior:</strong> Compaction depth, outlet condition, joint condition inside the run</li>
   <li><strong>Full downpipe length:</strong> Intermediate blockages invisible from the entry point</li>
   <li><strong>Rear extension gutter:</strong> Frequently missed on semis across Kings Heath, Acocks Green, and Selly Oak</li>
-  <li><strong>Written condition report:</strong> <a href="/blog/birmingham-gutter-inspection/" style="${link}">Gutter condition report Birmingham</a> — every Wow Gutters inspection documents joint conditions, bracket assessment, fascia moisture evidence, and roof moss coverage</li>
+  <li><strong>Written condition report:</strong> <a href="/blog/birmingham-gutter-inspection/" style="${link}">Gutter condition report Birmingham</a> — every WOW Gutters inspection documents joint conditions, bracket assessment, fascia moisture evidence, and roof moss coverage</li>
 </ul>
 
 <p><a href="/blog/birmingham-gutter-before-after/" style="${link}">Before and after gutter cleaning results</a> — inspection photographs across <a href="/blog/gutter-cleaning-solihull/" style="${link}">Solihull</a>, <a href="/blog/gutter-cleaning-wolverhampton/" style="${link}">Wolverhampton</a>, <a href="/blog/gutter-cleaning-coventry/" style="${link}">Coventry</a>, and all Birmingham postcodes show what ground-level assessment cannot reveal.</p>
@@ -303,7 +303,7 @@ ${ctaMid}
 
 <h2 id="every-visit">14. What Our Experts Do on Every Visit</h2>
 
-<p>When <a href="https://wowgutters.co.uk/" style="${link}">Wow Gutters Ltd</a> attends a Birmingham or West Midlands property:</p>
+<p>When <a href="https://wowgutters.co.uk/" style="${link}">WOW Gutters Ltd</a> attends a Birmingham or West Midlands property:</p>
 <ul>
   <li>✅ Industrial SkyVac vacuum system — ground-based, no ladders</li>
   <li>✅ Complete channel vacuum — front, rear, valley sections, extension runs</li>
@@ -341,7 +341,7 @@ ${ctaMid}
   </details>
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">My downpipe produces some flow during rain but less than I'd expect. Is that a sign?</summary>
-    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">Yes — reduced flow indicates a partial blockage. Partial clearance is included on every Wow Gutters visit as standard via <a href="/services/gutter-cleaning/" style="${link}">downpipe unblocking Birmingham</a>.</p></div>
+    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">Yes — reduced flow indicates a partial blockage. Partial clearance is included on every WOW Gutters visit as standard via <a href="/services/gutter-cleaning/" style="${link}">downpipe unblocking Birmingham</a>.</p></div>
   </details>
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">What is efflorescence and does it mean my gutters need cleaning?</summary>
@@ -365,7 +365,7 @@ ${ctaMid}
 
 <p>After the window closes: established dark staining, internal cool walls, paint lifting at the ceiling junction, soft fascia timber, the damp patch that makes you call the decorator.</p>
 
-<p>Birmingham's rainfall does not pause to give you time. <a href="https://wowgutters.co.uk/" style="${link}">Wow Gutters Ltd</a> covers all of Birmingham and the West Midlands. <a href="/services/gutter-cleaning/" style="${link}">Professional gutter cleaning service</a> — call us today and catch the early signs before they become the expensive ones.</p>
+<p>Birmingham's rainfall does not pause to give you time. <a href="https://wowgutters.co.uk/" style="${link}">WOW Gutters Ltd</a> covers all of Birmingham and the West Midlands. <a href="/services/gutter-cleaning/" style="${link}">Professional gutter cleaning service</a> — call us today and catch the early signs before they become the expensive ones.</p>
 
 ${ctaBox}
 
@@ -381,7 +381,7 @@ Open 24 hours a day, 7 days a week</p>
 
 <p>Knowing the early signs of blocked gutters is the single most valuable piece of maintenance knowledge a Birmingham homeowner can have. It costs nothing to acquire. It requires no equipment to use. And it is the difference between catching a drainage problem at maintenance cost and discovering it at remediation cost.</p>
 
-<p>The signs are there. On brickwork, on fascia boards, at downpipe bases, in the temperature of upstairs walls. <a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a> — call <a href="https://wowgutters.co.uk/" style="${link}">Wow Gutters Ltd</a> today and have a professional confirm what you are seeing.</p>
+<p>The signs are there. On brickwork, on fascia boards, at downpipe bases, in the temperature of upstairs walls. <a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a> — call <a href="https://wowgutters.co.uk/" style="${link}">WOW Gutters Ltd</a> today and have a professional confirm what you are seeing.</p>
 
 <h2>Related Guides</h2>
 <ul>
