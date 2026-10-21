@@ -1,8 +1,8 @@
 import type { BlogPost } from './blogTypes';
 
-const IMG_HERO   = '/blog-images/birmingham-gutter-cleaning-checklist/birmingham-gutter-cleaning-checklist-hero.png';
-const IMG_BEFORE = '/blog-images/birmingham-gutter-cleaning-checklist/birmingham-gutter-cleaning-checklist-before.png';
-const IMG_AFTER  = '/blog-images/birmingham-gutter-cleaning-checklist/birmingham-gutter-cleaning-checklist-after.png';
+const IMG_HERO   = '/blog-images/birmingham-gutter-cleaning-checklist/birmingham-gutter-cleaning-checklist-hero.webp';
+const IMG_BEFORE = '/blog-images/birmingham-gutter-cleaning-checklist/birmingham-gutter-cleaning-checklist-before.webp';
+const IMG_AFTER  = '/blog-images/birmingham-gutter-cleaning-checklist/birmingham-gutter-cleaning-checklist-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 const h2 = 'font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;';

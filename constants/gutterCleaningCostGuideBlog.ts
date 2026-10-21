@@ -1,9 +1,9 @@
 import type { BlogPost } from './blogTypes';
 import { GUTTER_PRICING } from './gutterPricing';
 
-const IMG_HERO   = '/blog-images/hiring-gutter-cleaning-westmidlands/hiring-gutter-cleaning-westmidlands-hero.png';
-const IMG_BEFORE = '/blog-images/hiring-gutter-cleaning-westmidlands/hiring-gutter-cleaning-westmidlands-before.png';
-const IMG_AFTER  = '/blog-images/hiring-gutter-cleaning-westmidlands/hiring-gutter-cleaning-westmidlands-after.png';
+const IMG_HERO   = '/blog-images/hiring-gutter-cleaning-westmidlands/hiring-gutter-cleaning-westmidlands-hero.webp';
+const IMG_BEFORE = '/blog-images/hiring-gutter-cleaning-westmidlands/hiring-gutter-cleaning-westmidlands-before.webp';
+const IMG_AFTER  = '/blog-images/hiring-gutter-cleaning-westmidlands/hiring-gutter-cleaning-westmidlands-after.webp';
 
 const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
 const h2 = 'font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;';
