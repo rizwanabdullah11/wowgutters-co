@@ -3,6 +3,8 @@
  * UI copy (page) and schema copy stay aligned on questions; answers differ slightly in length.
  */
 
+import { withLocalBoostFaqs } from '@/lib/localBoostContent';
+
 export const PRIMARY_CITY_SLUGS = [
   'birmingham',
   'wolverhampton',
@@ -161,7 +163,7 @@ export function buildCitySchemaFaqs({
   const semiHigh = Math.min(priceFrom + 30, priceTo);
   const detachedLow = priceFrom + 30;
 
-  return [
+  return withLocalBoostFaqs(slug, [
     {
       question: `How much does gutter cleaning cost in ${city}?`,
       answer: `Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Fixed quote before work starts.`,
@@ -193,7 +195,7 @@ export function buildCitySchemaFaqs({
       question: 'Are you insured?',
       answer: 'Yes. Fully insured with comprehensive public liability insurance on every job.',
     },
-  ];
+  ]);
 }
 
 export function buildCityPageFaqs(input: BuildCityFaqsInput): CityFaqItem[] {
@@ -243,11 +245,15 @@ export function buildCityPageFaqs(input: BuildCityFaqsInput): CityFaqItem[] {
     },
   ];
 
-  return pairs.map((p, i) => ({
-    question: p.question,
-    answer: p.page,
-    icon: FAQ_ICONS[i] ?? '✓',
-  }));
+  return withLocalBoostFaqs(
+    input.slug,
+    pairs.map((p, i) => ({
+      question: p.question,
+      answer: p.page,
+      icon: FAQ_ICONS[i] ?? '✓',
+    })),
+    { icon: '📍' },
+  );
 }
 
 export function isPrimaryCitySlug(slug: string): slug is PrimaryCitySlug {

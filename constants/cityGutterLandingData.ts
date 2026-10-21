@@ -49,8 +49,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   coventry: {
     slug: 'coventry',
     city: 'Coventry',
-    titleTag: 'Gutter Cleaning Coventry | Vacuum, No Ladders | WOW Gutters',
-    metaDescription: 'Gutter cleaning in Coventry using ground-based vacuums up to 4 storeys. Before & after photos, fully insured, from £100. Call 07421 433910.',
+    titleTag: 'Gutter Cleaning Coventry & Binley | From £100 | WOW Gutters',
+    metaDescription: 'Gutter cleaning in Coventry, Binley & Walsgrave from £100. Ground-based vacuum up to 4 storeys, before & after photos, fully insured. Call 07421 433910.',
     h1: 'Gutter Cleaning Coventry — Professional Service Across CV1-CV8',
     heroIntro:
       "Coventry is the UK's most bombed city outside London and was extensively rebuilt after the Second World War \u2014 which means a significant proportion of the housing stock dates from the 1950s and 1960s. Post-war terraces and semis dominate Foleshill, Radford and Bell Green, while the areas around Allesley Park and Earlsdon contain older pre-war properties with cast iron gutter systems that need particular attention. The Coventry Ring Road corridor creates wind funnelling that accelerates debris build-up on rooflines. WOW Gutters Ltd serves all Coventry postcodes with our ground-level vacuum system \u2014 no ladders, no risk, no mess.",
@@ -218,8 +218,8 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   dudley: {
     slug: 'dudley',
     city: 'Dudley',
-    titleTag: 'Gutter Cleaning Dudley | Photo Proof | WOW Gutters',
-    metaDescription: 'Gutter cleaning in Dudley without ladders. High-reach vacuum, before & after photos and fully insured. Call 07421 433910 today.',
+    titleTag: 'Gutter Cleaning Dudley, Sedgley & Kingswinford | WOW Gutters',
+    metaDescription: 'Gutter cleaning in Dudley, Sedgley, Kingswinford & Brierley Hill from £100. No ladders, before & after photos, fully insured. Call 07421 433910.',
     h1: 'Gutter Cleaning Dudley — Expert Service Across the Black Country',
     heroIntro:
       "Dudley sits at the heart of the Black Country, dominated by Dudley Castle and its famous zoo on a hill that is visible for miles. The borough contains some of the most diverse housing in the West Midlands \u2014 from the Victorian back-to-backs of Netherton and Cradley Heath to the large detached homes of Pedmore and Hagley. Properties near the Dudley Canal and close to the Waterfront development experience debris from adjacent mature woodland. Stourbridge Road and the A459 corridor contain a mix of 1930s and post-war housing that benefits from our annual clean service.",
@@ -733,9 +733,9 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   malvern: {
     slug: 'malvern',
     city: 'Malvern',
-    titleTag: 'Gutter Cleaning Malvern | WOW Gutters Ltd',
+    titleTag: 'Gutter Cleaning & Repairs Malvern | WOW Gutters Ltd',
     metaDescription:
-      'Professional gutter cleaning in Malvern from £100. Ground-level vacuum system, before & after photos, fully insured. Call WOW Gutters Ltd: 07421 433910.',
+      'Gutter cleaning, repairs & new guttering in Malvern. Cleaning from £100, free repair quotes, no ladders, before & after photos. Call 07421 433910.',
     h1: 'Gutter Cleaning Malvern — Professional Service for WR13-WR14 Properties',
     heroIntro:
       "Malvern is one of the most scenic towns in England, clustered around the dramatic Malvern Hills \u2014 a 9-mile ridge of ancient Precambrian rock rising to over 400 metres. The town's Victorian spa heritage means the housing stock is dominated by large Victorian and Edwardian villas, many with original or early replacement cast iron guttering on complex multi-section rooflines. Properties on the hillside above Great Malvern have the most challenging access \u2014 our 4-storey vacuum reach handles these without scaffolding. The Malvern Hills themselves create a micro-climate with higher rainfall than surrounding areas.",

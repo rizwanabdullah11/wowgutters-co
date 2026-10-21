@@ -84,6 +84,29 @@ function extractJsonLdFromInlineScripts(html) {
   return best;
 }
 
+/** FAQs from the page's own React-rendered FAQPage (RSC payload or inline JSON-LD). */
+function extractPageFaqs(html) {
+  const candidates = [];
+  const rsc = extractJsonLdFromRsc(html);
+  if (rsc) {
+    try { candidates.push(unescapeJsString(rsc).trim()); } catch { /* ignore */ }
+  }
+  const inline = extractJsonLdFromInlineScripts(html);
+  if (inline) candidates.push(inline.trim());
+  for (const raw of candidates) {
+    try {
+      const data = JSON.parse(raw);
+      const nodes = Array.isArray(data['@graph']) ? data['@graph'] : [data];
+      const faq = nodes.find((n) => n && n['@type'] === 'FAQPage');
+      const items = (faq?.mainEntity ?? [])
+        .map((q) => ({ question: q?.name, answer: q?.acceptedAnswer?.text }))
+        .filter((q) => typeof q.question === 'string' && typeof q.answer === 'string');
+      if (items.length > 0) return items;
+    } catch { /* try next */ }
+  }
+  return undefined;
+}
+
 function areaSlugFromPath(relPath) {
   const norm = relPath.replace(/\\/g, '/');
   if (norm.startsWith('gutter-cleaning-')) {
@@ -184,7 +207,7 @@ function resolveJsonLd(htmlPath, html, slug) {
   if (fromInline) return fromInline.trim();
 
   if (slug) {
-    return JSON.stringify(schemaForAreaSlug(slug, citiesMap));
+    return JSON.stringify(schemaForAreaSlug(slug, citiesMap, extractPageFaqs(html)));
   }
 
   return null;
@@ -215,7 +238,7 @@ for (const file of listHtmlFiles(outDir)) {
   let usedFallback = false;
 
   if ((needsDateModified || needsReviews) && slug) {
-    jsonStr = JSON.stringify(schemaForAreaSlug(slug, citiesMap));
+    jsonStr = JSON.stringify(schemaForAreaSlug(slug, citiesMap, extractPageFaqs(html)));
     usedFallback = true;
   } else if (hadStatic && !needsReviews) {
     const cleaned = dedupeDuplicateGraphLdJson(html);
