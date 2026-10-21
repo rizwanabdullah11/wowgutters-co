@@ -196,6 +196,7 @@
   "gutter-cleaner-waterfoot": "/services/gutter-cleaning/",
   "gutter-cleaners-and-repair": "/services/gutter-repairs/",
   "gutter-cleaners-birmingham": "/",
+  "gutter-cleaning": "/services/gutter-cleaning/",
   "gutter-cleaning-4-storey-building": "/services/gutter-cleaning/",
   "gutter-cleaning-above-conservatory": "/services/conservatory/",
   "gutter-cleaning-after-storm": "/services/gutter-cleaning/",
@@ -831,6 +832,7 @@
  },
  "staticPages": {
   "gutter-cleaner": "/services/gutter-cleaning/",
+  "gutter-cleaning": "/services/gutter-cleaning/",
   "gutter-cleaning-kingstanding": "/services/gutter-cleaning/",
   "gutter-cleaning-service-near-me": "/",
   "gutter-repairs": "/services/gutter-repairs/",

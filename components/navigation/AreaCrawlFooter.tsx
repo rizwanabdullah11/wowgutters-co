@@ -164,7 +164,7 @@ export default function AreaCrawlFooter({
                 {methodText}
               </p>
               <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                Learn more about our advanced <Link href="/sky-vac-gutter-cleaning" className="text-emerald-700 font-semibold hover:underline">SkyVac ground-level vacuum cleaning</Link> system, calculate instant pricing with our <Link href="/gutter-cleaning-calculator/" className="text-emerald-700 font-semibold hover:underline">online gutter price calculator</Link>, or book a zero-cost <Link href="/services/gutter-inspection/" className="text-emerald-700 font-semibold hover:underline">camera gutter inspection</Link>.
+                Learn more about our advanced <Link href="/sky-vac-gutter-cleaning" className="text-emerald-700 font-semibold hover:underline">SkyVac ground-level vacuum cleaning</Link> system, calculate instant pricing with our <Link href="/gutter-cleaning-calculator/" className="text-emerald-700 font-semibold hover:underline">online gutter price calculator</Link>, or book a zero-cost <Link href="/services/gutter-inspection/" className="text-emerald-700 font-semibold hover:underline">camera gutter inspection</Link>. Our team is based on Ryland Street (B16) and runs <Link href="/" className="text-emerald-700 font-semibold hover:underline">gutter cleaning in Birmingham</Link>{topicName.startsWith('Birmingham') ? '' : ` and ${topicName}`} every week.
               </p>
             </div>
             <div className="pt-4 border-t border-slate-100">
