@@ -94,7 +94,14 @@ export default function Footer() {
             </div>
             <div className="footer-brand-text">
               <p className="footer-company-name">WOW Gutters Ltd</p>
-              <p className="footer-company-tagline">Professional Gutter Cleaning &amp; Roofline Services</p>
+              <p className="footer-company-tagline">
+                Professional{' '}
+                <OnlyOnHome>gutter cleaning in Birmingham</OnlyOnHome>
+                <OnlyOnHome invert>
+                  <Link href="/" className="footer-tagline-link">gutter cleaning in Birmingham</Link>
+                </OnlyOnHome>{' '}
+                &amp; roofline services across the West Midlands
+              </p>
               <div className="footer-ratings">
                 <span className="rating-text">Rated 4.9★ on Google</span>
               </div>
@@ -305,6 +312,7 @@ export default function Footer() {
           margin: 0 0 4px;
           letter-spacing: -1px;
         }
+        .footer-tagline-link { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
         .footer-company-tagline {
           color: #19C58B;
           font-size: 1.1rem;

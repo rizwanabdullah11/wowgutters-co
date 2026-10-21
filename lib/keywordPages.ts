@@ -1,6 +1,10 @@
 import { suburbPages } from '@/lib/suburbPageData';
 import { CITY_GUTTER_LANDINGS } from '@/constants/cityGutterLandingData';
 import { CUSTOM_KEYWORD_CONTENT } from '@/lib/customKeywordData';
+import keywordRedirects from '@/lib/keyword-redirects.json';
+
+/** Thin keyword pages merged into service/area pages (301s live in .htaccess). */
+const CONSOLIDATED = new Set(Object.keys(keywordRedirects.redirects));
 
 export interface KeywordPage {
   slug: string;
@@ -1337,9 +1341,10 @@ for (const raw of RAW_KEYWORDS) {
 }
 
 export function getKeywordPage(slug: string): KeywordPage | undefined {
+  if (CONSOLIDATED.has(slug)) return undefined;
   return KEYWORD_PAGES[slug];
 }
 
 export function getAllKeywordSlugs(): string[] {
-  return Object.keys(KEYWORD_PAGES);
+  return Object.keys(KEYWORD_PAGES).filter((slug) => !CONSOLIDATED.has(slug));
 }

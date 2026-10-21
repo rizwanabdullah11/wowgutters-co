@@ -4,6 +4,10 @@ import { blogPosts } from '@/constants/blogData';
 import { servicesData } from '@/constants/servicesData';
 import { CONTENT_LAST_UPDATED_ISO } from '@/lib/contentFreshness';
 import { getAllKeywordSlugs } from '@/lib/keywordPages';
+// Same exclusion rules as next-sitemap / post-sitemap-sync (noindex, redirected, removed pages),
+// so /sitemap.xml stays clean even if a later build step is skipped.
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+const { isExcludedSitemapPath } = require('../scripts/sitemap-config.cjs') as { isExcludedSitemapPath: (p: string) => boolean };
 
 export const dynamic = 'force-static';
 export const revalidate = false;
@@ -212,6 +216,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const seen = new Set<string>();
   return all.filter((x) => {
     if (seen.has(x.url)) return false;
+    const path = x.url.replace(/^https?:\/\/[^/]+/, '') || '/';
+    if (isExcludedSitemapPath(path)) return false;
     seen.add(x.url);
     return true;
   });

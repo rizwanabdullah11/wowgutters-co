@@ -3,7 +3,27 @@
  * Written to out/.htaccess after `next build` (see postexport-fix-index.mjs).
  */
 
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+
+/** Day-1 consolidation map (lib/keyword-redirects.json): slug → target path, or GONE (410). */
+function keywordRedirectRules() {
+  const map = JSON.parse(readFileSync(join(process.cwd(), 'lib/keyword-redirects.json'), 'utf8'));
+  const rule = (slug, to) =>
+    to === 'GONE'
+      ? `  RewriteRule ^${slug}/?$ - [G,L]`
+      : `  RewriteRule ^${slug}/?$ ${to} [R=301,L]`;
+  const staticPages = Object.entries(map.staticPages)
+    .filter(([slug]) => slug !== 'gutters-cleaning') // already handled in Legacy paths
+    .map(([slug, to]) => rule(slug, to));
+  const pages = Object.entries(map.redirects)
+    .filter(([slug]) => !(slug in map.staticPages))
+    .map(([slug, to]) => rule(slug, to));
+  return { staticPages: staticPages.join('\n'), pages: pages.join('\n'), count: pages.length };
+}
+
 export function generateHostingerHtaccess() {
+  const kw = keywordRedirectRules();
   return `Options -MultiViews -Indexes
 DirectoryIndex index.html
 
@@ -201,6 +221,16 @@ AddDefaultCharset UTF-8
   # Blog posts outranking their own service pages → merge into the service page
   RewriteRule ^blog/gutter-cleaning-walsall/?$ /gutter-cleaning-walsall/ [R=301,L]
   RewriteRule ^blog/gutter-cleaning-solihull/?$ /gutter-cleaning-solihull/ [R=301,L]
+
+  # Consolidated pages that still exist as files (must run before "serve existing files")
+${kw.staticPages}
+
+  # Day-1 consolidation (Oct 2026): ${kw.count} thin keyword pages → strongest matching page.
+  # Runs before "serve existing files" so old folders left on the server still redirect.
+  # Requests for files (CSS/JS/images, anything with an extension) skip the whole list.
+  RewriteCond %{REQUEST_URI} \\.[a-zA-Z0-9]{1,6}$
+  RewriteRule ^ - [S=${kw.count}]
+${kw.pages}
 
   # Never rewrite Next.js bundles — must load as real files
   RewriteRule ^_next/ - [L]

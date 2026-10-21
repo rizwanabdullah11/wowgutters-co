@@ -29,6 +29,13 @@ const REDIRECTS = {
   'home/': '',
 };
 
+// Day-1 consolidation map (also drives the .htaccess 301s). GONE pages → main gutter service page.
+const KW = JSON.parse(readFileSync(join(process.cwd(), 'lib/keyword-redirects.json'), 'utf8'));
+for (const [slug, to] of Object.entries(KW.redirects)) {
+  const target = to === 'GONE' ? 'services/gutter-cleaning/' : to.replace(/^\//, '');
+  REDIRECTS[`${slug}/`] = target;
+}
+
 const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const PREFIX = '((?:\\.\\./)+|\\./|/|https://wowgutters\\.co\\.uk/)';
 const RULES = Object.entries(REDIRECTS).map(([from, to]) => ({
