@@ -14,8 +14,11 @@ export const BUSINESS_DIRECTORY_LISTINGS: CitationListing[] = [
   { name: 'Find Open', url: 'https://find-open.co.uk/birmingham/wow-gutters-ltd-4426278' },
   { name: 'Bing Places', url: 'https://www.bing.com/forbusiness/singleEntity?bizid=f252fb7c-de29-4a90-a23f-641c49097484' },
   { name: 'Hotfrog', url: 'https://www.hotfrog.co.uk/company/AC_Jc5Tkc3-Wrx18WK3Nfw/wow-gutters-ltd/birmingham/cleaning-services' },
-  { name: 'Bizify', url: 'https://www.bizify.co.uk/search/wow-gutters-ltd-in-birmingham' },
+  { name: 'Bizify', url: 'https://www.bizify.co.uk/guttering-services/birmingham/B16-8DD/wow-gutters-ltd' },
   { name: 'OpenStreetMap', url: 'https://www.openstreetmap.org/user/Wow%20Gutters' },
+  { name: 'Bizcommunity', url: 'https://www.bizcommunity.com/Company/WOWGutters' },
+  { name: 'ZipLeaf', url: 'https://www.zipleaf.co.uk/Companies/Wow-Gutters-Ltd' },
+  { name: 'CallUpContact', url: 'https://www.callupcontact.com/b/businessprofile/Wow_Gutters_Ltd/10166942' },
 ];
 
 export const BRAND_PROFILE_LISTINGS: CitationListing[] = [

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import logo from '@/assets/wow-gutter-logo.webp';
 import { colors } from '@/constants/colors';
 import { areaPath } from '@/lib/areaSlugs';
+import { BUSINESS_DIRECTORY_LISTINGS } from '@/lib/citationListings';
 import { formatNapAddress } from '@/lib/businessDetails';
 import { 
   Phone, Mail, MapPin, Star, ArrowUp, 
@@ -190,15 +191,9 @@ export default function Footer() {
           <div className="footer-citations">
             <p className="footer-citations-label">WOW Gutters Ltd — Listed on</p>
             <ul className="footer-citations-list">
-              <li><a href="https://www.fyple.co.uk/company/wow-gutters-ltd-texh084/" target="_blank" rel="noopener noreferrer" className="footer-citation-link">Fyple</a></li>
-              <li><a href="https://ratingsplus.co.uk/city/birmingham/gutter-cleaners/wow-gutters-ltd" target="_blank" rel="noopener noreferrer" className="footer-citation-link">RatingsPlus</a></li>
-              <li><a href="https://www.friday-ad.co.uk/business/-/wow-gutters-ltd/7124953" target="_blank" rel="noopener noreferrer" className="footer-citation-link">Friday-Ad</a></li>
-              <li><a href="https://www.yellowleaf.co.uk/pages/63019-wow-gutters-ltd.html" target="_blank" rel="noopener noreferrer" className="footer-citation-link">Yellow Leaf</a></li>
-              <li><a href="https://find-open.co.uk/birmingham/wow-gutters-ltd-4426278" target="_blank" rel="noopener noreferrer" className="footer-citation-link">Find Open</a></li>
-              <li><a href="https://www.bing.com/forbusiness/singleEntity?bizid=f252fb7c-de29-4a90-a23f-641c49097484" target="_blank" rel="noopener noreferrer" className="footer-citation-link">Bing Places</a></li>
-              <li><a href="https://www.openstreetmap.org/user/Wow%20Gutters" target="_blank" rel="noopener noreferrer" className="footer-citation-link">OpenStreetMap</a></li>
-              <li><a href="https://www.bizify.co.uk/search/wow-gutters-ltd-in-birmingham" target="_blank" rel="noopener noreferrer" className="footer-citation-link">Bizify</a></li>
-              <li><a href="https://www.hotfrog.co.uk/company/AC_Jc5Tkc3-Wrx18WK3Nfw/wow-gutters-ltd/birmingham/cleaning-services" target="_blank" rel="noopener noreferrer" className="footer-citation-link">Hotfrog</a></li>
+              {BUSINESS_DIRECTORY_LISTINGS.map((l) => (
+                <li key={l.url}><a href={l.url} target="_blank" rel="noopener noreferrer" className="footer-citation-link">{l.name}</a></li>
+              ))}
             </ul>
           </div>
           <hr className="footer-divider" />
