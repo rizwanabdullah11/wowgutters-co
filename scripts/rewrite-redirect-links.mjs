@@ -27,6 +27,8 @@ const REDIRECTS = {
   'services/inspection/': 'services/gutter-inspection/',
   'services/free-gutter-inspection/': 'services/gutter-inspection/',
   'home/': '',
+  'blog/can-blocked-gutters-cause-damp/': 'blog/clean-gutters-prevent-damp/',
+  'blog/hidden-gutter-damage-easier-spot-summer/': 'blog/hidden-gutter-damage-summer/',
 };
 
 // Day-1 consolidation map (also drives the .htaccess 301s). GONE pages → main gutter service page.

@@ -665,12 +665,12 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/hidden-gutter-damage-easier-spot-summer" className="font-semibold text-gray-800 hover:text-emerald-600 transition-colors line-clamp-2">
+                  <Link href="/blog/hidden-gutter-damage-summer/" className="font-semibold text-gray-800 hover:text-emerald-600 transition-colors line-clamp-2">
                     • Hidden Gutter Damage Easier to Spot in Summer
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/can-blocked-gutters-cause-damp" className="font-semibold text-gray-800 hover:text-emerald-600 transition-colors line-clamp-2">
+                  <Link href="/blog/clean-gutters-prevent-damp/" className="font-semibold text-gray-800 hover:text-emerald-600 transition-colors line-clamp-2">
                     • Can Blocked Gutters Cause Damp?
                   </Link>
                 </li>
