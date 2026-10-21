@@ -1,5 +1,6 @@
 'use client';
 
+import { SOCIAL_PROFILES } from '@/lib/businessDetails';
 import HeroVideo from '@/components/media/HeroVideo';
 import { useState } from 'react';
 import type { BlogPost } from '@/constants/blogTypes';
@@ -345,10 +346,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
           'areaServed': 'GB',
           'availableLanguage': 'English'
         },
-        'sameAs': [
-          'https://web.facebook.com/wowgutters.co.uk',
-          'https://www.instagram.com/wowgutters/'
-        ]
+        'sameAs': SOCIAL_PROFILES.map((p) => p.url)
       },
       // FAQPage Schema (if FAQs are present in content)
       ...(faqs.length > 0 ? [{
@@ -667,12 +665,12 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/hidden-gutter-damage-easier-spot-summer" className="font-semibold text-gray-800 hover:text-emerald-600 transition-colors line-clamp-2">
+                  <Link href="/blog/hidden-gutter-damage-summer/" className="font-semibold text-gray-800 hover:text-emerald-600 transition-colors line-clamp-2">
                     • Hidden Gutter Damage Easier to Spot in Summer
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/can-blocked-gutters-cause-damp" className="font-semibold text-gray-800 hover:text-emerald-600 transition-colors line-clamp-2">
+                  <Link href="/blog/clean-gutters-prevent-damp/" className="font-semibold text-gray-800 hover:text-emerald-600 transition-colors line-clamp-2">
                     • Can Blocked Gutters Cause Damp?
                   </Link>
                 </li>

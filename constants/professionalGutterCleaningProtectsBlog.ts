@@ -47,11 +47,11 @@ const tdStyle = 'border: 1px solid #e2e8f0; padding: 12px; color: #334155;';
 
 export const professionalGutterCleaningProtectsBlogPost: BlogPost = {
   id: 'gutter-cleaning-protection',
-  seoTitle: 'Gutter Cleaning Protects Roof Walls Foundations | Wow Gutters',
+  seoTitle: 'Gutter Cleaning Protects Roof Walls Foundations | WOW Gutters',
   title:
     'How Professional Gutter Cleaning Helps Protect Your Roof, Walls, and Foundations',
   excerpt:
-    'Professional gutter cleaning protects your roof, walls, and foundations from serious damage. Expert guide from Wow Gutters Ltd — Birmingham & West Midlands specialists. Call 07421 433910.',
+    'Professional gutter cleaning protects your roof, walls, and foundations from serious damage. Expert guide from WOW Gutters Ltd — Birmingham & West Midlands specialists. Call 07421 433910.',
   image: IMG_HERO,
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-07-02',
@@ -73,7 +73,7 @@ export const professionalGutterCleaningProtectsBlogPost: BlogPost = {
 
 <p>This guide explains the precise protective relationship between a professionally maintained gutter system and these three structural elements. Not in general terms — but in the specific, mechanistic detail that helps homeowners understand what <a href="/services/gutter-cleaning/" style="${link}">professional gutter cleaning service</a> is actually protecting, and what the cost of that protection compares to the cost of the structural repairs it prevents.</p>
 
-<p>At <a href="https://wowgutters.co.uk/" style="${link}">Wow Gutters Ltd</a>, we attend thousands of Birmingham and West Midlands properties every year. We see the relationship between gutter condition and structural health on every single one of them. What follows is the knowledge that relationship has built.</p>
+<p>At <a href="https://wowgutters.co.uk/" style="${link}">WOW Gutters Ltd</a>, we attend thousands of Birmingham and West Midlands properties every year. We see the relationship between gutter condition and structural health on every single one of them. What follows is the knowledge that relationship has built.</p>
 
 <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 12px; padding: 24px; margin: 28px 0;">
   <p style="margin: 0 0 8px 0; font-weight: 900; color: #0f172a; font-size: 1.1rem;">How does professional gutter cleaning protect your home?</p>
@@ -90,7 +90,7 @@ ${ctaTop}
   <li><a href="#protects-foundations" style="${link}">How Cleaning Protects Your Foundations</a></li>
   <li><a href="#three-failures" style="${link}">Three Protection Failures Simultaneously</a></li>
   <li><a href="#professional-vs-diy" style="${link}">Why Professional Beats DIY</a></li>
-  <li><a href="#wow-process" style="${link}">The Wow Gutters Professional Process</a></li>
+  <li><a href="#wow-process" style="${link}">The WOW Gutters Professional Process</a></li>
   <li><a href="#birmingham" style="${link}">Birmingham &amp; West Midlands</a></li>
   <li><a href="#seasonal" style="${link}">Seasonal Protection</a></li>
   <li><a href="#cost-comparison" style="${link}">Cost of Protection vs Repair</a></li>
@@ -219,14 +219,14 @@ ${ctaMid}
 
 <ol>
   <li><strong>Complete silt extraction</strong> — Our industrial SkyVac vacuum system extracts the full debris load from the gutter channel — the compacted silt base as well as the surface debris above it. A bucket-and-ladder approach removes the loose surface material but leaves the compacted base that is actually causing the drainage restriction.</li>
-  <li><strong>End-to-end downpipe clearance</strong> — Every downpipe on the property is tested and cleared end-to-end on every Wow Gutters Ltd visit. An intermediate blockage within the pipe — invisible from any external position — is identified and cleared as standard.</li>
+  <li><strong>End-to-end downpipe clearance</strong> — Every downpipe on the property is tested and cleared end-to-end on every WOW Gutters Ltd visit. An intermediate blockage within the pipe — invisible from any external position — is identified and cleared as standard.</li>
   <li><strong>Ground-based method — no contact damage</strong> — Our telescopic carbon fibre poles reach to four storeys from ground level. No ladder contacts your fascia boards, brackets, brickwork, or roof tiles at any point during the clean. See <a href="https://www.hse.gov.uk/work-at-height/" style="${link}" rel="noopener noreferrer" target="_blank">UK ladder safety regulations</a> for why ground-based methods are safer.</li>
   <li><strong>Written condition report and before/after photographs</strong> — Every professional visit produces before and after photographs and a written condition report identifying every joint failure, bracket concern, fascia moisture issue, and roofline observation that needs attention beyond the clean.</li>
 </ol>
 
-<h2 id="wow-process">7. The Wow Gutters Ltd Professional Process — What Protection Looks Like in Practice</h2>
+<h2 id="wow-process">7. The WOW Gutters Ltd Professional Process — What Protection Looks Like in Practice</h2>
 
-<p>Every Wow Gutters Ltd visit to a Birmingham or West Midlands property follows the same comprehensive process — designed not just to clear the channel but to confirm that the complete drainage system is functioning as the property's protection mechanism requires.</p>
+<p>Every WOW Gutters Ltd visit to a Birmingham or West Midlands property follows the same comprehensive process — designed not just to clear the channel but to confirm that the complete drainage system is functioning as the property's protection mechanism requires.</p>
 
 <ol>
   <li><strong>Stage 1 — Pre-clean property assessment:</strong> We walk the complete gutter run — front, rear, extension sections, valley gutters, parapet sections where present. We assess the gutterline profile for sag or displacement and note every downpipe position.</li>
@@ -360,7 +360,7 @@ ${ctaMid}
   </details>
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">How does the before/after photo documentation protect me as a homeowner?</summary>
-    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">The photographic record from every Wow Gutters Ltd visit establishes the condition of your drainage system at a documented point in time — useful for insurance claims where maintenance evidence is relevant. It provides the maintenance history that supports a positive homebuyer survey when you sell the property. And it identifies joint failures, fascia conditions, and roofline observations that would not have been visible from any ground-level assessment.</p></div>
+    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">The photographic record from every WOW Gutters Ltd visit establishes the condition of your drainage system at a documented point in time — useful for insurance claims where maintenance evidence is relevant. It provides the maintenance history that supports a positive homebuyer survey when you sell the property. And it identifies joint failures, fascia conditions, and roofline observations that would not have been visible from any ground-level assessment.</p></div>
   </details>
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">What is the single most important thing a Birmingham homeowner can do to protect their roof, walls, and foundations?</summary>
@@ -374,7 +374,7 @@ ${ctaMid}
 
 <p>Professional gutter cleaning is not a maintenance task you arrange when something goes wrong. It is the structural protection investment you make so that something going wrong becomes significantly less likely.</p>
 
-<p>Wow Gutters Ltd provides this protection across Birmingham and the full West Midlands. Industrial vacuum system from ground level — no ladders. Before and after photographs on every job. Written condition report identifying every developing issue. Thorough water flow testing on every visit.</p>
+<p>WOW Gutters Ltd provides this protection across Birmingham and the full West Midlands. Industrial vacuum system from ground level — no ladders. Before and after photographs on every job. Written condition report identifying every developing issue. Thorough water flow testing on every visit.</p>
 
 ${ctaBox}
 
@@ -392,7 +392,7 @@ Open 24 hours a day, 7 days a week</p>
 
 <p>The gutter above your roofline is not simply a drainage pipe. It is the protective boundary between Birmingham's consistent annual rainfall and three structural elements — your roof, your walls, your foundations — that cost thousands to remediate when that protection fails.</p>
 
-<p>Professional gutter cleaning restores and maintains that boundary. It is the maintenance decision with the broadest structural return of any single visit a Birmingham homeowner can arrange. Call Wow Gutters Ltd today and protect all three.</p>
+<p>Professional gutter cleaning restores and maintains that boundary. It is the maintenance decision with the broadest structural return of any single visit a Birmingham homeowner can arrange. Call WOW Gutters Ltd today and protect all three.</p>
 
 <h2>Related Guides</h2>
 <ul>

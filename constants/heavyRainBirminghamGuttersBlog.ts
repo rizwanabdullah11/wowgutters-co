@@ -26,7 +26,7 @@ const ctaBox = `
 export const heavyRainBirminghamGuttersBlogPost: BlogPost = {
   id: 'heavy-rain-birmingham-gutters-ready',
   seoTitle:
-    "Heavy Rain in Birmingham? Make Sure Your Gutters Are Ready Before It's Too Late | Wow Gutters Ltd",
+    "Heavy Rain in Birmingham? Make Sure Your Gutters Are Ready Before It's Too Late | WOW Gutters Ltd",
   title: "Heavy Rain in Birmingham? Make Sure Your Gutters Are Ready Before It's Too Late",
   excerpt:
     "Birmingham's heavy rainfall season exposes every weakness in your gutter system. Find out how to make sure your gutters are ready before the next downpour — and what happens if they're not.",
@@ -277,7 +277,7 @@ ${ctaBox}
 </figure>
 
 <figure style="margin: 20px 0;">
-  <img src="${IMG_AFTER}" alt="Clean clear gutter ready for heavy rainfall Birmingham Wow Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="${IMG_AFTER}" alt="Clean clear gutter ready for heavy rainfall Birmingham WOW Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">After: Clear gutter channel ready for heavy Birmingham rainfall — full flow confirmed with downpipe test.</figcaption>
 </figure>
 

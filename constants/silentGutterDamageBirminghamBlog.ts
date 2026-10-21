@@ -40,7 +40,7 @@ const ctaBox = `
 export const silentGutterDamageBirminghamBlogPost: BlogPost = {
   id: 'silent-gutter-damage-birmingham',
   seoTitle:
-    "Blocked Gutters Are Silently Damaging Your Birmingham Home — Here's How to Spot It | Wow Gutters Ltd",
+    "Blocked Gutters Are Silently Damaging Your Birmingham Home — Here's How to Spot It | WOW Gutters Ltd",
   title: "Blocked Gutters Are Silently Damaging Your Birmingham Home — Here's How to Spot It",
   excerpt:
     "Blocked gutters cause damage you can't hear and often can't see until it's expensive. Here's how to spot the silent signs on your Birmingham home before it's too late. Call 07421 433910.",
@@ -144,7 +144,7 @@ ${ctaTop}
 <h3>Plant or moss growth visible from the gutter top</h3>
 <p>Any visible plant or moss material growing from the top of the gutter channel is evidence of a debris bed sufficiently established to support biological growth. By the time a plant is visible from ground level, the root system below it has penetrated an organic debris layer representing months to years of accumulation.</p>
 
-<p><a href="/blog/birmingham-gutter-before-after/" style="${link}">Before and after gutter results Birmingham</a> — the before photographs from Wow Gutters inspections consistently show these biological growth indicators in channels where the maintenance deficit is measured in years rather than months.</p>
+<p><a href="/blog/birmingham-gutter-before-after/" style="${link}">Before and after gutter results Birmingham</a> — the before photographs from WOW Gutters inspections consistently show these biological growth indicators in channels where the maintenance deficit is measured in years rather than months.</p>
 
 ${ctaMid}
 
@@ -330,7 +330,7 @@ ${ctaBox}
 
 <p>The indicators described throughout this blog are the period between the silence and the announcement. Acting at the signal stage costs far less than acting when the silence breaks.</p>
 
-<p><a href="https://wowgutters.co.uk/" style="${link}">Wow Gutters Ltd</a> covers all of Birmingham and the West Midlands. Industrial vacuum system from ground level — no ladders. Before and after photographs on every job. Written condition report on every developing issue.</p>
+<p><a href="https://wowgutters.co.uk/" style="${link}">WOW Gutters Ltd</a> covers all of Birmingham and the West Midlands. Industrial vacuum system from ground level — no ladders. Before and after photographs on every job. Written condition report on every developing issue.</p>
 
 <p>📞 Call now: <a href="tel:07421433910" style="${link}">07421 433910</a><br/>
 📧 Email: <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a><br/>
@@ -346,7 +346,7 @@ Open 24 hours a day, 7 days a week</p>
 
 <p>But the evidence is there — on the external brickwork, at the gutterline, on the fascia board face, inside the rooms whose walls sit below the overflowing channel. Knowing what to look for converts the silent problem into a findable one.</p>
 
-<p><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a> — call <a href="https://wowgutters.co.uk/" style="${link}">Wow Gutters Ltd</a> today. Find the evidence. Address it while it is still in the maintenance category.</p>
+<p><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a> — call <a href="https://wowgutters.co.uk/" style="${link}">WOW Gutters Ltd</a> today. Find the evidence. Address it while it is still in the maintenance category.</p>
 
 <h2>Related Guides</h2>
 <ul>

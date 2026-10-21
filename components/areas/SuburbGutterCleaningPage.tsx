@@ -10,6 +10,8 @@ import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
 import AreaServicesHub from '@/components/navigation/AreaServicesHub';
+import LocalBoostSection from '@/components/areas/LocalBoostSection';
+import { withLocalBoostFaqs } from '@/lib/localBoostContent';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
 
 
@@ -352,6 +354,8 @@ export default function SuburbGutterCleaningPage({
       </section>
 
       {/* SECTION 6 — FAQs */}
+      {serviceKind === 'gutter' && <LocalBoostSection slug={areaSlug} />}
+
       <section className="py-20 px-4 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #0d6e4e 0%, #19C58B 50%, #14B27D 100%)' }}>
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px)', backgroundSize: '32px 32px' }} />
@@ -367,7 +371,7 @@ export default function SuburbGutterCleaningPage({
           </div>
 
           <div className="space-y-4 max-w-3xl mx-auto">
-            {data.faqs.map((faq, i) => (
+            {withLocalBoostFaqs(serviceKind === 'gutter' ? areaSlug : undefined, data.faqs).map((faq, i) => (
               <details
                 key={faq.question}
                 name={faqGroupName}

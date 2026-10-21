@@ -18,10 +18,10 @@ const ctaBox = `
 
 export const yardleyBlogPost: BlogPost = {
   id: 'gutter-cleaning-yardley',
-  seoTitle: 'Gutter Cleaning Yardley B25 Birmingham | Wow Gutters Ltd',
+  seoTitle: 'Gutter Cleaning Yardley B25 Birmingham | WOW Gutters Ltd',
   title: 'Gutter Cleaning in Yardley B25 — Protecting Family Homes Across East Birmingham',
   excerpt:
-    'Professional gutter cleaning in Yardley B25 Birmingham. Wow Gutters Ltd — industrial vacuum system, no ladders, before & after photos on every job. Fully insured. Free quote: 07421 433910.',
+    'Professional gutter cleaning in Yardley B25 Birmingham. WOW Gutters Ltd — industrial vacuum system, no ladders, before & after photos on every job. Fully insured. Free quote: 07421 433910.',
   image: '/gutter-clean.webp',
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-06',
@@ -62,7 +62,7 @@ export const yardleyBlogPost: BlogPost = {
   <li><a href="#every-visit" style="${link}">Everything Included on Every Visit</a></li>
   <li><a href="#landlords" style="${link}">Supporting Landlords Across Yardley B25</a></li>
   <li><a href="#areas" style="${link}">Areas We Cover Around Yardley</a></li>
-  <li><a href="#why-choose" style="${link}">Why B25 Homeowners Choose Wow Gutters</a></li>
+  <li><a href="#why-choose" style="${link}">Why B25 Homeowners Choose WOW Gutters</a></li>
   <li><a href="#before-after" style="${link}">Before and After — Yardley B25</a></li>
   <li><a href="#faq" style="${link}">Frequently Asked Questions</a></li>
 </ul>
@@ -123,7 +123,7 @@ export const yardleyBlogPost: BlogPost = {
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>🔔 Seeing any of these at your Yardley property?</strong><br/>
   These signs don't resolve themselves. Each rainfall adds to the damage already underway.<br/>
-  📞 Call Wow Gutters: <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> — free quote, no obligation.<br/>
+  📞 Call WOW Gutters: <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> — free quote, no obligation.<br/>
   💬 WhatsApp: <a href="https://wa.me/447421433910" style="${link}" rel="noopener">wa.me/447421433910</a>
 </blockquote>
 
@@ -159,7 +159,7 @@ export const yardleyBlogPost: BlogPost = {
 
 <h2 id="every-visit">Everything Included on Every Visit</h2>
 
-<p>No hidden extras. No charges revealed after arrival. Every Wow Gutters visit to a B25 property includes the same complete service:</p>
+<p>No hidden extras. No charges revealed after arrival. Every WOW Gutters visit to a B25 property includes the same complete service:</p>
 
 <ul>
   <li>✅ Full gutter channel vacuum clearance — every metre, end to end, not just the worst sections</li>
@@ -204,7 +204,7 @@ export const yardleyBlogPost: BlogPost = {
 
 <p>Not sure if we cover your street? Call <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a> and we'll confirm immediately.</p>
 
-<h2 id="why-choose">Why B25 Homeowners Choose Wow Gutters Ltd</h2>
+<h2 id="why-choose">Why B25 Homeowners Choose WOW Gutters Ltd</h2>
 
 <p>There is no shortage of people offering to clean gutters in Birmingham. The difference between a reliable professional service and a van-and-ladder operation becomes clear when something goes wrong — and with us, nothing does.</p>
 
@@ -272,7 +272,7 @@ ${ctaBox}
 
 <p>Blocked gutters undo that care quietly and gradually, in the brickwork and the fascia boards and the plaster behind the bedroom wall.</p>
 
-<p>Getting them cleared is straightforward. It takes a few hours. It costs a fraction of what the damage costs to repair. And with Wow Gutters Ltd, you'll have photographic proof of every section we cleared before we even leave your street.</p>
+<p>Getting them cleared is straightforward. It takes a few hours. It costs a fraction of what the damage costs to repair. And with WOW Gutters Ltd, you'll have photographic proof of every section we cleared before we even leave your street.</p>
 
 <p>Call us. Get it sorted. Know it's been done properly.</p>
 

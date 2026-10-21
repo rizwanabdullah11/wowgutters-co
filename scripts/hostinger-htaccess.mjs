@@ -161,6 +161,9 @@ AddDefaultCharset UTF-8
   RewriteRule ^blog/birmingham-gutter-maintenance-calendar-seasonal-guide/?$ /blog/birmingham-seasonal-gutter-guide/ [R=301,L]
   RewriteRule ^blog/gutter-inspection-save-birmingham-homeowners-thousands/?$ /blog/birmingham-gutter-inspection/ [R=301,L]
   RewriteRule ^blog/blocked-gutters-silently-damaging-birmingham-home-how-to-spot-it/?$ /blog/silent-gutter-damage-birmingham/ [R=301,L]
+  # Old blog slugs still linked from ~90 posts (were 404 until Oct 2026)
+  RewriteRule ^blog/can-blocked-gutters-cause-damp/?$ /blog/clean-gutters-prevent-damp/ [R=301,L]
+  RewriteRule ^blog/hidden-gutter-damage-easier-spot-summer/?$ /blog/hidden-gutter-damage-summer/ [R=301,L]
 
   # Removed service areas hub
   RewriteRule ^service-areas/?$ / [R=301,L]

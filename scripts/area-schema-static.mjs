@@ -276,7 +276,11 @@ export function parseCitiesFromFile(citiesTsContent) {
   return cities;
 }
 
-export function schemaForAreaSlug(slug, citiesMap) {
+/**
+ * @param faqs Optional FAQs taken from the rendered page (Oct 2026): keeps schema answers
+ *             identical to the visible FAQ copy (current prices + page-specific questions).
+ */
+export function schemaForAreaSlug(slug, citiesMap, faqs) {
   const url = `https://wowgutters.co.uk/gutter-cleaning-${slug}/`;
   const data = citiesMap[slug];
   if (data) {
@@ -288,6 +292,7 @@ export function schemaForAreaSlug(slug, citiesMap) {
       nearbyAreas: data.nearbyAreas,
       geo: data.geo,
       postcodes: data.postcodes,
+      faqs,
     });
   }
   return buildLocalBusinessSchemaGraph({
@@ -297,5 +302,6 @@ export function schemaForAreaSlug(slug, citiesMap) {
     priceTo: 210,
     nearbyAreas: [],
     geo: { latitude: 52.4862, longitude: -1.8904 },
+    faqs,
   });
 }

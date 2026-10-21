@@ -9,7 +9,7 @@ import { HERO_IMAGE_SRC, HERO_IMAGE_SRCSET } from '@/lib/heroImage';
  *
  * - A responsive still image renders in the static HTML and is the LCP element
  *   (phones download a ~57 KB WebP instead of a 320 KB JPEG).
- * - The video file (1–4 MB) is NOT downloaded on phones/tablets, on slow or
+ * - Desktop gets the full video; phones/tablets get `mobileSrc` when given (homepage), else none. Never on slow or
  *   data-saver connections, or when the user prefers reduced motion.
  * - On desktop it starts loading only after the page has finished loading and
  *   the browser is idle, then fades in over the still once it is playing.
@@ -22,10 +22,13 @@ const FILL = { position: 'absolute', inset: 0, width: '100%', height: '100%', ob
 
 export default function HeroVideo({
   src,
+  mobileSrc,
   poster,
   className = 'hero-video',
 }: {
   src?: string;
+  /** Lighter file for phones/tablets (homepage, Oct 2026). Without it, small screens keep the still image. */
+  mobileSrc?: string;
   /** Optional page-specific still; defaults to the responsive gutter-cleaning hero. */
   poster?: string;
   className?: string;
@@ -43,12 +46,13 @@ export default function HeroVideo({
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const conn = (navigator as Navigator & { connection?: { saveData?: boolean; effectiveType?: string } }).connection;
     const slow = Boolean(conn?.saveData) || /(^|-)2g$|^3g$/.test(conn?.effectiveType ?? '');
-    if (!wide || reduced || slow) return;
+    const file = wide ? src : mobileSrc;
+    if (!file || reduced || slow) return;
 
     let cancelled = false;
     const start = () => {
       if (cancelled || !ref.current) return;
-      ref.current.src = src;
+      ref.current.src = file;
       ref.current.play().catch(() => {});
     };
     const idle = () => {
@@ -64,7 +68,7 @@ export default function HeroVideo({
       cancelled = true;
       window.removeEventListener('load', idle);
     };
-  }, [src]);
+  }, [src, mobileSrc]);
 
   return (
     <>

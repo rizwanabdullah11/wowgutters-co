@@ -12,6 +12,7 @@ import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
 import NearbyAreas from '@/components/areas/NearbyAreas';
+import LocalBoostSection from '@/components/areas/LocalBoostSection';
 import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
 import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
@@ -342,6 +343,8 @@ export default function CityGutterCleaningPage({
           </div>
         </div>
       </section>
+
+      {serviceKind === 'gutter' && <LocalBoostSection slug={data.slug} />}
 
       <CollapsibleAreaFAQ city={data.city} faqs={pageFaqs} heading={data.faqsTitle} />
 

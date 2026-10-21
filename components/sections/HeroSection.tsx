@@ -5,6 +5,8 @@ import HeroVideo from '@/components/media/HeroVideo';
 
 // Keep these outside the component so they are stable in production builds.
 const HERO_VIDEO_PRIMARY = '/gutter-final-video.mp4';
+/** 432px, no audio, ~1.3 MB (full file is 5.3 MB) — phones and tablets. */
+const HERO_VIDEO_MOBILE = '/gutter-final-video-mobile.mp4';
 
 // Rotating headlines — location-first for local SEO
 const HERO_HEADLINES = [
@@ -72,7 +74,7 @@ export default function HeroSection() {
         {/* Video Background */}
         <div className="hero-video-wrapper">
           {/* LCP: responsive still; video loads on desktop only, after page load */}
-          <HeroVideo src={HERO_VIDEO_PRIMARY} className="hero-video" />
+          <HeroVideo src={HERO_VIDEO_PRIMARY} mobileSrc={HERO_VIDEO_MOBILE} className="hero-video" />
           {/* Advanced Gradient Overlay for better text legibility */}
           <div className="hero-overlay"></div>
         </div>

@@ -1,3 +1,5 @@
+import { gutterCleaningCostGuideBlogPost } from './gutterCleaningCostGuideBlog';
+import { howOftenCleanGuttersBlogPost } from './howOftenCleanGuttersBlog';
 import { wolverhamptonGutterCleaningBlogPost } from './wolverhamptonGutterCleaningBlog';
 import { guttersBeforeSellingBlogPost } from './guttersBeforeSellingBlog';
 import { elderlyGutterCleaningBlogPost } from './elderlyGutterCleaningBlog';
@@ -72,6 +74,8 @@ export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  gutterCleaningCostGuideBlogPost,
+  howOftenCleanGuttersBlogPost,
   wolverhamptonGutterCleaningBlogPost,
   guttersBeforeSellingBlogPost,
   elderlyGutterCleaningBlogPost,

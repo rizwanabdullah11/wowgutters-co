@@ -25,10 +25,10 @@ const ctaBox = `
 
 export const kingsHeathBlogPost: BlogPost = {
   id: 'gutter-cleaning-kings-heath',
-  seoTitle: 'Gutter Cleaning Kings Heath B14 Birmingham | Wow Gutters Ltd',
+  seoTitle: 'Gutter Cleaning Kings Heath B14 Birmingham | WOW Gutters Ltd',
   title: "Gutter Cleaning in Kings Heath B14 — Protecting Birmingham's Most Invested-In Neighbourhood",
   excerpt:
-    'Professional gutter cleaning in Kings Heath B14 Birmingham. Wow Gutters Ltd — industrial vacuum system, no ladders, before & after photos on every job. Fully insured. Free quote: 07421 433910.',
+    'Professional gutter cleaning in Kings Heath B14 Birmingham. WOW Gutters Ltd — industrial vacuum system, no ladders, before & after photos on every job. Fully insured. Free quote: 07421 433910.',
   image: IMG_HERO,
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-15',
@@ -77,7 +77,7 @@ export const kingsHeathBlogPost: BlogPost = {
   <li><a href="#every-visit" style="${link}">What Every Visit Includes</a></li>
   <li><a href="#landlords" style="${link}">Landlords and Investors in B14</a></li>
   <li><a href="#areas" style="${link}">Areas We Cover Around Kings Heath</a></li>
-  <li><a href="#why-choose" style="${link}">Why Kings Heath Homeowners Choose Wow Gutters</a></li>
+  <li><a href="#why-choose" style="${link}">Why Kings Heath Homeowners Choose WOW Gutters</a></li>
   <li><a href="#before-after" style="${link}">Before and After — Kings Heath B14</a></li>
   <li><a href="#faq" style="${link}">Frequently Asked Questions</a></li>
 </ul>
@@ -272,7 +272,7 @@ ${ctaBox}
 </figure>
 
 <figure style="margin: 20px 0;">
-  <img src="${IMG_AFTER}" alt="After professional gutter cleaning Kings Heath B14 Birmingham Wow Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="${IMG_AFTER}" alt="After professional gutter cleaning Kings Heath B14 Birmingham WOW Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">After: Clean gutter channel on a Kings Heath B14 property — fully cleared, downpipe flowing, documented with same-day before and after photos.</figcaption>
 </figure>
 

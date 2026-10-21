@@ -14,6 +14,15 @@ export const WOW_GUTTERS_NAP = {
   geo: { latitude: 52.4862, longitude: -1.8904 },
 } as const;
 
+/** Social profiles confirmed by the owner (Oct 2026) — must match the Google Business Profile. */
+export const SOCIAL_PROFILES = [
+  { name: 'Facebook', url: 'https://web.facebook.com/wowgutters.co.uk' },
+  { name: 'Instagram', url: 'https://www.instagram.com/wowgutters/' },
+  { name: 'LinkedIn', url: 'https://www.linkedin.com/company/wow-gutters' },
+  { name: 'LinkedIn (profile)', url: 'https://www.linkedin.com/in/wow-gutters-ltd-1b5a58318' },
+  { name: 'Pinterest', url: 'https://uk.pinterest.com/wowguttersltd/' },
+] as const;
+
 export function formatNapAddress(): string {
   const { streetAddress, addressLocality, postalCode, addressRegion } = WOW_GUTTERS_NAP;
   return `${streetAddress}, ${addressLocality} ${postalCode}, ${addressRegion}`;

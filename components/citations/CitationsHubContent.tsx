@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { SOCIAL_PROFILES } from '@/lib/businessDetails';
 import GoogleMapsEmbed from '@/components/seo/GoogleMapsEmbed';
 import { WOW_GUTTERS_NAP, formatNapAddress, gbpProfileUrl, gbpReviewUrl } from '@/lib/businessDetails';
 import { MARKETING_DESTINATION_URLS } from '@/lib/utmLinks';
@@ -303,19 +304,11 @@ export default function CitationsHubContent() {
       <section>
         <h2 className="text-2xl font-black text-slate-900">Social profiles (sameAs)</h2>
         <ul className="mt-4 space-y-2 text-slate-700">
-          <li>
-            <span className="font-semibold text-slate-900">Facebook:</span>{' '}
-            https://web.facebook.com/wowgutters.co.uk
-          </li>
-          <li>
-            <span className="font-semibold text-slate-900">Instagram:</span> https://www.instagram.com/wowgutters/
-          </li>
-          <li>
-            <span className="font-semibold text-slate-900">X/Twitter:</span> https://twitter.com/wowgutters
-          </li>
-          <li>
-            <span className="font-semibold text-slate-900">YouTube:</span> https://www.youtube.com/@wowgutters
-          </li>
+          {SOCIAL_PROFILES.map((p) => (
+            <li key={p.url}>
+              <span className="font-semibold text-slate-900">{p.name}:</span> {p.url}
+            </li>
+          ))}
         </ul>
       </section>
     </div>

@@ -18,10 +18,10 @@ const ctaBox = `
 
 export const nechellsBlogPost: BlogPost = {
   id: 'gutter-cleaning-nechells',
-  seoTitle: 'Gutter Cleaning Nechells B7 Birmingham | Wow Gutters Ltd',
+  seoTitle: 'Gutter Cleaning Nechells B7 Birmingham | WOW Gutters Ltd',
   title: 'Gutter Cleaning in Nechells B7 — Urban Properties Deserve Professional Care',
   excerpt:
-    'Professional gutter cleaning in Nechells B7 Birmingham. Wow Gutters Ltd — industrial vacuum system, no ladders, before & after photos every job. Landlords welcome. Free quote: 07421 433910.',
+    'Professional gutter cleaning in Nechells B7 Birmingham. WOW Gutters Ltd — industrial vacuum system, no ladders, before & after photos every job. Landlords welcome. Free quote: 07421 433910.',
   image: '/nechells-gutter-cleaning-hero.webp',
   heroVideo: '/gutter-cleaning-video.mp4',
   date: '2026-06-06',
@@ -64,7 +64,7 @@ export const nechellsBlogPost: BlogPost = {
   <li><a href="#included" style="${link}">Everything Included as Standard</a></li>
   <li><a href="#landlords" style="${link}">Landlords, HMOs, and Housing Associations in B7</a></li>
   <li><a href="#areas" style="${link}">Areas We Cover Around Nechells</a></li>
-  <li><a href="#why-choose" style="${link}">Why Property Owners in B7 Choose Wow Gutters</a></li>
+  <li><a href="#why-choose" style="${link}">Why Property Owners in B7 Choose WOW Gutters</a></li>
   <li><a href="#before-after" style="${link}">Before and After — Nechells B7</a></li>
   <li><a href="#faq" style="${link}">Frequently Asked Questions</a></li>
 </ul>
@@ -191,7 +191,7 @@ export const nechellsBlogPost: BlogPost = {
 </figure>
 
 <figure style="margin: 20px 0;">
-  <img src="/nechells-gutter-cleaning-after.webp" alt="After professional gutter cleaning Nechells B7 Birmingham Wow Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
+  <img src="/nechells-gutter-cleaning-after.webp" alt="After professional gutter cleaning Nechells B7 Birmingham WOW Gutters Ltd" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">After: The same gutter run fully cleared — channel open, downpipe flowing, before and after photos sent the same day.</figcaption>
 </figure>
 
