@@ -29,6 +29,8 @@ const REDIRECTS = {
   'home/': '',
   'blog/can-blocked-gutters-cause-damp/': 'blog/clean-gutters-prevent-damp/',
   'blog/hidden-gutter-damage-easier-spot-summer/': 'blog/hidden-gutter-damage-summer/',
+  'blog/commercial-warehouse-gutter-clearing-birmingham/': 'blog/warehouse-gutter-clearing/',
+  'roof-cleaning-solihull-town-centre/': 'roof-cleaning-solihull/',
 };
 
 // Day-1 consolidation map (also drives the .htaccess 301s). GONE pages → main gutter service page.
