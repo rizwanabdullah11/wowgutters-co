@@ -164,6 +164,10 @@ AddDefaultCharset UTF-8
   # Old blog slugs still linked from ~90 posts (were 404 until Oct 2026)
   RewriteRule ^blog/can-blocked-gutters-cause-damp/?$ /blog/clean-gutters-prevent-damp/ [R=301,L]
   RewriteRule ^blog/hidden-gutter-damage-easier-spot-summer/?$ /blog/hidden-gutter-damage-summer/ [R=301,L]
+  # Remaining real 404s from Search Console (Oct 2026)
+  RewriteRule ^blog/commercial-warehouse-gutter-clearing-birmingham/?$ /blog/warehouse-gutter-clearing/ [R=301,L]
+  RewriteRule ^blog/[0-9]+/?$ /blog/ [R=301,L]
+  RewriteRule ^roof-cleaning-solihull-town-centre/?$ /roof-cleaning-solihull/ [R=301,L]
 
   # Removed service areas hub
   RewriteRule ^service-areas/?$ / [R=301,L]
