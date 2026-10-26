@@ -17,19 +17,19 @@ const ctaTop = `
 </blockquote>`;
 
 const ctaBox = `
-<div style="background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%); border: 2px solid #19C58B; border-radius: 16px; padding: 28px 32px; margin: 40px 0; box-shadow: 0 4px 20px rgba(25, 197, 139, 0.12);">
-  <h3 style="font-size: 1.4rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.3; text-transform: uppercase;">DEAL WITH THE ROOF AND THE FALLOUT</h3>
+<div style="background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%); border: 2px solid #19C58B; border-radius: 16px; padding: 28px 24px; margin: 40px 0; box-shadow: 0 4px 20px rgba(25, 197, 139, 0.12);">
+  <h3 style="font-size: 1.35rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.3; text-transform: uppercase;">DEAL WITH THE ROOF AND THE FALLOUT</h3>
   <p style="color: #334155; font-size: 0.98rem; line-height: 1.75; margin: 0 0 20px 0;">WOW Gutters Ltd provides fully insured gutter cleaning, roof cleaning and camera inspection across Birmingham and the West Midlands, with before and after photographs on every job. No ladders for gutter work.</p>
-  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 12px; padding: 18px 24px;">
-    <div>
+  <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 12px; padding: 18px 20px;">
+    <div style="min-width: 240px; flex: 1 1 280px;">
       <span style="display: block; font-weight: 800; color: #0f172a; font-size: 1rem;">Moss falling from your roof into the gutters?</span>
-      <span style="display: block; color: #64748b; font-size: 0.825rem; margin-top: 2px;">Same-week appointments across Birmingham &amp; West Midlands</span>
+      <span style="display: block; color: #64748b; font-size: 0.85rem; margin-top: 2px;">Same-week appointments across Birmingham &amp; West Midlands</span>
     </div>
-    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px;">
-      <a href="/quote" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #19C58B; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 22px; border-radius: 8px; text-decoration: none; box-shadow: 0 2px 8px rgba(25, 197, 139, 0.3);">
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px; width: 100%; max-width: 380px;">
+      <a href="/quote" style="flex: 1 1 160px; min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #19C58B; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 20px; border-radius: 8px; text-decoration: none; box-shadow: 0 2px 8px rgba(25, 197, 139, 0.3);">
         <span>&#9658;</span> Get Free Quote
       </a>
-      <a href="tel:07421433910" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #0f172a; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 22px; border-radius: 8px; text-decoration: none;">
+      <a href="tel:07421433910" style="flex: 1 1 140px; min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #0f172a; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 20px; border-radius: 8px; text-decoration: none;">
         <span>📞</span> 07421 433910
       </a>
     </div>
@@ -143,13 +143,16 @@ ${ctaTop}
 
 <h2 id="why-gutters-cleared-after" style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;">Why Gutters Need Clearing After Moss Treatment</h2>
 <p>Whichever way moss is removed, dead or loosened moss ends up in the gutters. If the channel isn’t cleared afterwards, that material compacts and blocks it. So the sensible order is:</p>
-<ol style="padding-left: 20px; line-height: 1.9; color: #334155;">
-  <li><strong>Treat or clear the roof:</strong> Safely remove or treat moss buildup.</li>
-  <li><strong>Wait for loosened material to come down:</strong> As advised by whoever did the work.</li>
-  <li><strong>Clear the gutters and downpipes:</strong> Down to the channel floor.</li>
-  <li><strong>Check the structure with a camera:</strong> Because moss often hid faults.</li>
-  <li><strong>Photograph everything:</strong> Dated visual record of the cleared runs.</li>
-</ol>
+<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; margin: 32px 0;">
+  <h3 style="font-size: 1.15rem; font-weight: 800; color: #0f172a; margin: 0 0 16px 0;">The 5-Step Order That Prevents Silt Compaction</h3>
+  <ol style="padding-left: 20px; line-height: 1.9; color: #334155; margin: 0;">
+    <li><strong>Treat or clear the roof:</strong> Safely remove or treat moss buildup.</li>
+    <li><strong>Wait for loosened material to come down:</strong> As advised by whoever did the work.</li>
+    <li><strong>Clear the gutters and downpipes:</strong> Down to the channel floor.</li>
+    <li><strong>Check the structure with a camera:</strong> Because moss often hid faults.</li>
+    <li><strong>Photograph everything:</strong> Dated visual record of the cleared runs.</li>
+  </ol>
+</div>
 <p>That is why a roof and gutter visit is often better planned together. Ask us about timing when you <a href="/contact" style="${link}">contact us</a>, and we’ll tell you what’s possible for your property. Our method is described in <a href="/blog/how-clean-gutters-without-ladder-birmingham-method" style="${link}">How Do You Clean Gutters Without a Ladder? The Method Birmingham Pros Use</a> and <a href="/blog/gutter-vacuum-cleaning-birmingham" style="${link}">Gutter Vacuum Cleaning Birmingham</a>, and the full process is in <a href="/blog/what-happens-during-professional-gutter-clean-birmingham-walkthrough" style="${link}">What Happens During a Professional Gutter Clean? A Birmingham Homeowner’s Walkthrough</a>. Heavily neglected runs fall under our <a href="/gutter-clearing" style="${link}">gutter clearing</a> service.</p>
 
 <h2 id="what-to-ask" style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;">What to Ask Before You Book Moss Removal</h2>
