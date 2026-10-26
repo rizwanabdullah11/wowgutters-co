@@ -24,28 +24,30 @@ if (telCount < 1) {
   errors.push('at least one tel: link on homepage');
 }
 
-const cssHrefMatch = html.match(/href=["']\.\/_next\/static\/chunks\/[^"']+\.css["']/i);
+const cssHrefMatch = html.match(/href=["']\.\/_next\/static\/(?:chunks|css)\/[^"']+\.css["']/i) || html.match(/href=["']\/_next\/static\/(?:chunks|css)\/[^"']+\.css["']/i);
 let cssBundle = '';
 if (cssHrefMatch) {
   const rel = cssHrefMatch[0].replace(/^href=["']|["']$/g, '');
-  const cssFile = path.join(process.cwd(), 'out', rel.replace(/^\.\//, '').replace(/\//g, path.sep));
+  const cssFile = path.join(process.cwd(), 'out', rel.replace(/^\.?\//, '').replace(/\//g, path.sep));
   if (fs.existsSync(cssFile)) {
     cssBundle = fs.readFileSync(cssFile, 'utf8');
   }
 }
 if (!cssBundle) {
-  const chunksDir = path.join(process.cwd(), 'out', '_next', 'static', 'chunks');
-  if (fs.existsSync(chunksDir)) {
-    cssBundle = fs
-      .readdirSync(chunksDir)
-      .filter((f) => f.endsWith('.css'))
-      .map((f) => fs.readFileSync(path.join(chunksDir, f), 'utf8'))
-      .join('\n');
+  for (const dirName of ['chunks', 'css']) {
+    const dir = path.join(process.cwd(), 'out', '_next', 'static', dirName);
+    if (fs.existsSync(dir)) {
+      const files = fs.readdirSync(dir).filter((f) => f.endsWith('.css'));
+      if (files.length) {
+        cssBundle = files.map((f) => fs.readFileSync(path.join(dir, f), 'utf8')).join('\n');
+        break;
+      }
+    }
   }
 }
 
 if (!cssBundle) {
-  errors.push('exported CSS bundle (out/_next/static/chunks/*.css)');
+  errors.push('exported CSS bundle (out/_next/static/css/*.css or chunks/*.css)');
 } else {
   if (!/font-size:\s*16px/i.test(cssBundle) && !/font-size:1rem/i.test(cssBundle)) {
     errors.push('16px base font rule in exported CSS');

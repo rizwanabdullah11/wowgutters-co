@@ -142,9 +142,13 @@ AddDefaultCharset UTF-8
 
   # Legacy /help/{service-id}/ → canonical /services/{service-id}/
   RewriteRule ^help/gutter-cleaning/?$ /services/gutter-cleaning/ [R=301,L]
-  RewriteRule ^help/gutter-repairs/?$ /services/gutter-repairs/ [R=301,L]
+  RewriteRule ^help/gutter-repairs/?$ /gutter-repairs/ [R=301,L]
+  RewriteRule ^help/repair/?$ /gutter-repairs/ [R=301,L]
+  RewriteRule ^services/gutter-repairs/?$ /gutter-repairs/ [R=301,L]
   RewriteRule ^help/upvc-cleaning/?$ /services/upvc-cleaning/ [R=301,L]
-  RewriteRule ^help/roof-cleaning/?$ /services/roof-cleaning/ [R=301,L]
+  RewriteRule ^help/roof-cleaning/?$ /roof-cleaning/ [R=301,L]
+  RewriteRule ^help/clean/?$ /roof-cleaning/ [R=301,L]
+  RewriteRule ^services/roof-cleaning/?$ /roof-cleaning/ [R=301,L]
   RewriteRule ^help/inspection/?$ /services/gutter-inspection/ [R=301,L]
   RewriteRule ^help/conservatory/?$ /services/conservatory/ [R=301,L]
   RewriteRule ^help/water-butt/?$ /services/water-butt/ [R=301,L]

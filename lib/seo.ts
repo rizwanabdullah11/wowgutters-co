@@ -74,7 +74,6 @@ const CANONICAL_OVERRIDES: Record<string, string> = {
   '/gutter-repairs-bromsgrove/': '/gutter-repair-bromsgrove/',
   '/gutter-repairs-wolverhampton/': '/gutter-repair-wolverhampton/',
   '/gutter-cleaning-cost-calculator/': '/gutter-cleaning-calculator/',
-  '/gutter-repairs/': '/services/gutter-repairs/',
 };
 
 export function canonicalOverride(path: string): string {

@@ -72,22 +72,22 @@
     },
     {
       "source": "/services/gutter-repairs",
-      "destination": "/help/repair/",
+      "destination": "/gutter-repairs/",
       "permanent": true
     },
     {
       "source": "/services/gutter-repairs/",
-      "destination": "/help/repair/",
+      "destination": "/gutter-repairs/",
       "permanent": true
     },
     {
       "source": "/services/roof-cleaning",
-      "destination": "/help/clean/",
+      "destination": "/roof-cleaning/",
       "permanent": true
     },
     {
       "source": "/services/roof-cleaning/",
-      "destination": "/help/clean/",
+      "destination": "/roof-cleaning/",
       "permanent": true
     },
     {
@@ -108,146 +108,6 @@
     {
       "source": "/service-areas/",
       "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/birmingham-rain-gutter-damage",
-      "destination": "/blog/birmingham-rain-gutter-damage/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/birmingham-rain-gutter-damage/",
-      "destination": "/blog/birmingham-rain-gutter-damage/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/birmingham-gutter-before-after",
-      "destination": "/blog/birmingham-gutter-before-after/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/birmingham-gutter-before-after/",
-      "destination": "/blog/birmingham-gutter-before-after/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/gutter-cleaning-balsall-heath",
-      "destination": "/blog/gutter-cleaning-balsall-heath/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/gutter-cleaning-balsall-heath/",
-      "destination": "/blog/gutter-cleaning-balsall-heath/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/gutter-cleaning-nechells",
-      "destination": "/blog/gutter-cleaning-nechells/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/gutter-cleaning-nechells/",
-      "destination": "/blog/gutter-cleaning-nechells/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/gutter-cleaning-yardley",
-      "destination": "/blog/gutter-cleaning-yardley/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/gutter-cleaning-yardley/",
-      "destination": "/blog/gutter-cleaning-yardley/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/gutter-cleaning-acocks-green",
-      "destination": "/blog/gutter-cleaning-acocks-green/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/gutter-cleaning-acocks-green/",
-      "destination": "/blog/gutter-cleaning-acocks-green/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/gutter-cleaning-harborne",
-      "destination": "/blog/gutter-cleaning-harborne/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/gutter-cleaning-harborne/",
-      "destination": "/blog/gutter-cleaning-harborne/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/gutter-cleaning-selly-oak",
-      "destination": "/blog/gutter-cleaning-selly-oak/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/gutter-cleaning-selly-oak/",
-      "destination": "/blog/gutter-cleaning-selly-oak/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/roof-moss-kings-norton",
-      "destination": "/blog/roof-moss-kings-norton/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/roof-moss-kings-norton/",
-      "destination": "/blog/roof-moss-kings-norton/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/fascias-soffits-west-midlands",
-      "destination": "/blog/fascias-soffits-west-midlands/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/fascias-soffits-west-midlands/",
-      "destination": "/blog/fascias-soffits-west-midlands/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/warehouse-gutter-clearing",
-      "destination": "/blog/warehouse-gutter-clearing/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/warehouse-gutter-clearing/",
-      "destination": "/blog/warehouse-gutter-clearing/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/ladder-free-gutter-cleaning",
-      "destination": "/blog/ladder-free-gutter-cleaning/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/ladder-free-gutter-cleaning/",
-      "destination": "/blog/ladder-free-gutter-cleaning/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/downpipe-shoe",
-      "destination": "/blog/downpipe-shoe/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/downpipe-shoe/",
-      "destination": "/blog/downpipe-shoe/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/silent-gutter-damage-birmingham",
-      "destination": "/blog/silent-gutter-damage-birmingham/",
-      "permanent": true
-    },
-    {
-      "source": "/blog/silent-gutter-damage-birmingham/",
-      "destination": "/blog/silent-gutter-damage-birmingham/",
       "permanent": true
     },
     {
