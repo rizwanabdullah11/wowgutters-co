@@ -48,7 +48,7 @@ export default function HelpPage() {
       <SEOMeta
         title="Gutter Cleaning FAQ | West Midlands | WOW Gutters Ltd"
         description="Answers to common questions about gutter cleaning, repairs, inspections and more in Birmingham & West Midlands. Call 07421 433910 for a FREE quote."
-        canonicalUrl="https://wowgutters.co.uk/help"
+        canonicalUrl="https://wowgutters.co.uk/help/"
       />
       <SchemaMarkup
         id="schema-faqpage"
@@ -515,3 +515,4 @@ export default function HelpPage() {
     </main>
   );
 }
+

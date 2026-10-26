@@ -71,6 +71,8 @@ const EXCLUDED_PATHS = new Set([
   '/gutter-repairs-wolverhampton/',
   '/gutter-cleaning-cost-calculator/',
   '/gutter-repairs/',
+  '/services/gutter-repairs/',
+  '/services/roof-cleaning/',
 ]);
 
 const REQUIRED_INDEXABLE_PATHS = [
