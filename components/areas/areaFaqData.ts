@@ -64,7 +64,7 @@ export const UPVC_CLEANING_FAQS = [
   {
     question: 'How much does fascia and UPVC cleaning cost?',
     answer:
-      'Pricing depends on property size, how much fascia and soffit runs around the roofline, and access. Most residential fascia and soffit cleans start from around £60–£150. We confirm your price before work begins.',
+      'Pricing depends on property size, how much fascia and soffit runs around the roofline, and access. Most residential fascia and soffit cleans start from £90. We confirm your price before work begins.',
     icon: '💳',
   },
   {

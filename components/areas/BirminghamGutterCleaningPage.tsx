@@ -303,7 +303,7 @@ export default function BirminghamGutterCleaningPage() {
 
           <p className="text-center text-slate-600 mt-10 max-w-2xl mx-auto">
             Call our Birmingham team now for a fast, friendly quote. We cover all Birmingham postcodes and can often book
-            within 2–3 working days.
+            same-day or next-day.
           </p>
         </div>
       </section>

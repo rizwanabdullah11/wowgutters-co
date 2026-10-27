@@ -220,7 +220,7 @@ export default function Footer() {
             </nav>
 
             <div className="footer-trust-badge">
-              <CheckCircle className="w-5 h-5 text-green-400" /> Fully Licensed & Insured
+              <CheckCircle className="w-5 h-5 text-green-400" /> Fully Insured
             </div>
           </div>
 

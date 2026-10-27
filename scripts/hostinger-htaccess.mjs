@@ -118,6 +118,7 @@ AddDefaultCharset UTF-8
 
   # Audit 05.05 — legacy / alternate domains → wowgutters.co.uk (when pointed at this Hostinger site)
   RewriteCond %{HTTP_HOST} ^(www\\.)?wow-gutters\\.com$ [NC,OR]
+  RewriteCond %{HTTP_HOST} ^(www\\.)?wow-gutters\\.co\\.uk$ [NC,OR]
   RewriteCond %{HTTP_HOST} ^(www\\.)?wowgutters\\.uk$ [NC]
   RewriteRule ^(.*)$ https://wowgutters.co.uk/$1 [R=301,L]
 

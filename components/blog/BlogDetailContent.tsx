@@ -606,7 +606,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
 
               <div className="mt-5 pt-1 text-center">
                 <p className="text-xs uppercase tracking-wider font-semibold text-gray-500 mb-1">
-                  Or Call Direct (Mon–Sat)
+                  Or Call Direct (24/7)
                 </p>
                 <a
                   href="tel:07421433910"

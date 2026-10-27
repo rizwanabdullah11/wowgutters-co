@@ -82,12 +82,15 @@ export default function Navbar() {
       `}</style>
       {/* Mobile Navbar */}
       <div className="lg:hidden">
-        {/* Top Bar — Pay a Bill | Help Centre */}
+        {/* Top Bar — Get a Quote | Help Centre */}
         <div className="text-white" style={{ backgroundColor: colors.navy }}>
           <div className="flex divide-x divide-white/20">
-            <button className="flex-1 py-2.5 text-center text-[13px] font-bold hover:bg-black/20 transition-colors">
-              Pay a Bill
-            </button>
+            <Link
+              href="/quote/"
+              className="flex-1 py-2.5 text-center text-[13px] font-bold text-white hover:bg-black/20 transition-colors"
+            >
+              Get a Quote
+            </Link>
             <Link 
               href="/help"
               className="flex-1 py-2.5 text-center text-[13px] font-bold text-white hover:bg-black/20 transition-colors"

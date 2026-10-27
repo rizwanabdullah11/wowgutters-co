@@ -70,7 +70,6 @@ const EXCLUDED_PATHS = new Set([
   '/gutter-repairs-bromsgrove/',
   '/gutter-repairs-wolverhampton/',
   '/gutter-cleaning-cost-calculator/',
-  '/gutter-repairs/',
   '/services/gutter-repairs/',
   '/services/roof-cleaning/',
 ]);
