@@ -47,7 +47,7 @@ export default function BartleyGreenPage() {
         city="Bartley Green"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Selly Oak', 'Northfield', 'Halesowen', 'Rubery', 'Birmingham']}
         geo={{ latitude: 52.4350, longitude: -1.9820 }}
         postcodes={['B29']}

@@ -47,7 +47,7 @@ export default function BirchfieldPage() {
         city="Birchfield"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Handsworth', 'Aston', 'Perry Barr', 'Witton', 'Birmingham']}
         geo={{ latitude: 52.5100, longitude: -1.9100 }}
         postcodes={['B6', 'B20']}

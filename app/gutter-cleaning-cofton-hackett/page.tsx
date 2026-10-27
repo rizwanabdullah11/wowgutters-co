@@ -33,7 +33,7 @@ export default function CoftonHackettPage() {
         city="Cofton Hackett"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Longbridge', 'Rednal', 'Birmingham', 'Barnt Green', 'Rubery']}
         geo={{ latitude: 52.38, longitude: -1.99 }}
         postcodes={['B45', 'B31']}

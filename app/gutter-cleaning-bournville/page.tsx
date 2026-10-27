@@ -47,7 +47,7 @@ export default function BournvillePage() {
         city="Bournville"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Cotteridge', 'Stirchley', 'Selly Oak', 'Kings Norton', 'Birmingham']}
         geo={{ latitude: 52.4270, longitude: -1.9360 }}
         postcodes={['B30']}

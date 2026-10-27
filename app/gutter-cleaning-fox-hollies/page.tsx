@@ -33,7 +33,7 @@ export default function FoxHolliesPage() {
         city="Fox Hollies"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Acocks Green', 'Yardley', 'Hall Green', 'Birmingham', 'Tyseley']}
         geo={{ latitude: 52.44, longitude: -1.81 }}
         postcodes={['B26', 'B27']}

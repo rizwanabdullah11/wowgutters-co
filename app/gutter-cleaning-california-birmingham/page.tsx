@@ -47,7 +47,7 @@ export default function CaliforniaBirminghamPage() {
         city="California"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Frankley', 'Rubery', 'Longbridge', 'Halesowen', 'Birmingham']}
         geo={{ latitude: 52.4050, longitude: -2.0000 }}
         postcodes={['B31', 'B45']}

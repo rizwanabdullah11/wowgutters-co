@@ -47,7 +47,7 @@ export default function BournbrookPage() {
         city="Bournbrook"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Selly Oak', 'Edgbaston', 'Harborne', 'Moseley', 'Birmingham']}
         geo={{ latitude: 52.4450, longitude: -1.9200 }}
         postcodes={['B29']}

@@ -47,7 +47,7 @@ export default function CoundonPage() {
         city="Coundon"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Coventry', 'Allesley', 'Meriden', 'Berkswell', 'Kenilworth']}
         geo={{ latitude: 52.433, longitude: -1.520 }}
         postcodes={['CV6']}

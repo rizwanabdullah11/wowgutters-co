@@ -47,7 +47,7 @@ export default function EttingshallPage() {
         city="Ettingshall"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Wolverhampton', 'Bilston', 'Spring Vale', 'Coseley', 'Sedgley', 'Priestfield']}
         geo={{ latitude: 52.586, longitude: -2.070 }}
         postcodes={['WV2', 'WV4', 'WV2 0', 'WV4 4']}

@@ -47,7 +47,7 @@ export default function BordesleyPage() {
         city="Bordesley"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Small Heath', 'Bordesley Green', 'Digbeth', 'Saltley', 'Nechells', 'Sparkbrook']}
         geo={{ latitude: 52.475, longitude: -1.865 }}
         postcodes={['B9', 'B9 4', 'B9 5', 'B9 9']}

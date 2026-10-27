@@ -47,7 +47,7 @@ export default function FiveWaysPage() {
         city="Five Ways"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Edgbaston', 'Birmingham', 'Harborne', 'Ladywood', 'Lee Bank']}
         geo={{ latitude: 52.4700, longitude: -1.9200 }}
         postcodes={['B15', 'B16']}

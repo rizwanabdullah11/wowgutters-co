@@ -33,7 +33,7 @@ export default function CastleBromwichPage() {
         city="Castle Bromwich"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Chelmsley Wood', 'Stechford', 'Birmingham', 'Solihull', 'Yardley']}
         geo={{ latitude: 52.505, longitude: -1.79 }}
         postcodes={['B34', 'B36']}

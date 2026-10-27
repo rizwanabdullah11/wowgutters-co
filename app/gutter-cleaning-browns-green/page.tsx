@@ -47,7 +47,7 @@ export default function BrownsGreenPage() {
         city="Browns Green"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Kings Heath', 'Solihull', 'Hall Green', 'Shirley', 'Birmingham']}
         geo={{ latitude: 52.4200, longitude: -1.8500 }}
         postcodes={['B13', 'B90']}

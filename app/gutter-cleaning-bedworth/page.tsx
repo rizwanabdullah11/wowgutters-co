@@ -54,7 +54,7 @@ export default function GutterCleaningBedworthPage() {
         city="Bedworth"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={landingData.priceTo ?? 130}
+        priceTo={landingData.priceTo ?? 200}
         nearbyAreas={landingData.nearbyAreas ?? []}
         geo={landingData.geo}
         postcodes={landingData.postcodes ?? ['CV12']}

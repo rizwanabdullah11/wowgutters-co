@@ -54,7 +54,7 @@ export default function GutterCleanerPage() {
         city="West Midlands"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={landingData.priceTo ?? 140}
+        priceTo={landingData.priceTo ?? 200}
         nearbyAreas={landingData.nearbyAreas ?? []}
         geo={landingData.geo}
         postcodes={landingData.postcodes ?? []}

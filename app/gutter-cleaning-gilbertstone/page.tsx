@@ -33,7 +33,7 @@ export default function GilbertstonePage() {
         city="Gilbertstone"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Yardley', 'Sheldon', 'Acocks Green', 'Birmingham', 'Stechford']}
         geo={{ latitude: 52.45, longitude: -1.8 }}
         postcodes={['B26']}

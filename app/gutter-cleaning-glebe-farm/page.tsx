@@ -33,7 +33,7 @@ export default function GlebeFarmPage() {
         city="Glebe Farm"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Shirley', 'Solihull', 'Hall Green', 'Birmingham', 'Yardley Wood']}
         geo={{ latitude: 52.42, longitude: -1.82 }}
         postcodes={['B90']}

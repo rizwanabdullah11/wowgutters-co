@@ -47,7 +47,7 @@ export default function CheylesmorePage() {
         city="Cheylesmore"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Coventry', 'Kenilworth', 'Leamington Spa', 'Earlsdon', 'Stivichall']}
         geo={{ latitude: 52.400, longitude: -1.535 }}
         postcodes={['CV3']}

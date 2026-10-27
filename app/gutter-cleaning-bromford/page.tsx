@@ -47,7 +47,7 @@ export default function BromfordPage() {
         city="Bromford"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Castle Bromwich', 'Hodge Hill', 'Stechford', 'Birmingham', 'Washwood Heath']}
         geo={{ latitude: 52.500, longitude: -1.790 }}
         postcodes={['B36']}
