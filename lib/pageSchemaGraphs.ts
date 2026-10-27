@@ -116,9 +116,9 @@ export function buildPricingPageSchemaGraph() {
         offers: {
           '@type': 'AggregateOffer',
           priceCurrency: 'GBP',
-          lowPrice: '90',
-          highPrice: '300',
-          offerCount: '5',
+          lowPrice: '50',
+          highPrice: '500',
+          offerCount: '6',
         },
       },
       {

@@ -250,6 +250,14 @@ export default function GutterCleaningCalculator() {
                   <span>Fascia &amp; soffit</span>
                   <span className="font-bold">{formatGbp(GUTTER_PRICING.fasciaAndSoffit)}</span>
                 </li>
+                <li className="flex justify-between border-b border-gray-100 pb-2">
+                  <span>Conservatory gutter clean</span>
+                  <span className="font-bold">{formatGbp(GUTTER_PRICING.conservatoryGutterCleaning)}</span>
+                </li>
+                <li className="flex justify-between border-b border-gray-100 pb-2">
+                  <span>Roof cleaning (from)</span>
+                  <span className="font-bold">{formatGbp(GUTTER_PRICING.roofCleaningStarting)}</span>
+                </li>
                 <li className="flex justify-between">
                   <span>Installation</span>
                   <span className="font-bold">{formatGbp(GUTTER_PRICING.installation)}</span>
