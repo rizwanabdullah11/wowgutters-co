@@ -320,7 +320,7 @@ const DETAIL_LINES = [
  * Birmingham points to the homepage — the single Birmingham target page.
  */
 const MAIN_GUTTER_HUBS: { slug: string; label: string; href: string }[] = [
-  { slug: 'birmingham', label: 'Gutter Cleaning Birmingham', href: '/' },
+  { slug: 'birmingham', label: 'Gutter Cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
   { slug: 'coventry', label: 'Gutter Cleaning Coventry', href: '/gutter-cleaning-coventry/' },
   { slug: 'wolverhampton', label: 'Gutter Cleaning Wolverhampton', href: '/gutter-cleaning-wolverhampton/' },
   { slug: 'dudley', label: 'Gutter Cleaning Dudley', href: '/gutter-cleaning-dudley/' },

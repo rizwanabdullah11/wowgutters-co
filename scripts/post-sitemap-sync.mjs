@@ -14,7 +14,7 @@ const {
   normalizePath,
   isExcludedSitemapPath,
 } = require('./sitemap-config.cjs');
-const { getLastModForPath, refreshSitemapLastmods } = require('./content-freshness.cjs');
+const { refreshSitemapLastmods } = require('./content-freshness.cjs');
 
 const SITE = 'https://wowgutters.co.uk';
 const ROOT = process.cwd();
@@ -30,26 +30,10 @@ function urlToPath(loc) {
   return normalizePath(loc.replace(SITE, '') || '/');
 }
 
-function buildUrlEntry(path, lastmod) {
-  const loc = `${SITE}${normalizePath(path)}`;
-  const priority =
-    path === '/'
-      ? '1'
-      : path === '/contact/' || path === '/quote/'
-        ? '0.95'
-        : path.startsWith('/gutter-cleaning-') ||
-            path.startsWith('/roof-cleaning-') ||
-            path.startsWith('/gutter-repair-')
-          ? '0.85'
-          : path === '/roof-cleaning-service-areas/'
-            ? '0.75'
-            : '0.8';
-  const changefreq = path === '/' || path === '/contact/' ? 'weekly' : 'monthly';
+// lastmod is filled in per URL by refreshSitemapLastmods() below.
+function buildUrlEntry(path) {
   return `<url>
-<loc>${loc}</loc>
-<lastmod>${lastmod}</lastmod>
-<changefreq>${changefreq}</changefreq>
-<priority>${priority}</priority>
+<loc>${SITE}${normalizePath(path)}</loc>
 </url>`;
 }
 
@@ -69,7 +53,6 @@ for (const dir of [OUT, PUBLIC]) {
   }
 }
 
-const lastmod = getLastModForPath('/');
 let xml = fs.readFileSync(SITEMAP, 'utf8');
 
 // out/sitemap.xml starts as a copy of the committed public/sitemap.xml (next build copies
@@ -101,7 +84,7 @@ for (const p of mustInclude) {
 }
 
 if (added.length > 0) {
-  const block = added.map((p) => buildUrlEntry(p, lastmod)).join('\n');
+  const block = added.map((p) => buildUrlEntry(p)).join('\n');
   xml = xml.replace('</urlset>', `${block}\n</urlset>`);
   console.log(`post-sitemap-sync: appended ${added.length} missing URL(s)`);
 } else {

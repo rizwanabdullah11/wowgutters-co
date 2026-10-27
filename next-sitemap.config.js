@@ -7,35 +7,15 @@ const {
   normalizePath,
 } = require('./scripts/sitemap-config.cjs');
 
-const HIGH_PRIORITY = new Set([
-  '/',
-  // '/gutter-cleaning-birmingham/' → 301 to / (Oct 2026)
-  '/roof-cleaning-birmingham/',
-  '/help/unblock/',
-  '/help/clean/',
-  '/contact/',
-  '/quote/',
-]);
-
-function areaPagePriority(path) {
-  if (
-    path.startsWith('/gutter-cleaning-') ||
-    path.startsWith('/roof-cleaning-') ||
-    path.startsWith('/gutter-repair-') ||
-    path.startsWith('/gutter-installation-')
-  ) {
-    return 0.85;
-  }
-  return 0.7;
-}
+// No changefreq/priority (Google ignores both). lastmod is set per URL by
+// scripts/post-sitemap-sync.mjs from real dates (blog dateModified / git history).
 
 module.exports = {
   siteUrl: 'https://wowgutters.co.uk',
   generateRobotsTxt: false,
   /** Single urlset at /sitemap.xml (matches Next app/sitemap.ts + Hostinger deploy). */
   generateIndexSitemap: false,
-  changefreq: 'monthly',
-  priority: 0.7,
+  autoLastmod: false,
   additionalPaths: async () => {
     const paths = new Set([
       ...REQUIRED_INDEXABLE_PATHS,
@@ -44,14 +24,7 @@ module.exports = {
 
     return [...paths].map((path) => {
       const norm = normalizePath(path);
-      return {
-        loc: norm,
-        changefreq: HIGH_PRIORITY.has(norm) ? 'weekly' : 'monthly',
-        priority: HIGH_PRIORITY.has(norm)
-          ? 1.0
-          : areaPagePriority(norm),
-        lastmod: new Date().toISOString(),
-      };
+      return { loc: norm };
     });
   },
   transform: async (config, path) => {
@@ -61,15 +34,6 @@ module.exports = {
       return null;
     }
 
-    return {
-      loc: norm,
-      changefreq: HIGH_PRIORITY.has(norm) ? 'weekly' : 'monthly',
-      priority: HIGH_PRIORITY.has(norm)
-        ? 1.0
-        : norm.startsWith('/services/')
-          ? 0.8
-          : areaPagePriority(norm),
-      lastmod: new Date().toISOString(),
-    };
+    return { loc: norm };
   },
 };

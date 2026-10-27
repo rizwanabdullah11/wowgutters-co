@@ -11,8 +11,9 @@ const OUT = join(process.cwd(), 'out');
 
 /** from (no leading slash, trailing slash) → to (same form; '' = homepage) */
 const REDIRECTS = {
-  'gutter-cleaning-birmingham/': '',
-  'west-midlands/gutter-cleaning-birmingham/': '',
+  'west-midlands/gutter-cleaning-birmingham/': 'gutter-cleaning-birmingham/',
+  'gutter-cleaners-birmingham/': 'gutter-cleaning-birmingham/',
+  'gutter-clearing-birmingham/': 'gutter-cleaning-birmingham/',
   'trusted-gutter-cleaners-birmingham/': '',
   'next-day-gutter-cleaning-birmingham/': '',
   'autumn-gutter-cleaning-birmingham/': '',

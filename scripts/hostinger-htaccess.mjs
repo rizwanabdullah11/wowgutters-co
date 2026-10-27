@@ -219,13 +219,14 @@ AddDefaultCharset UTF-8
   RewriteRule ^shop(/.*)?$ - [G,L]
 
   # Cannibalisation + dead URLs found in GSC (Oct 2026)
-  RewriteRule ^west-midlands/gutter-cleaning-birmingham/?$ / [R=301,L]
+  RewriteRule ^west-midlands/gutter-cleaning-birmingham/?$ /gutter-cleaning-birmingham/ [R=301,L]
+  RewriteRule ^gutter-cleaners-birmingham/?$ /gutter-cleaning-birmingham/ [R=301,L]
+  RewriteRule ^gutter-clearing-birmingham/?$ /gutter-cleaning-birmingham/ [R=301,L]
   RewriteRule ^home/?$ / [R=301,L]
   RewriteRule ^blog/roof-moss-removal-kings-norton-b30-birmingham/?$ /roof-cleaning-kings-norton/ [R=301,L]
 
-  # Ranking consolidation (Oct 2026): 15 pages competed for "gutter cleaning birmingham".
-  # Homepage ranked #12 with 657/903 backlinks, so it is the single Birmingham target.
-  RewriteRule ^gutter-cleaning-birmingham/?$ / [R=301,L]
+  # Ranking consolidation (Oct 2026): thin Birmingham variants → homepage.
+  # /gutter-cleaning-birmingham/ is a real page again (Oct 27 2026) — do NOT redirect it.
   RewriteRule ^trusted-gutter-cleaners-birmingham/?$ / [R=301,L]
   RewriteRule ^next-day-gutter-cleaning-birmingham/?$ / [R=301,L]
   RewriteRule ^autumn-gutter-cleaning-birmingham/?$ / [R=301,L]

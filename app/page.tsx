@@ -4,8 +4,10 @@ import type { Metadata } from 'next';
 import HomeScreen from './home-screen/page';
 
 const URL_PATH = 'https://wowgutters.co.uk/';
+// Exact homepage title — set after normalizeMetadata so it isn't reordered/trimmed.
+const HOME_TITLE = 'WOW Gutters Ltd | Gutter & Roof Cleaning West Midlands | 4.9★';
 
-export const metadata: Metadata = normalizeMetadata({
+const baseMetadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Birmingham & West Midlands | WOW Gutters Ltd',
   
   description: 'Gutter cleaning in Birmingham & the West Midlands from £100. Ground-level vacuum, no ladders, before & after photos, fully insured. Free quote: 07421 433910.',
@@ -46,6 +48,13 @@ export const metadata: Metadata = normalizeMetadata({
     images: ['https://wowgutters.co.uk/og/default.jpg']
   }
 });
+
+export const metadata: Metadata = {
+  ...baseMetadata,
+  title: { absolute: HOME_TITLE },
+  openGraph: { ...baseMetadata.openGraph, title: HOME_TITLE },
+  twitter: { ...baseMetadata.twitter, title: HOME_TITLE },
+};
 
 
 export default function Home() {
