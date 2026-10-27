@@ -18,7 +18,7 @@ function AccordionItem({ question, answer }: { question: string; answer: string 
   return (
     <div
       style={{
-        border: '1px solid #e5e7eb',
+        border: '1px solid #e2e8f0',
         borderRadius: 12,
         marginBottom: 12,
         overflow: 'hidden',
@@ -1005,7 +1005,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
 
         /* ── Dynamic FAQ accordion ── */
         .blog-content details {
-          border: 1px solid #e5e7eb;
+          border: 1px solid #e2e8f0;
           border-radius: 12px;
           margin-bottom: 12px;
           overflow: hidden;

@@ -60,7 +60,7 @@ export const roofMossRemovalBirminghamBlogPost: BlogPost = {
 
 ${ctaTop}
 
-<nav style="background: #f8fafc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 24px 28px; margin: 32px 0;">
+<nav style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px 28px; margin: 32px 0;">
   <h2 style="font-size: 1.2rem; font-weight: 800; color: #0f172a; margin: 0 0 16px 0;">Table of Contents</h2>
   <ol style="margin: 0; padding-left: 20px; color: #334155; line-height: 1.8; font-size: 0.95rem;">
     <li><a href="#why-moss-grows" style="${link}">Why Moss Grows on Roofs</a></li>

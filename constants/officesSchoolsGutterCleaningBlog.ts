@@ -61,7 +61,7 @@ export const officesSchoolsGutterCleaningBlogPost: BlogPost = {
 
 ${ctaTop}
 
-<nav style="background: #f8fafc; border: 1px solid #e5e7eb; border-radius: 12px; padding: 24px 28px; margin: 32px 0;">
+<nav style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px 28px; margin: 32px 0;">
   <h2 style="font-size: 1.2rem; font-weight: 800; color: #0f172a; margin: 0 0 16px 0;">Table of Contents</h2>
   <ol style="margin: 0; padding-left: 20px; color: #334155; line-height: 1.8; font-size: 0.95rem;">
     <li><a href="#why-commercial-gutters-different" style="${link}">Why Commercial Gutters Are Different</a></li>
@@ -169,7 +169,8 @@ ${ctaTop}
 
 <h2 id="what-commercial-visit-covers" style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;">What a Commercial Visit Covers</h2>
 <p>A comprehensive commercial gutter clearance includes structured, systematic steps:</p>
-<ol style="padding-left: 20px; line-height: 1.9; color: #334155;">
+<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px 28px; margin: 32px 0;">
+  <ol style="padding-left: 20px; line-height: 1.9; color: #334155;">
   <li><strong>Site perimeter walk-round:</strong> Inspect elevations, ground obstacles, fire exits, public walkways and tree proximity.</li>
   <li><strong>Planned working perimeter:</strong> Position the extraction unit, lay safety cordons, and secure power or generator points.</li>
   <li><strong>Full extraction to the channel floor:</strong> Vacuum all wet moss, decomposing foliage and heavy silt beds.</li>
@@ -179,6 +180,7 @@ ${ctaTop}
   <li><strong>Roof perimeter review:</strong> Flag visible slipped tiles, ridge moss cushions or flashing gaps.</li>
   <li><strong>Photographic audit and summary report:</strong> Comprehensive before-and-after imagery for estates records and compliance folders.</li>
 </ol>
+</div>
 <p>The step-by-step methodology is detailed in <a href="/blog/what-happens-during-professional-gutter-clean-birmingham-walkthrough" style="${link}">What Happens During a Professional Gutter Clean? A Birmingham Homeowner’s Walkthrough</a> and <a href="/blog/roofline-cleaning-birmingham" style="${link}">Roofline Cleaning Birmingham: Gutters, Fascias &amp; Soffits</a>. Our related commercial solutions include <a href="/gutter-cleaning" style="${link}">gutter cleaning</a>, <a href="/gutter-clearing" style="${link}">gutter clearing</a>, <a href="/fascia-soffit-cleaning" style="${link}">fascia and soffit cleaning</a>, <a href="/roof-cleaning" style="${link}">roof cleaning</a> and <a href="/moss-removal" style="${link}">moss removal</a>, with documented examples in our <a href="/gallery" style="${link}">project gallery</a>.</p>
 
 <figure style="margin: 32px 0;">
