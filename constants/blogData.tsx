@@ -1,3 +1,4 @@
+import { officesSchoolsGutterCleaningBlogPost } from './officesSchoolsGutterCleaningBlog';
 import { roofMossRemovalBirminghamBlogPost } from './roofMossRemovalBirminghamBlog';
 import { drippingGutterJointsBlogPost } from './drippingGutterJointsBlog';
 import { gutterCleaningCostGuideBlogPost } from './gutterCleaningCostGuideBlog';
@@ -77,6 +78,7 @@ export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  officesSchoolsGutterCleaningBlogPost,
   roofMossRemovalBirminghamBlogPost,
   drippingGutterJointsBlogPost,
   walsallGutterCleaningBlogPost,
