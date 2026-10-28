@@ -22,7 +22,7 @@ export default function AskQuestionSection() {
   return (
     <section className="py-20 px-4 relative overflow-hidden bg-gradient-to-br from-[#0b1634] via-[#0f2347] to-[#0b1f3f]">
       {/* Decorative Background Elements */}
-      <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#0E7F5A]/20 blur-[100px]" />
+      <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#19C58B]/20 blur-[100px]" />
       <div className="pointer-events-none absolute -right-8 -top-12 h-52 w-[45%] rotate-6 rounded-[35%] bg-[#2dd4bf]/15 blur-[100px]" />
 
       <div className="max-w-7xl mx-auto relative z-10">

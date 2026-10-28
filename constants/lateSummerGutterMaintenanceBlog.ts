@@ -10,7 +10,7 @@ const IMG_AFTER =
 const link = 'color: #047857; font-weight: 600; text-decoration: none;';
 
 const ctaPhone = `
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 WOW Gutters Ltd — Birmingham's gutter cleaning specialists:</strong> <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a>
 </blockquote>`;
 
@@ -180,7 +180,7 @@ ${ctaPhone}
 
 <p>WOW Gutters Ltd carries out all gutter cleaning using an industrial-grade SkyVac vacuum system operating entirely from the ground. No ladders are placed against your property. Carbon-fibre reach poles extend to four storeys. A camera inspection head provides real-time internal views of the gutter channel throughout every clean. Before and after photographs are provided on every job without exception — you see exactly what was found and what was cleared.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 Call to book:</strong> <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
   <strong>📧 Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a>
 </blockquote>

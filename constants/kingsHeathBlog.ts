@@ -58,7 +58,7 @@ export const kingsHeathBlogPost: BlogPost = {
 
 <p>This page explains what is happening in Kings Heath gutters, why it matters for B14's specific housing stock, and how to get it sorted properly.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 Own a property in Kings Heath B14?</strong><br/>
   We're taking bookings in the area this week.<br/>
   <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call 07421 433910</a> — free quote, no obligation.<br/>
@@ -126,7 +126,7 @@ export const kingsHeathBlogPost: BlogPost = {
 
 <p>Every WOW Gutters visit to a Kings Heath property covers the complete gutter run — front, rear, and any side or extension sections — not just the sections visible from the street.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>🔔 Is your Kings Heath semi overdue a proper clean?</strong><br/>
   Most B14 properties we visit haven't had a complete gutter clear — including downpipes — in longer than owners realise.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call 07421 433910</a> for a free quote today.
@@ -213,7 +213,7 @@ export const kingsHeathBlogPost: BlogPost = {
   <li>✅ Price confirmed before arrival — no changes on the day</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📸 Want proof the job was done — and done properly?</strong><br/>
   We send before and after photos on every visit, every time.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> · 📧 <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a>

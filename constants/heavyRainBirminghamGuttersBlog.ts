@@ -57,7 +57,7 @@ export const heavyRainBirminghamGuttersBlogPost: BlogPost = {
 
 <p>This post is about making sure your gutters are ready before the next heavy rainfall arrives — not because heavy rain is unusual in Birmingham, but precisely because it isn't.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>⚡ Want to know if your gutters are ready right now?</strong><br/>
   We're booking across Birmingham and the West Midlands this week.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> — free quote, same-week availability.<br/>

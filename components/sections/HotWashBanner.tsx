@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const services = [
   { icon: <Sparkles className="w-6 h-6" />, label: 'Windows & Frames', link: '/windows-cleaning', accent: '#3B82F6', desc: 'Streak-free finish' },
-  { icon: <Droplets className="w-6 h-6" />, label: 'Gutters & Fascias', link: '/services/gutter-cleaning/', accent: '#0E7F5A', desc: 'Deep exterior clean' },
+  { icon: <Droplets className="w-6 h-6" />, label: 'Gutters & Fascias', link: '/services/gutter-cleaning/', accent: '#19C58B', desc: 'Deep exterior clean' },
   { icon: <Home className="w-6 h-6" />, label: 'Conservatories', link: '/services/conservatory/', accent: '#F97316', desc: 'Restore the shine' },
 ];
 

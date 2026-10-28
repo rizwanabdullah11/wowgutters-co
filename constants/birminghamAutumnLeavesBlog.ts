@@ -48,7 +48,7 @@ export const birminghamAutumnLeavesBlogPost: BlogPost = {
 
 <p>This article is for anyone who wants to get ahead of that moment. Birmingham's autumn leaf fall is coming. The heavy rain follows directly behind it. What you do in the next few weeks determines whether your gutters handle winter smoothly or hand you an expensive repair bill in January.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 WOW Gutters Ltd — Birmingham's gutter specialists</strong><br/>
   <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> · <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a>
 </blockquote>
@@ -113,7 +113,7 @@ export const birminghamAutumnLeavesBlogPost: BlogPost = {
 
 <p>If you're seeing two or more of these signs, your gutters need professional attention before the leaf fall begins — not after.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📸 Spotting any of these signs?</strong><br/>
   Call WOW Gutters Ltd on <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> for a free quote — before the autumn leaves arrive.
 </blockquote>

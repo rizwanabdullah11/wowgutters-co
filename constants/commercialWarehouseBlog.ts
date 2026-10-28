@@ -73,7 +73,7 @@ export const commercialWarehouseBlogPost: BlogPost = {
 
 <p>This is the full account of how we approached it, what we found, and what it means for any commercial property manager responsible for a building in similar condition anywhere across the West Midlands.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 Need a commercial gutter quote?</strong><br/>
   Call WOW Gutters Ltd now: <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a>
 </blockquote>
@@ -260,7 +260,7 @@ ${fig(
   </tbody>
 </table>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>Important for commercial property owners:</strong> Any contractor working on a building like this without a documented risk assessment and appropriate fall-arrest equipment is putting your building, their operatives, and your own liability at serious risk. Under the Work at Height Regulations 2005, responsibility for ensuring safe access arrangements extends to the person commissioning the work. Ask to see method statements before any contractor goes on your roof.
 </blockquote>
 

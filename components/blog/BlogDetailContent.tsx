@@ -1020,7 +1020,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
         }
 
         .blog-content blockquote {
-          border-left: 4px solid #0E7F5A;
+          border-left: 4px solid #19C58B;
           padding: 18px 24px;
           margin: 28px 0;
           background: #f0fdf4;

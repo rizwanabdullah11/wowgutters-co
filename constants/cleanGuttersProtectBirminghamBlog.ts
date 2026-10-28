@@ -73,7 +73,7 @@ export const cleanGuttersProtectBirminghamBlogPost: BlogPost = {
 
 <p>This guide explains the precise relationship between clean gutters and damp prevention in Birmingham residential properties. It covers the science, the specific risks in the West Midlands, the property types most vulnerable, and what professional gutter cleaning does to break the damp cycle before it reaches the internal plaster face.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 Worried about damp or water damage on your Birmingham property?</strong><br/>
   The first step is finding out whether your gutters are contributing to it.<br/>
   Call <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> — free assessment, same-week availability across Birmingham and the West Midlands.<br/>
@@ -173,7 +173,7 @@ export const cleanGuttersProtectBirminghamBlogPost: BlogPost = {
 
 <p>Clean gutters eliminate the overflow source that sustains this biological moisture cycle. Treating the roof tile surface in combination with gutter cleaning addresses the upstream source of the secondary debris and biological cycle that replenishes channel blockages between professional visits.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>🔔 Is your Birmingham home currently being defended — or failed — by its gutters?</strong><br/>
   A professional inspection tells you in one visit.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> · 💬 <a href="https://wa.me/447421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">wa.me/447421433910</a>

@@ -336,14 +336,14 @@ export default function ContactInfoSection() {
         .contact-method-card:hover {
           transform: translateY(-3px);
           box-shadow: 0 12px 25px rgba(0,0,0,0.06);
-          border-color: #0E7F5A;
+          border-color: #19C58B;
         }
         .contact-icon-box {
           width: 48px;
           height: 48px;
           border-radius: 12px;
           background: #F1F5F9;
-          color: #0E7F5A;
+          color: #19C58B;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -399,7 +399,7 @@ export default function ContactInfoSection() {
           background: #047857;
           color: white;
           transform: translateY(-3px);
-          box-shadow: 0 8px 20px rgba(14, 127, 90, 0.25);
+          box-shadow: 0 8px 20px rgba(25,197,139, 0.25);
         }
 
         .contact-quick-actions {
@@ -463,7 +463,7 @@ export default function ContactInfoSection() {
           background: #F8FAFC;
         }
         .time-row-today {
-          background: rgba(14, 127, 90, 0.1) !important;
+          background: rgba(25,197,139, 0.1) !important;
           position: relative;
         }
         .time-badge {
@@ -499,7 +499,7 @@ export default function ContactInfoSection() {
 
         /* Right Col (Search) */
         .search-card {
-          background: linear-gradient(135deg, #166534 0%, #0E7F5A 100%);
+          background: linear-gradient(135deg, #166534 0%, #19C58B 100%);
           border-radius: 24px;
           padding: 36px;
           height: 100%;
@@ -507,7 +507,7 @@ export default function ContactInfoSection() {
           flex-direction: column;
           position: relative;
           overflow: hidden;
-          box-shadow: 0 20px 40px rgba(14, 127, 90, 0.2);
+          box-shadow: 0 20px 40px rgba(25,197,139, 0.2);
         }
         .search-card-header {
           position: relative;

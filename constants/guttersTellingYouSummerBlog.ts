@@ -41,7 +41,7 @@ export const guttersTellingYouSummerBlogPost: BlogPost = {
 
 <p>This article is a translation guide. Here's what your gutters are actually telling you this summer, sign by sign, and what each one means for the season ahead.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 WOW Gutters Ltd — Birmingham's gutter cleaning specialists: <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a></strong>
 </blockquote>
 
@@ -172,7 +172,7 @@ export const guttersTellingYouSummerBlogPost: BlogPost = {
 
 <p>WOW Gutters Ltd carries out every inspection using an industrial-grade SkyVac vacuum system operating entirely from the ground, with real-time camera inspection that sees inside the gutter channel — confirming precisely what each external sign is telling you, rather than leaving you to guess.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 Call to book: <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a></strong><br/>
   📧 Email: <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a>
 </blockquote>
@@ -240,7 +240,7 @@ ${ctaBox}
 
 <p>WOW Gutters Ltd provides professional gutter inspection and cleaning across Birmingham and the West Midlands — using real-time camera technology to confirm exactly what each sign means and address it while summer conditions still make the fix straightforward. Ground-based vacuum system. No ladders. Before and after photographs on every job.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   📞 <strong>Call: <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a></strong><br/>
   📧 Email: <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a><br/>
   🌐 <a href="https://wowgutters.co.uk" style="${link}">wowgutters.co.uk</a><br/>

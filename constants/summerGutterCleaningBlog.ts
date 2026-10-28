@@ -52,7 +52,7 @@ export const summerGutterCleaningBlogPost: BlogPost = {
 
 <p>This post makes the case for doing it now rather than waiting. Not as a sales argument. As a practical one — backed by what we actually find in Birmingham gutters in the summer months, what damage is already underway on properties that haven't been cleared since last year, and why the homeowners who act in June are consistently better protected than the ones who wait until November.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>⚡ Want to get ahead of the autumn rush?</strong><br/>
   We're booking summer cleans across Birmingham and the West Midlands right now.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call 07421 433910</a> — free quote, same-week availability.
@@ -130,7 +130,7 @@ export const summerGutterCleaningBlogPost: BlogPost = {
 
 <p>The written condition report we provide after every clean is more diagnostic in summer for exactly this reason. The problems we identify in June give homeowners a clear, actionable picture of what needs attention before the hard season arrives — not a post-event account of what failed.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>🔔 Want to know what's actually in your gutters right now?</strong><br/>
   A summer clean gives you the honest picture — before autumn turns a manageable situation into an expensive one.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> · 💬 <a href="https://wa.me/447421433910" style="${link}" rel="noopener">WhatsApp: wa.me/447421433910</a>

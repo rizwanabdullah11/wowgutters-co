@@ -27,7 +27,7 @@ export const sellyOakBlogPost: BlogPost = {
 
 <p>This page tells you everything you need to know about <strong>gutter cleaning in Selly Oak</strong> — what causes the problems here, what we do about them, and how to get a free quote today.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>⚡ Ready to book right now?</strong><br/>
   We're taking bookings for Selly Oak and B29 this week.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call 07421 433910</a> — free quote, no obligation, same-day availability.
@@ -106,7 +106,7 @@ export const sellyOakBlogPost: BlogPost = {
   <li><strong>Fascia board damage</strong> — repeated wetting from overflow causes paint failure and wet rot. Our <a href="/services/upvc-cleaning/" style="color: #047857; font-weight: 600; text-decoration: none;">fascia and soffit cleaning</a> service restores stained UPVC and timber rooflines.</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>👋 Seeing any of these at your Selly Oak property?</strong><br/>
   Don't put it off. The longer a blocked gutter runs, the more expensive the downstream damage becomes.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call us now: 07421 433910</a> — we'll quote you for free and get you booked in this week.

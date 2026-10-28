@@ -168,7 +168,7 @@ export default function HelpPage() {
                   key={faq.id}
                   className={`bg-white rounded-2xl border transition-all duration-300 overflow-hidden ${
                     openFAQ === faq.id
-                      ? 'border-[#0E7F5A] shadow-lg'
+                      ? 'border-[#19C58B] shadow-lg'
                       : 'border-gray-200 hover:border-gray-300 shadow-sm'
                   }`}
                 >
@@ -279,7 +279,7 @@ export default function HelpPage() {
 
       {/* Contact CTA Section */}
       <section className="py-20 px-4 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] text-white relative overflow-hidden">
-        <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#0E7F5A]/30 blur-[100px]" />
+        <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#19C58B]/30 blur-[100px]" />
         <div className="pointer-events-none absolute -right-8 -top-12 h-52 w-[45%] rotate-6 rounded-[35%] bg-[#2dd4bf]/24 blur-[100px]" />
 
         <div className="max-w-4xl mx-auto text-center relative z-10">
@@ -296,7 +296,7 @@ export default function HelpPage() {
               href="tel:07421433910"
               className="flex items-center gap-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm rounded-xl p-6 transition-all duration-300 group border border-white/20"
             >
-              <div className="w-14 h-14 bg-[#0E7F5A] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+              <div className="w-14 h-14 bg-[#19C58B] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
                 <Phone className="w-7 h-7 text-white" />
               </div>
               <div className="text-left">
@@ -309,7 +309,7 @@ export default function HelpPage() {
               href="mailto:support@wowgutters.co.uk"
               className="flex items-center gap-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm rounded-xl p-6 transition-all duration-300 group border border-white/20"
             >
-              <div className="w-14 h-14 bg-[#0E7F5A] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
+              <div className="w-14 h-14 bg-[#19C58B] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
                 <Mail className="w-7 h-7 text-white" />
               </div>
               <div className="text-left">

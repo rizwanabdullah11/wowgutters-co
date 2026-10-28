@@ -114,7 +114,7 @@ export default function ProfessionalServices() {
               data-static-quote-open
               aria-haspopup="dialog"
               aria-controls="wow-cta-dialog"
-              className="group relative inline-flex items-center gap-2 px-8 sm:px-10 py-4 rounded-full text-white font-bold text-base sm:text-lg transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_10px_20px_-10px_rgba(14, 127, 90,0.5)] hover:shadow-[0_20px_40px_-15px_rgba(14, 127, 90,0.7)] overflow-hidden border-0 cursor-pointer"
+              className="group relative inline-flex items-center gap-2 px-8 sm:px-10 py-4 rounded-full text-white font-bold text-base sm:text-lg transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_10px_20px_-10px_rgba(25,197,139,0.5)] hover:shadow-[0_20px_40px_-15px_rgba(25,197,139,0.7)] overflow-hidden border-0 cursor-pointer"
               style={{ background: colors.primaryGradient }}
             >
               {/* Shine effect overlay */}

@@ -316,12 +316,12 @@ function TextOnlyServiceSection({
           className="pointer-events-none absolute inset-0 opacity-[0.07]"
           style={{
             backgroundImage:
-              'radial-gradient(circle at 1px 1px, #0E7F5A 1px, transparent 0)',
+              'radial-gradient(circle at 1px 1px, #19C58B 1px, transparent 0)',
             backgroundSize: '28px 28px',
           }}
           aria-hidden
         />
-        <div className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-[#0E7F5A]/15 blur-3xl" aria-hidden />
+        <div className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-[#19C58B]/15 blur-3xl" aria-hidden />
         <div className="relative z-10 max-w-6xl mx-auto">
           <div className="inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-400/10 px-4 py-1.5 mb-6">
             <AlertTriangle className="h-4 w-4 text-amber-400" />
@@ -335,7 +335,7 @@ function TextOnlyServiceSection({
             {points.map((point) => (
               <li
                 key={point}
-                className="flex items-start gap-3 rounded-xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm transition-colors hover:border-[#0E7F5A]/40 hover:bg-white/[0.08]"
+                className="flex items-start gap-3 rounded-xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm transition-colors hover:border-[#19C58B]/40 hover:bg-white/[0.08]"
               >
                 <CheckCircle className="h-5 w-5 mt-0.5 shrink-0 text-[#34e3b6]" />
                 <span className="text-slate-200 leading-relaxed text-[15px]">
@@ -357,7 +357,7 @@ function TextOnlyServiceSection({
         style={{ background: 'linear-gradient(160deg, #ecfdf5 0%, #f8fafc 45%, #ffffff 100%)' }}
       >
         <div className="max-w-6xl mx-auto">
-          <div className="rounded-3xl border border-emerald-100/80 bg-white p-8 md:p-12 shadow-[0_24px_60px_-12px_rgba(14, 127, 90,0.18)]">
+          <div className="rounded-3xl border border-emerald-100/80 bg-white p-8 md:p-12 shadow-[0_24px_60px_-12px_rgba(25,197,139,0.18)]">
             <div className="flex items-center gap-3 mb-5">
               <div className="flex h-11 w-11 items-center justify-center rounded-2xl" style={{ background: colors.primaryGradient }}>
                 <ClipboardCheck className="h-5 w-5 text-white" />
@@ -462,7 +462,7 @@ function TextOnlyServiceSection({
             <li key={point} className="relative flex gap-5 pb-10 last:pb-0">
               {i < points.length - 1 && (
                 <span
-                  className="absolute left-[19px] top-10 bottom-0 w-0.5 bg-gradient-to-b from-[#0E7F5A] to-[#0E7F5A]/20"
+                  className="absolute left-[19px] top-10 bottom-0 w-0.5 bg-gradient-to-b from-[#19C58B] to-[#19C58B]/20"
                   aria-hidden
                 />
               )}
@@ -893,7 +893,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                   <li key={href}>
                     <Link
                       href={href}
-                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#0E7F5A] hover:text-[#0f766e] transition-colors"
+                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
                     >
                       {label}
                     </Link>
@@ -909,7 +909,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                   <li key={href}>
                     <Link
                       href={href}
-                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#0E7F5A] hover:text-[#0f766e] transition-colors"
+                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
                     >
                       {label}
                     </Link>
@@ -925,7 +925,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                   <li key={href}>
                     <Link
                       href={href}
-                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#0E7F5A] hover:text-[#0f766e] transition-colors"
+                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
                     >
                       {label}
                     </Link>
@@ -941,7 +941,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                   <li key={href}>
                     <Link
                       href={href}
-                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#0E7F5A] hover:text-[#0f766e] transition-colors"
+                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
                     >
                       {label}
                     </Link>
@@ -957,7 +957,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                   <li key={href}>
                     <Link
                       href={href}
-                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#0E7F5A] hover:text-[#0f766e] transition-colors"
+                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
                     >
                       {label}
                     </Link>
@@ -973,7 +973,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                   <li key={href}>
                     <Link
                       href={href}
-                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#0E7F5A] hover:text-[#0f766e] transition-colors"
+                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
                     >
                       {label}
                     </Link>
@@ -989,7 +989,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                   <li key={href}>
                     <Link
                       href={href}
-                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#0E7F5A] hover:text-[#0f766e] transition-colors"
+                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
                     >
                       {label}
                     </Link>
@@ -1006,7 +1006,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                   <li key={href}>
                     <Link
                       href={href}
-                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#0E7F5A] hover:text-[#0f766e] transition-colors"
+                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
                     >
                       {label}
                     </Link>
@@ -1023,7 +1023,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                   <li key={href}>
                     <Link
                       href={href}
-                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#0E7F5A] hover:text-[#0f766e] transition-colors"
+                      className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
                     >
                       {label}
                     </Link>
@@ -1111,7 +1111,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
 
       {/* WhatsApp Section */}
       <section className="relative overflow-hidden border-t border-white/10 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] py-20 px-4">
-        <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#0E7F5A]/30 blur-[1px]" />
+        <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#19C58B]/30 blur-[1px]" />
         <div className="pointer-events-none absolute -right-8 -top-12 h-52 w-[45%] rotate-6 rounded-[35%] bg-[#2dd4bf]/24 blur-[1px]" />
         <div className="pointer-events-none absolute left-[28%] top-[28%] h-20 w-56 -rotate-12 rounded-[30%] bg-white/70" />
         <div className="pointer-events-none absolute right-[16%] bottom-[10%] h-16 w-48 rotate-12 rounded-[30%] bg-white/65" />
@@ -1146,7 +1146,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                     href={`${whatsappBaseUrl}?text=${encodeURIComponent(`Hi, ${question}`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="shrink-0 rounded-md bg-[#0E7F5A] px-4 py-1.5 text-base font-black text-white hover:bg-[#0fb272] transition-colors inline-flex items-center gap-1.5 shadow-[0_6px_14px_rgba(22,199,132,0.35)]"
+                    className="shrink-0 rounded-md bg-[#19C58B] px-4 py-1.5 text-base font-black text-white hover:bg-[#0fb272] transition-colors inline-flex items-center gap-1.5 shadow-[0_6px_14px_rgba(22,199,132,0.35)]"
                   >
                     <svg
                       className="h-4 w-4"
@@ -1339,14 +1339,14 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
           border: none;
           cursor: pointer;
           transition: all 0.3s ease;
-          box-shadow: 0 10px 30px rgba(14, 127, 90, 0.3);
+          box-shadow: 0 10px 30px rgba(25,197,139, 0.3);
           position: relative;
         }
 
         .hero-primary-btn:hover {
           transform: translateY(-4px);
-          box-shadow: 0 15px 40px rgba(14, 127, 90, 0.4);
-          background: #0B6B4C;
+          box-shadow: 0 15px 40px rgba(25,197,139, 0.4);
+          background: #14B27D;
         }
 
         .btn-arrow {

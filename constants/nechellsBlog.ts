@@ -47,7 +47,7 @@ export const nechellsBlogPost: BlogPost = {
 
 <p><a href="/gutter-cleaning-nechells/" style="${link}">WOW Gutters Ltd</a> serves Nechells B7 and all surrounding inner-city Birmingham postcodes. We use an industrial SkyVac vacuum system from ground level — no ladders, no contact with your roofline — and we photograph every job before and after, without exception.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 Got a B7 property that needs attention?</strong><br/>
   We're taking bookings in Nechells and surrounding inner-city postcodes now.<br/>
   <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call 07421 433910</a> — free quote, no obligation, fast turnaround.
@@ -125,7 +125,7 @@ export const nechellsBlogPost: BlogPost = {
 
 <p>Nechells is seeing ongoing investment in property refurbishment and conversion. Newly refurbished properties that have had internal work done but whose rooflines and guttering have not been addressed — a common pattern in buy-to-let refurbishments — often have gutters in worse condition than their freshly painted exteriors suggest. Getting the guttering sorted at the same time as internal refurbishment is the most cost-effective approach.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>🔔 Own or manage a property in B7?</strong><br/>
   Whatever the property type, we have the right equipment and the right approach.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> · 💬 WhatsApp: <a href="https://wa.me/447421433910" style="${link}" rel="noopener">wa.me/447421433910</a>
@@ -229,7 +229,7 @@ export const nechellsBlogPost: BlogPost = {
   <li>Condition reporting that protects your investment — if we find a roofline issue developing, you hear about it from us before it becomes a tenant complaint or an insurance claim</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📋 Managing a property portfolio in Nechells or inner-city Birmingham?</strong><br/>
   Talk to us about a maintenance arrangement that works across your portfolio.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> · 📧 <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a>

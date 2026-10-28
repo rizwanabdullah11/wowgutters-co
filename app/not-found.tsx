@@ -9,7 +9,7 @@ export default function NotFound() {
       </p>
       <Link
         href="/"
-        className="inline-flex items-center justify-center px-8 py-4 rounded-full font-bold text-white bg-[#0E7F5A] hover:opacity-90"
+        className="inline-flex items-center justify-center px-8 py-4 rounded-full font-bold text-white bg-[#19C58B] hover:opacity-90"
       >
         Back to homepage
       </Link>

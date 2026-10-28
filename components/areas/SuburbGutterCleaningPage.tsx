@@ -350,7 +350,7 @@ export default function SuburbGutterCleaningPage({
                     href={`${WA}?text=${encodeURIComponent(`Hi, I am in ${data.whatsappPrefix}. ${question}`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="shrink-0 rounded-md bg-[#0E7F5A] px-4 py-1.5 text-base font-black text-white hover:bg-[#0fb272] transition-colors"
+                    className="shrink-0 rounded-md bg-[#19C58B] px-4 py-1.5 text-base font-black text-white hover:bg-[#0fb272] transition-colors"
                   >
                     Ask
                   </a>
@@ -364,7 +364,7 @@ export default function SuburbGutterCleaningPage({
       {/* SECTION 6 — FAQs */}
       {serviceKind === 'gutter' && <LocalBoostSection slug={areaSlug} />}
 
-      <section className="py-20 px-4 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #0d6e4e 0%, #0E7F5A 50%, #0B6B4C 100%)' }}>
+      <section className="py-20 px-4 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #0d6e4e 0%, #19C58B 50%, #14B27D 100%)' }}>
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px)', backgroundSize: '32px 32px' }} />
         </div>
@@ -387,11 +387,11 @@ export default function SuburbGutterCleaningPage({
                 className="group bg-[#0f172a] rounded-2xl overflow-hidden border border-white/10 transition-all duration-300 open:border-white/30 open:shadow-lg open:shadow-black/20 hover:border-white/20"
               >
                 <summary className="w-full flex items-center justify-between gap-4 p-6 text-left cursor-pointer list-none [&::-webkit-details-marker]:hidden">
-                  <span className="text-white font-bold text-lg group-open:text-[#0E7F5A] transition-colors">
+                  <span className="text-white font-bold text-lg group-open:text-[#19C58B] transition-colors">
                     {faq.question}
                   </span>
                   <ChevronDown
-                    className="w-6 h-6 text-[#0E7F5A] transition-transform duration-300 shrink-0 group-open:rotate-180"
+                    className="w-6 h-6 text-[#19C58B] transition-transform duration-300 shrink-0 group-open:rotate-180"
                     aria-hidden
                   />
                 </summary>
@@ -495,13 +495,13 @@ export default function SuburbGutterCleaningPage({
           background: ${colors.primaryGradient};
           padding: 18px 32px; border-radius: 100px; cursor: pointer;
           transition: all 0.3s ease;
-          box-shadow: 0 10px 30px rgba(14, 127, 90, 0.3);
+          box-shadow: 0 10px 30px rgba(25,197,139, 0.3);
           color: white;
           font-weight: 800;
         }
         .hero-primary-btn:hover {
           transform: translateY(-4px);
-          box-shadow: 0 15px 40px rgba(14, 127, 90, 0.4);
+          box-shadow: 0 15px 40px rgba(25,197,139, 0.4);
         }
         .hero-wave-bottom { position: absolute; bottom: -1px; left: 0; right: 0; line-height: 0; z-index: 10; }
         .hero-wave-bottom svg { width: 100%; height: 60px; display: block; }

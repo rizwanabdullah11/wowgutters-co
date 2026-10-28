@@ -97,7 +97,7 @@ export default function WhatsAppChatPopup() {
         className={`fixed bottom-6 right-6 z-50 h-14 w-14 rounded-2xl shadow-xl transition-all duration-300 flex items-center justify-center group border border-white/25 ${
           isOpen ? 'scale-95' : 'hover:scale-105'
         }`}
-        style={{ background: 'linear-gradient(135deg, #25D366 0%, #0E7F5A 100%)' }}
+        style={{ background: 'linear-gradient(135deg, #25D366 0%, #19C58B 100%)' }}
         aria-label="Open WhatsApp Chat"
       >
         <svg viewBox="0 0 24 24" className="w-8 h-8" fill="white">

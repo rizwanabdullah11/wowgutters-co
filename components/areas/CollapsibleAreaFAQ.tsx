@@ -41,7 +41,7 @@ export default function CollapsibleAreaFAQ({ city, faqs, heading }: CollapsibleA
                 key={faq.question}
                 name={groupName}
                 open={i === 0}
-                className="area-faq-details group bg-white rounded-2xl overflow-hidden border-2 border-slate-200 shadow-sm transition-all duration-300 open:border-[#0E7F5A] open:shadow-lg hover:border-slate-300"
+                className="area-faq-details group bg-white rounded-2xl overflow-hidden border-2 border-slate-200 shadow-sm transition-all duration-300 open:border-[#19C58B] open:shadow-lg hover:border-slate-300"
               >
                 <summary className="w-full flex items-center justify-between gap-4 p-6 text-left cursor-pointer list-none [&::-webkit-details-marker]:hidden">
                   <div className="flex items-center gap-4 flex-1 min-w-0">
@@ -68,7 +68,7 @@ export default function CollapsibleAreaFAQ({ city, faqs, heading }: CollapsibleA
 
           <div className="lg:col-span-1">
             <div className="sticky top-8 space-y-6">
-              <div className="bg-gradient-to-br from-[#0E7F5A] to-[#0B6B4C] rounded-2xl p-8 text-white shadow-xl">
+              <div className="bg-gradient-to-br from-[#19C58B] to-[#14B27D] rounded-2xl p-8 text-white shadow-xl">
                 <h3 className="text-2xl font-black mb-4">Free Quote in 60 Seconds</h3>
                 <p className="text-white/95 mb-6 leading-relaxed">
                   Tell us your property type and postcode — we&apos;ll give you a fixed price instantly, no obligation.

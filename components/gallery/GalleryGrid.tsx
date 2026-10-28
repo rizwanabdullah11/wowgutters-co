@@ -398,7 +398,7 @@ export default function GalleryGrid({ items = galleryItems }: { items?: GalleryI
               onClick={() => setSelectedCategory(category)}
               className={`px-5 py-2.5 rounded-full text-sm sm:text-base font-bold transition-all duration-200 cursor-pointer ${
                 isActive
-                  ? 'bg-[#0E7F5A] text-white shadow-lg shadow-emerald-500/25 scale-105'
+                  ? 'bg-[#19C58B] text-white shadow-lg shadow-emerald-500/25 scale-105'
                   : 'bg-white text-slate-700 hover:bg-slate-100 hover:text-slate-900 border border-slate-200 shadow-sm'
               }`}
             >
@@ -444,7 +444,7 @@ export default function GalleryGrid({ items = galleryItems }: { items?: GalleryI
                 <span
                   className={`absolute top-3 left-3 text-xs font-black uppercase tracking-wider px-3 py-1 rounded-full shadow-md ${
                     item.tag === 'After'
-                      ? 'bg-[#0E7F5A] text-white'
+                      ? 'bg-[#19C58B] text-white'
                       : item.tag === 'Before'
                       ? 'bg-[#0f172a] text-white'
                       : 'bg-white/90 text-slate-800 backdrop-blur-sm'
@@ -506,7 +506,7 @@ export default function GalleryGrid({ items = galleryItems }: { items?: GalleryI
                 <span
                   className={`absolute top-4 left-4 text-xs font-black uppercase tracking-wider px-3.5 py-1.5 rounded-full shadow-lg ${
                     selectedImage.tag === 'After'
-                      ? 'bg-[#0E7F5A] text-white'
+                      ? 'bg-[#19C58B] text-white'
                       : selectedImage.tag === 'Before'
                       ? 'bg-[#0f172a] text-white'
                       : 'bg-white text-slate-900'
@@ -536,7 +536,7 @@ export default function GalleryGrid({ items = galleryItems }: { items?: GalleryI
               <div className="flex items-center gap-3 shrink-0">
                 <a
                   href="/quote"
-                  className="px-6 py-3 rounded-full bg-[#0E7F5A] text-white font-bold text-sm hover:bg-[#0B6B4C] transition-colors shadow-md"
+                  className="px-6 py-3 rounded-full bg-[#19C58B] text-white font-bold text-sm hover:bg-[#14B27D] transition-colors shadow-md"
                 >
                   Get A Free Quote
                 </a>

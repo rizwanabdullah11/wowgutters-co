@@ -33,7 +33,7 @@ export default function AreaFAQ({
   const [openIdx, setOpenIdx] = useState<number | null>(0);
 
   return (
-    <section className="py-20 px-4 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #0d6e4e 0%, #0E7F5A 50%, #0B6B4C 100%)' }}>
+    <section className="py-20 px-4 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #0d6e4e 0%, #19C58B 50%, #14B27D 100%)' }}>
       {/* Note: FAQPage schema is now included in AreaPageSchema component */}
       {/* Decorative pattern */}
       <div className="absolute inset-0 opacity-10">
@@ -73,12 +73,12 @@ export default function AreaFAQ({
                 >
                   <div className="flex items-center gap-4 flex-1">
                     <div className="text-3xl">{faq.icon}</div>
-                    <span className="text-white font-bold text-lg group-hover:text-[#0E7F5A] transition-colors">
+                    <span className="text-white font-bold text-lg group-hover:text-[#19C58B] transition-colors">
                       {faq.question}
                     </span>
                   </div>
                   <ChevronDown 
-                    className={`w-6 h-6 text-[#0E7F5A] transition-transform duration-300 shrink-0 ${
+                    className={`w-6 h-6 text-[#19C58B] transition-transform duration-300 shrink-0 ${
                       openIdx === i ? 'rotate-180' : ''
                     }`}
                   />
@@ -104,7 +104,7 @@ export default function AreaFAQ({
           <div className="lg:col-span-1">
             <div className="sticky top-8 space-y-6">
               {/* Still Have Questions Card */}
-              <div className="bg-[#0E7F5A] rounded-2xl p-8 text-white shadow-2xl">
+              <div className="bg-[#19C58B] rounded-2xl p-8 text-white shadow-2xl">
                 <h3 className="text-2xl font-black mb-4">Get Your FREE Instant Quote</h3>
                 <p className="text-white mb-6 leading-relaxed">
                   We&apos;ll text you your quote and you&apos;ll even be able to book-in online.

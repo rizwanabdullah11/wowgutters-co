@@ -320,7 +320,7 @@ export default function DerbyGutterCleaningPage() {
             {PDF_PROCESS.map((p) => (
               <div
                 key={p.step}
-                className="relative p-8 rounded-2xl border border-slate-200 bg-slate-50/80 hover:border-[#0E7F5A]/40 transition-colors"
+                className="relative p-8 rounded-2xl border border-slate-200 bg-slate-50/80 hover:border-[#19C58B]/40 transition-colors"
               >
                 <span className="absolute top-6 right-6 text-5xl font-black text-slate-200 select-none" aria-hidden>
                   {p.step}
@@ -422,7 +422,7 @@ export default function DerbyGutterCleaningPage() {
       </section>
 
       <section className="relative overflow-hidden border-t border-white/10 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] py-20 px-4">
-        <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#0E7F5A]/30 blur-[1px]" />
+        <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#19C58B]/30 blur-[1px]" />
         <div className="pointer-events-none absolute -right-8 -top-12 h-52 w-[45%] rotate-6 rounded-[35%] bg-[#2dd4bf]/24 blur-[1px]" />
 
         <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center gap-10 md:flex-row md:items-center md:justify-between">
@@ -455,7 +455,7 @@ export default function DerbyGutterCleaningPage() {
                     href={`${WA}?text=${encodeURIComponent(`Hi, I am in Derby. ${question}`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="shrink-0 rounded-md bg-[#0E7F5A] px-4 py-1.5 text-base font-black text-white hover:bg-[#0fb272] transition-colors inline-flex items-center gap-1.5 shadow-[0_6px_14px_rgba(22,199,132,0.35)]"
+                    className="shrink-0 rounded-md bg-[#19C58B] px-4 py-1.5 text-base font-black text-white hover:bg-[#0fb272] transition-colors inline-flex items-center gap-1.5 shadow-[0_6px_14px_rgba(22,199,132,0.35)]"
                   >
                     Ask
                   </a>
@@ -479,7 +479,7 @@ export default function DerbyGutterCleaningPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Link
               href="/services/roof-cleaning"
-              className="group p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:border-[#0E7F5A]/50 hover:shadow-lg transition-all"
+              className="group p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-orange-700 mb-2">Popular</p>
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">
@@ -492,7 +492,7 @@ export default function DerbyGutterCleaningPage() {
             </Link>
             <Link
               href="/services/upvc-cleaning"
-              className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#0E7F5A]/50 hover:shadow-lg transition-all"
+              className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">
                 Exterior uPVC cleaning
@@ -504,7 +504,7 @@ export default function DerbyGutterCleaningPage() {
             </Link>
             <Link
               href="/services/gutter-repairs"
-              className="group p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:border-[#0E7F5A]/50 hover:shadow-lg transition-all"
+              className="group p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">Gutter repairs</h3>
               <p className="text-slate-600 text-sm leading-relaxed">
@@ -514,7 +514,7 @@ export default function DerbyGutterCleaningPage() {
             </Link>
             <Link
               href="/services/gutter-inspection"
-              className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#0E7F5A]/50 hover:shadow-lg transition-all"
+              className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">Free gutter inspection</h3>
               <p className="text-slate-600 text-sm leading-relaxed">
@@ -524,7 +524,7 @@ export default function DerbyGutterCleaningPage() {
             </Link>
             <Link
               href="/services/commercial-gutter-cleaning/"
-              className="group p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:border-[#0E7F5A]/50 hover:shadow-lg transition-all"
+              className="group p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">
                 Commercial gutter cleaning
@@ -536,7 +536,7 @@ export default function DerbyGutterCleaningPage() {
             </Link>
             <Link
               href="/services/conservatory"
-              className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#0E7F5A]/50 hover:shadow-lg transition-all"
+              className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">
                 Conservatory gutter cleaning
@@ -573,7 +573,7 @@ export default function DerbyGutterCleaningPage() {
               href={`${WA}?text=${encodeURIComponent('Hi, I would like a quote for gutter cleaning in Derby.')}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto min-w-[240px] inline-flex items-center justify-center gap-2 py-4 px-6 rounded-full border-2 font-bold border-[#0E7F5A] text-[#0f766e] hover:bg-[#ecfdf5] transition-colors"
+              className="w-full sm:w-auto min-w-[240px] inline-flex items-center justify-center gap-2 py-4 px-6 rounded-full border-2 font-bold border-[#19C58B] text-[#0f766e] hover:bg-[#ecfdf5] transition-colors"
             >
               WhatsApp us
             </a>
@@ -668,11 +668,11 @@ export default function DerbyGutterCleaningPage() {
           background: ${colors.primaryGradient};
           padding: 18px 32px; border-radius: 100px; cursor: pointer;
           transition: all 0.3s ease;
-          box-shadow: 0 10px 30px rgba(14, 127, 90, 0.3);
+          box-shadow: 0 10px 30px rgba(25,197,139, 0.3);
         }
         .hero-primary-btn:hover {
           transform: translateY(-4px);
-          box-shadow: 0 15px 40px rgba(14, 127, 90, 0.4);
+          box-shadow: 0 15px 40px rgba(25,197,139, 0.4);
         }
         .btn-arrow { color: white; font-size: 1.1rem; line-height: 1; }
         .btn-label { color: white; font-size: clamp(1.05rem, 2vw, 1.35rem); font-weight: 800; }

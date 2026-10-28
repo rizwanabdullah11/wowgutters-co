@@ -57,7 +57,7 @@ export default function WelcomeAudio() {
     <>
       {isPlaying && (
         <div className="fixed bottom-8 right-8 z-50 animate-fade-in">
-          <div className="bg-gradient-to-r from-[#0E7F5A] to-[#0B6B4C] text-white px-6 py-4 rounded-full shadow-xl flex items-center gap-3">
+          <div className="bg-gradient-to-r from-[#19C58B] to-[#14B27D] text-white px-6 py-4 rounded-full shadow-xl flex items-center gap-3">
             <div className="flex gap-1">
               <span className="w-1 h-6 bg-white rounded-full animate-pulse"></span>
               <span className="w-1 h-6 bg-white rounded-full animate-pulse delay-75"></span>

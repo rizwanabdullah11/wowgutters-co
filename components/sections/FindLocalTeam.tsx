@@ -112,7 +112,7 @@ export default function FindLocalTeam() {
             <div className="local-team-map-wrapper">
               {/* Optional UI overlay over map to make it look premium */}
               <div className="map-overlay-badge">
-                <Navigation className="w-4 h-4 text-[#0E7F5A]" />
+                <Navigation className="w-4 h-4 text-[#19C58B]" />
                 Viewing: <strong style={{ color: '#0F172A' }}>{selectedLocation.replace(', UK', '')}</strong>
               </div>
               <iframe
@@ -164,7 +164,7 @@ export default function FindLocalTeam() {
         .local-team-line {
           height: 1px;
           width: 40px;
-          background-color: #0E7F5A;
+          background-color: #19C58B;
           opacity: 0.5;
         }
         .local-team-title {
@@ -232,8 +232,8 @@ export default function FindLocalTeam() {
           transition: all 0.3s ease;
         }
         .local-team-search-box:focus-within {
-          box-shadow: 0 8px 30px rgba(14, 127, 90, 0.15);
-          border-color: #0E7F5A;
+          box-shadow: 0 8px 30px rgba(25,197,139, 0.15);
+          border-color: #19C58B;
         }
         .search-icon-left {
           position: absolute;
@@ -306,10 +306,10 @@ export default function FindLocalTeam() {
         }
 
         .local-pill:hover {
-          border-color: #0E7F5A;
+          border-color: #19C58B;
           color: #166534;
           transform: translateY(-2px);
-          box-shadow: 0 4px 12px rgba(14, 127, 90, 0.1);
+          box-shadow: 0 4px 12px rgba(25,197,139, 0.1);
         }
         .local-pill:hover .local-pill-icon {
           color: #047857;
@@ -317,9 +317,9 @@ export default function FindLocalTeam() {
 
         .local-pill-active {
           background: #047857;
-          border-color: #0E7F5A;
+          border-color: #19C58B;
           color: white !important;
-          box-shadow: 0 6px 16px rgba(14, 127, 90, 0.25);
+          box-shadow: 0 6px 16px rgba(25,197,139, 0.25);
         }
         .local-pill-active .local-pill-icon {
           color: white !important;
@@ -357,7 +357,7 @@ export default function FindLocalTeam() {
           background: #E2E8F0;
           /* Nice thick green border for brand feeling */
           border: 4px solid white;
-          border-bottom: 6px solid #0E7F5A;
+          border-bottom: 6px solid #19C58B;
         }
         
         .map-overlay-badge {

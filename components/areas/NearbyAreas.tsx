@@ -54,7 +54,7 @@ export default function NearbyAreas({
               <li key={link.slug}>
                 <Link
                   href={`/${toServiceSlug(link.slug, serviceKind)}/`}
-                  className="px-4 py-2 rounded-full bg-slate-50 border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#0E7F5A] hover:text-[#0f766e] transition-colors"
+                  className="px-4 py-2 rounded-full bg-slate-50 border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
                 >
                   {label}
                 </Link>

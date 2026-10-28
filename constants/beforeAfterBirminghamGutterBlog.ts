@@ -54,7 +54,7 @@ export const beforeAfterBirminghamGutterBlogPost: BlogPost = {
 
 <p>If you have been wondering what <a href="/gutter-cleaning-birmingham/" style="${link}">gutter cleaning in Birmingham</a> actually looks like in practice — not the marketing version but the real version — this is it.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 Seen enough already?</strong><br/>
   We're booking across Birmingham and the West Midlands this week.<br/>
   Call <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> — free quote, same-week availability.<br/>

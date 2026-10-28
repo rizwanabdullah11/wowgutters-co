@@ -138,7 +138,7 @@ export default function GutterCleaningServicesPage() {
                 <Link
                   key={s.title}
                   href={s.link}
-                  className="group flex flex-col p-6 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-md hover:border-[#0E7F5A]/40 transition-all"
+                  className="group flex flex-col p-6 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-md hover:border-[#19C58B]/40 transition-all"
                 >
                   <div className="flex items-center gap-3 mb-4">
                     <div
@@ -209,7 +209,7 @@ export default function GutterCleaningServicesPage() {
           </p>
           <Link
             href="/gutter-cleaning-birmingham/"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-slate-300 text-slate-800 font-bold text-sm hover:border-[#0E7F5A] hover:text-[#0f766e] transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-slate-300 text-slate-800 font-bold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
           >
             Gutter cleaning in Birmingham <ArrowRight className="w-4 h-4" />
           </Link>

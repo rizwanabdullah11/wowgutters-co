@@ -491,7 +491,7 @@ export default function QuotePage() {
       />
 
       {/* ═══════════════════════════════ FINAL CTA ═══════════════════════════════ */}
-      <section className="py-16 sm:py-20 relative overflow-hidden" style={{ background: `linear-gradient(135deg, ${colors.primary} 0%, #0B6B4C 100%)` }}>
+      <section className="py-16 sm:py-20 relative overflow-hidden" style={{ background: `linear-gradient(135deg, ${colors.primary} 0%, #14B27D 100%)` }}>
         {/* Decorative circles */}
         <div className="absolute -top-20 -right-20 w-64 h-64 bg-white/10 rounded-full pointer-events-none" />
         <div className="absolute -bottom-16 -left-16 w-48 h-48 bg-white/10 rounded-full pointer-events-none" />

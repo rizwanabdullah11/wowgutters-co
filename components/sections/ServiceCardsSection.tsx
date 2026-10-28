@@ -11,7 +11,7 @@ const cards = [
     description: 'Careful roofline and gutter checks to find leaks, blockages and weak points before they become costly.',
     buttonText: 'Book a Free Inspection',
     link: '/services/gutter-inspection/',
-    accentColor: '#0E7F5A',
+    accentColor: '#19C58B',
   },
   {
     id: 'unblock',
@@ -22,7 +22,7 @@ const cards = [
     description: 'High-reach gutter vacuum cleaning and downpipe unblocking to keep rainwater flowing safely away.',
     buttonText: 'Get Unblocking',
     link: '/help/unblock',
-    accentColor: '#0B6B4C',
+    accentColor: '#14B27D',
   },
   {
     id: 'repair',
@@ -165,7 +165,7 @@ export default function ServiceCardsSection() {
       <style>{`
         .how-can-we-help-section {
           position: relative;
-          background: linear-gradient(135deg, #0d6e4e 0%, #0E7F5A 50%, #0B6B4C 100%);
+          background: linear-gradient(135deg, #0d6e4e 0%, #19C58B 50%, #14B27D 100%);
           padding: 0;
           overflow: hidden;
         }

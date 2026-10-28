@@ -64,7 +64,7 @@ export const warehouseBoxGutterBlogPost: BlogPost = {
 
 <p>This is what happens to a commercial box gutter system when it goes unmaintained for an extended period, what it takes to put right, and why routine professional gutter clearing is the cheapest insurance a warehouse or distribution site can buy.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 WOW Gutters Ltd — Commercial Gutter Clearing Birmingham & West Midlands:</strong>
   <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a>
 </blockquote>

@@ -61,7 +61,7 @@ export default function ServiceAreasHubPage() {
             <a
               key={l}
               href={`#letter-${l}`}
-              className="inline-flex items-center justify-center w-8 h-8 rounded-md text-sm font-bold text-slate-700 bg-slate-100 hover:bg-[#0E7F5A] hover:text-white transition-colors"
+              className="inline-flex items-center justify-center w-8 h-8 rounded-md text-sm font-bold text-slate-700 bg-slate-100 hover:bg-[#19C58B] hover:text-white transition-colors"
             >
               {l}
             </a>

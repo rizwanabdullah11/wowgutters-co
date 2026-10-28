@@ -68,7 +68,7 @@ function ServiceCard({
   return (
     <Link
       href={`/services/${id}/`}
-      className="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-md transition-all hover:-translate-y-1 hover:border-[#0E7F5A]/40 hover:shadow-xl"
+      className="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-md transition-all hover:-translate-y-1 hover:border-[#19C58B]/40 hover:shadow-xl"
     >
       <div className="relative aspect-[16/10] overflow-hidden bg-slate-100">
         <img

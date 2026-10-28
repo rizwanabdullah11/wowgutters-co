@@ -250,7 +250,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>All repair work is carried out to a professional standard — because we stand behind every job we do.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? <strong>Leaking gutters</strong> left untreated cause damp, mould, and structural water damage. A small repair today prevents a large bill tomorrow.
 </blockquote>
 
@@ -279,7 +279,7 @@ export const blogPosts: BlogPost[] = [
   <li><a href="/services/conservatory/" style="color: #047857; font-weight: 600; text-decoration: none;">Conservatory frames and trims</a></li>
 </ul>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? A clean roofline adds instant kerb appeal — and protects the timber and fixings underneath from premature rot.
 </blockquote>
 
@@ -296,7 +296,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Fascia and soffit algae treatment</strong> — hot wash combined with a protective solution</li>
 </ol>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? Our biocide treatments keep moss and algae away for significantly longer than a simple brush-off clean — protecting your home between annual maintenance visits.
 </blockquote>
 
@@ -330,7 +330,7 @@ export const blogPosts: BlogPost[] = [
 <h3>Worcestershire &amp; Staffordshire</h3>
 <p>Worcester, Kidderminster, <strong>Bromsgrove</strong>, Redditch, Droitwich Spa, <strong>Stourbridge</strong>, Halesowen, Bewdley, Evesham, Cannock, <strong>Lichfield</strong>, Tamworth, Stafford, Rugeley, Burntwood</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? Not sure if we cover your area? <a href="tel:07421433910" style="color: #0f172a; text-decoration: none; font-weight: 600;">Call us on 07421 433910</a> or <a href="https://wowgutters.co.uk" style="color: #0f172a; text-decoration: none; font-weight: 600;">check online at wowgutters.co.uk</a> — we serve a wide radius across the entire West Midlands region.
 </blockquote>
 
@@ -379,7 +379,7 @@ export const blogPosts: BlogPost[] = [
   <li>? <strong>Dark streaking on fascias or soffits</strong> — <strong>algae build-up</strong> that will worsen over time</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   The earlier you act, the less expensive the solution. A gutter clean costs a fraction of what damp treatment or fascia board replacement costs.
 </blockquote>
 
@@ -692,42 +692,42 @@ export const blogPosts: BlogPost[] = [
 <h2>Frequently Asked Questions — Gutter Cleaning in Coventry</h2>
 
 <div style="margin: 40px 0;">
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How often should gutters be cleaned in Coventry?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> At least once a year — ideally in late autumn (October to December) after the main leaf fall from Coventry's mature street trees. Properties near heavy tree coverage, such as those in Earlsdon, Finham, Styvechale, and around War Memorial Park, should be cleaned twice a year — once in spring and once in autumn.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does gutter cleaning cost in Coventry?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: My gutters have weeds growing in them — is that normal?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> It is more common than most people realise — as the real Coventry job photograph above shows. Weeds establish themselves when debris in the gutter channel has decomposed into a deep enough layer of organic material to support root systems. This level of blockage typically takes two or more seasons to develop. The good news: our vacuum system removes established weeds, roots and all, in a single visit.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you use ladders?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> No. We use a professional ground-level high-reach vacuum system. No ladders, no scaffolding, no contact with your roof tiles, fascia, or brickwork.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you provide before and after photos?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes — on every job, without exception. We photograph the gutters before we start and after we finish, and send both images directly to you. The photographs in this article are from a real WOW Gutters Ltd job in Coventry, completed on 23 March 2026.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you cover Earlsdon, Finham, Canley, Binley, and Walsgrave?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. We cover all CV postcodes across Coventry and the surrounding area, including Earlsdon, Chapelfields, Finham, Styvechale, Canley, Tile Hill, Binley, Walsgrave, Coundon, Wyken, Longford, and Allesley.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you test downpipes after cleaning?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. All WOW Gutters Ltd cleaning work includes high-volume water flow testing on downpipes and gutters to ensure free, unrestricted drainage.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you also repair gutters in Coventry?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. In addition to cleaning, we repair leaking joints, broken brackets, sagging sections, and cracked downpipes. All repair work comes with a complete water flow testing. <a href="/services/gutter-repairs" style="color: #000000; text-decoration: none;">View our gutter repairs service</a>.</p>
   </div>
@@ -1001,37 +1001,37 @@ export const blogPosts: BlogPost[] = [
 <h2>Frequently Asked Questions — Gutter Cleaning in Wolverhampton</h2>
 
 <div style="margin: 40px 0;">
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How often should gutters be cleaned in Wolverhampton?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> At least once a year — ideally in late autumn (October to December) after the main leaf fall. Properties near heavy tree coverage, such as those in Tettenhall, Penn, Compton, and around West Park, should be cleaned twice a year — once in spring and once in autumn.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does gutter cleaning cost in Wolverhampton?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you use ladders?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> No. We use a professional ground-level high-reach vacuum system. No ladders, no scaffolding, no contact with your roof tiles, fascia, or brickwork.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you provide before and after photos?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes — on every job, without exception. We photograph the gutters before we start and after we finish, and send both images directly to you.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you cover Tettenhall, Penn, Compton, and Wednesfield?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. We cover all WV postcodes across Wolverhampton and the surrounding area, including Tettenhall, Penn, Compton, Finchfield, Wednesfield, Bilston, Codsall, Wombourne, and Bushbury.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you test downpipes after cleaning?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. All WOW Gutters Ltd cleaning work includes high-volume water flow testing on downpipes and gutters to ensure free, unrestricted drainage.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you also repair gutters in Wolverhampton?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. In addition to cleaning, we repair leaking joints, broken brackets, sagging sections, and cracked downpipes. All repair work comes with a complete water flow testing. <a href="/services/gutter-repairs" style="color: #000000; text-decoration: none;">View our gutter repairs service</a>.</p>
   </div>
@@ -1216,32 +1216,32 @@ export const blogPosts: BlogPost[] = [
       <h2>Frequently Asked Questions</h2>
 
       <div style="margin: 40px 0;">
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How do I know if sycamore seeds have blocked my gutters?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> The clearest signs are water overflowing over the gutter edge during rainfall, visible greenery or seedlings sprouting from the gutterline, and green or brown staining running down external walls. If you have a sycamore or maple tree within 30 metres of your property, it is very likely that seeds have accumulated in your gutters.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How often should I clean my gutters if I have sycamore trees nearby?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Twice a year is strongly recommended — once in late autumn (November to December) after the main seed and leaf fall, and once in spring (March to May) to catch the second sycamore seed drop before seedlings establish.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Can the seeds damage the gutter itself?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. Once seeds germinate and put down roots inside the gutter channel, those roots can work into joints and seams, causing splits and leaks. In advanced cases this can turn what would have been a simple clean into a repair job. Early intervention is always more cost-effective.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you clear the downpipe as well?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes, downpipe inspection and clearance is included as standard on every WOW Gutters Ltd job. Seeds and debris that wash into the downpipe are a common secondary cause of blockages, and we check and clear all downpipe outlets as part of the service.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does gutter cleaning cost in Birmingham?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate or call 07421 433910 for a free quote.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you use ladders?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> No. WOW Gutters Ltd uses a professional ground-level high-reach vacuum system that cleans gutters without ladders or scaffolding, protecting your fascias, tiles, and brickwork from contact damage.</p>
         </div>
@@ -1424,42 +1424,42 @@ export const blogPosts: BlogPost[] = [
       <h2>Frequently Asked Questions</h2>
 
       <div style="margin: 40px 0;">
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How do I know if my gutters are blocked?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> The clearest signs are water overflowing over the gutter edge during rainfall, green or black staining running down external walls (as shown in the before photograph above), visible greenery growing from the gutterline, and fascias that are sagging or pulling away from the roofline. If you cannot remember when they were last cleaned, book a clean now.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: What causes the green and black staining on walls below gutters?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> This staining is caused by gutter overflow carrying algae, moss, silt, and organic debris continuously down the brickwork every time it rains. It is one of the most common visible signs of a blocked gutter in Birmingham. Left untreated, the staining penetrates the mortar joints and can cause internal damp. As our before-and-after photograph shows, professional gutter cleaning removes the source of the problem entirely.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How often should gutters be cleaned in Birmingham?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> At least once a year, ideally in late autumn after the main leaf fall (October to December). Properties near trees should be cleaned twice a year in spring and autumn. Commercial properties are best cleaned every six months.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Can blocked gutters cause the green staining I can see on my walls?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes, this is exactly what causes it. When a gutter is blocked, rainwater overflows continuously down the same section of wall, depositing algae and moss spores that grow into the visible green streaking. Clearing the gutter stops the overflow and with it the source of the staining.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does it cost to clear a blocked gutter in Birmingham?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection and clearance is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you use ladders to clean gutters?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> No. WOW Gutters Ltd uses a professional ground-level high-reach vacuum system that cleans gutters safely without ladders or scaffolding, protecting your fascias, roof tiles, and stonework from any risk of contact damage.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you provide before and after photos?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes, we photograph your guttering before and after every single job and send the images directly to you, just like the real Birmingham job photograph shown in this article.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you test downpipes after cleaning?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. All WOW Gutters Ltd cleaning work includes high-volume water flow testing on downpipes and gutters to ensure free, unrestricted drainage.</p>
         </div>
@@ -2040,7 +2040,7 @@ export const blogPosts: BlogPost[] = [
   <li>?? Unsightly green staining on render, brickwork, and driveways</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   The average gutter cleaning service from <a href="https://wowgutters.co.uk" style="color: #0f172a; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> costs a fraction of what damp treatment, fascia replacement, or structural water damage repairs cost. Prevention is always the smarter investment.
 </blockquote>
 
@@ -2085,7 +2085,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Full section replacement</strong> — like-for-like uPVC gutter section swap</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? All gutter repairs carried out by <a href="https://wowgutters.co.uk" style="color: #0f172a; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> in Solihull come with a <strong>complete water flow testing</strong> on parts and labour.
 </blockquote>
 
@@ -2104,7 +2104,7 @@ export const blogPosts: BlogPost[] = [
   <li>Bargeboards and cladding panels</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? Freshly cleaned fascias and soffits make an immediate difference to your home's kerb appeal — ideal before putting a property on the market or after a roof replacement.
 </blockquote>
 
@@ -2120,7 +2120,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Fascia algae treatment</strong> — hot wash with protective solution for long-lasting results</li>
 </ol>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? Our biocide moss treatments keep your Solihull roof cleaner for longer between visits — reducing the frequency of maintenance and protecting your tiles from premature deterioration.
 </blockquote>
 
@@ -2151,7 +2151,7 @@ export const blogPosts: BlogPost[] = [
 <h3>North Solihull &amp; Surrounding Areas</h3>
 <p><strong>Castle Bromwich</strong>, <strong>Chelmsley Wood</strong>, <strong>Marston Green</strong>, <strong>Bickenhill</strong>, <strong>Meriden</strong>, <strong>Berkswell</strong>, <strong>Hampton-in-Arden</strong>, <strong>Catherine-de-Barnes</strong>, <strong>Barston</strong></p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? Not listed? <a href="tel:07421433910" style="color: #0f172a; text-decoration: none; font-weight: 600;">Call us on 07421 433910</a> — we cover a wide radius around Solihull and are likely to cover your area.
 </blockquote>
 
@@ -2182,7 +2182,7 @@ export const blogPosts: BlogPost[] = [
   <li>? <strong>Black or green streaking on fascias</strong> — algae build-up that worsens without treatment</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   The longer these signs are left, the more expensive the fix. <a href="tel:07421433910" style="color: #0f172a; font-weight: 600; text-decoration: none;">Book a same-day inspection in Solihull — 07421 433910</a>
 </blockquote>
 
@@ -2196,7 +2196,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Commercial property or large roofline</strong> — quarterly or bi-annual inspection</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? Many of our Solihull customers set up a <strong>recurring annual or bi-annual booking</strong> so they never have to think about it. <a href="tel:07421433910" style="color: #0f172a; font-weight: 600; text-decoration: none;">Ask us about regular maintenance plans — 07421 433910</a>
 </blockquote>
 
@@ -2403,7 +2403,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Once a year is sufficient for properties in more urban parts of Walsall town centre where tree coverage is lighter. But for properties in Aldridge, Streetly, Pelsall, Great Wyrley, and Brownhills — all of which have heavy tree canopy and proximity to wider woodland — twice annually is the realistic maintenance schedule to prevent blockages causing overflow and damage.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? <strong>The cost of not cleaning:</strong> A blocked gutter that overflows continuously can cause damp penetration (£500–£2,000 to treat), damaged fascia boards (£150–£400 per section to replace), and in serious cases, water getting under roof tiles. A professional clean costs £100–£210. The maths aren't difficult.
 </blockquote>
 
@@ -3131,7 +3131,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Properties on streets close to the reservoir corridor in B32 receive debris from two sources simultaneously — their own garden and street trees, and wind-blown material from Bromwich Wood. The gutter debris load is additive. This is why the before photograph from this job contained material from species that don't grow in the property's own garden.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   If you're within half a mile of Bartley Reservoir, your gutters are almost certainly receiving more seasonal debris than the standard Birmingham suburban property.
 </blockquote>
 
@@ -3358,7 +3358,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>The <strong>B30 area</strong> — covering Kings Norton, Stirchley, Cotteridge, and parts of Bournville — sits in a naturally humid microclimate close to the Rea Valley and Kings Norton Nature Reserve. Properties here face accelerated moss and algae growth compared to more exposed postcodes. Without professional treatment, this level of moss leads to blocked gutters, moisture retention beneath tiles, and long-term structural roof damage.</p>
 
-<div style="border-left: 4px solid #0E7F5A; padding: 16px 22px; background: #f0fdf4; border-radius: 0 8px 8px 0; margin: 28px 0;">
+<div style="border-left: 4px solid #19C58B; padding: 16px 22px; background: #f0fdf4; border-radius: 0 8px 8px 0; margin: 28px 0;">
   <p style="margin: 0; color: #166534; font-style: italic; line-height: 1.75;">"The moss had grown so thick in places it was lifting tile edges. Left another season, we would have been looking at potential felt damage and water ingress into the roof space — that's where a cleaning job becomes a repair job."</p>
 </div>
 

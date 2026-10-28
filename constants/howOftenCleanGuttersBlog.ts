@@ -25,7 +25,7 @@ function faq(question: string, answer: string): string {
 }
 
 const ctaBox = `
-<div style="background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%); border: 2px solid #0E7F5A; border-radius: 16px; padding: 28px 32px; margin: 40px 0;">
+<div style="background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%); border: 2px solid #19C58B; border-radius: 16px; padding: 28px 32px; margin: 40px 0;">
   <h3 style="font-size: 1.3rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0;">DUE A CLEAN? BOOK BEFORE THE AUTUMN RUSH</h3>
   <p style="color: #334155; font-size: 0.98rem; line-height: 1.75; margin: 0 0 18px 0;">Ground-based vacuum gutter cleaning across Birmingham and the West Midlands. From £100, downpipes flushed and tested, before &amp; after photos on every job.</p>
   <div style="display: flex; flex-wrap: wrap; gap: 12px;">

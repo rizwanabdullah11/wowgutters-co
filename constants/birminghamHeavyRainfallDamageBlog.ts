@@ -55,7 +55,7 @@ export const birminghamHeavyRainfallDamageBlogPost: BlogPost = {
 
 <p>This post explains exactly how the damage happens. Not that it happens — but how. The specific physics, the specific materials, the specific progression that Birmingham's rainfall produces when a gutter cannot do its job. If you need <a href="/gutter-cleaning-birmingham/" style="${link}">gutter cleaning in Birmingham</a> before the next downpour, the mechanisms below show precisely what is at stake.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>⚡ Already know you need to act?</strong><br/>
   We're booking across Birmingham and the West Midlands this week.<br/>
   📞 Call <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> — free quote, same-week availability.<br/>

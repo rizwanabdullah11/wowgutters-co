@@ -1,8 +1,8 @@
 export const colors = {
   // Brand colors
-  primary:         '#0E7F5A', // Brand Green (darkened Oct 2026 from #19C58B so text/buttons pass WCAG AA)
+  primary:         '#19C58B', // Brand Green — gradient FROM colour
   primaryText:     '#047857', // Accessible green for text/links on light backgrounds (WCAG AA 5.5:1)
-  primaryHover:    '#0B6B4C', // Brand Green — gradient TO colour (hover shade)
+  primaryHover:    '#14B27D', // Brand Green — gradient TO colour (hover shade)
   // Darker green for buttons so white text passes WCAG AA contrast (Oct 2026 audit)
   primaryGradient: 'linear-gradient(to right, #047857, #065F46)',
   navy:            '#166534', // Deep Green (legacy / contrast)

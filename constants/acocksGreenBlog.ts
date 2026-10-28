@@ -45,7 +45,7 @@ export const acocksGreenBlogPost: BlogPost = {
 
 <p>If your gutters are overdue a clean, this page tells you why it matters and how to get it sorted — quickly, properly, and without any fuss.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 Ready to get it sorted?</strong><br/>
   We cover Acocks Green and all B27 streets.<br/>
   <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call 07421 433910</a> for a free quote — we'll have you booked in this week.
@@ -89,7 +89,7 @@ export const acocksGreenBlogPost: BlogPost = {
   <li><strong>Moss accumulation from roof tiles</strong> — on north-facing slopes of paired semis, moss washes into gutters with each rainfall, returning every year regardless of how recently the channel was cleared.</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>🔔 Recognise any of these at your B27 property?</strong><br/>
   Don't leave it another season. Each one gets more expensive to deal with the longer it sits.<br/>
   📞 Call WOW Gutters now: <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
@@ -164,7 +164,7 @@ ${ctaBox}
   <li>Coordinate access directly with tenants where needed</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📋 Landlord with properties in B27?</strong><br/>
   Talk to us about a regular maintenance schedule.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> · 📧 <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a>

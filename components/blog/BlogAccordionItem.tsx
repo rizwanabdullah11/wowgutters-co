@@ -44,7 +44,7 @@ export default function AccordionItem({ question, answer }: { question: string; 
             width: 24,
             height: 24,
             borderRadius: '50%',
-            background: open ? '#0f172a' : '#0E7F5A',
+            background: open ? '#0f172a' : '#19C58B',
             color: '#fff',
             display: 'flex',
             alignItems: 'center',

@@ -2,14 +2,14 @@ import type { BlogPost } from './blogTypes';
 
 const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 const ctaTop = `
-<blockquote style="border-left: 4px solid #0E7F5A; background: #f0fdf8; padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; margin: 1.5rem 0;">
+<blockquote style="border-left: 4px solid #19C58B; background: #f0fdf8; padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; margin: 1.5rem 0;">
   📞 <strong>WOW Gutters Ltd – Ground-Based Gutter Vacuum Cleaning Across Birmingham &amp; the West Midlands.</strong><br/>
   No ladders, four-storey reach, live camera on every job.<br/>
   <strong>Call <a href="tel:07421433910" style="${link}">07421 433910</a> or email <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a> for a free quote today.</strong>
 </blockquote>`;
 
 const ctaBox = `
-<div style="background: linear-gradient(135deg, #0E7F5A 0%, #0ea572 100%); color: #fff; padding: 2rem; border-radius: 12px; text-align: center; margin: 2.5rem 0;">
+<div style="background: linear-gradient(135deg, #19C58B 0%, #0ea572 100%); color: #fff; padding: 2rem; border-radius: 12px; text-align: center; margin: 2.5rem 0;">
   <h3 style="margin: 0 0 0.5rem; font-size: 1.4rem;">Ready to Book Your Gutter Vacuum Clean?</h3>
   <p style="margin: 0 0 1rem; opacity: 0.95;">No ladders. No mess. Live camera footage on every visit.</p>
   <a href="tel:07421433910" style="display: inline-block; background: #fff; color: #047857; font-weight: 700; padding: 0.75rem 2rem; border-radius: 8px; text-decoration: none; font-size: 1.05rem;">📞 Call 07421 433910</a>
@@ -178,32 +178,32 @@ ${ctaTop}
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin: 2rem 0;">
 
-  <div style="background: #f0fdf8; border: 1px solid #0E7F5A; border-radius: 10px; padding: 1.25rem 1.4rem;">
+  <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
     <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.05rem;">🛡️ No Work at Height – Safer for Everyone</h3>
     <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">Our operatives stay on the ground for the entire visit. This eliminates the principal hazard in gutter cleaning work and fully complies with the <a href="https://www.hse.gov.uk/work-at-height/the-regulations.htm" target="_blank" rel="noopener noreferrer" style="${link}">HSE Working at Height Regulations</a>. You can also learn more about <a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">how gutters are cleaned without a ladder</a> in our dedicated guide.</p>
   </div>
 
-  <div style="background: #f0fdf8; border: 1px solid #0E7F5A; border-radius: 10px; padding: 1.25rem 1.4rem;">
+  <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
     <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.05rem;">🏠 Zero Risk of Ladder Damage to Your Property</h3>
     <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">Ladder feet mark rendered walls, crack period stonework, and crush polycarbonate conservatory roofs. Because we never erect a ladder, there is no contact risk to your render, fascia boards, guttering joints, or garden planting. This is especially important for <a href="/blog/victorian-gutter-cleaning-birmingham/" style="${link}">Victorian and period homes in Birmingham</a> where original masonry is irreplaceable.</p>
   </div>
 
-  <div style="background: #f0fdf8; border: 1px solid #0E7F5A; border-radius: 10px; padding: 1.25rem 1.4rem;">
+  <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
     <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.05rem;">📷 Live Camera Inspection on Every Single Visit</h3>
     <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">The SkyVac pole carries a live-view camera that streams footage to a hand-held screen. You see exactly what is in the gutter, and every defect – cracked joints, sagging brackets, blocked outlets – is identified and photographed in real time. Read more about what the <a href="/blog/birmingham-gutter-inspection/" style="${link}">camera inspection can reveal and save you</a> in the long run.</p>
   </div>
 
-  <div style="background: #f0fdf8; border: 1px solid #0E7F5A; border-radius: 10px; padding: 1.25rem 1.4rem;">
+  <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
     <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.05rem;">📸 Before &amp; After Photos Included as Standard</h3>
     <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">Still photos captured from the camera feed are emailed to you after every job at no extra charge. These are invaluable for insurance records, landlord compliance, and planned <a href="/gutter-cleaning" style="${link}">gutter maintenance</a> schedules. Traditional ladder cleans rarely offer this level of documented proof.</p>
   </div>
 
-  <div style="background: #f0fdf8; border: 1px solid #0E7F5A; border-radius: 10px; padding: 1.25rem 1.4rem;">
+  <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
     <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.05rem;">🌿 No Disruption to Gardens, Drives, or Neighbours</h3>
     <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">No ladder feet in borders, no scaffold poles across the driveway, and no need to ask a neighbour for garden access. For <a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham/" style="${link}">semi-detached properties with shared or party gutter runs</a>, the vacuum system completes the full job from your side of the boundary without any need to cross next door.</p>
   </div>
 
-  <div style="background: #f0fdf8; border: 1px solid #0E7F5A; border-radius: 10px; padding: 1.25rem 1.4rem;">
+  <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
     <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.05rem;">🏗️ Four-Storey Reach Without Scaffolding</h3>
     <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">The SkyVac Industrial system reaches up to 13 m (four storeys), covering blocks of flats, large detached houses, and light-commercial premises that would otherwise require a mobile elevated work platform or scaffold tower. This keeps costs down and scheduling simple. See our full <a href="/gutter-cleaning" style="${link}">Birmingham gutter cleaning service</a> for details on property types we cover.</p>
   </div>
@@ -341,7 +341,7 @@ ${ctaBox}
   <li><a href="/blog/birmingham-gutter-inspection/" style="${link}">How a Gutter Inspection Can Save You Money in Birmingham</a></li>
 </ul>
 
-<div style="background: #f0fdf8; border: 1px solid #0E7F5A; border-radius: 10px; padding: 1.5rem; margin: 2.5rem 0;">
+<div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.5rem; margin: 2.5rem 0;">
   <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.15rem;">📞 Book Your Gutter Vacuum Clean Today</h3>
   <p style="margin: 0 0 0.75rem; color: #374151;">WOW Gutters Ltd – Birmingham &amp; the West Midlands</p>
   <p style="margin: 0; color: #374151;"><strong>Phone:</strong> <a href="tel:07421433910" style="${link}">07421 433910</a><br/>

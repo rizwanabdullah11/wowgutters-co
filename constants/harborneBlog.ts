@@ -45,7 +45,7 @@ export const harborneBlogPost: BlogPost = {
 
 <p>This is what professional gutter cleaning looks like in Harborne.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>🏡 Own a period property in Harborne or B17?</strong><br/>
   We're taking bookings in the area this week. Free quote, no obligation.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call 07421 433910</a> — or <a href="/quote/" style="${link}">request a quote online</a>.
@@ -91,7 +91,7 @@ export const harborneBlogPost: BlogPost = {
   <li><strong>Roof structure risk from back-flow</strong> — blocked runs can lift tile edges and saturate roofing felt on original clay tile roofs.</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>🔔 Prevention costs a fraction of what repairs do.</strong><br/>
   If you haven't had your Harborne property's gutters cleaned this year, now is the right time to act.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call WOW Gutters Ltd: 07421 433910</a> — free, no-obligation quote.

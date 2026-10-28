@@ -54,7 +54,7 @@ export const blockedGuttersBirminghamBlogPost: BlogPost = {
 
 <p>This post explains exactly what happens to a Birmingham property when a blocked gutter is left unaddressed — stage by stage, consequence by consequence — so you can make an informed decision about whether waiting is actually the lower-risk option you may have assumed it is.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>⚡ Already know yours needs sorting?</strong><br/>
   Skip straight to the bottom and call us.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> — free quote, same-week availability across Birmingham and the West Midlands.
@@ -129,7 +129,7 @@ export const blockedGuttersBirminghamBlogPost: BlogPost = {
 
 <p><strong>Risk level:</strong> Medium-high — the damage is now structural rather than cosmetic. Cleaning the gutters at this stage stops further deterioration but does not undo what has already occurred.</p>
 
-<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>🛑 If your property is at Stage 3 or beyond — every week adds to the repair bill.</strong><br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call us now: 07421 433910</a><br/>
   We cover all of Birmingham and the West Midlands. Same-week bookings available.
