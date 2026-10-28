@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { colors } from '@/constants/colors';
 import { blogPosts } from '@/constants/blogData';
 import { ArrowRight } from 'lucide-react';
+import { blogThumb } from '@/lib/blogThumb';
 
 export default function BlogSection() {
   const featuredPost = blogPosts
@@ -14,7 +15,7 @@ export default function BlogSection() {
   const topBlogPosts = otherPosts.slice(0, 3);
   const bottomBlogPosts = otherPosts.slice(3, 6);
 
-  const ACCENTS = ['#3B82F6', '#19C58B', '#F97316'];
+  const ACCENTS = ['#1D4ED8', '#047857', '#C2410C'];
 
   return (
     <section className="py-20" style={{ backgroundColor: colors.lightGray }}>
@@ -23,7 +24,7 @@ export default function BlogSection() {
         {/* Eyebrow */}
         <div className="flex items-center justify-center gap-3 mb-5">
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
-          <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primary }}>
+          <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primaryText }}>
             From Our Blog
           </span>
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
@@ -58,7 +59,7 @@ export default function BlogSection() {
               className="w-full lg:w-1/3 h-72 object-cover"
             />
             <div className="p-6 flex flex-col justify-center flex-1">
-              <p className="text-[10px] font-bold tracking-widest uppercase mb-2" style={{ color: colors.primary }}>
+              <p className="text-[10px] font-bold tracking-widest uppercase mb-2" style={{ color: colors.primaryText }}>
                 FEATURED POST
               </p>
               <h3 className="text-xl sm:text-2xl font-black mb-2" style={{ color: colors.text }}>
@@ -83,7 +84,7 @@ export default function BlogSection() {
                 style={{ borderTop: `3px solid ${ACCENTS[index]}` }}
               >
                 <img
-                  src={post.image}
+                  src={blogThumb(post.image)}
                   alt={post.title}
                   width={640}
                   height={224}
@@ -119,7 +120,7 @@ export default function BlogSection() {
                 style={{ borderTop: `3px solid ${ACCENTS[index]}` }}
               >
                 <img
-                  src={post.image}
+                  src={blogThumb(post.image)}
                   alt={post.title}
                   width={640}
                   height={224}

@@ -44,7 +44,7 @@ export const GUTTER_SERVICE_META: AreaServiceMeta = {
     'Can you repair leaking or damaged gutters?',
     'Could I get a fast quote for my home?',
   ],
-  priceGuideHref: '/pricing/',
+  priceGuideHref: '/gutter-cleaning-prices/',
   servicePageHref: '/services/gutter-cleaning/',
   schemaHubHref: 'https://wowgutters.co.uk/gutter-cleaning/',
   schemaHubLabel: 'Gutter Cleaning',

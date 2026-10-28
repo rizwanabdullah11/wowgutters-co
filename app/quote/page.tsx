@@ -27,13 +27,13 @@ import {
 const trustStats = [
   { icon: Shield, title: 'Always Free', desc: 'Quotes cost you nothing — ever' },
   { icon: Clock, title: 'Same-Day Book', desc: 'Fast West Midlands response' },
-  { icon: Users, title: '100+ Homes', desc: 'Verified local customers' },
-  { icon: Award, title: 'Top Rated', desc: 'Google rated 5.0★ specialists' },
+  { icon: Users, title: 'Local Homes', desc: 'Birmingham & West Midlands customers' },
+  { icon: Award, title: 'Top Rated', desc: 'Rated 4.9★ on Google' },
 ];
 
 const whyChooseUs = [
   { icon: Shield, title: 'Insured & Fully Covered', desc: 'Full public liability insurance included — your home is always protected.' },
-  { icon: Award, title: 'Loved by Local Homeowners', desc: 'Verified 5-star ratings across Birmingham & the West Midlands.' },
+  { icon: Award, title: 'Loved by Local Homeowners', desc: 'Highly rated on Google across Birmingham & the West Midlands.' },
   { icon: Zap, title: 'We Move Fast', desc: 'Same-day booking available — we work around your schedule.' },
   { icon: CheckCircle, title: 'Fully Insured & Tested', desc: 'Every service backed by £10m cover and full water flow testing.' },
 ];
@@ -381,7 +381,7 @@ export default function QuotePage() {
                 </div>
                 <div className="absolute bottom-8 right-8">
                   <div className="bg-white rounded-2xl shadow-xl px-4 py-3 flex items-center gap-2">
-                    <span className="text-sm font-bold text-gray-900">Google 5.0★ Rated</span>
+                    <span className="text-sm font-bold text-gray-900">Google 4.9★ Rated</span>
                   </div>
                 </div>
               </div>

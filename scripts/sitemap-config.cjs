@@ -20,6 +20,8 @@ const EXCLUDED_PATHS = new Set([
   // Day-1 consolidation: redirected / removed keyword pages
   ...Object.keys(KEYWORD_REDIRECTS.redirects).map((slug) => `/${slug}/`),
   ...Object.keys(KEYWORD_REDIRECTS.staticPages).map((slug) => `/${slug}/`),
+  // Old paths / duplicates that now 301 (scripts/legacy-path-redirects.json)
+  ...Object.keys(require('./legacy-path-redirects.json')).map((slug) => `/${slug}/`),
   '/contact-us/',
   '/about-us/',
   '/gutters-cleaning/',

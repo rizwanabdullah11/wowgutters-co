@@ -12,6 +12,7 @@ export default function HomepageSchema() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
+    "@id": businessId,
     "name": "WOW Gutters Ltd",
     "telephone": "+447421433910",
     "email": "support@wowgutters.co.uk",

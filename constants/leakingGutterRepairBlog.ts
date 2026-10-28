@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/gutter-repair-blog/gutter-repair-blog-after.jpg';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaTop = `
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
@@ -92,7 +92,7 @@ ${ctaTop}
 
 <p>A leak genuinely suits repair rather than replacement when it's isolated to a single joint or a small section, the surrounding material — whether UPVC or cast iron — remains structurally sound, and the leak has a clear, identifiable, single cause rather than being one symptom among several appearing simultaneously across the run.</p>
 
-<p>A single joint seal that's failed on an otherwise straight, well-supported gutter run, where the brackets on either side are genuinely secure and the fall angle is correct, is a textbook repair case. Resealing or replacing that one joint, following the same structural assessment principles detailed throughout our comprehensive walkthrough of <a href="/blog/what-happens-during-professional-gutter-clean-birmingham-walkthrough" style="${link}">what happens during a professional gutter clean</a>, genuinely resolves the leak for a meaningful further period without requiring any wider intervention.</p>
+<p>A single joint seal that's failed on an otherwise straight, well-supported gutter run, where the brackets on either side are genuinely secure and the fall angle is correct, is a textbook repair case. Resealing or replacing that one joint, following the same structural assessment principles detailed throughout our comprehensive walkthrough of <a href="/blog/professional-gutter-walkthrough/" style="${link}">what happens during a professional gutter clean</a>, genuinely resolves the leak for a meaningful further period without requiring any wider intervention.</p>
 
 <p>A small crack in an otherwise sound UPVC section, caused by a single identifiable impact rather than general age-related brittleness, similarly suits a targeted repair — replacing that specific length rather than the full run, provided the surrounding sections show no comparable wear.</p>
 
@@ -100,7 +100,7 @@ ${ctaTop}
 
 <p>A leak genuinely warrants full or substantial section replacement, rather than a repair, when multiple joints along the same run are showing comparable wear simultaneously, the gutter material itself has become brittle, corroded, or structurally compromised beyond the specific leaking point, or the fall angle is incorrect across a meaningful length rather than at one isolated bracket.</p>
 
-<p>As detailed extensively throughout our guidance on <a href="/blog/victorian-homes-birmingham-different-gutter-cleaning-approach" style="${link}">why Victorian homes need a genuinely different gutter cleaning approach</a>, cast iron systems that have reached the end of their genuine service life frequently show this pattern — several joints along the same run failing within a similar timeframe, because they were all installed or last resealed at the same point decades ago and have simply reached the same age-related limit together. Resealing one joint on a system in this condition genuinely buys very little time before the next joint along the same run fails in turn.</p>
+<p>As detailed extensively throughout our guidance on <a href="/blog/victorian-gutter-cleaning-birmingham/" style="${link}">why Victorian homes need a genuinely different gutter cleaning approach</a>, cast iron systems that have reached the end of their genuine service life frequently show this pattern — several joints along the same run failing within a similar timeframe, because they were all installed or last resealed at the same point decades ago and have simply reached the same age-related limit together. Resealing one joint on a system in this condition genuinely buys very little time before the next joint along the same run fails in turn.</p>
 
 <p>UPVC that's become genuinely brittle from prolonged UV exposure, showing visible discolouration and cracking at multiple points rather than a single impact site, similarly indicates the material itself has reached the end of its useful life, making individual section repair a genuinely short-term measure compared with addressing the whole run.</p>
 
@@ -116,9 +116,9 @@ ${ctaTop}
 
 <p>Joint leaks, the most common category, usually respond well to repair provided the surrounding sections are sound, as described above.</p>
 
-<p>Leaks at bracket fixing points, where water is tracking down behind the fascia rather than dripping visibly from the gutter's front edge, connect directly to the fascia moisture exposure described extensively throughout our guidance on <a href="/blog/professional-gutter-cleaning-extends-roofline-life" style="${link}">how professional gutter cleaning extends the life of a property's roofline</a>. This type of leak genuinely warrants closer inspection of the bracket and fascia condition specifically, since the leak itself may be a symptom of bracket movement rather than simply a joint seal issue, and a joint reseal alone won't address a bracket that's genuinely losing its grip.</p>
+<p>Leaks at bracket fixing points, where water is tracking down behind the fascia rather than dripping visibly from the gutter's front edge, connect directly to the fascia moisture exposure described extensively throughout our guidance on <a href="/blog/roofline-damage-prevention/" style="${link}">how professional gutter cleaning extends the life of a property's roofline</a>. This type of leak genuinely warrants closer inspection of the bracket and fascia condition specifically, since the leak itself may be a symptom of bracket movement rather than simply a joint seal issue, and a joint reseal alone won't address a bracket that's genuinely losing its grip.</p>
 
-<p>Overflow that looks like a leak, where water is escaping over the gutter's front lip rather than through any actual defect in the material, is a genuinely different problem entirely, frequently caused by the silt accumulation or incorrect fall angle covered throughout our dedicated guide on <a href="/blog/stop-gutters-blocking" style="${link}">how to genuinely stop gutters from blocking again</a> (as well as issues highlighted in our guide on <a href="/blog/downpipes-blocked-again-birmingham-fix-homeowners-miss" style="${link}">blocked downpipes and the fix homeowners miss</a>), rather than any material failure requiring repair or replacement at all.</p>
+<p>Overflow that looks like a leak, where water is escaping over the gutter's front lip rather than through any actual defect in the material, is a genuinely different problem entirely, frequently caused by the silt accumulation or incorrect fall angle covered throughout our dedicated guide on <a href="/blog/stop-gutters-blocking" style="${link}">how to genuinely stop gutters from blocking again</a> (as well as issues highlighted in our guide on <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">blocked downpipes and the fix homeowners miss</a>), rather than any material failure requiring repair or replacement at all.</p>
 
 <h2 id="cast-iron-vs-upvc" style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin-top: 40px;">Cast Iron Versus UPVC: Different Rules Entirely</h2>
 
@@ -141,7 +141,7 @@ ${ctaTop}
 
 <h2 id="why-fixing-wrong-thing-wastes-money" style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin-top: 40px;">Why Fixing the Wrong Thing Wastes Money Twice</h2>
 
-<p>Repairing a joint on a system that genuinely needed wider replacement doesn't just fail to solve the problem — it adds the cost of that repair on top of the eventual replacement cost that was always coming, once the next joint along the same run inevitably fails in turn. As explained throughout our guidance on <a href="/blog/one-question-before-hiring-gutter-cleaner-west-midlands" style="${link}">the one question worth asking before hiring any gutter cleaner across the West Midlands</a>, a contractor who genuinely assesses the whole run before recommending a fix, rather than resealing whatever's visibly leaking and moving on, gives you a considerably more reliable basis for this specific decision.</p>
+<p>Repairing a joint on a system that genuinely needed wider replacement doesn't just fail to solve the problem — it adds the cost of that repair on top of the eventual replacement cost that was always coming, once the next joint along the same run inevitably fails in turn. As explained throughout our guidance on <a href="/blog/ask-before-hiring-gutter-cleaner/" style="${link}">the one question worth asking before hiring any gutter cleaner across the West Midlands</a>, a contractor who genuinely assesses the whole run before recommending a fix, rather than resealing whatever's visibly leaking and moving on, gives you a considerably more reliable basis for this specific decision.</p>
 
 <p>Equally, replacing a full run when a single joint repair would genuinely have held represents unnecessary cost in the other direction — which is precisely why the proper assessment described above matters regardless of which direction your specific situation points toward.</p>
 
@@ -227,15 +227,15 @@ ${ctaBox}
 <h2 id="related-articles" style="font-size: 1.4rem; font-weight: 800; color: #0f172a; margin-top: 40px;">Related Articles</h2>
 <ul>
   <li><strong><a href="/blog/hidden-gutter-damage-easier-spot-summer" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a></strong></li>
-  <li><strong><a href="/blog/professional-gutter-cleaning-extends-roofline-life" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></strong></li>
-  <li><strong><a href="/blog/victorian-homes-birmingham-different-gutter-cleaning-approach" style="${link}">Why Victorian Homes in Birmingham Need a Different Gutter Cleaning Approach</a></strong></li>
-  <li><strong><a href="/blog/what-happens-during-professional-gutter-clean-birmingham-walkthrough" style="${link}">What Happens During a Professional Gutter Clean?</a></strong></li>
+  <li><strong><a href="/blog/roofline-damage-prevention/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></strong></li>
+  <li><strong><a href="/blog/victorian-gutter-cleaning-birmingham/" style="${link}">Why Victorian Homes in Birmingham Need a Different Gutter Cleaning Approach</a></strong></li>
+  <li><strong><a href="/blog/professional-gutter-walkthrough/" style="${link}">What Happens During a Professional Gutter Clean?</a></strong></li>
   <li><strong><a href="/blog/stop-gutters-blocking" style="${link}">How Do You Stop Gutters From Blocking Again?</a></strong></li>
   <li><strong><a href="/blog/can-blocked-gutters-cause-damp" style="${link}">Can Blocked Gutters Cause Damp?</a></strong></li>
-  <li><strong><a href="/blog/one-question-before-hiring-gutter-cleaner-west-midlands" style="${link}">The One Question to Ask Before Hiring Any Gutter Cleaner in the West Midlands</a></strong></li>
+  <li><strong><a href="/blog/ask-before-hiring-gutter-cleaner/" style="${link}">The One Question to Ask Before Hiring Any Gutter Cleaner in the West Midlands</a></strong></li>
   <li><strong><a href="/blog/how-clean-gutters-without-ladder-birmingham-method" style="${link}">How Do You Clean Gutters Without a Ladder?</a></strong></li>
   <li><strong><a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham" style="${link}">Gutter Cleaning for Semi-Detached Homes</a></strong></li>
-  <li><strong><a href="/blog/downpipes-blocked-again-birmingham-fix-homeowners-miss" style="${link}">Downpipes Blocked Again? The Birmingham Fix Most Homeowners Miss</a></strong></li>
+  <li><strong><a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">Downpipes Blocked Again? The Birmingham Fix Most Homeowners Miss</a></strong></li>
 </ul>
   `,
 };

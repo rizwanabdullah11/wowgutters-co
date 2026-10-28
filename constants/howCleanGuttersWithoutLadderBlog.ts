@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/can-gutter-cleaning/can-gutter-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaTop = `
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
@@ -27,7 +27,7 @@ const ctaBox = `
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week availability across Birmingham</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -138,7 +138,7 @@ ${ctaTop}
 
 <p>Semi-detached properties with shared boundary sections, as detailed extensively throughout our dedicated guidance on <a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham/" style="${link}">the shared boundary issue affecting Birmingham semi-detached homes</a>, require the operator to work carefully and deliberately across the party wall junction specifically, often repositioning to address both properties' respective access points if a coordinated joint visit has genuinely been arranged between neighbouring households.</p>
 
-<p>Complex rooflines featuring corners and valleys, where debris genuinely concentrates considerably more heavily due to the wind-turbulence effects detailed throughout our guidance on <a href="/blog/wind-direction-debris-buildup-birmingham-gutters/" style="${link}">how wind direction affects debris build-up across Birmingham gutters</a>, require noticeably more careful, deliberate pole positioning at each specific junction point rather than a single sweeping pass along the run, given how genuinely concentrated accumulation tends to be at exactly these specific structural features compared with straight, open gutter sections.</p>
+<p>Complex rooflines featuring corners and valleys, where debris genuinely concentrates considerably more heavily due to the wind-turbulence effects detailed throughout our guidance on <a href="/blog/wind-debris-gutters/" style="${link}">how wind direction affects debris build-up across Birmingham gutters</a>, require noticeably more careful, deliberate pole positioning at each specific junction point rather than a single sweeping pass along the run, given how genuinely concentrated accumulation tends to be at exactly these specific structural features compared with straight, open gutter sections.</p>
 
 <p>Severe accumulation cases, of the kind documented in genuinely extreme form throughout our <a href="/blog/warehouse-gutter-case-study/" style="${link}">warehouse box gutter case study where compacted silt had progressed to the point of supporting actively rooted grass and wheat growth</a>, sometimes exceed what vacuum extraction alone can realistically achieve, requiring supplementary manual extraction specifically for rooted vegetation before the vacuum system can complete the remaining clearance — though this represents a genuinely rare exception encountered primarily on severely neglected commercial properties, rather than the norm for typical residential and standard commercial jobs across the region.</p>
 
@@ -251,7 +251,7 @@ ${ctaBox}
   <li><a href="/blog/hidden-gutter-damage-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a></li>
   <li><a href="/blog/summer-gutter-inspections/" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a></li>
   <li><a href="/blog/early-gutter-signs-birmingham/" style="${link}">Early Signs of Blocked Gutters in Birmingham</a></li>
-  <li><a href="/blog/wind-direction-debris-buildup-birmingham-gutters/" style="${link}">How Wind Direction Affects Debris Build-Up in Birmingham Gutters</a></li>
+  <li><a href="/blog/wind-debris-gutters/" style="${link}">How Wind Direction Affects Debris Build-Up in Birmingham Gutters</a></li>
   <li><a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham/" style="${link}">Gutter Cleaning for Semi-Detached Homes: The Shared Boundary Issue</a></li>
   <li><a href="/blog/warehouse-gutter-case-study/" style="${link}">Warehouse Gutter Clearing: When Grass Is Growing in Your Box Gutter</a></li>
   <li><a href="/blog/commercial-warehouse-gutter-clearing-birmingham/" style="${link}">Commercial Warehouse Gutter Clearing Birmingham</a></li>

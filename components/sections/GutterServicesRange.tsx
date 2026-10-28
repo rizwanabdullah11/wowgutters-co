@@ -5,7 +5,8 @@ import { colors } from '@/constants/colors';
 import { ArrowRight } from 'lucide-react';
 import { useState } from 'react';
 
-const ACCENTS = ['#3B82F6', '#19C58B', '#F97316', '#8B5CF6', '#19C58B', '#3B82F6'];
+// Darker shades so white button text and small accent text pass WCAG AA contrast (Oct 2026 audit).
+const ACCENTS = ['#1D4ED8', '#047857', '#C2410C', '#6D28D9', '#047857', '#1D4ED8'];
 
 const gutterServices = [
   {
@@ -17,7 +18,7 @@ const gutterServices = [
       features: ['High-reach vacuum system', 'Debris removal included', 'Downpipe checks', 'Flexible appointments'],
       price: 'From £100'
     },
-    image: '/gutter-cleaning.webp',
+    image: '/gutter-cleaning-card.webp',
     link: '/services/gutter-cleaning/',
   },
   {
@@ -29,7 +30,7 @@ const gutterServices = [
       features: ['Soft washing technique', 'Moss treatment', 'Tile protection', 'Long-lasting results'],
       price: 'From £150'
     },
-    image: '/roof-cleaning.JPG',
+    image: '/roof-cleaning-card.webp',
     link: '/services/roof-cleaning/',
   },
   {
@@ -41,7 +42,7 @@ const gutterServices = [
       features: ['Purified water system', 'Streak-free finish', 'Fascias & soffits', 'Conservatory cleaning'],
       price: 'From £100'
     },
-    image: '/upvc-cleaning.jpg',
+    image: '/upvc-cleaning-card.webp',
     link: '/services/upvc-cleaning',
   },
   {
@@ -53,7 +54,7 @@ const gutterServices = [
       features: ['Visual inspection', 'Clear advice', 'No obligation quote', 'Expert recommendations'],
       price: 'FREE'
     },
-    image: '/gutter-inspection.webp',
+    image: '/gutter-inspection-card.webp',
     link: '/services/gutter-inspection/',
   },
   {
@@ -65,7 +66,7 @@ const gutterServices = [
       features: ['Water flow tested', 'Same-day repairs', 'Quality materials', 'Leak-proof joints'],
       price: 'From £100'
     },
-    image: '/gutter-repair.webp',
+    image: '/gutter-repair-card.webp',
     link: '/services/gutter-repairs/',
   },
   {
@@ -77,7 +78,7 @@ const gutterServices = [
       features: ['Quality uPVC systems', 'Professional fitting', 'British standard uPVC', 'Custom measurements'],
       price: 'From £300'
     },
-    image: '/gutter-installation.webp',
+    image: '/gutter-installation-card.webp',
     link: '/services/gutter-installation/',
   },
 ];
@@ -107,7 +108,7 @@ export default function GutterServicesRange() {
         {/* Eyebrow */}
         <div className="flex items-center justify-center gap-3 mb-5">
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
-          <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primary }}>
+          <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primaryText }}>
           Our Services
           </span>
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
@@ -118,11 +119,11 @@ export default function GutterServicesRange() {
         </h2>
         <p className="text-center text-base sm:text-lg mb-12 max-w-2xl mx-auto" style={{ color: colors.textLight }}>
           From gutter cleaning and repairs to roof care and exterior uPVC cleaning — browse our{' '}
-          <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+          <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
             full services
           </Link>
           , or see our dedicated{' '}
-          <Link href="/gutter-cleaning-birmingham/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+          <Link href="/gutter-cleaning-birmingham/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
             Birmingham gutter cleaning page
           </Link>
           .
@@ -166,8 +167,8 @@ export default function GutterServicesRange() {
                       <img
                         src={service.image}
                         alt={service.title}
-                        width={640}
-                        height={224}
+                        width={720}
+                        height={420}
                         loading="lazy"
                         decoding="async"
                         className="w-full h-56 object-cover"

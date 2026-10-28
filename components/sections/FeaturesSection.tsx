@@ -8,7 +8,7 @@ const topFeatures = [
     subtitle: 'ALL SERVICES',
     description:
       'Gutter cleaning, repairs, inspections, roof cleaning and uPVC care — one trusted team for your whole exterior.',
-    accent: '#3B82F6',
+    accent: '#1D4ED8',
   },
   {
     icon: <ArrowUp className="w-5 h-5" />,
@@ -16,7 +16,7 @@ const topFeatures = [
     subtitle: 'NO LADDERS NEEDED',
     description:
       'Our high-reach equipment lets us work safely from the ground on most properties across Birmingham and the West Midlands.',
-    accent: '#19C58B',
+    accent: '#047857',
   },
   {
     icon: <Home className="w-5 h-5" />,
@@ -24,7 +24,7 @@ const topFeatures = [
     subtitle: 'AWKWARD ROOFLINES',
     description:
       'We use specialist tools for conservatories, porches and higher gutter lines without unnecessary disruption.',
-    accent: '#F97316',
+    accent: '#C2410C',
   },
 ];
 
@@ -35,7 +35,7 @@ const bottomFeatures = [
     subtitle: 'NO SURPRISES',
     description:
       'Straightforward quotes designed to keep professional gutter care affordable and worthwhile.',
-    accent: '#8B5CF6',
+    accent: '#6D28D9',
   },
   {
     icon: <UserCheck className="w-5 h-5" />,
@@ -43,7 +43,7 @@ const bottomFeatures = [
     subtitle: 'PEACE OF MIND',
     description:
       'Every technician works with care, experience and insurance for extra peace of mind.',
-    accent: '#19C58B',
+    accent: '#047857',
   },
   {
     icon: <Sparkles className="w-5 h-5" />,
@@ -51,7 +51,7 @@ const bottomFeatures = [
     subtitle: 'NO CLEANUP NEEDED',
     description:
       'Debris is collected directly into our vacuum system, leaving your pathways and garden clean after every visit.',
-    accent: '#3B82F6',
+    accent: '#1D4ED8',
   },
 ];
 
@@ -107,7 +107,7 @@ export default function FeaturesSection() {
         {/* Eyebrow */}
         <div className="flex items-center justify-center gap-3 mb-5">
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
-          <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primary }}>
+          <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primaryText }}>
             Why WOW Gutters Ltd
           </span>
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />

@@ -38,7 +38,7 @@ const FRESH_SERVICE_ROUTES = new Set([
   '/windows-cleaning',
   '/services/hot-wash-cleaning',
   '/the-gutter-gallery',
-  '/pricing',
+  '/gutter-cleaning-prices',
   '/about',
   '/contact',
   '/quote',
@@ -80,13 +80,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/citations',
     '/contact',
     '/services',
-    '/pricing',
     '/reviews',
     '/blog',
     '/help',
     '/roof-cleaning-service-areas',
     '/gutter-cleaning-service-areas',
-    '/service-areas',
+    '/gutter-repair-service-areas',
+    '/gutter-guides',
     '/latest-news',
     '/the-gutter-gallery',
     '/gutter-cleaning-calculator',
@@ -113,8 +113,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     
     if (route === '') priority = 1;
     else if (route === '/contact' || route === '/quote') priority = 0.95;
-    else if (route === '/services' || route === '/pricing') priority = 0.9;
-    else if (route === '/roof-cleaning-service-areas' || route === '/gutter-cleaning-service-areas') {
+    else if (route === '/services' || route === '/gutter-cleaning-prices') priority = 0.9;
+    else if (route === '/roof-cleaning-service-areas' || route === '/gutter-cleaning-service-areas' || route === '/gutter-repair-service-areas') {
       priority = 0.75;
       changeFreq = 'weekly';
     }

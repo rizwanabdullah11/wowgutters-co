@@ -213,37 +213,37 @@ export default function AreaServicesHub({
 
         <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm font-bold">
           <Link
-            href="/pricing/"
+            href="/gutter-cleaning-prices/"
             className="underline"
-            style={{ color: colors.primary }}
+            style={{ color: colors.primaryText }}
           >
             Gutter cleaning prices
           </Link>
           <Link
             href="/blog/"
             className="underline"
-            style={{ color: colors.primary }}
+            style={{ color: colors.primaryText }}
           >
             Latest gutter & roof tips
           </Link>
           <Link
             href="/help/"
             className="underline"
-            style={{ color: colors.primary }}
+            style={{ color: colors.primaryText }}
           >
             Help Centre
           </Link>
           <Link
             href="/contact/"
             className="underline"
-            style={{ color: colors.primary }}
+            style={{ color: colors.primaryText }}
           >
             Contact WOW Gutters
           </Link>
           <Link
             href="/quote/"
             className="underline"
-            style={{ color: colors.primary }}
+            style={{ color: colors.primaryText }}
           >
             Get a free {meta.labelLower} quote
           </Link>

@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/professional-gutter-clean/professional-gutter-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaTop = `
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
@@ -34,7 +34,7 @@ const ctaBox = `
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week availability across Birmingham</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -207,7 +207,7 @@ ${ctaMid}
 
 <p>Victorian and Edwardian terraces across Bournville, Selly Oak, Handsworth, and Sparkhill frequently carry original or early-replacement cast iron gutter systems, which receive particular attention during Stage Four given how commonly these older systems carry joint seals that have exceeded their intended service life. The structural assessment on properties of this type often identifies more findings than on newer housing stock, simply reflecting the age and material of the system involved rather than any difference in maintenance quality.</p>
 
-<p>Commercial and warehouse sites follow a broadly similar overall structure but at considerably greater scale — extended time on site, often multiple operatives working systematically across a much longer gutter run, and in cases of severe longstanding accumulation, manual extraction methods that go beyond what standard vacuum extraction alone can achieve. See our <a href="/blog/warehouse-gutter-case-study/" style="${link}">warehouse box gutter case study</a> for a documented example. Our <a href="/commercial/" style="${link}">commercial gutter cleaning service</a> covers these larger sites across the region.</p>
+<p>Commercial and warehouse sites follow a broadly similar overall structure but at considerably greater scale — extended time on site, often multiple operatives working systematically across a much longer gutter run, and in cases of severe longstanding accumulation, manual extraction methods that go beyond what standard vacuum extraction alone can achieve. See our <a href="/blog/warehouse-gutter-case-study/" style="${link}">warehouse box gutter case study</a> for a documented example. Our <a href="/services/commercial-gutter-cleaning/" style="${link}">commercial gutter cleaning service</a> covers these larger sites across the region.</p>
 
 <h2 id="peace-of-mind">What This Means for Your Peace of Mind</h2>
 
@@ -288,7 +288,7 @@ ${ctaBox}
   <li><a href="/services/gutter-cleaning/" style="${link}">Downpipe Unblocking</a></li>
   <li><a href="/services/upvc-cleaning/" style="${link}">Fascia and Soffit Cleaning</a></li>
   <li><a href="/services/roof-cleaning/" style="${link}">Roof Cleaning and Moss Removal</a></li>
-  <li><a href="/commercial/" style="${link}">Commercial Gutter Cleaning</a></li>
+  <li><a href="/services/commercial-gutter-cleaning/" style="${link}">Commercial Gutter Cleaning</a></li>
   <li><a href="/blog/warehouse-gutter-clearing/" style="${link}">Commercial Warehouse Gutter Clearing Birmingham</a></li>
   <li><a href="/blog/warehouse-gutter-case-study/" style="${link}">Warehouse Gutter Clearing Box Gutter Case Study</a></li>
 </ul>

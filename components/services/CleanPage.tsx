@@ -175,7 +175,7 @@ export default function CleanPage() {
                   'Improves your home\'s curb appeal and value',
                   'Extends the life of your roofing materials',
                   'Prevents blocked gutters from debris',
-                  'Maintains warranty on roofing materials',
+                  'Protects roofing materials from moss damage',
                   'Creates a healthier environment around your home'
                 ].map((benefit, index) => (
                   <div key={index} className="flex items-center gap-3">

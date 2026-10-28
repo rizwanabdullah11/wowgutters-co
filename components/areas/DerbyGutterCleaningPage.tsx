@@ -3,7 +3,6 @@ import HeroVideo from '@/components/media/HeroVideo';
 import type { LucideIcon } from 'lucide-react';
 import { ShieldCheck, Phone, Check, Building2, Home, Warehouse, Cable, Images, Shield } from 'lucide-react';
 import { colors } from '@/constants/colors';
-import { areaPath } from '@/lib/areaSlugs';
 import AreaServicesRange from '@/components/areas/AreaServicesRange';
 import DerbyFAQ from '@/components/areas/DerbyFAQ';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
@@ -403,20 +402,20 @@ export default function DerbyGutterCleaningPage() {
           </h2>
           <p className="text-center text-slate-600 max-w-2xl mx-auto mb-10">
             We cover Derby city and all surrounding towns. Pick a town below. Not listed? Call us on{' '}
-            <a href="tel:07421433910" className="font-semibold underline" style={{ color: colors.primary }}>
+            <a href="tel:07421433910" className="font-semibold underline" style={{ color: colors.primaryText }}>
               07421 433910
             </a>
             .
           </p>
           <div className="flex flex-wrap justify-center gap-3">
+            {/* Plain labels — these towns have no pages (were broken links, Oct 2026 audit). */}
             {COVERAGE_LINKS.map(({ label, slug }) => (
-              <Link
+              <span
                 key={slug}
-                href={areaPath(slug)}
-                className="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors shadow-sm"
+                className="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm shadow-sm"
               >
                 {label}
-              </Link>
+              </span>
             ))}
           </div>
         </div>
@@ -524,7 +523,7 @@ export default function DerbyGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/commercial"
+              href="/services/commercial-gutter-cleaning/"
               className="group p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">

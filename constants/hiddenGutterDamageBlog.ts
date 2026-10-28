@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/moss-removal-gutter/moss-removal-gutter-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
@@ -19,14 +19,14 @@ const ctaBox = `
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-week availability</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
 const sectionCta = `
 <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; margin: 32px 0; text-align: center;">
   <p style="font-size: 1.1rem; font-weight: 700; color: #0f172a; margin: 0 0 8px 0;">WOW Gutters Ltd — Birmingham's gutter specialists</p>
-  <a href="tel:07421433910" style="color: #19C58B; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
+  <a href="tel:07421433910" style="color: #047857; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
 </div>`;
 
 export const hiddenGutterDamageBlogPost: BlogPost = {
@@ -327,8 +327,8 @@ ${sectionCta}
   <li><strong>Written condition summary</strong> — every hidden defect found is documented in plain English with the photograph evidence, so you know exactly what was found, what was addressed, and what requires follow-up attention while lead time and conditions allow.</li>
 </ul>
 
-<p><strong>Book your summer inspection: <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a></strong><br/>
-<strong>Email: <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">support@wowgutters.co.uk</a></strong></p>
+<p><strong>Book your summer inspection: <a href="tel:07421433910" style="font-weight: 700; color: #047857; text-decoration: none;">07421 433910</a></strong><br/>
+<strong>Email: <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">support@wowgutters.co.uk</a></strong></p>
 
 ${ctaBox}
 
@@ -392,7 +392,7 @@ ${ctaBox}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Yes — because autumn cleans and summer inspections serve different purposes. An autumn clean removes what is visible — the leaf fall and surface debris. A summer inspection finds what wet autumn conditions were concealing behind and beneath it — the structural defects that autumn rain then tests to failure. The two visits are complementary, not interchangeable. <a href="/blog/preparing-gutters-summer-seasons-ahead" style="${link}">Full guide: Preparing Your Gutters During Summer for the Seasons Ahead</a>.</p>
+      <p style="margin: 16px 0 0;">Yes — because autumn cleans and summer inspections serve different purposes. An autumn clean removes what is visible — the leaf fall and surface debris. A summer inspection finds what wet autumn conditions were concealing behind and beneath it — the structural defects that autumn rain then tests to failure. The two visits are complementary, not interchangeable. <a href="/blog/summer-gutter-preparation/" style="${link}">Full guide: Preparing Your Gutters During Summer for the Seasons Ahead</a>.</p>
     </div>
   </details>
 
@@ -412,7 +412,7 @@ ${ctaBox}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Summer inspection finds the joint failures and overflow conditions that cause fascia board moisture exposure — in dry conditions where those failures are clearly identifiable and repairable before they have damaged the fascia behind them. A fascia board that stays dry lasts decades. One repeatedly exposed to moisture from a failing joint begins to soften within a few seasons and eventually fails to hold bracket fixings securely. <a href="/blog/professional-gutter-cleaning-extends-roofline-life" style="${link}">Read more: How Professional Gutter Cleaning Extends the Life of Your Roofline</a>.</p>
+      <p style="margin: 16px 0 0;">Summer inspection finds the joint failures and overflow conditions that cause fascia board moisture exposure — in dry conditions where those failures are clearly identifiable and repairable before they have damaged the fascia behind them. A fascia board that stays dry lasts decades. One repeatedly exposed to moisture from a failing joint begins to soften within a few seasons and eventually fails to hold bracket fixings securely. <a href="/blog/roofline-damage-prevention/" style="${link}">Read more: How Professional Gutter Cleaning Extends the Life of Your Roofline</a>.</p>
     </div>
   </details>
 
@@ -422,7 +422,7 @@ ${ctaBox}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">The summer inspection in June or July is the diagnostic visit — finding structural defects and removing early-season accumulation in optimal dry conditions. The late summer clear in August or September removes the full seasonal accumulation — sycamore seeds, nesting debris, storm residue — before autumn leaf fall begins. Both have distinct and complementary value. <a href="/blog/late-summer-gutter-maintenance-prepare-for-autumn" style="${link}">Full guide: Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a>.</p>
+      <p style="margin: 16px 0 0;">The summer inspection in June or July is the diagnostic visit — finding structural defects and removing early-season accumulation in optimal dry conditions. The late summer clear in August or September removes the full seasonal accumulation — sycamore seeds, nesting debris, storm residue — before autumn leaf fall begins. Both have distinct and complementary value. <a href="/blog/summer-gutter-maintenance/" style="${link}">Full guide: Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a>.</p>
     </div>
   </details>
 
@@ -432,7 +432,7 @@ ${ctaBox}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">All Birmingham postcodes including Edgbaston, Harborne, Selly Oak, Kings Heath, Moseley, Bournville, Northfield, Erdington, Sutton Coldfield, and Castle Bromwich. Plus Solihull, Wolverhampton, Walsall, Dudley, West Bromwich, Coventry, Redditch, Bromsgrove, Worcester, Kidderminster, and all West Midlands areas. <a href="/areas-we-cover" style="${link}">Full coverage: wowgutters.co.uk/areas-we-cover</a>.</p>
+      <p style="margin: 16px 0 0;">All Birmingham postcodes including Edgbaston, Harborne, Selly Oak, Kings Heath, Moseley, Bournville, Northfield, Erdington, Sutton Coldfield, and Castle Bromwich. Plus Solihull, Wolverhampton, Walsall, Dudley, West Bromwich, Coventry, Redditch, Bromsgrove, Worcester, Kidderminster, and all West Midlands areas. <a href="/gutter-cleaning-service-areas/" style="${link}">Full coverage: wowgutters.co.uk/areas-we-cover</a>.</p>
     </div>
   </details>
 
@@ -458,28 +458,28 @@ ${ctaBox}
 
 ${ctaBox}
 
-<p><strong>Call:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a><br/>
-<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">support@wowgutters.co.uk</a><br/>
-<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">wowgutters.co.uk</a><br/>
-<strong>Free quote:</strong> <a href="/quote/" style="font-weight: 700; color: #19C58B; text-decoration: none;">wowgutters.co.uk/quote</a></p>
+<p><strong>Call:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #047857; text-decoration: none;">07421 433910</a><br/>
+<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">support@wowgutters.co.uk</a><br/>
+<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">wowgutters.co.uk</a><br/>
+<strong>Free quote:</strong> <a href="/quote/" style="font-weight: 700; color: #047857; text-decoration: none;">wowgutters.co.uk/quote</a></p>
 
 <p><em>Serving Birmingham, Solihull, Sutton Coldfield, Edgbaston, Harborne, Kings Heath, Moseley, Bournville, Erdington, Wolverhampton, Dudley, Walsall, West Bromwich, Coventry, Redditch, Bromsgrove, Worcester, Kidderminster and all West Midlands areas.</em></p>
 
 <h2>Related Articles</h2>
 
 <ul>
-  <li><a href="/blog/dry-summer-gutter-inspections" style="color: #19C58B; font-weight: 600; text-decoration: none;">How Dry Summer Weather Makes Gutter Inspections Easier</a></li>
-  <li><a href="/blog/birmingham-gutter-health-check-summer" style="color: #19C58B; font-weight: 600; text-decoration: none;">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
-  <li><a href="/blog/professional-gutter-cleaning-extends-roofline-life" style="color: #19C58B; font-weight: 600; text-decoration: none;">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
-  <li><a href="/blog/preparing-gutters-summer-seasons-ahead" style="color: #19C58B; font-weight: 600; text-decoration: none;">Preparing Your Gutters During Summer for the Seasons Ahead</a></li>
-  <li><a href="/blog/late-summer-gutter-maintenance-prepare-for-autumn" style="color: #19C58B; font-weight: 600; text-decoration: none;">Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a></li>
-  <li><a href="/blog/get-gutters-ready-before-birmingham-autumn-leaves" style="color: #19C58B; font-weight: 600; text-decoration: none;">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a></li>
-  <li><a href="/blog/birmingham-gutter-maintenance-calendar-seasonal-guide" style="color: #19C58B; font-weight: 600; text-decoration: none;">Birmingham Gutter Maintenance Calendar: What to Do Each Season</a></li>
-  <li><a href="/blog/can-blocked-gutters-cause-damp" style="color: #19C58B; font-weight: 600; text-decoration: none;">Can Blocked Gutters Cause Damp?</a></li>
-  <li><a href="/blog/how-clean-gutters-protect-your-home-year-round" style="color: #19C58B; font-weight: 600; text-decoration: none;">How Clean Gutters Help Protect Your Home Throughout the Year</a></li>
-  <li><a href="/blog/roof-cleaning-and-moss-removal-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">Roof Cleaning and Moss Removal Birmingham</a></li>
-  <li><a href="/blog/downpipe-unblocking" style="color: #19C58B; font-weight: 600; text-decoration: none;">Downpipe Unblocking</a></li>
-  <li><a href="/areas-we-cover" style="color: #19C58B; font-weight: 600; text-decoration: none;">Areas We Cover</a></li>
+  <li><a href="/blog/summer-gutter-inspections/" style="color: #047857; font-weight: 600; text-decoration: none;">How Dry Summer Weather Makes Gutter Inspections Easier</a></li>
+  <li><a href="/blog/birmingham-gutter-health-check-summer" style="color: #047857; font-weight: 600; text-decoration: none;">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
+  <li><a href="/blog/roofline-damage-prevention/" style="color: #047857; font-weight: 600; text-decoration: none;">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
+  <li><a href="/blog/summer-gutter-preparation/" style="color: #047857; font-weight: 600; text-decoration: none;">Preparing Your Gutters During Summer for the Seasons Ahead</a></li>
+  <li><a href="/blog/summer-gutter-maintenance/" style="color: #047857; font-weight: 600; text-decoration: none;">Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a></li>
+  <li><a href="/blog/birmingham-autumn-gutter-guide/" style="color: #047857; font-weight: 600; text-decoration: none;">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a></li>
+  <li><a href="/blog/birmingham-seasonal-gutter-guide/" style="color: #047857; font-weight: 600; text-decoration: none;">Birmingham Gutter Maintenance Calendar: What to Do Each Season</a></li>
+  <li><a href="/blog/can-blocked-gutters-cause-damp" style="color: #047857; font-weight: 600; text-decoration: none;">Can Blocked Gutters Cause Damp?</a></li>
+  <li><a href="/blog/year-round-gutter-protection/" style="color: #047857; font-weight: 600; text-decoration: none;">How Clean Gutters Help Protect Your Home Throughout the Year</a></li>
+  <li><a href="/blog/roof-moss-removal-birmingham/" style="color: #047857; font-weight: 600; text-decoration: none;">Roof Cleaning and Moss Removal Birmingham</a></li>
+  <li><a href="/blog/downpipe-unblocking-birmingham/" style="color: #047857; font-weight: 600; text-decoration: none;">Downpipe Unblocking</a></li>
+  <li><a href="/gutter-cleaning-service-areas/" style="color: #047857; font-weight: 600; text-decoration: none;">Areas We Cover</a></li>
 </ul>
   `,
 };

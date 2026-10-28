@@ -23,7 +23,7 @@ export const sellyOakBlogPost: BlogPost = {
 
 <p>If you live in B29 and your gutters haven't been cleaned in the last twelve months, the chances are they need attention right now — and the damage they're quietly causing is already underway.</p>
 
-<p>WOW Gutters Ltd serves <a href="/gutter-cleaning-selly-oak/" style="color: #19C58B; font-weight: 600; text-decoration: none;">Selly Oak</a> and the wider B29 postcode regularly. We know the property types, the street layouts, and the specific gutter problems this part of Birmingham produces. We use an industrial vacuum system that works entirely from the ground — no ladders propped against your property, no scaffolding, no disruption. And we send you before and after photographs of every single job.</p>
+<p>WOW Gutters Ltd serves <a href="/gutter-cleaning-selly-oak/" style="color: #047857; font-weight: 600; text-decoration: none;">Selly Oak</a> and the wider B29 postcode regularly. We know the property types, the street layouts, and the specific gutter problems this part of Birmingham produces. We use an industrial vacuum system that works entirely from the ground — no ladders propped against your property, no scaffolding, no disruption. And we send you before and after photographs of every single job.</p>
 
 <p>This page tells you everything you need to know about <strong>gutter cleaning in Selly Oak</strong> — what causes the problems here, what we do about them, and how to get a free quote today.</p>
 
@@ -35,14 +35,14 @@ export const sellyOakBlogPost: BlogPost = {
 
 <h2>Table of Contents</h2>
 <ul>
-  <li><a href="#why-vulnerable" style="color: #19C58B; text-decoration: none;">Why Selly Oak Properties Are Especially Vulnerable</a></li>
-  <li><a href="#common-issues" style="color: #19C58B; text-decoration: none;">The Most Common Gutter Issues in B29</a></li>
-  <li><a href="#how-we-clean" style="color: #19C58B; text-decoration: none;">How We Clean Gutters in Selly Oak</a></li>
-  <li><a href="#whats-included" style="color: #19C58B; text-decoration: none;">What's Included in Every Visit</a></li>
-  <li><a href="#before-after" style="color: #19C58B; text-decoration: none;">Before and After — What a Clean Makes</a></li>
-  <li><a href="#areas" style="color: #19C58B; text-decoration: none;">Areas We Cover Around Selly Oak</a></li>
-  <li><a href="#why-choose" style="color: #19C58B; text-decoration: none;">Why Homeowners in B29 Choose WOW Gutters Ltd</a></li>
-  <li><a href="#faq" style="color: #19C58B; text-decoration: none;">Frequently Asked Questions</a></li>
+  <li><a href="#why-vulnerable" style="color: #047857; text-decoration: none;">Why Selly Oak Properties Are Especially Vulnerable</a></li>
+  <li><a href="#common-issues" style="color: #047857; text-decoration: none;">The Most Common Gutter Issues in B29</a></li>
+  <li><a href="#how-we-clean" style="color: #047857; text-decoration: none;">How We Clean Gutters in Selly Oak</a></li>
+  <li><a href="#whats-included" style="color: #047857; text-decoration: none;">What's Included in Every Visit</a></li>
+  <li><a href="#before-after" style="color: #047857; text-decoration: none;">Before and After — What a Clean Makes</a></li>
+  <li><a href="#areas" style="color: #047857; text-decoration: none;">Areas We Cover Around Selly Oak</a></li>
+  <li><a href="#why-choose" style="color: #047857; text-decoration: none;">Why Homeowners in B29 Choose WOW Gutters Ltd</a></li>
+  <li><a href="#faq" style="color: #047857; text-decoration: none;">Frequently Asked Questions</a></li>
 </ul>
 
 <h2 id="why-vulnerable">Why Selly Oak Properties Are Especially Vulnerable to Gutter Problems</h2>
@@ -102,8 +102,8 @@ export const sellyOakBlogPost: BlogPost = {
   <li><strong>Leaf and silt compaction</strong> — leaves from mature trees compact through winter rainfall into a dense mat across the gutter outlet.</li>
   <li><strong>Blocked downpipes</strong> — common on terraced housing along Bristol Road South, Tiverton Road, and streets off Oak Tree Lane where a single blocked downpipe backs up the entire run.</li>
   <li><strong>Gutter overflow onto shared walls</strong> — on tightly-packed B29 terraces, overflow from one property saturates shared brickwork.</li>
-  <li><strong>Moss transfer from roof to gutter</strong> — particularly near the Bournville border on north-facing slopes. See our <a href="/help/clean" style="color: #19C58B; font-weight: 600; text-decoration: none;">roof cleaning and moss removal</a> service.</li>
-  <li><strong>Fascia board damage</strong> — repeated wetting from overflow causes paint failure and wet rot. Our <a href="/services/upvc-cleaning/" style="color: #19C58B; font-weight: 600; text-decoration: none;">fascia and soffit cleaning</a> service restores stained UPVC and timber rooflines.</li>
+  <li><strong>Moss transfer from roof to gutter</strong> — particularly near the Bournville border on north-facing slopes. See our <a href="/help/clean" style="color: #047857; font-weight: 600; text-decoration: none;">roof cleaning and moss removal</a> service.</li>
+  <li><strong>Fascia board damage</strong> — repeated wetting from overflow causes paint failure and wet rot. Our <a href="/services/upvc-cleaning/" style="color: #047857; font-weight: 600; text-decoration: none;">fascia and soffit cleaning</a> service restores stained UPVC and timber rooflines.</li>
 </ul>
 
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
@@ -112,7 +112,7 @@ export const sellyOakBlogPost: BlogPost = {
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call us now: 07421 433910</a> — we'll quote you for free and get you booked in this week.
 </blockquote>
 
-<p>Blocked gutters are one of the most common causes of unexplained damp in Birmingham homes. Read more in our guide on <a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">signs your gutters need cleaning</a> and how overflow leads to penetrating damp on Victorian brickwork.</p>
+<p>Blocked gutters are one of the most common causes of unexplained damp in Birmingham homes. Read more in our guide on <a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;">signs your gutters need cleaning</a> and how overflow leads to penetrating damp on Victorian brickwork.</p>
 
 <h2 id="how-we-clean">How We Clean Gutters in Selly Oak</h2>
 
@@ -124,7 +124,7 @@ export const sellyOakBlogPost: BlogPost = {
 <ol>
   <li><strong>Site assessment</strong> — gutter run inspected for visible damage before work begins.</li>
   <li><strong>Full channel vacuum</strong> — systematic end-to-end clearance; debris removed, not redistributed.</li>
-  <li><strong>Downpipe clearance and flush</strong> — every downpipe checked; see our <a href="/help/unblock" style="color: #19C58B; font-weight: 600; text-decoration: none;">downpipe unblocking</a> service for severe blockages.</li>
+  <li><strong>Downpipe clearance and flush</strong> — every downpipe checked; see our <a href="/help/unblock" style="color: #047857; font-weight: 600; text-decoration: none;">downpipe unblocking</a> service for severe blockages.</li>
   <li><strong>Flow test</strong> — water run through the full system before we leave.</li>
   <li><strong>Before and after photographs</strong> — same angles, sent the same day, every job.</li>
   <li><strong>Written job summary</strong> — honest reporting on gutter and fascia condition, no pressure for upsells.</li>
@@ -156,7 +156,7 @@ export const sellyOakBlogPost: BlogPost = {
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-day availability</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>
 
@@ -166,9 +166,9 @@ export const sellyOakBlogPost: BlogPost = {
 
 <p><strong>Within Selly Oak / B29:</strong> Selly Oak, Selly Park, Ten Acres, Stirchley border, Oak Tree Lane corridor, Bristol Road South, Umberslade Road, Tiverton Road, Gibbins Road, Langleys Road.</p>
 
-<p><strong>Surrounding postcodes:</strong> <a href="/gutter-cleaning-harborne/" style="color: #19C58B; font-weight: 600; text-decoration: none;">Harborne (B17)</a> · <a href="/gutter-cleaning-bournville/" style="color: #19C58B; font-weight: 600; text-decoration: none;">Bournville (B30)</a> · Kings Norton (B30/B38) · Northfield (B31) · Weoley Castle (B29) · Quinton (B32) · Bartley Green (B32) · Edgbaston (B15/B16) · Moseley (B13) · Kings Heath (B14) · Cotteridge (B30).</p>
+<p><strong>Surrounding postcodes:</strong> <a href="/gutter-cleaning-harborne/" style="color: #047857; font-weight: 600; text-decoration: none;">Harborne (B17)</a> · <a href="/gutter-cleaning-bournville/" style="color: #047857; font-weight: 600; text-decoration: none;">Bournville (B30)</a> · Kings Norton (B30/B38) · Northfield (B31) · Weoley Castle (B29) · Quinton (B32) · Bartley Green (B32) · Edgbaston (B15/B16) · Moseley (B13) · Kings Heath (B14) · Cotteridge (B30).</p>
 
-<p>Not sure if we cover your street? Call us on <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a> — if we're in your area that week, we'll fit you in.</p>
+<p>Not sure if we cover your street? Call us on <a href="tel:07421433910" style="color: #047857; font-weight: 700; text-decoration: none;">07421 433910</a> — if we're in your area that week, we'll fit you in.</p>
 
 <h2 id="why-choose">Why Homeowners in B29 Choose WOW Gutters Ltd</h2>
 
@@ -181,7 +181,7 @@ export const sellyOakBlogPost: BlogPost = {
   <li>📍 <strong>We know B29.</strong> Regular work on Selly Oak terraces, access challenges, and local moss and leaf patterns — not a national franchise.</li>
 </ul>
 
-<p>Looking for wider coverage? See our full <a href="/gutter-cleaning-birmingham/" style="color: #19C58B; font-weight: 600; text-decoration: none;">gutter cleaning in Birmingham</a> guide.</p>
+<p>Looking for wider coverage? See our full <a href="/gutter-cleaning-birmingham/" style="color: #047857; font-weight: 600; text-decoration: none;">gutter cleaning in Birmingham</a> guide.</p>
 
 <h2 id="faq">Frequently Asked Questions — Gutter Cleaning Selly Oak B29</h2>
 
@@ -295,10 +295,10 @@ export const sellyOakBlogPost: BlogPost = {
 
 <p>A professional gutter clean costs a fraction of the damage it prevents. And with WOW Gutters Ltd, you know exactly what you're getting before we arrive and have photographic proof of the result when we leave.</p>
 
-<p>📞 <strong>Call now:</strong> <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
-📧 <strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="color: #19C58B; font-weight: 600; text-decoration: none;">support@wowgutters.co.uk</a><br/>
-🌐 <strong>Online quote:</strong> <a href="/quote" style="color: #19C58B; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
-💬 <strong>WhatsApp:</strong> <a href="https://wa.me/447421433910" style="color: #19C58B; font-weight: 600; text-decoration: none;" rel="noopener">Message us on WhatsApp</a><br/>
+<p>📞 <strong>Call now:</strong> <a href="tel:07421433910" style="color: #047857; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
+📧 <strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="color: #047857; font-weight: 600; text-decoration: none;">support@wowgutters.co.uk</a><br/>
+🌐 <strong>Online quote:</strong> <a href="/quote" style="color: #047857; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
+💬 <strong>WhatsApp:</strong> <a href="https://wa.me/447421433910" style="color: #047857; font-weight: 600; text-decoration: none;" rel="noopener">Message us on WhatsApp</a><br/>
 🕐 <strong>Open 24 hours</strong> — 7 days a week</p>
 
 <p>Free quote. Before and after photos on every job.</p>
@@ -314,14 +314,14 @@ export const sellyOakBlogPost: BlogPost = {
 <h2>Related Guides</h2>
 
 <ul>
-  <li><strong><a href="/gutter-cleaning-birmingham/" style="color: #19C58B; text-decoration: none;">Gutter cleaning in Birmingham</a></strong></li>
-  <li><strong><a href="/help/clean" style="color: #19C58B; text-decoration: none;">Roof cleaning and moss removal</a></strong></li>
-  <li><strong><a href="/services/upvc-cleaning/" style="color: #19C58B; text-decoration: none;">Fascia and soffit cleaning</a></strong></li>
-  <li><strong><a href="/help/unblock" style="color: #19C58B; text-decoration: none;">Downpipe unblocking</a></strong></li>
-  <li><strong><a href="/blog/gutter-cleaning-harborne/" style="color: #19C58B; text-decoration: none;">Gutter cleaning Harborne B17</a></strong></li>
-  <li><strong><a href="/gutter-cleaning-bournville/" style="color: #19C58B; text-decoration: none;">Gutter cleaning Bournville</a></strong></li>
-  <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; text-decoration: none;">Signs your gutters need cleaning</a></strong></li>
-  <li><strong><a href="/blog/gutter-cleaning-bartley-green" style="color: #19C58B; text-decoration: none;">Gutter cleaning Bartley Green B32</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-birmingham/" style="color: #047857; text-decoration: none;">Gutter cleaning in Birmingham</a></strong></li>
+  <li><strong><a href="/help/clean" style="color: #047857; text-decoration: none;">Roof cleaning and moss removal</a></strong></li>
+  <li><strong><a href="/services/upvc-cleaning/" style="color: #047857; text-decoration: none;">Fascia and soffit cleaning</a></strong></li>
+  <li><strong><a href="/help/unblock" style="color: #047857; text-decoration: none;">Downpipe unblocking</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-harborne/" style="color: #047857; text-decoration: none;">Gutter cleaning Harborne B17</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-bournville/" style="color: #047857; text-decoration: none;">Gutter cleaning Bournville</a></strong></li>
+  <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #047857; text-decoration: none;">Signs your gutters need cleaning</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-bartley-green" style="color: #047857; text-decoration: none;">Gutter cleaning Bartley Green B32</a></strong></li>
 </ul>
   `,
 };

@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/scoffts-gutter-cleaning/scoffts-gutter-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaPhone = `
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
@@ -35,7 +35,7 @@ const ctaFinal = `
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week availability across Birmingham</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -277,11 +277,11 @@ ${ctaAutumn}
   </details>
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">What is the most expensive consequence of neglected gutters?</summary>
-    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">Rafter end rot — requiring structural timber repair rather than simple component replacement — is typically the most costly outcome of long-term gutter neglect. However, penetrating damp remediation and foundation drainage work can both exceed it depending on extent. All are preventable with regular professional maintenance. Read more: <a href="/blog/professional-gutter-cleaning-extends-roofline-life/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a>.</p></div>
+    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">Rafter end rot — requiring structural timber repair rather than simple component replacement — is typically the most costly outcome of long-term gutter neglect. However, penetrating damp remediation and foundation drainage work can both exceed it depending on extent. All are preventable with regular professional maintenance. Read more: <a href="/blog/roofline-damage-prevention/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a>.</p></div>
   </details>
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">Is summer a time when gutters need attention?</summary>
-    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">Yes — more than most homeowners realise. Sycamore seed cases, drying moss fragments, bird nesting debris, and summer storm material all accumulate through June to August. A summer health check clears this before it becomes an autumn blockage problem and identifies any condition issues while repairs are practical. Read more: <a href="/blog/birmingham-gutter-health-check/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a>.</p></div>
+    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">Yes — more than most homeowners realise. Sycamore seed cases, drying moss fragments, bird nesting debris, and summer storm material all accumulate through June to August. A summer health check clears this before it becomes an autumn blockage problem and identifies any condition issues while repairs are practical. Read more: <a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a>.</p></div>
   </details>
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">When is the best time to have gutters cleaned in Birmingham?</summary>
@@ -326,9 +326,9 @@ ${ctaFinal}
 
 <h2>Related Guides</h2>
 <ul>
-  <li><a href="/blog/professional-gutter-cleaning-extends-roofline-life/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
+  <li><a href="/blog/roofline-damage-prevention/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
   <li><a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">Birmingham Gutter Maintenance Calendar: What to Do Each Season</a></li>
-  <li><a href="/blog/birmingham-gutter-health-check/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
+  <li><a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
   <li><a href="/blog/birmingham-autumn-gutter-guide/" style="${link}">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a></li>
   <li><a href="/blog/blocked-gutters-birmingham/" style="${link}">Can Blocked Gutters Cause Damp?</a></li>
   <li><a href="/blog/signs-of-blocked-gutters-birmingham/" style="${link}">Signs Your Gutters Need Immediate Cleaning</a></li>

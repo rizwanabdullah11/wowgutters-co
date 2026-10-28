@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Gutter Cleaning Prices Birmingham',
-  description: 'Transparent gutter cleaning prices from £100. Houses, bungalows, commercial. Birmingham & West Midlands. Free quotes.',
+  description: 'Gutter cleaning from £100 (2-bed) and £110 (3-bed). Conservatory gutters £50, fascia & soffit £90, roof cleaning from £500. Birmingham & West Midlands.',
   alternates: {
     canonical: 'https://wowgutters.co.uk/gutter-cleaning-prices/',
   },

@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/dispatch-gutter-cleaning/dispatch-gutter-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
@@ -19,14 +19,14 @@ const ctaBox = `
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-week availability</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
 const sectionCta = `
 <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; margin: 32px 0; text-align: center;">
   <p style="font-size: 1.1rem; font-weight: 700; color: #0f172a; margin: 0 0 8px 0;">WOW Gutters Ltd — Birmingham's gutter preparation specialists</p>
-  <a href="tel:07421433910" style="color: #19C58B; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
+  <a href="tel:07421433910" style="color: #047857; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
 </div>`;
 
 export const preparingGuttersSummerBlogPost: BlogPost = {
@@ -143,7 +143,7 @@ ${ctaBox}
 
 <p><strong>Book and carry out the summer gutter health check.</strong> A professional inspection in June or July assesses the structural condition of every gutter component in the conditions that best reveal them. Joint sealant failures show as precise localised staining on fascia boards — unambiguous in dry conditions, obscured by general moisture in wet ones. Fascia board deterioration is immediately and reliably distinguishable from sound timber when surfaces are dry. Gutter fall angle defects show as biological growth at specific low points — visible in dry conditions, indistinguishable from post-rainfall pooling in wet ones.</p>
 
-<p>Every finding in June or July has four to five months of lead time before autumn tests it. The same finding in November has days to weeks — in the middle of the season that will stress it to failure. Read more: <a href="/blog/dry-summer-gutter-inspection-birmingham" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a>.</p>
+<p>Every finding in June or July has four to five months of lead time before autumn tests it. The same finding in November has days to weeks — in the middle of the season that will stress it to failure. Read more: <a href="/blog/summer-gutter-inspections/" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a>.</p>
 
 <p><strong>Apply roof moss treatment.</strong> Dry moss tissue in early summer absorbs biocide treatment more thoroughly than wet autumn moss. Treatment applied in June kills the moss before the autumn growth season begins. The dead moss breaks down over four to six weeks and washes from the roof surface — removing the primary continuous debris source heading into the wet season. Full details: <a href="/roof-cleaning/" style="${link}">Roof Cleaning and Moss Removal Birmingham</a>.</p>
 
@@ -173,7 +173,7 @@ ${ctaBox}
 
 <p><strong>Run the downpipe bucket test on every outlet.</strong> Pour a substantial volume of water into each gutter run at its highest point and time the flow at the ground outlet. Unrestricted flow should appear within seconds. Any outlet that trickles or shows no flow has a partial or complete blockage that needs addressing before October.</p>
 
-<p>Full guide to this specific window: <a href="/blog/late-summer-gutter-maintenance/" style="${link}">Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a>.</p>
+<p>Full guide to this specific window: <a href="/blog/summer-gutter-maintenance/" style="${link}">Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a>.</p>
 
 <h2 id="what-it-protects">What Summer Preparation Protects — The Full Picture</h2>
 
@@ -195,7 +195,7 @@ ${ctaBox}
 
 <p><strong>Internal walls and decoration</strong> — penetrating damp that reaches this point has typically been tracking in for months. Remediation is expensive. Prevention is a summer gutter clean.</p>
 
-<p>Every one of these is protected when summer preparation is complete and the gutters enter autumn in sound, clear condition. Full protection guide: <a href="/blog/how-clean-gutters-protect-your-home/" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a>.</p>
+<p>Every one of these is protected when summer preparation is complete and the gutters enter autumn in sound, clear condition. Full protection guide: <a href="/blog/year-round-gutter-protection/" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a>.</p>
 
 ${sectionCta}
 
@@ -223,7 +223,7 @@ ${sectionCta}
 
 <p><strong>Winter (December–February)</strong> receives a gutter system whose joints were resealed in good conditions in summer and have had months to cure. Brackets that were confirmed sound or corrected in summer are carrying the winter rain load without the stress of an undetected fault. The fascia boards behind the gutters are dry because the joints above them are holding. Frost cycles act on a system that was structurally sound going in rather than one that was already compromised.</p>
 
-<p><strong>Spring (March–April)</strong> receives a property that has come through winter with minimal roofline damage because summer preparation set the system up correctly. The spring inspection finds less to address, and what it does find is first-season damage from the past winter rather than accumulated multi-season deterioration. The spring cycle: <a href="/blog/birmingham-gutter-maintenance-calendar/" style="${link}">Birmingham Gutter Maintenance Calendar</a>.</p>
+<p><strong>Spring (March–April)</strong> receives a property that has come through winter with minimal roofline damage because summer preparation set the system up correctly. The spring inspection finds less to address, and what it does find is first-season damage from the past winter rather than accumulated multi-season deterioration. The spring cycle: <a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">Birmingham Gutter Maintenance Calendar</a>.</p>
 
 <p><strong>The following summer</strong> receives a gutter system that has completed a full protected annual cycle — and whose components have not been stressed beyond their design tolerances by the kind of sustained overflow and joint failure that years without proper summer preparation produce.</p>
 
@@ -273,7 +273,7 @@ ${ctaBox}
   <h3 itemprop="name">Why is summer the right time to prepare gutters for the seasons ahead?</h3>
   <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
     <div itemprop="text">
-      <p>Summer offers dry conditions for accurate inspection, loose debris that extracts more completely than waterlogged autumn matter, optimal conditions for repairs, and months of lead time before autumn and winter put gutters under real pressure. Every action taken in summer produces better results and more durable outcomes than equivalent work done in autumn. Full case: <a href="/blog/dry-summer-gutter-inspection-birmingham/" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a>.</p>
+      <p>Summer offers dry conditions for accurate inspection, loose debris that extracts more completely than waterlogged autumn matter, optimal conditions for repairs, and months of lead time before autumn and winter put gutters under real pressure. Every action taken in summer produces better results and more durable outcomes than equivalent work done in autumn. Full case: <a href="/blog/summer-gutter-inspections/" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a>.</p>
     </div>
   </div>
 </div>
@@ -291,7 +291,7 @@ ${ctaBox}
   <h3 itemprop="name">Does summer preparation replace autumn gutter cleaning?</h3>
   <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
     <div itemprop="text">
-      <p>No — summer preparation and autumn cleaning serve complementary purposes. Summer preparation addresses structural condition and removes the base layer of summer accumulation in optimal conditions. Autumn cleaning addresses the leaf fall on a channel that is clear and sound. Both are essential parts of a complete annual maintenance cycle. Full guide: <a href="/blog/birmingham-gutter-maintenance-calendar/" style="${link}">Birmingham Gutter Maintenance Calendar</a>.</p>
+      <p>No — summer preparation and autumn cleaning serve complementary purposes. Summer preparation addresses structural condition and removes the base layer of summer accumulation in optimal conditions. Autumn cleaning addresses the leaf fall on a channel that is clear and sound. Both are essential parts of a complete annual maintenance cycle. Full guide: <a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">Birmingham Gutter Maintenance Calendar</a>.</p>
     </div>
   </div>
 </div>
@@ -336,7 +336,7 @@ ${ctaBox}
   <h3 itemprop="name">What is the late summer clear and how does it fit into summer preparation?</h3>
   <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
     <div itemprop="text">
-      <p>The late summer clear in August or September is the final pre-autumn preparation step — removing the full five-month accumulation of sycamore seeds, nesting debris, moss fragments, and storm residue before leaf fall begins, and capturing the nesting season material that could not be touched while nests were active. Full guide: <a href="/blog/late-summer-gutter-maintenance/" style="${link}">Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a>.</p>
+      <p>The late summer clear in August or September is the final pre-autumn preparation step — removing the full five-month accumulation of sycamore seeds, nesting debris, moss fragments, and storm residue before leaf fall begins, and capturing the nesting season material that could not be touched while nests were active. Full guide: <a href="/blog/summer-gutter-maintenance/" style="${link}">Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a>.</p>
     </div>
   </div>
 </div>

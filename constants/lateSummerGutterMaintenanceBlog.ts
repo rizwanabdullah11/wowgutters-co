@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/can-gutter-cleaning/can-gutter-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 600; text-decoration: none;';
+const link = 'color: #047857; font-weight: 600; text-decoration: none;';
 
 const ctaPhone = `
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
@@ -25,7 +25,7 @@ const ctaFinal = `
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week availability across Birmingham</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -241,7 +241,7 @@ ${ctaPhone}
 
 <p><strong>Spring (March–April):</strong> Clear winter accumulation, inspect for frost-cycle joint damage, treat moss if applicable. Full guide: <a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">Birmingham Gutter Maintenance Calendar</a>.</p>
 
-<p><strong>Early summer (June–July):</strong> Summer health check for properties with significant tree coverage or moss. Inspect condition, catch early-season accumulation, plan moss treatment. Full guide: <a href="/blog/birmingham-gutter-health-check/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a>.</p>
+<p><strong>Early summer (June–July):</strong> Summer health check for properties with significant tree coverage or moss. Inspect condition, catch early-season accumulation, plan moss treatment. Full guide: <a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a>.</p>
 
 <p><strong>Late summer (August–September):</strong> Clear full summer accumulation including nesting debris. Inspect structural condition in dry conditions. Address repairs. Apply moss treatment. This is the window this article covers.</p>
 
@@ -249,7 +249,7 @@ ${ctaPhone}
 
 <p><strong>Winter (December–February):</strong> Monitor for joint failures after frost cycles. Note moss growth. Do not attempt ladder-based DIY. Note condition changes for spring attention.</p>
 
-<p>Together, these five windows provide year-round protection for everything your gutters protect — fascia boards, soffits, roof felt, brickwork, foundations, damp-proof course, and internal walls. Full year-round guide: <a href="/blog/how-clean-gutters-protect-your-home-year-round/" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a>.</p>
+<p>Together, these five windows provide year-round protection for everything your gutters protect — fascia boards, soffits, roof felt, brickwork, foundations, damp-proof course, and internal walls. Full year-round guide: <a href="/blog/year-round-gutter-protection/" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a>.</p>
 
 <h2 id="skip-window">7. What Happens If You Skip This Window</h2>
 
@@ -265,7 +265,7 @@ ${ctaPhone}
 
 <p><strong>The autumn diary gets full before you book.</strong> Late summer is also the practical window to secure your preferred autumn appointment. WOW Gutters Ltd's diary fills from September onwards. Homeowners who contact us in late August book the slot they want. Those who call in late October often take whatever is available rather than their preferred timing.</p>
 
-<p>The cost of a late summer professional clean is modest. The combined cost of the roofline repairs that skipping it sets in motion is consistently multiples greater. The decision is straightforward when the alternatives are understood. Read the full roofline impact guide: <a href="/blog/professional-gutter-cleaning-extends-roofline-life/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a>.</p>
+<p>The cost of a late summer professional clean is modest. The combined cost of the roofline repairs that skipping it sets in motion is consistently multiples greater. The decision is straightforward when the alternatives are understood. Read the full roofline impact guide: <a href="/blog/roofline-damage-prevention/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a>.</p>
 
 <h2 id="wow-carries-out">8. How WOW Gutters Ltd Carries Out Late Summer Maintenance</h2>
 
@@ -346,7 +346,7 @@ ${ctaPhone}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">It protects fascia boards, soffit boards, roof felt, brickwork, foundations, the damp-proof course, and internal walls — by ensuring gutters are functioning at full capacity before Birmingham's peak autumn and winter rainfall arrives. Read the complete guide to what clean gutters protect: <a href="/blog/how-clean-gutters-protect-your-home-year-round/" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a>.</p>
+      <p style="margin: 16px 0 0;">It protects fascia boards, soffit boards, roof felt, brickwork, foundations, the damp-proof course, and internal walls — by ensuring gutters are functioning at full capacity before Birmingham's peak autumn and winter rainfall arrives. Read the complete guide to what clean gutters protect: <a href="/blog/year-round-gutter-protection/" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a>.</p>
     </div>
   </details>
 
@@ -356,7 +356,7 @@ ${ctaPhone}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Yes — and this is one of its most significant values. A late summer inspection in dry conditions reveals joint failures, bracket corrosion, incorrect fall angles, and fascia board deterioration clearly and early — while repairs are straightforward and inexpensive. The same problems found in November, after weeks of autumn rain have tested them, are larger jobs on both the gutter and the structure behind it. Read more: <a href="/blog/professional-gutter-cleaning-extends-roofline-life/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a>.</p>
+      <p style="margin: 16px 0 0;">Yes — and this is one of its most significant values. A late summer inspection in dry conditions reveals joint failures, bracket corrosion, incorrect fall angles, and fascia board deterioration clearly and early — while repairs are straightforward and inexpensive. The same problems found in November, after weeks of autumn rain have tested them, are larger jobs on both the gutter and the structure behind it. Read more: <a href="/blog/roofline-damage-prevention/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a>.</p>
     </div>
   </details>
 
@@ -410,11 +410,11 @@ ${ctaFinal}
 
 <h2>Related Guides</h2>
 <ul>
-  <li><a href="/blog/birmingham-gutter-health-check/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
+  <li><a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
   <li><a href="/blog/birmingham-autumn-gutter-guide/" style="${link}">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a></li>
   <li><a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">Birmingham Gutter Maintenance Calendar: What to Do Each Season</a></li>
-  <li><a href="/blog/professional-gutter-cleaning-extends-roofline-life/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
-  <li><a href="/blog/how-clean-gutters-protect-your-home-year-round/" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a></li>
+  <li><a href="/blog/roofline-damage-prevention/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
+  <li><a href="/blog/year-round-gutter-protection/" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a></li>
   <li><a href="/blog/blocked-gutters-birmingham/" style="${link}">Can Blocked Gutters Cause Damp?</a></li>
   <li><a href="/services/roof-cleaning/" style="${link}">Roof Cleaning and Moss Removal Birmingham</a></li>
   <li><a href="/services/gutter-cleaning/" style="${link}">Downpipe Unblocking</a></li>

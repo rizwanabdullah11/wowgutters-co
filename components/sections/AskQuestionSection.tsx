@@ -104,7 +104,7 @@ export default function AskQuestionSection() {
               <a
                 href={`tel:+${whatsappNumber}`}
                 className="text-2xl font-black hover:underline"
-                style={{ color: colors.primary }}
+                style={{ color: colors.primaryText }}
               >
                 +44 7421 433910
               </a>

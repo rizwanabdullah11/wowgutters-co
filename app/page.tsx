@@ -5,7 +5,7 @@ import HomeScreen from './home-screen/page';
 
 const URL_PATH = 'https://wowgutters.co.uk/';
 // Exact homepage title — set after normalizeMetadata so it isn't reordered/trimmed.
-const HOME_TITLE = 'WOW Gutters Ltd | Gutter & Roof Cleaning West Midlands | 4.9★';
+const HOME_TITLE = 'WOW Gutters | Gutter & Roof Cleaning West Midlands | 4.9★';
 
 const baseMetadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Birmingham & West Midlands | WOW Gutters Ltd',
@@ -57,10 +57,37 @@ export const metadata: Metadata = {
 };
 
 
+// Hero video schema — homepage only (the video is part of this page's main content).
+const VIDEO_OBJECT_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "WOW Gutters Ltd — Professional Gutter Cleaning Service",
+  "description":
+    "See our ground-level vacuum gutter cleaning system in action. No ladders, no mess, before & after photo proof on every job. Serving Birmingham and the West Midlands.",
+  "thumbnailUrl": "https://wowgutters.co.uk/gutter-cleaning.jpeg",
+  "contentUrl": "https://wowgutters.co.uk/gutter-final-video.mp4",
+  "embedUrl": "https://wowgutters.co.uk/gutter-final-video.mp4",
+  "duration": "PT1M30S",
+  "uploadDate": "2025-01-15",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://wowgutters.co.uk/#business",
+    "name": "WOW Gutters Ltd",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://wowgutters.co.uk/assets/wow-gutter-logo2.png",
+    },
+  },
+};
+
 export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Homepage-only LCP preload (not applied site-wide) */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(VIDEO_OBJECT_SCHEMA) }}
+      />
       <link rel="preload" as="image" href={HERO_IMAGE_SRC} imageSrcSet={HERO_IMAGE_SRCSET} imageSizes="100vw" fetchPriority="high" />
       <HomeScreen />
     </div>

@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/gutter-cleaning-protection/gutter-cleaning-protection-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaTop = `
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
@@ -27,7 +27,7 @@ const ctaBox = `
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week availability across Birmingham & West Midlands</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -128,7 +128,7 @@ ${ctaTop}
   <li><strong>Victorian terrace with original cast iron systems:</strong> Given the genuinely more careful joint-by-joint assessment described throughout our <a href="/blog/victorian-gutter-cleaning-birmingham" style="${link}">dedicated Victorian property guidance</a> — genuinely longer than an equivalent modern property, even where total gutter length is broadly comparable, purely as a function of the additional structural checking this housing type genuinely warrants.</li>
   <li><strong>Properties with significant tree coverage or established roof moss:</strong> As covered extensively throughout our detailed guidance on <a href="/blog/roof-moss-damage" style="${link}">what roof moss is genuinely doing to Birmingham gutters right now</a> — genuinely take longer than a comparable property without this additional debris source, given the extra biological growth and moisture-retained material requiring more thorough extraction.</li>
   <li><strong>Severely neglected properties:</strong> Of the kind documented in genuinely extreme form throughout our <a href="/blog/warehouse-gutter-case-study" style="${link}">warehouse box gutter case study</a> where compacted silt had progressed to supporting actively rooted vegetation — genuinely require supplementary manual extraction time well beyond any standard residential estimate, and represent a category that falls entirely outside normal duration expectations.</li>
-  <li><strong>Commercial and warehouse properties:</strong> As covered throughout our <a href="/blog/commercial-warehouse" style="${link}">commercial warehouse gutter clearing case study</a> — genuinely assessed individually given the scale involved, rather than fitting any standard residential time range whatsoever.</li>
+  <li><strong>Commercial and warehouse properties:</strong> As covered throughout our <a href="/blog/warehouse-gutter-clearing/" style="${link}">commercial warehouse gutter clearing case study</a> — genuinely assessed individually given the scale involved, rather than fitting any standard residential time range whatsoever.</li>
 </ul>
 
 <figure style="margin: 28px 0;">
@@ -203,7 +203,7 @@ ${ctaTop}
 
 <p>Some properties genuinely fall well outside the standard residential duration ranges described throughout this article, and it's worth understanding why rather than assuming every job should fit neatly within a predictable window.</p>
 
-<p>Properties that haven't received professional attention for multiple consecutive years frequently carry the kind of severe, compacted accumulation that genuinely requires considerably more extraction time than a property maintained on a regular schedule, purely as a function of the volume and density of material that's built up over the unaddressed period. Properties with genuinely complex rooflines — multiple pitches, several extensions, dormers, and flat roof sections all present on the same building — accumulate duration across each distinct section requiring individual assessment, rather than fitting a single simplified time estimate. And commercial or larger-scale properties, as covered throughout our detailed case studies of <a href="/blog/commercial-warehouse" style="${link}">commercial warehouse gutter clearing</a>, simply operate on an entirely different scale that individual assessment, rather than any standard residential time range, is required to properly estimate.</p>
+<p>Properties that haven't received professional attention for multiple consecutive years frequently carry the kind of severe, compacted accumulation that genuinely requires considerably more extraction time than a property maintained on a regular schedule, purely as a function of the volume and density of material that's built up over the unaddressed period. Properties with genuinely complex rooflines — multiple pitches, several extensions, dormers, and flat roof sections all present on the same building — accumulate duration across each distinct section requiring individual assessment, rather than fitting a single simplified time estimate. And commercial or larger-scale properties, as covered throughout our detailed case studies of <a href="/blog/warehouse-gutter-clearing/" style="${link}">commercial warehouse gutter clearing</a>, simply operate on an entirely different scale that individual assessment, rather than any standard residential time range, is required to properly estimate.</p>
 
 <h2 id="faq">FAQ: Gutter Cleaning Duration in Birmingham</h2>
 

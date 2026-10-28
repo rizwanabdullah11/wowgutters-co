@@ -182,22 +182,22 @@ export default function Navbar() {
 
             {/* Desktop Menu */}
             <div className="flex items-center gap-6 xl:gap-8">
-              <Link href="/" className="text-gray-700 hover:text-[#19C58B] transition-colors font-semibold text-[17px] tracking-tight">
+              <Link href="/" className="text-gray-700 hover:text-[#047857] transition-colors font-semibold text-[17px] tracking-tight">
                 Home
               </Link>
-              <Link href="/about" className="text-gray-700 hover:text-[#19C58B] transition-colors font-semibold text-[17px] tracking-tight">
+              <Link href="/about" className="text-gray-700 hover:text-[#047857] transition-colors font-semibold text-[17px] tracking-tight">
                 About
               </Link>
-              <Link href="/blog" className="text-gray-700 hover:text-[#19C58B] transition-colors font-semibold text-[17px] tracking-tight">
+              <Link href="/blog" className="text-gray-700 hover:text-[#047857] transition-colors font-semibold text-[17px] tracking-tight">
                 Blog
               </Link>
-              <Link href="/contact" className="text-gray-700 hover:text-[#19C58B] transition-colors font-semibold text-[17px] tracking-tight">
+              <Link href="/contact" className="text-gray-700 hover:text-[#047857] transition-colors font-semibold text-[17px] tracking-tight">
                 Contact
               </Link>
 
               {/* Services Dropdown */}
               <details className="relative services-details">
-                <summary className="cursor-pointer select-none text-gray-700 hover:text-[#19C58B] transition-colors flex items-center gap-1 font-semibold text-[17px] tracking-tight py-2">
+                <summary className="cursor-pointer select-none text-gray-700 hover:text-[#047857] transition-colors flex items-center gap-1 font-semibold text-[17px] tracking-tight py-2">
                   Services
                   <ChevronDown size={20} className="mt-0.5" />
                 </summary>
@@ -208,7 +208,7 @@ export default function Navbar() {
                       <Link
                         key={index}
                         href={service.href}
-                        className="flex items-center gap-3 px-4 py-3.5 text-gray-700 hover:bg-slate-50 hover:text-[#19C58B] transition-colors border-b border-gray-50 last:border-0"
+                        className="flex items-center gap-3 px-4 py-3.5 text-gray-700 hover:bg-slate-50 hover:text-[#047857] transition-colors border-b border-gray-50 last:border-0"
                       >
                         <IconComponent size={20} className="text-slate-400" />
                         <span className="text-[16px] font-medium">{service.name}</span>

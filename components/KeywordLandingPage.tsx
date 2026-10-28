@@ -107,7 +107,7 @@ function guarantees(cat: string): string[] {
   if (cat === 'solar') return [
     '100% pure deionised water cleaning — zero spots or mineral streaks',
     'Scratch-free soft brushes preserve anti-reflective glass coatings',
-    'Chemical-free cleaning protecting manufacturer warranties',
+    'Chemical-free cleaning that is gentle on uPVC and roofing',
     'Increases solar energy generation by up to 30%',
     'Fully insured with £10 million public liability cover',
     'Free quotes with fast scheduling across Birmingham & West Midlands',
@@ -411,7 +411,7 @@ export default function KeywordLandingPage({ page }: { page: KeywordPage }) {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <Link
-              href="/pricing/"
+              href="/gutter-cleaning-prices/"
               className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold text-white"
               style={{ background: colors.primaryGradient }}
             >

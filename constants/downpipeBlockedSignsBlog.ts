@@ -9,7 +9,7 @@ const IMG_AFTER =
 const IMG_OVERFLOW =
   '/files/12_gutter_overflow_water_damage.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaTop = `
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
@@ -29,7 +29,7 @@ const ctaBox = `
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week availability across Birmingham</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -184,7 +184,7 @@ ${ctaTop}
 
 <h2 id="consequences-of-missing-signs">What Happens If You Miss These Signs</h2>
 
-<p>The consequences of a downpipe restriction left unaddressed follow a genuinely predictable escalation pattern, connecting directly to the broader roofline protection principles covered throughout our comprehensive guidance on <a href="/blog/professional-gutter-cleaning-extends-roofline-life/" style="${link}">how professional gutter cleaning extends the life of your roofline</a>.</p>
+<p>The consequences of a downpipe restriction left unaddressed follow a genuinely predictable escalation pattern, connecting directly to the broader roofline protection principles covered throughout our comprehensive guidance on <a href="/blog/roofline-damage-prevention/" style="${link}">how professional gutter cleaning extends the life of your roofline</a>.</p>
 
 <p>A partial restriction that produces only the subtler early signs described throughout this article — a slight gurgle during light rain, a small staining pattern beginning to develop — genuinely worsens over successive rainfall events as more debris accumulates against the existing partial obstruction. Left unaddressed through a full season, this progressively worsening restriction eventually becomes complete, at which point the gutter above overflows during every meaningful rainfall event, causing exactly the kind of fascia board moisture exposure and eventual softening described extensively throughout our detailed guidance on hidden gutter damage. In more severe, prolonged cases, this progression can extend into the internal penetrating damp covered throughout our guidance on <a href="/blog/clean-gutters-prevent-damp/" style="${link}">how clean gutters prevent damp and water damage</a>.</p>
 
@@ -262,7 +262,7 @@ ${ctaBox}
   <li><a href="/blog/summer-gutter-warning/" style="${link}">What Your Gutters Are Trying to Tell You This Summer</a></li>
   <li><a href="/blog/hidden-gutter-damage-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a></li>
   <li><a href="/blog/clean-gutters-prevent-damp/" style="${link}">Can Blocked Gutters Cause Damp?</a></li>
-  <li><a href="/blog/professional-gutter-cleaning-extends-roofline-life/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
+  <li><a href="/blog/roofline-damage-prevention/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
   <li><a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham/" style="${link}">Gutter Cleaning for Semi-Detached Homes: The Shared Boundary Issue</a></li>
   <li><a href="/blog/professional-gutter-walkthrough/" style="${link}">What Happens During a Professional Gutter Clean?</a></li>
   <li><a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">How Do You Clean Gutters Without a Ladder?</a></li>

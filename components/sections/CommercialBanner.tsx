@@ -66,7 +66,7 @@ export default function CommercialBanner() {
 
           {/* Right side - CTA */}
           <div className="commercial-cta-section">
-            <Link href="/commercial" className="commercial-cta-btn">
+            <Link href="/services/commercial-gutter-cleaning/" className="commercial-cta-btn">
               <span className="cta-btn-text">View Commercial Services</span>
               <div className="cta-btn-icon-wrapper">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="cta-btn-arrow">

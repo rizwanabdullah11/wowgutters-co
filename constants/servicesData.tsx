@@ -1704,7 +1704,7 @@ export const servicesData: ServiceDetail[] = [
           'New build gutter snagging — catch installation defects early',
           'New build roof cleaning — remove construction dust and debris',
           'Gutter maintenance during defect period — protect your aftercare',
-          'Gutter inspection for NHBC and warranty compliance',
+          'Gutter inspection reports for new-build snagging',
           'Commercial gutter cleaning — for mixed-use developments',
           'Free development survey and competitive quotation',
         ],

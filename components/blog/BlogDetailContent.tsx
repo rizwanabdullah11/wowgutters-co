@@ -10,6 +10,7 @@ import { Calendar, User, Share2, Phone, PenTool, BookOpen } from 'lucide-react';
 import Link from 'next/link';
 import { formatBlogDate } from '@/lib/dateUtils';
 import { resolveBlogImageUrl } from '@/lib/blogImageUrl';
+import { blogThumb } from '@/lib/blogThumb';
 
 
 // ── Accordion item ──────────────────────────────────────────────────────────
@@ -437,7 +438,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
                 </span>
                 {post.lastUpdated && (
                   <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200/60 text-emerald-800 font-medium">
-                    <time dateTime={post.lastUpdated} className="font-semibold" style={{ color: colors.primary }}>
+                    <time dateTime={post.lastUpdated} className="font-semibold" style={{ color: colors.primaryText }}>
                       Updated: {formatBlogDate(post.lastUpdated)}
                     </time>
                   </span>
@@ -763,7 +764,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
                   <article className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group border border-gray-100">
                     <div className="relative h-48 overflow-hidden">
                       <img
-                        src={relatedPost.image}
+                        src={blogThumb(relatedPost.image)}
                         alt={relatedPost.title}
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                       />
@@ -774,7 +775,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
                       </div>
                     </div>
                     <div className="p-6">
-                      <h3 className="text-lg font-bold mb-2 text-gray-900 line-clamp-2 group-hover:text-[#19C58B] transition-colors">
+                      <h3 className="text-lg font-bold mb-2 text-gray-900 line-clamp-2 group-hover:text-[#047857] transition-colors">
                         {relatedPost.title}
                       </h3>
                       <p className="text-gray-600 text-sm mb-4 line-clamp-2">

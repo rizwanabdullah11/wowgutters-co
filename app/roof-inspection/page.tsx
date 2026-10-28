@@ -7,7 +7,7 @@ export const metadata: Metadata = buildMetadata({
   absoluteTitle: 'Free Roof Inspection | WOW Gutters Ltd',
   description:
     'Free, no-obligation roof inspection across Birmingham and the West Midlands. We check tiles, ridges, flashing, moss coverage, and ventilation. Honest advice, no pressure. Call 07421 433910.',
-  canonicalPath: '/roof-inspection/',
+  canonicalPath: '/services/roof-inspection/',
 });
 
 const service: ServiceDetail = {

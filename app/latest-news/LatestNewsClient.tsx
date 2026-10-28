@@ -81,7 +81,7 @@ export default function LatestNewsClient({ newsArticles }: { newsArticles: NewsA
                     </span>
                   </div>
                   
-                  <h2 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-[#19C58B] transition-colors leading-snug">
+                  <h2 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-[#047857] transition-colors leading-snug">
                     {article.title}
                   </h2>
                   

@@ -1,6 +1,6 @@
 import type { BlogPost } from './blogTypes';
 
-const link = 'color: #19C58B; font-weight: 600; text-decoration: none;';
+const link = 'color: #047857; font-weight: 600; text-decoration: none;';
 const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
@@ -12,7 +12,7 @@ const ctaBox = `
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-day availability</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -88,7 +88,7 @@ export const guttersTellingYouSummerBlogPost: BlogPost = {
 
 <p>Algae or moss growing on a wall face, on the fascia board itself, or visibly inside the gutter channel where you can see it from below, is telling you that water has been sitting somewhere it shouldn't for long enough to support biological growth. Algae and moss both need sustained moisture — they don't establish from a single wet day, they establish from weeks or months of a surface staying consistently damp.</p>
 
-<p><strong>What it means:</strong> There's a low point, a blocked section, or a persistent leak somewhere nearby. The specific location of the growth tells you roughly where to look. If your roof itself shows significant moss coverage, our <a href="/roof-cleaning-moss-removal/" style="${link}">roof cleaning and moss removal service</a> addresses the source directly.</p>
+<p><strong>What it means:</strong> There's a low point, a blocked section, or a persistent leak somewhere nearby. The specific location of the growth tells you roughly where to look. If your roof itself shows significant moss coverage, our <a href="/roof-cleaning/" style="${link}">roof cleaning and moss removal service</a> addresses the source directly.</p>
 
 <h3>Plants Growing From the Gutter Line</h3>
 
@@ -258,9 +258,9 @@ ${ctaBox}
   <li><a href="/blog/roofline-damage-prevention" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
   <li><a href="/blog/birmingham-autumn-gutter-guide" style="${link}">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a></li>
   <li><a href="/blog/year-round-gutter-protection" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a></li>
-  <li><a href="/roof-cleaning-moss-removal/" style="${link}">Roof Cleaning and Moss Removal Birmingham</a></li>
+  <li><a href="/roof-cleaning/" style="${link}">Roof Cleaning and Moss Removal Birmingham</a></li>
   <li><a href="/services/gutter-cleaning/" style="${link}">Downpipe Unblocking</a></li>
-  <li><a href="/areas-we-cover/" style="${link}">Areas We Cover</a></li>
+  <li><a href="/gutter-cleaning-service-areas/" style="${link}">Areas We Cover</a></li>
 </ul>
   `,
 };

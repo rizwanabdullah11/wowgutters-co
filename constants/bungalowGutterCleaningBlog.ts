@@ -6,7 +6,7 @@ const IMG_TREES_OVERHANGING = '/blog-images/bungalow-gutter-cleaning/overhanging
 const IMG_MOSS_WIDE_ROOF = '/blog-images/bungalow-gutter-cleaning/moss-wide-roof.webp';
 const IMG_EXTENSIONS = '/blog-images/bungalow-gutter-cleaning/bungalow-extensions.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaTop = `
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
@@ -34,7 +34,7 @@ const ctaBox = `
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week availability across Birmingham</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -90,7 +90,7 @@ ${ctaTop}
   <li><strong>Everything looks accessible</strong>, which encourages DIY.</li>
 </ul>
 
-<p><a href="/blog/professional-gutter-cleaning-extends-roofline-life/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a> explains what happens when any of this goes wrong, and <a href="/blog/clean-gutters-protect-home-year/" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a> shows what stays protected when the system works.</p>
+<p><a href="/blog/roofline-damage-prevention/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a> explains what happens when any of this goes wrong, and <a href="/blog/clean-gutters-prevent-damp/" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a> shows what stays protected when the system works.</p>
 
 <figure style="margin: 28px 0;">
   <img src="${IMG_HERO}" alt="Bungalow gutter cleaning in Birmingham showing low roofline and overhanging trees" width="1280" height="720" loading="eager" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
@@ -98,7 +98,7 @@ ${ctaTop}
 </figure>
 <h2 id="low-not-safe">Low Doesn't Mean Safe</h2>
 
-<p>Falls from ladders and steps are a real cause of injury at low heights, and a bungalow gutter is often reached from a stepladder on a slope, a patio or a flower bed. Wet leaves, uneven ground and reaching sideways all make it riskier than it looks. <a href="/blog/gutter-ladder-safety/" style="${link}">Can You Clean Your Own Gutters Safely? A Birmingham Ladder Safety Reality Check</a> sets out the risks, and <a href="/blog/clean-gutters-two-storey-house-birmingham/" style="${link}">How Do You Clean Gutters on a Two-Storey House in Birmingham Safely?</a> explains how they grow with height. The HSE's guidance on working at height says avoid it where you can, even at modest heights.</p>
+<p>Falls from ladders and steps are a real cause of injury at low heights, and a bungalow gutter is often reached from a stepladder on a slope, a patio or a flower bed. Wet leaves, uneven ground and reaching sideways all make it riskier than it looks. <a href="/blog/gutter-ladder-safety/" style="${link}">Can You Clean Your Own Gutters Safely? A Birmingham Ladder Safety Reality Check</a> sets out the risks, and <a href="/blog/clean-gutters-two-storey-house-birmingham-safely/" style="${link}">How Do You Clean Gutters on a Two-Storey House in Birmingham Safely?</a> explains how they grow with height. The HSE's guidance on working at height says avoid it where you can, even at modest heights.</p>
 
 <p>There is also a visibility problem. Reaching a gutter doesn't mean you can see inside it. <a href="/blog/hidden-gutter-damage-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a> explains why the compacted silt layer is invisible from below.</p>
 
@@ -112,16 +112,16 @@ ${ctaTop}
 <p>Three habits keep coming up.</p>
 
 <ul>
-  <li><strong>"I can reach it, so I'll do it later."</strong> Later rarely comes. <a href="/blog/birmingham-homeowners-miss-summer/" style="${link}">The One Home Maintenance Task Birmingham Homeowners Consistently Miss Each Summer</a> and <a href="/blog/birmingham-homeowners-forget-summer/" style="${link}">The Home Maintenance Job Most Birmingham Homeowners Forget Every Summer</a> explain why.</li>
+  <li><strong>"I can reach it, so I'll do it later."</strong> Later rarely comes. <a href="/blog/seasonal-home-maintenance/" style="${link}">The One Home Maintenance Task Birmingham Homeowners Consistently Miss Each Summer</a> and <a href="/blog/summer-home-maintenance/" style="${link}">The Home Maintenance Job Most Birmingham Homeowners Forget Every Summer</a> explain why.</li>
   <li><strong>"Nothing has overflowed."</strong> A partly blocked gutter works in light rain, so the lack of overflow proves little.</li>
   <li><strong>"It's only one storey."</strong> Water damage doesn't scale with height. A low roof sending water down a short wall can soak it just as thoroughly.</li>
 </ul>
 
 <h2 id="trees-reach">Trees Reach Bungalow Roofs Easily</h2>
 
-<p>On a two-storey house the canopy may sit above or beside the roofline. On a bungalow it often sits right over it. Branches shed directly into the channel, and seeds and leaves arrive in bulk. <a href="/blog/tree-cover-gutter-cleaning-schedule-birmingham/" style="${link}">How Tree Cover Changes Your Gutter Cleaning Schedule in Birmingham</a> explains the species differences, and <a href="/blog/autumn-leaf-fall-tree-type-birmingham/" style="${link}">Autumn Leaf Fall by Tree Type: Which Birmingham House Gutters Get Hit Hardest</a> ranks them.</p>
+<p>On a two-storey house the canopy may sit above or beside the roofline. On a bungalow it often sits right over it. Branches shed directly into the channel, and seeds and leaves arrive in bulk. <a href="/blog/tree-gutter-cleaning/" style="${link}">How Tree Cover Changes Your Gutter Cleaning Schedule in Birmingham</a> explains the species differences, and <a href="/blog/autumn-leaf-buildup/" style="${link}">Autumn Leaf Fall by Tree Type: Which Birmingham House Gutters Get Hit Hardest</a> ranks them.</p>
 
-<p>Plants also take hold easily at low level, because silt holds moisture and seeds land in it. <a href="/blog/gutters-full-weeds-seeds-birmingham/" style="${link}">Gutters Full of Weeds or Seeds? Birmingham Clearing Guide</a> covers what grows and why. If birds nest in the gutter, active nests are protected, so a contractor should check first.</p>
+<p>Plants also take hold easily at low level, because silt holds moisture and seeds land in it. <a href="/blog/gutters-full-of-weeds/" style="${link}">Gutters Full of Weeds or Seeds? Birmingham Clearing Guide</a> covers what grows and why. If birds nest in the gutter, active nests are protected, so a contractor should check first.</p>
 
 <figure style="margin: 28px 0;">
   <img src="${IMG_TREES_OVERHANGING}" alt="Overhanging trees dropping leaves and debris directly into bungalow gutters in Birmingham" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
@@ -130,9 +130,9 @@ ${ctaTop}
 
 <h2 id="moss-wide-roofs">Moss, Wide Roofs and Long Runs</h2>
 
-<p>Bungalow roofs are wide and often shallow, and moss thrives on shaded, shallow slopes. It sheds into the channel all year, as <a href="/blog/moss-roof-birmingham-gutters/" style="${link}">Moss on Your Roof? What It's Doing to Your Birmingham Gutters Right Now</a> explains. Our <a href="/roof-cleaning" style="${link}">roof cleaning</a> and <a href="/moss-removal" style="${link}">moss removal services</a> treat the source.</p>
+<p>Bungalow roofs are wide and often shallow, and moss thrives on shaded, shallow slopes. It sheds into the channel all year, as <a href="/blog/roof-moss-damage/" style="${link}">Moss on Your Roof? What It's Doing to Your Birmingham Gutters Right Now</a> explains. Our <a href="/roof-cleaning" style="${link}">roof cleaning</a> and <a href="/roof-cleaning/" style="${link}">moss removal services</a> treat the source.</p>
 
-<p>Wide roofs also mean long gutter runs feeding few downpipes. A restriction at one bend can back water along a considerable length, as <a href="/blog/downpipes-blocked-birmingham-fix/" style="${link}">Downpipes Blocked Again? The Birmingham Fix Most Homeowners Miss</a> explains. <a href="/blog/downpipe-blocked-signs/" style="${link}">How Do You Know If Your Downpipe Is Blocked? Signs Birmingham Homes Show</a> lists the signs, and our <a href="/downpipe-unblocking" style="${link}">downpipe unblocking service</a> tests every outlet.</p>
+<p>Wide roofs also mean long gutter runs feeding few downpipes. A restriction at one bend can back water along a considerable length, as <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">Downpipes Blocked Again? The Birmingham Fix Most Homeowners Miss</a> explains. <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">How Do You Know If Your Downpipe Is Blocked? Signs Birmingham Homes Show</a> lists the signs, and our <a href="/downpipe-unblocking" style="${link}">downpipe unblocking service</a> tests every outlet.</p>
 
 <figure style="margin: 28px 0;">
   <img src="${IMG_MOSS_WIDE_ROOF}" alt="Wide bungalow roof with moss growth shedding into gutters creating long drainage runs" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
@@ -142,7 +142,7 @@ ${ctaTop}
 ${ctaMid}
 <h2 id="extensions">Extensions, Conservatories and Flat Roofs</h2>
 
-<p>Many bungalows have been extended, often with a flat roof or a glazed conservatory. Flat roof drainage holds water and leaves, and it needs a different assessment, as <a href="/blog/flat-roof-gutters-birmingham-maintenance/" style="${link}">Flat Roof Gutters in Birmingham: The Maintenance Problem Most Guides Ignore</a> explains. Glazed roofs are covered by our <a href="/services/conservatory/" style="${link}">conservatory roof cleaning service</a>.</p>
+<p>Many bungalows have been extended, often with a flat roof or a glazed conservatory. Flat roof drainage holds water and leaves, and it needs a different assessment, as <a href="/blog/flat-roof-gutters/" style="${link}">Flat Roof Gutters in Birmingham: The Maintenance Problem Most Guides Ignore</a> explains. Glazed roofs are covered by our <a href="/services/conservatory/" style="${link}">conservatory roof cleaning service</a>.</p>
 
 <p>Check the junction where an extension meets the original roof. Water collects there, and it is easy to miss.</p>
 
@@ -165,7 +165,7 @@ ${ctaMid}
   <li>A musty smell near an external wall inside.</li>
 </ul>
 
-<p><a href="/blog/clogged-gutters-signs/" style="${link}">Clogged Gutters Birmingham: Signs You're Missing</a>, <a href="/blog/gutters-telling-you-summer/" style="${link}">What Your Gutters Are Trying to Tell You This Summer</a> and the <a href="/blog/blocked-gutters-checklist/" style="${link}">blocked gutters checklist</a> go through them in detail. <a href="/blog/blocked-gutters-cause-damp/" style="${link}">Can Blocked Gutters Cause Damp?</a> explains how external water reaches inside.</p>
+<p><a href="/blog/clogged-gutters-signs/" style="${link}">Clogged Gutters Birmingham: Signs You're Missing</a>, <a href="/blog/summer-gutter-warning/" style="${link}">What Your Gutters Are Trying to Tell You This Summer</a> and the <a href="/blog/gutters-blocked-checklist/" style="${link}">blocked gutters checklist</a> go through them in detail. <a href="/blog/clean-gutters-prevent-damp/" style="${link}">Can Blocked Gutters Cause Damp?</a> explains how external water reaches inside.</p>
 
 <h2 id="visit-covers">What a Bungalow Visit Covers</h2>
 
@@ -181,46 +181,46 @@ ${ctaMid}
   <li><strong>Photos and a written summary.</strong> Before and after images of every run.</li>
 </ol>
 
-<p>Bungalows are the easy end of our reach, so a ground-based visit is quick to set up. Our method is described in <a href="/blog/clean-gutters-without-ladder-birmingham/" style="${link}">How Do You Clean Gutters Without a Ladder? The Method Birmingham Pros Use</a> and <a href="/gutter-vacuum-cleaning-birmingham/" style="${link}">Gutter Vacuum Cleaning Birmingham</a>. The full process is in <a href="/blog/professional-gutter-clean-walkthrough-birmingham/" style="${link}">What Happens During a Professional Gutter Clean? A Birmingham Homeowner's Walkthrough</a>. Heavily neglected runs fall under our <a href="/gutter-cleaning" style="${link}">gutter clearing service</a>, and our <a href="/gallery" style="${link}">gallery</a> shows real examples.</p>
+<p>Bungalows are the easy end of our reach, so a ground-based visit is quick to set up. Our method is described in <a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">How Do You Clean Gutters Without a Ladder? The Method Birmingham Pros Use</a> and <a href="/blog/gutter-vacuum-cleaning-birmingham/" style="${link}">Gutter Vacuum Cleaning Birmingham</a>. The full process is in <a href="/blog/professional-gutter-walkthrough/" style="${link}">What Happens During a Professional Gutter Clean? A Birmingham Homeowner's Walkthrough</a>. Heavily neglected runs fall under our <a href="/gutter-cleaning" style="${link}">gutter clearing service</a>, and our <a href="/the-gutter-gallery/" style="${link}">gallery</a> shows real examples.</p>
 
-<p>"Fast" depends on the property. Duration varies with run length, debris and what the camera finds, and <a href="/blog/gutter-clean-duration-birmingham/" style="${link}">How Long Does a Professional Gutter Clean Take in Birmingham?</a> explains why an unusually quick visit deserves questions.</p>
+<p>"Fast" depends on the property. Duration varies with run length, debris and what the camera finds, and <a href="/blog/gutter-clean-duration/" style="${link}">How Long Does a Professional Gutter Clean Take in Birmingham?</a> explains why an unusually quick visit deserves questions.</p>
 
 ${ctaBox}
 
 <h2 id="fascias-soffits">Fascias, Soffits and Downpipes</h2>
 
-<p>Because bungalow roofs are low, fascia and soffit damage is easy to see up close, and easy to put off. Overflow soaks the fascia from behind, softening the board and loosening the brackets, as <a href="/roofline-cleaning-birmingham/" style="${link}">Roofline Cleaning Birmingham: Gutters, Fascias & Soffits</a> explains. <a href="/blog/soffit-damage-west-midlands-early-signs/" style="${link}">Soffit Damage in West Midlands Homes: Early Signs You Shouldn't Ignore</a> covers the underside. Our <a href="/fascia-soffit-cleaning" style="${link}">fascia and soffit cleaning service</a> looks after the outside surfaces.</p>
+<p>Because bungalow roofs are low, fascia and soffit damage is easy to see up close, and easy to put off. Overflow soaks the fascia from behind, softening the board and loosening the brackets, as <a href="/roofline-cleaning-birmingham/" style="${link}">Roofline Cleaning Birmingham: Gutters, Fascias & Soffits</a> explains. <a href="/blog/soffit-damage-signs/" style="${link}">Soffit Damage in West Midlands Homes: Early Signs You Shouldn't Ignore</a> covers the underside. Our <a href="/fascia-soffit-cleaning" style="${link}">fascia and soffit cleaning service</a> looks after the outside surfaces.</p>
 
-<p>A gutter visit can note what it sees, but it can't repair rotten timber or diagnose damp. <a href="/blog/gutter-water-damage-guide/" style="${link}">Water Damage From Gutters: Birmingham Homeowner Guide</a> walks through how the damage develops and what to do first. If a joint is leaking, <a href="/blog/leaking-gutter-repair-birmingham/" style="${link}">Leaking Gutter Repair Birmingham: Fix or Replace?</a> explains how to judge repair against replacement.</p>
+<p>A gutter visit can note what it sees, but it can't repair rotten timber or diagnose damp. <a href="/blog/gutter-water-damage-guide/" style="${link}">Water Damage From Gutters: Birmingham Homeowner Guide</a> walks through how the damage develops and what to do first. If a joint is leaking, <a href="/blog/leaking-gutter-repair/" style="${link}">Leaking Gutter Repair Birmingham: Fix or Replace?</a> explains how to judge repair against replacement.</p>
 <h2 id="older-owners">Older Owners and Safe Maintenance</h2>
 
 <p>Many bungalow owners are older, and climbing steps is the last thing they should be doing. A ground-based service removes the risk entirely, and it removes the need to ask a family member or neighbour to do it. Before and after photographs mean you can check the result without going outside. If someone else manages the property on your behalf, a written condition summary keeps everyone informed.</p>
 
-<p>Landlords and agents will find the same logic in <a href="/gutter-cleaning-landlords-birmingham/" style="${link}">Gutter Cleaning for Landlords & Letting Agents Birmingham</a>, because tenants rarely look up.</p>
+<p>Landlords and agents will find the same logic in <a href="/services/gutter-cleaning-for-landlords/" style="${link}">Gutter Cleaning for Landlords & Letting Agents Birmingham</a>, because tenants rarely look up.</p>
 
 <h2 id="seasons-timing">Seasons and Timing</h2>
 
-<p>Autumn is the pressure point. <a href="/blog/autumn-dangerous-season-birmingham-gutters/" style="${link}">Why Autumn Is the Most Dangerous Season for Birmingham Gutters</a> explains why leaf fall and heavy rain arrive together, and <a href="/blog/leaves-in-gutters/" style="${link}">Leaves in Gutters? Birmingham Autumn Clearance Service</a> covers what leaves do. <a href="/blog/gutter-cleaning-before-winter/" style="${link}">Gutter Cleaning Before Winter Birmingham | Book Now</a> covers frost and late leaf fall. If water is already spilling, <a href="/blog/overflowing-gutters-birmingham/" style="${link}">Overflowing Gutters in Birmingham? Causes & Quick Fixes</a> and <a href="/emergency-gutter-cleaning-birmingham/" style="${link}">Emergency Gutter Cleaning Birmingham After Heavy Rain</a> explain what to do.</p>
+<p>Autumn is the pressure point. <a href="/blog/birmingham-autumn-gutter-guide/" style="${link}">Why Autumn Is the Most Dangerous Season for Birmingham Gutters</a> explains why leaf fall and heavy rain arrive together, and <a href="/blog/leaves-in-gutters/" style="${link}">Leaves in Gutters? Birmingham Autumn Clearance Service</a> covers what leaves do. <a href="/blog/gutter-cleaning-before-winter/" style="${link}">Gutter Cleaning Before Winter Birmingham | Book Now</a> covers frost and late leaf fall. If water is already spilling, <a href="/blog/overflowing-gutters-fix/" style="${link}">Overflowing Gutters in Birmingham? Causes & Quick Fixes</a> and <a href="/emergency-gutter-cleaning-birmingham/" style="${link}">Emergency Gutter Cleaning Birmingham After Heavy Rain</a> explain what to do.</p>
 
-<p>Summer is the best inspection window, because dry weather shows defects clearly. See <a href="/blog/dry-summer-weather-gutter-inspections/" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a>, <a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a> and <a href="/blog/preparing-gutters-summer/" style="${link}">Preparing Your Gutters During Summer for the Seasons Ahead</a>. Even summer isn't risk-free, as <a href="/blog/summer-storms-blocked-gutters/" style="${link}">Summer Storms and Blocked Gutters</a> shows. <a href="/blog/late-summer-gutter-maintenance/" style="${link}">Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a> and <a href="/blog/beat-autumn-rush-summer-gutter-cleaning/" style="${link}">Beat the Autumn Rush: Book Your Summer Gutter Cleaning Early</a> cover booking ahead.</p>
+<p>Summer is the best inspection window, because dry weather shows defects clearly. See <a href="/blog/summer-gutter-inspections/" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a>, <a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a> and <a href="/blog/summer-gutter-preparation/" style="${link}">Preparing Your Gutters During Summer for the Seasons Ahead</a>. Even summer isn't risk-free, as <a href="/blog/blocked-gutters-birmingham/" style="${link}">Summer Storms and Blocked Gutters</a> shows. <a href="/blog/summer-gutter-maintenance/" style="${link}">Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a> and <a href="/blog/summer-gutter-cleaning-early/" style="${link}">Beat the Autumn Rush: Book Your Summer Gutter Cleaning Early</a> cover booking ahead.</p>
 
-<p>For the year as a whole, see the <a href="/blog/birmingham-gutter-maintenance-calendar/" style="${link}">Birmingham Gutter Maintenance Calendar</a>, the pre-season preparation timeline and <a href="/blog/gutter-cleaning-rainy-season-west-midlands/" style="${link}">Gutter Cleaning in Rainy Season: A West Midlands Homeowner's Prep List</a>. Wind decides which side fills first, as <a href="/blog/wind-direction-debris-buildup-birmingham/" style="${link}">How Wind Direction Affects Debris Build-Up in Birmingham Gutters</a> explains.</p>
+<p>For the year as a whole, see the <a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">Birmingham Gutter Maintenance Calendar</a>, the pre-season preparation timeline and <a href="/blog/heavy-rain-birmingham-gutters-ready/" style="${link}">Gutter Cleaning in Rainy Season: A West Midlands Homeowner's Prep List</a>. Wind decides which side fills first, as <a href="/blog/wind-debris-gutters/" style="${link}">How Wind Direction Affects Debris Build-Up in Birmingham Gutters</a> explains.</p>
 
 <h2 id="semi-detached">Semi-Detached and Shared Bungalows</h2>
 
-<p>Many bungalows are semi-detached or sit in a row, with a shared gutter section or downpipe at the party wall. One side's neglect can affect the other, as <a href="/blog/semi-detached-shared-gutter-boundary-birmingham/" style="${link}">Gutter Cleaning for Semi-Detached Homes: The Shared Boundary Issue in Birmingham</a> explains. Retirement and sheltered developments may also have a managing agent, so <a href="/blog/block-management-gutter-maintenance-west-midlands/" style="${link}">Block Management Gutter Maintenance: A West Midlands Property Manager's Checklist</a> is worth reading. Older bungalows may have cast iron or original timber, covered in <a href="/blog/victorian-homes-birmingham-different-gutter-cleaning/" style="${link}">Why Victorian Homes in Birmingham Need a Different Gutter Cleaning Approach</a>. Taller neighbours and larger buildings are covered in <a href="/high-level-gutter-cleaning-birmingham/" style="${link}">High-Level Gutter Cleaning Birmingham | Fully Insured</a>.</p>
+<p>Many bungalows are semi-detached or sit in a row, with a shared gutter section or downpipe at the party wall. One side's neglect can affect the other, as <a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham/" style="${link}">Gutter Cleaning for Semi-Detached Homes: The Shared Boundary Issue in Birmingham</a> explains. Retirement and sheltered developments may also have a managing agent, so <a href="/blog/block-gutter-maintenance/" style="${link}">Block Management Gutter Maintenance: A West Midlands Property Manager's Checklist</a> is worth reading. Older bungalows may have cast iron or original timber, covered in <a href="/blog/victorian-gutter-cleaning-birmingham/" style="${link}">Why Victorian Homes in Birmingham Need a Different Gutter Cleaning Approach</a>. Taller neighbours and larger buildings are covered in <a href="/blog/high-level-gutter-cleaning/" style="${link}">High-Level Gutter Cleaning Birmingham | Fully Insured</a>.</p>
 
-<p>On clay-influenced ground, repeated downpipe discharge in one spot matters more, as explained carefully in <a href="/blog/birmingham-clay-soil-foundation-damage/" style="${link}">How Birmingham's Clay Soil Affects Foundation Damage From Blocked Gutters</a>. It is gradual, and any structural worry belongs with a qualified structural engineer. For how a downpipe fault escalates, see <a href="/blog/hidden-damage-blocked-downpipe-solihull/" style="${link}">The Hidden Damage Behind Every Blocked Downpipe in Solihull</a>. <a href="/blog/west-midlands-home-storing-water-damage/" style="${link}">Is Your West Midlands Home Quietly Storing Water Damage Right Now?</a> covers the slow, hidden kind.</p>
+<p>On clay-influenced ground, repeated downpipe discharge in one spot matters more, as explained carefully in <a href="/blog/gutter-water-damage-guide/" style="${link}">How Birmingham's Clay Soil Affects Foundation Damage From Blocked Gutters</a>. It is gradual, and any structural worry belongs with a qualified structural engineer. For how a downpipe fault escalates, see <a href="/blog/hidden-damage-blocked-downpipe-solihull/" style="${link}">The Hidden Damage Behind Every Blocked Downpipe in Solihull</a>. <a href="/blog/west-midlands-water-damage/" style="${link}">Is Your West Midlands Home Quietly Storing Water Damage Right Now?</a> covers the slow, hidden kind.</p>
 
 <h2 id="records">Records, Insurance and Resale</h2>
 
-<p>Dated before and after photos help if a claim is ever questioned, as <a href="/blog/gutter-maintenance-home-insurance-birmingham/" style="${link}">Gutter Maintenance and Home Insurance: What Birmingham Homeowners Need to Know</a> explains. That guide is general information, not insurance advice. They also help at sale, because surveyors read a roofline early, as <a href="/blog/selling-birmingham-home-surveyors-gutters/" style="${link}">Selling Your Birmingham Home? Why Surveyors Always Check the Gutters First</a> explains. For commercial and larger sites, see <a href="/commercial-warehouse-gutter-cleaning-birmingham/" style="${link}">Commercial Warehouse Gutter Clearing Birmingham</a>, <a href="/blog/warehouse-box-gutter-grass/" style="${link}">Warehouse Gutter Clearing: When Grass Is Growing in Your Box Gutter</a> and our <a href="/commercial" style="${link}">commercial gutter cleaning service</a>. For everything in one place, <a href="/blog/complete-gutter-maintenance-birmingham-west-midlands/" style="${link}">The Complete Guide to Gutter Maintenance for Birmingham & West Midlands Homeowners</a> is the pillar guide.</p>
+<p>Dated before and after photos help if a claim is ever questioned, as <a href="/blog/gutter-water-damage-guide/" style="${link}">Gutter Maintenance and Home Insurance: What Birmingham Homeowners Need to Know</a> explains. That guide is general information, not insurance advice. They also help at sale, because surveyors read a roofline early, as <a href="/blog/gutters-before-selling/" style="${link}">Selling Your Birmingham Home? Why Surveyors Always Check the Gutters First</a> explains. For commercial and larger sites, see <a href="/services/commercial-gutter-cleaning/" style="${link}">Commercial Warehouse Gutter Clearing Birmingham</a>, <a href="/blog/warehouse-gutter-case-study/" style="${link}">Warehouse Gutter Clearing: When Grass Is Growing in Your Box Gutter</a> and our <a href="/services/commercial-gutter-cleaning/" style="${link}">commercial gutter cleaning service</a>. For everything in one place, <a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">The Complete Guide to Gutter Maintenance for Birmingham & West Midlands Homeowners</a> is the pillar guide.</p>
 <h2 id="choose-contractor">How to Choose a Contractor</h2>
 
 <p>Ask five questions.</p>
 
 <ol>
-  <li><strong>Do you clear to the channel floor and check the structure?</strong> See <a href="/blog/ask-before-hiring-gutter-cleaner-west-midlands/" style="${link}">The One Question to Ask Before Hiring Any Gutter Cleaner in the West Midlands</a>.</li>
+  <li><strong>Do you clear to the channel floor and check the structure?</strong> See <a href="/blog/ask-before-hiring-gutter-cleaner/" style="${link}">The One Question to Ask Before Hiring Any Gutter Cleaner in the West Midlands</a>.</li>
   <li><strong>Do you work from the ground, or put ladders against the property?</strong></li>
   <li><strong>Are you fully insured, and can I see the certificate?</strong></li>
   <li><strong>Do I get before and after photos of every run?</strong></li>
@@ -256,7 +256,7 @@ ${ctaBox}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Overhanging trees, wide roofs and moss all feed the channel. See <a href="/blog/tree-cover-gutter-cleaning-schedule-birmingham/" style="${link}">How Tree Cover Changes Your Gutter Cleaning Schedule in Birmingham</a>.</p>
+      <p style="margin: 16px 0 0;">Overhanging trees, wide roofs and moss all feed the channel. See <a href="/blog/tree-gutter-cleaning/" style="${link}">How Tree Cover Changes Your Gutter Cleaning Schedule in Birmingham</a>.</p>
     </div>
   </details>
 
@@ -275,7 +275,7 @@ ${ctaBox}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">It varies with run length, debris and what the camera finds. See <a href="/blog/gutter-clean-duration-birmingham/" style="${link}">How Long Does a Professional Gutter Clean Take in Birmingham?</a></p>
+      <p style="margin: 16px 0 0;">It varies with run length, debris and what the camera finds. See <a href="/blog/gutter-clean-duration/" style="${link}">How Long Does a Professional Gutter Clean Take in Birmingham?</a></p>
     </div>
   </details>
 
@@ -285,7 +285,7 @@ ${ctaBox}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Yes, flat roofs and conservatories drain differently. See <a href="/blog/flat-roof-gutters-birmingham-maintenance/" style="${link}">Flat Roof Gutters in Birmingham</a>.</p>
+      <p style="margin: 16px 0 0;">Yes, flat roofs and conservatories drain differently. See <a href="/blog/flat-roof-gutters/" style="${link}">Flat Roof Gutters in Birmingham</a>.</p>
     </div>
   </details>
 
@@ -318,6 +318,6 @@ ${ctaBox}
 
 <p>Serving Birmingham, Solihull, Sutton Coldfield, Wolverhampton, Dudley, Walsall, Coventry, Redditch, Worcester, Bromsgrove and all West Midlands areas.</p>
 
-<p><strong>Related reading:</strong> <a href="/blog/gutter-ladder-safety/" style="${link}">Can You Clean Your Own Gutters Safely?</a> · <a href="/blog/tree-cover-gutter-cleaning-schedule-birmingham/" style="${link}">How Tree Cover Changes Your Gutter Cleaning Schedule in Birmingham</a> · <a href="/blog/flat-roof-gutters-birmingham-maintenance/" style="${link}">Flat Roof Gutters in Birmingham</a> · <a href="/gutter-vacuum-cleaning-birmingham/" style="${link}">Gutter Vacuum Cleaning Birmingham</a> · <a href="/roofline-cleaning-birmingham/" style="${link}">Roofline Cleaning Birmingham</a> · <a href="/blog/leaves-in-gutters/" style="${link}">Leaves in Gutters?</a> · <a href="/blog/gutter-water-damage-guide/" style="${link}">Water Damage From Gutters</a> · <a href="/blog/complete-gutter-maintenance-birmingham-west-midlands/" style="${link}">The Complete Guide to Gutter Maintenance</a></p>
+<p><strong>Related reading:</strong> <a href="/blog/gutter-ladder-safety/" style="${link}">Can You Clean Your Own Gutters Safely?</a> · <a href="/blog/tree-gutter-cleaning/" style="${link}">How Tree Cover Changes Your Gutter Cleaning Schedule in Birmingham</a> · <a href="/blog/flat-roof-gutters/" style="${link}">Flat Roof Gutters in Birmingham</a> · <a href="/blog/gutter-vacuum-cleaning-birmingham/" style="${link}">Gutter Vacuum Cleaning Birmingham</a> · <a href="/roofline-cleaning-birmingham/" style="${link}">Roofline Cleaning Birmingham</a> · <a href="/blog/leaves-in-gutters/" style="${link}">Leaves in Gutters?</a> · <a href="/blog/gutter-water-damage-guide/" style="${link}">Water Damage From Gutters</a> · <a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">The Complete Guide to Gutter Maintenance</a></p>
 `
 };

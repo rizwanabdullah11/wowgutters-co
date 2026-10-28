@@ -13,7 +13,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaTop = `
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
@@ -33,7 +33,7 @@ const ctaBox = `
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week availability across Solihull</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -136,11 +136,11 @@ ${ctaTop}
 
 <p>Gutter brackets fix directly into the fascia board, and their structural integrity depends genuinely on that board remaining sound. As the fascia board softens progressively through the moisture exposure described in Stage Two, the bracket fixings gradually lose the secure purchase they originally had, exactly as detailed throughout <a href="/blog/roofline-damage-prevention" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a>.</p>
 
-<p>This stage is genuinely dangerous specifically because it remains largely undetectable from the ground even as it progresses. A bracket that's beginning to lose its grip doesn't necessarily produce visible sagging immediately — that specific, more obviously visible sign, covered throughout <a href="/blog/gutters-telling-you-summer" style="${link}">What Your Gutters Are Trying to Tell You This Summer</a>, typically only becomes apparent once the compromise has progressed considerably further than this intermediate stage.</p>
+<p>This stage is genuinely dangerous specifically because it remains largely undetectable from the ground even as it progresses. A bracket that's beginning to lose its grip doesn't necessarily produce visible sagging immediately — that specific, more obviously visible sign, covered throughout <a href="/blog/summer-gutter-warning/" style="${link}">What Your Gutters Are Trying to Tell You This Summer</a>, typically only becomes apparent once the compromise has progressed considerably further than this intermediate stage.</p>
 
 <h2 id="stage-four-wall">Stage Four: The Wall Itself Starts Taking the Water</h2>
 
-<p>Whether through a bracket that's now failing to hold the gutter section at the correct angle, or simply through the gutter's original overflow point continuing to worsen, water increasingly begins running down the external wall face rather than being carried away through the downpipe as designed. As explained throughout <a href="/blog/gutters-telling-you-summer" style="${link}">What Your Gutters Are Trying to Tell You This Summer</a>, this is the point at which the first genuinely ground-level-visible sign of the whole chain typically appears — a vertical staining pattern running down from the gutter line, distinct from general weathering.</p>
+<p>Whether through a bracket that's now failing to hold the gutter section at the correct angle, or simply through the gutter's original overflow point continuing to worsen, water increasingly begins running down the external wall face rather than being carried away through the downpipe as designed. As explained throughout <a href="/blog/summer-gutter-warning/" style="${link}">What Your Gutters Are Trying to Tell You This Summer</a>, this is the point at which the first genuinely ground-level-visible sign of the whole chain typically appears — a vertical staining pattern running down from the gutter line, distinct from general weathering.</p>
 
 <p>Repeated exposure at this stage begins deteriorating the mortar joints in the external brickwork, and over successive rainfall events across multiple seasons, this deterioration creates the pathways for penetrating damp described in full throughout <a href="/blog/clean-gutters-prevent-damp" style="${link}">Can Blocked Gutters Cause Damp?</a></p>
 
@@ -182,7 +182,7 @@ ${ctaTop}
 
 <p>Solihull's genuinely substantial tree coverage across its more established residential areas contributes directly to how quickly Stage One of this chain develops. As explained throughout <a href="/blog/tree-gutter-cleaning" style="${link}">How Tree Cover Changes Your Gutter Cleaning Schedule in Birmingham</a>, the specific debris characteristics of nearby species — sycamore's two-season combined volume, lime's sticky, difficult-to-clear debris, ash's rapid decomposition into a downpipe-sealing slurry — all directly determine how quickly the initial restriction described in Stage One actually forms and progresses.</p>
 
-<p>Roof moss, as covered throughout <a href="/blog/moss-on-your-roof-gutters" style="${link}">Moss on Your Roof? What It's Doing to Your Birmingham Gutters Right Now</a>, contributes its own continuous, year-round debris source into this same Stage One restriction point, independent of any seasonal tree-fall pattern.</p>
+<p>Roof moss, as covered throughout <a href="/blog/roof-moss-damage/" style="${link}">Moss on Your Roof? What It's Doing to Your Birmingham Gutters Right Now</a>, contributes its own continuous, year-round debris source into this same Stage One restriction point, independent of any seasonal tree-fall pattern.</p>
 
 <figure style="margin: 24px 0;">
   <img
@@ -236,7 +236,7 @@ ${ctaTop}
 
 <h2 id="professional-visit">What a Proper Professional Visit Actually Confirms</h2>
 
-<p>A genuinely thorough professional visit, as covered comprehensively throughout <a href="/blog/professional-gutter-walkthrough" style="${link}">What Happens During a Professional Gutter Clean?</a> and delivered entirely from ground level as detailed throughout <a href="/blog/how-to-clean-gutters-without-ladder" style="${link}">How Do You Clean Gutters Without a Ladder? The Method Birmingham Pros Use</a>, genuinely checks every single stage of this chain within a single, coordinated visit — full debris extraction to channel floor level, downpipe flow testing on every outlet, real-time structural assessment of joints and brackets, and fascia and soffit observation, all documented with before and after photographs.</p>
+<p>A genuinely thorough professional visit, as covered comprehensively throughout <a href="/blog/professional-gutter-walkthrough" style="${link}">What Happens During a Professional Gutter Clean?</a> and delivered entirely from ground level as detailed throughout <a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">How Do You Clean Gutters Without a Ladder? The Method Birmingham Pros Use</a>, genuinely checks every single stage of this chain within a single, coordinated visit — full debris extraction to channel floor level, downpipe flow testing on every outlet, real-time structural assessment of joints and brackets, and fascia and soffit observation, all documented with before and after photographs.</p>
 
 <h2 id="coverage-areas">Coverage Across Solihull and the West Midlands</h2>
 
@@ -296,11 +296,11 @@ ${ctaBox}
   <li><a href="/blog/west-midlands-water-damage" style="${link}">Is Your West Midlands Home Quietly Storing Water Damage Right Now?</a></li>
   <li><a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham" style="${link}">Gutter Cleaning for Semi-Detached Homes</a></li>
   <li><a href="/blog/tree-gutter-cleaning" style="${link}">How Tree Cover Changes Your Gutter Cleaning Schedule in Birmingham</a></li>
-  <li><a href="/blog/moss-on-your-roof-gutters" style="${link}">Moss on Your Roof? What It's Doing to Your Birmingham Gutters</a></li>
-  <li><a href="/blog/gutters-telling-you-summer" style="${link}">What Your Gutters Are Trying to Tell You This Summer</a></li>
+  <li><a href="/blog/roof-moss-damage/" style="${link}">Moss on Your Roof? What It's Doing to Your Birmingham Gutters</a></li>
+  <li><a href="/blog/summer-gutter-warning/" style="${link}">What Your Gutters Are Trying to Tell You This Summer</a></li>
   <li><a href="/blog/professional-gutter-walkthrough" style="${link}">What Happens During a Professional Gutter Clean?</a></li>
   <li><a href="/blog/summer-gutter-inspections" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a></li>
-  <li><a href="/blog/how-to-clean-gutters-without-ladder" style="${link}">How Do You Clean Gutters Without a Ladder?</a></li>
+  <li><a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">How Do You Clean Gutters Without a Ladder?</a></li>
 </ul>
 `
 };

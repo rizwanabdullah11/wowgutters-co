@@ -1,3 +1,4 @@
+import { blogThumb } from '@/lib/blogThumb';
 import Link from 'next/link';
 import { colors } from '@/constants/colors';
 import { blogPosts, type BlogPost } from '@/constants/blogData';
@@ -44,7 +45,7 @@ export default function AreaBlogSnippet({ locality }: AreaBlogSnippetProps) {
               >
                 <div className="w-full sm:w-[280px] shrink-0 rounded overflow-hidden aspect-video relative shadow-sm border border-gray-200">
                   <img
-                    src={post.image ?? '/professional-gutter-clean.webp'}
+                    src={blogThumb(post.image) || '/professional-gutter-clean.webp'}
                     alt={post.title}
                     className="w-full h-full object-cover absolute inset-0"
                   />

@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/tree-cover-gutter-cleaning/tree-cover-gutter-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
@@ -19,7 +19,7 @@ const ctaBox = `
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-week availability</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -244,7 +244,7 @@ export const kingsHeathBlogPost: BlogPost = {
 
 <p><strong>Surrounding postcodes covered regularly:</strong> <a href="/gutter-cleaning-moseley/" style="${link}">Moseley (B13)</a> · <a href="/blog/gutter-cleaning-acocks-green/" style="${link}">Acocks Green (B27)</a> · <a href="/gutter-cleaning-hall-green/" style="${link}">Hall Green (B28)</a> · Yardley Wood (B14) · <a href="/gutter-cleaning-stirchley/" style="${link}">Stirchley (B30)</a> · <a href="/blog/gutter-cleaning-balsall-heath/" style="${link}">Balsall Heath (B12)</a> · <a href="/gutter-cleaning-selly-oak/" style="${link}">Selly Oak (B29)</a> · <a href="/gutter-cleaning-harborne/" style="${link}">Harborne (B17)</a> · Billesley (B13) · Kings Norton (B30/B38)</p>
 
-<p>Not sure if we cover your street? Call <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a> and we'll confirm immediately.</p>
+<p>Not sure if we cover your street? Call <a href="tel:07421433910" style="color: #047857; font-weight: 700; text-decoration: none;">07421 433910</a> and we'll confirm immediately.</p>
 
 <h2 id="why-choose">Why Kings Heath Homeowners Choose WOW Gutters Ltd</h2>
 
@@ -321,7 +321,7 @@ ${ctaBox}
 
 <p>Getting them cleared is straightforward. WOW Gutters Ltd covers Kings Heath and all of B14. Free quote. Same-week availability. Before and after photographs on every single job. Honest reporting on what we find.</p>
 
-<p>📞 <strong>Call now:</strong> <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
+<p>📞 <strong>Call now:</strong> <a href="tel:07421433910" style="color: #047857; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
 📧 <strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a><br/>
 🌐 <strong>Online quote:</strong> <a href="/quote/" style="${link}">wowgutters.co.uk/quote</a><br/>
 💬 <strong>WhatsApp:</strong> <a href="https://wa.me/447421433910" style="${link}" rel="noopener">wa.me/447421433910</a><br/>

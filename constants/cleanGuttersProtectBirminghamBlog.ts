@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
@@ -19,7 +19,7 @@ const ctaBox = `
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week availability across Birmingham</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -217,7 +217,7 @@ export const cleanGuttersProtectBirminghamBlogPost: BlogPost = {
 
 <h3>Large Period Detached — Complex Risk Profile</h3>
 
-<p><strong>Locations:</strong> <a href="/blog/gutter-cleaning-edgbaston/" style="${link}">Edgbaston B15</a>, <a href="/blog/gutter-cleaning-harborne/" style="${link}">Harborne B17</a>, Sutton Coldfield, Solihull premium areas, Warwick, Worcester</p>
+<p><strong>Locations:</strong> <a href="/blog/blocked-gutters-birmingham/" style="${link}">Edgbaston B15</a>, <a href="/blog/gutter-cleaning-harborne/" style="${link}">Harborne B17</a>, Sutton Coldfield, Solihull premium areas, Warwick, Worcester</p>
 
 <p><strong>Why the risk is complex:</strong> Hipped rooflines with valley gutters, extended runs, and higher gutter positions create multiple potential failure points simultaneously. Valley gutter overflow is particularly problematic — directing moisture toward the roof structure and eave position rather than down the external wall, producing ceiling-level damp that is frequently misattributed to roof covering failure.</p>
 
@@ -275,11 +275,11 @@ export const cleanGuttersProtectBirminghamBlogPost: BlogPost = {
 
 <h3>The downpipe test</h3>
 
-<p>During moderate rainfall, watch the base of each downpipe for 60 seconds. A functioning downpipe produces consistent, clear flow. No flow confirms a completely blocked downpipe — meaning the full roof drainage volume has been overflowing rather than draining. <a href="/blog/birmingham-heavy-rainfall-damage/" style="${link}">Heavy rain gutter preparation Birmingham</a> — a blocked downpipe identified before Birmingham's heavy autumn rainfall events is a damp prevention intervention that costs a fraction of the damp treatment it prevents.</p>
+<p>During moderate rainfall, watch the base of each downpipe for 60 seconds. A functioning downpipe produces consistent, clear flow. No flow confirms a completely blocked downpipe — meaning the full roof drainage volume has been overflowing rather than draining. <a href="/blog/birmingham-rain-gutter-damage/" style="${link}">Heavy rain gutter preparation Birmingham</a> — a blocked downpipe identified before Birmingham's heavy autumn rainfall events is a damp prevention intervention that costs a fraction of the damp treatment it prevents.</p>
 
 <h3>The professional confirmation</h3>
 
-<p><a href="/blog/gutter-inspection-birmingham/" style="${link}">Gutter inspection Birmingham</a> — when the external indicators and the positional test suggest a gutter source, a professional inspection with before photographs from inside the channel provides definitive confirmation. The before photograph shows the channel condition and the outlet or downpipe blockage that has been producing the overflow. The after photograph confirms the cleared drainage path.</p>
+<p><a href="/blog/birmingham-gutter-inspection/" style="${link}">Gutter inspection Birmingham</a> — when the external indicators and the positional test suggest a gutter source, a professional inspection with before photographs from inside the channel provides definitive confirmation. The before photograph shows the channel condition and the outlet or downpipe blockage that has been producing the overflow. The after photograph confirms the cleared drainage path.</p>
 
 <h2 id="seasonal-calendar">8. The Seasonal Damp Protection Calendar for Birmingham Homeowners</h2>
 
@@ -330,7 +330,7 @@ export const cleanGuttersProtectBirminghamBlogPost: BlogPost = {
 </table>
 </div>
 
-<p><a href="/blog/summer-gutter-cleaning-birmingham/" style="${link}">Summer gutter maintenance Birmingham</a> — the summer maintenance window is the underrated damp protection intervention. Clearing the spring and summer accumulation before autumn adds its leaf fall volume ensures the system enters the highest-risk months at maximum drainage capacity.</p>
+<p><a href="/blog/gutter-cleaning-birmingham-summer/" style="${link}">Summer gutter maintenance Birmingham</a> — the summer maintenance window is the underrated damp protection intervention. Clearing the spring and summer accumulation before autumn adds its leaf fall volume ensures the system enters the highest-risk months at maximum drainage capacity.</p>
 
 <h3>The September Priority</h3>
 

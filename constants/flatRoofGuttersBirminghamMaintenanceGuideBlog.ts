@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/flat-roof-cleaning/flat-roof-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
@@ -20,14 +20,14 @@ const ctaBox = `
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-week availability</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
 const sectionCta = `
 <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; margin: 32px 0; text-align: center;">
   <p style="font-size: 1.1rem; font-weight: 700; color: #0f172a; margin: 0 0 8px 0;">WOW Gutters Ltd — Birmingham's flat roof and gutter specialists</p>
-  <a href="tel:07421433910" style="color: #19C58B; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
+  <a href="tel:07421433910" style="color: #047857; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
 </div>`;
 
 export const flatRoofGuttersBirminghamMaintenanceGuideBlogPost: BlogPost = {
@@ -166,7 +166,7 @@ ${sectionCta}
 
 <h2 id="commercial">Commercial and Larger-Scale Flat Roof Drainage</h2>
 
-<p>Beyond residential extensions, flat roof drainage is the standard arrangement on the majority of commercial, industrial, and warehouse properties across Birmingham and the wider West Midlands — the kind of large-footprint distribution and industrial buildings covered in our <a href="/commercial/" style="${link}">commercial gutter clearing</a> case studies, where box gutters and internal drainage outlets handle water across roof areas many times larger than any residential property.</p>
+<p>Beyond residential extensions, flat roof drainage is the standard arrangement on the majority of commercial, industrial, and warehouse properties across Birmingham and the wider West Midlands — the kind of large-footprint distribution and industrial buildings covered in our <a href="/services/commercial-gutter-cleaning/" style="${link}">commercial gutter clearing</a> case studies, where box gutters and internal drainage outlets handle water across roof areas many times larger than any residential property.</p>
 
 <p>At commercial scale, the consequences of neglected flat roof drainage escalate considerably. Ponding across a large commercial flat roof represents a genuinely significant structural load if it accumulates during a period of sustained rainfall, and the potential for water ingress affecting stock, equipment, or racking below makes commercial flat roof drainage maintenance a genuinely business-critical consideration rather than simply a property upkeep concern. Our own experience clearing commercial box gutters — including cases where years of unaddressed silt accumulation had progressed to the point of supporting actively rooted vegetation — illustrates just how severe this neglect can become when a large flat or near-flat commercial roof drainage system goes unmaintained for an extended period.</p>
 
@@ -346,9 +346,9 @@ ${ctaBox}
 
 ${ctaBox}
 
-<p><strong>Call:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a><br/>
-<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">support@wowgutters.co.uk</a><br/>
-<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">wowgutters.co.uk</a></p>
+<p><strong>Call:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #047857; text-decoration: none;">07421 433910</a><br/>
+<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">support@wowgutters.co.uk</a><br/>
+<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">wowgutters.co.uk</a></p>
 
 <p><em>Serving Birmingham, Solihull, Sutton Coldfield, Edgbaston, Harborne, Kings Heath, Moseley, Bournville, Erdington, Wolverhampton, Dudley, Walsall, West Bromwich, Coventry, Redditch, Bromsgrove, Worcester, Kidderminster and all West Midlands areas.</em></p>
 
@@ -359,7 +359,7 @@ ${ctaBox}
   <li><a href="/blog/hidden-gutter-damage-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a></li>
   <li><a href="/blog/west-midlands-water-damage/" style="${link}">Is Your West Midlands Home Quietly Storing Water Damage Right Now?</a></li>
   <li><a href="/blog/blocked-gutters-birmingham/" style="${link}">Can Blocked Gutters Cause Damp?</a></li>
-  <li><a href="/commercial/" style="${link}">Commercial Gutter Cleaning</a></li>
+  <li><a href="/services/commercial-gutter-cleaning/" style="${link}">Commercial Gutter Cleaning</a></li>
   <li><a href="/blog/warehouse-gutter-clearing/" style="${link}">Commercial Warehouse Gutter Clearing Birmingham</a></li>
   <li><a href="/blog/warehouse-gutter-case-study/" style="${link}">Warehouse Gutter Clearing Box Gutter Case Study</a></li>
   <li><a href="/services/gutter-cleaning/" style="${link}">Downpipe Unblocking</a></li>

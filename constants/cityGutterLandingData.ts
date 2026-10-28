@@ -599,7 +599,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       },
       {
         label: 'Modern estates (Stoke Heath)',
-        detail: 'Newer properties with standard uPVC guttering. Annual clean maintains warranty condition.',
+        detail: 'Newer properties with standard uPVC guttering. An annual clean keeps it flowing freely.',
       },
     ],
     areasTitle: 'Areas We Cover Around Bromsgrove',
@@ -943,7 +943,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       },
       {
         label: 'Modern development',
-        detail: 'Newer estate properties with standard guttering. Annual clean maintains warranty condition.',
+        detail: 'Newer estate properties with standard guttering. An annual clean keeps it flowing freely.',
       },
       {
         label: 'Commuter detached homes',
@@ -1086,7 +1086,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       },
       {
         label: 'New build developments (Minworth, New Oscott)',
-        detail: 'Modern guttering still accumulates debris from surrounding trees. Annual clean keeps systems in warranty condition and prevents early joint issues.'
+        detail: 'Modern guttering still accumulates debris from surrounding trees. An annual clean keeps the system flowing and prevents early joint issues.'
       },
       {
         label: 'Flats & apartment blocks (Sutton town centre, Mere Green)',
@@ -1163,7 +1163,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Town centre period homes (Hasbury, Manor Way)', detail: 'Older properties with period guttering. We clean carefully and flag any concerns in your post-service report.' },
       { label: '1930s\u20131960s semis (Lapal, Hayley Green)', detail: 'Standard uPVC systems. Annual leaf and moss removal keeps them flowing freely and prevents joint failure.' },
       { label: 'Detached homes (Hunnington, Romsley)', detail: 'Larger properties with longer gutter runs near Clent Hills. Heavier leaf fall from woodland surroundings.' },
-      { label: 'Modern estates (B62 developments)', detail: 'Newer guttering still needs annual clearing. We maintain warranty condition with thorough, careful work.' },
+      { label: 'Modern estates (B62 developments)', detail: 'Newer guttering still needs annual clearing. We clean thoroughly and carefully.' },
       { label: 'Commercial & school premises', detail: 'Planned maintenance contracts available for businesses, schools and community buildings across Halesowen.' },
     ],
     areasTitle: 'Areas We Cover Around Halesowen',
@@ -1214,7 +1214,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Historic town centre properties (Castle area, St Editha\'s)', detail: 'Listed and period properties with older guttering. We clean carefully with condition reporting as standard.' },
       { label: 'Post-war semis (Amington, Glascote)', detail: 'Common local housing type with uPVC systems. Annual clearing of leaf and moss build-up keeps them flowing freely.' },
       { label: 'Detached family homes (Wilnecote, Dosthill)', detail: 'Longer runs and multiple rooflines. Our 4-storey reach handles all sections including over garages and extensions.' },
-      { label: 'New build estates (Two Gates, Stonydelph)', detail: 'Modern guttering still attracts debris. Annual clean maintains warranty condition and prevents early joint failure.' },
+      { label: 'New build estates (Two Gates, Stonydelph)', detail: 'Modern guttering still attracts debris. An annual clean prevents early joint failure.' },
       { label: 'Commercial & industrial units', detail: 'Maintenance plans available for offices, retail and light industrial premises across Tamworth.' },
     ],
     areasTitle: 'Areas We Cover Around Tamworth',
@@ -1265,7 +1265,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Victorian & Edwardian homes (Oldswinford, town centre)', detail: 'Period properties with older gutter systems. We clean carefully and provide a full condition report.' },
       { label: '1930s\u20131950s semis (Wollaston, Norton)', detail: 'Standard uPVC runs with typical leaf and moss build-up. Annual clean prevents joint and bracket failure.' },
       { label: 'Detached homes (Pedmore, Amblecote)', detail: 'Longer gutter runs and multiple elevations. Our 4-storey vacuum reach handles all sections with ease.' },
-      { label: 'Lye & modern developments', detail: 'Modern properties still accumulate debris. We clean thoroughly to maintain warranty condition.' },
+      { label: 'Lye & modern developments', detail: 'Modern properties still accumulate debris. We clean thoroughly and carefully.' },
       { label: 'Commercial premises (Stourbridge town centre)', detail: 'Planned maintenance contracts available for offices, retail and light industrial properties.' },
     ],
     areasTitle: 'Areas We Cover Around Stourbridge',
@@ -1316,7 +1316,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Victorian terraced homes (Bearwood, Cape Hill)', detail: 'Older terraced stock with shared rooflines. We clean carefully and check every downpipe for proper flow.' },
       { label: '1930s\u20131950s semis (Londonderry, Uplands)', detail: 'Classic uPVC systems with high moss build-up. Annual clearing prevents overflow and leaking joints.' },
       { label: 'Mixed-use & shop-with-flats (High Street, Cape Hill)', detail: 'Commercial-residential properties cleaned up to 4 storeys. Minimal disruption to businesses below.' },
-      { label: 'Galton Village & new developments', detail: 'Modern properties still accumulate debris. We maintain warranties with thorough, professional cleaning.' },
+      { label: 'Galton Village & new developments', detail: 'Modern properties still accumulate debris. We keep them flowing with thorough, professional cleaning.' },
       { label: 'Commercial & school premises', detail: 'Planned maintenance contracts available for offices, schools and community buildings across Smethwick.' },
     ],
     areasTitle: 'Areas We Cover Around Smethwick',
@@ -1378,7 +1378,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       },
       {
         label: 'Modern estates (Warley, new developments)',
-        detail: 'Newer guttering still accumulates debris. Annual clean keeps systems in warranty condition.'
+        detail: 'Newer guttering still accumulates debris. An annual clean keeps the system flowing freely.'
       },
       {
         label: 'Commercial & industrial units (Oldbury town centre)',
@@ -1459,7 +1459,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       },
       {
         label: 'New build estates (Coventry, Redditch, Tamworth)',
-        detail: 'Modern guttering still accumulates debris from surrounding trees. Annual clean maintains warranty condition and prevents early joint issues.',
+        detail: 'Modern guttering still accumulates debris from surrounding trees. An annual clean prevents early joint issues.',
       },
       {
         label: 'Commercial & industrial properties',

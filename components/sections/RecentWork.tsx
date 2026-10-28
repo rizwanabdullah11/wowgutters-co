@@ -4,7 +4,7 @@ import { colors } from '@/constants/colors';
 import { workPosts } from '@/constants/workData';
 import { ArrowRight } from 'lucide-react';
 
-const ACCENTS = ['#3B82F6', '#19C58B', '#F97316'];
+const ACCENTS = ['#1D4ED8', '#047857', '#C2410C'];
 
 export default function RecentWork() {
   const featuredPost = workPosts[0];
@@ -18,7 +18,7 @@ export default function RecentWork() {
         {/* Eyebrow */}
         <div className="flex items-center justify-center gap-3 mb-5">
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
-          <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primary }}>
+          <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primaryText }}>
             Recent Work
           </span>
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
@@ -49,7 +49,7 @@ export default function RecentWork() {
               className="w-full lg:w-1/3 h-52 object-cover"
             />
             <div className="p-6 flex flex-col justify-center flex-1">
-              <p className="text-[10px] font-bold tracking-widest uppercase mb-2" style={{ color: colors.primary }}>
+              <p className="text-[10px] font-bold tracking-widest uppercase mb-2" style={{ color: colors.primaryText }}>
                 FEATURED JOB
               </p>
               <h3 className="text-xl sm:text-2xl font-black mb-2" style={{ color: colors.text }}>

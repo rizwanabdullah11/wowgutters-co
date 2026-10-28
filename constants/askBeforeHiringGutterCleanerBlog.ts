@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/hiring-gutter-cleaning-westmidlands/hiring-gutter-cleaning-westmidlands-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaTop = `
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
@@ -27,7 +27,7 @@ const ctaBox = `
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week availability across Birmingham & West Midlands</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -118,7 +118,7 @@ ${ctaTop}
 
 <p>The clearest red flag is genuine vagueness — a contractor who can't or won't give a specific answer about extraction depth, deflecting toward general reassurance (<em>&ldquo;don't worry, we'll sort it&rdquo;</em>) rather than describing an actual method. This vagueness is worth taking seriously precisely because it's the single easiest thing for a contractor to answer confidently if the genuine answer is genuinely good — the absence of a confident, specific answer is itself informative.</p>
 
-<p>A second red flag is a price that seems noticeably lower than every other quote you've received for a comparable property, combined with a vague answer to this specific question. As covered extensively throughout our honest, detailed <a href="/pricing" style="${link}">pricing guide for Birmingham and the West Midlands</a>, cost genuinely varies for legitimate reasons — property size, height, debris volume — but a price that's dramatically lower than comparable quotes, paired with an inability to describe genuine channel-floor extraction, strongly suggests the lower price reflects a considerably more limited scope of work rather than simple efficiency or competitive positioning.</p>
+<p>A second red flag is a price that seems noticeably lower than every other quote you've received for a comparable property, combined with a vague answer to this specific question. As covered extensively throughout our honest, detailed <a href="/gutter-cleaning-prices/" style="${link}">pricing guide for Birmingham and the West Midlands</a>, cost genuinely varies for legitimate reasons — property size, height, debris volume — but a price that's dramatically lower than comparable quotes, paired with an inability to describe genuine channel-floor extraction, strongly suggests the lower price reflects a considerably more limited scope of work rather than simple efficiency or competitive positioning.</p>
 
 <p>A third red flag, worth listening for specifically, is any mention of ladders as the primary access method combined with a vague structural answer. As detailed extensively throughout our honest <a href="/blog/gutter-ladder-safety" style="${link}">ladder safety reality check for Birmingham homeowners</a>, a person working from a ladder is genuinely limited in how thoroughly they can inspect structural condition while also managing their own balance and safety — meaning a ladder-based service is statistically less likely to include the kind of genuine structural assessment a ground-based, camera-equipped system naturally provides.</p>
 
@@ -181,7 +181,7 @@ ${ctaTop}
 
 <h2 id="what-happens-when-you-skip-asking-this">What Happens When You Skip Asking This Entirely</h2>
 
-<p>The genuine consequence of booking without ever asking this question — simply choosing based on price or general reputation alone — is that you're genuinely gambling on receiving a thorough service without any actual confirmation that you will. As detailed comprehensively throughout our guidance on <a href="/blog/roofline-damage-prevention" style="${link}">why professional gutter cleaning extends the life of a property's roofline</a>, the structural issues a surface-level service misses — failing joints, dropped brackets, silt-reduced capacity — don't announce themselves immediately. They progress quietly, exactly as covered throughout our detailed explanation of <a href="/blog/water-damage-birmingham-home" style="${link}">why properties are often quietly storing water damage without the owner realising</a>, until they've already produced the kind of fascia deterioration or internal damp described extensively throughout our guidance on <a href="/blog/clean-gutters-prevent-damp" style="${link}">whether blocked gutters can cause damp</a>.</p>
+<p>The genuine consequence of booking without ever asking this question — simply choosing based on price or general reputation alone — is that you're genuinely gambling on receiving a thorough service without any actual confirmation that you will. As detailed comprehensively throughout our guidance on <a href="/blog/roofline-damage-prevention" style="${link}">why professional gutter cleaning extends the life of a property's roofline</a>, the structural issues a surface-level service misses — failing joints, dropped brackets, silt-reduced capacity — don't announce themselves immediately. They progress quietly, exactly as covered throughout our detailed explanation of <a href="/blog/gutter-water-damage-guide/" style="${link}">why properties are often quietly storing water damage without the owner realising</a>, until they've already produced the kind of fascia deterioration or internal damp described extensively throughout our guidance on <a href="/blog/clean-gutters-prevent-damp" style="${link}">whether blocked gutters can cause damp</a>.</p>
 
 <p>By the time a surface-level service's limitations become obvious — a joint that should have been caught and resealed a year earlier, now requiring a full fascia board replacement instead — the cost difference between the cheap, limited visit and a genuinely thorough one has typically been dwarfed many times over by the resulting repair.</p>
 
@@ -206,7 +206,7 @@ ${ctaTop}
 
 <p>WOW Gutters Ltd provides professional gutter cleaning across <a href="/gutter-cleaning-birmingham" style="${link}">Birmingham</a>, <a href="/gutter-cleaning-solihull" style="${link}">Solihull</a>, <a href="/gutter-cleaning-sutton-coldfield" style="${link}">Sutton Coldfield</a>, <a href="/blog/gutter-cleaning-wolverhampton" style="${link}">Wolverhampton</a>, <a href="/gutter-cleaning-walsall" style="${link}">Walsall</a>, <a href="/gutter-cleaning-dudley" style="${link}">Dudley</a>, <a href="/blog/gutter-cleaning-coventry" style="${link}">Coventry</a>, <a href="/gutter-cleaning-redditch" style="${link}">Redditch</a>, <a href="/gutter-cleaning-worcester" style="${link}">Worcester</a>, <a href="/gutter-cleaning-bromsgrove" style="${link}">Bromsgrove</a>, and all <a href="/" style="${link}">West Midlands</a> areas, with every visit built around exactly the standard described throughout this article — genuine channel-floor extraction, real-time structural inspection, comprehensive downpipe flow testing, and full photographic documentation, as standard on every single job.</p>
 
-<p>Book at <a href="/contact" style="${link}">wowgutters.co.uk/contact</a>, browse our <a href="/gallery" style="${link}">gallery</a> for genuine before and after examples, or read our <a href="/reviews" style="${link}">reviews</a> from customers across the region.</p>
+<p>Book at <a href="/contact" style="${link}">wowgutters.co.uk/contact</a>, browse our <a href="/the-gutter-gallery/" style="${link}">gallery</a> for genuine before and after examples, or read our <a href="/reviews" style="${link}">reviews</a> from customers across the region.</p>
 
 <p>📞 Call: <a href="tel:07421433910" style="${link}">07421 433910</a><br/>
 📧 Email: <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a><br/>
@@ -276,7 +276,7 @@ ${ctaBox}
   <li><a href="/blog/hidden-gutter-damage-summer" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a></li>
   <li><a href="/blog/how-clean-gutters-without-ladder-birmingham-method" style="${link}">How Do You Clean Gutters Without a Ladder?</a></li>
   <li><a href="/blog/professional-gutter-walkthrough" style="${link}">What Happens During a Professional Gutter Clean?</a></li>
-  <li><a href="/pricing" style="${link}">How Much Does Gutter Cleaning Really Cost?</a></li>
+  <li><a href="/gutter-cleaning-prices/" style="${link}">How Much Does Gutter Cleaning Really Cost?</a></li>
   <li><a href="/blog/gutter-ladder-safety" style="${link}">Can You Clean Your Own Gutters Safely?</a></li>
   <li><a href="/blog/downpipe-blocked-signs-birmingham-homes" style="${link}">Downpipes Blocked Again? The Birmingham Fix Most Homeowners Miss</a></li>
   <li><a href="/blog/clean-gutters-prevent-damp" style="${link}">Gutter Maintenance and Home Insurance</a></li>
@@ -286,7 +286,7 @@ ${ctaBox}
   <li><a href="/blog/flat-roof-gutters" style="${link}">Flat Roof Gutters in Birmingham</a></li>
   <li><a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham" style="${link}">Gutter Cleaning for Semi-Detached Homes</a></li>
   <li><a href="/blog/roofline-damage-prevention" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
-  <li><a href="/blog/water-damage-birmingham-home" style="${link}">Is Your West Midlands Home Quietly Storing Water Damage Right Now?</a></li>
+  <li><a href="/blog/gutter-water-damage-guide/" style="${link}">Is Your West Midlands Home Quietly Storing Water Damage Right Now?</a></li>
   <li><a href="/blog/clean-gutters-prevent-damp" style="${link}">Can Blocked Gutters Cause Damp?</a></li>
 </ul>
 `

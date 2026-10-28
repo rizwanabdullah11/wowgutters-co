@@ -156,7 +156,7 @@ export default function HelpPage() {
                   setSearchQuery('');
                   setSelectedCategory('All');
                 }}
-                className="mt-4 text-[#19C58B] font-bold hover:underline"
+                className="mt-4 text-[#047857] font-bold hover:underline"
               >
                 Clear filters
               </button>
@@ -179,7 +179,7 @@ export default function HelpPage() {
                     <div className="flex items-center gap-4 flex-1">
                       <div className="text-3xl">{faq.icon}</div>
                       <div className="flex-1">
-                        <h3 className="text-lg font-bold text-gray-900 group-hover:text-[#19C58B] transition-colors mb-1">
+                        <h3 className="text-lg font-bold text-gray-900 group-hover:text-[#047857] transition-colors mb-1">
                           {faq.question}
                         </h3>
                         <span className="text-xs font-semibold px-3 py-1 rounded-full bg-gray-100 text-gray-600">
@@ -188,7 +188,7 @@ export default function HelpPage() {
                       </div>
                     </div>
                     <ChevronDown
-                      className={`w-6 h-6 text-[#19C58B] transition-transform duration-300 shrink-0 ${
+                      className={`w-6 h-6 text-[#047857] transition-transform duration-300 shrink-0 ${
                         openFAQ === faq.id ? 'rotate-180' : ''
                       }`}
                     />

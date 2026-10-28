@@ -416,7 +416,7 @@ export default function SuburbGutterCleaningPage({
           <p className="text-slate-600">{data.postcodeFooter}</p>
           <p className="text-slate-700 font-semibold mt-4">
             Not sure if we cover your street? Call{' '}
-            <a href="tel:07421433910" className="underline" style={{ color: colors.primary }}>07421 433910</a> — we will confirm in under a minute.
+            <a href="tel:07421433910" className="underline" style={{ color: colors.primaryText }}>07421 433910</a> — we will confirm in under a minute.
           </p>
         </div>
       </section>

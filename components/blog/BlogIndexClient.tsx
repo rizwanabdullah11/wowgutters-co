@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 import WhatsAppContactSection from '@/components/sections/WhatsAppContactSection';
 import { formatBlogDateShort } from '@/lib/dateUtils';
+import { blogThumb } from '@/lib/blogThumb';
 
 export default function BlogIndexClient({ blogPosts }: { blogPosts: BlogSummary[] }) {
   const [searchQuery, setSearchQuery] = useState('');
@@ -132,7 +133,7 @@ export default function BlogIndexClient({ blogPosts }: { blogPosts: BlogSummary[
                   </span>
                 </div>
 
-                <h3 className="text-3xl lg:text-4xl font-black text-gray-900 mb-4 group-hover:text-[#19C58B] transition-colors">
+                <h3 className="text-3xl lg:text-4xl font-black text-gray-900 mb-4 group-hover:text-[#047857] transition-colors">
                   {featuredPost.title}
                 </h3>
 
@@ -201,7 +202,7 @@ export default function BlogIndexClient({ blogPosts }: { blogPosts: BlogSummary[
                   <Link href={`/blog/${post.id}`}>
                     <div className="relative h-56 overflow-hidden">
                       <Image
-                        src={post.image}
+                        src={blogThumb(post.image)}
                         alt={post.title}
                         fill
                         className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -221,7 +222,7 @@ export default function BlogIndexClient({ blogPosts }: { blogPosts: BlogSummary[
                         </span>
                       </div>
 
-                      <h3 className="text-xl font-bold mb-3 text-gray-900 line-clamp-2 group-hover:text-[#19C58B] transition-colors">
+                      <h3 className="text-xl font-bold mb-3 text-gray-900 line-clamp-2 group-hover:text-[#047857] transition-colors">
                         {post.title}
                       </h3>
 

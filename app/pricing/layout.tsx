@@ -6,7 +6,7 @@ import PageSchema from '@/components/seo/PageSchema';
 export const metadata: Metadata = buildMetadata({
   title: 'Gutter Cleaning Prices',
   description: 'Transparent gutter cleaning prices in Birmingham and the West Midlands. 2-bed £100, 3-bed £110, premium £200, conservatory gutter clean £50, fascia & soffit £90, roof cleaning starting from £500, installation £300. Free quote — call WOW Gutters Ltd: 07421 433910.',
-  canonicalPath: '/pricing/',
+  canonicalPath: '/gutter-cleaning-prices/',
 });
 
 export default function PricingLayout({ children }: { children: React.ReactNode }) {

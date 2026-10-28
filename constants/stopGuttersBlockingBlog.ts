@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/stop-gutter-cleaning-birmingham/stop-gutter-cleaning-birmingham-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaTop = `
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
@@ -27,7 +27,7 @@ const ctaBox = `
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week appointments across Birmingham & West Midlands</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -110,9 +110,9 @@ ${ctaTop}
 
 <h2 id="fix-three-failing-joints">Fix Three: Reseal or Replace Failing Joints Before They Fail Completely</h2>
 
-<p>A failing joint doesn't simply cause a leak — it also, in many cases, creates a specific point where debris catches and accumulates more readily than along an intact section, as detailed throughout our dedicated guide on <a href="/blog/downpipes-blocked-again-birmingham-fix-homeowners-miss" style="${link}">why downpipes keep blocking again despite repeated clearing attempts</a>. Clearing debris from around a failing joint without actually resealing or replacing the joint itself means the same accumulation pattern will simply repeat at the identical location.</p>
+<p>A failing joint doesn't simply cause a leak — it also, in many cases, creates a specific point where debris catches and accumulates more readily than along an intact section, as detailed throughout our dedicated guide on <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">why downpipes keep blocking again despite repeated clearing attempts</a>. Clearing debris from around a failing joint without actually resealing or replacing the joint itself means the same accumulation pattern will simply repeat at the identical location.</p>
 
-<p>The genuine fix, ideally carried out during the dry-condition inspection window described throughout our guidance on <a href="/blog/dry-summer-weather-gutter-inspections-birmingham" style="${link}">how dry summer weather makes gutter inspections genuinely easier</a>, is identifying every marginal joint along the run — not just the one that happens to be visibly failing — and addressing each one properly, either through resealing or, where the joint has genuinely deteriorated beyond a simple reseal, full replacement of that specific section. In severe cases with aging cast-iron or commercial troughs, explore <a href="/gutter-lining" style="${link}">seamless gutter lining systems</a> to eliminate joint vulnerabilities permanently.</p>
+<p>The genuine fix, ideally carried out during the dry-condition inspection window described throughout our guidance on <a href="/blog/summer-gutter-inspections/" style="${link}">how dry summer weather makes gutter inspections genuinely easier</a>, is identifying every marginal joint along the run — not just the one that happens to be visibly failing — and addressing each one properly, either through resealing or, where the joint has genuinely deteriorated beyond a simple reseal, full replacement of that specific section. In severe cases with aging cast-iron or commercial troughs, explore <a href="/gutter-lining" style="${link}">seamless gutter lining systems</a> to eliminate joint vulnerabilities permanently.</p>
 
 <figure style="margin: 28px 0;">
   <img
@@ -130,13 +130,13 @@ ${ctaTop}
 
 <h2 id="fix-four-roof-moss">Fix Four: Treat Roof Moss at the Source, Not Just in the Gutter</h2>
 
-<p>If your roof shows visible moss coverage, clearing the gutter alone genuinely doesn't stop the recurrence, because the moss itself continues shedding fresh fragments continuously, as explained comprehensively throughout our detailed guidance on <a href="/blog/moss-on-your-roof-what-its-doing-to-birmingham-gutters" style="${link}">what roof moss is genuinely doing to your gutters right now</a>. This creates precisely the compounding cycle where a cleared gutter refills with fresh moss-derived debris considerably faster than a comparable gutter without this ongoing source, regardless of how thoroughly any individual clearance addresses what's already accumulated.</p>
+<p>If your roof shows visible moss coverage, clearing the gutter alone genuinely doesn't stop the recurrence, because the moss itself continues shedding fresh fragments continuously, as explained comprehensively throughout our detailed guidance on <a href="/blog/roof-moss-damage/" style="${link}">what roof moss is genuinely doing to your gutters right now</a>. This creates precisely the compounding cycle where a cleared gutter refills with fresh moss-derived debris considerably faster than a comparable gutter without this ongoing source, regardless of how thoroughly any individual clearance addresses what's already accumulated.</p>
 
 <p>The genuine fix is treating the moss at its actual source — low-pressure <a href="/services/roof-cleaning/" style="${link}">roof moss removal and biocide treatment</a> applied to the roof surface itself — alongside gutter clearance, rather than repeatedly clearing the symptom while the source continues producing fresh material. Once the moss is genuinely dead and washed clear, the continuous debris contribution stops, and the gutter clearing frequency required afterward drops correspondingly.</p>
 
 <h2 id="fix-five-tree-species-timing">Fix Five: Time Your Clearing to Your Specific Tree Species</h2>
 
-<p>A gutter that "just blocked again" only weeks after a supposedly thorough clean is frequently a gutter that was cleared at the wrong point in a specific tree species' shedding calendar, as detailed extensively throughout our comprehensive guidance on <a href="/blog/tree-cover-gutter-cleaning-schedule-birmingham" style="${link}">how tree cover changes gutter cleaning scheduling across Birmingham</a> and our guide to <a href="/blog/autumn-leaf-fall-tree-type-birmingham-gutters-hardest-hit" style="${link}">autumn leaf fall by tree type</a>. A property near oak, for instance, cleared in early October under the assumption that autumn maintenance is complete, will genuinely refill considerably faster than expected once oak's characteristically late leaf drop, continuing into November and sometimes December, actually arrives.</p>
+<p>A gutter that "just blocked again" only weeks after a supposedly thorough clean is frequently a gutter that was cleared at the wrong point in a specific tree species' shedding calendar, as detailed extensively throughout our comprehensive guidance on <a href="/blog/tree-gutter-cleaning/" style="${link}">how tree cover changes gutter cleaning scheduling across Birmingham</a> and our guide to <a href="/blog/autumn-leaf-buildup/" style="${link}">autumn leaf fall by tree type</a>. A property near oak, for instance, cleared in early October under the assumption that autumn maintenance is complete, will genuinely refill considerably faster than expected once oak's characteristically late leaf drop, continuing into November and sometimes December, actually arrives.</p>
 
 <p>The genuine fix is identifying which specific species affect your property and timing clearance to match their actual shedding pattern — an early clear for sycamore's seed case wave, a genuinely late clear for oak — rather than applying a single generic autumn date that doesn't reflect your property's actual, specific debris timing.</p>
 
@@ -156,13 +156,13 @@ ${ctaTop}
 
 <h2 id="fix-six-wind-exposed-elevation">Fix Six: Address the Wind-Exposed Elevation Specifically</h2>
 
-<p>If one side of your property consistently fills faster than the other despite seemingly identical tree coverage, prevailing wind direction is frequently the genuine explanation, as detailed throughout our guidance on <a href="/blog/wind-direction-debris-buildup-birmingham-gutters" style="${link}">how wind direction affects debris build-up across Birmingham gutters</a>. The leeward elevation, facing away from the prevailing southwesterly wind, frequently accumulates considerably more debris than the windward side, and roof corners and valleys concentrate debris far more heavily than straight, open runs due to localised wind turbulence.</p>
+<p>If one side of your property consistently fills faster than the other despite seemingly identical tree coverage, prevailing wind direction is frequently the genuine explanation, as detailed throughout our guidance on <a href="/blog/wind-debris-gutters/" style="${link}">how wind direction affects debris build-up across Birmingham gutters</a>. The leeward elevation, facing away from the prevailing southwesterly wind, frequently accumulates considerably more debris than the windward side, and roof corners and valleys concentrate debris far more heavily than straight, open runs due to localised wind turbulence.</p>
 
 <p>The genuine fix is recognising which specific elevation and which specific junction points on your property face this elevated accumulation risk, and ensuring these particular sections receive more thorough, more frequent attention than a uniform approach applied identically across every elevation would provide.</p>
 
 <h2 id="fix-seven-downpipe-transition-points">Fix Seven: Fix the Downpipe Transition Points, Not Just the Straight Sections</h2>
 
-<p>As covered extensively throughout our dedicated guide on <a href="/blog/downpipes-blocked-again-birmingham-fix-homeowners-miss" style="${link}">why downpipes keep blocking again despite repeated clearing attempts</a> and our checklist on <a href="/blog/downpipe-blocked-signs-birmingham-homes" style="${link}">how do you know if your downpipe is blocked</a>, debris genuinely concentrates and lodges at bends, offsets, and the swan neck or shoe fitting near the base — considerably more than in the straight vertical sections most people instinctively assume represent the risk. Repeatedly rodding a downpipe from top to bottom without specifically checking these transition points can leave a partial obstruction in place, appearing resolved momentarily while continuing to accumulate fresh material against the same partially cleared point.</p>
+<p>As covered extensively throughout our dedicated guide on <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">why downpipes keep blocking again despite repeated clearing attempts</a> and our checklist on <a href="/blog/downpipe-blocked-signs-birmingham-homes" style="${link}">how do you know if your downpipe is blocked</a>, debris genuinely concentrates and lodges at bends, offsets, and the swan neck or shoe fitting near the base — considerably more than in the straight vertical sections most people instinctively assume represent the risk. Repeatedly rodding a downpipe from top to bottom without specifically checking these transition points can leave a partial obstruction in place, appearing resolved momentarily while continuing to accumulate fresh material against the same partially cleared point.</p>
 
 <p>The genuine fix is specifically inspecting every bend and transition point during a proper structural visit, rather than assuming a straightforward top-to-bottom clear has addressed the actual location where debris is genuinely concentrating. We use specialized high-pressure nozzle tools to dislodge impacted swan-neck plugs during our <a href="/downpipe-unblocking" style="${link}">downpipe unblocking services</a>.</p>
 
@@ -182,7 +182,7 @@ ${ctaTop}
 
 <p>The single most consistent fix underlying every specific issue described throughout this article is ensuring every gutter clearing visit genuinely includes structural assessment — real-time camera inspection identifying joint condition, bracket integrity, and fall angle, exactly as detailed throughout our comprehensive walkthrough of <a href="/blog/professional-gutter-walkthrough" style="${link}">what a proper professional visit actually covers</a> and <a href="/blog/gutter-clean-duration" style="${link}">how long a professional gutter clean takes</a> — rather than debris removal alone.</p>
 
-<p>As explained throughout our dedicated guidance on <a href="/blog/one-question-before-hiring-gutter-cleaner-west-midlands" style="${link}">the one question worth asking before hiring any gutter cleaner across the West Midlands</a>, this specific distinction between surface-level clearing and genuine structural assessment is precisely what determines whether recurring issues get identified and fixed, or simply cleared away temporarily while the underlying cause remains in place to produce the identical recurrence at the next scheduled visit. For period homes, read our specialist guide on <a href="/blog/victorian-homes-birmingham-different-gutter-cleaning-approach" style="${link}">why Victorian homes need a different gutter cleaning approach</a>.</p>
+<p>As explained throughout our dedicated guidance on <a href="/blog/ask-before-hiring-gutter-cleaner/" style="${link}">the one question worth asking before hiring any gutter cleaner across the West Midlands</a>, this specific distinction between surface-level clearing and genuine structural assessment is precisely what determines whether recurring issues get identified and fixed, or simply cleared away temporarily while the underlying cause remains in place to produce the identical recurrence at the next scheduled visit. For period homes, read our specialist guide on <a href="/blog/victorian-gutter-cleaning-birmingham/" style="${link}">why Victorian homes need a different gutter cleaning approach</a>.</p>
 
 <h2 id="what-permanence-looks-like">What Genuinely Permanent Looks Like</h2>
 

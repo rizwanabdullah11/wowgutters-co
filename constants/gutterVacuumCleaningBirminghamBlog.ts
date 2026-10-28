@@ -1,6 +1,6 @@
 import type { BlogPost } from './blogTypes';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 const ctaTop = `
 <blockquote style="border-left: 4px solid #19C58B; background: #f0fdf8; padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; margin: 1.5rem 0;">
   📞 <strong>WOW Gutters Ltd – Ground-Based Gutter Vacuum Cleaning Across Birmingham &amp; the West Midlands.</strong><br/>
@@ -12,7 +12,7 @@ const ctaBox = `
 <div style="background: linear-gradient(135deg, #19C58B 0%, #0ea572 100%); color: #fff; padding: 2rem; border-radius: 12px; text-align: center; margin: 2.5rem 0;">
   <h3 style="margin: 0 0 0.5rem; font-size: 1.4rem;">Ready to Book Your Gutter Vacuum Clean?</h3>
   <p style="margin: 0 0 1rem; opacity: 0.95;">No ladders. No mess. Live camera footage on every visit.</p>
-  <a href="tel:07421433910" style="display: inline-block; background: #fff; color: #19C58B; font-weight: 700; padding: 0.75rem 2rem; border-radius: 8px; text-decoration: none; font-size: 1.05rem;">📞 Call 07421 433910</a>
+  <a href="tel:07421433910" style="display: inline-block; background: #fff; color: #047857; font-weight: 700; padding: 0.75rem 2rem; border-radius: 8px; text-decoration: none; font-size: 1.05rem;">📞 Call 07421 433910</a>
   &nbsp;&nbsp;
   <a href="/contact" style="display: inline-block; background: transparent; color: #fff; font-weight: 700; padding: 0.75rem 2rem; border-radius: 8px; text-decoration: none; font-size: 1.05rem; border: 2px solid #fff;">Get a Free Quote</a>
 </div>`;
@@ -180,17 +180,17 @@ ${ctaTop}
 
   <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
     <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.05rem;">🛡️ No Work at Height – Safer for Everyone</h3>
-    <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">Our operatives stay on the ground for the entire visit. This eliminates the principal hazard in gutter cleaning work and fully complies with the <a href="https://www.hse.gov.uk/work-at-height/the-regulations.htm" target="_blank" rel="noopener noreferrer" style="${link}">HSE Working at Height Regulations</a>. You can also learn more about <a href="/blog/how-clean-gutters-without-ladder" style="${link}">how gutters are cleaned without a ladder</a> in our dedicated guide.</p>
+    <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">Our operatives stay on the ground for the entire visit. This eliminates the principal hazard in gutter cleaning work and fully complies with the <a href="https://www.hse.gov.uk/work-at-height/the-regulations.htm" target="_blank" rel="noopener noreferrer" style="${link}">HSE Working at Height Regulations</a>. You can also learn more about <a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">how gutters are cleaned without a ladder</a> in our dedicated guide.</p>
   </div>
 
   <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
     <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.05rem;">🏠 Zero Risk of Ladder Damage to Your Property</h3>
-    <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">Ladder feet mark rendered walls, crack period stonework, and crush polycarbonate conservatory roofs. Because we never erect a ladder, there is no contact risk to your render, fascia boards, guttering joints, or garden planting. This is especially important for <a href="/blog/victorian-homes-birmingham-different-gutter-cleaning-approach" style="${link}">Victorian and period homes in Birmingham</a> where original masonry is irreplaceable.</p>
+    <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">Ladder feet mark rendered walls, crack period stonework, and crush polycarbonate conservatory roofs. Because we never erect a ladder, there is no contact risk to your render, fascia boards, guttering joints, or garden planting. This is especially important for <a href="/blog/victorian-gutter-cleaning-birmingham/" style="${link}">Victorian and period homes in Birmingham</a> where original masonry is irreplaceable.</p>
   </div>
 
   <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
     <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.05rem;">📷 Live Camera Inspection on Every Single Visit</h3>
-    <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">The SkyVac pole carries a live-view camera that streams footage to a hand-held screen. You see exactly what is in the gutter, and every defect – cracked joints, sagging brackets, blocked outlets – is identified and photographed in real time. Read more about what the <a href="/blog/gutter-inspection-save-birmingham" style="${link}">camera inspection can reveal and save you</a> in the long run.</p>
+    <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">The SkyVac pole carries a live-view camera that streams footage to a hand-held screen. You see exactly what is in the gutter, and every defect – cracked joints, sagging brackets, blocked outlets – is identified and photographed in real time. Read more about what the <a href="/blog/birmingham-gutter-inspection/" style="${link}">camera inspection can reveal and save you</a> in the long run.</p>
   </div>
 
   <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
@@ -200,7 +200,7 @@ ${ctaTop}
 
   <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
     <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.05rem;">🌿 No Disruption to Gardens, Drives, or Neighbours</h3>
-    <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">No ladder feet in borders, no scaffold poles across the driveway, and no need to ask a neighbour for garden access. For <a href="/blog/semi-detached-shared-gutter" style="${link}">semi-detached properties with shared or party gutter runs</a>, the vacuum system completes the full job from your side of the boundary without any need to cross next door.</p>
+    <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">No ladder feet in borders, no scaffold poles across the driveway, and no need to ask a neighbour for garden access. For <a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham/" style="${link}">semi-detached properties with shared or party gutter runs</a>, the vacuum system completes the full job from your side of the boundary without any need to cross next door.</p>
   </div>
 
   <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
@@ -210,7 +210,7 @@ ${ctaTop}
 
 </div>
 
-<p style="color: #374151;">There are situations where a ladder remains the right tool – heavily rooted plant growth in gutters not cleaned for several seasons, concealed valley gutters on steep pitches, or certain flat-roof box gutter configurations. WOW Gutters will always advise you honestly at the point of booking if the vacuum method is not the best fit for your property. You can read more in our guide on <a href="/blog/can-you-clean-your-own-gutters" style="${link}">whether DIY gutter cleaning is a realistic option</a>.</p>
+<p style="color: #374151;">There are situations where a ladder remains the right tool – heavily rooted plant growth in gutters not cleaned for several seasons, concealed valley gutters on steep pitches, or certain flat-roof box gutter configurations. WOW Gutters will always advise you honestly at the point of booking if the vacuum method is not the best fit for your property. You can read more in our guide on <a href="/blog/gutter-ladder-safety/" style="${link}">whether DIY gutter cleaning is a realistic option</a>.</p>
 
 <h2 id="what-to-check-before-booking" style="font-size: 1.6rem; color: #1e293b; margin-top: 2.5rem;">What to Check Before You Book a Gutter Vacuum Clean in Birmingham</h2>
 
@@ -221,7 +221,7 @@ ${ctaTop}
   <li><strong>Will I receive before and after photos?</strong> Ask specifically whether still photos (not just live video) will be provided after the job.</li>
   <li><strong>What reach does your system have?</strong> Confirm it reaches your specific property height. SkyVac Atom reaches to ~8 m (two-storey); SkyVac Industrial to ~13 m (four-storey).</li>
   <li><strong>Is the debris removed from site?</strong> Some operators leave bagged debris on your driveway. WOW Gutters removes all debris as standard.</li>
-  <li><strong>Are downpipes checked and flushed?</strong> Vacuum cleaning clears the channel, but a blocked downpipe underground is a separate issue. Ask what the process is for downpipe flushing and blockage identification. See our guide on <a href="/blog/downpipe-blocked-signs" style="${link}">signs your downpipe is blocked</a>.</li>
+  <li><strong>Are downpipes checked and flushed?</strong> Vacuum cleaning clears the channel, but a blocked downpipe underground is a separate issue. Ask what the process is for downpipe flushing and blockage identification. See our guide on <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">signs your downpipe is blocked</a>.</li>
   <li><strong>Is the company insured?</strong> Confirm public liability insurance of at least £2 million. WOW Gutters holds full public liability cover for all operative and vehicle work.</li>
   <li><strong>What happens if a repair is needed?</strong> Ask whether the operative will photograph defects and provide a written quotation. WOW Gutters provides a written <a href="/gutter-repairs" style="${link}">gutter repair</a> report on every job where issues are found.</li>
 </ol>
@@ -242,7 +242,7 @@ ${ctaBox}
 <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 0.75rem; overflow: hidden;">
   <summary style="padding: 1rem 1.25rem; background: #f8fafc; cursor: pointer; font-weight: 700; color: #1e293b; list-style: none;">Does vacuum cleaning also clear downpipes?</summary>
   <div style="padding: 1rem 1.25rem; background: #fff; border-top: 1px solid #e2e8f0;">
-    <p>The vacuum system clears the gutter channel and the top section of the downpipe outlet. Where a downpipe is blocked lower down the stack, we flush from above with a water-fed lance and identify whether the blockage is in the above-ground section (which we clear) or below ground (which requires a drainage rod or CCTV drain survey). We always report what we find. Read more in our guide to <a href="/blog/downpipe-blocked-signs" style="${link}">blocked downpipe signs</a>.</p>
+    <p>The vacuum system clears the gutter channel and the top section of the downpipe outlet. Where a downpipe is blocked lower down the stack, we flush from above with a water-fed lance and identify whether the blockage is in the above-ground section (which we clear) or below ground (which requires a drainage rod or CCTV drain survey). We always report what we find. Read more in our guide to <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">blocked downpipe signs</a>.</p>
   </div>
 </details>
 
@@ -291,21 +291,21 @@ ${ctaBox}
 <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 0.75rem; overflow: hidden;">
   <summary style="padding: 1rem 1.25rem; background: #f8fafc; cursor: pointer; font-weight: 700; color: #1e293b; list-style: none;">Can you clean gutters on a listed or period property?</summary>
   <div style="padding: 1rem 1.25rem; background: #fff; border-top: 1px solid #e2e8f0;">
-    <p>Yes – the ground-based vacuum system is ideal for listed and period properties precisely because there is no ladder contact with historic masonry, original render, or period stonework. WOW Gutters has experience with Victorian terraces, Edwardian semis, and pre-war detached properties throughout <a href="/locations/birmingham" style="${link}">Birmingham</a> and the wider West Midlands. See our guide to <a href="/blog/victorian-homes-birmingham-different-gutter-cleaning-approach" style="${link}">gutter cleaning for Victorian homes</a>.</p>
+    <p>Yes – the ground-based vacuum system is ideal for listed and period properties precisely because there is no ladder contact with historic masonry, original render, or period stonework. WOW Gutters has experience with Victorian terraces, Edwardian semis, and pre-war detached properties throughout <a href="/locations/birmingham" style="${link}">Birmingham</a> and the wider West Midlands. See our guide to <a href="/blog/victorian-gutter-cleaning-birmingham/" style="${link}">gutter cleaning for Victorian homes</a>.</p>
   </div>
 </details>
 
 <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 0.75rem; overflow: hidden;">
   <summary style="padding: 1rem 1.25rem; background: #f8fafc; cursor: pointer; font-weight: 700; color: #1e293b; list-style: none;">Is a vacuum gutter clean enough, or do I also need a gutter repair?</summary>
   <div style="padding: 1rem 1.25rem; background: #fff; border-top: 1px solid #e2e8f0;">
-    <p>Cleaning removes blockages; it does not fix structural defects. If the camera inspection identifies cracked joints, failed unions, sagging brackets, or missing end-caps, you will receive a separate written repair quotation. Carrying out the clean first is almost always the right sequence – it reveals the true condition of the gutter before any repair decisions are made. More on this in our <a href="/blog/gutter-inspection-save-birmingham" style="${link}">gutter inspection guide</a>.</p>
+    <p>Cleaning removes blockages; it does not fix structural defects. If the camera inspection identifies cracked joints, failed unions, sagging brackets, or missing end-caps, you will receive a separate written repair quotation. Carrying out the clean first is almost always the right sequence – it reveals the true condition of the gutter before any repair decisions are made. More on this in our <a href="/blog/birmingham-gutter-inspection/" style="${link}">gutter inspection guide</a>.</p>
   </div>
 </details>
 
 <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 0.75rem; overflow: hidden;">
   <summary style="padding: 1rem 1.25rem; background: #f8fafc; cursor: pointer; font-weight: 700; color: #1e293b; list-style: none;">Do you clean gutters on flat-roof extensions?</summary>
   <div style="padding: 1rem 1.25rem; background: #fff; border-top: 1px solid #e2e8f0;">
-    <p>Flat-roof gutters that are accessible at a safe working height can be cleared by the vacuum system. Concealed box gutters within a flat-roof structure typically require direct manual access. WOW Gutters will confirm which method is appropriate for your extension when you describe the roof type at booking. Our <a href="/blog/flat-roof-gutters-birmingham-maintenance-guide" style="${link}">flat-roof gutter guide</a> explains the differences in more detail.</p>
+    <p>Flat-roof gutters that are accessible at a safe working height can be cleared by the vacuum system. Concealed box gutters within a flat-roof structure typically require direct manual access. WOW Gutters will confirm which method is appropriate for your extension when you describe the roof type at booking. Our <a href="/blog/flat-roof-gutters/" style="${link}">flat-roof gutter guide</a> explains the differences in more detail.</p>
   </div>
 </details>
 
@@ -334,11 +334,11 @@ ${ctaBox}
 
 <ul style="line-height: 2.4; color: #374151;">
   <li><a href="/blog/gutters-blocked-checklist" style="${link}">How Do You Know If Your Gutters Are Blocked? Birmingham Homeowner's Checklist</a></li>
-  <li><a href="/blog/how-clean-gutters-without-ladder" style="${link}">How to Clean Gutters Without a Ladder in Birmingham</a></li>
-  <li><a href="/blog/downpipe-blocked-signs" style="${link}">Signs Your Downpipe Is Blocked – What to Look For</a></li>
+  <li><a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">How to Clean Gutters Without a Ladder in Birmingham</a></li>
+  <li><a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">Signs Your Downpipe Is Blocked – What to Look For</a></li>
   <li><a href="/blog/ask-before-hiring-gutter-cleaner" style="${link}">10 Questions to Ask Before Hiring a Gutter Cleaner in Birmingham</a></li>
   <li><a href="/blog/gutter-clean-duration" style="${link}">How Long Does a Professional Gutter Clean Take?</a></li>
-  <li><a href="/blog/gutter-inspection-save-birmingham" style="${link}">How a Gutter Inspection Can Save You Money in Birmingham</a></li>
+  <li><a href="/blog/birmingham-gutter-inspection/" style="${link}">How a Gutter Inspection Can Save You Money in Birmingham</a></li>
 </ul>
 
 <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.5rem; margin: 2.5rem 0;">

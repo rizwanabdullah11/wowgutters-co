@@ -14,7 +14,9 @@ export default function ProfessionalServices() {
           {/* Left side — Image */}
           <div className="w-full md:w-1/2 flex-shrink-0">
             <img
-              src="/professional-image.webp"
+              src="/professional-image-900.webp"
+              srcSet="/professional-image-900.webp 900w, /professional-image.webp 1280w"
+              sizes="(min-width: 768px) 50vw, 100vw"
               alt="WOW Gutters Ltd branded service van — professional gutter services across Birmingham and the West Midlands"
               width={800}
               height={560}
@@ -35,7 +37,7 @@ export default function ProfessionalServices() {
               />
               <span
                 className="text-xs font-bold tracking-[0.2em] uppercase"
-                style={{ color: colors.primary }}
+                style={{ color: colors.primaryText }}
               >
                 About WOW Gutters Ltd
               </span>
@@ -68,11 +70,11 @@ export default function ProfessionalServices() {
               style={{ color: colors.textLight }}
             >
               Need detail on{' '}
-              <Link href="/gutter-cleaning-birmingham/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+              <Link href="/gutter-cleaning-birmingham/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                 gutter cleaning in Birmingham
               </Link>
               ? See our dedicated local page. For everything else we do — from downpipe clearing to moss removal — explore our{' '}
-              <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+              <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                 full service range
               </Link>{' '}
               or request a free quote.

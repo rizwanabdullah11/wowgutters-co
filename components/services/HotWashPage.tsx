@@ -83,7 +83,7 @@ export default function HotWashPage() {
           </div>
           <p className="mt-8 text-center" style={{ color: colors.textLight }}>
             Pair hot wash with gutter vacuuming for a full roofline refresh.{' '}
-            <Link href="/the-gutter-gallery/" className="font-semibold underline" style={{ color: colors.primary }}>
+            <Link href="/the-gutter-gallery/" className="font-semibold underline" style={{ color: colors.primaryText }}>
               View recent case studies
             </Link>
             .

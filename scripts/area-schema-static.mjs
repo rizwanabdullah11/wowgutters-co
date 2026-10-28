@@ -137,8 +137,12 @@ export function buildLocalBusinessSchemaGraph({
         logo: { '@type': 'ImageObject', url: LOGO_URL },
         address: {
           '@type': 'PostalAddress',
-          addressLocality: city,
+          // Real registered address (Google wants the same NAP on every page);
+          // the area itself is described by areaServed below.
+          streetAddress: '38 Ryland Street',
+          addressLocality: 'Birmingham',
           addressRegion: 'West Midlands',
+          postalCode: 'B16 8DD',
           addressCountry: 'GB',
         },
         geo: {

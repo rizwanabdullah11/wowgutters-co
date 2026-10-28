@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { colors } from '@/constants/colors';
 import { ArrowRight } from 'lucide-react';
 
-const ACCENTS = ['#3B82F6', '#19C58B', '#F97316', '#8B5CF6', '#19C58B', '#3B82F6'];
+const ACCENTS = ['#1D4ED8', '#047857', '#C2410C', '#6D28D9', '#047857', '#1D4ED8'];
 
 const gutterServices = [
   {

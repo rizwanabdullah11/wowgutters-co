@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
@@ -19,14 +19,14 @@ const ctaBox = `
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-week availability</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
 const sectionCta = `
 <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; margin: 32px 0; text-align: center;">
   <p style="font-size: 1.1rem; font-weight: 700; color: #0f172a; margin: 0 0 8px 0;">WOW Gutters Ltd — Birmingham's gutter specialists</p>
-  <a href="tel:07421433910" style="color: #19C58B; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
+  <a href="tel:07421433910" style="color: #047857; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
 </div>`;
 
 export const birminghamGutterHealthCheckBlogPost: BlogPost = {
@@ -363,19 +363,19 @@ ${ctaBox}
 
 ${ctaBox}
 
-<p><strong>Call:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a><br/>
-<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">support@wowgutters.co.uk</a><br/>
-<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">wowgutters.co.uk</a></p>
+<p><strong>Call:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #047857; text-decoration: none;">07421 433910</a><br/>
+<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">support@wowgutters.co.uk</a><br/>
+<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">wowgutters.co.uk</a></p>
 
 <p><em>Serving Birmingham, Solihull, Sutton Coldfield, Edgbaston, Harborne, Kings Heath, Moseley, Bournville, Erdington, Wolverhampton, Dudley, Walsall, West Bromwich, Coventry, Redditch, Bromsgrove, Worcester, Kidderminster and all West Midlands areas.</em></p>
 
 <h2>Related Articles</h2>
 
 <ul>
-  <li><a href="/blog/birmingham-autumn-leaves" style="color: #19C58B; font-weight: 600; text-decoration: none;">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a></li>
-  <li><a href="/blog/birmingham-seasonal-gutter-guide" style="color: #19C58B; font-weight: 600; text-decoration: none;">Birmingham Gutter Maintenance Calendar: What to Do Each Season</a></li>
-  <li><a href="/blog/blocked-gutters-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">Can Blocked Gutters Cause Damp?</a></li>
-  <li><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">Signs Your Gutters Need Immediate Cleaning</a></li>
+  <li><a href="/blog/birmingham-autumn-gutter-guide/" style="color: #047857; font-weight: 600; text-decoration: none;">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a></li>
+  <li><a href="/blog/birmingham-seasonal-gutter-guide" style="color: #047857; font-weight: 600; text-decoration: none;">Birmingham Gutter Maintenance Calendar: What to Do Each Season</a></li>
+  <li><a href="/blog/blocked-gutters-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;">Can Blocked Gutters Cause Damp?</a></li>
+  <li><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;">Signs Your Gutters Need Immediate Cleaning</a></li>
 </ul>
 `,
 };

@@ -17,7 +17,7 @@ export default function GetTheBest() {
         {/* Eyebrow */}
         <div className="flex items-center justify-center gap-3 mb-5">
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
-          <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primary }}>
+          <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primaryText }}>
             Free Quote Promise
           </span>
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
@@ -33,10 +33,15 @@ export default function GetTheBest() {
             >
               <div className="relative">
                 <img
-                  src="/get-info.webp"
+                  src="/get-info-900.webp"
+                  srcSet="/get-info-900.webp 900w, /get-info.webp 1024w"
+                  sizes="(min-width: 1024px) 50vw, 100vw"
                   alt="WOW Gutters Ltd professional gutter services"
-                  className="w-full object-cover"
-                  style={{ maxHeight: '480px' }}
+                  width={900}
+                  height={1350}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full h-[480px] object-cover"
                 />
                 <div className="absolute top-4 right-4 px-4 py-2 rounded-full shadow-lg text-white text-sm font-bold" style={{ backgroundColor: colors.cta }}>
                   Professional Service
@@ -51,7 +56,7 @@ export default function GetTheBest() {
               className="bg-white rounded-2xl p-8 shadow-sm"
               style={{ borderTop: `3px solid #F97316` }}
             >
-              <p className="text-[10px] font-bold tracking-widest uppercase mb-3" style={{ color: '#F97316' }}>
+              <p className="text-[10px] font-bold tracking-widest uppercase mb-3" style={{ color: '#C2410C' }}>
                 GET THE BEST FOR LESS
               </p>
               <h2 className="text-3xl sm:text-4xl font-black mb-3" style={{ color: colors.text }}>

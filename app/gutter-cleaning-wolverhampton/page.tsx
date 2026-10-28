@@ -47,7 +47,7 @@ const landingData: CityGutterLandingData = {
     {
       label: 'New build estates (Wednesfield, Bushbury)',
       detail:
-        'Modern guttering but debris still accumulates. Annual clean keeps systems in warranty condition.',
+        'Modern guttering but debris still accumulates. An annual clean keeps the system flowing freely.',
     },
     {
       label: 'Commercial properties (city centre, industrial)',

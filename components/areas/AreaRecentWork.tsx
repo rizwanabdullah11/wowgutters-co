@@ -62,7 +62,7 @@ export default function AreaRecentWork() {
                   WOW
                 </div>
               </div>
-              <h3 className="text-[17px] font-medium text-gray-800 leading-snug mb-2 group-hover/card:text-[#19C58B] transition-colors">{item.title}</h3>
+              <h3 className="text-[17px] font-medium text-gray-800 leading-snug mb-2 group-hover/card:text-[#047857] transition-colors">{item.title}</h3>
               <p className="text-[12px] text-gray-500">{item.author}</p>
             </div>
           ))}

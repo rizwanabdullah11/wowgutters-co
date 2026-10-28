@@ -4,7 +4,7 @@ const IMG_HERO   = '/blog-images/birmingham-gutter-cleaning-checklist/birmingham
 const IMG_BEFORE = '/blog-images/birmingham-gutter-cleaning-checklist/birmingham-gutter-cleaning-checklist-before.webp';
 const IMG_AFTER  = '/blog-images/birmingham-gutter-cleaning-checklist/birmingham-gutter-cleaning-checklist-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 const h2 = 'font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;';
 const h3 = 'font-size: 1.15rem; font-weight: 800; color: #0f172a; margin-top: 28px;';
 const p = 'color: #334155; line-height: 1.8;';

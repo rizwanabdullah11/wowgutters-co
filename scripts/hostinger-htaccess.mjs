@@ -22,8 +22,23 @@ function keywordRedirectRules() {
   return { staticPages: staticPages.join('\n'), pages: pages.join('\n'), count: pages.length };
 }
 
+/** Old blog slugs + old page paths still linked from outside (were 404 until Oct 27 2026). */
+function legacyLinkRules() {
+  const blog = JSON.parse(readFileSync(join(process.cwd(), 'scripts/blog-legacy-redirects.json'), 'utf8'));
+  const paths = JSON.parse(readFileSync(join(process.cwd(), 'scripts/legacy-path-redirects.json'), 'utf8'));
+  const esc = (s) => s.replace(/[.+*?^$()[\]{}|\\]/g, '\\$&');
+  const blogRules = Object.entries(blog).map(
+    ([from, to]) => `  RewriteRule ^blog/${esc(from)}/?$ /blog/${to}/ [R=301,L]`
+  );
+  const pathRules = Object.entries(paths).map(
+    ([from, to]) => `  RewriteRule ^${esc(from)}/?$ ${to} [R=301,L]`
+  );
+  return [...pathRules, ...blogRules].join('\n');
+}
+
 export function generateHostingerHtaccess() {
   const kw = keywordRedirectRules();
+  const legacy = legacyLinkRules();
   return `Options -MultiViews -Indexes
 DirectoryIndex index.html
 
@@ -162,6 +177,9 @@ AddDefaultCharset UTF-8
   # No guarantees offered — old keyword page removed (Oct 2026)
   RewriteRule ^gutter-cleaning-with-guarantee/?$ /services/gutter-cleaning/ [R=301,L]
 
+  # Old blog slugs / old page paths (were 404) — scripts/blog-legacy-redirects.json + legacy-path-redirects.json
+${legacy}
+
   # Blog slug shorten
   RewriteRule ^blog/birmingham-gutter-maintenance-calendar-seasonal-guide/?$ /blog/birmingham-seasonal-gutter-guide/ [R=301,L]
   RewriteRule ^blog/gutter-inspection-save-birmingham-homeowners-thousands/?$ /blog/birmingham-gutter-inspection/ [R=301,L]
@@ -183,7 +201,7 @@ AddDefaultCharset UTF-8
   RewriteRule ^Quote/?$ /quote/ [R=301,L]
   RewriteRule ^Services/?$ /services/ [R=301,L]
   RewriteRule ^Blog/?$ /blog/ [R=301,L]
-  RewriteRule ^Commercial/?$ /commercial/ [R=301,L]
+  RewriteRule ^Commercial/?$ /services/commercial-gutter-cleaning/ [R=301,L]
   RewriteRule ^HomeScreen/?$ / [R=301,L]
   RewriteRule ^Navbar/?$ / [R=301,L]
   RewriteRule ^navbar/?$ / [R=301,L]

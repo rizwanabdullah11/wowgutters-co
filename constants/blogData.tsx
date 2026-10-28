@@ -1,3 +1,4 @@
+import { terracedHouseGuttersBlogPost } from './terracedHouseGuttersBlog';
 import { officesSchoolsGutterCleaningBlogPost } from './officesSchoolsGutterCleaningBlog';
 import { roofMossRemovalBirminghamBlogPost } from './roofMossRemovalBirminghamBlog';
 import { drippingGutterJointsBlogPost } from './drippingGutterJointsBlog';
@@ -78,6 +79,7 @@ export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  terracedHouseGuttersBlogPost,
   officesSchoolsGutterCleaningBlogPost,
   roofMossRemovalBirminghamBlogPost,
   drippingGutterJointsBlogPost,
@@ -187,7 +189,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Are your gutters overflowing every time it rains? Are your fascias turning green with algae, or your soffits stained beyond recognition? You're not alone — thousands of homeowners across the <strong>West Midlands</strong> deal with exactly these problems every year.</p>
 
-<p>The before photograph above shows a typical <strong>West Midlands roofline</strong> in need of professional attention: gutters blocked with compacted debris, fascias streaked with green algae, and soffits discoloured from years of moisture and organic growth. This is the condition we encounter regularly across <a href="/gutter-cleaning-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">Birmingham</a>, <a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; font-weight: 600; text-decoration: none;">Coventry</a>, <strong>Walsall</strong>, <strong>Dudley</strong>, and <strong>Solihull</strong>.</p>
+<p>The before photograph above shows a typical <strong>West Midlands roofline</strong> in need of professional attention: gutters blocked with compacted debris, fascias streaked with green algae, and soffits discoloured from years of moisture and organic growth. This is the condition we encounter regularly across <a href="/gutter-cleaning-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;">Birmingham</a>, <a href="/blog/gutter-cleaning-wolverhampton" style="color: #047857; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <a href="/blog/gutter-cleaning-coventry" style="color: #047857; font-weight: 600; text-decoration: none;">Coventry</a>, <strong>Walsall</strong>, <strong>Dudley</strong>, and <strong>Solihull</strong>.</p>
 
 <figure style="margin: 20px 0;">
   <img
@@ -213,7 +215,7 @@ export const blogPosts: BlogPost[] = [
 
 <p><strong>Blocked gutters</strong> are one of the most common — and most ignored — causes of property damage in the UK. Leaves, sycamore seeds, moss, silt, and compacted debris build up season after season until your gutters simply stop working.</p>
 
-<p>At <a href="https://wowgutters.co.uk/gutter-cleaning" style="color: #19C58B; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a>, we use a <strong>professional high-reach vacuum system</strong> operated entirely from the ground to clear:</p>
+<p>At <a href="https://wowgutters.co.uk/gutter-cleaning" style="color: #047857; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a>, we use a <strong>professional high-reach vacuum system</strong> operated entirely from the ground to clear:</p>
 
 <ul>
   <li><strong>Wet and compacted leaves</strong></li>
@@ -236,7 +238,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>A clean gutter that still leaks is half a job. That's why every visit includes a full assessment of your gutter system — and we fix problems on the spot wherever possible.</p>
 
-<p>Our <a href="/help/repair" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>gutter repair services</strong></a> across the West Midlands include:</p>
+<p>Our <a href="/help/repair" style="color: #047857; font-weight: 600; text-decoration: none;"><strong>gutter repair services</strong></a> across the West Midlands include:</p>
 
 <ul>
   <li><strong>Leaking joint resealing</strong> — stops water running down your walls</li>
@@ -256,7 +258,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Your <strong>fascias and soffits</strong> frame your entire roofline — and when they're stained, green, or grimy, they make even a well-maintained home look neglected.</p>
 
-<p><a href="https://wowgutters.co.uk" style="color: #19C58B; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> uses a <strong>hot purified water cleaning system</strong> to restore <strong>fascias and soffits</strong> without chemicals, abrasives, or risk of damage to the uPVC surface.</p>
+<p><a href="https://wowgutters.co.uk" style="color: #047857; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> uses a <strong>hot purified water cleaning system</strong> to restore <strong>fascias and soffits</strong> without chemicals, abrasives, or risk of damage to the uPVC surface.</p>
 
 <p><strong>What we remove:</strong></p>
 <ul>
@@ -274,7 +276,7 @@ export const blogPosts: BlogPost[] = [
   <li>White and coloured <strong>uPVC fascias and soffits</strong></li>
   <li><strong>Timber fascias</strong> and soffits</li>
   <li>Composite and aluminium roofline products</li>
-  <li><a href="/services/conservatory/" style="color: #19C58B; font-weight: 600; text-decoration: none;">Conservatory frames and trims</a></li>
+  <li><a href="/services/conservatory/" style="color: #047857; font-weight: 600; text-decoration: none;">Conservatory frames and trims</a></li>
 </ul>
 
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
@@ -285,7 +287,7 @@ export const blogPosts: BlogPost[] = [
 
 <p><strong>Moss</strong> isn't just unsightly — it's damaging. On roof tiles, moss lifts the edges, holds moisture, and accelerates cracking. In gutters, it blocks outlets and adds weight that causes brackets to fail. Left on fascias and soffits, <strong>algae</strong> eats into the uPVC surface over time.</p>
 
-<p>Our <a href="/services/roof-cleaning/" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>moss and algae treatment service</strong></a> includes:</p>
+<p>Our <a href="/services/roof-cleaning/" style="color: #047857; font-weight: 600; text-decoration: none;"><strong>moss and algae treatment service</strong></a> includes:</p>
 
 <ol>
   <li><strong>Soft-wash moss removal</strong> from roof tiles — low-pressure, no tile damage</li>
@@ -308,22 +310,22 @@ export const blogPosts: BlogPost[] = [
       <span style="font-size: 1rem;">&#9658;</span> Get A Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>
 
 <h2>Areas We Cover Across the West Midlands</h2>
 
-<p><a href="https://wowgutters.co.uk" style="color: #19C58B; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> provides professional <strong>fascia and soffit cleaning</strong>, <strong>gutter cleaning</strong> and <strong>gutter repairs</strong> across the entire West Midlands region. Whether you're in the heart of Birmingham or a surrounding town or village, our team is local, reliable and available 24 hours a day.</p>
+<p><a href="https://wowgutters.co.uk" style="color: #047857; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> provides professional <strong>fascia and soffit cleaning</strong>, <strong>gutter cleaning</strong> and <strong>gutter repairs</strong> across the entire West Midlands region. Whether you're in the heart of Birmingham or a surrounding town or village, our team is local, reliable and available 24 hours a day.</p>
 
 <h3>Birmingham &amp; Surrounding Areas</h3>
-<p><a href="/gutter-cleaning-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>Birmingham</strong></a>, Erdington, Harborne, Selly Oak, <strong>Edgbaston</strong>, Moseley, Kings Heath, <strong>Sutton Coldfield</strong>, Great Barr, Perry Barr, Handsworth, Yardley, Stechford, Acocks Green, Hall Green, <strong>Solihull</strong>, Sheldon, Sparkhill, Castle Bromwich</p>
+<p><a href="/gutter-cleaning-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;"><strong>Birmingham</strong></a>, Erdington, Harborne, Selly Oak, <strong>Edgbaston</strong>, Moseley, Kings Heath, <strong>Sutton Coldfield</strong>, Great Barr, Perry Barr, Handsworth, Yardley, Stechford, Acocks Green, Hall Green, <strong>Solihull</strong>, Sheldon, Sparkhill, Castle Bromwich</p>
 
 <h3>Black Country</h3>
-<p><a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>Wolverhampton</strong></a>, <strong>Dudley</strong>, <strong>Walsall</strong>, West Bromwich, Sandwell, Smethwick, Oldbury, Tipton, Wednesbury, Bilston, Willenhall, Wednesfield, Tettenhall, Sedgley, Coseley, Aldridge, Brownhills, Pelsall</p>
+<p><a href="/blog/gutter-cleaning-wolverhampton" style="color: #047857; font-weight: 600; text-decoration: none;"><strong>Wolverhampton</strong></a>, <strong>Dudley</strong>, <strong>Walsall</strong>, West Bromwich, Sandwell, Smethwick, Oldbury, Tipton, Wednesbury, Bilston, Willenhall, Wednesfield, Tettenhall, Sedgley, Coseley, Aldridge, Brownhills, Pelsall</p>
 
 <h3>Coventry &amp; Warwickshire</h3>
-<p><a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>Coventry</strong></a>, Leamington Spa, Warwick, Kenilworth, Rugby, Nuneaton, Stratford-upon-Avon, Bedworth, Atherstone</p>
+<p><a href="/blog/gutter-cleaning-coventry" style="color: #047857; font-weight: 600; text-decoration: none;"><strong>Coventry</strong></a>, Leamington Spa, Warwick, Kenilworth, Rugby, Nuneaton, Stratford-upon-Avon, Bedworth, Atherstone</p>
 
 <h3>Worcestershire &amp; Staffordshire</h3>
 <p>Worcester, Kidderminster, <strong>Bromsgrove</strong>, Redditch, Droitwich Spa, <strong>Stourbridge</strong>, Halesowen, Bewdley, Evesham, Cannock, <strong>Lichfield</strong>, Tamworth, Stafford, Rugeley, Burntwood</p>
@@ -342,13 +344,13 @@ export const blogPosts: BlogPost[] = [
       <span style="font-size: 1rem;">&#9658;</span> Get A Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>
 
 <h2>Why Homeowners Across the West Midlands Choose WOW Gutters Ltd</h2>
 
-<p>With thousands of <strong>roofline cleans</strong> completed across <a href="/gutter-cleaning-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">Birmingham</a>, <a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; font-weight: 600; text-decoration: none;">Coventry</a>, <a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <strong>Walsall</strong>, <strong>Dudley</strong> and beyond, <a href="https://wowgutters.co.uk" style="color: #19C58B; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> has built a reputation for honest, reliable, and high-quality work.</p>
+<p>With thousands of <strong>roofline cleans</strong> completed across <a href="/gutter-cleaning-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;">Birmingham</a>, <a href="/blog/gutter-cleaning-coventry" style="color: #047857; font-weight: 600; text-decoration: none;">Coventry</a>, <a href="/blog/gutter-cleaning-wolverhampton" style="color: #047857; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <strong>Walsall</strong>, <strong>Dudley</strong> and beyond, <a href="https://wowgutters.co.uk" style="color: #047857; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> has built a reputation for honest, reliable, and high-quality work.</p>
 
 
 <h3>? What Makes Us Different</h3>
@@ -365,7 +367,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Signs Your Roofline Needs Attention Right Now</h2>
 
-<p>Not sure if it's time to book? If you notice any of the following at your property — whether in <a href="/gutter-cleaning-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">Birmingham</a>, <a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; font-weight: 600; text-decoration: none;">Coventry</a>, <strong>Walsall</strong> or anywhere else across the <strong>West Midlands</strong> — it's time to call:</p>
+<p>Not sure if it's time to book? If you notice any of the following at your property — whether in <a href="/gutter-cleaning-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;">Birmingham</a>, <a href="/blog/gutter-cleaning-coventry" style="color: #047857; font-weight: 600; text-decoration: none;">Coventry</a>, <strong>Walsall</strong> or anywhere else across the <strong>West Midlands</strong> — it's time to call:</p>
 
 <ul>
   <li>??? <strong>Water pouring over the side of gutters</strong> during rain — <strong>blocked outlets</strong> or sagging sections</li>
@@ -391,7 +393,7 @@ export const blogPosts: BlogPost[] = [
       <span style="font-size: 1rem;">&#9658;</span> Get A Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>
 
@@ -463,7 +465,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Book Your Roofline Service Today</h2>
 
-<p>Whether you need a simple <a href="/gutter-cleaning-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>gutter clean in Birmingham</strong></a>, a full <strong>fascia and soffit wash</strong> in <strong>Solihull</strong>, <a href="/services/roof-cleaning/" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>moss removal</strong></a> in <strong>Wolverhampton</strong>, or a <a href="/help/repair" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>leaking joint repaired</strong></a> in <strong>Coventry</strong> — <a href="https://wowgutters.co.uk" style="color: #19C58B; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> is your trusted local specialist across the <strong>West Midlands</strong>.</p>
+<p>Whether you need a simple <a href="/gutter-cleaning-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;"><strong>gutter clean in Birmingham</strong></a>, a full <strong>fascia and soffit wash</strong> in <strong>Solihull</strong>, <a href="/services/roof-cleaning/" style="color: #047857; font-weight: 600; text-decoration: none;"><strong>moss removal</strong></a> in <strong>Wolverhampton</strong>, or a <a href="/help/repair" style="color: #047857; font-weight: 600; text-decoration: none;"><strong>leaking joint repaired</strong></a> in <strong>Coventry</strong> — <a href="https://wowgutters.co.uk" style="color: #047857; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> is your trusted local specialist across the <strong>West Midlands</strong>.</p>
 
 <ul>
   <li>? <strong>Same-day and next-day appointments</strong> across the West Midlands</li>
@@ -474,21 +476,21 @@ export const blogPosts: BlogPost[] = [
   <li>? Available <strong>24 hours a day</strong> including weekends</li>
 </ul>
 
-<p>?? <strong>Call or WhatsApp:</strong> <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
-?? <strong>Free online quote:</strong> <a href="/quote" style="color: #19C58B; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
-?? <strong>Serving:</strong> <a href="/gutter-cleaning-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">Birmingham</a>, <a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; font-weight: 600; text-decoration: none;">Coventry</a>, <a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <strong>Walsall</strong>, <strong>Dudley</strong>, <strong>Solihull</strong>, <strong>Sandwell</strong> &amp; all West Midlands areas<br/>
+<p>?? <strong>Call or WhatsApp:</strong> <a href="tel:07421433910" style="color: #047857; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
+?? <strong>Free online quote:</strong> <a href="/quote" style="color: #047857; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
+?? <strong>Serving:</strong> <a href="/gutter-cleaning-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;">Birmingham</a>, <a href="/blog/gutter-cleaning-coventry" style="color: #047857; font-weight: 600; text-decoration: none;">Coventry</a>, <a href="/blog/gutter-cleaning-wolverhampton" style="color: #047857; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <strong>Walsall</strong>, <strong>Dudley</strong>, <strong>Solihull</strong>, <strong>Sandwell</strong> &amp; all West Midlands areas<br/>
 ?? <strong>Available:</strong> 24 hours a day | Same day booking available</p>
 
 <h2>Related Services</h2>
 
 <ul>
-  <li><strong><a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Coventry — Real Before &amp; After Job</a></strong></li>
-  <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Wolverhampton | WOW Gutters Ltd — Local Specialists</a></strong></li>
-  <li><strong><a href="/gutter-cleaning-prices" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Prices — Full 2026 Guide</a></strong></li>
-  <li><strong><a href="/gutter-cleaning-calculator" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Cost Calculator</a></strong></li>
-  <li><strong><a href="/help/repair" style="color: #19C58B; text-decoration: none;">Gutter Repairs &amp; Fixing West Midlands</a></strong></li>
-  <li><strong><a href="/commercial" style="color: #19C58B; text-decoration: none;">Commercial Gutter Cleaning West Midlands</a></strong></li>
-  <li><strong><a href="/services/conservatory/" style="color: #19C58B; text-decoration: none;">Conservatory Gutter Cleaning</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-coventry" style="color: #047857; text-decoration: none;">Gutter Cleaning Coventry — Real Before &amp; After Job</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #047857; text-decoration: none;">Gutter Cleaning Wolverhampton | WOW Gutters Ltd — Local Specialists</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-prices" style="color: #047857; text-decoration: none;">Gutter Cleaning Prices — Full 2026 Guide</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-calculator" style="color: #047857; text-decoration: none;">Gutter Cleaning Cost Calculator</a></strong></li>
+  <li><strong><a href="/help/repair" style="color: #047857; text-decoration: none;">Gutter Repairs &amp; Fixing West Midlands</a></strong></li>
+  <li><strong><a href="/services/commercial-gutter-cleaning/" style="color: #047857; text-decoration: none;">Commercial Gutter Cleaning West Midlands</a></strong></li>
+  <li><strong><a href="/services/conservatory/" style="color: #047857; text-decoration: none;">Conservatory Gutter Cleaning</a></strong></li>
 </ul>
     `,
   },
@@ -692,42 +694,42 @@ export const blogPosts: BlogPost[] = [
 <div style="margin: 40px 0;">
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How often should gutters be cleaned in Coventry?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> At least once a year — ideally in late autumn (October to December) after the main leaf fall from Coventry's mature street trees. Properties near heavy tree coverage, such as those in Earlsdon, Finham, Styvechale, and around War Memorial Park, should be cleaned twice a year — once in spring and once in autumn.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> At least once a year — ideally in late autumn (October to December) after the main leaf fall from Coventry's mature street trees. Properties near heavy tree coverage, such as those in Earlsdon, Finham, Styvechale, and around War Memorial Park, should be cleaned twice a year — once in spring and once in autumn.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does gutter cleaning cost in Coventry?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: My gutters have weeds growing in them — is that normal?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> It is more common than most people realise — as the real Coventry job photograph above shows. Weeds establish themselves when debris in the gutter channel has decomposed into a deep enough layer of organic material to support root systems. This level of blockage typically takes two or more seasons to develop. The good news: our vacuum system removes established weeds, roots and all, in a single visit.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> It is more common than most people realise — as the real Coventry job photograph above shows. Weeds establish themselves when debris in the gutter channel has decomposed into a deep enough layer of organic material to support root systems. This level of blockage typically takes two or more seasons to develop. The good news: our vacuum system removes established weeds, roots and all, in a single visit.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you use ladders?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> No. We use a professional ground-level high-reach vacuum system. No ladders, no scaffolding, no contact with your roof tiles, fascia, or brickwork.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> No. We use a professional ground-level high-reach vacuum system. No ladders, no scaffolding, no contact with your roof tiles, fascia, or brickwork.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you provide before and after photos?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes — on every job, without exception. We photograph the gutters before we start and after we finish, and send both images directly to you. The photographs in this article are from a real WOW Gutters Ltd job in Coventry, completed on 23 March 2026.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes — on every job, without exception. We photograph the gutters before we start and after we finish, and send both images directly to you. The photographs in this article are from a real WOW Gutters Ltd job in Coventry, completed on 23 March 2026.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you cover Earlsdon, Finham, Canley, Binley, and Walsgrave?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. We cover all CV postcodes across Coventry and the surrounding area, including Earlsdon, Chapelfields, Finham, Styvechale, Canley, Tile Hill, Binley, Walsgrave, Coundon, Wyken, Longford, and Allesley.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. We cover all CV postcodes across Coventry and the surrounding area, including Earlsdon, Chapelfields, Finham, Styvechale, Canley, Tile Hill, Binley, Walsgrave, Coundon, Wyken, Longford, and Allesley.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you test downpipes after cleaning?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. All WOW Gutters Ltd cleaning work includes high-volume water flow testing on downpipes and gutters to ensure free, unrestricted drainage.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. All WOW Gutters Ltd cleaning work includes high-volume water flow testing on downpipes and gutters to ensure free, unrestricted drainage.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you also repair gutters in Coventry?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. In addition to cleaning, we repair leaking joints, broken brackets, sagging sections, and cracked downpipes. All repair work comes with a complete water flow testing. <a href="/services/gutter-repairs" style="color: #000000; text-decoration: none;">View our gutter repairs service</a>.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. In addition to cleaning, we repair leaking joints, broken brackets, sagging sections, and cracked downpipes. All repair work comes with a complete water flow testing. <a href="/services/gutter-repairs" style="color: #000000; text-decoration: none;">View our gutter repairs service</a>.</p>
   </div>
 </div>
 
@@ -1001,37 +1003,37 @@ export const blogPosts: BlogPost[] = [
 <div style="margin: 40px 0;">
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How often should gutters be cleaned in Wolverhampton?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> At least once a year — ideally in late autumn (October to December) after the main leaf fall. Properties near heavy tree coverage, such as those in Tettenhall, Penn, Compton, and around West Park, should be cleaned twice a year — once in spring and once in autumn.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> At least once a year — ideally in late autumn (October to December) after the main leaf fall. Properties near heavy tree coverage, such as those in Tettenhall, Penn, Compton, and around West Park, should be cleaned twice a year — once in spring and once in autumn.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does gutter cleaning cost in Wolverhampton?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you use ladders?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> No. We use a professional ground-level high-reach vacuum system. No ladders, no scaffolding, no contact with your roof tiles, fascia, or brickwork.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> No. We use a professional ground-level high-reach vacuum system. No ladders, no scaffolding, no contact with your roof tiles, fascia, or brickwork.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you provide before and after photos?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes — on every job, without exception. We photograph the gutters before we start and after we finish, and send both images directly to you.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes — on every job, without exception. We photograph the gutters before we start and after we finish, and send both images directly to you.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you cover Tettenhall, Penn, Compton, and Wednesfield?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. We cover all WV postcodes across Wolverhampton and the surrounding area, including Tettenhall, Penn, Compton, Finchfield, Wednesfield, Bilston, Codsall, Wombourne, and Bushbury.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. We cover all WV postcodes across Wolverhampton and the surrounding area, including Tettenhall, Penn, Compton, Finchfield, Wednesfield, Bilston, Codsall, Wombourne, and Bushbury.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you test downpipes after cleaning?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. All WOW Gutters Ltd cleaning work includes high-volume water flow testing on downpipes and gutters to ensure free, unrestricted drainage.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. All WOW Gutters Ltd cleaning work includes high-volume water flow testing on downpipes and gutters to ensure free, unrestricted drainage.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you also repair gutters in Wolverhampton?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. In addition to cleaning, we repair leaking joints, broken brackets, sagging sections, and cracked downpipes. All repair work comes with a complete water flow testing. <a href="/services/gutter-repairs" style="color: #000000; text-decoration: none;">View our gutter repairs service</a>.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. In addition to cleaning, we repair leaking joints, broken brackets, sagging sections, and cracked downpipes. All repair work comes with a complete water flow testing. <a href="/services/gutter-repairs" style="color: #000000; text-decoration: none;">View our gutter repairs service</a>.</p>
   </div>
 </div>
 
@@ -1216,32 +1218,32 @@ export const blogPosts: BlogPost[] = [
       <div style="margin: 40px 0;">
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How do I know if sycamore seeds have blocked my gutters?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> The clearest signs are water overflowing over the gutter edge during rainfall, visible greenery or seedlings sprouting from the gutterline, and green or brown staining running down external walls. If you have a sycamore or maple tree within 30 metres of your property, it is very likely that seeds have accumulated in your gutters.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> The clearest signs are water overflowing over the gutter edge during rainfall, visible greenery or seedlings sprouting from the gutterline, and green or brown staining running down external walls. If you have a sycamore or maple tree within 30 metres of your property, it is very likely that seeds have accumulated in your gutters.</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How often should I clean my gutters if I have sycamore trees nearby?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Twice a year is strongly recommended — once in late autumn (November to December) after the main seed and leaf fall, and once in spring (March to May) to catch the second sycamore seed drop before seedlings establish.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Twice a year is strongly recommended — once in late autumn (November to December) after the main seed and leaf fall, and once in spring (March to May) to catch the second sycamore seed drop before seedlings establish.</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Can the seeds damage the gutter itself?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. Once seeds germinate and put down roots inside the gutter channel, those roots can work into joints and seams, causing splits and leaks. In advanced cases this can turn what would have been a simple clean into a repair job. Early intervention is always more cost-effective.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. Once seeds germinate and put down roots inside the gutter channel, those roots can work into joints and seams, causing splits and leaks. In advanced cases this can turn what would have been a simple clean into a repair job. Early intervention is always more cost-effective.</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you clear the downpipe as well?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes, downpipe inspection and clearance is included as standard on every WOW Gutters Ltd job. Seeds and debris that wash into the downpipe are a common secondary cause of blockages, and we check and clear all downpipe outlets as part of the service.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes, downpipe inspection and clearance is included as standard on every WOW Gutters Ltd job. Seeds and debris that wash into the downpipe are a common secondary cause of blockages, and we check and clear all downpipe outlets as part of the service.</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does gutter cleaning cost in Birmingham?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate or call 07421 433910 for a free quote.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate or call 07421 433910 for a free quote.</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you use ladders?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> No. WOW Gutters Ltd uses a professional ground-level high-reach vacuum system that cleans gutters without ladders or scaffolding, protecting your fascias, tiles, and brickwork from contact damage.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> No. WOW Gutters Ltd uses a professional ground-level high-reach vacuum system that cleans gutters without ladders or scaffolding, protecting your fascias, tiles, and brickwork from contact damage.</p>
         </div>
       </div>
 
@@ -1424,49 +1426,49 @@ export const blogPosts: BlogPost[] = [
       <div style="margin: 40px 0;">
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How do I know if my gutters are blocked?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> The clearest signs are water overflowing over the gutter edge during rainfall, green or black staining running down external walls (as shown in the before photograph above), visible greenery growing from the gutterline, and fascias that are sagging or pulling away from the roofline. If you cannot remember when they were last cleaned, book a clean now.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> The clearest signs are water overflowing over the gutter edge during rainfall, green or black staining running down external walls (as shown in the before photograph above), visible greenery growing from the gutterline, and fascias that are sagging or pulling away from the roofline. If you cannot remember when they were last cleaned, book a clean now.</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: What causes the green and black staining on walls below gutters?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> This staining is caused by gutter overflow carrying algae, moss, silt, and organic debris continuously down the brickwork every time it rains. It is one of the most common visible signs of a blocked gutter in Birmingham. Left untreated, the staining penetrates the mortar joints and can cause internal damp. As our before-and-after photograph shows, professional gutter cleaning removes the source of the problem entirely.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> This staining is caused by gutter overflow carrying algae, moss, silt, and organic debris continuously down the brickwork every time it rains. It is one of the most common visible signs of a blocked gutter in Birmingham. Left untreated, the staining penetrates the mortar joints and can cause internal damp. As our before-and-after photograph shows, professional gutter cleaning removes the source of the problem entirely.</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How often should gutters be cleaned in Birmingham?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> At least once a year, ideally in late autumn after the main leaf fall (October to December). Properties near trees should be cleaned twice a year in spring and autumn. Commercial properties are best cleaned every six months.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> At least once a year, ideally in late autumn after the main leaf fall (October to December). Properties near trees should be cleaned twice a year in spring and autumn. Commercial properties are best cleaned every six months.</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Can blocked gutters cause the green staining I can see on my walls?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes, this is exactly what causes it. When a gutter is blocked, rainwater overflows continuously down the same section of wall, depositing algae and moss spores that grow into the visible green streaking. Clearing the gutter stops the overflow and with it the source of the staining.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes, this is exactly what causes it. When a gutter is blocked, rainwater overflows continuously down the same section of wall, depositing algae and moss spores that grow into the visible green streaking. Clearing the gutter stops the overflow and with it the source of the staining.</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does it cost to clear a blocked gutter in Birmingham?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection and clearance is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection and clearance is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you use ladders to clean gutters?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> No. WOW Gutters Ltd uses a professional ground-level high-reach vacuum system that cleans gutters safely without ladders or scaffolding, protecting your fascias, roof tiles, and stonework from any risk of contact damage.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> No. WOW Gutters Ltd uses a professional ground-level high-reach vacuum system that cleans gutters safely without ladders or scaffolding, protecting your fascias, roof tiles, and stonework from any risk of contact damage.</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you provide before and after photos?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes, we photograph your guttering before and after every single job and send the images directly to you, just like the real Birmingham job photograph shown in this article.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes, we photograph your guttering before and after every single job and send the images directly to you, just like the real Birmingham job photograph shown in this article.</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you test downpipes after cleaning?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #19C58B;">A:</strong> Yes. All WOW Gutters Ltd cleaning work includes high-volume water flow testing on downpipes and gutters to ensure free, unrestricted drainage.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. All WOW Gutters Ltd cleaning work includes high-volume water flow testing on downpipes and gutters to ensure free, unrestricted drainage.</p>
         </div>
       </div>
 
             <h2>Related Articles</h2>
       <ul>
         <li><strong><a href="/blog/winter-gutter-cleaning-maintenance" style="color: #000000; text-decoration: none;">Winter Gutter Maintenance — What Every Birmingham Homeowner Should Do Now</a></strong></li>
-        <li><strong><a href="/blog/importance-of-residential-gutter-cleaning" style="color: #000000; text-decoration: none;">The Importance of Residential Gutter Cleaning</a></strong></li>
+        <li><strong><a href="/blog/gutter-cleaning-protection/" style="color: #000000; text-decoration: none;">The Importance of Residential Gutter Cleaning</a></strong></li>
         <li><strong><a href="/gutter-cleaning-prices" style="color: #000000; text-decoration: none;">Gutter Cleaning Prices in Birmingham — Full 2026 Guide</a></strong></li>
         <li><strong><a href="/services/gutter-cleaning" style="color: #000000; text-decoration: none;">Professional Gutter Cleaning Service — How It Works</a></strong></li>
       </ul>
@@ -2071,7 +2073,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Cleaning is only half the story. Cracked joints, dropped brackets, and leaking sections can cause just as much damage as a blockage — sometimes more, because the water runs silently down behind your fascia board where you can't see it.</p>
 
-<p><a href="https://wowgutters.co.uk" style="color: #19C58B; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> carries out all common gutter repairs across Solihull on the day of your clean where possible — no need to wait for a second visit.</p>
+<p><a href="https://wowgutters.co.uk" style="color: #047857; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> carries out all common gutter repairs across Solihull on the day of your clean where possible — no need to wait for a second visit.</p>
 
 <p><strong>Our Solihull gutter repair services include:</strong></p>
 <ul>
@@ -2091,14 +2093,14 @@ export const blogPosts: BlogPost[] = [
 
 <p>Your fascias and soffits are the first thing people notice about your roofline — and after a wet West Midlands winter, they're often covered in green algae, black streaking, and stubborn dirt that makes your home look far worse than it is.</p>
 
-<p><a href="https://wowgutters.co.uk" style="color: #19C58B; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> uses a <strong>hot purified water cleaning system</strong> to restore fascias and soffits to a bright, streak-free finish — without chemicals, abrasive scrubbing, or any risk of surface damage.</p>
+<p><a href="https://wowgutters.co.uk" style="color: #047857; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> uses a <strong>hot purified water cleaning system</strong> to restore fascias and soffits to a bright, streak-free finish — without chemicals, abrasive scrubbing, or any risk of surface damage.</p>
 
 <p><strong>We clean all fascia and soffit types across Solihull including:</strong></p>
 <ul>
   <li>White and coloured uPVC fascias and soffits</li>
   <li>Timber fascias with painted or stained finish</li>
   <li>Ogee and deepline profile guttering</li>
-  <li><a href="/services/conservatory/" style="color: #19C58B; font-weight: 600; text-decoration: none;">Conservatory frames and trims</a></li>
+  <li><a href="/services/conservatory/" style="color: #047857; font-weight: 600; text-decoration: none;">Conservatory frames and trims</a></li>
   <li>Bargeboards and cladding panels</li>
 </ul>
 
@@ -2110,7 +2112,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Properties across Solihull, Knowle, Dorridge and Balsall Common are particularly prone to moss growth — especially on north-facing roofs and properties sheltered by mature trees.</p>
 
-<p>Our <a href="/services/roof-cleaning/" style="color: #19C58B; font-weight: 600; text-decoration: none;"><strong>professional moss and algae treatment service</strong></a> goes beyond a simple brush-off:</p>
+<p>Our <a href="/services/roof-cleaning/" style="color: #047857; font-weight: 600; text-decoration: none;"><strong>professional moss and algae treatment service</strong></a> goes beyond a simple brush-off:</p>
 <ol>
   <li><strong>Soft-wash roof cleaning</strong> — low-pressure removal of moss from tiles without dislodging or cracking them</li>
   <li><strong>Biocide treatment</strong> — applied after cleaning to kill remaining spores and inhibit regrowth for 12–24 months</li>
@@ -2132,13 +2134,13 @@ export const blogPosts: BlogPost[] = [
       <span style="font-size: 1rem;">&#9658;</span> Get A Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>
 
 <h2>Areas of Solihull We Cover</h2>
 
-<p><a href="https://wowgutters.co.uk" style="color: #19C58B; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> provides gutter cleaning and roofline services across every part of the Solihull borough — from the town centre to the rural villages.</p>
+<p><a href="https://wowgutters.co.uk" style="color: #047857; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> provides gutter cleaning and roofline services across every part of the Solihull borough — from the town centre to the rural villages.</p>
 
 <h3>Solihull Town &amp; Central Areas</h3>
 <p><strong>Solihull Town Centre</strong>, <strong>Shirley</strong>, <strong>Olton</strong>, <strong>Acocks Green</strong>, <strong>Hall Green</strong>, <strong>Sheldon</strong>, <strong>Yardley</strong>, <strong>Elmdon</strong>, <strong>Lyndon</strong></p>
@@ -2208,7 +2210,7 @@ export const blogPosts: BlogPost[] = [
       <span style="font-size: 1rem;">&#9658;</span> Get A Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>
 
@@ -2290,7 +2292,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>Book Gutter Cleaning in Solihull Today</h2>
 
-<p>Whether you're in <strong>Shirley</strong>, <strong>Knowle</strong>, <strong>Dorridge</strong>, <strong>Balsall Common</strong>, <strong>Cheswick Green</strong>, <strong>Castle Bromwich</strong>, <strong>Meriden</strong>, <strong>Olton</strong> or anywhere else across the Solihull borough — <a href="https://wowgutters.co.uk" style="color: #19C58B; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> is your local, trusted roofline specialist.</p>
+<p>Whether you're in <strong>Shirley</strong>, <strong>Knowle</strong>, <strong>Dorridge</strong>, <strong>Balsall Common</strong>, <strong>Cheswick Green</strong>, <strong>Castle Bromwich</strong>, <strong>Meriden</strong>, <strong>Olton</strong> or anywhere else across the Solihull borough — <a href="https://wowgutters.co.uk" style="color: #047857; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> is your local, trusted roofline specialist.</p>
 
 <ul>
   <li>? <strong>Same-day and next-day appointments</strong> across Solihull</li>
@@ -2302,22 +2304,22 @@ export const blogPosts: BlogPost[] = [
   <li>? Available <strong>24 hours a day</strong> including weekends</li>
 </ul>
 
-<p>?? <strong>Call or WhatsApp:</strong> <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
-?? <strong>Free online quote:</strong> <a href="/quote" style="color: #19C58B; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
+<p>?? <strong>Call or WhatsApp:</strong> <a href="tel:07421433910" style="color: #047857; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
+?? <strong>Free online quote:</strong> <a href="/quote" style="color: #047857; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
 ?? <strong>Serving:</strong> Solihull, Shirley, Knowle, Dorridge, Balsall Common, Cheswick Green, Meriden, Castle Bromwich &amp; all surrounding areas<br/>
 ?? <strong>Available:</strong> 24 hours a day | Same day booking available</p>
 
 <h2>Related Services in Solihull &amp; the West Midlands</h2>
 
 <ul>
-  <li><strong><a href="/gutter-cleaning-birmingham" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Birmingham</a></strong></li>
-  <li><strong><a href="/blog/fascias-soffits-west-midlands" style="color: #19C58B; text-decoration: none;">Fascia &amp; Soffit Cleaning West Midlands</a></strong></li>
-  <li><strong><a href="/services/roof-cleaning/" style="color: #19C58B; text-decoration: none;">Roof Moss Removal Solihull</a></strong></li>
-  <li><strong><a href="/help/repair" style="color: #19C58B; text-decoration: none;">Gutter Repairs Solihull</a></strong></li>
-  <li><strong><a href="/services/conservatory/" style="color: #19C58B; text-decoration: none;">Conservatory Gutter Cleaning Solihull</a></strong></li>
-  <li><strong><a href="/commercial" style="color: #19C58B; text-decoration: none;">Commercial Gutter Cleaning West Midlands</a></strong></li>
-  <li><strong><a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Coventry</a></strong></li>
-  <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Wolverhampton</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-birmingham" style="color: #047857; text-decoration: none;">Gutter Cleaning Birmingham</a></strong></li>
+  <li><strong><a href="/blog/fascias-soffits-west-midlands" style="color: #047857; text-decoration: none;">Fascia &amp; Soffit Cleaning West Midlands</a></strong></li>
+  <li><strong><a href="/services/roof-cleaning/" style="color: #047857; text-decoration: none;">Roof Moss Removal Solihull</a></strong></li>
+  <li><strong><a href="/help/repair" style="color: #047857; text-decoration: none;">Gutter Repairs Solihull</a></strong></li>
+  <li><strong><a href="/services/conservatory/" style="color: #047857; text-decoration: none;">Conservatory Gutter Cleaning Solihull</a></strong></li>
+  <li><strong><a href="/services/commercial-gutter-cleaning/" style="color: #047857; text-decoration: none;">Commercial Gutter Cleaning West Midlands</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-coventry" style="color: #047857; text-decoration: none;">Gutter Cleaning Coventry</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #047857; text-decoration: none;">Gutter Cleaning Wolverhampton</a></strong></li>
 </ul>
     `,
   },
@@ -2385,7 +2387,7 @@ export const blogPosts: BlogPost[] = [
 
 <h3>Sycamore Seeds — The Persistent Blocker</h3>
 
-<p>Walsall has extensive sycamore coverage, particularly around Walsall Arboretum and in the established residential streets of Aldridge and Streetly. Sycamore seeds — the distinctive winged "helicopter" seeds — are one of the most stubborn causes of gutter blockages across the West Midlands. Unlike leaves, which decompose relatively quickly, sycamore seeds interlock inside the gutter channel and form a dense mat that resists water flow. Find out more about <a href="/blog/blocked-gutters-sycamore-seeds" style="color: #19C58B; font-weight: 600; text-decoration: none;">how sycamore seeds block gutters and what happens if you leave them</a>.</p>
+<p>Walsall has extensive sycamore coverage, particularly around Walsall Arboretum and in the established residential streets of Aldridge and Streetly. Sycamore seeds — the distinctive winged "helicopter" seeds — are one of the most stubborn causes of gutter blockages across the West Midlands. Unlike leaves, which decompose relatively quickly, sycamore seeds interlock inside the gutter channel and form a dense mat that resists water flow. Find out more about <a href="/blog/blocked-gutters-sycamore-seeds" style="color: #047857; font-weight: 600; text-decoration: none;">how sycamore seeds block gutters and what happens if you leave them</a>.</p>
 
 <h3>Proximity to Cannock Chase</h3>
 
@@ -2393,7 +2395,7 @@ export const blogPosts: BlogPost[] = [
 
 <h3>Moss From Roof Tiles</h3>
 
-<p>Walsall's older housing stock — particularly the Victorian and Edwardian terraces of the town centre and the 1930s semis of Bloxwich — tends to have significant moss growth on roof tiles. Moss fragments wash off during every rainfall and accumulate inside gutters, compounding seasonal debris blockages. If your gutters keep blocking despite regular cleaning, a mossy roof is often the underlying cause. Our <a href="/help/clean" style="color: #19C58B; font-weight: 600; text-decoration: none;">roof cleaning service</a> addresses this at the source.</p>
+<p>Walsall's older housing stock — particularly the Victorian and Edwardian terraces of the town centre and the 1930s semis of Bloxwich — tends to have significant moss growth on roof tiles. Moss fragments wash off during every rainfall and accumulate inside gutters, compounding seasonal debris blockages. If your gutters keep blocking despite regular cleaning, a mossy roof is often the underlying cause. Our <a href="/help/clean" style="color: #047857; font-weight: 600; text-decoration: none;">roof cleaning service</a> addresses this at the source.</p>
 
 <h2>How Often Should Walsall Homeowners Clean Their Gutters?</h2>
 
@@ -2418,7 +2420,7 @@ export const blogPosts: BlogPost[] = [
   <li>?? <strong>You can't remember the last time they were cleaned</strong> — if it's been more than 18 months, they almost certainly need attention regardless of visible symptoms</li>
 </ul>
 
-<p>We've covered all ten signs in detail in our <a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">blocked gutter warning signs guide</a> — the same symptoms apply across all West Midlands properties.</p>
+<p>We've covered all ten signs in detail in our <a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;">blocked gutter warning signs guide</a> — the same symptoms apply across all West Midlands properties.</p>
 
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
@@ -2430,7 +2432,7 @@ export const blogPosts: BlogPost[] = [
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>
 
@@ -2492,7 +2494,7 @@ export const blogPosts: BlogPost[] = [
   </table>
 </div>
 
-<p>We also cover <a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <a href="/blog/gutter-cleaning-solihull" style="color: #19C58B; font-weight: 600; text-decoration: none;">Solihull</a>, <a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; font-weight: 600; text-decoration: none;">Coventry</a>, and across <a href="/gutter-cleaning-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">Birmingham</a> and the wider West Midlands. See our full <a href="/help/unblock" style="color: #19C58B; font-weight: 600; text-decoration: none;">gutter cleaning service page</a> for the complete coverage area.</p>
+<p>We also cover <a href="/blog/gutter-cleaning-wolverhampton" style="color: #047857; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <a href="/blog/gutter-cleaning-solihull" style="color: #047857; font-weight: 600; text-decoration: none;">Solihull</a>, <a href="/blog/gutter-cleaning-coventry" style="color: #047857; font-weight: 600; text-decoration: none;">Coventry</a>, and across <a href="/gutter-cleaning-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;">Birmingham</a> and the wider West Midlands. See our full <a href="/help/unblock" style="color: #047857; font-weight: 600; text-decoration: none;">gutter cleaning service page</a> for the complete coverage area.</p>
 
 <h2>Why Walsall Homeowners Choose WOW Gutters Ltd</h2>
 
@@ -2506,7 +2508,7 @@ export const blogPosts: BlogPost[] = [
   <li>?? <strong>Local West Midlands team.</strong> We're not a national call centre — we know the area, the housing stock, and the seasonal patterns specific to Walsall</li>
 </ul>
 
-<p>We also carry out <a href="/help/repair" style="color: #19C58B; font-weight: 600; text-decoration: none;">gutter repairs</a> for leaking joints, loose brackets, and sagging sections. And if your roof moss is contributing to repeat gutter blockages, our <a href="/help/clean" style="color: #19C58B; font-weight: 600; text-decoration: none;">roof cleaning and moss removal service</a> removes the problem at the source.</p>
+<p>We also carry out <a href="/help/repair" style="color: #047857; font-weight: 600; text-decoration: none;">gutter repairs</a> for leaking joints, loose brackets, and sagging sections. And if your roof moss is contributing to repeat gutter blockages, our <a href="/help/clean" style="color: #047857; font-weight: 600; text-decoration: none;">roof cleaning and moss removal service</a> removes the problem at the source.</p>
 
 <h2>Frequently Asked Questions — Gutter Cleaning Walsall</h2>
 
@@ -2574,20 +2576,20 @@ export const blogPosts: BlogPost[] = [
 
 </div>
 
-<p>?? <strong>Call or WhatsApp:</strong> <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
-?? <strong>Free online quote:</strong> <a href="/quote" style="color: #19C58B; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
+<p>?? <strong>Call or WhatsApp:</strong> <a href="tel:07421433910" style="color: #047857; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
+?? <strong>Free online quote:</strong> <a href="/quote" style="color: #047857; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
 ?? <strong>Serving:</strong> Walsall, Bloxwich, Aldridge, Willenhall, Brownhills, Pelsall, Streetly, Great Wyrley, Rushall &amp; all WS postcodes<br/>
 ?? <strong>Available:</strong> 24 hours a day | Same day booking available</p>
 
 <h2>Related Articles</h2>
 
 <ul>
-  <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Wolverhampton | WOW Gutters Ltd — Local Specialists</a></strong></li>
-  <li><strong><a href="/blog/before-after-gutter-cleaning-walsall" style="color: #19C58B; text-decoration: none;">Before &amp; After Gutter Cleaning Walsall — Real Results 2026</a></strong></li>
-  <li><strong><a href="/blog/blocked-gutters-sycamore-seeds" style="color: #19C58B; text-decoration: none;">Blocked Gutters Packed With Sycamore Seeds — What Happens If You Leave Them</a></strong></li>
-  <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
-  <li><strong><a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Coventry | WOW Gutters Ltd — Local Specialists</a></strong></li>
-  <li><strong><a href="/gutter-cleaning-prices" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Prices — Full 2026 Guide</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #047857; text-decoration: none;">Gutter Cleaning Wolverhampton | WOW Gutters Ltd — Local Specialists</a></strong></li>
+  <li><strong><a href="/blog/before-after-gutter-cleaning-walsall" style="color: #047857; text-decoration: none;">Before &amp; After Gutter Cleaning Walsall — Real Results 2026</a></strong></li>
+  <li><strong><a href="/blog/blocked-gutters-sycamore-seeds" style="color: #047857; text-decoration: none;">Blocked Gutters Packed With Sycamore Seeds — What Happens If You Leave Them</a></strong></li>
+  <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #047857; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-coventry" style="color: #047857; text-decoration: none;">Gutter Cleaning Coventry | WOW Gutters Ltd — Local Specialists</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-prices" style="color: #047857; text-decoration: none;">Gutter Cleaning Prices — Full 2026 Guide</a></strong></li>
 </ul>
     `,
   },
@@ -2672,10 +2674,10 @@ export const blogPosts: BlogPost[] = [
 <p>Aldridge, Streetly, Pelsall, and areas around Walsall Arboretum are lined with established oak and sycamore. One mature oak can fill a standard gutter in a single autumn season.</p>
 
 <h3>Sycamore Seeds</h3>
-<p>Walsall has extensive sycamore coverage. The winged seeds interlock inside gutters forming dense mats that do not break down quickly. Read more about <a href="/blog/blocked-gutters-sycamore-seeds" style="color: #19C58B; font-weight: 600; text-decoration: none;">how sycamore seeds block gutters</a>.</p>
+<p>Walsall has extensive sycamore coverage. The winged seeds interlock inside gutters forming dense mats that do not break down quickly. Read more about <a href="/blog/blocked-gutters-sycamore-seeds" style="color: #047857; font-weight: 600; text-decoration: none;">how sycamore seeds block gutters</a>.</p>
 
 <h3>Moss From Roof Tiles</h3>
-<p>Older housing stock in Bloxwich and Walsall town centre carries significant roof moss. Fragments wash into gutters during every rainfall. Our <a href="/help/clean" style="color: #19C58B; font-weight: 600; text-decoration: none;">roof cleaning service</a> treats the problem at source.</p>
+<p>Older housing stock in Bloxwich and Walsall town centre carries significant roof moss. Fragments wash into gutters during every rainfall. Our <a href="/help/clean" style="color: #047857; font-weight: 600; text-decoration: none;">roof cleaning service</a> treats the problem at source.</p>
 
 <h3>Cannock Chase Wind Debris</h3>
 <p>Properties in Brownhills, Great Wyrley, and Cheslyn Hay receive wind-blown debris from Cannock Chase during autumn storms on top of what garden trees produce.</p>
@@ -2691,7 +2693,7 @@ export const blogPosts: BlogPost[] = [
   <li>?? <strong>You cannot remember</strong> the last time they were cleaned</li>
 </ul>
 
-<p>Read our full <a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">blocked gutter warning signs guide</a>.</p>
+<p>Read our full <a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;">blocked gutter warning signs guide</a>.</p>
 
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
@@ -2703,7 +2705,7 @@ export const blogPosts: BlogPost[] = [
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>
 
@@ -2711,7 +2713,7 @@ export const blogPosts: BlogPost[] = [
 
 <p><strong>Bloxwich — Aldridge — Willenhall — Brownhills — Pelsall — Streetly — Rushall — Great Wyrley — Cheslyn Hay — WS1—WS9</strong></p>
 
-<p>Also covering <a href="/gutter-cleaning-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">Birmingham</a>, <a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <a href="/blog/gutter-cleaning-solihull" style="color: #19C58B; font-weight: 600; text-decoration: none;">Solihull</a>, and <a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; font-weight: 600; text-decoration: none;">Coventry</a>.</p>
+<p>Also covering <a href="/gutter-cleaning-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;">Birmingham</a>, <a href="/blog/gutter-cleaning-wolverhampton" style="color: #047857; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <a href="/blog/gutter-cleaning-solihull" style="color: #047857; font-weight: 600; text-decoration: none;">Solihull</a>, and <a href="/blog/gutter-cleaning-coventry" style="color: #047857; font-weight: 600; text-decoration: none;">Coventry</a>.</p>
 
 <h2>Frequently Asked Questions — Gutter Cleaning Walsall</h2>
 
@@ -2772,11 +2774,11 @@ export const blogPosts: BlogPost[] = [
 <h2>Related Articles</h2>
 
 <ul>
-  <li><strong><a href="/blog/gutter-cleaning-walsall" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Walsall — Full Local Guide</a></strong></li>
-  <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Wolverhampton | WOW Gutters Ltd</a></strong></li>
-  <li><strong><a href="/blog/blocked-gutters-sycamore-seeds" style="color: #19C58B; text-decoration: none;">Blocked Gutters Packed With Sycamore Seeds</a></strong></li>
-  <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
-  <li><strong><a href="/gutter-cleaning-prices" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Prices — Full 2026 Guide</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-walsall" style="color: #047857; text-decoration: none;">Gutter Cleaning Walsall — Full Local Guide</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #047857; text-decoration: none;">Gutter Cleaning Wolverhampton | WOW Gutters Ltd</a></strong></li>
+  <li><strong><a href="/blog/blocked-gutters-sycamore-seeds" style="color: #047857; text-decoration: none;">Blocked Gutters Packed With Sycamore Seeds</a></strong></li>
+  <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #047857; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-prices" style="color: #047857; text-decoration: none;">Gutter Cleaning Prices — Full 2026 Guide</a></strong></li>
 </ul>
     `,
   },
@@ -2822,7 +2824,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Loose debris at the tile joints</strong> that washes directly into the gutters below with every rainfall</li>
 </ul>
 
-<p>That last point matters. If your gutters keep blocking despite regular cleaning, a mossy roof is almost always the reason. Moss fragments wash off tiles constantly during rainfall and accumulate in the gutter channel below. Until the roof is treated, the blockages keep coming back. See our full guide on <a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">what causes gutters to block repeatedly</a>.</p>
+<p>That last point matters. If your gutters keep blocking despite regular cleaning, a mossy roof is almost always the reason. Moss fragments wash off tiles constantly during rainfall and accumulate in the gutter channel below. Until the roof is treated, the blockages keep coming back. See our full guide on <a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;">what causes gutters to block repeatedly</a>.</p>
 
 <figure style="margin: 20px 0;">
   <img
@@ -2878,7 +2880,7 @@ export const blogPosts: BlogPost[] = [
   <li>Is safe for all tile types covering Dudley's full housing range — concrete, clay, and slate</li>
 </ul>
 
-<p>Results typically last <strong>3 to 5 years</strong> before retreatment is needed. This is the method recommended by the <a href="https://www.propertycare.org/" style="color: #19C58B; font-weight: 600; text-decoration: none;" target="_blank" rel="noopener">Property Care Association</a> for UK residential roof cleaning.</p>
+<p>Results typically last <strong>3 to 5 years</strong> before retreatment is needed. This is the method recommended by the <a href="https://www.propertycare.org/" style="color: #047857; font-weight: 600; text-decoration: none;" target="_blank" rel="noopener">Property Care Association</a> for UK residential roof cleaning.</p>
 
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
@@ -2890,7 +2892,7 @@ export const blogPosts: BlogPost[] = [
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>
 
@@ -2898,7 +2900,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>When a Dudley roof has significant moss coverage, fragments wash off the tiles during every rainfall and flow directly into the gutters below. Inside the gutter channel, those fragments combine with leaf debris and silt to form blockages. The heavier the roof moss, the faster the gutters fill.</p>
 
-<p>This is why some Dudley properties need their <a href="/help/unblock" style="color: #19C58B; font-weight: 600; text-decoration: none;">gutters cleaned</a> three or four times a year despite regular maintenance — the roof is constantly resupplying the gutters with fresh organic debris. Treating the roof removes this source, and most homeowners find their gutters stay clear significantly longer after a roof treatment.</p>
+<p>This is why some Dudley properties need their <a href="/help/unblock" style="color: #047857; font-weight: 600; text-decoration: none;">gutters cleaned</a> three or four times a year despite regular maintenance — the roof is constantly resupplying the gutters with fresh organic debris. Treating the roof removes this source, and most homeowners find their gutters stay clear significantly longer after a roof treatment.</p>
 
 <h2>Areas We Cover in Dudley</h2>
 
@@ -2958,7 +2960,7 @@ export const blogPosts: BlogPost[] = [
   </table>
 </div>
 
-<p>We also cover <a href="/gutter-cleaning-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">Birmingham</a>, <a href="/blog/gutter-cleaning-walsall" style="color: #19C58B; font-weight: 600; text-decoration: none;">Walsall</a>, <a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <a href="/blog/gutter-cleaning-solihull" style="color: #19C58B; font-weight: 600; text-decoration: none;">Solihull</a>, and <a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; font-weight: 600; text-decoration: none;">Coventry</a> and all surrounding West Midlands areas.</p>
+<p>We also cover <a href="/gutter-cleaning-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;">Birmingham</a>, <a href="/blog/gutter-cleaning-walsall" style="color: #047857; font-weight: 600; text-decoration: none;">Walsall</a>, <a href="/blog/gutter-cleaning-wolverhampton" style="color: #047857; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <a href="/blog/gutter-cleaning-solihull" style="color: #047857; font-weight: 600; text-decoration: none;">Solihull</a>, and <a href="/blog/gutter-cleaning-coventry" style="color: #047857; font-weight: 600; text-decoration: none;">Coventry</a> and all surrounding West Midlands areas.</p>
 
 <h2>Signs Your Dudley Roof Needs Cleaning</h2>
 
@@ -3038,19 +3040,19 @@ export const blogPosts: BlogPost[] = [
 
 </div>
 
-<p>?? <strong>Call or WhatsApp:</strong> <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
-?? <strong>Free online quote:</strong> <a href="/quote" style="color: #19C58B; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
+<p>?? <strong>Call or WhatsApp:</strong> <a href="tel:07421433910" style="color: #047857; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
+?? <strong>Free online quote:</strong> <a href="/quote" style="color: #047857; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
 ?? <strong>Serving:</strong> Dudley, Brierley Hill, Sedgley, Coseley, Kingswinford, Stourbridge, Netherton, Halesowen &amp; all DY postcodes<br/>
 ?? <strong>Available:</strong> 24 hours a day | Same day booking available</p>
 
 <h2>Related Articles</h2>
 
 <ul>
-  <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Wolverhampton | WOW Gutters Ltd</a></strong></li>
-  <li><strong><a href="/blog/gutter-cleaning-walsall" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Walsall | WOW Gutters Ltd</a></strong></li>
-  <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
-  <li><strong><a href="/blog/blocked-gutters-sycamore-seeds" style="color: #19C58B; text-decoration: none;">Blocked Gutters Packed With Sycamore Seeds</a></strong></li>
-  <li><strong><a href="/gutter-cleaning-prices" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Prices — Full 2026 Guide</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #047857; text-decoration: none;">Gutter Cleaning Wolverhampton | WOW Gutters Ltd</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-walsall" style="color: #047857; text-decoration: none;">Gutter Cleaning Walsall | WOW Gutters Ltd</a></strong></li>
+  <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #047857; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
+  <li><strong><a href="/blog/blocked-gutters-sycamore-seeds" style="color: #047857; text-decoration: none;">Blocked Gutters Packed With Sycamore Seeds</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-prices" style="color: #047857; text-decoration: none;">Gutter Cleaning Prices — Full 2026 Guide</a></strong></li>
 </ul>
     `,
   },
@@ -3125,7 +3127,7 @@ export const blogPosts: BlogPost[] = [
 <p>Homeowners in Bartley Green often tell us they're surprised how quickly their gutters fill up — even when they were cleaned relatively recently. There are specific reasons for this that are particular to B32 and the surrounding area.</p>
 
 <h3>Bromwich Wood Local Nature Reserve</h3>
-<p>Bartley Green sits adjacent to Bartley Reservoir and its surrounding green spaces, which include <a href="https://bosf.org.uk/members/bartley-reservoir/" style="color: #19C58B; font-weight: 600; text-decoration: none;" target="_blank" rel="noopener">Bromwich Wood</a> — a Local Nature Reserve known for its variety of established deciduous trees. An unmanaged nature reserve generates organic material from oak, ash, sycamore, and birch at a volume that reflects a real woodland ecosystem. During autumn wind events, this material travels across the surrounding residential area.</p>
+<p>Bartley Green sits adjacent to Bartley Reservoir and its surrounding green spaces, which include <a href="https://bosf.org.uk/members/bartley-reservoir/" style="color: #047857; font-weight: 600; text-decoration: none;" target="_blank" rel="noopener">Bromwich Wood</a> — a Local Nature Reserve known for its variety of established deciduous trees. An unmanaged nature reserve generates organic material from oak, ash, sycamore, and birch at a volume that reflects a real woodland ecosystem. During autumn wind events, this material travels across the surrounding residential area.</p>
 
 <p>Properties on streets close to the reservoir corridor in B32 receive debris from two sources simultaneously — their own garden and street trees, and wind-blown material from Bromwich Wood. The gutter debris load is additive. This is why the before photograph from this job contained material from species that don't grow in the property's own garden.</p>
 
@@ -3153,7 +3155,7 @@ export const blogPosts: BlogPost[] = [
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>
 
@@ -3161,9 +3163,9 @@ export const blogPosts: BlogPost[] = [
 
 <p>Bartley Green's post-war concrete tile properties develop moss on their roof surfaces — particularly on north-facing slopes. Every rainfall washes moss fragments from the roof tiles directly into the gutter channel below. The more moss on the roof, the faster the gutters fill.</p>
 
-<p>If your gutters are blocking within a few months of being cleaned, a mossy roof is almost always a contributing factor. Our <a href="/help/clean" style="color: #19C58B; font-weight: 600; text-decoration: none;">roof cleaning service</a> uses a professional soft wash treatment to remove moss, algae, and lichen at the root — reducing the volume of debris entering your gutters and extending the time between cleans.</p>
+<p>If your gutters are blocking within a few months of being cleaned, a mossy roof is almost always a contributing factor. Our <a href="/help/clean" style="color: #047857; font-weight: 600; text-decoration: none;">roof cleaning service</a> uses a professional soft wash treatment to remove moss, algae, and lichen at the root — reducing the volume of debris entering your gutters and extending the time between cleans.</p>
 
-<p>You can read more about the connection between roof moss and gutter blockages in our guide to <a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">what causes gutters to block repeatedly</a>.</p>
+<p>You can read more about the connection between roof moss and gutter blockages in our guide to <a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;">what causes gutters to block repeatedly</a>.</p>
 
 <h2>Signs Your Bartley Green Gutter Needs Cleaning</h2>
 
@@ -3226,7 +3228,7 @@ export const blogPosts: BlogPost[] = [
   </table>
 </div>
 
-<p>We also cover all <a href="/gutter-cleaning-birmingham" style="color: #19C58B; font-weight: 600; text-decoration: none;">Birmingham</a> postcodes and the wider West Midlands including <a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <a href="/blog/gutter-cleaning-walsall" style="color: #19C58B; font-weight: 600; text-decoration: none;">Walsall</a>, <a href="/blog/gutter-cleaning-solihull" style="color: #19C58B; font-weight: 600; text-decoration: none;">Solihull</a>, and <a href="/blog/gutter-cleaning-coventry" style="color: #19C58B; font-weight: 600; text-decoration: none;">Coventry</a>.</p>
+<p>We also cover all <a href="/gutter-cleaning-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;">Birmingham</a> postcodes and the wider West Midlands including <a href="/blog/gutter-cleaning-wolverhampton" style="color: #047857; font-weight: 600; text-decoration: none;">Wolverhampton</a>, <a href="/blog/gutter-cleaning-walsall" style="color: #047857; font-weight: 600; text-decoration: none;">Walsall</a>, <a href="/blog/gutter-cleaning-solihull" style="color: #047857; font-weight: 600; text-decoration: none;">Solihull</a>, and <a href="/blog/gutter-cleaning-coventry" style="color: #047857; font-weight: 600; text-decoration: none;">Coventry</a>.</p>
 
 <h2>Why Bartley Green Homeowners Choose WOW Gutters Ltd</h2>
 
@@ -3238,7 +3240,7 @@ export const blogPosts: BlogPost[] = [
   <li>?? <strong>Local team</strong> — we know the B32 area, the housing stock, and the seasonal debris patterns specific to Bartley Green</li>
 </ul>
 
-<p>We also carry out <a href="/help/repair" style="color: #19C58B; font-weight: 600; text-decoration: none;">gutter repairs</a> for leaking joints, sagging sections, and loose brackets — so if your gutters need more than a clean, we can handle both in a single visit.</p>
+<p>We also carry out <a href="/help/repair" style="color: #047857; font-weight: 600; text-decoration: none;">gutter repairs</a> for leaking joints, sagging sections, and loose brackets — so if your gutters need more than a clean, we can handle both in a single visit.</p>
 
 <h2>Frequently Asked Questions — Gutter Cleaning Bartley Green</h2>
 
@@ -3306,20 +3308,20 @@ export const blogPosts: BlogPost[] = [
 
 </div>
 
-<p>?? <strong>Call or WhatsApp:</strong> <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
-?? <strong>Free online quote:</strong> <a href="/quote" style="color: #19C58B; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
+<p>?? <strong>Call or WhatsApp:</strong> <a href="tel:07421433910" style="color: #047857; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
+?? <strong>Free online quote:</strong> <a href="/quote" style="color: #047857; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
 ?? <strong>Serving:</strong> Bartley Green, Frankley, Quinton, Harborne, Northfield, Selly Oak, Bournville &amp; all B31/B32 postcodes<br/>
 ?? <strong>Available:</strong> 24 hours a day | Same day booking available</p>
 
 <h2>Related Articles</h2>
 
 <ul>
-  <li><strong><a href="/gutter-cleaning-birmingham" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Birmingham — Full Local Guide</a></strong></li>
-  <li><strong><a href="/blog/gutter-cleaning-selly-oak" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Selly Oak B29 Birmingham</a></strong></li>
-  <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Wolverhampton | WOW Gutters Ltd</a></strong></li>
-  <li><strong><a href="/blog/gutter-cleaning-walsall" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Walsall | WOW Gutters Ltd</a></strong></li>
-  <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
-  <li><strong><a href="/blog/blocked-gutters-sycamore-seeds" style="color: #19C58B; text-decoration: none;">Blocked Gutters Packed With Sycamore Seeds</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-birmingham" style="color: #047857; text-decoration: none;">Gutter Cleaning Birmingham — Full Local Guide</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-selly-oak" style="color: #047857; text-decoration: none;">Gutter Cleaning Selly Oak B29 Birmingham</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-wolverhampton" style="color: #047857; text-decoration: none;">Gutter Cleaning Wolverhampton | WOW Gutters Ltd</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-walsall" style="color: #047857; text-decoration: none;">Gutter Cleaning Walsall | WOW Gutters Ltd</a></strong></li>
+  <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #047857; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
+  <li><strong><a href="/blog/blocked-gutters-sycamore-seeds" style="color: #047857; text-decoration: none;">Blocked Gutters Packed With Sycamore Seeds</a></strong></li>
 </ul>
     `,
   },
@@ -3593,20 +3595,20 @@ export const blogPosts: BlogPost[] = [
 
 <p>If your roof is showing signs of moss growth — green streaks, lifting tile edges, or blocked gutters after heavy rain — don't wait until it becomes a structural issue. Roof cleaning is significantly cheaper than the repairs that follow from neglect.</p>
 
-<p>?? <strong>Call or WhatsApp:</strong> <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
-?? <strong>Free online quote:</strong> <a href="/quote" style="color: #19C58B; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
+<p>?? <strong>Call or WhatsApp:</strong> <a href="tel:07421433910" style="color: #047857; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
+?? <strong>Free online quote:</strong> <a href="/quote" style="color: #047857; font-weight: 600; text-decoration: none;">wowgutters.co.uk/quote</a><br/>
 ?? <strong>Serving:</strong> Kings Norton, Stirchley, Bournville, Cotteridge, Northfield, Longbridge &amp; all B30, B14, B31, B38, B45 postcodes<br/>
 ?? <strong>Available:</strong> 24 hours a day | Same-day booking available</p>
 
 <h2>Related Articles</h2>
 
 <ul>
-  <li><strong><a href="/gutter-cleaning-birmingham/" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Birmingham — Full Local Guide</a></strong></li>
-  <li><strong><a href="/blog/gutter-cleaning-selly-oak" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Selly Oak B29 Birmingham</a></strong></li>
-  <li><strong><a href="/gutter-cleaning-kings-norton/" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Kings Norton B30 | WOW Gutters Ltd</a></strong></li>
-  <li><strong><a href="/gutter-cleaning-stirchley/" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Stirchley | WOW Gutters Ltd</a></strong></li>
-  <li><strong><a href="/gutter-cleaning-northfield/" style="color: #19C58B; text-decoration: none;">Gutter Cleaning Northfield B31 | WOW Gutters Ltd</a></strong></li>
-  <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #19C58B; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-birmingham/" style="color: #047857; text-decoration: none;">Gutter Cleaning Birmingham — Full Local Guide</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-selly-oak" style="color: #047857; text-decoration: none;">Gutter Cleaning Selly Oak B29 Birmingham</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-kings-norton/" style="color: #047857; text-decoration: none;">Gutter Cleaning Kings Norton B30 | WOW Gutters Ltd</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-stirchley/" style="color: #047857; text-decoration: none;">Gutter Cleaning Stirchley | WOW Gutters Ltd</a></strong></li>
+  <li><strong><a href="/gutter-cleaning-northfield/" style="color: #047857; text-decoration: none;">Gutter Cleaning Northfield B31 | WOW Gutters Ltd</a></strong></li>
+  <li><strong><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #047857; text-decoration: none;">10 Warning Signs Your Gutters Are Blocked</a></strong></li>
 </ul>
     `,
   },

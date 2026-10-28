@@ -847,7 +847,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Family semis (Cranmore Avenue)', detail: 'Sagging uPVC rehung; unions resealed.' },
       { label: 'Detached homes near Monkspath', detail: 'Multi-downpipe systems repaired in one visit.' },
       { label: 'Stratford Road corridor', detail: 'Storm-damaged stop-ends and outlets replaced.' },
-      { label: 'Newer builds', detail: 'Warranty-friendly repairs where brackets were under-fixed.' },
+      { label: 'Newer builds', detail: 'Secure re-fixing where brackets were under-fixed.' },
     ],
     areasTitle: 'Areas We Cover Around Cranmore',
     areasInline: 'Cranmore | Shirley | Solihull | Monkspath | Widney Manor | Haslucks Green',

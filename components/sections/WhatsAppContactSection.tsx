@@ -116,7 +116,7 @@ export default function WhatsAppContactSection({
               <a
                 href="tel:+447421433910"
                 className="text-2xl font-black hover:underline"
-                style={{ color: colors.primary }}
+                style={{ color: colors.primaryText }}
               >
                 +44 7421 433910
               </a>

@@ -6,7 +6,7 @@ const IMAGE_TWO = '/blog-images/leaf-removing-gutter-cleaning-image2.webp';
 const BEFORE = '/blog-images/leaf-removing-gutter-cleaning-before.webp';
 const AFTER = '/blog-images/leaf-removing-gutter-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const sectionCta = `
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
@@ -25,7 +25,7 @@ const ctaBox = `
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-week availability</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -297,7 +297,7 @@ ${ctaBox}
 
 <p>WOW Gutters Ltd provides professional gutter cleaning across Birmingham and the West Midlands, assessing your property's specific tree species and severity profile to recommend a genuinely tailored autumn maintenance approach. Ground-based vacuum system. No ladders. Before and after photographs on every job without exception. Fully insured professional team.</p>
 
-<p>📞 <strong>Call:</strong> <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
+<p>📞 <strong>Call:</strong> <a href="tel:07421433910" style="color: #047857; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
 📧 <strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a><br/>
 🌐 <strong>Website:</strong> <a href="/quote/" style="${link}">wowgutters.co.uk</a><br/>
 📋 <strong>Free quote:</strong> <a href="/quote/" style="${link}">wowgutters.co.uk/quote</a></p>
@@ -318,4 +318,4 @@ ${ctaBox}
   <li><a href="/blog/roof-moss-damage/" style="${link}">Moss on Your Roof? What It's Doing to Your Birmingham Gutters</a></li>
 </ul>
   `,
-};
+};
