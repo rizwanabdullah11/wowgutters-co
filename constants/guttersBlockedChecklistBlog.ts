@@ -10,7 +10,7 @@ const IMG_AFTER =
 const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaTop = `
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 WOW Gutters Ltd — Birmingham's gutter cleaning specialists:</strong>
   <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
   Free 60-second quote · Before & after camera photos on every job · £10m public liability cover
@@ -23,7 +23,7 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">A checklist genuinely helps you decide whether professional attention is warranted, but it cannot replace the real-time camera inspection, comprehensive downpipe flow testing, and dated photographic documentation that a proper professional visit provides. WOW Gutters Ltd provides genuine professional confirmation across Birmingham and the West Midlands. Ground-based vacuum system · No ladders · Before and after photos on every job.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week appointments across Birmingham & West Midlands</p>
@@ -81,7 +81,7 @@ ${ctaTop}
 
 <div style="margin: 24px 0; display: flex; flex-direction: column; gap: 14px;">
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Is there a vertical staining pattern on any external wall below your gutter line?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">This should be genuinely distinct from general weathering — a fairly consistent line running down from a specific point, rather than an even discolouration across the whole wall surface.</span>
@@ -89,7 +89,7 @@ ${ctaTop}
   </div>
 
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Is there visible green algae or moss growth on a wall face specifically near the gutter line?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained throughout our detailed guidance on <a href="/blog/summer-gutter-warning" style="${link}">what your gutters are genuinely trying to tell you this summer</a>, this kind of biological growth requires sustained, repeated moisture exposure to establish, meaning its presence indicates an ongoing pattern rather than a single recent event.</span>
@@ -97,7 +97,7 @@ ${ctaTop}
   </div>
 
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Does any section of your gutter run visibly sag, or sit at a noticeably different angle compared with the rest of the run?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As detailed extensively throughout our comprehensive guidance on <a href="/blog/hidden-gutter-damage-summer" style="${link}">hidden gutter damage that's easier to spot in summer</a>, this frequently indicates bracket failure that's been developing gradually beneath the surface.</span>
@@ -105,7 +105,7 @@ ${ctaTop}
   </div>
 
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Can you see any plant growth, moss, or debris genuinely visible within the gutter channel itself from ground level?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">Even a small amount visible from this distance typically indicates a considerably greater volume of accumulation than what's actually visible from the ground.</span>
@@ -113,7 +113,7 @@ ${ctaTop}
   </div>
 
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Is there standing water or a persistent damp patch at the base of any downpipe?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">Particularly concerning if this pattern genuinely recurs consistently after rainfall rather than draining away and disappearing within a reasonable timeframe.</span>
@@ -141,7 +141,7 @@ ${ctaTop}
 
 <div style="margin: 24px 0; display: flex; flex-direction: column; gap: 14px;">
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Does water run down any external wall face during rain, rather than passing cleanly through the downpipe as designed?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained comprehensively throughout our guidance on <a href="/blog/roofline-damage-prevention" style="${link}">how professional gutter cleaning extends the life of a property's roofline</a>, a properly functioning system genuinely shouldn't overflow at all, even under a meaningfully heavier Birmingham downpour than typical light rain.</span>
@@ -149,7 +149,7 @@ ${ctaTop}
   </div>
 
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Do you hear a gurgling or spluttering sound from any downpipe during rainfall?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As detailed extensively throughout our dedicated guide on the <a href="/blog/downpipe-blocked-signs-birmingham-homes" style="${link}">specific signs Birmingham homes show when a downpipe is genuinely blocked</a>, this indicates air being drawn into the water flow at a partial restriction point — genuinely one of the earliest detectable warning signs, appearing well before any visible overflow symptom would be noticeable.</span>
@@ -157,7 +157,7 @@ ${ctaTop}
   </div>
 
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Is there any splashing sound against a path, patio, or windowsill during rain?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">This indicates the gutter is already overflowing to some meaningful degree even under modest rainfall conditions that a properly functioning system should easily handle without any audible symptom at all.</span>
@@ -165,7 +165,7 @@ ${ctaTop}
   </div>
 
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Does water continue dripping or trickling from a specific section well after the rain itself has genuinely stopped?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As covered extensively throughout our detailed guidance on <a href="/blog/hidden-gutter-damage-summer" style="${link}">hidden gutter damage</a>, this indicates a genuine capacity issue somewhere within the system, frequently connected to the kind of hidden silt accumulation that reduces effective channel depth without producing any other visible symptom.</span>
@@ -179,7 +179,7 @@ ${ctaTop}
 
 <div style="margin: 24px 0; display: flex; flex-direction: column; gap: 14px;">
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Is there a musty smell in any upstairs room, particularly noticeable on humid days or after a period of rain?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained throughout our comprehensive guidance on <a href="/blog/clean-gutters-prevent-damp" style="${link}">whether blocked gutters can cause damp</a>, this is frequently the earliest detectable indicator of external moisture reaching the building fabric, often appearing well before any visible internal staining actually develops.</span>
@@ -187,7 +187,7 @@ ${ctaTop}
   </div>
 
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Is there any visible damp patch, discolouration, staining, or peeling wallpaper on an upstairs wall positioned near an external wall?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As detailed extensively throughout our guidance on <a href="/blog/west-midlands-water-damage" style="${link}">whether your West Midlands home might be quietly storing water damage right now</a>, this represents a considerably later, more advanced stage of the same underlying progression than the earlier, subtler signs described above.</span>
@@ -195,7 +195,7 @@ ${ctaTop}
   </div>
 
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Have you noticed any unexplained sounds — scratching, scurrying, or bird activity — coming from your loft space, particularly concentrated near the eaves rather than throughout the whole roof void?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As covered comprehensively throughout our dedicated guide to <a href="/blog/soffit-damage-signs" style="${link}">soffit damage across West Midlands homes and the early signs worth recognising</a>, this can genuinely indicate pest entry through compromised soffit or fascia condition at the roofline.</span>
@@ -223,7 +223,7 @@ ${ctaTop}
 
 <div style="margin: 24px 0; display: flex; flex-direction: column; gap: 14px;">
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Is there any visible moss coverage on your roof's tile or slate surface?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained comprehensively throughout our detailed guidance on <a href="/blog/roof-moss-damage" style="${link}">what roof moss is genuinely doing to your gutters right now</a>, moss sheds continuously throughout the year rather than in a single seasonal event, contributing to gutter accumulation on an ongoing basis regardless of season. For source treatment, explore our <a href="/services/roof-cleaning/" style="${link}">roof cleaning services</a>.</span>
@@ -231,7 +231,7 @@ ${ctaTop}
   </div>
 
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Does your property have mature trees — sycamore, oak, lime, or ash specifically — positioned nearby, whether within your own garden or a neighbouring one?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As detailed extensively throughout our comprehensive guidance on <a href="/blog/tree-gutter-cleaning" style="${link}">how tree cover changes gutter cleaning scheduling requirements across Birmingham</a>, different species genuinely carry meaningfully different accumulation risk profiles, timing patterns, and blockage characteristics.</span>
@@ -239,7 +239,7 @@ ${ctaTop}
   </div>
 
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Does your property have a flat-roofed extension, garage, or dormer in addition to the main pitched roof?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As covered extensively throughout our dedicated guide to <a href="/blog/flat-roof-gutters" style="${link}">flat roof gutters across Birmingham and the maintenance problem most generic guidance genuinely ignores entirely</a>, this system faces genuinely distinct risks that most homeowners never think to check separately from their main pitched roof gutters.</span>
@@ -247,7 +247,7 @@ ${ctaTop}
   </div>
 
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Is your property semi-detached, with a party wall junction potentially sharing a gutter section or downpipe with the neighbouring property?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As detailed throughout our comprehensive guidance on the <a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham" style="${link}">shared boundary issue affecting Birmingham semi-detached homes specifically</a>, a neighbour's neglected side of a shared system can genuinely affect your own property, entirely regardless of how diligently you maintain your own section.</span>
@@ -255,7 +255,7 @@ ${ctaTop}
   </div>
 
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Is your property Victorian or Edwardian, with an original cast iron gutter system rather than modern UPVC?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained extensively throughout our detailed guide to <a href="/blog/victorian-gutter-cleaning-birmingham" style="${link}">why Victorian homes need a genuinely different gutter cleaning approach</a>, cast iron systems carry a genuinely different risk profile, including joint seals that fail considerably more frequently and unpredictably than modern mechanical connections.</span>
@@ -269,7 +269,7 @@ ${ctaTop}
 
 <div style="margin: 24px 0; display: flex; flex-direction: column; gap: 14px;">
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Can you genuinely remember when your gutters were last professionally inspected, rather than simply cleared of whatever debris happened to be visible?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained throughout our detailed guidance on <a href="/blog/seasonal-home-maintenance" style="${link}">the one home maintenance task Birmingham homeowners consistently miss each summer</a>, most people judge gutter condition purely by the absence of visible overflow rather than through any genuine, deliberate inspection.</span>
@@ -277,7 +277,7 @@ ${ctaTop}
   </div>
 
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Has it genuinely been more than twelve months since a professional visit of any kind?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">Given the seasonal accumulation pattern described comprehensively throughout our <a href="/blog/birmingham-seasonal-gutter-guide" style="${link}">full Birmingham gutter maintenance calendar covering what to do each season</a>, this timeframe alone genuinely warrants attention regardless of whether any other symptom on this checklist is currently present.</span>
@@ -285,7 +285,7 @@ ${ctaTop}
   </div>
 
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Has your property ever had gutters "cleared" that overflowed again within a season or two afterward, despite apparently being freshly cleaned?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As detailed extensively throughout our comprehensive guide on <a href="/blog/stop-gutters-blocking" style="${link}">how to genuinely stop gutters from blocking again</a>, this specific pattern indicates an unaddressed underlying structural or seasonal cause rather than a genuinely resolved issue, meaning the same recurrence is likely to continue regardless of how many more times the same surface-level clear is repeated.</span>
@@ -293,7 +293,7 @@ ${ctaTop}
   </div>
 
   <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,0.03); display: flex; align-items: flex-start; gap: 14px;">
-    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
+    <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #0E7F5A; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Have you ever asked a previous contractor whether they clear to the genuine channel floor and check structural condition, or only remove what's visible from the top?</strong>
       <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained comprehensively throughout our dedicated guidance on <a href="/blog/ask-before-hiring-gutter-cleaner" style="${link}">the one question worth asking before hiring any gutter cleaner across the West Midlands</a>, most homeowners have never actually asked this specific question, meaning they genuinely don't know which type of service they've historically been receiving.</span>
@@ -307,7 +307,7 @@ ${ctaTop}
 
 <div style="margin: 28px 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
   <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 12px; padding: 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
-    <div style="display: inline-block; background: #19C58B; color: #ffffff; font-size: 0.85rem; font-weight: 800; padding: 4px 12px; border-radius: 20px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px;">Low Risk</div>
+    <div style="display: inline-block; background: #047857; color: #ffffff; font-size: 0.85rem; font-weight: 800; padding: 4px 12px; border-radius: 20px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px;">Low Risk</div>
     <h3 style="font-size: 1.25rem; font-weight: 800; color: #065f46; margin: 0 0 10px 0;">0 to 2 Items Ticked</h3>
     <p style="color: #1e293b; font-size: 0.95rem; line-height: 1.65; margin: 0;">Your gutters are likely in genuinely reasonable condition currently, though a proactive summer inspection, as covered extensively throughout our detailed guidance on <a href="/blog/birmingham-gutter-health-check-summer" style="${link}">why every Birmingham home needs a gutter health check this summer</a>, remains genuinely worthwhile given how much of the earliest, most cost-effectively addressed damage stays entirely invisible from any ground-level check alone.</p>
   </div>

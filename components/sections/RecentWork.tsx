@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { blogThumb } from '@/lib/blogThumb';
 import { colors } from '@/constants/colors';
 import { workPosts } from '@/constants/workData';
 import { ArrowRight } from 'lucide-react';
@@ -73,7 +74,7 @@ export default function RecentWork() {
                 className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 h-full flex flex-col"
                 style={{ borderTop: `3px solid ${ACCENTS[index]}` }}
               >
-                <img src={post.image} alt={post.title} className="w-full h-44 object-cover" />
+                <img src={blogThumb(post.image)} alt={post.title} width={480} height={176} loading="lazy" decoding="async" className="w-full h-44 object-cover" />
                 <div className="p-5 flex flex-col flex-1">
                   <p className="text-[10px] font-bold tracking-widest uppercase mb-2" style={{ color: ACCENTS[index] }}>
                     COMPLETED JOB
@@ -101,7 +102,7 @@ export default function RecentWork() {
                 className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 h-full flex flex-col"
                 style={{ borderTop: `3px solid ${ACCENTS[index]}` }}
               >
-                <img src={post.image} alt={post.title} className="w-full h-44 object-cover" />
+                <img src={blogThumb(post.image)} alt={post.title} width={480} height={176} loading="lazy" decoding="async" className="w-full h-44 object-cover" />
                 <div className="p-5 flex flex-col flex-1">
                   <p className="text-[10px] font-bold tracking-widest uppercase mb-2" style={{ color: ACCENTS[index] }}>
                     COMPLETED JOB

@@ -10,14 +10,14 @@ const IMG_5      = '/blog-images/hiring-gutter-cleaning-westmidlands/hiring-gutt
 const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaTop = `
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 WOW Gutters Ltd — Birmingham's landlord &amp; letting agent specialists:</strong>
   <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
   Portfolio maintenance · Before &amp; after HD photos · Written condition reports for every property
 </blockquote>`;
 
 const ctaBox = `
-<div style="background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%); border: 2px solid #19C58B; border-radius: 16px; padding: 28px 32px; margin: 40px 0; box-shadow: 0 4px 20px rgba(25, 197, 139, 0.12);">
+<div style="background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%); border: 2px solid #0E7F5A; border-radius: 16px; padding: 28px 32px; margin: 40px 0; box-shadow: 0 4px 20px rgba(14, 127, 90, 0.12);">
   <h3 style="font-size: 1.4rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.3; text-transform: uppercase;">BUILD A MAINTENANCE SYSTEM YOUR PORTFOLIO CAN RELY ON</h3>
   <p style="color: #334155; font-size: 0.98rem; line-height: 1.75; margin: 0 0 20px 0;">Gutter maintenance on a rental property isn't simply a smaller version of homeowner maintenance repeated across more addresses — it carries distinct legal, documentation, and tenant-relations stakes that genuinely warrant a proactive, scheduled approach rather than reactive, tenant-triggered call-outs. WOW Gutters Ltd provides scheduled gutter maintenance for landlords and letting agents across Birmingham and the West Midlands, with full documentation on every visit for every property in your portfolio. Ground-based vacuum system with real-time camera inspection. No ladders. Before and after photographs on every job without exception.</p>
   <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 12px; padding: 18px 24px;">
@@ -26,7 +26,7 @@ const ctaBox = `
       <span style="display: block; color: #64748b; font-size: 0.825rem; margin-top: 2px;">Same-week appointments &amp; annual maintenance plans across West Midlands</span>
     </div>
     <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px;">
-      <a href="/quote/" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #19C58B; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 22px; border-radius: 8px; text-decoration: none; box-shadow: 0 2px 8px rgba(25, 197, 139, 0.3);">
+      <a href="/quote/" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #047857; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 22px; border-radius: 8px; text-decoration: none; box-shadow: 0 2px 8px rgba(14, 127, 90, 0.3);">
         <span>&#9658;</span> Get Portfolio Quote
       </a>
       <a href="tel:07421433910" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #0f172a; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 22px; border-radius: 8px; text-decoration: none;">
@@ -181,7 +181,7 @@ ${ctaBox}
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>Why does gutter maintenance carry different stakes for a rental property than an owner-occupied home?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Tenants frequently don't notice, understand, or report early warning signs the way an owner-occupier naturally would, meaning the usual early detection a homeowner relies on genuinely doesn't exist reliably on a rental property, making proactive scheduled maintenance considerably more important.</p>
@@ -191,7 +191,7 @@ ${ctaBox}
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>Do landlords have a genuine legal obligation around gutter condition specifically?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Landlords in England and Wales carry statutory repairing obligations covering a property's structure and exterior under the Landlord and Tenant Act 1972, within which gutter and roofline condition genuinely falls, as reflected in the government's own landlord repair guidance.</p>
@@ -201,7 +201,7 @@ ${ctaBox}
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>Why does documentation matter more for landlords than for a single homeowner?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Dated photographic evidence and written condition summaries provide genuinely relevant records should a tenant dispute, inspection, or complaint ever require evidence of proper maintenance, connecting directly to the landlord's statutory repairing obligations rather than simply general good practice.</p>
@@ -211,7 +211,7 @@ ${ctaBox}
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>How should a landlord schedule maintenance across a varied property portfolio?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Align timing with each property's specific risk profile — tree coverage, construction type, cast iron versus UPVC — rather than applying one uniform date across every property regardless of its individual characteristics.</p>
@@ -221,7 +221,7 @@ ${ctaBox}
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>Do HMO properties carry additional gutter maintenance considerations?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes, given the stricter regulatory framework HMO landlords operate within and the genuinely greater diffusion of tenant reporting responsibility across multiple individual occupants within the same property.</p>
@@ -231,7 +231,7 @@ ${ctaBox}
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>How should landlords coordinate gutter maintenance with a letting agent?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Establish clear, upfront agreement on who books maintenance, who receives documentation from each visit, and how any identified issue gets communicated and actioned, avoiding the risk of maintenance falling into a gap between landlord and agent.</p>
@@ -241,7 +241,7 @@ ${ctaBox}
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>What happens if gutter maintenance is neglected on a tenanted property?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Beyond the usual fascia and structural consequences, neglect on a rental property can affect tenant habitability, potentially trigger formal complaints, and complicate remediation given the need to work around an existing tenancy rather than a vacant property.</p>
@@ -251,7 +251,7 @@ ${ctaBox}
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>Does gutter condition matter when preparing to re-let or sell a rental property?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes — prospective tenants respond to visible roofline neglect similarly to how a surveyor would during a sale, and documented maintenance history strengthens a landlord's position in either scenario.</p>
@@ -261,7 +261,7 @@ ${ctaBox}
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>What does WOW Gutters Ltd provide specifically for landlords and letting agents?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Scheduled maintenance across a full portfolio, full before and after photographic documentation and written condition summaries for every property, and genuine structural assessment on every visit rather than simple debris clearance.</p>
@@ -271,7 +271,7 @@ ${ctaBox}
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>What areas do you cover for landlord and letting agent clients?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Birmingham, Solihull, Sutton Coldfield, Wolverhampton, Walsall, Dudley, Coventry, Redditch, Worcester, Bromsgrove, Kidderminster, and all surrounding West Midlands areas.</p>

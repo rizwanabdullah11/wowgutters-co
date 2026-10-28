@@ -29,7 +29,7 @@ export default function TopPageAreaLinks({
             <li key={slug}>
               <Link
                 href={href}
-                className="block rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-slate-700 text-center shadow-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
+                className="block rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-slate-700 text-center shadow-sm hover:border-[#0E7F5A] hover:text-[#0f766e] transition-colors"
               >
                 {label}
               </Link>

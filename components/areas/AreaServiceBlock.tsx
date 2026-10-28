@@ -30,7 +30,7 @@ export function AreaServiceQuoteCard({
       <Link href="/quote" className="w-full block mb-5">
         <Button
           className="w-full text-white font-bold text-lg py-6 rounded-lg shadow-md transition-transform hover:-translate-y-1 hover:shadow-lg flex items-center justify-center gap-2"
-          style={{ backgroundColor: colors.primary }}
+          style={{ backgroundColor: colors.primaryText }}
         >
           <ChevronRight className="w-5 h-5" /> {buttonLabel}
         </Button>

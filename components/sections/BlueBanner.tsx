@@ -4,7 +4,7 @@ import { colors } from '@/constants/colors';
 export default function BlueBanner() {
   const items = [
     { emoji: '⬇️', title: 'Low-Prices', desc: 'Take advantage of our comprehensive service at amazing low prices', accent: '#3B82F6' },
-    { emoji: '⭐⭐⭐⭐⭐', title: 'Top Rated Service', desc: 'Highly rated across multiple platforms', accent: '#19C58B' },
+    { emoji: '⭐⭐⭐⭐⭐', title: 'Top Rated Service', desc: 'Highly rated across multiple platforms', accent: '#0E7F5A' },
     { emoji: '🏆', title: 'Highly Rated', desc: 'Rated 4.9★ on Google by verified customers across the West Midlands', accent: '#F97316' },
   ];
 

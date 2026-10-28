@@ -16,7 +16,7 @@ function faq(question: string, answer: string): string {
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>${question}</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">${answer}</p>
@@ -25,11 +25,11 @@ function faq(question: string, answer: string): string {
 }
 
 const ctaBox = `
-<div style="background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%); border: 2px solid #19C58B; border-radius: 16px; padding: 28px 32px; margin: 40px 0;">
+<div style="background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%); border: 2px solid #0E7F5A; border-radius: 16px; padding: 28px 32px; margin: 40px 0;">
   <h3 style="font-size: 1.3rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0;">DUE A CLEAN? BOOK BEFORE THE AUTUMN RUSH</h3>
   <p style="color: #334155; font-size: 0.98rem; line-height: 1.75; margin: 0 0 18px 0;">Ground-based vacuum gutter cleaning across Birmingham and the West Midlands. From £100, downpipes flushed and tested, before &amp; after photos on every job.</p>
   <div style="display: flex; flex-wrap: wrap; gap: 12px;">
-    <a href="/quote/" style="display: inline-flex; align-items: center; gap: 8px; background: #19C58B; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 22px; border-radius: 8px; text-decoration: none;">Get a free quote</a>
+    <a href="/quote/" style="display: inline-flex; align-items: center; gap: 8px; background: #047857; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 22px; border-radius: 8px; text-decoration: none;">Get a free quote</a>
     <a href="tel:07421433910" style="display: inline-flex; align-items: center; gap: 8px; background: #0f172a; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 22px; border-radius: 8px; text-decoration: none;">📞 07421 433910</a>
   </div>
 </div>`;

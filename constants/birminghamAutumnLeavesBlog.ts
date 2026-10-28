@@ -12,7 +12,7 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Free quote — no hidden charges. Before and after photos on every job across Birmingham and the West Midlands.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-week availability</p>
@@ -48,7 +48,7 @@ export const birminghamAutumnLeavesBlogPost: BlogPost = {
 
 <p>This article is for anyone who wants to get ahead of that moment. Birmingham's autumn leaf fall is coming. The heavy rain follows directly behind it. What you do in the next few weeks determines whether your gutters handle winter smoothly or hand you an expensive repair bill in January.</p>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 WOW Gutters Ltd — Birmingham's gutter specialists</strong><br/>
   <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> · <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a>
 </blockquote>
@@ -113,7 +113,7 @@ export const birminghamAutumnLeavesBlogPost: BlogPost = {
 
 <p>If you're seeing two or more of these signs, your gutters need professional attention before the leaf fall begins — not after.</p>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📸 Spotting any of these signs?</strong><br/>
   Call WOW Gutters Ltd on <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> for a free quote — before the autumn leaves arrive.
 </blockquote>

@@ -110,7 +110,7 @@ export default function CommercialBanner() {
         .commercial-circle {
           position: absolute;
           border-radius: 50%;
-          background: radial-gradient(circle, rgba(25, 197, 139, 0.08) 0%, transparent 70%);
+          background: radial-gradient(circle, rgba(14, 127, 90, 0.08) 0%, transparent 70%);
           animation: float 20s infinite ease-in-out;
         }
         .commercial-circle-1 {
@@ -173,7 +173,7 @@ export default function CommercialBanner() {
           left: 0;
           right: 0;
           height: 4px;
-          background: linear-gradient(90deg, #19C58B, #14B27D, #8DC63F, #FF6B35);
+          background: linear-gradient(90deg, #0E7F5A, #0B6B4C, #8DC63F, #FF6B35);
           background-size: 200% 100%;
           animation: gradientShift 3s ease infinite;
         }
@@ -218,13 +218,13 @@ export default function CommercialBanner() {
         .commercial-icon-ring-1 {
           width: 100%;
           height: 100%;
-          border-color: rgba(25, 197, 139, 0.3);
+          border-color: rgba(14, 127, 90, 0.3);
           animation-delay: 0s;
         }
         .commercial-icon-ring-2 {
           width: 85%;
           height: 85%;
-          border-color: rgba(25, 197, 139, 0.5);
+          border-color: rgba(14, 127, 90, 0.5);
           animation-delay: 1s;
         }
 
@@ -236,13 +236,13 @@ export default function CommercialBanner() {
         .commercial-icon-main {
           width: 90px;
           height: 90px;
-          background: linear-gradient(135deg, #19C58B 0%, #14B27D 100%);
+          background: linear-gradient(135deg, #0E7F5A 0%, #0B6B4C 100%);
           border-radius: 50%;
           display: flex;
           align-items: center;
           justify-content: center;
           box-shadow: 
-            0 10px 30px rgba(25, 197, 139, 0.3),
+            0 10px 30px rgba(14, 127, 90, 0.3),
             0 0 0 8px rgba(255, 255, 255, 0.9);
           position: relative;
           z-index: 1;
@@ -276,7 +276,7 @@ export default function CommercialBanner() {
         .commercial-badge-1 {
           top: 0;
           right: -10px;
-          color: #19C58B;
+          color: #0E7F5A;
           animation-delay: 0s;
         }
         .commercial-badge-2 {
@@ -321,9 +321,9 @@ export default function CommercialBanner() {
           font-size: 0.7rem;
           font-weight: 800;
           letter-spacing: 2px;
-          color: #19C58B;
-          background: rgba(25, 197, 139, 0.1);
-          border: 1.5px solid rgba(25, 197, 139, 0.3);
+          color: #0E7F5A;
+          background: rgba(14, 127, 90, 0.1);
+          border: 1.5px solid rgba(14, 127, 90, 0.3);
           border-radius: 100px;
           padding: 6px 14px;
           text-transform: uppercase;
@@ -356,7 +356,7 @@ export default function CommercialBanner() {
         }
 
         .commercial-highlight {
-          color: #19C58B;
+          color: #0E7F5A;
           font-weight: 700;
         }
 
@@ -378,7 +378,7 @@ export default function CommercialBanner() {
         .feature-check {
           width: 20px;
           height: 20px;
-          background: linear-gradient(135deg, #19C58B, #14B27D);
+          background: linear-gradient(135deg, #0E7F5A, #0B6B4C);
           color: white;
           border-radius: 50%;
           display: flex;
@@ -413,7 +413,7 @@ export default function CommercialBanner() {
           display: inline-flex;
           align-items: center;
           gap: 12px;
-          background: linear-gradient(135deg, #19C58B 0%, #14B27D 100%);
+          background: linear-gradient(135deg, #0E7F5A 0%, #0B6B4C 100%);
           color: white;
           font-size: 1rem;
           font-weight: 800;
@@ -423,7 +423,7 @@ export default function CommercialBanner() {
           white-space: nowrap;
           overflow: hidden;
           box-shadow: 
-            0 10px 30px rgba(25, 197, 139, 0.3),
+            0 10px 30px rgba(14, 127, 90, 0.3),
             0 0 0 1px rgba(255, 255, 255, 0.2) inset;
           transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
@@ -431,7 +431,7 @@ export default function CommercialBanner() {
         .commercial-cta-btn:hover {
           transform: translateY(-3px);
           box-shadow: 
-            0 20px 40px rgba(25, 197, 139, 0.4),
+            0 20px 40px rgba(14, 127, 90, 0.4),
             0 0 0 1px rgba(255, 255, 255, 0.3) inset;
         }
 
@@ -487,9 +487,9 @@ export default function CommercialBanner() {
           align-items: center;
           gap: 16px;
           padding: 12px 20px;
-          background: rgba(25, 197, 139, 0.05);
+          background: rgba(14, 127, 90, 0.05);
           border-radius: 12px;
-          border: 1px solid rgba(25, 197, 139, 0.1);
+          border: 1px solid rgba(14, 127, 90, 0.1);
         }
 
         .trust-item {
@@ -502,7 +502,7 @@ export default function CommercialBanner() {
         .trust-number {
           font-size: 1.25rem;
           font-weight: 900;
-          color: #19C58B;
+          color: #0E7F5A;
           line-height: 1;
         }
 
@@ -517,7 +517,7 @@ export default function CommercialBanner() {
         .trust-divider {
           width: 1px;
           height: 30px;
-          background: rgba(25, 197, 139, 0.2);
+          background: rgba(14, 127, 90, 0.2);
         }
 
         @media (max-width: 1024px) {

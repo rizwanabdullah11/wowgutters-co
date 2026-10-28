@@ -24,7 +24,7 @@ export default function HomeServiceAreasHub() {
             <li key={slug}>
               <Link
                 href={href}
-                className="block rounded-lg border border-slate-100 bg-slate-50 px-3 py-2 text-sm font-semibold text-slate-700 text-center hover:border-[#19C58B] hover:bg-white hover:text-[#0f766e] transition-colors"
+                className="block rounded-lg border border-slate-100 bg-slate-50 px-3 py-2 text-sm font-semibold text-slate-700 text-center hover:border-[#0E7F5A] hover:bg-white hover:text-[#0f766e] transition-colors"
               >
                 {label}
               </Link>

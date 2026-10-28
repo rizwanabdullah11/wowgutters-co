@@ -451,13 +451,13 @@ export default function Footer() {
           transition: all 0.3s ease;
         }
         .social-icon:hover {
-          background: #19C58B;
+          background: #047857;
           transform: translateY(-4px);
           color: white;
         }
         
         .footer-copyright {
-          color: #64748B;
+          color: #94A3B8;
           font-size: 0.95rem;
         }
 
@@ -499,7 +499,7 @@ export default function Footer() {
           font-weight: 700;
           text-transform: uppercase;
           letter-spacing: 0.1em;
-          color: #475569;
+          color: #94A3B8;
           margin-bottom: 10px;
         }
         .footer-citations-list {
@@ -514,7 +514,7 @@ export default function Footer() {
         .footer-citation-link {
           font-size: 0.8rem;
           font-weight: 600;
-          color: #64748B;
+          color: #94A3B8;
           text-decoration: none;
           padding: 3px 10px;
           border-radius: 20px;
@@ -593,7 +593,7 @@ export default function Footer() {
           </div>
           <div className="min-w-0 leading-[1.05]">
             <div className="truncate text-[16px] font-black text-slate-900">WOW Gutters Ltd</div>
-            <a className="mt-0.5 inline-block text-[14px] font-extrabold text-teal-500 no-underline" href="tel:+447421433910">
+            <a className="mt-0.5 inline-block text-[14px] font-extrabold text-teal-700 no-underline" href="tel:+447421433910">
               07421 433910
             </a>
           </div>

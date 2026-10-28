@@ -15,7 +15,7 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Free quote — no hidden charges. Before and after photos on every B12 job.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-day availability</p>
@@ -54,7 +54,7 @@ export const balsallHeathBlogPost: BlogPost = {
 
 <p><a href="/gutter-cleaning-balsall-heath/" style="${link}">WOW Gutters Ltd</a> covers Balsall Heath and the full B12 postcode. We use an industrial vacuum system from ground level — no ladders against your property — and we document every job with before and after photographs sent to you the same day. This page tells you exactly what's happening in B12 gutters, why it matters for your specific property type, and how to get it sorted properly.</p>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 Ready to book?</strong><br/>
   We're covering Balsall Heath and B12 this week.<br/>
   <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call 07421 433910</a> — free quote, no obligation, fast turnaround.
@@ -112,7 +112,7 @@ export const balsallHeathBlogPost: BlogPost = {
 
 <p>Properties in Balsall Heath that have been refurbished as part of the gradual improvement of the area may have brand new internal fittings but decade-old guttering that has never been cleaned since it was fitted. The cosmetic improvement of a B12 property can mask a roofline that is silently failing.</p>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>🔔 Own a property on a Balsall Heath terrace?</strong><br/>
   Connected rooflines mean your gutters affect your neighbours — and theirs affect yours.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call 07421 433910</a> for a free quote.<br/>
@@ -184,7 +184,7 @@ export const balsallHeathBlogPost: BlogPost = {
   <li>✅ Price confirmed before arrival — no additional charges on the day</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📸 What do your gutters actually look like inside?</strong><br/>
   Most B12 homeowners are surprised when they see the before photos.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call 07421 433910</a> — we'll show you exactly what we find.
@@ -208,7 +208,7 @@ export const balsallHeathBlogPost: BlogPost = {
   <li>Multi-property scheduling — if you manage properties across B12 and surrounding postcodes, we plan combined visits for efficiency</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📋 Managing a rental or portfolio in Balsall Heath?</strong><br/>
   Call us to discuss a maintenance arrangement.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> · 📧 <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a>

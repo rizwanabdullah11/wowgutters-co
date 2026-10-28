@@ -28,7 +28,7 @@ const questions: Record<string, string[]> = {
   ],
 };
 
-const CAT_ACCENTS = ['#3B82F6', '#19C58B', '#F97316', '#8B5CF6', '#EC4899', '#14B8A6', '#F59E0B', '#6366F1', '#10B981', '#EF4444', '#06B6D4', '#84CC16', '#F97316'];
+const CAT_ACCENTS = ['#3B82F6', '#0E7F5A', '#F97316', '#8B5CF6', '#EC4899', '#14B8A6', '#F59E0B', '#6366F1', '#10B981', '#EF4444', '#06B6D4', '#84CC16', '#F97316'];
 
 export default function QuestionsAnswers() {
   const [activeCategory, setActiveCategory] = useState('Conservatory Gutters');
@@ -152,7 +152,7 @@ export default function QuestionsAnswers() {
           content: '';
           position: absolute;
           inset: 0;
-          background-image: radial-gradient(circle, rgba(25, 197, 139, 0.03) 1px, transparent 1px);
+          background-image: radial-gradient(circle, rgba(14, 127, 90, 0.03) 1px, transparent 1px);
           background-size: 32px 32px;
           pointer-events: none;
         }
@@ -356,7 +356,7 @@ export default function QuestionsAnswers() {
           transition: border-color 0.2s;
         }
         .qa-search-input:focus {
-          border-color: #19C58B;
+          border-color: #0E7F5A;
         }
         .qa-search-icon {
           position: absolute;
@@ -383,9 +383,9 @@ export default function QuestionsAnswers() {
           transition: all 0.3s ease;
         }
         .qa-sidebar-btn:hover {
-          background: #19C58B;
+          background: #0E7F5A;
           transform: translateY(-2px);
-          box-shadow: 0 8px 20px rgba(25, 197, 139, 0.3);
+          box-shadow: 0 8px 20px rgba(14, 127, 90, 0.3);
         }
         .qa-sidebar-btn:hover svg {
           transform: translateX(4px);

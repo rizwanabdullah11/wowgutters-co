@@ -14,17 +14,17 @@ export const metadata: Metadata = buildMetadata({
 });
 
 const SERVICE_CARD_IMAGES: Record<string, string> = {
-  'gutter-cleaning': '/gutter-cleaning.webp',
-  'gutter-repairs': '/gutter-repair.webp',
-  'upvc-cleaning': '/upvc-cleaning.jpg',
-  'roof-cleaning': '/roof-cleaning.JPG',
-  'gutter-inspection': '/gutter-inspection.webp',
-  'roof-inspection': '/roof-cleaning.JPG',
-  'conservatory': '/gutter-cleaning.webp',
-  'water-butt': '/gutter-cleaning.webp',
+  'gutter-cleaning': '/gutter-cleaning-card.webp',
+  'gutter-repairs': '/gutter-repair-card.webp',
+  'upvc-cleaning': '/upvc-cleaning-card.webp',
+  'roof-cleaning': '/roof-cleaning-card.webp',
+  'gutter-inspection': '/gutter-inspection-card.webp',
+  'roof-inspection': '/roof-cleaning-card.webp',
+  'conservatory': '/gutter-cleaning-card.webp',
+  'water-butt': '/gutter-cleaning-card.webp',
   'commercial-gutter-cleaning': '/gutter-cleaning-westmidlands.webp',
-  'commercial-roof-cleaning': '/roof-cleaning.JPG',
-  'gutter-installation': '/gutter-installation.webp',
+  'commercial-roof-cleaning': '/roof-cleaning-card.webp',
+  'gutter-installation': '/gutter-installation-card.webp',
   'commercial-downpipe-cleaning': '/gutter-cleaning-westmidlands.webp',
   'commercial-fascia-soffit-cleaning': '/gutter-cleaning-westmidlands.webp',
   'commercial-property-gutter-maintenance': '/gutter-cleaning-westmidlands.webp',
@@ -68,7 +68,7 @@ function ServiceCard({
   return (
     <Link
       href={`/services/${id}/`}
-      className="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-md transition-all hover:-translate-y-1 hover:border-[#19C58B]/40 hover:shadow-xl"
+      className="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-md transition-all hover:-translate-y-1 hover:border-[#0E7F5A]/40 hover:shadow-xl"
     >
       <div className="relative aspect-[16/10] overflow-hidden bg-slate-100">
         <img

@@ -5,6 +5,7 @@
  * Keep every value at 60 characters or fewer (the brand is appended when it fits).
  */
 export const BLOG_SHORT_TITLES: Record<string, string> = {
+  'terraced-house-gutters': 'Terraced House Gutters in Birmingham: Shared-Run Guide',
   'gutter-cleaning-coventry': 'Gutter Cleaning Coventry: Real Job & Results (2026 Guide)',
   'blocked-gutters-sycamore-seeds': 'Gutters Blocked With Sycamore Seeds: Before & After',
   'birmingham-gutter-before-after': 'Birmingham Gutter Cleaning: Before & After Results',

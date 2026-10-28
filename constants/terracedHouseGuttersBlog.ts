@@ -1,15 +1,15 @@
 import type { BlogPost } from './blogTypes';
 
-const IMG_HERO   = '/blog-images/terraced-house-gutters/victorian-terrace-vacuum-cleaning.png';
-const IMG_CAMERA = '/blog-images/terraced-house-gutters/camera-view-before-after.png';
-const IMG_LADDER = '/blog-images/terraced-house-gutters/vacuum-vs-ladder-comparison.png';
-const IMG_SYSTEM = '/blog-images/terraced-house-gutters/gutter-vacuum-system-components.png';
-const IMG_EXTRA  = '/blog-images/terraced-house-gutters/gutter-vacuum-cleaning-hero.png';
+const IMG_HERO   = '/blog-images/terraced-house-gutters/victorian-terrace-vacuum-cleaning.webp';
+const IMG_CAMERA = '/blog-images/terraced-house-gutters/camera-view-before-after.webp';
+const IMG_LADDER = '/blog-images/terraced-house-gutters/vacuum-vs-ladder-comparison.webp';
+const IMG_SYSTEM = '/blog-images/terraced-house-gutters/gutter-vacuum-system-components.webp';
+const IMG_EXTRA  = '/blog-images/terraced-house-gutters/gutter-vacuum-cleaning-hero.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaTop = `
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 WOW Gutters Ltd:</strong>
   <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> | 
   📋 <a href="/quote" style="${link}">Request a quote</a> | 
@@ -18,7 +18,7 @@ const ctaTop = `
 </blockquote>`;
 
 const ctaBox = `
-<div style="background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%); border: 2px solid #19C58B; border-radius: 16px; padding: 28px 24px; margin: 40px 0; box-shadow: 0 4px 20px rgba(25, 197, 139, 0.12);">
+<div style="background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%); border: 2px solid #0E7F5A; border-radius: 16px; padding: 28px 24px; margin: 40px 0; box-shadow: 0 4px 20px rgba(14, 127, 90, 0.12);">
   <h3 style="font-size: 1.35rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0; line-height: 1.3; text-transform: uppercase;">CLEAR THE WHOLE TERRACE RUN, NOT JUST YOUR SECTION</h3>
   <p style="color: #334155; font-size: 0.98rem; line-height: 1.75; margin: 0 0 20px 0;">WOW Gutters Ltd provides fully insured, ground-based gutter cleaning and camera inspection across Birmingham and the West Midlands, with before and after photographs on every job. No ladders for standard gutter work up to four storeys.</p>
   <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 12px; padding: 18px 20px;">
@@ -27,7 +27,7 @@ const ctaBox = `
       <span style="display: block; color: #64748b; font-size: 0.85rem; margin-top: 2px;">Coordinated neighbour bookings &amp; high-reach rear access</span>
     </div>
     <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px; width: 100%; max-width: 380px;">
-      <a href="/quote" style="flex: 1 1 160px; min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #19C58B; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 20px; border-radius: 8px; text-decoration: none; box-shadow: 0 2px 8px rgba(25, 197, 139, 0.3);">
+      <a href="/quote" style="flex: 1 1 160px; min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #047857; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 20px; border-radius: 8px; text-decoration: none; box-shadow: 0 2px 8px rgba(14, 127, 90, 0.3);">
         <span>&#9658;</span> Get Free Quote
       </a>
       <a href="tel:07421433910" style="flex: 1 1 140px; min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #0f172a; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 20px; border-radius: 8px; text-decoration: none;">
@@ -267,7 +267,7 @@ ${ctaBox}
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>Who is responsible for terraced house gutters?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Responsibility depends on your property deeds and the historic construction of the row. A conveyancing solicitor or your Land Registry title documents can confirm legal boundaries. See <a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham" style="${link}">Gutter Cleaning for Semi-Detached Homes</a>.</p>
@@ -277,7 +277,7 @@ ${ctaBox}
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>Can you clean gutters on a terraced house?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes, subject to ground access. We operate high-reach vacuum poles from the pavement or garden without needing ladders. See <a href="/blog/how-clean-gutters-without-ladder-birmingham-method" style="${link}">How Do You Clean Gutters Without a Ladder?</a>.</p>
@@ -287,7 +287,7 @@ ${ctaBox}
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>Can you reach the back of a terrace?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Often yes, provided there is sufficient room to stand and angle the carbon-fibre pole past outriggers, extensions and fences. <a href="/contact" style="${link}">Contact us</a> with photos of your rear elevation to confirm.</p>
@@ -297,7 +297,7 @@ ${ctaBox}
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>Why does my gutter overflow when it’s clear?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">On a continuous terraced run, a neighbour’s blocked outlet or choked swan-neck downpipe causes stormwater to bank up and spill at the lowest physical point on the row. See <a href="/blog/overflowing-gutters-fix" style="${link}">Overflowing Gutters in Birmingham?</a>.</p>
@@ -307,7 +307,7 @@ ${ctaBox}
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>Can neighbours book together?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes, coordinating with neighbours along a terrace is highly recommended so the entire continuous channel is cleared simultaneously. Ask us about joint appointments when you request a quote.</p>
@@ -317,7 +317,7 @@ ${ctaBox}
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>Is it safe to clear gutters myself on a terrace?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Visual checks from the ground are safe. DIY ladder work on public pavements or confined back yards carries severe fall risks. See <a href="/blog/can-you-clean-your-own-gutters-safely-birmingham-ladder-safety" style="${link}">Can You Clean Your Own Gutters Safely?</a>.</p>
@@ -327,7 +327,7 @@ ${ctaBox}
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>What areas do you cover?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;"><a href="/gutter-cleaning-birmingham" style="${link}">Birmingham</a>, <a href="/gutter-cleaning-solihull" style="${link}">Solihull</a>, <a href="/gutter-cleaning-sutton-coldfield" style="${link}">Sutton Coldfield</a>, <a href="/gutter-cleaning-wolverhampton" style="${link}">Wolverhampton</a>, <a href="/gutter-cleaning-walsall" style="${link}">Walsall</a>, <a href="/gutter-cleaning-dudley" style="${link}">Dudley</a>, <a href="/gutter-cleaning-coventry" style="${link}">Coventry</a>, <a href="/gutter-cleaning-redditch" style="${link}">Redditch</a>, <a href="/gutter-cleaning-worcester" style="${link}">Worcester</a>, <a href="/gutter-cleaning-bromsgrove" style="${link}">Bromsgrove</a> and <a href="/areas-we-cover" style="${link}">all West Midlands areas</a>.</p>

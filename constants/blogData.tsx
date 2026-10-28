@@ -250,7 +250,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>All repair work is carried out to a professional standard — because we stand behind every job we do.</p>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? <strong>Leaking gutters</strong> left untreated cause damp, mould, and structural water damage. A small repair today prevents a large bill tomorrow.
 </blockquote>
 
@@ -279,7 +279,7 @@ export const blogPosts: BlogPost[] = [
   <li><a href="/services/conservatory/" style="color: #047857; font-weight: 600; text-decoration: none;">Conservatory frames and trims</a></li>
 </ul>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? A clean roofline adds instant kerb appeal — and protects the timber and fixings underneath from premature rot.
 </blockquote>
 
@@ -296,7 +296,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Fascia and soffit algae treatment</strong> — hot wash combined with a protective solution</li>
 </ol>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? Our biocide treatments keep moss and algae away for significantly longer than a simple brush-off clean — protecting your home between annual maintenance visits.
 </blockquote>
 
@@ -306,7 +306,7 @@ export const blogPosts: BlogPost[] = [
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Don't let blocked gutters, stained fascias or moss-covered soffits damage your property. Our expert roofline services restore and protect your home quickly and efficiently.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px; transition: background 0.2s;">
+    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px; transition: background 0.2s;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
@@ -330,7 +330,7 @@ export const blogPosts: BlogPost[] = [
 <h3>Worcestershire &amp; Staffordshire</h3>
 <p>Worcester, Kidderminster, <strong>Bromsgrove</strong>, Redditch, Droitwich Spa, <strong>Stourbridge</strong>, Halesowen, Bewdley, Evesham, Cannock, <strong>Lichfield</strong>, Tamworth, Stafford, Rugeley, Burntwood</p>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? Not sure if we cover your area? <a href="tel:07421433910" style="color: #0f172a; text-decoration: none; font-weight: 600;">Call us on 07421 433910</a> or <a href="https://wowgutters.co.uk" style="color: #0f172a; text-decoration: none; font-weight: 600;">check online at wowgutters.co.uk</a> — we serve a wide radius across the entire West Midlands region.
 </blockquote>
 
@@ -340,7 +340,7 @@ export const blogPosts: BlogPost[] = [
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Serving every corner of the West Midlands — from Birmingham and Coventry to Wolverhampton and beyond. Same-day booking available, 7 days a week.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
@@ -379,7 +379,7 @@ export const blogPosts: BlogPost[] = [
   <li>? <strong>Dark streaking on fascias or soffits</strong> — <strong>algae build-up</strong> that will worsen over time</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   The earlier you act, the less expensive the solution. A gutter clean costs a fraction of what damp treatment or fascia board replacement costs.
 </blockquote>
 
@@ -389,7 +389,7 @@ export const blogPosts: BlogPost[] = [
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Don't let damaged gutters cause water damage to your property. Our expert repair services will fix any gutter problem quickly and efficiently.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
@@ -404,7 +404,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How often should gutters be cleaned in the West Midlands?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Most properties across the West Midlands benefit from one to two professional gutter cleans per year — typically once in late autumn after leaf fall, and once in spring to clear winter debris. Properties near large trees, or those with felt or clay roof tiles that shed more moss, may need more frequent attention.</p>
@@ -414,7 +414,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Is your gutter cleaning service safe for my property?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. WOW Gutters Ltd uses a high-reach vacuum system operated from the ground — meaning no ladders are placed against your gutters, fascias, or walls. This eliminates the risk of damage to uPVC guttering, render, or window frames, and is far safer than traditional ladder-based methods.</p>
@@ -424,7 +424,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do you clean conservatory gutters?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. We use specialist low-reach access tools to clean conservatory gutters safely without climbing on the polycarbonate or glass panels. Available across all areas of Birmingham, Solihull, Coventry and the wider West Midlands.</p>
@@ -434,7 +434,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Can you clean gutters on tall or multi-storey properties?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. Our high-reach vacuum equipment extends to reach three-storey properties and many commercial buildings from ground level — no scaffolding or cherry picker required for the vast majority of jobs. We cover multi-storey homes across Sutton Coldfield, Edgbaston, Tettenhall and beyond.</p>
@@ -444,7 +444,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do you work with landlords and letting agents?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Absolutely. We work with landlords, letting agents, and property management companies across the West Midlands providing photographic evidence of gutter condition before and after each visit — ideal for tenant check-in and check-out reports and maintenance records.</p>
@@ -454,7 +454,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What areas do you cover?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">WOW Gutters Ltd covers the entire West Midlands region including Birmingham, Coventry, Wolverhampton, Dudley, Walsall, Solihull, Sandwell, Bromsgrove, Redditch, Worcester, Stourbridge, Halesowen, Lichfield, Tamworth, Cannock, Nuneaton, Leamington Spa, Warwick, Stratford-upon-Avon and all surrounding towns and villages.</p>
@@ -692,42 +692,42 @@ export const blogPosts: BlogPost[] = [
 <h2>Frequently Asked Questions — Gutter Cleaning in Coventry</h2>
 
 <div style="margin: 40px 0;">
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How often should gutters be cleaned in Coventry?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> At least once a year — ideally in late autumn (October to December) after the main leaf fall from Coventry's mature street trees. Properties near heavy tree coverage, such as those in Earlsdon, Finham, Styvechale, and around War Memorial Park, should be cleaned twice a year — once in spring and once in autumn.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does gutter cleaning cost in Coventry?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: My gutters have weeds growing in them — is that normal?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> It is more common than most people realise — as the real Coventry job photograph above shows. Weeds establish themselves when debris in the gutter channel has decomposed into a deep enough layer of organic material to support root systems. This level of blockage typically takes two or more seasons to develop. The good news: our vacuum system removes established weeds, roots and all, in a single visit.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you use ladders?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> No. We use a professional ground-level high-reach vacuum system. No ladders, no scaffolding, no contact with your roof tiles, fascia, or brickwork.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you provide before and after photos?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes — on every job, without exception. We photograph the gutters before we start and after we finish, and send both images directly to you. The photographs in this article are from a real WOW Gutters Ltd job in Coventry, completed on 23 March 2026.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you cover Earlsdon, Finham, Canley, Binley, and Walsgrave?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. We cover all CV postcodes across Coventry and the surrounding area, including Earlsdon, Chapelfields, Finham, Styvechale, Canley, Tile Hill, Binley, Walsgrave, Coundon, Wyken, Longford, and Allesley.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you test downpipes after cleaning?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. All WOW Gutters Ltd cleaning work includes high-volume water flow testing on downpipes and gutters to ensure free, unrestricted drainage.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you also repair gutters in Coventry?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. In addition to cleaning, we repair leaking joints, broken brackets, sagging sections, and cracked downpipes. All repair work comes with a complete water flow testing. <a href="/services/gutter-repairs" style="color: #000000; text-decoration: none;">View our gutter repairs service</a>.</p>
   </div>
@@ -1001,37 +1001,37 @@ export const blogPosts: BlogPost[] = [
 <h2>Frequently Asked Questions — Gutter Cleaning in Wolverhampton</h2>
 
 <div style="margin: 40px 0;">
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How often should gutters be cleaned in Wolverhampton?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> At least once a year — ideally in late autumn (October to December) after the main leaf fall. Properties near heavy tree coverage, such as those in Tettenhall, Penn, Compton, and around West Park, should be cleaned twice a year — once in spring and once in autumn.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does gutter cleaning cost in Wolverhampton?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you use ladders?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> No. We use a professional ground-level high-reach vacuum system. No ladders, no scaffolding, no contact with your roof tiles, fascia, or brickwork.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you provide before and after photos?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes — on every job, without exception. We photograph the gutters before we start and after we finish, and send both images directly to you.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you cover Tettenhall, Penn, Compton, and Wednesfield?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. We cover all WV postcodes across Wolverhampton and the surrounding area, including Tettenhall, Penn, Compton, Finchfield, Wednesfield, Bilston, Codsall, Wombourne, and Bushbury.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you test downpipes after cleaning?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. All WOW Gutters Ltd cleaning work includes high-volume water flow testing on downpipes and gutters to ensure free, unrestricted drainage.</p>
   </div>
 
-  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+  <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you also repair gutters in Wolverhampton?</h3>
     <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. In addition to cleaning, we repair leaking joints, broken brackets, sagging sections, and cracked downpipes. All repair work comes with a complete water flow testing. <a href="/services/gutter-repairs" style="color: #000000; text-decoration: none;">View our gutter repairs service</a>.</p>
   </div>
@@ -1216,32 +1216,32 @@ export const blogPosts: BlogPost[] = [
       <h2>Frequently Asked Questions</h2>
 
       <div style="margin: 40px 0;">
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How do I know if sycamore seeds have blocked my gutters?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> The clearest signs are water overflowing over the gutter edge during rainfall, visible greenery or seedlings sprouting from the gutterline, and green or brown staining running down external walls. If you have a sycamore or maple tree within 30 metres of your property, it is very likely that seeds have accumulated in your gutters.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How often should I clean my gutters if I have sycamore trees nearby?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Twice a year is strongly recommended — once in late autumn (November to December) after the main seed and leaf fall, and once in spring (March to May) to catch the second sycamore seed drop before seedlings establish.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Can the seeds damage the gutter itself?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. Once seeds germinate and put down roots inside the gutter channel, those roots can work into joints and seams, causing splits and leaks. In advanced cases this can turn what would have been a simple clean into a repair job. Early intervention is always more cost-effective.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you clear the downpipe as well?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes, downpipe inspection and clearance is included as standard on every WOW Gutters Ltd job. Seeds and debris that wash into the downpipe are a common secondary cause of blockages, and we check and clear all downpipe outlets as part of the service.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does gutter cleaning cost in Birmingham?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate or call 07421 433910 for a free quote.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you use ladders?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> No. WOW Gutters Ltd uses a professional ground-level high-reach vacuum system that cleans gutters without ladders or scaffolding, protecting your fascias, tiles, and brickwork from contact damage.</p>
         </div>
@@ -1424,42 +1424,42 @@ export const blogPosts: BlogPost[] = [
       <h2>Frequently Asked Questions</h2>
 
       <div style="margin: 40px 0;">
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How do I know if my gutters are blocked?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> The clearest signs are water overflowing over the gutter edge during rainfall, green or black staining running down external walls (as shown in the before photograph above), visible greenery growing from the gutterline, and fascias that are sagging or pulling away from the roofline. If you cannot remember when they were last cleaned, book a clean now.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: What causes the green and black staining on walls below gutters?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> This staining is caused by gutter overflow carrying algae, moss, silt, and organic debris continuously down the brickwork every time it rains. It is one of the most common visible signs of a blocked gutter in Birmingham. Left untreated, the staining penetrates the mortar joints and can cause internal damp. As our before-and-after photograph shows, professional gutter cleaning removes the source of the problem entirely.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How often should gutters be cleaned in Birmingham?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> At least once a year, ideally in late autumn after the main leaf fall (October to December). Properties near trees should be cleaned twice a year in spring and autumn. Commercial properties are best cleaned every six months.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Can blocked gutters cause the green staining I can see on my walls?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes, this is exactly what causes it. When a gutter is blocked, rainwater overflows continuously down the same section of wall, depositing algae and moss spores that grow into the visible green streaking. Clearing the gutter stops the overflow and with it the source of the staining.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does it cost to clear a blocked gutter in Birmingham?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection and clearance is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you use ladders to clean gutters?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> No. WOW Gutters Ltd uses a professional ground-level high-reach vacuum system that cleans gutters safely without ladders or scaffolding, protecting your fascias, roof tiles, and stonework from any risk of contact damage.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you provide before and after photos?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes, we photograph your guttering before and after every single job and send the images directly to you, just like the real Birmingham job photograph shown in this article.</p>
         </div>
 
-        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
+        <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #0E7F5A; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: Do you test downpipes after cleaning?</h3>
           <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Yes. All WOW Gutters Ltd cleaning work includes high-volume water flow testing on downpipes and gutters to ensure free, unrestricted drainage.</p>
         </div>
@@ -2040,7 +2040,7 @@ export const blogPosts: BlogPost[] = [
   <li>?? Unsightly green staining on render, brickwork, and driveways</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   The average gutter cleaning service from <a href="https://wowgutters.co.uk" style="color: #0f172a; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> costs a fraction of what damp treatment, fascia replacement, or structural water damage repairs cost. Prevention is always the smarter investment.
 </blockquote>
 
@@ -2085,7 +2085,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Full section replacement</strong> — like-for-like uPVC gutter section swap</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? All gutter repairs carried out by <a href="https://wowgutters.co.uk" style="color: #0f172a; font-weight: 600; text-decoration: none;">WOW Gutters Ltd</a> in Solihull come with a <strong>complete water flow testing</strong> on parts and labour.
 </blockquote>
 
@@ -2104,7 +2104,7 @@ export const blogPosts: BlogPost[] = [
   <li>Bargeboards and cladding panels</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? Freshly cleaned fascias and soffits make an immediate difference to your home's kerb appeal — ideal before putting a property on the market or after a roof replacement.
 </blockquote>
 
@@ -2120,7 +2120,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Fascia algae treatment</strong> — hot wash with protective solution for long-lasting results</li>
 </ol>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? Our biocide moss treatments keep your Solihull roof cleaner for longer between visits — reducing the frequency of maintenance and protecting your tiles from premature deterioration.
 </blockquote>
 
@@ -2130,7 +2130,7 @@ export const blogPosts: BlogPost[] = [
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Don't let blocked gutters, stained fascias or moss-covered soffits damage your Solihull property. Our expert roofline services restore and protect your home quickly and efficiently.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
@@ -2151,7 +2151,7 @@ export const blogPosts: BlogPost[] = [
 <h3>North Solihull &amp; Surrounding Areas</h3>
 <p><strong>Castle Bromwich</strong>, <strong>Chelmsley Wood</strong>, <strong>Marston Green</strong>, <strong>Bickenhill</strong>, <strong>Meriden</strong>, <strong>Berkswell</strong>, <strong>Hampton-in-Arden</strong>, <strong>Catherine-de-Barnes</strong>, <strong>Barston</strong></p>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? Not listed? <a href="tel:07421433910" style="color: #0f172a; text-decoration: none; font-weight: 600;">Call us on 07421 433910</a> — we cover a wide radius around Solihull and are likely to cover your area.
 </blockquote>
 
@@ -2182,7 +2182,7 @@ export const blogPosts: BlogPost[] = [
   <li>? <strong>Black or green streaking on fascias</strong> — algae build-up that worsens without treatment</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   The longer these signs are left, the more expensive the fix. <a href="tel:07421433910" style="color: #0f172a; font-weight: 600; text-decoration: none;">Book a same-day inspection in Solihull — 07421 433910</a>
 </blockquote>
 
@@ -2196,7 +2196,7 @@ export const blogPosts: BlogPost[] = [
   <li><strong>Commercial property or large roofline</strong> — quarterly or bi-annual inspection</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? Many of our Solihull customers set up a <strong>recurring annual or bi-annual booking</strong> so they never have to think about it. <a href="tel:07421433910" style="color: #0f172a; font-weight: 600; text-decoration: none;">Ask us about regular maintenance plans — 07421 433910</a>
 </blockquote>
 
@@ -2206,7 +2206,7 @@ export const blogPosts: BlogPost[] = [
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Serving every corner of the Solihull borough — from Shirley and Knowle to Dorridge, Balsall Common and beyond. Same-day booking available, 7 days a week.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
@@ -2221,7 +2221,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How much does gutter cleaning cost in Solihull?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Prices vary based on property size, number of storeys, and the level of blockage. WOW Gutters Ltd offers free no-obligation quotes for all Solihull properties — get yours online at wowgutters.co.uk or by calling 07421 433910. Prices are £100 for a 2-bed home and £110 for a 3-bed home.</p>
@@ -2231,7 +2231,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do you clean gutters on two and three storey properties in Solihull?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. Our high-reach vacuum equipment safely accesses gutters on two and three storey properties from the ground — no scaffolding or cherry picker needed. We regularly work on larger detached homes across Knowle, Dorridge, and Bentley Heath.</p>
@@ -2241,7 +2241,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Is your gutter cleaning service safe for uPVC gutters?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. Our ground-level vacuum system places no pressure or weight on your uPVC guttering at any point — unlike traditional ladder-based methods where ladders are rested directly against the gutter. Your gutters, fascias, and walls are completely safe throughout the process.</p>
@@ -2251,7 +2251,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do you offer same day gutter cleaning in Solihull?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes — subject to availability. Call us on 07421 433910 and we'll do our best to get to you the same day, particularly for urgent overflow or blockage issues across Solihull and nearby areas.</p>
@@ -2261,7 +2261,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Can you clean conservatory gutters in Solihull?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. We use specialist low-reach tools to clean conservatory gutters without climbing on the structure — protecting your polycarbonate panels, glass, and timber frames throughout. Available across all parts of Solihull.</p>
@@ -2271,7 +2271,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do you work with landlords in Solihull?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Absolutely. We work regularly with landlords and letting agents across the Solihull borough, providing photographic evidence of gutter condition before and after each visit for maintenance records and tenant check reports. Contact us to discuss your portfolio — 07421 433910.</p>
@@ -2281,7 +2281,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Are you insured to work in Solihull?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. WOW Gutters Ltd is fully insured with public liability cover on every job carried out across Solihull and the wider West Midlands.</p>
@@ -2403,7 +2403,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Once a year is sufficient for properties in more urban parts of Walsall town centre where tree coverage is lighter. But for properties in Aldridge, Streetly, Pelsall, Great Wyrley, and Brownhills — all of which have heavy tree canopy and proximity to wider woodland — twice annually is the realistic maintenance schedule to prevent blockages causing overflow and damage.</p>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   ?? <strong>The cost of not cleaning:</strong> A blocked gutter that overflows continuously can cause damp penetration (£500–£2,000 to treat), damaged fascia boards (£150–£400 per section to replace), and in serious cases, water getting under roof tiles. A professional clean costs £100–£210. The maths aren't difficult.
 </blockquote>
 
@@ -2428,7 +2428,7 @@ export const blogPosts: BlogPost[] = [
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Same-day availability across all WS postcodes. Fixed price, no hidden fees. Highly rated by verified customers.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
@@ -2517,7 +2517,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How much does gutter cleaning cost in Walsall?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">WOW Gutters Ltd provides fixed quotes covering all WS postcodes — no hidden fees or call-out charges. Get a free quote online at wowgutters.co.uk or call 07421 433910.</p>
@@ -2527,7 +2527,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How often should gutters be cleaned in Walsall?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Most Walsall properties benefit from two cleans per year — once in late autumn (October—November) after leaf fall, and once in late spring (April—May) after sycamore seed season. Properties in Aldridge, Streetly, and Pelsall with heavy tree coverage particularly benefit from this schedule.</p>
@@ -2537,7 +2537,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do you use ladders?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">No. WOW Gutters Ltd uses a professional ground-level vacuum system that reaches gutters up to four storeys high — no ladders placed against your property, no risk of damage to fascias, render, or window frames.</p>
@@ -2547,7 +2547,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What areas of Walsall do you cover?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">We cover all Walsall postcodes — WS1 to WS9 — including Bloxwich, Aldridge, Willenhall, Brownhills, Pelsall, Streetly, Rushall, Great Wyrley, Cheslyn Hay, and all surrounding areas. Same-day booking available.</p>
@@ -2557,7 +2557,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What's included in a WOW Gutters Ltd clean?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Every clean includes a full vacuum gutter clear, downpipe inspection and flush test, before and after photographs sent directly to you. The price quoted is the price paid — always.</p>
@@ -2567,7 +2567,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What causes blocked gutters in Walsall?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">The main causes are autumn leaf fall from oak, sycamore, and ash trees — particularly in Aldridge, Streetly, and Pelsall — sycamore helicopter seeds, moss washing from roof tiles, and debris blown from Cannock Chase affecting northern Walsall properties in Brownhills and Great Wyrley.</p>
@@ -2701,7 +2701,7 @@ export const blogPosts: BlogPost[] = [
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Same-day availability across all WS postcodes. Highly rated by verified customers.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
@@ -2722,7 +2722,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How much does gutter cleaning cost in Walsall?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">From £100 for a 2-bed home. 3-bed £110. Larger detached £140–£210. Fixed price confirmed before we start — no hidden fees.</p>
@@ -2732,7 +2732,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do you use ladders in Walsall?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">No. Our ground-level vacuum system reaches up to 4 storeys. No ladders are placed against your property at any point — protecting your fascias, render, and window frames.</p>
@@ -2742,7 +2742,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do you provide before and after photos?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes — on every single job without exception. Both photos are sent directly to you on the same day.</p>
@@ -2752,7 +2752,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How often should Walsall gutters be cleaned?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Twice a year for most properties — October/November after leaf fall, and April/May after sycamore seed season. Properties near Aldridge, Streetly, and Pelsall with heavy tree coverage benefit most from this schedule.</p>
@@ -2762,7 +2762,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What areas of Walsall do you cover?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">All WS postcodes — WS1 to WS9 including Bloxwich, Aldridge, Willenhall, Brownhills, Pelsall, Streetly, Great Wyrley, Rushall, and Cheslyn Hay. Same-day booking available.</p>
@@ -2888,7 +2888,7 @@ export const blogPosts: BlogPost[] = [
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Same-day availability across all DY postcodes. Highly rated by verified customers across the West Midlands.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
@@ -2981,7 +2981,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Is roof cleaning worth it in Dudley?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. Moss on Dudley's older concrete tile stock accelerates tile degradation, causes repeated gutter blockages, and risks water penetration through compromised ridge mortar. A professional clean is a fraction of the cost of roof replacement or structural repairs.</p>
@@ -2991,7 +2991,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What is soft wash and is it safe for Dudley tiles?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Soft wash uses low-pressure water with a biocidal treatment that kills moss, algae and lichen at the root without damaging tile surfaces. It is safe for all tile types including concrete, clay and slate and is recommended by the Property Care Association for UK residential roof cleaning.</p>
@@ -3001,7 +3001,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do you use scaffolding for roof cleaning in Dudley?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">No. WOW Gutters Ltd uses a ground-level high-reach system throughout. No scaffolding and no ladders placed against your property at any point.</p>
@@ -3011,7 +3011,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How long does roof cleaning last in Dudley?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">A professional soft wash treatment typically lasts 3–5 years in the West Midlands climate. North-facing sections in Sedgley and Gornal may need retreatment after 2–3 years due to reduced sunlight drying.</p>
@@ -3021,7 +3021,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Does roof moss affect my gutters in Dudley?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. Moss fragments wash off tiles during every rainfall and accumulate in gutters below. Treating the roof reduces this debris source and extends the intervals between gutter cleaning visits significantly.</p>
@@ -3031,7 +3031,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What areas of Dudley do you cover?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">All DY postcodes — DY1 to DY14 including Dudley town, Brierley Hill, Sedgley, Coseley, Kingswinford, Stourbridge, Netherton, Halesowen and all surrounding areas. Same-day booking available.</p>
@@ -3131,7 +3131,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Properties on streets close to the reservoir corridor in B32 receive debris from two sources simultaneously — their own garden and street trees, and wind-blown material from Bromwich Wood. The gutter debris load is additive. This is why the before photograph from this job contained material from species that don't grow in the property's own garden.</p>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   If you're within half a mile of Bartley Reservoir, your gutters are almost certainly receiving more seasonal debris than the standard Birmingham suburban property.
 </blockquote>
 
@@ -3151,7 +3151,7 @@ export const blogPosts: BlogPost[] = [
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Same-day availability across all B31 and B32 postcodes. Highly rated by verified customers across Birmingham and the West Midlands.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Want to speak to someone?</p>
@@ -3249,7 +3249,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How often should gutters be cleaned in Bartley Green?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Most Bartley Green properties benefit from two cleans per year — October to November after leaf fall, and April to May after sycamore seed season. Properties near Bromwich Wood and Bartley Reservoir receive additional wind-blown woodland debris, meaning gutters fill faster than in comparable Birmingham areas.</p>
@@ -3259,7 +3259,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do you use ladders in Bartley Green?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">No. WOW Gutters Ltd uses a professional ground-level vacuum system that reaches up to 4 storeys. No ladders placed against your property at any point — protecting your fascias, render, and windows.</p>
@@ -3269,7 +3269,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What areas near Bartley Green do you cover?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">All B31 and B32 postcodes — Bartley Green, Frankley, Quinton, Harborne, Northfield, Selly Oak, Bournville, and Weoley Castle. Same-day booking available across all Birmingham postcodes.</p>
@@ -3279,7 +3279,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Why do Bartley Green gutters block so frequently?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">B32 properties near Bartley Reservoir and Bromwich Wood Local Nature Reserve receive wind-blown woodland debris on top of garden and street tree debris. The post-war concrete tile housing stock also generates more moss wash-off than modern tile types, adding to the annual debris load in the gutters below.</p>
@@ -3289,7 +3289,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do you provide before and after photos?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes — on every single job without exception. Both photos are sent directly to you the same day. The photographs in this article are from a real WOW Gutters Ltd job in Bartley Green, Birmingham B32.</p>
@@ -3299,7 +3299,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do you offer gutter repairs in Bartley Green?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. If our technician spots damaged sections, loose brackets or leaking joints during your clean, we flag these in our condition report. Our repair team can return to carry out the necessary work.</p>
@@ -3358,7 +3358,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>The <strong>B30 area</strong> — covering Kings Norton, Stirchley, Cotteridge, and parts of Bournville — sits in a naturally humid microclimate close to the Rea Valley and Kings Norton Nature Reserve. Properties here face accelerated moss and algae growth compared to more exposed postcodes. Without professional treatment, this level of moss leads to blocked gutters, moisture retention beneath tiles, and long-term structural roof damage.</p>
 
-<div style="border-left: 4px solid #19C58B; padding: 16px 22px; background: #f0fdf4; border-radius: 0 8px 8px 0; margin: 28px 0;">
+<div style="border-left: 4px solid #0E7F5A; padding: 16px 22px; background: #f0fdf4; border-radius: 0 8px 8px 0; margin: 28px 0;">
   <p style="margin: 0; color: #166534; font-style: italic; line-height: 1.75;">"The moss had grown so thick in places it was lifting tile edges. Left another season, we would have been looking at potential felt damage and water ingress into the roof space — that's where a cleaning job becomes a repair job."</p>
 </div>
 
@@ -3522,17 +3522,17 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>How much does roof cleaning cost in Birmingham B30?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Professional roof cleaning in B30 Birmingham typically ranges from £300 to £800 depending on roof size, pitch, and level of moss growth. WOW Gutters Ltd provides free, no-obligation quotes with transparent fixed pricing before any work begins. Call 07421 433910 for your free assessment.</p>
+      <p style="margin: 16px 0 0;">Professional roof cleaning in B30 Birmingham starts from £500, depending on roof size, pitch, and level of moss growth. WOW Gutters Ltd provides free, no-obligation quotes with transparent fixed pricing before any work begins. Call 07421 433910 for your free assessment.</p>
     </div>
   </details>
 
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>How long does roof cleaning take in Birmingham?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Most residential roof cleans in Birmingham take between 3 and 8 hours depending on property size and the extent of moss or lichen growth. A heavily affected property like this B30 Kings Norton job may require a full day for thorough, professional results.</p>
@@ -3542,7 +3542,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>Is roof cleaning worth it in the West Midlands?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. Moss on a UK roof retains moisture, which accelerates tile degradation, blocks gutters, and risks internal damp. Professional roof cleaning extends tile life significantly and costs a fraction of tile replacement or damp remediation. The return on investment is clear: this B30 job cost a fraction of what felt and timber repairs would have run to if left another year.</p>
@@ -3552,7 +3552,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>Does roof cleaning damage tiles?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">When carried out correctly by trained professionals, roof cleaning does not damage tiles. WOW Gutters Ltd use controlled pressure and appropriate treatments suited to the tile type, ensuring the surface is cleaned without causing erosion or cracking. Our cherry picker method eliminates the risk of tile damage from walking on the roof.</p>
@@ -3562,7 +3562,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>How often should a roof be cleaned in Birmingham?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Most Birmingham properties benefit from roof cleaning every 3 to 5 years. Properties near tree lines — particularly common across B30, Stirchley, and Kings Norton — may need treatment every 2 to 3 years due to accelerated moss regrowth. A biocidal treatment applied after cleaning significantly extends the interval between cleans.</p>
@@ -3572,7 +3572,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>Can moss on a roof cause damp inside my home?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. Moss retains water against the tile surface and can force moisture beneath tile laps and into the roof structure. Over time this leads to wet rot in roof timbers, damaged felt, and internal damp — making early treatment essential. The B30 property in this case study showed early signs of tile lifting, which is one step away from water ingress.</p>
@@ -3582,7 +3582,7 @@ export const blogPosts: BlogPost[] = [
   <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 10px; overflow: hidden;">
     <summary style="cursor: pointer; padding: 18px 22px; font-size: 1rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none; background: #fff;">
       <span>Do WOW Gutters Ltd cover B30 and south Birmingham?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. WOW Gutters Ltd regularly clean roofs across B30, Stirchley, Kings Norton, Bournville, Cotteridge, and all surrounding south Birmingham postcodes including B14, B31, B38, and B45. Call 07421 433910 to arrange a free quote — we can usually book within 2 to 5 working days.</p>

@@ -100,7 +100,7 @@ export default function FeaturesSection() {
     >
       {/* Decorative circles */}
       <div className="absolute top-20 left-10 w-64 h-64 rounded-full opacity-10" style={{ backgroundColor: colors.primary, filter: 'blur(60px)' }}></div>
-      <div className="absolute bottom-20 right-10 w-80 h-80 rounded-full opacity-10" style={{ backgroundColor: '#19C58B', filter: 'blur(80px)' }}></div>
+      <div className="absolute bottom-20 right-10 w-80 h-80 rounded-full opacity-10" style={{ backgroundColor: '#0E7F5A', filter: 'blur(80px)' }}></div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 
@@ -134,7 +134,7 @@ export default function FeaturesSection() {
         >
           <div
             className="w-7 h-7 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 text-white text-sm font-bold"
-            style={{ backgroundColor: colors.primary }}
+            style={{ backgroundColor: colors.primaryText }}
           >
             *
           </div>

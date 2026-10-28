@@ -8,7 +8,7 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Free quote — no hidden charges. Before and after photos on every B25 job.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-day availability</p>
@@ -47,7 +47,7 @@ export const yardleyBlogPost: BlogPost = {
 
 <p>If your B25 home is showing the signs, this page is for you.</p>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 Let's get this sorted.</strong><br/>
   We cover Yardley and all B25 streets — usually booked within a few days.<br/>
   <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call 07421 433910</a> for a free quote, no obligation.
@@ -120,7 +120,7 @@ export const yardleyBlogPost: BlogPost = {
   <li><strong>Paint bubbling or peeling on window frames on the upper floor</strong>, particularly at the corners, suggests repeated water contact from above — almost always linked to gutter overflow running down the window opening.</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>🔔 Seeing any of these at your Yardley property?</strong><br/>
   These signs don't resolve themselves. Each rainfall adds to the damage already underway.<br/>
   📞 Call WOW Gutters: <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> — free quote, no obligation.<br/>
@@ -139,7 +139,7 @@ export const yardleyBlogPost: BlogPost = {
 
 <p>For Yardley's terraced properties specifically, our method means we can clean the full gutter run without requiring access to or contact with your neighbour's property. On a street where houses sit immediately adjacent to each other, this is not a minor convenience — it is the only fully safe and respectful way to work.</p>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📸 Before you call — here's what we leave you with:</strong><br/>
   Real before and after photographs of your gutter channel, sent to you the same day. Every job. No exceptions. You'll see exactly what was in your gutters and exactly what we cleared.<br/>
   📞 Call now: <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> to get booked in.
@@ -188,7 +188,7 @@ export const yardleyBlogPost: BlogPost = {
   <li>Proactive condition reporting — if we find a roofline issue that needs attention beyond a clean, we tell you immediately — before it becomes a repair your tenant reports</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📋 Landlord with properties in Yardley or nearby B25 streets?</strong><br/>
   Call us to discuss a maintenance arrangement that works around your portfolio.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> · 📧 <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a>

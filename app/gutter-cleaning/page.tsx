@@ -124,7 +124,7 @@ function ServiceAreasList() {
             <li key={city.slug}>
               <Link
                 href={city.href}
-                className="inline-block px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors shadow-sm"
+                className="inline-block px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#0E7F5A] hover:text-[#0f766e] transition-colors shadow-sm"
               >
                 {city.label}
               </Link>

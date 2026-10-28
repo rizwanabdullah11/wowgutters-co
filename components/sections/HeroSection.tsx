@@ -85,7 +85,7 @@ export default function HeroSection() {
 
             {/* Top Badge */}
             {/* <div className="hero-badge animate-fade-in-up">
-              <ShieldCheck className="w-4 h-4 text-[#19C58B]" />
+              <ShieldCheck className="w-4 h-4 text-[#0E7F5A]" />
               <span className="hero-badge-text">Award-Winning Specialists • UK Wide</span>
             </div> */}
 
@@ -292,7 +292,7 @@ export default function HeroSection() {
         .title-service {
           font-size: clamp(2.1rem, 4.2vw, 3.6rem);
           font-weight: 800;
-          color: #19C58B;
+          color: #0E7F5A;
         }
         .title-secondary {
           font-size: clamp(2.1rem, 4.2vw, 3.6rem);
@@ -338,7 +338,7 @@ export default function HeroSection() {
           align-items: center;
           justify-content: center;
           gap: 16px;
-          background: linear-gradient(135deg, #19C58B 0%, #14B27D 100%);
+          background: linear-gradient(135deg, #0E7F5A 0%, #0B6B4C 100%);
           padding: 12px 12px 12px 24px;
           border-radius: 100px;
           border: none;
@@ -347,14 +347,14 @@ export default function HeroSection() {
           -webkit-appearance: none;
           cursor: pointer;
           transition: all 0.3s ease;
-          box-shadow: 0 10px 30px rgba(25, 197, 139, 0.3);
+          box-shadow: 0 10px 30px rgba(14, 127, 90, 0.3);
           position: relative;
           overflow: hidden;
         }
         .hero-primary-btn:hover {
-          background: #19C58B;
+          background: #0E7F5A;
           transform: translateY(-3px);
-          box-shadow: 0 14px 35px rgba(25, 197, 139, 0.55);
+          box-shadow: 0 14px 35px rgba(14, 127, 90, 0.55);
         }
 
         .btn-arrow {

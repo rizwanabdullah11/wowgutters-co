@@ -194,7 +194,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
         bullets: [
           "Minor Gutter Repair (Joint resealing / bracket replacement): from £30.00",
           "Full Exterior UPVC Fascia & Soffit Hot Wash: from £90.00",
-          "Roof Moss Removal & Soft Wash Biocide Treatment: from £150.00",
+          "Roof Moss Removal & Soft Wash Biocide Treatment: from £500.00",
           "Patio & Driveway Pressure Washing: from £60.00",
           "Window Cleaning (Pure Water Reach & Wash): from £25.00",
           "Annual Planned Maintenance Contracts: 15% discount for regular scheduled visits",
@@ -339,11 +339,8 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
         heading: "Average Pricing for Combined Roof & Gutter Cleaning",
         content: "When moss builds up on your roof, it inevitably falls into your gutters, causing recurrent clogs, overflows, and potential roof leaks. Combining roof moss removal with a full gutter clean is the most effective way to protect your roofline. WOW Gutters Ltd offers comprehensive roof scrape, biocide wash, and gutter clear packages at transparent rates.",
         bullets: [
-          "Average UK cost for combined roof scrape and gutter clean: £250 – £650",
-          "Small terraced house (roof scrape, biocide + full gutter clear): £200 – £350",
-          "Standard 3-bed semi-detached home: £300 – £500",
-          "Large 4-5 bed detached property: £450 – £850",
-          "Bungalows and low-pitch roofs: £200 – £400",
+          "Roof cleaning with full gutter clear: from £500",
+          "Fixed price confirmed after a free survey — no hidden extras",
           "Includes manual moss scraping, biocide application, gutter vacuuming, and ground clean up",
         ],
       },

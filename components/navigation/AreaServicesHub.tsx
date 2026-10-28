@@ -137,7 +137,7 @@ export default function AreaServicesHub({
             <Link
               key={s.href}
               href={s.href}
-              className="group block rounded-2xl border border-slate-200 bg-white p-5 shadow-sm hover:border-[#19C58B] hover:shadow-md transition-all"
+              className="group block rounded-2xl border border-slate-200 bg-white p-5 shadow-sm hover:border-[#0E7F5A] hover:shadow-md transition-all"
             >
               <div className="flex items-start gap-3">
                 <CheckCircle2
@@ -171,7 +171,7 @@ export default function AreaServicesHub({
                 <li key={l.slug}>
                   <Link
                     href={l.href}
-                    className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
+                    className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#0E7F5A] hover:text-[#0f766e] transition-colors"
                   >
                     {serviceKind === 'roof'
                       ? `Roof Cleaning ${l.label}`
@@ -202,7 +202,7 @@ export default function AreaServicesHub({
               <li key={h.slug}>
                 <Link
                   href={h.href}
-                  className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
+                  className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#0E7F5A] hover:text-[#0f766e] transition-colors"
                 >
                   {h.label}
                 </Link>

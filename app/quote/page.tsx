@@ -291,7 +291,7 @@ export default function QuotePage() {
                 <button
                   onClick={openModal}
                   className="w-full py-3 rounded-xl font-bold text-white transition-all duration-300 hover:shadow-lg group-hover:scale-105 flex items-center justify-center gap-2"
-                  style={{ backgroundColor: colors.primary }}
+                  style={{ backgroundColor: colors.primaryText }}
                 >
                   Get Quote
                   <ArrowRight className="w-4 h-4" />
@@ -329,7 +329,7 @@ export default function QuotePage() {
       <section className="py-16 sm:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-white text-xs sm:text-sm font-semibold shadow mb-4" style={{ backgroundColor: colors.primary }}>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-white text-xs sm:text-sm font-semibold shadow mb-4" style={{ backgroundColor: colors.primaryText }}>
               ⭐ Rated {GOOGLE_REVIEWS_SUMMARY.ratingLabel} Stars on Google
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-4">
@@ -375,7 +375,7 @@ export default function QuotePage() {
                   className="w-full h-64 sm:h-80 lg:h-96 object-cover rounded-2xl"
                 />
                 <div className="absolute top-8 left-8">
-                  <div className="px-4 py-2 rounded-full text-white text-xs sm:text-sm font-bold shadow-lg" style={{ backgroundColor: colors.primary }}>
+                  <div className="px-4 py-2 rounded-full text-white text-xs sm:text-sm font-bold shadow-lg" style={{ backgroundColor: colors.primaryText }}>
                     ✨ Professional High Suction Vacuum
                   </div>
                 </div>
@@ -491,7 +491,7 @@ export default function QuotePage() {
       />
 
       {/* ═══════════════════════════════ FINAL CTA ═══════════════════════════════ */}
-      <section className="py-16 sm:py-20 relative overflow-hidden" style={{ background: `linear-gradient(135deg, ${colors.primary} 0%, #14B27D 100%)` }}>
+      <section className="py-16 sm:py-20 relative overflow-hidden" style={{ background: `linear-gradient(135deg, ${colors.primary} 0%, #0B6B4C 100%)` }}>
         {/* Decorative circles */}
         <div className="absolute -top-20 -right-20 w-64 h-64 bg-white/10 rounded-full pointer-events-none" />
         <div className="absolute -bottom-16 -left-16 w-48 h-48 bg-white/10 rounded-full pointer-events-none" />
@@ -536,7 +536,7 @@ export default function QuotePage() {
       <div className="fixed bottom-0 left-0 right-0 z-50 flex sm:hidden items-center justify-between gap-3 px-4 py-3 bg-white border-t border-gray-200 shadow-[0_-4px_20px_rgba(0,0,0,0.12)]">
         <div
           className="w-11 h-11 rounded-full flex items-center justify-center text-white font-black text-lg flex-shrink-0 shadow-md"
-          style={{ backgroundColor: colors.primary }}
+          style={{ backgroundColor: colors.primaryText }}
         >
           W
         </div>

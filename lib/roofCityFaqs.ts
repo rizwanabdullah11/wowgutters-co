@@ -45,7 +45,7 @@ export function buildRoofSchemaFaqs(input: RoofFaqInput): RoofFaqItem[] {
   return [
     {
       question: `How much does roof cleaning cost in ${city}?`,
-      answer: `Roof cleaning in ${city} typically starts from £${priceFrom} for a standard terrace or semi-detached home, with larger detached properties quoted up to £${priceTo}. Price depends on roof size, moss coverage, and access. Fixed quote before work starts.`,
+      answer: `Roof cleaning in ${city} starts from £${priceFrom}. The exact price depends on roof size, moss coverage, and access, and we give you a fixed quote before work starts.`,
     },
     {
       question: `How often should I have my roof cleaned in ${city}?`,

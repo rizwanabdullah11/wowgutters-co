@@ -15,7 +15,7 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Free quote — no hidden charges. Before and after photos on every B16 job.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-day availability</p>
@@ -53,7 +53,7 @@ export const ladywoodBlogPost: BlogPost = {
 
 <p><a href="/gutter-cleaning-ladywood/" style="${link}">WOW Gutters Ltd</a> covers Ladywood B16 and all of its property variety. We bring the same industrial vacuum system, the same ground-level method, and the same documentary standard to every property type in the postcode — from a two-storey Victorian terrace to a managed residential development — and we leave behind real before and after photographs of everything we find and everything we clear.</p>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 Got a B16 property that needs attention?</strong><br/>
   Whether it's a Victorian terrace, a canalside apartment block, or a managed development on the Middleway corridor — we cover it all.<br/>
   <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call 07421 433910</a> for a free quote, no obligation.
@@ -110,7 +110,7 @@ export const ladywoodBlogPost: BlogPost = {
 
 <p>The premium finish of canalside development properties in B16 also matters for maintenance approach. Canal-facing elevations and architectural roofline details on properties at Port Loop, Symphony Court, Washington Wharf, and similar Ladywood waterway developments are not to be contacted by ladders or handled carelessly. Our vacuum system's ground-level operation preserves the finish of premium new-build properties exactly as it preserves the original fabric of Victorian period homes — by making no contact with the roofline at any point during the clean.</p>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>🔔 Own or manage a canalside property in Ladywood B16?</strong><br/>
   Higher ambient moisture means gutters need attention more frequently than building age suggests.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call 07421 433910</a> for a free assessment.<br/>
@@ -185,7 +185,7 @@ Before and after photographs of every section of gutter cleaned. Sent to you —
   <li>✅ Price confirmed before arrival — no changes on the day</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📸 Every job documented — before and after photos sent same day.</strong><br/>
   Whether it's a Victorian terrace or a canalside development, you'll always see what we found and what we cleared.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> to get booked in.
@@ -208,7 +208,7 @@ Before and after photographs of every section of gutter cleaned. Sent to you —
   <li><strong>Responsive attendance</strong> — for urgent situations where active overflow is affecting tenants, call us directly and we will prioritise attendance where possible</li>
 </ul>
 
-<blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
+<blockquote style="border-left: 4px solid #0E7F5A; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📋 Housing association or managing agent with B16 properties?</strong><br/>
   Talk to us about a maintenance programme that covers your full portfolio.<br/>
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> · 📧 <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a>

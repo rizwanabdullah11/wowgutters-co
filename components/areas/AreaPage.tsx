@@ -275,7 +275,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
 
       {/* 4) WhatsApp Section */}
       <section className="relative overflow-hidden border-t border-white/10 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] py-20 px-4">
-        <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#16c784]/30 blur-[1px]" />
+        <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#0E7F5A]/30 blur-[1px]" />
         <div className="pointer-events-none absolute -right-8 -top-12 h-52 w-[45%] rotate-6 rounded-[35%] bg-[#2dd4bf]/24 blur-[1px]" />
         <div className="pointer-events-none absolute left-[28%] top-[28%] h-20 w-56 -rotate-12 rounded-[30%] bg-white/70" />
         <div className="pointer-events-none absolute right-[16%] bottom-[10%] h-16 w-48 rotate-12 rounded-[30%] bg-white/65" />
@@ -309,7 +309,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
                     href={`${whatsappBaseUrl}?text=${encodeURIComponent(`Hi, I am in ${formattedArea}. ${question}`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="shrink-0 rounded-md bg-[#16c784] px-4 py-1.5 text-base font-black text-white hover:bg-[#0fb272] transition-colors inline-flex items-center gap-1.5 shadow-[0_6px_14px_rgba(22,199,132,0.35)]"
+                    className="shrink-0 rounded-md bg-[#0E7F5A] px-4 py-1.5 text-base font-black text-white hover:bg-[#0fb272] transition-colors inline-flex items-center gap-1.5 shadow-[0_6px_14px_rgba(22,199,132,0.35)]"
                   >
                     <svg
                       className="h-4 w-4"
@@ -474,14 +474,14 @@ export default function AreaPage({ areaName }: AreaPageProps) {
           border: none;
           cursor: pointer;
           transition: all 0.3s ease;
-          box-shadow: 0 10px 30px rgba(25, 197, 139, 0.3);
+          box-shadow: 0 10px 30px rgba(14, 127, 90, 0.3);
           position: relative;
         }
 
         .hero-primary-btn:hover {
           transform: translateY(-4px);
-          box-shadow: 0 15px 40px rgba(25, 197, 139, 0.4);
-          background: #14B27D;
+          box-shadow: 0 15px 40px rgba(14, 127, 90, 0.4);
+          background: #0B6B4C;
         }
 
         .btn-arrow {

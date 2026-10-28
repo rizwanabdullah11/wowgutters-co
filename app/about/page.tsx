@@ -108,7 +108,7 @@ export default function About() {
 
       {/* Company Story Section */}
       <section className="py-20 px-4 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] text-white relative overflow-hidden">
-        <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#16c784]/20 blur-[100px]" />
+        <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#0E7F5A]/20 blur-[100px]" />
         <div className="pointer-events-none absolute -right-8 -top-12 h-52 w-[45%] rotate-6 rounded-[35%] bg-[#2dd4bf]/15 blur-[100px]" />
 
         <div className="max-w-7xl mx-auto relative z-10">
@@ -502,13 +502,13 @@ export default function About() {
           border: none;
           cursor: pointer;
           transition: all 0.3s ease;
-          box-shadow: 0 10px 30px rgba(25, 197, 139, 0.3);
+          box-shadow: 0 10px 30px rgba(14, 127, 90, 0.3);
         }
 
         .hero-primary-btn:hover {
           transform: translateY(-4px);
-          box-shadow: 0 15px 40px rgba(25, 197, 139, 0.4);
-          background: #14B27D;
+          box-shadow: 0 15px 40px rgba(14, 127, 90, 0.4);
+          background: #0B6B4C;
         }
 
         .btn-arrow {

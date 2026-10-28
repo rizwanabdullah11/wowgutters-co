@@ -31,7 +31,7 @@ export const GUTTER_REPAIR_FAQS = [
   {
     question: 'How much do gutter repairs cost?',
     answer:
-      'Repair pricing depends on how many joints, brackets, or sections need work and how accessible the gutter is. Most minor residential repairs fall between £80 and £250. We confirm the price before any work starts.',
+      'Repair pricing depends on how many joints, brackets, or sections need work and how accessible the gutter is. Gutter repairs start from £30. We confirm the price before any work starts.',
     icon: '💳',
   },
   {
@@ -97,7 +97,7 @@ export const ROOF_CLEANING_FAQS = [
   {
     question: 'How much does roof cleaning cost?',
     answer:
-      'Roof cleaning pricing depends on roof size, pitch, access, and how heavy the moss coverage is. Most residential roof cleans start from around £150–£400. We provide a clear quote after assessing your property.',
+      'Roof cleaning pricing depends on roof size, pitch, access, and how heavy the moss coverage is. Roof cleaning starts from £500. We provide a clear quote after assessing your property.',
     icon: '💳',
   },
   {

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getAllKeywordSlugs, getKeywordPage } from '@/lib/keywordPages';
+import { AREA_SLUGS } from '@/lib/areaSlugs';
 import { buildMetadata } from '@/lib/seo';
 import { colors } from '@/constants/colors';
 
@@ -13,6 +14,7 @@ export const metadata: Metadata = buildMetadata({
 
 /** Area pages already have their own hubs (gutter cleaning / roof cleaning / gutter repair areas). */
 const AREA_PREFIXES = ['gutter-cleaning-', 'roof-cleaning-', 'gutter-repair-', 'gutter-installation-'];
+const AREA_PAGE_SLUGS = new Set(AREA_PREFIXES.flatMap((p) => AREA_SLUGS.map((a) => `${p}${a}`)));
 
 function label(slug: string): string {
   const page = getKeywordPage(slug);
@@ -22,7 +24,7 @@ function label(slug: string): string {
 
 export default function GutterGuidesPage() {
   const slugs = getAllKeywordSlugs()
-    .filter((s) => !AREA_PREFIXES.some((p) => s.startsWith(p)))
+    .filter((s) => !AREA_PAGE_SLUGS.has(s))
     .sort((a, b) => label(a).localeCompare(label(b)));
 
   return (

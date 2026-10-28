@@ -35,7 +35,7 @@ export default function LocalBoostSection({ slug }: { slug?: string | null }) {
           {boost.districts.map((d) => (
             <li key={d.name} className="rounded-xl border border-slate-200 bg-slate-50 p-4">
               <p className="font-bold text-slate-900 flex items-center gap-2 mb-1">
-                <MapPin className="w-4 h-4 text-emerald-600 shrink-0" aria-hidden="true" />
+                <MapPin className="w-4 h-4 text-emerald-700 shrink-0" aria-hidden="true" />
                 {d.name}
               </p>
               <p className="text-sm text-slate-600 leading-relaxed">{d.text}</p>

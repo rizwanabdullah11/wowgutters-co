@@ -51,7 +51,7 @@ export default function TeamEeatSection() {
           {EEAT_TRUST_POINTS.map((item) => (
             <div key={item.title} className="rounded-xl border border-slate-200 bg-slate-50 p-5">
               <div className="flex items-center gap-2 mb-2">
-                <ShieldCheck className="w-5 h-5 text-emerald-600" aria-hidden />
+                <ShieldCheck className="w-5 h-5 text-emerald-700" aria-hidden />
                 <h3 className="font-bold text-slate-900 text-sm">{item.title}</h3>
               </div>
               <p className="text-sm text-slate-600 leading-relaxed">{item.detail}</p>
@@ -72,7 +72,7 @@ export default function TeamEeatSection() {
             href="/the-gutter-gallery/"
             className="inline-flex items-center gap-2 rounded-full border-2 border-slate-200 px-6 py-3 font-bold text-slate-800 hover:border-emerald-400"
           >
-            <Award className="w-5 h-5 text-emerald-600" aria-hidden />
+            <Award className="w-5 h-5 text-emerald-700" aria-hidden />
             Before &amp; after gallery
           </Link>
           <Link

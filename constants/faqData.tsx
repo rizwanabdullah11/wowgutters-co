@@ -160,7 +160,7 @@ export const allFAQs: FAQItem[] = [
   {
     id: 'roof-cleaning-cost',
     question: 'How much does roof cleaning cost?',
-    answer: 'Roof cleaning costs depend on roof size, pitch, and condition. Typical residential properties range from £200-£600. We provide free quotes after assessing your roof.',
+    answer: 'Roof cleaning costs depend on roof size, pitch, and condition. Roof cleaning starts from £500. We provide free quotes after assessing your roof.',
     category: 'Roof Cleaning',
     icon: '💷'
   },

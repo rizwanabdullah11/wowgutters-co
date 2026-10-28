@@ -30,7 +30,7 @@ export default function PricingCard({
       border: 'border-green-500',
       text: 'text-green-600',
       badge: 'bg-green-500',
-      button: 'bg-green-600 hover:bg-green-700'
+      button: 'bg-green-700 hover:bg-green-700'
     },
     purple: {
       border: 'border-purple-500',
@@ -41,8 +41,8 @@ export default function PricingCard({
     orange: {
       border: 'border-orange-500',
       text: 'text-orange-600',
-      badge: 'bg-orange-500',
-      button: 'bg-orange-600 hover:bg-orange-700'
+      badge: 'bg-orange-700',
+      button: 'bg-orange-700 hover:bg-orange-700'
     }
   };
 

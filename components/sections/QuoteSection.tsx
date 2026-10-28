@@ -133,7 +133,7 @@ export default function QuoteSection() {
           {/* Enhanced Header */}
           <div 
             className="relative p-8 text-white overflow-hidden"
-            style={{ backgroundColor: colors.primary }}
+            style={{ backgroundColor: colors.primaryText }}
           >
             {/* Background Pattern */}
             <div className="absolute inset-0 opacity-10">

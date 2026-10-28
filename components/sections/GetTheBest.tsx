@@ -91,7 +91,7 @@ export default function GetTheBest() {
                 <Link href="/contact">
                   <button
                     className="inline-flex items-center gap-2 px-7 py-3 rounded-full font-semibold text-sm border-2 transition-opacity hover:opacity-80"
-                    style={{ borderColor: colors.primary, color: colors.primary, backgroundColor: 'transparent' }}
+                    style={{ borderColor: colors.primaryText, color: colors.primaryText, backgroundColor: 'transparent' }}
                   >
                     Contact WOW Gutters Ltd
                   </button>

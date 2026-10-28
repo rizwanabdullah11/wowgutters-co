@@ -59,8 +59,8 @@ export const ROOF_SERVICE_META: AreaServiceMeta = {
   pathForSlug: roofAreaPath,
   label: 'Roof Cleaning',
   labelLower: 'roof cleaning',
-  defaultPriceFrom: 150,
-  defaultPriceTo: 450,
+  defaultPriceFrom: 500,
+  defaultPriceTo: 500,
   heroVideo: '/roof-cleaning-video.mp4',
   heroPoster: '/roof-cleaning.JPG',
   heroPills: [
@@ -89,8 +89,8 @@ export const REPAIR_SERVICE_META: AreaServiceMeta = {
   pathForSlug: repairAreaPath,
   label: 'Gutter Repairs',
   labelLower: 'gutter repairs',
-  defaultPriceFrom: 80,
-  defaultPriceTo: 250,
+  defaultPriceFrom: 30,
+  defaultPriceTo: 30,
   heroVideo: '/gutter-repair (2).mp4',
   heroPoster: '/gutter-repair-before.webp',
   heroPills: [
@@ -243,20 +243,31 @@ export const AREA_SERVICE_META: Record<AreaServiceKind, AreaServiceMeta> = {
   installation: INSTALLATION_SERVICE_META,
 };
 
-export function roofPriceFrom(gutterFrom: number): number {
-  return Math.max(150, Math.round(gutterFrom * 2.5));
+/** Roof cleaning has one official starting price (Oct 2026): from £500. */
+export const ROOF_PRICE_FROM = 500;
+/** Gutter repairs official starting price: from £30. */
+export const REPAIR_PRICE_FROM = 30;
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export function roofPriceFrom(_gutterFrom?: number): number {
+  return ROOF_PRICE_FROM;
 }
 
-export function roofPriceTo(gutterTo: number): number {
-  return Math.max(350, Math.round(gutterTo * 2.5));
+// Roof cleaning is priced "from £500" only — no upper range is shown anywhere.
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export function roofPriceTo(_gutterTo?: number): number {
+  return ROOF_PRICE_FROM;
 }
 
-export function repairPriceFrom(gutterFrom: number): number {
-  return Math.max(80, Math.round(gutterFrom * 1.6));
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export function repairPriceFrom(_gutterFrom?: number): number {
+  return REPAIR_PRICE_FROM;
 }
 
-export function repairPriceTo(gutterTo: number): number {
-  return Math.max(180, Math.round(gutterTo * 1.6));
+// Repairs are priced "from £30" only — no upper range is shown anywhere.
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export function repairPriceTo(_gutterTo?: number): number {
+  return REPAIR_PRICE_FROM;
 }
 
 export function upvcPriceFrom(gutterFrom: number): number {

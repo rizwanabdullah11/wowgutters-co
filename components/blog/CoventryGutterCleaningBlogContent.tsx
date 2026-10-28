@@ -352,7 +352,7 @@ export default function CoventryGutterCleaningBlogContent() {
 
         .quick-answer-box {
           background: #f0fdf4;
-          border-left: 4px solid #19C58B;
+          border-left: 4px solid #0E7F5A;
           padding: 20px;
           margin: 30px 0;
           border-radius: 8px;
@@ -419,7 +419,7 @@ export default function CoventryGutterCleaningBlogContent() {
         }
 
         .pricing-table th {
-          background: #19C58B;
+          background: #047857;
           color: white;
           padding: 15px;
           text-align: left;
@@ -436,7 +436,7 @@ export default function CoventryGutterCleaningBlogContent() {
         }
 
         .cta-box {
-          background: linear-gradient(135deg, #19C58B 0%, #0f766e 100%);
+          background: linear-gradient(135deg, #0E7F5A 0%, #0f766e 100%);
           color: white;
           padding: 30px;
           border-radius: 12px;
@@ -481,7 +481,7 @@ export default function CoventryGutterCleaningBlogContent() {
 
         .faq-item h3 {
           margin-top: 0;
-          color: #19C58B;
+          color: #0E7F5A;
         }
 
         .related-articles {
@@ -495,7 +495,7 @@ export default function CoventryGutterCleaningBlogContent() {
         }
 
         .related-articles a {
-          color: #19C58B;
+          color: #0E7F5A;
           text-decoration: none;
           font-weight: 600;
         }

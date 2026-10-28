@@ -166,7 +166,7 @@ function buildRoofMetadata(areaSlug: string): Metadata {
     return buildMetadata({
       absoluteTitle: 'Roof Cleaning Birmingham | Professional Moss Removal | WOW Gutters Ltd',
       description:
-        'Professional roof cleaning in Birmingham from £150. Soft-wash moss removal, biocide treatment, before & after photos. Fully insured. Call WOW Gutters Ltd: 07421 433910.',
+        'Professional roof cleaning in Birmingham from £500. Soft-wash moss removal, biocide treatment, before & after photos. Fully insured. Call WOW Gutters Ltd: 07421 433910.',
       canonicalPath: roofAreaPath(areaSlug),
       ogImagePath: '/roof-cleaning.JPG',
     });
@@ -206,7 +206,7 @@ function buildRoofMetadata(areaSlug: string): Metadata {
 
   return buildMetadata({
     title: `Roof Cleaning ${areaName}`,
-    description: `Professional roof cleaning and moss removal in ${areaName}. Soft-wash methods from £150. Call WOW Gutters Ltd: 07421 433910.`,
+    description: `Professional roof cleaning and moss removal in ${areaName}. Soft-wash methods from £500. Call WOW Gutters Ltd: 07421 433910.`,
     canonicalPath: roofAreaPath(areaSlug),
     ogImagePath: '/roof-cleaning.JPG',
   });

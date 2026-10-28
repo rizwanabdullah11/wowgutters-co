@@ -140,7 +140,7 @@ export default function ReviewsPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 rounded-full px-8 py-4 text-lg font-bold text-white shadow-lg transition hover:scale-105"
-                  style={{ backgroundColor: colors.primary }}
+                  style={{ backgroundColor: colors.primaryText }}
                 >
                   Leave a Google review
                 </a>
@@ -149,7 +149,7 @@ export default function ReviewsPage() {
                 href="https://wa.me/447421433910"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-3 rounded-full bg-[#25D366] px-8 py-4 text-lg font-bold text-white shadow-lg transition hover:scale-105"
+                className="inline-flex items-center justify-center gap-3 rounded-full bg-[#0B7A55] px-8 py-4 text-lg font-bold text-white shadow-lg transition hover:scale-105"
               >
                 Message on WhatsApp
               </a>

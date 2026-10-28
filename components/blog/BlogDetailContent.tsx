@@ -1,8 +1,9 @@
-'use client';
+/* Server component (Oct 2026 perf pass): only the FAQ accordion is interactive,
+   so the post HTML is no longer hydrated / duplicated in the client payload. */
 
 import { SOCIAL_PROFILES } from '@/lib/businessDetails';
 import HeroVideo from '@/components/media/HeroVideo';
-import { useState } from 'react';
+import AccordionItem from '@/components/blog/BlogAccordionItem';
 import type { BlogPost } from '@/constants/blogTypes';
 import type { BlogSummary } from '@/lib/blogSummaries';
 import { colors } from '@/constants/colors';
@@ -13,79 +14,6 @@ import { resolveBlogImageUrl } from '@/lib/blogImageUrl';
 import { blogThumb } from '@/lib/blogThumb';
 
 
-// ── Accordion item ──────────────────────────────────────────────────────────
-function AccordionItem({ question, answer }: { question: string; answer: string }) {
-  const [open, setOpen] = useState(false);
-  return (
-    <div
-      style={{
-        border: '1px solid #e2e8f0',
-        borderRadius: 12,
-        marginBottom: 12,
-        overflow: 'hidden',
-        background: '#ffffff',
-        boxShadow: open ? '0 4px 16px rgba(0,0,0,0.08)' : undefined,
-        transition: 'box-shadow 0.2s ease',
-      }}
-    >
-      <button
-        type="button"
-        onClick={() => setOpen(o => !o)}
-        style={{
-          width: '100%',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          gap: 12,
-          padding: '20px 24px',
-          fontSize: '1.05rem',
-          fontWeight: 700,
-          color: '#0f172a',
-          background: 'none',
-          border: 'none',
-          cursor: 'pointer',
-          textAlign: 'left',
-          userSelect: 'none',
-        }}
-      >
-        <span>{question}</span>
-        <span
-          style={{
-            flexShrink: 0,
-            width: 24,
-            height: 24,
-            borderRadius: '50%',
-            background: open ? '#0f172a' : '#19C58B',
-            color: '#fff',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            fontSize: '1.2rem',
-            lineHeight: 1,
-            fontWeight: 400,
-            transform: open ? 'rotate(45deg)' : 'none',
-            transition: 'transform 0.25s ease, background 0.2s ease',
-          }}
-        >
-          +
-        </span>
-      </button>
-      {open && (
-        <div
-          style={{
-            padding: '0 24px 20px',
-            color: '#475569',
-            lineHeight: 1.75,
-            borderTop: '1px solid #f1f5f9',
-          }}
-          dangerouslySetInnerHTML={{ __html: answer }}
-        />
-      )}
-    </div>
-  );
-}
-
-// ── Smart content renderer — replaces <details> with React accordion ────────
 function BlogContent({ html }: { html: string }) {
   const parts: Array<{ type: 'html' | 'faq'; content: string; question?: string; answer?: string }> = [];
   const detailsRe = /<details[\s\S]*?<\/details>/gi;
@@ -462,7 +390,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
                 >
                   <div className="flex items-center gap-2 mb-2">
                     <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
-                    <h2 className="text-xs sm:text-sm font-bold uppercase tracking-wider m-0" style={{ color: colors.primary }}>
+                    <h2 className="text-xs sm:text-sm font-bold uppercase tracking-wider m-0" style={{ color: colors.primaryText }}>
                       Quick Answer / Summary
                     </h2>
                   </div>
@@ -508,7 +436,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
                           href={`https://www.facebook.com/sharer/sharer.php?u=https://wowgutters.co.uk/blog/${post.id}`}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="px-4 py-2 rounded-full bg-[#1877F2] text-white text-sm font-semibold hover:opacity-90 transition-opacity shadow-sm"
+                          className="px-4 py-2 rounded-full bg-[#1464D2] text-white text-sm font-semibold hover:opacity-90 transition-opacity shadow-sm"
                         >
                           Facebook
                         </a>
@@ -524,7 +452,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
                           href={`https://api.whatsapp.com/send?text=${encodeURIComponent(`${post.title} - https://wowgutters.co.uk/blog/${post.id}`)}`}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="px-4 py-2 rounded-full bg-[#25D366] text-white text-sm font-semibold hover:opacity-90 transition-opacity shadow-sm"
+                          className="px-4 py-2 rounded-full bg-[#0B7A55] text-white text-sm font-semibold hover:opacity-90 transition-opacity shadow-sm"
                         >
                           WhatsApp
                         </a>
@@ -543,7 +471,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
                     </p>
                     <div className="flex flex-col sm:flex-row gap-3.5 justify-center relative z-10">
                       <Link href="/quote">
-                        <button className="w-full sm:w-auto px-8 py-3.5 text-base sm:text-lg font-bold rounded-full bg-white hover:bg-gray-50 transition-all shadow-md hover:shadow-xl hover:scale-105" style={{ color: colors.primary }}>
+                        <button className="w-full sm:w-auto px-8 py-3.5 text-base sm:text-lg font-bold rounded-full bg-white hover:bg-gray-50 transition-all shadow-md hover:shadow-xl hover:scale-105" style={{ color: colors.primaryText }}>
                           Get Free Quote
                         </button>
                       </Link>
@@ -612,7 +540,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
                 <a
                   href="tel:07421433910"
                   className="inline-flex items-center justify-center gap-2 text-2xl font-black tracking-tight hover:opacity-90 transition-opacity"
-                  style={{ color: colors.primary }}
+                  style={{ color: colors.primaryText }}
                 >
                   <Phone className="w-5 h-5" />
                   07421 433910
@@ -636,7 +564,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
                   {post.authorBio || `Written and verified by ${post.author}. All WOW Gutters guides are technically reviewed to give Birmingham homeowners accurate, transparent gutter maintenance advice.`}
                 </p>
                 {post.lastUpdated && (
-                  <p className="mt-3 pt-3 border-t border-gray-100 text-[11px] text-gray-400 m-0">
+                  <p className="mt-3 pt-3 border-t border-gray-100 text-[11px] text-gray-600 m-0">
                     Last updated: <time dateTime={post.lastUpdated}>{formatBlogDate(post.lastUpdated)}</time> · West Midlands Gutter Maintenance Standard
                   </p>
                 )}
@@ -646,32 +574,32 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
             {/* Popular Birmingham Guides Sidebar Card */}
             <div className="bg-white p-6 sm:p-7 rounded-3xl border border-gray-100 shadow-md">
               <div className="flex items-center gap-2 mb-4 pb-3 border-b border-gray-100">
-                <BookOpen className="w-4 h-4 text-emerald-600" />
+                <BookOpen className="w-4 h-4 text-emerald-700" />
                 <h4 className="font-extrabold text-gray-900 text-base m-0">Popular Birmingham Guides</h4>
               </div>
               <ul className="space-y-3 m-0 p-0 list-none text-xs sm:text-sm">
                 <li>
-                  <Link href="/blog/emergency-gutter-cleaning" className="font-semibold text-gray-800 hover:text-emerald-600 transition-colors line-clamp-2">
+                  <Link href="/blog/emergency-gutter-cleaning" className="font-semibold text-gray-800 hover:text-emerald-700 transition-colors line-clamp-2">
                     • Emergency Gutter Cleaning After Heavy Rain
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/overflowing-gutters-fix" className="font-semibold text-gray-800 hover:text-emerald-600 transition-colors line-clamp-2">
+                  <Link href="/blog/overflowing-gutters-fix" className="font-semibold text-gray-800 hover:text-emerald-700 transition-colors line-clamp-2">
                     • Overflowing Gutters in Birmingham: Causes &amp; Fixes
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/leaking-gutter-repair" className="font-semibold text-gray-800 hover:text-emerald-600 transition-colors line-clamp-2">
+                  <Link href="/blog/leaking-gutter-repair" className="font-semibold text-gray-800 hover:text-emerald-700 transition-colors line-clamp-2">
                     • Leaking Gutter Repair: Fix or Replace?
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/hidden-gutter-damage-summer/" className="font-semibold text-gray-800 hover:text-emerald-600 transition-colors line-clamp-2">
+                  <Link href="/blog/hidden-gutter-damage-summer/" className="font-semibold text-gray-800 hover:text-emerald-700 transition-colors line-clamp-2">
                     • Hidden Gutter Damage Easier to Spot in Summer
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/clean-gutters-prevent-damp/" className="font-semibold text-gray-800 hover:text-emerald-600 transition-colors line-clamp-2">
+                  <Link href="/blog/clean-gutters-prevent-damp/" className="font-semibold text-gray-800 hover:text-emerald-700 transition-colors line-clamp-2">
                     • Can Blocked Gutters Cause Damp?
                   </Link>
                 </li>
@@ -700,7 +628,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
                       href={`https://www.facebook.com/sharer/sharer.php?u=https://wowgutters.co.uk/blog/${post.id}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="px-4 py-2 rounded-full bg-[#1877F2] text-white text-sm font-semibold hover:opacity-90 transition-opacity shadow-sm"
+                      className="px-4 py-2 rounded-full bg-[#1464D2] text-white text-sm font-semibold hover:opacity-90 transition-opacity shadow-sm"
                     >
                       Facebook
                     </a>
@@ -716,7 +644,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
                       href={`https://api.whatsapp.com/send?text=${encodeURIComponent(`${post.title} - https://wowgutters.co.uk/blog/${post.id}`)}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="px-4 py-2 rounded-full bg-[#25D366] text-white text-sm font-semibold hover:opacity-90 transition-opacity shadow-sm"
+                      className="px-4 py-2 rounded-full bg-[#0B7A55] text-white text-sm font-semibold hover:opacity-90 transition-opacity shadow-sm"
                     >
                       WhatsApp
                     </a>
@@ -735,7 +663,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3.5 justify-center relative z-10">
                   <Link href="/quote">
-                    <button className="w-full sm:w-auto px-8 py-3.5 text-base sm:text-lg font-bold rounded-full bg-white hover:bg-gray-50 transition-all shadow-md hover:shadow-xl hover:scale-105" style={{ color: colors.primary }}>
+                    <button className="w-full sm:w-auto px-8 py-3.5 text-base sm:text-lg font-bold rounded-full bg-white hover:bg-gray-50 transition-all shadow-md hover:shadow-xl hover:scale-105" style={{ color: colors.primaryText }}>
                       Get Free Quote
                     </button>
                   </Link>
@@ -756,7 +684,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
         <section className="py-20 px-4 bg-white">
           <div className="max-w-7xl mx-auto">
             <h2 className="text-4xl font-black text-gray-900 mb-12 text-center">
-              Related <span style={{ color: colors.primary }}>Articles</span>
+              Related <span style={{ color: colors.primaryText }}>Articles</span>
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               {relatedPosts.map((relatedPost) => (
@@ -1047,7 +975,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
           width: 24px;
           height: 24px;
           border-radius: 50%;
-          background: #19C58B;
+          background: #047857;
           color: #fff;
           display: flex;
           align-items: center;
@@ -1092,7 +1020,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
         }
 
         .blog-content blockquote {
-          border-left: 4px solid #19C58B;
+          border-left: 4px solid #0E7F5A;
           padding: 18px 24px;
           margin: 28px 0;
           background: #f0fdf4;

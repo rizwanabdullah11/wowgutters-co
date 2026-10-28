@@ -28,7 +28,7 @@ export default function AreaBlogSnippet({ locality }: AreaBlogSnippetProps) {
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex items-center gap-4 mb-10">
           <h2 className="text-4xl font-black text-[#0f172a] tracking-tight">EXPERT INSIGHTS</h2>
-          <Link href="/blog" className="text-gray-500 hover:text-gray-900 text-sm font-medium mt-1">
+          <Link href="/blog" className="text-gray-600 hover:text-gray-900 text-sm font-medium mt-1">
             [See all]
           </Link>
           <div className="h-px bg-gray-300 flex-1 ml-4" />
@@ -54,8 +54,8 @@ export default function AreaBlogSnippet({ locality }: AreaBlogSnippetProps) {
                   <h3 className="text-xl sm:text-[22px] font-normal text-gray-800 mb-3 leading-snug tracking-tight">
                     {post.title}
                   </h3>
-                  <p className="text-[#6b7280] leading-relaxed text-[15px]">{post.excerpt}</p>
-                  <p className="text-sm font-semibold mt-4" style={{ color: colors.primary }}>
+                  <p className="text-[#4b5563] leading-relaxed text-[15px]">{post.excerpt}</p>
+                  <p className="text-sm font-semibold mt-4" style={{ color: colors.primaryText }}>
                     Read the full {locality ?? 'local'} guide →
                   </p>
                 </div>
@@ -80,12 +80,12 @@ export default function AreaBlogSnippet({ locality }: AreaBlogSnippetProps) {
                     ? `The Hidden Dangers of Neglected Gutters: A Practical Guide for Homeowners in ${locality}`
                     : 'The Hidden Dangers of Neglected Gutters: A Practical Guide for Homeowners'}
                 </h3>
-                <p className="text-[#6b7280] leading-relaxed text-[15px]">
+                <p className="text-[#4b5563] leading-relaxed text-[15px]">
                   {locality
                     ? `In ${locality}, gutters block quickly when leaves and moss meet frequent rain. If water spills over the edge, it often tracks down brickwork and can reach soffits before you notice. We clear runs and downpipes from the ground, send photo proof, and flag anything that needs a repair — so you are not guessing what is going on up there.`
                     : 'Gutters are easy to forget until water starts staining walls or dripping past the fascia. Regular clearing keeps rainwater going where it should — away from your brickwork and foundations.'}
                 </p>
-                <p className="text-sm font-semibold mt-4" style={{ color: colors.primary }}>
+                <p className="text-sm font-semibold mt-4" style={{ color: colors.primaryText }}>
                   Read the full {locality ?? 'local'} guide →
                 </p>
               </div>

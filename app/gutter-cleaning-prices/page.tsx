@@ -102,7 +102,7 @@ export default function GutterCleaningPrices() {
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center">
-            <Link href="/quote" className="inline-flex items-center gap-2 bg-[#19C58B] hover:bg-[#14B27D] text-white px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl">
+            <Link href="/quote" className="inline-flex items-center gap-2 bg-[#0E7F5A] hover:bg-[#0B6B4C] text-white px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl">
               Get Free Quote
             </Link>
             <a href="tel:07421433910" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border-2 border-white/40 text-white px-8 py-4 rounded-full font-bold transition-all hover:bg-white hover:text-slate-900">
@@ -317,7 +317,7 @@ export default function GutterCleaningPrices() {
                 </li>
                 <li className="flex items-center gap-2 text-gray-600">
                   <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
-                  Long-term warranty
+                  Fully insured installation
                 </li>
               </ul>
             </div>
@@ -390,7 +390,7 @@ export default function GutterCleaningPrices() {
       <section className="py-20 px-4 bg-white border-t border-slate-100">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-14">
-            <span className="text-sm font-bold uppercase tracking-wider text-emerald-600">Fixed &amp; Transparent Rates</span>
+            <span className="text-sm font-bold uppercase tracking-wider text-emerald-700">Fixed &amp; Transparent Rates</span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 mt-2">
               Average Gutter Cleaning Costs by <span style={{ color: colors.primary }}>Property Type</span>
             </h2>
@@ -414,49 +414,49 @@ export default function GutterCleaningPrices() {
                 <tr className="hover:bg-slate-50 transition-colors">
                   <td className="p-4 sm:p-5 font-bold text-slate-900">2-Bed Terraced / Flat</td>
                   <td className="p-4 sm:p-5 text-slate-600">Front &amp; Rear (12–15m)</td>
-                  <td className="p-4 sm:p-5 font-bold text-emerald-600">£100 Fixed</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-700">£100 Fixed</td>
                   <td className="p-4 sm:p-5 text-slate-600">30–45 mins</td>
                   <td className="p-4 sm:p-5 text-slate-600">Vacuum clean, downpipe flow check, photos</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition-colors">
                   <td className="p-4 sm:p-5 font-bold text-slate-900">3-Bed Semi-Detached</td>
                   <td className="p-4 sm:p-5 text-slate-600">Front, Side &amp; Rear (20–25m)</td>
-                  <td className="p-4 sm:p-5 font-bold text-emerald-600">£110 Fixed</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-700">£110 Fixed</td>
                   <td className="p-4 sm:p-5 text-slate-600">45–60 mins</td>
                   <td className="p-4 sm:p-5 text-slate-600">Full perimeter vacuum, swan-neck clear, report</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition-colors">
                   <td className="p-4 sm:p-5 font-bold text-slate-900">4+ Bed Detached</td>
                   <td className="p-4 sm:p-5 text-slate-600">Full 360° Perimeter (30–40m)</td>
-                  <td className="p-4 sm:p-5 font-bold text-emerald-600">From £140 – £210</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-700">From £140 – £210</td>
                   <td className="p-4 sm:p-5 text-slate-600">60–90 mins</td>
                   <td className="p-4 sm:p-5 text-slate-600">Complete clearance, all downpipes, photo proof</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition-colors">
                   <td className="p-4 sm:p-5 font-bold text-slate-900">Townhouse / 3-Storey</td>
                   <td className="p-4 sm:p-5 text-slate-600">High-Elevation Runs</td>
-                  <td className="p-4 sm:p-5 font-bold text-emerald-600">From £130 – £195</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-700">From £130 – £195</td>
                   <td className="p-4 sm:p-5 text-slate-600">60–75 mins</td>
                   <td className="p-4 sm:p-5 text-slate-600">Up to 4 storeys (40ft) from the ground, no scaffolding needed</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition-colors">
                   <td className="p-4 sm:p-5 font-bold text-slate-900">Commercial Unit / Block</td>
                   <td className="p-4 sm:p-5 text-slate-600">Custom Box / Deep Gutters</td>
-                  <td className="p-4 sm:p-5 font-bold text-emerald-600">Bespoke Quote</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-700">Bespoke Quote</td>
                   <td className="p-4 sm:p-5 text-slate-600">Flexible</td>
                   <td className="p-4 sm:p-5 text-slate-600">RAMS supplied, scheduled maintenance plans</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition-colors">
                   <td className="p-4 sm:p-5 font-bold text-slate-900">Roof Cleaning &amp; Moss Removal</td>
                   <td className="p-4 sm:p-5 text-slate-600">Whole Roof Slopes + Gutters</td>
-                  <td className="p-4 sm:p-5 font-bold text-emerald-600">Starting from £500</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-700">Starting from £500</td>
                   <td className="p-4 sm:p-5 text-slate-600">Half / Full Day</td>
                   <td className="p-4 sm:p-5 text-slate-600">Soft-wash moss scrape, biocide application, full gutter clearance &amp; photos</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition-colors">
                   <td className="p-4 sm:p-5 font-bold text-slate-900">Conservatory Gutter Clean</td>
                   <td className="p-4 sm:p-5 text-slate-600">Conservatory Roofline</td>
-                  <td className="p-4 sm:p-5 font-bold text-emerald-600">£50 Fixed</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-700">£50 Fixed</td>
                   <td className="p-4 sm:p-5 text-slate-600">20–30 mins</td>
                   <td className="p-4 sm:p-5 text-slate-600">Specialist pole clearing, downpipe check, photo verification</td>
                 </tr>
@@ -468,7 +468,7 @@ export default function GutterCleaningPrices() {
 
       {/* Special Offers */}
       <section className="py-20 px-4 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] text-white relative overflow-hidden">
-        <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#16c784]/20 blur-[100px]" />
+        <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#0E7F5A]/20 blur-[100px]" />
         <div className="pointer-events-none absolute -right-8 -top-12 h-52 w-[45%] rotate-6 rounded-[35%] bg-[#2dd4bf]/15 blur-[100px]" />
         
         <div className="max-w-4xl mx-auto text-center relative z-10">
@@ -484,7 +484,7 @@ export default function GutterCleaningPrices() {
             <Link href="/quote" className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl text-white" style={{ background: colors.primaryGradient }}>
               Get Free Quote
             </Link>
-            <Link href="/oap-discount" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border-2 border-white text-white px-8 py-4 rounded-full font-bold transition-all hover:bg-white hover:text-[#19C58B]">
+            <Link href="/oap-discount" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border-2 border-white text-white px-8 py-4 rounded-full font-bold transition-all hover:bg-white hover:text-[#0E7F5A]">
               View Discounts
             </Link>
           </div>

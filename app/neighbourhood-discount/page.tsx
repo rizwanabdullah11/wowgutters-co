@@ -59,7 +59,7 @@ export default function NeighbourhoodDiscount() {
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center">
-            <Link href="/quote" className="inline-flex items-center gap-2 bg-[#19C58B] hover:bg-[#14B27D] text-white px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl">
+            <Link href="/quote" className="inline-flex items-center gap-2 bg-[#0E7F5A] hover:bg-[#0B6B4C] text-white px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl">
               Get Group Quote
             </Link>
             <a href="tel:07421433910" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border-2 border-white/40 text-white px-8 py-4 rounded-full font-bold transition-all hover:bg-white hover:text-slate-900">
@@ -135,7 +135,7 @@ export default function NeighbourhoodDiscount() {
                 >
                   {index === 2 && (
                     <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                      <span className="px-4 py-1 rounded-full text-xs font-bold text-white" style={{ backgroundColor: colors.primary }}>
+                      <span className="px-4 py-1 rounded-full text-xs font-bold text-white" style={{ backgroundColor: colors.primaryText }}>
                         BEST VALUE
                       </span>
                     </div>
@@ -223,7 +223,7 @@ export default function NeighbourhoodDiscount() {
       <section className="py-20 px-4 bg-white border-t border-slate-100">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-14">
-            <span className="text-sm font-bold uppercase tracking-wider text-emerald-600">Smart Community Savings</span>
+            <span className="text-sm font-bold uppercase tracking-wider text-emerald-700">Smart Community Savings</span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 mt-2">
               How Street-By-Street <span style={{ color: colors.primary }}>Coordination Works</span>
             </h2>

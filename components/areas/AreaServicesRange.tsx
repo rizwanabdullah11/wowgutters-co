@@ -14,7 +14,7 @@ const gutterServices = [
       features: ['High-reach vacuum system', 'Before & after photos', 'Debris disposal included', 'Same-day book available'],
       price: 'From £100'
     },
-    image: '/gutter-cleaning.webp',
+    image: '/gutter-cleaning-card.webp',
     link: '/services/gutter-cleaning/',
   },
   {
@@ -26,7 +26,7 @@ const gutterServices = [
       features: ['Soft washing technique', 'Moss treatment', 'Tile protection', 'Long-lasting results'],
       price: 'From £150'
     },
-    image: '/roof-cleaning.JPG',
+    image: '/roof-cleaning-card.webp',
     link: '/services/roof-cleaning/',
   },
   {
@@ -38,7 +38,7 @@ const gutterServices = [
       features: ['Purified water system', 'Streak-free finish', 'Fascias & soffits', 'Conservatory cleaning'],
       price: 'From £100'
     },
-    image: '/upvc-cleaning.jpg',
+    image: '/upvc-cleaning-card.webp',
     link: '/services/upvc-cleaning',
   },
   {
@@ -50,7 +50,7 @@ const gutterServices = [
       features: ['Camera inspection', 'Detailed report', 'No obligation quote', 'Expert recommendations'],
       price: 'FREE'
     },
-    image: '/gutter-inspection.webp',
+    image: '/gutter-inspection-card.webp',
     link: '/services/gutter-inspection/',
   },
   {
@@ -62,7 +62,7 @@ const gutterServices = [
       features: ['Water flow tested', 'Same-day book', 'Quality materials', 'Leak-proof joints'],
       price: 'From £100'
     },
-    image: '/gutter-repair.webp',
+    image: '/gutter-repair-card.webp',
     link: '/services/gutter-repairs/',
   },
   {
@@ -74,7 +74,7 @@ const gutterServices = [
       features: ['Quality uPVC systems', 'Professional fitting', 'British standard uPVC', 'Custom measurements'],
       price: 'From £300'
     },
-    image: '/gutter-installation.webp',
+    image: '/gutter-installation-card.webp',
     link: '/services/gutter-installation/',
   },
 ];
@@ -108,6 +108,10 @@ export default function AreaServicesRange() {
               <img
                 src={service.image}
                 alt={service.title}
+                width={720}
+                height={420}
+                loading="lazy"
+                decoding="async"
                 className="w-full h-48 object-cover group-hover:scale-[1.02] transition-transform duration-300"
               />
               <div className="p-6 flex flex-col flex-1">

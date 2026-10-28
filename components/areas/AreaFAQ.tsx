@@ -33,7 +33,7 @@ export default function AreaFAQ({
   const [openIdx, setOpenIdx] = useState<number | null>(0);
 
   return (
-    <section className="py-20 px-4 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #0d6e4e 0%, #19C58B 50%, #14B27D 100%)' }}>
+    <section className="py-20 px-4 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #0d6e4e 0%, #0E7F5A 50%, #0B6B4C 100%)' }}>
       {/* Note: FAQPage schema is now included in AreaPageSchema component */}
       {/* Decorative pattern */}
       <div className="absolute inset-0 opacity-10">
@@ -73,12 +73,12 @@ export default function AreaFAQ({
                 >
                   <div className="flex items-center gap-4 flex-1">
                     <div className="text-3xl">{faq.icon}</div>
-                    <span className="text-white font-bold text-lg group-hover:text-[#19C58B] transition-colors">
+                    <span className="text-white font-bold text-lg group-hover:text-[#0E7F5A] transition-colors">
                       {faq.question}
                     </span>
                   </div>
                   <ChevronDown 
-                    className={`w-6 h-6 text-[#19C58B] transition-transform duration-300 shrink-0 ${
+                    className={`w-6 h-6 text-[#0E7F5A] transition-transform duration-300 shrink-0 ${
                       openIdx === i ? 'rotate-180' : ''
                     }`}
                   />
@@ -104,35 +104,35 @@ export default function AreaFAQ({
           <div className="lg:col-span-1">
             <div className="sticky top-8 space-y-6">
               {/* Still Have Questions Card */}
-              <div className="bg-[#19C58B] rounded-2xl p-8 text-white shadow-2xl">
+              <div className="bg-[#0E7F5A] rounded-2xl p-8 text-white shadow-2xl">
                 <h3 className="text-2xl font-black mb-4">Get Your FREE Instant Quote</h3>
-                <p className="text-white/90 mb-6 leading-relaxed">
+                <p className="text-white mb-6 leading-relaxed">
                   We&apos;ll text you your quote and you&apos;ll even be able to book-in online.
                 </p>
                 
                 <div className="space-y-4">
                   <a 
                     href="tel:07421433910"
-                    className="flex items-center gap-3 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-xl p-4 transition-all duration-300 group"
+                    className="flex items-center gap-3 bg-black/15 hover:bg-black/25 backdrop-blur-sm rounded-xl p-4 transition-all duration-300 group"
                   >
                     <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
                       <Phone className="w-6 h-6" />
                     </div>
                     <div>
-                      <p className="text-xs text-white/80 font-semibold">Call Us Now</p>
+                      <p className="text-xs text-white font-semibold">Call Us Now</p>
                       <p className="text-lg font-bold">07421 433910</p>
                     </div>
                   </a>
 
                   <a 
                     href="mailto:support@wowgutters.co.uk"
-                    className="flex items-center gap-3 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-xl p-4 transition-all duration-300 group"
+                    className="flex items-center gap-3 bg-black/15 hover:bg-black/25 backdrop-blur-sm rounded-xl p-4 transition-all duration-300 group"
                   >
                     <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
                       <Mail className="w-6 h-6" />
                     </div>
                     <div>
-                      <p className="text-xs text-white/80 font-semibold">Email Us</p>
+                      <p className="text-xs text-white font-semibold">Email Us</p>
                       <p className="text-sm font-bold">support@wowgutters.co.uk</p>
                     </div>
                   </a>

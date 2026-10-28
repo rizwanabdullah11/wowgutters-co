@@ -72,7 +72,7 @@ export default function LatestNewsClient({ newsArticles }: { newsArticles: NewsA
               >
                 <div className="p-6">
                   <div className="flex items-center justify-between gap-4 text-xs font-semibold text-gray-500 mb-3">
-                    <span className="px-3 py-1 rounded-full text-white" style={{ backgroundColor: colors.primary }}>
+                    <span className="px-3 py-1 rounded-full text-white" style={{ backgroundColor: colors.primaryText }}>
                       {article.category}
                     </span>
                     <span className="flex items-center gap-1">

@@ -53,7 +53,7 @@ export default function ContactPageContent() {
                 href="https://wa.me/447421433910"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-8 py-4 text-base font-bold text-white shadow-xl transition hover:scale-105"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-[#0B7A55] px-8 py-4 text-base font-bold text-white shadow-xl transition hover:scale-105"
               >
                 <MessageSquare className="h-5 w-5" />
                 Chat on WhatsApp
@@ -73,21 +73,21 @@ export default function ContactPageContent() {
             <h2 className="text-2xl font-bold text-slate-900">Get in touch</h2>
             <div className="mt-6 space-y-5">
               <div className="flex items-start gap-3">
-                <Phone className="mt-0.5 h-5 w-5 text-emerald-600" />
+                <Phone className="mt-0.5 h-5 w-5 text-emerald-700" />
                 <div>
                   <p className="font-semibold text-slate-900">Phone</p>
                   <p className="text-slate-700">07421 433910</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <Mail className="mt-0.5 h-5 w-5 text-emerald-600" />
+                <Mail className="mt-0.5 h-5 w-5 text-emerald-700" />
                 <div>
                   <p className="font-semibold text-slate-900">Email</p>
                   <p className="text-slate-700">support@wowgutters.co.uk</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <MapPin className="mt-0.5 h-5 w-5 text-emerald-600" />
+                <MapPin className="mt-0.5 h-5 w-5 text-emerald-700" />
                 <div>
                   <p className="font-semibold text-slate-900">Service areas</p>
                   <p className="text-slate-700">
@@ -97,7 +97,7 @@ export default function ContactPageContent() {
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <Clock3 className="mt-0.5 h-5 w-5 text-emerald-600" />
+                <Clock3 className="mt-0.5 h-5 w-5 text-emerald-700" />
                 <div>
                   <p className="font-semibold text-slate-900">Availability</p>
                   <p className="text-slate-700">Available 24 hours a day, 7 days a week.</p>

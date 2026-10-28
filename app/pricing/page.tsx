@@ -59,7 +59,7 @@ export default function Pricing() {
       {/* Main Gutter Cleaning Pricing Packages */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         <div className="text-center mb-10">
-          <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-emerald-600">
+          <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-emerald-700">
             Vacuum Gutter Clearance
           </span>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-gray-900 mt-1">
@@ -228,7 +228,7 @@ export default function Pricing() {
         {/* Additional Services Grid */}
         <div className="mt-14 sm:mt-20 bg-white rounded-3xl shadow-lg border border-gray-100 p-6 sm:p-10 md:p-12">
           <div className="text-center max-w-2xl mx-auto mb-10">
-            <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-emerald-600">
+            <span className="text-xs sm:text-sm font-bold uppercase tracking-wider text-emerald-700">
               Complete Exterior Care
             </span>
             <h2 className="text-2xl sm:text-3xl font-black text-gray-900 mt-1">
@@ -261,11 +261,11 @@ export default function Pricing() {
           <div className="mt-8 pt-6 border-t border-gray-100 text-center">
             <p className="text-xs sm:text-sm text-gray-500">
               Need a bespoke package or commercial multi-site quote?{' '}
-              <Link href="/contact" className="font-bold underline text-gray-800 hover:text-emerald-600">
+              <Link href="/contact" className="font-bold underline text-gray-800 hover:text-emerald-700">
                 Contact our technical team
               </Link>{' '}
               or use our{' '}
-              <Link href="/gutter-cleaning-calculator/" className="font-bold underline text-gray-800 hover:text-emerald-600">
+              <Link href="/gutter-cleaning-calculator/" className="font-bold underline text-gray-800 hover:text-emerald-700">
                 instant price calculator
               </Link>
               .
