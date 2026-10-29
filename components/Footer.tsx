@@ -63,6 +63,17 @@ export default function Footer() {
     'Evesham', 'Droitwich Spa'
   ];
 
+  // Site-wide links to the main money pages, with exact-match anchors (Oct 2026 SEO:
+  // Google was ranking the wrong page — or none — for these searches).
+  const popularLinks = [
+    { name: 'Gutter Cleaning Birmingham', path: '/gutter-cleaning-birmingham/' },
+    { name: 'Roof Cleaning Birmingham', path: '/roof-cleaning-birmingham/' },
+    { name: 'Gutter Repairs Birmingham', path: '/gutter-repair-birmingham/' },
+    { name: 'Gutter Installation Birmingham', path: '/gutter-installation-birmingham/' },
+    { name: 'Gutter Cleaning Near Me', path: '/gutter-cleaning-near-me/' },
+    { name: 'Commercial Gutter Cleaning', path: '/services/commercial-gutter-cleaning/' },
+  ];
+
   const hubLinks = [
     { name: 'All Gutter Cleaning Areas', path: '/gutter-cleaning-service-areas/' },
     { name: 'All Roof Cleaning Areas', path: '/roof-cleaning-service-areas/' },
@@ -97,11 +108,12 @@ export default function Footer() {
             <div className="footer-brand-text">
               <p className="footer-company-name">WOW Gutters Ltd</p>
               <p className="footer-company-tagline">
+                {/* Site-wide links with exact anchors point at the dedicated Birmingham pages
+                    (previously "gutter cleaning in Birmingham" linked to the homepage, which
+                    made the homepage compete with /gutter-cleaning-birmingham/). */}
                 Professional{' '}
-                <OnlyOnHome>gutter cleaning in Birmingham</OnlyOnHome>
-                <OnlyOnHome invert>
-                  <Link href="/" className="footer-tagline-link">gutter cleaning in Birmingham</Link>
-                </OnlyOnHome>{' '}
+                <Link href="/gutter-cleaning-birmingham/" className="footer-tagline-link">gutter cleaning in Birmingham</Link>,{' '}
+                <Link href="/roof-cleaning-birmingham/" className="footer-tagline-link">roof cleaning in Birmingham</Link>{' '}
                 &amp; roofline services across the West Midlands
               </p>
               <div className="footer-ratings">
@@ -115,6 +127,13 @@ export default function Footer() {
               <address className="contact-pill not-italic"><MapPin className="w-4 h-4"/> {formatNapAddress()}</address>
             </div>
           </div>
+
+          <nav aria-label="Popular services" className="footer-popular">
+            <span className="footer-popular-label">Popular:</span>
+            {popularLinks.map((l) => (
+              <Link key={l.path} href={l.path} className="footer-popular-link">{l.name}</Link>
+            ))}
+          </nav>
 
           <OnlyOnHome><hr className="footer-divider" /></OnlyOnHome>
 
@@ -395,6 +414,30 @@ export default function Footer() {
           display: flex;
           flex-direction: column;
           gap: 14px;
+        }
+        .footer-popular {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 8px 10px;
+          margin: 4px 0 24px;
+          font-size: 0.875rem;
+        }
+        .footer-popular-label {
+          color: #94A3B8;
+          font-weight: 700;
+        }
+        .footer-popular-link {
+          color: #CBD5E1;
+          padding: 6px 12px;
+          border-radius: 999px;
+          border: 1px solid rgba(255,255,255,0.12);
+          text-decoration: none;
+          transition: color 0.2s, border-color 0.2s;
+        }
+        .footer-popular-link:hover {
+          color: #19C58B;
+          border-color: #19C58B;
         }
         .footer-link {
           color: #94A3B8;

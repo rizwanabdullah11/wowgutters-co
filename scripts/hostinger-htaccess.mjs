@@ -216,16 +216,23 @@ ${legacy}
   RewriteRule ^gutter-cleaning-callington/?$ - [G,L]
   RewriteRule ^gutter-cleaning-wendover/?$ - [G,L]
 
-  # Removed service area pages (410 Gone)
-  RewriteRule ^exterior-upvc-cleaning-[a-zA-Z0-9-]+/?$ - [G,L]
-  RewriteRule ^commercial-roof-cleaning-[a-zA-Z0-9-]+/?$ - [G,L]
-  RewriteRule ^commercial-gutter-cleaning-[a-zA-Z0-9-]+/?$ - [G,L]
-  RewriteRule ^commercial-gutter-clearing-[a-zA-Z0-9-]+/?$ - [G,L]
-  RewriteRule ^roof-inspection-[a-zA-Z0-9-]+/?$ - [G,L]
-  RewriteRule ^gutter-inspection-[a-zA-Z0-9-]+/?$ - [G,L]
-  RewriteRule ^conservatory-cleaning-[a-zA-Z0-9-]+/?$ - [G,L]
-  RewriteRule ^conservatory-roof-cleaning-[a-zA-Z0-9-]+/?$ - [G,L]
-  RewriteRule ^conservatory-gutter-cleaning-.*$ - [G,L]
+  # Removed service area pages → 301 to the matching live page (Oct 2026: several of these
+  # still ranked 8–16 in GSC, so pass that ranking on instead of returning 410 Gone).
+  # 1) Same area exists as a gutter / roof cleaning page → send there.
+  RewriteCond %{DOCUMENT_ROOT}/gutter-cleaning-$1/index.html -f
+  RewriteRule ^(?:gutter-inspection|commercial-gutter-cleaning|commercial-gutter-clearing|exterior-upvc-cleaning|conservatory-cleaning|conservatory-gutter-cleaning)-([a-zA-Z0-9-]+)/?$ /gutter-cleaning-$1/ [R=301,L]
+  RewriteCond %{DOCUMENT_ROOT}/roof-cleaning-$1/index.html -f
+  RewriteRule ^(?:roof-inspection|commercial-roof-cleaning|conservatory-roof-cleaning)-([a-zA-Z0-9-]+)/?$ /roof-cleaning-$1/ [R=301,L]
+  # 2) Otherwise → the main service page.
+  RewriteRule ^exterior-upvc-cleaning-[a-zA-Z0-9-]+/?$ /services/upvc-cleaning/ [R=301,L]
+  RewriteRule ^commercial-roof-cleaning-[a-zA-Z0-9-]+/?$ /services/commercial-roof-cleaning/ [R=301,L]
+  RewriteRule ^commercial-gutter-cleaning-[a-zA-Z0-9-]+/?$ /services/commercial-gutter-cleaning/ [R=301,L]
+  RewriteRule ^commercial-gutter-clearing-[a-zA-Z0-9-]+/?$ /services/commercial-gutter-cleaning/ [R=301,L]
+  RewriteRule ^roof-inspection-[a-zA-Z0-9-]+/?$ /services/roof-inspection/ [R=301,L]
+  RewriteRule ^gutter-inspection-[a-zA-Z0-9-]+/?$ /services/gutter-inspection/ [R=301,L]
+  RewriteRule ^conservatory-cleaning-[a-zA-Z0-9-]+/?$ /services/conservatory/ [R=301,L]
+  RewriteRule ^conservatory-roof-cleaning-[a-zA-Z0-9-]+/?$ /services/conservatory/ [R=301,L]
+  RewriteRule ^conservatory-gutter-cleaning-.*$ /services/conservatory/ [R=301,L]
 
   # Spam-link URLs from third-party sites (GSC Oct 2026: 1.96M "Alternative page with
   # proper canonical tag" + most 404s). 410 Gone tells Google to drop them for good.

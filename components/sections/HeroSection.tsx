@@ -8,10 +8,11 @@ const HERO_VIDEO_PRIMARY = '/gutter-final-video.mp4';
 /** 432px, no audio, ~1.3 MB (full file is 5.3 MB) — phones and tablets. */
 const HERO_VIDEO_MOBILE = '/gutter-final-video-mobile.mp4';
 
-// Rotating headlines — location-first for local SEO
+// Rotating headlines — location-first for local SEO. Homepage = West Midlands;
+// "Birmingham" headings live on /gutter-cleaning-birmingham/ so the two pages don't compete.
 const HERO_HEADLINES = [
   {
-    prefix: 'Birmingham',
+    prefix: 'West Midlands',
     service: 'Gutter Cleaning',
     highlight: 'Specialists',
     bottom: 'Fast • Fully Insured • Same Day Booking',

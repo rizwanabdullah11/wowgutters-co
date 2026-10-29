@@ -5,12 +5,14 @@ import HomeScreen from './home-screen/page';
 
 const URL_PATH = 'https://wowgutters.co.uk/';
 // Exact homepage title — set after normalizeMetadata so it isn't reordered/trimmed.
-const HOME_TITLE = 'WOW Gutters | Gutter & Roof Cleaning West Midlands | 4.9★';
+// Homepage targets the broad / West Midlands searches ("gutter cleaning services", "gutter cleaning
+// company"); Birmingham searches belong to /gutter-cleaning-birmingham/ (Oct 2026 cannibalisation fix).
+const HOME_TITLE = 'Gutter Cleaning Services West Midlands | WOW Gutters Ltd';
 
 const baseMetadata: Metadata = normalizeMetadata({
-  title: 'Gutter Cleaning Birmingham & West Midlands | WOW Gutters Ltd',
+  title: 'Gutter Cleaning Services West Midlands | WOW Gutters Ltd',
   
-  description: 'Gutter cleaning in Birmingham & the West Midlands from £100. Ground-level vacuum, no ladders, before & after photos, fully insured. Free quote: 07421 433910.',
+  description: 'Gutter cleaning services across the West Midlands from £100. Ground-level vacuum, no ladders, before & after photos, fully insured. Free quote: 07421 433910.',
   
   alternates: {
     canonical: URL_PATH,
@@ -27,8 +29,8 @@ const baseMetadata: Metadata = normalizeMetadata({
   },
   
   openGraph: {
-    title: 'Gutter Cleaning Birmingham & West Midlands | WOW Gutters Ltd',
-    description: 'Gutter cleaning in Birmingham & the West Midlands from £100. Ground-level vacuum, no ladders, before & after photos, fully insured. Free quote: 07421 433910.',
+    title: 'Gutter Cleaning Services West Midlands | WOW Gutters Ltd',
+    description: 'Gutter cleaning services across the West Midlands from £100. Ground-level vacuum, no ladders, before & after photos, fully insured. Free quote: 07421 433910.',
     url: URL_PATH,
     siteName: 'WOW Gutters Ltd',
     locale: 'en_GB',
@@ -37,14 +39,14 @@ const baseMetadata: Metadata = normalizeMetadata({
       url: 'https://wowgutters.co.uk/og/default.jpg',
       width: 1200,
       height: 630,
-      alt: 'WOW Gutters Ltd — Gutter Cleaning Birmingham & West Midlands'
+      alt: 'WOW Gutters Ltd — Gutter Cleaning Services West Midlands'
     }]
   },
   
   twitter: {
     card: 'summary_large_image',
-    title: 'Gutter Cleaning Birmingham & West Midlands | WOW Gutters Ltd',
-    description: 'Gutter cleaning in Birmingham & the West Midlands from £100. Ground-level vacuum, no ladders, before & after photos, fully insured. Free quote: 07421 433910.',
+    title: 'Gutter Cleaning Services West Midlands | WOW Gutters Ltd',
+    description: 'Gutter cleaning services across the West Midlands from £100. Ground-level vacuum, no ladders, before & after photos, fully insured. Free quote: 07421 433910.',
     images: ['https://wowgutters.co.uk/og/default.jpg']
   }
 });

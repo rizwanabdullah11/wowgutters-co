@@ -4,7 +4,7 @@ import type { ServiceDetail } from '@/constants/servicesData';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
-  absoluteTitle: 'Professional Gutter Repairs | Leaks, Sagging & Broken Gutters Fixed | WOW Gutters Ltd',
+  absoluteTitle: 'Gutter Repairs Near Me | Leaks, Sagging & Broken Gutters Fixed | WOW Gutters Ltd',
   description:
     'Expert gutter repairs across Birmingham and the West Midlands. Leaking joints, sagging runs, cracked sections, broken brackets — diagnosed and fixed with complete water flow testing. Call 07421 433910.',
   canonicalPath: '/gutter-repairs/',
@@ -15,7 +15,7 @@ const service: ServiceDetail = {
   name: 'Gutter Repairs',
   icon: '🔧',
   heroImage: '/gutter-repair-before.webp',
-  heroTitle: 'Gutter Repairs You Can Rely On',
+  heroTitle: 'Gutter Repairs Near Me',
   heroDescription:
     'WOW Gutters Ltd repairs all types of gutter problems — leaking joints, sagging sections, loose brackets, cracked downpipes, and poor fall. Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.',
   sections: [
