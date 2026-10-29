@@ -208,7 +208,7 @@ export const CONSERVATORY_CLEANING_FAQS = [
   {
     question: 'How much does conservatory cleaning cost?',
     answer:
-      'Pricing depends on conservatory size, roof type, how heavy the algae is, and whether gutter clearing is included. Most domestic conservatory cleans start from around £80–£200. We provide a clear quote after assessing your property.',
+      'Pricing depends on conservatory size, roof type, how heavy the algae is, and whether gutter clearing is included. Conservatory cleaning starts from £50. We provide a clear quote after assessing your property.',
     icon: '💳',
   },
   {

@@ -287,7 +287,7 @@ export default function CoventryGutterCleaningBlogContent() {
         <div className="faq-item">
           <h3>Q: How much does gutter cleaning cost in Coventry?</h3>
           <p>
-            A: WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection is included. Use our <Link href="/gutter-cleaning-calculator">cost calculator</Link> for an instant estimate.
+            A: WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200. Downpipe inspection is included. Use our <Link href="/gutter-cleaning-calculator">cost calculator</Link> for an instant estimate.
           </p>
         </div>
 

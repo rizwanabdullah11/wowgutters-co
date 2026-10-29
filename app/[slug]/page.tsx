@@ -37,6 +37,7 @@ import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, installationAreaPat
 import { buildMetadata } from '@/lib/seo';
 import { getKeywordPage, getAllKeywordSlugs } from '@/lib/keywordPages';
 import KeywordLandingPage from '@/components/KeywordLandingPage';
+import PriorityLinks from '@/components/seo/PriorityLinks';
 
 interface PageProps {
   params: Promise<{
@@ -461,7 +462,12 @@ export default async function SingleSegmentAreaPage(props: PageProps) {
   if (keywordSlug) {
     const page = getKeywordPage(keywordSlug);
     if (page) {
-      return <KeywordLandingPage page={page} />;
+      return (
+        <>
+          <KeywordLandingPage page={page} />
+          <PriorityLinks path={`/${keywordSlug}/`} />
+        </>
+      );
     }
   }
 

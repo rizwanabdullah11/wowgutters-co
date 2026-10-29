@@ -701,7 +701,7 @@ export const blogPosts: BlogPost[] = [
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does gutter cleaning cost in Coventry?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200. Downpipe inspection is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
@@ -1010,7 +1010,7 @@ export const blogPosts: BlogPost[] = [
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
     <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does gutter cleaning cost in Wolverhampton?</h3>
-    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
+    <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200. Downpipe inspection is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
   </div>
 
   <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
@@ -1181,12 +1181,12 @@ export const blogPosts: BlogPost[] = [
             <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£110</td>
           </tr>
           <tr>
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">4+ bed detached</td>
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£140–£210</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Premium Service</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">From £200</td>
           </tr>
           <tr style="background-color: #f9f9f9;">
             <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Townhouse / 3-storey</td>
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£130–£195</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">Custom quote</td>
           </tr>
           <tr>
             <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Commercial premises</td>
@@ -1240,7 +1240,7 @@ export const blogPosts: BlogPost[] = [
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does gutter cleaning cost in Birmingham?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate or call 07421 433910 for a free quote.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> Prices are £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate or call 07421 433910 for a free quote.</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
@@ -1392,12 +1392,12 @@ export const blogPosts: BlogPost[] = [
             <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£110</td>
           </tr>
           <tr>
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">4+ bed detached</td>
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£140–£210</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Premium Service</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">From £200</td>
           </tr>
           <tr style="background-color: #f9f9f9;">
             <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Townhouse / 3-storey</td>
-            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">£130–£195</td>
+            <td style="border: 1px solid #ddd; padding: 12px; color: #334155; font-weight: 600;">Custom quote</td>
           </tr>
           <tr>
             <td style="border: 1px solid #ddd; padding: 12px; color: #334155;">Commercial premises</td>
@@ -1448,7 +1448,7 @@ export const blogPosts: BlogPost[] = [
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
           <h3 style="color: #0f172a; font-size: 1.25rem; font-weight: 700; margin: 0 0 12px 0;">Q: How much does it cost to clear a blocked gutter in Birmingham?</h3>
-          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Downpipe inspection and clearance is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
+          <p style="color: #475569; line-height: 1.7; margin: 0;"><strong style="color: #047857;">A:</strong> WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200. Downpipe inspection and clearance is included. Use our <a href="/gutter-cleaning-calculator" style="color: #000000; text-decoration: none;">cost calculator</a> for an instant estimate.</p>
         </div>
 
         <div style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%); border-left: 4px solid #19C58B; padding: 24px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">
@@ -2727,7 +2727,7 @@ export const blogPosts: BlogPost[] = [
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">From £100 for a 2-bed home. 3-bed £110. Larger detached £140–£210. Fixed price confirmed before we start — no hidden fees.</p>
+      <p style="margin: 16px 0 0;">From £100 for a 2-bed home. 3-bed £110. Premium Service from £200. Fixed price confirmed before we start — no hidden fees.</p>
     </div>
   </details>
 

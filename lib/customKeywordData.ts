@@ -121,17 +121,17 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'gutter-cleaning-cost': {
     heroTitle: "Gutter Cleaning Cost UK",
-    heroDescription: "Clear, upfront pricing for professional gutter cleaning across Birmingham and the West Midlands. Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. No hidden fees, free flow testing, before & after camera verification, and complete water flow testing. Call WOW Gutters Ltd on 07421 433910.",
+    heroDescription: "Clear, upfront pricing for professional gutter cleaning across Birmingham and the West Midlands. Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200. No hidden fees, free flow testing, before & after camera verification, and complete water flow testing. Call WOW Gutters Ltd on 07421 433910.",
     sections: [
       {
         heading: "How Much Does Gutter Cleaning Cost in 2026?",
-        content: "At WOW Gutters Ltd, we believe in transparent, fixed-price gutter cleaning with zero surprises. Gutter cleaning prices generally range between £100 and £210 for residential properties depending on house size, height, and accessibility. Commercial buildings and large detached residences are quoted based on total linear metres and roof complexity.",
+        content: "At WOW Gutters Ltd, we believe in transparent, fixed-price gutter cleaning with zero surprises. Our fixed prices are £100 for a 2-bed home and £110 for a 3-bed home, and our Premium Service starts from £200. Commercial buildings are quoted individually based on gutter length and access.",
         bullets: [
           "2-bedroom home: £100 fixed",
           "3-bedroom semi-detached property: £110 fixed",
-          "4-5 bedroom detached executive house: from £100 – £140",
+          "Premium Service (complete gutter & roofline service): from £200",
           "Bungalows: from £100",
-          "Commercial premises & multi-storey blocks: tailored quotes from £120",
+          "Commercial premises & multi-storey blocks: custom quote",
           "All cleans include downpipe clearance, flow testing, and photographic proof",
         ],
       },
@@ -151,7 +151,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning cost on average in the UK?",
-        answer: "WOW Gutters Ltd prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes, including full vacuum clearance and before/after photos.",
+        answer: "WOW Gutters Ltd prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200, including full vacuum clearance and before/after photos.",
       },
       {
         question: "Are there any hidden costs added on the day?",
@@ -182,7 +182,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
         bullets: [
           "2-Bed Terrace / Flat: £100 fixed",
           "3-Bed Semi-Detached: £110 fixed",
-          "4+ Bed Detached: £140 – £210",
+          "Premium Service: from £200",
           "Townhouse / 3-Storey: £130 – £195",
           "Bungalow (Front & Back): from £100",
           "Conservatory Gutter Clearance Add-on: £20.00 – £35.00",
@@ -743,7 +743,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does a gutter leak inspection and repair cost?",
-        answer: "Minor joint repairs start from just £30–£50 when combined with a clean, or from £60 as a standalone diagnostic visit.",
+        answer: "Gutter repairs start from £30. We confirm a fixed price on site before any work starts.",
       },
       {
         question: "How do I book a leak detection appointment?",
@@ -955,7 +955,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much do gutter damage repairs cost?",
-        answer: "Minor repairs start from £30–£50 when booked with a clean, with standalone repair visits typically costing between £100 and £210 depending on scope.",
+        answer: "Gutter repairs start from £30. Larger repairs are quoted individually after inspection, with a fixed price agreed before any work starts.",
       },
       {
         question: "How do I request emergency gutter damage repairs in Birmingham?",
@@ -1008,7 +1008,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does professional gutter joint sealing cost?",
-        answer: "Resealing individual joints costs from £30–£50 when added to a clean, or from £60 for a dedicated repair appointment.",
+        answer: "Joint resealing is part of our gutter repairs, which start from £30. We confirm a fixed price before any work starts.",
       },
       {
         question: "How do I book a gutter sealing service?",
@@ -1272,7 +1272,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does downpipe clog clearance cost?",
-        answer: "Standalone downpipe unblocking starts from £45–£60, or is included as part of our comprehensive gutter cleaning packages.",
+        answer: "Downpipe flushing is included in every gutter clean (from £100). Complex blockages that need a pipe taken apart are quoted individually before any work starts.",
       },
       {
         question: "How do I book a downpipe clearance today?",
@@ -1378,7 +1378,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much do rainwater pipe repairs cost in Birmingham?",
-        answer: "Minor joint resealing and clip replacements start from £35–£55, with complete downpipe replacements starting from £80–£140.",
+        answer: "Gutter repairs start from £30. Larger jobs such as full downpipe replacement are quoted individually after we inspect the run, with a fixed price agreed before work starts.",
       },
       {
         question: "How do I schedule a rainwater pipe service?",
@@ -1590,7 +1590,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does rainwater pipe installation cost in Halesowen?",
-        answer: "Downpipe replacements in Halesowen start from £80–£130 per run depending on property height and selected profile.",
+        answer: "Downpipe replacements in Halesowen are quoted individually after we inspect the run. Gutter repairs start from £30, and we agree a fixed price before any work starts.",
       },
       {
         question: "How do I get a free quote in Halesowen?",
@@ -2218,7 +2218,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does patio cleaning cost in Birmingham?",
-        answer: "Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes.",
+        answer: "Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200.",
       },
       {
         question: "How do I book patio cleaning in Birmingham?",
@@ -2475,7 +2475,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does pressure washing cost in Sandwell?",
-        answer: "Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Contact us for a free exact quote.",
+        answer: "Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200. Contact us for a free exact quote.",
       },
       {
         question: "How do I book pressure washing in Sandwell?",

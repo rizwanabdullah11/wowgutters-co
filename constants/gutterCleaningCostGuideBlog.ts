@@ -32,7 +32,7 @@ function faq(question: string, answer: string): string {
 const ctaBox = `
 <div style="background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%); border: 2px solid #19C58B; border-radius: 16px; padding: 28px 32px; margin: 40px 0;">
   <h3 style="font-size: 1.3rem; font-weight: 900; color: #0f172a; margin: 0 0 12px 0;">FIXED PRICES IN BIRMINGHAM &amp; THE WEST MIDLANDS</h3>
-  <p style="color: #334155; font-size: 0.98rem; line-height: 1.75; margin: 0 0 18px 0;">£${P2} for a 2-bed home, £${P3} for a 3-bed home, £140–£210 for larger detached homes. Downpipe flushing and before &amp; after photos included. No ladders against your walls.</p>
+  <p style="color: #334155; font-size: 0.98rem; line-height: 1.75; margin: 0 0 18px 0;">£${P2} for a 2-bed home, £${P3} for a 3-bed home, and our Premium Service starts from £200. Downpipe flushing and before &amp; after photos included. No ladders against your walls.</p>
   <div style="display: flex; flex-wrap: wrap; gap: 12px;">
     <a href="/gutter-cleaning-prices/" style="display: inline-flex; align-items: center; gap: 8px; background: #047857; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 22px; border-radius: 8px; text-decoration: none;">See full price list</a>
     <a href="tel:07421433910" style="display: inline-flex; align-items: center; gap: 8px; background: #0f172a; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 22px; border-radius: 8px; text-decoration: none;">📞 07421 433910</a>
@@ -126,7 +126,7 @@ ${ctaBox}
   <tbody>
     <tr><td style="${td}">2-bed home</td><td style="${td}"><strong>£${P2}</strong></td></tr>
     <tr><td style="${td}">3-bed home</td><td style="${td}"><strong>£${P3}</strong></td></tr>
-    <tr><td style="${td}">Larger detached homes</td><td style="${td}"><strong>£140–£210</strong></td></tr>
+    <tr><td style="${td}">Premium Service</td><td style="${td}"><strong>From £200</strong></td></tr>
     <tr><td style="${td}">Fascia &amp; soffit cleaning</td><td style="${td}"><strong>£${PF}</strong></td></tr>
   </tbody>
 </table>
@@ -145,7 +145,7 @@ ${ctaBox}
 <h2 id="faq" style="${h2}">FAQ: Gutter Cleaning Costs</h2>
 <div>
 ${faq('How much does gutter cleaning cost in the UK?', 'Most UK homeowners pay £75–£200 for a standard clean in 2026: about £75 for a terraced house, £100 for a semi-detached and £150 for a detached home, according to MyJobQuote’s October 2026 cost guide.')}
-${faq('How much is gutter cleaning in Birmingham?', `WOW Gutters Ltd charges a fixed £${P2} for a 2-bed home, £${P3} for a 3-bed home and £140–£210 for larger detached homes, including downpipe flushing and before and after photos.`)}
+${faq('How much is gutter cleaning in Birmingham?', `WOW Gutters Ltd charges a fixed £${P2} for a 2-bed home, £${P3} for a 3-bed home, and our Premium Service starts from £200, including downpipe flushing and before and after photos.`)}
 ${faq('Why do some quotes cost much more than others?', 'Access is usually the reason. Firms that rely on ladders may need scaffolding or a cherry picker for tall or awkward homes, which adds a lot to the price. Ground-based vacuum systems reach up to four storeys without it.')}
 ${faq('Is downpipe clearing included in the price?', 'It should be, but not every company includes it. Always check. We flush and test every downpipe as standard at no extra charge.')}
 ${faq('Is it cheaper to clean gutters yourself?', 'It costs less in money, but ladder work is one of the most common causes of falls at home. A professional clean also includes downpipes, debris removal and a condition check you can’t easily do yourself.')}

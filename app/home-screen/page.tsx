@@ -1,5 +1,6 @@
 import HeroSection from '@/components/sections/HeroSection';
 import TrustPriceStrip from '@/components/sections/TrustPriceStrip';
+import HomeTrustReviews from '@/components/sections/HomeTrustReviews';
 // import HomeServiceAreasHub from '@/components/sections/HomeServiceAreasHub';
 import ProfessionalServices from '@/components/sections/ProfessionalServices';
 import HowCanWeHelp from '@/components/sections/HowCanWeHelp';
@@ -7,7 +8,6 @@ import GutterServicesRange from '@/components/sections/GutterServicesRange';
 import HotWashBanner from '@/components/sections/HotWashBanner';
 import BlogSection from '@/components/sections/BlogSection';
 import QuestionsAnswers from '@/components/sections/QuestionsAnswers';
-import ReviewsSection from '@/components/sections/ReviewsSection';
 import WhyChooseUs from '@/components/sections/WhyChooseUs';
 import FeaturesSection from '@/components/sections/FeaturesSection';
 import GetTheBest from '@/components/sections/GetTheBest';
@@ -26,6 +26,7 @@ export default function HomeScreen() {
       <HomepageWebSiteSchema />
       <HeroSection />
       <TrustPriceStrip />
+      <HomeTrustReviews />
       {/* <HomeServiceAreasHub /> — West Midlands area grid hidden from homepage UI */}
       <ProfessionalServices />
       <HowCanWeHelp />
@@ -34,7 +35,6 @@ export default function HomeScreen() {
       <BlogSection />
       <QuestionsAnswers />
       <WhyChooseUs />
-      <ReviewsSection />
       <FeaturesSection />
       <GetTheBest />
       <FindLocalTeam />

@@ -60,7 +60,7 @@ export const GUTTER_CLEANER_LANDING: CityGutterLandingData = {
     {
       question: 'How much does a professional gutter cleaner cost?',
       answer:
-        'Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Larger homes and commercial properties are priced individually. Call 07421 433910 or use our online quote tool for a fixed price upfront \u2014 no call-out charge, no hourly rate.',
+        'Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200. Larger homes and commercial properties are priced individually. Call 07421 433910 or use our online quote tool for a fixed price upfront \u2014 no call-out charge, no hourly rate.',
     },
     {
       question: 'What does a professional gutter cleaner do?',

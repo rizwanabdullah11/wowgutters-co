@@ -101,7 +101,7 @@ export function buildDefaultFaqs(
   return [
     {
       question: `How much does gutter cleaning cost in ${city}?`,
-      answer: 'Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Fixed quote before work starts.',
+      answer: 'Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200. Fixed quote before work starts.',
     },
     {
       question: `How often should I have my gutters cleaned in ${city}?`,

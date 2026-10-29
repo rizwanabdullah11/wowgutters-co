@@ -14,7 +14,7 @@ export default function LocalBoostSection({ slug }: { slug?: string | null }) {
   const prices = [
     { label: '2-bed home', value: formatGbp(GUTTER_PRICING.twoBedroom) },
     { label: '3-bed home', value: formatGbp(GUTTER_PRICING.threeBedroom) },
-    { label: 'Larger detached', value: '£140–£210' },
+    { label: 'Premium Service', value: 'From £200' },
     { label: 'Fascia & soffit clean', value: formatGbp(GUTTER_PRICING.fasciaAndSoffit) },
   ];
 

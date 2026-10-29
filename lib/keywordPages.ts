@@ -1179,7 +1179,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
         },
         {
           question: `How much does gutter cleaning cost in ${areaName}?`,
-          answer: `Standard residential gutter cleaning in ${areaName} costs £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes, depending on height and accessibility. Fixed quotes are provided before work begins.`,
+          answer: `Standard residential gutter cleaning in ${areaName} costs £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200, depending on height and accessibility. Fixed quotes are provided before work begins.`,
         },
         {
           question: 'Do you use ladders or vacuum systems?',
@@ -1235,7 +1235,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
         },
         {
           question: 'How much does exterior render or cladding cleaning cost?',
-          answer: 'Pricing depends on total square meterage and access. Standard residential elevations start from £120 to £280. We provide free site surveys and fixed quotes.',
+          answer: 'Pricing depends on total square meterage and access. Render and cladding cleaning is quoted individually after a free site survey, with a fixed price agreed before any work starts.',
         },
         {
           question: 'Do you provide commercial cladding cleaning?',
@@ -1282,7 +1282,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
       },
       {
         question: 'How much does professional gutter cleaning cost?',
-        answer: 'Standard residential gutter cleaning costs £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes, depending on height and access. We provide fixed quotes before commencing work.',
+        answer: 'Standard residential gutter cleaning costs £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200, depending on height and access. We provide fixed quotes before commencing work.',
       },
       {
         question: 'Do you check downpipes as part of the clean?',
