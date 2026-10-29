@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/clay-gutter-cleaning/clay-gutter-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
@@ -15,18 +15,18 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Free quote — no hidden charges. Before and after photos on every job across Birmingham and the West Midlands.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-week availability</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
 const sectionCta = `
 <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; margin: 32px 0; text-align: center;">
   <p style="font-size: 1.1rem; font-weight: 700; color: #0f172a; margin: 0 0 8px 0;">WOW Gutters Ltd — Birmingham's roofline specialists</p>
-  <a href="tel:07421433910" style="color: #19C58B; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
+  <a href="tel:07421433910" style="color: #047857; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
 </div>`;
 
 export const professionalGutterCleaningExtendsRooflineLifeBlogPost: BlogPost = {
@@ -298,8 +298,8 @@ ${ctaBox}
 
 <p>We cover all Birmingham postcodes and the wider West Midlands. No ladders. No tiles disturbed. No fascia boards stressed by ladder heads or feet. Fully insured professional team.</p>
 
-<p>📞 <strong>Call to book:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a><br/>
-📧 <strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">support@wowgutters.co.uk</a></p>
+<p>📞 <strong>Call to book:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #047857; text-decoration: none;">07421 433910</a><br/>
+📧 <strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">support@wowgutters.co.uk</a></p>
 
 ${ctaBox}
 
@@ -310,7 +310,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How does gutter cleaning extend the life of fascia boards?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">A functioning gutter keeps water away from the fascia board entirely. Dry fascia boards have service lives of twenty to forty years. Boards repeatedly exposed to overflow water from a blocked gutter begin to soften and rot within a few years — eventually failing to support the gutter brackets above them. Regular professional cleaning is the single most effective thing a homeowner can do to protect their fascia boards from premature failure.</p>
@@ -320,7 +320,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Can a blocked gutter damage roof felt?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">In severe cases, yes. When a gutter is completely blocked and water backs up to the roof edge, it can repeatedly wet the roof felt from below — a membrane designed to remain dry on its underside. Saturated roof felt deteriorates faster than its intended service life and eventually requires stripping and re-laying affected sections. Professional gutter maintenance prevents this entirely.</p>
@@ -330,7 +330,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What are the early signs that gutter neglect has already damaged my roofline?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Key indicators include: visible sagging or detachment of gutter sections; staining or moss on fascia boards; soft or spongy fascia boards when pressed; paint peeling from the soffit underside; damp patches on internal walls at upper floor level; and white salt deposits on brickwork below the gutter line. If you are seeing two or more of these signs, call WOW Gutters Ltd on <a href="tel:07421433910" style="${link}">07421 433910</a> for an inspection before autumn makes the situation worse.</p>
@@ -340,7 +340,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How often should gutters be cleaned to protect the roofline properly?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Twice yearly for most Birmingham properties — late autumn and spring. Properties with significant tree coverage benefit from a summer check as a third visit. See our complete guide: <a href="/blog/birmingham-seasonal-gutter-guide" style="${link}">Birmingham Gutter Maintenance Calendar</a>.</p>
@@ -350,7 +350,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Is professional gutter cleaning worth it compared to doing it myself?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">The comparison is not between the cost of DIY and professional cleaning — it is between professional cleaning and the roofline repair costs that DIY misses the early warning signs of. Fascia replacement, soffit repair, and gutter refitting on a typical Birmingham semi can cost £600–£1,500. Professional cleaning twice yearly is a fraction of that cost. The maths consistently favours professional maintenance.</p>
@@ -360,7 +360,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do blocked gutters cause damp inside the house?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes — it is one of the most common and most preventable causes of penetrating damp in Birmingham properties. Water overflowing a blocked gutter runs down the external wall, saturating brickwork and mortar and allowing moisture to track inward. Read our full guide: <a href="/blog/blocked-gutters-birmingham" style="${link}">Can Blocked Gutters Cause Damp?</a></p>
@@ -370,7 +370,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Can gutter cleaning be combined with roof moss treatment?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes — and this combination is particularly effective for roofline protection. Roof moss removal eliminates the continuous debris source that fills gutters between cleans. Treating moss in summer means it has broken down before autumn rain arrives, significantly reducing accumulation through the critical window. Read more: <a href="/services/roof-cleaning" style="${link}">Roof Cleaning and Moss Removal Birmingham</a>.</p>
@@ -380,7 +380,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What types of gutters do you clean — including older cast iron systems?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. WOW Gutters Ltd works across all gutter types including cast iron systems common on Victorian and Edwardian properties throughout Birmingham, Wolverhampton, Walsall, and Coventry. Older cast iron systems benefit particularly from regular inspection given the age of original joint seals and the potential for concealed bracket corrosion.</p>
@@ -390,7 +390,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do you provide evidence of the work completed?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes — before and after photographs of every gutter run are provided to you after every job, without exception. For landlords and property managers, a written condition summary is also available. This documentation is useful for maintenance records, insurance purposes, and as evidence of compliance with property management obligations.</p>
@@ -400,7 +400,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What areas do you cover for professional gutter cleaning and roofline inspection?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">All Birmingham postcodes and surrounding areas including Solihull, Sutton Coldfield, Wolverhampton, Walsall, Dudley, West Bromwich, Coventry, Redditch, Bromsgrove, Worcester, and Kidderminster. Call <a href="tel:07421433910" style="${link}">07421 433910</a> or visit <a href="https://wowgutters.co.uk/areas-we-cover" style="${link}">wowgutters.co.uk/areas-we-cover</a> for full coverage details.</p>
@@ -417,10 +417,10 @@ ${ctaBox}
 
 ${ctaBox}
 
-<p><strong>Call:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a><br/>
-<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">support@wowgutters.co.uk</a><br/>
-<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">wowgutters.co.uk</a><br/>
-<strong>Free quote:</strong> <a href="/quote/" style="font-weight: 700; color: #19C58B; text-decoration: none;">Get a free quote</a></p>
+<p><strong>Call:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #047857; text-decoration: none;">07421 433910</a><br/>
+<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">support@wowgutters.co.uk</a><br/>
+<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">wowgutters.co.uk</a><br/>
+<strong>Free quote:</strong> <a href="/quote/" style="font-weight: 700; color: #047857; text-decoration: none;">Get a free quote</a></p>
 
 <p><em>Serving Birmingham, Solihull, Sutton Coldfield, Edgbaston, Harborne, Kings Heath, Moseley, Bournville, Erdington, Wolverhampton, Dudley, Walsall, West Bromwich, Coventry, Redditch, Bromsgrove, Worcester, Kidderminster and all West Midlands areas.</em></p>
 
@@ -429,7 +429,7 @@ ${ctaBox}
 <ul>
   <li><a href="/blog/birmingham-gutter-health-check-summer" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
   <li><a href="/blog/birmingham-seasonal-gutter-guide" style="${link}">Birmingham Gutter Maintenance Calendar: What to Do Each Season</a></li>
-  <li><a href="/blog/birmingham-autumn-leaves" style="${link}">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a></li>
+  <li><a href="/blog/birmingham-autumn-gutter-guide/" style="${link}">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a></li>
   <li><a href="/blog/blocked-gutters-birmingham" style="${link}">Can Blocked Gutters Cause Damp?</a></li>
   <li><a href="/services/roof-cleaning" style="${link}">Roof Cleaning and Moss Removal</a></li>
   <li><a href="/services/upvc-cleaning" style="${link}">Fascia and Soffit Cleaning</a></li>

@@ -20,6 +20,8 @@ const EXCLUDED_PATHS = new Set([
   // Day-1 consolidation: redirected / removed keyword pages
   ...Object.keys(KEYWORD_REDIRECTS.redirects).map((slug) => `/${slug}/`),
   ...Object.keys(KEYWORD_REDIRECTS.staticPages).map((slug) => `/${slug}/`),
+  // Old paths / duplicates that now 301 (scripts/legacy-path-redirects.json)
+  ...Object.keys(require('./legacy-path-redirects.json')).map((slug) => `/${slug}/`),
   '/contact-us/',
   '/about-us/',
   '/gutters-cleaning/',
@@ -42,13 +44,14 @@ const EXCLUDED_PATHS = new Set([
   '/home-screen/',
   '/testimonials/',
   '/quote/embed/',
-  // Duplicate of /gutter-cleaning-birmingham/ (301 in .htaccess) — was cannibalising the money page
+  // 301 → /gutter-cleaning-birmingham/ in .htaccess
   '/west-midlands/gutter-cleaning-birmingham/',
+  '/gutter-cleaners-birmingham/',
+  '/gutter-clearing-birmingham/',
   // 301 → / in .htaccess (GSC "Page with redirect")
   '/service-areas/',
   '/gutter-cleaning-with-guarantee/',
   // Ranking consolidation (Oct 2026) — 301 in .htaccess
-  '/gutter-cleaning-birmingham/',
   '/trusted-gutter-cleaners-birmingham/',
   '/next-day-gutter-cleaning-birmingham/',
   '/autumn-gutter-cleaning-birmingham/',
@@ -70,13 +73,13 @@ const EXCLUDED_PATHS = new Set([
   '/gutter-repairs-bromsgrove/',
   '/gutter-repairs-wolverhampton/',
   '/gutter-cleaning-cost-calculator/',
-  '/gutter-repairs/',
   '/services/gutter-repairs/',
   '/services/roof-cleaning/',
 ]);
 
 const REQUIRED_INDEXABLE_PATHS = [
   '/',
+  '/gutter-cleaning-birmingham/',
   '/the-gutter-gallery/',
   '/oap-discount/',
   '/neighbourhood-discount/',

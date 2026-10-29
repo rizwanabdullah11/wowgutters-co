@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/blocked-gutter-maintance/blocked-gutter-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
@@ -15,11 +15,11 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Free quote — no hidden charges. Before and after photos on every Birmingham job.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week availability across Birmingham</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -326,7 +326,7 @@ ${ctaBox}
 
 <p>WOW Gutters Ltd covers Birmingham and the full West Midlands. Free quote. Same-week availability. Before and after photographs on every single job. Honest written report on what we find.</p>
 
-<p>📞 <strong>Call now:</strong> <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
+<p>📞 <strong>Call now:</strong> <a href="tel:07421433910" style="color: #047857; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
 📧 <strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a><br/>
 🌐 <strong>Online quote:</strong> <a href="/quote/" style="${link}">wowgutters.co.uk/quote</a><br/>
 💬 <strong>WhatsApp:</strong> <a href="https://wa.me/447421433910" style="${link}" rel="noopener">wa.me/447421433910</a><br/>

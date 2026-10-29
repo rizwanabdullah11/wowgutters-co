@@ -152,7 +152,7 @@ export default function QuestionsAnswers() {
           content: '';
           position: absolute;
           inset: 0;
-          background-image: radial-gradient(circle, rgba(25, 197, 139, 0.03) 1px, transparent 1px);
+          background-image: radial-gradient(circle, rgba(25,197,139, 0.03) 1px, transparent 1px);
           background-size: 32px 32px;
           pointer-events: none;
         }
@@ -385,7 +385,7 @@ export default function QuestionsAnswers() {
         .qa-sidebar-btn:hover {
           background: #19C58B;
           transform: translateY(-2px);
-          box-shadow: 0 8px 20px rgba(25, 197, 139, 0.3);
+          box-shadow: 0 8px 20px rgba(25,197,139, 0.3);
         }
         .qa-sidebar-btn:hover svg {
           transform: translateX(4px);

@@ -155,7 +155,7 @@ export default function FindLocalTeam() {
           margin-bottom: 20px;
         }
         .local-team-eyebrow {
-          color: #19C58B;
+          color: #047857;
           font-size: 0.8rem;
           font-weight: 800;
           letter-spacing: 2px;
@@ -232,7 +232,7 @@ export default function FindLocalTeam() {
           transition: all 0.3s ease;
         }
         .local-team-search-box:focus-within {
-          box-shadow: 0 8px 30px rgba(25, 197, 139, 0.15);
+          box-shadow: 0 8px 30px rgba(25,197,139, 0.15);
           border-color: #19C58B;
         }
         .search-icon-left {
@@ -309,17 +309,17 @@ export default function FindLocalTeam() {
           border-color: #19C58B;
           color: #166534;
           transform: translateY(-2px);
-          box-shadow: 0 4px 12px rgba(25, 197, 139, 0.1);
+          box-shadow: 0 4px 12px rgba(25,197,139, 0.1);
         }
         .local-pill:hover .local-pill-icon {
-          color: #19C58B;
+          color: #047857;
         }
 
         .local-pill-active {
-          background: #19C58B;
+          background: #047857;
           border-color: #19C58B;
           color: white !important;
-          box-shadow: 0 6px 16px rgba(25, 197, 139, 0.25);
+          box-shadow: 0 6px 16px rgba(25,197,139, 0.25);
         }
         .local-pill-active .local-pill-icon {
           color: white !important;

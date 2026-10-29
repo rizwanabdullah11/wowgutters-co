@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/home-quietly-gutter/home-quietly-gutter-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaTop = `
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
@@ -31,11 +31,11 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Water damage accumulates quietly, in the parts of your home you never look at directly. Get an evidence-based answer about your property's real condition. Free quote · Before and after photos · Fully insured.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week availability across Birmingham</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -90,7 +90,7 @@ ${ctaTop}
 
 <p>This is what "storing" water damage actually means. It's not a single event you'd notice. It's a slow accumulation, rainfall event by rainfall event, in a component of your home that's designed to handle occasional dampness but not sustained, repeated saturation. And because each individual contribution is so small, there's no single moment where you'd notice anything happening — right up until the accumulated total finally exceeds what the material can handle, and the damage becomes visible all at once.</p>
 
-<p>Read more: <a href="/blog/can-blocked-gutters-cause-damp/" style="${link}">Can Blocked Gutters Cause Damp?</a> · <a href="/blog/one-home-maintenance-task-birmingham-homeowners-miss-summer/" style="${link}">The One Home Maintenance Task Birmingham Homeowners Consistently Miss Each Summer</a></p>
+<p>Read more: <a href="/blog/can-blocked-gutters-cause-damp/" style="${link}">Can Blocked Gutters Cause Damp?</a> · <a href="/blog/seasonal-home-maintenance/" style="${link}">The One Home Maintenance Task Birmingham Homeowners Consistently Miss Each Summer</a></p>
 
 <h2 id="five-places">2. The Five Places Damage Accumulates Without Being Seen</h2>
 
@@ -136,7 +136,7 @@ ${ctaMid}
 
 <p>Taken together, these factors mean the accumulation process described in this article isn't a rare or unusual risk for West Midlands properties. It's a genuinely common occurrence, quietly present on a meaningful proportion of properties across the region at any given time.</p>
 
-<p>See also: <a href="/blog/hidden-gutter-damage/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a> · <a href="/blog/gutters-telling-you-summer/" style="${link}">What Your Gutters Are Trying to Tell You This Summer</a></p>
+<p>See also: <a href="/blog/hidden-gutter-damage-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a> · <a href="/blog/summer-gutter-warning/" style="${link}">What Your Gutters Are Trying to Tell You This Summer</a></p>
 
 <h2 id="self-audit">4. The Self-Audit: What to Check on Your Property Right Now</h2>
 
@@ -162,7 +162,7 @@ ${ctaMid}
 
 <p>If you identified even one of these signs during this self-audit, it's worth treating as a priority. If you identified two or more, your property may already be storing meaningful water damage that a professional inspection would confirm and address before it progresses further.</p>
 
-<p>Book now: <a href="/blog/late-summer-gutter-maintenance/" style="${link}">Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a> · <a href="/blog/birmingham-gutter-health-check/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></p>
+<p>Book now: <a href="/blog/summer-gutter-maintenance/" style="${link}">Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a> · <a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></p>
 
 <figure style="margin: 28px 0;">
   <img src="${IMG_BEFORE}" alt="Before gutter inspection — showing the hidden debris and joint conditions that allow water damage to accumulate unseen" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
@@ -186,7 +186,7 @@ ${ctaMid}
 
 <p>At every stage of this trajectory, the accumulated damage was invisible to a casual glance until the moment it finally exceeded the material's capacity to absorb it silently. This is precisely why waiting for a visible symptom before acting means, by definition, waiting until the damage has already progressed considerably further than it needed to.</p>
 
-<p>Read more: <a href="/blog/how-professional-gutter-cleaning-extends-roofline-life/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></p>
+<p>Read more: <a href="/blog/roofline-damage-prevention/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></p>
 
 <h2 id="find-out">6. How to Find Out for Certain, Rather Than Guessing</h2>
 
@@ -198,7 +198,7 @@ ${ctaMid}
 
 <p>Booking this kind of inspection now, while summer conditions still allow for accurate assessment, gives you a genuine, evidence-based answer to the question this article opened with — rather than continuing to operate on an assumption that, as this article has explained, is frequently wrong.</p>
 
-<p>See also: <a href="/blog/dry-summer-weather-gutter-inspections/" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a> · <a href="/blog/beat-autumn-rush/" style="${link}">Beat the Autumn Rush: Book Your Summer Gutter Cleaning Early</a></p>
+<p>See also: <a href="/blog/summer-gutter-inspections/" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a> · <a href="/blog/summer-gutter-cleaning-early/" style="${link}">Beat the Autumn Rush: Book Your Summer Gutter Cleaning Early</a></p>
 
 <h2 id="faq">7. FAQ: Checking for Hidden Water Damage</h2>
 
@@ -262,16 +262,16 @@ ${ctaBox}
 
 <h2>Related Guides</h2>
 <ul>
-  <li><a href="/blog/one-home-maintenance-task-birmingham-homeowners-miss-summer/" style="${link}">The One Home Maintenance Task Birmingham Homeowners Consistently Miss Each Summer</a></li>
-  <li><a href="/blog/gutters-telling-you-summer/" style="${link}">What Your Gutters Are Trying to Tell You This Summer</a></li>
-  <li><a href="/blog/hidden-gutter-damage/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a></li>
-  <li><a href="/blog/dry-summer-weather-gutter-inspections/" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a></li>
+  <li><a href="/blog/seasonal-home-maintenance/" style="${link}">The One Home Maintenance Task Birmingham Homeowners Consistently Miss Each Summer</a></li>
+  <li><a href="/blog/summer-gutter-warning/" style="${link}">What Your Gutters Are Trying to Tell You This Summer</a></li>
+  <li><a href="/blog/hidden-gutter-damage-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a></li>
+  <li><a href="/blog/summer-gutter-inspections/" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a></li>
   <li><a href="/blog/can-blocked-gutters-cause-damp/" style="${link}">Can Blocked Gutters Cause Damp?</a></li>
-  <li><a href="/blog/how-professional-gutter-cleaning-extends-roofline-life/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
+  <li><a href="/blog/roofline-damage-prevention/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
   <li><a href="/blog/clean-gutters-prevent-damp/" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a></li>
-  <li><a href="/blog/birmingham-gutter-health-check/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
+  <li><a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
   <li><a href="/blog/summer-home-maintenance/" style="${link}">The Home Maintenance Job Most Birmingham Homeowners Forget Every Summer</a></li>
-  <li><a href="/blog/birmingham-gutter-maintenance-calendar/" style="${link}">Birmingham Gutter Maintenance Calendar</a></li>
+  <li><a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">Birmingham Gutter Maintenance Calendar</a></li>
 </ul>
 `,
 };

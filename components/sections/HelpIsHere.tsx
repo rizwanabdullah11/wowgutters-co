@@ -23,7 +23,7 @@ export default function HelpIsHere() {
 
   return (
     <>
-    <section className="py-20 relative overflow-hidden" style={{ backgroundColor: colors.primary }}>
+    <section className="py-20 relative overflow-hidden" style={{ backgroundColor: colors.primaryText }}>
       {/* Background Elements */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 w-32 h-32 border border-white rounded-full"></div>
@@ -67,7 +67,7 @@ export default function HelpIsHere() {
             <a 
               href="tel:07421433910"
               className="block text-3xl font-bold hover:scale-105 transition-transform duration-300"
-              style={{ color: colors.cta }}
+              style={{ color: colors.white }}
             >
               07421 433910
             </a>
@@ -130,7 +130,7 @@ export default function HelpIsHere() {
             <a 
               href="tel:07421433910"
               className="px-8 py-4 rounded-xl font-bold transition-all duration-300 flex items-center justify-center gap-3 shadow-[0_8px_20px_rgba(0,0,0,0.15)] hover:shadow-[0_12px_25px_rgba(0,0,0,0.2)] hover:-translate-y-1"
-              style={{ backgroundColor: colors.white, color: colors.primary }}
+              style={{ backgroundColor: colors.white, color: colors.primaryText }}
             >
               <div className="w-8 h-8 rounded-full flex items-center justify-center" style={{ backgroundColor: `${colors.primary}15` }}>
                 <Phone className="w-4 h-4" />

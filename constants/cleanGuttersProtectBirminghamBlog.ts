@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
@@ -15,11 +15,11 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Free assessment — same-week availability across Birmingham and the West Midlands. Before and after photos on every job.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week availability across Birmingham</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -217,7 +217,7 @@ export const cleanGuttersProtectBirminghamBlogPost: BlogPost = {
 
 <h3>Large Period Detached — Complex Risk Profile</h3>
 
-<p><strong>Locations:</strong> <a href="/blog/gutter-cleaning-edgbaston/" style="${link}">Edgbaston B15</a>, <a href="/blog/gutter-cleaning-harborne/" style="${link}">Harborne B17</a>, Sutton Coldfield, Solihull premium areas, Warwick, Worcester</p>
+<p><strong>Locations:</strong> <a href="/blog/blocked-gutters-birmingham/" style="${link}">Edgbaston B15</a>, <a href="/blog/gutter-cleaning-harborne/" style="${link}">Harborne B17</a>, Sutton Coldfield, Solihull premium areas, Warwick, Worcester</p>
 
 <p><strong>Why the risk is complex:</strong> Hipped rooflines with valley gutters, extended runs, and higher gutter positions create multiple potential failure points simultaneously. Valley gutter overflow is particularly problematic — directing moisture toward the roof structure and eave position rather than down the external wall, producing ceiling-level damp that is frequently misattributed to roof covering failure.</p>
 
@@ -275,11 +275,11 @@ export const cleanGuttersProtectBirminghamBlogPost: BlogPost = {
 
 <h3>The downpipe test</h3>
 
-<p>During moderate rainfall, watch the base of each downpipe for 60 seconds. A functioning downpipe produces consistent, clear flow. No flow confirms a completely blocked downpipe — meaning the full roof drainage volume has been overflowing rather than draining. <a href="/blog/birmingham-heavy-rainfall-damage/" style="${link}">Heavy rain gutter preparation Birmingham</a> — a blocked downpipe identified before Birmingham's heavy autumn rainfall events is a damp prevention intervention that costs a fraction of the damp treatment it prevents.</p>
+<p>During moderate rainfall, watch the base of each downpipe for 60 seconds. A functioning downpipe produces consistent, clear flow. No flow confirms a completely blocked downpipe — meaning the full roof drainage volume has been overflowing rather than draining. <a href="/blog/birmingham-rain-gutter-damage/" style="${link}">Heavy rain gutter preparation Birmingham</a> — a blocked downpipe identified before Birmingham's heavy autumn rainfall events is a damp prevention intervention that costs a fraction of the damp treatment it prevents.</p>
 
 <h3>The professional confirmation</h3>
 
-<p><a href="/blog/gutter-inspection-birmingham/" style="${link}">Gutter inspection Birmingham</a> — when the external indicators and the positional test suggest a gutter source, a professional inspection with before photographs from inside the channel provides definitive confirmation. The before photograph shows the channel condition and the outlet or downpipe blockage that has been producing the overflow. The after photograph confirms the cleared drainage path.</p>
+<p><a href="/blog/birmingham-gutter-inspection/" style="${link}">Gutter inspection Birmingham</a> — when the external indicators and the positional test suggest a gutter source, a professional inspection with before photographs from inside the channel provides definitive confirmation. The before photograph shows the channel condition and the outlet or downpipe blockage that has been producing the overflow. The after photograph confirms the cleared drainage path.</p>
 
 <h2 id="seasonal-calendar">8. The Seasonal Damp Protection Calendar for Birmingham Homeowners</h2>
 
@@ -330,7 +330,7 @@ export const cleanGuttersProtectBirminghamBlogPost: BlogPost = {
 </table>
 </div>
 
-<p><a href="/blog/summer-gutter-cleaning-birmingham/" style="${link}">Summer gutter maintenance Birmingham</a> — the summer maintenance window is the underrated damp protection intervention. Clearing the spring and summer accumulation before autumn adds its leaf fall volume ensures the system enters the highest-risk months at maximum drainage capacity.</p>
+<p><a href="/blog/gutter-cleaning-birmingham-summer/" style="${link}">Summer gutter maintenance Birmingham</a> — the summer maintenance window is the underrated damp protection intervention. Clearing the spring and summer accumulation before autumn adds its leaf fall volume ensures the system enters the highest-risk months at maximum drainage capacity.</p>
 
 <h3>The September Priority</h3>
 
@@ -402,7 +402,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Can blocked gutters really cause damp inside my Birmingham home?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes — and this is one of the most consistently misunderstood causes of penetrating damp in UK residential properties. When a gutter overflows, water runs down the external wall and saturates the brickwork repeatedly. In Birmingham's rainfall climate, with meaningful rain on approximately 150 days per year, this repeated saturation accumulates progressive moisture in the wall depth until it reaches the internal plaster face as penetrating damp. On Victorian solid-wall properties, this can happen within two to four months of sustained overflow. On cavity-wall interwar semis, the timeline extends to four to eight months.</p>
@@ -412,7 +412,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How do I know if my damp problem is caused by gutters or something else?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">The positional test is the most reliable first check. Identify the approximate location of the internal damp patch — its height and horizontal position on the wall. Look at the external face of the same wall at a height corresponding to the gutterline above the damp position. If vertical staining or algae growth is present on the external brickwork at that position, the gutter connection is highly probable. Confirm by watching the downpipe base during rainfall — no flow means a blocked downpipe producing full overflow.</p>
@@ -422,7 +422,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How quickly does gutter overflow cause damp in Birmingham?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">In Birmingham's rainfall climate, visible external staining typically appears within four to eight weeks of consistent overflow beginning. Internal wall moisture reaching the plaster face takes three to six months on cavity-wall properties and two to four months on solid-wall Victorians. Visible damp patches on internal surfaces appear within four to eight weeks of moisture reaching the plaster face. Total timeline from first overflow to visible internal damp: approximately three to twelve months depending on property type.</p>
@@ -432,7 +432,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Will cleaning my gutters fix the damp in my house?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Professional gutter cleaning eliminates the overflow source — stopping the continued moisture delivery to the affected wall. Once the source is eliminated, the wall begins drying and the moisture accumulation stabilises. Whether additional internal treatment is required depends on how far the moisture has progressed. Minor dampness from early-stage penetration typically resolves as the wall dries once the source is removed. Advanced penetration with established visible damp patches may require specialist damp assessment and treatment after the drainage is restored.</p>
@@ -442,7 +442,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>My gutters look clear from the ground — could they still be causing my damp?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. The most consequential damp-causing failures — blocked downpipes and failed joint sealants — are invisible from ground-level external observation. A gutterline that appears level and intact can simultaneously be carrying a fully sealed downpipe that has been directing the full roof drainage volume against your external wall at every rainfall event. The only way to confirm the drainage system is functioning correctly — and therefore that the gutters are actively protecting against damp — is a professional inspection with before photographs from inside the channel.</p>
@@ -452,7 +452,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Should I treat the damp on my wall before or after getting the gutters cleaned?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">After. Always after. Internal damp treatment applied to a wall whose external overflow source is still active will not be permanently effective — the moisture source continues to saturate the wall from outside, regenerating the damp condition regardless of what has been applied to the internal surface. Professional gutter cleaning must come first. Once the overflow source is eliminated and the wall has been allowed to dry, internal assessment and treatment can be effective and lasting.</p>
@@ -462,7 +462,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How often should Birmingham homeowners clean gutters to prevent damp?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Twice yearly is the recommended schedule for most Birmingham residential properties — once in late spring after the winter and spring accumulation, and once in late autumn after the main leaf fall. Properties near trees, with significant roof moss coverage, or in higher-rainfall urban postcodes benefit most from twice-yearly maintenance. Annual cleaning in late autumn is the minimum damp protection standard, but leaves the spring and summer debris accumulation unaddressed through the summer season.</p>
@@ -472,7 +472,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Can moss on my roof cause damp inside my house?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Indirectly yes — through the gutter. Moss growing on roof tiles loosens during warm temperatures and washes fragments into the gutter channel with every summer rainfall event. These fragments contribute to the debris accumulation that blocks the channel and downpipe, producing the overflow that then causes external wall saturation and penetrating damp. On properties with significant moss coverage, the roof is an active secondary damp risk factor that roof treatment alone cannot eliminate — the channel accumulation it has been producing must also be cleared.</p>
@@ -482,7 +482,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What type of damp do gutters cause — rising, penetrating, or condensation?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Gutters cause penetrating damp — the specific damp type produced by water entering through the external fabric of the building from an external source. This is distinct from rising damp (which enters through the foundations) and condensation (which forms on cold internal surfaces from moisture-laden indoor air). Penetrating damp from gutter overflow is characterised by its appearance on external-facing walls at upper floor level, its association with rainfall events, and its positional connection to the gutterline above.</p>
@@ -492,7 +492,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What is the single best thing a Birmingham homeowner can do today to prevent gutter-related damp?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Perform the downpipe flow test in the next moderate rainfall event — stand at the base of each downpipe for 60 seconds and confirm clear, consistent water flow. No flow or reduced flow means a blocked downpipe producing full roof drainage overflow against your external wall. If confirmed blocked, book a professional clean immediately. If functioning, book your annual autumn clean for September — the highest-value damp prevention timing in Birmingham's rainfall calendar.</p>

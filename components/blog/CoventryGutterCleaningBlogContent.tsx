@@ -419,7 +419,7 @@ export default function CoventryGutterCleaningBlogContent() {
         }
 
         .pricing-table th {
-          background: #19C58B;
+          background: #047857;
           color: white;
           padding: 15px;
           text-align: left;

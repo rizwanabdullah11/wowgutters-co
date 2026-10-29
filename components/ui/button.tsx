@@ -14,7 +14,7 @@ export const Button: React.FC<ButtonProps> = ({
   const baseStyles = 'px-6 py-3 rounded font-semibold transition-all duration-200 cursor-pointer';
   
   const variants = {
-    primary: 'bg-[#FF6B35] text-white hover:bg-[#e55a28]',
+    primary: 'bg-[#C2410C] text-white hover:bg-[#9A3412]',
     secondary: 'bg-[#2563EB] text-white hover:bg-[#1D4ED8]',
     outline: 'border-2 border-white text-white hover:bg-white hover:text-[#2563EB]',
   };

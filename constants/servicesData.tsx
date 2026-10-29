@@ -422,7 +422,7 @@ export const servicesData: ServiceDetail[] = [
     ctaSection: {
       title: 'Book Your Roof Clean Today',
       description:
-        'Get a free, no-obligation quote in 60 seconds. Roof cleaning from £150 depending on size and moss coverage. Call 07421 433910 or request a quote online.',
+        'Get a free, no-obligation quote in 60 seconds. Roof cleaning from £500 depending on size and moss coverage. Call 07421 433910 or request a quote online.',
       phone: '07421 433910',
       buttonText: 'Get A Free Quote',
     },
@@ -1704,7 +1704,7 @@ export const servicesData: ServiceDetail[] = [
           'New build gutter snagging — catch installation defects early',
           'New build roof cleaning — remove construction dust and debris',
           'Gutter maintenance during defect period — protect your aftercare',
-          'Gutter inspection for NHBC and warranty compliance',
+          'Gutter inspection reports for new-build snagging',
           'Commercial gutter cleaning — for mixed-use developments',
           'Free development survey and competitive quotation',
         ],

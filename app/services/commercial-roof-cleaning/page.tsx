@@ -5,7 +5,7 @@ import { getServiceById } from '@/constants/servicesData';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
-  absoluteTitle: 'Commercial Roof Cleaning Birmingham | WOW Gutters Ltd',
+  absoluteTitle: 'Commercial Roof Cleaning West Midlands | WOW Gutters Ltd',
   description:
     'Commercial roof cleaning and moss removal for warehouses, offices and industrial buildings. Safe soft-wash methods, fully insured. Call 07421 433910.',
   canonicalPath: '/services/commercial-roof-cleaning/',

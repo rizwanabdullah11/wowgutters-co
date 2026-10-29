@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/tree-cover-gutter-cleaning/tree-cover-gutter-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
@@ -16,18 +16,18 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Professional gutter cleaning across Birmingham and the West Midlands — assessing your property's specific tree coverage and surrounding vegetation to recommend a genuinely tailored maintenance schedule rather than a generic one-size-fits-all approach. Free quote · Before and after photos · Fully insured.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-week availability</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
 const sectionCta = `
 <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; margin: 32px 0; text-align: center;">
   <p style="font-size: 1.1rem; font-weight: 700; color: #0f172a; margin: 0 0 8px 0;">WOW Gutters Ltd — Birmingham's gutter cleaning specialists</p>
-  <a href="tel:07421433910" style="color: #19C58B; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
+  <a href="tel:07421433910" style="color: #047857; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
 </div>`;
 
 export const treeCoverGutterScheduleBlogPost: BlogPost = {
@@ -222,7 +222,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Why does tree species matter more than simply having trees nearby in general?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Different species shed debris on genuinely different calendars and produce material with different physical characteristics. Sycamore sheds in two separate waves months apart, oak holds its leaves until December in some cases, ash decomposes rapidly into a downpipe-sealing slurry, lime debris bonds tenaciously due to honeydew coating, and conifers shed continuously rather than in a concentrated seasonal event. A single generic schedule genuinely cannot account for all of these different patterns simultaneously.</p>
@@ -232,7 +232,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>My street has mixed tree species — how do I actually build a schedule around that?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Combine the relevant recommendations for each species present on or near your property. This typically means an early-summer clear if sycamore or cherry are present, a late-summer clear addressing general seasonal accumulation, and a late-autumn visit timed specifically for oak or ash if either is present nearby, rather than defaulting to a single generic twice-yearly pattern.</p>
@@ -242,7 +242,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do conifers really affect gutters if they don't drop leaves in the way deciduous trees do?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes, genuinely. Conifers shed needles continuously throughout the year in smaller individual quantities, which compact over time into a dense mat that's often mistaken for moss growth at a casual glance. This continuous shedding pattern benefits from more frequent, lighter-touch clearance rather than the concentrated seasonal visits that suit deciduous tree coverage.</p>
@@ -252,7 +252,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How do I know which species are actually near my property if I'm not confident identifying trees?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">A professional gutter cleaning visit can assess and identify the relevant species affecting your property as part of a general property assessment, and recommend a tailored schedule based on what's actually present rather than requiring you to identify tree species yourself in advance.</p>
@@ -262,7 +262,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Is a property with sycamore really at risk during summer if it isn't autumn yet?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. Sycamore seed cases fall from late spring through early summer, well before the leaves, and this early debris compacts into a base layer that makes subsequent autumn leaf fall considerably worse if left unaddressed. A property assuming gutters only need attention once autumn begins is missing this entire earlier accumulation phase.</p>
@@ -272,7 +272,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Why does ash specifically require extra downpipe attention compared to other late-dropping species?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Ash leaves break down considerably faster in wet conditions than most comparable species, forming a dense slurry that seals downpipe inlets more effectively than intact leaf matter. A gutter channel that looks reasonably clear can still have a sealed downpipe beneath it if ash debris has already decomposed into this slurry form.</p>
@@ -282,7 +282,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Does WOW Gutters Ltd assess tree coverage as part of booking a visit?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. We take your property's specific surrounding vegetation into account when recommending appropriate timing and visit frequency, rather than applying a single fixed schedule regardless of your actual situation.</p>
@@ -292,7 +292,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What areas do you cover?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Birmingham, Solihull, Sutton Coldfield, Wolverhampton, Walsall, Dudley, Coventry, Redditch, Worcester, Bromsgrove, Kidderminster, and all surrounding West Midlands areas.</p>
@@ -302,7 +302,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Can gutter guards eliminate the need to think about tree species at all?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">No, not entirely. Standard gutter guard mesh, while effective against larger leaf debris, frequently allows smaller material like cherry leaves or conifer needles to pass through, meaning tree-species-aware scheduling remains relevant even for properties with guards already installed.</p>
@@ -312,7 +312,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How often should a property with heavy mixed tree coverage realistically expect to need attention?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Properties with significant coverage from multiple species — sycamore, oak, and lime together, for instance, which is a genuinely common combination across established Birmingham streets — may benefit from three or more visits across the year rather than the standard twice-yearly baseline, reflecting the extended and varied debris season that combination of species produces.</p>
@@ -329,10 +329,10 @@ ${ctaBox}
 
 ${ctaBox}
 
-<p><strong>Call:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a><br/>
-<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">support@wowgutters.co.uk</a><br/>
-<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">wowgutters.co.uk</a><br/>
-<strong>Free quote:</strong> <a href="/quote/" style="font-weight: 700; color: #19C58B; text-decoration: none;">wowgutters.co.uk/quote</a></p>
+<p><strong>Call:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #047857; text-decoration: none;">07421 433910</a><br/>
+<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">support@wowgutters.co.uk</a><br/>
+<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">wowgutters.co.uk</a><br/>
+<strong>Free quote:</strong> <a href="/quote/" style="font-weight: 700; color: #047857; text-decoration: none;">wowgutters.co.uk/quote</a></p>
 
 <p><em>Serving Birmingham, Solihull, Sutton Coldfield, Edgbaston, Harborne, Kings Heath, Moseley, Bournville, Erdington, Wolverhampton, Dudley, Walsall, West Bromwich, Coventry, Redditch, Bromsgrove, Worcester, Kidderminster and all West Midlands areas.</em></p>
 

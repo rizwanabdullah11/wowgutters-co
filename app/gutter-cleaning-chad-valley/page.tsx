@@ -33,7 +33,7 @@ export default function ChadValleyPage() {
         city="Chad Valley"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Kingstanding', 'Perry Barr', 'Great Barr', 'Birmingham', 'Hamstead']}
         geo={{ latitude: 52.53, longitude: -1.9 }}
         postcodes={['B44', 'B42']}

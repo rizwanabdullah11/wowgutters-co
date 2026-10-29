@@ -33,7 +33,7 @@ export default function AllensCrossPage() {
         city="Allens Cross"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Smethwick', 'Rowley Regis', 'Oldbury', 'Birmingham', 'Bearwood']}
         geo={{ latitude: 52.49, longitude: -1.97 }}
         postcodes={['B69', 'B66']}

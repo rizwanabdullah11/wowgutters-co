@@ -7,12 +7,12 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/debris-gutter-cleaning/debris-gutter-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const sectionCta = `
 <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; margin: 32px 0; text-align: center;">
   <p style="font-size: 1.1rem; font-weight: 700; color: #0f172a; margin: 0 0 8px 0;">WOW Gutters Ltd — Birmingham's gutter cleaning specialists</p>
-  <a href="tel:07421433910" style="color: #19C58B; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
+  <a href="tel:07421433910" style="color: #047857; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
 </div>`;
 
 const ctaBox = `
@@ -22,11 +22,11 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Professional gutter cleaning across Birmingham and the West Midlands — systematic real-time camera inspection of every elevation and every gutter run on your property during every visit, rather than assuming any section can be given reduced attention based on general assumptions alone. Ground-based vacuum system. No ladders. Before and after photographs on every job. Free quote · Fully insured.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-week availability</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -205,7 +205,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Why do some sections of my gutters fill up faster than others despite seemingly identical conditions?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Prevailing wind direction, roof orientation relative to nearby trees and vegetation, and localised concentration effects at roof corners and valleys all mean debris genuinely distributes unevenly across a property's gutter system rather than accumulating at a consistent, uniform rate everywhere, even when the property's overall tree coverage and roof construction appear similar across different elevations.</p>
@@ -215,7 +215,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Which side of my Birmingham property is likely to accumulate the most debris?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Typically the elevation facing away from the prevailing southwesterly wind pattern — the leeward side of the property — where slowing airflow deposits carried debris more readily than on the windward side facing directly into the prevailing wind, though this general pattern can vary based on specific tree positioning, property orientation, and immediate local surroundings.</p>
@@ -225,7 +225,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do roof corners and valleys genuinely accumulate more debris than straight gutter runs?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes, considerably more. Wind turbulence around building corners and within roof valleys creates localised eddies and areas of chaotic, reduced airflow that deposit debris meaningfully more heavily than the more even, predictable airflow pattern along an open, straight gutter run without nearby structural features disrupting the wind.</p>
@@ -235,7 +235,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Can unusual storm winds genuinely catch a property out on a normally low-debris side?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. Birmingham does experience occasional storm events arriving from northerly or easterly directions during specific winter weather patterns, which can deposit meaningful debris volumes onto elevations that rarely accumulate significant material during the more typical prevailing southwesterly wind conditions that dominate most of the year.</p>
@@ -245,7 +245,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How does building height affect wind-related debris accumulation?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Taller properties or those on elevated ground tend to experience more consistent, less turbulent wind exposure across their full roof surface, meaning the general leeward accumulation and corner concentration effects apply somewhat more predictably. Properties positioned near taller neighbouring buildings or close mature trees can experience more complex, locally modified wind patterns that are harder to predict from general principles alone.</p>
@@ -255,7 +255,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Should I combine wind direction awareness with tree species timing, or consider them separately?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">They're genuinely most useful combined rather than considered in isolation. A tree's specific position relative to the prevailing wind meaningfully affects how much of its shed debris actually reaches your property, meaning the same tree species and proximity can produce genuinely different accumulation outcomes depending purely on directional positioning relative to prevailing wind.</p>
@@ -265,7 +265,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do you assess every elevation of a property during a professional visit, or focus mainly on the visibly worst sections?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Every WOW Gutters Ltd visit includes real-time camera inspection systematically across all gutter runs on a property, rather than assuming lower-accumulation elevations can be given reduced attention based purely on general wind pattern assumptions without direct verification.</p>
@@ -275,7 +275,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Can I work out my own property's wind exposure pattern without a professional assessment?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">You can develop a reasonable general understanding by identifying your property's actual compass orientation and the position of nearby trees relative to the prevailing southwesterly wind, combined with any informal observations about which gutter sections have historically required more frequent attention. A professional assessment provides considerably more accurate, property-specific confirmation of these general principles.</p>
@@ -285,7 +285,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Does this wind-direction effect apply equally across all of Birmingham, or vary by area?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">The general principles apply everywhere, but properties in areas with substantial mature tree canopy, such as Edgbaston, Harborne, Moseley, and Sutton Coldfield, and properties with more complex, multi-pitch rooflines benefit particularly from this kind of targeted wind-direction assessment, given the greater overall debris volume and the greater number of corner and valley concentration points typically present.</p>
@@ -295,7 +295,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What areas do you cover for full-property gutter assessment?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Birmingham, Solihull, Sutton Coldfield, Wolverhampton, Walsall, Dudley, Coventry, Redditch, Worcester, Bromsgrove, Kidderminster, and all surrounding West Midlands areas.</p>
@@ -312,10 +312,10 @@ ${ctaBox}
 
 ${ctaBox}
 
-<p><strong>Call:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a><br/>
-<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">support@wowgutters.co.uk</a><br/>
-<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">wowgutters.co.uk</a><br/>
-<strong>Free quote:</strong> <a href="/quote/" style="font-weight: 700; color: #19C58B; text-decoration: none;">wowgutters.co.uk/quote</a></p>
+<p><strong>Call:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #047857; text-decoration: none;">07421 433910</a><br/>
+<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">support@wowgutters.co.uk</a><br/>
+<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">wowgutters.co.uk</a><br/>
+<strong>Free quote:</strong> <a href="/quote/" style="font-weight: 700; color: #047857; text-decoration: none;">wowgutters.co.uk/quote</a></p>
 
 <p><em>Serving Birmingham, Solihull, Sutton Coldfield, Edgbaston, Harborne, Kings Heath, Moseley, Bournville, Erdington, Wolverhampton, Dudley, Walsall, West Bromwich, Coventry, Redditch, Bromsgrove, Worcester, Kidderminster and all West Midlands areas.</em></p>
 

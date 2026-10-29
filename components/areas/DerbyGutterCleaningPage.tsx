@@ -3,7 +3,6 @@ import HeroVideo from '@/components/media/HeroVideo';
 import type { LucideIcon } from 'lucide-react';
 import { ShieldCheck, Phone, Check, Building2, Home, Warehouse, Cable, Images, Shield } from 'lucide-react';
 import { colors } from '@/constants/colors';
-import { areaPath } from '@/lib/areaSlugs';
 import AreaServicesRange from '@/components/areas/AreaServicesRange';
 import DerbyFAQ from '@/components/areas/DerbyFAQ';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
@@ -403,27 +402,27 @@ export default function DerbyGutterCleaningPage() {
           </h2>
           <p className="text-center text-slate-600 max-w-2xl mx-auto mb-10">
             We cover Derby city and all surrounding towns. Pick a town below. Not listed? Call us on{' '}
-            <a href="tel:07421433910" className="font-semibold underline" style={{ color: colors.primary }}>
+            <a href="tel:07421433910" className="font-semibold underline" style={{ color: colors.primaryText }}>
               07421 433910
             </a>
             .
           </p>
           <div className="flex flex-wrap justify-center gap-3">
+            {/* Plain labels — these towns have no pages (were broken links, Oct 2026 audit). */}
             {COVERAGE_LINKS.map(({ label, slug }) => (
-              <Link
+              <span
                 key={slug}
-                href={areaPath(slug)}
-                className="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm hover:border-[#19C58B] hover:text-[#0f766e] transition-colors shadow-sm"
+                className="px-4 py-2 rounded-full bg-white border border-slate-200 text-slate-800 font-semibold text-sm shadow-sm"
               >
                 {label}
-              </Link>
+              </span>
             ))}
           </div>
         </div>
       </section>
 
       <section className="relative overflow-hidden border-t border-white/10 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] py-20 px-4">
-        <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#16c784]/30 blur-[1px]" />
+        <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#19C58B]/30 blur-[1px]" />
         <div className="pointer-events-none absolute -right-8 -top-12 h-52 w-[45%] rotate-6 rounded-[35%] bg-[#2dd4bf]/24 blur-[1px]" />
 
         <div className="relative z-10 mx-auto flex max-w-6xl flex-col items-center gap-10 md:flex-row md:items-center md:justify-between">
@@ -456,7 +455,7 @@ export default function DerbyGutterCleaningPage() {
                     href={`${WA}?text=${encodeURIComponent(`Hi, I am in Derby. ${question}`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="shrink-0 rounded-md bg-[#16c784] px-4 py-1.5 text-base font-black text-white hover:bg-[#0fb272] transition-colors inline-flex items-center gap-1.5 shadow-[0_6px_14px_rgba(22,199,132,0.35)]"
+                    className="shrink-0 rounded-md bg-[#19C58B] px-4 py-1.5 text-base font-black text-white hover:bg-[#0fb272] transition-colors inline-flex items-center gap-1.5 shadow-[0_6px_14px_rgba(22,199,132,0.35)]"
                   >
                     Ask
                   </a>
@@ -482,7 +481,7 @@ export default function DerbyGutterCleaningPage() {
               href="/services/roof-cleaning"
               className="group p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
-              <p className="text-xs font-bold uppercase tracking-widest text-orange-500 mb-2">Popular</p>
+              <p className="text-xs font-bold uppercase tracking-widest text-orange-700 mb-2">Popular</p>
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">
                 Roof cleaning &amp; moss removal
               </h3>
@@ -524,7 +523,7 @@ export default function DerbyGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/commercial"
+              href="/services/commercial-gutter-cleaning/"
               className="group p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">
@@ -574,7 +573,7 @@ export default function DerbyGutterCleaningPage() {
               href={`${WA}?text=${encodeURIComponent('Hi, I would like a quote for gutter cleaning in Derby.')}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto min-w-[240px] inline-flex items-center justify-center gap-2 py-4 px-6 rounded-full border-2 font-bold border-[#16c784] text-[#0f766e] hover:bg-[#ecfdf5] transition-colors"
+              className="w-full sm:w-auto min-w-[240px] inline-flex items-center justify-center gap-2 py-4 px-6 rounded-full border-2 font-bold border-[#19C58B] text-[#0f766e] hover:bg-[#ecfdf5] transition-colors"
             >
               WhatsApp us
             </a>
@@ -669,11 +668,11 @@ export default function DerbyGutterCleaningPage() {
           background: ${colors.primaryGradient};
           padding: 18px 32px; border-radius: 100px; cursor: pointer;
           transition: all 0.3s ease;
-          box-shadow: 0 10px 30px rgba(25, 197, 139, 0.3);
+          box-shadow: 0 10px 30px rgba(25,197,139, 0.3);
         }
         .hero-primary-btn:hover {
           transform: translateY(-4px);
-          box-shadow: 0 15px 40px rgba(25, 197, 139, 0.4);
+          box-shadow: 0 15px 40px rgba(25,197,139, 0.4);
         }
         .btn-arrow { color: white; font-size: 1.1rem; line-height: 1; }
         .btn-label { color: white; font-size: clamp(1.05rem, 2vw, 1.35rem); font-weight: 800; }

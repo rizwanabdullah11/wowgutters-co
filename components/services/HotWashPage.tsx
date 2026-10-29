@@ -48,14 +48,65 @@ export default function HotWashPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
                 <div className="p-6 bg-gray-50 rounded-lg shadow-sm border-l-4" style={{ borderColor: colors.primary}}>
-                    <h3 className="text-2xl font-bold mb-3" style={{ color: colors.primary }}>Melts Tough Stains</h3>
+                    <h3 className="text-2xl font-bold mb-3" style={{ color: colors.primaryText }}>Melts Tough Stains</h3>
                     <p style={{ color: colors.textLight }}>Hot water effectively dissolves oil and grease. Just as you wouldn't wash greasy pans in cold water, hot water is infinitely superior for tough outdoor stains.</p>
                 </div>
                 <div className="p-6 bg-gray-50 rounded-lg shadow-sm border-l-4" style={{ borderColor: colors.primary}}>
-                    <h3 className="text-2xl font-bold mb-3" style={{ color: colors.primary }}>Kills Bacteria & Spores</h3>
+                    <h3 className="text-2xl font-bold mb-3" style={{ color: colors.primaryText }}>Kills Bacteria & Spores</h3>
                     <p style={{ color: colors.textLight }}>Temperatures exceeding 90°C efficiently sanitize surfaces, destroying algae, lichen, and moss spores, slowing down regrowth drastically.</p>
                 </div>
             </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-white border-t border-gray-100">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: colors.text }}>
+            What we hot wash
+          </h2>
+          <p className="mb-4 leading-relaxed" style={{ color: colors.textLight }}>
+            Our hot wash service is used across Birmingham and the West Midlands on surfaces where cold water alone leaves
+            staining behind. Heated water at controlled pressure lifts grease, traffic film, algae and black spotting without
+            the harsh scrubbing that can scratch uPVC or loosen pointing.
+          </p>
+          <ul className="grid sm:grid-cols-2 gap-3 mb-10" style={{ color: colors.textLight }}>
+            <li>• uPVC fascias, soffits and gutter faces</li>
+            <li>• Driveways, block paving and patios</li>
+            <li>• Shop fronts, forecourts and bin stores</li>
+            <li>• Walls, render and garden paths</li>
+            <li>• Commercial car parks and loading bays</li>
+            <li>• Conservatory frames and window sills</li>
+          </ul>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: colors.text }}>
+            How a hot wash visit works
+          </h2>
+          <ol className="space-y-3 mb-10 list-decimal pl-5 leading-relaxed" style={{ color: colors.textLight }}>
+            <li>We look at the surface, the type of staining and any delicate areas such as render or older brick.</li>
+            <li>We set the water temperature and pressure for that surface, then pre-treat heavy grease or algae.</li>
+            <li>Each section is cleaned and rinsed so dirty water does not run back over finished areas.</li>
+            <li>We clear the run-off, check the result with you and take before &amp; after photos.</li>
+          </ol>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ color: colors.text }}>
+            Hot wash questions
+          </h2>
+          <div className="space-y-5 leading-relaxed" style={{ color: colors.textLight }}>
+            <div>
+              <h3 className="font-bold mb-1" style={{ color: colors.text }}>Is hot washing safe for uPVC and render?</h3>
+              <p>Yes. We adjust temperature and pressure for each surface, so uPVC, render and painted finishes are cleaned without damage.</p>
+            </div>
+            <div>
+              <h3 className="font-bold mb-1" style={{ color: colors.text }}>Can you combine it with gutter cleaning?</h3>
+              <p>Yes. Many customers book a gutter vacuum clean and a fascia and soffit hot wash on the same visit so the whole roofline is finished in one go.</p>
+            </div>
+            <div>
+              <h3 className="font-bold mb-1" style={{ color: colors.text }}>Are you insured?</h3>
+              <p>Yes. WOW Gutters Ltd is fully insured, and every job is covered by our public liability insurance.</p>
+            </div>
+          </div>
+          <p className="mt-8" style={{ color: colors.textLight }}>
+            For a free quote, call <a href="tel:07421433910" className="font-semibold underline" style={{ color: colors.primaryText }}>07421 433910</a>{' '}
+            or <Link href="/quote/" className="font-semibold underline" style={{ color: colors.primaryText }}>request a quote online</Link>.
+          </p>
         </div>
       </section>
 
@@ -72,7 +123,7 @@ export default function HotWashPage() {
               { season: 'Winter', text: SEASONAL_HOT_WASH_COPY.winter },
             ].map((item) => (
               <div key={item.season} className="p-6 bg-white rounded-lg shadow-sm border border-gray-100">
-                <h3 className="text-lg font-bold mb-3" style={{ color: colors.primary }}>
+                <h3 className="text-lg font-bold mb-3" style={{ color: colors.primaryText }}>
                   {item.season}
                 </h3>
                 <p className="text-sm leading-relaxed" style={{ color: colors.textLight }}>
@@ -83,7 +134,7 @@ export default function HotWashPage() {
           </div>
           <p className="mt-8 text-center" style={{ color: colors.textLight }}>
             Pair hot wash with gutter vacuuming for a full roofline refresh.{' '}
-            <Link href="/the-gutter-gallery/" className="font-semibold underline" style={{ color: colors.primary }}>
+            <Link href="/the-gutter-gallery/" className="font-semibold underline" style={{ color: colors.primaryText }}>
               View recent case studies
             </Link>
             .

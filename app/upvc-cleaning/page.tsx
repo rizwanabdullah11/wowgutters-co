@@ -7,7 +7,7 @@ export const metadata: Metadata = buildMetadata({
   absoluteTitle: 'Professional uPVC Cleaning | Fascias, Soffits & Window Frames | WOW Gutters Ltd',
   description:
     'uPVC cleaning and restoration across Birmingham. Hot purified water system cleans fascias, soffits, window frames, and conservatories. Streak-free, chemical-free. Call 07421 433910.',
-  canonicalPath: '/upvc-cleaning/',
+  canonicalPath: '/services/upvc-cleaning/',
 });
 
 const service: ServiceDetail = {

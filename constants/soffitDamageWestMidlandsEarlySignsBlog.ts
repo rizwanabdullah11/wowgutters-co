@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/scoffts-gutter-cleaning/scoffts-gutter-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaTop = `
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
@@ -30,11 +30,11 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Soffits are the most overlooked component of the entire roofline system. Find out your property's real condition before soffit damage reaches the roof structure. Free quote · Before and after photos · Fully insured.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week availability across the West Midlands</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -229,7 +229,7 @@ ${ctaMid}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What exactly is a soffit and how is it different from a fascia board?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">The fascia board runs vertically along the roof edge, directly behind the gutter, providing the fixing point for gutter brackets. The soffit sits beneath the fascia, running horizontally to close the gap between the top of the external wall and the underside of the roof overhang, forming the visible underside surface when looking directly upward at the eave. Soffits also typically incorporate ventilation, a function fascia boards don't perform.</p>
@@ -239,7 +239,7 @@ ${ctaMid}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Why don't I notice soffit damage as easily as gutter or fascia problems?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Soffits face downward and are positioned horizontally, meaning they're essentially invisible from a standard street-level viewing angle. Seeing soffit condition properly requires looking directly upward at the roof overhang from beneath it, a viewing position most homeowners never naturally adopt during ordinary daily activity.</p>
@@ -249,7 +249,7 @@ ${ctaMid}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Can soffit damage actually affect my roof ventilation?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes, significantly. Soffits typically incorporate ventilation openings that allow air into the roof void, carrying away moisture generated within the living space below. Blocked or compromised soffit ventilation prevents this moisture from dispersing, leading to internal condensation that can affect roof timbers, insulation, and encourage mould growth within the loft space.</p>
@@ -259,7 +259,7 @@ ${ctaMid}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How does soffit damage create a pest entry point?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">A soffit that has deteriorated sufficiently to develop gaps, warping, or structural compromise creates physical openings that birds, squirrels, and insects can exploit to access the roof void from outside, a particularly common issue with ageing timber soffits and uPVC panels where joints have separated.</p>
@@ -269,7 +269,7 @@ ${ctaMid}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What are the earliest visible signs of soffit damage I can check myself?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Visible sagging or unevenness along the underside of the roof overhang, disproportionate paint deterioration on the soffit's underside, visible gaps between soffit panels, staining or discolouration patterns, and any visible evidence of pest activity around the soffit line.</p>
@@ -279,7 +279,7 @@ ${ctaMid}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Should I check inside my loft for soffit-related problems too?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. Musty odours or mould concentrated near the eaves, visible daylight or draughts at the eave line from inside the roof void, and unexplained sounds suggesting wildlife activity near the eaves are all signs that warrant investigation and that aren't detectable from external observation alone.</p>
@@ -289,7 +289,7 @@ ${ctaMid}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do timber and uPVC soffits deteriorate differently?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. Timber soffits follow a moisture-absorption rot process similar to timber fascia boards, typically showing paint deterioration and discolouration as early ground-visible signs. uPVC soffits don't rot directly but can warp from trapped moisture and suffer joint or fixing failure, often presenting first through visible gaps or panel separation rather than direct material deterioration.</p>
@@ -299,7 +299,7 @@ ${ctaMid}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Is soffit damage usually connected to my gutters, or is it a separate problem?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Soffit moisture damage very frequently originates from the same underlying cause affecting fascia boards — a failing gutter joint or overflow condition tracking water backward and downward to the soffit beneath. This means gutters, fascia, and soffits should genuinely be considered together as a connected system rather than three entirely separate concerns.</p>
@@ -309,7 +309,7 @@ ${ctaMid}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What does proper soffit maintenance actually involve?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Visual inspection of the underside for sagging, discolouration, gaps, and pest evidence, assessment of ventilation function specifically, connection to underlying gutter and fascia condition, and where practical, consideration of conditions within the roof void that provide the clearest evidence of ventilation failure or structural compromise.</p>
@@ -319,7 +319,7 @@ ${ctaMid}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What areas do you cover for soffit and fascia assessment?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Birmingham, Solihull, Sutton Coldfield, Wolverhampton, Walsall, Dudley, Coventry, Redditch, Worcester, Bromsgrove, Kidderminster, and all surrounding West Midlands areas.</p>
@@ -356,4 +356,4 @@ ${ctaBox}
   <li><a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
 </ul>
 `,
-};
+};

@@ -22,7 +22,7 @@ export default function AboutContent() {
         <ul className="space-y-4">
           <li className="flex items-start">
             <span className="text-2xl mr-3" style={{ color: colors.primary }}>✓</span>
-            <span className="text-gray-700">Licensed and insured professionals</span>
+            <span className="text-gray-700">Fully insured, trained professionals</span>
           </li>
           <li className="flex items-start">
             <span className="text-2xl mr-3" style={{ color: colors.primary }}>✓</span>

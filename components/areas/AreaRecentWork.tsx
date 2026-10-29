@@ -56,13 +56,13 @@ export default function AreaRecentWork() {
                   className="w-full h-full object-cover  group-hover/card:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm px-2 py-1 rounded text-[10px] font-bold text-gray-800 flex items-center gap-1 shadow-sm">
-                  <div className="w-4 h-4 rounded-full flex items-center justify-center text-[8px] font-black text-white" style={{ backgroundColor: colors.primary }}>
+                  <div className="w-4 h-4 rounded-full flex items-center justify-center text-[8px] font-black text-white" style={{ backgroundColor: colors.primaryText }}>
                     S
                   </div>
                   WOW
                 </div>
               </div>
-              <h3 className="text-[17px] font-medium text-gray-800 leading-snug mb-2 group-hover/card:text-[#19C58B] transition-colors">{item.title}</h3>
+              <h3 className="text-[17px] font-medium text-gray-800 leading-snug mb-2 group-hover/card:text-[#047857] transition-colors">{item.title}</h3>
               <p className="text-[12px] text-gray-500">{item.author}</p>
             </div>
           ))}

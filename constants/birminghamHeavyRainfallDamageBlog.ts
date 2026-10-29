@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/dispatch-gutter-cleaning/dispatch-gutter-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
@@ -15,11 +15,11 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">One professional gutter clean interrupts all five rainfall damage mechanisms. Free quote across Birmingham.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week availability across Birmingham</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -379,7 +379,7 @@ ${ctaBox}
 
 <p>The five mechanisms described in this post are not hypothetical. They are operating on thousands of Birmingham properties right now — quietly, progressively, and at a cost that increases with every rainfall event that passes without the blockage being cleared.</p>
 
-<p><a href="https://wowgutters.co.uk" style="${link}">WOW Gutters Ltd</a> covers all of Birmingham and the West Midlands. Industrial vacuum system. Ground-based method. Before and after photographs on every job. Written condition report on everything observed. View our <a href="/services/" style="${link}">full services range</a>, <a href="/pricing/" style="${link}">pricing guide</a>, and <a href="/reviews/" style="${link}">customer reviews</a>.</p>
+<p><a href="https://wowgutters.co.uk" style="${link}">WOW Gutters Ltd</a> covers all of Birmingham and the West Midlands. Industrial vacuum system. Ground-based method. Before and after photographs on every job. Written condition report on everything observed. View our <a href="/services/" style="${link}">full services range</a>, <a href="/gutter-cleaning-prices/" style="${link}">pricing guide</a>, and <a href="/reviews/" style="${link}">customer reviews</a>.</p>
 
 <p>One visit interrupts every mechanism simultaneously. Call us today.</p>
 

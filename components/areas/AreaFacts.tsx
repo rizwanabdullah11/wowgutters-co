@@ -98,7 +98,7 @@ export default function AreaFacts() {
               ))}
             </div>
             <Link href={currentContent.buttonLink}>
-              <Button className="text-white font-black italic px-8 py-6 rounded hover:opacity-90 transition-opacity" style={{ backgroundColor: colors.primary }}>
+              <Button className="text-white font-black italic px-8 py-6 rounded hover:opacity-90 transition-opacity" style={{ backgroundColor: colors.primaryText }}>
                 {currentContent.buttonText}
               </Button>
             </Link>

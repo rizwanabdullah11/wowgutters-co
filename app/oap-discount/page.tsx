@@ -215,7 +215,7 @@ export default function OAPDiscount() {
       <section className="py-20 px-4 bg-white border-t border-slate-100">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-14">
-            <span className="text-sm font-bold uppercase tracking-wider text-emerald-600">Home Protection</span>
+            <span className="text-sm font-bold uppercase tracking-wider text-emerald-700">Home Protection</span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 mt-2">
               Essential Roofline Services for <span style={{ color: colors.primary }}>Senior Homeowners</span>
             </h2>

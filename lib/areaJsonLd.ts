@@ -54,8 +54,12 @@ export function getAreaPageJsonLd(areaSlug: string, areaName: string) {
         },
         address: {
           '@type': 'PostalAddress',
-          addressLocality: areaName,
+          // Real registered address (Google wants the same NAP on every page);
+          // the area itself is described by areaServed below.
+          streetAddress: '38 Ryland Street',
+          addressLocality: 'Birmingham',
           addressRegion: 'West Midlands',
+          postalCode: 'B16 8DD',
           addressCountry: 'GB',
         },
         areaServed: [

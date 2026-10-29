@@ -20,6 +20,27 @@ const BRAND_RE = /wow gutters ltd/i;
  * - keeps titles within ~60 characters by dropping trailing tagline segments,
  *   then the brand suffix, before Google truncates them mid-word.
  */
+/**
+ * Click-through hook (Oct 2026): service + area titles show the "from" price as a second
+ * segment, e.g. "Gutter Cleaning Dudley | From £100 | WOW Gutters Ltd". Prices match
+ * constants/gutterPricing.ts. seoTitle drops the hook again if the title would pass 60 chars.
+ */
+const PRICE_HOOKS: [RegExp, string][] = [
+  [/^gutter cleaning\b/i, 'From £100'],
+  [/^roof cleaning\b/i, 'From £500'],
+  [/^gutter repairs?\b/i, 'From £30'],
+  [/^gutter installation\b/i, 'From £300'],
+];
+const NO_HOOK_RE = /[:?£]|contract|price|cost|calculator|guide|commercial|vs\b/i;
+
+function withPriceHook(segs: string[]): string[] {
+  const first = segs[0];
+  if (!first || first.length > 40 || NO_HOOK_RE.test(first)) return segs;
+  if (segs.some((x) => /£/.test(x))) return segs;
+  const hook = PRICE_HOOKS.find(([re]) => re.test(first))?.[1];
+  return hook ? [first, hook, ...segs.slice(1)] : segs;
+}
+
 export function seoTitle(raw: string, opts: { keepSegments?: boolean } = {}): string {
   const cleaned = raw.replace(/\s*”\s*/g, ' — ').replace(/\s+/g, ' ').trim();
   let brandInCore = false;
@@ -37,6 +58,7 @@ export function seoTitle(raw: string, opts: { keepSegments?: boolean } = {}): st
     segs.push(part);
   }
   if (segs.length === 0) return BRAND;
+  if (!opts.keepSegments) segs.splice(0, segs.length, ...withPriceHook(segs));
   const compose = (s: string[]) => (brandInCore ? s.join(' | ') : [...s, BRAND].join(' | '));
   if (opts.keepSegments) {
     const full = compose(segs);

@@ -16,7 +16,7 @@ export default function StatsSection() {
         {/* Eyebrow */}
         <div className="flex items-center justify-center gap-3 mb-10">
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
-          <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primary }}>
+          <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primaryText }}>
             By The Numbers
           </span>
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />

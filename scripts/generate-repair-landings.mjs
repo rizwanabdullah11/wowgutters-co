@@ -694,7 +694,7 @@ function buildEntry(slug, a) {
     },
     {
       q: `How much does gutter repair cost in ${a.name}?`,
-      a: `A leaking joint reseal in ${a.name} typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.`,
+      a: `A leaking joint reseal in ${a.name} typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.`,
     },
     {
       q: `Do you test gutter repairs in ${a.name}?`,

@@ -183,7 +183,7 @@ export default function CommercialGutterCleaningPage() {
                   <div key={index} className="flex items-center gap-3">
                     <div
                       className="w-8 h-8 rounded-full flex items-center justify-center text-white font-bold"
-                      style={{ backgroundColor: colors.primary }}
+                      style={{ backgroundColor: colors.primaryText }}
                     >
                       {index + 1}
                     </div>

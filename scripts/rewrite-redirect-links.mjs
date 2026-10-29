@@ -11,8 +11,9 @@ const OUT = join(process.cwd(), 'out');
 
 /** from (no leading slash, trailing slash) → to (same form; '' = homepage) */
 const REDIRECTS = {
-  'gutter-cleaning-birmingham/': '',
-  'west-midlands/gutter-cleaning-birmingham/': '',
+  'west-midlands/gutter-cleaning-birmingham/': 'gutter-cleaning-birmingham/',
+  'gutter-cleaners-birmingham/': 'gutter-cleaning-birmingham/',
+  'gutter-clearing-birmingham/': 'gutter-cleaning-birmingham/',
   'trusted-gutter-cleaners-birmingham/': '',
   'next-day-gutter-cleaning-birmingham/': '',
   'autumn-gutter-cleaning-birmingham/': '',
@@ -44,13 +45,19 @@ for (const [slug, to] of Object.entries(KW.redirects)) {
   REDIRECTS[`${slug}/`] = target;
 }
 
+// Old blog slugs + old page paths (same JSON files drive the .htaccess 301s).
+const LEGACY_BLOG = JSON.parse(readFileSync(join(process.cwd(), 'scripts/blog-legacy-redirects.json'), 'utf8'));
+for (const [from, to] of Object.entries(LEGACY_BLOG)) REDIRECTS[`blog/${from}/`] = `blog/${to}/`;
+const LEGACY_PATHS = JSON.parse(readFileSync(join(process.cwd(), 'scripts/legacy-path-redirects.json'), 'utf8'));
+for (const [from, to] of Object.entries(LEGACY_PATHS)) REDIRECTS[`${from}/`] = to.replace(/^\//, '');
+
 const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const PREFIX = '((?:\\.\\./)+|\\./|/|https://wowgutters\\.co\\.uk/)';
-const RULES = Object.entries(REDIRECTS).map(([from, to]) => ({
-  // trailing slash optional: blog HTML often links "/gutter-cleaning-birmingham" without it
-  re: new RegExp(`href="${PREFIX}${esc(from.replace(/\/$/, ''))}/?"`, 'g'),
-  to,
-}));
+// One combined regex (was one regex per redirect — ~500 passes over every HTML file, very slow).
+// Trailing slash optional: blog HTML often links "/gutter-cleaning-birmingham" without it.
+const LOOKUP = new Map(Object.entries(REDIRECTS).map(([from, to]) => [from.replace(/\/$/, ''), to]));
+const KEYS = [...LOOKUP.keys()].sort((a, b) => b.length - a.length);
+const RE = new RegExp(`href="${PREFIX}(${KEYS.map(esc).join('|')})/?"`, 'g');
 
 function* htmlFiles(dir) {
   for (const name of readdirSync(dir)) {
@@ -65,13 +72,10 @@ let files = 0;
 let links = 0;
 for (const file of htmlFiles(OUT)) {
   const html = readFileSync(file, 'utf8');
-  let next = html;
-  for (const { re, to } of RULES) {
-    next = next.replace(re, (_m, prefix) => {
-      links++;
-      return `href="${prefix}${to}"`;
-    });
-  }
+  const next = html.replace(RE, (_m, prefix, key) => {
+    links++;
+    return `href="${prefix}${LOOKUP.get(key)}"`;
+  });
   if (next !== html) {
     writeFileSync(file, next);
     files++;

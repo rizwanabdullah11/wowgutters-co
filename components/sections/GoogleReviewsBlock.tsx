@@ -36,7 +36,7 @@ export default function GoogleReviewsBlock({
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
           <span
             className="text-xs font-bold tracking-[0.2em] uppercase"
-            style={{ color: colors.primary }}
+            style={{ color: colors.primaryText }}
           >
             Local Customer Feedback
           </span>

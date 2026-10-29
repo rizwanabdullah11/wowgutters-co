@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/flat-roof-cleaning/flat-roof-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
@@ -16,18 +16,18 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Professional drainage maintenance for both pitched roof gutters and flat roof systems across Birmingham and the West Midlands — rainwater outlets, box gutters, and parapet gutters on residential extensions and commercial flat roofs of any scale. Free quote · Before and after photos · Fully insured.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-week availability</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
 const sectionCta = `
 <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; margin: 32px 0; text-align: center;">
   <p style="font-size: 1.1rem; font-weight: 700; color: #0f172a; margin: 0 0 8px 0;">WOW Gutters Ltd — Birmingham's flat roof and gutter specialists</p>
-  <a href="tel:07421433910" style="color: #19C58B; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
+  <a href="tel:07421433910" style="color: #047857; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
 </div>`;
 
 export const flatRoofGuttersBirminghamMaintenanceGuideBlogPost: BlogPost = {
@@ -166,7 +166,7 @@ ${sectionCta}
 
 <h2 id="commercial">Commercial and Larger-Scale Flat Roof Drainage</h2>
 
-<p>Beyond residential extensions, flat roof drainage is the standard arrangement on the majority of commercial, industrial, and warehouse properties across Birmingham and the wider West Midlands — the kind of large-footprint distribution and industrial buildings covered in our <a href="/commercial/" style="${link}">commercial gutter clearing</a> case studies, where box gutters and internal drainage outlets handle water across roof areas many times larger than any residential property.</p>
+<p>Beyond residential extensions, flat roof drainage is the standard arrangement on the majority of commercial, industrial, and warehouse properties across Birmingham and the wider West Midlands — the kind of large-footprint distribution and industrial buildings covered in our <a href="/services/commercial-gutter-cleaning/" style="${link}">commercial gutter clearing</a> case studies, where box gutters and internal drainage outlets handle water across roof areas many times larger than any residential property.</p>
 
 <p>At commercial scale, the consequences of neglected flat roof drainage escalate considerably. Ponding across a large commercial flat roof represents a genuinely significant structural load if it accumulates during a period of sustained rainfall, and the potential for water ingress affecting stock, equipment, or racking below makes commercial flat roof drainage maintenance a genuinely business-critical consideration rather than simply a property upkeep concern. Our own experience clearing commercial box gutters — including cases where years of unaddressed silt accumulation had progressed to the point of supporting actively rooted vegetation — illustrates just how severe this neglect can become when a large flat or near-flat commercial roof drainage system goes unmaintained for an extended period.</p>
 
@@ -239,7 +239,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Why don't standard gutter cleaning guides cover flat roofs properly?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Most generic gutter guidance assumes a pitched roof with a linear gutter along the eave, because that describes the majority of residential roofs. Flat roofs drain through an entirely different system — rainwater outlets set into the roof surface, parapet gutters, or box gutters at roof junctions — facing risks like ponding and membrane degradation that simply don't apply to pitched roof gutters, and this distinct system tends to get overlooked in content written primarily with pitched roofs in mind.</p>
@@ -249,7 +249,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What is ponding and why does it matter on a flat roof?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Ponding refers to standing water remaining on a flat roof surface for more than 48 hours after rainfall, typically caused by a blocked drainage outlet or a degraded roof fall. It matters because most flat roof waterproofing membranes aren't designed to withstand sustained submersion, and prolonged ponding accelerates membrane degradation, encourages moss and algae growth, and adds structural load to the roof deck.</p>
@@ -259,7 +259,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>My extension has a flat roof but the main house is pitched — does that need separate maintenance?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes, and this is one of the most commonly overlooked maintenance gaps we encounter. The box gutter or junction where a flat-roofed extension meets the original pitched roof is often one of the highest-risk drainage points on the whole property, carrying water from both roof sections, and it's frequently missed during routine gutter cleaning that focuses primarily on the main house's eave-level gutters.</p>
@@ -269,7 +269,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How do I know if my flat roof drainage outlet is blocked?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Visible standing water on the roof surface persisting well beyond a reasonable drying period after rain, a downpipe from the flat roof section that shows weak or delayed flow during rainfall, or moss and algae growth on the roof surface itself are all indicators worth investigating.</p>
@@ -279,7 +279,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Can debris anywhere on a flat roof affect drainage, or only debris right at the outlet?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Debris anywhere on the roof surface can redirect water flow and create localised ponding, because water travels across the whole surface toward the outlet rather than falling directly into a linear channel. This is genuinely different from a pitched roof gutter, where debris outside the channel itself doesn't typically affect drainage.</p>
@@ -289,7 +289,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Does WOW Gutters Ltd maintain flat roof drainage as well as standard gutters?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. We assess and clear rainwater outlets, box gutters, and parapet gutters on flat roof sections as part of our residential and commercial gutter cleaning service, including the extension and garage flat roofs common across Birmingham properties.</p>
@@ -299,7 +299,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How often should flat roof drainage be checked?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">At minimum, the same twice-yearly schedule recommended for pitched roof gutters, with more frequent attention warranted for flat roofs near mature trees or for larger commercial flat roofs given the structural implications of ponding at scale.</p>
@@ -309,7 +309,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Is flat roof membrane damage something a gutter cleaning visit would identify?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">A visual check during a proper drainage clearance visit can flag obvious signs of membrane concern — blistering, recurring ponding patterns, visible tears — as an early warning worth investigating further, though a genuine membrane repair or replacement assessment would require a dedicated roofing inspection beyond the scope of a drainage clearance visit.</p>
@@ -319,7 +319,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What areas do you cover for flat roof drainage maintenance?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Birmingham, Solihull, Sutton Coldfield, Wolverhampton, Walsall, Dudley, Coventry, Redditch, Worcester, Bromsgrove, Kidderminster, and all surrounding West Midlands areas, for both residential extension flat roofs and larger commercial flat roof drainage systems.</p>
@@ -329,7 +329,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do you offer commercial flat roof drainage clearance for larger properties?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. We handle commercial and industrial flat roof drainage of any scale, including box gutter systems and rainwater outlet clearance on distribution warehouses and larger commercial buildings across the region.</p>
@@ -346,9 +346,9 @@ ${ctaBox}
 
 ${ctaBox}
 
-<p><strong>Call:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a><br/>
-<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">support@wowgutters.co.uk</a><br/>
-<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">wowgutters.co.uk</a></p>
+<p><strong>Call:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #047857; text-decoration: none;">07421 433910</a><br/>
+<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">support@wowgutters.co.uk</a><br/>
+<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">wowgutters.co.uk</a></p>
 
 <p><em>Serving Birmingham, Solihull, Sutton Coldfield, Edgbaston, Harborne, Kings Heath, Moseley, Bournville, Erdington, Wolverhampton, Dudley, Walsall, West Bromwich, Coventry, Redditch, Bromsgrove, Worcester, Kidderminster and all West Midlands areas.</em></p>
 
@@ -359,7 +359,7 @@ ${ctaBox}
   <li><a href="/blog/hidden-gutter-damage-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a></li>
   <li><a href="/blog/west-midlands-water-damage/" style="${link}">Is Your West Midlands Home Quietly Storing Water Damage Right Now?</a></li>
   <li><a href="/blog/blocked-gutters-birmingham/" style="${link}">Can Blocked Gutters Cause Damp?</a></li>
-  <li><a href="/commercial/" style="${link}">Commercial Gutter Cleaning</a></li>
+  <li><a href="/services/commercial-gutter-cleaning/" style="${link}">Commercial Gutter Cleaning</a></li>
   <li><a href="/blog/warehouse-gutter-clearing/" style="${link}">Commercial Warehouse Gutter Clearing Birmingham</a></li>
   <li><a href="/blog/warehouse-gutter-case-study/" style="${link}">Warehouse Gutter Clearing Box Gutter Case Study</a></li>
   <li><a href="/services/gutter-cleaning/" style="${link}">Downpipe Unblocking</a></li>

@@ -22,8 +22,23 @@ function keywordRedirectRules() {
   return { staticPages: staticPages.join('\n'), pages: pages.join('\n'), count: pages.length };
 }
 
+/** Old blog slugs + old page paths still linked from outside (were 404 until Oct 27 2026). */
+function legacyLinkRules() {
+  const blog = JSON.parse(readFileSync(join(process.cwd(), 'scripts/blog-legacy-redirects.json'), 'utf8'));
+  const paths = JSON.parse(readFileSync(join(process.cwd(), 'scripts/legacy-path-redirects.json'), 'utf8'));
+  const esc = (s) => s.replace(/[.+*?^$()[\]{}|\\]/g, '\\$&');
+  const blogRules = Object.entries(blog).map(
+    ([from, to]) => `  RewriteRule ^blog/${esc(from)}/?$ /blog/${to}/ [R=301,L]`
+  );
+  const pathRules = Object.entries(paths).map(
+    ([from, to]) => `  RewriteRule ^${esc(from)}/?$ ${to} [R=301,L]`
+  );
+  return [...pathRules, ...blogRules].join('\n');
+}
+
 export function generateHostingerHtaccess() {
   const kw = keywordRedirectRules();
+  const legacy = legacyLinkRules();
   return `Options -MultiViews -Indexes
 DirectoryIndex index.html
 
@@ -118,6 +133,7 @@ AddDefaultCharset UTF-8
 
   # Audit 05.05 — legacy / alternate domains → wowgutters.co.uk (when pointed at this Hostinger site)
   RewriteCond %{HTTP_HOST} ^(www\\.)?wow-gutters\\.com$ [NC,OR]
+  RewriteCond %{HTTP_HOST} ^(www\\.)?wow-gutters\\.co\\.uk$ [NC,OR]
   RewriteCond %{HTTP_HOST} ^(www\\.)?wowgutters\\.uk$ [NC]
   RewriteRule ^(.*)$ https://wowgutters.co.uk/$1 [R=301,L]
 
@@ -161,6 +177,9 @@ AddDefaultCharset UTF-8
   # No guarantees offered — old keyword page removed (Oct 2026)
   RewriteRule ^gutter-cleaning-with-guarantee/?$ /services/gutter-cleaning/ [R=301,L]
 
+  # Old blog slugs / old page paths (were 404) — scripts/blog-legacy-redirects.json + legacy-path-redirects.json
+${legacy}
+
   # Blog slug shorten
   RewriteRule ^blog/birmingham-gutter-maintenance-calendar-seasonal-guide/?$ /blog/birmingham-seasonal-gutter-guide/ [R=301,L]
   RewriteRule ^blog/gutter-inspection-save-birmingham-homeowners-thousands/?$ /blog/birmingham-gutter-inspection/ [R=301,L]
@@ -182,7 +201,7 @@ AddDefaultCharset UTF-8
   RewriteRule ^Quote/?$ /quote/ [R=301,L]
   RewriteRule ^Services/?$ /services/ [R=301,L]
   RewriteRule ^Blog/?$ /blog/ [R=301,L]
-  RewriteRule ^Commercial/?$ /commercial/ [R=301,L]
+  RewriteRule ^Commercial/?$ /services/commercial-gutter-cleaning/ [R=301,L]
   RewriteRule ^HomeScreen/?$ / [R=301,L]
   RewriteRule ^Navbar/?$ / [R=301,L]
   RewriteRule ^navbar/?$ / [R=301,L]
@@ -197,16 +216,23 @@ AddDefaultCharset UTF-8
   RewriteRule ^gutter-cleaning-callington/?$ - [G,L]
   RewriteRule ^gutter-cleaning-wendover/?$ - [G,L]
 
-  # Removed service area pages (410 Gone)
-  RewriteRule ^exterior-upvc-cleaning-[a-zA-Z0-9-]+/?$ - [G,L]
-  RewriteRule ^commercial-roof-cleaning-[a-zA-Z0-9-]+/?$ - [G,L]
-  RewriteRule ^commercial-gutter-cleaning-[a-zA-Z0-9-]+/?$ - [G,L]
-  RewriteRule ^commercial-gutter-clearing-[a-zA-Z0-9-]+/?$ - [G,L]
-  RewriteRule ^roof-inspection-[a-zA-Z0-9-]+/?$ - [G,L]
-  RewriteRule ^gutter-inspection-[a-zA-Z0-9-]+/?$ - [G,L]
-  RewriteRule ^conservatory-cleaning-[a-zA-Z0-9-]+/?$ - [G,L]
-  RewriteRule ^conservatory-roof-cleaning-[a-zA-Z0-9-]+/?$ - [G,L]
-  RewriteRule ^conservatory-gutter-cleaning-.*$ - [G,L]
+  # Removed service area pages → 301 to the matching live page (Oct 2026: several of these
+  # still ranked 8–16 in GSC, so pass that ranking on instead of returning 410 Gone).
+  # 1) Same area exists as a gutter / roof cleaning page → send there.
+  RewriteCond %{DOCUMENT_ROOT}/gutter-cleaning-$1/index.html -f
+  RewriteRule ^(?:gutter-inspection|commercial-gutter-cleaning|commercial-gutter-clearing|exterior-upvc-cleaning|conservatory-cleaning|conservatory-gutter-cleaning)-([a-zA-Z0-9-]+)/?$ /gutter-cleaning-$1/ [R=301,L]
+  RewriteCond %{DOCUMENT_ROOT}/roof-cleaning-$1/index.html -f
+  RewriteRule ^(?:roof-inspection|commercial-roof-cleaning|conservatory-roof-cleaning)-([a-zA-Z0-9-]+)/?$ /roof-cleaning-$1/ [R=301,L]
+  # 2) Otherwise → the main service page.
+  RewriteRule ^exterior-upvc-cleaning-[a-zA-Z0-9-]+/?$ /services/upvc-cleaning/ [R=301,L]
+  RewriteRule ^commercial-roof-cleaning-[a-zA-Z0-9-]+/?$ /services/commercial-roof-cleaning/ [R=301,L]
+  RewriteRule ^commercial-gutter-cleaning-[a-zA-Z0-9-]+/?$ /services/commercial-gutter-cleaning/ [R=301,L]
+  RewriteRule ^commercial-gutter-clearing-[a-zA-Z0-9-]+/?$ /services/commercial-gutter-cleaning/ [R=301,L]
+  RewriteRule ^roof-inspection-[a-zA-Z0-9-]+/?$ /services/roof-inspection/ [R=301,L]
+  RewriteRule ^gutter-inspection-[a-zA-Z0-9-]+/?$ /services/gutter-inspection/ [R=301,L]
+  RewriteRule ^conservatory-cleaning-[a-zA-Z0-9-]+/?$ /services/conservatory/ [R=301,L]
+  RewriteRule ^conservatory-roof-cleaning-[a-zA-Z0-9-]+/?$ /services/conservatory/ [R=301,L]
+  RewriteRule ^conservatory-gutter-cleaning-.*$ /services/conservatory/ [R=301,L]
 
   # Spam-link URLs from third-party sites (GSC Oct 2026: 1.96M "Alternative page with
   # proper canonical tag" + most 404s). 410 Gone tells Google to drop them for good.
@@ -218,13 +244,14 @@ AddDefaultCharset UTF-8
   RewriteRule ^shop(/.*)?$ - [G,L]
 
   # Cannibalisation + dead URLs found in GSC (Oct 2026)
-  RewriteRule ^west-midlands/gutter-cleaning-birmingham/?$ / [R=301,L]
+  RewriteRule ^west-midlands/gutter-cleaning-birmingham/?$ /gutter-cleaning-birmingham/ [R=301,L]
+  RewriteRule ^gutter-cleaners-birmingham/?$ /gutter-cleaning-birmingham/ [R=301,L]
+  RewriteRule ^gutter-clearing-birmingham/?$ /gutter-cleaning-birmingham/ [R=301,L]
   RewriteRule ^home/?$ / [R=301,L]
   RewriteRule ^blog/roof-moss-removal-kings-norton-b30-birmingham/?$ /roof-cleaning-kings-norton/ [R=301,L]
 
-  # Ranking consolidation (Oct 2026): 15 pages competed for "gutter cleaning birmingham".
-  # Homepage ranked #12 with 657/903 backlinks, so it is the single Birmingham target.
-  RewriteRule ^gutter-cleaning-birmingham/?$ / [R=301,L]
+  # Ranking consolidation (Oct 2026): thin Birmingham variants → homepage.
+  # /gutter-cleaning-birmingham/ is a real page again (Oct 27 2026) — do NOT redirect it.
   RewriteRule ^trusted-gutter-cleaners-birmingham/?$ / [R=301,L]
   RewriteRule ^next-day-gutter-cleaning-birmingham/?$ / [R=301,L]
   RewriteRule ^autumn-gutter-cleaning-birmingham/?$ / [R=301,L]

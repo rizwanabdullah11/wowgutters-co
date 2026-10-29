@@ -9,6 +9,8 @@ export const GUTTER_PRICING = {
   premium: 200,
   installation: 300,
   fasciaAndSoffit: 90,
+  conservatoryGutterCleaning: 50,
+  roofCleaningStarting: 500,
 } as const;
 
 export function formatGbp(amount: number): string {
@@ -62,6 +64,17 @@ export const GUTTER_PRICING_PACKAGES = [
 ] as const;
 
 export const GUTTER_ADDON_SERVICES = [
+  {
+    title: 'Conservatory Gutter Cleaning',
+    price: GUTTER_PRICING.conservatoryGutterCleaning,
+    description: 'Specialist conservatory roofline and gutter clearance',
+  },
+  {
+    title: 'Roof Cleaning & Moss Removal',
+    price: GUTTER_PRICING.roofCleaningStarting,
+    description: 'Soft-wash moss removal, biocide treatment & full gutter clearance (starting from £500)',
+    startingFrom: true,
+  },
   {
     title: 'Fascia & Soffit Cleaning',
     price: GUTTER_PRICING.fasciaAndSoffit,

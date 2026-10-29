@@ -77,32 +77,32 @@ export default function CityFAQ({ title, faqs }: { title: string; faqs: CityGutt
             <div className="sticky top-8 space-y-6">
               <div className="bg-[#19C58B] rounded-2xl p-8 text-white shadow-2xl">
                 <h3 className="text-2xl font-black mb-4">Free Quote in 60 Seconds</h3>
-                <p className="text-white/90 mb-6 leading-relaxed">
+                <p className="text-white mb-6 leading-relaxed">
                   Tell us your property type and postcode — we&apos;ll give you a fixed price instantly, no obligation.
                 </p>
                 <div className="space-y-4">
                   <a
                     href="tel:07421433910"
-                    className="flex items-center gap-3 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-xl p-4 transition-all duration-300 group"
+                    className="flex items-center gap-3 bg-black/15 hover:bg-black/25 backdrop-blur-sm rounded-xl p-4 transition-all duration-300 group"
                   >
                     <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
                       <Phone className="w-6 h-6" />
                     </div>
                     <div>
-                      <p className="text-xs text-white/80 font-semibold">Call us</p>
+                      <p className="text-xs text-white font-semibold">Call us</p>
                       <p className="text-lg font-bold">07421 433910</p>
                     </div>
                   </a>
 
                   <a
                     href="mailto:support@wowgutters.co.uk"
-                    className="flex items-center gap-3 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-xl p-4 transition-all duration-300 group"
+                    className="flex items-center gap-3 bg-black/15 hover:bg-black/25 backdrop-blur-sm rounded-xl p-4 transition-all duration-300 group"
                   >
                     <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
                       <Mail className="w-6 h-6" />
                     </div>
                     <div>
-                      <p className="text-xs text-white/80 font-semibold">Email</p>
+                      <p className="text-xs text-white font-semibold">Email</p>
                       <p className="text-sm font-bold">support@wowgutters.co.uk</p>
                     </div>
                   </a>

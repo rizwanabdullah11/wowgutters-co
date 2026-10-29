@@ -122,7 +122,7 @@ export function buildBirminghamRoofLanding(): CityGutterLandingData {
     city: 'Birmingham',
     titleTag: 'Roof Cleaning Birmingham | Professional Moss Removal | WOW Gutters Ltd',
     metaDescription:
-      'Professional roof cleaning in Birmingham from £150. Soft-wash moss removal, biocide treatment, before & after photos. Fully insured. Call WOW Gutters Ltd: 07421 433910.',
+      'Professional roof cleaning in Birmingham from £500. Soft-wash moss removal, biocide treatment, before & after photos. Fully insured. Call WOW Gutters Ltd: 07421 433910.',
     h1: 'Roof Cleaning Birmingham — Professional Moss & Algae Removal Across the West Midlands',
     heroIntro:
       'WOW Gutters Ltd provides professional roof cleaning across Birmingham and all surrounding West Midlands postcodes. Our controlled soft-wash methods remove moss, algae and lichen from roof tiles without high-pressure damage — with biocide treatment applied after every clean and before & after photos on every job. From Victorian terraces in Moseley to semis in Sutton Coldfield and detached homes across B15–B76, we restore roof appearance and help protect tiles from moisture damage caused by organic growth.',

@@ -47,7 +47,7 @@ export default function ElmdonPage() {
         city="Elmdon"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Solihull', 'Birmingham', 'Sheldon', 'Marston Green']}
         geo={{ latitude: 52.445, longitude: -1.760 }}
         postcodes={['B26']}

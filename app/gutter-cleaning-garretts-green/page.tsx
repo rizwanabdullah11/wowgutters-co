@@ -47,7 +47,7 @@ export default function GarrettsGreenPage() {
         city="Garretts Green"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Sheldon', 'Yardley', 'Stechford', 'Birmingham', 'Solihull']}
         geo={{ latitude: 52.4630, longitude: -1.7950 }}
         postcodes={['B26', 'B33']}

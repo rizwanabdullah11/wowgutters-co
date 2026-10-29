@@ -2,7 +2,7 @@ import { colors } from '@/constants/colors';
 import { CheckCircle, Award, Shield, Wrench } from 'lucide-react';
 import Link from 'next/link';
 
-const ACCENTS = ['#3B82F6', '#F97316', '#19C58B', '#8B5CF6'];
+const ACCENTS = ['#1D4ED8', '#C2410C', '#047857', '#6D28D9'];
 
 const reasons = [
   {
@@ -43,7 +43,7 @@ export default function WhyChooseUs() {
         {/* Eyebrow */}
         <div className="flex items-center justify-center gap-3 mb-5">
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
-          <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primary }}>
+          <span className="text-xs font-bold tracking-[0.2em] uppercase" style={{ color: colors.primaryText }}>
             Why Choose WOW Gutters Ltd
           </span>
           <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />

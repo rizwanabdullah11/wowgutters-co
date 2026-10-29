@@ -8,10 +8,11 @@ const HERO_VIDEO_PRIMARY = '/gutter-final-video.mp4';
 /** 432px, no audio, ~1.3 MB (full file is 5.3 MB) — phones and tablets. */
 const HERO_VIDEO_MOBILE = '/gutter-final-video-mobile.mp4';
 
-// Rotating headlines — location-first for local SEO
+// Rotating headlines — location-first for local SEO. Homepage = West Midlands;
+// "Birmingham" headings live on /gutter-cleaning-birmingham/ so the two pages don't compete.
 const HERO_HEADLINES = [
   {
-    prefix: 'Birmingham',
+    prefix: 'West Midlands',
     service: 'Gutter Cleaning',
     highlight: 'Specialists',
     bottom: 'Fast • Fully Insured • Same Day Booking',
@@ -89,25 +90,44 @@ export default function HeroSection() {
               <span className="hero-badge-text">Award-Winning Specialists • UK Wide</span>
             </div> */}
 
-            {/* Dynamic Headline */}
-            <h1 className="hero-title animate-fade-in-up delay-100">
-              <div className={`headline-slider ${isAnimating ? 'headline-hidden' : 'headline-visible'}`}>
-                <span className="title-prefix">{HERO_HEADLINES[headlineIndex].prefix}</span>{' '}
-                <span className="title-service">{HERO_HEADLINES[headlineIndex].service}</span>
-                {HERO_HEADLINES[headlineIndex].highlight && (
-                  <>
-                    {' '}
-                    <span className="title-highlight">
-                      {HERO_HEADLINES[headlineIndex].highlight}
-                    </span>
-                  </>
-                )}
-                <br />
-                <span className="title-bottom">
-                  {HERO_HEADLINES[headlineIndex].bottom}
-                </span>
-              </div>
-            </h1>
+            {/* Dynamic Headline — the rotating headlines have different line counts on
+                mobile, which pushed the text below up/down every 3s (homepage CLS 0.12).
+                Invisible copies of every headline share one grid cell with the real <h1>,
+                so the block always keeps the height of the tallest headline. */}
+            <div className="hero-title-stack">
+              {HERO_HEADLINES.map((h) => (
+                <div key={h.prefix} className="hero-title hero-title-sizer" aria-hidden="true">
+                  <span className="title-prefix">{h.prefix}</span>{' '}
+                  <span className="title-service">{h.service}</span>
+                  {h.highlight ? (
+                    <>
+                      {' '}
+                      <span className="title-highlight">{h.highlight}</span>
+                    </>
+                  ) : null}
+                  <br />
+                  <span className="title-bottom">{h.bottom}</span>
+                </div>
+              ))}
+              <h1 className="hero-title animate-fade-in-up delay-100">
+                <div className={`headline-slider ${isAnimating ? 'headline-hidden' : 'headline-visible'}`}>
+                  <span className="title-prefix">{HERO_HEADLINES[headlineIndex].prefix}</span>{' '}
+                  <span className="title-service">{HERO_HEADLINES[headlineIndex].service}</span>
+                  {HERO_HEADLINES[headlineIndex].highlight && (
+                    <>
+                      {' '}
+                      <span className="title-highlight">
+                        {HERO_HEADLINES[headlineIndex].highlight}
+                      </span>
+                    </>
+                  )}
+                  <br />
+                  <span className="title-bottom">
+                    {HERO_HEADLINES[headlineIndex].bottom}
+                  </span>
+                </div>
+              </h1>
+            </div>
 
             {/* Subtext */}
             <p className="hero-subtitle animate-fade-in-up delay-200">
@@ -241,6 +261,19 @@ export default function HeroSection() {
           color: white;
           text-shadow: 0 10px 30px rgba(0,0,0,0.5);
         }
+        .hero-title-stack {
+          display: grid;
+          margin: 0 0 20px 0;
+        }
+        .hero-title-stack > * {
+          grid-area: 1 / 1;
+          margin: 0;
+        }
+        .hero-title-sizer {
+          visibility: hidden;
+          pointer-events: none;
+          user-select: none;
+        }
         .headline-slider {
           transition: opacity 0.4s ease, transform 0.4s ease;
         }
@@ -315,14 +348,14 @@ export default function HeroSection() {
           -webkit-appearance: none;
           cursor: pointer;
           transition: all 0.3s ease;
-          box-shadow: 0 10px 30px rgba(25, 197, 139, 0.3);
+          box-shadow: 0 10px 30px rgba(25,197,139, 0.3);
           position: relative;
           overflow: hidden;
         }
         .hero-primary-btn:hover {
           background: #19C58B;
           transform: translateY(-3px);
-          box-shadow: 0 14px 35px rgba(25, 197, 139, 0.55);
+          box-shadow: 0 14px 35px rgba(25,197,139, 0.55);
         }
 
         .btn-arrow {

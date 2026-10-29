@@ -91,7 +91,7 @@ export default function AreaCrawlFooter({
           <span 
             className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-widest bg-emerald-100 text-emerald-800 mb-3"
           >
-            <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
+            <Sparkles className="w-3.5 h-3.5 text-emerald-700" />
             Local Property Maintenance &amp; Roofline Guide
           </span>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-slate-900 mb-4 leading-tight">
@@ -108,7 +108,7 @@ export default function AreaCrawlFooter({
           {/* Card 1: Local Architecture */}
           <div className="bg-white p-6 sm:p-7 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
             <div>
-              <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-5 font-bold">
+              <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center mb-5 font-bold">
                 <Home className="w-6 h-6" />
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-3">
@@ -180,7 +180,7 @@ export default function AreaCrawlFooter({
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
           
           <Link href="/services/gutter-inspection/" className="bg-white p-4 rounded-xl border border-slate-200 hover:border-emerald-400 hover:shadow-sm transition-all flex items-start gap-3 group">
-            <Camera className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
+            <Camera className="w-5 h-5 text-emerald-700 shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
             <div>
               <p className="text-xs font-bold text-slate-900 group-hover:text-emerald-700 transition-colors">Before &amp; After HD Photos</p>
               <p className="text-xs text-slate-500 mt-0.5">Camera verification provided on every clean</p>
@@ -188,7 +188,7 @@ export default function AreaCrawlFooter({
           </Link>
 
           <Link href="/downpipe-unblocking" className="bg-white p-4 rounded-xl border border-slate-200 hover:border-emerald-400 hover:shadow-sm transition-all flex items-start gap-3 group">
-            <Gauge className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
+            <Gauge className="w-5 h-5 text-emerald-700 shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
             <div>
               <p className="text-xs font-bold text-slate-900 group-hover:text-emerald-700 transition-colors">Flow-Tested Drainage</p>
               <p className="text-xs text-slate-500 mt-0.5">Downpipes unblocked and water tested</p>
@@ -196,7 +196,7 @@ export default function AreaCrawlFooter({
           </Link>
 
           <Link href="/reviews/" className="bg-white p-4 rounded-xl border border-slate-200 hover:border-emerald-400 hover:shadow-sm transition-all flex items-start gap-3 group">
-            <Star className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
+            <Star className="w-5 h-5 text-emerald-700 shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
             <div>
               <p className="text-xs font-bold text-slate-900 group-hover:text-emerald-700 transition-colors">4.9★ Rated on Google</p>
               <p className="text-xs text-slate-500 mt-0.5">£10M liability insurance &amp; verified reviews</p>
@@ -204,7 +204,7 @@ export default function AreaCrawlFooter({
           </Link>
 
           <Link href="/gutter-cleaning-prices/" className="bg-white p-4 rounded-xl border border-slate-200 hover:border-emerald-400 hover:shadow-sm transition-all flex items-start gap-3 group">
-            <Calculator className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
+            <Calculator className="w-5 h-5 text-emerald-700 shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
             <div>
               <p className="text-xs font-bold text-slate-900 group-hover:text-emerald-700 transition-colors">Fixed Upfront Pricing</p>
               <p className="text-xs text-slate-500 mt-0.5">Transparent rates with no call-out fee</p>

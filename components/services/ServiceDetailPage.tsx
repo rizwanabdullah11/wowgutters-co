@@ -668,7 +668,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                   <a
                     href={`tel:${service.ctaSection.phone.replace(/\s/g, '')}`}
                     className="font-semibold underline underline-offset-2"
-                    style={{ color: colors.primary }}
+                    style={{ color: colors.primaryText }}
                   >
                     {service.ctaSection.phone}
                   </a>{' '}
@@ -681,15 +681,15 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
             {service.id === 'gutter-cleaning' && (
               <p className="text-slate-600 leading-relaxed text-lg mb-8">
                 Looking for local pricing and postcodes? See{' '}
-                <Link href="/gutter-cleaning-birmingham/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/gutter-cleaning-birmingham/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   gutter cleaning in Birmingham
                 </Link>
                 ,{' '}
-                <Link href="/gutter-cleaning-near-me/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/gutter-cleaning-near-me/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   gutter cleaning near me
                 </Link>
                 , or browse our{' '}
-                <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   full services range
                 </Link>
                 .
@@ -698,16 +698,16 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
             {service.id === 'gutter-repairs' && (
               <p className="text-slate-600 leading-relaxed text-lg mb-8">
                 Not sure if you need a repair or a clean? Read our{' '}
-                <Link href="/blog/gutter-repairs-guide/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/blog/gutter-repairs-guide/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   gutter repairs guide
                 </Link>
                 , book a{' '}
-                <Link href="/services/gutter-inspection/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/services/gutter-inspection/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   free gutter inspection
                 </Link>
-                , or browse our{' '}
-                <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
-                  full services range
+                , or find{' '}
+                <Link href="/gutter-repair-service-areas/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
+                  gutter repairs in your area
                 </Link>
                 .
               </p>
@@ -715,15 +715,15 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
             {service.id === 'upvc-cleaning' && (
               <p className="text-slate-600 leading-relaxed text-lg mb-8">
                 Read our{' '}
-                <Link href="/blog/fascias-soffits-west-midlands/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/blog/fascias-soffits-west-midlands/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   fascias and soffits guide
                 </Link>
                 , combine with{' '}
-                <Link href="/services/gutter-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/services/gutter-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   gutter cleaning
                 </Link>
                 , or browse our{' '}
-                <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   full services range
                 </Link>
                 .
@@ -732,15 +732,15 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
             {service.id === 'roof-cleaning' && (
               <p className="text-slate-600 leading-relaxed text-lg mb-8">
                 See{' '}
-                <Link href="/roof-cleaning-birmingham/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/roof-cleaning-birmingham/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   roof cleaning in Birmingham
                 </Link>
                 , combine with{' '}
-                <Link href="/services/gutter-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/services/gutter-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   gutter cleaning
                 </Link>
                 , or browse our{' '}
-                <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   full services range
                 </Link>
                 .
@@ -749,15 +749,15 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
             {service.id === 'gutter-inspection' && (
               <p className="text-slate-600 leading-relaxed text-lg mb-8">
                 Read our{' '}
-                <Link href="/blog/birmingham-gutter-inspection/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/blog/birmingham-gutter-inspection/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   gutter inspection guide
                 </Link>
                 , combine with{' '}
-                <Link href="/services/gutter-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/services/gutter-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   gutter cleaning
                 </Link>
                 , or see{' '}
-                <Link href="/gutter-cleaning-birmingham/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/gutter-cleaning-birmingham/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   gutter cleaning in Birmingham
                 </Link>
                 .
@@ -766,15 +766,15 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
             {service.id === 'roof-inspection' && (
               <p className="text-slate-600 leading-relaxed text-lg mb-8">
                 See{' '}
-                <Link href="/roof-cleaning-birmingham/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/roof-cleaning-birmingham/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   roof cleaning in Birmingham
                 </Link>
                 , book a{' '}
-                <Link href="/services/gutter-inspection/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/services/gutter-inspection/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   free gutter inspection
                 </Link>
                 , or browse our{' '}
-                <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   full services range
                 </Link>
                 .
@@ -783,15 +783,15 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
             {service.id === 'conservatory' && (
               <p className="text-slate-600 leading-relaxed text-lg mb-8">
                 Combine with{' '}
-                <Link href="/services/gutter-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/services/gutter-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   gutter cleaning
                 </Link>
                 , see{' '}
-                <Link href="/services/hot-wash-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/services/hot-wash-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   hot wash cleaning
                 </Link>
                 , or browse our{' '}
-                <Link href="/services/upvc-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/services/upvc-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   UPVC cleaning service
                 </Link>
                 .
@@ -800,15 +800,15 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
             {service.id === 'commercial-gutter-cleaning' && (
               <p className="text-slate-600 leading-relaxed text-lg mb-8">
                 Read our{' '}
-                <Link href="/blog/warehouse-gutter-clearing/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/blog/warehouse-gutter-clearing/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   Birmingham warehouse case study
                 </Link>
                 , see{' '}
-                <Link href="/services/commercial-roof-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/services/commercial-roof-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   commercial roof cleaning
                 </Link>
                 , or browse{' '}
-                <Link href="/services/gutter-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/services/gutter-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   residential gutter cleaning
                 </Link>
                 .
@@ -817,15 +817,15 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
             {service.id === 'commercial-roof-cleaning' && (
               <p className="text-slate-600 leading-relaxed text-lg mb-8">
                 Pair with{' '}
-                <Link href="/services/commercial-gutter-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/services/commercial-gutter-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   commercial gutter cleaning
                 </Link>
                 , see{' '}
-                <Link href="/services/roof-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/services/roof-cleaning/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   residential roof cleaning
                 </Link>
                 , or browse our{' '}
-                <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primary }}>
+                <Link href="/services/" className="font-semibold underline underline-offset-2" style={{ color: colors.primaryText }}>
                   full services range
                 </Link>
                 .
@@ -1111,7 +1111,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
 
       {/* WhatsApp Section */}
       <section className="relative overflow-hidden border-t border-white/10 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] py-20 px-4">
-        <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#16c784]/30 blur-[1px]" />
+        <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#19C58B]/30 blur-[1px]" />
         <div className="pointer-events-none absolute -right-8 -top-12 h-52 w-[45%] rotate-6 rounded-[35%] bg-[#2dd4bf]/24 blur-[1px]" />
         <div className="pointer-events-none absolute left-[28%] top-[28%] h-20 w-56 -rotate-12 rounded-[30%] bg-white/70" />
         <div className="pointer-events-none absolute right-[16%] bottom-[10%] h-16 w-48 rotate-12 rounded-[30%] bg-white/65" />
@@ -1146,7 +1146,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                     href={`${whatsappBaseUrl}?text=${encodeURIComponent(`Hi, ${question}`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="shrink-0 rounded-md bg-[#16c784] px-4 py-1.5 text-base font-black text-white hover:bg-[#0fb272] transition-colors inline-flex items-center gap-1.5 shadow-[0_6px_14px_rgba(22,199,132,0.35)]"
+                    className="shrink-0 rounded-md bg-[#19C58B] px-4 py-1.5 text-base font-black text-white hover:bg-[#0fb272] transition-colors inline-flex items-center gap-1.5 shadow-[0_6px_14px_rgba(22,199,132,0.35)]"
                   >
                     <svg
                       className="h-4 w-4"
@@ -1339,13 +1339,13 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
           border: none;
           cursor: pointer;
           transition: all 0.3s ease;
-          box-shadow: 0 10px 30px rgba(25, 197, 139, 0.3);
+          box-shadow: 0 10px 30px rgba(25,197,139, 0.3);
           position: relative;
         }
 
         .hero-primary-btn:hover {
           transform: translateY(-4px);
-          box-shadow: 0 15px 40px rgba(25, 197, 139, 0.4);
+          box-shadow: 0 15px 40px rgba(25,197,139, 0.4);
           background: #14B27D;
         }
 

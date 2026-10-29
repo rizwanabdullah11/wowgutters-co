@@ -47,7 +47,7 @@ export default function BordesleyGreenPage() {
         city="Bordesley Green"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Small Heath', 'Hay Mills', 'Stechford', 'Yardley', 'Birmingham']}
         geo={{ latitude: 52.4730, longitude: -1.8500 }}
         postcodes={['B9', 'B10']}

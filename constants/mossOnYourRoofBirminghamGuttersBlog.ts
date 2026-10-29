@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/moss-removal-gutter/moss-removal-gutter-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 
 const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
@@ -16,18 +16,18 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Professional roof moss treatment combined with thorough gutter clearance across Birmingham and the West Midlands — tackling both ends of the cycle in the same coordinated visit rather than treating symptoms repeatedly. Ground-based vacuum system. No ladders. Before and after photos on every job. Fully insured.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-week availability</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
 const sectionCta = `
 <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; margin: 32px 0; text-align: center;">
   <p style="font-size: 1.1rem; font-weight: 700; color: #0f172a; margin: 0 0 8px 0;">WOW Gutters Ltd — Birmingham's gutter cleaning and roof moss specialists</p>
-  <a href="tel:07421433910" style="color: #19C58B; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
+  <a href="tel:07421433910" style="color: #047857; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
 </div>`;
 
 export const mossOnYourRoofBirminghamGuttersBlogPost: BlogPost = {
@@ -220,7 +220,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How quickly does roof moss actually affect gutters?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Continuously, rather than as a single concentrated seasonal event the way autumn leaf fall behaves. Moss sheds fragments throughout the entire year, particularly during and immediately after rainfall, contributing to gutter accumulation constantly rather than in one defined seasonal period, which is why a standard twice-yearly cleaning schedule can genuinely struggle to keep pace with moss-affected properties.</p>
@@ -230,7 +230,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Can moss accumulating in a gutter really encourage more moss growth?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes, genuinely and significantly. Moss retained within a gutter channel keeps the immediately surrounding area consistently damp for extended periods, creating exactly the sustained moisture conditions favourable to further moss establishment both within the gutter channel itself and, in some cases, spreading back toward the roof edge above, creating the self-reinforcing cycle described throughout this article.</p>
@@ -240,7 +240,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Why do north-facing roofs consistently develop worse moss problems than south-facing ones?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">North-facing roof surfaces receive meaningfully less direct sunlight throughout the day than south-facing equivalents, and correspondingly remain damp for considerably longer after each rainfall event before the surface has adequate opportunity to dry out fully. This extended dampness is precisely the sustained moisture condition moss requires to establish and spread most aggressively.</p>
@@ -250,7 +250,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Does treating roof moss alone resolve the associated gutter problem?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">No, not on its own. Existing moss and moss-derived silt already accumulated and established within the gutter channel requires separate, thorough clearance reaching the channel floor. Treating only the roof-level source without clearing the existing gutter accumulation leaves the cycle-reinforcing material firmly in place within the gutter itself.</p>
@@ -260,7 +260,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Does clearing the gutter alone, without treating roof moss, solve the problem?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">No. Clearing a gutter without addressing the roof moss source simply means the entire cycle restarts as soon as the next round of fragments sheds from the still-untreated roof surface above, typically within a relatively short period given moss's continuous shedding pattern.</p>
@@ -270,7 +270,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How does moss actually cause localised gutter damage rather than just adding debris?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Established moss growth alters the smooth water flow path across a roof surface, creating localised areas of concentrated water flow that redirect from where water would naturally travel on a moss-free equivalent surface. This creates uneven, localised overloading at specific gutter sections, accelerating joint failure and bracket wear at those particular points even on a gutter system that's otherwise adequately sized and structurally sound.</p>
@@ -280,7 +280,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Why is summer the best time to treat roof moss specifically?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Dry summer conditions allow biocide treatment to be absorbed by moss tissue more completely than during wetter periods, producing a more reliable and thorough kill. Treatment applied in summer also gives the dead moss several months to break down and largely wash clear before autumn's heavier rainfall arrives, meaning considerably less dead material subsequently sheds into the gutter compared with treatment applied later in the year.</p>
@@ -290,7 +290,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What are the earliest signs that the moss-gutter cycle is underway on my property?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Visible moss coverage on the roof surface, moss or algae growth directly visible within a section of gutter rather than just on the roof, a gutter that fills with debris noticeably faster than the property's tree coverage alone would explain, and persistent dampness or slow drainage within specific gutter sections not attributable to any obvious structural cause.</p>
@@ -300,7 +300,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do you offer both roof moss treatment and gutter clearing together?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. We provide combined roof cleaning and moss removal alongside standard gutter cleaning, addressing both ends of the cycle described in this article within the same overall visit or closely coordinated visits, rather than treating the two as unrelated services.</p>
@@ -310,7 +310,7 @@ ${ctaBox}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What areas do you cover for moss treatment and gutter clearing?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Birmingham, Solihull, Sutton Coldfield, Wolverhampton, Walsall, Dudley, Coventry, Redditch, Worcester, Bromsgrove, Kidderminster, and all surrounding West Midlands areas.</p>
@@ -327,10 +327,10 @@ ${ctaBox}
 
 ${ctaBox}
 
-<p><strong>Call:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a><br/>
-<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">support@wowgutters.co.uk</a><br/>
-<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">wowgutters.co.uk</a><br/>
-<strong>Free quote:</strong> <a href="/quote/" style="font-weight: 700; color: #19C58B; text-decoration: none;">wowgutters.co.uk/quote</a></p>
+<p><strong>Call:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #047857; text-decoration: none;">07421 433910</a><br/>
+<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">support@wowgutters.co.uk</a><br/>
+<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">wowgutters.co.uk</a><br/>
+<strong>Free quote:</strong> <a href="/quote/" style="font-weight: 700; color: #047857; text-decoration: none;">wowgutters.co.uk/quote</a></p>
 
 <p><em>Serving Birmingham, Solihull, Sutton Coldfield, Edgbaston, Harborne, Kings Heath, Moseley, Bournville, Erdington, Wolverhampton, Dudley, Walsall, West Bromwich, Coventry, Redditch, Bromsgrove, Worcester, Kidderminster and all West Midlands areas.</em></p>
 

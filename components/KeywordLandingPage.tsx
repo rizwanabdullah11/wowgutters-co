@@ -107,7 +107,7 @@ function guarantees(cat: string): string[] {
   if (cat === 'solar') return [
     '100% pure deionised water cleaning — zero spots or mineral streaks',
     'Scratch-free soft brushes preserve anti-reflective glass coatings',
-    'Chemical-free cleaning protecting manufacturer warranties',
+    'Chemical-free cleaning that is gentle on uPVC and roofing',
     'Increases solar energy generation by up to 30%',
     'Fully insured with £10 million public liability cover',
     'Free quotes with fast scheduling across Birmingham & West Midlands',
@@ -158,9 +158,9 @@ function pricingInfo(cat: string): { priceFrom: number; priceTo: number; label: 
   if (cat === 'solar') return { priceFrom: 60, priceTo: 140, label: 'solar panel cleaning' };
   if (cat === 'window') return { priceFrom: 25, priceTo: 60, label: 'window cleaning' };
   if (cat === 'pressure-wash') return { priceFrom: 60, priceTo: 200, label: 'pressure washing' };
-  if (cat === 'roof') return { priceFrom: 150, priceTo: 400, label: 'roof cleaning' };
+  if (cat === 'roof') return { priceFrom: 500, priceTo: 500, label: 'roof cleaning' };
   if (cat === 'conservatory') return { priceFrom: 80, priceTo: 200, label: 'conservatory cleaning' };
-  return { priceFrom: 50, priceTo: 140, label: 'gutter cleaning' };
+  return { priceFrom: 100, priceTo: 210, label: 'gutter cleaning' };
 }
 
 function localSpotlight(cat: string, page: KeywordPage): string | null {
@@ -254,7 +254,7 @@ function faqItems(cat: string, page: KeywordPage): { question: string; answer: s
     { question: 'Are you insured?', answer: 'Yes — we hold comprehensive public liability insurance covering all pressure washing work.' },
   ];
   if (cat === 'roof') return [
-    { question: `How much does ${l} cost?`, answer: `Roof cleaning starts from £150 depending on roof size, moss coverage and access. We provide fixed quotes before any work begins.` },
+    { question: `How much does ${l} cost?`, answer: `Roof cleaning starts from £500 depending on roof size, moss coverage and access. We provide fixed quotes before any work begins.` },
     { question: 'Do you use high-pressure washing on roofs?', answer: 'No — we use low-pressure soft wash methods that are safe for all tile types, including concrete, clay and slate.' },
     { question: 'How long does roof cleaning take?', answer: 'Most domestic roofs take 2–4 hours. Larger properties may take longer. We give you a time estimate when quoting.' },
     { question: 'Will the moss grow back?', answer: 'We apply biocide treatment after cleaning to slow regrowth. Annual maintenance treatments keep your roof clear longer.' },
@@ -405,13 +405,19 @@ export default function KeywordLandingPage({ page }: { page: KeywordPage }) {
             {label} prices in Birmingham &amp; West Midlands
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed mb-6">
-            Most properties are quoted between <strong>£{priceFrom}</strong> and{' '}
-            <strong>£{priceTo}</strong> depending on the size and condition of your property.
+            {priceFrom === priceTo ? (
+              <>Prices start from <strong>£{priceFrom}</strong> depending on the size and condition of your property.</>
+            ) : (
+              <>
+                Most properties are quoted between <strong>£{priceFrom}</strong> and{' '}
+                <strong>£{priceTo}</strong> depending on the size and condition of your property.
+              </>
+            )}
             Fixed price confirmed before we arrive — no call-out fee and no hidden charges.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
             <Link
-              href="/pricing/"
+              href="/gutter-cleaning-prices/"
               className="inline-flex items-center justify-center px-6 py-3 rounded-full font-bold text-white"
               style={{ background: colors.primaryGradient }}
             >
@@ -629,7 +635,7 @@ export default function KeywordLandingPage({ page }: { page: KeywordPage }) {
                     href={`${WA}?text=${encodeURIComponent(`Hi, ${question}`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="shrink-0 rounded-md bg-[#16c784] px-4 py-1.5 text-base font-black text-white hover:bg-[#0fb272] transition-colors"
+                    className="shrink-0 rounded-md bg-[#19C58B] px-4 py-1.5 text-base font-black text-white hover:bg-[#0fb272] transition-colors"
                   >
                     Ask
                   </a>
@@ -755,13 +761,13 @@ export default function KeywordLandingPage({ page }: { page: KeywordPage }) {
           background: ${colors.primaryGradient};
           padding: 18px 32px; border-radius: 100px; cursor: pointer;
           transition: all 0.3s ease;
-          box-shadow: 0 10px 30px rgba(25, 197, 139, 0.3);
+          box-shadow: 0 10px 30px rgba(25,197,139, 0.3);
           color: white;
           font-weight: 800;
         }
         .hero-primary-btn:hover {
           transform: translateY(-4px);
-          box-shadow: 0 15px 40px rgba(25, 197, 139, 0.4);
+          box-shadow: 0 15px 40px rgba(25,197,139, 0.4);
         }
         .hero-wave-bottom { position: absolute; bottom: -1px; left: 0; right: 0; line-height: 0; z-index: 10; }
         .hero-wave-bottom svg { width: 100%; height: 60px; display: block; }

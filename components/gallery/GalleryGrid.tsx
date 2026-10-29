@@ -465,7 +465,7 @@ export default function GalleryGrid({ items = galleryItems }: { items?: GalleryI
             <div className="p-5 flex-1 flex flex-col justify-between">
               <div>
                 <div className="flex items-center justify-between gap-2 mb-2">
-                  <span className="text-xs font-bold text-[#19C58B] uppercase tracking-wider">
+                  <span className="text-xs font-bold text-[#047857] uppercase tracking-wider">
                     {item.category}
                   </span>
                   {item.location && (
@@ -474,7 +474,7 @@ export default function GalleryGrid({ items = galleryItems }: { items?: GalleryI
                     </span>
                   )}
                 </div>
-                <h3 className="font-black text-lg text-slate-900 leading-snug mb-2 group-hover:text-[#19C58B] transition-colors">
+                <h3 className="font-black text-lg text-slate-900 leading-snug mb-2 group-hover:text-[#047857] transition-colors">
                   {item.title}
                 </h3>
                 <p className="text-slate-600 text-sm leading-relaxed">{item.description}</p>
@@ -520,7 +520,7 @@ export default function GalleryGrid({ items = galleryItems }: { items?: GalleryI
             <div className="p-6 sm:p-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 bg-white">
               <div className="space-y-2 flex-1">
                 <div className="flex items-center gap-3">
-                  <span className="text-xs font-bold text-[#19C58B] uppercase tracking-wider">
+                  <span className="text-xs font-bold text-[#047857] uppercase tracking-wider">
                     {selectedImage.category}
                   </span>
                   {selectedImage.location && (

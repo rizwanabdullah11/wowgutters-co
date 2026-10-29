@@ -72,7 +72,7 @@ export default function LatestNewsClient({ newsArticles }: { newsArticles: NewsA
               >
                 <div className="p-6">
                   <div className="flex items-center justify-between gap-4 text-xs font-semibold text-gray-500 mb-3">
-                    <span className="px-3 py-1 rounded-full text-white" style={{ backgroundColor: colors.primary }}>
+                    <span className="px-3 py-1 rounded-full text-white" style={{ backgroundColor: colors.primaryText }}>
                       {article.category}
                     </span>
                     <span className="flex items-center gap-1">
@@ -81,7 +81,7 @@ export default function LatestNewsClient({ newsArticles }: { newsArticles: NewsA
                     </span>
                   </div>
                   
-                  <h2 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-[#19C58B] transition-colors leading-snug">
+                  <h2 className="text-xl font-bold mb-3 text-gray-900 group-hover:text-[#047857] transition-colors leading-snug">
                     {article.title}
                   </h2>
                   

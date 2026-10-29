@@ -38,7 +38,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Selly Park',
     faqs: [
       { question: 'What gutter repair services do you offer in Selly Park?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Selly Park (B29). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Selly Park?', answer: 'A leaking joint reseal in Selly Park typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Selly Park?', answer: 'A leaking joint reseal in Selly Park typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Selly Park?', answer: 'Yes. Every repair is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Selly Oak and Bournbrook?', answer: 'Yes — as well as Selly Park we cover Selly Oak, Bournbrook, Moseley, Harborne, Edgbaston. Same-day and next-day slots are often available on existing Birmingham routes.' },
     ],
@@ -89,7 +89,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Bromford',
     faqs: [
       { question: 'What gutter repair services do you offer in Bromford?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Bromford (B36). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Bromford?', answer: 'A leaking joint reseal in Bromford typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Bromford?', answer: 'A leaking joint reseal in Bromford typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Bromford?', answer: 'Yes. Every repair in Bromford is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Castle Bromwich and Hodge Hill?', answer: 'Yes — as well as Bromford we cover Castle Bromwich, Hodge Hill, Stechford, Washwood Heath, Chelmsley Wood. Same-day and next-day slots are often available on existing Birmingham routes.' },
     ],
@@ -140,7 +140,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Duddeston',
     faqs: [
       { question: 'What gutter repair services do you offer in Duddeston?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Duddeston (B7). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Duddeston?', answer: 'A leaking joint reseal in Duddeston typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Duddeston?', answer: 'A leaking joint reseal in Duddeston typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Duddeston?', answer: 'Yes. Every repair in Duddeston is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Nechells and Saltley?', answer: 'Yes — as well as Duddeston we cover Nechells, Saltley, Aston, Vauxhall, Highgate. Same-day and next-day slots are often available on existing Birmingham routes.' },
     ],
@@ -191,7 +191,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Lea Hall',
     faqs: [
       { question: 'What gutter repair services do you offer in Lea Hall?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Lea Hall (B33). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Lea Hall?', answer: 'A leaking joint reseal in Lea Hall typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Lea Hall?', answer: 'A leaking joint reseal in Lea Hall typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Lea Hall?', answer: 'Yes. Every repair is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Stechford and Kitts Green?', answer: 'Yes — as well as Lea Hall we cover Stechford, Kitts Green, Sheldon, Yardley, Bordesley Green. Same-day and next-day slots are often available on existing Birmingham routes.' },
     ],
@@ -242,7 +242,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs South Yardley',
     faqs: [
       { question: 'What gutter repair services do you offer in South Yardley?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across South Yardley (B25, B26). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in South Yardley?', answer: 'A leaking joint reseal in South Yardley typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in South Yardley?', answer: 'A leaking joint reseal in South Yardley typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in South Yardley?', answer: 'Yes. Every repair is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Yardley and Acocks Green?', answer: 'Yes — as well as South Yardley we cover Yardley, Acocks Green, Sheldon, Bordesley Green, Hay Mills. Same-day and next-day slots are often available on existing Birmingham routes.' },
     ],
@@ -293,7 +293,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Tile Cross',
     faqs: [
       { question: 'What gutter repair services do you offer in Tile Cross?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Tile Cross (B33). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Tile Cross?', answer: 'A leaking joint reseal in Tile Cross typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Tile Cross?', answer: 'A leaking joint reseal in Tile Cross typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Tile Cross?', answer: 'Yes. Every repair is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Stechford and Marston Green?', answer: 'Yes — as well as Tile Cross we cover Stechford, Marston Green, Chelmsley Wood, Kitts Green, Hodge Hill. Same-day and next-day slots are often available on existing Birmingham routes.' },
     ],
@@ -344,7 +344,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Kingshurst',
     faqs: [
       { question: 'What gutter repair services do you offer in Kingshurst?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Kingshurst (B37). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Kingshurst?', answer: 'A leaking joint reseal in Kingshurst typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Kingshurst?', answer: 'A leaking joint reseal in Kingshurst typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Kingshurst?', answer: 'Yes. Every repair in Kingshurst is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Chelmsley Wood and Fordbridge?', answer: 'Yes — as well as Kingshurst we cover Chelmsley Wood, Fordbridge, Marston Green, Smiths Wood, Castle Bromwich. Same-day and next-day slots are often available on existing Birmingham routes.' },
     ],
@@ -395,7 +395,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Fordbridge',
     faqs: [
       { question: 'What gutter repair services do you offer in Fordbridge?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Fordbridge (B37). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Fordbridge?', answer: 'A leaking joint reseal in Fordbridge typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Fordbridge?', answer: 'A leaking joint reseal in Fordbridge typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Fordbridge?', answer: 'Yes. Every repair in Fordbridge is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Kingshurst and Chelmsley Wood?', answer: 'Yes — as well as Fordbridge we cover Kingshurst, Chelmsley Wood, Marston Green, Smiths Wood, Bickenhill. Same-day and next-day slots are often available on existing Birmingham routes.' },
     ],
@@ -446,7 +446,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Bordesley',
     faqs: [
       { question: 'What gutter repair services do you offer in Bordesley?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Bordesley (B9). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Bordesley?', answer: 'A leaking joint reseal in Bordesley typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Bordesley?', answer: 'A leaking joint reseal in Bordesley typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Bordesley?', answer: 'Yes. Every repair in Bordesley is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Small Heath and Bordesley Green?', answer: 'Yes — as well as Bordesley we cover Small Heath, Bordesley Green, Digbeth, Saltley, Nechells. Same-day and next-day slots are often available on existing Birmingham routes.' },
     ],
@@ -497,7 +497,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Rotton Park',
     faqs: [
       { question: 'What gutter repair services do you offer in Rotton Park?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Rotton Park (B16). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Rotton Park?', answer: 'A leaking joint reseal in Rotton Park typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Rotton Park?', answer: 'A leaking joint reseal in Rotton Park typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Rotton Park?', answer: 'Yes. Every repair is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Ladywood and Edgbaston?', answer: 'Yes — as well as Rotton Park we cover Ladywood, Edgbaston, Jewellery Quarter, Winson Green, Hockley. Same-day and next-day slots are often available on existing Birmingham routes.' },
     ],
@@ -548,7 +548,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Summerfield',
     faqs: [
       { question: 'What gutter repair services do you offer in Summerfield?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Summerfield (B19). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Summerfield?', answer: 'A leaking joint reseal in Summerfield typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Summerfield?', answer: 'A leaking joint reseal in Summerfield typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Summerfield?', answer: 'Yes. Every repair in Summerfield is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Winson Green and Ladywood?', answer: 'Yes — as well as Summerfield we cover Winson Green, Ladywood, Jewellery Quarter, Hockley, Newtown. Same-day and next-day slots are often available on existing Birmingham routes.' },
     ],
@@ -599,7 +599,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Oscott',
     faqs: [
       { question: 'What gutter repair services do you offer in Oscott?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Oscott (B44). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Oscott?', answer: 'A leaking joint reseal in Oscott typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Oscott?', answer: 'A leaking joint reseal in Oscott typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Oscott?', answer: 'Yes. Every repair in Oscott is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Kingstanding and Perry Barr?', answer: 'Yes — as well as Oscott we cover Kingstanding, Perry Barr, Great Barr, Perry Common, Hamstead. Same-day and next-day slots are often available on existing Birmingham routes.' },
     ],
@@ -650,7 +650,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Warstock',
     faqs: [
       { question: 'What gutter repair services do you offer in Warstock?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Warstock (B14). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Warstock?', answer: 'A leaking joint reseal in Warstock typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Warstock?', answer: 'A leaking joint reseal in Warstock typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Warstock?', answer: 'Yes. Every repair in Warstock is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Kings Heath and Maypole?', answer: 'Yes — as well as Warstock we cover Kings Heath, Maypole, Yardley Wood, Shirley, Tidbury Green. Same-day and next-day slots are often available on existing Birmingham routes.' },
     ],
@@ -701,7 +701,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Maypole',
     faqs: [
       { question: 'What gutter repair services do you offer in Maypole?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Maypole (B14). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Maypole?', answer: 'A leaking joint reseal in Maypole typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Maypole?', answer: 'A leaking joint reseal in Maypole typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Maypole?', answer: 'Yes. Every repair in Maypole is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Kings Heath and Warstock?', answer: 'Yes — as well as Maypole we cover Kings Heath, Warstock, Yardley Wood, Shirley, Dickens Heath. Same-day and next-day slots are often available on existing Birmingham routes.' },
     ],
@@ -752,7 +752,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Vauxhall',
     faqs: [
       { question: 'What gutter repair services do you offer in Vauxhall?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Vauxhall (B7). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Vauxhall?', answer: 'A leaking joint reseal in Vauxhall typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Vauxhall?', answer: 'A leaking joint reseal in Vauxhall typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Vauxhall?', answer: 'Yes. Every repair in Vauxhall is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Aston and Nechells?', answer: 'Yes — as well as Vauxhall we cover Aston, Nechells, Duddeston, Saltley, Birmingham city centre. Same-day and next-day slots are often available on existing Birmingham routes.' },
     ],
@@ -803,7 +803,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Bickenhill',
     faqs: [
       { question: 'What gutter repair services do you offer in Bickenhill?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Bickenhill (B92). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Bickenhill?', answer: 'A leaking joint reseal in Bickenhill typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Bickenhill?', answer: 'A leaking joint reseal in Bickenhill typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Bickenhill?', answer: 'Yes. Every repair in Bickenhill is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near NEC and Birmingham Airport?', answer: 'Yes — as well as Bickenhill we cover NEC, Birmingham Airport, Solihull, Marston Green, Hampton-in-Arden. Same-day and next-day slots are often available on existing Solihull routes.' },
     ],
@@ -847,14 +847,14 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Family semis (Cranmore Avenue)', detail: 'Sagging uPVC rehung; unions resealed.' },
       { label: 'Detached homes near Monkspath', detail: 'Multi-downpipe systems repaired in one visit.' },
       { label: 'Stratford Road corridor', detail: 'Storm-damaged stop-ends and outlets replaced.' },
-      { label: 'Newer builds', detail: 'Warranty-friendly repairs where brackets were under-fixed.' },
+      { label: 'Newer builds', detail: 'Secure re-fixing where brackets were under-fixed.' },
     ],
     areasTitle: 'Areas We Cover Around Cranmore',
     areasInline: 'Cranmore | Shirley | Solihull | Monkspath | Widney Manor | Haslucks Green',
     faqsTitle: 'FAQs — Gutter Repairs Cranmore',
     faqs: [
       { question: 'What gutter repair services do you offer in Cranmore?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Cranmore (B90). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Cranmore?', answer: 'A leaking joint reseal in Cranmore typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Cranmore?', answer: 'A leaking joint reseal in Cranmore typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Cranmore?', answer: 'Yes. Every repair in Cranmore is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Shirley and Solihull?', answer: 'Yes — as well as Cranmore we cover Shirley, Solihull, Monkspath, Widney Manor, Haslucks Green. Same-day and next-day slots are often available on existing Solihull routes.' },
     ],
@@ -905,7 +905,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Dickens Heath',
     faqs: [
       { question: 'What gutter repair services do you offer in Dickens Heath?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Dickens Heath (B90). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Dickens Heath?', answer: 'A leaking joint reseal in Dickens Heath typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Dickens Heath?', answer: 'A leaking joint reseal in Dickens Heath typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Dickens Heath?', answer: 'Yes. Every repair is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Shirley and Solihull?', answer: 'Yes — as well as Dickens Heath we cover Shirley, Solihull, Blythe Valley, Cheswick Green, Monkspath. Same-day and next-day slots are often available on existing Solihull routes.' },
     ],
@@ -956,7 +956,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Elmdon',
     faqs: [
       { question: 'What gutter repair services do you offer in Elmdon?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Elmdon (B26). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Elmdon?', answer: 'A leaking joint reseal in Elmdon typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Elmdon?', answer: 'A leaking joint reseal in Elmdon typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Elmdon?', answer: 'Yes. Every repair in Elmdon is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Birmingham Airport and Solihull?', answer: 'Yes — as well as Elmdon we cover Birmingham Airport, Solihull, Sheldon, Marston Green, Bickenhill. Same-day and next-day slots are often available on existing Solihull routes.' },
     ],
@@ -1007,7 +1007,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Hillfield',
     faqs: [
       { question: 'What gutter repair services do you offer in Hillfield?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Hillfield (B91). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Hillfield?', answer: 'A leaking joint reseal in Hillfield typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Hillfield?', answer: 'A leaking joint reseal in Hillfield typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Hillfield?', answer: 'Yes. Every repair in Hillfield is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Solihull and Olton?', answer: 'Yes — as well as Hillfield we cover Solihull, Olton, Shirley, Monkspath, Widney Manor. Same-day and next-day slots are often available on existing Solihull routes.' },
     ],
@@ -1058,7 +1058,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Monkspath',
     faqs: [
       { question: 'What gutter repair services do you offer in Monkspath?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Monkspath (B90). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Monkspath?', answer: 'A leaking joint reseal in Monkspath typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Monkspath?', answer: 'A leaking joint reseal in Monkspath typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Monkspath?', answer: 'Yes. Every repair in Monkspath is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Solihull and Shirley?', answer: 'Yes — as well as Monkspath we cover Solihull, Shirley, Olton, Widney Manor, Dickens Heath. Same-day and next-day slots are often available on existing Solihull routes.' },
     ],
@@ -1109,7 +1109,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Silhill',
     faqs: [
       { question: 'What gutter repair services do you offer in Silhill?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Silhill (B91). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Silhill?', answer: 'A leaking joint reseal in Silhill typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Silhill?', answer: 'A leaking joint reseal in Silhill typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Silhill?', answer: 'Yes. Every repair in Silhill is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Solihull town centre and Olton?', answer: 'Yes — as well as Silhill we cover Solihull town centre, Olton, Shirley, Hillfield, Monkspath. Same-day and next-day slots are often available on existing Solihull routes.' },
     ],
@@ -1160,7 +1160,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Smiths Wood',
     faqs: [
       { question: 'What gutter repair services do you offer in Smiths Wood?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Smiths Wood (B36). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Smiths Wood?', answer: 'A leaking joint reseal in Smiths Wood typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Smiths Wood?', answer: 'A leaking joint reseal in Smiths Wood typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Smiths Wood?', answer: 'Yes. Every repair is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Chelmsley Wood and Kingshurst?', answer: 'Yes — as well as Smiths Wood we cover Chelmsley Wood, Kingshurst, Fordbridge, Marston Green, Castle Vale. Same-day and next-day slots are often available on existing Solihull routes.' },
     ],
@@ -1211,7 +1211,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Solihull Lodge',
     faqs: [
       { question: 'What gutter repair services do you offer in Solihull Lodge?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Solihull Lodge (B90). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Solihull Lodge?', answer: 'A leaking joint reseal in Solihull Lodge typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Solihull Lodge?', answer: 'A leaking joint reseal in Solihull Lodge typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Solihull Lodge?', answer: 'Yes. Every repair is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Shirley and Monkspath?', answer: 'Yes — as well as Solihull Lodge we cover Shirley, Monkspath, Cheswick Green, Solihull, Hall Green. Same-day and next-day slots are often available on existing Solihull routes.' },
     ],
@@ -1262,7 +1262,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Tidbury Green',
     faqs: [
       { question: 'What gutter repair services do you offer in Tidbury Green?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Tidbury Green (B90). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Tidbury Green?', answer: 'A leaking joint reseal in Tidbury Green typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Tidbury Green?', answer: 'A leaking joint reseal in Tidbury Green typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Tidbury Green?', answer: 'Yes. Every repair is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Shirley and Dickens Heath?', answer: 'Yes — as well as Tidbury Green we cover Shirley, Dickens Heath, Cheswick Green, Monkspath, Earlswood. Same-day and next-day slots are often available on existing Solihull routes.' },
     ],
@@ -1313,7 +1313,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Bearwood',
     faqs: [
       { question: 'What gutter repair services do you offer in Bearwood?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Bearwood (B66). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Bearwood?', answer: 'A leaking joint reseal in Bearwood typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Bearwood?', answer: 'A leaking joint reseal in Bearwood typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Bearwood?', answer: 'Yes. Every repair in Bearwood is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Smethwick and Warley?', answer: 'Yes — as well as Bearwood we cover Smethwick, Warley, Oldbury, Harborne, Cape Hill. Same-day and next-day slots are often available on existing Sandwell routes.' },
     ],
@@ -1364,7 +1364,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Warley',
     faqs: [
       { question: 'What gutter repair services do you offer in Warley?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Warley (B68). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Warley?', answer: 'A leaking joint reseal in Warley typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Warley?', answer: 'A leaking joint reseal in Warley typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Warley?', answer: 'Yes. Every repair in Warley is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Oldbury and Langley Green?', answer: 'Yes — as well as Warley we cover Oldbury, Langley Green, Bearwood, Smethwick, Quinton. Same-day and next-day slots are often available on existing Sandwell routes.' },
     ],
@@ -1415,7 +1415,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Tividale',
     faqs: [
       { question: 'What gutter repair services do you offer in Tividale?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Tividale (DY4). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Tividale?', answer: 'A leaking joint reseal in Tividale typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Tividale?', answer: 'A leaking joint reseal in Tividale typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Tividale?', answer: 'Yes. Every repair in Tividale is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Tipton and Dudley?', answer: 'Yes — as well as Tividale we cover Tipton, Dudley, Great Bridge, West Bromwich, Oldbury. Same-day and next-day slots are often available on existing Sandwell routes.' },
     ],
@@ -1466,7 +1466,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Great Bridge',
     faqs: [
       { question: 'What gutter repair services do you offer in Great Bridge?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Great Bridge (DY4). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Great Bridge?', answer: 'A leaking joint reseal in Great Bridge typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Great Bridge?', answer: 'A leaking joint reseal in Great Bridge typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Great Bridge?', answer: 'Yes. Every repair is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near West Bromwich and Tipton?', answer: 'Yes — as well as Great Bridge we cover West Bromwich, Tipton, Dudley, Oldbury, Wednesbury. Same-day and next-day slots are often available on existing Sandwell routes.' },
     ],
@@ -1517,7 +1517,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Wollaston',
     faqs: [
       { question: 'What gutter repair services do you offer in Wollaston?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Wollaston (DY8). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Wollaston?', answer: 'A leaking joint reseal in Wollaston typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Wollaston?', answer: 'A leaking joint reseal in Wollaston typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Wollaston?', answer: 'Yes. Every repair in Wollaston is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Stourbridge and Amblecote?', answer: 'Yes — as well as Wollaston we cover Stourbridge, Amblecote, Norton, Wordsley, Kingswinford. Same-day and next-day slots are often available on existing Dudley routes.' },
     ],
@@ -1568,7 +1568,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Pensnett',
     faqs: [
       { question: 'What gutter repair services do you offer in Pensnett?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Pensnett (DY5). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Pensnett?', answer: 'A leaking joint reseal in Pensnett typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Pensnett?', answer: 'A leaking joint reseal in Pensnett typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Pensnett?', answer: 'Yes. Every repair in Pensnett is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Dudley and Kingswinford?', answer: 'Yes — as well as Pensnett we cover Dudley, Kingswinford, Brierley Hill, Stourbridge, Sedgley. Same-day and next-day slots are often available on existing Dudley routes.' },
     ],
@@ -1619,7 +1619,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Quarry Bank',
     faqs: [
       { question: 'What gutter repair services do you offer in Quarry Bank?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Quarry Bank (DY5). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Quarry Bank?', answer: 'A leaking joint reseal in Quarry Bank typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Quarry Bank?', answer: 'A leaking joint reseal in Quarry Bank typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Quarry Bank?', answer: 'Yes. Every repair is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Brierley Hill and Kingswinford?', answer: 'Yes — as well as Quarry Bank we cover Brierley Hill, Kingswinford, Dudley, Stourbridge, Halesowen. Same-day and next-day slots are often available on existing Dudley routes.' },
     ],
@@ -1670,7 +1670,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Wordsley',
     faqs: [
       { question: 'What gutter repair services do you offer in Wordsley?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Wordsley (DY8). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Wordsley?', answer: 'A leaking joint reseal in Wordsley typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Wordsley?', answer: 'A leaking joint reseal in Wordsley typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Wordsley?', answer: 'Yes. Every repair in Wordsley is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Stourbridge and Kingswinford?', answer: 'Yes — as well as Wordsley we cover Stourbridge, Kingswinford, Wollaston, Brierley Hill, Amblecote. Same-day and next-day slots are often available on existing Dudley routes.' },
     ],
@@ -1721,7 +1721,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Bentley',
     faqs: [
       { question: 'What gutter repair services do you offer in Bentley?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Bentley (WS2). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Bentley?', answer: 'A leaking joint reseal in Bentley typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Bentley?', answer: 'A leaking joint reseal in Bentley typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Bentley?', answer: 'Yes. Every repair in Bentley is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Walsall and Bloxwich?', answer: 'Yes — as well as Bentley we cover Walsall, Bloxwich, Birchills, Leamore, Willenhall. Same-day and next-day slots are often available on existing Walsall routes.' },
     ],
@@ -1772,7 +1772,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     faqsTitle: 'FAQs — Gutter Repairs Pleck',
     faqs: [
       { question: 'What gutter repair services do you offer in Pleck?', answer: 'We repair leaking joints, sagging gutter runs, cracked sections, loose brackets, damaged downpipes and poor fall across Pleck (WS2). Every repair is flow-tested before we leave, and all repairs undergo thorough water flow testing.' },
-      { question: 'How much does gutter repair cost in Pleck?', answer: 'A leaking joint reseal in Pleck typically starts from around £80, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
+      { question: 'How much does gutter repair cost in Pleck?', answer: 'A leaking joint reseal in Pleck typically starts from £30, while section replacement or bracket upgrades cost more depending on access and materials. We provide a free, fixed quote before any work starts — call 07421 433910.' },
       { question: 'Do you test gutter repairs in Pleck?', answer: 'Yes. Every repair in Pleck is thoroughly flow-tested before we leave to ensure watertight joints and free-flowing drainage.' },
       { question: 'Can you repair gutters near Walsall and Caldmore?', answer: 'Yes — as well as Pleck we cover Walsall, Caldmore, Alumwell, Bentley, Birchills. Same-day and next-day slots are often available on existing Walsall routes.' },
     ],

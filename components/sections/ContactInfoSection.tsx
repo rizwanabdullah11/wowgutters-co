@@ -350,7 +350,7 @@ export default function ContactInfoSection() {
           transition: all 0.3s ease;
         }
         .contact-method-card:hover .contact-icon-box {
-          background: #19C58B;
+          background: #047857;
           color: white;
         }
         .contact-method-label {
@@ -396,10 +396,10 @@ export default function ContactInfoSection() {
           transition: all 0.2s ease;
         }
         .social-pill:hover {
-          background: #19C58B;
+          background: #047857;
           color: white;
           transform: translateY(-3px);
-          box-shadow: 0 8px 20px rgba(25, 197, 139, 0.25);
+          box-shadow: 0 8px 20px rgba(25,197,139, 0.25);
         }
 
         .contact-quick-actions {
@@ -463,14 +463,14 @@ export default function ContactInfoSection() {
           background: #F8FAFC;
         }
         .time-row-today {
-          background: rgba(25, 197, 139, 0.1) !important;
+          background: rgba(25,197,139, 0.1) !important;
           position: relative;
         }
         .time-badge {
           position: absolute;
           right: 8px;
           top: -10px;
-          background: #19C58B;
+          background: #047857;
           color: white;
           font-size: 0.65rem;
           font-weight: 800;
@@ -507,7 +507,7 @@ export default function ContactInfoSection() {
           flex-direction: column;
           position: relative;
           overflow: hidden;
-          box-shadow: 0 20px 40px rgba(25, 197, 139, 0.2);
+          box-shadow: 0 20px 40px rgba(25,197,139, 0.2);
         }
         .search-card-header {
           position: relative;

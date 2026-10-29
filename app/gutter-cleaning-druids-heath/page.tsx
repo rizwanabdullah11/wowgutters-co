@@ -47,7 +47,7 @@ export default function DruidsHeathPage() {
         city="Druids Heath"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Solihull', 'Shirley', 'Hall Green', 'Yardley Wood', 'Birmingham']}
         geo={{ latitude: 52.4100, longitude: -1.8300 }}
         postcodes={['B90', 'B91']}

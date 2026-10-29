@@ -101,7 +101,7 @@ export function buildDefaultFaqs(
   return [
     {
       question: `How much does gutter cleaning cost in ${city}?`,
-      answer: `Prices start from £${priceFrom} for a terraced house, £${priceFrom + 10}–£${priceFrom + 30} for semi-detached, and £${priceFrom + 30}–£${priceTo} for detached properties. Fixed quote before work starts.`,
+      answer: 'Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Fixed quote before work starts.',
     },
     {
       question: `How often should I have my gutters cleaned in ${city}?`,
@@ -206,8 +206,12 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
         logo: { '@type': 'ImageObject', url: LOGO_URL },
         address: {
           '@type': 'PostalAddress',
-          addressLocality: city,
+          // Real registered address (Google wants the same NAP on every page);
+          // the area itself is described by areaServed below.
+          streetAddress: '38 Ryland Street',
+          addressLocality: 'Birmingham',
           addressRegion: 'West Midlands',
+          postalCode: 'B16 8DD',
           addressCountry: 'GB',
         },
         geo: {
@@ -249,7 +253,7 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
         url,
         offers: {
           '@type': 'Offer',
-          priceRange: `£${priceFrom}-£${priceTo}`,
+          priceRange: priceTo > priceFrom ? `£${priceFrom}-£${priceTo}` : `From £${priceFrom}`,
           priceCurrency: 'GBP',
           availability: 'https://schema.org/InStock',
         },

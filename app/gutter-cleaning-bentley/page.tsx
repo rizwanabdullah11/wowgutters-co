@@ -47,7 +47,7 @@ export default function BentleyPage() {
         city="Bentley"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Walsall', 'Bloxwich', 'Birchills', 'Leamore', 'Willenhall', 'Darlaston']}
         geo={{ latitude: 52.578, longitude: -2.008 }}
         postcodes={['WS2', 'WS2 0', 'WS2 7', 'WS2 8']}

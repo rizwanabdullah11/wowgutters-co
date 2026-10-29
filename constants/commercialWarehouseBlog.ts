@@ -23,7 +23,7 @@ const IMG = {
   aerialTreeside: '/files/20_aerial_treeside_roof_section.webp',
 } as const;
 
-const link = 'color: #19C58B; font-weight: 600; text-decoration: none;';
+const link = 'color: #047857; font-weight: 600; text-decoration: none;';
 const imgStyle =
   'width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;';
 
@@ -40,11 +40,11 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Restricted access, hazardous locations, high buildings — full before and after documentation on every job.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for a commercial site evaluation</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -386,7 +386,7 @@ ${ctaBox}
 
 <p>Restricted access. Hazardous locations. High buildings. Whatever the complexity of your commercial property, WOW Gutters Ltd has the equipment, training, and experience to clear it safely — with full before and after photo documentation on every job.</p>
 
-<p>📞 <strong>Call:</strong> <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
+<p>📞 <strong>Call:</strong> <a href="tel:07421433910" style="color: #047857; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
 💬 <strong>WhatsApp:</strong> <a href="https://wa.me/447421433910" style="${link}" rel="noopener">wa.me/447421433910</a><br/>
 📧 <strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a><br/>
 🌐 <a href="https://wowgutters.co.uk" style="${link}">wowgutters.co.uk</a></p>

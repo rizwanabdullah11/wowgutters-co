@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/flat-roof-cleaning/flat-roof-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
@@ -15,18 +15,18 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Free quote — no hidden charges. Before and after photos on every job across Birmingham and the West Midlands.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-week availability</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
 const sectionCta = `
 <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; margin: 32px 0; text-align: center;">
   <p style="font-size: 1.1rem; font-weight: 700; color: #0f172a; margin: 0 0 8px 0;">WOW Gutters Ltd — Birmingham's gutter specialists</p>
-  <a href="tel:07421433910" style="color: #19C58B; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
+  <a href="tel:07421433910" style="color: #047857; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
 </div>`;
 
 export const birminghamGutterMaintenanceCalendarBlogPost: BlogPost = {
@@ -111,7 +111,7 @@ ${sectionCta}
 
 <p><strong>Spring cleaning.</strong> Even if you had your gutters cleaned in late autumn, a spring clear is worth scheduling for any property with significant tree coverage overhead. The organic matter that didn\u2019t make it into the gutter in autumn often blows in during the windy months of February and March.</p>
 
-<p>WOW Gutters Ltd uses an industrial-grade gutter vacuum system that operates entirely from the ground \u2014 no ladders required. Our operatives can clear and inspect your gutters in a single visit, with before and after photographs provided so you can see exactly what was found and what was removed. Call us on <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a> or email <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">support@wowgutters.co.uk</a> to book your spring inspection.</p>
+<p>WOW Gutters Ltd uses an industrial-grade gutter vacuum system that operates entirely from the ground \u2014 no ladders required. Our operatives can clear and inspect your gutters in a single visit, with before and after photographs provided so you can see exactly what was found and what was removed. Call us on <a href="tel:07421433910" style="font-weight: 700; color: #047857; text-decoration: none;">07421 433910</a> or email <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">support@wowgutters.co.uk</a> to book your spring inspection.</p>
 
 <h2 id="summer">Summer (June\u2013August): The Quiet Season \u2014 But Not Entirely</h2>
 
@@ -173,7 +173,7 @@ ${sectionCta}
 
 <p>Birmingham\u2019s annual rainfall peaks in October and November. Missing the autumn maintenance window means your blocked gutters are meeting the year\u2019s heaviest rainfall in their worst condition.</p>
 
-<p>This is the season when the WOW Gutters Ltd diary fills fastest. If you want an autumn clear, booking in September or early October gives you the best chance of your preferred date. Call <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a> or email <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">support@wowgutters.co.uk</a> \u2014 our ground-based vacuum system means we can operate safely regardless of weather conditions that would make ladder work dangerous.</p>
+<p>This is the season when the WOW Gutters Ltd diary fills fastest. If you want an autumn clear, booking in September or early October gives you the best chance of your preferred date. Call <a href="tel:07421433910" style="font-weight: 700; color: #047857; text-decoration: none;">07421 433910</a> or email <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">support@wowgutters.co.uk</a> \u2014 our ground-based vacuum system means we can operate safely regardless of weather conditions that would make ladder work dangerous.</p>
 
 <h3>The Downpipe Test</h3>
 
@@ -213,7 +213,7 @@ ${sectionCta}
 
 <p>If you notice a blocked gutter causing overflow during winter, contact WOW Gutters Ltd. Our ground-based vacuum system operates safely in conditions where ladder-based work would be genuinely dangerous. We don\u2019t compromise on safety regardless of the season.</p>
 
-<p><strong>Emergency or urgent gutter clearing:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a></p>
+<p><strong>Emergency or urgent gutter clearing:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #047857; text-decoration: none;">07421 433910</a></p>
 
 <h2 id="checklist">Your Quick-Reference Seasonal Checklist</h2>
 
@@ -261,9 +261,9 @@ ${ctaBox}
 
 <p>This is how professional gutter maintenance works. It\u2019s also why, across more than 4,900 verified customer reviews at 4.9 stars, our customers keep coming back every season.</p>
 
-<p><strong>Call WOW Gutters Ltd:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a><br/>
-<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">support@wowgutters.co.uk</a><br/>
-<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">wowgutters.co.uk</a></p>
+<p><strong>Call WOW Gutters Ltd:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #047857; text-decoration: none;">07421 433910</a><br/>
+<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">support@wowgutters.co.uk</a><br/>
+<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">wowgutters.co.uk</a></p>
 
 <h2 id="faq">FAQ: Birmingham Gutter Maintenance</h2>
 
@@ -295,7 +295,7 @@ ${ctaBox}
 <p>For a standard semi-detached property, our visit typically takes between 45 minutes and 90 minutes depending on the length of the gutter runs and the volume of debris found. Before and after photographs are captured throughout. You don\u2019t need to be present for the clean \u2014 many of our customers book and go about their day.</p>
 
 <h3>What should I do if I notice my gutters overflowing during heavy rain right now?</h3>
-<p>Call WOW Gutters Ltd on <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a> as soon as possible. In the meantime, if the overflow is running against a wall rather than away from the property, use sandbags or absorbent material to divert it away from the building foundation temporarily. Sustained water against a wall \u2014 even over a few hours of heavy rain \u2014 can begin to saturate the external leaf and cause dampness to track inward more quickly than most homeowners expect.</p>
+<p>Call WOW Gutters Ltd on <a href="tel:07421433910" style="font-weight: 700; color: #047857; text-decoration: none;">07421 433910</a> as soon as possible. In the meantime, if the overflow is running against a wall rather than away from the property, use sandbags or absorbent material to divert it away from the building foundation temporarily. Sustained water against a wall \u2014 even over a few hours of heavy rain \u2014 can begin to saturate the external leaf and cause dampness to track inward more quickly than most homeowners expect.</p>
 
 ${ctaBox}
 
@@ -305,9 +305,9 @@ ${ctaBox}
 
 <p>WOW Gutters Ltd serves homeowners, landlords, and commercial property owners across Birmingham and the West Midlands with professional gutter cleaning, gutter clearing, downpipe unblocking, and roof cleaning. Every job is completed from the ground using our industrial vacuum system. Every job includes before and after photographs. And every job is backed by over 4,900 verified five-star reviews from customers across the region.</p>
 
-<p><strong>Call now:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a><br/>
-<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">support@wowgutters.co.uk</a><br/>
-<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">wowgutters.co.uk</a></p>
+<p><strong>Call now:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #047857; text-decoration: none;">07421 433910</a><br/>
+<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">support@wowgutters.co.uk</a><br/>
+<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">wowgutters.co.uk</a></p>
 
 <p><em>Serving Birmingham, Solihull, Sutton Coldfield, Wolverhampton, Dudley, Walsall, West Bromwich, Coventry, Redditch, Bromsgrove, Worcester, Kidderminster and all surrounding West Midlands areas.</em></p>
 `,

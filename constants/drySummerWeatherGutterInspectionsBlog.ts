@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/flat-roof-cleaning/flat-roof-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
@@ -15,18 +15,18 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Free quote — no hidden charges. Before and after photos on every job across Birmingham and the West Midlands.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for same-week availability</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
 const sectionCta = `
 <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; margin: 32px 0; text-align: center;">
   <p style="font-size: 1.1rem; font-weight: 700; color: #0f172a; margin: 0 0 8px 0;">WOW Gutters Ltd — Birmingham's gutter specialists</p>
-  <a href="tel:07421433910" style="color: #19C58B; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
+  <a href="tel:07421433910" style="color: #047857; font-size: 1.5rem; font-weight: 900; text-decoration: none;">07421 433910</a>
 </div>`;
 
 export const drySummerWeatherGutterInspectionsBlogPost: BlogPost = {
@@ -326,19 +326,19 @@ ${sectionCta}
 
 <p>A summer inspection is most effective when understood as part of the complete year-round maintenance cycle for a Birmingham property.</p>
 
-<p><strong>Spring (March–April):</strong> Clear winter accumulation, inspect for frost-cycle joint damage. <a href="/blog/birmingham-gutter-maintenance-calendar-seasonal-guide" style="${link}">Full guide: Birmingham Gutter Maintenance Calendar</a>.</p>
+<p><strong>Spring (March–April):</strong> Clear winter accumulation, inspect for frost-cycle joint damage. <a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">Full guide: Birmingham Gutter Maintenance Calendar</a>.</p>
 
 <p><strong>Early summer (June–July):</strong> Summer health check and inspection — the dry-condition diagnostic window this article describes. Ideal timing for the most accurate condition assessment of the year. <a href="/blog/birmingham-gutter-health-check-summer" style="${link}">Full guide: Why Every Birmingham Home Needs a Gutter Health Check This Summer</a>.</p>
 
-<p><strong>Late summer (August–September):</strong> Clear full summer accumulation including sycamore seeds and nesting debris before autumn leaf fall begins. <a href="/blog/late-summer-gutter-maintenance-prepare-for-autumn" style="${link}">Full guide: Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a>.</p>
+<p><strong>Late summer (August–September):</strong> Clear full summer accumulation including sycamore seeds and nesting debris before autumn leaf fall begins. <a href="/blog/summer-gutter-maintenance/" style="${link}">Full guide: Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a>.</p>
 
-<p><strong>Autumn (October–November):</strong> Clear main leaf fall, timed correctly for your specific tree coverage. <a href="/blog/get-gutters-ready-before-birmingham-autumn-leaves" style="${link}">Full guide: Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a>.</p>
+<p><strong>Autumn (October–November):</strong> Clear main leaf fall, timed correctly for your specific tree coverage. <a href="/blog/birmingham-autumn-gutter-guide/" style="${link}">Full guide: Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a>.</p>
 
 <p><strong>Winter (December–February):</strong> Monitor for frost-cycle joint changes. Note conditions for spring attention.</p>
 
 <p>The summer inspection specifically — the dry-condition diagnostic visit — is the most accurate single assessment of your gutter system's structural condition available in the annual cycle. It is the visit that finds what other seasons hide. And it is the one that gives you the longest lead time to act on what it finds.</p>
 
-<p>For the complete guide to what clean gutters protect across all seasons: <a href="/blog/how-clean-gutters-protect-your-home-year-round" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a>.</p>
+<p>For the complete guide to what clean gutters protect across all seasons: <a href="/blog/year-round-gutter-protection/" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a>.</p>
 
 <h2 id="faq">FAQ: Summer Gutter Inspections in Birmingham</h2>
 
@@ -347,7 +347,7 @@ ${sectionCta}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Why are dry conditions better for gutter inspection than wet conditions?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Dry conditions allow joint failures to be precisely identified from localised staining on fascia boards, fascia board deterioration to be accurately distinguished from sound timber, gutter fall angle defects to be spotted from biological growth patterns, hairline cracks to be seen clearly against a dry background, and silt accumulation to be visually assessed and confirmed as removed. Each of these is significantly more difficult or impossible to assess accurately in wet conditions where running water obscures surfaces and general moisture creates ambiguity.</p>
@@ -357,7 +357,7 @@ ${sectionCta}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What specific problems does a summer gutter inspection find that an autumn visit misses?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Failing joint sealant — located precisely from dry staining that is obscured by wet-season surface moisture. Gutter fall angle defects — visible from biological growth in dry conditions but indistinguishable from normal wet sections in rain. Hairline cracks in UPVC — visible against a dry background but hidden when surfaces are running with water. Fascia board deterioration — distinguishable from sound timber in dry conditions but ambiguous when all surfaces are damp. Silt accumulation depth — visible and measurable in dry conditions but submerged and unassessable in wet ones.</p>
@@ -367,17 +367,17 @@ ${sectionCta}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Does a summer inspection replace the autumn clean?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">No — the two visits serve different purposes. The summer inspection assesses structural condition and removes summer accumulation in optimal diagnostic conditions. The autumn clean removes the leaf fall that arrives in October and November. Both are part of a complete annual maintenance cycle. <a href="/blog/birmingham-gutter-maintenance-calendar-seasonal-guide" style="${link}">Full guide: Birmingham Gutter Maintenance Calendar</a>.</p>
+      <p style="margin: 16px 0 0;">No — the two visits serve different purposes. The summer inspection assesses structural condition and removes summer accumulation in optimal diagnostic conditions. The autumn clean removes the leaf fall that arrives in October and November. Both are part of a complete annual maintenance cycle. <a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">Full guide: Birmingham Gutter Maintenance Calendar</a>.</p>
     </div>
   </details>
 
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Is summer inspection particularly valuable for older Birmingham properties?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. Victorian and Edwardian properties across Bournville, Selly Oak, Handsworth, Sparkhill, and Kings Heath carry cast iron gutter systems where joint failures are a recurring maintenance item and timber fascia boards have less remaining tolerance than modern UPVC. Identifying cast iron joint failures from dry staining in summer is straightforward and certain. Finding the same failures in wet autumn conditions on cast iron running with water is significantly harder. For properties where this matters most, summer inspection is the most reliable approach.</p>
@@ -387,7 +387,7 @@ ${sectionCta}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Do repairs done in summer actually last longer than those done in autumn?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Yes. Joint sealant bonds to dry surfaces at ambient temperatures according to its specification — achieving its designed service life. The same sealant applied in November to a damp board in near-freezing temperatures bonds partially and achieves a shorter service life. Bracket fixings seat correctly in dry timber. Repairs done in July have months of stable conditions to cure and set before autumn tests them. Repairs done in November are immediately tested in the conditions they were applied in.</p>
@@ -397,17 +397,17 @@ ${sectionCta}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>Can a summer inspection be combined with roof moss treatment?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Yes — and this is one of the most effective combinations available. Roof moss treatment applied in dry summer conditions is more effective because dry moss tissue absorbs the biocide more thoroughly than wet. The treated moss breaks down over four to six weeks — meaning it is largely cleared from the roof surface before autumn rain arrives. <a href="/blog/professional-gutter-cleaning-extends-roofline-life" style="${link}">Read more about our roof cleaning service</a>.</p>
+      <p style="margin: 16px 0 0;">Yes — and this is one of the most effective combinations available. Roof moss treatment applied in dry summer conditions is more effective because dry moss tissue absorbs the biocide more thoroughly than wet. The treated moss breaks down over four to six weeks — meaning it is largely cleared from the roof surface before autumn rain arrives. <a href="/blog/roofline-damage-prevention/" style="${link}">Read more about our roof cleaning service</a>.</p>
     </div>
   </details>
 
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What does a WOW Gutters Ltd summer inspection include?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Full debris extraction to channel floor level including silt layer; real-time camera inspection of every gutter section; joint sealant assessment from dry-condition staining evidence; gutter fall angle verification; downpipe flow testing on every outlet; fascia and soffit condition assessment; roof moss coverage observation; before and after photography of every run delivered to you on completion; and a written condition summary. All carried out from the ground — no ladders on your property.</p>
@@ -417,17 +417,17 @@ ${sectionCta}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How does the summer inspection fit with the late summer maintenance visit?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">A summer health check — ideally June to July — focuses on structural condition assessment and identifying problems while dry conditions make them most visible. Late summer maintenance in August and September then clears the full seasonal accumulation including nesting debris before the leaf fall begins. Both have distinct value for different reasons. <a href="/blog/late-summer-gutter-maintenance-prepare-for-autumn" style="${link}">Full guide: Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a>.</p>
+      <p style="margin: 16px 0 0;">A summer health check — ideally June to July — focuses on structural condition assessment and identifying problems while dry conditions make them most visible. Late summer maintenance in August and September then clears the full seasonal accumulation including nesting debris before the leaf fall begins. Both have distinct value for different reasons. <a href="/blog/summer-gutter-maintenance/" style="${link}">Full guide: Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a>.</p>
     </div>
   </details>
 
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>How quickly can you book a summer gutter inspection in Birmingham?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">Call 07421 433910 or email support@wowgutters.co.uk and we will give you available dates. Summer availability is better than the autumn rush period — booking in June or July gives you the best choice of appointment timing before the diary begins to fill from September onwards.</p>
@@ -437,7 +437,7 @@ ${sectionCta}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 12px; user-select: none;">
       <span>What areas do you cover for summer gutter inspections?</span>
-      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #19C58B; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
+      <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
       <p style="margin: 16px 0 0;">All Birmingham postcodes including Edgbaston, Harborne, Selly Oak, Kings Heath, Moseley, Bournville, Northfield, Erdington, and Sutton Coldfield. Plus Solihull, Wolverhampton, Walsall, Dudley, West Bromwich, Coventry, Redditch, Bromsgrove, Worcester, Kidderminster and all surrounding West Midlands areas.</p>
@@ -456,22 +456,22 @@ ${sectionCta}
 
 ${ctaBox}
 
-<p><strong>Call:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #19C58B; text-decoration: none;">07421 433910</a><br/>
-<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">support@wowgutters.co.uk</a><br/>
-<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #19C58B; text-decoration: none;">wowgutters.co.uk</a><br/>
-<strong>Free quote:</strong> <a href="/quote/" style="font-weight: 700; color: #19C58B; text-decoration: none;">wowgutters.co.uk/quote</a></p>
+<p><strong>Call:</strong> <a href="tel:07421433910" style="font-weight: 700; color: #047857; text-decoration: none;">07421 433910</a><br/>
+<strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">support@wowgutters.co.uk</a><br/>
+<strong>Web:</strong> <a href="https://wowgutters.co.uk" style="font-weight: 700; color: #047857; text-decoration: none;">wowgutters.co.uk</a><br/>
+<strong>Free quote:</strong> <a href="/quote/" style="font-weight: 700; color: #047857; text-decoration: none;">wowgutters.co.uk/quote</a></p>
 
 <p><em>Serving Birmingham, Solihull, Sutton Coldfield, Edgbaston, Harborne, Kings Heath, Moseley, Bournville, Erdington, Wolverhampton, Dudley, Walsall, West Bromwich, Coventry, Redditch, Bromsgrove, Worcester, Kidderminster and all West Midlands areas.</em></p>
 
 <h2>Related Articles</h2>
 
 <ul>
-  <li><a href="/blog/birmingham-gutter-health-check-summer" style="color: #19C58B; font-weight: 600; text-decoration: none;">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
-  <li><a href="/blog/late-summer-gutter-maintenance-prepare-for-autumn" style="color: #19C58B; font-weight: 600; text-decoration: none;">Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a></li>
-  <li><a href="/blog/professional-gutter-cleaning-extends-roofline-life" style="color: #19C58B; font-weight: 600; text-decoration: none;">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
-  <li><a href="/blog/birmingham-gutter-maintenance-calendar-seasonal-guide" style="color: #19C58B; font-weight: 600; text-decoration: none;">Birmingham Gutter Maintenance Calendar: What to Do Each Season</a></li>
-  <li><a href="/blog/get-gutters-ready-before-birmingham-autumn-leaves" style="color: #19C58B; font-weight: 600; text-decoration: none;">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a></li>
-  <li><a href="/blog/how-clean-gutters-protect-your-home-year-round" style="color: #19C58B; font-weight: 600; text-decoration: none;">How Clean Gutters Help Protect Your Home Throughout the Year</a></li>
+  <li><a href="/blog/birmingham-gutter-health-check-summer" style="color: #047857; font-weight: 600; text-decoration: none;">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
+  <li><a href="/blog/summer-gutter-maintenance/" style="color: #047857; font-weight: 600; text-decoration: none;">Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a></li>
+  <li><a href="/blog/roofline-damage-prevention/" style="color: #047857; font-weight: 600; text-decoration: none;">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
+  <li><a href="/blog/birmingham-seasonal-gutter-guide/" style="color: #047857; font-weight: 600; text-decoration: none;">Birmingham Gutter Maintenance Calendar: What to Do Each Season</a></li>
+  <li><a href="/blog/birmingham-autumn-gutter-guide/" style="color: #047857; font-weight: 600; text-decoration: none;">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a></li>
+  <li><a href="/blog/year-round-gutter-protection/" style="color: #047857; font-weight: 600; text-decoration: none;">How Clean Gutters Help Protect Your Home Throughout the Year</a></li>
 </ul>
 `,
 };

@@ -7,7 +7,7 @@ const IMG_BEFORE =
 const IMG_AFTER =
   '/blog-images/professional-gutter-clean/professional-gutter-cleaning-after.webp';
 
-const link = 'color: #19C58B; font-weight: 700; text-decoration: none;';
+const link = 'color: #047857; font-weight: 700; text-decoration: none;';
 const ctaBox = `
 <div style="display: flex; align-items: center; justify-content: space-between; gap: 32px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 32px 36px; margin: 40px 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); flex-wrap: wrap;">
   <div style="flex: 1; min-width: 220px;">
@@ -15,11 +15,11 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Every WOW Gutters visit includes same-day photographs. Free quote across Birmingham.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Same-week availability across Birmingham</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -63,7 +63,7 @@ export const beforeAfterBirminghamGutterBlogPost: BlogPost = {
 
 <h2>Table of Contents</h2>
 <ul>
-  <li><a href="#why-photos" style="${link}">Why Before and After Photos Matter More Than Any Guarantee</a></li>
+  <li><a href="#why-photos" style="${link}">Why Before and After Photos Matter More Than Any Promise</a></li>
   <li><a href="#case-1" style="${link}">Case Study 1 — Victorian Terrace, Selly Oak B29</a></li>
   <li><a href="#case-2" style="${link}">Case Study 2 — 1930s Semi-Detached, Kings Heath B14</a></li>
   <li><a href="#case-3" style="${link}">Case Study 3 — Period Detached Property, Edgbaston B15</a></li>
@@ -77,7 +77,7 @@ export const beforeAfterBirminghamGutterBlogPost: BlogPost = {
   <li><a href="#faq" style="${link}">Frequently Asked Questions</a></li>
 </ul>
 
-<h2 id="why-photos">Why Before and After Photos Matter More Than Any Guarantee</h2>
+<h2 id="why-photos">Why Before and After Photos Matter More Than Any Promise</h2>
 
 <p>When you invite a gutter cleaning company to your Birmingham property, you are making a decision based almost entirely on trust. The work happens at roofline height. You cannot see it being done. You have no way to verify what was in the gutter before the clean, how much was removed, whether the downpipe was actually tested, or what the condition of the channel is now that the job is finished.</p>
 

@@ -5,6 +5,7 @@ import { getRelatedBlogSummaries } from '@/lib/blogSummaries';
 import { resolveBlogImageUrl } from '@/lib/blogImageUrl';
 import { Metadata } from 'next';
 import { seoTitle, seoDescription } from '@/lib/seo';
+import { BLOG_SHORT_TITLES } from '@/lib/blogShortTitles';
 
 interface BlogPageProps {
   params: Promise<{
@@ -40,7 +41,10 @@ export async function generateMetadata(props: BlogPageProps): Promise<Metadata> 
 
   const canonicalUrl = `https://wowgutters.co.uk/blog/${id}/`;
 
-  const pageTitle = seoTitle(post.seoTitle ?? `${post.title} | WOW Gutters Ltd`, { keepSegments: true });
+  const pageTitle = seoTitle(
+    BLOG_SHORT_TITLES[id] ?? post.seoTitle ?? `${post.title} | WOW Gutters Ltd`,
+    { keepSegments: true },
+  );
   const pageDescription = seoDescription(post.excerpt);
 
   return {

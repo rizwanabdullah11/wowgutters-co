@@ -240,7 +240,7 @@ export default function InspectLandingPage() {
                 type="button"
                 onClick={handleNext}
                 className="inline-flex items-center justify-center rounded-md px-8 py-3 text-base font-semibold text-white shadow-lg"
-                style={{ backgroundColor: colors.primary }}
+                style={{ backgroundColor: colors.primaryText }}
               >
                 {step === totalSteps ? 'Send Request' : 'Next'}
               </button>

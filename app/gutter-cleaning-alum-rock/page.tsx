@@ -33,7 +33,7 @@ export default function AlumRockPage() {
         city="Alum Rock"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Washwood Heath', 'Ward End', 'Saltley', 'Birmingham', 'Stechford']}
         geo={{ latitude: 52.485, longitude: -1.85 }}
         postcodes={['B8']}

@@ -180,7 +180,7 @@ export default function HotWashBanner() {
           display: inline-flex;
           align-items: center;
           gap: 6px;
-          background: linear-gradient(135deg, #FF6B35, #ff4d00);
+          background: linear-gradient(135deg, #C2410C, #9A3412);
           color: white;
           padding: 8px 16px;
           border-radius: 100px;
@@ -248,7 +248,7 @@ export default function HotWashBanner() {
           display: flex;
           align-items: center;
           justify-content: center;
-          background: #FF6B35;
+          background: #C2410C;
           color: white;
           width: 38px;
           height: 38px;

@@ -47,7 +47,7 @@ export default function CotteridgePage() {
         city="Cotteridge"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Bournville', 'Kings Norton', 'Stirchley', 'Selly Oak', 'Birmingham']}
         geo={{ latitude: 52.4200, longitude: -1.9300 }}
         postcodes={['B30']}

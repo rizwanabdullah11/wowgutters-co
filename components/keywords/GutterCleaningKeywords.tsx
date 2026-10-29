@@ -95,7 +95,7 @@ export const GUTTER_CLEANING_KEYWORDS: KeywordItem[] = [
   { id: 70, keyword: 'reliable gutter cleaners', category: 'Trust & Reputation', link: '/about/' },
   { id: 71, keyword: 'family run gutter cleaning company', category: 'Trust & Reputation', link: '/about/' },
   { id: 72, keyword: 'rated gutter cleaning company', category: 'Trust & Reputation', link: '/reviews/' },
-  { id: 73, keyword: 'gutter cleaning before and after', category: 'Trust & Reputation', link: '/gallery/', badge: 'Photos' },
+  { id: 73, keyword: 'gutter cleaning before and after', category: 'Trust & Reputation', link: '/the-gutter-gallery/', badge: 'Photos' },
   { id: 74, keyword: 'fully insured gutter cleaning', category: 'Trust & Reputation', link: '/services/gutter-cleaning/' },
   { id: 75, keyword: 'gutter cleaning testimonials', category: 'Trust & Reputation', link: '/reviews/' },
 
@@ -132,8 +132,8 @@ export const GUTTER_CLEANING_KEYWORDS: KeywordItem[] = [
 ];
 
 const CATEGORY_ICONS: Record<string, React.ReactNode> = {
-  'Core & General': <Tag className="w-4 h-4 text-emerald-600" />,
-  'Towns & Boroughs': <MapPin className="w-4 h-4 text-emerald-600" />,
+  'Core & General': <Tag className="w-4 h-4 text-emerald-700" />,
+  'Towns & Boroughs': <MapPin className="w-4 h-4 text-emerald-700" />,
   'Price & Quotes': <Sparkles className="w-4 h-4 text-amber-600" />,
   'Methods & Service Type': <CheckCircle2 className="w-4 h-4 text-blue-600" />,
   'Trust & Reputation': <Shield className="w-4 h-4 text-purple-600" />,
@@ -177,7 +177,7 @@ export default function GutterCleaningKeywords({
         {/* Header Block */}
         <div className="text-center max-w-3xl mx-auto mb-10">
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-bold uppercase tracking-wider mb-3">
-            <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
+            <Sparkles className="w-3.5 h-3.5 text-emerald-700" />
             <span>Complete 100-Keyword Directory</span>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight mb-4">
@@ -214,7 +214,7 @@ export default function GutterCleaningKeywords({
 
             {/* Total Badge */}
             <div className="text-xs sm:text-sm font-semibold text-slate-500 self-end md:self-center">
-              Showing <span className="text-emerald-600 font-bold">{filteredKeywords.length}</span> of {GUTTER_CLEANING_KEYWORDS.length} keywords
+              Showing <span className="text-emerald-700 font-bold">{filteredKeywords.length}</span> of {GUTTER_CLEANING_KEYWORDS.length} keywords
             </div>
           </div>
 
@@ -251,7 +251,7 @@ export default function GutterCleaningKeywords({
             const content = (
               <div className="group flex items-center justify-between gap-2 p-3 bg-white rounded-xl border border-slate-200/90 hover:border-emerald-500 hover:shadow-md transition-all h-full">
                 <div className="flex items-center gap-2.5 min-w-0">
-                  <div className="w-6 h-6 rounded-lg bg-slate-100 group-hover:bg-emerald-50 flex items-center justify-center flex-shrink-0 text-slate-500 group-hover:text-emerald-600 transition-colors">
+                  <div className="w-6 h-6 rounded-lg bg-slate-100 group-hover:bg-emerald-50 flex items-center justify-center flex-shrink-0 text-slate-500 group-hover:text-emerald-700 transition-colors">
                     {CATEGORY_ICONS[item.category] || <Tag className="w-3.5 h-3.5" />}
                   </div>
                   <span className="text-xs sm:text-sm font-semibold text-slate-800 group-hover:text-emerald-700 truncate">
@@ -286,7 +286,7 @@ export default function GutterCleaningKeywords({
                 setSearchTerm('');
                 setActiveCategory('All');
               }}
-              className="mt-3 text-xs font-bold text-emerald-600 hover:text-emerald-700 underline"
+              className="mt-3 text-xs font-bold text-emerald-700 hover:text-emerald-700 underline"
             >
               Reset filters
             </button>

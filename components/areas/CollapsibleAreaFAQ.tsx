@@ -23,11 +23,11 @@ export default function CollapsibleAreaFAQ({ city, faqs, heading }: CollapsibleA
     <section className="py-20 px-4 bg-slate-50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <p className="text-xs font-bold tracking-[0.2em] uppercase mb-3 text-[#19C58B]">FAQs</p>
+          <p className="text-xs font-bold tracking-[0.2em] uppercase mb-3 text-[#047857]">FAQs</p>
           <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">{title}</h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
             Everything you need to know about our {city} gutter cleaning service. Can&apos;t find your answer? Call{' '}
-            <a href="tel:07421433910" className="font-bold underline underline-offset-2 text-[#19C58B]">
+            <a href="tel:07421433910" className="font-bold underline underline-offset-2 text-[#047857]">
               07421 433910
             </a>
             .
@@ -48,12 +48,12 @@ export default function CollapsibleAreaFAQ({ city, faqs, heading }: CollapsibleA
                     <span className="text-2xl shrink-0" aria-hidden>
                       {faq.icon}
                     </span>
-                    <span className="text-slate-900 font-bold text-lg group-open:text-[#19C58B] transition-colors">
+                    <span className="text-slate-900 font-bold text-lg group-open:text-[#047857] transition-colors">
                       {faq.question}
                     </span>
                   </div>
                   <ChevronDown
-                    className="w-6 h-6 text-[#19C58B] transition-transform duration-300 shrink-0 group-open:rotate-180"
+                    className="w-6 h-6 text-[#047857] transition-transform duration-300 shrink-0 group-open:rotate-180"
                     aria-hidden
                   />
                 </summary>
@@ -76,31 +76,31 @@ export default function CollapsibleAreaFAQ({ city, faqs, heading }: CollapsibleA
                 <div className="space-y-4">
                   <a
                     href="tel:07421433910"
-                    className="flex items-center gap-3 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-xl p-4 transition-all duration-300 group"
+                    className="flex items-center gap-3 bg-black/15 hover:bg-black/25 backdrop-blur-sm rounded-xl p-4 transition-all duration-300 group"
                   >
                     <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
                       <Phone className="w-6 h-6" />
                     </div>
                     <div>
-                      <p className="text-xs text-white/80 font-semibold">Call us</p>
+                      <p className="text-xs text-white font-semibold">Call us</p>
                       <p className="text-lg font-bold">07421 433910</p>
                     </div>
                   </a>
                   <a
                     href="mailto:support@wowgutters.co.uk"
-                    className="flex items-center gap-3 bg-white/20 hover:bg-white/30 backdrop-blur-sm rounded-xl p-4 transition-all duration-300 group"
+                    className="flex items-center gap-3 bg-black/15 hover:bg-black/25 backdrop-blur-sm rounded-xl p-4 transition-all duration-300 group"
                   >
                     <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
                       <Mail className="w-6 h-6" />
                     </div>
                     <div>
-                      <p className="text-xs text-white/80 font-semibold">Email</p>
+                      <p className="text-xs text-white font-semibold">Email</p>
                       <p className="text-sm font-bold">support@wowgutters.co.uk</p>
                     </div>
                   </a>
                 </div>
                 <Link href="/quote" className="block mt-6">
-                  <span className="flex w-full items-center justify-center bg-white text-[#19C58B] font-bold py-4 rounded-xl hover:bg-slate-50 transition-all duration-300 hover:scale-105 shadow-lg">
+                  <span className="flex w-full items-center justify-center bg-white text-[#047857] font-bold py-4 rounded-xl hover:bg-slate-50 transition-all duration-300 hover:scale-105 shadow-lg">
                     Get My Free Quote
                   </span>
                 </Link>
@@ -111,7 +111,7 @@ export default function CollapsibleAreaFAQ({ city, faqs, heading }: CollapsibleA
                   {['Fully insured', 'Before & after photos', 'No ladders on your walls', '24 hours a day'].map(
                     (item) => (
                       <div key={item} className="flex items-center gap-3">
-                        <CheckCircle className="w-5 h-5 shrink-0 text-[#19C58B]" />
+                        <CheckCircle className="w-5 h-5 shrink-0 text-[#047857]" />
                         <span className="text-slate-700 text-sm font-medium">{item}</span>
                       </div>
                     ),

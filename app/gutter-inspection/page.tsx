@@ -7,7 +7,7 @@ export const metadata: Metadata = buildMetadata({
   absoluteTitle: 'Free Gutter Inspection | WOW Gutters Ltd',
   description:
     'Free, no-obligation gutter inspection across Birmingham and the West Midlands. Full condition report on channels, downpipes, joints, brackets, and fascias. Honest advice, no pressure. Call 07421 433910.',
-  canonicalPath: '/gutter-inspection/',
+  canonicalPath: '/services/gutter-inspection/',
 });
 
 const service: ServiceDetail = {

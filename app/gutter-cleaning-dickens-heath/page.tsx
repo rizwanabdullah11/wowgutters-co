@@ -47,7 +47,7 @@ export default function DickensHeathPage() {
         city="Dickens Heath"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Solihull', 'Shirley', 'Blythe Valley', 'Cheswick Green']}
         geo={{ latitude: 52.396, longitude: -1.790 }}
         postcodes={['B90']}

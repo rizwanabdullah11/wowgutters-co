@@ -47,7 +47,7 @@ export default function BearwoodPage() {
         city="Bearwood"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Smethwick', 'Warley', 'Oldbury', 'Harborne', 'Quinton', 'Edgbaston']}
         geo={{ latitude: 52.478, longitude: -1.969 }}
         postcodes={['B66']}

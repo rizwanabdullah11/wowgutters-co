@@ -66,7 +66,7 @@ export default function CommercialBanner() {
 
           {/* Right side - CTA */}
           <div className="commercial-cta-section">
-            <Link href="/commercial" className="commercial-cta-btn">
+            <Link href="/services/commercial-gutter-cleaning/" className="commercial-cta-btn">
               <span className="cta-btn-text">View Commercial Services</span>
               <div className="cta-btn-icon-wrapper">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="cta-btn-arrow">
@@ -110,7 +110,7 @@ export default function CommercialBanner() {
         .commercial-circle {
           position: absolute;
           border-radius: 50%;
-          background: radial-gradient(circle, rgba(25, 197, 139, 0.08) 0%, transparent 70%);
+          background: radial-gradient(circle, rgba(25,197,139, 0.08) 0%, transparent 70%);
           animation: float 20s infinite ease-in-out;
         }
         .commercial-circle-1 {
@@ -218,13 +218,13 @@ export default function CommercialBanner() {
         .commercial-icon-ring-1 {
           width: 100%;
           height: 100%;
-          border-color: rgba(25, 197, 139, 0.3);
+          border-color: rgba(25,197,139, 0.3);
           animation-delay: 0s;
         }
         .commercial-icon-ring-2 {
           width: 85%;
           height: 85%;
-          border-color: rgba(25, 197, 139, 0.5);
+          border-color: rgba(25,197,139, 0.5);
           animation-delay: 1s;
         }
 
@@ -242,7 +242,7 @@ export default function CommercialBanner() {
           align-items: center;
           justify-content: center;
           box-shadow: 
-            0 10px 30px rgba(25, 197, 139, 0.3),
+            0 10px 30px rgba(25,197,139, 0.3),
             0 0 0 8px rgba(255, 255, 255, 0.9);
           position: relative;
           z-index: 1;
@@ -322,8 +322,8 @@ export default function CommercialBanner() {
           font-weight: 800;
           letter-spacing: 2px;
           color: #19C58B;
-          background: rgba(25, 197, 139, 0.1);
-          border: 1.5px solid rgba(25, 197, 139, 0.3);
+          background: rgba(25,197,139, 0.1);
+          border: 1.5px solid rgba(25,197,139, 0.3);
           border-radius: 100px;
           padding: 6px 14px;
           text-transform: uppercase;
@@ -423,7 +423,7 @@ export default function CommercialBanner() {
           white-space: nowrap;
           overflow: hidden;
           box-shadow: 
-            0 10px 30px rgba(25, 197, 139, 0.3),
+            0 10px 30px rgba(25,197,139, 0.3),
             0 0 0 1px rgba(255, 255, 255, 0.2) inset;
           transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
@@ -431,7 +431,7 @@ export default function CommercialBanner() {
         .commercial-cta-btn:hover {
           transform: translateY(-3px);
           box-shadow: 
-            0 20px 40px rgba(25, 197, 139, 0.4),
+            0 20px 40px rgba(25,197,139, 0.4),
             0 0 0 1px rgba(255, 255, 255, 0.3) inset;
         }
 
@@ -487,9 +487,9 @@ export default function CommercialBanner() {
           align-items: center;
           gap: 16px;
           padding: 12px 20px;
-          background: rgba(25, 197, 139, 0.05);
+          background: rgba(25,197,139, 0.05);
           border-radius: 12px;
-          border: 1px solid rgba(25, 197, 139, 0.1);
+          border: 1px solid rgba(25,197,139, 0.1);
         }
 
         .trust-item {
@@ -517,7 +517,7 @@ export default function CommercialBanner() {
         .trust-divider {
           width: 1px;
           height: 30px;
-          background: rgba(25, 197, 139, 0.2);
+          background: rgba(25,197,139, 0.2);
         }
 
         @media (max-width: 1024px) {

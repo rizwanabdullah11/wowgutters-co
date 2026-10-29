@@ -47,7 +47,7 @@ export default function BoldmerePage() {
         city="Boldmere"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Sutton Coldfield', 'Erdington', 'Wylde Green', 'Walmley', 'Birmingham']}
         geo={{ latitude: 52.5400, longitude: -1.8300 }}
         postcodes={['B73']}

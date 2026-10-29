@@ -172,9 +172,18 @@ export default function CityGutterCleaningPage({
               {meta.label} prices in {data.city}
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
-              Most homes in {data.city} are quoted between <strong>£{priceFrom}</strong> and{' '}
-              <strong>£{priceTo}</strong> depending on roof size, moss coverage, and access. Fixed price confirmed
-              before we arrive — no call-out fee and no hidden charges on the day.
+              {serviceKind === 'gutter' ? (
+                <>
+                  Most homes in {data.city} are quoted between <strong>£{priceFrom}</strong> and{' '}
+                  <strong>£{priceTo}</strong> depending on property size and access.
+                </>
+              ) : (
+                <>
+                  Prices for {meta.label.toLowerCase()} in {data.city} start from <strong>£{priceFrom}</strong>. The exact
+                  price depends on the job, and we confirm it before any work starts.
+                </>
+              )}{' '}
+              Fixed price confirmed before we arrive — no call-out fee and no hidden charges on the day.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
               <Link
@@ -333,7 +342,7 @@ export default function CityGutterCleaningPage({
                     href={`https://wa.me/447421433910?text=${encodeURIComponent(`Hi, I am in ${data.city}. ${question}`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="shrink-0 rounded-md bg-[#16c784] px-4 py-1.5 text-base font-black text-white hover:bg-[#0fb272] transition-colors"
+                    className="shrink-0 rounded-md bg-[#19C58B] px-4 py-1.5 text-base font-black text-white hover:bg-[#0fb272] transition-colors"
                   >
                     Ask
                   </a>
@@ -425,13 +434,13 @@ export default function CityGutterCleaningPage({
           background: ${colors.primaryGradient};
           padding: 18px 32px; border-radius: 100px; cursor: pointer;
           transition: all 0.3s ease;
-          box-shadow: 0 10px 30px rgba(25, 197, 139, 0.3);
+          box-shadow: 0 10px 30px rgba(25,197,139, 0.3);
           color: white;
           font-weight: 800;
         }
         .hero-primary-btn:hover {
           transform: translateY(-4px);
-          box-shadow: 0 15px 40px rgba(25, 197, 139, 0.4);
+          box-shadow: 0 15px 40px rgba(25,197,139, 0.4);
         }
         .hero-wave-bottom { position: absolute; bottom: -1px; left: 0; right: 0; line-height: 0; z-index: 10; }
         .hero-wave-bottom svg { width: 100%; height: 60px; display: block; }

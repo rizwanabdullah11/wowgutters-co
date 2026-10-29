@@ -17,7 +17,7 @@ export default function FreeInspectionRedirect() {
   return (
     <main className="min-h-[50vh] flex flex-col items-center justify-center gap-4 px-4 text-center">
       <p className="text-slate-700 text-lg">Redirecting to our free gutter inspection page…</p>
-      <Link href={TARGET} className="text-[#19C58B] font-bold underline">
+      <Link href={TARGET} className="text-[#047857] font-bold underline">
         Continue to free inspection
       </Link>
     </main>

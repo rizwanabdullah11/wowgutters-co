@@ -47,7 +47,7 @@ export default function BalsallHeathPage() {
         city="Balsall Heath"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Moseley', 'Sparkbrook', 'Edgbaston', 'Birmingham', 'Highgate']}
         geo={{ latitude: 52.4617, longitude: -1.8883 }}
         postcodes={['B12']}

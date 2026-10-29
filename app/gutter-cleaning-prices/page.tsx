@@ -45,8 +45,8 @@ export default function GutterCleaningPrices() {
             '@type': 'AggregateOffer',
             priceCurrency: 'GBP',
             lowPrice: '100',
-            highPrice: '300',
-            offerCount: '6',
+            highPrice: '500',
+            offerCount: '8',
           },
         },
         {
@@ -217,65 +217,85 @@ export default function GutterCleaningPrices() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white rounded-2xl shadow-lg p-8 border-l-4 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1" style={{ borderColor: colors.cta }}>
-              <h3 className="text-2xl font-bold mb-3 text-gray-900">Gutter Repairs</h3>
-              <p className="text-3xl font-black mb-2" style={{ color: colors.primary }}>From £30</p>
-              <p className="text-gray-600 mb-4">Minor repairs and replacements</p>
+              <h3 className="text-2xl font-bold mb-3 text-gray-900">Roof Cleaning &amp; Moss Removal</h3>
+              <p className="text-3xl font-black mb-2" style={{ color: colors.primary }}>From £500</p>
+              <p className="text-gray-600 mb-4">Soft-wash moss removal, biocide treatment &amp; full gutter clear</p>
               <ul className="space-y-2">
                 <li className="flex items-center gap-2 text-gray-600">
                   <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
-                  Leak repairs
+                  Safe low-pressure scrape (no tile damage)
                 </li>
                 <li className="flex items-center gap-2 text-gray-600">
                   <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
-                  Joint sealing
+                  Deep biocide treatment kills spores for years
+                </li>
+                <li className="flex items-center gap-2 text-gray-600">
+                  <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
+                  Complete gutter clearance included
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg p-8 border-l-4 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1" style={{ borderColor: colors.cta }}>
+              <h3 className="text-2xl font-bold mb-3 text-gray-900">Conservatory Gutter Cleaning</h3>
+              <p className="text-3xl font-black mb-2" style={{ color: colors.primary }}>From £50</p>
+              <p className="text-gray-600 mb-4">Specialist conservatory roofline and gutter clearance</p>
+              <ul className="space-y-2">
+                <li className="flex items-center gap-2 text-gray-600">
+                  <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
+                  High-reach pole clearance
+                </li>
+                <li className="flex items-center gap-2 text-gray-600">
+                  <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
+                  Downpipe flush &amp; check
+                </li>
+                <li className="flex items-center gap-2 text-gray-600">
+                  <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
+                  Safe on glass &amp; polycarbonate
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg p-8 border-l-4 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1" style={{ borderColor: colors.cta }}>
+              <h3 className="text-2xl font-bold mb-3 text-gray-900">Fascia &amp; Soffit Cleaning</h3>
+              <p className="text-3xl font-black mb-2" style={{ color: colors.primary }}>
+                {formatGbp(GUTTER_PRICING.fasciaAndSoffit)}
+              </p>
+              <p className="text-gray-600 mb-4">Complete exterior uPVC wash &amp; stain removal</p>
+              <ul className="space-y-2">
+                <li className="flex items-center gap-2 text-gray-600">
+                  <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
+                  Deep exterior wash
+                </li>
+                <li className="flex items-center gap-2 text-gray-600">
+                  <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
+                  Stain &amp; grime removal
+                </li>
+                <li className="flex items-center gap-2 text-gray-600">
+                  <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
+                  Protective shine finish
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg p-8 border-l-4 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1" style={{ borderColor: colors.cta }}>
+              <h3 className="text-2xl font-bold mb-3 text-gray-900">Gutter Repairs</h3>
+              <p className="text-3xl font-black mb-2" style={{ color: colors.primary }}>From £30</p>
+              <p className="text-gray-600 mb-4">Minor repairs and joint replacements</p>
+              <ul className="space-y-2">
+                <li className="flex items-center gap-2 text-gray-600">
+                  <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
+                  Leak &amp; crack repairs
+                </li>
+                <li className="flex items-center gap-2 text-gray-600">
+                  <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
+                  Joint sealing &amp; unions
                 </li>
                 <li className="flex items-center gap-2 text-gray-600">
                   <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
                   Bracket replacement
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-lg p-8 border-l-4 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1" style={{ borderColor: colors.cta }}>
-              <h3 className="text-2xl font-bold mb-3 text-gray-900">Conservatory Cleaning</h3>
-              <p className="text-3xl font-black mb-2" style={{ color: colors.primary }}>From £50</p>
-              <p className="text-gray-600 mb-4">Roof and gutter cleaning</p>
-              <ul className="space-y-2">
-                <li className="flex items-center gap-2 text-gray-600">
-                  <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
-                  Roof cleaning
-                </li>
-                <li className="flex items-center gap-2 text-gray-600">
-                  <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
-                  Gutter clearance
-                </li>
-                <li className="flex items-center gap-2 text-gray-600">
-                  <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
-                  Frame cleaning
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-lg p-8 border-l-4 hover:shadow-2xl transition-all duration-300 hover:-translate-y-1" style={{ borderColor: colors.cta }}>
-              <h3 className="text-2xl font-bold mb-3 text-gray-900">Fascia & Soffit Cleaning</h3>
-              <p className="text-3xl font-black mb-2" style={{ color: colors.primary }}>
-                {formatGbp(GUTTER_PRICING.fasciaAndSoffit)}
-              </p>
-              <p className="text-gray-600 mb-4">Complete exterior cleaning</p>
-              <ul className="space-y-2">
-                <li className="flex items-center gap-2 text-gray-600">
-                  <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
-                  Deep cleaning
-                </li>
-                <li className="flex items-center gap-2 text-gray-600">
-                  <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
-                  Stain removal
-                </li>
-                <li className="flex items-center gap-2 text-gray-600">
-                  <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
-                  Protective treatment
                 </li>
               </ul>
             </div>
@@ -289,15 +309,15 @@ export default function GutterCleaningPrices() {
               <ul className="space-y-2">
                 <li className="flex items-center gap-2 text-gray-600">
                   <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
-                  Professional installation
+                  Complete replacement
                 </li>
                 <li className="flex items-center gap-2 text-gray-600">
                   <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
-                  Quality materials
+                  Quality uPVC materials
                 </li>
                 <li className="flex items-center gap-2 text-gray-600">
                   <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
-                  Long-term protection
+                  Fully insured installation
                 </li>
               </ul>
             </div>
@@ -370,7 +390,7 @@ export default function GutterCleaningPrices() {
       <section className="py-20 px-4 bg-white border-t border-slate-100">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-14">
-            <span className="text-sm font-bold uppercase tracking-wider text-emerald-600">Fixed &amp; Transparent Rates</span>
+            <span className="text-sm font-bold uppercase tracking-wider text-emerald-700">Fixed &amp; Transparent Rates</span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 mt-2">
               Average Gutter Cleaning Costs by <span style={{ color: colors.primary }}>Property Type</span>
             </h2>
@@ -394,37 +414,51 @@ export default function GutterCleaningPrices() {
                 <tr className="hover:bg-slate-50 transition-colors">
                   <td className="p-4 sm:p-5 font-bold text-slate-900">2-Bed Terraced / Flat</td>
                   <td className="p-4 sm:p-5 text-slate-600">Front &amp; Rear (12–15m)</td>
-                  <td className="p-4 sm:p-5 font-bold text-emerald-600">£100 Fixed</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-700">£100 Fixed</td>
                   <td className="p-4 sm:p-5 text-slate-600">30–45 mins</td>
                   <td className="p-4 sm:p-5 text-slate-600">Vacuum clean, downpipe flow check, photos</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition-colors">
                   <td className="p-4 sm:p-5 font-bold text-slate-900">3-Bed Semi-Detached</td>
                   <td className="p-4 sm:p-5 text-slate-600">Front, Side &amp; Rear (20–25m)</td>
-                  <td className="p-4 sm:p-5 font-bold text-emerald-600">£110 Fixed</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-700">£110 Fixed</td>
                   <td className="p-4 sm:p-5 text-slate-600">45–60 mins</td>
                   <td className="p-4 sm:p-5 text-slate-600">Full perimeter vacuum, swan-neck clear, report</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition-colors">
                   <td className="p-4 sm:p-5 font-bold text-slate-900">4+ Bed Detached</td>
                   <td className="p-4 sm:p-5 text-slate-600">Full 360° Perimeter (30–40m)</td>
-                  <td className="p-4 sm:p-5 font-bold text-emerald-600">From £140 – £210</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-700">From £140 – £210</td>
                   <td className="p-4 sm:p-5 text-slate-600">60–90 mins</td>
                   <td className="p-4 sm:p-5 text-slate-600">Complete clearance, all downpipes, photo proof</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition-colors">
                   <td className="p-4 sm:p-5 font-bold text-slate-900">Townhouse / 3-Storey</td>
                   <td className="p-4 sm:p-5 text-slate-600">High-Elevation Runs</td>
-                  <td className="p-4 sm:p-5 font-bold text-emerald-600">From £130 – £195</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-700">From £130 – £195</td>
                   <td className="p-4 sm:p-5 text-slate-600">60–75 mins</td>
                   <td className="p-4 sm:p-5 text-slate-600">Up to 4 storeys (40ft) from the ground, no scaffolding needed</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition-colors">
                   <td className="p-4 sm:p-5 font-bold text-slate-900">Commercial Unit / Block</td>
                   <td className="p-4 sm:p-5 text-slate-600">Custom Box / Deep Gutters</td>
-                  <td className="p-4 sm:p-5 font-bold text-emerald-600">Bespoke Quote</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-700">Bespoke Quote</td>
                   <td className="p-4 sm:p-5 text-slate-600">Flexible</td>
                   <td className="p-4 sm:p-5 text-slate-600">RAMS supplied, scheduled maintenance plans</td>
+                </tr>
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="p-4 sm:p-5 font-bold text-slate-900">Roof Cleaning &amp; Moss Removal</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Whole Roof Slopes + Gutters</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-700">Starting from £500</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Half / Full Day</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Soft-wash moss scrape, biocide application, full gutter clearance &amp; photos</td>
+                </tr>
+                <tr className="hover:bg-slate-50 transition-colors">
+                  <td className="p-4 sm:p-5 font-bold text-slate-900">Conservatory Gutter Clean</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Conservatory Roofline</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-700">£50 Fixed</td>
+                  <td className="p-4 sm:p-5 text-slate-600">20–30 mins</td>
+                  <td className="p-4 sm:p-5 text-slate-600">Specialist pole clearing, downpipe check, photo verification</td>
                 </tr>
               </tbody>
             </table>
@@ -434,7 +468,7 @@ export default function GutterCleaningPrices() {
 
       {/* Special Offers */}
       <section className="py-20 px-4 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] text-white relative overflow-hidden">
-        <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#16c784]/20 blur-[100px]" />
+        <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#19C58B]/20 blur-[100px]" />
         <div className="pointer-events-none absolute -right-8 -top-12 h-52 w-[45%] rotate-6 rounded-[35%] bg-[#2dd4bf]/15 blur-[100px]" />
         
         <div className="max-w-4xl mx-auto text-center relative z-10">

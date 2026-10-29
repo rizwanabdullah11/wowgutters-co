@@ -47,7 +47,7 @@ export default function BillesleyPage() {
         city="Billesley"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Moseley', 'Kings Heath', 'Hall Green', 'Acocks Green', 'Birmingham']}
         geo={{ latitude: 52.4330, longitude: -1.8600 }}
         postcodes={['B13']}

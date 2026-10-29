@@ -47,7 +47,7 @@ export default function FordbridgePage() {
         city="Fordbridge"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Kingshurst', 'Chelmsley Wood', 'Marston Green', 'Smith\'s Wood', 'Castle Bromwich', 'Coleshill Heath']}
         geo={{ latitude: 52.492, longitude: -1.753 }}
         postcodes={['B37', 'B37 5', 'B37 6', 'B37 7']}

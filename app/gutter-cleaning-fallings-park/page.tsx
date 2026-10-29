@@ -47,7 +47,7 @@ export default function FallingsParkPage() {
         city="Fallings Park"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Bushbury', 'Dunstall Park', 'Fordhouses', 'Pendeford', 'Ashmore Park']}
         geo={{ latitude: 52.610, longitude: -2.115 }}
         postcodes={['WV10', 'WV10 0', 'WV10 1', 'WV10 2']}

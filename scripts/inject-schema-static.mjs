@@ -116,7 +116,8 @@ function areaSlugFromPath(relPath) {
   if (nested) return nested[1];
   const regional = norm.match(/^(?:west-midlands|worcestershire|warwickshire|staffordshire|shropshire)\/gutter-cleaning-([^/]+)\/index\.html$/);
   if (regional) return regional[1];
-  if (norm === 'index.html') return 'birmingham';
+  // Homepage has its own LocalBusiness + FAQPage (HomepageSchema/HomepageFAQSchema);
+  // injecting the Birmingham area graph here duplicated both (Oct 27 2026 audit).
   return null;
 }
 

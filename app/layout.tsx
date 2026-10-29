@@ -114,27 +114,6 @@ export default function RootLayout({
     process.env.NEXT_PUBLIC_BING_VERIFICATION || "733327357EAC2C662B6C711EA4E78993"
   ).trim();
 
-  const videoObjectSchema = {
-    "@context": "https://schema.org",
-    "@type": "VideoObject",
-    "name": "WOW Gutters Ltd — Professional Gutter Cleaning Service",
-    "description":
-      "See our ground-level vacuum gutter cleaning system in action. No ladders, no mess, before & after photo proof on every job. Serving Birmingham and the West Midlands.",
-    "thumbnailUrl": "https://wowgutters.co.uk/gutter-cleaning.jpeg",
-    "contentUrl": "https://wowgutters.co.uk/gutter-final-video.mp4",
-    "embedUrl": "https://wowgutters.co.uk/gutter-final-video.mp4",
-    "duration": "PT1M30S",
-    "uploadDate": "2025-01-15",
-    "publisher": {
-      "@type": "Organization",
-      "@id": "https://wowgutters.co.uk/#business",
-      "name": "WOW Gutters Ltd",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://wowgutters.co.uk/assets/wow-gutter-logo2.png",
-      },
-    },
-  };
 
   return (
     <html lang="en">
@@ -157,13 +136,8 @@ export default function RootLayout({
         
         {/* Google Search Console Verification */}
         
-        {/* Structured Data — plain <script> so next/script doesn't strip it from static export */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(videoObjectSchema),
-          }}
-        />
+        {/* VideoObject schema now lives on the homepage only (app/page.tsx) — the video
+            is not the main content of other pages (Oct 27 2026 audit). */}
         {/*
           Static export (Next.js 16 Turbopack): plain <script> tags are
           written verbatim into the exported HTML. next/script is NOT emitted

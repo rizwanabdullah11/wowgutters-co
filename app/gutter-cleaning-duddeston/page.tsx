@@ -47,7 +47,7 @@ export default function DuddestonPage() {
         city="Duddeston"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Nechells', 'Saltley', 'Aston', 'Birmingham', 'Vauxhall']}
         geo={{ latitude: 52.492, longitude: -1.875 }}
         postcodes={['B7']}

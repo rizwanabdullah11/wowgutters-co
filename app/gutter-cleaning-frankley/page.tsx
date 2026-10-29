@@ -47,7 +47,7 @@ export default function FrankleyPage() {
         city="Frankley"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Rubery', 'Longbridge', 'Rednal', 'Birmingham', 'Halesowen']}
         geo={{ latitude: 52.4000, longitude: -2.0100 }}
         postcodes={['B45']}

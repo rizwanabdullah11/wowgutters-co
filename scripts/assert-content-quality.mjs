@@ -53,8 +53,11 @@ if (!fs.existsSync(sitemapPath)) {
     errors.push(`sitemap: expected varied lastmod dates, got ${unique.size} unique value(s)`);
   }
   const windowsBlock = xml.match(/<loc>https:\/\/wowgutters\.co\.uk\/windows-cleaning\/<\/loc>[\s\S]*?<\/url>/);
-  if (!windowsBlock || !windowsBlock[0].includes('2026-06-02')) {
-    errors.push('sitemap: windows-cleaning lastmod should reflect June 2026 refresh');
+  if (!windowsBlock || !/<lastmod>\d{4}-\d{2}-\d{2}T/.test(windowsBlock[0])) {
+    errors.push('sitemap: windows-cleaning should carry a real lastmod (git date of its page)');
+  }
+  if (/<changefreq>|<priority>/.test(xml)) {
+    errors.push('sitemap: <changefreq>/<priority> must not be present');
   }
 }
 

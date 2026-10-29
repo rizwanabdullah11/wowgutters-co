@@ -47,7 +47,7 @@ export default function BellGreenPage() {
         city="Bell Green"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Coventry', 'Bedworth', 'Nuneaton', 'Foleshill', 'Longford']}
         geo={{ latitude: 52.455, longitude: -1.480 }}
         postcodes={['CV2', 'CV6']}

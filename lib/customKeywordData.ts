@@ -193,8 +193,8 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
         content: "Combine multiple exterior maintenance tasks into a single visit and take advantage of our discounted package rates. Our technicians are fully equipped to handle repairs, washdowns, and roofline restoration concurrently.",
         bullets: [
           "Minor Gutter Repair (Joint resealing / bracket replacement): from £30.00",
-          "Full Exterior UPVC Fascia & Soffit Hot Wash: from £60.00",
-          "Roof Moss Removal & Soft Wash Biocide Treatment: from £150.00",
+          "Full Exterior UPVC Fascia & Soffit Hot Wash: from £90.00",
+          "Roof Moss Removal & Soft Wash Biocide Treatment: from £500.00",
           "Patio & Driveway Pressure Washing: from £60.00",
           "Window Cleaning (Pure Water Reach & Wash): from £25.00",
           "Annual Planned Maintenance Contracts: 15% discount for regular scheduled visits",
@@ -280,16 +280,16 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'fascia-soffit-cleaning-cost': {
     heroTitle: "Fascia & Soffit Cleaning Cost",
-    heroDescription: "Affordable, professional fascia and soffit cleaning across Birmingham and the West Midlands. Hot purified water wash restores discoloured, algae-stained UPVC to a pristine finish. Prices from £100. Call WOW Gutters Ltd on 07421 433910 for a free quote.",
+    heroDescription: "Affordable, professional fascia and soffit cleaning across Birmingham and the West Midlands. Hot purified water wash restores discoloured, algae-stained UPVC to a pristine finish. Prices from £90. Call WOW Gutters Ltd on 07421 433910 for a free quote.",
     sections: [
       {
         heading: "How Much Does Fascia and Soffit Cleaning Cost?",
         content: "Over time, green algae, traffic grime, and atmospheric soot coat white and coloured UPVC fascias and soffits, dulling your property exterior. WOW Gutters Ltd uses specialised hot water-fed pole systems with gentle cleaning agents that lift ingrained dirt without scratching or peeling surfaces.",
         bullets: [
-          "2-bedroom terraced property: £60.00 – £80.00",
-          "3-bedroom semi-detached home: £80.00 – £110.00",
+          "2-bedroom terraced property: from £90.00",
+          "3-bedroom semi-detached home: £90.00 – £110.00",
           "4-5 bedroom detached executive house: £110.00 – £160.00",
-          "Bungalow / single-storey roofline: from £100",
+          "Bungalow / single-storey roofline: from £90",
           "Gutter clear + fascia/soffit wash bundle: save up to 25% on combined packages",
           "Includes external gutter washing, downpipe wipe down, and window frame rinse",
         ],
@@ -339,11 +339,8 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
         heading: "Average Pricing for Combined Roof & Gutter Cleaning",
         content: "When moss builds up on your roof, it inevitably falls into your gutters, causing recurrent clogs, overflows, and potential roof leaks. Combining roof moss removal with a full gutter clean is the most effective way to protect your roofline. WOW Gutters Ltd offers comprehensive roof scrape, biocide wash, and gutter clear packages at transparent rates.",
         bullets: [
-          "Average UK cost for combined roof scrape and gutter clean: £250 – £650",
-          "Small terraced house (roof scrape, biocide + full gutter clear): £200 – £350",
-          "Standard 3-bed semi-detached home: £300 – £500",
-          "Large 4-5 bed detached property: £450 – £850",
-          "Bungalows and low-pitch roofs: £200 – £400",
+          "Roof cleaning with full gutter clear: from £500",
+          "Fixed price confirmed after a free survey — no hidden extras",
           "Includes manual moss scraping, biocide application, gutter vacuuming, and ground clean up",
         ],
       },

@@ -47,7 +47,7 @@ export default function CranmorePage() {
         city="Cranmore"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Solihull', 'Shirley', 'Monkspath', 'Olton']}
         geo={{ latitude: 52.410, longitude: -1.808 }}
         postcodes={['B90']}

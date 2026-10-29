@@ -27,13 +27,13 @@ import {
 const trustStats = [
   { icon: Shield, title: 'Always Free', desc: 'Quotes cost you nothing — ever' },
   { icon: Clock, title: 'Same-Day Book', desc: 'Fast West Midlands response' },
-  { icon: Users, title: '100+ Homes', desc: 'Verified local customers' },
-  { icon: Award, title: 'Top Rated', desc: 'Google rated 5.0★ specialists' },
+  { icon: Users, title: 'Local Homes', desc: 'Birmingham & West Midlands customers' },
+  { icon: Award, title: 'Top Rated', desc: 'Rated 4.9★ on Google' },
 ];
 
 const whyChooseUs = [
   { icon: Shield, title: 'Insured & Fully Covered', desc: 'Full public liability insurance included — your home is always protected.' },
-  { icon: Award, title: 'Loved by Local Homeowners', desc: 'Verified 5-star ratings across Birmingham & the West Midlands.' },
+  { icon: Award, title: 'Loved by Local Homeowners', desc: 'Highly rated on Google across Birmingham & the West Midlands.' },
   { icon: Zap, title: 'We Move Fast', desc: 'Same-day booking available — we work around your schedule.' },
   { icon: CheckCircle, title: 'Fully Insured & Tested', desc: 'Every service backed by £10m cover and full water flow testing.' },
 ];
@@ -291,7 +291,7 @@ export default function QuotePage() {
                 <button
                   onClick={openModal}
                   className="w-full py-3 rounded-xl font-bold text-white transition-all duration-300 hover:shadow-lg group-hover:scale-105 flex items-center justify-center gap-2"
-                  style={{ backgroundColor: colors.primary }}
+                  style={{ backgroundColor: colors.primaryText }}
                 >
                   Get Quote
                   <ArrowRight className="w-4 h-4" />
@@ -329,7 +329,7 @@ export default function QuotePage() {
       <section className="py-16 sm:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-white text-xs sm:text-sm font-semibold shadow mb-4" style={{ backgroundColor: colors.primary }}>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-white text-xs sm:text-sm font-semibold shadow mb-4" style={{ backgroundColor: colors.primaryText }}>
               ⭐ Rated {GOOGLE_REVIEWS_SUMMARY.ratingLabel} Stars on Google
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-4">
@@ -375,13 +375,13 @@ export default function QuotePage() {
                   className="w-full h-64 sm:h-80 lg:h-96 object-cover rounded-2xl"
                 />
                 <div className="absolute top-8 left-8">
-                  <div className="px-4 py-2 rounded-full text-white text-xs sm:text-sm font-bold shadow-lg" style={{ backgroundColor: colors.primary }}>
+                  <div className="px-4 py-2 rounded-full text-white text-xs sm:text-sm font-bold shadow-lg" style={{ backgroundColor: colors.primaryText }}>
                     ✨ Professional High Suction Vacuum
                   </div>
                 </div>
                 <div className="absolute bottom-8 right-8">
                   <div className="bg-white rounded-2xl shadow-xl px-4 py-3 flex items-center gap-2">
-                    <span className="text-sm font-bold text-gray-900">Google 5.0★ Rated</span>
+                    <span className="text-sm font-bold text-gray-900">Google 4.9★ Rated</span>
                   </div>
                 </div>
               </div>
@@ -536,7 +536,7 @@ export default function QuotePage() {
       <div className="fixed bottom-0 left-0 right-0 z-50 flex sm:hidden items-center justify-between gap-3 px-4 py-3 bg-white border-t border-gray-200 shadow-[0_-4px_20px_rgba(0,0,0,0.12)]">
         <div
           className="w-11 h-11 rounded-full flex items-center justify-center text-white font-black text-lg flex-shrink-0 shadow-md"
-          style={{ backgroundColor: colors.primary }}
+          style={{ backgroundColor: colors.primaryText }}
         >
           W
         </div>

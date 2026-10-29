@@ -47,7 +47,7 @@ export default function CastleValePage() {
         city="Castle Vale"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Erdington', 'Minworth', 'Castle Bromwich', 'Walmley', 'Birmingham']}
         geo={{ latitude: 52.5200, longitude: -1.8000 }}
         postcodes={['B35']}

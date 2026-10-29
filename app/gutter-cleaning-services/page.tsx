@@ -180,7 +180,7 @@ export default function GutterCleaningServicesPage() {
               { title: 'Downpipe testing included', body: 'Every visit includes a full downpipe flush and flow test. Blocked downpipes are cleared on the spot at no extra charge.' },
               { title: 'Fixed prices, no surprises', body: 'You get a clear written quote before any work starts. No call-out fee, no hourly rate, no hidden charges.' },
               { title: 'Fully insured team', body: '£10 million public liability cover. All engineers are directly employed, trained and vetted. Your property is in safe hands.' },
-              { title: 'Same-day availability', body: 'Most areas can be booked within 2–3 working days. Emergency gutter clearance available where needed.' },
+              { title: 'Same-day availability', body: 'Same-day and next-day slots are often available. Emergency gutter clearance available where needed.' },
             ].map((item) => (
               <div key={item.title} className="flex gap-4 p-6 rounded-2xl bg-slate-50 border border-slate-200">
                 <span className="shrink-0 w-8 h-8 rounded-full flex items-center justify-center" style={{ background: colors.primaryGradient }}>

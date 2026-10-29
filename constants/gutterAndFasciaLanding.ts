@@ -92,7 +92,7 @@ export const GUTTER_AND_FASCIA_LANDING: CityGutterLandingData = {
   geo: { latitude: 52.4862, longitude: -1.8904 },
   internalLinks: [
     { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
-    { label: 'uPVC cleaning services', href: '/upvc-cleaning/' },
+    { label: 'uPVC cleaning services', href: '/services/upvc-cleaning/' },
     { label: 'Roof cleaning service', href: '/roof-cleaning/' },
     { label: 'Gutter repairs', href: '/gutter-repairs/' },
     { label: 'Gutter cleaning near me', href: '/gutter-cleaning-near-me/' },

@@ -16,7 +16,7 @@ const IMG = {
   finalResult: `${CDN}/professional-gutter-cleaning-after.png`,
 } as const;
 
-const link = 'color: #19C58B; font-weight: 600; text-decoration: none;';
+const link = 'color: #047857; font-weight: 600; text-decoration: none;';
 const imgStyle =
   'width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;';
 
@@ -33,11 +33,11 @@ const ctaBox = `
     <p style="color: #475569; font-size: 0.95rem; line-height: 1.7; margin: 0;">Restricted access, hazardous locations, high buildings — full before and after documentation on every job.</p>
   </div>
   <div style="background: #f8fafc; border-radius: 12px; padding: 24px 28px; min-width: 220px; text-align: center; box-shadow: 0 1px 6px rgba(0,0,0,0.06);">
-    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #19C58B; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
+    <a href="/quote/" style="display: flex; align-items: center; justify-content: center; gap: 10px; background: #047857; color: #ffffff; font-size: 1.05rem; font-weight: 700; padding: 14px 28px; border-radius: 8px; text-decoration: none; margin-bottom: 16px;">
       <span style="font-size: 1rem;">&#9658;</span> Get A Free Quote
     </a>
     <p style="color: #64748b; font-size: 0.8rem; margin: 0 0 6px 0;">Call for a commercial site evaluation</p>
-    <a href="tel:07421433910" style="color: #19C58B; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
+    <a href="tel:07421433910" style="color: #047857; font-size: 1.4rem; font-weight: 900; text-decoration: none; letter-spacing: -0.5px;">07421 433910</a>
   </div>
 </div>`;
 
@@ -267,7 +267,7 @@ ${ctaBox}
 
 <p>WOW Gutters Ltd provides professional commercial gutter clearing across Birmingham and the West Midlands, with the equipment, experience, and capacity to handle large-scale industrial and warehouse sites. Before and after photographic documentation on every job. Fully insured professional team.</p>
 
-<p>📞 <strong>Call:</strong> <a href="tel:07421433910" style="color: #19C58B; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
+<p>📞 <strong>Call:</strong> <a href="tel:07421433910" style="color: #047857; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
 📧 <strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a><br/>
 🌐 <a href="https://wowgutters.co.uk" style="${link}">wowgutters.co.uk</a><br/>
 📋 <a href="/quote/" style="${link}">Get a free commercial quote</a></p>
@@ -279,11 +279,11 @@ ${ctaBox}
   <li><a href="/services/commercial-gutter-cleaning/" style="${link}">Commercial Warehouse Gutter Clearing Birmingham</a></li>
   <li><a href="/services/commercial-gutter-cleaning/" style="${link}">Commercial Gutter Cleaning</a></li>
   <li><a href="/blog/hidden-gutter-damage-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a></li>
-  <li><a href="/blog/professional-gutter-cleaning-extends-roofline-life/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
-  <li><a href="/blog/late-summer-gutter-maintenance/" style="${link}">Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a></li>
-  <li><a href="/services/gutter-clearing/" style="${link}">Gutter Clearing</a></li>
-  <li><a href="/areas-we-cover/" style="${link}">Areas We Cover</a></li>
+  <li><a href="/blog/roofline-damage-prevention/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
+  <li><a href="/blog/summer-gutter-maintenance/" style="${link}">Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a></li>
+  <li><a href="/services/gutter-cleaning/" style="${link}">Gutter Clearing</a></li>
+  <li><a href="/gutter-cleaning-service-areas/" style="${link}">Areas We Cover</a></li>
   <li><a href="/blog/warehouse-gutter-clearing/" style="${link}">Commercial Warehouse Gutter Clearing Birmingham</a></li>
 </ul>
   `,
-};
+};

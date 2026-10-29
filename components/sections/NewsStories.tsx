@@ -33,7 +33,7 @@ export default function NewsStories() {
               <span className="text-gray-500">📰</span>
               Explore the latest updates on our activities with our general news coverage.
             </span>
-            <Link href="/news" className="hover:underline" style={{ color: colors.primary }}>[see all]</Link>
+            <Link href="/news" className="hover:underline" style={{ color: colors.primaryText }}>[see all]</Link>
           </p>
         </div>
 

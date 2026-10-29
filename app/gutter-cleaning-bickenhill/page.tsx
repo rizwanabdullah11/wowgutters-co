@@ -47,7 +47,7 @@ export default function BickenhillPage() {
         city="Bickenhill"
         url={URL_PATH}
         priceFrom={100}
-        priceTo={210}
+        priceTo={200}
         nearbyAreas={['Solihull', 'Birmingham', 'Marston Green', 'Hampton-in-Arden']}
         geo={{ latitude: 52.448, longitude: -1.745 }}
         postcodes={['B92']}

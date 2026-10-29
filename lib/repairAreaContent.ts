@@ -17,14 +17,12 @@ function repairHeroPills(): string[] {
 }
 
 function transformRepairPrices(text: string): string {
-  return text.replace(/£(\d+)(?:\s*[–-]\s*£(\d+))?/g, (match, a, b) => {
+  // Gutter-cleaning prices in shared copy become the repair starting price (from £30).
+  // Ranges are not shown for repairs — only the official starting price.
+  return text.replace(/(from\s+)?£(\d+)(?:\s*[–-]\s*£(\d+))?/gi, (match, _from, a) => {
     const low = parseInt(a, 10);
     if (Number.isNaN(low) || low >= 120) return match;
-    if (b) {
-      const high = parseInt(b, 10);
-      return `£${repairPriceFrom(low)}–£${repairPriceTo(Number.isNaN(high) ? low + 40 : high)}`;
-    }
-    return `£${repairPriceFrom(low)}`;
+    return `from £${repairPriceFrom(low)}`;
   });
 }
 
@@ -74,7 +72,7 @@ function repairFaqsForArea(
       },
       {
         question: `How much does gutter repair cost in ${city}?`,
-        answer: `Gutter repair costs vary depending on the issue. A leaking joint reseal starts from around £80, while a full section replacement may cost more. We provide a free, no-obligation quote before any work starts.`,
+        answer: `Gutter repair costs vary depending on the issue. A leaking joint reseal starts from £30, while a full section replacement may cost more. We provide a free, no-obligation quote before any work starts.`,
       },
     ];
     return [...repairSpecific, ...transformed.slice(0, 4)];
@@ -86,7 +84,7 @@ function repairFaqsForArea(
     },
     {
       question: `How much does gutter repair cost in ${city}?`,
-      answer: `Gutter repair costs vary depending on the issue. A leaking joint reseal starts from around £80, while a full section replacement may cost more. We provide a free, no-obligation quote before any work starts.`,
+      answer: `Gutter repair costs vary depending on the issue. A leaking joint reseal starts from £30, while a full section replacement may cost more. We provide a free, no-obligation quote before any work starts.`,
     },
     {
       question: `Do you test your gutter repair work in ${city}?`,

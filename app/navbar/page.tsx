@@ -82,12 +82,15 @@ export default function Navbar() {
       `}</style>
       {/* Mobile Navbar */}
       <div className="lg:hidden">
-        {/* Top Bar — Pay a Bill | Help Centre */}
+        {/* Top Bar — Get a Quote | Help Centre */}
         <div className="text-white" style={{ backgroundColor: colors.navy }}>
           <div className="flex divide-x divide-white/20">
-            <button className="flex-1 py-2.5 text-center text-[13px] font-bold hover:bg-black/20 transition-colors">
-              Pay a Bill
-            </button>
+            <Link
+              href="/quote/"
+              className="flex-1 py-2.5 text-center text-[13px] font-bold text-white hover:bg-black/20 transition-colors"
+            >
+              Get a Quote
+            </Link>
             <Link 
               href="/help"
               className="flex-1 py-2.5 text-center text-[13px] font-bold text-white hover:bg-black/20 transition-colors"
@@ -179,22 +182,22 @@ export default function Navbar() {
 
             {/* Desktop Menu */}
             <div className="flex items-center gap-6 xl:gap-8">
-              <Link href="/" className="text-gray-700 hover:text-[#19C58B] transition-colors font-semibold text-[17px] tracking-tight">
+              <Link href="/" className="text-gray-700 hover:text-[#047857] transition-colors font-semibold text-[17px] tracking-tight">
                 Home
               </Link>
-              <Link href="/about" className="text-gray-700 hover:text-[#19C58B] transition-colors font-semibold text-[17px] tracking-tight">
+              <Link href="/about" className="text-gray-700 hover:text-[#047857] transition-colors font-semibold text-[17px] tracking-tight">
                 About
               </Link>
-              <Link href="/blog" className="text-gray-700 hover:text-[#19C58B] transition-colors font-semibold text-[17px] tracking-tight">
+              <Link href="/blog" className="text-gray-700 hover:text-[#047857] transition-colors font-semibold text-[17px] tracking-tight">
                 Blog
               </Link>
-              <Link href="/contact" className="text-gray-700 hover:text-[#19C58B] transition-colors font-semibold text-[17px] tracking-tight">
+              <Link href="/contact" className="text-gray-700 hover:text-[#047857] transition-colors font-semibold text-[17px] tracking-tight">
                 Contact
               </Link>
 
               {/* Services Dropdown */}
               <details className="relative services-details">
-                <summary className="cursor-pointer select-none text-gray-700 hover:text-[#19C58B] transition-colors flex items-center gap-1 font-semibold text-[17px] tracking-tight py-2">
+                <summary className="cursor-pointer select-none text-gray-700 hover:text-[#047857] transition-colors flex items-center gap-1 font-semibold text-[17px] tracking-tight py-2">
                   Services
                   <ChevronDown size={20} className="mt-0.5" />
                 </summary>
@@ -205,7 +208,7 @@ export default function Navbar() {
                       <Link
                         key={index}
                         href={service.href}
-                        className="flex items-center gap-3 px-4 py-3.5 text-gray-700 hover:bg-slate-50 hover:text-[#19C58B] transition-colors border-b border-gray-50 last:border-0"
+                        className="flex items-center gap-3 px-4 py-3.5 text-gray-700 hover:bg-slate-50 hover:text-[#047857] transition-colors border-b border-gray-50 last:border-0"
                       >
                         <IconComponent size={20} className="text-slate-400" />
                         <span className="text-[16px] font-medium">{service.name}</span>
@@ -219,7 +222,7 @@ export default function Navbar() {
                 <a
                   href="mailto:support@wowgutters.co.uk"
                   className="flex items-center justify-center gap-2 text-[16px] px-5 py-2.5 rounded-full font-bold transition-all duration-300 text-white hover:scale-105 hover:shadow-xl shadow-md whitespace-nowrap"
-                  style={{ backgroundColor: colors.primary }}
+                  style={{ backgroundColor: colors.primaryText }}
                 >
                   <Mail className="w-5 h-5" />
                   Email
