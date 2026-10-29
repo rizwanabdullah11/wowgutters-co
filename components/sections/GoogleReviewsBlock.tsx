@@ -2,6 +2,33 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { colors } from '@/constants/colors';
 import ElfsightReviews from '@/components/sections/ElfsightReviews';
+import { GOOGLE_REVIEWS_SUMMARY, googleReviewsCrawlSummary } from '@/lib/googleReviews';
+import { gbpReviewUrl } from '@/lib/businessDetails';
+
+/** Server-rendered rating line: the Elfsight widget loads by script, so crawlers saw an empty section. */
+function RatingSummary() {
+  const href = gbpReviewUrl();
+  const label = (
+    <>
+      <span className="text-amber-500" aria-hidden>★★★★★</span>{' '}
+      Rated <strong>{GOOGLE_REVIEWS_SUMMARY.ratingLabel}★ on Google</strong>
+    </>
+  );
+  return (
+    <div className="text-center mb-8">
+      <p className="text-lg text-slate-800">
+        {href ? (
+          <a href={href} target="_blank" rel="noopener noreferrer" className="hover:underline">
+            {label}
+          </a>
+        ) : (
+          label
+        )}
+      </p>
+      <p className="mt-2 text-sm text-slate-600 max-w-2xl mx-auto">{googleReviewsCrawlSummary()}</p>
+    </div>
+  );
+}
 
 type GoogleReviewsBlockProps = {
   city?: string;
@@ -19,6 +46,7 @@ export default function GoogleReviewsBlock({
     return (
       <section className={`py-16 md:py-20 ${className}`} aria-label="Customer reviews">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <RatingSummary />
           <ElfsightReviews showSummary={false} />
         </div>
       </section>
@@ -58,6 +86,7 @@ export default function GoogleReviewsBlock({
             See All <ArrowRight className="w-3.5 h-3.5" />
           </Link>
         </div>
+        <RatingSummary />
         <ElfsightReviews showSummary={false} />
       </div>
     </section>

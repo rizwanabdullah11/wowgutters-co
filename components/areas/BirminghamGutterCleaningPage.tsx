@@ -287,8 +287,8 @@ export default function BirminghamGutterCleaningPage() {
 
           <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             {[
-              { label: 'Average rating', value: '4.9' },
               { label: 'Google rating', value: '4.9★' },
+              { label: 'Liability insurance', value: '£10m' },
               { label: 'Storeys reach', value: '4' },
               { label: 'Days a week', value: '7' },
             ].map((s) => (
@@ -317,7 +317,7 @@ export default function BirminghamGutterCleaningPage() {
             Our gutter cleaning process — safe, thorough, no mess
           </h2>
           <p className="text-center text-slate-600 max-w-2xl mx-auto mb-12">
-            Every WOW Gutters Ltd job in Birmingham follows the same five-step process — from the moment we arrive to the
+            Every WOW Gutters Ltd job in Birmingham follows the same four-step process — from the moment we arrive to the
             moment we leave, with photo proof throughout.
           </p>
           <div className="grid md:grid-cols-2 gap-6">
@@ -346,7 +346,7 @@ export default function BirminghamGutterCleaningPage() {
             Typical gutter issues we resolve in Birmingham
           </h2>
           <p className="text-center text-slate-400 max-w-2xl mx-auto mb-12 text-sm">
-            Common problems we solve — wording as on our Birmingham service guide.
+            The problems we clear most often on Birmingham homes and businesses.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {PDF_ISSUES.map((c) => (
@@ -672,7 +672,6 @@ export default function BirminghamGutterCleaningPage() {
       </section>
 
       <AreaCrawlFooter currentSlug="birmingham" serviceKind="gutter" />
-      <AreaServicesRange />
       <AreaBlogSnippet locality="Birmingham" />
       <AreaRecentWork />
       <AreaContactMap variant="birmingham" />

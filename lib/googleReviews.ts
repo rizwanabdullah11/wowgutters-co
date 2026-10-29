@@ -1,6 +1,6 @@
 import { gbpReviewUrl } from '@/lib/businessDetails';
 
-/** Display-only rating — review count comes from the live Google widget, not hardcoded copy. */
+/** Display-only rating — no review count is shown in site copy. */
 export const GOOGLE_REVIEWS_SUMMARY = {
   rating: 4.9,
   ratingLabel: '4.9',

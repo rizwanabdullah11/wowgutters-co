@@ -1,4 +1,5 @@
 import HeroSection from '@/components/sections/HeroSection';
+import TrustPriceStrip from '@/components/sections/TrustPriceStrip';
 // import HomeServiceAreasHub from '@/components/sections/HomeServiceAreasHub';
 import ProfessionalServices from '@/components/sections/ProfessionalServices';
 import HowCanWeHelp from '@/components/sections/HowCanWeHelp';
@@ -24,6 +25,7 @@ export default function HomeScreen() {
       <HomepageFAQSchema />
       <HomepageWebSiteSchema />
       <HeroSection />
+      <TrustPriceStrip />
       {/* <HomeServiceAreasHub /> — West Midlands area grid hidden from homepage UI */}
       <ProfessionalServices />
       <HowCanWeHelp />

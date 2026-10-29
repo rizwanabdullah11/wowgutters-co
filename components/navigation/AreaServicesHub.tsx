@@ -339,5 +339,5 @@ const FALLBACK_NEARBY: string[][] = [
   ['dudley', 'stourbridge', 'halesowen', 'birmingham'],
   ['sandwell', 'west-bromwich', 'smethwick', 'oldbury'],
   ['walsall', 'bloxwich', 'brownhills', 'wolverhampton'],
-  ['derby', 'birmingham', 'lichfield', 'tamworth'],
+  ['birmingham', 'solihull', 'west-bromwich', 'halesowen'],
 ];

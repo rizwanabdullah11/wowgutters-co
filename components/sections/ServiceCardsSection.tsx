@@ -11,6 +11,7 @@ const cards = [
     description: 'Careful roofline and gutter checks to find leaks, blockages and weak points before they become costly.',
     buttonText: 'Book a Free Inspection',
     link: '/services/gutter-inspection/',
+    features: ['Gutter & downpipe check', 'Photos of any problems found', 'Honest advice, no pressure', 'Fully insured technicians'],
     accentColor: '#19C58B',
   },
   {
@@ -22,6 +23,7 @@ const cards = [
     description: 'High-reach gutter vacuum cleaning and downpipe unblocking to keep rainwater flowing safely away.',
     buttonText: 'Get Unblocking',
     link: '/help/unblock',
+    features: ['High-reach vacuum from the ground', 'Downpipes flushed & flow-tested', 'Before & after photos', 'Debris taken away'],
     accentColor: '#14B27D',
   },
   {
@@ -33,6 +35,7 @@ const cards = [
     description: 'Gutter repairs for leaking joints, loose clips, sagging sections and damaged brackets.',
     buttonText: 'Request Repair',
     link: '/help/repair',
+    features: ['Leaking joints resealed', 'Brackets & clips refitted', 'Sagging runs realigned', 'Water flow tested after'],
     accentColor: '#8DC63F',
   },
   {
@@ -44,6 +47,7 @@ const cards = [
     description: 'Roof, fascia, soffit and exterior cleaning to remove moss, algae, staining and built-up grime.',
     buttonText: 'Book Cleaning',
     link: '/help/clean',
+    features: ['Roof moss removal', 'Fascia & soffit cleaning', 'Conservatory roof cleaning', 'Gutters cleared afterwards'],
     accentColor: '#FF6B35',
   },
 ];
@@ -126,10 +130,9 @@ export default function ServiceCardsSection() {
                       <div className="back-features">
                         <h4 className="back-features-title" style={{ color: card.accentColor }}>WHAT&apos;S INCLUDED:</h4>
                         <ul className="back-features-list">
-                          <li>✓ Professional assessment</li>
-                          <li>✓ Flexible bookings available</li>
-                          <li>✓ Clear advice before work starts</li>
-                          <li>✓ Same Day Booking</li>
+                          {card.features.map((f) => (
+                            <li key={f}>✓ {f}</li>
+                          ))}
                         </ul>
                       </div>
 

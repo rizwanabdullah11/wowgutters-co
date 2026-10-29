@@ -22,9 +22,9 @@ const reasons = [
   {
     icon: <Shield className="w-5 h-5" />,
     title: 'Same Day Booking',
-    subtitle: 'PEACE OF MIND',
+    subtitle: 'FAST RESPONSE',
     description:
-      'Your home or business is protected by an insured team using safe, professional working methods.',
+      'Call or WhatsApp in the morning and we can often clear your gutters the same day across Birmingham.',
   },
   {
     icon: <Wrench className="w-5 h-5" />,
