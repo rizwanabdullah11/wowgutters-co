@@ -8,9 +8,9 @@ import { GOOGLE_REVIEWS_SUMMARY } from '@/lib/googleReviews';
  * Prices come from constants/gutterPricing.ts — the official price list.
  */
 const PRICES = [
-  { label: '2-bed home', value: formatGbp(GUTTER_PRICING.twoBedroom) },
-  { label: '3-bed home', value: formatGbp(GUTTER_PRICING.threeBedroom) },
-  { label: 'Premium Service', value: `from ${formatGbp(GUTTER_PRICING.premium)}` },
+  { label: '2-bed home', value: `from ${formatGbp(GUTTER_PRICING.twoBedroom)}` },
+  { label: '3-bed home', value: `from ${formatGbp(GUTTER_PRICING.threeBedroom)}` },
+  { label: 'Premium Service', value: formatGbp(GUTTER_PRICING.premium) },
   { label: 'Commercial', value: 'Custom quote' },
 ];
 
