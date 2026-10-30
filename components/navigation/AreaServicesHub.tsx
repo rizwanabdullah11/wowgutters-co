@@ -4,6 +4,7 @@ import { colors } from '@/constants/colors';
 import { AREA_SERVICE_META, type AreaServiceKind } from '@/lib/areaServiceMeta';
 import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, installationAreaPath } from '@/lib/areaSlugs';
 import { isIndexableAreaPath } from '@/lib/areaIndexPolicy';
+import areaIndexPolicy from '@/lib/area-index-policy.json';
 import { getAreaData } from '@/lib/getAreaData';
 import { areaLinkLabel } from '@/lib/crawlHub';
 
@@ -104,6 +105,32 @@ export default function AreaServicesHub({
     }
   }
 
+  // Main-town links for THIS service (Oct 30 2026): every kept core-town page of the same service
+  // links to the others, so core pages no longer depend on the hub page for their only internal link.
+  const linkKind: AreaServiceKind =
+    serviceKind === 'roof' || serviceKind === 'repair' ? serviceKind : 'gutter';
+  const linkLabel = AREA_SERVICE_META[linkKind].label;
+  const mainTownLinks = (areaIndexPolicy.coreTowns as string[])
+    .filter((slug) => !(slug === currentSlug && linkKind === serviceKind))
+    .map((slug) => ({
+      href: pathForKind(linkKind, slug),
+      label: `${linkLabel} ${areaLinkLabel(slug) || formatSlug(slug)}`,
+    }))
+    .filter((l) => isIndexableAreaPath(l.href));
+  const mainTownsHeading = `Our main ${linkLabel.toLowerCase()} areas`;
+
+  // Gutter-cleaning pages for Birmingham and its kept suburbs cross-link the kept suburb pages.
+  const isBirminghamCluster =
+    serviceKind === 'gutter' &&
+    (currentSlug === 'birmingham' ||
+      (areaIndexPolicy.keepGutterCleaningSuburbs as string[]).includes(currentSlug));
+  const suburbLinks = isBirminghamCluster
+    ? (areaIndexPolicy.keepGutterCleaningSuburbs as string[])
+        .filter((slug) => slug !== currentSlug)
+        .map((slug) => ({ href: areaPath(slug), label: `Gutter Cleaning ${areaLinkLabel(slug) || formatSlug(slug)}` }))
+        .filter((l) => isIndexableAreaPath(l.href))
+    : [];
+
   const heading = `More from WOW Gutters Ltd in ${displayName}`;
   const eyebrow =
     serviceKind === 'roof' ? 'Roof Care'
@@ -199,11 +226,11 @@ export default function AreaServicesHub({
 
         <div className="mb-8">
           <h3 className="text-base font-black text-slate-900 text-center mb-4 uppercase tracking-wider">
-            Our main gutter cleaning areas
+            {mainTownsHeading}
           </h3>
           <ul className="flex flex-wrap justify-center gap-2">
-            {MAIN_GUTTER_HUBS.filter((h) => !(serviceKind === 'gutter' && h.slug === currentSlug)).map((h) => (
-              <li key={h.slug}>
+            {mainTownLinks.map((h) => (
+              <li key={h.href}>
                 <Link
                   href={h.href}
                   className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
@@ -214,6 +241,26 @@ export default function AreaServicesHub({
             ))}
           </ul>
         </div>
+
+        {suburbLinks.length > 0 ? (
+          <div className="mb-8">
+            <h3 className="text-base font-black text-slate-900 text-center mb-4 uppercase tracking-wider">
+              Birmingham &amp; Solihull areas we cover
+            </h3>
+            <ul className="flex flex-wrap justify-center gap-2">
+              {suburbLinks.map((h) => (
+                <li key={h.href}>
+                  <Link
+                    href={h.href}
+                    className="inline-block rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm font-semibold text-slate-700 hover:border-[#19C58B] hover:text-[#0f766e] transition-colors"
+                  >
+                    {h.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
 
         <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm font-bold">
           <Link
@@ -323,17 +370,6 @@ const DETAIL_LINES = [
  * Town hubs ranked #13–16 with few internal links (e.g. Coventry: 34 of 3,362 pages).
  * Birmingham points to the homepage — the single Birmingham target page.
  */
-const MAIN_GUTTER_HUBS: { slug: string; label: string; href: string }[] = [
-  { slug: 'birmingham', label: 'Gutter Cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
-  { slug: 'coventry', label: 'Gutter Cleaning Coventry', href: '/gutter-cleaning-coventry/' },
-  { slug: 'wolverhampton', label: 'Gutter Cleaning Wolverhampton', href: '/gutter-cleaning-wolverhampton/' },
-  { slug: 'dudley', label: 'Gutter Cleaning Dudley', href: '/gutter-cleaning-dudley/' },
-  { slug: 'walsall', label: 'Gutter Cleaning Walsall', href: '/gutter-cleaning-walsall/' },
-  { slug: 'sandwell', label: 'Gutter Cleaning West Bromwich & Sandwell', href: '/gutter-cleaning-sandwell/' },
-  { slug: 'solihull', label: 'Gutter Cleaning Solihull', href: '/gutter-cleaning-solihull/' },
-  { slug: 'kidderminster', label: 'Gutter Cleaning Kidderminster', href: '/gutter-cleaning-kidderminster/' },
-  { slug: 'worcester', label: 'Gutter Cleaning Worcester', href: '/gutter-cleaning-worcester/' },
-];
 
 // Used when an area does not have nearby areas defined in the data layer.
 const FALLBACK_NEARBY: string[][] = [

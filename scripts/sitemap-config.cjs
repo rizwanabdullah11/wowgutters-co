@@ -22,6 +22,8 @@ const EXCLUDED_PATHS = new Set([
   ...Object.keys(KEYWORD_REDIRECTS.staticPages).map((slug) => `/${slug}/`),
   // Old paths / duplicates that now 301 (scripts/legacy-path-redirects.json)
   ...Object.keys(require('./legacy-path-redirects.json')).map((slug) => `/${slug}/`),
+  // Old / merged blog slugs that 301 (scripts/blog-legacy-redirects.json)
+  ...Object.keys(require('./blog-legacy-redirects.json')).map((slug) => `/blog/${slug}/`),
   '/contact-us/',
   '/about-us/',
   '/gutters-cleaning/',

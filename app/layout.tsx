@@ -118,15 +118,39 @@ export default function RootLayout({
   return (
     <html lang="en-GB">
       <head>
-        {/* Cookiebot — async so it does not block LCP/INP (still loads for consent) */}
+        {/*
+          Google Consent Mode v2 defaults — must run BEFORE Cookiebot and gtag.js.
+          Oct 30 2026 fix: GA4 used to be type="text/plain" and only ran after Cookiebot consent.
+          Cookiebot was not authorised for wowgutters.co.uk, so the banner never showed and GA4
+          never loaded at all. Now gtag.js always loads; until a visitor accepts statistics
+          cookies GA4 sends cookieless, consent-denied pings (UK GDPR/PECR friendly), and
+          Cookiebot updates consent automatically once the banner works.
+        */}
         <script
-          id="Cookiebot"
-          src="https://consent.cookiebot.com/uc.js"
-          data-cbid="90235ab0-b3ea-4224-a9f3-a1c438800254"
-          data-blockingmode="auto"
-          type="text/javascript"
-          async
-          defer
+          id="consent-defaults"
+          data-cookieconsent="ignore"
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {
+  ad_storage: 'denied',
+  ad_user_data: 'denied',
+  ad_personalization: 'denied',
+  analytics_storage: 'denied',
+  functionality_storage: 'granted',
+  security_storage: 'granted',
+  wait_for_update: 500
+});
+gtag('set', 'ads_data_redaction', true);
+gtag('set', 'url_passthrough', true);
+// Cookiebot is injected from here (not a separate <script async>) because React hoists async
+// scripts above inline ones — Google requires the consent default to run first.
+(function(){var s=document.createElement('script');s.id='Cookiebot';s.async=true;
+s.src='https://consent.cookiebot.com/uc.js';
+s.setAttribute('data-cbid','90235ab0-b3ea-4224-a9f3-a1c438800254');
+s.setAttribute('data-blockingmode','auto');
+document.head.appendChild(s);})();`,
+          }}
         />
         
         {/* Bing Webmaster Verification */}
@@ -153,16 +177,16 @@ export default function RootLayout({
         {/* Google tag (gtag.js) — plain scripts required for static export */}
         {ga4MeasurementId ? (
           <>
+            {/* Always loaded (consent mode controls cookies) — data-cookieconsent="ignore"
+                stops Cookiebot auto-blocking from holding it back. */}
             <script
-              type="text/plain"
-              data-cookieconsent="statistics"
+              data-cookieconsent="ignore"
               async
               src={`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(ga4MeasurementId)}`}
             />
             <script
               id="ga4"
-              type="text/plain"
-              data-cookieconsent="statistics"
+              data-cookieconsent="ignore"
               dangerouslySetInnerHTML={{
                 __html: `window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}

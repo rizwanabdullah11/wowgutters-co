@@ -7,7 +7,8 @@ import { drippingGutterJointsBlogPost } from './drippingGutterJointsBlog';
 import { gutterCleaningCostGuideBlogPost } from './gutterCleaningCostGuideBlog';
 import { howOftenCleanGuttersBlogPost } from './howOftenCleanGuttersBlog';
 import { walsallGutterCleaningBlogPost } from './walsallGutterCleaningBlog';
-import { wolverhamptonGutterCleaningBlogPost } from './wolverhamptonGutterCleaningBlog';
+// wolverhamptonGutterCleaningBlogPost removed Oct 30 2026: 77% duplicate of the Walsall guide;
+// /blog/wolverhampton-gutter-cleaning/ now 301s to /blog/gutter-cleaning-wolverhampton/.
 import { guttersBeforeSellingBlogPost } from './guttersBeforeSellingBlog';
 import { elderlyGutterCleaningBlogPost } from './elderlyGutterCleaningBlog';
 import { downpipeUnblockingBirminghamBlogPost } from './downpipeUnblockingBirminghamBlog';
@@ -90,7 +91,6 @@ export const blogPosts: BlogPost[] = [
   walsallGutterCleaningBlogPost,
   gutterCleaningCostGuideBlogPost,
   howOftenCleanGuttersBlogPost,
-  wolverhamptonGutterCleaningBlogPost,
   guttersBeforeSellingBlogPost,
   elderlyGutterCleaningBlogPost,
   downpipeUnblockingBirminghamBlogPost,
