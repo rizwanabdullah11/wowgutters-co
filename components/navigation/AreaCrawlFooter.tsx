@@ -141,7 +141,7 @@ export default function AreaCrawlFooter({
                 {weatherText}
               </p>
               <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                Read our detailed guide on <Link href="/why-is-my-gutter-overflowing" className="text-emerald-700 font-semibold hover:underline">why gutters overflow and how to fix them</Link>. If moss from roof tiles is continuously filling your channels, pair your clean with our gentle <Link href="/services/roof-cleaning/" className="text-emerald-700 font-semibold hover:underline">roof moss removal &amp; biocide treatment</Link> to prevent recurring blockages.
+                Read our detailed guide on <Link href="/why-is-my-gutter-overflowing/" className="text-emerald-700 font-semibold hover:underline">why gutters overflow and how to fix them</Link>. If moss from roof tiles is continuously filling your channels, pair your clean with our gentle <Link href="/services/roof-cleaning/" className="text-emerald-700 font-semibold hover:underline">roof moss removal &amp; biocide treatment</Link> to prevent recurring blockages.
               </p>
             </div>
             <div className="pt-4 border-t border-slate-100">
@@ -164,7 +164,7 @@ export default function AreaCrawlFooter({
                 {methodText}
               </p>
               <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                Learn more about our advanced <Link href="/sky-vac-gutter-cleaning" className="text-emerald-700 font-semibold hover:underline">SkyVac ground-level vacuum cleaning</Link> system, calculate instant pricing with our <Link href="/gutter-cleaning-calculator/" className="text-emerald-700 font-semibold hover:underline">online gutter price calculator</Link>, or book a zero-cost <Link href="/services/gutter-inspection/" className="text-emerald-700 font-semibold hover:underline">camera gutter inspection</Link>. Our team is based on Ryland Street (B16) and runs <Link href="/" className="text-emerald-700 font-semibold hover:underline">gutter cleaning in Birmingham</Link>{topicName.startsWith('Birmingham') ? '' : ` and ${topicName}`} every week.
+                Learn more about our advanced <Link href="/sky-vac-gutter-cleaning/" className="text-emerald-700 font-semibold hover:underline">SkyVac ground-level vacuum cleaning</Link> system, calculate instant pricing with our <Link href="/gutter-cleaning-calculator/" className="text-emerald-700 font-semibold hover:underline">online gutter price calculator</Link>, or book a zero-cost <Link href="/services/gutter-inspection/" className="text-emerald-700 font-semibold hover:underline">camera gutter inspection</Link>. Our team is based on Ryland Street (B16) and runs <Link href="/" className="text-emerald-700 font-semibold hover:underline">gutter cleaning in Birmingham</Link>{topicName.startsWith('Birmingham') ? '' : ` and ${topicName}`} every week.
               </p>
             </div>
             <div className="pt-4 border-t border-slate-100">
@@ -187,7 +187,7 @@ export default function AreaCrawlFooter({
             </div>
           </Link>
 
-          <Link href="/downpipe-unblocking" className="bg-white p-4 rounded-xl border border-slate-200 hover:border-emerald-400 hover:shadow-sm transition-all flex items-start gap-3 group">
+          <Link href="/downpipe-unblocking/" className="bg-white p-4 rounded-xl border border-slate-200 hover:border-emerald-400 hover:shadow-sm transition-all flex items-start gap-3 group">
             <Gauge className="w-5 h-5 text-emerald-700 shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
             <div>
               <p className="text-xs font-bold text-slate-900 group-hover:text-emerald-700 transition-colors">Flow-Tested Drainage</p>
@@ -221,9 +221,9 @@ export default function AreaCrawlFooter({
             <Link href="/services/gutter-repairs/" className="text-emerald-700 hover:underline font-semibold">Gutter Repairs</Link>
             <Link href="/services/roof-cleaning/" className="text-emerald-700 hover:underline font-semibold">Roof Moss Removal</Link>
             <Link href="/services/upvc-cleaning/" className="text-emerald-700 hover:underline font-semibold">uPVC Cleaning</Link>
-            <Link href="/services/conservatory" className="text-emerald-700 hover:underline font-semibold">Conservatories</Link>
-            <Link href="/services/commercial-gutter-cleaning" className="text-emerald-700 hover:underline font-semibold">Commercial</Link>
-            <Link href="/blog/gutter-clean-duration" className="text-emerald-700 hover:underline font-semibold">Clean Duration Guide</Link>
+            <Link href="/services/conservatory/" className="text-emerald-700 hover:underline font-semibold">Conservatories</Link>
+            <Link href="/services/commercial-gutter-cleaning/" className="text-emerald-700 hover:underline font-semibold">Commercial</Link>
+            <Link href="/blog/gutter-clean-duration/" className="text-emerald-700 hover:underline font-semibold">Clean Duration Guide</Link>
             <Link href="/gutter-cleaning-calculator/" className="text-emerald-700 hover:underline font-semibold">Price Calculator</Link>
             <Link href="/quote/" className="text-emerald-700 hover:underline font-bold">Get a Quote →</Link>
           </div>

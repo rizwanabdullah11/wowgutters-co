@@ -138,7 +138,7 @@ export default function AreaFAQ({
                   </a>
                 </div>
 
-                <Link href="/quote" className="block mt-6">
+                <Link href="/quote/" className="block mt-6">
                   <button className="w-full bg-[#0f172a] text-white font-bold py-4 rounded-xl hover:bg-[#1e293b] transition-all duration-300 hover:scale-105 shadow-lg">
                     Get Free Quote
                   </button>
@@ -168,7 +168,7 @@ export default function AreaFAQ({
 
         {/* Bottom CTA */}
         <div className="text-center mt-16">
-          <Link href="/help" className="inline-flex items-center gap-2 text-white font-bold text-lg hover:underline">
+          <Link href="/help/" className="inline-flex items-center gap-2 text-white font-bold text-lg hover:underline">
             FREE Instant quote
             <ChevronDown className="w-5 h-5 rotate-[-90deg]" />
           </Link>

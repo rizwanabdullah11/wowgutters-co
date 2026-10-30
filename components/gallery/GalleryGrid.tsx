@@ -535,7 +535,7 @@ export default function GalleryGrid({ items = galleryItems }: { items?: GalleryI
 
               <div className="flex items-center gap-3 shrink-0">
                 <a
-                  href="/quote"
+                  href="/quote/"
                   className="px-6 py-3 rounded-full bg-[#19C58B] text-white font-bold text-sm hover:bg-[#14B27D] transition-colors shadow-md"
                 >
                   Get A Free Quote

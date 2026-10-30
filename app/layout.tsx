@@ -116,7 +116,7 @@ export default function RootLayout({
 
 
   return (
-    <html lang="en">
+    <html lang="en-GB">
       <head>
         {/* Cookiebot — async so it does not block LCP/INP (still loads for consent) */}
         <script

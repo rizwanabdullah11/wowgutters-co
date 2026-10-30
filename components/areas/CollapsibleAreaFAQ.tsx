@@ -99,7 +99,7 @@ export default function CollapsibleAreaFAQ({ city, faqs, heading }: CollapsibleA
                     </div>
                   </a>
                 </div>
-                <Link href="/quote" className="block mt-6">
+                <Link href="/quote/" className="block mt-6">
                   <span className="flex w-full items-center justify-center bg-white text-[#047857] font-bold py-4 rounded-xl hover:bg-slate-50 transition-all duration-300 hover:scale-105 shadow-lg">
                     Get My Free Quote
                   </span>

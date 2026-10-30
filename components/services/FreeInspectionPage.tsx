@@ -28,7 +28,7 @@ export default function FreeInspectionPage() {
             <p className="text-lg sm:text-xl mb-8 max-w-3xl mx-auto" style={{ color: colors.white }}>
               Wondering if your gutters are blocked? Book our completely free, no-obligation gutter inspection using high-reaching pole cameras to see exactly what's up there.
             </p>
-            <Link href="/quote">
+            <Link href="/quote/">
               <Button 
                 className="px-8 py-4 text-lg font-semibold"
                 style={{ backgroundColor: colors.white, color: colors.primary }}

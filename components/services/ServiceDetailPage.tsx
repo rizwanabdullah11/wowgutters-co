@@ -616,7 +616,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
           </p>
 
           <div className="hero-cta-row animate-fade-in-up delay-300">
-            <Link href="/quote" className="hero-primary-btn-link hero-primary-btn">
+            <Link href="/quote/" className="hero-primary-btn-link hero-primary-btn">
               <span className="btn-arrow">&#9658;</span>
               <span className="btn-label">
                 Click For A <span className="btn-free">FREE</span> Quote
@@ -854,7 +854,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
               <p className="text-gray-500 font-medium mb-8">
                 Takes less than 60 seconds to complete
               </p>
-              <Link href="/quote" className="block w-full">
+              <Link href="/quote/" className="block w-full">
                 <button type="button" className="w-full flex items-center justify-center gap-3 py-4 rounded-full text-white font-bold text-lg shadow-lg hover:opacity-95 transition-opacity" style={{ background: colors.primaryGradient }}>
                   Get Started <PenTool className="w-5 h-5" />
                 </button>

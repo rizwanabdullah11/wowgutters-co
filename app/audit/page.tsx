@@ -92,7 +92,7 @@ export default function AuditPage() {
             ensuring customers in every area can find professional gutter cleaning services near them.
           </p>
           <Link 
-            href="/services" 
+            href="/services/" 
             className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium"
           >
             View all service areas

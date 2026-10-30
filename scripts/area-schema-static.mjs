@@ -12,6 +12,15 @@ const FEATURED_GOOGLE_REVIEWS = JSON.parse(
 );
 
 const LOGO_URL = 'https://wowgutters.co.uk/favicon.png';
+// One canonical business entity shared with the React build (lib/business-entity.json).
+const BUSINESS_ENTITY = (() => {
+  const { _comment, ...node } = JSON.parse(
+    fs.readFileSync(path.join(__dirname, '..', 'lib', 'business-entity.json'), 'utf8'),
+  );
+  void _comment;
+  return node;
+})();
+const BUSINESS_ID = BUSINESS_ENTITY['@id'];
 const SCHEMA_DATE_PUBLISHED = '2025-01-15';
 const SCHEMA_DATE_MODIFIED = '2026-06-02';
 const SITE = 'https://wowgutters.co.uk';
@@ -57,7 +66,7 @@ function buildAreaWebPageNode(url, name) {
     url,
     name,
     isPartOf: { '@type': 'WebSite', '@id': `${SITE}/#website`, name: 'WOW Gutters Ltd', url: SITE },
-    about: { '@id': `${url}#business` },
+    about: { '@id': BUSINESS_ID },
     datePublished: SCHEMA_DATE_PUBLISHED,
     dateModified: SCHEMA_DATE_MODIFIED,
   };
@@ -118,71 +127,12 @@ export function buildLocalBusinessSchemaGraph({
 }) {
   const allFaqs =
     faqs?.length > 0 ? faqs : buildDefaultFaqs(city, priceFrom, priceTo, postcodes, nearbyAreas);
-  const businessId = `${url}#business`;
-  const { aggregateRating, review } = buildReviewSchemaFields(businessId);
+  const businessId = BUSINESS_ID;
 
   return {
     '@context': 'https://schema.org',
     '@graph': [
-      {
-        '@type': 'HomeAndConstructionBusiness',
-        '@id': businessId,
-        name: `WOW Gutters Ltd — ${city}`,
-        description: `Professional gutter cleaning in ${city}. Ground-level vacuum, before & after photos, fully insured (£10m). Call 07421 433910.`,
-        url,
-        telephone: '+447421433910',
-        email: 'support@wowgutters.co.uk',
-        priceRange: '££',
-        image: LOGO_URL,
-        logo: { '@type': 'ImageObject', url: LOGO_URL },
-        address: {
-          '@type': 'PostalAddress',
-          // Real registered address (Google wants the same NAP on every page);
-          // the area itself is described by areaServed below.
-          streetAddress: '38 Ryland Street',
-          addressLocality: 'Birmingham',
-          addressRegion: 'West Midlands',
-          postalCode: 'B16 8DD',
-          addressCountry: 'GB',
-        },
-        geo: {
-          '@type': 'GeoCoordinates',
-          latitude: geo.latitude,
-          longitude: geo.longitude,
-        },
-        areaServed: [
-          { '@type': 'City', name: city },
-          ...nearbyAreas.map((area) => ({ '@type': 'Place', name: area })),
-        ],
-        openingHoursSpecification: [
-          {
-            '@type': 'OpeningHoursSpecification',
-            dayOfWeek: [
-              'Monday',
-              'Tuesday',
-              'Wednesday',
-              'Thursday',
-              'Friday',
-              'Saturday',
-              'Sunday',
-            ],
-            opens: '00:00',
-            closes: '23:59',
-          },
-        ],
-        aggregateRating,
-        review,
-        contactPoint: {
-          '@type': 'ContactPoint',
-          telephone: '+447421433910',
-          contactType: 'Customer Service',
-          contactOption: 'TollFree',
-          areaServed: 'GB',
-          availableLanguage: 'English',
-        },
-        potentialAction: { '@type': 'CommunicateAction', target: 'tel:+447421433910' },
-        dateModified: SCHEMA_DATE_MODIFIED,
-      },
+      BUSINESS_ENTITY,
       buildAreaWebPageNode(url, `Gutter Cleaning ${city} | WOW Gutters Ltd`),
       {
         '@type': 'Service',
@@ -190,13 +140,16 @@ export function buildLocalBusinessSchemaGraph({
         name: `Gutter Cleaning ${city}`,
         serviceType: 'Gutter cleaning',
         description: `Professional gutter cleaning in ${city}. Ground-level vacuum, no ladders, up to 4 storeys, before & after photos, downpipes cleared, fully insured.`,
-        provider: { '@id': `${url}#business` },
-        areaServed: { '@type': 'City', name: city },
+        provider: { '@id': businessId },
+        areaServed: [
+          { '@type': 'City', name: city },
+          ...nearbyAreas.slice(0, 8).map((area) => ({ '@type': 'Place', name: area })),
+        ],
         url,
         offers: {
           '@type': 'Offer',
-          priceRange: `£${priceFrom}-£${priceTo}`,
           priceCurrency: 'GBP',
+          priceSpecification: { '@type': 'PriceSpecification', minPrice: 100, priceCurrency: 'GBP' },
           availability: 'https://schema.org/InStock',
         },
         datePublished: SCHEMA_DATE_PUBLISHED,
@@ -255,7 +208,7 @@ export function parseCitiesFromFile(citiesTsContent) {
         longitude: lngM ? parseFloat(lngM[1]) : -1.8904,
       },
       priceFrom: 100,
-      priceTo: 210,
+      priceTo: 200,
       postcodes: postcodesM ? [...postcodesM[1].matchAll(/'([^']+)'/g)].map((x) => x[1]) : [],
       nearbyAreas: nearbyM ? [...nearbyM[1].matchAll(/'([^']+)'/g)].map((x) => x[1]) : [],
     };
@@ -303,7 +256,7 @@ export function schemaForAreaSlug(slug, citiesMap, faqs) {
     city: slugToTitle(slug),
     url,
     priceFrom: 100,
-    priceTo: 210,
+    priceTo: 200,
     nearbyAreas: [],
     geo: { latitude: 52.4862, longitude: -1.8904 },
     faqs,

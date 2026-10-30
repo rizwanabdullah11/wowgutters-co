@@ -55,7 +55,7 @@ export default function GutterGallery() {
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center">
-            <Link href="/quote" className="inline-flex items-center gap-2 bg-[#19C58B] hover:bg-[#14B27D] text-white px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl">
+            <Link href="/quote/" className="inline-flex items-center gap-2 bg-[#19C58B] hover:bg-[#14B27D] text-white px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl">
               Get Your Free Quote
             </Link>
             <a href="tel:07421433910" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border-2 border-white/40 text-white px-8 py-4 rounded-full font-bold transition-all hover:bg-white hover:text-slate-900">
@@ -129,7 +129,7 @@ export default function GutterGallery() {
               </div>
 
               <div className="space-y-4 mb-8">
-                <Link href="/quote" className="block">
+                <Link href="/quote/" className="block">
                   <button className="w-full py-4 rounded-full text-white font-bold text-lg transition-all hover:scale-105 shadow-lg" style={{ background: colors.primaryGradient }}>
                     Get Your Free Quote
                   </button>
@@ -227,14 +227,14 @@ export default function GutterGallery() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center pt-2">
             <Link
-              href="/quote"
+              href="/quote/"
               className="px-8 py-4 rounded-full font-bold text-white shadow-xl transition hover:scale-105"
               style={{ background: colors.primaryGradient }}
             >
               Get A Fast Free Quote
             </Link>
             <Link
-              href="/reviews"
+              href="/reviews/"
               className="px-8 py-4 rounded-full font-bold text-slate-800 bg-white hover:bg-slate-100 transition shadow-md"
             >
               Read Customer Reviews

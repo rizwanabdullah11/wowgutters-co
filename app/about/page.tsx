@@ -87,7 +87,7 @@ export default function About() {
           </p>
 
           <div className="hero-cta-row animate-fade-in-up delay-300">
-            <Link href="/quote" className="hero-primary-btn-link hero-primary-btn">
+            <Link href="/quote/" className="hero-primary-btn-link hero-primary-btn">
               <span className="btn-arrow">&#9658;</span>
               <span className="btn-label">
                 Get A <span className="btn-free">FREE</span> Quote
@@ -150,7 +150,7 @@ export default function About() {
 
               <div className="flex items-center gap-4 pt-4">
                 <Link
-                  href="/reviews"
+                  href="/reviews/"
                   className="inline-flex items-center gap-2 text-emerald-400 font-bold hover:text-emerald-300 transition-colors text-lg"
                 >
                   <Star className="w-5 h-5 text-amber-400 fill-amber-400" />
@@ -303,7 +303,7 @@ export default function About() {
                 <p className="text-gray-500 font-medium mb-8 text-lg">
                   Get your free quote in less than 60 seconds
                 </p>
-                <Link href="/quote" className="block w-full">
+                <Link href="/quote/" className="block w-full">
                   <button className="w-full flex items-center justify-center gap-3 py-5 rounded-full text-white font-bold text-lg transition-transform duration-200 hover:scale-105 shadow-xl" style={{ background: colors.primaryGradient }}>
                     Get Free Quote <PenTool className="w-5 h-5" />
                   </button>

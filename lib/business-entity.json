@@ -1,0 +1,35 @@
+{
+  "_comment": "ONE business entity for all JSON-LD (homepage, area pages, contact, about, blog). Every page must use this @id and name so Google sees a single business that matches the Google Business Profile. Edit facts here only.",
+  "@type": "HomeAndConstructionBusiness",
+  "@id": "https://wowgutters.co.uk/#business",
+  "name": "WOW Gutters Ltd",
+  "url": "https://wowgutters.co.uk/",
+  "telephone": "+447421433910",
+  "email": "support@wowgutters.co.uk",
+  "priceRange": "££",
+  "image": "https://wowgutters.co.uk/og/default.jpg",
+  "logo": { "@type": "ImageObject", "url": "https://wowgutters.co.uk/assets/wow-gutter-logo2.png" },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "38 Ryland Street",
+    "addressLocality": "Birmingham",
+    "addressRegion": "West Midlands",
+    "postalCode": "B16 8DD",
+    "addressCountry": "GB"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 52.4760288, "longitude": -1.91898 },
+  "hasMap": "https://maps.google.com/?cid=18206401737056874662",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    }
+  ],
+  "areaServed": [
+    "Birmingham", "Solihull", "Sutton Coldfield", "Wolverhampton", "Walsall", "Dudley", "West Bromwich",
+    "Sandwell", "Halesowen", "Stourbridge", "Smethwick", "Oldbury", "Coventry", "Bromsgrove", "Redditch",
+    "Lichfield", "Tamworth", "Cannock", "Kidderminster"
+  ]
+}

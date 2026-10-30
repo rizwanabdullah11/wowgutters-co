@@ -3,12 +3,12 @@
  */
 
 import { SCHEMA_DATE_MODIFIED, SCHEMA_DATE_PUBLISHED } from '@/lib/schemaDates';
-import { OPENING_HOURS_SCHEMA } from '@/lib/businessHours';
 import { buildAreaWebPageNode } from '@/lib/pageSchemaGraphs';
 import { buildReviewSchemaFields } from '@/lib/reviewSchema';
 import type { AreaServiceKind } from '@/lib/areaServiceMeta';
 import { AREA_SERVICE_META } from '@/lib/areaServiceMeta';
 import { buildRoofSchemaFaqs } from '@/lib/roofCityFaqs';
+import { BUSINESS_ID, businessEntityNode } from '@/lib/businessEntity';
 
 export type SchemaFaq = { question: string; answer: string };
 
@@ -159,23 +159,11 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
               ? buildInstallationSchemaFaqs(input.city)
               : buildDefaultFaqs(input.city, input.priceFrom, input.priceTo, postcodes, input.nearbyAreas);
 
-  const { city, url, priceFrom, priceTo, nearbyAreas, geo } = input;
-  const businessId = `${url}#business`;
-  const { aggregateRating, review } = buildReviewSchemaFields(businessId);
+  const { city, url, priceFrom, nearbyAreas } = input;
+  const businessId = BUSINESS_ID;
+  // Review markup stays disabled (lib/reviewSchema.ts).
+  buildReviewSchemaFields(businessId);
   const serviceLabel = meta.label;
-
-  const businessDescription =
-    serviceKind === 'roof'
-      ? `Professional roof cleaning in ${city}. Soft-wash moss removal, biocide treatment, before & after photos, fully insured. Call 07421 433910.`
-      : serviceKind === 'inspection'
-        ? `Free gutter inspection in ${city}. We check gutters, downpipes, joints, brackets and fascia — photo report, honest advice, no obligation. Call 07421 433910.`
-        : serviceKind === 'roof-inspection'
-          ? `Free roof inspection in ${city}. We check tiles, ridges, flashing, moss coverage and ventilation — photo report, honest advice, no obligation. Call 07421 433910.`
-          : serviceKind === 'upvc'
-            ? `Professional exterior uPVC cleaning in ${city}. Hot purified water restores fascias, soffits, window frames & doors. Streak-free, chemical-free, fully insured. Call 07421 433910.`
-            : serviceKind === 'installation'
-              ? `Professional gutter installation in ${city}. New uPVC systems measured, supplied and fitted — correct fall, proper brackets, sealed joints. Free survey, fully insured. Call 07421 433910.`
-              : `Professional gutter cleaning in ${city}. Ground-level vacuum, before & after photos, flow-tested downpipes, fully insured. Call 07421 433910.`;
 
   const serviceDescription =
     serviceKind === 'roof'
@@ -193,54 +181,8 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
   return {
     '@context': 'https://schema.org',
     '@graph': [
-      {
-        '@type': 'HomeAndConstructionBusiness',
-        '@id': businessId,
-        name: `WOW Gutters Ltd — ${city}`,
-        description: businessDescription,
-        url,
-        telephone: '+447421433910',
-        email: 'support@wowgutters.co.uk',
-        priceRange: '££',
-        image: LOGO_URL,
-        logo: { '@type': 'ImageObject', url: LOGO_URL },
-        address: {
-          '@type': 'PostalAddress',
-          // Real registered address (Google wants the same NAP on every page);
-          // the area itself is described by areaServed below.
-          streetAddress: '38 Ryland Street',
-          addressLocality: 'Birmingham',
-          addressRegion: 'West Midlands',
-          postalCode: 'B16 8DD',
-          addressCountry: 'GB',
-        },
-        geo: {
-          '@type': 'GeoCoordinates',
-          latitude: geo.latitude,
-          longitude: geo.longitude,
-        },
-        areaServed: [
-          { '@type': 'City', name: city },
-          ...nearbyAreas.map((area) => ({ '@type': 'Place', name: area })),
-        ],
-        openingHoursSpecification: OPENING_HOURS_SCHEMA,
-        aggregateRating,
-        review,
-        contactPoint: {
-          '@type': 'ContactPoint',
-          telephone: '+447421433910',
-          contactType: 'Customer Service',
-          contactOption: 'TollFree',
-          areaServed: 'GB',
-          availableLanguage: 'English',
-          hoursAvailable: OPENING_HOURS_SCHEMA[0],
-        },
-        potentialAction: {
-          '@type': 'CommunicateAction',
-          target: 'tel:+447421433910',
-        },
-        dateModified: SCHEMA_DATE_MODIFIED,
-      },
+      // One canonical business entity (lib/business-entity.json) — the area is described by the Service node.
+      businessEntityNode(),
       buildAreaWebPageNode(url, `${serviceLabel} ${city} | WOW Gutters Ltd`),
       {
         '@type': 'Service',
@@ -248,13 +190,21 @@ export function buildLocalBusinessSchemaGraph(input: LocalBusinessSchemaInput) {
         name: `${serviceLabel} ${city}`,
         serviceType: serviceLabel,
         description: serviceDescription,
-        provider: { '@id': `${url}#business` },
-        areaServed: { '@type': 'City', name: city },
+        provider: { '@id': businessId },
+        areaServed: [
+          { '@type': 'City', name: city },
+          ...nearbyAreas.slice(0, 8).map((area) => ({ '@type': 'Place', name: area })),
+        ],
         url,
         offers: {
           '@type': 'Offer',
-          priceRange: priceTo > priceFrom ? `£${priceFrom}-£${priceTo}` : `From £${priceFrom}`,
+          // Official list: 2-bed £100, 3-bed £110, Premium from £200 (constants/gutterPricing.ts).
           priceCurrency: 'GBP',
+          priceSpecification: {
+            '@type': 'PriceSpecification',
+            minPrice: priceFrom >= 500 ? priceFrom : 100,
+            priceCurrency: 'GBP',
+          },
           availability: 'https://schema.org/InStock',
         },
         datePublished: SCHEMA_DATE_PUBLISHED,

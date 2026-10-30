@@ -59,7 +59,7 @@ export default function NeighbourhoodDiscount() {
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center">
-            <Link href="/quote" className="inline-flex items-center gap-2 bg-[#19C58B] hover:bg-[#14B27D] text-white px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl">
+            <Link href="/quote/" className="inline-flex items-center gap-2 bg-[#19C58B] hover:bg-[#14B27D] text-white px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl">
               Get Group Quote
             </Link>
             <a href="tel:07421433910" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border-2 border-white/40 text-white px-8 py-4 rounded-full font-bold transition-all hover:bg-white hover:text-slate-900">
@@ -191,7 +191,7 @@ export default function NeighbourhoodDiscount() {
               </div>
 
               <div className="space-y-4">
-                <Link href="/quote" className="block">
+                <Link href="/quote/" className="block">
                   <button className="w-full py-4 rounded-full text-white font-bold text-lg transition-all hover:scale-105 shadow-lg" style={{ background: colors.primaryGradient }}>
                     Get Group Quote
                   </button>

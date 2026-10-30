@@ -47,7 +47,7 @@ export default function CommercialRoofCleaningPage() {
               </p>
 
               <div className="flex flex-wrap gap-4 justify-center mb-8">
-                <Link href="/quote">
+                <Link href="/quote/">
                   <Button
                     className="px-8 py-6 text-lg font-bold rounded-full shadow-2xl hover:scale-105 transition-transform"
                     style={{ background: colors.primaryGradient, color: 'white' }}
@@ -251,7 +251,7 @@ export default function CommercialRoofCleaningPage() {
                   </div>
                 ))}
               </div>
-              <Link href="/quote">
+              <Link href="/quote/">
                 <Button
                   className="px-8 py-4 text-lg font-bold rounded-full hover:scale-105 transition-transform"
                   style={{ background: colors.primaryGradient, color: 'white' }}
@@ -273,7 +273,7 @@ export default function CommercialRoofCleaningPage() {
             Protect your commercial property with professional roof cleaning — scheduled around your business.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Link href="/quote">
+            <Link href="/quote/">
               <Button
                 className="px-8 py-4 text-lg font-semibold"
                 style={{ backgroundColor: colors.white, color: colors.primary }}
@@ -281,7 +281,7 @@ export default function CommercialRoofCleaningPage() {
                 Request a Quote
               </Button>
             </Link>
-            <Link href="/contact">
+            <Link href="/contact/">
               <Button
                 variant="outline"
                 className="px-8 py-4 text-lg font-semibold border-2"

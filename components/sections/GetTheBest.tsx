@@ -80,7 +80,7 @@ export default function GetTheBest() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-3">
-                <Link href="/quote">
+                <Link href="/quote/">
                   <button
                     className="inline-flex items-center gap-2 px-7 py-3 rounded-full text-white font-semibold text-sm transition-opacity hover:opacity-90"
                     style={{ background: colors.primaryGradient }}
@@ -88,7 +88,7 @@ export default function GetTheBest() {
                     Get A Quote <ArrowRight className="w-4 h-4" />
                   </button>
                 </Link>
-                <Link href="/contact">
+                <Link href="/contact/">
                   <button
                     className="inline-flex items-center gap-2 px-7 py-3 rounded-full font-semibold text-sm border-2 transition-opacity hover:opacity-80"
                     style={{ borderColor: colors.primaryText, color: colors.primaryText, backgroundColor: 'transparent' }}

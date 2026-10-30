@@ -55,7 +55,7 @@ export const bungalowGutterCleaningBlogPost: BlogPost = {
   content: `
 <p>A bungalow's gutters sit within arm's reach of a stepladder, so most owners assume they are easy. In practice that is exactly why they get neglected. They are out of sight from the garden, easy to put off, and often sit under overhanging branches that drop more than anyone expects. This guide covers what makes bungalow gutters different across Birmingham and the wider West Midlands, why "low" doesn't mean "safe", what to check from the ground and what a proper gutter cleaning visit covers.</p>
 
-<p>📞 <strong>WOW Gutters Ltd: <a href="tel:07421433910" style="${link}">07421 433910</a></strong> | 📋 <a href="/quote" style="${link}">Request a quote</a></p>
+<p>📞 <strong>WOW Gutters Ltd: <a href="tel:07421433910" style="${link}">07421 433910</a></strong> | 📋 <a href="/quote/" style="${link}">Request a quote</a></p>
 
 ${ctaTop}
 
@@ -130,9 +130,9 @@ ${ctaTop}
 
 <h2 id="moss-wide-roofs">Moss, Wide Roofs and Long Runs</h2>
 
-<p>Bungalow roofs are wide and often shallow, and moss thrives on shaded, shallow slopes. It sheds into the channel all year, as <a href="/blog/roof-moss-damage/" style="${link}">Moss on Your Roof? What It's Doing to Your Birmingham Gutters Right Now</a> explains. Our <a href="/roof-cleaning" style="${link}">roof cleaning</a> and <a href="/roof-cleaning/" style="${link}">moss removal services</a> treat the source.</p>
+<p>Bungalow roofs are wide and often shallow, and moss thrives on shaded, shallow slopes. It sheds into the channel all year, as <a href="/blog/roof-moss-damage/" style="${link}">Moss on Your Roof? What It's Doing to Your Birmingham Gutters Right Now</a> explains. Our <a href="/roof-cleaning/" style="${link}">roof cleaning</a> and <a href="/roof-cleaning/" style="${link}">moss removal services</a> treat the source.</p>
 
-<p>Wide roofs also mean long gutter runs feeding few downpipes. A restriction at one bend can back water along a considerable length, as <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">Downpipes Blocked Again? The Birmingham Fix Most Homeowners Miss</a> explains. <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">How Do You Know If Your Downpipe Is Blocked? Signs Birmingham Homes Show</a> lists the signs, and our <a href="/downpipe-unblocking" style="${link}">downpipe unblocking service</a> tests every outlet.</p>
+<p>Wide roofs also mean long gutter runs feeding few downpipes. A restriction at one bend can back water along a considerable length, as <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">Downpipes Blocked Again? The Birmingham Fix Most Homeowners Miss</a> explains. <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">How Do You Know If Your Downpipe Is Blocked? Signs Birmingham Homes Show</a> lists the signs, and our <a href="/downpipe-unblocking/" style="${link}">downpipe unblocking service</a> tests every outlet.</p>
 
 <figure style="margin: 28px 0;">
   <img src="${IMG_MOSS_WIDE_ROOF}" alt="Wide bungalow roof with moss growth shedding into gutters creating long drainage runs" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
@@ -181,7 +181,7 @@ ${ctaMid}
   <li><strong>Photos and a written summary.</strong> Before and after images of every run.</li>
 </ol>
 
-<p>Bungalows are the easy end of our reach, so a ground-based visit is quick to set up. Our method is described in <a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">How Do You Clean Gutters Without a Ladder? The Method Birmingham Pros Use</a> and <a href="/blog/gutter-vacuum-cleaning-birmingham/" style="${link}">Gutter Vacuum Cleaning Birmingham</a>. The full process is in <a href="/blog/professional-gutter-walkthrough/" style="${link}">What Happens During a Professional Gutter Clean? A Birmingham Homeowner's Walkthrough</a>. Heavily neglected runs fall under our <a href="/gutter-cleaning" style="${link}">gutter clearing service</a>, and our <a href="/the-gutter-gallery/" style="${link}">gallery</a> shows real examples.</p>
+<p>Bungalows are the easy end of our reach, so a ground-based visit is quick to set up. Our method is described in <a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">How Do You Clean Gutters Without a Ladder? The Method Birmingham Pros Use</a> and <a href="/blog/gutter-vacuum-cleaning-birmingham/" style="${link}">Gutter Vacuum Cleaning Birmingham</a>. The full process is in <a href="/blog/professional-gutter-walkthrough/" style="${link}">What Happens During a Professional Gutter Clean? A Birmingham Homeowner's Walkthrough</a>. Heavily neglected runs fall under our <a href="/gutter-cleaning/" style="${link}">gutter clearing service</a>, and our <a href="/the-gutter-gallery/" style="${link}">gallery</a> shows real examples.</p>
 
 <p>"Fast" depends on the property. Duration varies with run length, debris and what the camera finds, and <a href="/blog/gutter-clean-duration/" style="${link}">How Long Does a Professional Gutter Clean Take in Birmingham?</a> explains why an unusually quick visit deserves questions.</p>
 
@@ -189,7 +189,7 @@ ${ctaBox}
 
 <h2 id="fascias-soffits">Fascias, Soffits and Downpipes</h2>
 
-<p>Because bungalow roofs are low, fascia and soffit damage is easy to see up close, and easy to put off. Overflow soaks the fascia from behind, softening the board and loosening the brackets, as <a href="/roofline-cleaning-birmingham/" style="${link}">Roofline Cleaning Birmingham: Gutters, Fascias & Soffits</a> explains. <a href="/blog/soffit-damage-signs/" style="${link}">Soffit Damage in West Midlands Homes: Early Signs You Shouldn't Ignore</a> covers the underside. Our <a href="/fascia-soffit-cleaning" style="${link}">fascia and soffit cleaning service</a> looks after the outside surfaces.</p>
+<p>Because bungalow roofs are low, fascia and soffit damage is easy to see up close, and easy to put off. Overflow soaks the fascia from behind, softening the board and loosening the brackets, as <a href="/roofline-cleaning-birmingham/" style="${link}">Roofline Cleaning Birmingham: Gutters, Fascias & Soffits</a> explains. <a href="/blog/soffit-damage-signs/" style="${link}">Soffit Damage in West Midlands Homes: Early Signs You Shouldn't Ignore</a> covers the underside. Our <a href="/fascia-soffit-cleaning/" style="${link}">fascia and soffit cleaning service</a> looks after the outside surfaces.</p>
 
 <p>A gutter visit can note what it sees, but it can't repair rotten timber or diagnose damp. <a href="/blog/gutter-water-damage-guide/" style="${link}">Water Damage From Gutters: Birmingham Homeowner Guide</a> walks through how the damage develops and what to do first. If a joint is leaking, <a href="/blog/leaking-gutter-repair/" style="${link}">Leaking Gutter Repair Birmingham: Fix or Replace?</a> explains how to judge repair against replacement.</p>
 <h2 id="older-owners">Older Owners and Safe Maintenance</h2>
@@ -233,7 +233,7 @@ ${ctaBox}
 
 <p>WOW Gutters Ltd provides bungalow gutter cleaning across Birmingham, Solihull, Sutton Coldfield, Wolverhampton, Walsall, Dudley, Coventry, Redditch, Worcester, Bromsgrove, West Bromwich and all West Midlands areas.</p>
 
-<p><a href="/contact" style="${link}">Contact us</a> or <a href="/quote" style="${link}">request a quote</a>.</p>
+<p><a href="/contact/" style="${link}">Contact us</a> or <a href="/quote/" style="${link}">request a quote</a>.</p>
 
 <p>📞 <a href="tel:07421433910" style="${link}">07421 433910</a> | 📧 <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a> | 🌐 <a href="https://wowgutters.co.uk" style="${link}">https://wowgutters.co.uk</a></p>
 
@@ -314,7 +314,7 @@ ${ctaBox}
 
 <p>WOW Gutters Ltd provides fully insured, ground-based gutter cleaning across Birmingham and the West Midlands, with live camera inspection and before and after photographs on every job. No ladders.</p>
 
-<p>📞 <a href="tel:07421433910" style="${link}">07421 433910</a> | 🌐 <a href="https://wowgutters.co.uk" style="${link}">https://wowgutters.co.uk</a> | 📋 <a href="/quote" style="${link}">Request a quote</a></p>
+<p>📞 <a href="tel:07421433910" style="${link}">07421 433910</a> | 🌐 <a href="https://wowgutters.co.uk" style="${link}">https://wowgutters.co.uk</a> | 📋 <a href="/quote/" style="${link}">Request a quote</a></p>
 
 <p>Serving Birmingham, Solihull, Sutton Coldfield, Wolverhampton, Dudley, Walsall, Coventry, Redditch, Worcester, Bromsgrove and all West Midlands areas.</p>
 

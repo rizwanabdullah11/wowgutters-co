@@ -108,7 +108,7 @@ export default function CityFAQ({ title, faqs }: { title: string; faqs: CityGutt
                   </a>
                 </div>
 
-                <Link href="/quote" className="block mt-6">
+                <Link href="/quote/" className="block mt-6">
                   <button
                     type="button"
                     className="w-full bg-[#0f172a] text-white font-bold py-4 rounded-xl hover:bg-[#1e293b] transition-all duration-300 hover:scale-105 shadow-lg"

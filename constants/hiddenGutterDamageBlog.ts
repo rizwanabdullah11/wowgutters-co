@@ -382,7 +382,7 @@ ${ctaBox}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Full debris extraction to channel floor level including silt layer removal; real-time camera inspection of every gutter section; joint sealant assessment from dry-condition staining evidence; gutter fall angle verification from biological growth patterns; downpipe inlet visual assessment and flow testing; hairline crack identification; fascia board and soffit condition assessment; roof surface moss coverage observation; before and after photographs of every run delivered on completion; and a written condition summary. All carried out from the ground — no ladders. <a href="/blog/birmingham-gutter-health-check-summer" style="${link}">Read more: Why Every Birmingham Home Needs a Gutter Health Check This Summer</a>.</p>
+      <p style="margin: 16px 0 0;">Full debris extraction to channel floor level including silt layer removal; real-time camera inspection of every gutter section; joint sealant assessment from dry-condition staining evidence; gutter fall angle verification from biological growth patterns; downpipe inlet visual assessment and flow testing; hairline crack identification; fascia board and soffit condition assessment; roof surface moss coverage observation; before and after photographs of every run delivered on completion; and a written condition summary. All carried out from the ground — no ladders. <a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">Read more: Why Every Birmingham Home Needs a Gutter Health Check This Summer</a>.</p>
     </div>
   </details>
 
@@ -402,7 +402,7 @@ ${ctaBox}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Yes — and it is one of the most common causes of penetrating damp in Birmingham properties. Joint failures, hairline cracks, and inlet blockages all create pathways for water to reach external walls rather than draining through the downpipe. Repeated saturation of brickwork creates penetrating damp pathways that track through to internal wall surfaces. <a href="/blog/can-blocked-gutters-cause-damp" style="${link}">Read the full guide: Can Blocked Gutters Cause Damp?</a></p>
+      <p style="margin: 16px 0 0;">Yes — and it is one of the most common causes of penetrating damp in Birmingham properties. Joint failures, hairline cracks, and inlet blockages all create pathways for water to reach external walls rather than draining through the downpipe. Repeated saturation of brickwork creates penetrating damp pathways that track through to internal wall surfaces. <a href="/blog/can-blocked-gutters-cause-damp/" style="${link}">Read the full guide: Can Blocked Gutters Cause Damp?</a></p>
     </div>
   </details>
 
@@ -469,13 +469,13 @@ ${ctaBox}
 
 <ul>
   <li><a href="/blog/summer-gutter-inspections/" style="color: #047857; font-weight: 600; text-decoration: none;">How Dry Summer Weather Makes Gutter Inspections Easier</a></li>
-  <li><a href="/blog/birmingham-gutter-health-check-summer" style="color: #047857; font-weight: 600; text-decoration: none;">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
+  <li><a href="/blog/birmingham-gutter-health-check-summer/" style="color: #047857; font-weight: 600; text-decoration: none;">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
   <li><a href="/blog/roofline-damage-prevention/" style="color: #047857; font-weight: 600; text-decoration: none;">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
   <li><a href="/blog/summer-gutter-preparation/" style="color: #047857; font-weight: 600; text-decoration: none;">Preparing Your Gutters During Summer for the Seasons Ahead</a></li>
   <li><a href="/blog/summer-gutter-maintenance/" style="color: #047857; font-weight: 600; text-decoration: none;">Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a></li>
   <li><a href="/blog/birmingham-autumn-gutter-guide/" style="color: #047857; font-weight: 600; text-decoration: none;">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a></li>
   <li><a href="/blog/birmingham-seasonal-gutter-guide/" style="color: #047857; font-weight: 600; text-decoration: none;">Birmingham Gutter Maintenance Calendar: What to Do Each Season</a></li>
-  <li><a href="/blog/can-blocked-gutters-cause-damp" style="color: #047857; font-weight: 600; text-decoration: none;">Can Blocked Gutters Cause Damp?</a></li>
+  <li><a href="/blog/can-blocked-gutters-cause-damp/" style="color: #047857; font-weight: 600; text-decoration: none;">Can Blocked Gutters Cause Damp?</a></li>
   <li><a href="/blog/year-round-gutter-protection/" style="color: #047857; font-weight: 600; text-decoration: none;">How Clean Gutters Help Protect Your Home Throughout the Year</a></li>
   <li><a href="/blog/roof-moss-removal-birmingham/" style="color: #047857; font-weight: 600; text-decoration: none;">Roof Cleaning and Moss Removal Birmingham</a></li>
   <li><a href="/blog/downpipe-unblocking-birmingham/" style="color: #047857; font-weight: 600; text-decoration: none;">Downpipe Unblocking</a></li>

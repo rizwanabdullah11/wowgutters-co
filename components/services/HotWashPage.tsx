@@ -30,7 +30,7 @@ export default function HotWashPage() {
             <p className="text-lg sm:text-xl mb-8 max-w-3xl mx-auto" style={{ color: colors.white }}>
               When regular cold water pressure washing isn't enough, our industrial Hot Wash systems melt through stubborn dirt, grease, and biological growth.
             </p>
-            <Link href="/quote">
+            <Link href="/quote/">
               <Button 
                 className="px-8 py-4 text-lg font-semibold"
                 style={{ backgroundColor: colors.white, color: colors.primary }}

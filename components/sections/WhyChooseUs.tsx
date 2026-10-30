@@ -89,7 +89,7 @@ export default function WhyChooseUs() {
         {/* Bottom CTA */}
         <div className="text-center">
           <Link
-            href="/quote"
+            href="/quote/"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full text-white font-semibold text-base sm:text-lg transition-opacity duration-200 hover:opacity-90 shadow-lg"
             style={{ background: colors.primaryGradient }}
           >

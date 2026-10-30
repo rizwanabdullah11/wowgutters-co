@@ -3,6 +3,7 @@ import { CheckCircle2, ArrowRight } from 'lucide-react';
 import { colors } from '@/constants/colors';
 import { AREA_SERVICE_META, type AreaServiceKind } from '@/lib/areaServiceMeta';
 import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, installationAreaPath } from '@/lib/areaSlugs';
+import { isIndexableAreaPath } from '@/lib/areaIndexPolicy';
 import { getAreaData } from '@/lib/getAreaData';
 import { areaLinkLabel } from '@/lib/crawlHub';
 
@@ -82,12 +83,14 @@ export default function AreaServicesHub({
   const nearbyLinks = nearby
     .map((name) => slugFromName(name))
     .filter((slug): slug is string => Boolean(slug) && AREA_SLUGS.includes(slug as string) && slug !== currentSlug)
-    .slice(0, 6)
     .map((slug) => ({
       slug,
       label: areaLinkLabel(slug),
       href: pathForKind(serviceKind, slug),
-    }));
+    }))
+    // Only link to nearby area pages that are still indexable (lib/area-index-policy.json).
+    .filter((l) => isIndexableAreaPath(l.href))
+    .slice(0, 6);
 
   // Add a fallback "nearby hub" link if the area is not in the primary list
   if (nearbyLinks.length === 0) {
@@ -95,6 +98,7 @@ export default function AreaServicesHub({
     for (const slug of fallback) {
       if (slug === currentSlug) continue;
       if (!AREA_SLUGS.includes(slug)) continue;
+      if (!isIndexableAreaPath(pathForKind(serviceKind, slug))) continue;
       nearbyLinks.push({ slug, label: areaLinkLabel(slug), href: pathForKind(serviceKind, slug) });
       if (nearbyLinks.length >= 4) break;
     }

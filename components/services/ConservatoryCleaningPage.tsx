@@ -28,7 +28,7 @@ export default function ConservatoryCleaningPage() {
             <p className="text-lg sm:text-xl mb-8 max-w-3xl mx-auto" style={{ color: colors.white }}>
               Specialist cleaning solutions to safely remove algae and restore the sparkle to your conservatory roof, UPVC frameworks and glass.
             </p>
-            <Link href="/quote">
+            <Link href="/quote/">
               <Button 
                 className="px-8 py-4 text-lg font-semibold"
                 style={{ backgroundColor: colors.white, color: colors.primary }}

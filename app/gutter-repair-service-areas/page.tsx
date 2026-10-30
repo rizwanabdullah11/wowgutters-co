@@ -71,7 +71,7 @@ export default function GutterRepairServiceAreasPage() {
             Call 07421 433910
           </a>{' '}
           or{' '}
-          <Link href="/quote" className="font-bold underline" style={{ color: colors.primaryText }}>
+          <Link href="/quote/" className="font-bold underline" style={{ color: colors.primaryText }}>
             request a free quote
           </Link>
           .

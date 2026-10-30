@@ -121,12 +121,12 @@ export default function ContactInfoSection() {
           
           {/* Quick buttons */}
           <div className="contact-quick-actions">
-            <Link href="/quote">
+            <Link href="/quote/">
               <button className="contact-quick-btn">
                 <FileText className="w-5 h-5" /> Fast Quote
               </button>
             </Link>
-            <Link href="/help">
+            <Link href="/help/">
               <button className="contact-quick-btn">
                 <HelpCircle className="w-5 h-5" /> Help Centre
               </button>

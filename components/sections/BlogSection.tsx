@@ -35,7 +35,7 @@ export default function BlogSection() {
             Latest Tips &amp; Advice
           </h2>
           <Link
-            href="/blog"
+            href="/blog/"
             className="hidden sm:inline-flex items-center gap-1 text-sm font-bold transition-opacity hover:opacity-70"
             style={{ color: colors.primary }}
           >
@@ -149,7 +149,7 @@ export default function BlogSection() {
 
         {/* CTA */}
         <div className="text-center">
-          <Link href="/blog">
+          <Link href="/blog/">
             <button
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full text-white font-semibold text-base transition-opacity duration-200 hover:opacity-90 shadow-lg"
               style={{ background: colors.primaryGradient }}

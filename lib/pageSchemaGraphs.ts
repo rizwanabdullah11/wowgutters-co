@@ -1,16 +1,9 @@
 import { SCHEMA_DATE_MODIFIED, SCHEMA_DATE_PUBLISHED } from '@/lib/schemaDates';
 import { TEAM_PROFILES, WOW_BUSINESS_FOUNDED } from '@/lib/teamProfiles';
+import { BUSINESS_ID, businessEntityNode } from '@/lib/businessEntity';
 
 const SITE = 'https://wowgutters.co.uk';
 
-const HQ_ADDRESS = {
-  '@type': 'PostalAddress' as const,
-  streetAddress: '38 Ryland Street',
-  addressLocality: 'Birmingham',
-  addressRegion: 'West Midlands',
-  postalCode: 'B16 8DD',
-  addressCountry: 'GB',
-};
 
 export function buildAreaWebPageNode(url: string, name: string) {
   return {
@@ -19,7 +12,7 @@ export function buildAreaWebPageNode(url: string, name: string) {
     url,
     name,
     isPartOf: { '@type': 'WebSite', '@id': `${SITE}/#website`, name: 'WOW Gutters Ltd', url: SITE },
-    about: { '@id': `${url}#business` },
+    about: { '@id': BUSINESS_ID },
     datePublished: SCHEMA_DATE_PUBLISHED,
     dateModified: SCHEMA_DATE_MODIFIED,
   };
@@ -30,26 +23,17 @@ export function buildContactPageSchemaGraph() {
   return {
     '@context': 'https://schema.org',
     '@graph': [
-      {
-        '@type': 'LocalBusiness',
-        '@id': `${url}#business`,
-        name: 'WOW Gutters Ltd',
+      businessEntityNode({
         description:
           'Contact WOW Gutters Ltd for gutter cleaning across Birmingham and the West Midlands.',
-        url,
-        telephone: '+447421433910',
-        email: 'support@wowgutters.co.uk',
-        address: HQ_ADDRESS,
-        geo: { '@type': 'GeoCoordinates', latitude: 52.4862, longitude: -1.8904 },
-        hasMap: 'https://www.google.com/maps/search/?api=1&query=WOW+Gutters+38+Ryland+Street+Birmingham+B16+8DD',
-      },
+      }),
       {
         '@type': 'ContactPage',
         '@id': `${url}#webpage`,
         url,
         name: 'Contact WOW Gutters Ltd | Gutter Cleaning Birmingham',
         isPartOf: { '@id': `${SITE}/#website` },
-        about: { '@id': `${url}#business` },
+        about: { '@id': BUSINESS_ID },
         datePublished: SCHEMA_DATE_PUBLISHED,
         dateModified: SCHEMA_DATE_MODIFIED,
       },
@@ -62,20 +46,9 @@ export function buildAboutPageSchemaGraph() {
   return {
     '@context': 'https://schema.org',
     '@graph': [
-      {
-        '@type': 'Organization',
-        '@id': `${url}#organization`,
-        name: 'WOW Gutters Ltd',
+      businessEntityNode({
         description:
           'Professional gutter cleaning company serving Birmingham and the West Midlands.',
-        url,
-        telephone: '+447421433910',
-        email: 'support@wowgutters.co.uk',
-        logo: {
-          '@type': 'ImageObject',
-          url: `${SITE}/assets/wow-gutter-logo2.png`,
-        },
-        address: HQ_ADDRESS,
         foundingDate: WOW_BUSINESS_FOUNDED,
         employee: TEAM_PROFILES.map((p) => ({
           '@type': 'Person',
@@ -83,16 +56,16 @@ export function buildAboutPageSchemaGraph() {
           jobTitle: p.role,
           description: p.experience,
           image: `${SITE}${p.image}`,
-          worksFor: { '@id': `${url}#organization` },
+          worksFor: { '@id': BUSINESS_ID },
         })),
-      },
+      }),
       {
         '@type': 'AboutPage',
         '@id': `${url}#webpage`,
         url,
         name: 'About WOW Gutters Ltd | Gutter Cleaning Birmingham',
         isPartOf: { '@id': `${SITE}/#website` },
-        about: { '@id': `${url}#organization` },
+        about: { '@id': BUSINESS_ID },
         datePublished: SCHEMA_DATE_PUBLISHED,
         dateModified: SCHEMA_DATE_MODIFIED,
       },
@@ -110,7 +83,7 @@ export function buildPricingPageSchemaGraph() {
         '@id': `${url}#service`,
         name: 'Gutter Cleaning Prices',
         serviceType: 'Gutter cleaning',
-        provider: { '@type': 'LocalBusiness', name: 'WOW Gutters Ltd', url: SITE },
+        provider: { '@id': BUSINESS_ID },
         areaServed: { '@type': 'AdministrativeArea', name: 'West Midlands' },
         url,
         offers: {
@@ -162,12 +135,7 @@ export function buildServicePageSchemaGraph(input: {
         name: input.name,
         serviceType: input.serviceType,
         description: input.description,
-        provider: {
-          '@type': 'HomeAndConstructionBusiness',
-          name: 'WOW Gutters Ltd',
-          url: SITE,
-          telephone: '+447421433910',
-        },
+        provider: { '@id': BUSINESS_ID },
         areaServed: { '@type': 'AdministrativeArea', name: 'West Midlands' },
         url: normalized,
         ...(input.lowPrice && input.highPrice

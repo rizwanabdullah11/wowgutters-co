@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { GOOGLE_REVIEWS_SUMMARY, googleReviewsCrawlSummary } from '@/lib/googleReviews';
 import StaticGoogleReviews from '@/components/sections/StaticGoogleReviews';
 import { FEATURED_GOOGLE_REVIEWS } from '@/constants/googleReviewsData';
+import { gbpReviewUrl } from '@/lib/businessDetails';
 
 const ELFSIGHT_PLATFORM_SRC = 'https://elfsightcdn.com/platform.js';
 
@@ -68,9 +69,7 @@ type ElfsightReviewsProps = {
 };
 
 /** Public Google listing — shown when the Elfsight widget can't render. */
-const GOOGLE_REVIEWS_URL =
-  (process.env.NEXT_PUBLIC_GBP_REVIEW_URL || process.env.NEXT_PUBLIC_GBP_CID_URL || process.env.NEXT_PUBLIC_GBP_URL || '').trim() ||
-  'https://www.google.com/maps/search/?api=1&query=WOW+Gutters+Ltd+38+Ryland+Street+Birmingham+B16+8DD';
+const GOOGLE_REVIEWS_URL = gbpReviewUrl();
 
 export default function ElfsightReviews({ showSummary = true }: ElfsightReviewsProps) {
   const containerRef = useRef<HTMLDivElement>(null);

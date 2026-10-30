@@ -102,7 +102,7 @@ export default function CityGutterCleaningPage({
           <p className="hero-subtitle hidden md:block">{data.heroIntro}</p>
 
           <div className="flex flex-col sm:flex-row items-stretch justify-center gap-4 w-full max-w-xl animate-fade-in-up delay-300">
-            <Link href="/quote" className="hero-primary-btn-link hero-primary-btn flex-1">
+            <Link href="/quote/" className="hero-primary-btn-link hero-primary-btn flex-1">
               Get a FREE quote
             </Link>
             <a
@@ -174,8 +174,9 @@ export default function CityGutterCleaningPage({
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
               {serviceKind === 'gutter' ? (
                 <>
-                  Most homes in {data.city} are quoted between <strong>£{priceFrom}</strong> and{' '}
-                  <strong>£{priceTo}</strong> depending on property size and access.
+                  Fixed prices in {data.city}: <strong>£100</strong> for a 2-bed home, <strong>£110</strong> for a
+                  3-bed home, and our Premium Service starts from <strong>£200</strong>. Commercial properties are
+                  quoted individually.
                 </>
               ) : (
                 <>

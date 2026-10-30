@@ -75,6 +75,29 @@ const mustInclude = [
   ...allAreaSitemapPaths().map(normalizePath),
 ];
 
+// Sitemap = every exported page that is indexable and self-canonical (audit Oct 30 2026:
+// /roof-cleaning/, /gutter-and-fascia/ and other live pages were missing because the
+// sitemap only grew from the committed public/sitemap.xml + a fixed list).
+function* exportedPages(dir) {
+  for (const name of fs.readdirSync(dir)) {
+    if (name === '_next') continue;
+    const full = path.join(dir, name);
+    if (fs.statSync(full).isDirectory()) yield* exportedPages(full);
+    else if (name === 'index.html') yield full;
+  }
+}
+for (const file of exportedPages(OUT)) {
+  const rel = path.relative(OUT, path.dirname(file)).split(path.sep).join('/');
+  const pagePath = normalizePath(rel ? `/${rel}/` : '/');
+  if (isExcludedSitemapPath(pagePath)) continue;
+  const html = fs.readFileSync(file, 'utf8');
+  if (/<meta[^>]+name="robots"[^>]+content="[^"]*noindex/i.test(html)) continue;
+  if (/<title>\s*(Not found|Redirecting)/i.test(html)) continue;
+  const canonical = /<link[^>]+rel="canonical"[^>]+href="([^"]+)"/i.exec(html)?.[1];
+  if (!canonical || urlToPath(canonical) !== pagePath) continue;
+  mustInclude.push(pagePath);
+}
+
 const added = [];
 for (const p of mustInclude) {
   if (!existing.has(p)) {

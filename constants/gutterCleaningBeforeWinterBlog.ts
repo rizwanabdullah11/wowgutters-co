@@ -55,7 +55,7 @@ export const gutterCleaningBeforeWinterBlogPost: BlogPost = {
   content: `
 <p>It is mid-October, and the next six weeks decide how your gutters cope with winter. Leaves are still coming down, rainfall is rising, and the first frosts are not far off. A gutter that goes into winter full of silt and wet debris has a hard few months ahead. This guide explains what winter does to gutters across Birmingham and the wider West Midlands, what to check now, when to book, and what a proper pre-winter gutter cleaning visit covers.</p>
 
-<p>📞 <strong>WOW Gutters Ltd: <a href="tel:07421433910" style="${link}">07421 433910</a></strong> | 📋 <a href="/quote" style="${link}">Book or request a quote</a></p>
+<p>📞 <strong>WOW Gutters Ltd: <a href="tel:07421433910" style="${link}">07421 433910</a></strong> | 📋 <a href="/quote/" style="${link}">Book or request a quote</a></p>
 
 ${ctaTop}
 
@@ -151,7 +151,7 @@ ${ctaMid}
   <li><strong>Photos and a written summary.</strong> Before and after images of every run.</li>
 </ol>
 
-<p>Our method is described in <a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">How Do You Clean Gutters Without a Ladder? The Method Birmingham Pros Use</a> and <a href="/blog/gutter-vacuum-cleaning-birmingham/" style="${link}">Gutter Vacuum Cleaning Birmingham</a>. The full process is in <a href="/blog/professional-gutter-walkthrough/" style="${link}">What Happens During a Professional Gutter Clean? A Birmingham Homeowner's Walkthrough</a>, and the wider picture in <a href="/roofline-cleaning-birmingham/" style="${link}">Roofline Cleaning Birmingham: Gutters, Fascias & Soffits</a>. Our <a href="/downpipe-unblocking" style="${link}">downpipe unblocking</a>, <a href="/fascia-soffit-cleaning" style="${link}">fascia and soffit cleaning</a>, <a href="/gutter-cleaning" style="${link}">gutter clearing</a> and <a href="/roof-cleaning" style="${link}">roof cleaning services</a> cover the rest. Real examples are in our <a href="/the-gutter-gallery/" style="${link}">gallery</a>.</p>
+<p>Our method is described in <a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">How Do You Clean Gutters Without a Ladder? The Method Birmingham Pros Use</a> and <a href="/blog/gutter-vacuum-cleaning-birmingham/" style="${link}">Gutter Vacuum Cleaning Birmingham</a>. The full process is in <a href="/blog/professional-gutter-walkthrough/" style="${link}">What Happens During a Professional Gutter Clean? A Birmingham Homeowner's Walkthrough</a>, and the wider picture in <a href="/roofline-cleaning-birmingham/" style="${link}">Roofline Cleaning Birmingham: Gutters, Fascias & Soffits</a>. Our <a href="/downpipe-unblocking/" style="${link}">downpipe unblocking</a>, <a href="/fascia-soffit-cleaning/" style="${link}">fascia and soffit cleaning</a>, <a href="/gutter-cleaning/" style="${link}">gutter clearing</a> and <a href="/roof-cleaning/" style="${link}">roof cleaning services</a> cover the rest. Real examples are in our <a href="/the-gutter-gallery/" style="${link}">gallery</a>.</p>
 
 <h2 id="when-to-book">When to Book</h2>
 
@@ -163,7 +163,7 @@ ${ctaMid}
   <li><strong>Oak nearby:</strong> consider a later visit, or two visits, since oak drops late.</li>
 </ul>
 
-<p>Booking early still helps, because autumn fills quickly. <a href="/blog/summer-gutter-cleaning-early/" style="${link}">Beat the Autumn Rush: Book Your Summer Gutter Cleaning Early</a> explains why. If you're planning ahead, the <a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">Birmingham Gutter Maintenance Calendar</a>, the pre-season preparation timeline and <a href="/blog/heavy-rain-birmingham-gutters-ready/" style="${link}">Gutter Cleaning in Rainy Season: A West Midlands Homeowner's Prep List</a> put dates on the year. When you're ready, you can <a href="/quote" style="${link}">request a quote</a> or <a href="/contact" style="${link}">contact us</a>.</p>
+<p>Booking early still helps, because autumn fills quickly. <a href="/blog/summer-gutter-cleaning-early/" style="${link}">Beat the Autumn Rush: Book Your Summer Gutter Cleaning Early</a> explains why. If you're planning ahead, the <a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">Birmingham Gutter Maintenance Calendar</a>, the pre-season preparation timeline and <a href="/blog/heavy-rain-birmingham-gutters-ready/" style="${link}">Gutter Cleaning in Rainy Season: A West Midlands Homeowner's Prep List</a> put dates on the year. When you're ready, you can <a href="/quote/" style="${link}">request a quote</a> or <a href="/contact/" style="${link}">contact us</a>.</p>
 
 ${ctaBox}
 
@@ -180,7 +180,7 @@ ${ctaBox}
 </ul>
 <h2 id="trees-moss-wind">Trees, Moss and Wind</h2>
 
-<p>Wind decides which side of the house fills first, as explained in <a href="/blog/wind-debris-gutters/" style="${link}">How Wind Direction Affects Debris Build-Up in Birmingham Gutters</a>. Roof moss sheds into the channel all year and thrives in winter damp, a cycle covered in <a href="/blog/roof-moss-damage/" style="${link}">Moss on Your Roof? What It's Doing to Your Birmingham Gutters Right Now</a>. Our <a href="/roof-cleaning" style="${link}">moss removal service</a> treats the source.</p>
+<p>Wind decides which side of the house fills first, as explained in <a href="/blog/wind-debris-gutters/" style="${link}">How Wind Direction Affects Debris Build-Up in Birmingham Gutters</a>. Roof moss sheds into the channel all year and thrives in winter damp, a cycle covered in <a href="/blog/roof-moss-damage/" style="${link}">Moss on Your Roof? What It's Doing to Your Birmingham Gutters Right Now</a>. Our <a href="/roof-cleaning/" style="${link}">moss removal service</a> treats the source.</p>
 
 <h2 id="why-not-diy">Why Not Do It Yourself in Autumn?</h2>
 
@@ -215,7 +215,7 @@ ${ctaBox}
 
 <p>WOW Gutters Ltd provides gutter cleaning across Birmingham, Solihull, Sutton Coldfield, Wolverhampton, Walsall, Dudley, Coventry, Redditch, Worcester, Bromsgrove, West Bromwich and all West Midlands areas.</p>
 
-<p><a href="/contact" style="${link}">Contact us</a> or <a href="/quote" style="${link}">request a quote</a>.</p>
+<p><a href="/contact/" style="${link}">Contact us</a> or <a href="/quote/" style="${link}">request a quote</a>.</p>
 
 <p>📞 <a href="tel:07421433910" style="${link}">07421 433910</a> | 📧 <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a> | 🌐 <a href="https://wowgutters.co.uk" style="${link}">https://wowgutters.co.uk</a></p>
 
@@ -296,7 +296,7 @@ ${ctaBox}
 
 <p>WOW Gutters Ltd provides fully insured, ground-based gutter cleaning across Birmingham and the West Midlands, with live camera inspection and before and after photographs on every job. No ladders.</p>
 
-<p>📞 <a href="tel:07421433910" style="${link}">07421 433910</a> | 🌐 <a href="https://wowgutters.co.uk" style="${link}">https://wowgutters.co.uk</a> | 📋 <a href="/quote" style="${link}">Book or request a quote</a></p>
+<p>📞 <a href="tel:07421433910" style="${link}">07421 433910</a> | 🌐 <a href="https://wowgutters.co.uk" style="${link}">https://wowgutters.co.uk</a> | 📋 <a href="/quote/" style="${link}">Book or request a quote</a></p>
 
 <p>Serving Birmingham, Solihull, Sutton Coldfield, Wolverhampton, Dudley, Walsall, Coventry, Redditch, Worcester, Bromsgrove and all West Midlands areas.</p>
 

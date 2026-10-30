@@ -138,7 +138,7 @@ export default function HelpIsHere() {
               Call Now
             </a>
             <Link
-              href="/quote"
+              href="/quote/"
               className="px-8 py-4 rounded-xl font-bold border-2 transition-all duration-300 flex items-center justify-center gap-3 hover:bg-white hover:text-green-800 hover:border-white"
               style={{ borderColor: 'rgba(255,255,255,0.4)', color: colors.white }}
             >

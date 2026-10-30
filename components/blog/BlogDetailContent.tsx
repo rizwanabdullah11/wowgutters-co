@@ -145,69 +145,20 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
           'width': 1200,
           'height': 630
         },
-        'author': {
-          '@type': 'Organization',
-          'name': 'WOW Gutters Ltd',
-          'url': 'https://wowgutters.co.uk',
-          'logo': {
-            '@type': 'ImageObject',
-            'url': 'https://wowgutters.co.uk/assets/wow-gutter-logo2.png'
-          }
-        },
-        'publisher': {
-          '@type': 'Organization',
-          'name': 'WOW Gutters Ltd',
-          'url': 'https://wowgutters.co.uk',
-          'logo': {
-            '@type': 'ImageObject',
-            'url': 'https://wowgutters.co.uk/assets/wow-gutter-logo2.png',
-            'width': 600,
-            'height': 60
-          }
-        },
-        'datePublished': post.date,
-        'dateModified': post.lastUpdated || post.date,
-        'mainEntityOfPage': {
-          '@type': 'WebPage',
-          '@id': `https://wowgutters.co.uk/blog/${post.id}`
-        },
-        'articleSection': post.category || 'Maintenance',
-        'keywords': `gutter cleaning, ${post.category}, gutter maintenance, blocked gutters, gutter repair`,
-        'inLanguage': 'en-GB',
-        'isPartOf': {
-          '@id': 'https://wowgutters.co.uk/blog#website'
-        }
-      },
-      // Article Schema
-      {
-        '@type': 'Article',
-        '@id': `https://wowgutters.co.uk/blog/${post.id}#article`,
-        'headline': post.title,
-        'description': post.excerpt,
-        'image': {
-          '@type': 'ImageObject',
-          'url': resolveBlogImageUrl(post.image),
-          'width': 1200,
-          'height': 630
-        },
-        'author': {
-          '@type': 'Organization',
-          'name': 'WOW Gutters Ltd',
-          'url': 'https://wowgutters.co.uk'
-        },
-        'publisher': {
-          '@type': 'Organization',
-          'name': 'WOW Gutters Ltd',
-          'logo': {
-            '@type': 'ImageObject',
-            'url': 'https://wowgutters.co.uk/og/default.jpg'
-          }
-        },
+        // Author/publisher = the one business entity defined below (lib/business-entity.json @id).
+        'author': { '@id': 'https://wowgutters.co.uk/#business' },
+        'publisher': { '@id': 'https://wowgutters.co.uk/#business' },
         'datePublished': post.date,
         'dateModified': post.lastUpdated || post.date,
         'mainEntityOfPage': {
           '@type': 'WebPage',
           '@id': `https://wowgutters.co.uk/blog/${post.id}/`
+        },
+        'articleSection': post.category || 'Maintenance',
+        'keywords': `gutter cleaning, ${post.category}, gutter maintenance, blocked gutters, gutter repair`,
+        'inLanguage': 'en-GB',
+        'isPartOf': {
+          '@id': 'https://wowgutters.co.uk/#website'
         }
       },
       // BreadcrumbList Schema
@@ -243,7 +194,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
         'name': post.title,
         'description': post.excerpt,
         'isPartOf': {
-          '@id': 'https://wowgutters.co.uk/blog#website'
+          '@id': 'https://wowgutters.co.uk/#website'
         },
         'primaryImageOfPage': {
           '@id': `https://wowgutters.co.uk/blog/${post.id}#primaryimage`
@@ -257,8 +208,8 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
       },
       // Organization Schema
       {
-        '@type': 'Organization',
-        '@id': 'https://wowgutters.co.uk#organization',
+        '@type': 'HomeAndConstructionBusiness',
+        '@id': 'https://wowgutters.co.uk/#business',
         'name': 'WOW Gutters Ltd',
         'url': 'https://wowgutters.co.uk',
         'logo': {
@@ -470,7 +421,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
                       Our ground-based vacuum system with live camera inspection clears channels to the floor and tests every downpipe. Free quote with same-week availability.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-3.5 justify-center relative z-10">
-                      <Link href="/quote">
+                      <Link href="/quote/">
                         <button className="w-full sm:w-auto px-8 py-3.5 text-base sm:text-lg font-bold rounded-full bg-white hover:bg-gray-50 transition-all shadow-md hover:shadow-xl hover:scale-105" style={{ color: colors.primaryText }}>
                           Get Free Quote
                         </button>
@@ -506,7 +457,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
                 Takes less than 60 seconds · Same-week availability
               </p>
 
-              <Link href="/quote" className="block w-full mb-4">
+              <Link href="/quote/" className="block w-full mb-4">
                 <button className="w-full flex items-center justify-center gap-2.5 py-4 px-6 rounded-xl text-white font-bold text-base transition-all duration-300 hover:scale-[1.02] shadow-lg hover:shadow-emerald-500/25" style={{ background: colors.primaryGradient }}>
                   <span>Get Instant Free Quote</span>
                   <PenTool className="w-4 h-4" />
@@ -579,17 +530,17 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
               </div>
               <ul className="space-y-3 m-0 p-0 list-none text-xs sm:text-sm">
                 <li>
-                  <Link href="/blog/emergency-gutter-cleaning" className="font-semibold text-gray-800 hover:text-emerald-700 transition-colors line-clamp-2">
+                  <Link href="/blog/emergency-gutter-cleaning/" className="font-semibold text-gray-800 hover:text-emerald-700 transition-colors line-clamp-2">
                     • Emergency Gutter Cleaning After Heavy Rain
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/overflowing-gutters-fix" className="font-semibold text-gray-800 hover:text-emerald-700 transition-colors line-clamp-2">
+                  <Link href="/blog/overflowing-gutters-fix/" className="font-semibold text-gray-800 hover:text-emerald-700 transition-colors line-clamp-2">
                     • Overflowing Gutters in Birmingham: Causes &amp; Fixes
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog/leaking-gutter-repair" className="font-semibold text-gray-800 hover:text-emerald-700 transition-colors line-clamp-2">
+                  <Link href="/blog/leaking-gutter-repair/" className="font-semibold text-gray-800 hover:text-emerald-700 transition-colors line-clamp-2">
                     • Leaking Gutter Repair: Fix or Replace?
                   </Link>
                 </li>
@@ -662,7 +613,7 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
                   Our ground-based vacuum system with live camera inspection clears channels to the floor and tests every downpipe. Free quote with same-week availability.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3.5 justify-center relative z-10">
-                  <Link href="/quote">
+                  <Link href="/quote/">
                     <button className="w-full sm:w-auto px-8 py-3.5 text-base sm:text-lg font-bold rounded-full bg-white hover:bg-gray-50 transition-all shadow-md hover:shadow-xl hover:scale-105" style={{ color: colors.primaryText }}>
                       Get Free Quote
                     </button>

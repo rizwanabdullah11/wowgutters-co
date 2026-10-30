@@ -159,8 +159,8 @@ function pricingInfo(cat: string): { priceFrom: number; priceTo: number; label: 
   if (cat === 'window') return { priceFrom: 25, priceTo: 60, label: 'window cleaning' };
   if (cat === 'pressure-wash') return { priceFrom: 60, priceTo: 200, label: 'pressure washing' };
   if (cat === 'roof') return { priceFrom: 500, priceTo: 500, label: 'roof cleaning' };
-  if (cat === 'conservatory') return { priceFrom: 80, priceTo: 200, label: 'conservatory cleaning' };
-  return { priceFrom: 100, priceTo: 210, label: 'gutter cleaning' };
+  if (cat === 'conservatory') return { priceFrom: 50, priceTo: 200, label: 'conservatory cleaning' };
+  return { priceFrom: 100, priceTo: 200, label: 'gutter cleaning' };
 }
 
 function localSpotlight(cat: string, page: KeywordPage): string | null {
@@ -332,7 +332,7 @@ export default function KeywordLandingPage({ page }: { page: KeywordPage }) {
           <p className="hero-subtitle animate-fade-in-up delay-200">{page.heroDescription}</p>
 
           <div className="flex flex-col sm:flex-row items-stretch justify-center gap-4 w-full max-w-xl animate-fade-in-up delay-300">
-            <Link href="/quote" className="hero-primary-btn-link hero-primary-btn flex-1">
+            <Link href="/quote/" className="hero-primary-btn-link hero-primary-btn flex-1">
               Get a FREE quote
             </Link>
             <a

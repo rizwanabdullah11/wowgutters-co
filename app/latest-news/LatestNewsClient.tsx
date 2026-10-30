@@ -116,7 +116,7 @@ export default function LatestNewsClient({ newsArticles }: { newsArticles: NewsA
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link
-              href="/quote"
+              href="/quote/"
               className="px-8 py-4 rounded-full font-bold text-white shadow-xl transition hover:scale-105"
               style={{ background: colors.primaryGradient }}
             >

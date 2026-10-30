@@ -77,7 +77,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
           </p>
 
           <div className="hero-cta-row animate-fade-in-up delay-300">
-            <Link href="/quote" className="hero-primary-btn-link hero-primary-btn">
+            <Link href="/quote/" className="hero-primary-btn-link hero-primary-btn">
               <span className="btn-arrow">&#9658;</span>
               <span className="btn-label">
                 Click For A <span className="btn-free">FREE</span> Quote

@@ -28,7 +28,7 @@ export default function AreaBlogSnippet({ locality }: AreaBlogSnippetProps) {
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex items-center gap-4 mb-10">
           <h2 className="text-4xl font-black text-[#0f172a] tracking-tight">EXPERT INSIGHTS</h2>
-          <Link href="/blog" className="text-gray-600 hover:text-gray-900 text-sm font-medium mt-1">
+          <Link href="/blog/" className="text-gray-600 hover:text-gray-900 text-sm font-medium mt-1">
             [See all]
           </Link>
           <div className="h-px bg-gray-300 flex-1 ml-4" />

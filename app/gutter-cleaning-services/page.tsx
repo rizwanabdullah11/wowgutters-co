@@ -74,7 +74,7 @@ export default function GutterCleaningServicesPage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="/quote"
+              href="/quote/"
               className="inline-flex items-center justify-center gap-2 rounded-full px-8 py-4 text-base font-bold text-white shadow-lg transition-opacity hover:opacity-95"
               style={{ background: colors.primaryGradient }}
             >
@@ -225,7 +225,7 @@ export default function GutterCleaningServicesPage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="/quote"
+              href="/quote/"
               className="inline-flex items-center justify-center rounded-full bg-[#0f172a] px-8 py-3.5 text-base font-bold text-white shadow-lg transition-colors hover:bg-[#1e293b]"
             >
               Get a free quote

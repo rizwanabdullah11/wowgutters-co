@@ -62,7 +62,7 @@ export const guttersTellingYouSummerBlogPost: BlogPost = {
 
 <p>Summer removes all of that interference. Dry surfaces hold their evidence clearly. Quiet weather means unusual sounds stand out. And the absence of constant rainfall means that when something does happen — a gurgle during a shower, a trickle where there shouldn't be one — it's isolated and noticeable rather than lost in the noise of an ongoing downpour.</p>
 
-<p>This is why the guide covered in <a href="/blog/summer-gutter-inspections" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a> explains that professional inspections are more accurate in summer. The same principle applies to what you, as a homeowner, can notice yourself without any special equipment — just by paying attention to what's actually in front of you.</p>
+<p>This is why the guide covered in <a href="/blog/summer-gutter-inspections/" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a> explains that professional inspections are more accurate in summer. The same principle applies to what you, as a homeowner, can notice yourself without any special equipment — just by paying attention to what's actually in front of you.</p>
 
 <p>The signs described below have been building since spring. Most of them are still small enough right now to be inexpensive to address. That changes the moment autumn rain arrives and starts testing every one of them at full pressure.</p>
 
@@ -74,15 +74,15 @@ export const guttersTellingYouSummerBlogPost: BlogPost = {
 
 <p>This is different from general weathering, which tends to be diffuse and even across a wall surface. A straight, localised stain has a specific cause at a specific location — almost always a blocked section, a failing joint, or a low point in the gutter run directly above it.</p>
 
-<p><strong>What it means:</strong> Water has been finding an escape route at that exact spot for some time. The longer it continues, the more the mortar and brickwork beneath it deteriorates, and the closer that section gets to the penetrating damp problems described in <a href="/blog/blocked-gutters-birmingham" style="${link}">Can Blocked Gutters Cause Damp?</a></p>
+<p><strong>What it means:</strong> Water has been finding an escape route at that exact spot for some time. The longer it continues, the more the mortar and brickwork beneath it deteriorates, and the closer that section gets to the penetrating damp problems described in <a href="/blog/blocked-gutters-birmingham/" style="${link}">Can Blocked Gutters Cause Damp?</a></p>
 
 <h3>A Dark, Localised Patch on the Fascia Board</h3>
 
 <p>The fascia board — the horizontal board directly behind your gutters — should be a consistent colour along its entire length. A dark patch at one specific point, particularly one that looks slightly damp or has a different sheen to the surrounding board, is one of the clearest signals your gutter system can give you.</p>
 
-<p>As covered in detail in <a href="/blog/hidden-gutter-damage-summer" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a>, this specific kind of localised staining is the dry-weather signature of a failing joint directly above it. Water has been tracking through the joint seal and running down the back of the gutter onto the fascia board — invisible from most angles, but detectable if you know to look for the discolouration it leaves behind.</p>
+<p>As covered in detail in <a href="/blog/hidden-gutter-damage-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a>, this specific kind of localised staining is the dry-weather signature of a failing joint directly above it. Water has been tracking through the joint seal and running down the back of the gutter onto the fascia board — invisible from most angles, but detectable if you know to look for the discolouration it leaves behind.</p>
 
-<p><strong>What it means:</strong> A joint needs resealing. Left alone, the fascia board behind it will begin to soften — the process explained fully in <a href="/blog/roofline-damage-prevention" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a>.</p>
+<p><strong>What it means:</strong> A joint needs resealing. Left alone, the fascia board behind it will begin to soften — the process explained fully in <a href="/blog/roofline-damage-prevention/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a>.</p>
 
 <h3>Green Growth Where There Shouldn't Be Any</h3>
 
@@ -110,7 +110,7 @@ export const guttersTellingYouSummerBlogPost: BlogPost = {
 
 <p>Water flowing freely through a downpipe is close to silent — a smooth, continuous sound with no interruption. A gurgling, spluttering, or intermittent sound during rainfall means air is being drawn into the flow at a point where it shouldn't be, which happens specifically at a partial blockage.</p>
 
-<p><strong>What it means:</strong> Your downpipe has a partial restriction — exactly the kind of hidden defect described in <a href="/blog/hidden-gutter-damage-summer" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a> as functional in light rain but liable to fail completely under a heavy autumn downpour. Our <a href="/services/gutter-cleaning/" style="${link}">downpipe unblocking service</a> addresses this directly.</p>
+<p><strong>What it means:</strong> Your downpipe has a partial restriction — exactly the kind of hidden defect described in <a href="/blog/hidden-gutter-damage-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a> as functional in light rain but liable to fail completely under a heavy autumn downpour. Our <a href="/services/gutter-cleaning/" style="${link}">downpipe unblocking service</a> addresses this directly.</p>
 
 <h3>A Splashing Sound Where You Wouldn't Expect One</h3>
 
@@ -132,13 +132,13 @@ export const guttersTellingYouSummerBlogPost: BlogPost = {
 
 <p>If a bedroom, landing, or loft space has developed a faint musty smell that seems to come and go with humidity, and there's no obvious source inside the room itself, this can be one of the earliest indicators of moisture reaching the building fabric from outside — often long before any visible staining appears on the internal wall.</p>
 
-<p><strong>What it means:</strong> Water is very likely tracking in from an external source — a gutter joint failure, an overflow point, or a compromised roof edge — as explained in detail in <a href="/blog/blocked-gutters-birmingham" style="${link}">Can Blocked Gutters Cause Damp?</a>. The smell often precedes visible internal damage by weeks or months, which makes it one of the most valuable early warning signs available if you know to pay attention to it.</p>
+<p><strong>What it means:</strong> Water is very likely tracking in from an external source — a gutter joint failure, an overflow point, or a compromised roof edge — as explained in detail in <a href="/blog/blocked-gutters-birmingham/" style="${link}">Can Blocked Gutters Cause Damp?</a>. The smell often precedes visible internal damage by weeks or months, which makes it one of the most valuable early warning signs available if you know to pay attention to it.</p>
 
 <h3>A Damp, Earthy Smell Near an External Wall</h3>
 
 <p>Standing near an external wall on a still day and noticing a damp, earthy smell — distinct from normal garden smells — can indicate that the ground at the base of the wall is being kept consistently wet by a downpipe that isn't discharging correctly, or by gutter overflow running down that section of wall repeatedly.</p>
 
-<p><strong>What it means:</strong> Water is being deposited at the base of your foundations rather than being carried away to a proper drainage point — a risk factor for the kind of ground saturation covered in <a href="/blog/year-round-gutter-protection" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a>.</p>
+<p><strong>What it means:</strong> Water is being deposited at the base of your foundations rather than being carried away to a proper drainage point — a risk factor for the kind of ground saturation covered in <a href="/blog/year-round-gutter-protection/" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a>.</p>
 
 <h2 id="behavioural-signs">The Behavioural Signs — How Water Moves When It Shouldn't</h2>
 
@@ -148,17 +148,17 @@ export const guttersTellingYouSummerBlogPost: BlogPost = {
 
 <p>This is the clearest and most obvious sign of all, and yet it's routinely dismissed as normal by homeowners who assume all gutters overflow a little in heavy rain. They shouldn't. A properly functioning gutter, cleared and structurally sound, should carry the water from even a heavy Birmingham downpour through to the downpipe without visible overflow at any point.</p>
 
-<p><strong>What it means:</strong> If you can see water running down the face of your wall during rain — anything more than the occasional light drip — your gutter is telling you it cannot currently handle the volume of water it's receiving. This is exactly the scenario detailed across our guide to <a href="/blog/birmingham-autumn-gutter-guide" style="${link}">preparing gutters before Birmingham's autumn leaves arrive</a> — and if it's happening now, in a light summer shower, it will be considerably worse under autumn's heavier and more sustained rainfall.</p>
+<p><strong>What it means:</strong> If you can see water running down the face of your wall during rain — anything more than the occasional light drip — your gutter is telling you it cannot currently handle the volume of water it's receiving. This is exactly the scenario detailed across our guide to <a href="/blog/birmingham-autumn-gutter-guide/" style="${link}">preparing gutters before Birmingham's autumn leaves arrive</a> — and if it's happening now, in a light summer shower, it will be considerably worse under autumn's heavier and more sustained rainfall.</p>
 
 <h3>Puddles Forming in the Same Spot After Every Rainfall</h3>
 
 <p>If you notice standing water collecting in the same place near your property after every rain shower — a patch of garden, a section of path, a spot near the foundation — your downpipe outlet is very likely discharging water in the wrong place, or discharging insufficiently due to a partial blockage.</p>
 
-<p><strong>What it means:</strong> Water isn't being carried away to proper drainage. It's accumulating locally, repeatedly, which over time contributes to the kind of ground saturation risk near foundations covered in our <a href="/blog/roofline-damage-prevention" style="${link}">roofline protection guide</a>.</p>
+<p><strong>What it means:</strong> Water isn't being carried away to proper drainage. It's accumulating locally, repeatedly, which over time contributes to the kind of ground saturation risk near foundations covered in our <a href="/blog/roofline-damage-prevention/" style="${link}">roofline protection guide</a>.</p>
 
 <h3>Water Taking Longer Than It Should to Clear After Rain Stops</h3>
 
-<p>A functioning gutter system should stop actively draining within a few minutes of rain stopping. If you notice water is still visibly running from a downpipe, or a gutter section is still audibly draining, well after the rain has clearly ended, there's a capacity issue somewhere in the system — most likely the silt accumulation described in <a href="/blog/hidden-gutter-damage-summer" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a>, which reduces the effective channel depth without producing any other visible symptom.</p>
+<p>A functioning gutter system should stop actively draining within a few minutes of rain stopping. If you notice water is still visibly running from a downpipe, or a gutter section is still audibly draining, well after the rain has clearly ended, there's a capacity issue somewhere in the system — most likely the silt accumulation described in <a href="/blog/hidden-gutter-damage-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a>, which reduces the effective channel depth without producing any other visible symptom.</p>
 
 <p><strong>What it means:</strong> Your gutter has less capacity than it should, and that capacity gap will be tested hard when autumn's rainfall volume arrives.</p>
 
@@ -168,7 +168,7 @@ export const guttersTellingYouSummerBlogPost: BlogPost = {
 
 <p>If you've noticed any single sign from this list, it's worth a call. If you've noticed two or more, it's worth treating as a priority — because multiple signals typically indicate a system under genuine, developing stress rather than an isolated minor issue.</p>
 
-<p>The action itself is straightforward. A professional inspection — the kind detailed in <a href="/blog/birmingham-gutter-health-check-summer" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a> — identifies exactly which of these signals corresponds to which underlying cause, and addresses it while summer conditions still make the repair straightforward and reliable.</p>
+<p>The action itself is straightforward. A professional inspection — the kind detailed in <a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a> — identifies exactly which of these signals corresponds to which underlying cause, and addresses it while summer conditions still make the repair straightforward and reliable.</p>
 
 <p>WOW Gutters Ltd carries out every inspection using an industrial-grade SkyVac vacuum system operating entirely from the ground, with real-time camera inspection that sees inside the gutter channel — confirming precisely what each external sign is telling you, rather than leaving you to guess.</p>
 
@@ -202,7 +202,7 @@ ${ctaBox}
   </details>
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">Why can I hear my gutters gurgling during light rain?</summary>
-    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">A gurgling sound during rainfall indicates air being drawn into the water flow at a partial blockage point, usually in the downpipe. This is a sign of restricted flow that will worsen significantly under the heavier, sustained rainfall of autumn. Read more: <a href="/blog/hidden-gutter-damage-summer" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a>.</p></div>
+    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">A gurgling sound during rainfall indicates air being drawn into the water flow at a partial blockage point, usually in the downpipe. This is a sign of restricted flow that will worsen significantly under the heavier, sustained rainfall of autumn. Read more: <a href="/blog/hidden-gutter-damage-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a>.</p></div>
   </details>
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">Is it normal for water to run down the wall a little during heavy rain?</summary>
@@ -210,11 +210,11 @@ ${ctaBox}
   </details>
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">Can a smell inside my house really be caused by a gutter problem?</summary>
-    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">Yes. Water tracking in from a failing gutter joint, overflow point, or compromised roof edge often produces a musty smell in the affected room before any visible staining appears. This is explained fully in <a href="/blog/blocked-gutters-birmingham" style="${link}">Can Blocked Gutters Cause Damp?</a></p></div>
+    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">Yes. Water tracking in from a failing gutter joint, overflow point, or compromised roof edge often produces a musty smell in the affected room before any visible staining appears. This is explained fully in <a href="/blog/blocked-gutters-birmingham/" style="${link}">Can Blocked Gutters Cause Damp?</a></p></div>
   </details>
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">What does a localised dark patch on my fascia board mean?</summary>
-    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">It typically indicates a failing joint directly above that specific point, with water tracking through the failed seal and running down the back of the gutter onto the fascia board. This is a precise, findable signal in dry summer conditions, covered in detail in <a href="/blog/hidden-gutter-damage-summer" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a>.</p></div>
+    <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;"><p style="margin: 16px 0 0;">It typically indicates a failing joint directly above that specific point, with water tracking through the failed seal and running down the back of the gutter onto the fascia board. This is a precise, findable signal in dry summer conditions, covered in detail in <a href="/blog/hidden-gutter-damage-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a>.</p></div>
   </details>
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">Why does moss or algae growing near my gutters matter?</summary>
@@ -251,13 +251,13 @@ ${ctaBox}
 
 <h2>Related Guides</h2>
 <ul>
-  <li><a href="/blog/hidden-gutter-damage-summer" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a></li>
-  <li><a href="/blog/birmingham-gutter-health-check-summer" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
-  <li><a href="/blog/summer-gutter-inspections" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a></li>
-  <li><a href="/blog/blocked-gutters-birmingham" style="${link}">Can Blocked Gutters Cause Damp?</a></li>
-  <li><a href="/blog/roofline-damage-prevention" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
-  <li><a href="/blog/birmingham-autumn-gutter-guide" style="${link}">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a></li>
-  <li><a href="/blog/year-round-gutter-protection" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a></li>
+  <li><a href="/blog/hidden-gutter-damage-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a></li>
+  <li><a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
+  <li><a href="/blog/summer-gutter-inspections/" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a></li>
+  <li><a href="/blog/blocked-gutters-birmingham/" style="${link}">Can Blocked Gutters Cause Damp?</a></li>
+  <li><a href="/blog/roofline-damage-prevention/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
+  <li><a href="/blog/birmingham-autumn-gutter-guide/" style="${link}">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a></li>
+  <li><a href="/blog/year-round-gutter-protection/" style="${link}">How Clean Gutters Help Protect Your Home Throughout the Year</a></li>
   <li><a href="/roof-cleaning/" style="${link}">Roof Cleaning and Moss Removal Birmingham</a></li>
   <li><a href="/services/gutter-cleaning/" style="${link}">Downpipe Unblocking</a></li>
   <li><a href="/gutter-cleaning-service-areas/" style="${link}">Areas We Cover</a></li>

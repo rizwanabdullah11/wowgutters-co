@@ -276,11 +276,11 @@ ${ctaBox}
 
 <p><strong>Twice yearly</strong> is the minimum for most Birmingham properties — late autumn after peak leaf fall, and spring to clear winter accumulation. This baseline keeps a typical roofline protected.</p>
 
-<p><strong>Three times yearly</strong> is the appropriate schedule for properties adjacent to mature deciduous trees, particularly sycamore, ash, or oak. A summer inspection adds a critical third check point and catches debris accumulation before it becomes an autumn blockage problem. Read our complete guide: <a href="/blog/birmingham-gutter-health-check-summer" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a>.</p>
+<p><strong>Three times yearly</strong> is the appropriate schedule for properties adjacent to mature deciduous trees, particularly sycamore, ash, or oak. A summer inspection adds a critical third check point and catches debris accumulation before it becomes an autumn blockage problem. Read our complete guide: <a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a>.</p>
 
 <p><strong>Quarterly</strong> makes sense for commercial properties, rental portfolios, and any building with flat or very low-pitch roof sections where debris accumulates rather than sliding to the channel.</p>
 
-<p>The complete seasonal framework is covered in our <a href="/blog/birmingham-seasonal-gutter-guide" style="${link}">Birmingham Gutter Maintenance Calendar</a>.</p>
+<p>The complete seasonal framework is covered in our <a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">Birmingham Gutter Maintenance Calendar</a>.</p>
 
 <h2 id="what-we-check">What WOW Gutters Ltd Checks on Every Visit</h2>
 
@@ -343,7 +343,7 @@ ${ctaBox}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Twice yearly for most Birmingham properties — late autumn and spring. Properties with significant tree coverage benefit from a summer check as a third visit. See our complete guide: <a href="/blog/birmingham-seasonal-gutter-guide" style="${link}">Birmingham Gutter Maintenance Calendar</a>.</p>
+      <p style="margin: 16px 0 0;">Twice yearly for most Birmingham properties — late autumn and spring. Properties with significant tree coverage benefit from a summer check as a third visit. See our complete guide: <a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">Birmingham Gutter Maintenance Calendar</a>.</p>
     </div>
   </details>
 
@@ -363,7 +363,7 @@ ${ctaBox}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Yes — it is one of the most common and most preventable causes of penetrating damp in Birmingham properties. Water overflowing a blocked gutter runs down the external wall, saturating brickwork and mortar and allowing moisture to track inward. Read our full guide: <a href="/blog/blocked-gutters-birmingham" style="${link}">Can Blocked Gutters Cause Damp?</a></p>
+      <p style="margin: 16px 0 0;">Yes — it is one of the most common and most preventable causes of penetrating damp in Birmingham properties. Water overflowing a blocked gutter runs down the external wall, saturating brickwork and mortar and allowing moisture to track inward. Read our full guide: <a href="/blog/blocked-gutters-birmingham/" style="${link}">Can Blocked Gutters Cause Damp?</a></p>
     </div>
   </details>
 
@@ -373,7 +373,7 @@ ${ctaBox}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 24px 20px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Yes — and this combination is particularly effective for roofline protection. Roof moss removal eliminates the continuous debris source that fills gutters between cleans. Treating moss in summer means it has broken down before autumn rain arrives, significantly reducing accumulation through the critical window. Read more: <a href="/services/roof-cleaning" style="${link}">Roof Cleaning and Moss Removal Birmingham</a>.</p>
+      <p style="margin: 16px 0 0;">Yes — and this combination is particularly effective for roofline protection. Roof moss removal eliminates the continuous debris source that fills gutters between cleans. Treating moss in summer means it has broken down before autumn rain arrives, significantly reducing accumulation through the critical window. Read more: <a href="/services/roof-cleaning/" style="${link}">Roof Cleaning and Moss Removal Birmingham</a>.</p>
     </div>
   </details>
 
@@ -427,12 +427,12 @@ ${ctaBox}
 <h2>Related Articles</h2>
 
 <ul>
-  <li><a href="/blog/birmingham-gutter-health-check-summer" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
-  <li><a href="/blog/birmingham-seasonal-gutter-guide" style="${link}">Birmingham Gutter Maintenance Calendar: What to Do Each Season</a></li>
+  <li><a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
+  <li><a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">Birmingham Gutter Maintenance Calendar: What to Do Each Season</a></li>
   <li><a href="/blog/birmingham-autumn-gutter-guide/" style="${link}">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a></li>
-  <li><a href="/blog/blocked-gutters-birmingham" style="${link}">Can Blocked Gutters Cause Damp?</a></li>
-  <li><a href="/services/roof-cleaning" style="${link}">Roof Cleaning and Moss Removal</a></li>
-  <li><a href="/services/upvc-cleaning" style="${link}">Fascia and Soffit Cleaning</a></li>
+  <li><a href="/blog/blocked-gutters-birmingham/" style="${link}">Can Blocked Gutters Cause Damp?</a></li>
+  <li><a href="/services/roof-cleaning/" style="${link}">Roof Cleaning and Moss Removal</a></li>
+  <li><a href="/services/upvc-cleaning/" style="${link}">Fascia and Soffit Cleaning</a></li>
 </ul>
 `,
 };

@@ -246,7 +246,7 @@ export default function CoventryGutterCleaningBlogContent() {
       </ul>
 
       <p>
-        Not sure if we cover your postcode? <a href="tel:07421433910">Call us on 07421 433910</a> or <Link href="/quote">get a free quote online</Link> and we will confirm within the hour.
+        Not sure if we cover your postcode? <a href="tel:07421433910">Call us on 07421 433910</a> or <Link href="/quote/">get a free quote online</Link> and we will confirm within the hour.
       </p>
 
       <h2>Book Gutter Cleaning in Coventry Today</h2>
@@ -268,7 +268,7 @@ export default function CoventryGutterCleaningBlogContent() {
         <div className="contact-info">
           <p><strong>📞 Call us now:</strong> <a href="tel:07421433910">07421 433910</a></p>
           <p><strong>📧 Email:</strong> support@wowgutters.co.uk</p>
-          <p><strong>🌐 Book online:</strong> <Link href="/quote">wowgutters.co.uk/quote</Link></p>
+          <p><strong>🌐 Book online:</strong> <Link href="/quote/">wowgutters.co.uk/quote</Link></p>
         </div>
 
         <p>Covering Coventry, Kenilworth, Leamington Spa, Rugby, and all surrounding West Midlands areas.</p>
@@ -287,7 +287,7 @@ export default function CoventryGutterCleaningBlogContent() {
         <div className="faq-item">
           <h3>Q: How much does gutter cleaning cost in Coventry?</h3>
           <p>
-            A: WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200. Downpipe inspection is included. Use our <Link href="/gutter-cleaning-calculator">cost calculator</Link> for an instant estimate.
+            A: WOW Gutters Ltd prices are £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200. Downpipe inspection is included. Use our <Link href="/gutter-cleaning-calculator/">cost calculator</Link> for an instant estimate.
           </p>
         </div>
 
@@ -329,7 +329,7 @@ export default function CoventryGutterCleaningBlogContent() {
         <div className="faq-item">
           <h3>Q: Do you also repair gutters in Coventry?</h3>
           <p>
-            A: Yes. In addition to cleaning, we repair leaking joints, broken brackets, sagging sections, and cracked downpipes. All repair work includes complete water flow testing. <Link href="/help/repair">View our gutter repairs service</Link>.
+            A: Yes. In addition to cleaning, we repair leaking joints, broken brackets, sagging sections, and cracked downpipes. All repair work includes complete water flow testing. <Link href="/help/repair/">View our gutter repairs service</Link>.
           </p>
         </div>
       </div>
@@ -337,10 +337,10 @@ export default function CoventryGutterCleaningBlogContent() {
       <h2>Related Articles</h2>
 
       <ul className="related-articles">
-        <li><Link href="/blog/blocked-gutters-sycamore-seeds">Blocked Gutters Packed With Sycamore Seeds — What Happens If You Leave Them</Link></li>
-        <li><Link href="/blog/gutter-cleaning-wolverhampton">Gutter Cleaning Wolverhampton | WOW Gutters Ltd — Local Specialists</Link></li>
-        <li><Link href="/help/repair">Gutter Repairs: How to Spot Damage Early</Link></li>
-        <li><Link href="/gutter-cleaning-prices">Gutter Cleaning Prices — Full 2026 Guide</Link></li>
+        <li><Link href="/blog/blocked-gutters-sycamore-seeds/">Blocked Gutters Packed With Sycamore Seeds — What Happens If You Leave Them</Link></li>
+        <li><Link href="/blog/gutter-cleaning-wolverhampton/">Gutter Cleaning Wolverhampton | WOW Gutters Ltd — Local Specialists</Link></li>
+        <li><Link href="/help/repair/">Gutter Repairs: How to Spot Damage Early</Link></li>
+        <li><Link href="/gutter-cleaning-prices/">Gutter Cleaning Prices — Full 2026 Guide</Link></li>
       </ul>
 
       <style jsx>{`

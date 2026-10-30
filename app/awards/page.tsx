@@ -170,7 +170,7 @@ export default function AwardsPage() {
           <p className="text-xl text-white/80 mb-8">
             Experience the professional gutter service trusted by homeowners across the West Midlands
           </p>
-          <Link href="/quote">
+          <Link href="/quote/">
             <button className="px-8 py-4 rounded-full font-bold text-lg text-white shadow-xl hover:scale-105 transition-all" style={{ background: colors.primaryGradient }}>
               Get Your Free Quote
             </button>

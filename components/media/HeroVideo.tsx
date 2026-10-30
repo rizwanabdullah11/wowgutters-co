@@ -25,6 +25,7 @@ export default function HeroVideo({
   mobileSrc,
   poster,
   className = 'hero-video',
+  alt = 'WOW Gutters engineer vacuum-cleaning house gutters from the ground in Birmingham',
 }: {
   src?: string;
   /** Lighter file for phones/tablets (homepage, Oct 2026). Without it, small screens keep the still image. */
@@ -32,6 +33,8 @@ export default function HeroVideo({
   /** Optional page-specific still; defaults to the responsive gutter-cleaning hero. */
   poster?: string;
   className?: string;
+  /** Descriptive alt text for image search; pass a page-specific one where possible. */
+  alt?: string;
 }) {
   const ref = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(false);
@@ -77,8 +80,7 @@ export default function HeroVideo({
         src={useDefault ? HERO_IMAGE_SRC : poster}
         srcSet={useDefault ? HERO_IMAGE_SRCSET : undefined}
         sizes={useDefault ? '100vw' : undefined}
-        alt=""
-        aria-hidden="true"
+        alt={alt}
         width={1600}
         height={900}
         fetchPriority="high"

@@ -102,7 +102,7 @@ ${ctaTop}
   <li>Plants at the edge, covered in <a href="/blog/gutters-full-of-weeds/" style="${link}">Gutters Full of Weeds or Seeds? Birmingham Clearing Guide</a></li>
 </ul>
 
-<p><a href="/blog/clogged-gutters-signs/" style="${link}">Clogged Gutters Birmingham: Signs You're Missing</a>, <a href="/blog/summer-gutter-warning/" style="${link}">What Your Gutters Are Trying to Tell You This Summer</a> and the <a href="/blog/gutters-blocked-checklist/" style="${link}">blocked gutters checklist</a> cover more. Heavily neglected systems fall under our <a href="/gutter-cleaning" style="${link}">gutter clearing service</a>.</p>
+<p><a href="/blog/clogged-gutters-signs/" style="${link}">Clogged Gutters Birmingham: Signs You're Missing</a>, <a href="/blog/summer-gutter-warning/" style="${link}">What Your Gutters Are Trying to Tell You This Summer</a> and the <a href="/blog/gutters-blocked-checklist/" style="${link}">blocked gutters checklist</a> cover more. Heavily neglected systems fall under our <a href="/gutter-cleaning/" style="${link}">gutter clearing service</a>.</p>
 
 <h2 id="stage-two-fascia">Stage Two: Fascia Boards and Brackets</h2>
 
@@ -115,7 +115,7 @@ ${ctaTop}
   <figcaption style="font-size: 14px; color: #666; margin-top: 10px;">Fascia damage: peeling paint and staining from water spilling behind blocked gutters.</figcaption>
 </figure>
 
-<p>If a leaking joint is the source, <a href="/blog/leaking-gutter-repair/" style="${link}">Leaking Gutter Repair Birmingham: Fix or Replace?</a> explains how to judge repair against replacement. Our <a href="/fascia-soffit-cleaning" style="${link}">fascia and soffit cleaning service</a> covers the outside surfaces.</p>
+<p>If a leaking joint is the source, <a href="/blog/leaking-gutter-repair/" style="${link}">Leaking Gutter Repair Birmingham: Fix or Replace?</a> explains how to judge repair against replacement. Our <a href="/fascia-soffit-cleaning/" style="${link}">fascia and soffit cleaning service</a> covers the outside surfaces.</p>
 <h2 id="stage-three-soffits">Stage Three: Soffits and the Roof Void</h2>
 
 <p>Soffits face downwards, so they're nearly invisible from the street. Water that tracks past the fascia can stain and soften them. Damage here can also open gaps for birds and insects, and, on most houses, the soffit is part of the loft's ventilation.</p>
@@ -126,7 +126,7 @@ ${ctaTop}
 
 <p>Once a gutter overflows regularly, water runs down the face of the wall. The first sign is a vertical stain from one point under the gutter, then green algae in a streak along the same path. Over many seasons, repeated wetting can damage mortar joints and leave brickwork damp.</p>
 
-<p>Overflow behaves differently depending on where it comes from. Overflow at one spot usually means a dropped bracket or local debris. Overflow along the whole run more often points to a downpipe restriction. <a href="/blog/overflowing-gutters-fix/" style="${link}">Overflowing Gutters in Birmingham? Causes & Quick Fixes</a> explains the difference, and <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">Downpipes Blocked Again? The Birmingham Fix Most Homeowners Miss</a> explains why bends are where pipes block. Our <a href="/downpipe-unblocking" style="${link}">downpipe unblocking service</a> tests every outlet.</p>
+<p>Overflow behaves differently depending on where it comes from. Overflow at one spot usually means a dropped bracket or local debris. Overflow along the whole run more often points to a downpipe restriction. <a href="/blog/overflowing-gutters-fix/" style="${link}">Overflowing Gutters in Birmingham? Causes & Quick Fixes</a> explains the difference, and <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">Downpipes Blocked Again? The Birmingham Fix Most Homeowners Miss</a> explains why bends are where pipes block. Our <a href="/downpipe-unblocking/" style="${link}">downpipe unblocking service</a> tests every outlet.</p>
 
 <figure style="margin: 28px 0;">
   <img src="${IMG_OVERFLOW}" alt="Water overflow from blocked gutters causing staining on exterior walls of Birmingham home" width="1280" height="720" loading="lazy" style="width: 100%; height: auto; max-width: 1280px; border-radius: 8px; display: block;" />
@@ -181,7 +181,7 @@ ${ctaMid}
 
 <h2 id="seasons">Trees, Moss, Wind and Seasons</h2>
 
-<p>What lands in the gutter decides how fast the chain starts. <a href="/blog/tree-gutter-cleaning/" style="${link}">How Tree Cover Changes Your Gutter Cleaning Schedule in Birmingham</a> explains the species differences, and <a href="/blog/autumn-leaf-buildup/" style="${link}">Autumn Leaf Fall by Tree Type: Which Birmingham House Gutters Get Hit Hardest</a> ranks them. Wind decides which side fills first, as explained in <a href="/blog/wind-debris-gutters/" style="${link}">How Wind Direction Affects Debris Build-Up in Birmingham Gutters</a>. Roof moss sheds into the channel all year, a cycle covered in <a href="/blog/roof-moss-damage/" style="${link}">Moss on Your Roof? What It's Doing to Your Birmingham Gutters Right Now</a>. Our <a href="/roof-cleaning" style="${link}">roof cleaning and moss removal services</a> deal with the source.</p>
+<p>What lands in the gutter decides how fast the chain starts. <a href="/blog/tree-gutter-cleaning/" style="${link}">How Tree Cover Changes Your Gutter Cleaning Schedule in Birmingham</a> explains the species differences, and <a href="/blog/autumn-leaf-buildup/" style="${link}">Autumn Leaf Fall by Tree Type: Which Birmingham House Gutters Get Hit Hardest</a> ranks them. Wind decides which side fills first, as explained in <a href="/blog/wind-debris-gutters/" style="${link}">How Wind Direction Affects Debris Build-Up in Birmingham Gutters</a>. Roof moss sheds into the channel all year, a cycle covered in <a href="/blog/roof-moss-damage/" style="${link}">Moss on Your Roof? What It's Doing to Your Birmingham Gutters Right Now</a>. Our <a href="/roof-cleaning/" style="${link}">roof cleaning and moss removal services</a> deal with the source.</p>
 
 <p>It's October, so timing matters. <a href="/blog/birmingham-autumn-gutter-guide/" style="${link}">Why Autumn Is the Most Dangerous Season for Birmingham Gutters</a> explains why peak leaf fall and heavy rain arrive together. <a href="/blog/birmingham-autumn-gutter-guide/" style="${link}">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a> and <a href="/blog/heavy-rain-birmingham-gutters-ready/" style="${link}">Gutter Cleaning in Rainy Season: A West Midlands Homeowner's Prep List</a> cover the preparation.</p>
 
@@ -247,7 +247,7 @@ ${ctaBox}
 
 <p>WOW Gutters Ltd provides gutter cleaning and roofline checks across Birmingham, Solihull, Sutton Coldfield, Wolverhampton, Walsall, Dudley, Coventry, Redditch, Worcester, Bromsgrove, West Bromwich and all West Midlands areas.</p>
 
-<p><a href="/contact" style="${link}">Contact us</a> or <a href="/quote" style="${link}">request a quote</a>.</p>
+<p><a href="/contact/" style="${link}">Contact us</a> or <a href="/quote/" style="${link}">request a quote</a>.</p>
 
 <p>📞 <a href="tel:07421433910" style="${link}">07421 433910</a> | 📧 <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a> | 🌐 <a href="https://wowgutters.co.uk" style="${link}">https://wowgutters.co.uk</a></p>
 
@@ -357,7 +357,7 @@ ${ctaBox}
 
 <p>WOW Gutters Ltd provides fully insured, ground-based gutter cleaning across Birmingham and the West Midlands, with live camera inspection and before and after photographs on every job. No ladders.</p>
 
-<p>📞 <a href="tel:07421433910" style="${link}">07421 433910</a> | 🌐 <a href="https://wowgutters.co.uk" style="${link}">https://wowgutters.co.uk</a> | 📋 <a href="/quote" style="${link}">Free quote</a></p>
+<p>📞 <a href="tel:07421433910" style="${link}">07421 433910</a> | 🌐 <a href="https://wowgutters.co.uk" style="${link}">https://wowgutters.co.uk</a> | 📋 <a href="/quote/" style="${link}">Free quote</a></p>
 
 <p>Serving Birmingham, Solihull, Sutton Coldfield, Wolverhampton, Dudley, Walsall, Coventry, Redditch, Worcester, Bromsgrove and all West Midlands areas.</p>
 

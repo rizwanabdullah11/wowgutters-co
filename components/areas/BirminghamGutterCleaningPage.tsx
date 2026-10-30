@@ -197,7 +197,7 @@ export default function BirminghamGutterCleaningPage() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch justify-center gap-4 w-full max-w-xl animate-fade-in-up delay-300">
-            <Link href="/quote" className="hero-primary-btn-link hero-primary-btn flex-1">
+            <Link href="/quote/" className="hero-primary-btn-link hero-primary-btn flex-1">
               <span className="btn-arrow">&#9658;</span>
               <span className="btn-label">
                 Get a <span className="btn-free">FREE</span> quote
@@ -549,7 +549,7 @@ export default function BirminghamGutterCleaningPage() {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Link
-              href="/services/roof-cleaning"
+              href="/services/roof-cleaning/"
               className="group p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-orange-700 mb-2">Popular</p>
@@ -562,7 +562,7 @@ export default function BirminghamGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/services/upvc-cleaning"
+              href="/services/upvc-cleaning/"
               className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">
@@ -574,7 +574,7 @@ export default function BirminghamGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/services/gutter-repairs"
+              href="/services/gutter-repairs/"
               className="group p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">Gutter repairs</h3>
@@ -584,7 +584,7 @@ export default function BirminghamGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/services/gutter-inspection"
+              href="/services/gutter-inspection/"
               className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">Free gutter inspection</h3>
@@ -606,7 +606,7 @@ export default function BirminghamGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/services/conservatory"
+              href="/services/conservatory/"
               className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">
@@ -634,7 +634,7 @@ export default function BirminghamGutterCleaningPage() {
             Book your gutter clean in Birmingham — free quote in 60 seconds
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-            <Link href="/quote" className="hero-primary-btn-link hero-primary-btn w-full sm:w-auto min-w-[240px]">
+            <Link href="/quote/" className="hero-primary-btn-link hero-primary-btn w-full sm:w-auto min-w-[240px]">
               <span className="btn-arrow">&#9658;</span>
               <span className="btn-label">
                 Get a <span className="btn-free">FREE</span> quote online

@@ -145,7 +145,7 @@ export default function ServiceSEOSection({
           <p className="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
             {ctaDescription}
           </p>
-          <Link href="/quote">
+          <Link href="/quote/">
             <Button 
               className="px-8 py-4 text-lg font-bold rounded-full shadow-xl hover:scale-105 transition-transform"
               style={{ background: colors.primaryGradient, color: 'white' }}

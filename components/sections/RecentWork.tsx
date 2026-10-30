@@ -30,7 +30,7 @@ export default function RecentWork() {
             Recent Work…
           </h2>
           <Link
-            href="/work"
+            href="/work/"
             className="hidden sm:inline-flex items-center gap-1 text-sm font-bold transition-opacity hover:opacity-70"
             style={{ color: colors.primary }}
           >
