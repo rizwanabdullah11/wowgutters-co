@@ -10,6 +10,7 @@
       window.location.href = "/quote/embed/";
       return;
     }
+    if (d.open) return;
     if (typeof d.showModal === "function") {
       try {
         d.showModal();
@@ -78,6 +79,58 @@
     },
     true
   );
+
+  /* Auto hover trigger for elements with [data-static-quote-hover] */
+  var hoverCooldownUntil = 0;
+  var hasHoverTriggered = false;
+
+  document.addEventListener(
+    "mouseover",
+    function (e) {
+      var hoverEl = e.target && e.target.closest && e.target.closest("[data-static-quote-hover]");
+      if (!hoverEl) {
+        if (hasHoverTriggered && Date.now() > hoverCooldownUntil) {
+          hasHoverTriggered = false;
+        }
+        return;
+      }
+      var d = document.getElementById("wow-cta-dialog");
+      if (d && d.open) return;
+      if (Date.now() < hoverCooldownUntil) return;
+      if (hasHoverTriggered) return;
+
+      hasHoverTriggered = true;
+      hoverCooldownUntil = Date.now() + 3000;
+      openDialog();
+    },
+    true
+  );
+
+  document.addEventListener(
+    "mouseout",
+    function (e) {
+      var fromEl = e.target && e.target.closest && e.target.closest("[data-static-quote-hover]");
+      var toEl = e.relatedTarget && e.relatedTarget.closest && e.relatedTarget.closest("[data-static-quote-hover]");
+      if (fromEl && !toEl) {
+        var remaining = Math.max(300, hoverCooldownUntil - Date.now());
+        setTimeout(function () {
+          hasHoverTriggered = false;
+        }, remaining);
+      }
+    },
+    true
+  );
+
+  window.addEventListener(
+    "close",
+    function (e) {
+      if (e.target && e.target.id === "wow-cta-dialog") {
+        hoverCooldownUntil = Date.now() + 2500;
+      }
+    },
+    true
+  );
+
   window.addEventListener("message", function (e) {
     try {
       if (e && e.data && e.data.type === "wow-close-quote") closeDialog();

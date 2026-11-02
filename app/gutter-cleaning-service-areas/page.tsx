@@ -67,7 +67,7 @@ export default function GutterCleaningServiceAreasPage() {
             Call 07421 433910
           </a>{' '}
           or{' '}
-          <Link href="/quote" className="font-bold underline" style={{ color: colors.primary }}>
+          <Link href="/quote/" className="font-bold underline" style={{ color: colors.primary }}>
             request a free quote
           </Link>
           .

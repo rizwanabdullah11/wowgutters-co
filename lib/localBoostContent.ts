@@ -276,7 +276,7 @@ export const LOCAL_BOOST: Record<string, LocalBoost> = {
       {
         question: 'How much is guttering cleaning in Kings Norton?',
         answer:
-          'Fixed prices: £100 for a 2-bed home and £110 for a 3-bed home, with larger detached homes quoted from £140. Downpipe flushing and before and after photos are included.',
+          'Fixed prices: £100 for a 2-bed home and £110 for a 3-bed home, and our Premium Service starts from £200. Downpipe flushing and before and after photos are included.',
       },
       {
         question: 'Do you clean gutters on period homes near Kings Norton Green?',

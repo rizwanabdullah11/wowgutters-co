@@ -92,7 +92,7 @@ export default function Navbar() {
               Get a Quote
             </Link>
             <Link 
-              href="/help"
+              href="/help/"
               className="flex-1 py-2.5 text-center text-[13px] font-bold text-white hover:bg-black/20 transition-colors"
             >
               Help Centre
@@ -159,9 +159,9 @@ export default function Navbar() {
               <span className="font-semibold sm:hidden">OPEN 24 HRS</span>
             </div>
             <div className="hidden md:flex gap-4">
-              <Link href="/reviews" className="hover:underline">Review Us</Link>
-              <Link href="/quote" className="hover:underline">Request a Call</Link>
-              <Link href="/help" className="hover:underline">Help Centre</Link>
+              <Link href="/reviews/" className="hover:underline">Review Us</Link>
+              <Link href="/quote/" className="hover:underline">Request a Call</Link>
+              <Link href="/help/" className="hover:underline">Help Centre</Link>
             </div>
           </div>
         </div>
@@ -185,13 +185,13 @@ export default function Navbar() {
               <Link href="/" className="text-gray-700 hover:text-[#047857] transition-colors font-semibold text-[17px] tracking-tight">
                 Home
               </Link>
-              <Link href="/about" className="text-gray-700 hover:text-[#047857] transition-colors font-semibold text-[17px] tracking-tight">
+              <Link href="/about/" className="text-gray-700 hover:text-[#047857] transition-colors font-semibold text-[17px] tracking-tight">
                 About
               </Link>
-              <Link href="/blog" className="text-gray-700 hover:text-[#047857] transition-colors font-semibold text-[17px] tracking-tight">
+              <Link href="/blog/" className="text-gray-700 hover:text-[#047857] transition-colors font-semibold text-[17px] tracking-tight">
                 Blog
               </Link>
-              <Link href="/contact" className="text-gray-700 hover:text-[#047857] transition-colors font-semibold text-[17px] tracking-tight">
+              <Link href="/contact/" className="text-gray-700 hover:text-[#047857] transition-colors font-semibold text-[17px] tracking-tight">
                 Contact
               </Link>
 

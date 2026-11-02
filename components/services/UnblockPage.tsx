@@ -46,7 +46,7 @@ export default function UnblockPage() {
               <p className="text-lg sm:text-xl mb-8 max-w-3xl mx-auto" style={{ color: colors.white }}>
                 Professional gutter cleaning and unblocking to clear debris and keep rainwater flowing away from your home.
               </p>
-              <Link href="/quote">
+              <Link href="/quote/">
                 <Button 
                   className="px-8 py-4 text-lg font-semibold hover:scale-105 transition-transform"
                   style={{ backgroundColor: colors.white, color: colors.primary }}
@@ -248,7 +248,7 @@ export default function UnblockPage() {
                   </div>
                 ))}
               </div>
-              <Link href="/quote">
+              <Link href="/quote/">
                 <Button 
                   className="px-8 py-4 text-lg font-bold rounded-full hover:scale-105 transition-transform"
                   style={{ background: colors.primaryGradient, color: 'white' }}
@@ -394,7 +394,7 @@ export default function UnblockPage() {
               Regular gutter unblocking prevents costly damage and keeps your property protected. 
               Book our professional service today for fast, effective results.
             </p>
-            <Link href="/quote">
+            <Link href="/quote/">
               <Button 
                 className="px-8 py-4 text-lg font-bold rounded-full shadow-xl hover:scale-105 transition-transform"
                 style={{ background: colors.primaryGradient, color: 'white' }}
@@ -415,7 +415,7 @@ export default function UnblockPage() {
           <p className="text-lg mb-8" style={{ color: colors.white }}>
             Get professional gutter cleaning and unblocking service today. Protect your property from water damage.
           </p>
-          <Link href="/quote">
+          <Link href="/quote/">
             <Button 
               className="px-8 py-4 text-lg font-semibold mr-4"
               style={{ backgroundColor: colors.white, color: colors.primary }}
@@ -423,7 +423,7 @@ export default function UnblockPage() {
               Get Unblocking Service
             </Button>
           </Link>
-          <Link href="/contact">
+          <Link href="/contact/">
             <Button 
               variant="outline"
               className="px-8 py-4 text-lg font-semibold border-2 hover:bg-white/10 active:bg-white/20"

@@ -3246,7 +3246,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     areasInline: 'Whittington, Fradley, Shenstone, Burntwood | Alrewas, Armitage, Kings Bromley | Lichfield city centre, Boley Park, Darwin Park | Nearby: Tamworth, Cannock, Rugeley, Brownhills, Walsall',
     faqsTitle: 'FAQs — Gutter Cleaning Lichfield',
     faqs: [
-      { question: 'How much does gutter cleaning cost in Lichfield?', answer: 'WOW Gutters Ltd provides fixed quotes for all properties. Most Lichfield residences cost between £100 and £210 depending on property size. Commercial quotes provided after free site survey.' },
+      { question: 'How much does gutter cleaning cost in Lichfield?', answer: 'WOW Gutters Ltd provides fixed quotes for all properties. Most Lichfield residences cost £100 (2-bed) or £110 (3-bed), with our Premium Service from £200. Commercial quotes provided after free site survey.' },
       { question: 'Do you cover Whittington and Fradley?', answer: 'Yes — all WS13 and WS14 postcodes including Lichfield city centre, Whittington, Fradley, Shenstone, Alrewas, Armitage and Burntwood.' },
       { question: 'How often should Lichfield gutters be cleaned?', answer: 'Most Lichfield properties benefit from annual cleaning in late autumn. Properties near trees or Cannock Chase woodland benefit from a second spring clean.' },
       { question: 'Can you clean gutters on listed buildings?', answer: 'Yes — our ground-level vacuum system is ideal for Lichfield\'s historic and listed properties as no ladders are placed against the fabric.' },
@@ -3298,7 +3298,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     areasInline: 'Mickleover, Allestree, Littleover, Oakwood | Chaddesden, Spondon, Chellaston, Sinfin | Mackworth, Kingsway, Normanton, Pear Tree | Nearby: Borrowash, Duffield, Belper, Swadlincote, Burton-on-Trent',
     faqsTitle: 'FAQs — Gutter Cleaning Derby',
     faqs: [
-      { question: 'How much does gutter cleaning cost in Derby?', answer: 'WOW Gutters Ltd provides fixed quotes for all properties. Most Derby residences cost between £100 and £210 depending on property size. Commercial quotes provided after free site survey.' },
+      { question: 'How much does gutter cleaning cost in Derby?', answer: 'WOW Gutters Ltd provides fixed quotes for all properties. Most Derby residences cost £100 (2-bed) or £110 (3-bed), with our Premium Service from £200. Commercial quotes provided after free site survey.' },
       { question: 'Do you cover Mickleover and Allestree?', answer: 'Yes — all DE postcodes including Mickleover, Allestree, Littleover, Oakwood, Chaddesden, Spondon, Chellaston and all surrounding areas.' },
       { question: 'How often should Derby gutters be cleaned?', answer: 'Most Derby properties benefit from annual cleaning in late autumn. Properties near the Derwent valley or with overhanging trees benefit from a second clean in spring.' },
       { question: 'Can blocked gutters cause damp in a Derby property?', answer: 'Yes — this is one of the most common causes of damp penetration we find in DE postcodes. Overflowing water saturates external brickwork and penetrates through solid walls over time.' },

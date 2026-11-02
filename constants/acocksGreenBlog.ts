@@ -110,7 +110,7 @@ export const acocksGreenBlogPost: BlogPost = {
   <li><strong>Costly stage — repair work required</strong> — replastering, damp treatment, fascia replacement. At this point, the cost is a building repair bill — not a gutter clean.</li>
 </ol>
 
-<p>Every stage in that sequence is preventable. The intervention required at stage one is a fraction of what stage five demands. See our guide on <a href="/blog/prevent-damp-winter" style="${link}">how blocked gutters contribute to damp</a> and <a href="/blog/signs-of-blocked-gutters-birmingham" style="${link}">signs your gutters need cleaning</a>.</p>
+<p>Every stage in that sequence is preventable. The intervention required at stage one is a fraction of what stage five demands. See our guide on <a href="/blog/prevent-damp-winter/" style="${link}">how blocked gutters contribute to damp</a> and <a href="/blog/signs-of-blocked-gutters-birmingham/" style="${link}">signs your gutters need cleaning</a>.</p>
 
 <h2 id="vacuum-system">Why a Vacuum System Changes Everything</h2>
 
@@ -266,8 +266,8 @@ Open 24 hours a day, 7 days a week</p>
   <li><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a></li>
   <li><a href="/blog/gutter-cleaning-selly-oak/" style="${link}">Gutter cleaning Selly Oak B29</a></li>
   <li><a href="/blog/gutter-cleaning-harborne/" style="${link}">Gutter cleaning Harborne B17</a></li>
-  <li><a href="/blog/signs-of-blocked-gutters-birmingham" style="${link}">Signs your gutters need cleaning</a></li>
-  <li><a href="/blog/prevent-damp-winter" style="${link}">Can blocked gutters cause damp</a></li>
+  <li><a href="/blog/signs-of-blocked-gutters-birmingham/" style="${link}">Signs your gutters need cleaning</a></li>
+  <li><a href="/blog/prevent-damp-winter/" style="${link}">Can blocked gutters cause damp</a></li>
   <li><a href="/services/gutter-cleaning/" style="${link}">Downpipe unblocking</a></li>
   <li><a href="/services/upvc-cleaning/" style="${link}">Fascia and soffit cleaning</a></li>
   <li><a href="/gutter-cleaning-acocks-green/" style="${link}">Gutter cleaning Acocks Green service page</a></li>

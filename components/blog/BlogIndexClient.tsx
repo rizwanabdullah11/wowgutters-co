@@ -80,7 +80,7 @@ export default function BlogIndexClient({ blogPosts }: { blogPosts: BlogSummary[
 
           {/* CTA Buttons */}
           <div className="hero-cta-buttons animate-fade-in-up delay-400">
-            <Link href="/quote" className="hero-primary-btn">
+            <Link href="/quote/" className="hero-primary-btn">
               <span className="btn-arrow">&#9658;</span>
               <span className="btn-label">
                 Get A <span className="btn-free">FREE</span> Quote
@@ -353,7 +353,7 @@ export default function BlogIndexClient({ blogPosts }: { blogPosts: BlogSummary[
               While our blog provides valuable DIY tips, some jobs require professional expertise. 
               Get a free quote for expert gutter cleaning, repairs, or installation.
             </p>
-            <Link href="/quote">
+            <Link href="/quote/">
               <button 
                 className="px-8 py-4 text-lg font-bold rounded-full shadow-xl hover:scale-105 transition-transform text-white"
                 style={{ background: colors.primaryGradient }}

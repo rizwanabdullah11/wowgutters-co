@@ -19,14 +19,23 @@ const analyticsJs = fs.existsSync(path.join(process.cwd(), 'public', 'wow-analyt
 if (!index) {
   errors.push('missing out/index.html');
 } else {
-  if (!/<script[^>]*src="[^"]*googletagmanager\.com\/gtag\/js/.test(index)) {
-    errors.push('index.html: missing gtag.js <script src=...> (next/script does not emit in static export)');
+  // Oct 31 2026: gtag.js may be a plain <script src> or loaded via the deferred __wowLoadScript helper.
+  if (!/<script[^>]*src="[^"]*googletagmanager\.com\/gtag\/js/.test(index) &&
+      !/__wowLoadScript\('https:\/\/www\.googletagmanager\.com\/gtag\/js/.test(index)) {
+    errors.push('index.html: missing gtag.js loader (script src or deferred __wowLoadScript)');
   }
   if (!/<script[^>]*id="ga4"[^>]*>[\s\S]*?gtag\('config'/.test(index)) {
     errors.push('index.html: missing ga4 inline gtag config script');
   }
-  if (!/data-cookieconsent="statistics"/.test(index)) {
-    errors.push('index.html: GA4 scripts should use data-cookieconsent="statistics" for Cookiebot');
+  // Oct 30 2026: GA4 runs under Google Consent Mode v2 (defaults denied) instead of waiting for
+  // Cookiebot — consent defaults must come first, and gtag.js must not be type="text/plain".
+  if (!/gtag\('consent',\s*'default'/.test(index)) {
+    errors.push('index.html: missing Google Consent Mode default (gtag consent default)');
+  } else if (index.indexOf("gtag('consent', 'default'") > index.indexOf('consent.cookiebot.com/uc.js')) {
+    errors.push('index.html: consent defaults must load before Cookiebot');
+  }
+  if (/<script[^>]*type="text\/plain"[^>]*googletagmanager\.com\/gtag\/js/.test(index)) {
+    errors.push('index.html: gtag.js must not be type="text/plain" (GA4 would never load)');
   }
   if (!/__WOW_ANALYTICS__/.test(index)) {
     errors.push('index.html: missing __WOW_ANALYTICS__ bootstrap');

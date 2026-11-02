@@ -18,7 +18,7 @@ export const allFAQs: FAQItem[] = [
   {
     id: 'gutter-cleaning-cost',
     question: 'How much does gutter cleaning cost?',
-    answer: 'Gutter cleaning costs vary depending on property size, gutter length, and accessibility. On average, residential gutter cleaning is £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. We offer free quotes and transparent pricing with no hidden fees. Contact us for an accurate estimate for your property.',
+    answer: 'Gutter cleaning costs vary depending on property size, gutter length, and accessibility. On average, residential gutter cleaning is £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200. We offer free quotes and transparent pricing with no hidden fees. Contact us for an accurate estimate for your property.',
     category: 'Gutter Cleaning',
     icon: '💷'
   },
@@ -260,7 +260,7 @@ export const allFAQs: FAQItem[] = [
   {
     id: 'gutter-installation-cost',
     question: 'How much does gutter installation cost?',
-    answer: 'Gutter installation costs vary based on property size, gutter type, and materials. Typical residential installations range from £400-£1,500. We provide detailed quotes after surveying your property.',
+    answer: 'Gutter installation costs vary based on property size, gutter type, and materials. Gutter installation starts from £300. We provide detailed quotes after surveying your property.',
     category: 'Gutter Installation',
     icon: '💷'
   },

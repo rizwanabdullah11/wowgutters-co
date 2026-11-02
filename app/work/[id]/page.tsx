@@ -63,7 +63,7 @@ export default async function WorkPostPage(props: WorkPageProps) {
       <section className="py-16 pb-20" style={{ backgroundColor: colors.primary }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Back Button */}
-          <Link href="/work" className="inline-flex items-center gap-2 mb-6 text-white hover:opacity-80">
+          <Link href="/work/" className="inline-flex items-center gap-2 mb-6 text-white hover:opacity-80">
             <ArrowLeft className="w-4 h-4" />
             Back to Recent Work
           </Link>
@@ -224,7 +224,7 @@ export default async function WorkPostPage(props: WorkPageProps) {
                 Our expert team is ready to help with your gutter cleaning, repair, and maintenance projects.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/quote">
+                <Link href="/quote/">
                   <button 
                     className="px-8 py-3 text-lg font-semibold rounded"
                     style={{ backgroundColor: colors.primary, color: colors.white }}
@@ -232,7 +232,7 @@ export default async function WorkPostPage(props: WorkPageProps) {
                     Get Free Quote
                   </button>
                 </Link>
-                <Link href="/contact">
+                <Link href="/contact/">
                   <button 
                     className="px-8 py-3 text-lg font-semibold border-2 rounded"
                     style={{ 

@@ -116,17 +116,49 @@ export default function RootLayout({
 
 
   return (
-    <html lang="en">
+    <html lang="en-GB">
       <head>
-        {/* Cookiebot — async so it does not block LCP/INP (still loads for consent) */}
+        {/*
+          Google Consent Mode v2 defaults — must run BEFORE Cookiebot and gtag.js.
+          Oct 30 2026 fix: GA4 used to be type="text/plain" and only ran after Cookiebot consent.
+          Cookiebot was not authorised for wowgutters.co.uk, so the banner never showed and GA4
+          never loaded at all. Now gtag.js always loads; until a visitor accepts statistics
+          cookies GA4 sends cookieless, consent-denied pings (UK GDPR/PECR friendly), and
+          Cookiebot updates consent automatically once the banner works.
+        */}
         <script
-          id="Cookiebot"
-          src="https://consent.cookiebot.com/uc.js"
-          data-cbid="90235ab0-b3ea-4224-a9f3-a1c438800254"
-          data-blockingmode="auto"
-          type="text/javascript"
-          async
-          defer
+          id="consent-defaults"
+          data-cookieconsent="ignore"
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {
+  ad_storage: 'denied',
+  ad_user_data: 'denied',
+  ad_personalization: 'denied',
+  analytics_storage: 'denied',
+  functionality_storage: 'granted',
+  security_storage: 'granted',
+  wait_for_update: 500
+});
+gtag('set', 'ads_data_redaction', true);
+gtag('set', 'url_passthrough', true);
+// Oct 31 2026 speed fix: third-party tags (Cookiebot, gtag.js) are loaded after the page has
+// loaded — on the first scroll/tap/keypress, or 3.5s after load. dataLayer queues every hit
+// until then, so no GA4 data is lost. Before this, GTM + Cookiebot added ~2s of blocking time.
+// Cookiebot is injected from here (not a separate <script async>) because React hoists async
+// scripts above inline ones — Google requires the consent default to run first.
+(function(){var q=[],done=false;
+function run(){if(done)return;done=true;for(var i=0;i<q.length;i++)q[i]();q=[];
+['scroll','pointerdown','keydown','touchstart'].forEach(function(e){removeEventListener(e,run,{passive:true});});}
+window.__wowDefer=function(fn){if(done)fn();else q.push(fn);};
+window.__wowLoadScript=function(src,attrs){window.__wowDefer(function(){var s=document.createElement('script');s.async=true;s.src=src;
+for(var k in (attrs||{}))s.setAttribute(k,attrs[k]);document.head.appendChild(s);});};
+['scroll','pointerdown','keydown','touchstart'].forEach(function(e){addEventListener(e,run,{passive:true});});
+function later(){setTimeout(run,3500);}
+if(document.readyState==='complete')later();else addEventListener('load',later);
+window.__wowLoadScript('https://consent.cookiebot.com/uc.js',{id:'Cookiebot','data-cbid':'90235ab0-b3ea-4224-a9f3-a1c438800254','data-blockingmode':'auto'});})();`,
+          }}
         />
         
         {/* Bing Webmaster Verification */}
@@ -154,20 +186,15 @@ export default function RootLayout({
         {ga4MeasurementId ? (
           <>
             <script
-              type="text/plain"
-              data-cookieconsent="statistics"
-              async
-              src={`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(ga4MeasurementId)}`}
-            />
-            <script
               id="ga4"
-              type="text/plain"
-              data-cookieconsent="statistics"
+              data-cookieconsent="ignore"
               dangerouslySetInnerHTML={{
                 __html: `window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', ${ga4ConfigId});`,
+gtag('config', ${ga4ConfigId});
+// gtag.js loads deferred (see consent-defaults) — hits queue in dataLayer until it arrives.
+window.__wowLoadScript('https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(ga4MeasurementId)}',{'data-cookieconsent':'ignore'});`,
               }}
             />
           </>

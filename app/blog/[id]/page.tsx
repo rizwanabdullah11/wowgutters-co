@@ -6,6 +6,7 @@ import { resolveBlogImageUrl } from '@/lib/blogImageUrl';
 import { Metadata } from 'next';
 import { seoTitle, seoDescription } from '@/lib/seo';
 import { BLOG_SHORT_TITLES } from '@/lib/blogShortTitles';
+import PriorityLinks from '@/components/seo/PriorityLinks';
 
 interface BlogPageProps {
   params: Promise<{
@@ -113,5 +114,10 @@ export default async function BlogPostPage(props: BlogPageProps) {
     notFound();
   }
 
-  return <BlogDetailContent post={post} relatedPosts={getRelatedBlogSummaries(post)} />;
+  return (
+    <>
+      <BlogDetailContent post={post} relatedPosts={getRelatedBlogSummaries(post)} />
+      <PriorityLinks path={`/blog/${post.id}/`} />
+    </>
+  );
 }

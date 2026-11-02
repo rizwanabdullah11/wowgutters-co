@@ -869,7 +869,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
         },
         {
           question: 'How much does it cost to clear nest blockages from gutters?',
-          answer: 'Standard residential gutter clearing with nest extraction costs £100 to £210 depending on property size and roof height. We provide fixed upfront quotes before commencing work.',
+          answer: 'Standard residential gutter clearing with nest extraction costs £100 for a 2-bed or £110 for a 3-bed home, with our Premium Service from £200. We provide fixed upfront quotes before commencing work.',
         },
       ],
     };
@@ -1027,7 +1027,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
         },
         {
           question: 'How much does a professional gutter repair cost?',
-          answer: 'Minor joint resealing and bracket repairs start from £45 to £95 when completed alongside a clean. We provide transparent, upfront fixed quotes before starting any work.',
+          answer: 'Minor joint resealing and bracket repairs start from £30. We provide transparent, upfront fixed quotes before starting any work.',
         },
       ],
     };
@@ -1079,7 +1079,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
         },
         {
           question: 'How much does roofline leak detection cost?',
-          answer: 'Basic camera surveys and leak detection start from £40 to £75, with costs often integrated directly into the repair service. Call 07421 433910 for an instant quote.',
+          answer: 'Camera surveys and leak detection are quoted free upfront and are often combined with a gutter clean or repair. Call 07421 433910 for an instant quote.',
         },
       ],
     };
@@ -1131,7 +1131,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
         },
         {
           question: 'How much does downpipe and gully clearance cost?',
-          answer: 'Downpipe and gully unblocking typically costs between £40 and £80 depending on blockage severity, with fixed quotes provided before work starts.',
+          answer: 'Downpipe and gully unblocking is priced on blockage severity, with free fixed quotes provided before work starts.',
         },
       ],
     };
@@ -1179,7 +1179,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
         },
         {
           question: `How much does gutter cleaning cost in ${areaName}?`,
-          answer: `Standard residential gutter cleaning in ${areaName} costs £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes, depending on height and accessibility. Fixed quotes are provided before work begins.`,
+          answer: `Standard residential gutter cleaning in ${areaName} costs £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200, depending on height and accessibility. Fixed quotes are provided before work begins.`,
         },
         {
           question: 'Do you use ladders or vacuum systems?',
@@ -1235,7 +1235,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
         },
         {
           question: 'How much does exterior render or cladding cleaning cost?',
-          answer: 'Pricing depends on total square meterage and access. Standard residential elevations start from £120 to £280. We provide free site surveys and fixed quotes.',
+          answer: 'Pricing depends on total square meterage and access. Render and cladding cleaning is quoted individually after a free site survey, with a fixed price agreed before any work starts.',
         },
         {
           question: 'Do you provide commercial cladding cleaning?',
@@ -1282,7 +1282,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
       },
       {
         question: 'How much does professional gutter cleaning cost?',
-        answer: 'Standard residential gutter cleaning costs £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes, depending on height and access. We provide fixed quotes before commencing work.',
+        answer: 'Standard residential gutter cleaning costs £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200, depending on height and access. We provide fixed quotes before commencing work.',
       },
       {
         question: 'Do you check downpipes as part of the clean?',

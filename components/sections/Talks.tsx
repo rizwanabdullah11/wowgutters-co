@@ -106,7 +106,7 @@ export default function Talks({
         {/* View All Button */}
         {posts.length > 6 && (
           <div className="text-center mt-12">
-            <Link href="/talks">
+            <Link href="/talks/">
               <Button 
                 className="px-8 py-3 text-lg font-semibold"
                 style={{ backgroundColor: colors.white, color: colors.primary, border: `2px solid ${colors.primary}` }}

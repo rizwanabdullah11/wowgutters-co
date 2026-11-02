@@ -11,11 +11,31 @@ export const WOW_GUTTERS_NAP = {
   phoneE164: '+447421433910',
   email: 'support@wowgutters.co.uk',
   website: 'https://wowgutters.co.uk',
-  geo: { latitude: 52.4862, longitude: -1.8904 },
+  // Pin from the Google Business Profile (Oct 2026) — keep schema geo on the real HQ location.
+  geo: { latitude: 52.4760288, longitude: -1.91898 },
+} as const;
+
+/**
+ * Google Business Profile — "Wow Gutters Ltd" (owner shared link: https://share.google/9KGqrTF2RyEDoIy4Q).
+ * CID 18206401737056874662 = Maps feature 0xec0dc4adc5a3ce1:0xfcaa21eb0f5470a6, knowledge graph /g/11wxx50y4q.
+ * NEXT_PUBLIC_GBP_* env vars still override these if set.
+ */
+export const GOOGLE_BUSINESS_PROFILE = {
+  name: 'Wow Gutters Ltd',
+  cid: '18206401737056874662',
+  mapsUrl: 'https://maps.google.com/?cid=18206401737056874662',
+  shareUrl: 'https://share.google/9KGqrTF2RyEDoIy4Q',
+  // Opens Google's "write a review" box for this listing.
+  reviewUrl:
+    'https://www.google.com/search?q=Wow+Gutters+Ltd#lrd=0xec0dc4adc5a3ce1:0xfcaa21eb0f5470a6,3,,,',
+  // Opens the listing's reviews panel.
+  reviewsListUrl:
+    'https://www.google.com/search?q=Wow+Gutters+Ltd#lrd=0xec0dc4adc5a3ce1:0xfcaa21eb0f5470a6,1,,,',
 } as const;
 
 /** Social profiles confirmed by the owner (Oct 2026) — must match the Google Business Profile. */
 export const SOCIAL_PROFILES = [
+  { name: 'Google Business Profile', url: GOOGLE_BUSINESS_PROFILE.mapsUrl },
   { name: 'Facebook', url: 'https://web.facebook.com/wowgutters.co.uk' },
   { name: 'Instagram', url: 'https://www.instagram.com/wowgutters/' },
   { name: 'LinkedIn', url: 'https://www.linkedin.com/company/wow-gutters' },
@@ -28,12 +48,12 @@ export function formatNapAddress(): string {
   return `${streetAddress}, ${addressLocality} ${postalCode}, ${addressRegion}`;
 }
 
-export function gbpProfileUrl(): string | undefined {
+export function gbpProfileUrl(): string {
   const url = (process.env.NEXT_PUBLIC_GBP_CID_URL || process.env.NEXT_PUBLIC_GBP_URL || '').trim();
-  return url || undefined;
+  return url || GOOGLE_BUSINESS_PROFILE.mapsUrl;
 }
 
-export function gbpReviewUrl(): string | undefined {
+export function gbpReviewUrl(): string {
   const url = (process.env.NEXT_PUBLIC_GBP_REVIEW_URL || '').trim();
-  return url || gbpProfileUrl();
+  return url || GOOGLE_BUSINESS_PROFILE.reviewUrl;
 }

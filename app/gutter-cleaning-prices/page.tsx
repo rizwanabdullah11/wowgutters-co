@@ -50,16 +50,16 @@ export default function GutterCleaningPrices() {
           },
         },
         {
-          '@type': 'LocalBusiness',
-          '@id': 'https://wowgutters.co.uk/pricing/#business',
+          '@type': 'HomeAndConstructionBusiness',
+          '@id': 'https://wowgutters.co.uk/#business',
           name: 'WOW Gutters Ltd',
-          url: 'https://wowgutters.co.uk/pricing/',
+          url: 'https://wowgutters.co.uk/',
           telephone: '+447421433910',
           priceRange: '££',
           geo: {
             '@type': 'GeoCoordinates',
-            latitude: 52.4862,
-            longitude: -1.8904,
+            latitude: 52.4760288,
+            longitude: -1.91898,
           },
         },
       ],
@@ -102,7 +102,7 @@ export default function GutterCleaningPrices() {
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center">
-            <Link href="/quote" className="inline-flex items-center gap-2 bg-[#19C58B] hover:bg-[#14B27D] text-white px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl">
+            <Link href="/quote/" className="inline-flex items-center gap-2 bg-[#19C58B] hover:bg-[#14B27D] text-white px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl">
               Get Free Quote
             </Link>
             <a href="tel:07421433910" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border-2 border-white/40 text-white px-8 py-4 rounded-full font-bold transition-all hover:bg-white hover:text-slate-900">
@@ -428,14 +428,14 @@ export default function GutterCleaningPrices() {
                 <tr className="hover:bg-slate-50 transition-colors">
                   <td className="p-4 sm:p-5 font-bold text-slate-900">4+ Bed Detached</td>
                   <td className="p-4 sm:p-5 text-slate-600">Full 360° Perimeter (30–40m)</td>
-                  <td className="p-4 sm:p-5 font-bold text-emerald-700">From £140 – £210</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-700">Premium from £200</td>
                   <td className="p-4 sm:p-5 text-slate-600">60–90 mins</td>
                   <td className="p-4 sm:p-5 text-slate-600">Complete clearance, all downpipes, photo proof</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition-colors">
                   <td className="p-4 sm:p-5 font-bold text-slate-900">Townhouse / 3-Storey</td>
                   <td className="p-4 sm:p-5 text-slate-600">High-Elevation Runs</td>
-                  <td className="p-4 sm:p-5 font-bold text-emerald-700">From £130 – £195</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-700">Free fixed quote</td>
                   <td className="p-4 sm:p-5 text-slate-600">60–75 mins</td>
                   <td className="p-4 sm:p-5 text-slate-600">Up to 4 storeys (40ft) from the ground, no scaffolding needed</td>
                 </tr>
@@ -481,10 +481,10 @@ export default function GutterCleaningPrices() {
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center mb-8">
-            <Link href="/quote" className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl text-white" style={{ background: colors.primaryGradient }}>
+            <Link href="/quote/" className="inline-flex items-center gap-2 px-8 py-4 rounded-full font-bold transition-all hover:scale-105 shadow-xl text-white" style={{ background: colors.primaryGradient }}>
               Get Free Quote
             </Link>
-            <Link href="/oap-discount" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border-2 border-white text-white px-8 py-4 rounded-full font-bold transition-all hover:bg-white hover:text-[#19C58B]">
+            <Link href="/oap-discount/" className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border-2 border-white text-white px-8 py-4 rounded-full font-bold transition-all hover:bg-white hover:text-[#19C58B]">
               View Discounts
             </Link>
           </div>

@@ -78,7 +78,7 @@ export default async function TalkPage(props: TalkPageProps) {
       <section className="py-12" style={{ backgroundColor: colors.primary }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Back Button */}
-          <Link href="/talks" className="inline-flex items-center gap-2 mb-6 text-white hover:opacity-80">
+          <Link href="/talks/" className="inline-flex items-center gap-2 mb-6 text-white hover:opacity-80">
             <ArrowLeft className="w-4 h-4" />
             Back to Talks
           </Link>
@@ -154,7 +154,7 @@ export default async function TalkPage(props: TalkPageProps) {
                 Our expert team is ready to help with all your gutter and exterior cleaning needs.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/quote">
+                <Link href="/quote/">
                   <Button 
                     className="px-8 py-3 text-lg font-semibold"
                     style={{ backgroundColor: colors.primary, color: colors.white }}
@@ -162,7 +162,7 @@ export default async function TalkPage(props: TalkPageProps) {
                     Get Free Quote
                   </Button>
                 </Link>
-                <Link href="/contact">
+                <Link href="/contact/">
                   <Button 
                     className="px-8 py-3 text-lg font-semibold border-2"
                     style={{ 

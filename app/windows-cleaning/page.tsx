@@ -23,7 +23,7 @@ export default function WindowsCleaningPage() {
           <p className="text-xl md:text-2xl mb-8" style={{ color: colors.white }}>
             Crystal clear windows with streak-free finish using hot, purified water
           </p>
-          <Link href="/quote">
+          <Link href="/quote/">
             <Button 
               className="px-8 py-4 text-lg font-semibold"
               style={{ backgroundColor: colors.white, color: colors.primary }}
@@ -214,7 +214,7 @@ export default function WindowsCleaningPage() {
             Experience the difference hot wash window cleaning makes
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/quote">
+            <Link href="/quote/">
               <Button 
                 className="px-8 py-4 text-lg font-semibold"
                 style={{ backgroundColor: colors.white, color: colors.primary }}
@@ -222,7 +222,7 @@ export default function WindowsCleaningPage() {
                 Get Free Quote
               </Button>
             </Link>
-            <Link href="/contact">
+            <Link href="/contact/">
               <Button 
                 className="px-8 py-4 text-lg font-semibold border-2"
                 style={{ 

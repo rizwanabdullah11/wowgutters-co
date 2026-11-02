@@ -14,7 +14,7 @@ const ctaBox = `
   <p style="margin: 0 0 1rem; opacity: 0.95;">No ladders. No mess. Live camera footage on every visit.</p>
   <a href="tel:07421433910" style="display: inline-block; background: #fff; color: #047857; font-weight: 700; padding: 0.75rem 2rem; border-radius: 8px; text-decoration: none; font-size: 1.05rem;">📞 Call 07421 433910</a>
   &nbsp;&nbsp;
-  <a href="/contact" style="display: inline-block; background: transparent; color: #fff; font-weight: 700; padding: 0.75rem 2rem; border-radius: 8px; text-decoration: none; font-size: 1.05rem; border: 2px solid #fff;">Get a Free Quote</a>
+  <a href="/contact/" style="display: inline-block; background: transparent; color: #fff; font-weight: 700; padding: 0.75rem 2rem; border-radius: 8px; text-decoration: none; font-size: 1.05rem; border: 2px solid #fff;">Get a Free Quote</a>
 </div>`;
 
 const content = `
@@ -56,7 +56,7 @@ ${ctaTop}
 
 <h2 id="how-a-visit-works" style="font-size: 1.6rem; color: #1e293b; margin-top: 2.5rem;">How a WOW Gutters Vacuum Visit Works – Step by Step</h2>
 
-<p>Here is exactly what happens when WOW Gutters Ltd attends a <a href="/gutter-cleaning" style="${link}">gutter cleaning</a> call using the vacuum system:</p>
+<p>Here is exactly what happens when WOW Gutters Ltd attends a <a href="/gutter-cleaning/" style="${link}">gutter cleaning</a> call using the vacuum system:</p>
 
 <ol style="line-height: 2.2; color: #374151;">
   <li><strong>Arrival &amp; walk-round.</strong> The operative walks the full perimeter of the property, noting gutter runs, downpipe positions, any visible overflow staining, and access constraints (fences, conservatories, extensions).</li>
@@ -66,7 +66,7 @@ ${ctaTop}
   <li><strong>Downpipe flush.</strong> Downpipes are flushed from above (using a water-fed lance where required) to confirm free flow. Blockages at downpipe outlets are cleared with a narrow extraction attachment.</li>
   <li><strong>Post-clean camera pass.</strong> A second full camera pass confirms the gutter channel is clear to the uPVC floor. The operative shows the customer the "after" footage on-site.</li>
   <li><strong>Debris disposal.</strong> All extracted debris is bagged and removed from the property. Nothing is swept off the roof or dropped onto driveways, borders, or decking.</li>
-  <li><strong>Written report.</strong> The customer receives a short written summary including any <a href="/gutter-repairs" style="${link}">gutter repair</a> issues identified – cracked joints, sagging sections, missing end-caps – with photos.</li>
+  <li><strong>Written report.</strong> The customer receives a short written summary including any <a href="/gutter-repairs/" style="${link}">gutter repair</a> issues identified – cracked joints, sagging sections, missing end-caps – with photos.</li>
 </ol>
 
 <figure style="margin: 2rem 0; text-align: center;">
@@ -195,7 +195,7 @@ ${ctaTop}
 
   <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
     <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.05rem;">📸 Before &amp; After Photos Included as Standard</h3>
-    <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">Still photos captured from the camera feed are emailed to you after every job at no extra charge. These are invaluable for insurance records, landlord compliance, and planned <a href="/gutter-cleaning" style="${link}">gutter maintenance</a> schedules. Traditional ladder cleans rarely offer this level of documented proof.</p>
+    <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">Still photos captured from the camera feed are emailed to you after every job at no extra charge. These are invaluable for insurance records, landlord compliance, and planned <a href="/gutter-cleaning/" style="${link}">gutter maintenance</a> schedules. Traditional ladder cleans rarely offer this level of documented proof.</p>
   </div>
 
   <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
@@ -205,7 +205,7 @@ ${ctaTop}
 
   <div style="background: #f0fdf8; border: 1px solid #19C58B; border-radius: 10px; padding: 1.25rem 1.4rem;">
     <h3 style="margin: 0 0 0.5rem; color: #0ea572; font-size: 1.05rem;">🏗️ Four-Storey Reach Without Scaffolding</h3>
-    <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">The SkyVac Industrial system reaches up to 13 m (four storeys), covering blocks of flats, large detached houses, and light-commercial premises that would otherwise require a mobile elevated work platform or scaffold tower. This keeps costs down and scheduling simple. See our full <a href="/gutter-cleaning" style="${link}">Birmingham gutter cleaning service</a> for details on property types we cover.</p>
+    <p style="margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.7;">The SkyVac Industrial system reaches up to 13 m (four storeys), covering blocks of flats, large detached houses, and light-commercial premises that would otherwise require a mobile elevated work platform or scaffold tower. This keeps costs down and scheduling simple. See our full <a href="/gutter-cleaning/" style="${link}">Birmingham gutter cleaning service</a> for details on property types we cover.</p>
   </div>
 
 </div>
@@ -223,10 +223,10 @@ ${ctaTop}
   <li><strong>Is the debris removed from site?</strong> Some operators leave bagged debris on your driveway. WOW Gutters removes all debris as standard.</li>
   <li><strong>Are downpipes checked and flushed?</strong> Vacuum cleaning clears the channel, but a blocked downpipe underground is a separate issue. Ask what the process is for downpipe flushing and blockage identification. See our guide on <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">signs your downpipe is blocked</a>.</li>
   <li><strong>Is the company insured?</strong> Confirm public liability insurance of at least £2 million. WOW Gutters holds full public liability cover for all operative and vehicle work.</li>
-  <li><strong>What happens if a repair is needed?</strong> Ask whether the operative will photograph defects and provide a written quotation. WOW Gutters provides a written <a href="/gutter-repairs" style="${link}">gutter repair</a> report on every job where issues are found.</li>
+  <li><strong>What happens if a repair is needed?</strong> Ask whether the operative will photograph defects and provide a written quotation. WOW Gutters provides a written <a href="/gutter-repairs/" style="${link}">gutter repair</a> report on every job where issues are found.</li>
 </ol>
 
-<p>Related reading: <a href="/blog/ask-before-hiring-gutter-cleaner" style="${link}">10 questions to ask before hiring a gutter cleaner in Birmingham</a></p>
+<p>Related reading: <a href="/blog/ask-before-hiring-gutter-cleaner/" style="${link}">10 questions to ask before hiring a gutter cleaner in Birmingham</a></p>
 
 ${ctaBox}
 
@@ -249,7 +249,7 @@ ${ctaBox}
 <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 0.75rem; overflow: hidden;">
   <summary style="padding: 1rem 1.25rem; background: #f8fafc; cursor: pointer; font-weight: 700; color: #1e293b; list-style: none;">How long does a gutter vacuum clean take?</summary>
   <div style="padding: 1rem 1.25rem; background: #fff; border-top: 1px solid #e2e8f0;">
-    <p>A standard semi-detached or detached house in Birmingham typically takes 45–90 minutes, including the pre-clean camera pass, extraction, downpipe flush, post-clean camera pass, and debris removal. Larger detached properties or heavily blocked gutters can take up to two hours. Our guide on <a href="/blog/gutter-clean-duration" style="${link}">how long a gutter clean takes</a> has more detail.</p>
+    <p>A standard semi-detached or detached house in Birmingham typically takes 45–90 minutes, including the pre-clean camera pass, extraction, downpipe flush, post-clean camera pass, and debris removal. Larger detached properties or heavily blocked gutters can take up to two hours. Our guide on <a href="/blog/gutter-clean-duration/" style="${link}">how long a gutter clean takes</a> has more detail.</p>
   </div>
 </details>
 
@@ -277,21 +277,21 @@ ${ctaBox}
 <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 0.75rem; overflow: hidden;">
   <summary style="padding: 1rem 1.25rem; background: #f8fafc; cursor: pointer; font-weight: 700; color: #1e293b; list-style: none;">How often should gutters be vacuum cleaned?</summary>
   <div style="padding: 1rem 1.25rem; background: #fff; border-top: 1px solid #e2e8f0;">
-    <p>For most Birmingham properties: once a year in late autumn (November–December, after the main leaf fall) is the minimum. Properties under heavy tree cover – oak, lime, or sycamore – often need a second visit in late spring to clear seed and blossom debris. Our <a href="/blog/gutter-maintenance-birmingham" style="${link}">Birmingham gutter maintenance calendar</a> sets out the recommended schedule by property type and tree proximity.</p>
+    <p>For most Birmingham properties: once a year in late autumn (November–December, after the main leaf fall) is the minimum. Properties under heavy tree cover – oak, lime, or sycamore – often need a second visit in late spring to clear seed and blossom debris. Our <a href="/blog/gutter-maintenance-birmingham/" style="${link}">Birmingham gutter maintenance calendar</a> sets out the recommended schedule by property type and tree proximity.</p>
   </div>
 </details>
 
 <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 0.75rem; overflow: hidden;">
   <summary style="padding: 1rem 1.25rem; background: #f8fafc; cursor: pointer; font-weight: 700; color: #1e293b; list-style: none;">What is the cost of gutter vacuum cleaning in Birmingham?</summary>
   <div style="padding: 1rem 1.25rem; background: #fff; border-top: 1px solid #e2e8f0;">
-    <p>Pricing depends on property size, number of storeys, linear meterage of guttering, and level of blockage. WOW Gutters Ltd provides a transparent fixed quote before starting work – no hidden charges for debris disposal, camera inspection, or written reports. Call <a href="tel:07421433910" style="${link}">07421 433910</a> or use our <a href="/contact" style="${link}">online contact form</a> for a free no-obligation quote.</p>
+    <p>Pricing depends on property size, number of storeys, linear meterage of guttering, and level of blockage. WOW Gutters Ltd provides a transparent fixed quote before starting work – no hidden charges for debris disposal, camera inspection, or written reports. Call <a href="tel:07421433910" style="${link}">07421 433910</a> or use our <a href="/contact/" style="${link}">online contact form</a> for a free no-obligation quote.</p>
   </div>
 </details>
 
 <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 0.75rem; overflow: hidden;">
   <summary style="padding: 1rem 1.25rem; background: #f8fafc; cursor: pointer; font-weight: 700; color: #1e293b; list-style: none;">Can you clean gutters on a listed or period property?</summary>
   <div style="padding: 1rem 1.25rem; background: #fff; border-top: 1px solid #e2e8f0;">
-    <p>Yes – the ground-based vacuum system is ideal for listed and period properties precisely because there is no ladder contact with historic masonry, original render, or period stonework. WOW Gutters has experience with Victorian terraces, Edwardian semis, and pre-war detached properties throughout <a href="/locations/birmingham" style="${link}">Birmingham</a> and the wider West Midlands. See our guide to <a href="/blog/victorian-gutter-cleaning-birmingham/" style="${link}">gutter cleaning for Victorian homes</a>.</p>
+    <p>Yes – the ground-based vacuum system is ideal for listed and period properties precisely because there is no ladder contact with historic masonry, original render, or period stonework. WOW Gutters has experience with Victorian terraces, Edwardian semis, and pre-war detached properties throughout <a href="/locations/birmingham/" style="${link}">Birmingham</a> and the wider West Midlands. See our guide to <a href="/blog/victorian-gutter-cleaning-birmingham/" style="${link}">gutter cleaning for Victorian homes</a>.</p>
   </div>
 </details>
 
@@ -312,7 +312,7 @@ ${ctaBox}
 <details style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 0.75rem; overflow: hidden;">
   <summary style="padding: 1rem 1.25rem; background: #f8fafc; cursor: pointer; font-weight: 700; color: #1e293b; list-style: none;">How do I know if my gutters are blocked before calling?</summary>
   <div style="padding: 1rem 1.25rem; background: #fff; border-top: 1px solid #e2e8f0;">
-    <p>Common signs include water pouring over the front of the gutter during rainfall, dark staining on fascia boards or exterior walls, damp patches on interior ceilings near the roofline, and visible plant growth in the gutter channel. Our full <a href="/blog/gutters-blocked-checklist" style="${link}">Birmingham homeowner's blocked gutter checklist</a> covers every ground-level sign to look for before booking.</p>
+    <p>Common signs include water pouring over the front of the gutter during rainfall, dark staining on fascia boards or exterior walls, damp patches on interior ceilings near the roofline, and visible plant growth in the gutter channel. Our full <a href="/blog/gutters-blocked-checklist/" style="${link}">Birmingham homeowner's blocked gutter checklist</a> covers every ground-level sign to look for before booking.</p>
   </div>
 </details>
 
@@ -333,11 +333,11 @@ ${ctaBox}
 <h2 style="font-size: 1.4rem; color: #1e293b; margin-top: 2.5rem;">Related Reading</h2>
 
 <ul style="line-height: 2.4; color: #374151;">
-  <li><a href="/blog/gutters-blocked-checklist" style="${link}">How Do You Know If Your Gutters Are Blocked? Birmingham Homeowner's Checklist</a></li>
+  <li><a href="/blog/gutters-blocked-checklist/" style="${link}">How Do You Know If Your Gutters Are Blocked? Birmingham Homeowner's Checklist</a></li>
   <li><a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">How to Clean Gutters Without a Ladder in Birmingham</a></li>
   <li><a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">Signs Your Downpipe Is Blocked – What to Look For</a></li>
-  <li><a href="/blog/ask-before-hiring-gutter-cleaner" style="${link}">10 Questions to Ask Before Hiring a Gutter Cleaner in Birmingham</a></li>
-  <li><a href="/blog/gutter-clean-duration" style="${link}">How Long Does a Professional Gutter Clean Take?</a></li>
+  <li><a href="/blog/ask-before-hiring-gutter-cleaner/" style="${link}">10 Questions to Ask Before Hiring a Gutter Cleaner in Birmingham</a></li>
+  <li><a href="/blog/gutter-clean-duration/" style="${link}">How Long Does a Professional Gutter Clean Take?</a></li>
   <li><a href="/blog/birmingham-gutter-inspection/" style="${link}">How a Gutter Inspection Can Save You Money in Birmingham</a></li>
 </ul>
 
@@ -346,7 +346,7 @@ ${ctaBox}
   <p style="margin: 0 0 0.75rem; color: #374151;">WOW Gutters Ltd – Birmingham &amp; the West Midlands</p>
   <p style="margin: 0; color: #374151;"><strong>Phone:</strong> <a href="tel:07421433910" style="${link}">07421 433910</a><br/>
   <strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a><br/>
-  <strong>Online:</strong> <a href="/contact" style="${link}">wowgutters.co.uk/contact</a></p>
+  <strong>Online:</strong> <a href="/contact/" style="${link}">wowgutters.co.uk/contact</a></p>
 </div>
 `;
 

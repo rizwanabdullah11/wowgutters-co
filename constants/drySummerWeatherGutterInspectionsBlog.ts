@@ -328,7 +328,7 @@ ${sectionCta}
 
 <p><strong>Spring (March–April):</strong> Clear winter accumulation, inspect for frost-cycle joint damage. <a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">Full guide: Birmingham Gutter Maintenance Calendar</a>.</p>
 
-<p><strong>Early summer (June–July):</strong> Summer health check and inspection — the dry-condition diagnostic window this article describes. Ideal timing for the most accurate condition assessment of the year. <a href="/blog/birmingham-gutter-health-check-summer" style="${link}">Full guide: Why Every Birmingham Home Needs a Gutter Health Check This Summer</a>.</p>
+<p><strong>Early summer (June–July):</strong> Summer health check and inspection — the dry-condition diagnostic window this article describes. Ideal timing for the most accurate condition assessment of the year. <a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">Full guide: Why Every Birmingham Home Needs a Gutter Health Check This Summer</a>.</p>
 
 <p><strong>Late summer (August–September):</strong> Clear full summer accumulation including sycamore seeds and nesting debris before autumn leaf fall begins. <a href="/blog/summer-gutter-maintenance/" style="${link}">Full guide: Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a>.</p>
 
@@ -466,7 +466,7 @@ ${ctaBox}
 <h2>Related Articles</h2>
 
 <ul>
-  <li><a href="/blog/birmingham-gutter-health-check-summer" style="color: #047857; font-weight: 600; text-decoration: none;">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
+  <li><a href="/blog/birmingham-gutter-health-check-summer/" style="color: #047857; font-weight: 600; text-decoration: none;">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a></li>
   <li><a href="/blog/summer-gutter-maintenance/" style="color: #047857; font-weight: 600; text-decoration: none;">Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a></li>
   <li><a href="/blog/roofline-damage-prevention/" style="color: #047857; font-weight: 600; text-decoration: none;">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></li>
   <li><a href="/blog/birmingham-seasonal-gutter-guide/" style="color: #047857; font-weight: 600; text-decoration: none;">Birmingham Gutter Maintenance Calendar: What to Do Each Season</a></li>

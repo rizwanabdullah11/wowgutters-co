@@ -337,8 +337,8 @@ Open 24 hours a day, 7 days a week</p>
   <li><a href="/gutter-cleaning-birmingham/" style="${link}">Gutter cleaning Birmingham</a></li>
   <li><a href="/blog/gutter-cleaning-acocks-green/" style="${link}">Gutter cleaning Acocks Green B27</a></li>
   <li><a href="/blog/gutter-cleaning-yardley/" style="${link}">Gutter cleaning Yardley B25</a></li>
-  <li><a href="/blog/signs-of-blocked-gutters-birmingham" style="${link}">Signs your gutters need cleaning</a></li>
-  <li><a href="/blog/prevent-damp-winter" style="${link}">Can blocked gutters cause damp</a></li>
+  <li><a href="/blog/signs-of-blocked-gutters-birmingham/" style="${link}">Signs your gutters need cleaning</a></li>
+  <li><a href="/blog/prevent-damp-winter/" style="${link}">Can blocked gutters cause damp</a></li>
   <li><a href="/services/gutter-cleaning/" style="${link}">Downpipe unblocking Birmingham</a></li>
   <li><a href="/services/upvc-cleaning/" style="${link}">Fascia and soffit cleaning</a></li>
   <li><a href="/gutter-cleaning-aston/" style="${link}">Gutter cleaning Aston B6</a></li>

@@ -27,7 +27,7 @@ export function AreaServiceQuoteCard({
 }: AreaServiceQuoteCardProps) {
   return (
     <div className={`w-full md:w-[280px] text-center flex flex-col items-center justify-center p-6 bg-white rounded-2xl shadow-lg border border-gray-100 ${className}`}>
-      <Link href="/quote" className="w-full block mb-5">
+      <Link href="/quote/" className="w-full block mb-5">
         <Button
           className="w-full text-white font-bold text-lg py-6 rounded-lg shadow-md transition-transform hover:-translate-y-1 hover:shadow-lg flex items-center justify-center gap-2"
           style={{ backgroundColor: colors.primaryText }}

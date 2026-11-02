@@ -3,12 +3,10 @@ import HeroVideo from '@/components/media/HeroVideo';
 import type { LucideIcon } from 'lucide-react';
 import { ShieldCheck, Phone, Check, Building2, Home, Warehouse, Cable, Images, Shield } from 'lucide-react';
 import { colors } from '@/constants/colors';
-import AreaServicesRange from '@/components/areas/AreaServicesRange';
 import DerbyFAQ from '@/components/areas/DerbyFAQ';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
-import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
 import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
 
@@ -192,7 +190,7 @@ export default function DerbyGutterCleaningPage() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch justify-center gap-4 w-full max-w-xl animate-fade-in-up delay-300">
-            <Link href="/quote" className="hero-primary-btn-link hero-primary-btn flex-1">
+            <Link href="/quote/" className="hero-primary-btn-link hero-primary-btn flex-1">
               <span className="btn-arrow">&gt;</span>
               <span className="btn-label">
                 Get a <span className="btn-free">FREE</span> quote
@@ -466,7 +464,6 @@ export default function DerbyGutterCleaningPage() {
         </div>
       </section>
 
-      <AreaServicesRange />
 
       <section className="py-16 px-4 bg-white border-t border-slate-100">
         <div className="max-w-7xl mx-auto">
@@ -478,7 +475,7 @@ export default function DerbyGutterCleaningPage() {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Link
-              href="/services/roof-cleaning"
+              href="/services/roof-cleaning/"
               className="group p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-orange-700 mb-2">Popular</p>
@@ -491,7 +488,7 @@ export default function DerbyGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/services/upvc-cleaning"
+              href="/services/upvc-cleaning/"
               className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">
@@ -503,7 +500,7 @@ export default function DerbyGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/services/gutter-repairs"
+              href="/services/gutter-repairs/"
               className="group p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">Gutter repairs</h3>
@@ -513,7 +510,7 @@ export default function DerbyGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/services/gutter-inspection"
+              href="/services/gutter-inspection/"
               className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">Free gutter inspection</h3>
@@ -535,7 +532,7 @@ export default function DerbyGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/services/conservatory"
+              href="/services/conservatory/"
               className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">
@@ -563,7 +560,7 @@ export default function DerbyGutterCleaningPage() {
             Book your gutter clean in Derby &mdash; free quote in 60 seconds
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-            <Link href="/quote" className="hero-primary-btn-link hero-primary-btn w-full sm:w-auto min-w-[240px]">
+            <Link href="/quote/" className="hero-primary-btn-link hero-primary-btn w-full sm:w-auto min-w-[240px]">
               <span className="btn-arrow">&gt;</span>
               <span className="btn-label">
                 Get a <span className="btn-free">FREE</span> quote online
@@ -600,8 +597,6 @@ export default function DerbyGutterCleaningPage() {
         </div>
       </section>
 
-      <AreaCrawlFooter currentSlug="derby" serviceKind="gutter" />
-      <AreaServicesRange />
       <AreaBlogSnippet locality="Derby" />
       <AreaRecentWork />
       <AreaContactMap geo={{ latitude: 52.9225, longitude: -1.4746 }} />
@@ -721,4 +716,4 @@ export default function DerbyGutterCleaningPage() {
       `}</style>
     </main>
   );
-}
+}

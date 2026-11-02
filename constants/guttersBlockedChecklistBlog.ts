@@ -53,7 +53,7 @@ export const guttersBlockedChecklistBlogPost: BlogPost = {
   shortSummary: 'Birmingham Gutter Blockage Checklist',
   breadcrumbName: 'Gutters Blocked Checklist',
   content: `
-<p>This is a genuine, usable checklist built specifically for <a href="/gutter-cleaning-birmingham" style="${link}">Birmingham</a> properties — not a narrative article to read once and forget, but something worth actually saving and running through whenever you're unsure whether your gutters genuinely need attention. Work through every section below at your own pace, ideally on a day with reasonable natural light, and be honest about each item rather than assuming the best. The more items you'd genuinely tick, the more confidently you can say your gutters need professional attention rather than continuing to guess based on the absence of an obvious overflow.</p>
+<p>This is a genuine, usable checklist built specifically for <a href="/gutter-cleaning-birmingham/" style="${link}">Birmingham</a> properties — not a narrative article to read once and forget, but something worth actually saving and running through whenever you're unsure whether your gutters genuinely need attention. Work through every section below at your own pace, ideally on a day with reasonable natural light, and be honest about each item rather than assuming the best. The more items you'd genuinely tick, the more confidently you can say your gutters need professional attention rather than continuing to guess based on the absence of an obvious overflow.</p>
 
 ${ctaTop}
 
@@ -92,7 +92,7 @@ ${ctaTop}
     <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Is there visible green algae or moss growth on a wall face specifically near the gutter line?</strong>
-      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained throughout our detailed guidance on <a href="/blog/summer-gutter-warning" style="${link}">what your gutters are genuinely trying to tell you this summer</a>, this kind of biological growth requires sustained, repeated moisture exposure to establish, meaning its presence indicates an ongoing pattern rather than a single recent event.</span>
+      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained throughout our detailed guidance on <a href="/blog/summer-gutter-warning/" style="${link}">what your gutters are genuinely trying to tell you this summer</a>, this kind of biological growth requires sustained, repeated moisture exposure to establish, meaning its presence indicates an ongoing pattern rather than a single recent event.</span>
     </div>
   </div>
 
@@ -100,7 +100,7 @@ ${ctaTop}
     <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Does any section of your gutter run visibly sag, or sit at a noticeably different angle compared with the rest of the run?</strong>
-      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As detailed extensively throughout our comprehensive guidance on <a href="/blog/hidden-gutter-damage-summer" style="${link}">hidden gutter damage that's easier to spot in summer</a>, this frequently indicates bracket failure that's been developing gradually beneath the surface.</span>
+      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As detailed extensively throughout our comprehensive guidance on <a href="/blog/hidden-gutter-damage-summer/" style="${link}">hidden gutter damage that's easier to spot in summer</a>, this frequently indicates bracket failure that's been developing gradually beneath the surface.</span>
     </div>
   </div>
 
@@ -144,7 +144,7 @@ ${ctaTop}
     <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Does water run down any external wall face during rain, rather than passing cleanly through the downpipe as designed?</strong>
-      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained comprehensively throughout our guidance on <a href="/blog/roofline-damage-prevention" style="${link}">how professional gutter cleaning extends the life of a property's roofline</a>, a properly functioning system genuinely shouldn't overflow at all, even under a meaningfully heavier Birmingham downpour than typical light rain.</span>
+      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained comprehensively throughout our guidance on <a href="/blog/roofline-damage-prevention/" style="${link}">how professional gutter cleaning extends the life of a property's roofline</a>, a properly functioning system genuinely shouldn't overflow at all, even under a meaningfully heavier Birmingham downpour than typical light rain.</span>
     </div>
   </div>
 
@@ -152,7 +152,7 @@ ${ctaTop}
     <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Do you hear a gurgling or spluttering sound from any downpipe during rainfall?</strong>
-      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As detailed extensively throughout our dedicated guide on the <a href="/blog/downpipe-blocked-signs-birmingham-homes" style="${link}">specific signs Birmingham homes show when a downpipe is genuinely blocked</a>, this indicates air being drawn into the water flow at a partial restriction point — genuinely one of the earliest detectable warning signs, appearing well before any visible overflow symptom would be noticeable.</span>
+      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As detailed extensively throughout our dedicated guide on the <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">specific signs Birmingham homes show when a downpipe is genuinely blocked</a>, this indicates air being drawn into the water flow at a partial restriction point — genuinely one of the earliest detectable warning signs, appearing well before any visible overflow symptom would be noticeable.</span>
     </div>
   </div>
 
@@ -168,7 +168,7 @@ ${ctaTop}
     <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Does water continue dripping or trickling from a specific section well after the rain itself has genuinely stopped?</strong>
-      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As covered extensively throughout our detailed guidance on <a href="/blog/hidden-gutter-damage-summer" style="${link}">hidden gutter damage</a>, this indicates a genuine capacity issue somewhere within the system, frequently connected to the kind of hidden silt accumulation that reduces effective channel depth without producing any other visible symptom.</span>
+      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As covered extensively throughout our detailed guidance on <a href="/blog/hidden-gutter-damage-summer/" style="${link}">hidden gutter damage</a>, this indicates a genuine capacity issue somewhere within the system, frequently connected to the kind of hidden silt accumulation that reduces effective channel depth without producing any other visible symptom.</span>
     </div>
   </div>
 </div>
@@ -182,7 +182,7 @@ ${ctaTop}
     <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Is there a musty smell in any upstairs room, particularly noticeable on humid days or after a period of rain?</strong>
-      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained throughout our comprehensive guidance on <a href="/blog/clean-gutters-prevent-damp" style="${link}">whether blocked gutters can cause damp</a>, this is frequently the earliest detectable indicator of external moisture reaching the building fabric, often appearing well before any visible internal staining actually develops.</span>
+      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained throughout our comprehensive guidance on <a href="/blog/clean-gutters-prevent-damp/" style="${link}">whether blocked gutters can cause damp</a>, this is frequently the earliest detectable indicator of external moisture reaching the building fabric, often appearing well before any visible internal staining actually develops.</span>
     </div>
   </div>
 
@@ -190,7 +190,7 @@ ${ctaTop}
     <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Is there any visible damp patch, discolouration, staining, or peeling wallpaper on an upstairs wall positioned near an external wall?</strong>
-      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As detailed extensively throughout our guidance on <a href="/blog/west-midlands-water-damage" style="${link}">whether your West Midlands home might be quietly storing water damage right now</a>, this represents a considerably later, more advanced stage of the same underlying progression than the earlier, subtler signs described above.</span>
+      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As detailed extensively throughout our guidance on <a href="/blog/west-midlands-water-damage/" style="${link}">whether your West Midlands home might be quietly storing water damage right now</a>, this represents a considerably later, more advanced stage of the same underlying progression than the earlier, subtler signs described above.</span>
     </div>
   </div>
 
@@ -198,7 +198,7 @@ ${ctaTop}
     <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Have you noticed any unexplained sounds — scratching, scurrying, or bird activity — coming from your loft space, particularly concentrated near the eaves rather than throughout the whole roof void?</strong>
-      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As covered comprehensively throughout our dedicated guide to <a href="/blog/soffit-damage-signs" style="${link}">soffit damage across West Midlands homes and the early signs worth recognising</a>, this can genuinely indicate pest entry through compromised soffit or fascia condition at the roofline.</span>
+      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As covered comprehensively throughout our dedicated guide to <a href="/blog/soffit-damage-signs/" style="${link}">soffit damage across West Midlands homes and the early signs worth recognising</a>, this can genuinely indicate pest entry through compromised soffit or fascia condition at the roofline.</span>
     </div>
   </div>
 </div>
@@ -226,7 +226,7 @@ ${ctaTop}
     <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Is there any visible moss coverage on your roof's tile or slate surface?</strong>
-      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained comprehensively throughout our detailed guidance on <a href="/blog/roof-moss-damage" style="${link}">what roof moss is genuinely doing to your gutters right now</a>, moss sheds continuously throughout the year rather than in a single seasonal event, contributing to gutter accumulation on an ongoing basis regardless of season. For source treatment, explore our <a href="/services/roof-cleaning/" style="${link}">roof cleaning services</a>.</span>
+      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained comprehensively throughout our detailed guidance on <a href="/blog/roof-moss-damage/" style="${link}">what roof moss is genuinely doing to your gutters right now</a>, moss sheds continuously throughout the year rather than in a single seasonal event, contributing to gutter accumulation on an ongoing basis regardless of season. For source treatment, explore our <a href="/services/roof-cleaning/" style="${link}">roof cleaning services</a>.</span>
     </div>
   </div>
 
@@ -234,7 +234,7 @@ ${ctaTop}
     <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Does your property have mature trees — sycamore, oak, lime, or ash specifically — positioned nearby, whether within your own garden or a neighbouring one?</strong>
-      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As detailed extensively throughout our comprehensive guidance on <a href="/blog/tree-gutter-cleaning" style="${link}">how tree cover changes gutter cleaning scheduling requirements across Birmingham</a>, different species genuinely carry meaningfully different accumulation risk profiles, timing patterns, and blockage characteristics.</span>
+      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As detailed extensively throughout our comprehensive guidance on <a href="/blog/tree-gutter-cleaning/" style="${link}">how tree cover changes gutter cleaning scheduling requirements across Birmingham</a>, different species genuinely carry meaningfully different accumulation risk profiles, timing patterns, and blockage characteristics.</span>
     </div>
   </div>
 
@@ -242,7 +242,7 @@ ${ctaTop}
     <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Does your property have a flat-roofed extension, garage, or dormer in addition to the main pitched roof?</strong>
-      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As covered extensively throughout our dedicated guide to <a href="/blog/flat-roof-gutters" style="${link}">flat roof gutters across Birmingham and the maintenance problem most generic guidance genuinely ignores entirely</a>, this system faces genuinely distinct risks that most homeowners never think to check separately from their main pitched roof gutters.</span>
+      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As covered extensively throughout our dedicated guide to <a href="/blog/flat-roof-gutters/" style="${link}">flat roof gutters across Birmingham and the maintenance problem most generic guidance genuinely ignores entirely</a>, this system faces genuinely distinct risks that most homeowners never think to check separately from their main pitched roof gutters.</span>
     </div>
   </div>
 
@@ -250,7 +250,7 @@ ${ctaTop}
     <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Is your property semi-detached, with a party wall junction potentially sharing a gutter section or downpipe with the neighbouring property?</strong>
-      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As detailed throughout our comprehensive guidance on the <a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham" style="${link}">shared boundary issue affecting Birmingham semi-detached homes specifically</a>, a neighbour's neglected side of a shared system can genuinely affect your own property, entirely regardless of how diligently you maintain your own section.</span>
+      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As detailed throughout our comprehensive guidance on the <a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham/" style="${link}">shared boundary issue affecting Birmingham semi-detached homes specifically</a>, a neighbour's neglected side of a shared system can genuinely affect your own property, entirely regardless of how diligently you maintain your own section.</span>
     </div>
   </div>
 
@@ -258,7 +258,7 @@ ${ctaTop}
     <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Is your property Victorian or Edwardian, with an original cast iron gutter system rather than modern UPVC?</strong>
-      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained extensively throughout our detailed guide to <a href="/blog/victorian-gutter-cleaning-birmingham" style="${link}">why Victorian homes need a genuinely different gutter cleaning approach</a>, cast iron systems carry a genuinely different risk profile, including joint seals that fail considerably more frequently and unpredictably than modern mechanical connections.</span>
+      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained extensively throughout our detailed guide to <a href="/blog/victorian-gutter-cleaning-birmingham/" style="${link}">why Victorian homes need a genuinely different gutter cleaning approach</a>, cast iron systems carry a genuinely different risk profile, including joint seals that fail considerably more frequently and unpredictably than modern mechanical connections.</span>
     </div>
   </div>
 </div>
@@ -272,7 +272,7 @@ ${ctaTop}
     <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Can you genuinely remember when your gutters were last professionally inspected, rather than simply cleared of whatever debris happened to be visible?</strong>
-      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained throughout our detailed guidance on <a href="/blog/seasonal-home-maintenance" style="${link}">the one home maintenance task Birmingham homeowners consistently miss each summer</a>, most people judge gutter condition purely by the absence of visible overflow rather than through any genuine, deliberate inspection.</span>
+      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained throughout our detailed guidance on <a href="/blog/seasonal-home-maintenance/" style="${link}">the one home maintenance task Birmingham homeowners consistently miss each summer</a>, most people judge gutter condition purely by the absence of visible overflow rather than through any genuine, deliberate inspection.</span>
     </div>
   </div>
 
@@ -280,7 +280,7 @@ ${ctaTop}
     <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Has it genuinely been more than twelve months since a professional visit of any kind?</strong>
-      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">Given the seasonal accumulation pattern described comprehensively throughout our <a href="/blog/birmingham-seasonal-gutter-guide" style="${link}">full Birmingham gutter maintenance calendar covering what to do each season</a>, this timeframe alone genuinely warrants attention regardless of whether any other symptom on this checklist is currently present.</span>
+      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">Given the seasonal accumulation pattern described comprehensively throughout our <a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">full Birmingham gutter maintenance calendar covering what to do each season</a>, this timeframe alone genuinely warrants attention regardless of whether any other symptom on this checklist is currently present.</span>
     </div>
   </div>
 
@@ -288,7 +288,7 @@ ${ctaTop}
     <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Has your property ever had gutters "cleared" that overflowed again within a season or two afterward, despite apparently being freshly cleaned?</strong>
-      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As detailed extensively throughout our comprehensive guide on <a href="/blog/stop-gutters-blocking" style="${link}">how to genuinely stop gutters from blocking again</a>, this specific pattern indicates an unaddressed underlying structural or seasonal cause rather than a genuinely resolved issue, meaning the same recurrence is likely to continue regardless of how many more times the same surface-level clear is repeated.</span>
+      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As detailed extensively throughout our comprehensive guide on <a href="/blog/stop-gutters-blocking/" style="${link}">how to genuinely stop gutters from blocking again</a>, this specific pattern indicates an unaddressed underlying structural or seasonal cause rather than a genuinely resolved issue, meaning the same recurrence is likely to continue regardless of how many more times the same surface-level clear is repeated.</span>
     </div>
   </div>
 
@@ -296,7 +296,7 @@ ${ctaTop}
     <span style="display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 2px solid #19C58B; border-radius: 6px; color: #047857; font-weight: 900; font-size: 1.1rem; flex-shrink: 0; margin-top: 2px;">☐</span>
     <div>
       <strong style="color: #0f172a; font-size: 1.02rem; display: block; margin-bottom: 4px;">Have you ever asked a previous contractor whether they clear to the genuine channel floor and check structural condition, or only remove what's visible from the top?</strong>
-      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained comprehensively throughout our dedicated guidance on <a href="/blog/ask-before-hiring-gutter-cleaner" style="${link}">the one question worth asking before hiring any gutter cleaner across the West Midlands</a>, most homeowners have never actually asked this specific question, meaning they genuinely don't know which type of service they've historically been receiving.</span>
+      <span style="color: #475569; font-size: 0.95rem; line-height: 1.6; display: block;">As explained comprehensively throughout our dedicated guidance on <a href="/blog/ask-before-hiring-gutter-cleaner/" style="${link}">the one question worth asking before hiring any gutter cleaner across the West Midlands</a>, most homeowners have never actually asked this specific question, meaning they genuinely don't know which type of service they've historically been receiving.</span>
     </div>
   </div>
 </div>
@@ -309,19 +309,19 @@ ${ctaTop}
   <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 12px; padding: 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
     <div style="display: inline-block; background: #047857; color: #ffffff; font-size: 0.85rem; font-weight: 800; padding: 4px 12px; border-radius: 20px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px;">Low Risk</div>
     <h3 style="font-size: 1.25rem; font-weight: 800; color: #065f46; margin: 0 0 10px 0;">0 to 2 Items Ticked</h3>
-    <p style="color: #1e293b; font-size: 0.95rem; line-height: 1.65; margin: 0;">Your gutters are likely in genuinely reasonable condition currently, though a proactive summer inspection, as covered extensively throughout our detailed guidance on <a href="/blog/birmingham-gutter-health-check-summer" style="${link}">why every Birmingham home needs a gutter health check this summer</a>, remains genuinely worthwhile given how much of the earliest, most cost-effectively addressed damage stays entirely invisible from any ground-level check alone.</p>
+    <p style="color: #1e293b; font-size: 0.95rem; line-height: 1.65; margin: 0;">Your gutters are likely in genuinely reasonable condition currently, though a proactive summer inspection, as covered extensively throughout our detailed guidance on <a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">why every Birmingham home needs a gutter health check this summer</a>, remains genuinely worthwhile given how much of the earliest, most cost-effectively addressed damage stays entirely invisible from any ground-level check alone.</p>
   </div>
 
   <div style="background: #fffbeb; border: 1px solid #fde68a; border-radius: 12px; padding: 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
     <div style="display: inline-block; background: #d97706; color: #ffffff; font-size: 0.85rem; font-weight: 800; padding: 4px 12px; border-radius: 20px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px;">Moderate Risk</div>
     <h3 style="font-size: 1.25rem; font-weight: 800; color: #92400e; margin: 0 0 10px 0;">3 to 5 Items Ticked</h3>
-    <p style="color: #1e293b; font-size: 0.95rem; line-height: 1.65; margin: 0;">Genuine attention is warranted at this stage, ideally through a proper professional visit including the full structural assessment described comprehensively throughout our detailed walkthrough of <a href="/blog/professional-gutter-walkthrough" style="${link}">what happens during a professional gutter clean</a>, rather than simply continuing informal monitoring using this checklist alone.</p>
+    <p style="color: #1e293b; font-size: 0.95rem; line-height: 1.65; margin: 0;">Genuine attention is warranted at this stage, ideally through a proper professional visit including the full structural assessment described comprehensively throughout our detailed walkthrough of <a href="/blog/professional-gutter-walkthrough/" style="${link}">what happens during a professional gutter clean</a>, rather than simply continuing informal monitoring using this checklist alone.</p>
   </div>
 
   <div style="background: #fef2f2; border: 1px solid #fecaca; border-radius: 12px; padding: 24px; box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
     <div style="display: inline-block; background: #dc2626; color: #ffffff; font-size: 0.85rem; font-weight: 800; padding: 4px 12px; border-radius: 20px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px;">High Risk / Urgent</div>
     <h3 style="font-size: 1.25rem; font-weight: 800; color: #991b1b; margin: 0 0 10px 0;">6 or More Items Ticked</h3>
-    <p style="color: #1e293b; font-size: 0.95rem; line-height: 1.65; margin: 0;">This genuinely warrants prompt professional attention rather than further delay. As explained throughout our comprehensive guidance on <a href="/blog/roofline-damage-prevention" style="${link}">how professional gutter cleaning extends the life of a property's entire roofline</a>, the longer these signs persist without being properly addressed, the further the underlying chain reaction connecting gutter condition to fascia, brickwork, and potentially internal wall health typically progresses, and the more expensive the eventual remediation typically becomes compared with addressing the same underlying issues at this earlier stage.</p>
+    <p style="color: #1e293b; font-size: 0.95rem; line-height: 1.65; margin: 0;">This genuinely warrants prompt professional attention rather than further delay. As explained throughout our comprehensive guidance on <a href="/blog/roofline-damage-prevention/" style="${link}">how professional gutter cleaning extends the life of a property's entire roofline</a>, the longer these signs persist without being properly addressed, the further the underlying chain reaction connecting gutter condition to fascia, brickwork, and potentially internal wall health typically progresses, and the more expensive the eventual remediation typically becomes compared with addressing the same underlying issues at this earlier stage.</p>
   </div>
 </div>
 
@@ -343,15 +343,15 @@ ${ctaTop}
 
 <p>It's genuinely worth being honest about what a checklist of this kind can and cannot reliably tell you, rather than presenting it as a complete substitute for professional assessment. Ground-level and sensory checks of the kind described throughout every section above genuinely catch a meaningful proportion of developing issues, and working through this checklist properly is considerably better than not checking at all.</p>
 
-<p>However, as detailed extensively throughout our comprehensive guidance on <a href="/blog/summer-gutter-inspections" style="${link}">how dry summer weather makes gutter inspections genuinely easier and more reliable</a>, several genuinely significant hidden defects simply aren't detectable through any check a homeowner can reasonably carry out from the ground. Silt accumulation at the actual channel base, reducing effective drainage capacity without producing any visible symptom until heavy rainfall finally exceeds that reduced capacity, cannot be seen from below regardless of how carefully you look. A marginal joint that hasn't yet progressed far enough to produce any visible external staining remains genuinely invisible to a ground-level check, even a careful one. And a bracket that's beginning to corrode from its inner contact surface, rather than showing any obvious external sign, similarly evades any check that doesn't involve genuine, close-up inspection of the gutter channel itself.</p>
+<p>However, as detailed extensively throughout our comprehensive guidance on <a href="/blog/summer-gutter-inspections/" style="${link}">how dry summer weather makes gutter inspections genuinely easier and more reliable</a>, several genuinely significant hidden defects simply aren't detectable through any check a homeowner can reasonably carry out from the ground. Silt accumulation at the actual channel base, reducing effective drainage capacity without producing any visible symptom until heavy rainfall finally exceeds that reduced capacity, cannot be seen from below regardless of how carefully you look. A marginal joint that hasn't yet progressed far enough to produce any visible external staining remains genuinely invisible to a ground-level check, even a careful one. And a bracket that's beginning to corrode from its inner contact surface, rather than showing any obvious external sign, similarly evades any check that doesn't involve genuine, close-up inspection of the gutter channel itself.</p>
 
-<p>A proper professional visit, delivered entirely without a ladder as detailed comprehensively throughout our full explanation of <a href="/blog/how-clean-gutters-without-ladder-birmingham-method" style="${link}">how professional gutter cleaning works without a ladder</a>, genuinely closes this gap through real-time camera inspection that this checklist, however thoroughly completed, simply cannot replicate from ground level alone.</p>
+<p>A proper professional visit, delivered entirely without a ladder as detailed comprehensively throughout our full explanation of <a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">how professional gutter cleaning works without a ladder</a>, genuinely closes this gap through real-time camera inspection that this checklist, however thoroughly completed, simply cannot replicate from ground level alone.</p>
 
 <h2 id="what-professional-visit-adds">What a Professional Visit Adds Beyond This Checklist</h2>
 
 <p>Given the genuine limitations described above, it's worth being specific about exactly what a proper professional visit confirms that this checklist genuinely cannot.</p>
 
-<p>Real-time camera inspection throughout the extraction process, as detailed extensively throughout our comprehensive walkthrough of <a href="/blog/professional-gutter-walkthrough" style="${link}">what happens during a professional gutter clean</a>, provides genuine visual confirmation of channel-floor condition, joint integrity, and bracket condition — precisely the elements this checklist's Section One can only estimate indirectly through secondary, external symptoms.</p>
+<p>Real-time camera inspection throughout the extraction process, as detailed extensively throughout our comprehensive walkthrough of <a href="/blog/professional-gutter-walkthrough/" style="${link}">what happens during a professional gutter clean</a>, provides genuine visual confirmation of channel-floor condition, joint integrity, and bracket condition — precisely the elements this checklist's Section One can only estimate indirectly through secondary, external symptoms.</p>
 
 <p>Comprehensive downpipe flow testing on every individual outlet, rather than relying on the audible signs described throughout Section Two of this checklist alone, provides direct, confirmed evidence of genuine flow capacity rather than an inference drawn from sound alone. And full photographic documentation, provided as standard on every visit, gives you a dated, concrete record considerably more reliable than your own memory of when the property was last genuinely inspected, addressing directly the uncertainty described throughout Section Five above.</p>
 
@@ -359,17 +359,17 @@ ${ctaTop}
 
 <p>This checklist genuinely isn't a one-time exercise — it's most useful when repeated at consistent points across the calendar, given how meaningfully accumulation risk and visible symptoms shift throughout the year.</p>
 
-<p>Running through it in early summer, following the timing described throughout our guidance on <a href="/blog/birmingham-gutter-health-check-summer" style="${link}">why every Birmingham home needs a gutter health check this summer</a>, takes advantage of the dry-condition diagnostic advantage described earlier in this article, when staining and structural evidence genuinely show most clearly.</p>
+<p>Running through it in early summer, following the timing described throughout our guidance on <a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">why every Birmingham home needs a gutter health check this summer</a>, takes advantage of the dry-condition diagnostic advantage described earlier in this article, when staining and structural evidence genuinely show most clearly.</p>
 
-<p>Running through it again in late summer or early autumn, ahead of the main leaf fall described extensively throughout our detailed guidance on <a href="/blog/summer-gutter-cleaning-early" style="${link}">why autumn is genuinely the most dangerous season for Birmingham gutters</a>, helps confirm your property enters the year's highest-risk period in genuinely good condition. And a final check heading into winter provides useful confirmation that any earlier identified issues have genuinely been resolved rather than simply forgotten about once the immediate autumn rush has passed.</p>
+<p>Running through it again in late summer or early autumn, ahead of the main leaf fall described extensively throughout our detailed guidance on <a href="/blog/summer-gutter-cleaning-early/" style="${link}">why autumn is genuinely the most dangerous season for Birmingham gutters</a>, helps confirm your property enters the year's highest-risk period in genuinely good condition. And a final check heading into winter provides useful confirmation that any earlier identified issues have genuinely been resolved rather than simply forgotten about once the immediate autumn rush has passed.</p>
 
 <h2 id="property-specific-variations">Property-Specific Variations Worth Knowing</h2>
 
 <p>Not every item on this checklist carries equal weight for every property, and it's worth understanding which specific sections deserve particular attention based on your own property's characteristics.</p>
 
-<p>Properties beneath significant mature tree coverage, common across areas including <a href="/gutter-cleaning-edgbaston" style="${link}">Edgbaston</a>, <a href="/gutter-cleaning-harborne" style="${link}">Harborne</a>, and <a href="/gutter-cleaning-moseley" style="${link}">Moseley</a>, should weight Section Four particularly heavily, given the elevated baseline accumulation risk this context creates regardless of how the rest of the checklist scores.</p>
+<p>Properties beneath significant mature tree coverage, common across areas including <a href="/gutter-cleaning-edgbaston/" style="${link}">Edgbaston</a>, <a href="/gutter-cleaning-harborne/" style="${link}">Harborne</a>, and <a href="/gutter-cleaning-moseley/" style="${link}">Moseley</a>, should weight Section Four particularly heavily, given the elevated baseline accumulation risk this context creates regardless of how the rest of the checklist scores.</p>
 
-<p>Victorian and Edwardian properties across <a href="/gutter-cleaning-bournville" style="${link}">Bournville</a>, <a href="/gutter-cleaning-selly-oak" style="${link}">Selly Oak</a>, and Handsworth should pay particular attention to the cast iron item within Section Four, given the genuinely distinct joint failure risk this construction type carries compared with modern UPVC systems.</p>
+<p>Victorian and Edwardian properties across <a href="/gutter-cleaning-bournville/" style="${link}">Bournville</a>, <a href="/gutter-cleaning-selly-oak/" style="${link}">Selly Oak</a>, and Handsworth should pay particular attention to the cast iron item within Section Four, given the genuinely distinct joint failure risk this construction type carries compared with modern UPVC systems.</p>
 
 <p>And semi-detached properties, representing genuinely the most common housing type across Birmingham's residential suburbs, should never skip the shared boundary item within Section Four, even where every other section of the checklist scores reassuringly low, given how a neighbour's neglected side can genuinely affect an otherwise well-maintained property regardless of its own individual condition.</p>
 
@@ -379,21 +379,21 @@ ${ctaTop}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">How many checklist items genuinely mean I need professional attention?</summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Three or more items ticked overall warrants a proper visit including full structural assessment, as detailed throughout our comprehensive walkthrough of <a href="/blog/professional-gutter-walkthrough" style="${link}">what happens during a professional gutter clean</a>, while six or more genuinely warrants prompt attention rather than any further delay.</p>
+      <p style="margin: 16px 0 0;">Three or more items ticked overall warrants a proper visit including full structural assessment, as detailed throughout our comprehensive walkthrough of <a href="/blog/professional-gutter-walkthrough/" style="${link}">what happens during a professional gutter clean</a>, while six or more genuinely warrants prompt attention rather than any further delay.</p>
     </div>
   </details>
 
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">Can I genuinely tell everything I need to know about my gutters from ground level alone?</summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">No. Hidden defects including channel-floor silt accumulation, an early-stage marginal joint, or internal bracket corrosion simply aren't visible from any ground-level check, however thorough, as covered extensively throughout our detailed guidance on <a href="/blog/hidden-gutter-damage-summer" style="${link}">hidden gutter damage that's easier to spot in summer</a>.</p>
+      <p style="margin: 16px 0 0;">No. Hidden defects including channel-floor silt accumulation, an early-stage marginal joint, or internal bracket corrosion simply aren't visible from any ground-level check, however thorough, as covered extensively throughout our detailed guidance on <a href="/blog/hidden-gutter-damage-summer/" style="${link}">hidden gutter damage that's easier to spot in summer</a>.</p>
     </div>
   </details>
 
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">Why does a musty smell indoors matter for a gutter-focused checklist?</summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">It's frequently the earliest detectable sign of external moisture reaching the building fabric, often appearing considerably before any visible internal staining actually develops, as explained comprehensively throughout our guidance on <a href="/blog/clean-gutters-prevent-damp" style="${link}">whether blocked gutters can cause damp</a>.</p>
+      <p style="margin: 16px 0 0;">It's frequently the earliest detectable sign of external moisture reaching the building fabric, often appearing considerably before any visible internal staining actually develops, as explained comprehensively throughout our guidance on <a href="/blog/clean-gutters-prevent-damp/" style="${link}">whether blocked gutters can cause damp</a>.</p>
     </div>
   </details>
 
@@ -442,7 +442,7 @@ ${ctaTop}
   <details style="border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 12px; overflow: hidden; background: #ffffff;">
     <summary style="cursor: pointer; padding: 20px 24px; font-size: 1.05rem; font-weight: 700; color: #0f172a; list-style: none;">What areas do you cover for professional confirmation beyond this checklist?</summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">WOW Gutters Ltd covers <a href="/gutter-cleaning-birmingham" style="${link}">Birmingham</a>, <a href="/gutter-cleaning-solihull" style="${link}">Solihull</a>, <a href="/gutter-cleaning-sutton-coldfield" style="${link}">Sutton Coldfield</a>, <a href="/gutter-cleaning-wolverhampton" style="${link}">Wolverhampton</a>, <a href="/gutter-cleaning-walsall" style="${link}">Walsall</a>, <a href="/gutter-cleaning-dudley" style="${link}">Dudley</a>, <a href="/gutter-cleaning-coventry" style="${link}">Coventry</a>, <a href="/gutter-cleaning-redditch" style="${link}">Redditch</a>, <a href="/gutter-cleaning-worcester" style="${link}">Worcester</a>, <a href="/gutter-cleaning-bromsgrove" style="${link}">Bromsgrove</a>, <a href="/gutter-cleaning-kidderminster" style="${link}">Kidderminster</a>, and all surrounding <a href="/gutter-cleaning-westmidlands" style="${link}">West Midlands areas</a>.</p>
+      <p style="margin: 16px 0 0;">WOW Gutters Ltd covers <a href="/gutter-cleaning-birmingham/" style="${link}">Birmingham</a>, <a href="/gutter-cleaning-solihull/" style="${link}">Solihull</a>, <a href="/gutter-cleaning-sutton-coldfield/" style="${link}">Sutton Coldfield</a>, <a href="/gutter-cleaning-wolverhampton/" style="${link}">Wolverhampton</a>, <a href="/gutter-cleaning-walsall/" style="${link}">Walsall</a>, <a href="/gutter-cleaning-dudley/" style="${link}">Dudley</a>, <a href="/gutter-cleaning-coventry/" style="${link}">Coventry</a>, <a href="/gutter-cleaning-redditch/" style="${link}">Redditch</a>, <a href="/gutter-cleaning-worcester/" style="${link}">Worcester</a>, <a href="/gutter-cleaning-bromsgrove/" style="${link}">Bromsgrove</a>, <a href="/gutter-cleaning-kidderminster/" style="${link}">Kidderminster</a>, and all surrounding <a href="/gutter-cleaning-westmidlands/" style="${link}">West Midlands areas</a>.</p>
     </div>
   </details>
 </div>
@@ -461,7 +461,7 @@ ${ctaBox}
   <p style="margin: 0 0 8px 0; color: #334155;">📧 <strong>Email:</strong> <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a></p>
   <p style="margin: 0 0 8px 0; color: #334155;">🌐 <strong>Website:</strong> <a href="https://wowgutters.co.uk" style="${link}">wowgutters.co.uk</a></p>
   <p style="margin: 12px 0 0 0; color: #64748b; font-size: 0.85rem; line-height: 1.8;">
-    <strong>Serving:</strong> <a href="/gutter-cleaning-birmingham" style="${link}">Birmingham</a>, <a href="/gutter-cleaning-solihull" style="${link}">Solihull</a>, <a href="/gutter-cleaning-sutton-coldfield" style="${link}">Sutton Coldfield</a>, <a href="/gutter-cleaning-edgbaston" style="${link}">Edgbaston</a>, <a href="/gutter-cleaning-harborne" style="${link}">Harborne</a>, <a href="/gutter-cleaning-kings-heath" style="${link}">Kings Heath</a>, <a href="/gutter-cleaning-moseley" style="${link}">Moseley</a>, <a href="/gutter-cleaning-bournville" style="${link}">Bournville</a>, <a href="/gutter-cleaning-erdington" style="${link}">Erdington</a>, <a href="/gutter-cleaning-wolverhampton" style="${link}">Wolverhampton</a>, <a href="/gutter-cleaning-dudley" style="${link}">Dudley</a>, <a href="/gutter-cleaning-walsall" style="${link}">Walsall</a>, <a href="/gutter-cleaning-west-bromwich" style="${link}">West Bromwich</a>, <a href="/gutter-cleaning-coventry" style="${link}">Coventry</a>, <a href="/gutter-cleaning-redditch" style="${link}">Redditch</a>, <a href="/gutter-cleaning-bromsgrove" style="${link}">Bromsgrove</a>, <a href="/gutter-cleaning-worcester" style="${link}">Worcester</a>, <a href="/gutter-cleaning-kidderminster" style="${link}">Kidderminster</a> and all <a href="/gutter-cleaning-westmidlands" style="${link}">West Midlands areas</a>.
+    <strong>Serving:</strong> <a href="/gutter-cleaning-birmingham/" style="${link}">Birmingham</a>, <a href="/gutter-cleaning-solihull/" style="${link}">Solihull</a>, <a href="/gutter-cleaning-sutton-coldfield/" style="${link}">Sutton Coldfield</a>, <a href="/gutter-cleaning-edgbaston/" style="${link}">Edgbaston</a>, <a href="/gutter-cleaning-harborne/" style="${link}">Harborne</a>, <a href="/gutter-cleaning-kings-heath/" style="${link}">Kings Heath</a>, <a href="/gutter-cleaning-moseley/" style="${link}">Moseley</a>, <a href="/gutter-cleaning-bournville/" style="${link}">Bournville</a>, <a href="/gutter-cleaning-erdington/" style="${link}">Erdington</a>, <a href="/gutter-cleaning-wolverhampton/" style="${link}">Wolverhampton</a>, <a href="/gutter-cleaning-dudley/" style="${link}">Dudley</a>, <a href="/gutter-cleaning-walsall/" style="${link}">Walsall</a>, <a href="/gutter-cleaning-west-bromwich/" style="${link}">West Bromwich</a>, <a href="/gutter-cleaning-coventry/" style="${link}">Coventry</a>, <a href="/gutter-cleaning-redditch/" style="${link}">Redditch</a>, <a href="/gutter-cleaning-bromsgrove/" style="${link}">Bromsgrove</a>, <a href="/gutter-cleaning-worcester/" style="${link}">Worcester</a>, <a href="/gutter-cleaning-kidderminster/" style="${link}">Kidderminster</a> and all <a href="/gutter-cleaning-westmidlands/" style="${link}">West Midlands areas</a>.
   </p>
 </div>
 `

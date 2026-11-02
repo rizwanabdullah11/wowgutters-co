@@ -58,11 +58,12 @@ if (!fs.existsSync(SITEMAP)) {
 
   const areaCount = [...paths].filter((p) => p.startsWith('/gutter-cleaning-')).length;
   const roofAreaCount = [...paths].filter((p) => p.startsWith('/roof-cleaning-')).length;
-  if (areaCount < 160) {
-    errors.push(`sitemap only lists ${areaCount} gutter area pages (expected 160+ indexable suburbs)`);
+  // Oct 30 2026 full area cut: only core towns + strongest suburbs stay indexable (lib/area-index-policy.json).
+  if (areaCount < 40) {
+    errors.push(`sitemap only lists ${areaCount} gutter area pages (expected 40+ kept area pages)`);
   }
-  if (roofAreaCount < 160) {
-    errors.push(`sitemap only lists ${roofAreaCount} roof cleaning area pages (expected 160+ indexable suburbs)`);
+  if (roofAreaCount < 15) {
+    errors.push(`sitemap only lists ${roofAreaCount} roof cleaning area pages (expected 15+ core-town pages)`);
   }
 
   // Index policy (lib/index-policy.cjs): noindexed templates/out-of-area pages and
@@ -71,8 +72,8 @@ if (!fs.existsSync(SITEMAP)) {
   if (excluded.length > 0) {
     errors.push(`sitemap lists ${excluded.length} excluded/noindex URL(s) (e.g. ${excluded.slice(0, 3).join(', ')})`);
   }
-  if (urls.length < 380) {
-    errors.push(`sitemap only has ${urls.length} URLs (expected 380+ with gutter, roof, blog, and key landings)`);
+  if (urls.length < 200) {
+    errors.push(`sitemap only has ${urls.length} URLs (expected 200+ with kept area pages, blog, and key landings)`);
   }
 }
 

@@ -7,12 +7,10 @@ import type { LucideIcon } from 'lucide-react';
 import { ShieldCheck, Phone, Check, Building2, Home, Warehouse, Cable, Images, Shield } from 'lucide-react';
 import { colors } from '@/constants/colors';
 import { areaPath } from '@/lib/areaSlugs';
-import AreaServicesRange from '@/components/areas/AreaServicesRange';
 import BirminghamFAQ from '@/components/areas/BirminghamFAQ';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
-import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
 import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
 
@@ -197,7 +195,7 @@ export default function BirminghamGutterCleaningPage() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch justify-center gap-4 w-full max-w-xl animate-fade-in-up delay-300">
-            <Link href="/quote" className="hero-primary-btn-link hero-primary-btn flex-1">
+            <Link href="/quote/" className="hero-primary-btn-link hero-primary-btn flex-1">
               <span className="btn-arrow">&#9658;</span>
               <span className="btn-label">
                 Get a <span className="btn-free">FREE</span> quote
@@ -287,8 +285,8 @@ export default function BirminghamGutterCleaningPage() {
 
           <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             {[
-              { label: 'Average rating', value: '4.9' },
               { label: 'Google rating', value: '4.9★' },
+              { label: 'Liability insurance', value: '£10m' },
               { label: 'Storeys reach', value: '4' },
               { label: 'Days a week', value: '7' },
             ].map((s) => (
@@ -317,7 +315,7 @@ export default function BirminghamGutterCleaningPage() {
             Our gutter cleaning process — safe, thorough, no mess
           </h2>
           <p className="text-center text-slate-600 max-w-2xl mx-auto mb-12">
-            Every WOW Gutters Ltd job in Birmingham follows the same five-step process — from the moment we arrive to the
+            Every WOW Gutters Ltd job in Birmingham follows the same four-step process — from the moment we arrive to the
             moment we leave, with photo proof throughout.
           </p>
           <div className="grid md:grid-cols-2 gap-6">
@@ -346,7 +344,7 @@ export default function BirminghamGutterCleaningPage() {
             Typical gutter issues we resolve in Birmingham
           </h2>
           <p className="text-center text-slate-400 max-w-2xl mx-auto mb-12 text-sm">
-            Common problems we solve — wording as on our Birmingham service guide.
+            The problems we clear most often on Birmingham homes and businesses.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {PDF_ISSUES.map((c) => (
@@ -400,97 +398,7 @@ export default function BirminghamGutterCleaningPage() {
         </div>
       </section>
 
-      {/* COMPLETE PROPERTY SERVICES & HYPERLINKS */}
-      <section className="py-16 px-4 bg-slate-50 border-t border-slate-200/60">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
-              Complete Exterior Property Solutions in Birmingham
-            </h2>
-            <p className="text-slate-600 text-base md:text-lg leading-relaxed">
-              In addition to our high-reach vacuum gutter clearance, WOW Gutters Ltd provides a comprehensive range of exterior maintenance services, fixed-rate pricing tools, and special discount programs for Birmingham residents.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6 mb-10">
-            {/* Card 1: Gutter Repairs & Inspections */}
-            <div className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
-              <div>
-                <div className="w-12 h-12 rounded-xl bg-emerald-100 flex items-center justify-center mb-5 text-emerald-700 font-black text-xl">
-                  🔧
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Gutter Repairs &amp; Inspection</h3>
-                <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                  Leaking union joints, sagging brackets, and fractured downpipes cause damp masonry. Our engineers conduct on-site <Link href="/services/gutter-repairs/" className="text-emerald-700 font-semibold hover:underline">gutter repairs</Link> and provide <Link href="/services/gutter-inspection/" className="text-emerald-700 font-semibold hover:underline">free gutter inspections</Link> with camera footage.
-                </p>
-              </div>
-              <div className="pt-4 border-t border-slate-100 flex flex-col gap-2">
-                <Link href="/services/gutter-repairs/" className="text-emerald-700 hover:text-emerald-800 font-bold text-sm inline-flex items-center gap-1 hover:underline">
-                  Explore Gutter Repairs →
-                </Link>
-                <Link href="/services/gutter-inspection/" className="text-slate-600 hover:text-emerald-700 text-xs inline-flex items-center gap-1 hover:underline">
-                  Free Camera Inspection Guide →
-                </Link>
-              </div>
-            </div>
-
-            {/* Card 2: Roof Cleaning & UPVC Washing */}
-            <div className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
-              <div>
-                <div className="w-12 h-12 rounded-xl bg-teal-100 flex items-center justify-center mb-5 text-teal-700 font-black text-xl">
-                  🏠
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Roof Moss &amp; UPVC Washing</h3>
-                <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                  Heavy moss growth on roof tiles is the primary cause of recurrent gutter blockages. We provide low-pressure <Link href="/services/roof-cleaning/" className="text-emerald-700 font-semibold hover:underline">roof moss removal</Link> and pure-water <Link href="/services/upvc-cleaning/" className="text-emerald-700 font-semibold hover:underline">UPVC &amp; fascia washing</Link> to brighten your roofline.
-                </p>
-              </div>
-              <div className="pt-4 border-t border-slate-100 flex flex-col gap-2">
-                <Link href="/services/roof-cleaning/" className="text-emerald-700 hover:text-emerald-800 font-bold text-sm inline-flex items-center gap-1 hover:underline">
-                  Roof Cleaning Solutions →
-                </Link>
-                <Link href="/services/upvc-cleaning/" className="text-slate-600 hover:text-emerald-700 text-xs inline-flex items-center gap-1 hover:underline">
-                  UPVC &amp; Soffit Cleaning →
-                </Link>
-              </div>
-            </div>
-
-            {/* Card 3: Pricing, Calculator & Discounts */}
-            <div className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
-              <div>
-                <div className="w-12 h-12 rounded-xl bg-cyan-100 flex items-center justify-center mb-5 text-cyan-700 font-black text-xl">
-                  💷
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Fixed Rates &amp; Discounts</h3>
-                <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                  Check upfront costs on our <Link href="/gutter-cleaning-calculator/" className="text-emerald-700 font-semibold hover:underline">price calculator</Link> or view our full <Link href="/gutter-cleaning-prices/" className="text-emerald-700 font-semibold hover:underline">pricing matrix</Link>. Save up to 20% with <Link href="/neighbourhood-discount/" className="text-emerald-700 font-semibold hover:underline">neighbourhood discounts</Link> and special <Link href="/oap-discount/" className="text-emerald-700 font-semibold hover:underline">OAP rates</Link>.
-                </p>
-              </div>
-              <div className="pt-4 border-t border-slate-100 flex flex-col gap-2">
-                <Link href="/gutter-cleaning-calculator/" className="text-emerald-700 hover:text-emerald-800 font-bold text-sm inline-flex items-center gap-1 hover:underline">
-                  Instant Price Calculator →
-                </Link>
-                <Link href="/neighbourhood-discount/" className="text-slate-600 hover:text-emerald-700 text-xs inline-flex items-center gap-1 hover:underline">
-                  Neighbourhood Group Savings →
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          {/* Additional Service Navigation Links */}
-          <div className="p-6 rounded-2xl bg-white border border-slate-200 flex flex-wrap items-center justify-between gap-4 text-sm text-slate-600">
-            <span className="font-bold text-slate-900">Explore Further:</span>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/services/conservatory/" className="text-emerald-700 hover:underline font-medium">Conservatory Roofs</Link>
-              <Link href="/services/commercial-gutter-cleaning/" className="text-emerald-700 hover:underline font-medium">Commercial Clearance</Link>
-              <Link href="/the-gutter-gallery/" className="text-emerald-700 hover:underline font-medium">Project Gallery</Link>
-              <Link href="/reviews/" className="text-emerald-700 hover:underline font-medium">Customer Reviews</Link>
-              <Link href="/help/" className="text-emerald-700 hover:underline font-medium">FAQ &amp; Advice</Link>
-              <Link href="/quote/" className="text-emerald-700 hover:underline font-semibold">Free Quote Form</Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Oct 31 2026: removed the 'Complete Exterior Property Solutions' block — identical on every area page (duplicate content). */}
 
       <section className="relative overflow-hidden border-t border-white/10 bg-gradient-to-r from-[#0b1634] via-[#0f2347] to-[#0b1f3f] py-20 px-4">
         <div className="pointer-events-none absolute -left-20 -bottom-12 h-72 w-[68%] -rotate-6 rounded-[40%] bg-[#19C58B]/30 blur-[1px]" />
@@ -537,7 +445,6 @@ export default function BirminghamGutterCleaningPage() {
         </div>
       </section>
 
-      <AreaServicesRange />
 
       <section className="py-16 px-4 bg-white border-t border-slate-100">
         <div className="max-w-7xl mx-auto">
@@ -549,7 +456,7 @@ export default function BirminghamGutterCleaningPage() {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Link
-              href="/services/roof-cleaning"
+              href="/services/roof-cleaning/"
               className="group p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <p className="text-xs font-bold uppercase tracking-widest text-orange-700 mb-2">Popular</p>
@@ -562,7 +469,7 @@ export default function BirminghamGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/services/upvc-cleaning"
+              href="/services/upvc-cleaning/"
               className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">
@@ -574,7 +481,7 @@ export default function BirminghamGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/services/gutter-repairs"
+              href="/services/gutter-repairs/"
               className="group p-8 rounded-2xl border border-slate-200 bg-slate-50 hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">Gutter repairs</h3>
@@ -584,7 +491,7 @@ export default function BirminghamGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/services/gutter-inspection"
+              href="/services/gutter-inspection/"
               className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">Free gutter inspection</h3>
@@ -606,7 +513,7 @@ export default function BirminghamGutterCleaningPage() {
               </p>
             </Link>
             <Link
-              href="/services/conservatory"
+              href="/services/conservatory/"
               className="group p-8 rounded-2xl border border-slate-200 bg-white hover:border-[#19C58B]/50 hover:shadow-lg transition-all"
             >
               <h3 className="text-xl font-black text-slate-900 group-hover:text-[#0f766e] mb-2">
@@ -634,7 +541,7 @@ export default function BirminghamGutterCleaningPage() {
             Book your gutter clean in Birmingham — free quote in 60 seconds
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-            <Link href="/quote" className="hero-primary-btn-link hero-primary-btn w-full sm:w-auto min-w-[240px]">
+            <Link href="/quote/" className="hero-primary-btn-link hero-primary-btn w-full sm:w-auto min-w-[240px]">
               <span className="btn-arrow">&#9658;</span>
               <span className="btn-label">
                 Get a <span className="btn-free">FREE</span> quote online
@@ -671,8 +578,6 @@ export default function BirminghamGutterCleaningPage() {
         </div>
       </section>
 
-      <AreaCrawlFooter currentSlug="birmingham" serviceKind="gutter" />
-      <AreaServicesRange />
       <AreaBlogSnippet locality="Birmingham" />
       <AreaRecentWork />
       <AreaContactMap variant="birmingham" />

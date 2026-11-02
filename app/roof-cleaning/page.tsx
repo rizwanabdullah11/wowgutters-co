@@ -6,7 +6,7 @@ import { buildMetadata } from '@/lib/seo';
 export const metadata: Metadata = buildMetadata({
   absoluteTitle: 'Professional Roof Cleaning & Moss Removal | WOW Gutters Ltd',
   description:
-    'Roof cleaning and moss removal across Birmingham and the West Midlands. Soft-wash system, biocide treatment, before and after photos. Fully insured. From £150. Call 07421 433910.',
+    'Roof cleaning and moss removal across Birmingham and the West Midlands. Soft-wash system, biocide treatment, before and after photos. Fully insured. From £500. Call 07421 433910.',
   canonicalPath: '/roof-cleaning/',
 });
 

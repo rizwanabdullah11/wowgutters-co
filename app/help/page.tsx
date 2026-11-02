@@ -319,7 +319,7 @@ export default function HelpPage() {
             </a>
           </div>
 
-          <Link href="/quote">
+          <Link href="/quote/">
             <button
               className="px-8 py-4 rounded-full font-bold text-lg text-white shadow-xl hover:scale-105 transition-all inline-flex items-center gap-2"
               style={{ background: colors.primaryGradient }}

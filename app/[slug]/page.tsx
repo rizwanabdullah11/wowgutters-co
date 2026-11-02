@@ -37,6 +37,7 @@ import { AREA_SLUGS, areaPath, roofAreaPath, repairAreaPath, installationAreaPat
 import { buildMetadata } from '@/lib/seo';
 import { getKeywordPage, getAllKeywordSlugs } from '@/lib/keywordPages';
 import KeywordLandingPage from '@/components/KeywordLandingPage';
+import PriorityLinks from '@/components/seo/PriorityLinks';
 
 interface PageProps {
   params: Promise<{
@@ -372,7 +373,7 @@ export default async function SingleSegmentAreaPage(props: PageProps) {
             city="Birmingham"
             url={url}
             priceFrom={100}
-            priceTo={210}
+            priceTo={200}
             nearbyAreas={['Solihull', 'Sutton Coldfield', 'Wolverhampton', 'Walsall', 'Dudley', 'West Bromwich']}
             geo={{ latitude: 52.4862, longitude: -1.8904 }}
             postcodes={['B1', 'B13', 'B14', 'B15', 'B16', 'B17', 'B23', 'B27', 'B28', 'B29', 'B31', 'B43', 'B73', 'B74', 'B76']}
@@ -380,7 +381,7 @@ export default async function SingleSegmentAreaPage(props: PageProps) {
               city: 'Birmingham',
               slug: 'birmingham',
               priceFrom: 100,
-              priceTo: 210,
+              priceTo: 200,
               postcodes: ['B1', 'B13', 'B14', 'B15', 'B16', 'B17', 'B23', 'B27', 'B28', 'B29', 'B31', 'B43', 'B73', 'B74', 'B76'],
               nearbyAreas: ['Solihull', 'Sutton Coldfield', 'Wolverhampton', 'Walsall', 'Dudley', 'West Bromwich'],
             })}
@@ -461,7 +462,12 @@ export default async function SingleSegmentAreaPage(props: PageProps) {
   if (keywordSlug) {
     const page = getKeywordPage(keywordSlug);
     if (page) {
-      return <KeywordLandingPage page={page} />;
+      return (
+        <>
+          <KeywordLandingPage page={page} />
+          <PriorityLinks path={`/${keywordSlug}/`} />
+        </>
+      );
     }
   }
 

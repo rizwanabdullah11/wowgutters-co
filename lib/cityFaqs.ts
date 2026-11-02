@@ -166,7 +166,7 @@ export function buildCitySchemaFaqs({
   return withLocalBoostFaqs(slug, [
     {
       question: `How much does gutter cleaning cost in ${city}?`,
-      answer: `Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Fixed quote before work starts.`,
+      answer: `Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200. Fixed quote before work starts.`,
     },
     {
       question: `How often should I have my gutters cleaned in ${city}?`,
@@ -207,8 +207,8 @@ export function buildCityPageFaqs(input: BuildCityFaqsInput): CityFaqItem[] {
   const pairs: Array<{ question: string; schema: string; page: string }> = [
     {
       question: `How much does gutter cleaning cost in ${city}?`,
-      schema: `Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Fixed quote before work starts.`,
-      page: `Our gutter cleaning prices in ${city} are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Commercial properties are priced individually. We provide a fixed quote before any work starts.`,
+      schema: `Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200. Fixed quote before work starts.`,
+      page: `Our gutter cleaning prices in ${city} are fixed: £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200. Commercial properties are quoted individually. We provide a fixed quote before any work starts.`,
     },
     {
       question: `How often should I have my gutters cleaned in ${city}?`,

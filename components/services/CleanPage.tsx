@@ -46,7 +46,7 @@ export default function CleanPage() {
               <p className="text-lg sm:text-xl mb-8 max-w-3xl mx-auto" style={{ color: colors.white }}>
                 Specialist roof and exterior cleaning to remove moss, algae and dirt and keep your home looking its best.
               </p>
-              <Link href="/quote">
+              <Link href="/quote/">
                 <Button 
                   className="px-8 py-4 text-lg font-semibold hover:scale-105 transition-transform"
                   style={{ backgroundColor: colors.white, color: colors.primary }}
@@ -250,7 +250,7 @@ export default function CleanPage() {
                 ))}
               </div>
 
-              <Link href="/quote">
+              <Link href="/quote/">
                 <Button 
                   className="px-8 py-4 text-lg font-bold rounded-full hover:scale-105 transition-transform"
                   style={{ background: colors.primaryGradient, color: 'white' }}
@@ -397,7 +397,7 @@ export default function CleanPage() {
               Professional roof cleaning that&apos;s safe, effective, and long-lasting. Protect your 
               investment and enhance your home&apos;s appearance with our expert service.
             </p>
-            <Link href="/quote">
+            <Link href="/quote/">
               <Button 
                 className="px-8 py-4 text-lg font-bold rounded-full shadow-xl hover:scale-105 transition-transform"
                 style={{ background: colors.primaryGradient, color: 'white' }}
@@ -418,7 +418,7 @@ export default function CleanPage() {
           <p className="text-lg mb-8" style={{ color: colors.white }}>
             Professional cleaning services that protect your investment and enhance your home&apos;s appearance.
           </p>
-          <Link href="/quote">
+          <Link href="/quote/">
             <Button 
               className="px-8 py-4 text-lg font-semibold mr-4"
               style={{ backgroundColor: colors.white, color: colors.primary }}
@@ -426,7 +426,7 @@ export default function CleanPage() {
               Book Cleaning Service
             </Button>
           </Link>
-          <Link href="/contact">
+          <Link href="/contact/">
             <Button 
               variant="outline"
               className="px-8 py-4 text-lg font-semibold border-2 hover:bg-white/10 active:bg-white/20"

@@ -56,7 +56,7 @@ export const leakingGutterRepairBlogPost: BlogPost = {
   shortSummary: 'Fix or Replace Leaking Gutter',
   breadcrumbName: 'Leaking Gutter Repair',
   content: `
-<p>A leaking gutter genuinely doesn't automatically mean the whole system needs replacing, and it genuinely doesn't always mean a simple reseal will hold either. Most homeowners across <a href="/gutter-cleaning-birmingham" style="${link}">Birmingham</a> have no reliable way to tell which category their specific leak actually falls into, and the honest answer depends on where the leak is, why it's happening, and what condition the rest of the system is genuinely in. This is a decision guide for exactly that question.</p>
+<p>A leaking gutter genuinely doesn't automatically mean the whole system needs replacing, and it genuinely doesn't always mean a simple reseal will hold either. Most homeowners across <a href="/gutter-cleaning-birmingham/" style="${link}">Birmingham</a> have no reliable way to tell which category their specific leak actually falls into, and the honest answer depends on where the leak is, why it's happening, and what condition the rest of the system is genuinely in. This is a decision guide for exactly that question.</p>
 
 ${ctaTop}
 
@@ -81,7 +81,7 @@ ${ctaTop}
 
 <p>"My gutter is leaking" describes a symptom, not a cause, and the correct response genuinely depends entirely on which of several different underlying situations is actually producing that symptom. A single failed joint seal on an otherwise sound system is a straightforward repair. The same visible leak on a system where every joint has reached the same age and condition simultaneously is frequently a sign that repair is genuinely a short-term patch rather than a real fix.</p>
 
-<p>As explained extensively throughout our detailed guidance on <a href="/blog/hidden-gutter-damage-easier-spot-summer" style="${link}">hidden gutter damage that's easier to spot in summer</a>, a visible leak is often just the first symptom to become obvious, while the underlying cause — moisture that's been tracking behind the fascia, a bracket that's been quietly failing, silt that's been reducing capacity — has typically been developing for considerably longer than the leak itself has been visible. Answering "fix or replace" properly means understanding this underlying cause, not just treating the point where water is currently escaping.</p>
+<p>As explained extensively throughout our detailed guidance on <a href="/blog/hidden-gutter-damage-easier-spot-summer/" style="${link}">hidden gutter damage that's easier to spot in summer</a>, a visible leak is often just the first symptom to become obvious, while the underlying cause — moisture that's been tracking behind the fascia, a bracket that's been quietly failing, silt that's been reducing capacity — has typically been developing for considerably longer than the leak itself has been visible. Answering "fix or replace" properly means understanding this underlying cause, not just treating the point where water is currently escaping.</p>
 
 <div style="margin: 32px 0;">
   <img src="${IMG_BEFORE}" alt="Leaking Gutter Before Repair Inspection" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" />
@@ -108,7 +108,7 @@ ${ctaTop}
 
 <p>Between the clear repair case and the clear replacement case sits a genuinely harder category — a system that's showing some wear but not obviously failing throughout, where the honest answer depends on details a homeowner genuinely can't assess without a proper structural inspection.</p>
 
-<p>This is precisely where the real-time camera inspection described throughout our full explanation of <a href="/blog/how-clean-gutters-without-ladder-birmingham-method" style="${link}">how ground-based gutter cleaning technology actually works</a> genuinely earns its value. A visual assessment from the ground, or even a quick look from a ladder, cannot reliably distinguish "one joint failed, everything else is sound" from "one joint failed and three others are marginal but not yet visibly leaking" — and this distinction is exactly what determines whether a repair genuinely holds or simply delays an inevitable, more disruptive replacement by a matter of months.</p>
+<p>This is precisely where the real-time camera inspection described throughout our full explanation of <a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">how ground-based gutter cleaning technology actually works</a> genuinely earns its value. A visual assessment from the ground, or even a quick look from a ladder, cannot reliably distinguish "one joint failed, everything else is sound" from "one joint failed and three others are marginal but not yet visibly leaking" — and this distinction is exactly what determines whether a repair genuinely holds or simply delays an inevitable, more disruptive replacement by a matter of months.</p>
 
 <h2 id="where-leak-sits" style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin-top: 40px;">Where the Leak Sits Changes the Answer</h2>
 
@@ -118,7 +118,7 @@ ${ctaTop}
 
 <p>Leaks at bracket fixing points, where water is tracking down behind the fascia rather than dripping visibly from the gutter's front edge, connect directly to the fascia moisture exposure described extensively throughout our guidance on <a href="/blog/roofline-damage-prevention/" style="${link}">how professional gutter cleaning extends the life of a property's roofline</a>. This type of leak genuinely warrants closer inspection of the bracket and fascia condition specifically, since the leak itself may be a symptom of bracket movement rather than simply a joint seal issue, and a joint reseal alone won't address a bracket that's genuinely losing its grip.</p>
 
-<p>Overflow that looks like a leak, where water is escaping over the gutter's front lip rather than through any actual defect in the material, is a genuinely different problem entirely, frequently caused by the silt accumulation or incorrect fall angle covered throughout our dedicated guide on <a href="/blog/stop-gutters-blocking" style="${link}">how to genuinely stop gutters from blocking again</a> (as well as issues highlighted in our guide on <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">blocked downpipes and the fix homeowners miss</a>), rather than any material failure requiring repair or replacement at all.</p>
+<p>Overflow that looks like a leak, where water is escaping over the gutter's front lip rather than through any actual defect in the material, is a genuinely different problem entirely, frequently caused by the silt accumulation or incorrect fall angle covered throughout our dedicated guide on <a href="/blog/stop-gutters-blocking/" style="${link}">how to genuinely stop gutters from blocking again</a> (as well as issues highlighted in our guide on <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">blocked downpipes and the fix homeowners miss</a>), rather than any material failure requiring repair or replacement at all.</p>
 
 <h2 id="cast-iron-vs-upvc" style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin-top: 40px;">Cast Iron Versus UPVC: Different Rules Entirely</h2>
 
@@ -147,13 +147,13 @@ ${ctaTop}
 
 <h2 id="what-happens-if-you-delay" style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin-top: 40px;">What Happens If You Delay the Decision Either Way</h2>
 
-<p>A leak left unaddressed while you decide, or simply left unaddressed through inaction, genuinely progresses along the chain described throughout our comprehensive guidance on how professional gutter cleaning extends the life of a property's roofline — fascia moisture exposure, bracket weakening, and eventually the internal damp covered extensively throughout our guidance on <a href="/blog/can-blocked-gutters-cause-damp" style="${link}">whether blocked or leaking gutters can cause damp</a>.</p>
+<p>A leak left unaddressed while you decide, or simply left unaddressed through inaction, genuinely progresses along the chain described throughout our comprehensive guidance on how professional gutter cleaning extends the life of a property's roofline — fascia moisture exposure, bracket weakening, and eventually the internal damp covered extensively throughout our guidance on <a href="/blog/can-blocked-gutters-cause-damp/" style="${link}">whether blocked or leaking gutters can cause damp</a>.</p>
 
 <p>The genuine cost of delay isn't simply "the leak continues" — it's that a problem which might have been a straightforward repair at the point it was first noticed can progress, given enough time, into the kind of wider replacement need that a prompt assessment would have avoided.</p>
 
 <h2 id="property-specific-considerations" style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin-top: 40px;">Property-Specific Considerations Worth Knowing</h2>
 
-<p>Victorian and Edwardian properties across Bournville, Selly Oak, and Handsworth genuinely warrant the repair-first consideration described above given their cast iron systems, though the wider run should still be checked rather than assuming every joint will hold indefinitely. Semi-detached properties with a leak at or near the party wall junction, as detailed throughout our guidance on <a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham" style="${link}">the shared boundary issue affecting Birmingham semi-detached homes</a>, should have the shared section specifically checked, since a leak at this specific point can affect both properties regardless of which side the fix is ultimately carried out on.</p>
+<p>Victorian and Edwardian properties across Bournville, Selly Oak, and Handsworth genuinely warrant the repair-first consideration described above given their cast iron systems, though the wider run should still be checked rather than assuming every joint will hold indefinitely. Semi-detached properties with a leak at or near the party wall junction, as detailed throughout our guidance on <a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham/" style="${link}">the shared boundary issue affecting Birmingham semi-detached homes</a>, should have the shared section specifically checked, since a leak at this specific point can affect both properties regardless of which side the fix is ultimately carried out on.</p>
 
 <h2 id="faq" style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin-top: 40px; margin-bottom: 24px;">FAQ: Leaking Gutter Repair Decisions in Birmingham</h2>
 
@@ -226,15 +226,15 @@ ${ctaBox}
 
 <h2 id="related-articles" style="font-size: 1.4rem; font-weight: 800; color: #0f172a; margin-top: 40px;">Related Articles</h2>
 <ul>
-  <li><strong><a href="/blog/hidden-gutter-damage-easier-spot-summer" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a></strong></li>
+  <li><strong><a href="/blog/hidden-gutter-damage-easier-spot-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a></strong></li>
   <li><strong><a href="/blog/roofline-damage-prevention/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a></strong></li>
   <li><strong><a href="/blog/victorian-gutter-cleaning-birmingham/" style="${link}">Why Victorian Homes in Birmingham Need a Different Gutter Cleaning Approach</a></strong></li>
   <li><strong><a href="/blog/professional-gutter-walkthrough/" style="${link}">What Happens During a Professional Gutter Clean?</a></strong></li>
-  <li><strong><a href="/blog/stop-gutters-blocking" style="${link}">How Do You Stop Gutters From Blocking Again?</a></strong></li>
-  <li><strong><a href="/blog/can-blocked-gutters-cause-damp" style="${link}">Can Blocked Gutters Cause Damp?</a></strong></li>
+  <li><strong><a href="/blog/stop-gutters-blocking/" style="${link}">How Do You Stop Gutters From Blocking Again?</a></strong></li>
+  <li><strong><a href="/blog/can-blocked-gutters-cause-damp/" style="${link}">Can Blocked Gutters Cause Damp?</a></strong></li>
   <li><strong><a href="/blog/ask-before-hiring-gutter-cleaner/" style="${link}">The One Question to Ask Before Hiring Any Gutter Cleaner in the West Midlands</a></strong></li>
-  <li><strong><a href="/blog/how-clean-gutters-without-ladder-birmingham-method" style="${link}">How Do You Clean Gutters Without a Ladder?</a></strong></li>
-  <li><strong><a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham" style="${link}">Gutter Cleaning for Semi-Detached Homes</a></strong></li>
+  <li><strong><a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">How Do You Clean Gutters Without a Ladder?</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham/" style="${link}">Gutter Cleaning for Semi-Detached Homes</a></strong></li>
   <li><strong><a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">Downpipes Blocked Again? The Birmingham Fix Most Homeowners Miss</a></strong></li>
 </ul>
   `,

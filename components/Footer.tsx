@@ -5,7 +5,6 @@ import Image from 'next/image';
 import logo from '@/assets/wow-gutter-logo.webp';
 import { colors } from '@/constants/colors';
 import { areaPath } from '@/lib/areaSlugs';
-import { BUSINESS_DIRECTORY_LISTINGS } from '@/lib/citationListings';
 import { formatNapAddress } from '@/lib/businessDetails';
 import { 
   Phone, Mail, MapPin, Star, ArrowUp, 
@@ -207,16 +206,8 @@ export default function Footer() {
 
           <OnlyOnHome invert><hr className="footer-divider" /></OnlyOnHome>
 
-          {/* Business Directory Citations */}
-          <div className="footer-citations">
-            <p className="footer-citations-label">WOW Gutters Ltd — Listed on</p>
-            <ul className="footer-citations-list">
-              {BUSINESS_DIRECTORY_LISTINGS.map((l) => (
-                <li key={l.url}><a href={l.url} target="_blank" rel="noopener noreferrer" className="footer-citation-link">{l.name}</a></li>
-              ))}
-            </ul>
-          </div>
-          <hr className="footer-divider" />
+          {/* Directory citations removed from the sitewide footer (Oct 2026): 12 outbound
+              links on every page diluted link equity. Listings remain on /citations/. */}
 
           {/* Bottom Row */}
           <div className="footer-bottom-row">

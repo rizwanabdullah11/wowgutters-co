@@ -22,7 +22,7 @@ export const AREA_FAQS = [
   },
   {
     question: "How much does gutter cleaning cost?",
-    answer: "Costs vary based on the property size, gutter condition, and accessibility, but typical residential cleanings range from £100–£210.",
+    answer: "Costs vary based on the property size, gutter condition, and accessibility, but a standard clean is £100 for a 2-bed home and £110 for a 3-bed home, with our Premium Service from £200.",
     icon: "💳"
   }
 ];
@@ -208,7 +208,7 @@ export const CONSERVATORY_CLEANING_FAQS = [
   {
     question: 'How much does conservatory cleaning cost?',
     answer:
-      'Pricing depends on conservatory size, roof type, how heavy the algae is, and whether gutter clearing is included. Most domestic conservatory cleans start from around £80–£200. We provide a clear quote after assessing your property.',
+      'Pricing depends on conservatory size, roof type, how heavy the algae is, and whether gutter clearing is included. Conservatory cleaning starts from £50. We provide a clear quote after assessing your property.',
     icon: '💳',
   },
   {

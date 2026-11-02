@@ -28,7 +28,7 @@ const gutterServices = [
       'Safe roof cleaning and moss removal to help protect tiles, improve appearance and reduce blocked gutter problems.',
     backContent: {
       features: ['Soft washing technique', 'Moss treatment', 'Tile protection', 'Long-lasting results'],
-      price: 'From £150'
+      price: 'From £500'
     },
     image: '/roof-cleaning-card.webp',
     link: '/services/roof-cleaning/',

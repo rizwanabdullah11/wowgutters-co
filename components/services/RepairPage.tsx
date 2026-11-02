@@ -46,7 +46,7 @@ export default function RepairPage() {
               <p className="text-lg sm:text-xl mb-8 max-w-3xl mx-auto" style={{ color: colors.white }}>
                 Expert gutter repair service to fix leaks, sagging and damage and protect your property from water problems.
               </p>
-              <Link href="/quote">
+              <Link href="/quote/">
                 <Button 
                   className="px-8 py-4 text-lg font-semibold hover:scale-105 transition-transform"
                   style={{ backgroundColor: colors.white, color: colors.primary }}
@@ -275,7 +275,7 @@ export default function RepairPage() {
                 </div>
               </div>
 
-              <Link href="/quote">
+              <Link href="/quote/">
                 <Button 
                   className="px-8 py-4 text-lg font-bold rounded-full hover:scale-105 transition-transform"
                   style={{ background: colors.primaryGradient, color: 'white' }}
@@ -438,7 +438,7 @@ export default function RepairPage() {
               Don&apos;t let minor gutter damage turn into major repair bills. Our professional repair 
               service fixes problems quickly and effectively with quality materials and workmanship.
             </p>
-            <Link href="/quote">
+            <Link href="/quote/">
               <Button 
                 className="px-8 py-4 text-lg font-bold rounded-full shadow-xl hover:scale-105 transition-transform"
                 style={{ background: colors.primaryGradient, color: 'white' }}
@@ -459,7 +459,7 @@ export default function RepairPage() {
           <p className="text-lg mb-8" style={{ color: colors.white }}>
             Get professional gutter repairs before minor issues cause major damage to your property.
           </p>
-          <Link href="/quote">
+          <Link href="/quote/">
             <Button 
               className="px-8 py-4 text-lg font-semibold mr-4"
               style={{ backgroundColor: colors.white, color: colors.primary }}
@@ -467,7 +467,7 @@ export default function RepairPage() {
               Get Repair Quote
             </Button>
           </Link>
-          <Link href="/contact">
+          <Link href="/contact/">
             <Button 
               variant="outline"
               className="px-8 py-4 text-lg font-semibold border-2 hover:bg-white/10 active:bg-white/20"

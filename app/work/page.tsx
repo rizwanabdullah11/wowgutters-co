@@ -55,7 +55,7 @@ export default function WorkPage() {
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">Need Similar Work Done?</h2>
           <p className="text-sm sm:text-base text-gray-300 mb-8">Get in touch to discuss your gutter cleaning and maintenance needs</p>
           <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-            <Link href="/quote" className="flex-1">
+            <Link href="/quote/" className="flex-1">
               <button 
                 className="w-full px-6 py-3 rounded-lg font-semibold transition-colors"
                 style={{ backgroundColor: colors.white, color: colors.primary }}
@@ -63,7 +63,7 @@ export default function WorkPage() {
                 Get Free Quote
               </button>
             </Link>
-            <Link href="/contact" className="flex-1">
+            <Link href="/contact/" className="flex-1">
               <button 
                 className="w-full px-6 py-3 rounded-lg font-semibold border-2 transition-colors"
                 style={{ 

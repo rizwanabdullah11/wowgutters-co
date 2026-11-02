@@ -12,8 +12,8 @@ const ctaTop = `
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 WOW Gutters Ltd:</strong>
   <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> | 
-  📋 <a href="/quote" style="${link}">Request a quote</a> | 
-  🌐 <a href="/contact" style="${link}">Contact us</a><br/>
+  📋 <a href="/quote/" style="${link}">Request a quote</a> | 
+  🌐 <a href="/contact/" style="${link}">Contact us</a><br/>
   Commercial gutter vacuum cleaning · Up to 4 storeys from ground · Live camera inspection &amp; audit reports
 </blockquote>`;
 
@@ -27,7 +27,7 @@ const ctaBox = `
       <span style="display: block; color: #64748b; font-size: 0.85rem; margin-top: 2px;">RAMS, full insurance &amp; dated photo records provided</span>
     </div>
     <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px; width: 100%; max-width: 380px;">
-      <a href="/quote" style="flex: 1 1 160px; min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #047857; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 20px; border-radius: 8px; text-decoration: none; box-shadow: 0 2px 8px rgba(25,197,139, 0.3);">
+      <a href="/quote/" style="flex: 1 1 160px; min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #047857; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 20px; border-radius: 8px; text-decoration: none; box-shadow: 0 2px 8px rgba(25,197,139, 0.3);">
         <span>&#9658;</span> Get Free Quote
       </a>
       <a href="tel:07421433910" style="flex: 1 1 140px; min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; background: #0f172a; color: #ffffff; font-size: 0.95rem; font-weight: 700; padding: 12px 20px; border-radius: 8px; text-decoration: none;">
@@ -57,7 +57,7 @@ export const officesSchoolsGutterCleaningBlogPost: BlogPost = {
   shortSummary: 'Offices Schools Gutters Birmingham',
   breadcrumbName: 'Offices & Schools Gutters',
   content: `
-<p>A domestic gutter is one person’s problem. A commercial one is a facilities problem: a larger roofline, people underneath, a duty of care and someone who has to sign the work off. This guide is for facilities managers, school business managers and property managers across <a href="/gutter-cleaning-birmingham" style="${link}">Birmingham</a> and the wider <a href="/gutter-cleaning-service-areas/" style="${link}">West Midlands</a>. It covers what makes <a href="/commercial-gutter-cleaning" style="${link}">commercial gutter cleaning</a> different, how to plan around occupied buildings, how to keep working at height off your risk register, and what to ask a contractor before you book.</p>
+<p>A domestic gutter is one person’s problem. A commercial one is a facilities problem: a larger roofline, people underneath, a duty of care and someone who has to sign the work off. This guide is for facilities managers, school business managers and property managers across <a href="/gutter-cleaning-birmingham/" style="${link}">Birmingham</a> and the wider <a href="/gutter-cleaning-service-areas/" style="${link}">West Midlands</a>. It covers what makes <a href="/commercial-gutter-cleaning/" style="${link}">commercial gutter cleaning</a> different, how to plan around occupied buildings, how to keep working at height off your risk register, and what to ask a contractor before you book.</p>
 
 ${ctaTop}
 
@@ -91,20 +91,20 @@ ${ctaTop}
 <h2 id="why-commercial-gutters-different" style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;">Why Commercial Gutters Are Different</h2>
 <p>Three things change with scale.</p>
 <ul style="padding-left: 20px; line-height: 1.9; color: #334155;">
-  <li><strong>More roofline, fewer outlets:</strong> A school or office block can have long gutter runs feeding a handful of downpipes, so one blockage can back water along a very long channel. <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">Downpipes Blocked Again? The Birmingham Fix Most Homeowners Miss</a> explains why pipes block at bends, and <a href="/blog/downpipe-blocked-signs-birmingham-homes" style="${link}">How Do You Know If Your Downpipe Is Blocked? Signs Birmingham Homes Show</a> lists the signs. Our <a href="/downpipe-unblocking" style="${link}">downpipe unblocking</a> service tests every outlet.</li>
+  <li><strong>More roofline, fewer outlets:</strong> A school or office block can have long gutter runs feeding a handful of downpipes, so one blockage can back water along a very long channel. <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">Downpipes Blocked Again? The Birmingham Fix Most Homeowners Miss</a> explains why pipes block at bends, and <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">How Do You Know If Your Downpipe Is Blocked? Signs Birmingham Homes Show</a> lists the signs. Our <a href="/downpipe-unblocking/" style="${link}">downpipe unblocking</a> service tests every outlet.</li>
   <li><strong>People underneath:</strong> Entrances, playgrounds, car parks and walkways sit beneath the roofline, so a falling section of gutter or a sheet of overflow is a safety matter, not just a maintenance one.</li>
   <li><strong>Somebody has to be accountable:</strong> There are budgets, audits, insurers and governors or tenants to answer to. That’s why <a href="/blog/gutter-water-damage-guide/" style="${link}">Gutter Maintenance and Home Insurance: What Birmingham Homeowners Need to Know</a> is worth reading, with the caveat that it is general information about homes, not insurance advice for a commercial policy.</li>
 </ul>
-<p>The basic chain is the same at any scale. Water that can’t leave goes into the fascia, soffit, wall and eventually inside, as <a href="/blog/roofline-damage-prevention/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a> and <a href="/blog/gutter-water-damage-guide" style="${link}">Water Damage From Gutters: Birmingham Homeowner Guide</a> explain.</p>
+<p>The basic chain is the same at any scale. Water that can’t leave goes into the fascia, soffit, wall and eventually inside, as <a href="/blog/roofline-damage-prevention/" style="${link}">How Professional Gutter Cleaning Extends the Life of Your Roofline</a> and <a href="/blog/gutter-water-damage-guide/" style="${link}">Water Damage From Gutters: Birmingham Homeowner Guide</a> explain.</p>
 
 <h2 id="what-goes-wrong-offices-schools" style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;">What Goes Wrong on Offices and Schools</h2>
 <p>The usual problems are:</p>
 <ul style="padding-left: 20px; line-height: 1.9; color: #334155;">
-  <li><strong>Silt build-up in long channels that nobody inspects:</strong> <a href="/blog/hidden-gutter-damage-easier-spot-summer" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a> explains why it is invisible from below.</li>
-  <li><strong>Plants and moss at the roof edge:</strong> See <a href="/blog/gutters-full-of-weeds" style="${link}">Gutters Full of Weeds or Seeds? Birmingham Clearing Guide</a> and <a href="/blog/roof-moss-removal-birmingham" style="${link}">Roof Moss in Birmingham: Why It Grows, What It Does and How to Clear It</a>.</li>
-  <li><strong>Leaf fall from mature trees on school grounds and office campuses:</strong> See <a href="/blog/leaves-in-gutters" style="${link}">Leaves in Gutters? Birmingham Autumn Clearance Service</a>.</li>
+  <li><strong>Silt build-up in long channels that nobody inspects:</strong> <a href="/blog/hidden-gutter-damage-easier-spot-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a> explains why it is invisible from below.</li>
+  <li><strong>Plants and moss at the roof edge:</strong> See <a href="/blog/gutters-full-of-weeds/" style="${link}">Gutters Full of Weeds or Seeds? Birmingham Clearing Guide</a> and <a href="/blog/roof-moss-removal-birmingham/" style="${link}">Roof Moss in Birmingham: Why It Grows, What It Does and How to Clear It</a>.</li>
+  <li><strong>Leaf fall from mature trees on school grounds and office campuses:</strong> See <a href="/blog/leaves-in-gutters/" style="${link}">Leaves in Gutters? Birmingham Autumn Clearance Service</a>.</li>
   <li><strong>Overflow staining on brickwork and cladding below the roofline.</strong></li>
-  <li><strong>Water finding its way in:</strong> Sometimes into an upper-floor classroom or office. <a href="/blog/can-blocked-gutters-cause-damp" style="${link}">Can Blocked Gutters Cause Damp?</a> and <a href="/blog/west-midlands-water-damage/" style="${link}">Is Your West Midlands Home Quietly Storing Water Damage Right Now?</a> explain how it develops.</li>
+  <li><strong>Water finding its way in:</strong> Sometimes into an upper-floor classroom or office. <a href="/blog/can-blocked-gutters-cause-damp/" style="${link}">Can Blocked Gutters Cause Damp?</a> and <a href="/blog/west-midlands-water-damage/" style="${link}">Is Your West Midlands Home Quietly Storing Water Damage Right Now?</a> explain how it develops.</li>
 </ul>
 <p>The pattern behind most of them is the one in <a href="/blog/seasonal-home-maintenance/" style="${link}">The One Home Maintenance Task Birmingham Homeowners Consistently Miss Each Summer</a>: out of sight, so out of mind, until something overflows.</p>
 
@@ -122,7 +122,7 @@ ${ctaTop}
   <li><strong>Glazed roofs and canopies:</strong> Covered by our <a href="/services/conservatory/" style="${link}">conservatory roof cleaning</a> and commercial glazing wash service.</li>
   <li><strong>Mixed estates:</strong> Where each individual building or extension needs its own access assessment.</li>
 </ul>
-<p>For larger industrial sites, see <a href="/blog/commercial-warehouse-gutter-clearing-birmingham" style="${link}">Commercial Warehouse Gutter Clearing Birmingham</a> and <a href="/blog/warehouse-gutter-case-study/" style="${link}">Warehouse Gutter Clearing: When Grass Is Growing in Your Box Gutter</a>.</p>
+<p>For larger industrial sites, see <a href="/blog/commercial-warehouse-gutter-clearing-birmingham/" style="${link}">Commercial Warehouse Gutter Clearing Birmingham</a> and <a href="/blog/warehouse-gutter-case-study/" style="${link}">Warehouse Gutter Clearing: When Grass Is Growing in Your Box Gutter</a>.</p>
 
 <figure style="margin: 32px 0;">
   <img src="${IMG_EXTRA1}" alt="Commercial property roofline and guttering showing high-level access and varied structural profiles" style="width: 100%; border-radius: 12px; border: 1px solid #e2e8f0;" />
@@ -131,11 +131,11 @@ ${ctaTop}
 
 <h2 id="working-at-height" style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;">Working at Height: The Real Issue</h2>
 <p>For a facilities manager, the gutter itself is rarely the worry. Working at height is. It is the biggest hazard in the job, and the one an auditor or insurer will ask about first.</p>
-<p>The HSE’s <a href="https://www.hse.gov.uk/work-at-height/" target="_blank" rel="noopener noreferrer" style="${link}">guidance on working at height</a> is built on one core hierarchy: avoid working at height where you can. For gutter cleaning, you often can. <a href="/blog/gutter-ladder-safety/" style="${link}">Can You Clean Your Own Gutters Safely? A Birmingham Ladder Safety Reality Check</a> sets out why ladders are the riskiest option, and <a href="/blog/clean-gutters-two-storey-house-birmingham-safely" style="${link}">How Do You Clean Gutters on a Two-Storey House in Birmingham Safely?</a> explains how the risk grows with height.</p>
+<p>The HSE’s <a href="https://www.hse.gov.uk/work-at-height/" target="_blank" rel="noopener noreferrer" style="${link}">guidance on working at height</a> is built on one core hierarchy: avoid working at height where you can. For gutter cleaning, you often can. <a href="/blog/gutter-ladder-safety/" style="${link}">Can You Clean Your Own Gutters Safely? A Birmingham Ladder Safety Reality Check</a> sets out why ladders are the riskiest option, and <a href="/blog/clean-gutters-two-storey-house-birmingham-safely/" style="${link}">How Do You Clean Gutters on a Two-Storey House in Birmingham Safely?</a> explains how the risk grows with height.</p>
 <p>We are not health and safety advisers, and we do not define what your internal statutory duties are. Your designated responsible person, competent safety adviser or insurer can provide that counsel. What we provide is the practical question to ask any contractor: how will the work be done without people working at height, and can I see your risk assessment and method statement (RAMS) for my site?</p>
 
 <h2 id="ground-based-cleaning" style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;">Why Ground-Based Cleaning Suits Occupied Buildings</h2>
-<p>Our method keeps the operator safely on the ground. An industrial high-flow vacuum, a telescopic carbon-fibre pole reaching up to four storeys, and a wireless live camera at the working nozzle complete the clearance. The technical detail is in <a href="/blog/how-clean-gutters-without-ladder-birmingham-method" style="${link}">How Do You Clean Gutters Without a Ladder? The Method Birmingham Pros Use</a> and <a href="/blog/gutter-vacuum-cleaning-birmingham" style="${link}">Gutter Vacuum Cleaning Birmingham</a>.</p>
+<p>Our method keeps the operator safely on the ground. An industrial high-flow vacuum, a telescopic carbon-fibre pole reaching up to four storeys, and a wireless live camera at the working nozzle complete the clearance. The technical detail is in <a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">How Do You Clean Gutters Without a Ladder? The Method Birmingham Pros Use</a> and <a href="/blog/gutter-vacuum-cleaning-birmingham/" style="${link}">Gutter Vacuum Cleaning Birmingham</a>.</p>
 <p>For an occupied school or office facility, that brings immediate operational advantages:</p>
 <ul style="padding-left: 20px; line-height: 1.9; color: #334155;">
   <li><strong>No ladders or scaffolding against the façade:</strong> Eliminates exterior surface damage and ladder fall hazards.</li>
@@ -144,16 +144,16 @@ ${ctaTop}
   <li><strong>A live camera feed:</strong> Defects, misaligned brackets and pooling are seen and recorded in real time, not guessed.</li>
   <li><strong>Debris contained in the vacuum:</strong> Silt and vegetation are sucked directly into the sealed drum instead of dropped onto grounds below.</li>
 </ul>
-<p>Height limits still apply. <a href="/blog/high-level-gutter-cleaning" style="${link}">High-Level Gutter Cleaning Birmingham | Fully Insured</a> explains the four-storey ground-based envelope. Buildings taller than that, or elevations with obstructed ground access, require individual assessment and specialized access equipment.</p>
+<p>Height limits still apply. <a href="/blog/high-level-gutter-cleaning/" style="${link}">High-Level Gutter Cleaning Birmingham | Fully Insured</a> explains the four-storey ground-based envelope. Buildings taller than that, or elevations with obstructed ground access, require individual assessment and specialized access equipment.</p>
 
 <h2 id="planning-term-office-hours" style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;">Planning Around Term Time and Office Hours</h2>
 <p>Timing is where commercial and institutional roofline work differs most from domestic appointments:</p>
 <ul style="padding-left: 20px; line-height: 1.9; color: #334155;">
   <li><strong>Schools often prefer holiday periods:</strong> Fewer students, minimal staff and empty car parks make access straightforward. However, school breaks are short, calendars fill rapidly across Birmingham, and autumn leaf shedding does not pause for half term. Visits can often be scheduled during term time using designated cordoned work zones, provided your school’s health, safety and visitor protocols permit.</li>
   <li><strong>Offices need less restriction:</strong> Work can proceed during standard working hours, though planning around peak arrival (08:00–09:30) and departure (16:30–18:00) times ensures entrances and smoking shelters remain accessible.</li>
-  <li><strong>Autumn is the regional pressure point:</strong> <a href="/blog/birmingham-autumn-gutter-guide/" style="${link}">Why Autumn Is the Most Dangerous Season for Birmingham Gutters</a> explains why heavy rainfall and tree shedding collide, while <a href="/blog/birmingham-autumn-gutter-guide/" style="${link}">Get Your Gutters Ready Before Birmingham’s Autumn Leaves Arrive</a> and <a href="/blog/gutter-cleaning-before-winter" style="${link}">Gutter Cleaning Before Winter Birmingham | Book Now</a> emphasize seasonal lead times. <a href="/blog/summer-gutter-cleaning-early/" style="${link}">Beat the Autumn Rush: Book Your Summer Gutter Cleaning Early</a> highlights the benefits of locking in slots in advance.</li>
+  <li><strong>Autumn is the regional pressure point:</strong> <a href="/blog/birmingham-autumn-gutter-guide/" style="${link}">Why Autumn Is the Most Dangerous Season for Birmingham Gutters</a> explains why heavy rainfall and tree shedding collide, while <a href="/blog/birmingham-autumn-gutter-guide/" style="${link}">Get Your Gutters Ready Before Birmingham’s Autumn Leaves Arrive</a> and <a href="/blog/gutter-cleaning-before-winter/" style="${link}">Gutter Cleaning Before Winter Birmingham | Book Now</a> emphasize seasonal lead times. <a href="/blog/summer-gutter-cleaning-early/" style="${link}">Beat the Autumn Rush: Book Your Summer Gutter Cleaning Early</a> highlights the benefits of locking in slots in advance.</li>
 </ul>
-<p>Site schedules vary, so <a href="/contact" style="${link}">contact us</a> with your specific property layout and preferred dates to plan availability.</p>
+<p>Site schedules vary, so <a href="/contact/" style="${link}">contact us</a> with your specific property layout and preferred dates to plan availability.</p>
 
 <h2 id="access-site-rules-safeguarding" style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;">Access, Site Rules and Safeguarding</h2>
 <p>Every educational and commercial premises operates under distinct visitor management rules. Schools maintain rigorous safeguarding protocols and visitor management systems, while commercial office parks use electronic badging, security gates and permit-to-work systems.</p>
@@ -181,7 +181,7 @@ ${ctaTop}
   <li><strong>Photographic audit and summary report:</strong> Comprehensive before-and-after imagery for estates records and compliance folders.</li>
 </ol>
 </div>
-<p>The step-by-step methodology is detailed in <a href="/blog/professional-gutter-walkthrough/" style="${link}">What Happens During a Professional Gutter Clean? A Birmingham Homeowner’s Walkthrough</a> and <a href="/blog/roofline-cleaning-birmingham" style="${link}">Roofline Cleaning Birmingham: Gutters, Fascias &amp; Soffits</a>. Our related commercial solutions include <a href="/gutter-cleaning" style="${link}">gutter cleaning</a>, <a href="/gutter-clearing" style="${link}">gutter clearing</a>, <a href="/fascia-soffit-cleaning" style="${link}">fascia and soffit cleaning</a>, <a href="/roof-cleaning" style="${link}">roof cleaning</a> and <a href="/roof-cleaning/" style="${link}">moss removal</a>, with documented examples in our <a href="/the-gutter-gallery/" style="${link}">project gallery</a>.</p>
+<p>The step-by-step methodology is detailed in <a href="/blog/professional-gutter-walkthrough/" style="${link}">What Happens During a Professional Gutter Clean? A Birmingham Homeowner’s Walkthrough</a> and <a href="/blog/roofline-cleaning-birmingham/" style="${link}">Roofline Cleaning Birmingham: Gutters, Fascias &amp; Soffits</a>. Our related commercial solutions include <a href="/gutter-cleaning/" style="${link}">gutter cleaning</a>, <a href="/gutter-clearing/" style="${link}">gutter clearing</a>, <a href="/fascia-soffit-cleaning/" style="${link}">fascia and soffit cleaning</a>, <a href="/roof-cleaning/" style="${link}">roof cleaning</a> and <a href="/roof-cleaning/" style="${link}">moss removal</a>, with documented examples in our <a href="/the-gutter-gallery/" style="${link}">project gallery</a>.</p>
 
 <figure style="margin: 32px 0;">
   <img src="${IMG_AFTER}" alt="Clean, fully cleared commercial gutter channel following professional vacuum extraction" style="width: 100%; border-radius: 12px; border: 1px solid #e2e8f0;" />
@@ -199,7 +199,7 @@ ${ctaTop}
   <li><strong>Flaking fascia coatings:</strong> Blistered paint or warped composite boards beneath gutter joins.</li>
   <li><strong>Internal upper-floor staining:</strong> Water marks, damp patches or peeling emulsion on top-floor perimeter ceilings and window reveals.</li>
 </ul>
-<p>The <a href="/blog/gutters-blocked-checklist" style="${link}">blocked gutters checklist</a>, <a href="/blog/clogged-gutters-signs" style="${link}">Clogged Gutters Birmingham: Signs You’re Missing</a> and <a href="/blog/summer-gutter-warning/" style="${link}">What Your Gutters Are Trying to Tell You This Summer</a> explain these indicators in depth. If water is actively pouring over walkways, refer to <a href="/blog/overflowing-gutters-fix" style="${link}">Overflowing Gutters in Birmingham? Causes &amp; Quick Fixes</a>. If water is entering teaching areas or IT suites, treat it as urgent under our <a href="/blog/emergency-gutter-cleaning" style="${link}">Emergency Gutter Cleaning Birmingham After Heavy Rain</a> service.</p>
+<p>The <a href="/blog/gutters-blocked-checklist/" style="${link}">blocked gutters checklist</a>, <a href="/blog/clogged-gutters-signs/" style="${link}">Clogged Gutters Birmingham: Signs You’re Missing</a> and <a href="/blog/summer-gutter-warning/" style="${link}">What Your Gutters Are Trying to Tell You This Summer</a> explain these indicators in depth. If water is actively pouring over walkways, refer to <a href="/blog/overflowing-gutters-fix/" style="${link}">Overflowing Gutters in Birmingham? Causes &amp; Quick Fixes</a>. If water is entering teaching areas or IT suites, treat it as urgent under our <a href="/blog/emergency-gutter-cleaning/" style="${link}">Emergency Gutter Cleaning Birmingham After Heavy Rain</a> service.</p>
 
 <h2 id="flat-roofs-box-gutters" style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;">Flat Roofs, Box Gutters and Parapets</h2>
 <p>Many institutional and commercial complexes drain through concealed box gutters, valley gutters or parapet troughs. Large flat or membrane roofs funnel vast rainwater volumes into these recessed channels. Because slopes are gentle, standing water can persist for days if outlets choke. Leaves, decomposing windblown dust and moss turn into dense silt beds where weeds take root, as illustrated in <a href="/blog/warehouse-gutter-case-study/" style="${link}">Warehouse Gutter Clearing: When Grass Is Growing in Your Box Gutter</a>.</p>
@@ -217,7 +217,7 @@ ${ctaTop}
 <h2 id="seasons-planned-maintenance" style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;">Seasons and Planned Maintenance</h2>
 <p>Commercial facilities operate far more reliably under Planned Preventative Maintenance (PPM) contracts rather than reactionary emergency calls. A proven institutional maintenance cycle includes:</p>
 <ul style="padding-left: 20px; line-height: 1.9; color: #334155;">
-  <li><strong>Summer (June–August):</strong> Dry weather allows comprehensive visual camera inspection and joint assessment. See <a href="/blog/summer-gutter-inspections/" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a>, <a href="/blog/birmingham-gutter-health-check-summer" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a> and <a href="/blog/summer-gutter-preparation/" style="${link}">Preparing Your Gutters During Summer for the Seasons Ahead</a>. The six-week school summer break offers an optimal window.</li>
+  <li><strong>Summer (June–August):</strong> Dry weather allows comprehensive visual camera inspection and joint assessment. See <a href="/blog/summer-gutter-inspections/" style="${link}">How Dry Summer Weather Makes Gutter Inspections Easier</a>, <a href="/blog/birmingham-gutter-health-check-summer/" style="${link}">Why Every Birmingham Home Needs a Gutter Health Check This Summer</a> and <a href="/blog/summer-gutter-preparation/" style="${link}">Preparing Your Gutters During Summer for the Seasons Ahead</a>. The six-week school summer break offers an optimal window.</li>
   <li><strong>Late Summer (August–September):</strong> Pre-autumn clearance removing dried moss beds before autumn storms. See <a href="/blog/summer-gutter-maintenance/" style="${link}">Late Summer Gutter Maintenance: Prepare Your Home for Autumn</a>.</li>
   <li><strong>Autumn and Winter (October–December):</strong> Deep extraction timed with final canopy leaf-drop to safeguard channels against winter freezes and heavy thaws.</li>
 </ul>
@@ -225,11 +225,11 @@ ${ctaTop}
 
 <h2 id="records-audits-insurance" style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;">Records, Audits and Insurance</h2>
 <p>Dated before-and-after photographic records alongside a written condition log turn maintenance expenditure into definitive compliance evidence. When governors, board trustees, local authorities or commercial property insurers query roofline upkeep following storm ingress, these photographic packs prove that reasonable maintenance duties were fulfilled.</p>
-<p>The core insurance principle is introduced in <a href="/blog/gutter-water-damage-guide/" style="${link}">Gutter Maintenance and Home Insurance: What Birmingham Homeowners Need to Know</a>. Property managers should review their specific commercial policy wording for condition warranties. Detailed roofline logs also assist capital valuation during lease renewals and property transactions, as discussed in <a href="/blog/gutters-before-selling" style="${link}">Gutters Before the For Sale Sign: A Birmingham Seller’s Checklist</a> and <a href="/blog/gutters-before-selling/" style="${link}">Selling Your Birmingham Home? Why Surveyors Always Check the Gutters First</a>.</p>
+<p>The core insurance principle is introduced in <a href="/blog/gutter-water-damage-guide/" style="${link}">Gutter Maintenance and Home Insurance: What Birmingham Homeowners Need to Know</a>. Property managers should review their specific commercial policy wording for condition warranties. Detailed roofline logs also assist capital valuation during lease renewals and property transactions, as discussed in <a href="/blog/gutters-before-selling/" style="${link}">Gutters Before the For Sale Sign: A Birmingham Seller’s Checklist</a> and <a href="/blog/gutters-before-selling/" style="${link}">Selling Your Birmingham Home? Why Surveyors Always Check the Gutters First</a>.</p>
 
 <h2 id="freeholders-tenants-agents" style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;">Freeholders, Tenants and Managing Agents</h2>
-<p>On multi-tenanted business parks and educational academy trusts, maintenance responsibilities can become fragmented. Freeholders, managing agents and commercial tenants frequently assume another party is supervising rainwater goods. <a href="/blog/block-gutter-maintenance/" style="${link}">Block Management Gutter Maintenance: A West Midlands Property Manager’s Checklist</a> covers cross-party coordination, while <a href="/blog/landlord-gutter-cleaning" style="${link}">Gutter Cleaning for Landlords &amp; Letting Agents Birmingham</a> addresses tenant reporting gaps.</p>
-<p>Shared downpipes and party wall boundaries also introduce operational complexity, as outlined in <a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham" style="${link}">Gutter Cleaning for Semi-Detached Homes: The Shared Boundary Issue in Birmingham</a>. Consult your commercial lease covenants and service charge schedules to confirm exact boundaries.</p>
+<p>On multi-tenanted business parks and educational academy trusts, maintenance responsibilities can become fragmented. Freeholders, managing agents and commercial tenants frequently assume another party is supervising rainwater goods. <a href="/blog/block-gutter-maintenance/" style="${link}">Block Management Gutter Maintenance: A West Midlands Property Manager’s Checklist</a> covers cross-party coordination, while <a href="/blog/landlord-gutter-cleaning/" style="${link}">Gutter Cleaning for Landlords &amp; Letting Agents Birmingham</a> addresses tenant reporting gaps.</p>
+<p>Shared downpipes and party wall boundaries also introduce operational complexity, as outlined in <a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham/" style="${link}">Gutter Cleaning for Semi-Detached Homes: The Shared Boundary Issue in Birmingham</a>. Consult your commercial lease covenants and service charge schedules to confirm exact boundaries.</p>
 
 <h2 id="what-visit-cant-do" style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;">What a Visit Can’t Do</h2>
 <p>A professional gutter clearance and camera survey observes, cleans and records what is present in the channel. It does not replace structural trade interventions. Specifically, a visit cannot:</p>
@@ -240,8 +240,8 @@ ${ctaTop}
   <li>Certify roof structural integrity or foundation condition.</li>
   <li>Provide statutory or insurance compliance certification.</li>
 </ul>
-<p>Structural joiners, drainage engineers, damp specialists or chartered surveyors carry out those respective assessments. For roofline deterioration signs, review <a href="/blog/soffit-damage-signs/" style="${link}">Soffit Damage in West Midlands Homes: Early Signs You Shouldn’t Ignore</a>, <a href="/blog/leaking-gutter-repair" style="${link}">Leaking Gutter Repair Birmingham: Fix or Replace?</a> and <a href="/blog/dripping-gutter-joints" style="${link}">Dripping Gutter Joints in Birmingham: Why They Leak and What Fixes Them</a>. Why gutters continue to collect silt is explored in <a href="/blog/stop-gutters-blocking" style="${link}">How Do You Stop Gutters From Blocking Again? A West Midlands Fix Guide</a>.</p>
-<p>Furthermore, parts of the West Midlands sit on heavy clay subsoils where prolonged downpipe saturation can exacerbate movement over time, as examined in <a href="/blog/gutter-water-damage-guide/" style="${link}">How Birmingham’s Clay Soil Affects Foundation Damage From Blocked Gutters</a>. Downpipe failures and their structural escalation are detailed in <a href="/blog/hidden-damage-blocked-downpipe-solihull" style="${link}">The Hidden Damage Behind Every Blocked Downpipe in Solihull</a> and <a href="/blog/downpipe-unblocking-birmingham" style="${link}">Downpipe Unblocking Birmingham | Fast Response</a>.</p>
+<p>Structural joiners, drainage engineers, damp specialists or chartered surveyors carry out those respective assessments. For roofline deterioration signs, review <a href="/blog/soffit-damage-signs/" style="${link}">Soffit Damage in West Midlands Homes: Early Signs You Shouldn’t Ignore</a>, <a href="/blog/leaking-gutter-repair/" style="${link}">Leaking Gutter Repair Birmingham: Fix or Replace?</a> and <a href="/blog/dripping-gutter-joints/" style="${link}">Dripping Gutter Joints in Birmingham: Why They Leak and What Fixes Them</a>. Why gutters continue to collect silt is explored in <a href="/blog/stop-gutters-blocking/" style="${link}">How Do You Stop Gutters From Blocking Again? A West Midlands Fix Guide</a>.</p>
+<p>Furthermore, parts of the West Midlands sit on heavy clay subsoils where prolonged downpipe saturation can exacerbate movement over time, as examined in <a href="/blog/gutter-water-damage-guide/" style="${link}">How Birmingham’s Clay Soil Affects Foundation Damage From Blocked Gutters</a>. Downpipe failures and their structural escalation are detailed in <a href="/blog/hidden-damage-blocked-downpipe-solihull/" style="${link}">The Hidden Damage Behind Every Blocked Downpipe in Solihull</a> and <a href="/blog/downpipe-unblocking-birmingham/" style="${link}">Downpipe Unblocking Birmingham | Fast Response</a>.</p>
 
 <h2 id="compare-contractors" style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;">How to Compare Contractors</h2>
 <p>When reviewing commercial quotes, compare operational standards rather than bottom-line prices alone:</p>
@@ -254,7 +254,7 @@ ${ctaTop}
   <li><strong>Audit documentation:</strong> Do they provide dated photographic proof of each run and outlet?</li>
   <li><strong>Operational scope:</strong> What specific tasks fall outside their remit?</li>
 </ul>
-<p>Be cautious of unusually rapid visits, as explained in <a href="/blog/gutter-clean-duration" style="${link}">How Long Does a Professional Gutter Clean Take in Birmingham?</a>. Confirm that the contractor has verifiable trade listings outside their own website. Our registrations on <a href="https://www.fyple.co.uk/company/wow-gutters-ltd-texh084/" target="_blank" rel="noopener noreferrer" style="${link}">Fyple</a>, <a href="https://ratingsplus.co.uk/city/birmingham/gutter-cleaners/wow-gutters-ltd" target="_blank" rel="noopener noreferrer" style="${link}">RatingsPlus</a> and <a href="https://www.friday-ad.co.uk/business/-/wow-gutters-ltd/7124953" target="_blank" rel="noopener noreferrer" style="${link}">Friday-Ad</a> provide third-party validation. Read customer <a href="/reviews" style="${link}">reviews</a>, browse our <a href="/the-gutter-gallery/" style="${link}">gallery</a> and review <a href="/about" style="${link}">about us</a>. For a broader overview, consult <a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">The Complete Guide to Gutter Maintenance for Birmingham &amp; West Midlands Homeowners</a>.</p>
+<p>Be cautious of unusually rapid visits, as explained in <a href="/blog/gutter-clean-duration/" style="${link}">How Long Does a Professional Gutter Clean Take in Birmingham?</a>. Confirm that the contractor has verifiable trade listings outside their own website. Our registrations on <a href="https://www.fyple.co.uk/company/wow-gutters-ltd-texh084/" target="_blank" rel="noopener noreferrer" style="${link}">Fyple</a>, <a href="https://ratingsplus.co.uk/city/birmingham/gutter-cleaners/wow-gutters-ltd" target="_blank" rel="noopener noreferrer" style="${link}">RatingsPlus</a> and <a href="https://www.friday-ad.co.uk/business/-/wow-gutters-ltd/7124953" target="_blank" rel="noopener noreferrer" style="${link}">Friday-Ad</a> provide third-party validation. Read customer <a href="/reviews/" style="${link}">reviews</a>, browse our <a href="/the-gutter-gallery/" style="${link}">gallery</a> and review <a href="/about/" style="${link}">about us</a>. For a broader overview, consult <a href="/blog/birmingham-seasonal-gutter-guide/" style="${link}">The Complete Guide to Gutter Maintenance for Birmingham &amp; West Midlands Homeowners</a>.</p>
 
 ${ctaBox}
 
@@ -274,8 +274,8 @@ ${ctaBox}
 <p>You can also check our website <a href="/help/" style="${link}">FAQ</a> for common operational questions.</p>
 
 <h2 id="areas-we-cover" style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;">Areas We Cover</h2>
-<p>WOW Gutters Ltd provides commercial and educational gutter cleaning across <a href="/gutter-cleaning-birmingham" style="${link}">Birmingham</a>, <a href="/gutter-cleaning-solihull" style="${link}">Solihull</a>, <a href="/gutter-cleaning-sutton-coldfield" style="${link}">Sutton Coldfield</a>, <a href="/gutter-cleaning-wolverhampton" style="${link}">Wolverhampton</a>, <a href="/gutter-cleaning-walsall" style="${link}">Walsall</a>, <a href="/gutter-cleaning-dudley" style="${link}">Dudley</a>, <a href="/gutter-cleaning-coventry" style="${link}">Coventry</a>, <a href="/gutter-cleaning-redditch" style="${link}">Redditch</a>, <a href="/gutter-cleaning-worcester" style="${link}">Worcester</a>, <a href="/gutter-cleaning-bromsgrove" style="${link}">Bromsgrove</a>, <a href="/gutter-cleaning-west-bromwich" style="${link}">West Bromwich</a> and <a href="/gutter-cleaning-service-areas/" style="${link}">all West Midlands areas</a>.</p>
-<p><a href="/contact" style="${link}">Contact us</a> or <a href="/quote" style="${link}">request a quote</a>.</p>
+<p>WOW Gutters Ltd provides commercial and educational gutter cleaning across <a href="/gutter-cleaning-birmingham/" style="${link}">Birmingham</a>, <a href="/gutter-cleaning-solihull/" style="${link}">Solihull</a>, <a href="/gutter-cleaning-sutton-coldfield/" style="${link}">Sutton Coldfield</a>, <a href="/gutter-cleaning-wolverhampton/" style="${link}">Wolverhampton</a>, <a href="/gutter-cleaning-walsall/" style="${link}">Walsall</a>, <a href="/gutter-cleaning-dudley/" style="${link}">Dudley</a>, <a href="/gutter-cleaning-coventry/" style="${link}">Coventry</a>, <a href="/gutter-cleaning-redditch/" style="${link}">Redditch</a>, <a href="/gutter-cleaning-worcester/" style="${link}">Worcester</a>, <a href="/gutter-cleaning-bromsgrove/" style="${link}">Bromsgrove</a>, <a href="/gutter-cleaning-west-bromwich/" style="${link}">West Bromwich</a> and <a href="/gutter-cleaning-service-areas/" style="${link}">all West Midlands areas</a>.</p>
+<p><a href="/contact/" style="${link}">Contact us</a> or <a href="/quote/" style="${link}">request a quote</a>.</p>
 <p>📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> | 📧 <a href="mailto:support@wowgutters.co.uk" style="${link}">support@wowgutters.co.uk</a> | 🌐 <a href="https://wowgutters.co.uk" style="${link}">https://wowgutters.co.uk</a></p>
 
 <h2 id="faq" style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;">FAQ: Commercial Gutter Cleaning</h2>
@@ -288,7 +288,7 @@ ${ctaBox}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Yes. See our <a href="/commercial-gutter-cleaning" style="${link}">commercial gutter cleaning</a> service and <a href="/contact" style="${link}">contact us</a> with your site details.</p>
+      <p style="margin: 16px 0 0;">Yes. See our <a href="/commercial-gutter-cleaning/" style="${link}">commercial gutter cleaning</a> service and <a href="/contact/" style="${link}">contact us</a> with your site details.</p>
     </div>
   </details>
 
@@ -298,7 +298,7 @@ ${ctaBox}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">No. The operator works safely from the ground using high-reach carbon fibre poles up to four storeys. See <a href="/blog/how-clean-gutters-without-ladder-birmingham-method" style="${link}">How Do You Clean Gutters Without a Ladder?</a>.</p>
+      <p style="margin: 16px 0 0;">No. The operator works safely from the ground using high-reach carbon fibre poles up to four storeys. See <a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">How Do You Clean Gutters Without a Ladder?</a>.</p>
     </div>
   </details>
 
@@ -308,7 +308,7 @@ ${ctaBox}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Often yes, but holiday windows fill quickly across Birmingham and the West Midlands. <a href="/contact" style="${link}">Contact us</a> early to reserve your dates.</p>
+      <p style="margin: 16px 0 0;">Often yes, but holiday windows fill quickly across Birmingham and the West Midlands. <a href="/contact/" style="${link}">Contact us</a> early to reserve your dates.</p>
     </div>
   </details>
 
@@ -348,7 +348,7 @@ ${ctaBox}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;">Not always. Ground-based reach covers up to four storeys, and certain flat, concealed box and parapet roofs require individual access appraisal. See <a href="/blog/high-level-gutter-cleaning" style="${link}">High-Level Gutter Cleaning Birmingham</a>.</p>
+      <p style="margin: 16px 0 0;">Not always. Ground-based reach covers up to four storeys, and certain flat, concealed box and parapet roofs require individual access appraisal. See <a href="/blog/high-level-gutter-cleaning/" style="${link}">High-Level Gutter Cleaning Birmingham</a>.</p>
     </div>
   </details>
 
@@ -368,7 +368,7 @@ ${ctaBox}
       <span style="flex-shrink: 0; width: 24px; height: 24px; border-radius: 50%; background: #047857; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; line-height: 1; font-weight: 400;">+</span>
     </summary>
     <div style="padding: 0 22px 18px; color: #475569; line-height: 1.75; border-top: 1px solid #f1f5f9;">
-      <p style="margin: 16px 0 0;"><a href="/gutter-cleaning-birmingham" style="${link}">Birmingham</a>, <a href="/gutter-cleaning-solihull" style="${link}">Solihull</a>, <a href="/gutter-cleaning-sutton-coldfield" style="${link}">Sutton Coldfield</a>, <a href="/gutter-cleaning-wolverhampton" style="${link}">Wolverhampton</a>, <a href="/gutter-cleaning-walsall" style="${link}">Walsall</a>, <a href="/gutter-cleaning-dudley" style="${link}">Dudley</a>, <a href="/gutter-cleaning-coventry" style="${link}">Coventry</a>, <a href="/gutter-cleaning-redditch" style="${link}">Redditch</a>, <a href="/gutter-cleaning-worcester" style="${link}">Worcester</a>, <a href="/gutter-cleaning-bromsgrove" style="${link}">Bromsgrove</a> and <a href="/gutter-cleaning-service-areas/" style="${link}">all West Midlands areas</a>.</p>
+      <p style="margin: 16px 0 0;"><a href="/gutter-cleaning-birmingham/" style="${link}">Birmingham</a>, <a href="/gutter-cleaning-solihull/" style="${link}">Solihull</a>, <a href="/gutter-cleaning-sutton-coldfield/" style="${link}">Sutton Coldfield</a>, <a href="/gutter-cleaning-wolverhampton/" style="${link}">Wolverhampton</a>, <a href="/gutter-cleaning-walsall/" style="${link}">Walsall</a>, <a href="/gutter-cleaning-dudley/" style="${link}">Dudley</a>, <a href="/gutter-cleaning-coventry/" style="${link}">Coventry</a>, <a href="/gutter-cleaning-redditch/" style="${link}">Redditch</a>, <a href="/gutter-cleaning-worcester/" style="${link}">Worcester</a>, <a href="/gutter-cleaning-bromsgrove/" style="${link}">Bromsgrove</a> and <a href="/gutter-cleaning-service-areas/" style="${link}">all West Midlands areas</a>.</p>
     </div>
   </details>
 
@@ -376,19 +376,19 @@ ${ctaBox}
 
 <h2 id="plan-roofline" style="font-size: 1.5rem; font-weight: 800; color: #0f172a; margin-top: 40px;">Plan the Roofline Before It Plans You</h2>
 <p>WOW Gutters Ltd provides fully insured, ground-based commercial gutter cleaning across Birmingham and the West Midlands, with live camera inspection and before and after photographs on every job. No ladders for standard gutter work.</p>
-<p>📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> | 🌐 <a href="https://wowgutters.co.uk" style="${link}">https://wowgutters.co.uk</a> | 📋 <a href="/quote" style="${link}">Request a quote</a></p>
-<p>Serving <a href="/gutter-cleaning-birmingham" style="${link}">Birmingham</a>, <a href="/gutter-cleaning-solihull" style="${link}">Solihull</a>, <a href="/gutter-cleaning-sutton-coldfield" style="${link}">Sutton Coldfield</a>, <a href="/gutter-cleaning-wolverhampton" style="${link}">Wolverhampton</a>, <a href="/gutter-cleaning-dudley" style="${link}">Dudley</a>, <a href="/gutter-cleaning-walsall" style="${link}">Walsall</a>, <a href="/gutter-cleaning-coventry" style="${link}">Coventry</a>, <a href="/gutter-cleaning-redditch" style="${link}">Redditch</a>, <a href="/gutter-cleaning-worcester" style="${link}">Worcester</a>, <a href="/gutter-cleaning-bromsgrove" style="${link}">Bromsgrove</a> and <a href="/gutter-cleaning-service-areas/" style="${link}">all West Midlands areas</a>.</p>
+<p>📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a> | 🌐 <a href="https://wowgutters.co.uk" style="${link}">https://wowgutters.co.uk</a> | 📋 <a href="/quote/" style="${link}">Request a quote</a></p>
+<p>Serving <a href="/gutter-cleaning-birmingham/" style="${link}">Birmingham</a>, <a href="/gutter-cleaning-solihull/" style="${link}">Solihull</a>, <a href="/gutter-cleaning-sutton-coldfield/" style="${link}">Sutton Coldfield</a>, <a href="/gutter-cleaning-wolverhampton/" style="${link}">Wolverhampton</a>, <a href="/gutter-cleaning-dudley/" style="${link}">Dudley</a>, <a href="/gutter-cleaning-walsall/" style="${link}">Walsall</a>, <a href="/gutter-cleaning-coventry/" style="${link}">Coventry</a>, <a href="/gutter-cleaning-redditch/" style="${link}">Redditch</a>, <a href="/gutter-cleaning-worcester/" style="${link}">Worcester</a>, <a href="/gutter-cleaning-bromsgrove/" style="${link}">Bromsgrove</a> and <a href="/gutter-cleaning-service-areas/" style="${link}">all West Midlands areas</a>.</p>
 
 <h2 id="related-articles" style="font-size: 1.4rem; font-weight: 800; color: #0f172a; margin-top: 40px;">Related Articles</h2>
 <ul style="padding-left: 20px; line-height: 1.9; color: #334155;">
-  <li><strong><a href="/blog/commercial-warehouse-gutter-clearing-birmingham" style="${link}">Commercial Warehouse Gutter Clearing Birmingham</a></strong></li>
+  <li><strong><a href="/blog/commercial-warehouse-gutter-clearing-birmingham/" style="${link}">Commercial Warehouse Gutter Clearing Birmingham</a></strong></li>
   <li><strong><a href="/blog/warehouse-gutter-case-study/" style="${link}">Warehouse Gutter Clearing: When Grass Is Growing in Your Box Gutter</a></strong></li>
-  <li><strong><a href="/blog/high-level-gutter-cleaning" style="${link}">High-Level Gutter Cleaning Birmingham | Fully Insured</a></strong></li>
+  <li><strong><a href="/blog/high-level-gutter-cleaning/" style="${link}">High-Level Gutter Cleaning Birmingham | Fully Insured</a></strong></li>
   <li><strong><a href="/blog/block-gutter-maintenance/" style="${link}">Block Management Gutter Maintenance: A West Midlands Property Manager’s Checklist</a></strong></li>
   <li><strong><a href="/blog/flat-roof-gutters/" style="${link}">Flat Roof Gutters in Birmingham: The Maintenance Problem Most Guides Ignore</a></strong></li>
-  <li><strong><a href="/blog/gutter-vacuum-cleaning-birmingham" style="${link}">Gutter Vacuum Cleaning Birmingham</a></strong></li>
-  <li><strong><a href="/blog/roofline-cleaning-birmingham" style="${link}">Roofline Cleaning Birmingham: Gutters, Fascias &amp; Soffits</a></strong></li>
-  <li><strong><a href="/blog/gutter-water-damage-guide" style="${link}">Water Damage From Gutters: Birmingham Homeowner Guide</a></strong></li>
+  <li><strong><a href="/blog/gutter-vacuum-cleaning-birmingham/" style="${link}">Gutter Vacuum Cleaning Birmingham</a></strong></li>
+  <li><strong><a href="/blog/roofline-cleaning-birmingham/" style="${link}">Roofline Cleaning Birmingham: Gutters, Fascias &amp; Soffits</a></strong></li>
+  <li><strong><a href="/blog/gutter-water-damage-guide/" style="${link}">Water Damage From Gutters: Birmingham Homeowner Guide</a></strong></li>
 </ul>
 `,
 };

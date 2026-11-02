@@ -236,9 +236,12 @@ ${legacy}
 
   # Spam-link URLs from third-party sites (GSC Oct 2026: 1.96M "Alternative page with
   # proper canonical tag" + most 404s). 410 Gone tells Google to drop them for good.
-  # Examples: /?shop/T784216772/  /?h21230297560550/  /shop/pg/68418848-2
-  # Real tracking params (gclid, utm_*, fbclid) do not match these patterns.
-  RewriteCond %{QUERY_STRING} ^shop/ [NC,OR]
+  # Examples: /?shop/T784216772/  /?items/K154523693/m  /?h21230297560550/  /shop/pg/68418848-2
+  # Oct 29 2026: GSC showed the live spam pattern is now /?items/<ID>/m — add it plus a
+  # catch-all for any "/?word/X123456789..." query, so new variants are dropped too.
+  # Real tracking params (gclid, utm_*, fbclid) contain "=" and never match these patterns.
+  RewriteCond %{QUERY_STRING} ^(shop|items)/ [NC,OR]
+  RewriteCond %{QUERY_STRING} ^[a-z]{2,15}/[a-z]?[0-9]{6,} [NC,OR]
   RewriteCond %{QUERY_STRING} ^[a-z]?[0-9]{8,}/?$ [NC]
   RewriteRule ^$ - [G,L]
   RewriteRule ^shop(/.*)?$ - [G,L]

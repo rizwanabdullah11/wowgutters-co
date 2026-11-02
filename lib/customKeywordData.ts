@@ -121,17 +121,17 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
 
   'gutter-cleaning-cost': {
     heroTitle: "Gutter Cleaning Cost UK",
-    heroDescription: "Clear, upfront pricing for professional gutter cleaning across Birmingham and the West Midlands. Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. No hidden fees, free flow testing, before & after camera verification, and complete water flow testing. Call WOW Gutters Ltd on 07421 433910.",
+    heroDescription: "Clear, upfront pricing for professional gutter cleaning across Birmingham and the West Midlands. Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200. No hidden fees, free flow testing, before & after camera verification, and complete water flow testing. Call WOW Gutters Ltd on 07421 433910.",
     sections: [
       {
         heading: "How Much Does Gutter Cleaning Cost in 2026?",
-        content: "At WOW Gutters Ltd, we believe in transparent, fixed-price gutter cleaning with zero surprises. Gutter cleaning prices generally range between £100 and £210 for residential properties depending on house size, height, and accessibility. Commercial buildings and large detached residences are quoted based on total linear metres and roof complexity.",
+        content: "At WOW Gutters Ltd, we believe in transparent, fixed-price gutter cleaning with zero surprises. Our fixed prices are £100 for a 2-bed home and £110 for a 3-bed home, and our Premium Service starts from £200. Commercial buildings are quoted individually based on gutter length and access.",
         bullets: [
           "2-bedroom home: £100 fixed",
           "3-bedroom semi-detached property: £110 fixed",
-          "4-5 bedroom detached executive house: from £100 – £140",
+          "Premium Service (complete gutter & roofline service): from £200",
           "Bungalows: from £100",
-          "Commercial premises & multi-storey blocks: tailored quotes from £120",
+          "Commercial premises & multi-storey blocks: custom quote",
           "All cleans include downpipe clearance, flow testing, and photographic proof",
         ],
       },
@@ -151,7 +151,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter cleaning cost on average in the UK?",
-        answer: "WOW Gutters Ltd prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes, including full vacuum clearance and before/after photos.",
+        answer: "WOW Gutters Ltd prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200, including full vacuum clearance and before/after photos.",
       },
       {
         question: "Are there any hidden costs added on the day?",
@@ -182,10 +182,10 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
         bullets: [
           "2-Bed Terrace / Flat: £100 fixed",
           "3-Bed Semi-Detached: £110 fixed",
-          "4+ Bed Detached: £140 – £210",
-          "Townhouse / 3-Storey: £130 – £195",
+          "Premium Service: from £200",
+          "Townhouse / 3-Storey: free fixed quote",
           "Bungalow (Front & Back): from £100",
-          "Conservatory Gutter Clearance Add-on: £20.00 – £35.00",
+          "Conservatory Cleaning: from £50",
         ],
       },
       {
@@ -195,9 +195,9 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
           "Minor Gutter Repair (Joint resealing / bracket replacement): from £30.00",
           "Full Exterior UPVC Fascia & Soffit Hot Wash: from £90.00",
           "Roof Moss Removal & Soft Wash Biocide Treatment: from £500.00",
-          "Patio & Driveway Pressure Washing: from £60.00",
-          "Window Cleaning (Pure Water Reach & Wash): from £25.00",
-          "Annual Planned Maintenance Contracts: 15% discount for regular scheduled visits",
+          "Patio & Driveway Pressure Washing: free fixed quote",
+          "Window Cleaning (Pure Water Reach & Wash): free fixed quote",
+          "Annual Planned Maintenance Contracts: ask for a tailored quote",
         ],
       },
     ],
@@ -233,9 +233,9 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
         heading: "Commercial Gutter Cleaning Pricing Structure",
         content: "Commercial gutter maintenance requires specialized high-reach vacuum technology, MEWPs (cherry pickers) where necessary, and stringent health and safety compliance. WOW Gutters Ltd offers transparent pricing structured by linear metre, building height, or fixed-price site contracts.",
         bullets: [
-          "Industrial units & warehouses: quoted from £2.50 – £6.00 per linear metre",
-          "Office buildings & retail stores: single-visit packages from £120 – £350",
-          "Schools, colleges & care homes: tailored multi-block rates from £250",
+          "Industrial units & warehouses: custom quote after a free site survey",
+          "Office buildings & retail stores: custom quote",
+          "Schools, colleges & care homes: custom multi-block quote",
           "High-reach vacuum clearing up to 4 storeys from ground level — no scaffold hire required",
           "Full RAMS (Risk Assessment & Method Statement) provided prior to site attendance",
           "Comprehensive photo & video verification reports for facilities managers and insurers",
@@ -286,9 +286,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
         heading: "How Much Does Fascia and Soffit Cleaning Cost?",
         content: "Over time, green algae, traffic grime, and atmospheric soot coat white and coloured UPVC fascias and soffits, dulling your property exterior. WOW Gutters Ltd uses specialised hot water-fed pole systems with gentle cleaning agents that lift ingrained dirt without scratching or peeling surfaces.",
         bullets: [
-          "2-bedroom terraced property: from £90.00",
-          "3-bedroom semi-detached home: £90.00 – £110.00",
-          "4-5 bedroom detached executive house: £110.00 – £160.00",
+          "Fascia & soffit cleaning: £90",
           "Bungalow / single-storey roofline: from £90",
           "Gutter clear + fascia/soffit wash bundle: save up to 25% on combined packages",
           "Includes external gutter washing, downpipe wipe down, and window frame rinse",
@@ -413,7 +411,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter replacement cost in Birmingham?",
-        answer: "Gutter replacement costs depend on property size and profile type. A standard semi-detached house typically ranges from £350 to £650 for complete guttering and downpipe replacement. We provide free, itemized quotations.",
+        answer: "Gutter replacement costs depend on property size and profile type. Gutter installation starts from £300. We provide free, itemized quotations.",
       },
       {
         question: "Can you replace fascias and soffits at the same time as gutters?",
@@ -678,7 +676,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
     faqs: [
       {
         question: "How much does gutter replacement cost for a typical Solihull home?",
-        answer: "Prices typically range from £350 to £650 for standard semi-detached and detached homes, depending on total linear metres, property height, and selected profile.",
+        answer: "Gutter installation starts from £300, with the final price depending on total linear metres, property height, and selected profile.",
       },
       {
         question: "Can you match the Anthracite Grey colour of our new windows and doors?",
@@ -743,7 +741,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does a gutter leak inspection and repair cost?",
-        answer: "Minor joint repairs start from just £30–£50 when combined with a clean, or from £60 as a standalone diagnostic visit.",
+        answer: "Gutter repairs start from £30. We confirm a fixed price on site before any work starts.",
       },
       {
         question: "How do I book a leak detection appointment?",
@@ -796,7 +794,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does it cost to fix a sagging gutter?",
-        answer: "Sagging gutter repairs typically cost between £40 and £90 depending on run length, accessibility, and whether new brackets or fascia reinforcements are needed.",
+        answer: "Gutter repairs start from £30, depending on run length, accessibility, and whether new brackets or fascia reinforcements are needed.",
       },
       {
         question: "How quickly can you attend to fix my sagging gutter?",
@@ -849,7 +847,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does it cost to fix a gutter hole in Birmingham?",
-        answer: "Standard hole and crack repairs typically cost between £35 and £75 depending on accessibility and repair method.",
+        answer: "Gutter repairs start from £30, depending on accessibility and repair method.",
       },
       {
         question: "How do I book a gutter repair appointment?",
@@ -902,7 +900,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does it cost to fix a dented gutter?",
-        answer: "Dent repairs and localized section replacements generally range from £40 to £85 depending on accessibility and material.",
+        answer: "Gutter repairs start from £30; section replacements are quoted free after we photograph the damage.",
       },
       {
         question: "How do I book a gutter dent repair?",
@@ -955,7 +953,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much do gutter damage repairs cost?",
-        answer: "Minor repairs start from £30–£50 when booked with a clean, with standalone repair visits typically costing between £100 and £210 depending on scope.",
+        answer: "Gutter repairs start from £30. Larger repairs are quoted individually after inspection, with a fixed price agreed before any work starts.",
       },
       {
         question: "How do I request emergency gutter damage repairs in Birmingham?",
@@ -1008,7 +1006,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does professional gutter joint sealing cost?",
-        answer: "Resealing individual joints costs from £30–£50 when added to a clean, or from £60 for a dedicated repair appointment.",
+        answer: "Joint resealing is part of our gutter repairs, which start from £30. We confirm a fixed price before any work starts.",
       },
       {
         question: "How do I book a gutter sealing service?",
@@ -1166,7 +1164,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does it cost to unblock a downpipe with a wasp nest?",
-        answer: "Downpipe unblocking typically costs between £45 and £70, or is included as part of a full gutter clean.",
+        answer: "Downpipe unblocking is quoted free upfront, or is included as part of a full gutter clean.",
       },
       {
         question: "How do I book a downpipe clearance?",
@@ -1272,7 +1270,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does downpipe clog clearance cost?",
-        answer: "Standalone downpipe unblocking starts from £45–£60, or is included as part of our comprehensive gutter cleaning packages.",
+        answer: "Downpipe flushing is included in every gutter clean (from £100). Complex blockages that need a pipe taken apart are quoted individually before any work starts.",
       },
       {
         question: "How do I book a downpipe clearance today?",
@@ -1378,7 +1376,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much do rainwater pipe repairs cost in Birmingham?",
-        answer: "Minor joint resealing and clip replacements start from £35–£55, with complete downpipe replacements starting from £80–£140.",
+        answer: "Gutter repairs start from £30. Larger jobs such as full downpipe replacement are quoted individually after we inspect the run, with a fixed price agreed before work starts.",
       },
       {
         question: "How do I schedule a rainwater pipe service?",
@@ -1431,7 +1429,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does it cost to repair a rainwater pipe?",
-        answer: "Standard downpipe repairs typically cost between £35 and £75 depending on height, access, and required parts.",
+        answer: "Downpipe repairs start from £30, depending on height, access and required parts.",
       },
       {
         question: "How do I book a repair visit?",
@@ -1484,7 +1482,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does downpipe repair cost?",
-        answer: "Repairs typically range between £35 and £75 depending on the parts required and building height.",
+        answer: "Repairs start from £30, depending on the parts required and building height.",
       },
       {
         question: "How do I book a downpipe repair in Birmingham?",
@@ -1537,7 +1535,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does standalone downpipe cleaning cost?",
-        answer: "Standalone downpipe clearing and flushing starts from £45, with package discounts available when combined with gutter cleaning.",
+        answer: "Downpipe clearing and flushing is quoted free upfront, with package discounts available when combined with gutter cleaning.",
       },
       {
         question: "How do I book a downpipe clean?",
@@ -1590,7 +1588,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does rainwater pipe installation cost in Halesowen?",
-        answer: "Downpipe replacements in Halesowen start from £80–£130 per run depending on property height and selected profile.",
+        answer: "Downpipe replacements in Halesowen are quoted individually after we inspect the run. Gutter repairs start from £30, and we agree a fixed price before any work starts.",
       },
       {
         question: "How do I get a free quote in Halesowen?",
@@ -1802,7 +1800,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does an Annual Gutter Maintenance Plan cost?",
-        answer: "Plans start from as little as £45 per visit for standard domestic properties, saving you 15% over standalone bookings.",
+        answer: "Plans are priced on your property size and visit frequency – ask us for a free, tailored quote.",
       },
       {
         question: "How do I sign up for an annual maintenance plan?",
@@ -1961,7 +1959,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does solar panel cleaning cost?",
-        answer: "Residential solar array cleaning starts from £60–£120 depending on array size and accessibility, with commercial quotes based on panel count.",
+        answer: "Solar panel cleaning is quoted free based on array size and accessibility.",
       },
       {
         question: "How do I book a solar panel clean?",
@@ -2059,7 +2057,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does solar panel cleaning cost in Solihull?",
-        answer: "Standard domestic solar cleans in Solihull range from £60 to £110 depending on the number of panels and roof accessibility.",
+        answer: "Solar panel cleans in Solihull are quoted free based on the number of panels and roof accessibility.",
       },
       {
         question: "How do I schedule a solar clean in Solihull?",
@@ -2112,7 +2110,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does professional patio cleaning cost?",
-        answer: "Patio cleaning starts from £60 for small patios and £90–£160 for medium to large paved areas. We provide free upfront quotes.",
+        answer: "Patio cleaning is priced on area and condition. We provide free, fixed upfront quotes.",
       },
       {
         question: "How do I book a patio clean?",
@@ -2218,7 +2216,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does patio cleaning cost in Birmingham?",
-        answer: "Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes.",
+        answer: "Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200.",
       },
       {
         question: "How do I book patio cleaning in Birmingham?",
@@ -2271,7 +2269,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does professional driveway cleaning cost?",
-        answer: "Standard single-car driveways start from £60–£80, with double and triple-car driveways ranging from £90–£180 including re-sanding.",
+        answer: "Driveway cleaning is priced on size and surface type – we give a free fixed quote before any work.",
       },
       {
         question: "How do I book a driveway clean?",
@@ -2422,7 +2420,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does pressure washing cost in the West Midlands?",
-        answer: "Small jobs start from £60, with average driveways and patios ranging from £80 to £160 depending on size and surface type.",
+        answer: "Driveways and patios are priced on size and surface type, with a free fixed quote before any work.",
       },
       {
         question: "How do I book a pressure washing service?",
@@ -2475,7 +2473,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does pressure washing cost in Sandwell?",
-        answer: "Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Contact us for a free exact quote.",
+        answer: "Prices are fixed: £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200. Contact us for a free exact quote.",
       },
       {
         question: "How do I book pressure washing in Sandwell?",
@@ -2573,7 +2571,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does professional window cleaning cost?",
-        answer: "Domestic window cleaning starts from £20–£35 for standard homes on a regular schedule, or from £35–£60 for one-off deep cleans.",
+        answer: "Window cleaning is quoted free based on property size, window count and how often you want it done.",
       },
       {
         question: "How do I book window cleaning?",
@@ -2626,7 +2624,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does window cleaning cost in Birmingham?",
-        answer: "Regular domestic cleans start from £20–£35 for standard homes, with larger detached properties ranging from £35–£55.",
+        answer: "Window cleaning is quoted free based on property size and window count.",
       },
       {
         question: "How do I book window cleaning in Birmingham?",
@@ -2679,7 +2677,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does window cleaning cost in Solihull?",
-        answer: "Regular window cleaning in Solihull typically costs between £25 and £45 depending on property size and window count.",
+        answer: "Window cleaning in Solihull is quoted free based on property size and window count.",
       },
       {
         question: "How do I book window cleaning in Solihull?",
@@ -2732,7 +2730,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does window cleaning cost in Wolverhampton?",
-        answer: "Regular domestic window cleaning in Wolverhampton starts from £20–£35 for standard homes.",
+        answer: "Window cleaning in Wolverhampton is quoted free based on property size and window count.",
       },
       {
         question: "How do I book window cleaning in Wolverhampton?",
@@ -2883,7 +2881,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does combined fascia and soffit cleaning cost?",
-        answer: "Prices typically range from £60 to £120 for standard residential properties, with bundle discounts available when combined with internal gutter vacuuming.",
+        answer: "Fascia and soffit cleaning is £90 for standard residential properties.",
       },
       {
         question: "Do you use harsh chemicals or bleach on the UPVC?",
@@ -2944,7 +2942,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does fascia and soffit cleaning cost in Kidderminster?",
-        answer: "Standard residential fascia and soffit cleaning in Kidderminster starts from £60–£85.",
+        answer: "Fascia and soffit cleaning in Kidderminster is £90 for standard residential properties.",
       },
       {
         question: "How do I book in Kidderminster?",
@@ -2997,7 +2995,7 @@ export const CUSTOM_KEYWORD_CONTENT: Record<string, CustomKeywordData> = {
       },
       {
         question: "How much does fascia cleaning cost in Solihull?",
-        answer: "Fascia cleaning in Solihull typically ranges from £60 to £110 depending on property size and roofline complexity.",
+        answer: "Fascia and soffit cleaning in Solihull is £90 for standard residential properties.",
       },
       {
         question: "How do I book fascia cleaning in Solihull?",

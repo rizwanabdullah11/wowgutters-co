@@ -60,7 +60,7 @@ export const overflowingGuttersBlogPost: BlogPost = {
   shortSummary: 'Overflowing Gutters Causes & Fixes',
   breadcrumbName: 'Overflowing Gutters Fix',
   content: `
-<p>Watching water pour over the edge of your gutter during a downpour is one of the more alarming things a homeowner can notice, and it usually happens at the worst possible time — heavy rain, no daylight left, no way to check what's actually going on up there. This guide covers the genuine causes behind overflowing gutters across <a href="/gutter-cleaning-birmingham" style="${link}">Birmingham</a> properties, what you can safely check from the ground right now, sensible interim steps while you wait for proper attention, and what genuinely needs a professional rather than a DIY fix.</p>
+<p>Watching water pour over the edge of your gutter during a downpour is one of the more alarming things a homeowner can notice, and it usually happens at the worst possible time — heavy rain, no daylight left, no way to check what's actually going on up there. This guide covers the genuine causes behind overflowing gutters across <a href="/gutter-cleaning-birmingham/" style="${link}">Birmingham</a> properties, what you can safely check from the ground right now, sensible interim steps while you wait for proper attention, and what genuinely needs a professional rather than a DIY fix.</p>
 
 ${ctaTop}
 
@@ -88,7 +88,7 @@ ${ctaTop}
 
 <p>Overflow is a symptom, not a diagnosis, and it can be produced by several genuinely different underlying causes, each requiring a different response. Before jumping to conclusions, it's worth understanding that a gutter overflowing at one specific point along its run tells you something different from a gutter overflowing along its entire length, and a gutter that only overflows during genuinely heavy rain tells you something different again from one that overflows even in light rain.</p>
 
-<p>As explained throughout our detailed guidance on <a href="/blog/hidden-gutter-damage-easier-spot-summer" style="${link}">hidden gutter damage that's easier to spot in summer</a>, the visible overflow you're seeing right now is frequently the final, obvious symptom of a problem that's been developing invisibly for weeks or months beforehand. Understanding which of the specific causes below matches your situation is the genuine first step toward fixing it properly rather than guessing.</p>
+<p>As explained throughout our detailed guidance on <a href="/blog/hidden-gutter-damage-easier-spot-summer/" style="${link}">hidden gutter damage that's easier to spot in summer</a>, the visible overflow you're seeing right now is frequently the final, obvious symptom of a problem that's been developing invisibly for weeks or months beforehand. Understanding which of the specific causes below matches your situation is the genuine first step toward fixing it properly rather than guessing.</p>
 
 <div style="margin: 32px 0;">
   <img src="${IMG_BEFORE}" alt="Overflowing gutter with debris blockage on Birmingham property" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);" loading="lazy" />
@@ -100,7 +100,7 @@ ${causeBox('One', 'Simple Blockage From Debris',
 )}
 
 ${causeBox('Two', 'A Silt Layer You Can\'t See',
-  `This is genuinely the cause most homeowners never consider, because it produces overflow without any visible debris being obviously present at all. As detailed extensively throughout our guidance on <a href="/blog/hidden-gutter-damage-easier-spot-summer" style="${link}">hidden gutter damage</a>, fine debris compacts over successive seasons into a dense silt layer at the channel base, reducing effective capacity without any visible symptom until rainfall finally exceeds that reduced capacity. A gutter that "looked clear" during a casual glance can still be genuinely overflowing because of exactly this hidden layer.`
+  `This is genuinely the cause most homeowners never consider, because it produces overflow without any visible debris being obviously present at all. As detailed extensively throughout our guidance on <a href="/blog/hidden-gutter-damage-easier-spot-summer/" style="${link}">hidden gutter damage</a>, fine debris compacts over successive seasons into a dense silt layer at the channel base, reducing effective capacity without any visible symptom until rainfall finally exceeds that reduced capacity. A gutter that "looked clear" during a casual glance can still be genuinely overflowing because of exactly this hidden layer.`
 )}
 
 ${causeBox('Three', 'Incorrect Fall Angle',
@@ -116,7 +116,7 @@ ${causeBox('Five', 'Undersized Guttering for a Heavy Downpour',
 )}
 
 ${causeBox('Six', 'A Shared Section on a Semi-Detached Property',
-  `If you live in a semi-detached property and your overflow seems to concentrate near the party wall junction, a shared gutter section or downpipe outlet, as detailed extensively throughout our guidance on <a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham" style="${link}">the shared boundary issue affecting Birmingham semi-detached homes</a>, may be the genuine explanation — debris entering via your neighbour's side of a shared system can restrict drainage for both properties simultaneously, regardless of your own maintenance.`
+  `If you live in a semi-detached property and your overflow seems to concentrate near the party wall junction, a shared gutter section or downpipe outlet, as detailed extensively throughout our guidance on <a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham/" style="${link}">the shared boundary issue affecting Birmingham semi-detached homes</a>, may be the genuine explanation — debris entering via your neighbour's side of a shared system can restrict drainage for both properties simultaneously, regardless of your own maintenance.`
 )}
 
 <h2 id="ground-checks" style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin-top: 40px;">What You Can Safely Check From the Ground Right Now</h2>
@@ -153,7 +153,7 @@ ${causeBox('Six', 'A Shared Section on a Semi-Detached Property',
 
 <h2 id="interim-steps" style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin-top: 40px;">Quick Interim Steps While You Wait</h2>
 
-<p>While waiting for proper attention, a few sensible, genuinely safe steps can limit the immediate consequences of ongoing overflow. Position a container or diverted channel at ground level beneath the worst overflow point if this genuinely reduces water pooling against your foundation, particularly relevant on Birmingham's clay-influenced soil as detailed throughout our careful guidance on <a href="/blog/gutter-water-damage-guide/" style="${link}">how clay soil affects foundation damage from blocked gutters</a>. Check whether any internal signs — a musty smell, visible damp — have appeared on the wall directly behind the overflowing section, since catching this early genuinely matters, as covered throughout our guidance on <a href="/blog/can-blocked-gutters-cause-damp" style="${link}">whether blocked gutters can cause damp</a>. And book a proper professional assessment rather than waiting to see if the problem resolves itself, since overflow of any of the types described above genuinely doesn't self-correct.</p>
+<p>While waiting for proper attention, a few sensible, genuinely safe steps can limit the immediate consequences of ongoing overflow. Position a container or diverted channel at ground level beneath the worst overflow point if this genuinely reduces water pooling against your foundation, particularly relevant on Birmingham's clay-influenced soil as detailed throughout our careful guidance on <a href="/blog/gutter-water-damage-guide/" style="${link}">how clay soil affects foundation damage from blocked gutters</a>. Check whether any internal signs — a musty smell, visible damp — have appeared on the wall directly behind the overflowing section, since catching this early genuinely matters, as covered throughout our guidance on <a href="/blog/can-blocked-gutters-cause-damp/" style="${link}">whether blocked gutters can cause damp</a>. And book a proper professional assessment rather than waiting to see if the problem resolves itself, since overflow of any of the types described above genuinely doesn't self-correct.</p>
 
 <h2 id="when-emergency" style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin-top: 40px;">When Overflow Is Actually an Emergency</h2>
 
@@ -176,7 +176,7 @@ ${causeBox('Six', 'A Shared Section on a Semi-Detached Property',
 
 <h2 id="professional-visit" style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin-top: 40px;">What a Professional Visit Fixes That You Can't</h2>
 
-<p>A proper professional visit, delivered entirely from ground level as detailed throughout our full explanation of <a href="/blog/how-clean-gutters-without-ladder-birmingham-method" style="${link}">how ground-based gutter cleaning technology actually works</a>, addresses every genuine cause described throughout this article within a single, coordinated visit:</p>
+<p>A proper professional visit, delivered entirely from ground level as detailed throughout our full explanation of <a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">how ground-based gutter cleaning technology actually works</a>, addresses every genuine cause described throughout this article within a single, coordinated visit:</p>
 
 <ul style="margin: 16px 0; padding-left: 20px; color: #334155; line-height: 2;">
   <li><strong>Full extraction to channel floor</strong> — addressing both visible debris and the hidden silt layer most homeowners can never check themselves</li>
@@ -186,11 +186,11 @@ ${causeBox('Six', 'A Shared Section on a Semi-Detached Property',
   <li><strong>Before and after photographs</strong> — HD evidence of condition before and after, provided directly to you</li>
 </ul>
 
-<p>As detailed throughout our full <a href="/blog/professional-gutter-walkthrough/" style="${link}">walkthrough of what a proper professional gutter clean includes</a>, and the <a href="/blog/leaking-gutter-repair" style="${link}">fix-or-replace decision guide for Birmingham homeowners</a>, a single well-executed professional visit genuinely addresses root causes rather than visible symptoms.</p>
+<p>As detailed throughout our full <a href="/blog/professional-gutter-walkthrough/" style="${link}">walkthrough of what a proper professional gutter clean includes</a>, and the <a href="/blog/leaking-gutter-repair/" style="${link}">fix-or-replace decision guide for Birmingham homeowners</a>, a single well-executed professional visit genuinely addresses root causes rather than visible symptoms.</p>
 
 <h2 id="stop-it-again" style="font-size: 1.6rem; font-weight: 900; color: #0f172a; margin-top: 40px;">How to Stop It Happening Again</h2>
 
-<p>Addressing today's overflow properly is only half the answer — the other half is understanding why it happened and preventing recurrence, as covered extensively throughout our complete guide on <a href="/blog/stop-gutters-blocking" style="${link}">how to genuinely stop gutters from blocking again</a>. This means treating whichever specific cause applies to your property — the silt layer, the fall angle, the downpipe restriction — as the actual thing to fix, rather than simply clearing today's visible symptom and hoping the same overflow doesn't recur next time it rains heavily.</p>
+<p>Addressing today's overflow properly is only half the answer — the other half is understanding why it happened and preventing recurrence, as covered extensively throughout our complete guide on <a href="/blog/stop-gutters-blocking/" style="${link}">how to genuinely stop gutters from blocking again</a>. This means treating whichever specific cause applies to your property — the silt layer, the fall angle, the downpipe restriction — as the actual thing to fix, rather than simply clearing today's visible symptom and hoping the same overflow doesn't recur next time it rains heavily.</p>
 
 ${ctaBox}
 
@@ -305,15 +305,15 @@ ${ctaBox}
 
 <h2 id="related-articles" style="font-size: 1.4rem; font-weight: 800; color: #0f172a; margin-top: 40px;">Related Articles</h2>
 <ul>
-  <li><strong><a href="/blog/hidden-gutter-damage-easier-spot-summer" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a></strong></li>
-  <li><strong><a href="/blog/stop-gutters-blocking" style="${link}">How Do You Stop Gutters From Blocking Again?</a></strong></li>
+  <li><strong><a href="/blog/hidden-gutter-damage-easier-spot-summer/" style="${link}">Hidden Gutter Damage Is Easier to Spot in Summer</a></strong></li>
+  <li><strong><a href="/blog/stop-gutters-blocking/" style="${link}">How Do You Stop Gutters From Blocking Again?</a></strong></li>
   <li><strong><a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">Downpipes Blocked Again? The Birmingham Fix Most Homeowners Miss</a></strong></li>
   <li><strong><a href="/blog/gutter-ladder-safety/" style="${link}">Can You Clean Your Own Gutters Safely?</a></strong></li>
   <li><strong><a href="/blog/gutter-water-damage-guide/" style="${link}">How Birmingham's Clay Soil Affects Foundation Damage From Blocked Gutters</a></strong></li>
-  <li><strong><a href="/blog/can-blocked-gutters-cause-damp" style="${link}">Can Blocked Gutters Cause Damp?</a></strong></li>
-  <li><strong><a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham" style="${link}">Gutter Cleaning for Semi-Detached Homes</a></strong></li>
-  <li><strong><a href="/blog/leaking-gutter-repair" style="${link}">Leaking Gutter Repair Birmingham: Fix or Replace?</a></strong></li>
-  <li><strong><a href="/blog/how-clean-gutters-without-ladder-birmingham-method" style="${link}">How Do You Clean Gutters Without a Ladder?</a></strong></li>
+  <li><strong><a href="/blog/can-blocked-gutters-cause-damp/" style="${link}">Can Blocked Gutters Cause Damp?</a></strong></li>
+  <li><strong><a href="/blog/gutter-cleaning-semi-detached-shared-boundary-birmingham/" style="${link}">Gutter Cleaning for Semi-Detached Homes</a></strong></li>
+  <li><strong><a href="/blog/leaking-gutter-repair/" style="${link}">Leaking Gutter Repair Birmingham: Fix or Replace?</a></strong></li>
+  <li><strong><a href="/blog/how-clean-gutters-without-ladder-birmingham-method/" style="${link}">How Do You Clean Gutters Without a Ladder?</a></strong></li>
   <li><strong><a href="/blog/blocked-gutters-birmingham/" style="${link}">Summer Storms and Blocked Gutters</a></strong></li>
 </ul>
 `,

@@ -97,7 +97,7 @@ export const harborneBlogPost: BlogPost = {
   📞 <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">Call WOW Gutters Ltd: 07421 433910</a> — free, no-obligation quote.
 </blockquote>
 
-<p>Learn more: <a href="/blog/signs-of-blocked-gutters-birmingham" style="${link}">signs your gutters need cleaning</a> and how overflow leads to damp on period brickwork.</p>
+<p>Learn more: <a href="/blog/signs-of-blocked-gutters-birmingham/" style="${link}">signs your gutters need cleaning</a> and how overflow leads to damp on period brickwork.</p>
 
 <h2 id="moor-pool">The Moor Pool Estate — A Special Case</h2>
 
@@ -240,7 +240,7 @@ Open 24 hours a day, 7 days a week</p>
   <li><a href="/blog/gutter-cleaning-acocks-green/" style="${link}">Gutter cleaning Acocks Green B27</a></li>
   <li><a href="/services/upvc-cleaning/" style="${link}">Fascia and soffit cleaning</a></li>
   <li><a href="/help/clean/" style="${link}">Roof cleaning Birmingham</a></li>
-  <li><a href="/blog/signs-of-blocked-gutters-birmingham" style="${link}">Signs your gutters need cleaning</a></li>
+  <li><a href="/blog/signs-of-blocked-gutters-birmingham/" style="${link}">Signs your gutters need cleaning</a></li>
   <li><a href="/gutter-cleaning-harborne/" style="${link}">Gutter cleaning Harborne service page</a></li>
 </ul>
   `,

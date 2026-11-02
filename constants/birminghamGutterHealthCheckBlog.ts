@@ -373,9 +373,9 @@ ${ctaBox}
 
 <ul>
   <li><a href="/blog/birmingham-autumn-gutter-guide/" style="color: #047857; font-weight: 600; text-decoration: none;">Get Your Gutters Ready Before Birmingham's Autumn Leaves Arrive</a></li>
-  <li><a href="/blog/birmingham-seasonal-gutter-guide" style="color: #047857; font-weight: 600; text-decoration: none;">Birmingham Gutter Maintenance Calendar: What to Do Each Season</a></li>
-  <li><a href="/blog/blocked-gutters-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;">Can Blocked Gutters Cause Damp?</a></li>
-  <li><a href="/blog/signs-of-blocked-gutters-birmingham" style="color: #047857; font-weight: 600; text-decoration: none;">Signs Your Gutters Need Immediate Cleaning</a></li>
+  <li><a href="/blog/birmingham-seasonal-gutter-guide/" style="color: #047857; font-weight: 600; text-decoration: none;">Birmingham Gutter Maintenance Calendar: What to Do Each Season</a></li>
+  <li><a href="/blog/blocked-gutters-birmingham/" style="color: #047857; font-weight: 600; text-decoration: none;">Can Blocked Gutters Cause Damp?</a></li>
+  <li><a href="/blog/signs-of-blocked-gutters-birmingham/" style="color: #047857; font-weight: 600; text-decoration: none;">Signs Your Gutters Need Immediate Cleaning</a></li>
 </ul>
 `,
 };

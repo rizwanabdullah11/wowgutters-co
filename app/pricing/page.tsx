@@ -106,7 +106,7 @@ export default function Pricing() {
                   ))}
                 </ul>
                 <Link
-                  href="/quote"
+                  href="/quote/"
                   className="w-full inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl font-bold text-sm sm:text-base text-white transition-all shadow-md hover:shadow-lg hover:scale-[1.01]"
                   style={{
                     background: pkg.popular ? colors.primaryGradient : '#0f172a',
@@ -196,7 +196,7 @@ export default function Pricing() {
 
                   <div className="w-full space-y-3">
                     <Link
-                      href="/quote"
+                      href="/quote/"
                       className="w-full inline-flex items-center justify-center gap-2 py-3.5 px-6 rounded-xl font-bold text-sm sm:text-base text-white transition-all shadow-lg hover:shadow-emerald-500/25 hover:scale-[1.02]"
                       style={{ background: colors.primaryGradient }}
                     >
@@ -261,7 +261,7 @@ export default function Pricing() {
           <div className="mt-8 pt-6 border-t border-gray-100 text-center">
             <p className="text-xs sm:text-sm text-gray-500">
               Need a bespoke package or commercial multi-site quote?{' '}
-              <Link href="/contact" className="font-bold underline text-gray-800 hover:text-emerald-700">
+              <Link href="/contact/" className="font-bold underline text-gray-800 hover:text-emerald-700">
                 Contact our technical team
               </Link>{' '}
               or use our{' '}

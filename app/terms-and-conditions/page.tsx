@@ -445,7 +445,7 @@ export default function TermsAndConditions() {
                 <ArrowRight className="w-5 h-5" />
               </a>
 
-              <Link href="/quote">
+              <Link href="/quote/">
                 <button 
                   className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 hover:bg-white border-2"
                   style={{ borderColor: colors.primary, color: colors.primary }}

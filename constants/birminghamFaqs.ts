@@ -4,7 +4,7 @@ export const BIRMINGHAM_AREA_FAQS = [
   {
     question: 'How much does gutter cleaning cost in Birmingham?',
     answer:
-      'Our gutter cleaning prices in Birmingham are fixed: £100 for a 2-bed home, £110 for a 3-bed home and £140–£210 for larger detached homes. Commercial properties are priced individually. We provide a fixed, transparent quote before any work starts — no hidden fees, no surprises.',
+      'Our gutter cleaning prices in Birmingham are fixed: £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200. Commercial properties are quoted individually. We provide a fixed, transparent quote before any work starts — no hidden fees, no surprises.',
     icon: '💳',
   },
   {

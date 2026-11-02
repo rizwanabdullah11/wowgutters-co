@@ -9,12 +9,12 @@ export function getBirminghamLocalBusinessSchema() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "LocalBusiness",
+        "@type": "HomeAndConstructionBusiness",
         "@id": "https://wowgutters.co.uk/#business",
         "name": "WOW Gutters Ltd",
         "telephone": "+447421433910",
         "email": "support@wowgutters.co.uk",
-        "url": "https://wowgutters.co.uk/gutter-cleaning-birmingham/",
+        "url": "https://wowgutters.co.uk/",
         "image": "https://wowgutters.co.uk/og/default.jpg",
         "logo": {
           "@type": "ImageObject",
@@ -30,8 +30,8 @@ export function getBirminghamLocalBusinessSchema() {
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 52.4862,
-          "longitude": -1.8904
+          "latitude": 52.4760288,
+          "longitude": -1.91898
         },
         "priceRange": "££",
         "openingHoursSpecification": OPENING_HOURS_SCHEMA,
