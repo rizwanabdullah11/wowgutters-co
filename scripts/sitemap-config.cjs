@@ -87,9 +87,7 @@ const REQUIRED_INDEXABLE_PATHS = [
   '/neighbourhood-discount/',
   '/quote/',
   '/windows-cleaning/',
-  '/citations/',
   '/contact/',
-  '/roof-cleaning-service-areas/',
 ];
 
 function readAreaSlugsFromRepo() {
