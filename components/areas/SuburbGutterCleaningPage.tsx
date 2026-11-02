@@ -11,6 +11,7 @@ import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import LocalBoostSection from '@/components/areas/LocalBoostSection';
 import { withLocalBoostFaqs } from '@/lib/localBoostContent';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
+import { gutterPriceSentence, whatsappLine } from '@/lib/localVariants';
 
 
 export interface SuburbPageData {
@@ -180,9 +181,7 @@ export default function SuburbGutterCleaningPage({
           <p className="text-slate-600 text-lg leading-relaxed mb-6">
             {serviceKind === 'gutter' ? (
               <>
-                Fixed prices in {data.city}: <strong>£100</strong> for a 2-bed home, <strong>£110</strong> for a 3-bed
-                home, and our Premium Service starts from <strong>£200</strong>. Commercial properties are quoted
-                individually.
+                {gutterPriceSentence(data.city)}
               </>
             ) : (
               <>
@@ -240,7 +239,7 @@ export default function SuburbGutterCleaningPage({
               Need a fast answer? <span className="text-[#34e3b6]">Message us on WhatsApp</span>
             </h2>
             <p className="mt-4 text-base md:text-lg text-[#dbe7ff]/88 max-w-xl">
-              Our {data.city} team responds quickly to WhatsApp messages. One tap and we&apos;ll help with quotes, availability and advice.
+              {whatsappLine(data.city)}
             </p>
           </div>
 

@@ -6,7 +6,7 @@ import { GOOGLE_REVIEWS_SUMMARY, googleReviewsCrawlSummary } from '@/lib/googleR
 import { gbpReviewUrl } from '@/lib/businessDetails';
 
 /** Server-rendered rating line: the Elfsight widget loads by script, so crawlers saw an empty section. */
-function RatingSummary() {
+function RatingSummary({ city }: { city?: string }) {
   const href = gbpReviewUrl();
   const label = (
     <>
@@ -25,7 +25,7 @@ function RatingSummary() {
           label
         )}
       </p>
-      <p className="mt-2 text-sm text-slate-600 max-w-2xl mx-auto">{googleReviewsCrawlSummary()}</p>
+      <p className="mt-2 text-sm text-slate-600 max-w-2xl mx-auto">{googleReviewsCrawlSummary(city)}</p>
     </div>
   );
 }
@@ -37,6 +37,7 @@ type GoogleReviewsBlockProps = {
 };
 
 export default function GoogleReviewsBlock({
+  city,
   variant = 'page',
   className = '',
 }: GoogleReviewsBlockProps) {
@@ -46,7 +47,7 @@ export default function GoogleReviewsBlock({
     return (
       <section className={`py-16 md:py-20 ${className}`} aria-label="Customer reviews">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <RatingSummary />
+          <RatingSummary city={city} />
           <ElfsightReviews showSummary={false} />
         </div>
       </section>

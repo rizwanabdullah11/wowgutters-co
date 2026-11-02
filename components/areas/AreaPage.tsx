@@ -14,6 +14,7 @@ import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaFeatures from '@/components/areas/AreaFeatures';
 import NearbyAreas from '@/components/areas/NearbyAreas';
 import AreaServicesHub from '@/components/navigation/AreaServicesHub';
+import { whatsappLine } from '@/lib/localVariants';
 
 
 interface AreaPageProps {
@@ -285,7 +286,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
               <span className="text-[#34e3b6]">Message us on WhatsApp</span>
             </h2>
             <p className="mt-4 text-base md:text-lg text-[#dbe7ff]/88 max-w-xl">
-              Our {formattedArea} team responds quickly to WhatsApp messages. One tap and we&apos;ll help you with quotes, availability and advice.
+              {whatsappLine(formattedArea)}
             </p>
           </div>
 

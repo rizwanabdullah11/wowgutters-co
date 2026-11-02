@@ -6,6 +6,7 @@ import { buildRoofSchemaFaqs } from '@/lib/roofCityFaqs';
 import { getAreaData } from '@/lib/getAreaData';
 import { areaPath, roofAreaPath } from '@/lib/areaSlugs';
 import { roofPriceFrom, roofPriceTo } from '@/lib/areaServiceMeta';
+import { roofTownLocal } from '@/lib/roofTownLocal';
 
 type AreaInput = CityData & { streets?: string[]; hubSlug?: string };
 
@@ -94,10 +95,13 @@ function roofHeroIntroFor(input: AreaInput, tone: RegionTone): string {
     solihull: `${name} is in the Solihull borough — village streets, 1930s semis and larger detached homes where tree cover accelerates moss on shaded roof sections.`,
   };
 
-  return `${toneLead[tone]} WOW Gutters Ltd provides roof cleaning across ${name} (${pc}) using controlled soft-wash methods — no damaging high-pressure washing, biocide applied after every clean, and before & after photos on every job.${streetBit}${nearbyBit}`;
+  const lead = roofTownLocal(input.slug)?.lead ?? toneLead[tone];
+  return `${lead} WOW Gutters Ltd provides roof cleaning across ${name} (${pc}) using controlled soft-wash methods — no damaging high-pressure washing, biocide applied after every clean, and before & after photos on every job.${streetBit}${nearbyBit}`;
 }
 
 function roofWhyBodyFor(input: AreaInput, tone: RegionTone): string[] {
+  const local = roofTownLocal(input.slug);
+  if (local) return [...local.why];
   const { name, postcodes } = input;
   const pc = postcodes[0] ?? 'local';
   return [
@@ -165,7 +169,7 @@ export function buildRoofLandingFromCity(input: AreaInput): CityGutterLandingDat
       '4.9★ rating from verified Google reviews',
     ],
     propertyTypesTitle: `Roof Cleaning for All Property Types in ${name}`,
-    propertyTypes: roofPropertyTypesFor(tone, name, nearbyAreas),
+    propertyTypes: roofTownLocal(slug)?.propertyTypes ?? roofPropertyTypesFor(tone, name, nearbyAreas),
     areasTitle: `Areas We Cover Around ${name}`,
     areasInline,
     faqsTitle: `FAQs — Roof Cleaning ${name}`,

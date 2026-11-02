@@ -7,6 +7,7 @@ import { areaPath, roofAreaPath } from '@/lib/areaSlugs';
 import { roofPriceFrom, roofPriceTo } from '@/lib/areaServiceMeta';
 import { buildRoofSchemaFaqs, roofInternalLinks } from '@/lib/roofCityFaqs';
 import { roofLocalSpotlight, roofSpecificFaq } from '@/lib/roofUniqueContent';
+import { roofTownLocal } from '@/lib/roofTownLocal';
 
 function formatAreaName(slug: string): string {
   return slug
@@ -73,7 +74,7 @@ export function getRoofSuburbLanding(slug: string): SuburbPageData | null {
     heroTitleLine1: `Roof Cleaning ${suburb.city}`,
     heroTitleLine2: `Moss Removal & Biocide Treatment Across ${pcLabel}`,
     whyTitle: `Why ${suburb.city} Roofs Need Professional Cleaning`,
-    whyParagraphs: [
+    whyParagraphs: roofTownLocal(slug) ? [roofTownLocal(slug)!.lead, ...roofTownLocal(slug)!.why] : [
       `${suburb.city}'s West Midlands climate creates ideal conditions for moss, algae and lichen on roof tiles. Damp weather, shaded north-facing slopes and mature garden trees all contribute to organic growth that holds moisture against tiles and pointing. Left untreated, moss accelerates frost damage in winter and sheds into gutters — causing blockages that overflow onto fascias and brickwork.`,
       `Professional roof cleaning with biocide treatment every 2\u20133 years is the most cost-effective way to protect your roof and maintain kerb appeal across ${suburb.city}. Our controlled soft-wash methods remove moss, algae and lichen without high-pressure damage to tiles, leaving your roofline looking restored and protected.`,
       ...(cityData ? [roofLocalSpotlight(cityData)].filter(Boolean as unknown as (x: string | undefined) => x is string) : []),
@@ -87,7 +88,7 @@ export function getRoofSuburbLanding(slug: string): SuburbPageData | null {
       '4.9★ rating from verified Google reviews',
     ],
     propertyTypesTitle: `Roof Cleaning for All Property Types in ${suburb.city}`,
-    propertyTypes: roofSuburbPropertyTypes(suburb.city),
+    propertyTypes: roofTownLocal(slug)?.propertyTypes ?? roofSuburbPropertyTypes(suburb.city),
     areasCoveredTitle: suburb.areasCoveredTitle,
     areasCoveredText: suburb.areasCoveredText,
     areaLinks: [
