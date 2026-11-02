@@ -1059,7 +1059,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                   <div className="service-section-image rounded-2xl overflow-hidden shadow-xl border border-slate-100">
                     <img
                       src={section.image}
-                      alt={section.title}
+                      alt={section.imageAlt ?? section.title}
                       className="w-full h-full object-cover"
                       loading="lazy"
                     />
@@ -1081,7 +1081,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                   <div className="service-section-image rounded-2xl overflow-hidden shadow-xl border border-slate-100">
                     <img
                       src={section.image}
-                      alt={section.title}
+                      alt={section.imageAlt ?? section.title}
                       className="w-full h-full object-cover"
                       loading="lazy"
                     />

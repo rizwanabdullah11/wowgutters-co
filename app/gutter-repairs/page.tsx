@@ -23,7 +23,8 @@ const service: ServiceDetail = {
       title: 'Why Choose WOW Gutters Ltd for Gutter Repairs?',
       content:
         'A leaking gutter rarely fixes itself. Water that misses the downpipe ends up against your walls, saturating brickwork, rotting fascias, and finding its way into your home. WOW Gutters Ltd treats every repair as a permanent solution — not a temporary patch. Our technicians carry a full stock of seals, brackets, connectors, and pipe sections so most repairs are completed in a single visit.',
-      image: '/gutter-repair-after.webp',
+      image: '/gutter-repair-technician-cherry-picker.webp',
+      imageAlt: 'WOW Gutters Ltd technician repairing a black uPVC gutter from a cherry picker',
       imagePosition: 'right',
       bulletPoints: [
         'Leaks diagnosed at the source — not just silicone over the symptom',
@@ -38,7 +39,8 @@ const service: ServiceDetail = {
       title: 'What We Fix',
       content:
         'Gutters take a lot of punishment — sun, frost, wind, and the weight of wet debris. Over time joints open up, brackets snap, and sections sag. WOW Gutters Ltd covers the full range of repairs, from a single leaking union to a full gutter run re-hung with new brackets.',
-      image: '/gutter-repair-before.webp',
+      image: '/gutter-repair-completed-black-gutter.webp',
+      imageAlt: 'Completed gutter repair on a white rendered building – WOW Gutters Ltd',
       imagePosition: 'left',
       bulletPoints: [
         'Leaking joints — corner pieces, unions, and stop-ends resealed',
