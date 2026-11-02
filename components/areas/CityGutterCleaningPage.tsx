@@ -7,6 +7,7 @@ import CollapsibleAreaFAQ from '@/components/areas/CollapsibleAreaFAQ';
 import { buildCityPageFaqs, isPrimaryCitySlug } from '@/lib/cityFaqs';
 import { AREA_SERVICE_META, type AreaServiceKind } from '@/lib/areaServiceMeta';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
+import { realRoofJobsFor } from '@/constants/realRoofJobs';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
@@ -15,6 +16,7 @@ import LocalBoostSection from '@/components/areas/LocalBoostSection';
 import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
 import { normalizeAreaHeroTitle } from '@/lib/areaHeroTitle';
+import { gutterPriceSentence, whatsappLine } from '@/lib/localVariants';
 
 
 export default function CityGutterCleaningPage({
@@ -120,6 +122,9 @@ export default function CityGutterCleaningPage({
         </div>
       </section>
 
+      {/* Reviews straight after the hero, like the homepage (Nov 2026) */}
+      <GoogleReviewsBlock city={data.city} className="bg-white" />
+
       <section className="py-16 px-4 bg-white border-b border-slate-100">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-6 text-center">{data.whyTitle}</h2>
@@ -171,11 +176,7 @@ export default function CityGutterCleaningPage({
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
               {serviceKind === 'gutter' ? (
-                <>
-                  Fixed prices in {data.city}: <strong>£100</strong> for a 2-bed home, <strong>£110</strong> for a
-                  3-bed home, and our Premium Service starts from <strong>£200</strong>. Commercial properties are
-                  quoted individually.
-                </>
+                <>{gutterPriceSentence(data.city)}</>
               ) : (
                 <>
                   Prices for {meta.label.toLowerCase()} in {data.city} start from <strong>£{priceFrom}</strong>. The exact
@@ -232,7 +233,7 @@ export default function CityGutterCleaningPage({
               Need a fast answer? <span className="text-[#34e3b6]">Message us on WhatsApp</span>
             </h2>
             <p className="mt-4 text-base md:text-lg text-[#dbe7ff]/88 max-w-xl">
-              Our {data.city} team responds quickly to WhatsApp messages. One tap and we&apos;ll help with quotes, availability and advice.
+              {whatsappLine(data.city)}
             </p>
           </div>
 
@@ -266,7 +267,6 @@ export default function CityGutterCleaningPage({
 
       <CollapsibleAreaFAQ city={data.city} faqs={pageFaqs} heading={data.faqsTitle} serviceLabel={meta.label.toLowerCase()} />
 
-      <GoogleReviewsBlock city={data.city} className="bg-white" />
 
       <section className="py-16 px-4 bg-white border-t border-slate-100">
         <div className="max-w-4xl mx-auto text-center">
@@ -279,8 +279,12 @@ export default function CityGutterCleaningPage({
         </div>
       </section>
 
-      <AreaBlogSnippet locality={data.city} />
-      <AreaRecentWork />
+      <AreaBlogSnippet locality={data.city} service={serviceKind === 'roof' ? 'roof' : 'gutter'} />
+      <AreaRecentWork
+        jobs={serviceKind === 'roof' ? realRoofJobsFor(data.slug) : undefined}
+        heading={`Recent Roof Cleaning in ${data.city} – Real Before & After`}
+        intro={`Real photos from a WOW Gutters roof clean in ${data.city}, not stock images.`}
+      />
       <AreaContactMap geo={data.geo} />
       {serviceKind !== 'repair' && serviceKind !== 'inspection' && serviceKind !== 'installation' && (
         <AreaServicesHub currentSlug={data.slug} serviceKind={serviceKind} cityName={data.city} />

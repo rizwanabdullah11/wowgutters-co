@@ -7,6 +7,7 @@ import policy from '@/lib/area-index-policy.json';
 const AREA = new Set<string>(policy.areaSlugs);
 const CORE = new Set<string>(policy.coreTowns);
 const KEEP_GUTTER = new Set<string>(policy.keepGutterCleaningSuburbs);
+const EXTRA_NOINDEX = new Set<string>((policy as { noindexPages?: string[] }).noindexPages ?? []);
 
 export type AreaFamily = 'gutter-cleaning' | 'roof-cleaning' | 'gutter-repair';
 
@@ -14,6 +15,7 @@ export type AreaFamily = 'gutter-cleaning' | 'roof-cleaning' | 'gutter-repair';
 export function isIndexableArea(family: AreaFamily, areaSlug: string): boolean {
   if (!AREA.has(areaSlug)) return true; // not an area page — not governed by this policy
   if (family === 'gutter-repair') return false; // Oct 31 2026: spun copies of gutter pages
+  if (EXTRA_NOINDEX.has(`${family}-${areaSlug}`)) return false; // Nov 2 2026 owner cut
   if (CORE.has(areaSlug)) return true;
   return family === 'gutter-cleaning' && KEEP_GUTTER.has(areaSlug);
 }

@@ -22,6 +22,7 @@ import {
 import AreaFacts from '@/components/areas/AreaFacts';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
+import { REAL_GUTTER_JOBS } from '@/constants/realGutterJobs';
 import AreaReviews from '@/components/areas/AreaReviews';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaFeatures from '@/components/areas/AreaFeatures';
@@ -633,6 +634,9 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         </div>
       </section>
 
+      {/* Reviews straight after the hero, like the homepage (Nov 2026) */}
+      <AreaReviews />
+
       {/* Intro & quote */}
       <section className="py-16 md:py-20 px-4 relative bg-gradient-to-b from-[#f8fafc] to-white border-t border-gray-100">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-16 items-start relative z-10">
@@ -1059,7 +1063,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                   <div className="service-section-image rounded-2xl overflow-hidden shadow-xl border border-slate-100">
                     <img
                       src={section.image}
-                      alt={section.title}
+                      alt={section.imageAlt ?? section.title}
                       className="w-full h-full object-cover"
                       loading="lazy"
                     />
@@ -1081,7 +1085,7 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
                   <div className="service-section-image rounded-2xl overflow-hidden shadow-xl border border-slate-100">
                     <img
                       src={section.image}
-                      alt={section.title}
+                      alt={section.imageAlt ?? section.title}
                       className="w-full h-full object-cover"
                       loading="lazy"
                     />
@@ -1183,8 +1187,11 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
           }
         />
       )}
-      <AreaRecentWork />
-      <AreaReviews />
+      <AreaRecentWork
+        jobs={service.id === 'gutter-cleaning' ? REAL_GUTTER_JOBS.slice(0, 3) : undefined}
+        heading="How Our Gutter Cleaning Works – Real Job Photos"
+        intro="From the ground, with a vacuum and a camera on the pole: here is what we find in gutters and what they look like when we leave."
+      />
       <AreaContactMap />
 
       <style>{`

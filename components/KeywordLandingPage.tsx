@@ -350,6 +350,9 @@ export default function KeywordLandingPage({ page }: { page: KeywordPage }) {
         </div>
       </section>
 
+      {/* Reviews straight after the hero, like the homepage (Nov 2026) */}
+      <GoogleReviewsBlock className="bg-white" />
+
       {/* WHY SECTION */}
       <section className="py-16 px-4 bg-white border-b border-slate-100">
         <div className="max-w-6xl mx-auto">
@@ -595,7 +598,6 @@ export default function KeywordLandingPage({ page }: { page: KeywordPage }) {
         </div>
       </section>
 
-      <GoogleReviewsBlock className="bg-white" />
 
       {/* CTA */}
       <section className="py-16 px-4 bg-white border-t border-slate-100">

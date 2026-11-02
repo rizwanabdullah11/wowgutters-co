@@ -10,6 +10,7 @@ import { areaPath } from '@/lib/areaSlugs';
 import BirminghamFAQ from '@/components/areas/BirminghamFAQ';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
+import { REAL_GUTTER_JOBS } from '@/constants/realGutterJobs';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
@@ -217,6 +218,9 @@ export default function BirminghamGutterCleaningPage() {
           </svg>
         </div>
       </section>
+
+      {/* Reviews straight after the hero, like the homepage (Nov 2026) */}
+      <GoogleReviewsBlock city="Birmingham" className="bg-white" />
 
       <section className="py-16 md:py-20 px-4 bg-white border-b border-slate-100">
         <div className="max-w-4xl mx-auto text-center">
@@ -530,7 +534,6 @@ export default function BirminghamGutterCleaningPage() {
 
       <BirminghamFAQ />
 
-      <GoogleReviewsBlock city="Birmingham" className="bg-white" />
 
       <section
         className="py-16 px-4 border-t border-slate-200"
@@ -579,7 +582,11 @@ export default function BirminghamGutterCleaningPage() {
       </section>
 
       <AreaBlogSnippet locality="Birmingham" />
-      <AreaRecentWork />
+      <AreaRecentWork
+        jobs={REAL_GUTTER_JOBS}
+        heading="Recent Gutter Cleaning Jobs – Real Before & After Photos"
+        intro="These are real photos from WOW Gutters jobs, not stock images. It is the same proof you get after we clean your gutters in Birmingham: before & after photos of every run we clear."
+      />
       <AreaContactMap variant="birmingham" />
       <AreaServicesHub currentSlug="birmingham" serviceKind="gutter" cityName="Birmingham" />
 

@@ -6,11 +6,13 @@ import { AREA_SERVICE_META, type AreaServiceKind } from '@/lib/areaServiceMeta';
 import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
+import { realRoofJobsFor } from '@/constants/realRoofJobs';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import LocalBoostSection from '@/components/areas/LocalBoostSection';
 import { withLocalBoostFaqs } from '@/lib/localBoostContent';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
+import { gutterPriceSentence, whatsappLine } from '@/lib/localVariants';
 
 
 export interface SuburbPageData {
@@ -138,6 +140,9 @@ export default function SuburbGutterCleaningPage({
         </div>
       </section>
 
+      {/* Reviews straight after the hero, like the homepage (Nov 2026) */}
+      <GoogleReviewsBlock city={data.city} className="bg-white" />
+
       {/* SECTION 1 — WHY */}
       <section className="py-16 md:py-20 px-4 bg-white border-b border-slate-100">
         <div className="max-w-6xl mx-auto">
@@ -180,9 +185,7 @@ export default function SuburbGutterCleaningPage({
           <p className="text-slate-600 text-lg leading-relaxed mb-6">
             {serviceKind === 'gutter' ? (
               <>
-                Fixed prices in {data.city}: <strong>£100</strong> for a 2-bed home, <strong>£110</strong> for a 3-bed
-                home, and our Premium Service starts from <strong>£200</strong>. Commercial properties are quoted
-                individually.
+                {gutterPriceSentence(data.city)}
               </>
             ) : (
               <>
@@ -240,7 +243,7 @@ export default function SuburbGutterCleaningPage({
               Need a fast answer? <span className="text-[#34e3b6]">Message us on WhatsApp</span>
             </h2>
             <p className="mt-4 text-base md:text-lg text-[#dbe7ff]/88 max-w-xl">
-              Our {data.city} team responds quickly to WhatsApp messages. One tap and we&apos;ll help with quotes, availability and advice.
+              {whatsappLine(data.city)}
             </p>
           </div>
 
@@ -313,7 +316,6 @@ export default function SuburbGutterCleaningPage({
         </div>
       </section>
 
-      <GoogleReviewsBlock city={data.city} className="bg-white" />
 
       {/* SECTION 8 — POSTCODES */}
       <section className="py-16 px-4 bg-slate-50 border-y border-slate-200">
@@ -348,8 +350,12 @@ export default function SuburbGutterCleaningPage({
         </div>
       </section>
 
-      <AreaBlogSnippet locality={data.blogLocality} />
-      <AreaRecentWork />
+      <AreaBlogSnippet locality={data.blogLocality} service={serviceKind === 'roof' ? 'roof' : 'gutter'} />
+      <AreaRecentWork
+        jobs={serviceKind === 'roof' ? realRoofJobsFor(areaSlug) : undefined}
+        heading={`Recent Roof Cleaning in ${data.city} – Real Before & After`}
+        intro={`Real photos from a WOW Gutters roof clean in ${data.city}, not stock images.`}
+      />
       <AreaContactMap />
       {serviceKind !== 'repair' && serviceKind !== 'inspection' && serviceKind !== 'installation' && (
         <AreaServicesHub currentSlug={areaSlug ?? data.city.toLowerCase().replace(/\s+/g, '-')} serviceKind={serviceKind} cityName={data.city} />

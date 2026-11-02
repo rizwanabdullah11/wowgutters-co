@@ -10,6 +10,7 @@ export interface ServiceDetail {
     title: string;
     content: string;
     image?: string;
+    imageAlt?: string;
     imagePosition?: 'left' | 'right';
     bulletPoints?: string[];
   }[];

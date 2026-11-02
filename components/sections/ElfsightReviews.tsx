@@ -1,10 +1,8 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { GOOGLE_REVIEWS_SUMMARY, googleReviewsCrawlSummary } from '@/lib/googleReviews';
 import StaticGoogleReviews from '@/components/sections/StaticGoogleReviews';
 import { FEATURED_GOOGLE_REVIEWS } from '@/constants/googleReviewsData';
-import { gbpReviewUrl } from '@/lib/businessDetails';
 
 const ELFSIGHT_PLATFORM_SRC = 'https://elfsightcdn.com/platform.js';
 
@@ -68,10 +66,10 @@ type ElfsightReviewsProps = {
   showSummary?: boolean;
 };
 
-/** Public Google listing — shown when the Elfsight widget can't render. */
-const GOOGLE_REVIEWS_URL = gbpReviewUrl();
-
-export default function ElfsightReviews({ showSummary = true }: ElfsightReviewsProps) {
+// `showSummary` is kept for compatibility but no longer renders anything (Nov 2026: owner asked
+// for the summary sentence and the yellow "4.9/5 on Google" fallback card to be removed).
+export default function ElfsightReviews(props: ElfsightReviewsProps) {
+  void props;
   const containerRef = useRef<HTMLDivElement>(null);
   const widgetRef = useRef<HTMLDivElement>(null);
   const [widgetEmpty, setWidgetEmpty] = useState(false);
@@ -129,33 +127,8 @@ export default function ElfsightReviews({ showSummary = true }: ElfsightReviewsP
 
   return (
     <div ref={containerRef} className={`w-full ${widgetEmpty ? '' : 'min-h-[360px]'}`}>
-      {showSummary ? (
-        <p className="mb-6 text-center text-slate-600 text-base max-w-2xl mx-auto">
-          {googleReviewsCrawlSummary()}
-        </p>
-      ) : null}
       <div ref={widgetRef} key={widgetId} className={`elfsight-app-${widgetId}`} />
-      {widgetEmpty ? (
-        <div>
-          {FEATURED_GOOGLE_REVIEWS.length > 0 ? <StaticGoogleReviews className="mb-8" /> : null}
-          <div className="mx-auto max-w-xl rounded-2xl border border-amber-200 bg-amber-50 p-6 text-center">
-            <p className="text-2xl font-black text-slate-900">
-              <span className="text-amber-500" aria-hidden>★★★★★</span> {GOOGLE_REVIEWS_SUMMARY.starsDisplay} on Google
-            </p>
-            <p className="mt-2 text-slate-700">
-              Read verified reviews from homeowners across Birmingham and the West Midlands on our Google Business Profile.
-            </p>
-            <a
-              href={GOOGLE_REVIEWS_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 inline-flex items-center justify-center rounded-full bg-emerald-600 px-6 py-3 font-bold text-white hover:bg-emerald-700"
-            >
-              Read our Google reviews
-            </a>
-          </div>
-        </div>
-      ) : null}
+      {widgetEmpty && FEATURED_GOOGLE_REVIEWS.length > 0 ? <StaticGoogleReviews className="mb-8" /> : null}
     </div>
   );
 }

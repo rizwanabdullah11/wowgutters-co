@@ -44,7 +44,6 @@ export default function Footer() {
 
   const info = [
     { name: 'Questions & Answers', path: '/help' },
-    { name: 'Gutter Guides', path: '/gutter-guides' },
     { name: 'Latest News', path: '/latest-news' },
     { name: 'The Gutter Gallery', path: '/the-gutter-gallery' },
     { name: 'Neighbourhood Discount', path: '/neighbourhood-discount' },
@@ -71,12 +70,6 @@ export default function Footer() {
     { name: 'Gutter Installation Birmingham', path: '/gutter-installation-birmingham/' },
     { name: 'Gutter Cleaning Near Me', path: '/gutter-cleaning-near-me/' },
     { name: 'Commercial Gutter Cleaning', path: '/services/commercial-gutter-cleaning/' },
-  ];
-
-  const hubLinks = [
-    { name: 'All Gutter Cleaning Areas', path: '/gutter-cleaning-service-areas/' },
-    { name: 'All Roof Cleaning Areas', path: '/roof-cleaning-service-areas/' },
-    { name: 'All Gutter Repair Areas', path: '/gutter-repair-service-areas/' },
   ];
 
   return (
