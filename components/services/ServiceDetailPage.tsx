@@ -634,6 +634,9 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         </div>
       </section>
 
+      {/* Reviews straight after the hero, like the homepage (Nov 2026) */}
+      <AreaReviews />
+
       {/* Intro & quote */}
       <section className="py-16 md:py-20 px-4 relative bg-gradient-to-b from-[#f8fafc] to-white border-t border-gray-100">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-16 items-start relative z-10">
@@ -1189,7 +1192,6 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         heading="How Our Gutter Cleaning Works – Real Job Photos"
         intro="From the ground, with a vacuum and a camera on the pole: here is what we find in gutters and what they look like when we leave."
       />
-      <AreaReviews />
       <AreaContactMap />
 
       <style>{`

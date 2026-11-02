@@ -219,6 +219,9 @@ export default function BirminghamGutterCleaningPage() {
         </div>
       </section>
 
+      {/* Reviews straight after the hero, like the homepage (Nov 2026) */}
+      <GoogleReviewsBlock city="Birmingham" className="bg-white" />
+
       <section className="py-16 md:py-20 px-4 bg-white border-b border-slate-100">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-xs font-bold tracking-[0.2em] uppercase mb-4" style={{ color: colors.primary }}>
@@ -531,7 +534,6 @@ export default function BirminghamGutterCleaningPage() {
 
       <BirminghamFAQ />
 
-      <GoogleReviewsBlock city="Birmingham" className="bg-white" />
 
       <section
         className="py-16 px-4 border-t border-slate-200"

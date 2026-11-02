@@ -2,52 +2,26 @@ import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { colors } from '@/constants/colors';
 import ElfsightReviews from '@/components/sections/ElfsightReviews';
-import { GOOGLE_REVIEWS_SUMMARY, googleReviewsCrawlSummary } from '@/lib/googleReviews';
-import { gbpReviewUrl } from '@/lib/businessDetails';
 
-/** Server-rendered rating line: the Elfsight widget loads by script, so crawlers saw an empty section. */
-function RatingSummary({ city }: { city?: string }) {
-  const href = gbpReviewUrl();
-  const label = (
-    <>
-      <span className="text-amber-500" aria-hidden>★★★★★</span>{' '}
-      Rated <strong>{GOOGLE_REVIEWS_SUMMARY.ratingLabel}★ on Google</strong>
-    </>
-  );
-  return (
-    <div className="text-center mb-8">
-      <p className="text-lg text-slate-800">
-        {href ? (
-          <a href={href} target="_blank" rel="noopener noreferrer" className="hover:underline">
-            {label}
-          </a>
-        ) : (
-          label
-        )}
-      </p>
-      <p className="mt-2 text-sm text-slate-600 max-w-2xl mx-auto">{googleReviewsCrawlSummary(city)}</p>
-    </div>
-  );
-}
-
+/**
+ * Google reviews section. Nov 2026: the "Rated 4.9★ on Google" text box above the widget was
+ * removed on every page at the owner's request; pages now show the live reviews only, placed
+ * straight after the hero like the homepage (HomeTrustReviews).
+ */
 type GoogleReviewsBlockProps = {
   city?: string;
   variant?: 'homepage' | 'page';
   className?: string;
 };
 
-export default function GoogleReviewsBlock({
-  city,
-  variant = 'page',
-  className = '',
-}: GoogleReviewsBlockProps) {
-  const isHomepage = variant === 'homepage';
-
-  if (!isHomepage) {
+export default function GoogleReviewsBlock({ city, variant = 'page', className = '' }: GoogleReviewsBlockProps) {
+  if (variant !== 'homepage') {
     return (
-      <section className={`py-16 md:py-20 ${className}`} aria-label="Customer reviews">
+      <section className={`py-10 md:py-14 ${className}`} aria-labelledby="page-reviews-heading">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <RatingSummary city={city} />
+          <h2 id="page-reviews-heading" className="sr-only">
+            {city ? `What ${city} customers say about WOW Gutters Ltd` : 'What customers say about WOW Gutters Ltd'}
+          </h2>
           <ElfsightReviews showSummary={false} />
         </div>
       </section>
@@ -61,16 +35,6 @@ export default function GoogleReviewsBlock({
       aria-labelledby="google-reviews-heading"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-center gap-3 mb-5">
-          <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
-          <span
-            className="text-xs font-bold tracking-[0.2em] uppercase"
-            style={{ color: colors.primaryText }}
-          >
-            Local Customer Feedback
-          </span>
-          <span className="h-px w-10" style={{ backgroundColor: colors.primary }} />
-        </div>
         <div className="flex items-end justify-between mb-10">
           <h2
             id="google-reviews-heading"
@@ -87,7 +51,6 @@ export default function GoogleReviewsBlock({
             See All <ArrowRight className="w-3.5 h-3.5" />
           </Link>
         </div>
-        <RatingSummary />
         <ElfsightReviews showSummary={false} />
       </div>
     </section>

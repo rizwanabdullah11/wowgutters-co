@@ -6,6 +6,7 @@ import { AREA_SERVICE_META, type AreaServiceKind } from '@/lib/areaServiceMeta';
 import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
+import { realRoofJobsFor } from '@/constants/realRoofJobs';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import LocalBoostSection from '@/components/areas/LocalBoostSection';
@@ -138,6 +139,9 @@ export default function SuburbGutterCleaningPage({
           </svg>
         </div>
       </section>
+
+      {/* Reviews straight after the hero, like the homepage (Nov 2026) */}
+      <GoogleReviewsBlock city={data.city} className="bg-white" />
 
       {/* SECTION 1 — WHY */}
       <section className="py-16 md:py-20 px-4 bg-white border-b border-slate-100">
@@ -312,7 +316,6 @@ export default function SuburbGutterCleaningPage({
         </div>
       </section>
 
-      <GoogleReviewsBlock city={data.city} className="bg-white" />
 
       {/* SECTION 8 — POSTCODES */}
       <section className="py-16 px-4 bg-slate-50 border-y border-slate-200">
@@ -347,8 +350,12 @@ export default function SuburbGutterCleaningPage({
         </div>
       </section>
 
-      <AreaBlogSnippet locality={data.blogLocality} />
-      <AreaRecentWork />
+      <AreaBlogSnippet locality={data.blogLocality} service={serviceKind === 'roof' ? 'roof' : 'gutter'} />
+      <AreaRecentWork
+        jobs={serviceKind === 'roof' ? realRoofJobsFor(areaSlug) : undefined}
+        heading={`Recent Roof Cleaning in ${data.city} – Real Before & After`}
+        intro={`Real photos from a WOW Gutters roof clean in ${data.city}, not stock images.`}
+      />
       <AreaContactMap />
       {serviceKind !== 'repair' && serviceKind !== 'inspection' && serviceKind !== 'installation' && (
         <AreaServicesHub currentSlug={areaSlug ?? data.city.toLowerCase().replace(/\s+/g, '-')} serviceKind={serviceKind} cityName={data.city} />

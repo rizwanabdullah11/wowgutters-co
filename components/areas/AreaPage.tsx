@@ -93,6 +93,9 @@ export default function AreaPage({ areaName }: AreaPageProps) {
         </div>
       </section>
 
+      {/* Reviews straight after the hero, like the homepage (Nov 2026) */}
+      <AreaReviews />
+
       {/* 2) Engineer Profile & Work Section */}
       {/* <section className="py-20 px-4 bg-white relative">
         <div className="max-w-7xl mx-auto">
@@ -337,7 +340,6 @@ export default function AreaPage({ areaName }: AreaPageProps) {
 
       {/* New Footer/Bottom Components */}
       <AreaRecentWork />
-      <AreaReviews />
       <AreaContactMap />
       <AreaServicesHub currentSlug={areaName.toLowerCase().replace(/\s+/g, '-')} serviceKind="gutter" cityName={areaName} />
 

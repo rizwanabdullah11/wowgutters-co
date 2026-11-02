@@ -7,6 +7,8 @@ import { pickMany } from '@/lib/localVariants';
 
 type AreaBlogSnippetProps = {
   locality?: string;
+  /** Roof pages show roof guides instead of gutter guides. */
+  service?: 'gutter' | 'roof';
 };
 
 /** Blog posts that now 301 elsewhere — never link to them. */
@@ -46,12 +48,22 @@ const TOPIC_POST_IDS = [
   'wind-debris-gutters',
 ];
 
-const liveTopicPosts = (): BlogPost[] =>
-  TOPIC_POST_IDS.map((id) => blogPosts.find((p) => p.id === id)).filter(
+const ROOF_TOPIC_POST_IDS = [
+  'roof-moss-damage',
+  'roof-moss-removal-birmingham',
+  'roof-cleaning-dudley',
+  'roofline-damage-prevention',
+  'roof-moss-kings-norton',
+  'flat-roof-gutters',
+];
+
+const liveTopicPosts = (ids: string[] = TOPIC_POST_IDS): BlogPost[] =>
+  ids.map((id) => blogPosts.find((p) => p.id === id)).filter(
     (p): p is BlogPost => Boolean(p) && !REDIRECTED_BLOG_IDS.has((p as BlogPost).id),
   );
 
-function postsFor(locality?: string, max = 2): BlogPost[] {
+function postsFor(locality?: string, max = 2, service: 'gutter' | 'roof' = 'gutter'): BlogPost[] {
+  if (service === 'roof') return pickMany(`${locality}-roof`, liveTopicPosts(ROOF_TOPIC_POST_IDS), max);
   if (locality) {
     const slug = locality.toLowerCase().replace(/\s+/g, '-');
     const local = blogPosts.filter(
@@ -64,8 +76,8 @@ function postsFor(locality?: string, max = 2): BlogPost[] {
   return liveTopicPosts().slice(0, max);
 }
 
-export default function AreaBlogSnippet({ locality }: AreaBlogSnippetProps) {
-  const posts = postsFor(locality);
+export default function AreaBlogSnippet({ locality, service = 'gutter' }: AreaBlogSnippetProps) {
+  const posts = postsFor(locality, 2, service);
   if (posts.length === 0) return null;
 
   return (

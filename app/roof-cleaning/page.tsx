@@ -4,9 +4,9 @@ import type { ServiceDetail } from '@/constants/servicesData';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
-  absoluteTitle: 'Professional Roof Cleaning & Moss Removal | WOW Gutters Ltd',
+  absoluteTitle: 'Roof Cleaning West Midlands & Birmingham | From £500 | WOW Gutters Ltd',
   description:
-    'Roof cleaning and moss removal across Birmingham and the West Midlands. Soft-wash system, biocide treatment, before and after photos. Fully insured. From £500. Call 07421 433910.',
+    'Roof cleaning and moss removal across the West Midlands and Birmingham from £500. Soft-wash method, biocide treatment, gutters cleared after, real before & after photos. Call 07421 433910.',
   canonicalPath: '/roof-cleaning/',
 });
 
@@ -15,7 +15,7 @@ const service: ServiceDetail = {
   name: 'Roof Cleaning',
   icon: '🏠',
   heroImage: '/roof-cleaning.JPG',
-  heroTitle: 'Professional Roof Cleaning & Moss Removal',
+  heroTitle: 'Roof Cleaning West Midlands & Birmingham',
   heroDescription:
     'WOW Gutters Ltd uses a soft-wash roof cleaning system that removes moss, algae, lichen, and dirt without high-pressure damage. Biocide treatment prevents regrowth, extending the life of your tiles and keeping gutters clearer for longer.',
   sections: [
@@ -23,7 +23,8 @@ const service: ServiceDetail = {
       title: 'Why Remove Moss from Your Roof?',
       content:
         'Moss on roof tiles is more than a cosmetic issue. Moss roots lift tiles and allow water to penetrate the roof structure. Moss holds moisture against the tile surface, accelerating frost damage and weathering. And moss debris drops into gutters, causing blockages and overflow. Professional roof cleaning removes the moss and treats the surface to prevent rapid regrowth.',
-      image: '/roof-cleaning.JPG',
+      image: '/dudley-roof-cleaning-before.webp',
+      imageAlt: 'Real WOW Gutters job: roof in Dudley before cleaning, with moss and algae on the tiles',
       imagePosition: 'right',
       bulletPoints: [
         'Moss roots can lift and loosen roof tiles over time',
@@ -38,7 +39,8 @@ const service: ServiceDetail = {
       title: 'Our Roof Cleaning Process',
       content:
         'WOW Gutters Ltd follows a careful process to clean your roof safely and effectively. We use a soft-wash system that applies cleaning solution at low pressure — enough to kill moss and algae but not enough to force water under tiles. After treatment the moss dies off naturally and is gently removed.',
-      image: '/roof-cleaning.JPG',
+      image: '/dudley-roof-cleaning-after.webp',
+      imageAlt: 'Real WOW Gutters job: the same Dudley roof after moss removal and soft-wash cleaning',
       imagePosition: 'left',
       bulletPoints: [
         'Low-pressure biocide application — no risk of driving water under tiles',
@@ -75,10 +77,36 @@ const service: ServiceDetail = {
       ],
     },
     {
+      title: 'Roof Cleaning Prices – What Affects the Cost',
+      content:
+        'Roof cleaning starts from £500. Every roof is different, so we give you a fixed price before any work starts — no call-out fee and no surprises on the day. These are the things that change the price:',
+      bulletPoints: [
+        'Roof size and number of slopes — a bungalow is quicker than a large detached house',
+        'How thick the moss is — light algae or years of heavy moss build-up',
+        'Height and access — two-storey, three-storey, or tight access at the rear',
+        'Valleys, dormers, chimneys and extensions that need extra hand work',
+        'Whether you add a gutter clean, fascia & soffit clean (£90) or conservatory clean (from £50)',
+        'Commercial roofs (warehouses, schools, offices) are quoted individually',
+      ],
+    },
+    {
+      title: 'Roof Types We Clean',
+      content:
+        'Different tiles need different handling. Our controlled soft-wash method is safe for the common roof types across the West Midlands, and we never use high-pressure washing on tiles.',
+      bulletPoints: [
+        'Concrete interlocking tiles — the most common roof on 1930s–80s semis and estates',
+        'Clay tiles — older and period homes, cleaned gently to protect the surface',
+        'Slate — Victorian terraces and villas, cleaned without lifting or cracking slates',
+        'Ridges, hips and valleys — moss cleared from the joints where it builds up most',
+        'Conservatory roofs — glass and polycarbonate cleaned as an add-on',
+      ],
+    },
+    {
       title: 'Roof Cleaning & Related Services',
       content:
         'Roof cleaning pairs naturally with gutter cleaning, uPVC restoration, and roof inspection. A clean roof means less debris falling into gutters, and the roofline as a whole looks well-maintained and professional.',
-      image: '/roof-cleaning.JPG',
+      image: '/roof-cleaning-before-after.jpeg',
+      imageAlt: 'Roof cleaning before and after – WOW Gutters Ltd',
       imagePosition: 'right',
       bulletPoints: [
         'Gutter cleaning — clear moss debris that falls after treatment',

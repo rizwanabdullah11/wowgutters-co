@@ -7,6 +7,7 @@ import CollapsibleAreaFAQ from '@/components/areas/CollapsibleAreaFAQ';
 import { buildCityPageFaqs, isPrimaryCitySlug } from '@/lib/cityFaqs';
 import { AREA_SERVICE_META, type AreaServiceKind } from '@/lib/areaServiceMeta';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
+import { realRoofJobsFor } from '@/constants/realRoofJobs';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
@@ -120,6 +121,9 @@ export default function CityGutterCleaningPage({
           </svg>
         </div>
       </section>
+
+      {/* Reviews straight after the hero, like the homepage (Nov 2026) */}
+      <GoogleReviewsBlock city={data.city} className="bg-white" />
 
       <section className="py-16 px-4 bg-white border-b border-slate-100">
         <div className="max-w-6xl mx-auto">
@@ -263,7 +267,6 @@ export default function CityGutterCleaningPage({
 
       <CollapsibleAreaFAQ city={data.city} faqs={pageFaqs} heading={data.faqsTitle} serviceLabel={meta.label.toLowerCase()} />
 
-      <GoogleReviewsBlock city={data.city} className="bg-white" />
 
       <section className="py-16 px-4 bg-white border-t border-slate-100">
         <div className="max-w-4xl mx-auto text-center">
@@ -276,8 +279,12 @@ export default function CityGutterCleaningPage({
         </div>
       </section>
 
-      <AreaBlogSnippet locality={data.city} />
-      <AreaRecentWork />
+      <AreaBlogSnippet locality={data.city} service={serviceKind === 'roof' ? 'roof' : 'gutter'} />
+      <AreaRecentWork
+        jobs={serviceKind === 'roof' ? realRoofJobsFor(data.slug) : undefined}
+        heading={`Recent Roof Cleaning in ${data.city} – Real Before & After`}
+        intro={`Real photos from a WOW Gutters roof clean in ${data.city}, not stock images.`}
+      />
       <AreaContactMap geo={data.geo} />
       {serviceKind !== 'repair' && serviceKind !== 'inspection' && serviceKind !== 'installation' && (
         <AreaServicesHub currentSlug={data.slug} serviceKind={serviceKind} cityName={data.city} />
