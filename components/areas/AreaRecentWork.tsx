@@ -1,74 +1,69 @@
-import { colors } from '@/constants/colors';
-import Link from 'next/link';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { REAL_GUTTER_JOBS, type RealGutterJob } from '@/constants/realGutterJobs';
 
-const workItems = [
-  {
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800',
-    title: 'Extensive Drainage Overhaul at a Spacious Residential Build',
-    author: 'Iain Davies',
-  },
-  {
-    image: 'https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=800',
-    title: 'Educational Facility Clearance: A Secure, High-Level Project Executed in Derby',
-    author: 'Commercial, Harley Brown, Iain Davies',
-  },
-  {
-    image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800',
-    title: 'Rapid Resolution for Substandard Rain Catchments',
-    author: 'Harley Brown, Iain Davies, Martin Sudell',
-  }
-];
+type Props = {
+  /** Jobs to show. Nothing renders without jobs (the old block was placeholder stock photos). */
+  jobs?: RealGutterJob[];
+  heading?: string;
+  intro?: string;
+};
 
-export default function AreaRecentWork() {
+/**
+ * "Recent work" — real before & after photos from WOW Gutters jobs.
+ * Pass `jobs` explicitly per page so every page doesn't repeat the same block
+ * (identical blocks on many pages count as duplicate content).
+ */
+export default function AreaRecentWork({ jobs, heading, intro }: Props) {
+  if (!jobs || jobs.length === 0) return null;
+
   return (
-    <section className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4">
+    <section className="py-16 md:py-20 px-4 bg-white border-t border-slate-100" aria-labelledby="recent-work-heading">
+      <div className="max-w-7xl mx-auto">
+        <h2 id="recent-work-heading" className="text-3xl md:text-4xl font-black text-slate-900 mb-3 text-center">
+          {heading ?? 'Real Gutter Cleaning Jobs – Before & After'}
+        </h2>
+        <p className="text-slate-600 text-base md:text-lg text-center max-w-3xl mx-auto mb-10">
+          {intro ??
+            'Unedited photos from our own jobs. Every clean comes with before & after photos like these, so you can see exactly what was in your gutters.'}
+        </p>
 
-        {/* Header styling as per screenshot */}
-        {/* <div className="mb-8">
-          <div className="flex items-center gap-4 mb-2">
-            <h2 className="text-[32px] sm:text-[40px] font-black text-[#0f172a] uppercase tracking-tight">
-              RECENT WORK
-            </h2>
-            <div className="h-[2px] bg-gray-300 flex-1 ml-2 hidden sm:block"></div>
-          </div>
-          <p className="text-gray-500 text-lg">Noteworthy jobs we have recently completed.</p>
-        </div> */}
-
-        {/* Grid */}
-        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-6 relative group">
-
-          {/* Mock Carousel Navigation Buttons */}
-        {/* <div className="absolute top-1/2 -left-4 -translate-y-1/2 w-8 h-8 bg-black/50 text-white flex items-center justify-center cursor-pointer hover:bg-black/70 z-10 hidden md:flex opacity-0 group-hover:opacity-100 transition-opacity">
-            <ArrowLeft className="w-4 h-4" />
-          </div>
-          <div className="absolute top-1/2 -right-4 -translate-y-1/2 w-8 h-8 bg-black/50 text-white flex items-center justify-center cursor-pointer hover:bg-black/70 z-10 hidden md:flex opacity-0 group-hover:opacity-100 transition-opacity">
-            <ArrowRight className="w-4 h-4" />
-          </div>
-
-          {workItems.map((item, idx) => (
-            <div key={idx} className="flex flex-col group/card cursor-pointer">
-              <div className="aspect-[4/3] w-full overflow-hidden mb-4 relative drop-shadow-sm border border-gray-100 rounded">
-                <img
-                  src={item.image}
-                  alt={item.title}
-                  className="w-full h-full object-cover  group-hover/card:scale-105 transition-transform duration-500"
-                />
-                <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm px-2 py-1 rounded text-[10px] font-bold text-gray-800 flex items-center gap-1 shadow-sm">
-                  <div className="w-4 h-4 rounded-full flex items-center justify-center text-[8px] font-black text-white" style={{ backgroundColor: colors.primaryText }}>
-                    S
-                  </div>
-                  WOW
-                </div>
+        <div className="grid gap-8 md:grid-cols-2">
+          {jobs.map((job) => (
+            <article key={job.id} className="rounded-2xl border border-slate-200 bg-slate-50 overflow-hidden shadow-sm">
+              <div className={`grid gap-1 ${job.photos.length > 1 ? 'grid-cols-2' : 'grid-cols-1'}`}>
+                {job.photos.map((photo) => (
+                  <figure key={photo.src} className="relative m-0">
+                    <img
+                      src={photo.src}
+                      alt={job.area ? `${photo.alt} in ${job.area}` : photo.alt}
+                      className="w-full aspect-[3/4] object-cover"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                    <figcaption
+                      className={`absolute top-2 left-2 rounded-full px-3 py-1 text-xs font-bold text-white ${
+                        photo.label === 'After' ? 'bg-emerald-600' : photo.label === 'Before' ? 'bg-red-600' : 'bg-slate-800'
+                      }`}
+                    >
+                      {photo.label}
+                    </figcaption>
+                  </figure>
+                ))}
               </div>
-              <h3 className="text-[17px] font-medium text-gray-800 leading-snug mb-2 group-hover/card:text-[#047857] transition-colors">{item.title}</h3>
-              <p className="text-[12px] text-gray-500">{item.author}</p>
-            </div>
+              <div className="p-5">
+                <h3 className="text-lg font-black text-slate-900 mb-2">{job.title}</h3>
+                {(job.area || job.date) && (
+                  <p className="text-sm font-semibold text-emerald-700 mb-2">
+                    {[job.area, job.date].filter(Boolean).join(' · ')}
+                  </p>
+                )}
+                <p className="text-slate-600 text-sm leading-relaxed">{job.summary}</p>
+              </div>
+            </article>
           ))}
-        </div>  */}
-
+        </div>
       </div>
     </section>
-  )
+  );
 }
+
+export { REAL_GUTTER_JOBS };

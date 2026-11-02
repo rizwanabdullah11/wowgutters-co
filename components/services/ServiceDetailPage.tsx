@@ -22,6 +22,7 @@ import {
 import AreaFacts from '@/components/areas/AreaFacts';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
+import { REAL_GUTTER_JOBS } from '@/constants/realGutterJobs';
 import AreaReviews from '@/components/areas/AreaReviews';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaFeatures from '@/components/areas/AreaFeatures';
@@ -1183,7 +1184,11 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
           }
         />
       )}
-      <AreaRecentWork />
+      <AreaRecentWork
+        jobs={service.id === 'gutter-cleaning' ? REAL_GUTTER_JOBS.slice(0, 3) : undefined}
+        heading="How Our Gutter Cleaning Works – Real Job Photos"
+        intro="From the ground, with a vacuum and a camera on the pole: here is what we find in gutters and what they look like when we leave."
+      />
       <AreaReviews />
       <AreaContactMap />
 

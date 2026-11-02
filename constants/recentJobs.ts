@@ -22,8 +22,8 @@ export const RECENT_JOBS: RecentJob[] = [
     area: 'Selly Oak, B29',
     before: '/selly-oak-gutter-cleaning-before.webp',
     after: '/selly-oak-gutter-cleaning-after.webp',
-    href: '/blog/gutter-cleaning-selly-oak/',
-    linkLabel: 'Selly Oak gutter cleaning guide',
+    href: '/gutter-cleaning-selly-oak/',
+    linkLabel: 'Gutter cleaning in Selly Oak',
     // From the Selly Oak guide: "a recent job in south Birmingham".
     story: {
       issue: 'Two-storey semi-detached home with gutters overflowing for at least two autumn and winter seasons.',
@@ -37,8 +37,8 @@ export const RECENT_JOBS: RecentJob[] = [
     area: 'Harborne, B17',
     before: '/harborne-gutter-cleaning-before.webp',
     after: '/harborne-gutter-cleaning-after.webp',
-    href: '/blog/gutter-cleaning-harborne/',
-    linkLabel: 'Harborne gutter cleaning guide',
+    href: '/gutter-cleaning-harborne/',
+    linkLabel: 'Gutter cleaning in Harborne',
   },
   {
     id: 'nechells',
@@ -46,8 +46,8 @@ export const RECENT_JOBS: RecentJob[] = [
     area: 'Nechells, B7',
     before: '/nechells-gutter-cleaning-before.webp',
     after: '/nechells-gutter-cleaning-after.webp',
-    href: '/blog/gutter-cleaning-nechells/',
-    linkLabel: 'Nechells gutter cleaning guide',
+    href: '/gutter-cleaning-birmingham/',
+    linkLabel: 'Gutter cleaning in Birmingham',
   },
   {
     id: 'acocks-green',
@@ -55,8 +55,8 @@ export const RECENT_JOBS: RecentJob[] = [
     area: 'Acocks Green, B27',
     before: '/gutter-cleaning-acocks-green-before.webp',
     after: '/gutter-cleaning-acocks-green-after.webp',
-    href: '/blog/gutter-cleaning-acocks-green/',
-    linkLabel: 'Acocks Green gutter cleaning guide',
+    href: '/gutter-cleaning-acocks-green/',
+    linkLabel: 'Gutter cleaning in Acocks Green',
   },
   {
     id: 'walsall',

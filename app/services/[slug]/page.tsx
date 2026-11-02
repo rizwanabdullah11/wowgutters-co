@@ -37,6 +37,15 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
     };
   }
 
+  if (service.id === 'gutter-cleaning') {
+    return buildMetadata({
+      absoluteTitle: 'Gutter Cleaning Service | No Ladders, From £100 | WOW Gutters Ltd',
+      description:
+        'Gutter cleaning from £100 (2-bed) and £110 (3-bed). Ground-based vacuum up to 4 storeys, no ladders, real before & after photos on every job. Fully insured. Call 07421 433910.',
+      canonicalPath: `/services/${service.id}/`,
+    });
+  }
+
   return buildMetadata({
     title: `Professional ${service.name} | WOW Gutters Ltd`,
     description: service.heroDescription,
