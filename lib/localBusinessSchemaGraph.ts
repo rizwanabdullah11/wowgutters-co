@@ -78,7 +78,7 @@ export function buildInstallationSchemaFaqs(city: string): SchemaFaq[] {
     },
     {
       question: `How much does gutter installation cost in ${city}?`,
-      answer: `Costs depend on the length of guttering, the number of downpipes, the system type and access. A typical replacement starts from around £300 and a full new system can reach £1,500. We provide a free, fixed quote after a site survey.`,
+      answer: `Costs depend on the length of guttering, the number of downpipes, the system type and access. A typical replacement starts from around £300. We provide a free, fixed quote after a site survey.`,
     },
     {
       question: `Can you replace existing gutters in ${city}?`,

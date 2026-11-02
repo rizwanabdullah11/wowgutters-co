@@ -71,7 +71,7 @@ function installationFaqsForArea(
       },
       {
         question: `How much does gutter installation cost in ${city}?`,
-        answer: `Costs depend on the length of guttering, the number of downpipes, the type of system and access. A typical replacement starts from around £300 and a full new system for a detached home can reach £1,500. We provide a free, fixed quote after a site survey — no obligation.`,
+        answer: `Costs depend on the length of guttering, the number of downpipes, the type of system and access. A typical replacement starts from around £300. We provide a free, fixed quote after a site survey — no obligation.`,
       },
     ];
     return [...installationSpecific, ...transformed.slice(0, 4)];
@@ -83,7 +83,7 @@ function installationFaqsForArea(
     },
     {
       question: `How much does gutter installation cost in ${city}?`,
-      answer: `Costs depend on the length of guttering, the number of downpipes, the type of system and access. A typical replacement starts from around £300 and a full new system for a detached home can reach £1,500. We provide a free, fixed quote after a site survey — no obligation.`,
+      answer: `Costs depend on the length of guttering, the number of downpipes, the type of system and access. A typical replacement starts from around £300. We provide a free, fixed quote after a site survey — no obligation.`,
     },
     {
       question: `Can you replace existing gutters in ${city}?`,

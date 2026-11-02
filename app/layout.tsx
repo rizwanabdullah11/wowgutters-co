@@ -143,13 +143,21 @@ gtag('consent', 'default', {
 });
 gtag('set', 'ads_data_redaction', true);
 gtag('set', 'url_passthrough', true);
+// Oct 31 2026 speed fix: third-party tags (Cookiebot, gtag.js) are loaded after the page has
+// loaded — on the first scroll/tap/keypress, or 3.5s after load. dataLayer queues every hit
+// until then, so no GA4 data is lost. Before this, GTM + Cookiebot added ~2s of blocking time.
 // Cookiebot is injected from here (not a separate <script async>) because React hoists async
 // scripts above inline ones — Google requires the consent default to run first.
-(function(){var s=document.createElement('script');s.id='Cookiebot';s.async=true;
-s.src='https://consent.cookiebot.com/uc.js';
-s.setAttribute('data-cbid','90235ab0-b3ea-4224-a9f3-a1c438800254');
-s.setAttribute('data-blockingmode','auto');
-document.head.appendChild(s);})();`,
+(function(){var q=[],done=false;
+function run(){if(done)return;done=true;for(var i=0;i<q.length;i++)q[i]();q=[];
+['scroll','pointerdown','keydown','touchstart'].forEach(function(e){removeEventListener(e,run,{passive:true});});}
+window.__wowDefer=function(fn){if(done)fn();else q.push(fn);};
+window.__wowLoadScript=function(src,attrs){window.__wowDefer(function(){var s=document.createElement('script');s.async=true;s.src=src;
+for(var k in (attrs||{}))s.setAttribute(k,attrs[k]);document.head.appendChild(s);});};
+['scroll','pointerdown','keydown','touchstart'].forEach(function(e){addEventListener(e,run,{passive:true});});
+function later(){setTimeout(run,3500);}
+if(document.readyState==='complete')later();else addEventListener('load',later);
+window.__wowLoadScript('https://consent.cookiebot.com/uc.js',{id:'Cookiebot','data-cbid':'90235ab0-b3ea-4224-a9f3-a1c438800254','data-blockingmode':'auto'});})();`,
           }}
         />
         
@@ -177,13 +185,6 @@ document.head.appendChild(s);})();`,
         {/* Google tag (gtag.js) — plain scripts required for static export */}
         {ga4MeasurementId ? (
           <>
-            {/* Always loaded (consent mode controls cookies) — data-cookieconsent="ignore"
-                stops Cookiebot auto-blocking from holding it back. */}
-            <script
-              data-cookieconsent="ignore"
-              async
-              src={`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(ga4MeasurementId)}`}
-            />
             <script
               id="ga4"
               data-cookieconsent="ignore"
@@ -191,7 +192,9 @@ document.head.appendChild(s);})();`,
                 __html: `window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', ${ga4ConfigId});`,
+gtag('config', ${ga4ConfigId});
+// gtag.js loads deferred (see consent-defaults) — hits queue in dataLayer until it arrives.
+window.__wowLoadScript('https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(ga4MeasurementId)}',{'data-cookieconsent':'ignore'});`,
               }}
             />
           </>

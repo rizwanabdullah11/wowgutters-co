@@ -224,6 +224,7 @@ export default function AreaServicesHub({
           </div>
         )}
 
+        {mainTownLinks.length > 0 ? (
         <div className="mb-8">
           <h3 className="text-base font-black text-slate-900 text-center mb-4 uppercase tracking-wider">
             {mainTownsHeading}
@@ -241,6 +242,7 @@ export default function AreaServicesHub({
             ))}
           </ul>
         </div>
+        ) : null}
 
         {suburbLinks.length > 0 ? (
           <div className="mb-8">

@@ -1,3 +1,4 @@
+import { gutterCleaningMythsBlogPost } from './gutterCleaningMythsBlog';
 import { dampExternalWallGuttersBlogPost } from './dampExternalWallGuttersBlog';
 import { smethwickOldburyGuttersBlogPost } from './smethwickOldburyGuttersBlog';
 import { terracedHouseGuttersBlogPost } from './terracedHouseGuttersBlog';
@@ -82,6 +83,7 @@ export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
 
 export const blogPosts: BlogPost[] = [
+  gutterCleaningMythsBlogPost,
   dampExternalWallGuttersBlogPost,
   smethwickOldburyGuttersBlogPost,
   terracedHouseGuttersBlogPost,

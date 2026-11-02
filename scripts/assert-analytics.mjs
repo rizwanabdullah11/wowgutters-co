@@ -19,8 +19,10 @@ const analyticsJs = fs.existsSync(path.join(process.cwd(), 'public', 'wow-analyt
 if (!index) {
   errors.push('missing out/index.html');
 } else {
-  if (!/<script[^>]*src="[^"]*googletagmanager\.com\/gtag\/js/.test(index)) {
-    errors.push('index.html: missing gtag.js <script src=...> (next/script does not emit in static export)');
+  // Oct 31 2026: gtag.js may be a plain <script src> or loaded via the deferred __wowLoadScript helper.
+  if (!/<script[^>]*src="[^"]*googletagmanager\.com\/gtag\/js/.test(index) &&
+      !/__wowLoadScript\('https:\/\/www\.googletagmanager\.com\/gtag\/js/.test(index)) {
+    errors.push('index.html: missing gtag.js loader (script src or deferred __wowLoadScript)');
   }
   if (!/<script[^>]*id="ga4"[^>]*>[\s\S]*?gtag\('config'/.test(index)) {
     errors.push('index.html: missing ga4 inline gtag config script');

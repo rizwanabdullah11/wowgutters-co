@@ -49,7 +49,10 @@ export default function HeroVideo({
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const conn = (navigator as Navigator & { connection?: { saveData?: boolean; effectiveType?: string } }).connection;
     const slow = Boolean(conn?.saveData) || /(^|-)2g$|^3g$/.test(conn?.effectiveType ?? '');
-    const file = wide ? src : mobileSrc;
+    // Oct 31 2026: phones keep the still image — the 1.28 MB mobile video hurt mobile speed
+    // scores and data use. `mobileSrc` is still accepted so callers don't break.
+    void mobileSrc;
+    const file = wide ? src : undefined;
     if (!file || reduced || slow) return;
 
     let cancelled = false;

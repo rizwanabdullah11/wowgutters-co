@@ -8,7 +8,6 @@ export const GOOGLE_REVIEWS_SUMMARY = {
   rating: 4.9,
   ratingLabel: '4.9',
   starsDisplay: '4.9/5',
-  reviewCountLabel: '2,600+',
 } as const;
 
 export function googleReviewsHeadline(city?: string): string {
@@ -20,11 +19,11 @@ export function googleReviewsHeadline(city?: string): string {
 }
 
 export function googleReviewsSubline(): string {
-  return `${GOOGLE_REVIEWS_SUMMARY.ratingLabel}★ from ${GOOGLE_REVIEWS_SUMMARY.reviewCountLabel} Google reviews · Fully insured (£10m) · Before & after photos · Open 24 hours.`;
+  return `${GOOGLE_REVIEWS_SUMMARY.ratingLabel}★ · Fully insured (£10m) · Before & after photos · Open 24 hours.`;
 }
 
 export function googleReviewsCrawlSummary(): string {
-  return `WOW Gutters Ltd is rated ${GOOGLE_REVIEWS_SUMMARY.ratingLabel} out of 5 from ${GOOGLE_REVIEWS_SUMMARY.reviewCountLabel} Google reviews across Birmingham and the West Midlands. Homeowners praise our punctuality, before-and-after photos, and honest gutter condition reports.`;
+  return `WOW Gutters Ltd is rated ${GOOGLE_REVIEWS_SUMMARY.ratingLabel} out of 5 across Birmingham and the West Midlands. Homeowners praise our punctuality, before-and-after photos, and honest gutter condition reports.`;
 }
 
 export { gbpReviewUrl };

@@ -13,6 +13,7 @@ export type AreaFamily = 'gutter-cleaning' | 'roof-cleaning' | 'gutter-repair';
 /** True when the area page for this service family stays indexable. */
 export function isIndexableArea(family: AreaFamily, areaSlug: string): boolean {
   if (!AREA.has(areaSlug)) return true; // not an area page — not governed by this policy
+  if (family === 'gutter-repair') return false; // Oct 31 2026: spun copies of gutter pages
   if (CORE.has(areaSlug)) return true;
   return family === 'gutter-cleaning' && KEEP_GUTTER.has(areaSlug);
 }

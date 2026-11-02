@@ -9,13 +9,15 @@ type CollapsibleAreaFAQProps = {
   faqs: readonly CityFaqItem[];
   /** Optional override for the H2 (defaults to Birmingham-style title). */
   heading?: string;
+  /** Service name in the intro line, e.g. "roof cleaning" (Oct 31 2026: roof pages said "gutter cleaning"). */
+  serviceLabel?: string;
 };
 
 /**
  * Native <details>/<summary> accordion — works on static export without React hydration.
  * (useState + onClick breaks when client JS fails to hydrate on Hostinger.)
  */
-export default function CollapsibleAreaFAQ({ city, faqs, heading }: CollapsibleAreaFAQProps) {
+export default function CollapsibleAreaFAQ({ city, faqs, heading, serviceLabel = 'gutter cleaning' }: CollapsibleAreaFAQProps) {
   const title = heading ?? `Gutter Cleaning ${city} — Questions Answered`;
   const groupName = `faq-${city.toLowerCase().replace(/\s+/g, '-')}`;
 
@@ -26,7 +28,7 @@ export default function CollapsibleAreaFAQ({ city, faqs, heading }: CollapsibleA
           <p className="text-xs font-bold tracking-[0.2em] uppercase mb-3 text-[#047857]">FAQs</p>
           <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">{title}</h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Everything you need to know about our {city} gutter cleaning service. Can&apos;t find your answer? Call{' '}
+            Everything you need to know about our {city} {serviceLabel} service. Can&apos;t find your answer? Call{' '}
             <a href="tel:07421433910" className="font-bold underline underline-offset-2 text-[#047857]">
               07421 433910
             </a>

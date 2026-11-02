@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { ShieldCheck, Phone } from 'lucide-react';
 import AreaServiceBlock from '@/components/areas/AreaServiceBlock';
 import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
-import AreaServicesRange from '@/components/areas/AreaServicesRange';
 import AreaFAQ from '@/components/areas/AreaFAQ';
 import AreaFacts from '@/components/areas/AreaFacts';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
@@ -14,7 +13,6 @@ import AreaReviews from '@/components/areas/AreaReviews';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaFeatures from '@/components/areas/AreaFeatures';
 import NearbyAreas from '@/components/areas/NearbyAreas';
-import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
 import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 
 
@@ -328,8 +326,6 @@ export default function AreaPage({ areaName }: AreaPageProps) {
           </div>
         </div>
       </section>
-      <AreaCrawlFooter currentSlug={areaName.toLowerCase().replace(/\s+/g, '-')} serviceKind="gutter" />
-      <AreaServicesRange />
       <AreaFAQ />
       <AreaFacts />
       <AreaBlogSnippet />

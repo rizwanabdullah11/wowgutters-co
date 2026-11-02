@@ -428,14 +428,14 @@ export default function GutterCleaningPrices() {
                 <tr className="hover:bg-slate-50 transition-colors">
                   <td className="p-4 sm:p-5 font-bold text-slate-900">4+ Bed Detached</td>
                   <td className="p-4 sm:p-5 text-slate-600">Full 360° Perimeter (30–40m)</td>
-                  <td className="p-4 sm:p-5 font-bold text-emerald-700">From £140 – £210</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-700">Premium from £200</td>
                   <td className="p-4 sm:p-5 text-slate-600">60–90 mins</td>
                   <td className="p-4 sm:p-5 text-slate-600">Complete clearance, all downpipes, photo proof</td>
                 </tr>
                 <tr className="hover:bg-slate-50 transition-colors">
                   <td className="p-4 sm:p-5 font-bold text-slate-900">Townhouse / 3-Storey</td>
                   <td className="p-4 sm:p-5 text-slate-600">High-Elevation Runs</td>
-                  <td className="p-4 sm:p-5 font-bold text-emerald-700">From £130 – £195</td>
+                  <td className="p-4 sm:p-5 font-bold text-emerald-700">Free fixed quote</td>
                   <td className="p-4 sm:p-5 text-slate-600">60–75 mins</td>
                   <td className="p-4 sm:p-5 text-slate-600">Up to 4 storeys (40ft) from the ground, no scaffolding needed</td>
                 </tr>

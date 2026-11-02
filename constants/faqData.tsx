@@ -260,7 +260,7 @@ export const allFAQs: FAQItem[] = [
   {
     id: 'gutter-installation-cost',
     question: 'How much does gutter installation cost?',
-    answer: 'Gutter installation costs vary based on property size, gutter type, and materials. Typical residential installations range from £400-£1,500. We provide detailed quotes after surveying your property.',
+    answer: 'Gutter installation costs vary based on property size, gutter type, and materials. Gutter installation starts from £300. We provide detailed quotes after surveying your property.',
     category: 'Gutter Installation',
     icon: '💷'
   },

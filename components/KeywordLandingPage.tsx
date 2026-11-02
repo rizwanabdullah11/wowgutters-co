@@ -7,11 +7,9 @@ import {
 import { colors } from '@/constants/colors';
 import { KeywordPage } from '@/lib/keywordPages';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
-import AreaServicesRange from '@/components/areas/AreaServicesRange';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
-import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
 import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
 
 const WA = 'https://wa.me/447421433910';
@@ -240,14 +238,14 @@ function faqItems(cat: string, page: KeywordPage): { question: string; answer: s
   const label = categoryLabel(cat, page.slug);
   const l = categoryLabelLower(cat, page.slug);
   if (cat === 'window') return [
-    { question: `How much does ${l} cost?`, answer: `Prices depend on property size and frequency. Most Birmingham homes cost between £25–£60 for a standard clean. Contact us for a free quote.` },
+    { question: `How much does ${l} cost?`, answer: `Prices depend on property size and frequency. We give a free, fixed quote based on your window count and access – send us your postcode to get yours.` },
     { question: 'Do you clean windows in the rain?', answer: 'Yes — purified water systems work effectively in wet conditions. We avoid heavy storms for safety and quality.' },
     { question: 'How often should I have my windows cleaned?', answer: 'Every 4–8 weeks is typical for most homes. We offer weekly, fortnightly and monthly schedules.' },
     { question: 'Do you offer interior window cleaning?', answer: 'Yes — interior and exterior cleaning is available. We use purified water for a spotless, streak-free finish.' },
     { question: 'Are you insured?', answer: 'Yes — we hold comprehensive public liability insurance and all our technicians are trained and vetted.' },
   ];
   if (cat === 'pressure-wash') return [
-    { question: `How much does ${l} cost?`, answer: `Pricing depends on surface area and condition. Driveways typically cost £60–£200. Contact us for a free, no-obligation quote.` },
+    { question: `How much does ${l} cost?`, answer: `Pricing depends on surface area and condition. Contact us for a free, no-obligation fixed quote.` },
     { question: 'Can you remove oil stains from my driveway?', answer: 'Yes — our commercial-grade hot water system treats oil stains, tyre marks and ingrained dirt effectively.' },
     { question: 'Is pressure washing safe for my paving?', answer: 'Yes — our technicians use controlled pressure settings suitable for your surface type. We do not damage block paving, concrete or stone.' },
     { question: 'How often should I have my driveway pressure washed?', answer: 'Every 1–2 years is sufficient for most properties. High-traffic areas may need annual cleaning.' },
@@ -261,7 +259,7 @@ function faqItems(cat: string, page: KeywordPage): { question: string; answer: s
     { question: 'Are you insured for roof work?', answer: 'Yes — we hold comprehensive public liability insurance for all roof cleaning and roof access work.' },
   ];
   if (cat === 'conservatory') return [
-    { question: `How much does ${l} cost?`, answer: `Conservatory cleaning starts from £80 depending on size and condition. We provide a fixed price before booking.` },
+    { question: `How much does ${l} cost?`, answer: `Conservatory cleaning starts from £50 depending on size and condition. We provide a fixed price before booking.` },
     { question: 'Do you clean conservatory roofs?', answer: 'Yes — we clean conservatory roof panels, gutters and frames using low-reach equipment. No climbing on glass.' },
     { question: 'Can you clean polycarbonate roofs?', answer: 'Yes — we clean polycarbonate and glass conservatory roofs safely using appropriate methods and cleaning agents.' },
     { question: 'Do you clean the gutters above the conservatory?', answer: 'Yes — we clear the narrow gutter channel between your house and conservatory as part of our service.' },
@@ -456,97 +454,7 @@ export default function KeywordLandingPage({ page }: { page: KeywordPage }) {
         </div>
       </section>
 
-      {/* COMPLETE PROPERTY SERVICES & HYPERLINKS */}
-      <section className="py-16 px-4 bg-slate-50 border-t border-slate-200/60">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center max-w-3xl mx-auto mb-12">
-            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4">
-              Complete Exterior Property Solutions &amp; Maintenance
-            </h2>
-            <p className="text-slate-600 text-base md:text-lg leading-relaxed">
-              In addition to our high-reach vacuum gutter clearance, WOW Gutters Ltd provides a comprehensive range of exterior maintenance services, fixed-rate pricing tools, and special discount programs across the West Midlands.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6 mb-10">
-            {/* Card 1: Gutter Repairs & Inspections */}
-            <div className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
-              <div>
-                <div className="w-12 h-12 rounded-xl bg-emerald-100 flex items-center justify-center mb-5 text-emerald-700 font-black text-xl">
-                  🔧
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Gutter Repairs &amp; Inspection</h3>
-                <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                  Leaking union joints, sagging brackets, and fractured downpipes cause damp masonry. Our engineers conduct on-site <Link href="/services/gutter-repairs/" className="text-emerald-700 font-semibold hover:underline">gutter repairs</Link> and provide <Link href="/services/gutter-inspection/" className="text-emerald-700 font-semibold hover:underline">free gutter inspections</Link> with camera footage.
-                </p>
-              </div>
-              <div className="pt-4 border-t border-slate-100 flex flex-col gap-2">
-                <Link href="/services/gutter-repairs/" className="text-emerald-700 hover:text-emerald-800 font-bold text-sm inline-flex items-center gap-1 hover:underline">
-                  Explore Gutter Repairs →
-                </Link>
-                <Link href="/services/gutter-inspection/" className="text-slate-600 hover:text-emerald-700 text-xs inline-flex items-center gap-1 hover:underline">
-                  Free Camera Inspection Guide →
-                </Link>
-              </div>
-            </div>
-
-            {/* Card 2: Roof Cleaning & UPVC Washing */}
-            <div className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
-              <div>
-                <div className="w-12 h-12 rounded-xl bg-teal-100 flex items-center justify-center mb-5 text-teal-700 font-black text-xl">
-                  🏠
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Roof Moss &amp; UPVC Washing</h3>
-                <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                  Heavy moss growth on roof tiles is the primary cause of recurrent gutter blockages. We provide low-pressure <Link href="/services/roof-cleaning/" className="text-emerald-700 font-semibold hover:underline">roof moss removal</Link> and pure-water <Link href="/services/upvc-cleaning/" className="text-emerald-700 font-semibold hover:underline">UPVC &amp; fascia washing</Link> to brighten your roofline.
-                </p>
-              </div>
-              <div className="pt-4 border-t border-slate-100 flex flex-col gap-2">
-                <Link href="/services/roof-cleaning/" className="text-emerald-700 hover:text-emerald-800 font-bold text-sm inline-flex items-center gap-1 hover:underline">
-                  Roof Cleaning Solutions →
-                </Link>
-                <Link href="/services/upvc-cleaning/" className="text-slate-600 hover:text-emerald-700 text-xs inline-flex items-center gap-1 hover:underline">
-                  UPVC &amp; Soffit Cleaning →
-                </Link>
-              </div>
-            </div>
-
-            {/* Card 3: Pricing, Calculator & Discounts */}
-            <div className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
-              <div>
-                <div className="w-12 h-12 rounded-xl bg-cyan-100 flex items-center justify-center mb-5 text-cyan-700 font-black text-xl">
-                  💷
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">Fixed Rates &amp; Discounts</h3>
-                <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                  Check upfront costs on our <Link href="/gutter-cleaning-calculator/" className="text-emerald-700 font-semibold hover:underline">price calculator</Link> or view our full <Link href="/gutter-cleaning-prices/" className="text-emerald-700 font-semibold hover:underline">pricing matrix</Link>. Save up to 20% with <Link href="/neighbourhood-discount/" className="text-emerald-700 font-semibold hover:underline">neighbourhood discounts</Link> and special <Link href="/oap-discount/" className="text-emerald-700 font-semibold hover:underline">OAP rates</Link>.
-                </p>
-              </div>
-              <div className="pt-4 border-t border-slate-100 flex flex-col gap-2">
-                <Link href="/gutter-cleaning-calculator/" className="text-emerald-700 hover:text-emerald-800 font-bold text-sm inline-flex items-center gap-1 hover:underline">
-                  Instant Price Calculator →
-                </Link>
-                <Link href="/neighbourhood-discount/" className="text-slate-600 hover:text-emerald-700 text-xs inline-flex items-center gap-1 hover:underline">
-                  Neighbourhood Group Savings →
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          {/* Additional Service Navigation Links */}
-          <div className="p-6 rounded-2xl bg-white border border-slate-200 flex flex-wrap items-center justify-between gap-4 text-sm text-slate-600">
-            <span className="font-bold text-slate-900">Explore Further:</span>
-            <div className="flex flex-wrap items-center gap-4">
-              <Link href="/services/conservatory/" className="text-emerald-700 hover:underline font-medium">Conservatory Roofs</Link>
-              <Link href="/services/commercial-gutter-cleaning/" className="text-emerald-700 hover:underline font-medium">Commercial Clearance</Link>
-              <Link href="/the-gutter-gallery/" className="text-emerald-700 hover:underline font-medium">Project Gallery</Link>
-              <Link href="/reviews/" className="text-emerald-700 hover:underline font-medium">Customer Reviews</Link>
-              <Link href="/help/" className="text-emerald-700 hover:underline font-medium">FAQ &amp; Advice</Link>
-              <Link href="/quote/" className="text-emerald-700 hover:underline font-semibold">Free Quote Form</Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Oct 31 2026: removed the 'Complete Exterior Property Solutions' block — identical on every area page (duplicate content). */}
 
       {/* CONTENT SECTIONS */}
       {page.sections.map((section, index) => (
@@ -700,8 +608,6 @@ export default function KeywordLandingPage({ page }: { page: KeywordPage }) {
         </div>
       </section>
 
-      <AreaCrawlFooter currentSlug={page.slug} />
-      <AreaServicesRange />
       <AreaBlogSnippet />
       <AreaRecentWork />
       <AreaContactMap />

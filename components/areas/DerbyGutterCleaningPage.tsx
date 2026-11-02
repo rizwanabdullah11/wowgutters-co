@@ -3,12 +3,10 @@ import HeroVideo from '@/components/media/HeroVideo';
 import type { LucideIcon } from 'lucide-react';
 import { ShieldCheck, Phone, Check, Building2, Home, Warehouse, Cable, Images, Shield } from 'lucide-react';
 import { colors } from '@/constants/colors';
-import AreaServicesRange from '@/components/areas/AreaServicesRange';
 import DerbyFAQ from '@/components/areas/DerbyFAQ';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import AreaContactMap from '@/components/areas/AreaContactMap';
-import AreaCrawlFooter from '@/components/navigation/AreaCrawlFooter';
 import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
 
@@ -466,7 +464,6 @@ export default function DerbyGutterCleaningPage() {
         </div>
       </section>
 
-      <AreaServicesRange />
 
       <section className="py-16 px-4 bg-white border-t border-slate-100">
         <div className="max-w-7xl mx-auto">
@@ -600,8 +597,6 @@ export default function DerbyGutterCleaningPage() {
         </div>
       </section>
 
-      <AreaCrawlFooter currentSlug="derby" serviceKind="gutter" />
-      <AreaServicesRange />
       <AreaBlogSnippet locality="Derby" />
       <AreaRecentWork />
       <AreaContactMap geo={{ latitude: 52.9225, longitude: -1.4746 }} />
@@ -721,4 +716,4 @@ export default function DerbyGutterCleaningPage() {
       `}</style>
     </main>
   );
-}
+}
