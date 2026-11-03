@@ -7,6 +7,7 @@ import { getAreaData } from '@/lib/getAreaData';
 import { areaPath, roofAreaPath } from '@/lib/areaSlugs';
 import { roofPriceFrom, roofPriceTo } from '@/lib/areaServiceMeta';
 import { roofTownLocal } from '@/lib/roofTownLocal';
+import { pickVariant } from '@/lib/localVariants';
 
 type AreaInput = CityData & { streets?: string[]; hubSlug?: string };
 
@@ -157,7 +158,12 @@ export function buildRoofLandingFromCity(input: AreaInput): CityGutterLandingDat
     metaDescription: `Professional roof cleaning in ${name} from £${roofFrom}. Soft-wash moss removal, biocide treatment, before & after photos. Postcodes ${pcLabel}. Call WOW Gutters Ltd: 07421 433910.`,
     h1: `Roof Cleaning ${name} — Professional Moss & Algae Removal Across ${pcLabel}`,
     heroIntro: roofHeroIntroFor(input, tone),
-    whyTitle: `Why ${name} Roofs Need Professional Cleaning`,
+    whyTitle: pickVariant(`${name}-roofwhy`, [
+      `Why ${name} Roofs Need Professional Cleaning`,
+      `What Moss Does to Roofs in ${name}`,
+      `Why Roofs in ${name} Grow Moss So Quickly`,
+      `When a ${name} Roof Needs Cleaning`,
+    ]),
     whyBody: [...roofWhyBodyFor(input, tone), ...roofUniqueWhyParagraphs(input)],
     localSpotlight: roofLocalSpotlight(input),
     guarantees: [
@@ -168,7 +174,12 @@ export function buildRoofLandingFromCity(input: AreaInput): CityGutterLandingDat
       'Fully insured — comprehensive public liability cover on every visit',
       '4.9★ rating from verified Google reviews',
     ],
-    propertyTypesTitle: `Roof Cleaning for All Property Types in ${name}`,
+    propertyTypesTitle: pickVariant(`${name}-roofprops`, [
+      `Roof Cleaning for All Property Types in ${name}`,
+      `${name} Roofs We Clean Most Often`,
+      `Typical ${name} Homes and Roof Types`,
+      `From Terraces to Detached Homes in ${name}`,
+    ]),
     propertyTypes: roofTownLocal(slug)?.propertyTypes ?? roofPropertyTypesFor(tone, name, nearbyAreas),
     areasTitle: `Areas We Cover Around ${name}`,
     areasInline,

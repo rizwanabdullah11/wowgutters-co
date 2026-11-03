@@ -731,34 +731,7 @@ export const servicesData: ServiceDetail[] = [
       buttonText: 'Get A Free Quote',
     },
   },
-  {
-    id: 'water-butt',
-    name: 'Water Butt Installation',
-    icon: '💧',
-    heroImage: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1920',
-    heroTitle: 'Water Butt Installation',
-    heroDescription: 'Professional water butt installation to help you save water and reduce bills.',
-    sections: [
-      {
-        title: 'Benefits of Water Butts',
-        content: 'Water butts provide many advantages:',
-        image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800',
-        imagePosition: 'right',
-        bulletPoints: [
-          'Save money on water bills',
-          'Eco-friendly solution',
-          'Perfect for garden watering',
-          'Professional installation'
-        ]
-      }
-    ],
-    ctaSection: {
-      title: 'WATER BUTT INSTALLATION',
-      description: 'Save water and money with our installation service.',
-      phone: '07421 433910',
-      buttonText: 'Get A Quote'
-    }
-  },
+  // Nov 2026: 'water-butt' removed — WOW Gutters does not offer water butt installation.
   // {
   //   id: 'drain-cleaning',
   //   name: 'Drain Cleaning',

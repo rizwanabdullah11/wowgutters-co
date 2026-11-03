@@ -9,6 +9,8 @@ type AreaBlogSnippetProps = {
   locality?: string;
   /** Roof pages show roof guides instead of gutter guides. */
   service?: 'gutter' | 'roof';
+  /** Explicit guides for a page (e.g. a service page); live posts only, first two shown. */
+  postIds?: string[];
 };
 
 /** Blog posts that now 301 elsewhere — never link to them. */
@@ -76,8 +78,9 @@ function postsFor(locality?: string, max = 2, service: 'gutter' | 'roof' = 'gutt
   return liveTopicPosts().slice(0, max);
 }
 
-export default function AreaBlogSnippet({ locality, service = 'gutter' }: AreaBlogSnippetProps) {
-  const posts = postsFor(locality, 2, service);
+export default function AreaBlogSnippet({ locality, service = 'gutter', postIds }: AreaBlogSnippetProps) {
+  const chosen = postIds?.length ? liveTopicPosts(postIds).slice(0, 2) : [];
+  const posts = chosen.length >= 2 ? chosen : postsFor(locality, 2, service);
   if (posts.length === 0) return null;
 
   return (

@@ -12,7 +12,7 @@ import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import LocalBoostSection from '@/components/areas/LocalBoostSection';
 import { withLocalBoostFaqs } from '@/lib/localBoostContent';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
-import { gutterPriceSentence, whatsappLine } from '@/lib/localVariants';
+import { gutterPriceSentence, localiseFaqs, localiseGuarantees, roofPriceSentence, whatsappLine } from '@/lib/localVariants';
 
 
 export interface SuburbPageData {
@@ -167,7 +167,7 @@ export default function SuburbGutterCleaningPage({
             What You Get With WOW Gutters Ltd in {data.city}
           </h2>
           <ul className="grid sm:grid-cols-2 gap-4">
-            {guarantees.map((g) => (
+            {localiseGuarantees(data.city, guarantees).map((g) => (
               <li key={g} className="flex gap-3 p-5 rounded-2xl bg-white border border-slate-200 shadow-sm">
                 <CheckCircle className="w-6 h-6 shrink-0" style={{ color: colors.primary }} />
                 <span className="text-slate-800 font-semibold">{g}</span>
@@ -188,9 +188,7 @@ export default function SuburbGutterCleaningPage({
                 {gutterPriceSentence(data.city)}
               </>
             ) : (
-              <>
-                Prices for {meta.label.toLowerCase()} in {data.city} start from <strong>£{priceFrom}</strong>.
-              </>
+              <>{serviceKind === 'roof' ? roofPriceSentence(data.city, priceFrom) : <>Prices for {meta.label.toLowerCase()} in {data.city} start from <strong>£{priceFrom}</strong>.</>}</>
             )}{' '}
             Your fixed price is confirmed before we visit — no call-out fee and no hidden charges on the day.
           </p>
@@ -291,7 +289,7 @@ export default function SuburbGutterCleaningPage({
           </div>
 
           <div className="space-y-4 max-w-3xl mx-auto">
-            {withLocalBoostFaqs(serviceKind === 'gutter' ? areaSlug : undefined, data.faqs).map((faq, i) => (
+            {localiseFaqs(data.city, withLocalBoostFaqs(serviceKind === 'gutter' ? areaSlug : undefined, data.faqs)).map((faq, i) => (
               <details
                 key={faq.question}
                 name={faqGroupName}

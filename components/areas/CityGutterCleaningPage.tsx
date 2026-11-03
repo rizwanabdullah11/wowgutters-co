@@ -16,7 +16,7 @@ import LocalBoostSection from '@/components/areas/LocalBoostSection';
 import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
 import { normalizeAreaHeroTitle } from '@/lib/areaHeroTitle';
-import { gutterPriceSentence, whatsappLine } from '@/lib/localVariants';
+import { gutterPriceSentence, localiseGuarantees, roofPriceSentence, whatsappLine } from '@/lib/localVariants';
 
 
 export default function CityGutterCleaningPage({
@@ -157,7 +157,7 @@ export default function CityGutterCleaningPage({
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-8 text-center">Our Service Standards</h2>
             <ul className="grid sm:grid-cols-2 gap-4">
-              {data.guarantees.map((g) => (
+              {localiseGuarantees(data.city, data.guarantees).map((g) => (
                 <li key={g} className="flex gap-3 p-5 rounded-2xl bg-white border border-slate-200 shadow-sm">
                   <CheckCircle2 className="w-6 h-6 shrink-0" style={{ color: colors.primary }} />
                   <span className="text-slate-800 font-semibold">{g}</span>
@@ -178,10 +178,7 @@ export default function CityGutterCleaningPage({
               {serviceKind === 'gutter' ? (
                 <>{gutterPriceSentence(data.city)}</>
               ) : (
-                <>
-                  Prices for {meta.label.toLowerCase()} in {data.city} start from <strong>£{priceFrom}</strong>. The exact
-                  price depends on the job, and we confirm it before any work starts.
-                </>
+                <>{serviceKind === 'roof' ? roofPriceSentence(data.city, priceFrom) : <>Prices for {meta.label.toLowerCase()} in {data.city} start from <strong>£{priceFrom}</strong>. The exact price depends on the job, and we confirm it before any work starts.</>}</>
               )}{' '}
               Fixed price confirmed before we arrive — no call-out fee and no hidden charges on the day.
             </p>

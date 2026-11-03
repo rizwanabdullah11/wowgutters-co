@@ -133,8 +133,7 @@ AddDefaultCharset UTF-8
 
   # Audit 05.05 — legacy / alternate domains → wowgutters.co.uk (when pointed at this Hostinger site)
   RewriteCond %{HTTP_HOST} ^(www\\.)?wow-gutters\\.com$ [NC,OR]
-  RewriteCond %{HTTP_HOST} ^(www\\.)?wow-gutters\\.co\\.uk$ [NC,OR]
-  RewriteCond %{HTTP_HOST} ^(www\\.)?wowgutters\\.uk$ [NC]
+  RewriteCond %{HTTP_HOST} ^(www\\.)?wow-gutters\\.co\\.uk$ [NC]
   RewriteRule ^(.*)$ https://wowgutters.co.uk/$1 [R=301,L]
 
   # Any other hostname on this vhost → canonical
@@ -167,7 +166,7 @@ AddDefaultCharset UTF-8
   RewriteRule ^services/roof-cleaning/?$ /roof-cleaning/ [R=301,L]
   RewriteRule ^help/inspection/?$ /services/gutter-inspection/ [R=301,L]
   RewriteRule ^help/conservatory/?$ /services/conservatory/ [R=301,L]
-  RewriteRule ^help/water-butt/?$ /services/water-butt/ [R=301,L]
+  RewriteRule ^help/water-butt/?$ - [G,L]
   RewriteRule ^help/commercial/?$ /services/commercial-gutter-cleaning/ [R=301,L]
   RewriteRule ^services/commercial/?$ /services/commercial-gutter-cleaning/ [R=301,L]
   RewriteRule ^help/gutter-installation/?$ /services/gutter-installation/ [R=301,L]

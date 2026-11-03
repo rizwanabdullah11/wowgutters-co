@@ -150,7 +150,6 @@ try {
   const altHtaccess = generateAlternateDomainRedirectHtaccess();
   fs.writeFileSync(path.join(altDir, "wow-gutters.com.htaccess"), altHtaccess, "utf8");
   fs.writeFileSync(path.join(altDir, "wow-gutters.co.uk.htaccess"), altHtaccess, "utf8");
-  fs.writeFileSync(path.join(altDir, "wowgutters.uk.htaccess"), altHtaccess, "utf8");
   fs.writeFileSync(path.join(altDir, "DEPLOY-INSTRUCTIONS.txt"), generateAlternateDomainsReadme(), "utf8");
   console.log("postexport: wrote alternate-domain redirect files in out/hostinger-alternate-domains/");
 } catch (err) {

@@ -20,7 +20,6 @@ const required = [
   'includeSubDomains',
   'preload',
   'wow-gutters',
-  'wowgutters\\.uk',
 ];
 
 const missing = required.filter((snippet) => !content.includes(snippet));

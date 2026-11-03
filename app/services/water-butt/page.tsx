@@ -1,23 +1,24 @@
-import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import ServiceDetailPage from '@/components/services/ServiceDetailPage';
-import { getServiceById } from '@/constants/servicesData';
-import { buildMetadata } from '@/lib/seo';
+import Link from 'next/link';
 
-export const metadata: Metadata = buildMetadata({
-  absoluteTitle: 'Water Butt Installation | WOW Gutter Cleaning',
-  description:
-    'Professional water butt installation to help you collect rainwater, save money and reduce your environmental impact.',
-  canonicalPath: '/services/water-butt/',
-});
+/**
+ * Nov 2026: water butt installation is not a service WOW Gutters offers — page removed.
+ * The live server answers 410 Gone for this URL (lib/keyword-redirects.json "GONE"), so this
+ * minimal noindex page only exists to keep the static export build simple.
+ */
+export const metadata: Metadata = {
+  title: 'Page removed',
+  robots: { index: false, follow: true },
+};
 
 export default function WaterButtPage() {
-  const service = getServiceById('water-butt');
-
-  if (!service) {
-    notFound();
-  }
-
-  return <ServiceDetailPage service={service} />;
+  return (
+    <main className="max-w-2xl mx-auto px-4 py-24 text-center">
+      <h1 className="text-3xl font-black text-slate-900 mb-4">This service is no longer offered</h1>
+      <p className="text-slate-600 mb-8">See our gutter cleaning and downpipe services instead.</p>
+      <Link href="/services/gutter-cleaning/" className="font-bold text-emerald-700 underline">
+        Gutter cleaning services
+      </Link>
+    </main>
+  );
 }
-

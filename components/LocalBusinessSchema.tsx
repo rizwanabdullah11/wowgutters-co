@@ -1,5 +1,6 @@
 import { buildLocalBusinessSchemaGraph } from '@/lib/localBusinessSchemaGraph';
 import type { AreaServiceKind } from '@/lib/areaServiceMeta';
+import { localiseFaqs } from '@/lib/localVariants';
 
 type LocalBusinessSchemaProps = {
   city: string;
@@ -18,7 +19,8 @@ type LocalBusinessSchemaProps = {
 };
 
 export default function LocalBusinessSchema(props: LocalBusinessSchemaProps) {
-  const schema = buildLocalBusinessSchemaGraph(props);
+  // FAQ answers localised the same way as the visible FAQ (CollapsibleAreaFAQ / suburb FAQ).
+  const schema = buildLocalBusinessSchemaGraph({ ...props, faqs: props.faqs ? localiseFaqs(props.city, props.faqs) : props.faqs });
 
   return (
     <script

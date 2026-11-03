@@ -21,7 +21,6 @@ const SERVICE_CARD_IMAGES: Record<string, string> = {
   'gutter-inspection': '/gutter-inspection-card.webp',
   'roof-inspection': '/roof-cleaning-card.webp',
   'conservatory': '/gutter-cleaning-card.webp',
-  'water-butt': '/gutter-cleaning-card.webp',
   'commercial-gutter-cleaning': '/gutter-cleaning-westmidlands.webp',
   'commercial-roof-cleaning': '/roof-cleaning-card.webp',
   'gutter-installation': '/gutter-installation-card.webp',
@@ -46,7 +45,6 @@ const RESIDENTIAL_IDS = new Set([
   'gutter-inspection',
   'roof-inspection',
   'conservatory',
-  'water-butt',
   'gutter-installation',
 ]);
 

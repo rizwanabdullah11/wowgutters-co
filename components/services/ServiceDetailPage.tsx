@@ -23,6 +23,7 @@ import AreaFacts from '@/components/areas/AreaFacts';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import { REAL_GUTTER_JOBS } from '@/constants/realGutterJobs';
+import { serviceAudienceContent } from '@/lib/serviceAudienceContent';
 import AreaReviews from '@/components/areas/AreaReviews';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaFeatures from '@/components/areas/AreaFeatures';
@@ -46,6 +47,8 @@ const FOCUSED_SERVICE_IDS = new Set([
 ]);
 
 function getServiceFaqs(serviceId: string) {
+  const audience = serviceAudienceContent(serviceId);
+  if (audience) return audience.faqs;
   if (serviceId === 'gutter-repairs') return GUTTER_REPAIR_FAQS;
   if (serviceId === 'upvc-cleaning') return UPVC_CLEANING_FAQS;
   if (serviceId === 'roof-cleaning') return ROOF_CLEANING_FAQS;
@@ -58,6 +61,8 @@ function getServiceFaqs(serviceId: string) {
 }
 
 function getServiceFaqCopy(serviceId: string) {
+  const audience = serviceAudienceContent(serviceId);
+  if (audience) return { title: audience.faqTitle, subtitle: audience.faqSubtitle };
   if (serviceId === 'gutter-repairs') {
     return {
       title: 'Gutter Repair Questions',
@@ -1175,8 +1180,14 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         title={serviceFaqCopy.title}
         subtitle={serviceFaqCopy.subtitle}
       />
-      {!FOCUSED_SERVICE_IDS.has(service.id) && <AreaFacts />}
-      {!FOCUSED_SERVICE_IDS.has(service.id) && <AreaBlogSnippet />}
+      {/* Generic homeowner tabs (cost / near me) repeated on every service page — hidden where the page has its own audience content. */}
+      {!FOCUSED_SERVICE_IDS.has(service.id) && !serviceAudienceContent(service.id) && <AreaFacts />}
+      {!FOCUSED_SERVICE_IDS.has(service.id) && (
+        <AreaBlogSnippet
+          postIds={serviceAudienceContent(service.id)?.guides}
+          locality={serviceAudienceContent(service.id) ? undefined : service.name}
+        />
+      )}
       {!FOCUSED_SERVICE_IDS.has(service.id) && (
         <AreaFeatures
           serviceLabel={service.name}
