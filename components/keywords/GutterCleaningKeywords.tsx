@@ -89,7 +89,7 @@ export const GUTTER_CLEANING_KEYWORDS: KeywordItem[] = [
 
   // Trust/decision (66-75)
   { id: 66, keyword: 'trusted gutter cleaners', category: 'Trust & Reputation', link: '/reviews/' },
-  { id: 67, keyword: 'insured gutter cleaning company', category: 'Trust & Reputation', link: '/about/', badge: '£10M Insured' },
+  { id: 67, keyword: 'insured gutter cleaning company', category: 'Trust & Reputation', link: '/about/', badge: 'Fully Insured' },
   { id: 68, keyword: 'gutter cleaning reviews', category: 'Trust & Reputation', link: '/reviews/' },
   { id: 69, keyword: 'best gutter cleaning company', category: 'Trust & Reputation', link: '/reviews/' },
   { id: 70, keyword: 'reliable gutter cleaners', category: 'Trust & Reputation', link: '/about/' },
@@ -304,7 +304,7 @@ export default function GutterCleaningKeywords({
                 Need Fast, Reliable Gutter Cleaning?
               </h3>
               <p className="text-slate-300 text-xs sm:text-sm max-w-xl">
-                Ground-based carbon-fibre vacuum system with real-time wireless cameras. Fully insured with £10M public liability. No ladders, no mess.
+                Ground-based carbon-fibre vacuum system with real-time wireless cameras. Fully insured. No ladders, no mess.
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-3">

@@ -29,7 +29,7 @@ const serviceSchema = {
   },
   offers: {
     '@type': 'Offer',
-    priceRange: '£300–£1,500',
+    priceRange: 'From £300',
     priceCurrency: 'GBP',
   },
   url: 'https://wowgutters.co.uk/services/gutter-installation/',

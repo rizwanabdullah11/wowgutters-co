@@ -192,7 +192,7 @@ export default function BirminghamGutterCleaningPage() {
 
           <p className="hero-subtitle hidden md:block">
             WOW Gutters Ltd is Birmingham&apos;s trusted gutter cleaning specialist. We use a ground-level vacuum system —
-            no ladders, no damage, no mess. Up to 4-storey reach, before &amp; after photos on every job, and full water flow testing. Fully insured (£10m).
+            no ladders, no damage, no mess. Up to 4-storey reach, before &amp; after photos on every job, and full water flow testing. Fully insured.
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch justify-center gap-4 w-full max-w-xl animate-fade-in-up delay-300">
@@ -290,7 +290,7 @@ export default function BirminghamGutterCleaningPage() {
           <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             {[
               { label: 'Google rating', value: '4.9★' },
-              { label: 'Liability insurance', value: '£10m' },
+              { label: 'Liability insurance', value: 'Fully insured' },
               { label: 'Storeys reach', value: '4' },
               { label: 'Days a week', value: '7' },
             ].map((s) => (

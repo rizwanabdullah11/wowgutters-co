@@ -222,7 +222,7 @@ ${ctaTop}
   <li><strong>What reach does your system have?</strong> Confirm it reaches your specific property height. SkyVac Atom reaches to ~8 m (two-storey); SkyVac Industrial to ~13 m (four-storey).</li>
   <li><strong>Is the debris removed from site?</strong> Some operators leave bagged debris on your driveway. WOW Gutters removes all debris as standard.</li>
   <li><strong>Are downpipes checked and flushed?</strong> Vacuum cleaning clears the channel, but a blocked downpipe underground is a separate issue. Ask what the process is for downpipe flushing and blockage identification. See our guide on <a href="/blog/downpipe-blocked-signs-birmingham-homes/" style="${link}">signs your downpipe is blocked</a>.</li>
-  <li><strong>Is the company insured?</strong> Confirm public liability insurance of at least £2 million. WOW Gutters holds full public liability cover for all operative and vehicle work.</li>
+  <li><strong>Is the company insured?</strong> Confirm they hold public liability insurance. WOW Gutters holds full public liability cover for all operative and vehicle work.</li>
   <li><strong>What happens if a repair is needed?</strong> Ask whether the operative will photograph defects and provide a written quotation. WOW Gutters provides a written <a href="/gutter-repairs/" style="${link}">gutter repair</a> report on every job where issues are found.</li>
 </ol>
 

@@ -158,7 +158,7 @@ export default function GutterGallery() {
                 </div>
                 <div className="flex items-center gap-3 text-gray-600">
                   <CheckCircle className="w-5 h-5" style={{ color: colors.primary }} />
-                  <span className="text-sm font-medium">Fully insured (£10m)</span>
+                  <span className="text-sm font-medium">Fully insured</span>
                 </div>
               </div>
             </div>

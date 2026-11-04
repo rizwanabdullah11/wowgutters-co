@@ -119,7 +119,7 @@ export function transformCityGutterToRepair(data: CityGutterLandingData): CityGu
       ? transformTextToRepair(data.localSpotlight)
       : undefined,
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -271,7 +271,7 @@ export function buildRepairLandingFromCity(input: CityData & { streets?: string[
     whyBody: repairGeneratedWhyBody(name),
     localSpotlight: undefined,
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -315,7 +315,7 @@ export function buildBirminghamRepairLanding(): CityGutterLandingData {
       'Tree-lined suburbs such as Moseley, Harborne, Sutton Coldfield and Kings Heath see more gutter damage as debris weight pulls brackets loose and joints open over time. Professional repair with thorough flow testing is the most cost-effective way to protect your property.',
     ],
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',

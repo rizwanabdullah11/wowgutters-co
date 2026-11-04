@@ -199,7 +199,7 @@ export default function OAPDiscount() {
                 <p className="text-xs text-slate-600">Clear before &amp; after photographic proof</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-100">
-                <div className="font-bold text-slate-900 text-lg mb-1">£5M Fully Insured</div>
+                <div className="font-bold text-slate-900 text-lg mb-1">Fully Insured</div>
                 <p className="text-xs text-slate-600">Complete public liability insurance</p>
               </div>
               <div className="p-4 rounded-xl bg-slate-50 border border-slate-100">

@@ -34,7 +34,7 @@ export default function AboutContent() {
           </li>
           <li className="flex items-start">
             <span className="text-2xl mr-3" style={{ color: colors.primary }}>✓</span>
-            <span className="text-gray-700">Fully insured (£10m)</span>
+            <span className="text-gray-700">Fully insured</span>
           </li>
           <li className="flex items-start">
             <span className="text-2xl mr-3" style={{ color: colors.primary }}>✓</span>

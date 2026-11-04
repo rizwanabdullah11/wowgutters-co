@@ -19,7 +19,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Selly Park (B29) — leafy south-west Birmingham suburb beside the Bourn Brook valley and the University of Birmingham campus. Common call-outs include period cast-iron joints and long villa runs that sag under wet leaf weight. We regularly work on Lonsdale Road, Elmfield Road, Bournbrook Road and cover Selly Oak, Bournbrook, Moseley.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -70,7 +70,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Bromford (B36) — east Birmingham neighbourhood between Castle Bromwich and Hodge Hill along the Bromford Lane corridor. Common call-outs include post-war uPVC runs with tired brackets and open joints after years of estate-tree debris. We regularly work on Bromford Lane, Henhurst Road, Hall Road and cover Castle Bromwich, Hodge Hill, Stechford.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -121,7 +121,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Duddeston (B7) — inner-east Birmingham district next to Nechells and the Aston Expressway approaches. Common call-outs include ageing estate guttering and mixed commercial/residential rooflines with failed seals. We regularly work on Duddeston Manor Road, George Arthur Road, Cato Street and cover Nechells, Saltley, Aston.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -172,7 +172,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Lea Hall (B33) — established east Birmingham suburb on the Stechford–Sheldon corridor. Common call-outs include 1930s–60s semis with sagging mid-run brackets and leaking union joints. We regularly work on Lea Hall Road, Flaxley Road, Yew Tree Road and cover Stechford, Kitts Green, Sheldon.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -223,7 +223,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: South Yardley (B25, B26) — south-east Birmingham area between Yardley village and the Acocks Green border. Common call-outs include Victorian and Edwardian joints failing on solid-wall terraces plus tired uPVC on later semis. We regularly work on Westley Road, Church Road, Stoney Lane and cover Yardley, Acocks Green, Sheldon.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -274,7 +274,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Tile Cross (B33) — east Birmingham neighbourhood bordering Marston Green and the Chelmsley Wood estates. Common call-outs include estate-era uPVC with brittle joints and brackets that fail under wet debris weight. We regularly work on Tile Cross Road, Bosworth Drive, Gilson Way and cover Stechford, Marston Green, Chelmsley Wood.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -325,7 +325,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Kingshurst (B37) — north Solihull / east Birmingham estate neighbourhood beside Chelmsley Wood. Common call-outs include long estate gutter runs with repeated joint failure and loose brackets. We regularly work on Kingshurst Way, Bosworth Drive, Marlene Croft and cover Chelmsley Wood, Fordbridge, Marston Green.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -376,7 +376,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Fordbridge (B37) — Chelmsley Wood-edge community on the Birmingham–Solihull border. Common call-outs include storm-loosened brackets and cracked downpipe junctions on estate housing. We regularly work on Fordbridge Road, Bosworth Drive, Marlene Croft and cover Kingshurst, Chelmsley Wood, Marston Green.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -427,7 +427,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Bordesley (B9) — inner-city Birmingham district on the Coventry Road approach to Digbeth and Small Heath. Common call-outs include compact terrace gutters with failed seals and mixed commercial rooflines. We regularly work on Bordesley Street, Coventry Road, Derby Road and cover Small Heath, Bordesley Green, Digbeth.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -478,7 +478,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Rotton Park (B16) — west Birmingham suburb between Edgbaston, Ladywood and the Jewellery Quarter. Common call-outs include period property gutters where brackets pull from painted fascias and joints weep onto bay windows. We regularly work on Rotton Park Road, City Road, Icknield Street and cover Ladywood, Edgbaston, Jewellery Quarter.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -529,7 +529,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Summerfield (B19) — inner-west Birmingham neighbourhood around Summerfield Park and the Dudley Road corridor. Common call-outs include compact terrace joints and park-edge homes where leaf weight opens unions. We regularly work on Summerfield Crescent, City Road, Icknield Street and cover Winson Green, Ladywood, Jewellery Quarter.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -580,7 +580,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Oscott (B44) — north Birmingham suburb on the Kingstanding–Great Barr corridor near Oscott College. Common call-outs include 1930s–60s uPVC with joint fatigue and brackets loosened by Aldridge Road tree cover. We regularly work on Oscott Road, Aldridge Road, Walsall Road and cover Kingstanding, Perry Barr, Great Barr.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -631,7 +631,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Warstock (B14) — south Birmingham suburb between Kings Heath, Maypole and Yardley Wood. Common call-outs include leaf-loaded interwar gutters that pull brackets and open joints each autumn. We regularly work on Warstock Road, Alcester Road, School Road and cover Kings Heath, Maypole, Yardley Wood.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -682,7 +682,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Maypole (B14) — southern Birmingham gateway on the Alcester Road towards Shirley and Dickens Heath. Common call-outs include busy-corridor homes with tired fascia fixings and leaking unions on long front runs. We regularly work on Alcester Road, Maypole Lane, Billesley Lane and cover Kings Heath, Warstock, Yardley Wood.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -733,7 +733,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Vauxhall (B7) — inner Birmingham area between Aston, Nechells and the city-centre approaches. Common call-outs include short industrial-edge and terrace gutters with failed seals and damaged downpipes. We regularly work on Vauxhall Road, Thimble Mill Lane, Miller Street and cover Aston, Nechells, Duddeston.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -784,7 +784,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Bickenhill (B92) — Solihull parish beside Birmingham Airport, the NEC and Catherine-de-Barnes. Common call-outs include rural-edge and village gutters stressed by jet-wash wind and long exposed runs. We regularly work on Bickenhill Road, Birmingham Road, Catherine-de-Barnes Lane and cover NEC, Birmingham Airport, Solihull.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -835,7 +835,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Cranmore (B90) — Shirley-side Solihull neighbourhood near Cranmore Industrial Estate and Haslucks Green. Common call-outs include 1970s–90s uPVC with joint fatigue on family semis and estate homes. We regularly work on Cranmore Avenue, Stratford Road, Haslucks Green Road and cover Shirley, Solihull, Monkspath.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -886,7 +886,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Dickens Heath (B90) — planned Solihull village with canalside homes, apartments and Blythe Valley business park nearby. Common call-outs include modern uPVC and shared rooflines where poorly seated joints weep onto render. We regularly work on Dickens Heath Road, Blythe Way, School Lane and cover Shirley, Solihull, Blythe Valley.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -937,7 +937,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Elmdon (B26) — Solihull / Sheldon border area near Elmdon Park, Damson Parkway and the airport approaches. Common call-outs include park-edge leaf loading and airport-corridor wind stress on brackets. We regularly work on Elmdon Lane, Bickenhill Road, Damson Parkway and cover Birmingham Airport, Solihull, Sheldon.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -988,7 +988,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Hillfield (B91) — central Solihull neighbourhood near the town centre, Marsh Lane and Lode Lane. Common call-outs include mature suburban gutters on larger homes where mid-run brackets fail first. We regularly work on Hillfield Road, Solihull High Street, Marsh Lane and cover Solihull, Olton, Shirley.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -1039,7 +1039,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Monkspath (B90) — south Solihull suburb of family estates around Monkspath Hall Road and Widney Manor. Common call-outs include 1980s–2000s uPVC with ageing seals on large detached and semi plots. We regularly work on Monkspath Hall Road, Haslucks Green Road, Stratford Road and cover Solihull, Shirley, Olton.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -1090,7 +1090,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Silhill (B91) — historic Solihull town ward around the High Street, station and Poplar Road. Common call-outs include period and town-centre gutters where appearance matters as much as watertight seals. We regularly work on Solihull High Street, Station Road, Poplar Road and cover Solihull town centre, Olton, Shirley.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -1141,7 +1141,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Smiths Wood (B36) — north Solihull estate community beside Chelmsley Wood and Kingshurst. Common call-outs include estate guttering with brittle joints and repeated overflow at shared outlets. We regularly work on Smiths Wood Road, Church Way, Woodlands Way and cover Chelmsley Wood, Kingshurst, Fordbridge.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -1192,7 +1192,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Solihull Lodge (B90) — southern Shirley / Solihull fringe towards Cheswick Green and Hall Green. Common call-outs include leaf-heavy suburban runs and Stratford Road corridor wind damage. We regularly work on Solihull Lodge Road, Stratford Road, Lodge Road and cover Shirley, Monkspath, Cheswick Green.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -1243,7 +1243,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Tidbury Green (B90) — semi-rural Solihull village south of Shirley towards Earlswood and Dickens Heath. Common call-outs include exposed village gutters on larger plots where brackets fail under wet leaf weight. We regularly work on Tidbury Green Road, Dickens Heath Road, Pilgrims Way and cover Shirley, Dickens Heath, Cheswick Green.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -1294,7 +1294,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Bearwood (B66) — busy Sandwell high-street suburb between Smethwick, Warley and the Harborne border. Common call-outs include terrace and shop-front gutters with failed seals above busy Bearwood Road. We regularly work on Bearwood Road, Londonderry Lane, Sandwell Road and cover Smethwick, Warley, Oldbury.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -1345,7 +1345,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Warley (B68) — Sandwell suburb around Warley Woods and the Oldbury–Bearwood corridor. Common call-outs include woods-edge leaf loading that opens joints and pulls brackets on family homes. We regularly work on Warley Road, St James\'s Road, Moat Road and cover Oldbury, Langley Green, Bearwood.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -1396,7 +1396,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Tividale (DY4) — Sandwell / Dudley border suburb on the Tividale Road and New Birmingham Road corridors. Common call-outs include post-war uPVC with joint fatigue and industrial-edge dust accelerating wear. We regularly work on Tividale Road, Sedgley Road, Castle Gate and cover Tipton, Dudley, Great Bridge.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -1447,7 +1447,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Great Bridge (DY4) — historic Sandwell market and canal-side community between Tipton and West Bromwich. Common call-outs include compact terrace and retail gutters with failed seals above busy frontages. We regularly work on Great Bridge Street, Horseley Road, Sheepwash Lane and cover West Bromwich, Tipton, Dudley.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -1498,7 +1498,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Wollaston (DY8) — Stourbridge suburb towards Bridgnorth Road and the Wordsley border. Common call-outs include family-home uPVC with sagging mid-runs on sloping Bridgnorth Road plots. We regularly work on Wollaston Road, Bridgnorth Road, Ismere Road and cover Stourbridge, Amblecote, Norton.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -1549,7 +1549,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Pensnett (DY5) — Dudley borough community between Kingswinford, Brierley Hill and Himley Road. Common call-outs include estate and semi gutters with brittle joints after decades of Black Country weather. We regularly work on Pensnett Road, Himley Road, Brown Bear Lane and cover Dudley, Kingswinford, Brierley Hill.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -1600,7 +1600,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Quarry Bank (DY5) — historic Dudley industrial village between Brierley Hill and Saltwells nature reserve. Common call-outs include period and post-war gutters where moss from Saltwells woodland packs outlets. We regularly work on Cakemore Road, Quarry Bank Road, Saltwells Lane and cover Brierley Hill, Kingswinford, Dudley.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -1651,7 +1651,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Wordsley (DY8) — Stourbridge-edge community known for glassmaking heritage around Glasshouse Hill. Common call-outs include family-home gutters on sloping streets where fall fails and joints weep. We regularly work on Wordsley Road, Glasshouse Hill, Kingswinford Road and cover Stourbridge, Kingswinford, Wollaston.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -1702,7 +1702,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Bentley (WS2) — Walsall neighbourhood between Birchills, Willenhall and the Bentley Lane corridor. Common call-outs include compact terrace and semi gutters with failed seals after Black Country winters. We regularly work on Bentley Lane, School Street, Little Station Street and cover Walsall, Bloxwich, Birchills.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',
@@ -1753,7 +1753,7 @@ export const REPAIR_AREA_LANDINGS: Record<string, CityGutterLandingData> = {
     ],
     localSpotlight: 'Local focus: Pleck (WS2) — inner Walsall district on the Pleck Road corridor towards Caldmore and Alumwell. Common call-outs include terrace gutters and retail-corridor overflows that stain frontages quickly. We regularly work on Pleck Road, Sandwell Street, Trent Road and cover Walsall, Caldmore, Alumwell.',
     guarantees: [
-      'Full water flow testing and £10m public liability insurance',
+      'Full water flow testing and full public liability insurance',
       'Leaking joints, sagging runs and cracked sections all fixed',
       'Water flow test after every repair to confirm proper drainage',
       'Honest advice if replacement is more cost-effective than repair',

@@ -89,7 +89,7 @@ export const COMMERCIAL_GUTTER_CLEANING_KEYWORDS: KeywordItem[] = [
 
   // Trust/decision (66-75)
   { id: 66, keyword: 'trusted commercial gutter cleaners', category: 'Trust & Compliance', link: '/reviews/' },
-  { id: 67, keyword: 'insured commercial gutter cleaning company (£10M cover)', category: 'Trust & Compliance', link: '/about/', badge: '£10M Insured' },
+  { id: 67, keyword: 'insured commercial gutter cleaning company ', category: 'Trust & Compliance', link: '/about/', badge: 'Fully Insured' },
   { id: 68, keyword: 'commercial gutter cleaning reviews', category: 'Trust & Compliance', link: '/reviews/' },
   { id: 69, keyword: 'best commercial gutter cleaning company', category: 'Trust & Compliance', link: '/reviews/' },
   { id: 70, keyword: 'reliable commercial gutter contractors', category: 'Trust & Compliance', link: '/about/' },
@@ -304,7 +304,7 @@ export default function CommercialGutterCleaningKeywords({
                 Need Commercial Gutter Maintenance or PPM Contracts?
               </h3>
               <p className="text-slate-300 text-xs sm:text-sm max-w-xl">
-                Full RAMS documentation, £10M public liability insurance, IPAF certified cherry picker operators, and HD photographic reporting.
+                Full RAMS documentation, full public liability insurance, IPAF certified cherry picker operators, and HD photographic reporting.
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-3">

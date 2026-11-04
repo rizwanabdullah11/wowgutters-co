@@ -110,7 +110,7 @@ function buildGutterMetadata(areaSlug: string): Metadata {
     return buildMetadata({
       absoluteTitle: 'Gutter Cleaning Birmingham | Professional, Safe & Fully Insured | WOW Gutters Ltd',
       description:
-        'Professional gutter cleaning in Birmingham from £100. Ground-level vacuum system, before & after photos, fully insured (£10m). Call WOW Gutters Ltd: 07421 433910.',
+        'Professional gutter cleaning in Birmingham from £100. Ground-level vacuum system, before & after photos, fully insured. Call WOW Gutters Ltd: 07421 433910.',
       canonicalPath: areaPath(areaSlug),
       ogImagePath: '/og/birmingham.jpg',
     });

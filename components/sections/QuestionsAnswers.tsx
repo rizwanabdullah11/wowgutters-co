@@ -7,7 +7,7 @@ const categories = [
   'Conservatory Gutters', 'Damp', 'General', 'Gutter Cleaning',
   'Gutter Guards', 'Gutter Problems', 'Gutter Repairs',
   'Hot Wash Services', 'How to', 'Most Asked', 'Parapet Wall',
-  'Roof Cleaning', 'Water Butts',
+  'Roof Cleaning',
 ];
 
 const questions: Record<string, string[]> = {

@@ -766,7 +766,7 @@ const RAW_KEYWORDS = [
 function buildBullets(slug: string): string[] {
   const generic = [
     'Professional service across Birmingham and the West Midlands',
-    'Fully insured with £10 million public liability cover',
+    'Fully insured',
     'Before and after photos on every job',
     'Free, no-obligation quotes in 60 seconds',
     'Same-day and next-day appointments where available',
@@ -779,7 +779,7 @@ function buildBullets(slug: string): string[] {
       'Commercial-grade hot water pressure washing equipment',
       'Removes algae, moss, oil stains, and ingrained dirt',
       'Safe for block paving, concrete, tarmac, and stone surfaces',
-      'Fully insured with £10 million public liability cover',
+      'Fully insured',
       'Free quotes and same-day service across Birmingham',
     ];
   }
@@ -813,7 +813,7 @@ function buildBullets(slug: string): string[] {
       'Biocide treatment to slow moss and algae regrowth',
       'Roof inspections and condition reports',
       'Gutter cleaning combined with roof work for full roofline care',
-      'Fully insured with £10 million public liability cover',
+      'Fully insured',
     ];
   }
 
@@ -849,7 +849,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
             'Prevents overflow water from penetrating fascia boards and cavity walls',
             'Mesh leaf guard inspection and cleaning where wasps have nested beneath guards',
             'Inspection of joints and seals for damage caused by trapped moisture',
-            'Fully insured with £10 million public liability coverage',
+            'Fully insured',
             'Same-week appointments available across Birmingham and the West Midlands',
           ],
         },
@@ -890,7 +890,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
             'Dedicated downpipe retrofitting to give your property independent drainage',
             'High-reach vacuum clearing of both halves with neighbour group discounts',
             'Camera surveys to document boundary joint condition for landlord/homeowner clarity',
-            'Clear fixed pricing with £10m public liability insurance',
+            'Clear fixed pricing with full public liability insurance',
           ],
         },
         {
@@ -933,7 +933,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
     const serviceName = isRoof ? 'Commercial Roof Cleaning' : 'Commercial Gutter Cleaning';
     return {
       heroTitle: title,
-      heroDescription: `Professional ${serviceName.toLowerCase()} and planned maintenance for industrial units, warehouses, retail parks, and commercial properties across Birmingham and the West Midlands. Fully insured (£10m) with RAMS. Call 07421 433910.`,
+      heroDescription: `Professional ${serviceName.toLowerCase()} and planned maintenance for industrial units, warehouses, retail parks, and commercial properties across Birmingham and the West Midlands. Fully insured with RAMS. Call 07421 433910.`,
       sections: [
         {
           heading: `Specialist ${serviceName} for West Midlands Businesses`,
@@ -956,7 +956,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
             'Compliant with Health and Safety Executive (HSE) working at height regulations',
             'Flexible invoicing and dedicated account management for facility managers',
             'Covering factories, distribution hubs, business parks, and public sector sites',
-            'Fully insured with £10 million public liability and employer liability cover',
+            'Fully insured',
           ],
         },
       ],
@@ -1007,7 +1007,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
             'Restores optimal rainwater pitch so gutters drain completely with zero standing sludge',
             'Mobile service vans fully stocked with all standard uPVC, cast iron, and aluminium fittings',
             'Cost-effective alternative to complete gutter and roofline replacement',
-            'Fully insured with £10m public liability cover',
+            'Fully insured',
             'Same-week repair appointments across Birmingham, Solihull, and the West Midlands',
           ],
         },
@@ -1058,7 +1058,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
             'Prevents expensive internal plaster damage, ceiling collapse, and timber dry rot',
             'Eliminates damp patches and salt efflorescence on exterior walls',
             'Transparent fixed-price diagnostics with no hidden callout charges',
-            'Experienced drainage and roofline technicians with £10m public liability cover',
+            'Experienced drainage and roofline technicians with full public liability insurance',
             'Serving all Birmingham postcodes, Solihull, Sutton Coldfield, and the West Midlands',
             'Same-day and emergency inspection slots available',
           ],
@@ -1156,7 +1156,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
             'Full downpipe flushing, outlet unblocking, and free-flow water testing',
             'Fixing leaking joints, union clips, sagging runs, and broken support brackets',
             'Before and after HD photographic proof provided with every visit',
-            'Fully insured with £10 million public liability coverage',
+            'Fully insured',
           ],
         },
         {
@@ -1218,7 +1218,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
             'Prevents rapid biological regrowth for 2 to 3 years',
             'Safe, controlled application without high-pressure surface scarring',
             'Full photographic documentation before and after treatment',
-            'Fully insured with £10 million public liability coverage',
+            'Fully insured',
             'Free on-site patch test and fixed quotation',
             'Competitive rates across Birmingham, Solihull, and the West Midlands',
           ],
@@ -1259,7 +1259,7 @@ function generateSmartContent(keyword: string, slug: string): { heroTitle: strin
           'Downpipe outlet unblocking and comprehensive flow testing included',
           'Before and after HD photographic records provided with every visit',
           'Minor repairs, union joint resealing, and bracket adjustments available',
-          'Fully insured with £10 million public liability cover',
+          'Fully insured',
         ],
       },
       {

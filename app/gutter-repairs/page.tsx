@@ -31,7 +31,7 @@ const service: ServiceDetail = {
         'Quality uPVC seals, brackets, and connectors used on every repair',
         'Thorough water flow testing and before & after camera verification',
         'Water flow test after every repair to confirm proper drainage',
-        'Fully insured with £10 million public liability cover',
+        'Fully insured',
         'Honest advice if replacement is more cost-effective than repair',
       ],
     },

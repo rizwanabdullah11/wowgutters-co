@@ -107,7 +107,7 @@ function guarantees(cat: string): string[] {
     'Scratch-free soft brushes preserve anti-reflective glass coatings',
     'Chemical-free cleaning that is gentle on uPVC and roofing',
     'Increases solar energy generation by up to 30%',
-    'Fully insured with £10 million public liability cover',
+    'Fully insured',
     'Free quotes with fast scheduling across Birmingham & West Midlands',
   ];
   if (cat === 'window') return [
@@ -115,7 +115,7 @@ function guarantees(cat: string): string[] {
     'Streak-free finish on all glass and UPVC frames',
     'Interior and exterior window cleaning available',
     'Fascias, soffits and conservatories cleaned on request',
-    'Fully insured with £10 million public liability cover',
+    'Fully insured',
     'Regular schedules available — weekly, fortnightly, monthly',
   ];
   if (cat === 'pressure-wash') return [
@@ -123,7 +123,7 @@ function guarantees(cat: string): string[] {
     'Removes algae, moss, oil stains and ingrained dirt',
     'Safe for block paving, concrete, tarmac and stone',
     'Before and after photos on every job',
-    'Fully insured with £10 million public liability cover',
+    'Fully insured',
     'Free quotes with same-day service where available',
   ];
   if (cat === 'roof') return [
@@ -270,7 +270,7 @@ function faqItems(cat: string, page: KeywordPage): { question: string; answer: s
     { question: 'Do you use ladders or a vacuum system?', answer: 'We use a ground-level high-reach vacuum system — no ladders placed against your property. It reaches up to 4 storeys.' },
     { question: 'How long does a gutter clean take?', answer: 'Most homes take 30–60 minutes. We clear all debris, test downpipes and provide before and after photos.' },
     { question: 'Do you include downpipe clearing?', answer: 'Yes — every clean includes downpipe clearing and flow testing as standard at no extra charge.' },
-    { question: 'Are you insured?', answer: 'Yes — we hold £10 million public liability insurance and thoroughly flow-test every job.' },
+    { question: 'Are you insured?', answer: 'Yes — we hold full public liability insurance and thoroughly flow-test every job.' },
   ];
 }
 

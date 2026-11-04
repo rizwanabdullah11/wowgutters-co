@@ -159,7 +159,7 @@ export function buildAreaLandingFromCity(input: AreaInput): CityGutterLandingDat
       'Ground-level vacuum system — no ladders placed against your property',
       'Reaches up to 4 storeys — homes, flats and commercial buildings',
       'Before & after photos included as standard on every job',
-      'Fully insured — comprehensive £10m public liability cover on every visit',
+      'Fully insured on every visit',
       'Complete water flow testing on downpipes and gutters',
     ],
     propertyTypesTitle: `Gutter Cleaning for All Property Types in ${name}`,

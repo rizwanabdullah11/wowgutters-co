@@ -4,7 +4,7 @@
  * Only describe what the photo actually shows. Do NOT add a town/street to a job unless the
  * owner has confirmed where it was — add `area` once known (it is shown in the caption + alt).
  */
-export type RealJobPhoto = { src: string; alt: string; label: 'Before' | 'After' | 'Camera view' };
+export type RealJobPhoto = { src: string; alt: string; label: 'Before' | 'After' | 'Camera view' | 'During' | 'Before & after' };
 
 export type RealGutterJob = {
   id: string;
@@ -12,6 +12,8 @@ export type RealGutterJob = {
   summary: string;
   area?: string;
   date?: string;
+  /** 16:9 photos — shown full width instead of the portrait before/after grid. */
+  landscape?: boolean;
   photos: RealJobPhoto[];
 };
 

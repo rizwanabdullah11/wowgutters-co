@@ -7,7 +7,7 @@ import CollapsibleAreaFAQ from '@/components/areas/CollapsibleAreaFAQ';
 import { buildCityPageFaqs, isPrimaryCitySlug } from '@/lib/cityFaqs';
 import { AREA_SERVICE_META, type AreaServiceKind } from '@/lib/areaServiceMeta';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
-import { realRoofJobsFor } from '@/constants/realRoofJobs';
+import { liveRoofJobsFor, realRoofJobsFor } from '@/constants/realRoofJobs';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
@@ -277,11 +277,19 @@ export default function CityGutterCleaningPage({
       </section>
 
       <AreaBlogSnippet locality={data.city} service={serviceKind === 'roof' ? 'roof' : 'gutter'} />
-      <AreaRecentWork
-        jobs={serviceKind === 'roof' ? realRoofJobsFor(data.slug) : undefined}
-        heading={`Recent Roof Cleaning in ${data.city} – Real Before & After`}
-        intro={`Real photos from a WOW Gutters roof clean in ${data.city}, not stock images.`}
-      />
+      {serviceKind === 'roof' && realRoofJobsFor(data.slug) ? (
+        <AreaRecentWork
+          jobs={realRoofJobsFor(data.slug)}
+          heading={`Recent Roof Cleaning in ${data.city} – Real Before & After`}
+          intro={`Real photos from a WOW Gutters roof clean in ${data.city}, not stock images.`}
+        />
+      ) : serviceKind === 'roof' ? (
+        <AreaRecentWork
+          jobs={liveRoofJobsFor(data.slug)}
+          heading="Our Roof Cleaning Team at Work"
+          intro={`Real photos from WOW Gutters roof jobs — the same team and method we use on ${data.city} roofs.`}
+        />
+      ) : null}
       <AreaContactMap geo={data.geo} />
       {serviceKind !== 'repair' && serviceKind !== 'inspection' && serviceKind !== 'installation' && (
         <AreaServicesHub currentSlug={data.slug} serviceKind={serviceKind} cityName={data.city} />

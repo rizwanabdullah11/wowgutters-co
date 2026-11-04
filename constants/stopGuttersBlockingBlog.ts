@@ -13,7 +13,7 @@ const ctaTop = `
 <blockquote style="border-left: 4px solid #19C58B; padding: 16px 20px; margin: 24px 0; background: #f0fdf4; border-radius: 0 8px 8px 0; color: #1e293b;">
   <strong>📞 WOW Gutters Ltd — Birmingham & West Midlands Gutter Cleaning Specialists:</strong>
   <a href="tel:07421433910" style="color: #0f172a; font-weight: 700; text-decoration: none;">07421 433910</a><br/>
-  Free 60-second quote · Before & after camera photos on every job · £10m public liability cover
+  Free 60-second quote · Before & after camera photos on every job · Fully insured
 </blockquote>`;
 
 const ctaBox = `

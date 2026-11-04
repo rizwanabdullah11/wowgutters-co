@@ -39,7 +39,7 @@ export default function AreaFeatures({
     {
       icon: ShieldCheck,
       title: 'Fully insured & certified',
-      desc: `WOW Gutters Ltd is fully insured (£10m cover), and we deliver professional workmanship${locality ? ` throughout ${locality}` : ''} with rigorous flow testing on every job.`,
+      desc: `WOW Gutters Ltd is fully insured, and we deliver professional workmanship${locality ? ` throughout ${locality}` : ''} with rigorous flow testing on every job.`,
     },
   ];
 

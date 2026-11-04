@@ -1274,7 +1274,7 @@ export const blogPosts: BlogPost[] = [
     author: 'WOW Gutters Ltd',
     authorRole: 'Professional Gutter Cleaning Specialists',
     category: 'Maintenance',
-    quickAnswer: 'The 10 warning signs of blocked gutters include: water overflowing over the edge, green/black staining on walls, damp patches inside, plants growing from gutters, sagging sections, downpipe blockages, ice dams in winter, fascia staining, birds/pests near gutterline, and not remembering when they were last cleaned. Professional gutter cleaning in Birmingham costs £100–£210 depending on property size.',
+    quickAnswer: 'The 10 warning signs of blocked gutters include: water overflowing over the edge, green/black staining on walls, damp patches inside, plants growing from gutters, sagging sections, downpipe blockages, ice dams in winter, fascia staining, birds/pests near gutterline, and not remembering when they were last cleaned. Professional gutter cleaning in Birmingham costs £100 for a 2-bed home, £110 for a 3-bed home, and our Premium Service starts from £200.',
     content: `
       <figure style="margin: 20px 0;">
         <img

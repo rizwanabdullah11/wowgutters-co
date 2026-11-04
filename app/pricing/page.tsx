@@ -167,7 +167,7 @@ export default function Pricing() {
                   </div>
                   <div className="flex items-start gap-2.5">
                     <CheckCircle className="w-4 h-4 mt-0.5 text-emerald-400 shrink-0" />
-                    <span>Fully insured (£5M public liability) technicians</span>
+                    <span>Fully insured technicians</span>
                   </div>
                 </div>
 

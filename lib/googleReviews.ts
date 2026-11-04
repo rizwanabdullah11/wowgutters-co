@@ -20,7 +20,7 @@ export function googleReviewsHeadline(city?: string): string {
 }
 
 export function googleReviewsSubline(): string {
-  return `${GOOGLE_REVIEWS_SUMMARY.ratingLabel}★ · Fully insured (£10m) · Before & after photos · Open 24 hours.`;
+  return `${GOOGLE_REVIEWS_SUMMARY.ratingLabel}★ · Fully insured · Before & after photos · Open 24 hours.`;
 }
 
 export function googleReviewsCrawlSummary(city?: string): string {

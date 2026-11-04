@@ -53,7 +53,7 @@ const tabContent = [
     content: [
       "Searching for \"Gutter Cleaning Near Me\"? You have found the right team. WOW Gutters Ltd covers Birmingham and the entire West Midlands with professional, no-ladder gutter cleaning.",
       "We clean from the ground using a high-reach vacuum system that reaches up to four storeys — no ladders against your walls, no risk to your fascias, no mess left behind.",
-      "Every job includes before and after photos, downpipe clearing as standard, and a full condition report flagging any repairs needed. We are fully insured with £10 million public liability cover.",
+      "Every job includes before and after photos, downpipe clearing as standard, and a full condition report flagging any repairs needed. We are fully insured.",
       "Call 07421 433910 or request a free instant quote online. Same-day and next-day appointments available across the West Midlands."
     ],
     image: "/gutter-cleaning-before.webp",

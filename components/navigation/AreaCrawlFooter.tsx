@@ -199,7 +199,7 @@ export default function AreaCrawlFooter({
             <Star className="w-5 h-5 text-emerald-700 shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
             <div>
               <p className="text-xs font-bold text-slate-900 group-hover:text-emerald-700 transition-colors">4.9★ Rated on Google</p>
-              <p className="text-xs text-slate-500 mt-0.5">£10M liability insurance &amp; verified reviews</p>
+              <p className="text-xs text-slate-500 mt-0.5">Full public liability insurance &amp; verified reviews</p>
             </div>
           </Link>
 

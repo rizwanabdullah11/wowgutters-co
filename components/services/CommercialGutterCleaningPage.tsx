@@ -145,7 +145,7 @@ export default function CommercialGutterCleaningPage() {
                     description: 'Before and after photos and written reports suitable for maintenance records and compliance.',
                   },
                   {
-                    title: '£10M Public Liability Insurance',
+                    title: 'Fully Insured',
                     description: 'Fully insured commercial work on every job, without exception.',
                   },
                 ].map((benefit, index) => (

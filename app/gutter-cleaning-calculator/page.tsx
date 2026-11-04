@@ -26,7 +26,7 @@ const INCLUDED = [
   'Downpipe unblocking and flow testing',
   'Debris removal — no mess left behind',
   'Before and after photos on every job',
-  'Fully insured (£5M public liability)',
+  'Fully insured (public liability cover on every job)',
 ];
 
 export default function GutterCleaningCalculator() {

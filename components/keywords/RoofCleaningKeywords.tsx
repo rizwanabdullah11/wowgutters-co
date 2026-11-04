@@ -89,7 +89,7 @@ export const ROOF_CLEANING_KEYWORDS: KeywordItem[] = [
 
   // Trust/decision (66-75)
   { id: 66, keyword: 'trusted roof cleaners', category: 'Trust & Reputation', link: '/reviews/' },
-  { id: 67, keyword: 'insured roof cleaning company', category: 'Trust & Reputation', link: '/about/', badge: '£10M Insured' },
+  { id: 67, keyword: 'insured roof cleaning company', category: 'Trust & Reputation', link: '/about/', badge: 'Fully Insured' },
   { id: 68, keyword: 'roof cleaning reviews', category: 'Trust & Reputation', link: '/reviews/' },
   { id: 69, keyword: 'best roof cleaning company', category: 'Trust & Reputation', link: '/reviews/' },
   { id: 70, keyword: 'reliable roof cleaners', category: 'Trust & Reputation', link: '/about/' },

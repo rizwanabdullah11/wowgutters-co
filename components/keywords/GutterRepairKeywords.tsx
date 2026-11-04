@@ -89,7 +89,7 @@ export const GUTTER_REPAIR_KEYWORDS: KeywordItem[] = [
 
   // Trust/decision (66-75)
   { id: 66, keyword: 'trusted gutter repairers', category: 'Trust & Reputation', link: '/reviews/' },
-  { id: 67, keyword: 'insured gutter repair company', category: 'Trust & Reputation', link: '/about/', badge: '£10M Insured' },
+  { id: 67, keyword: 'insured gutter repair company', category: 'Trust & Reputation', link: '/about/', badge: 'Fully Insured' },
   { id: 68, keyword: 'gutter repair reviews', category: 'Trust & Reputation', link: '/reviews/' },
   { id: 69, keyword: 'best gutter repair company', category: 'Trust & Reputation', link: '/reviews/' },
   { id: 70, keyword: 'reliable gutter repairers', category: 'Trust & Reputation', link: '/about/' },

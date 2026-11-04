@@ -29,13 +29,13 @@ export default function AreaRecentWork({ jobs, heading, intro }: Props) {
         <div className="grid gap-8 md:grid-cols-2">
           {jobs.map((job) => (
             <article key={job.id} className="rounded-2xl border border-slate-200 bg-slate-50 overflow-hidden shadow-sm">
-              <div className={`grid gap-1 ${job.photos.length > 1 ? 'grid-cols-2' : 'grid-cols-1'}`}>
+              <div className={`grid gap-1 ${job.photos.length > 1 && !job.landscape ? 'grid-cols-2' : 'grid-cols-1'}`}>
                 {job.photos.map((photo) => (
                   <figure key={photo.src} className="relative m-0">
                     <img
                       src={photo.src}
                       alt={job.area ? `${photo.alt} in ${job.area}` : photo.alt}
-                      className="w-full aspect-[3/4] object-cover"
+                      className={`w-full object-cover ${job.landscape ? 'aspect-video' : 'aspect-[3/4]'}`}
                       loading="lazy"
                       decoding="async"
                     />

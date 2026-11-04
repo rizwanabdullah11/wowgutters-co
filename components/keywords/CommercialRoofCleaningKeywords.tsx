@@ -105,7 +105,7 @@ export const COMMERCIAL_ROOF_CLEANING_KEYWORDS: KeywordItem[] = [
   { id: 81, keyword: 'MEWP cherry picker roof cleaning', category: 'Methods & Compliance', link: '/roof-cleaning-birmingham/', badge: 'MEWP/IPAF' },
   { id: 82, keyword: 'commercial roof cleaning RAMS certified', category: 'Methods & Compliance', link: '/roof-cleaning-birmingham/' },
   { id: 83, keyword: 'IPAF certified commercial roof cleaners', category: 'Methods & Compliance', link: '/roof-cleaning-birmingham/' },
-  { id: 84, keyword: 'commercial roof cleaning insurance £10M', category: 'Methods & Compliance', link: '/roof-cleaning-birmingham/' },
+  { id: 84, keyword: 'commercial roof cleaning insurance', category: 'Methods & Compliance', link: '/roof-cleaning-birmingham/' },
   { id: 85, keyword: 'commercial roof algae & lichen removal', category: 'Methods & Compliance', link: '/roof-cleaning-birmingham/' },
   { id: 86, keyword: 'commercial roof anti-fungal treatment', category: 'Methods & Compliance', link: '/roof-cleaning-birmingham/' },
   { id: 87, keyword: 'industrial roof coating prep cleaning', category: 'Methods & Compliance', link: '/roof-cleaning-birmingham/' },
@@ -293,7 +293,7 @@ export default function CommercialRoofCleaningKeywords({
                 Need Commercial Roof Moss Removal or Soft Wash?
               </h3>
               <p className="text-slate-300 text-xs sm:text-sm max-w-xl">
-                Soft-wash biocide treatments and low-pressure steam cleaning for warehouses, factories, retail parks, and office buildings. Full RAMS and £10M insurance.
+                Soft-wash biocide treatments and low-pressure steam cleaning for warehouses, factories, retail parks, and office buildings. Full RAMS and full insurance cover.
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-3">
