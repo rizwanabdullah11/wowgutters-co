@@ -1,3 +1,5 @@
+import { birdsNestInGutterBlogPost } from './birdsNestInGutterBlog';
+import { newHomeownerGuttersBlogPost } from './newHomeownerGuttersBlog';
 import { churchHallGuttersBlogPost } from './churchHallGuttersBlog';
 import { gutterCleaningMythsBlogPost } from './gutterCleaningMythsBlog';
 import { dampExternalWallGuttersBlogPost } from './dampExternalWallGuttersBlog';
@@ -80,10 +82,12 @@ import { gutterWaterDamageGuideBlogPost } from './gutterWaterDamageGuideBlog';
 import { gutterCleaningBeforeWinterBlogPost } from './gutterCleaningBeforeWinterBlog';
 import { leavesInGuttersBlogPost } from './leavesInGuttersBlog';
 import { bungalowGutterCleaningBlogPost } from './bungalowGutterCleaningBlog';
-export type { BlogPost } from './blogTypes';
 import type { BlogPost } from './blogTypes';
+export type { BlogPost };
 
 export const blogPosts: BlogPost[] = [
+  birdsNestInGutterBlogPost,
+  newHomeownerGuttersBlogPost,
   churchHallGuttersBlogPost,
   gutterCleaningMythsBlogPost,
   dampExternalWallGuttersBlogPost,
