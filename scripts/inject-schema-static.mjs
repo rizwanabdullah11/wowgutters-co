@@ -18,9 +18,36 @@ if (!fs.existsSync(outDir)) {
   process.exit(1);
 }
 
-const citiesMap = parseCitiesFromFile(
-  fs.readFileSync(path.join(projectRoot, 'lib', 'cities.ts'), 'utf8'),
-);
+/**
+ * Nov 2026: Leicestershire town pages (lib/leicestershireTowns.ts) are not in cities.ts.
+ * Without this, their rebuilt schema would fall back to Birmingham coordinates.
+ */
+function parseLeicsTowns(text) {
+  const map = {};
+  const arr = (s) => [...(s ?? '').matchAll(/'([^']+)'/g)].map((m) => m[1]);
+  for (const block of text.replace(/\r\n/g, '\n').split(/\n  \{\n/).slice(1)) {
+    const slug = /slug: '([^']+)'/.exec(block)?.[1];
+    const name = /name: '([^']+)'/.exec(block)?.[1];
+    const lat = /latitude: (-?[\d.]+)/.exec(block)?.[1];
+    const lng = /longitude: (-?[\d.]+)/.exec(block)?.[1];
+    if (!slug || !name || !lat || !lng) continue;
+    map[slug] = {
+      name,
+      priceFrom: 100,
+      priceTo: 200,
+      geo: { latitude: Number(lat), longitude: Number(lng) },
+      postcodes: arr(/postcodes: \[([^\]]*)\]/.exec(block)?.[1]),
+      nearbyAreas: arr(/alsoCovers: \[([^\]]*)\]/.exec(block)?.[1]),
+    };
+  }
+  return map;
+}
+
+const leicsFile = path.join(projectRoot, 'lib', 'leicestershireTowns.ts');
+const citiesMap = {
+  ...parseCitiesFromFile(fs.readFileSync(path.join(projectRoot, 'lib', 'cities.ts'), 'utf8')),
+  ...(fs.existsSync(leicsFile) ? parseLeicsTowns(fs.readFileSync(leicsFile, 'utf8')) : {}),
+};
 
 function listHtmlFiles(dir) {
   const results = [];

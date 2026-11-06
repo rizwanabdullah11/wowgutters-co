@@ -24,10 +24,17 @@ export function pickMany<T>(seed: string | undefined, items: readonly T[], count
   const step = 1 + (seedOf(`${seed}-step`) % (items.length - 1));
   const out: T[] = [];
   let i = start;
-  while (out.length < count) {
+  let guard = 0;
+  while (out.length < count && guard < items.length * 2) {
     const item = items[i % items.length];
     if (!out.includes(item)) out.push(item);
     i += step;
+    guard += 1;
+  }
+  // step shares a factor with the list length → the walk loops early; fill the rest in order.
+  for (let k = 0; out.length < count; k++) {
+    const item = items[(start + k) % items.length];
+    if (!out.includes(item)) out.push(item);
   }
   return out;
 }

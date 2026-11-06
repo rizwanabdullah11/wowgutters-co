@@ -38,6 +38,8 @@ import { buildMetadata } from '@/lib/seo';
 import { getKeywordPage, getAllKeywordSlugs } from '@/lib/keywordPages';
 import KeywordLandingPage from '@/components/KeywordLandingPage';
 import PriorityLinks from '@/components/seo/PriorityLinks';
+import { renderLeicestershireLanding } from '@/components/areas/LeicestershireRoutes';
+import { allLeicsPageSlugs, buildLeicsLanding, leicsPageFromSlug, leicsPath } from '@/lib/leicestershirePages';
 
 interface PageProps {
   params: Promise<{
@@ -100,6 +102,8 @@ export async function generateStaticParams() {
     ...AREA_SLUGS.map((slug) => ({ slug: `${INSTALLATION_PREFIX}${slug}` })),
     ...Object.keys(COMMON_TYPOS).map((slug) => ({ slug })),
     ...getAllKeywordSlugs().map((slug) => ({ slug })),
+    // Nov 2026: Leicestershire gutter + roof cleaning town pages (lib/leicestershireTowns.ts)
+    ...allLeicsPageSlugs().map((slug) => ({ slug })),
   ];
 }
 
@@ -327,6 +331,17 @@ function buildInstallationMetadata(areaSlug: string): Metadata {
 export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const params = await props.params;
 
+  const leics = leicsPageFromSlug(params.slug);
+  if (leics) {
+    const data = buildLeicsLanding(leics.service, leics.town);
+    return buildMetadata({
+      absoluteTitle: data.titleTag,
+      description: data.metaDescription,
+      canonicalPath: leicsPath(leics.service, leics.town.slug),
+      ogImagePath: leics.service === 'roof' ? '/roof-cleaning.JPG' : '/og/default.jpg',
+    });
+  }
+
   const gutterSlug = getGutterAreaSlug(params.slug);
   if (gutterSlug) return buildGutterMetadata(gutterSlug);
 
@@ -362,6 +377,9 @@ export default async function SingleSegmentAreaPage(props: PageProps) {
   if (typoRedirect) {
     return <ClientRedirect to={typoRedirect} />;
   }
+
+  const leicsPage = renderLeicestershireLanding(params.slug);
+  if (leicsPage) return leicsPage;
 
   const gutterAreaSlug = getGutterAreaSlug(params.slug);
   if (gutterAreaSlug) {
