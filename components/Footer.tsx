@@ -189,7 +189,11 @@ export default function Footer() {
                         </Link>
                       </li>
                     ))}
-                  
+                    <li>
+                      <Link href="/leicestershire/" className="footer-link">
+                        <ArrowRight className="w-3 h-3 link-arrow" /> Leicestershire
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>

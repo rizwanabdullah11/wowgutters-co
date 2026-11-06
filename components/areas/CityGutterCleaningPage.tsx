@@ -8,6 +8,8 @@ import { buildCityPageFaqs, isPrimaryCitySlug } from '@/lib/cityFaqs';
 import { AREA_SERVICE_META, type AreaServiceKind } from '@/lib/areaServiceMeta';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import { liveRoofJobsFor, realRoofJobsFor } from '@/constants/realRoofJobs';
+import type { RealGutterJob } from '@/constants/realGutterJobs';
+import type { ReactNode } from 'react';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
@@ -27,6 +29,8 @@ export default function CityGutterCleaningPage({
   showGuarantee = true,
   showPricing = true,
   useLandingFaqs = false,
+  bottomSlot,
+  recentJobs,
 }: {
   data: CityGutterLandingData;
   priceFrom?: number;
@@ -35,6 +39,10 @@ export default function CityGutterCleaningPage({
   showGuarantee?: boolean;
   showPricing?: boolean;
   useLandingFaqs?: boolean;
+  /** Replaces the West Midlands services hub (used by the Leicestershire town pages). */
+  bottomSlot?: ReactNode;
+  /** Real job photos to show instead of the default gallery (Leicestershire pages). */
+  recentJobs?: RealGutterJob[];
 }) {
   const meta = AREA_SERVICE_META[serviceKind];
 
@@ -277,7 +285,17 @@ export default function CityGutterCleaningPage({
       </section>
 
       <AreaBlogSnippet locality={data.city} service={serviceKind === 'roof' ? 'roof' : 'gutter'} />
-      {serviceKind === 'roof' && realRoofJobsFor(data.slug) ? (
+      {recentJobs?.length ? (
+        <AreaRecentWork
+          jobs={recentJobs}
+          heading={serviceKind === 'roof' ? 'Our Roof Cleaning Team at Work' : 'Our Gutter Cleaning Team at Work'}
+          intro={
+            serviceKind === 'roof'
+              ? `A real WOW Gutters roof job — the same team and method we use on ${data.city} roofs.`
+              : `A real WOW Gutters job — the same vacuum and camera method we use on ${data.city} homes.`
+          }
+        />
+      ) : serviceKind === 'roof' && realRoofJobsFor(data.slug) ? (
         <AreaRecentWork
           jobs={realRoofJobsFor(data.slug)}
           heading={`Recent Roof Cleaning in ${data.city} – Real Before & After`}
@@ -291,9 +309,10 @@ export default function CityGutterCleaningPage({
         />
       ) : null}
       <AreaContactMap geo={data.geo} />
-      {serviceKind !== 'repair' && serviceKind !== 'inspection' && serviceKind !== 'installation' && (
-        <AreaServicesHub currentSlug={data.slug} serviceKind={serviceKind} cityName={data.city} />
-      )}
+      {bottomSlot ??
+        (serviceKind !== 'repair' && serviceKind !== 'inspection' && serviceKind !== 'installation' && (
+          <AreaServicesHub currentSlug={data.slug} serviceKind={serviceKind} cityName={data.city} />
+        ))}
 
       <style>{`
         .area-page-wrapper { overflow-x: hidden; }

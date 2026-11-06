@@ -8,7 +8,10 @@
   "email": "support@wowgutters.co.uk",
   "priceRange": "££",
   "image": "https://wowgutters.co.uk/og/default.jpg",
-  "logo": { "@type": "ImageObject", "url": "https://wowgutters.co.uk/assets/wow-gutter-logo2.png" },
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://wowgutters.co.uk/assets/wow-gutter-logo2.png"
+  },
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "38 Ryland Street",
@@ -17,19 +20,51 @@
     "postalCode": "B16 8DD",
     "addressCountry": "GB"
   },
-  "geo": { "@type": "GeoCoordinates", "latitude": 52.4760288, "longitude": -1.91898 },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 52.4760288,
+    "longitude": -1.91898
+  },
   "hasMap": "https://maps.google.com/?cid=18206401737056874662",
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
       "opens": "00:00",
       "closes": "23:59"
     }
   ],
   "areaServed": [
-    "Birmingham", "Solihull", "Sutton Coldfield", "Wolverhampton", "Walsall", "Dudley", "West Bromwich",
-    "Sandwell", "Halesowen", "Stourbridge", "Smethwick", "Oldbury", "Coventry", "Bromsgrove", "Redditch",
-    "Lichfield", "Tamworth", "Cannock", "Kidderminster"
+    "Birmingham",
+    "Solihull",
+    "Sutton Coldfield",
+    "Wolverhampton",
+    "Walsall",
+    "Dudley",
+    "West Bromwich",
+    "Sandwell",
+    "Halesowen",
+    "Stourbridge",
+    "Smethwick",
+    "Oldbury",
+    "Coventry",
+    "Bromsgrove",
+    "Redditch",
+    "Lichfield",
+    "Tamworth",
+    "Cannock",
+    "Kidderminster",
+    "Leicester",
+    "Loughborough",
+    "Hinckley",
+    "Leicestershire"
   ]
 }
