@@ -6,12 +6,12 @@ import LocalBusinessSchema from '@/components/LocalBusinessSchema';
 import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
 import { buildMetadata } from '@/lib/seo';
 import { LEICS_DISTRICTS, LEICS_TOWNS } from '@/lib/leicestershireTowns';
-import { leicsPath } from '@/lib/leicestershirePages';
+import { leicsHasPage, leicsPath } from '@/lib/leicestershirePages';
 
 export const metadata: Metadata = buildMetadata({
   absoluteTitle: 'Gutter & Roof Cleaning Leicestershire | WOW Gutters Ltd',
   description:
-    'Gutter cleaning from £100 and roof cleaning from £500 across Leicester, Loughborough, Hinckley, Coalville, Market Harborough and 54 more Leicestershire towns. Call 07421 433910.',
+    'Gutter cleaning from £100, repairs from £30 and roof cleaning from £500 across Leicester, Loughborough, Hinckley, Coalville and 55 more Leicestershire towns. Call 07421 433910.',
   canonicalPath: '/leicestershire/',
 });
 
@@ -83,6 +83,7 @@ export default function LeicestershirePage() {
                 <li><strong>£100</strong> — 2-bed home</li>
                 <li><strong>£110</strong> — 3-bed home</li>
                 <li><strong>From £200</strong> — Premium Service for larger homes</li>
+                <li><strong>From £30</strong> — gutter repairs (15 main towns)</li>
                 <li><strong>£50</strong> — conservatory gutters · <strong>£90</strong> — fascia &amp; soffit clean</li>
               </ul>
             </div>
@@ -102,7 +103,7 @@ export default function LeicestershirePage() {
           <div className="max-w-6xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-3 text-center">Towns and villages we cover</h2>
             <p className="text-slate-600 text-center max-w-3xl mx-auto mb-10">
-              Choose your town for local gutter cleaning or roof cleaning details, prices and the nearby villages we visit.
+              Choose your town for local gutter cleaning, roof cleaning or gutter repair details, prices and the nearby villages we visit.
             </p>
             <div className="space-y-10">
               {LEICS_DISTRICTS.map((district) => {
@@ -127,6 +128,14 @@ export default function LeicestershirePage() {
                             <Link href={leicsPath('roof', t.slug)} className="font-semibold underline" style={{ color: colors.primary }}>
                               Roof cleaning
                             </Link>
+                            {leicsHasPage('repair', t) ? (
+                              <>
+                                {' · '}
+                                <Link href={leicsPath('repair', t.slug)} className="font-semibold underline" style={{ color: colors.primary }}>
+                                  Gutter repairs
+                                </Link>
+                              </>
+                            ) : null}
                           </p>
                         </li>
                       ))}

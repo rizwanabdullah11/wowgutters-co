@@ -288,11 +288,19 @@ export default function CityGutterCleaningPage({
       {recentJobs?.length ? (
         <AreaRecentWork
           jobs={recentJobs}
-          heading={serviceKind === 'roof' ? 'Our Roof Cleaning Team at Work' : 'Our Gutter Cleaning Team at Work'}
+          heading={
+            serviceKind === 'roof'
+              ? 'Our Roof Cleaning Team at Work'
+              : serviceKind === 'repair'
+                ? 'Our Gutter Repair Work'
+                : 'Our Gutter Cleaning Team at Work'
+          }
           intro={
             serviceKind === 'roof'
               ? `A real WOW Gutters roof job — the same team and method we use on ${data.city} roofs.`
-              : `A real WOW Gutters job — the same vacuum and camera method we use on ${data.city} homes.`
+              : serviceKind === 'repair'
+                ? `A real WOW Gutters repair — the same parts and water testing we use on ${data.city} gutters.`
+                : `A real WOW Gutters job — the same vacuum and camera method we use on ${data.city} homes.`
           }
         />
       ) : serviceKind === 'roof' && realRoofJobsFor(data.slug) ? (

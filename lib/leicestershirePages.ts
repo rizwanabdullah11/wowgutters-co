@@ -9,27 +9,44 @@
 import type { CityGutterLandingData, CityPropertyRow } from '@/constants/cityGutterLandingData';
 import { LEICS_TOWNS, leicsTown, type LeicsHome, type LeicsTown, type LeicsTrees } from '@/lib/leicestershireTowns';
 import { LEICS_EXTRA } from '@/lib/leicestershireExtra';
+import { LEICS_REPAIR } from '@/lib/leicestershireRepair';
 import LEICS_VARIANTS from '@/lib/leicestershireVariants.json';
 
-export type LeicsService = 'gutter' | 'roof';
+export type LeicsService = 'gutter' | 'roof' | 'repair';
 
 export const LEICS_HUB_PATH = '/leicestershire/';
 
+const PATH_PREFIX: Record<LeicsService, string> = {
+  gutter: 'gutter-cleaning',
+  roof: 'roof-cleaning',
+  repair: 'gutter-repair',
+};
+
 export function leicsPath(service: LeicsService, slug: string): string {
-  return service === 'gutter' ? `/gutter-cleaning-${slug}/` : `/roof-cleaning-${slug}/`;
+  return `/${PATH_PREFIX[service]}-${slug}/`;
+}
+
+/** Which services have a page for this town (repairs: the 15 main towns only). */
+export function leicsServicesFor(t: LeicsTown): LeicsService[] {
+  return LEICS_REPAIR[t.slug] ? ['gutter', 'roof', 'repair'] : ['gutter', 'roof'];
+}
+
+export function leicsHasPage(service: LeicsService, t: LeicsTown): boolean {
+  return leicsServicesFor(t).includes(service);
 }
 
 /** `gutter-cleaning-loughborough` → { service: 'gutter', town } */
 export function leicsPageFromSlug(slug: string): { service: LeicsService; town: LeicsTown } | null {
-  const m = /^(gutter-cleaning|roof-cleaning)-(.+)$/.exec(slug);
+  const m = /^(gutter-cleaning|roof-cleaning|gutter-repair)-(.+)$/.exec(slug);
   if (!m) return null;
   const town = leicsTown(m[2]);
   if (!town) return null;
-  return { service: m[1] === 'gutter-cleaning' ? 'gutter' : 'roof', town };
+  const service: LeicsService = m[1] === 'gutter-cleaning' ? 'gutter' : m[1] === 'roof-cleaning' ? 'roof' : 'repair';
+  return leicsHasPage(service, town) ? { service, town } : null;
 }
 
 export function allLeicsPageSlugs(): string[] {
-  return LEICS_TOWNS.flatMap((t) => [`gutter-cleaning-${t.slug}`, `roof-cleaning-${t.slug}`]);
+  return LEICS_TOWNS.flatMap((t) => leicsServicesFor(t).map((s) => leicsPath(s, t.slug).slice(1, -1)));
 }
 
 export function leicsNearbyTowns(town: LeicsTown): LeicsTown[] {
@@ -43,6 +60,9 @@ function list(items: string[]): string {
 
 /** District as it reads in a sentence ("Blaby District", not "Blaby", which is also a village). */
 function area(t: LeicsTown): string {
+  // "Oadby and Oadby and Wigston" reads badly — use the county when the district shares a word with the town.
+  const shared = t.district.split(/\s+/).some((w) => w.length > 3 && t.name.split(/[\s-]+/).includes(w));
+  if (shared) return 'Leicestershire';
   if (t.district === 'Blaby' || t.district === 'Harborough') return `${t.district} District`;
   if (t.district === 'Melton') return 'the Melton area';
   if (t.district === 'Leicester City') return 'Leicestershire';
@@ -368,7 +388,7 @@ const ROOF_HOMES: Record<LeicsHome, ((t: LeicsTown) => CityPropertyRow)[]> = {
 };
 
 function rows(t: LeicsTown, service: LeicsService): CityPropertyRow[] {
-  const table = service === 'gutter' ? GUTTER_HOMES : ROOF_HOMES;
+  const table = service === 'gutter' ? GUTTER_HOMES : service === 'roof' ? ROOF_HOMES : REPAIR_HOMES;
   return t.homes.slice(0, 3).map((h, i) => slot(t, service, `home-${h}-${i}`, table[h])(t));
 }
 
@@ -530,6 +550,201 @@ function roofFaqs(t: LeicsTown): QA[] {
   ];
 }
 
+
+/* ------------------------------------------------------------------ repair wording */
+
+const P_DIAGNOSE: Line[] = [
+  () => `We start by finding where the water is actually escaping, not just where it drips.`,
+  () => `Every repair begins with a water test so we can see the leak while it is happening.`,
+  () => `We check the joint, the brackets and the fall before deciding what needs replacing.`,
+  () => `A camera on our pole lets us look along the gutter for cracks and open joints.`,
+  (t) => `On ${t.name} homes we often find the drip is a few feet away from the real fault, so we trace it first.`,
+  () => `We look at the whole run, because one failed bracket can open up the joints either side.`,
+];
+const P_FIX: Line[] = [
+  () => `Leaking joints are resealed or the union replaced with a matching part.`,
+  () => `Sagging runs are re-hung on new brackets so water falls to the outlet again.`,
+  () => `Cracked lengths are cut out and replaced with the same profile.`,
+  () => `Loose downpipes are refitted with new clips, and split shoes or swan necks replaced.`,
+  () => `We carry common seals, brackets and fittings so most repairs are done in one visit.`,
+  () => `If a section is past repair, we tell you honestly and quote for a replacement instead.`,
+];
+const P_TEST: Line[] = [
+  () => `Once fixed, we run water through the gutter to prove the leak has stopped.`,
+  () => `You get before & after photos of the fault and the finished repair.`,
+  () => `Every repair is flow-tested before we leave.`,
+  () => `We send photos so you can see the repair without climbing up.`,
+  () => `If we spot another weak joint nearby, it's in your photos with a price to fix it.`,
+  () => `The downpipe is checked at the end so the repaired gutter drains properly.`,
+];
+
+const REPAIR_HERO: Line[] = [
+  (t) => `Gutter repairs in ${t.name} from £30 — leaking joints, sagging runs, cracked sections and loose downpipes fixed and water-tested.`,
+  (t) => `Leaking or sagging gutters in ${t.name}? We find the real fault, fix it with matching parts and prove it with a water test, from £30.`,
+  (t) => `Fast, honest gutter repairs across ${t.name} and ${pcLabel(t)}: joints resealed, brackets replaced, downpipes refitted — with photos.`,
+  (t) => `From one dripping joint to a sagging run, we repair ${t.name} gutters properly and test them with water before we leave.`,
+  (t) => `Local gutter repairs for ${t.name} homes, landlords and businesses — fixed prices from £30 and before & after photos.`,
+];
+const REPAIR_H1_TAIL: Line[] = [
+  () => `Leaks, Sagging & Broken Gutters Fixed`,
+  (t) => `Joints, Brackets & Downpipes Repaired in ${pcLabel(t)}`,
+  () => `Water-Tested Repairs From £30`,
+  (t) => `Local Repairs Across ${areaTitle(t)}`,
+  () => `Fixed Properly, Tested With Water`,
+];
+const REPAIR_WHY_TITLE: Line[] = [
+  (t) => `Common Gutter Faults in ${t.name}`,
+  (t) => `Why ${t.name} Gutters Leak`,
+  (t) => `What Goes Wrong With ${t.name} Gutters`,
+  (t) => `Gutter Repairs in ${t.name} — What We Fix`,
+];
+
+const REPAIR_HOMES: Record<LeicsHome, ((t: LeicsTown) => CityPropertyRow)[]> = {
+  'victorian-terrace': [
+    () => ({ label: 'Victorian terraces', detail: `Cast-iron joints rust and crack; we reseal them or replace the length with a matching profile.` }),
+    () => ({ label: 'Shared terrace gutters', detail: `We find which side of the boundary the fault is on before any work starts.` }),
+    () => ({ label: 'Rear outriggers', detail: `Short back gutters cause damp walls when they leak — repaired with the main run.` }),
+  ],
+  edwardian: [
+    () => ({ label: 'Edwardian homes', detail: `Bay gutters and ornate profiles are repaired with matching parts.` }),
+    () => ({ label: 'Period semis', detail: `Older joints are resealed and loose brackets re-fixed into the fascia.` }),
+    () => ({ label: 'Bay-fronted houses', detail: `Small bay gutters are checked and repaired along with the main roofline.` }),
+  ],
+  'interwar-semi': [
+    () => ({ label: '1930s semis', detail: `Corner pieces on hipped roofs are the usual leak point; we reseal or replace them.` }),
+    () => ({ label: 'Inter-war houses', detail: `Old cast-iron downpipes are swapped for uPVC where needed.` }),
+    () => ({ label: 'Hipped-roof semis', detail: `Gutters on three sides are checked so the next leak isn't round the corner.` }),
+  ],
+  'postwar-estate': [
+    () => ({ label: 'Post-war estates', detail: `Brittle 1960s–70s plastic cracks at the brackets; we replace the damaged length.` }),
+    () => ({ label: '1950s–70s homes', detail: `Perished seals in unions and corners are replaced to stop the drip.` }),
+    () => ({ label: 'Estate semis', detail: `Loose downpipes and split shoes are refitted with new clips.` }),
+  ],
+  'modern-estate': [
+    () => ({ label: 'New-build homes', detail: `Long runs with few brackets sag; we add brackets and correct the fall.` }),
+    () => ({ label: 'Modern estates', detail: `Push-fit joints that have slipped apart are reconnected and sealed.` }),
+    () => ({ label: 'Town houses', detail: `Three-storey gutters are repaired from safe access with no scaffolding for most jobs.` }),
+  ],
+  bungalow: [
+    () => ({ label: 'Bungalows', detail: `Low gutters are quick to reach, so most repairs are done in under an hour.` }),
+    () => ({ label: 'Dormer bungalows', detail: `Dormer and main gutters are checked together for leaking joints.` }),
+    () => ({ label: 'Single-storey homes', detail: `Stop-ends and unions are replaced with matching parts.` }),
+  ],
+  'village-cottage': [
+    () => ({ label: 'Cottages', detail: `Small, low gutters are repaired gently, matching the existing profile.` }),
+    () => ({ label: 'Older cottages', detail: `Fixings into soft brick or stone are chosen so new brackets hold.` }),
+    () => ({ label: 'Period cottages', detail: `Cast-iron and half-round gutters are repaired rather than replaced where possible.` }),
+  ],
+  'swithland-slate': [
+    () => ({ label: 'Stone and slate homes', detail: `Repairs are made without walking on old slate roofs.` }),
+    () => ({ label: 'Charnwood stone houses', detail: `New brackets are fixed carefully into old stone and lime mortar.` }),
+    () => ({ label: 'Older slate roofs', detail: `We repair the gutter from below so slates are not disturbed.` }),
+  ],
+  'large-detached': [
+    () => ({ label: 'Large detached homes', detail: `Long runs with many corners — we check every joint, not just the leaking one.` }),
+    () => ({ label: 'Homes with extensions', detail: `Joins between house and extension gutters are the usual leak point.` }),
+    () => ({ label: 'Detached houses', detail: `Garage and porch gutters are included in the inspection.` }),
+  ],
+  'ex-mining': [
+    () => ({ label: 'Former miners\' homes', detail: `Sagging runs with too few brackets are re-hung to restore the fall.` }),
+    () => ({ label: 'Older terraces and semis', detail: `Rusty cast iron is replaced section by section where needed.` }),
+    () => ({ label: 'Colliery-era houses', detail: `Downpipes pulled from soft mortar are refixed with suitable plugs.` }),
+  ],
+  flats: [
+    () => ({ label: 'Flats and HMOs', detail: `Landlords get a photo report of the fault and the repair.` }),
+    () => ({ label: 'Rented houses', detail: `Quick repairs between tenancies, with photos for your records.` }),
+    () => ({ label: 'Blocks of flats', detail: `Higher gutters are repaired with suitable access, quoted in advance.` }),
+  ],
+  commercial: [
+    () => ({ label: 'Commercial buildings', detail: `Box gutters and long runs get a custom quote.` }),
+    () => ({ label: 'Shops and units', detail: `We can repair outside opening hours.` }),
+    () => ({ label: 'Offices and warehouses', detail: `Larger repairs are planned and quoted individually.` }),
+  ],
+};
+
+const P_FAQ_PRICE: Line[] = [
+  (t) => `Gutter repairs in ${t.name} start from £30. The final price depends on the fault and the parts needed, and we confirm it before starting.`,
+  () => `From £30 for a simple repair such as resealing a joint. Bigger jobs, like re-hanging a sagging run, are quoted at a fixed price first.`,
+  (t) => `Most ${t.name} repairs start from £30. We tell you the price after looking at the fault, and it doesn't change on the day.`,
+  () => `Repairs start at £30. Send us a photo of the leak and we can usually give you a price straight away.`,
+  () => `Prices start from £30. If a whole new gutter run makes more sense, new guttering starts from £300 and we'll explain why.`,
+];
+const P_FAQ_MISC: QALine[] = [
+  () => ({ question: `Can you clean the gutters at the same time as the repair?`, answer: `Yes. A gutter clean is £100 for a 2-bed or £110 for a 3-bed, and doing both in one visit means the repair is tested with clear water.` }),
+  () => ({ question: `How quickly can you fix a leaking gutter?`, answer: `Most repairs are done on the first visit, because we carry common seals, brackets and fittings.` }),
+  () => ({ question: `Repair or replace — how do I know?`, answer: `If the gutter is sound apart from one joint or bracket, a repair is best. If it is brittle or cracked in many places, we'll tell you honestly and quote for new guttering from £300.` }),
+  () => ({ question: `Do you repair downpipes too?`, answer: `Yes. Loose, cracked or blocked downpipes, shoes and swan necks are all repaired and tested.` }),
+  () => ({ question: `Can you fix my fascia boards as well?`, answer: `We check the fascia when we repair the gutter and tell you if it is soft or damaged. A fascia and soffit clean is £90.` }),
+];
+const P_FAQ_INS: Line[] = [
+  (t) => `Yes. We are fully insured for gutter repairs in ${t.name} and across Leicestershire.`,
+  () => `Yes — fully insured, with details available before we start.`,
+  (t) => `We are fully insured for repair work in ${area(t)}, on homes and commercial buildings.`,
+];
+
+function repairFaqs(t: LeicsTown): QA[] {
+  const r = LEICS_REPAIR[t.slug];
+  const near = nearbyNames(t);
+  return [
+    { question: `How much does a gutter repair cost in ${t.name}?`, answer: slot(t, 'repair', 'faq-price', P_FAQ_PRICE)(t) },
+    {
+      question: slot(t, 'repair', 'faq-local-q', [
+        `Can you repair older gutters in ${t.name}?`,
+        `What gutter repairs do you do most in ${t.name}?`,
+        `Is my ${t.name} gutter worth repairing?`,
+      ]),
+      answer: r?.faq ?? '',
+    },
+    {
+      question: `Which areas do you cover for gutter repairs around ${t.name}?`,
+      answer: `All of ${t.name} (${t.postcodes.join(', ')}), including ${list(t.alsoCovers.slice(0, 4))}, plus ${list(near.slice(0, 3))}.`,
+    },
+    slot(t, 'repair', 'faq-misc', P_FAQ_MISC)(t),
+    slot(t, 'repair', 'faq-misc', P_FAQ_MISC, 2)(t),
+    { question: `Are you insured for gutter repairs in ${t.name}?`, answer: slot(t, 'repair', 'faq-ins', P_FAQ_INS)(t) },
+  ];
+}
+
+export function buildLeicsRepairLanding(t: LeicsTown): CityGutterLandingData {
+  const r = LEICS_REPAIR[t.slug];
+  const near = nearbyNames(t);
+  return {
+    slug: t.slug,
+    city: t.name,
+    titleTag: `Gutter Repairs ${t.name} | From £30 | WOW Gutters Ltd`,
+    metaDescription: `Gutter repairs in ${t.name} from £30: leaking joints, sagging runs and loose downpipes fixed and water-tested. Call 07421 433910 — covering ${pcLabel(t)}.`,
+    h1: `Gutter Repairs ${t.name} — ${slot(t, 'repair', 'h1', REPAIR_H1_TAIL)(t)}`,
+    heroIntro: slot(t, 'repair', 'hero', REPAIR_HERO)(t),
+    whyTitle: slot(t, 'repair', 'why', REPAIR_WHY_TITLE)(t),
+    whyBody: [
+      r?.faults ?? '',
+      r?.approach ?? '',
+      [P_DIAGNOSE, P_FIX, P_TEST].map((pool, i) => slot(t, 'repair', `m${i}`, pool)(t)).join(' '),
+    ].filter(Boolean),
+    localSpotlight: `We repair gutters across ${t.name} and ${area(t)}, including ${list(t.alsoCovers.slice(0, 4))}, and in nearby ${list(near.slice(0, 3))}.`,
+    guarantees: [],
+    propertyTypesTitle: slot(t, 'repair', 'pt', [
+      `Gutter Repairs for ${t.name} Homes`,
+      `${t.name} Properties We Repair`,
+      `Repairs by Property Type in ${t.name}`,
+    ]),
+    propertyTypes: rows(t, 'repair'),
+    areasTitle: `Gutter Repairs Near ${t.name}`,
+    areasInline: areasInline(t),
+    faqsTitle: `Gutter Repairs ${t.name} — Your Questions`,
+    faqs: repairFaqs(t),
+    geo: t.geo,
+    nearbyAreas: [...t.alsoCovers, ...near].slice(0, 8),
+    postcodes: t.postcodes,
+    ctaHeading: slot(t, 'repair', 'cta', [
+      `Book a Gutter Repair in ${t.name}`,
+      `Get a Fixed Repair Price for Your ${t.name} Gutters`,
+      `Stop the Leak — Book Your ${t.name} Repair`,
+    ]),
+    priceTo: 30,
+  };
+}
+
 /* ------------------------------------------------------------------ builders */
 
 export function buildLeicsGutterLanding(t: LeicsTown): CityGutterLandingData {
@@ -617,5 +832,6 @@ export function buildLeicsRoofLanding(t: LeicsTown): CityGutterLandingData {
 }
 
 export function buildLeicsLanding(service: LeicsService, t: LeicsTown): CityGutterLandingData {
+  if (service === 'repair') return buildLeicsRepairLanding(t);
   return service === 'gutter' ? buildLeicsGutterLanding(t) : buildLeicsRoofLanding(t);
 }
