@@ -99,6 +99,7 @@ export default function RootLayout({
   const ga4MeasurementId = (process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID || "G-X0YK1TD470").trim();
   const gtmId = (process.env.NEXT_PUBLIC_GTM_ID || "").trim();
   const metaPixelId = (process.env.NEXT_PUBLIC_META_PIXEL_ID || "1108538397342086").trim();
+  const clarityProjectId = (process.env.NEXT_PUBLIC_CLARITY_PROJECT_ID || "z9voqi0s5k").trim();
   const analyticsDebug = (process.env.NODE_ENV !== "production") ? "1" : "";
   const ga4ConfigId = JSON.stringify(ga4MeasurementId);
 
@@ -230,15 +231,16 @@ fbq('track', 'PageView');`,
             </noscript>
           </>
         ) : null}
-        {/* Microsoft Clarity — analytics tracking with cookie consent */}
-        <script
-          id="microsoft-clarity"
-          type="text/plain"
-          data-cookieconsent="statistics"
-          dangerouslySetInnerHTML={{
-            __html: `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "xlyw5gi8p0");`,
-          }}
-        />
+        {/* Microsoft Clarity — session recordings & heatmaps */}
+        {clarityProjectId ? (
+          <script
+            id="microsoft-clarity"
+            type="text/javascript"
+            dangerouslySetInnerHTML={{
+              __html: `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", ${JSON.stringify(clarityProjectId)});`,
+            }}
+          />
+        ) : null}
         {/* Elfsight Google Reviews: platform.js is loaded on demand by
             components/sections/ElfsightReviews.tsx when the widget scrolls near
             view (data-cookieconsent="ignore" is set there), so pages without
