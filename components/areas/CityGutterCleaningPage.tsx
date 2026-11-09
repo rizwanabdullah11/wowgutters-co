@@ -49,7 +49,7 @@ export default function CityGutterCleaningPage({
 
   const whatsappQuestions = [...meta.whatsappQuestions];
 
-  const pageFaqs = !useLandingFaqs && serviceKind === 'gutter' && isPrimaryCitySlug(data.slug)
+  const pageFaqs = !useLandingFaqs && !data.useOwnFaqs && serviceKind === 'gutter' && isPrimaryCitySlug(data.slug)
     ? buildCityPageFaqs({
         city: data.city,
         slug: data.slug,
@@ -81,7 +81,7 @@ export default function CityGutterCleaningPage({
         <div className="area-hero-content">
           <div className="hero-badge animate-fade-in-up">
             <ShieldCheck className="w-4 h-4" style={{ color: colors.primary }} />
-            <span className="hero-badge-text">Local {data.city} specialists • Same-day booking</span>
+            <span className="hero-badge-text">{data.heroBadge ?? `Local ${data.city} specialists • Same-day booking`}</span>
           </div>
 
           <h1 className="hero-title animate-fade-in-up delay-100">
@@ -155,7 +155,7 @@ export default function CityGutterCleaningPage({
         <section className="py-14 px-4 bg-emerald-50/80 border-y border-emerald-100">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-2xl md:text-3xl font-black text-slate-900 mb-4">
-              Local {meta.label} in {data.city}
+              {data.spotlightTitle ?? `Local ${meta.label} in ${data.city}`}
             </h2>
             <p className="text-slate-700 text-lg leading-relaxed">{data.localSpotlight}</p>
           </div>
@@ -165,7 +165,7 @@ export default function CityGutterCleaningPage({
       {showGuarantee && data.guarantees.length > 0 ? (
         <section className="py-16 px-4 bg-slate-50">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-8 text-center">Our Service Standards</h2>
+            <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-8 text-center">{data.standardsTitle ?? 'Our Service Standards'}</h2>
             <ul className="grid sm:grid-cols-2 gap-4">
               {localiseGuarantees(data.city, data.guarantees).map((g) => (
                 <li key={g} className="flex gap-3 p-5 rounded-2xl bg-white border border-slate-200 shadow-sm">
@@ -185,12 +185,16 @@ export default function CityGutterCleaningPage({
               {meta.label} prices in {data.city}
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
-              {serviceKind === 'gutter' ? (
+              {serviceKind === 'gutter' && data.priceIntro ? (
+                <>{data.priceIntro}</>
+              ) : serviceKind === 'gutter' ? (
                 <>{gutterPriceSentence(data.city)}</>
               ) : (
                 <>{serviceKind === 'roof' ? roofPriceSentence(data.city, priceFrom) : <>Prices for {meta.label.toLowerCase()} in {data.city} start from <strong>£{priceFrom}</strong>. The exact price depends on the job, and we confirm it before any work starts.</>}</>
-              )}{' '}
-              Fixed price confirmed before we arrive — no call-out fee and no hidden charges on the day.
+              )}
+              {serviceKind === 'gutter' && data.priceIntro ? null : (
+                <>{' '}Fixed price confirmed before we arrive — no call-out fee and no hidden charges on the day.</>
+              )}
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
               <Link
@@ -240,7 +244,7 @@ export default function CityGutterCleaningPage({
               Need a fast answer? <span className="text-[#34e3b6]">Message us on WhatsApp</span>
             </h2>
             <p className="mt-4 text-base md:text-lg text-[#dbe7ff]/88 max-w-xl">
-              {whatsappLine(data.city)}
+              {data.whatsappIntro ?? whatsappLine(data.city)}
             </p>
           </div>
 
@@ -272,7 +276,7 @@ export default function CityGutterCleaningPage({
 
       {serviceKind === 'gutter' && <LocalBoostSection slug={data.slug} />}
 
-      <CollapsibleAreaFAQ city={data.city} faqs={pageFaqs} heading={data.faqsTitle} serviceLabel={meta.label.toLowerCase()} />
+      <CollapsibleAreaFAQ city={data.city} faqs={pageFaqs} heading={data.faqsTitle} intro={data.faqIntro} serviceLabel={meta.label.toLowerCase()} />
 
 
       <section className="py-16 px-4 bg-white border-t border-slate-100">

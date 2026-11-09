@@ -246,6 +246,86 @@ export const LOCAL_BOOST: Record<string, LocalBoost> = {
     ],
   },
 
+  walsall: {
+    place: 'Walsall',
+    heading: 'Gutter Cleaning, Repairs & Downpipes Across Walsall',
+    intro: [
+      'Most of our Walsall callouts are for one of three things: moss sludge in terraced gutters near the town centre, leaves on bigger homes near Sutton Park and Pelsall Common, and sagging old uPVC on post-war estates. Each needs a slightly different approach, and all are cleared from the ground.',
+      'If something needs fixing after the clean, we show you in the photos and give you a price there and then. Nothing is added without your OK.',
+    ],
+    districtsHeading: 'Walsall areas and what we usually find',
+    districts: [
+      { name: 'Caldmore, Palfrey & Chuckery (WS1)', text: 'Victorian terraces with slate roofs. Moss and grit settle in the gutter and block the cast iron outlets.' },
+      { name: 'Bloxwich, Blakenall & Pelsall (WS3)', text: 'A mix of post-war homes and older cottages near Pelsall Common. Expect leaves in autumn and tired uPVC brackets.' },
+      { name: 'Rushall, Park Hall & Shelfield (WS4–WS5)', text: 'Interwar semis with bay fronts and hipped roofs. Bay roofs and side returns are where water usually backs up.' },
+      { name: 'Aldridge, Streetly & Brownhills (WS8–WS9)', text: 'Larger detached homes and big gardens near Sutton Park and Barr Beacon. Heavy leaf fall from October.' },
+      { name: 'Willenhall & Darlaston (WV12–WV13, WS10)', text: 'Terraces and 1960s–70s estates. Old joints drip and runs sag, so we check falls as well as clearing debris.' },
+    ],
+    extra: {
+      heading: 'Gutter repairs in Walsall',
+      body: [
+        'Common Walsall repairs are resealing dripping uPVC joints, refitting runs that have pulled away from the fascia, and replacing cracked cast iron sections on older terraces.',
+        'Every repair starts with a free look and a written price. If the gutter is past saving, we can quote for new uPVC gutters and downpipes.',
+      ],
+      links: [
+        { label: 'Gutter repairs', href: '/gutter-repairs/' },
+        { label: 'New gutter installation', href: '/services/gutter-installation/' },
+        { label: 'Downpipe unblocking', href: '/downpipe-unblocking/' },
+      ],
+    },
+    faqs: [
+      { question: 'How soon can you come out in Walsall?', answer: 'We work in Walsall regularly, so most bookings are within a few days. Call 07421 433910 to check the next free slot for your road.' },
+      { question: 'Can you clean gutters on flats above shops in Walsall town centre?', answer: 'Yes. We clear two and three-storey buildings from street level, so shops can stay open while we work.' },
+      { question: 'Do you work for Walsall landlords with several houses?', answer: 'Yes. We can clean several properties in one day and send separate photos for each address.' },
+    ],
+    links: [
+      { label: 'Gutter cleaning in Wolverhampton', href: '/gutter-cleaning-wolverhampton/' },
+      { label: 'Gutter cleaning in Sutton Coldfield', href: '/gutter-cleaning-sutton-coldfield/' },
+      { label: 'Gutter cleaning in Birmingham', href: '/gutter-cleaning-birmingham/' },
+      { label: 'Gutter cleaning prices', href: '/gutter-cleaning-prices/' },
+    ],
+  },
+
+  solihull: {
+    place: 'Solihull',
+    heading: 'Gutter Cleaning, Repairs & Downpipes in Solihull',
+    intro: [
+      'Solihull jobs are often bigger than people expect: a detached house in Knowle can have six or seven separate gutter runs once you count the garage, extension and porch. We clear every one, flush every downpipe and photograph each section.',
+      'Where a run is leaking or loose, the photos show it and we quote for the repair on the spot. You only pay for work you agree to.',
+    ],
+    districtsHeading: 'Solihull areas we cover',
+    districts: [
+      { name: 'Shirley, Monkspath & Dickens Heath (B90)', text: 'Interwar semis near the Stratford Road and modern three-storey townhouses. Height, not leaves, is the main challenge here.' },
+      { name: 'Town centre & Tudor Grange (B91)', text: 'Larger semis and detached homes near the parks. Heavy leaf fall from Tudor Grange, Malvern and Brueton Parks.' },
+      { name: 'Olton, Elmdon & Lyndon (B92)', text: 'Bay-fronted semis and bungalows, many under mature street trees near Olton Reservoir.' },
+      { name: 'Knowle, Dorridge & Bentley Heath (B93)', text: 'Large detached homes with long rooflines, garages and conservatories. Usually Premium Service.' },
+      { name: 'Chelmsley Wood, Kingshurst & Balsall Common (B37, CV7)', text: '1960s–70s homes and low-rise flats in the north, village homes in the south. Shared downpipes and older gutters are common.' },
+    ],
+    extra: {
+      heading: 'Gutter repairs in Solihull',
+      body: [
+        'Typical Solihull repairs are resealing joints over conservatories, refitting gutters that have dropped on long runs, and replacing broken downpipe brackets on townhouses.',
+        'We start with a free look and a fixed written price. If replacement makes more sense, we can quote for new uPVC gutters.',
+      ],
+      links: [
+        { label: 'Gutter repairs', href: '/gutter-repairs/' },
+        { label: 'New gutter installation', href: '/services/gutter-installation/' },
+        { label: 'Downpipe unblocking', href: '/downpipe-unblocking/' },
+      ],
+    },
+    faqs: [
+      { question: 'What is the wait for a booking in Solihull?', answer: 'We work in Solihull regularly, and most bookings are within a few days. Call 07421 433910 for the next date in your area.' },
+      { question: 'Do you need access to the back garden?', answer: 'Usually yes for detached homes, so we can reach the rear and garage gutters. Just leave the side gate unlocked if you will be out.' },
+      { question: 'Can you send the photos to a landlord or managing agent?', answer: 'Yes. We can send the before & after photos to you, your landlord or your managing agent — whoever needs them.' },
+    ],
+    links: [
+      { label: 'Gutter cleaning in Coventry', href: '/gutter-cleaning-coventry/' },
+      { label: 'Gutter cleaning in Redditch', href: '/gutter-cleaning-redditch/' },
+      { label: 'Gutter cleaning in Birmingham', href: '/gutter-cleaning-birmingham/' },
+      { label: 'Gutter cleaning prices', href: '/gutter-cleaning-prices/' },
+    ],
+  },
+
   worcester: {
     place: 'Worcester',
     heading: 'Gutter Cleaning, Guttering Repairs & Downpipes in Worcester',

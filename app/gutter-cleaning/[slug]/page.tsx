@@ -83,7 +83,7 @@ export default async function CityPage({ params }: PageProps) {
   const url = `https://wowgutters.co.uk/gutter-cleaning-${slug}/`
   const priceFrom = city.priceFrom
   const priceTo = landingData.priceTo ?? city.priceTo ?? 140
-  const schemaFaqs = isPrimaryCitySlug(slug)
+  const schemaFaqs = isPrimaryCitySlug(slug) && !landingData.useOwnFaqs
     ? buildCitySchemaFaqs({
         city: landingData.city,
         slug,
