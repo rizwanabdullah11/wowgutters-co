@@ -252,11 +252,12 @@ ${legacy}
   RewriteRule ^home/?$ / [R=301,L]
   RewriteRule ^blog/roof-moss-removal-kings-norton-b30-birmingham/?$ /roof-cleaning-kings-norton/ [R=301,L]
 
-  # Ranking consolidation (Oct 2026): thin Birmingham variants → homepage.
-  # /gutter-cleaning-birmingham/ is a real page again (Oct 27 2026) — do NOT redirect it.
-  RewriteRule ^trusted-gutter-cleaners-birmingham/?$ / [R=301,L]
-  RewriteRule ^next-day-gutter-cleaning-birmingham/?$ / [R=301,L]
-  RewriteRule ^autumn-gutter-cleaning-birmingham/?$ / [R=301,L]
+  # Ranking consolidation: thin Birmingham variants → /gutter-cleaning-birmingham/ (Nov 9 2026;
+  # previously → homepage, which made the homepage compete for "gutter cleaning birmingham").
+  # /gutter-cleaning-birmingham/ is a real page — do NOT redirect it.
+  RewriteRule ^trusted-gutter-cleaners-birmingham/?$ /gutter-cleaning-birmingham/ [R=301,L]
+  RewriteRule ^next-day-gutter-cleaning-birmingham/?$ /gutter-cleaning-birmingham/ [R=301,L]
+  RewriteRule ^autumn-gutter-cleaning-birmingham/?$ /gutter-cleaning-birmingham/ [R=301,L]
   RewriteRule ^residential-gutter-cleaning/?$ / [R=301,L]
   # Blog posts outranking their own service pages → merge into the service page
   RewriteRule ^blog/gutter-cleaning-walsall/?$ /gutter-cleaning-walsall/ [R=301,L]

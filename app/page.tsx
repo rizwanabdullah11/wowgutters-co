@@ -5,10 +5,9 @@ import HomeScreen from './home-screen/page';
 
 const URL_PATH = 'https://wowgutters.co.uk/';
 // Exact homepage title — set after normalizeMetadata so it isn't reordered/trimmed.
-// Nov 2 2026: Search Console shows Google ranks the HOMEPAGE for "gutter cleaning birmingham"
-// (pos ~18) far above /gutter-cleaning-birmingham/ (pos ~59), so the homepage title now leads with
-// Birmingham to build on that position. The owner approved this change.
-const HOME_TITLE = 'Gutter Cleaning Birmingham & West Midlands | WOW Gutters Ltd';
+// Nov 9 2026 (owner request): the homepage targets the WEST MIDLANDS. "Gutter cleaning birmingham"
+// belongs to /gutter-cleaning-birmingham/ only, so the two pages stop competing (lib/birminghamFocus.ts).
+const HOME_TITLE = 'Gutter Cleaning West Midlands | From £100 | WOW Gutters Ltd';
 
 const baseMetadata: Metadata = normalizeMetadata({
   title: 'Gutter Cleaning Services West Midlands | WOW Gutters Ltd',

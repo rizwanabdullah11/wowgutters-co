@@ -17,6 +17,7 @@ import NearbyAreas from '@/components/areas/NearbyAreas';
 import LocalBoostSection from '@/components/areas/LocalBoostSection';
 import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
+import BirminghamHubLink from '@/components/seo/BirminghamHubLink';
 import { normalizeAreaHeroTitle } from '@/lib/areaHeroTitle';
 import { gutterPriceSentence, localiseGuarantees, roofPriceSentence, whatsappLine } from '@/lib/localVariants';
 
@@ -132,6 +133,7 @@ export default function CityGutterCleaningPage({
 
       {/* Reviews straight after the hero, like the homepage (Nov 2026) */}
       <GoogleReviewsBlock city={data.city} className="bg-white" />
+      {serviceKind === 'gutter' && data.slug !== 'birmingham' && !bottomSlot ? <BirminghamHubLink place={data.city} /> : null}
 
       <section className="py-16 px-4 bg-white border-b border-slate-100">
         <div className="max-w-6xl mx-auto">

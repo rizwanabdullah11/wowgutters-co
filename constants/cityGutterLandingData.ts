@@ -1513,103 +1513,96 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   aston: {
     slug: 'aston',
     city: 'Aston',
-    titleTag: 'Gutter Cleaning Aston, Birmingham | WOW Gutters Ltd \u2014 Free Quote',
+    titleTag: 'Gutter Cleaning Aston B6 | From £100 | WOW Gutters Ltd',
     metaDescription:
-      'Professional gutter cleaning in Aston, Birmingham. Ground-level vacuum system, no ladders, before & after photos, fully insured. Call 07421 433910.',
-    h1: 'Gutter Cleaning Aston Birmingham — Professional Service for B6 & B7 Properties',
+      'Gutter cleaning in Aston B6 from £100 — terraces near Villa Park, Aston Hall semis, HMOs and flats. Cleared from the pavement, downpipes flushed, photo proof. 07421 433910.',
+    h1: 'Gutter Cleaning Aston — Terraces, HMOs & Flats Across B6',
     heroIntro:
-      "WOW Gutters Ltd provides professional gutter cleaning across Aston and the surrounding inner-city Birmingham neighbourhoods, including Witton, Newtown, Lozells, Birchfield and Nechells. Aston is one of Birmingham's most historically rich inner-city areas \u2014 a dense mix of Victorian terraces, Edwardian semis and post-war housing that presents some of the most demanding gutter conditions in the city. Our ground-level high-reach vacuum system handles all of it safely and efficiently, without a single ladder placed against your property, and with before and after photos on every job.",
-    whyTitle: 'Why Aston Gutters Need Professional Attention',
+      'Tight Victorian terraces off Witton Road, big semis by Aston Park and student HMOs on Albert Road all have one thing in common: no room for a ladder. We clear Aston gutters from the pavement with a high-reach vacuum, flush the downpipes and send you photos of the result.',
+    whyTitle: 'What Makes Aston Gutters Different',
     whyBody: [
-      "Aston sits in one of Birmingham's most densely built inner-city areas, where terraced rows run back-to-back and gutters are often shared or closely adjacent. The combination of mature street trees \u2014 particularly the lime and plane trees lining many of Aston's Victorian streets \u2014 and the area's consistent rainfall means gutters fill with leaves, seeds and moss faster than in more open suburban areas. A single autumn season can be enough to completely block a gutter that was clear in spring.",
-      "Many properties in Aston were built between 1880 and 1930, and their guttering \u2014 whether original cast iron or later uPVC replacement \u2014 is now showing its age. Joints fail, brackets sag, and sections crack when the weight of accumulated debris is left unmanaged. Water that overflows from a blocked gutter runs directly down the external brickwork, saturating the wall and working its way into the interior \u2014 causing damp patches, mould, and in severe cases, structural damage to lintels and window frames.",
-      "Aston also has a significant number of converted flats, HMOs and rental properties where gutter maintenance is often overlooked between tenancies. Landlords who leave gutters uncleared for multiple years frequently face expensive damp remediation bills that a simple annual clean would have prevented. Our post-clean condition report gives you an honest assessment of what needs attention before small problems become expensive ones.",
+      'Aston is one of the most tightly built parts of the city. Streets such as Park Road, Victoria Road and the roads between Witton Road and Trinity Road are lined with Victorian and Edwardian terraces that share a continuous roofline, so one blocked outlet can send water along the run and over the front of the house next door. Most of these homes have no side access and very little pavement, which is why a ground-level vacuum works so well here: we park, set up on the footpath and clear the full front and rear runs without a ladder touching the brickwork.',
+      'The other big factor is trees. Aston Park, the grounds of Aston Hall and the old churchyard at St Peter and St Paul drop a lot of leaves and winged seeds in autumn, and the streets around them catch most of it. Add moss from slate roofs that have not been touched in decades and you get gutters that hold standing water all winter. On older terraces that water often finds its way through worn cast iron joints into the front bay or the bedroom wall above it.',
+      'Aston also has a large rental market — shared houses for students and young workers, flats above shops on Lozells Road and converted terraces let room by room. Gutters on these properties are easy to forget between tenancies. We send landlords and agents dated before & after photos for every visit, so there is a clear record for inventories, insurance and repair decisions.',
     ],
     guarantees: [
-      'Ground-level vacuum system \u2014 no ladders placed against your property',
-      'Reaches up to 4 storeys \u2014 terraces, semis and flats',
-      'Before & after photos included as standard on every job',
-      
-      'Fully insured \u2014 comprehensive public liability cover on every visit',
-      '4.9? rating from verified Google reviews',
+      'Cleared from the pavement — no ladders, no scaffold, no side access needed',
+      'Front and rear runs on mid-terrace homes cleared in one visit',
+      'Downpipes flushed and water flow checked before we pack up',
+      'Dated before & after photos — handy for landlords and letting agents',
+      'Fully insured, with fixed prices agreed before we start',
     ],
-    propertyTypesTitle: 'Gutter Cleaning for All Property Types in Aston',
+    propertyTypesTitle: 'Aston Properties We Clean',
     propertyTypes: [
       {
-        label: 'Victorian terraces (Lozells Road, Witton Road, Newtown Row)',
-        detail: 'Dense rows with aging cast iron and uPVC gutter systems. We clear carefully from ground level and flag any repairs needed. No side access required in most cases.',
+        label: 'Victorian terraces (Park Road, Victoria Road, Witton Road)',
+        detail: 'Shared rooflines and narrow fronts. We clear the whole run from the pavement and point out failing cast iron joints or sagging brackets in your photos.',
       },
       {
-        label: 'Edwardian semis (Witton, Birchfield, Aston Hall area)',
-        detail: 'Larger properties with longer gutter runs and heavy leaf fall from mature garden trees. Full downpipe flush and condition report included as standard.',
+        label: 'Larger semis and villas (around Aston Park and Aston Hall)',
+        detail: 'Long gutter runs under mature trees. An autumn clean, after most leaves have fallen, keeps them flowing through winter.',
       },
       {
-        label: 'Post-war housing (Nechells, Duddeston)',
-        detail: 'Flat-roof sections and standard uPVC runs. Annual clean keeps drainage systems functioning correctly and prevents water ingress at roof junctions.',
+        label: 'Student and shared houses (Albert Road, Upper Sutton Street area)',
+        detail: 'Fixed yearly visits with photo reports, so landlords can show gutters were kept clear between tenancies.',
       },
       {
-        label: 'Converted flats and HMOs',
-        detail: 'Landlords across Aston use WOW Gutters Ltd for annual maintenance on rental portfolios. Before & after photos provided for every visit \u2014 ideal for tenancy records and property management.',
+        label: 'Flats above shops (Lozells Road, Witton Road shopping parade)',
+        detail: 'Two and three-storey buildings cleared from street level, with no need to close the shop or block the entrance.',
       },
       {
-        label: 'Commercial properties (A34 Aston corridor, Lichfield Road)',
-        detail: 'Workshops, retail units and offices. Planned maintenance contracts available with scheduled visits and written condition reports.',
+        label: 'Newer housing (Aston Newtown, Lichfield Road side)',
+        detail: '1980s–2000s homes with uPVC gutters where moss and roof grit settle in shallow runs. A yearly clean protects fascias and porches.',
       },
     ],
-    areasTitle: 'Areas We Cover Around Aston',
+    areasTitle: 'Aston and Nearby Areas We Cover',
     areasInline:
-      'Witton, Lozells, Newtown, Birchfield | Nechells, Duddeston, Saltley | Handsworth, Erdington, Perry Barr | Nearby: Birmingham city centre, Sutton Coldfield, Walsall',
-    faqsTitle: 'FAQs \u2014 Gutter Cleaning Aston',
+      'Aston (B6): Aston Park, Aston Cross, Villa Park side, Witton Road | Witton & Perry Barr edge (B6) | Lozells & Newtown (B19) | Nechells & Duddeston (B7) | Birchfield & Handsworth (B20)',
+    faqsTitle: 'Aston Gutter Cleaning — Your Questions Answered',
     faqs: [
       {
-        question: 'How much does gutter cleaning cost in Aston?',
-        answer: 'WOW Gutters Ltd provides fixed quotes for all properties. Get yours online at wowgutters.co.uk or call 07421 433910. No hidden fees.',
+        question: 'What does gutter cleaning cost for an Aston terrace?',
+        answer: 'Most Aston terraces are 2 or 3 bedrooms, which is £100 or £110 for front and rear gutters, downpipe flushing and photos. Larger semis and HMOs are quoted before we arrive, so the price never changes on the day.',
       },
       {
-        question: 'Do you cover Lozells, Newtown and Witton?',
+        question: 'I live near Villa Park — can you still park and work on a matchday?',
         answer:
-          'Yes \u2014 we cover all B6 and B7 postcodes including Aston, Lozells, Newtown, Witton, Birchfield, Nechells, Duddeston and all surrounding inner-city areas.',
+          'Parking around Trinity Road and Witton Road is very tight on home matchdays, so we avoid booking those streets on match days where we can. Tell us your road when you book and we will pick a quieter day.',
       },
       {
-        question: 'My terrace has very narrow side access \u2014 is that a problem?',
+        question: 'My mid-terrace has no back access. Can you clean the rear gutter?',
         answer:
-          'Not at all. Our ground-level vacuum system operates from the front of the property and does not require side access in most cases. We handle tight terraced rows regularly across Aston and Lozells.',
+          'Usually yes. Our vacuum poles reach over the roof from the front on most two-storey terraces. If the rear gutter cannot be reached that way, we will tell you before we start rather than charge for half a job.',
       },
       {
-        question: 'Can blocked gutters cause damp inside my Aston property?',
+        question: 'Water is coming through my front bay window — is it the gutter?',
         answer:
-          'Yes \u2014 this is one of the most common causes of internal damp we encounter in Aston. Water overflowing from a blocked gutter runs continuously down the same section of brickwork during every rain shower, saturating the wall and eventually penetrating the interior. Regular cleaning prevents this entirely.',
+          'It often is on Aston terraces. When the gutter or downpipe above the bay is blocked, water spills onto the bay roof and finds its way in around the frame. Clearing the run is the first step; your photos will show if a joint or the bay flashing needs repairing too.',
       },
       {
-        question: 'Do you work with landlords in Aston?',
+        question: 'Do you work for landlords and letting agents with Aston HMOs?',
         answer:
-          'Yes \u2014 we work with landlords and letting agents across Aston, providing photographic evidence of gutter condition before and after each visit for maintenance records and tenant check reports.',
+          'Yes. We clean shared houses and flats across B6, B7 and B19 and send dated photos for each property, so you have evidence for inventories and insurance. Several properties can be booked on the same day.',
       },
       {
-        question: 'Do you offer gutter repairs in Aston?',
+        question: 'Can you fix cast iron gutters on older Aston houses?',
         answer:
-          'Yes. If our technician spots damaged sections, loose brackets or leaking joints during your clean, we flag these in our condition report. Our repair team can return to carry out the necessary work.',
-      },
-      {
-        question: 'How quickly can you get to Aston?',
-        answer:
-          'We aim to offer bookings within 2\u201C5 working days. Same-day visits may be available for urgent overflow or blockage issues \u2014 call 07421 433910 to check availability.',
-      },
-      {
-        question: 'Do you test the gutters after cleaning?',
-        answer:
-          'Yes — every gutter clean includes full downpipe flushing and camera verification to ensure flawless drainage.',
+          'We can reseal leaking joints, refit loose brackets and replace cracked sections. Repairs are always quoted separately and only carried out once you agree.',
       },
     ],
     geo: { latitude: 52.5050, longitude: -1.8850 },
     internalLinks: [
       { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
-      { label: 'Gutter cleaning Erdington', href: '/gutter-cleaning/erdington/' },
-      { label: 'Gutter cleaning Handsworth', href: '/gutter-cleaning/handsworth/' },
-      { label: 'Roof cleaning Birmingham', href: '/help/clean/' },
-      { label: 'Gutter repairs', href: '/help/repair/' },
+      { label: 'Gutter cleaning Erdington', href: '/gutter-cleaning-erdington/' },
+      { label: 'Gutter cleaning Perry Barr', href: '/gutter-cleaning-perry-barr/' },
+      { label: 'Gutter repairs', href: '/gutter-repairs/' },
+      { label: 'Gutter cleaning for landlords', href: '/services/gutter-cleaning-for-landlords/' },
     ],
-    ctaHeading: 'Book Your Gutter Clean in Aston \u2014 Free Quote in 60 Seconds',
+    ctaHeading: 'Book Your Aston Gutter Clean — Fixed Price, No Ladders',
+    nearbyAreas: ['Witton', 'Lozells', 'Newtown', 'Nechells', 'Birchfield', 'Perry Barr'],
+    postcodes: ['B6', 'B7', 'B19'],
+    localSpotlight:
+      'Recent Aston work includes clearing shared rooflines on Victorian terraces off Witton Road, leaf clears for semis backing onto Aston Park, and yearly photo-reported cleans for landlords with shared houses near Albert Road.',
   },
 
   edgbaston: {

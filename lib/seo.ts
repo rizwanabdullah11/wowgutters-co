@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
+import { dropBirminghamSuffix } from '@/lib/birminghamFocus';
 
 /** Per-town OG images were never created; fall back to the shared one so shares never show a broken image. */
 function resolveOgImage(path?: string): string {
@@ -58,6 +59,8 @@ export function seoTitle(raw: string, opts: { keepSegments?: boolean } = {}): st
     segs.push(part);
   }
   if (segs.length === 0) return BRAND;
+  // Nov 2026: only /gutter-cleaning-birmingham/ targets "gutter cleaning birmingham" (lib/birminghamFocus.ts).
+  segs[0] = dropBirminghamSuffix(segs[0]);
   if (!opts.keepSegments) segs.splice(0, segs.length, ...withPriceHook(segs));
   const compose = (s: string[]) => (brandInCore ? s.join(' | ') : [...s, BRAND].join(' | '));
   if (opts.keepSegments) {
