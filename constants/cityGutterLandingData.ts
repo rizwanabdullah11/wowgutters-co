@@ -386,90 +386,88 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   worcester: {
     slug: 'worcester',
     city: 'Worcester',
-    titleTag: 'Gutter Cleaning Worcester | WOW Gutters Ltd',
+    titleTag: 'Gutter Cleaning Worcester | From £100 | WOW Gutters Ltd',
     metaDescription:
-      'Professional gutter cleaning in Worcester from £100. Ground-level vacuum system, before & after photos, fully insured. Call WOW Gutters Ltd: 07421 433910.',
-    h1: 'Gutter Cleaning Worcester — Professional Service Across WR1-WR14',
+      'Gutter cleaning and guttering repairs in Worcester (WR1–WR5) from £100. Cleared from the ground with a 4-storey vacuum, downpipes flushed, before & after photos. Call 07421 433910.',
+    h1: 'Gutter Cleaning Worcester — Covering Every WR1–WR5 Postcode',
     heroIntro:
-      "Worcester is one of England's great cathedral cities, sitting on the River Severn in the heart of Worcestershire. The city combines a medieval and Georgian core with extensive Victorian and Edwardian suburbs along the London Road and Sidbury corridors, and more modern residential development in Warndon Villages and St John's. Properties near the river are particularly susceptible to moisture and require well-maintained guttering to prevent additional damp. The mature elms and oaks of Worcester's parks and residential streets shed significant leaf debris each autumn \u2014 particularly around Rainbow Hill and St John's.",
-    whyTitle: 'Why Worcester Gutters Need Regular Attention',
+      'From Georgian townhouses near the Cathedral to family homes in Warndon Villages, we clear Worcester gutters from the ground with a high-reach vacuum. Downpipes are flushed, every job is photographed, and the price is fixed before we start.',
+    whyTitle: 'Why Gutters Block So Quickly in Worcester',
     whyBody: [
-      'Worcester sits in the Severn Valley and is one of the wettest cities in the English Midlands \u2014 the River Severn regularly floods its banks, and the surrounding landscape channels rainfall into the city from the Malvern Hills and Worcestershire countryside. This consistent damp climate makes gutters in Worcester highly susceptible to moss and algae growth, which narrows gutter channels and accelerates blockage even when leaf fall is minimal.',
-      "The city also has a significant number of period properties \u2014 Georgian townhouses in the Cathedral Quarter, Edwardian semis in St John's and Claines, and Victorian terraces throughout the inner suburbs \u2014 many of which have guttering that is rarely inspected and even more rarely cleaned. These older systems are at greatest risk of joint failure and overflow damage, and benefit most from professional annual maintenance.",
+      'Worcester grew up along the River Severn, and that shapes how its gutters behave. Mist rising off the river and the flood meadows at Pitchcroft keeps roofs damp for longer after rain, so moss spreads across tiles and slides into the gutters below. On streets close to the river — Henwick Road, Severn Street, the Diglis Basin flats — we often find gutters lined with moss and silt rather than leaves.',
+      'Away from the river the problem is trees. Gheluvelt Park, Fort Royal Park, Cripplegate Park and the long avenues of Barbourne and Battenhall drop heavy leaf fall from October to December, and older London Road and Bath Road houses still carry original cast iron gutters with narrow outlets that choke easily. When those outlets block, water runs behind the fascia and down the brickwork — the damp patches and green stains many Worcester homeowners first notice inside.',
+      'We clear gutters without ladders or scaffolding using a vacuum that reaches up to four storeys from the ground, which suits the tall terraces of The Tything and Sidbury and the three-storey town houses in St Peter’s. Every downpipe is flushed and tested, and you receive before & after photos of each section so you can see the result yourself.',
     ],
     guarantees: [
-      'Ground-level vacuum system \u2014 no ladders placed against your property',
-      'Reaches up to 4 storeys \u2014 homes, flats and commercial buildings',
-      'Before & after photos included as standard on every job',
-      
-      'Fully insured \u2014 comprehensive public liability cover on every visit',
-      '4.9? rating from verified Google reviews',
+      'Ground-level vacuum system — no ladders placed against your property',
+      'Reaches up to 4 storeys — terraces, townhouses, flats and commercial buildings',
+      'Before & after photos of every gutter run, sent to you on the day',
+      'Downpipes flushed and tested before we leave',
+      'Fully insured — public liability cover on every visit',
+      'Fixed price agreed before any work starts — no call-out fee',
     ],
-    propertyTypesTitle: 'Gutter Cleaning for All Property Types in Worcester',
+    propertyTypesTitle: 'Worcester Homes We Clean — and What We Usually Find',
     propertyTypes: [
       {
-        label: 'Victorian terraces (Barbourne, Rainbow Hill)',
-        detail: 'Older guttering, often original cast iron or early replacement. We clean carefully, preserving period features.',
+        label: 'Georgian & Regency townhouses (WR1 — The Tything, Britannia Square, Sidbury)',
+        detail: 'Three and four storeys with parapets and hidden valley gutters. Our vacuum reaches the top run from the pavement, so no scaffold is needed for a routine clean.',
       },
       {
-        label: 'Georgian townhouses (city centre)',
-        detail: 'Period properties with complex rooflines. We use specialist equipment to protect original brickwork.',
+        label: 'Victorian & Edwardian terraces (WR3 Barbourne, WR4 Rainbow Hill, WR5 Lark Hill)',
+        detail: 'Many still have cast iron or ogee gutters with small outlets. We clear them gently and point out rusted brackets or leaking joints in the photos.',
       },
       {
-        label: '1930s semis (St John\u2019s, Warndon)',
-        detail: 'Solid housing stock with mature garden trees. Leaf fall is significant \u2014 autumn clean is essential.',
+        label: 'Interwar & post-war semis (WR2 St John’s, Dines Green, WR4 Ronkswood)',
+        detail: 'Large gardens with mature trees mean heavy autumn leaf fall. An October or November clean usually stops winter overflows.',
       },
       {
-        label: 'Modern estates (Warndon Villages)',
-        detail: 'Newer properties with standard uPVC guttering. Annual clean prevents moss build-up.',
+        label: 'Modern estates (WR4 Warndon Villages, WR5 St Peter’s, WR2 Lower Wick)',
+        detail: 'uPVC guttering with shallow pitches where silt and moss settle. A yearly clean keeps water flowing and protects the fascias.',
       },
       {
-        label: 'Riverside properties (River Severn)',
-        detail: 'Properties near the river are susceptible to moisture. Well-maintained guttering prevents additional damp.',
+        label: 'Riverside flats & conversions (Diglis, Severn Street, Henwick Road)',
+        detail: 'Damp air from the Severn speeds up moss growth. We clear communal gutters for managing agents and residents’ associations, with photo reports for your records.',
       },
     ],
-    areasTitle: 'Areas We Cover Around Worcester',
+    areasTitle: 'Worcester Areas We Cover',
     areasInline:
-      "St John\u2019s, Rainbow Hill, Warndon, Warndon Villages | Barbourne, Claines, Rushwick, Brickfields | Ronkswood, Dines Green, Henwick, Battenhall, Nunnery Wood | Nearby: Malvern, Droitwich, Pershore, Bromsgrove",
-    faqsTitle: 'FAQs \u2014 Gutter Cleaning Worcester',
+      'WR1: City Centre, The Tything, Sidbury, Britannia Square | WR2: St John’s, Lower Wick, Dines Green, Henwick | WR3: Barbourne, Claines, Northwick, Fernhill Heath | WR4: Warndon, Warndon Villages, Ronkswood, Rainbow Hill, Blackpole | WR5: St Peter’s, Battenhall, Red Hill, Diglis, Lark Hill',
+    faqsTitle: 'FAQs — Gutter Cleaning Worcester',
     faqs: [
       {
         question: 'How much does gutter cleaning cost in Worcester?',
-        answer: 'WOW Gutters Ltd provides fixed quotes for all properties across WR1\u2013WR5. Get yours online at wowgutters.co.uk or call 07421 433910. No hidden fees.',
+        answer: 'Gutter cleaning in Worcester starts from £100 for a terraced home. You get a fixed price before we arrive, with downpipe flushing and before & after photos included.',
       },
       {
-        question: 'Do you cover St John\u2019s, Rainbow Hill and Warndon?',
+        question: 'Do you cover St John’s, Barbourne and Warndon Villages?',
         answer:
-          'Yes \u2014 Worcester city and surrounding suburbs including St John\u2019s, Rainbow Hill, Warndon, Warndon Villages, Barbourne, Claines, Dines Green and all WR postcodes.',
+          'Yes. We cover all of Worcester WR1–WR5, including St John’s, Barbourne, Claines, Warndon, Warndon Villages, Ronkswood, Battenhall, St Peter’s and Diglis.',
       },
       {
-        question: 'Is there a gutter cleaning service near me in Worcester?',
+        question: 'Can you clean cast iron gutters on older Worcester houses?',
         answer:
-          'Yes \u2014 we cover all WR1\u2013WR5 postcodes. Same-day availability in many areas \u2014 call 07421 433910 to check.',
+          'Yes. We clear cast iron and ogee gutters on Georgian and Victorian homes carefully from the ground and show any rust, cracks or leaking joints in your photo report.',
       },
       {
-        question: 'My Worcester property has cast iron guttering \u2014 can you clean it?',
+        question: 'Do you repair guttering in Worcester as well as cleaning it?',
         answer:
-          'Yes. We regularly clean older cast iron gutter systems on period properties across Worcester. We take extra care with fragile or aged guttering and will advise if any sections need repair or replacement.',
-      },
-      {
-        question: 'Do you offer roof cleaning in Worcester?',
-        answer:
-          'Yes. We provide professional soft-wash roof cleaning and moss removal across Worcester. Combined roof and gutter cleans are available at a reduced price \u2014 ask when you book.',
+          'Yes. We reseal leaking joints, refit sagging sections and replace cracked lengths and downpipes. Repairs start with a free inspection and a fixed written quote.',
       },
     ],
     geo: { latitude: 52.1920, longitude: -2.2209 },
     internalLinks: [
       { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
-      { label: 'Gutter cleaning Bromsgrove', href: '/gutter-cleaning-bromsgrove/' },
       { label: 'Gutter cleaning Redditch', href: '/gutter-cleaning-redditch/' },
-      { label: 'Roof cleaning Worcester', href: '/help/clean/' },
-      { label: 'Professional gutter cleaning', href: '/help/unblock/' },
+      { label: 'Gutter cleaning Bromsgrove', href: '/gutter-cleaning-bromsgrove/' },
+      { label: 'Gutter repairs', href: '/gutter-repairs/' },
+      { label: 'Gutter cleaning prices', href: '/gutter-cleaning-prices/' },
     ],
-    ctaHeading: 'Book Your Gutter Clean in Worcester \u2014 Free Quote in 60 Seconds',
+    ctaHeading: 'Book Your Worcester Gutter Clean — Fixed Price, Free Quote in 60 Seconds',
     priceTo: 140,
-    nearbyAreas: ['St John\u2019s', 'Rainbow Hill', 'Warndon', 'Barbourne', 'Claines', 'Dines Green'],
+    nearbyAreas: ['St John’s', 'Barbourne', 'Claines', 'Warndon', 'Warndon Villages', 'Ronkswood', 'Battenhall', 'St Peter’s', 'Diglis'],
     postcodes: ['WR1', 'WR2', 'WR3', 'WR4', 'WR5'],
+    localSpotlight:
+      'Typical jobs in Worcester include clearing moss-packed gutters on riverside flats in Diglis, unblocking cast iron hoppers on Barbourne terraces, and autumn leaf clears for semis backing onto the parks in St John’s and Battenhall. Out-of-town homes in Fernhill Heath, Claines and Lower Wick are covered at the same fixed prices.',
   },
 
   redditch: {

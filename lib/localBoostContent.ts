@@ -246,6 +246,73 @@ export const LOCAL_BOOST: Record<string, LocalBoost> = {
     ],
   },
 
+  worcester: {
+    place: 'Worcester',
+    heading: 'Gutter Cleaning, Guttering Repairs & Downpipes in Worcester',
+    intro: [
+      'Most Worcester callouts fall into two groups: period houses in the city centre and Barbourne where narrow cast iron outlets have silted up, and newer homes in Warndon Villages and St Peter’s where moss from the roof has settled in shallow uPVC gutters. Both are cleared from the ground with our high-reach vacuum, so nobody leans a ladder on your fascia or walks on your roof.',
+      'If a section is leaking or sagging once it is clean, we show you in the photos and quote for the repair on the spot. You never pay for work you have not agreed to.',
+    ],
+    districtsHeading: 'Worcester postcodes we cover',
+    districts: [
+      {
+        name: 'City Centre & The Tything (WR1)',
+        text: 'Tall Georgian and Regency townhouses with parapet and valley gutters. We reach the top run from street level, which avoids the cost and permits of scaffolding.',
+      },
+      {
+        name: 'St John’s, Lower Wick & Dines Green (WR2)',
+        text: 'West of the river: interwar semis, bungalows and newer estates with mature trees. Leaf fall from October onwards is the main cause of blocked downpipes here.',
+      },
+      {
+        name: 'Barbourne, Claines & Fernhill Heath (WR3)',
+        text: 'Victorian and Edwardian terraces near Gheluvelt Park, plus larger detached homes towards Claines. Expect cast iron gutters and hoppers that need gentle clearing.',
+      },
+      {
+        name: 'Warndon, Warndon Villages & Ronkswood (WR4)',
+        text: 'Mostly 1980s–2000s homes with uPVC guttering. Moss and roof grit build up in the shallow runs and overflow onto porches and conservatories.',
+      },
+      {
+        name: 'St Peter’s, Battenhall & Diglis (WR5)',
+        text: 'Modern town houses, leafy Battenhall roads and riverside flats near Diglis Basin. Damp air off the Severn makes yearly cleaning worthwhile.',
+      },
+    ],
+    extra: {
+      heading: 'Guttering repairs in Worcester',
+      body: [
+        'After a clean we check every joint, bracket and downpipe. Common fixes on Worcester homes are resealing leaking uPVC joints, refitting gutters that have dropped away from the fascia, and replacing cracked cast iron sections or hoppers with matching profiles.',
+        'Repairs start with a free inspection and a fixed written quote. If your guttering is beyond repair we can quote for new uPVC gutters and downpipes.',
+      ],
+      links: [
+        { label: 'Gutter repairs', href: '/gutter-repairs/' },
+        { label: 'New gutter installation', href: '/services/gutter-installation/' },
+        { label: 'Downpipe unblocking', href: '/downpipe-unblocking/' },
+      ],
+    },
+    faqs: [
+      {
+        question: 'How quickly can you clean gutters in Worcester?',
+        answer:
+          'We visit Worcester every week and can often book you in within a few days. Call 07421 433910 or request a quote online to see the next free date.',
+      },
+      {
+        question: 'Can you clean gutters on a three-storey townhouse in Worcester?',
+        answer:
+          'Yes. Our vacuum reaches up to four storeys from the ground, so tall townhouses in The Tything, Sidbury and St Peter’s can be cleared without scaffolding.',
+      },
+      {
+        question: 'Do you clean communal gutters for Worcester flats?',
+        answer:
+          'Yes. We work for managing agents and residents’ associations on blocks across Worcester, including riverside flats near Diglis, and provide a photo report for your records.',
+      },
+    ],
+    links: [
+      { label: 'Gutter cleaning in Bromsgrove', href: '/gutter-cleaning-bromsgrove/' },
+      { label: 'Gutter cleaning in Redditch', href: '/gutter-cleaning-redditch/' },
+      { label: 'Gutter cleaning in Kidderminster', href: '/gutter-cleaning-kidderminster/' },
+      { label: 'Gutter cleaning prices', href: '/gutter-cleaning-prices/' },
+    ],
+  },
+
   'kings-norton': {
     place: 'Kings Norton',
     heading: 'Guttering Cleaning in Kings Norton (B30 & B38)',
