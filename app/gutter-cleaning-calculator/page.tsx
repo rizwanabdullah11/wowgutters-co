@@ -13,13 +13,8 @@ import {
   Camera,
 } from 'lucide-react';
 import { colors } from '@/constants/colors';
-import {
-  estimateGutterCleaningPrice,
-  type GutterCondition,
-  type GutterLength,
-  type PropertyType,
-} from '@/lib/gutterPriceCalculator';
-import { GUTTER_PRICING, formatGbp } from '@/constants/gutterPricing';
+import { estimateGutterCleaningPrice, type PropertyType } from '@/lib/gutterPriceCalculator';
+import { GUTTER_PRICING, formatGbp, priceForBedrooms } from '@/constants/gutterPricing';
 
 const INCLUDED = [
   'Complete gutter clearance from ground level',
@@ -44,12 +39,9 @@ export default function GutterCleaningCalculator() {
 
   const [propertyType, setPropertyType] = useState<PropertyType | ''>('');
   const [bedrooms, setBedrooms] = useState('');
-  const [gutterLength, setGutterLength] = useState<GutterLength | ''>('');
-  const [condition, setCondition] = useState<GutterCondition | ''>('');
-  const [estimatedPrice, setEstimatedPrice] = useState<number | null>(null);
+  const [estimatedPrice, setEstimatedPrice] = useState<{ price: number; isFrom: boolean } | null>(null);
 
-  const canCalculate =
-    propertyType && bedrooms && gutterLength && condition;
+  const canCalculate = propertyType && bedrooms;
 
   const calculatePrice = () => {
     if (!canCalculate) return;
@@ -57,8 +49,6 @@ export default function GutterCleaningCalculator() {
       estimateGutterCleaningPrice({
         propertyType: propertyType as PropertyType,
         bedrooms: parseInt(bedrooms, 10),
-        gutterLength: gutterLength as GutterLength,
-        condition: condition as GutterCondition,
       })
     );
   };
@@ -85,8 +75,9 @@ export default function GutterCleaningCalculator() {
             Gutter Cleaning <span style={{ color: colors.primary }}>Calculator</span>
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-200">
-            Get a ballpark price for professional gutter cleaning in Birmingham and the West Midlands.
-            Final quotes are confirmed after a quick property check.
+            Pick your property type and size to get a ballpark gutter cleaning price in seconds.
+            Final quotes are confirmed after a quick property check. Booking in the city? See our{' '}
+            <Link href="/gutter-cleaning-birmingham/" className="underline underline-offset-2 font-bold text-white">gutter cleaning Birmingham</Link> page.
           </p>
         </div>
 
@@ -135,34 +126,6 @@ export default function GutterCleaningCalculator() {
                   </select>
                 </div>
 
-                <div>
-                  <label className="mb-2 block text-sm font-bold text-gray-700">Gutter length</label>
-                  <select
-                    value={gutterLength}
-                    onChange={(e) => setGutterLength(e.target.value as GutterLength | '')}
-                    className={inputClass}
-                  >
-                    <option value="">Select gutter length</option>
-                    <option value="standard">Standard (up to 15m)</option>
-                    <option value="long">Long (15–25m)</option>
-                    <option value="very-long">Very long (25m+)</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label className="mb-2 block text-sm font-bold text-gray-700">Gutter condition</label>
-                  <select
-                    value={condition}
-                    onChange={(e) => setCondition(e.target.value as GutterCondition | '')}
-                    className={inputClass}
-                  >
-                    <option value="">Select condition</option>
-                    <option value="light">Light debris (regular maintenance)</option>
-                    <option value="moderate">Moderate blockage</option>
-                    <option value="heavy">Heavy blockage / overgrown</option>
-                  </select>
-                </div>
-
                 <button
                   type="button"
                   onClick={calculatePrice}
@@ -182,11 +145,12 @@ export default function GutterCleaningCalculator() {
                 >
                   <p className="text-sm font-bold uppercase tracking-wide text-gray-600">Estimated price</p>
                   <p className="mt-1 text-5xl font-black" style={{ color: colors.primary }}>
-                    £{estimatedPrice}
+                    {estimatedPrice.isFrom ? 'From ' : ''}{formatGbp(estimatedPrice.price)}
                   </p>
                   <p className="mt-3 text-sm text-gray-600 leading-relaxed">
-                    Guide price only. Access, roof height, and actual blockage level can affect the final
-                    quote. We confirm the price before work starts — no surprises on the day.
+                    {estimatedPrice.isFrom
+                      ? 'Homes with 4 or more bedrooms go on our Premium Service. We confirm your fixed price before work starts — no surprises on the day.'
+                      : 'We confirm your fixed price before work starts — no surprises on the day.'}
                   </p>
                   <div className="mt-5 flex flex-col gap-3 sm:flex-row">
                     <button
@@ -283,6 +247,72 @@ export default function GutterCleaningCalculator() {
         </div>
       </section>
 
+      <section className="px-4 py-16" aria-labelledby="price-guide-heading">
+        <div className="mx-auto max-w-4xl">
+          <h2 id="price-guide-heading" className="mb-4 text-center text-3xl font-black text-gray-900">
+            Gutter cleaning price guide by home size
+          </h2>
+          <p className="mx-auto mb-8 max-w-3xl text-center text-gray-600 leading-relaxed">
+            Our prices are fixed by the number of bedrooms, because that is the best guide to how much gutter a
+            house has. Every price below covers the front and rear gutters, downpipe flushing, removal of the waste
+            and before &amp; after photos.
+          </p>
+          <div className="overflow-x-auto rounded-2xl border border-gray-100 shadow-sm">
+            <table className="w-full text-left text-gray-700">
+              <thead className="bg-gray-50 text-gray-900">
+                <tr>
+                  <th className="p-4 font-bold">Home</th>
+                  <th className="p-4 font-bold">Typical property</th>
+                  <th className="p-4 font-bold">Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['1–2 bedrooms', 'Terraces, bungalows and small semis', priceForBedrooms(2)],
+                  ['3 bedrooms', 'Most semi-detached and end-terrace homes', priceForBedrooms(3)],
+                ].map(([home, typical, price]) => (
+                  <tr key={String(home)} className="border-t border-gray-100">
+                    <td className="p-4 font-bold text-gray-900">{home}</td>
+                    <td className="p-4">{typical}</td>
+                    <td className="p-4 font-bold text-gray-900">{formatGbp(Number(price))}</td>
+                  </tr>
+                ))}
+                <tr className="border-t border-gray-100">
+                  <td className="p-4 font-bold text-gray-900">Premium service</td>
+                  <td className="p-4">Homes with 4+ bedrooms or complicated rooflines, with a full inspection report</td>
+                  <td className="p-4 font-bold text-gray-900">from {formatGbp(GUTTER_PRICING.premium)}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p className="mt-8 text-center text-gray-600 leading-relaxed">
+            <strong>Add-ons:</strong> conservatory gutters {formatGbp(GUTTER_PRICING.conservatoryGutterCleaning)}, fascia &amp; soffit cleaning {formatGbp(GUTTER_PRICING.fasciaAndSoffit)}.
+          </p>
+
+          <div className="mt-12">
+            <div>
+              <h3 className="mb-3 text-xl font-black text-gray-900">What does not change the price</h3>
+              <ul className="space-y-2 text-gray-600 leading-relaxed">
+                <li><strong>No side access:</strong> our vacuum reaches over most two-storey roofs from the front.</li>
+                <li><strong>No call-out fee:</strong> the price you are quoted is the price you pay.</li>
+                <li><strong>No surprise repairs:</strong> if we spot a leaking joint or loose bracket, we show you and quote separately. Nothing is done without your OK.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="mt-12">
+            <h3 className="mb-3 text-xl font-black text-gray-900">How often should you have your gutters cleaned?</h3>
+            <p className="text-gray-600 leading-relaxed">
+              For most homes, once a year is enough. The best time is late autumn, after the leaves have
+              come down. If your house sits under large trees, or has a moss-covered roof, twice a year (spring and
+              late autumn) stops water spilling over in heavy rain. Booking several houses on the same street? Ask
+              about our neighbourhood discount — it lowers the price for everyone.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-gray-50 px-4 py-16">
         <div className="mx-auto max-w-3xl">
           <h2 className="mb-8 text-center text-3xl font-black text-gray-900">Common questions</h2>
@@ -290,7 +320,7 @@ export default function GutterCleaningCalculator() {
             {[
               {
                 q: 'How accurate is this calculator?',
-                a: 'It gives a realistic guide based on property type, size, and condition. We confirm the exact price before booking — often matching the estimate on site.',
+                a: 'It gives a realistic guide based on your property type and number of bedrooms. We confirm the exact price before booking — often matching the estimate on site.',
               },
               {
                 q: 'Are there hidden costs?',
@@ -299,6 +329,18 @@ export default function GutterCleaningCalculator() {
               {
                 q: 'How long does a clean take?',
                 a: 'Most homes take 1–2 hours. Larger properties or heavy blockages may take longer — we will tell you when we quote.',
+              },
+              {
+                q: 'How much is gutter cleaning for a 3-bed semi?',
+                a: `A standard 3-bedroom semi is ${formatGbp(priceForBedrooms(3))} for front and rear gutters, downpipe flushing and photos. We confirm the price before booking.`,
+              },
+              {
+                q: 'Is a bungalow cheaper?',
+                a: `Bungalows are priced by bedrooms like any other home, so most are ${formatGbp(priceForBedrooms(2))}–${formatGbp(priceForBedrooms(3))}. They are quicker to reach, but often have long gutter runs all the way round.`,
+              },
+              {
+                q: 'Do I need to be home?',
+                a: 'No, as long as we can reach the front and back of the house. We send the before & after photos to your phone when the job is done.',
               },
             ].map((faq) => (
               <details

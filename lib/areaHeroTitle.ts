@@ -1,3 +1,5 @@
+import { dropBirminghamSuffix } from '@/lib/birminghamFocus';
+
 /** Split area hero H1 into two display lines (Moseley format). */
 export function splitAreaHeroTitle(h1: string): { line1: string; line2: string } {
   const normalized = h1
@@ -22,7 +24,10 @@ export function splitAreaHeroTitle(h1: string): { line1: string; line2: string }
   return { line1: normalized, line2: '' };
 }
 
-/** Birmingham district pages — line 1 should end with "Birmingham". */
+/**
+ * Birmingham district pages. Nov 2026: line 1 no longer ends with "Birmingham" — only
+ * /gutter-cleaning-birmingham/ targets that search (lib/birminghamFocus.ts).
+ */
 const BIRMINGHAM_DISTRICT_SLUGS = new Set([
   'aston',
   'edgbaston',
@@ -56,12 +61,8 @@ export function normalizeAreaHeroTitle(
 ): { line1: string; line2: string } {
   const { line1: rawLine1, line2: rawLine2 } = splitAreaHeroTitle(h1);
 
-  let line1 = rawLine1;
+  const line1 = slug === 'birmingham' ? rawLine1 : dropBirminghamSuffix(rawLine1);
   let line2 = rawLine2;
-
-  if (BIRMINGHAM_DISTRICT_SLUGS.has(slug) && !/\bBirmingham\b/i.test(line1)) {
-    line1 = `${line1} Birmingham`;
-  }
 
   if (line2) {
     const postcodeMatch = line2.match(/for\s+((?:B\d{1,2}(?:\s*&\s*B\d{1,2})?)(?:\s+Properties)?)/i);

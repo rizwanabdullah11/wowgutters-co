@@ -5,14 +5,122 @@
 
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { createRequire } from 'node:module';
+
+const require = createRequire(import.meta.url);
+const { isNoindexPolicyPath } = require('../lib/index-policy.cjs');
+const AREA_POLICY = require('../lib/area-index-policy.json');
+
+/**
+ * Redirect targets must be INDEXABLE pages (Nov 2026 audit). Google saw ~95 old URLs that
+ * 301'd into noindex town pages, so their ranking signals were thrown away. Every redirect
+ * target below is resolved through resolveTarget(): it follows chains to the final page and,
+ * if that page is noindex (lib/index-policy.cjs), moves up to the parent town hub instead.
+ *
+ * PARENT_TOWN: noindex suburb → the indexable town page it belongs to. Suburbs not listed are
+ * Birmingham districts (→ /gutter-cleaning-birmingham/). 'SERVICE' = no local hub (out of area).
+ */
+const PARENT_TOWN = {
+  // Walsall
+  aldridge: 'walsall', bentley: 'walsall', bloxwich: 'walsall', brownhills: 'walsall', darlaston: 'walsall',
+  pelsall: 'walsall', pleck: 'walsall', rushall: 'walsall', shelfield: 'walsall', streetly: 'walsall',
+  willenhall: 'walsall', 'short-heath': 'walsall',
+  // Wolverhampton
+  bilston: 'wolverhampton', bushbury: 'wolverhampton', compton: 'wolverhampton', coseley: 'wolverhampton',
+  ettingshall: 'wolverhampton', 'fallings-park': 'wolverhampton', finchfield: 'wolverhampton',
+  'heath-town': 'wolverhampton', 'low-hill': 'wolverhampton', 'merry-hill-wolverhampton': 'wolverhampton',
+  oxley: 'wolverhampton', parkfield: 'wolverhampton', penn: 'wolverhampton', tettenhall: 'wolverhampton',
+  wednesfield: 'wolverhampton', 'whitmore-reans': 'wolverhampton',
+  // Coventry
+  allesley: 'coventry', 'bell-green': 'coventry', binley: 'coventry', canley: 'coventry', cheylesmore: 'coventry',
+  coundon: 'coventry', earlsdon: 'coventry', foleshill: 'coventry', holbrooks: 'coventry', keresley: 'coventry',
+  longford: 'coventry', radford: 'coventry', 'tile-hill': 'coventry', walsgrave: 'coventry', wyken: 'coventry',
+  bedworth: 'coventry',
+  // Dudley & Stourbridge
+  'brierley-hill': 'dudley', gornal: 'dudley', kingswinford: 'dudley', netherton: 'dudley', pensnett: 'dudley',
+  sedgley: 'dudley', 'quarry-bank': 'dudley', amblecote: 'stourbridge', lye: 'stourbridge',
+  wollaston: 'stourbridge', wordsley: 'stourbridge',
+  // Sandwell
+  blackheath: 'sandwell', 'cradley-heath': 'sandwell', 'great-bridge': 'sandwell', oldbury: 'sandwell',
+  'rowley-regis': 'sandwell', tipton: 'sandwell', tividale: 'sandwell', wednesbury: 'sandwell',
+  // Solihull
+  'balsall-common': 'solihull', bickenhill: 'solihull', 'castle-bromwich': 'solihull', 'chelmsley-wood': 'solihull',
+  dorridge: 'solihull', elmdon: 'solihull', fordbridge: 'solihull', 'hampton-in-arden': 'solihull',
+  'hockley-heath': 'solihull', knowle: 'solihull', 'marston-green': 'solihull', meriden: 'solihull',
+  olton: 'solihull', shirley: 'solihull', silhill: 'solihull', 'smiths-wood': 'solihull',
+  // Sutton Coldfield
+  boldmere: 'sutton-coldfield', 'four-oaks': 'sutton-coldfield', 'mere-green': 'sutton-coldfield',
+  minworth: 'sutton-coldfield', walmley: 'sutton-coldfield', 'wylde-green': 'sutton-coldfield',
+  // Worcestershire & others
+  'droitwich-spa': 'worcester', malvern: 'worcester', evesham: 'worcester', wythall: 'bromsgrove',
+  tamworth: 'lichfield',
+  // Out of area / no local hub
+  derby: 'SERVICE', stoke: 'SERVICE', warwick: 'SERVICE', stratford: 'SERVICE', westmidlands: 'SERVICE',
+};
+
+function keywordMap() {
+  return JSON.parse(readFileSync(join(process.cwd(), 'lib/keyword-redirects.json'), 'utf8'));
+}
+
+function fallbackFor(path) {
+  const area = path.match(/^\/(gutter-cleaning|roof-cleaning)-([a-z0-9-]+)\/$/);
+  if (area) {
+    const [, kind, slug] = area;
+    const parent = PARENT_TOWN[slug] ?? 'birmingham';
+    const generic = kind === 'roof-cleaning' ? '/roof-cleaning/' : '/services/gutter-cleaning/';
+    if (parent === 'SERVICE' || parent === slug) return generic;
+    const hub = `/${kind}-${parent}/`;
+    return isNoindexPolicyPath(hub) ? generic : hub;
+  }
+  if (/^\/gutter-repairs?-/.test(path)) return '/gutter-repairs/';
+  if (/^\/gutter-installation-/.test(path)) return '/services/gutter-installation/';
+  return '/services/gutter-cleaning/';
+}
+
+/** Follow redirect chains and step out of noindex pages, so every 301 lands on one indexable page. */
+function resolveTarget(to, map = keywordMap()) {
+  let t = to;
+  const seen = new Set();
+  for (let i = 0; i < 6 && t !== 'GONE'; i++) {
+    if (seen.has(t)) break;
+    seen.add(t);
+    const slug = t.replace(/^\/|\/$/g, '');
+    const next = map.redirects[slug] ?? map.staticPages[slug];
+    if (next && next !== t) { t = next; continue; }
+    if (t !== '/' && isNoindexPolicyPath(t)) { t = fallbackFor(t); continue; }
+    break;
+  }
+  return t;
+}
+
+/**
+ * Old service-area URLs (gutter-inspection-x, exterior-upvc-cleaning-x, /areas/x …) used to 301
+ * to /gutter-cleaning-x/ even when that page is noindex. For those towns, send them straight to
+ * the indexable parent page instead. Runs before the generic pattern rules.
+ */
+function noindexAreaRedirectRules() {
+  const map = keywordMap();
+  const gutterPrefixes = '(?:gutter-cleaning/|areas/|gutter-inspection-|commercial-gutter-cleaning-|commercial-gutter-clearing-|exterior-upvc-cleaning-|conservatory-cleaning-|conservatory-gutter-cleaning-)';
+  const roofPrefixes = '(?:roof-inspection-|commercial-roof-cleaning-|conservatory-roof-cleaning-)';
+  const lines = [];
+  for (const slug of AREA_POLICY.areaSlugs) {
+    const g = `/gutter-cleaning-${slug}/`;
+    if (isNoindexPolicyPath(g)) lines.push(`  RewriteRule ^${gutterPrefixes}${slug}/?$ ${resolveTarget(g, map)} [R=301,L]`);
+    const r = `/roof-cleaning-${slug}/`;
+    if (isNoindexPolicyPath(r)) lines.push(`  RewriteRule ^${roofPrefixes}${slug}/?$ ${resolveTarget(r, map)} [R=301,L]`);
+  }
+  return lines.join('\n');
+}
 
 /** Day-1 consolidation map (lib/keyword-redirects.json): slug → target path, or GONE (410). */
 function keywordRedirectRules() {
-  const map = JSON.parse(readFileSync(join(process.cwd(), 'lib/keyword-redirects.json'), 'utf8'));
-  const rule = (slug, to) =>
-    to === 'GONE'
+  const map = keywordMap();
+  const rule = (slug, to) => {
+    const target = resolveTarget(to, map);
+    return target === 'GONE'
       ? `  RewriteRule ^${slug}/?$ - [G,L]`
-      : `  RewriteRule ^${slug}/?$ ${to} [R=301,L]`;
+      : `  RewriteRule ^${slug}/?$ ${target} [R=301,L]`;
+  };
   const staticPages = Object.entries(map.staticPages)
     .filter(([slug]) => slug !== 'gutters-cleaning') // already handled in Legacy paths
     .map(([slug, to]) => rule(slug, to));
@@ -31,7 +139,7 @@ function legacyLinkRules() {
     ([from, to]) => `  RewriteRule ^blog/${esc(from)}/?$ /blog/${to}/ [R=301,L]`
   );
   const pathRules = Object.entries(paths).map(
-    ([from, to]) => `  RewriteRule ^${esc(from)}/?$ ${to} [R=301,L]`
+    ([from, to]) => `  RewriteRule ^${esc(from)}/?$ ${resolveTarget(to)} [R=301,L]`
   );
   return [...pathRules, ...blogRules].join('\n');
 }
@@ -39,6 +147,7 @@ function legacyLinkRules() {
 export function generateHostingerHtaccess() {
   const kw = keywordRedirectRules();
   const legacy = legacyLinkRules();
+  const noindexAreas = noindexAreaRedirectRules();
   return `Options -MultiViews -Indexes
 DirectoryIndex index.html
 
@@ -145,6 +254,10 @@ AddDefaultCharset UTF-8
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteRule ^og/[^/]+\\.jpg$ /og/default.jpg [L]
 
+  # Nov 2026: old area URLs for NOINDEX towns go straight to the indexable parent page
+  # (generated from lib/index-policy.cjs — see resolveTarget()).
+${noindexAreas}
+
   # SEO: /gutter-cleaning/{city}/ → /gutter-cleaning-{city}/
   RewriteRule ^gutter-cleaning/([a-zA-Z0-9-]+)/?$ /gutter-cleaning-$1/ [R=301,L]
 
@@ -250,13 +363,14 @@ ${legacy}
   RewriteRule ^gutter-cleaners-birmingham/?$ /gutter-cleaning-birmingham/ [R=301,L]
   RewriteRule ^gutter-clearing-birmingham/?$ /gutter-cleaning-birmingham/ [R=301,L]
   RewriteRule ^home/?$ / [R=301,L]
-  RewriteRule ^blog/roof-moss-removal-kings-norton-b30-birmingham/?$ /roof-cleaning-kings-norton/ [R=301,L]
+  RewriteRule ^blog/roof-moss-removal-kings-norton-b30-birmingham/?$ ${resolveTarget('/roof-cleaning-kings-norton/')} [R=301,L]
 
-  # Ranking consolidation (Oct 2026): thin Birmingham variants → homepage.
-  # /gutter-cleaning-birmingham/ is a real page again (Oct 27 2026) — do NOT redirect it.
-  RewriteRule ^trusted-gutter-cleaners-birmingham/?$ / [R=301,L]
-  RewriteRule ^next-day-gutter-cleaning-birmingham/?$ / [R=301,L]
-  RewriteRule ^autumn-gutter-cleaning-birmingham/?$ / [R=301,L]
+  # Ranking consolidation: thin Birmingham variants → /gutter-cleaning-birmingham/ (Nov 9 2026;
+  # previously → homepage, which made the homepage compete for "gutter cleaning birmingham").
+  # /gutter-cleaning-birmingham/ is a real page — do NOT redirect it.
+  RewriteRule ^trusted-gutter-cleaners-birmingham/?$ /gutter-cleaning-birmingham/ [R=301,L]
+  RewriteRule ^next-day-gutter-cleaning-birmingham/?$ /gutter-cleaning-birmingham/ [R=301,L]
+  RewriteRule ^autumn-gutter-cleaning-birmingham/?$ /gutter-cleaning-birmingham/ [R=301,L]
   RewriteRule ^residential-gutter-cleaning/?$ / [R=301,L]
   # Blog posts outranking their own service pages → merge into the service page
   RewriteRule ^blog/gutter-cleaning-walsall/?$ /gutter-cleaning-walsall/ [R=301,L]

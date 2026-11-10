@@ -773,7 +773,7 @@ export const servicesData: ServiceDetail[] = [
       {
         title: 'Why Choose WOW Gutters Ltd for Commercial Gutter Cleaning?',
         content:
-          'WOW Gutters Ltd delivers commercial gutter cleaning that fits around your operations — not the other way around. We clear gutters on warehouses, offices, schools, and retail parks using ground-level vacuum systems and safe access methods where height requires it. Every visit includes downpipe testing, defect notes, and before and after photos for your maintenance records.',
+          'WOW Gutters Ltd delivers commercial gutter cleaning that fits around your operations — not the other way around. We clear gutters on warehouses, offices, schools, and retail parks using ground-level vacuum systems and safe access methods where height requires it. Every visit includes downpipe testing, defect notes, and before and after photos for your maintenance records. If moss on the roof keeps refilling your gutters, our commercial roof cleaning service can treat the roof on the same visit.',
         image: '/files/17_aerial_warehouse_roof_overview.webp',
         imagePosition: 'right',
         bulletPoints: [
@@ -867,36 +867,53 @@ export const servicesData: ServiceDetail[] = [
     icon: '🏢',
     heroImage: '/roof-cleaning.JPG',
     heroVideo: '/roof-cleaning-video.mp4',
-    heroTitle: 'Commercial Roof Cleaning',
+    heroTitle: 'Commercial & Industrial Roof Cleaning',
     heroDescription:
-      'Commercial roof cleaning and moss removal for warehouses, offices, and industrial buildings across Birmingham and the West Midlands. Low-pressure soft wash methods, biocide treatment, maintenance contracts, and fully insured teams.',
+      'Moss, algae and lichen removed from warehouse, factory, office, school and retail roofs across Birmingham and the West Midlands. Low-pressure soft wash, biocide treatment, RAMS before we start and a photo report when we finish — fully insured.',
     sections: [
       {
-        title: 'Why Choose WOW Gutters Ltd for Commercial Roof Cleaning?',
+        title: 'Why Facilities Teams Choose WOW Gutters Ltd',
         content:
-          'WOW Gutters Ltd treats commercial roof cleaning as asset protection — not aggressive jet washing that damages membranes, dislodges fixings, or forces water into the building. We remove moss and algae carefully, apply treatment to slow regrowth, and coordinate with gutter clearing so debris does not block drainage straight after the roof is treated.',
+          'Commercial roofs are expensive to repair and awkward to reach, so the cleaning has to protect the roof as well as make it look better. We never jet-wash roof sheets, membranes or tiles — high pressure strips coatings, lifts fixings and drives water into the building. Instead we use a low-pressure soft wash and, where it suits the material, a biocide that keeps killing moss and algae for months after the visit. You get one contact from survey to sign-off, a written scope and price before we start, and a photo report you can file for insurers, landlords or tenants.',
         image: '/files/18_aerial_moss_patches_roof.webp',
+        imageAlt: 'Aerial view of moss patches spreading across a roof',
         imagePosition: 'right',
         bulletPoints: [
-          'Soft-wash commercial roof cleaning — suited to UK warehouse and office roofs',
-          'Moss, algae, and lichen treatment on pitched and flat roofs',
-          'Biocide application to help slow regrowth on large roof areas',
-          'Maintenance contracts for estates and multi-building portfolios',
-          'Fully insured',
-          'Coordinated gutter clearing after roof moss removal',
+          'Low-pressure soft wash — no jet washing on sheets, membranes or tiles',
+          'Biocide treatment to slow moss and algae regrowth',
+          'Risk assessment and method statement (RAMS) sent before work starts',
+          'Fully insured — certificate available on request',
+          'Roof and gutters cleaned in the same visit if you want both',
+          'Before & after photo report for your maintenance records',
         ],
       },
       {
-        title: 'What We Treat',
+        title: 'Commercial Buildings We Clean',
         content:
-          'Our commercial roof cleaning service covers the main roof surfaces and problem areas that cause moss buildup, blocked gutters, and staining on typical UK commercial buildings.',
+          'Every type of building has its own access rules, opening hours and roof materials. We plan the job around how your site actually runs, so work fits around deliveries, pupils, customers or residents.',
         bulletPoints: [
-          'Warehouse and industrial corrugated and profiled roofs',
-          'Office and retail unit pitched tile and membrane roofs',
-          'Moss and algae on large flat roof sections where agreed',
-          'North-facing and shaded elevations with heavy organic growth',
-          'Roof edges where moss sheds into commercial gutter runs',
-          'Cladding and fascia interfaces below moss-heavy rooflines',
+          'Warehouses and distribution units — large profiled-sheet roofs, roof lights and long valley gutters',
+          'Factories and workshops — fibre cement and metal roofs on industrial estates, worked around shifts',
+          'Offices and business parks — pitched tile and flat membrane roofs, often out of hours',
+          'Retail parks and high-street shops — canopies, flat roofs and parapet gutters, before or after trading',
+          'Schools, colleges and nurseries — booked in half-terms and holidays when the site is quiet',
+          'Churches and community halls — older slate and clay roofs that need a gentle hand',
+          'Care homes and surgeries — quiet working, clear exclusion zones and no blocked fire exits',
+          'Blocks of flats and HMOs — for managing agents, freeholders and residents’ associations',
+          'Pubs, hotels and restaurants — cleaned early in the day so you can open as normal',
+        ],
+      },
+      {
+        title: 'Roof Types and How We Treat Them',
+        content:
+          'The right method depends on what the roof is made of. We confirm the roof type at survey and tell you exactly how we will clean it before you agree the price.',
+        bulletPoints: [
+          'Profiled metal sheet — soft wash and hand removal of moss along laps and fixings, no pressure on coatings',
+          'Fibre cement sheet — older sheets can contain asbestos, so we check your asbestos register first and never scrape or pressure-wash them',
+          'Clay, concrete tile and slate — moss lifted by hand and soft wash, then biocide to slow regrowth',
+          'Felt and single-ply membrane flat roofs — gentle brushing and low-pressure rinse, keeping seams and outlets clear',
+          'Roof lights and glazing — cleaned with care to restore light into the building',
+          'Valley, box and parapet gutters — cleared as part of the job, because moss from the roof ends up there',
         ],
       },
       {
@@ -913,6 +930,70 @@ export const servicesData: ServiceDetail[] = [
         ],
       },
       {
+        title: 'Our Method Statement — Step by Step',
+        content:
+          'This is how a typical commercial roof clean runs. The full method statement for your site is written after the survey and sent to you with the risk assessment before any work starts.',
+        image: '/jobs/roof-cleaning-cherry-picker-semi-detached.webp',
+        imageAlt: 'WOW Gutters operative cleaning a roof from a cherry picker platform',
+        imagePosition: 'left',
+        bulletPoints: [
+          '1. Enquiry — send photos, the site address and roof size if you know it',
+          '2. Site survey — we check roof type, condition, access, fragile areas and any asbestos register',
+          '3. RAMS and quote — written scope, risk assessment, method statement and fixed price sent to you',
+          '4. Access plan — ground-based poles where possible, a cherry picker (MEWP) for higher roofs, and roof access only where it is safe',
+          '5. Site set-up — barriers and signs around the work area, pedestrian routes and vehicles kept clear',
+          '6. Cleaning — moss lifted by hand and soft wash, debris bagged, roof surfaces rinsed at low pressure',
+          '7. Treatment and gutters — biocide applied where suitable, then gutters and outlets cleared so debris does not stay on site',
+          '8. Sign-off — before & after photos, notes on any defects we found, and a suggested maintenance interval',
+        ],
+      },
+      {
+        title: 'Safety, Insurance and Paperwork',
+        content:
+          'Facilities managers, schools and managing agents need the paperwork as much as the clean. We send it before we arrive, so your approval process is not held up.',
+        bulletPoints: [
+          'Fully insured, with an insurance certificate sent on request',
+          'Site-specific risk assessment and method statement (RAMS) before every job',
+          'Clear exclusion zones, barriers and signage while we work',
+          'We follow your site rules — signing in, permits to work, PPE and parking',
+          'Fragile roofs and roof lights identified at survey and kept off-limits',
+          'All moss and debris removed from site — nothing left in your yard or bins',
+        ],
+      },
+      {
+        title: 'Working Around Your Business',
+        content:
+          'A roof clean should not stop your business. We agree the timing with you first and keep noise, vehicles and access restrictions to a minimum.',
+        bulletPoints: [
+          'Early starts, evenings and weekends available for shops, offices and hospitality',
+          'School and college work booked in half-terms and holidays',
+          'Large roofs split into phases so loading bays and entrances stay open',
+          'One named contact for your facilities team from survey to sign-off',
+        ],
+      },
+      {
+        title: 'Typical Commercial Roof Jobs',
+        content:
+          'These are the kinds of commercial roof jobs we are asked to quote for most often, and how we approach each one.',
+        bulletPoints: [
+          'Warehouse with blocked valley gutters — moss from the roof sheets keeps refilling the valleys, so we treat the roof and clear the valleys in one visit',
+          'Retail unit with stained cladding — water overflowing from a moss-choked gutter streaks the frontage; roof clean, gutter clear and cladding wash together',
+          'School before an inspection — moss and algae on low pitched roofs cleaned during the holidays, with a photo report for the governors',
+          'Block of flats for a managing agent — roof and gutters cleaned on a yearly schedule, with photos for the freeholder and residents',
+        ],
+      },
+      {
+        title: 'Planned Maintenance for Estates and Portfolios',
+        content:
+          'If you look after several buildings, a planned programme is cheaper and easier than call-outs. We agree a schedule for roof treatment and gutter clearing across your sites and report on each visit.',
+        bulletPoints: [
+          'Annual or twice-yearly roof treatment, matched to how fast moss returns',
+          'Gutter clearing scheduled after leaf fall for every building in the programme',
+          'One quote and one invoice format across multiple sites',
+          'Photo report per building, ready for audits and insurers',
+        ],
+      },
+      {
         title: "What's Included in Every Commercial Roof Clean",
         content:
           'Every commercial roof cleaning visit starts with a sensible assessment of access, roof type, and coverage. We explain the method, agree scope and price, and leave the roof treated — with documentation for your records.',
@@ -921,32 +1002,20 @@ export const servicesData: ServiceDetail[] = [
           'Low-pressure soft wash to lift moss and organic growth',
           'Careful clearance of loosened debris from the roof surface',
           'Biocide treatment where appropriate for longer-lasting results',
-          'Advice on gutter clearing if moss debris is entering channels',
-          'Before and after photos on request for maintenance files',
-        ],
-      },
-      {
-        title: 'Our Commercial Roof Cleaning Process',
-        content:
-          'We match the method to your roof type, building use, and access constraints. The goal is a cleaner, healthier roof surface without unnecessary downtime or damage risk.',
-        bulletPoints: [
-          'Assess roof type, pitch, access, and moss coverage',
-          'Agree timing, safety plan, and any operational restrictions',
-          'Set up safe access and protect yards, plant, and pedestrian routes',
-          'Apply soft wash solution and remove loosened moss evenly',
-          'Apply biocide treatment where agreed for slower regrowth',
-          'Coordinate gutter clearing on the same visit where scheduled',
+          'Gutter and outlet clearing so moss debris does not block channels',
+          'Before and after photos for your maintenance files',
         ],
       },
       {
         title: 'Commercial Roof Cleaning & Related Services',
         content:
-          'Roof moss is one of the main reasons commercial gutters block again soon after clearing. WOW Gutters Ltd can treat the roof and clear the gutters in one visit — plus fascia cleaning, inspections, and repairs where needed.',
+          'Roof moss is one of the main reasons commercial gutters block again soon after clearing. WOW Gutters Ltd can treat the roof and clear the gutters in one visit — plus fascia cleaning, inspections, and repairs — so your building is covered by one team.',
         image: '/roof-cleaning-before-after.jpeg',
-        imagePosition: 'left',
+        imageAlt: 'Roof before and after moss removal and cleaning',
+        imagePosition: 'right',
         bulletPoints: [
           'Commercial gutter cleaning — clear moss and silt after roof treatment',
-          'Residential roof cleaning — for mixed portfolios and housing stock',
+          'Gutter cleaning contracts — scheduled visits for multi-site estates',
           'Gutter inspection — check drainage once moss is removed',
           'Gutter repairs — fix outlets and joints found during roofline work',
           'Exterior UPVC cleaning — fascias and cladding below the roof edge',
@@ -955,9 +1024,9 @@ export const servicesData: ServiceDetail[] = [
       },
     ],
     ctaSection: {
-      title: 'Request Your Commercial Roof Quote',
+      title: 'Request a Free Commercial Roof Survey',
       description:
-        'Free site evaluation and clear pricing for commercial roof cleaning and maintenance programmes. Call 07421 433910 or request a quote online.',
+        'Send us the site address and a few photos, and we will arrange a survey, then send your RAMS and a fixed quote. Call 07421 433910 or request a quote online.',
       phone: '07421 433910',
       buttonText: 'Get A Free Quote',
     },

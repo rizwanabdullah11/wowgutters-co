@@ -12,6 +12,8 @@ import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import LocalBoostSection from '@/components/areas/LocalBoostSection';
 import { withLocalBoostFaqs } from '@/lib/localBoostContent';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
+import BirminghamHubLink from '@/components/seo/BirminghamHubLink';
+import { dropBirminghamSuffix } from '@/lib/birminghamFocus';
 import { gutterPriceSentence, localiseFaqs, localiseGuarantees, roofPriceSentence, whatsappLine } from '@/lib/localVariants';
 
 
@@ -100,8 +102,8 @@ export default function SuburbGutterCleaningPage({
           </div>
 
           <h1 className="hero-title animate-fade-in-up delay-100">
-            <span className="title-line">{data.heroTitleLine1}</span>
-            <br />
+            <span className="title-line">{dropBirminghamSuffix(data.heroTitleLine1)}</span>
+            {' '}<br />
             <span className="title-accent" style={{ color: colors.primary }}>
               {data.heroTitleLine2}
             </span>
@@ -142,6 +144,7 @@ export default function SuburbGutterCleaningPage({
 
       {/* Reviews straight after the hero, like the homepage (Nov 2026) */}
       <GoogleReviewsBlock city={data.city} className="bg-white" />
+      {serviceKind === 'gutter' ? <BirminghamHubLink place={data.city} /> : null}
 
       {/* SECTION 1 — WHY */}
       <section className="py-16 md:py-20 px-4 bg-white border-b border-slate-100">

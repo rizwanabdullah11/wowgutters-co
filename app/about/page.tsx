@@ -78,7 +78,7 @@ export default function About() {
           <h1 className="hero-title animate-fade-in-up delay-100">
             <span className="title-prefix">About</span>{' '}
             <span className="title-service" style={{ color: colors.primary }}>WOW Gutters Ltd</span>
-            <br />
+            {' '}<br />
             <span className="title-secondary">Trusted Gutter Cleaning & Roofline Specialists</span>
           </h1>
 

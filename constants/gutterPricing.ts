@@ -17,12 +17,19 @@ export function formatGbp(amount: number): string {
   return `£${amount}`;
 }
 
-/** Standard gutter clean by bedroom count. */
+/**
+ * Standard gutter clean by bedroom count. Nov 2026 (owner request): there are no separate
+ * 4-bed / 5-bed prices — homes with 4+ bedrooms go on the Premium Service ("from £200").
+ */
 export function priceForBedrooms(bedrooms: number): number {
-  if (bedrooms <= 1) return GUTTER_PRICING.twoBedroom;
-  if (bedrooms === 2) return GUTTER_PRICING.twoBedroom;
+  if (bedrooms <= 2) return GUTTER_PRICING.twoBedroom;
   if (bedrooms === 3) return GUTTER_PRICING.threeBedroom;
-  return GUTTER_PRICING.threeBedroom + (bedrooms - 3) * 10;
+  return GUTTER_PRICING.premium;
+}
+
+/** True when the bedroom count falls on the Premium Service (price shown as "from"). */
+export function isPremiumBedrooms(bedrooms: number): boolean {
+  return bedrooms >= 4;
 }
 
 export const GUTTER_PRICING_PACKAGES = [

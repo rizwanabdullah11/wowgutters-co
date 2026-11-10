@@ -43,6 +43,16 @@ export type CityGutterLandingData = {
   priceTo?: number;
   /** Location-specific paragraph (audit 08.03 — unique body copy per area page) */
   localSpotlight?: string;
+  /** Optional per-town wording so template sections are not identical on every town page (Nov 2026). */
+  heroBadge?: string;
+  standardsTitle?: string;
+  spotlightTitle?: string;
+  /** Replaces the stock price sentence + "fixed price" line. Must use official prices only. */
+  priceIntro?: string;
+  whatsappIntro?: string;
+  faqIntro?: string;
+  /** Use the hand-written `faqs` above instead of the shared primary-city FAQ template. */
+  useOwnFaqs?: boolean;
 };
 
 export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
@@ -133,86 +143,98 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   walsall: {
     slug: 'walsall',
     city: 'Walsall',
-    titleTag: 'Gutter Cleaning Walsall | No Ladders, From £100 | WOW Gutters',
-    metaDescription: 'Gutter cleaning in Walsall from the ground with high-reach vacuums. Before & after photos on every job, fully insured. Free quote: 07421 433910.',
-    h1: 'Gutter Cleaning Walsall — Reliable Service Across WS1-WS9',
+    titleTag: 'Gutter Cleaning Walsall | From £100 | No Ladders',
+    metaDescription:
+      'Gutter cleaning across Walsall — Caldmore terraces, Park Hall semis, Streetly and Aldridge detached homes. From £100, cleared from the ground, photos on every job. 07421 433910.',
+    h1: 'Gutter Cleaning Walsall — From Caldmore Terraces to Streetly Detached Homes',
     heroIntro:
-      "Walsall is the heart of the Black Country \u2014 a former industrial powerhouse now home to a diverse mix of Victorian terraces, 1930s semis and post-war housing estates. The elevated ground around Walsall town centre and the residential streets of Streetly, Aldridge and Brownhills to the north sit on the edge of Cannock Chase, meaning these areas experience above-average wind exposure and leaf fall from adjacent countryside. Properties near Walsall Arboretum and along the canal network benefit from our annual clean service. The Walsall FC stadium area on Bescot is surrounded by terraced housing that needs regular gutter maintenance.",
-    whyTitle: 'Why Walsall Homeowners Need Regular Gutter Cleaning',
+      'Walsall housing changes a lot from one side of the borough to the other: tight Victorian rows in Caldmore and Palfrey, interwar semis around Park Hall, and big detached homes on the Sutton Park side of Streetly. We clear all of them from the pavement or drive, with no ladder against your wall.',
+    whyTitle: 'What Fills Walsall Gutters — Street by Street',
     whyBody: [
-      'Walsall sits at the northern edge of the West Midlands conurbation, where the urban environment meets the greener landscapes of Cannock Chase and Sutton Park. This proximity to open green space means many Walsall properties \u2014 particularly in Aldridge, Streetly and Great Barr \u2014 are surrounded by mature trees that shed significant volumes of leaves each autumn.',
-      'The town also has a high proportion of 1930s\u201C1960s semi-detached properties, many with their original or early-replacement uPVC guttering. Older gutter systems develop sagging sections and leaking joints over time, particularly when the weight of accumulated debris is left unmanaged. Our post-clean condition report will tell you honestly if any sections need attention.',
+      'In the older streets around the town centre — Caldmore, Palfrey, Chuckery and the roads off Lichfield Street — most houses are Victorian or Edwardian terraces with slate roofs and cast iron or early plastic gutters. The fronts are close to the pavement and the backs open onto narrow entries, so a vacuum that works from street level saves a lot of hassle. The usual problem here is not leaves but roof moss and grit from old slates, which settles as a thick sludge and blocks the outlets.',
+      'Further out, trees are the issue. Homes around the Arboretum, the edge of Sutton Park in Streetly, Pelsall Common and Barr Beacon catch heavy leaf fall from October onwards, and the larger detached houses in Aldridge and Streetly often have long runs over garages, porches and conservatories. When these overflow you get green streaks down the render and puddles along the patio — usually the first sign people notice.',
+      'Across Bloxwich, Beechdale, Willenhall and Darlaston there are many 1950s–70s homes with uPVC gutters that are now 30 to 40 years old. The brackets loosen, the joints start to drip and the runs sag in the middle, so water sits in the low point and fills with silt. We clear the run, flush the downpipes and send photos that show exactly where any joint or bracket needs attention.',
     ],
     guarantees: [
-      'Ground-level vacuum system \u2014 no ladders placed against your property',
-      'Reaches up to 4 storeys \u2014 homes, flats and commercial buildings',
-      'Before & after photos included as standard on every job',
-      
-      'Fully insured \u2014 comprehensive public liability cover on every visit',
-      '4.9? rating from verified Google reviews',
+      'Terraces cleared from the pavement — nothing propped against your brickwork',
+      'Long runs over garages and conservatories reached from the drive',
+      'Every downpipe flushed, so water runs freely before we leave',
+      'Photos of each gutter run, sent to your phone on the day',
+      'Insured, and the price agreed before we start',
     ],
-    propertyTypesTitle: 'Gutter Cleaning for All Property Types in Walsall',
+    propertyTypesTitle: 'Walsall Homes We Clean Most Often',
     propertyTypes: [
       {
-        label: 'Victorian terraces (Bloxwich, Palfrey)',
-        detail: 'Dense housing with back-to-back gutters. Quick access, efficient clean, no disruption to neighbours.',
+        label: 'Victorian terraces (Caldmore, Palfrey, Chuckery)',
+        detail: 'Slate roofs shedding moss and grit into narrow gutters. Cleared from the front, with rear runs reached over the roof where possible.',
       },
       {
-        label: '1930s semis (Streetly, Aldridge)',
-        detail: 'Classic uPVC gutter runs. Moss and leaf build-up cleared thoroughly with our vacuum system.',
+        label: 'Interwar semis (Park Hall, Rushall, Lichfield Road)',
+        detail: 'Bay fronts and hipped roofs with gutters on three sides. We clear the full run, including the bay roof that often gets missed.',
       },
       {
-        label: 'Post-war council estates (Blakenall, Leamore)',
-        detail: 'Standard uPVC systems. Annual clean prevents overflow and damp issues.',
+        label: 'Post-war and 1970s homes (Bloxwich, Beechdale, Willenhall)',
+        detail: 'Ageing uPVC with tired brackets. Your photos show any sagging sections or dripping joints so you can decide on repairs.',
       },
       {
-        label: 'Detached homes (Aldridge, Streetly)',
-        detail: 'Larger properties close to Cannock Chase \u2014 heavy leaf fall in autumn. Our 4-storey reach handles all sections.',
+        label: 'Detached family homes (Streetly, Aldridge, Pelsall)',
+        detail: 'Big gardens and mature trees near Sutton Park and Pelsall Common. An autumn clean after the leaves drop works best.',
+      },
+      {
+        label: 'Flats and shops (Park Street, Bridge Street, Bloxwich High Street)',
+        detail: 'Two and three-storey buildings cleared from street level, ideal for managing agents and landlords.',
       },
     ],
-    areasTitle: 'Areas We Cover Around Walsall',
+    areasTitle: 'Where We Work in Walsall',
     areasInline:
-      'Bloxwich, Willenhall, Brownhills, Aldridge | Streetly, Bentley, Rushall, Pelsall | Shelfield, Leamore, Blakenall Heath, Birchills | Palfrey | Nearby: Wolverhampton, Dudley, West Bromwich, Birmingham',
-    faqsTitle: 'FAQs \u2014 Gutter Cleaning Walsall',
+      'WS1–WS2: Town centre, Caldmore, Palfrey, Chuckery, Birchills | WS3: Bloxwich, Blakenall, Pelsall | WS4–WS5: Rushall, Park Hall, Shelfield | WS8–WS9: Brownhills, Aldridge, Streetly | WS10 & WV12–WV13: Darlaston, Willenhall',
+    faqsTitle: 'Walsall Gutter Cleaning — Common Questions',
+    faqIntro: 'What Walsall customers usually ask before they book.',
+    useOwnFaqs: true,
     faqs: [
       {
-        question: 'How much does gutter cleaning cost in Walsall?',
-        answer:
-          'WOW Gutters Ltd provides fixed quotes for all properties across WS1\u2013WS9. Get yours online at wowgutters.co.uk or call 07421 433910. No hidden fees.',
+        question: 'What will gutter cleaning cost for my Walsall house?',
+        answer: 'A 2-bed terrace or semi is £100 and a 3-bed is £110, for the front and back gutters, downpipe flushing and photos. Larger detached homes in Streetly and Aldridge go on our Premium Service from £200. You get the price before we book.',
       },
       {
-        question: 'Do you cover Bloxwich, Aldridge and Brownhills?',
-        answer:
-          'Yes \u2014 all of Walsall borough including Bloxwich, Aldridge, Willenhall, Darlaston, Caldmore, Streetly, Brownhills, Pelsall and all surrounding postcodes.',
+        question: 'Do you cover Willenhall and Darlaston as well as Walsall town?',
+        answer: 'Yes. We work across the whole borough — Caldmore, Bloxwich, Pelsall, Brownhills, Aldridge, Streetly, Rushall, Willenhall and Darlaston — at the same fixed prices.',
       },
       {
-        question: 'Is there a gutter cleaning service near me in Walsall?',
-        answer:
-          'Yes \u2014 we cover all WS postcodes including WS1\u2013WS9. Same-day availability in many areas \u2014 call 07421 433910 to check.',
+        question: 'My terrace in Caldmore has no rear access. Can you still clean the back?',
+        answer: 'On most two-storey terraces, yes. Our vacuum poles reach over the roof from the front. If the back gutter cannot be reached safely, we tell you before we start and only charge for what we clean.',
       },
       {
-        question: 'How often should Walsall gutters be cleaned?',
-        answer:
-          'Once or twice a year is right for most properties. Those near Cannock Chase or with heavy tree coverage benefit from both an autumn and a spring clean.',
+        question: 'Why is there green staining down my render?',
+        answer: 'That is usually water spilling over a blocked or sagging gutter in the same spot every time it rains. Clearing the gutter stops it getting worse; the stain itself can be removed with our fascia and soffit clean.',
       },
       {
-        question: 'Can you provide a regular maintenance schedule?',
-        answer:
-          'Yes. We offer annual or bi-annual maintenance plans for homeowners and landlords across Walsall.',
+        question: 'When is the best time to book in Streetly or Aldridge?',
+        answer: 'Late November or early December, once most leaves near Sutton Park and Barr Beacon have fallen. If you book earlier, you may want a second visit in spring.',
+      },
+      {
+        question: 'Can you repair the joints and brackets as well?',
+        answer: 'Yes. Dripping joints, loose brackets and split lengths of gutter can all be fixed. We price the repair separately and only go ahead if you are happy.',
       },
     ],
-    geo: { latitude: 52.5855, longitude: -1.9824 },
+    geo: { latitude: 52.5862, longitude: -1.9829 },
     internalLinks: [
-      { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
       { label: 'Gutter cleaning Wolverhampton', href: '/gutter-cleaning-wolverhampton/' },
-      { label: 'Gutter cleaning Dudley', href: '/gutter-cleaning-dudley/' },
-      { label: 'Roof cleaning Walsall', href: '/help/clean/' },
-      { label: 'Professional gutter cleaning', href: '/help/unblock/' },
+      { label: 'Gutter cleaning Sutton Coldfield', href: '/gutter-cleaning-sutton-coldfield/' },
+      { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
+      { label: 'Gutter repairs', href: '/gutter-repairs/' },
+      { label: 'Gutter cleaning prices', href: '/gutter-cleaning-prices/' },
     ],
-    ctaHeading: 'Book Your Gutter Clean in Walsall \u2014 Free Quote in 60 Seconds',
-    priceTo: 130,
-    nearbyAreas: ['Bloxwich', 'Willenhall', 'Brownhills', 'Aldridge', 'Streetly', 'Bentley'],
-    postcodes: ['WS1', 'WS2', 'WS3', 'WS4', 'WS5', 'WS7', 'WS8', 'WS9'],
+    ctaHeading: 'Get Your Walsall Gutters Cleared — Price Before You Book',
+    nearbyAreas: ['Caldmore', 'Palfrey', 'Bloxwich', 'Pelsall', 'Brownhills', 'Aldridge', 'Streetly', 'Rushall', 'Willenhall', 'Darlaston'],
+    postcodes: ['WS1', 'WS2', 'WS3', 'WS4', 'WS5', 'WS8', 'WS9', 'WS10'],
+    localSpotlight:
+      'Typical Walsall jobs: clearing moss sludge from slate-roofed terraces in Caldmore and Palfrey, leaf clears on detached homes backing onto Sutton Park in Streetly, and yearly visits to 1970s homes in Bloxwich where old uPVC runs have started to sag.',
+    heroBadge: 'Walsall, Willenhall & Aldridge • Fixed prices',
+    standardsTitle: 'How We Work on Walsall Homes',
+    spotlightTitle: 'Recent Work Around Walsall',
+    priceIntro: 'Walsall prices are the same across the borough: £100 for a 2-bed home and £110 for a 3-bed, with downpipe flushing and photos included. Large detached homes and awkward rooflines go on our Premium Service from £200. No call-out fee.',
+    whatsappIntro: 'In Walsall? Send a WhatsApp with your road and a photo of the gutter — we will reply with the price and the next day we are in your part of the borough.',
   },
 
   dudley: {
@@ -386,90 +408,95 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   worcester: {
     slug: 'worcester',
     city: 'Worcester',
-    titleTag: 'Gutter Cleaning Worcester | WOW Gutters Ltd',
+    titleTag: 'Gutter Cleaning Worcester | From £100 | WOW Gutters Ltd',
     metaDescription:
-      'Professional gutter cleaning in Worcester from £100. Ground-level vacuum system, before & after photos, fully insured. Call WOW Gutters Ltd: 07421 433910.',
-    h1: 'Gutter Cleaning Worcester — Professional Service Across WR1-WR14',
+      'Gutter cleaning and guttering repairs in Worcester (WR1–WR5) from £100. Cleared from the ground with a 4-storey vacuum, downpipes flushed, before & after photos. Call 07421 433910.',
+    h1: 'Gutter Cleaning Worcester — Covering Every WR1–WR5 Postcode',
     heroIntro:
-      "Worcester is one of England's great cathedral cities, sitting on the River Severn in the heart of Worcestershire. The city combines a medieval and Georgian core with extensive Victorian and Edwardian suburbs along the London Road and Sidbury corridors, and more modern residential development in Warndon Villages and St John's. Properties near the river are particularly susceptible to moisture and require well-maintained guttering to prevent additional damp. The mature elms and oaks of Worcester's parks and residential streets shed significant leaf debris each autumn \u2014 particularly around Rainbow Hill and St John's.",
-    whyTitle: 'Why Worcester Gutters Need Regular Attention',
+      'From Georgian townhouses near the Cathedral to family homes in Warndon Villages, we clear Worcester gutters from the ground with a high-reach vacuum. Downpipes are flushed, every job is photographed, and the price is fixed before we start.',
+    whyTitle: 'Why Gutters Block So Quickly in Worcester',
     whyBody: [
-      'Worcester sits in the Severn Valley and is one of the wettest cities in the English Midlands \u2014 the River Severn regularly floods its banks, and the surrounding landscape channels rainfall into the city from the Malvern Hills and Worcestershire countryside. This consistent damp climate makes gutters in Worcester highly susceptible to moss and algae growth, which narrows gutter channels and accelerates blockage even when leaf fall is minimal.',
-      "The city also has a significant number of period properties \u2014 Georgian townhouses in the Cathedral Quarter, Edwardian semis in St John's and Claines, and Victorian terraces throughout the inner suburbs \u2014 many of which have guttering that is rarely inspected and even more rarely cleaned. These older systems are at greatest risk of joint failure and overflow damage, and benefit most from professional annual maintenance.",
+      'Worcester grew up along the River Severn, and that shapes how its gutters behave. Mist rising off the river and the flood meadows at Pitchcroft keeps roofs damp for longer after rain, so moss spreads across tiles and slides into the gutters below. On streets close to the river — Henwick Road, Severn Street, the Diglis Basin flats — we often find gutters lined with moss and silt rather than leaves.',
+      'Away from the river the problem is trees. Gheluvelt Park, Fort Royal Park, Cripplegate Park and the long avenues of Barbourne and Battenhall drop heavy leaf fall from October to December, and older London Road and Bath Road houses still carry original cast iron gutters with narrow outlets that choke easily. When those outlets block, water runs behind the fascia and down the brickwork — the damp patches and green stains many Worcester homeowners first notice inside.',
+      'We clear gutters without ladders or scaffolding using a vacuum that reaches up to four storeys from the ground, which suits the tall terraces of The Tything and Sidbury and the three-storey town houses in St Peter’s. Every downpipe is flushed and tested, and you receive before & after photos of each section so you can see the result yourself.',
     ],
     guarantees: [
-      'Ground-level vacuum system \u2014 no ladders placed against your property',
-      'Reaches up to 4 storeys \u2014 homes, flats and commercial buildings',
-      'Before & after photos included as standard on every job',
-      
-      'Fully insured \u2014 comprehensive public liability cover on every visit',
-      '4.9? rating from verified Google reviews',
+      'Cleared with a ground-based vacuum — no ladder ever rests on your guttering',
+      'Reaches up to 4 storeys — terraces, townhouses, flats and commercial buildings',
+      'Before & after photos of every gutter run, sent to you on the day',
+      'Downpipes flushed and tested before we leave',
+      'Fully insured — public liability cover on every visit',
+      'Fixed price agreed before any work starts — no call-out fee',
     ],
-    propertyTypesTitle: 'Gutter Cleaning for All Property Types in Worcester',
+    propertyTypesTitle: 'Worcester Homes We Clean — and What We Usually Find',
     propertyTypes: [
       {
-        label: 'Victorian terraces (Barbourne, Rainbow Hill)',
-        detail: 'Older guttering, often original cast iron or early replacement. We clean carefully, preserving period features.',
+        label: 'Georgian & Regency townhouses (WR1 — The Tything, Britannia Square, Sidbury)',
+        detail: 'Three and four storeys with parapets and hidden valley gutters. Our vacuum reaches the top run from the pavement, so no scaffold is needed for a routine clean.',
       },
       {
-        label: 'Georgian townhouses (city centre)',
-        detail: 'Period properties with complex rooflines. We use specialist equipment to protect original brickwork.',
+        label: 'Victorian & Edwardian terraces (WR3 Barbourne, WR4 Rainbow Hill, WR5 Lark Hill)',
+        detail: 'Many still have cast iron or ogee gutters with small outlets. We clear them gently and point out rusted brackets or leaking joints in the photos.',
       },
       {
-        label: '1930s semis (St John\u2019s, Warndon)',
-        detail: 'Solid housing stock with mature garden trees. Leaf fall is significant \u2014 autumn clean is essential.',
+        label: 'Interwar & post-war semis (WR2 St John’s, Dines Green, WR4 Ronkswood)',
+        detail: 'Large gardens with mature trees mean heavy autumn leaf fall. An October or November clean usually stops winter overflows.',
       },
       {
-        label: 'Modern estates (Warndon Villages)',
-        detail: 'Newer properties with standard uPVC guttering. Annual clean prevents moss build-up.',
+        label: 'Modern estates (WR4 Warndon Villages, WR5 St Peter’s, WR2 Lower Wick)',
+        detail: 'uPVC guttering with shallow pitches where silt and moss settle. A yearly clean keeps water flowing and protects the fascias.',
       },
       {
-        label: 'Riverside properties (River Severn)',
-        detail: 'Properties near the river are susceptible to moisture. Well-maintained guttering prevents additional damp.',
+        label: 'Riverside flats & conversions (Diglis, Severn Street, Henwick Road)',
+        detail: 'Damp air from the Severn speeds up moss growth. We clear communal gutters for managing agents and residents’ associations, with photo reports for your records.',
       },
     ],
-    areasTitle: 'Areas We Cover Around Worcester',
+    areasTitle: 'Worcester Areas We Cover',
     areasInline:
-      "St John\u2019s, Rainbow Hill, Warndon, Warndon Villages | Barbourne, Claines, Rushwick, Brickfields | Ronkswood, Dines Green, Henwick, Battenhall, Nunnery Wood | Nearby: Malvern, Droitwich, Pershore, Bromsgrove",
-    faqsTitle: 'FAQs \u2014 Gutter Cleaning Worcester',
+      'WR1: City Centre, The Tything, Sidbury, Britannia Square | WR2: St John’s, Lower Wick, Dines Green, Henwick | WR3: Barbourne, Claines, Northwick, Fernhill Heath | WR4: Warndon, Warndon Villages, Ronkswood, Rainbow Hill, Blackpole | WR5: St Peter’s, Battenhall, Red Hill, Diglis, Lark Hill',
+    faqsTitle: 'Worcester Gutter Cleaning — Questions & Answers',
     faqs: [
       {
-        question: 'How much does gutter cleaning cost in Worcester?',
-        answer: 'WOW Gutters Ltd provides fixed quotes for all properties across WR1\u2013WR5. Get yours online at wowgutters.co.uk or call 07421 433910. No hidden fees.',
+        question: 'What does a Worcester gutter clean cost?',
+        answer: 'Gutter cleaning in Worcester starts from £100 for a terraced home. You get a fixed price before we arrive, with downpipe flushing and before & after photos included.',
       },
       {
-        question: 'Do you cover St John\u2019s, Rainbow Hill and Warndon?',
+        question: 'Do you cover St John’s, Barbourne and Warndon Villages?',
         answer:
-          'Yes \u2014 Worcester city and surrounding suburbs including St John\u2019s, Rainbow Hill, Warndon, Warndon Villages, Barbourne, Claines, Dines Green and all WR postcodes.',
+          'Yes. We cover all of Worcester WR1–WR5, including St John’s, Barbourne, Claines, Warndon, Warndon Villages, Ronkswood, Battenhall, St Peter’s and Diglis.',
       },
       {
-        question: 'Is there a gutter cleaning service near me in Worcester?',
+        question: 'Can you clean cast iron gutters on older Worcester houses?',
         answer:
-          'Yes \u2014 we cover all WR1\u2013WR5 postcodes. Same-day availability in many areas \u2014 call 07421 433910 to check.',
+          'Yes. We clear cast iron and ogee gutters on Georgian and Victorian homes carefully from the ground and show any rust, cracks or leaking joints in your photo report.',
       },
       {
-        question: 'My Worcester property has cast iron guttering \u2014 can you clean it?',
+        question: 'Do you repair guttering in Worcester as well as cleaning it?',
         answer:
-          'Yes. We regularly clean older cast iron gutter systems on period properties across Worcester. We take extra care with fragile or aged guttering and will advise if any sections need repair or replacement.',
-      },
-      {
-        question: 'Do you offer roof cleaning in Worcester?',
-        answer:
-          'Yes. We provide professional soft-wash roof cleaning and moss removal across Worcester. Combined roof and gutter cleans are available at a reduced price \u2014 ask when you book.',
+          'Yes. We reseal leaking joints, refit sagging sections and replace cracked lengths and downpipes. Repairs start with a free inspection and a fixed written quote.',
       },
     ],
     geo: { latitude: 52.1920, longitude: -2.2209 },
     internalLinks: [
       { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
-      { label: 'Gutter cleaning Bromsgrove', href: '/gutter-cleaning-bromsgrove/' },
       { label: 'Gutter cleaning Redditch', href: '/gutter-cleaning-redditch/' },
-      { label: 'Roof cleaning Worcester', href: '/help/clean/' },
-      { label: 'Professional gutter cleaning', href: '/help/unblock/' },
+      { label: 'Gutter cleaning Bromsgrove', href: '/gutter-cleaning-bromsgrove/' },
+      { label: 'Gutter repairs', href: '/gutter-repairs/' },
+      { label: 'Gutter cleaning prices', href: '/gutter-cleaning-prices/' },
     ],
-    ctaHeading: 'Book Your Gutter Clean in Worcester \u2014 Free Quote in 60 Seconds',
+    ctaHeading: 'Worcester Gutters Overflowing? Get a Fixed Price Today',
     priceTo: 140,
-    nearbyAreas: ['St John\u2019s', 'Rainbow Hill', 'Warndon', 'Barbourne', 'Claines', 'Dines Green'],
+    nearbyAreas: ['St John’s', 'Barbourne', 'Claines', 'Warndon', 'Warndon Villages', 'Ronkswood', 'Battenhall', 'St Peter’s', 'Diglis'],
     postcodes: ['WR1', 'WR2', 'WR3', 'WR4', 'WR5'],
+    localSpotlight:
+      'Typical jobs in Worcester include clearing moss-packed gutters on riverside flats in Diglis, unblocking cast iron hoppers on Barbourne terraces, and autumn leaf clears for semis backing onto the parks in St John’s and Battenhall. Out-of-town homes in Fernhill Heath, Claines and Lower Wick are covered at the same fixed prices.',
+    heroBadge: 'Worcester WR1–WR5 • Cleared from the ground',
+    standardsTitle: 'Our Promise to Worcester Customers',
+    spotlightTitle: 'Recent Jobs in Worcester',
+    priceIntro: 'Worcester homes are priced the same as everywhere we work: £100 for a 2-bed, £110 for a 3-bed and Premium from £200 for large or three-storey homes. Downpipe flushing and photos are always included.',
+    whatsappIntro: 'Near the Cathedral, in St John’s or out in Warndon Villages? WhatsApp us your road and we will reply with a price and our next Worcester date.',
+    faqIntro: 'Answers to the things Worcester homeowners ask us most.',
+    useOwnFaqs: true,
   },
 
   redditch: {
@@ -996,43 +1023,79 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   solihull: {
     slug: 'solihull',
     city: 'Solihull',
-    titleTag: 'Gutter Cleaning Solihull | Vacuum, From £100 | WOW Gutters',
-    metaDescription: 'Gutter cleaning in Solihull, Shirley, Knowle & Dorridge. Ground-level vacuum, before & after photos, fully insured. Call 07421 433910.',
-    h1: 'Gutter Cleaning Solihull — Professional Service Across B90-B94',
+    titleTag: 'Gutter Cleaning Solihull | From £100 | No Ladders',
+    metaDescription:
+      'Gutter cleaning in Solihull — Knowle and Dorridge detached homes, Shirley and Olton semis, Dickens Heath townhouses. From £100, cleared from the ground, photo proof. 07421 433910.',
+    h1: 'Gutter Cleaning Solihull — Knowle, Dorridge, Shirley & Dickens Heath',
     heroIntro:
-      "Solihull is one of the most prosperous boroughs in the UK \u2014 its housing stock reflects this, with a high proportion of detached homes and large semis in Dorridge, Knowle, Bentley Heath and Cheswick Green. Properties around Tudor Grange Park and near Touchwood Shopping Centre include many executive homes with complex rooflines and conservatory additions. The Meriden Gap woodland corridors to the north and east of Solihull create above-average leaf fall on residential streets each autumn. WOW Gutters Ltd serves all Solihull postcodes with same-day availability, using our ground-level vacuum system \u2014 no ladders placed against your property.",
-    whyTitle: 'Why Solihull Gutters Need Regular Cleaning',
+      'Solihull homes tend to have more gutter than most: long runs on Knowle and Dorridge detached houses, three-storey townhouses in Dickens Heath and Monkspath, and bay-fronted semis in Olton and Shirley. We clear them all from the ground with a high-reach vacuum and send you photos of every run.',
+    whyTitle: 'Why Solihull Gutters Need More Attention Than You Think',
     whyBody: [
-      "Solihull's tree-lined roads around Tudor Grange, Knowle and Dorridge mean gutters fill quickly with leaves, moss and roof debris each autumn. Many properties in the borough have long gutter runs over conservatories, garages and extensions \u2014 sections that are difficult to access safely with ladders but straightforward with our ground-level vacuum system.",
-      "With West Midlands rainfall spread throughout the year, a blocked gutter can overflow within days of a heavy downpour. Water running down external walls leads to damp patches, staining on brickwork and \u2014 in severe cases \u2014 penetration into the cavity wall. A single annual clean in late autumn is the most cost-effective way to protect a Solihull property.",
+      'Solihull is one of the greenest boroughs in the West Midlands. Tudor Grange Park, Malvern and Brueton Parks, Olton Reservoir and the lanes around Knowle, Dorridge and Hampton-in-Arden are lined with oak, beech and horse chestnut, and the gardens are big enough for mature trees right next to the house. From October to December those trees fill gutters fast, and conkers and acorns are heavy enough to sit in the outlet and block it completely.',
+      'The houses themselves add to it. Detached homes in Knowle, Dorridge and Bentley Heath often have extensions, double garages and conservatories, each with its own gutter and downpipe, so there are more places for water to back up. In newer areas such as Dickens Heath, Monkspath and Cheswick Green, three-storey townhouses and dormer roofs put the gutters well out of ladder reach, which is exactly where our four-storey vacuum earns its keep.',
+      'North of the airport the picture is different. Chelmsley Wood, Kingshurst and Smith’s Wood have many 1960s and 70s houses and low-rise flats, where the issue is ageing gutters and shared downpipes rather than leaves. We clean these for homeowners, landlords and managing agents, and the photos make it easy to show residents and freeholders what was done.',
     ],
     guarantees: [
-      'Ground-level vacuum system \u2014 no ladders placed against your property',
-      'Reaches up to 4 storeys \u2014 homes, flats and commercial buildings',
-      'Before & after photos included as standard on every job',
-      
-      'Fully insured \u2014 comprehensive public liability cover on every visit',
-      '4.9? rating from verified Google reviews',
+      'Three-storey townhouses cleared without scaffolding or cherry pickers',
+      'Gutters over garages, extensions and conservatories cleared on the same visit',
+      'Downpipes flushed and checked, including shared ones on flats',
+      'A full set of before & after photos for your records',
+      'Fully insured, with the price fixed before we arrive',
     ],
-    propertyTypesTitle: 'Gutter Cleaning for All Property Types in Solihull',
+    propertyTypesTitle: 'The Solihull Properties We Look After',
     propertyTypes: [
-      { label: 'Executive detached (Dorridge, Knowle)', detail: 'Long rooflines, larger gutter systems and mature garden trees. We clear all sections including over garages and extensions with our 4-storey reach.' },
-      { label: '1960s semis (Shirley, Olton)', detail: 'Standard uPVC runs where moss and leaf build-up causes overflow and staining on brickwork.' },
-      { label: 'Modern estates (Cheswick Green, Marston Green)', detail: 'Newer systems still gather debris and need annual maintenance to stay in top condition.' },
-      { label: 'Properties near Touchwood & Tudor Grange Park', detail: 'Executive homes with complex rooflines and conservatory additions in Solihull town centre.' },
-      { label: 'Commercial properties (Solihull town centre, Hockley Heath)', detail: 'Offices, retail and industrial units. Planned maintenance contracts available.' },
+      {
+        label: 'Detached homes (Knowle, Dorridge, Bentley Heath)',
+        detail: 'Long rooflines with garage, extension and conservatory gutters. All cleared in one visit from the drive and garden.',
+      },
+      {
+        label: 'Interwar and 1950s semis (Olton, Shirley, Sharmans Cross)',
+        detail: 'Bay fronts and hipped roofs under mature street trees. Autumn is the key time for these.',
+      },
+      {
+        label: 'Three-storey townhouses (Dickens Heath, Monkspath, Cheswick Green)',
+        detail: 'Gutters too high for a ladder. Our vacuum reaches the top run from the ground.',
+      },
+      {
+        label: 'Village homes and cottages (Hampton-in-Arden, Balsall Common, Meriden)',
+        detail: 'Older roofs with moss and trees close by. Cleared carefully, with any loose sections shown in your photos.',
+      },
+      {
+        label: 'Flats and maisonettes (Chelmsley Wood, Kingshurst, Smith’s Wood)',
+        detail: 'Communal gutters and shared downpipes cleared for residents, landlords and managing agents.',
+      },
     ],
-    areasTitle: 'Areas We Cover Around Solihull',
+    areasTitle: 'Solihull Areas We Cover',
     areasInline:
-      'Dorridge, Knowle, Bentley Heath, Cheswick Green | Shirley, Olton, Acocks Green border | Elmdon, Lyndon, Marston Green, Castle Bromwich border | Balsall Common, Hampton in Arden | Nearby: Birmingham, Coventry, Redditch, Bromsgrove',
-    faqsTitle: 'FAQs \u2014 Gutter Cleaning Solihull',
+      'B90: Shirley, Monkspath, Dickens Heath, Cheswick Green | B91: Solihull town centre, Tudor Grange, Lode Heath | B92: Olton, Elmdon, Lyndon | B93: Knowle, Dorridge, Bentley Heath | B94: Hockley Heath, Earlswood | B37: Chelmsley Wood, Kingshurst | CV7: Balsall Common, Meriden, Hampton-in-Arden',
+    faqsTitle: 'Solihull Gutter Cleaning — Your Questions',
+    faqIntro: 'The questions we hear most from Solihull homeowners and landlords.',
+    useOwnFaqs: true,
     faqs: [
-      { question: 'How much does gutter cleaning cost in Solihull?', answer: 'WOW Gutters Ltd provides fixed quotes for all properties across B90\u2013B94. Get yours online at wowgutters.co.uk or call 07421 433910. No hidden fees.' },
-      { question: 'Do you cover Knowle, Dorridge and Balsall Common?', answer: 'Yes \u2014 we cover all Solihull areas including Knowle, Dorridge, Shirley, Olton, Bentley Heath, Cheswick Green, Balsall Common, Meriden, Hampton-in-Arden, Elmdon, Lyndon, Marston Green and all surrounding postcodes.' },
-      { question: 'Is there a gutter cleaning service near me in Solihull?', answer: 'Yes \u2014 we cover the entire Solihull borough including B90, B91, B92, B93 and B94 postcodes. Same-day availability in many areas \u2014 call 07421 433910 to check.' },
-      { question: 'Can you clean gutters on executive detached homes in Dorridge?', answer: 'Yes. Our 4-storey vacuum reach handles complex rooflines on larger Solihull properties without scaffolding or cherry pickers.' },
-      { question: 'Do you clear downpipes too?', answer: 'Yes \u2014 downpipe flow checks and clearing are included as standard in every gutter clean at no extra charge.' },
-      { question: 'Do you test the gutters after cleaning?', answer: 'Yes. Every clean includes complete water flow testing on downpipes and gutters to ensure free, unrestricted drainage. If you have any concerns after your visit, contact us and we will discuss them with you.' },
+      {
+        question: 'How much is gutter cleaning for a Solihull home?',
+        answer: '£100 for a 2-bed and £110 for a 3-bed, including downpipe flushing and photos. Most large detached homes in Knowle and Dorridge, and three-storey townhouses, go on our Premium Service from £200. The price is confirmed before we book.',
+      },
+      {
+        question: 'Can you reach the gutters on a three-storey townhouse in Dickens Heath?',
+        answer: 'Yes. Our vacuum reaches up to four storeys from the ground, so there is no need for scaffolding or a cherry picker on Dickens Heath and Monkspath townhouses.',
+      },
+      {
+        question: 'Are the conservatory and garage gutters included?',
+        answer: 'Tell us about garages, extensions and porches when you book and we include them in your fixed price. Conservatory gutters can be added for £50.',
+      },
+      {
+        question: 'Our road has big horse chestnut trees. How often should we book?',
+        answer: 'Twice a year works best — once in late autumn after leaf fall and again in spring. Conkers and leaves together block outlets very quickly.',
+      },
+      {
+        question: 'Do you clean communal gutters on flats in Chelmsley Wood?',
+        answer: 'Yes. We work for managing agents, landlords and residents’ groups on low-rise blocks and maisonettes, and provide photos for each block.',
+      },
+      {
+        question: 'Do you cover Balsall Common and Meriden?',
+        answer: 'Yes — the whole borough, including the villages in the CV7 area such as Balsall Common, Meriden and Hampton-in-Arden.',
+      },
     ],
     geo: { latitude: 52.4129, longitude: -1.7782 },
     internalLinks: [
@@ -1040,14 +1103,20 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
       { label: 'Gutter cleaning Coventry', href: '/gutter-cleaning-coventry/' },
       { label: 'Gutter cleaning Redditch', href: '/gutter-cleaning-redditch/' },
       { label: 'Gutter cleaning Sutton Coldfield', href: '/gutter-cleaning-sutton-coldfield/' },
-      { label: 'Gutter cleaning Bromsgrove', href: '/gutter-cleaning-bromsgrove/' },
-      { label: 'Professional gutter cleaning', href: '/help/unblock/' },
+      { label: 'Gutter repairs', href: '/gutter-repairs/' },
     ],
-    ctaHeading: 'Book Your Gutter Clean in Solihull \u2014 Free Quote in 60 Seconds',
-    priceTo: 140,
-    nearbyAreas: ['Dorridge', 'Knowle', 'Shirley', 'Olton', 'Marston Green', 'Castle Bromwich'],
-    postcodes: ['B90', 'B91', 'B92', 'B93', 'B94'],
-    },
+    ctaHeading: 'Book a Solihull Gutter Clean — Fixed Price, Photos Included',
+    nearbyAreas: ['Shirley', 'Olton', 'Knowle', 'Dorridge', 'Dickens Heath', 'Monkspath', 'Cheswick Green', 'Chelmsley Wood', 'Balsall Common', 'Hampton-in-Arden'],
+    postcodes: ['B90', 'B91', 'B92', 'B93', 'B94', 'B37', 'CV7'],
+    localSpotlight:
+      'Recent Solihull visits include autumn leaf clears on Dorridge detached homes, top-floor gutters on Dickens Heath townhouses reached from the pavement, and communal gutter cleans for flats in Chelmsley Wood.',
+    heroBadge: 'Solihull, Knowle & Dorridge • Up to 4 storeys',
+    standardsTitle: 'What You Get With Every Solihull Clean',
+    spotlightTitle: 'Around Solihull This Season',
+    priceIntro: 'Solihull pricing is simple: £100 for a 2-bed, £110 for a 3-bed, and Premium from £200 for larger detached homes and three-storey townhouses. Mention any garage, extension or porch gutters when you book so they are in your price; conservatory gutters are £50.',
+    whatsappIntro: 'Solihull customers often send us a quick photo of the house on WhatsApp — it is the fastest way to get a fixed price and a date.',
+  },
+
   'sutton-coldfield': {
     slug: 'sutton-coldfield',
     city: 'Sutton Coldfield',
@@ -1515,103 +1584,96 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   aston: {
     slug: 'aston',
     city: 'Aston',
-    titleTag: 'Gutter Cleaning Aston, Birmingham | WOW Gutters Ltd \u2014 Free Quote',
+    titleTag: 'Gutter Cleaning Aston B6 | From £100 | WOW Gutters Ltd',
     metaDescription:
-      'Professional gutter cleaning in Aston, Birmingham. Ground-level vacuum system, no ladders, before & after photos, fully insured. Call 07421 433910.',
-    h1: 'Gutter Cleaning Aston Birmingham — Professional Service for B6 & B7 Properties',
+      'Gutter cleaning in Aston B6 from £100 — terraces near Villa Park, Aston Hall semis, HMOs and flats. Cleared from the pavement, downpipes flushed, photo proof. 07421 433910.',
+    h1: 'Gutter Cleaning Aston — Terraces, HMOs & Flats Across B6',
     heroIntro:
-      "WOW Gutters Ltd provides professional gutter cleaning across Aston and the surrounding inner-city Birmingham neighbourhoods, including Witton, Newtown, Lozells, Birchfield and Nechells. Aston is one of Birmingham's most historically rich inner-city areas \u2014 a dense mix of Victorian terraces, Edwardian semis and post-war housing that presents some of the most demanding gutter conditions in the city. Our ground-level high-reach vacuum system handles all of it safely and efficiently, without a single ladder placed against your property, and with before and after photos on every job.",
-    whyTitle: 'Why Aston Gutters Need Professional Attention',
+      'Tight Victorian terraces off Witton Road, big semis by Aston Park and student HMOs on Albert Road all have one thing in common: no room for a ladder. We clear Aston gutters from the pavement with a high-reach vacuum, flush the downpipes and send you photos of the result.',
+    whyTitle: 'What Makes Aston Gutters Different',
     whyBody: [
-      "Aston sits in one of Birmingham's most densely built inner-city areas, where terraced rows run back-to-back and gutters are often shared or closely adjacent. The combination of mature street trees \u2014 particularly the lime and plane trees lining many of Aston's Victorian streets \u2014 and the area's consistent rainfall means gutters fill with leaves, seeds and moss faster than in more open suburban areas. A single autumn season can be enough to completely block a gutter that was clear in spring.",
-      "Many properties in Aston were built between 1880 and 1930, and their guttering \u2014 whether original cast iron or later uPVC replacement \u2014 is now showing its age. Joints fail, brackets sag, and sections crack when the weight of accumulated debris is left unmanaged. Water that overflows from a blocked gutter runs directly down the external brickwork, saturating the wall and working its way into the interior \u2014 causing damp patches, mould, and in severe cases, structural damage to lintels and window frames.",
-      "Aston also has a significant number of converted flats, HMOs and rental properties where gutter maintenance is often overlooked between tenancies. Landlords who leave gutters uncleared for multiple years frequently face expensive damp remediation bills that a simple annual clean would have prevented. Our post-clean condition report gives you an honest assessment of what needs attention before small problems become expensive ones.",
+      'Aston is one of the most tightly built parts of the city. Streets such as Park Road, Victoria Road and the roads between Witton Road and Trinity Road are lined with Victorian and Edwardian terraces that share a continuous roofline, so one blocked outlet can send water along the run and over the front of the house next door. Most of these homes have no side access and very little pavement, which is why a ground-level vacuum works so well here: we park, set up on the footpath and clear the full front and rear runs without a ladder touching the brickwork.',
+      'The other big factor is trees. Aston Park, the grounds of Aston Hall and the old churchyard at St Peter and St Paul drop a lot of leaves and winged seeds in autumn, and the streets around them catch most of it. Add moss from slate roofs that have not been touched in decades and you get gutters that hold standing water all winter. On older terraces that water often finds its way through worn cast iron joints into the front bay or the bedroom wall above it.',
+      'Aston also has a large rental market — shared houses for students and young workers, flats above shops on Lozells Road and converted terraces let room by room. Gutters on these properties are easy to forget between tenancies. We send landlords and agents dated before & after photos for every visit, so there is a clear record for inventories, insurance and repair decisions.',
     ],
     guarantees: [
-      'Ground-level vacuum system \u2014 no ladders placed against your property',
-      'Reaches up to 4 storeys \u2014 terraces, semis and flats',
-      'Before & after photos included as standard on every job',
-      
-      'Fully insured \u2014 comprehensive public liability cover on every visit',
-      '4.9? rating from verified Google reviews',
+      'Cleared from the pavement — no ladders, no scaffold, no side access needed',
+      'Front and rear runs on mid-terrace homes cleared in one visit',
+      'Downpipes flushed and water flow checked before we pack up',
+      'Dated before & after photos — handy for landlords and letting agents',
+      'Fully insured, with fixed prices agreed before we start',
     ],
-    propertyTypesTitle: 'Gutter Cleaning for All Property Types in Aston',
+    propertyTypesTitle: 'Aston Properties We Clean',
     propertyTypes: [
       {
-        label: 'Victorian terraces (Lozells Road, Witton Road, Newtown Row)',
-        detail: 'Dense rows with aging cast iron and uPVC gutter systems. We clear carefully from ground level and flag any repairs needed. No side access required in most cases.',
+        label: 'Victorian terraces (Park Road, Victoria Road, Witton Road)',
+        detail: 'Shared rooflines and narrow fronts. We clear the whole run from the pavement and point out failing cast iron joints or sagging brackets in your photos.',
       },
       {
-        label: 'Edwardian semis (Witton, Birchfield, Aston Hall area)',
-        detail: 'Larger properties with longer gutter runs and heavy leaf fall from mature garden trees. Full downpipe flush and condition report included as standard.',
+        label: 'Larger semis and villas (around Aston Park and Aston Hall)',
+        detail: 'Long gutter runs under mature trees. An autumn clean, after most leaves have fallen, keeps them flowing through winter.',
       },
       {
-        label: 'Post-war housing (Nechells, Duddeston)',
-        detail: 'Flat-roof sections and standard uPVC runs. Annual clean keeps drainage systems functioning correctly and prevents water ingress at roof junctions.',
+        label: 'Student and shared houses (Albert Road, Upper Sutton Street area)',
+        detail: 'Fixed yearly visits with photo reports, so landlords can show gutters were kept clear between tenancies.',
       },
       {
-        label: 'Converted flats and HMOs',
-        detail: 'Landlords across Aston use WOW Gutters Ltd for annual maintenance on rental portfolios. Before & after photos provided for every visit \u2014 ideal for tenancy records and property management.',
+        label: 'Flats above shops (Lozells Road, Witton Road shopping parade)',
+        detail: 'Two and three-storey buildings cleared from street level, with no need to close the shop or block the entrance.',
       },
       {
-        label: 'Commercial properties (A34 Aston corridor, Lichfield Road)',
-        detail: 'Workshops, retail units and offices. Planned maintenance contracts available with scheduled visits and written condition reports.',
+        label: 'Newer housing (Aston Newtown, Lichfield Road side)',
+        detail: '1980s–2000s homes with uPVC gutters where moss and roof grit settle in shallow runs. A yearly clean protects fascias and porches.',
       },
     ],
-    areasTitle: 'Areas We Cover Around Aston',
+    areasTitle: 'Aston and Nearby Areas We Cover',
     areasInline:
-      'Witton, Lozells, Newtown, Birchfield | Nechells, Duddeston, Saltley | Handsworth, Erdington, Perry Barr | Nearby: Birmingham city centre, Sutton Coldfield, Walsall',
-    faqsTitle: 'FAQs \u2014 Gutter Cleaning Aston',
+      'Aston (B6): Aston Park, Aston Cross, Villa Park side, Witton Road | Witton & Perry Barr edge (B6) | Lozells & Newtown (B19) | Nechells & Duddeston (B7) | Birchfield & Handsworth (B20)',
+    faqsTitle: 'Aston Gutter Cleaning — Your Questions Answered',
     faqs: [
       {
-        question: 'How much does gutter cleaning cost in Aston?',
-        answer: 'WOW Gutters Ltd provides fixed quotes for all properties. Get yours online at wowgutters.co.uk or call 07421 433910. No hidden fees.',
+        question: 'What does gutter cleaning cost for an Aston terrace?',
+        answer: 'Most Aston terraces are 2 or 3 bedrooms, which is £100 or £110 for front and rear gutters, downpipe flushing and photos. Larger semis and HMOs are quoted before we arrive, so the price never changes on the day.',
       },
       {
-        question: 'Do you cover Lozells, Newtown and Witton?',
+        question: 'I live near Villa Park — can you still park and work on a matchday?',
         answer:
-          'Yes \u2014 we cover all B6 and B7 postcodes including Aston, Lozells, Newtown, Witton, Birchfield, Nechells, Duddeston and all surrounding inner-city areas.',
+          'Parking around Trinity Road and Witton Road is very tight on home matchdays, so we avoid booking those streets on match days where we can. Tell us your road when you book and we will pick a quieter day.',
       },
       {
-        question: 'My terrace has very narrow side access \u2014 is that a problem?',
+        question: 'My mid-terrace has no back access. Can you clean the rear gutter?',
         answer:
-          'Not at all. Our ground-level vacuum system operates from the front of the property and does not require side access in most cases. We handle tight terraced rows regularly across Aston and Lozells.',
+          'Usually yes. Our vacuum poles reach over the roof from the front on most two-storey terraces. If the rear gutter cannot be reached that way, we will tell you before we start rather than charge for half a job.',
       },
       {
-        question: 'Can blocked gutters cause damp inside my Aston property?',
+        question: 'Water is coming through my front bay window — is it the gutter?',
         answer:
-          'Yes \u2014 this is one of the most common causes of internal damp we encounter in Aston. Water overflowing from a blocked gutter runs continuously down the same section of brickwork during every rain shower, saturating the wall and eventually penetrating the interior. Regular cleaning prevents this entirely.',
+          'It often is on Aston terraces. When the gutter or downpipe above the bay is blocked, water spills onto the bay roof and finds its way in around the frame. Clearing the run is the first step; your photos will show if a joint or the bay flashing needs repairing too.',
       },
       {
-        question: 'Do you work with landlords in Aston?',
+        question: 'Do you work for landlords and letting agents with Aston HMOs?',
         answer:
-          'Yes \u2014 we work with landlords and letting agents across Aston, providing photographic evidence of gutter condition before and after each visit for maintenance records and tenant check reports.',
+          'Yes. We clean shared houses and flats across B6, B7 and B19 and send dated photos for each property, so you have evidence for inventories and insurance. Several properties can be booked on the same day.',
       },
       {
-        question: 'Do you offer gutter repairs in Aston?',
+        question: 'Can you fix cast iron gutters on older Aston houses?',
         answer:
-          'Yes. If our technician spots damaged sections, loose brackets or leaking joints during your clean, we flag these in our condition report. Our repair team can return to carry out the necessary work.',
-      },
-      {
-        question: 'How quickly can you get to Aston?',
-        answer:
-          'We aim to offer bookings within 2\u201C5 working days. Same-day visits may be available for urgent overflow or blockage issues \u2014 call 07421 433910 to check availability.',
-      },
-      {
-        question: 'Do you test the gutters after cleaning?',
-        answer:
-          'Yes — every gutter clean includes full downpipe flushing and camera verification to ensure flawless drainage.',
+          'We can reseal leaking joints, refit loose brackets and replace cracked sections. Repairs are always quoted separately and only carried out once you agree.',
       },
     ],
     geo: { latitude: 52.5050, longitude: -1.8850 },
     internalLinks: [
       { label: 'Gutter cleaning Birmingham', href: '/gutter-cleaning-birmingham/' },
-      { label: 'Gutter cleaning Erdington', href: '/gutter-cleaning/erdington/' },
-      { label: 'Gutter cleaning Handsworth', href: '/gutter-cleaning/handsworth/' },
-      { label: 'Roof cleaning Birmingham', href: '/help/clean/' },
-      { label: 'Gutter repairs', href: '/help/repair/' },
+      { label: 'Gutter cleaning Erdington', href: '/gutter-cleaning-erdington/' },
+      { label: 'Gutter cleaning Perry Barr', href: '/gutter-cleaning-perry-barr/' },
+      { label: 'Gutter repairs', href: '/gutter-repairs/' },
+      { label: 'Gutter cleaning for landlords', href: '/services/gutter-cleaning-for-landlords/' },
     ],
-    ctaHeading: 'Book Your Gutter Clean in Aston \u2014 Free Quote in 60 Seconds',
+    ctaHeading: 'Book Your Aston Gutter Clean — Fixed Price, No Ladders',
+    nearbyAreas: ['Witton', 'Lozells', 'Newtown', 'Nechells', 'Birchfield', 'Perry Barr'],
+    postcodes: ['B6', 'B7', 'B19'],
+    localSpotlight:
+      'Recent Aston work includes clearing shared rooflines on Victorian terraces off Witton Road, leaf clears for semis backing onto Aston Park, and yearly photo-reported cleans for landlords with shared houses near Albert Road.',
   },
 
   edgbaston: {

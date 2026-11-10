@@ -29,11 +29,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!city) return {}
   
   const url = `https://wowgutters.co.uk/gutter-cleaning-${slug}/`
-  const title = `Gutter Cleaning ${city.name} | WOW Gutters Ltd`
+  // Nov 2026: price + "No Ladders" hook (like the Birmingham page). Brand is added only when the
+  // title still fits ~60 characters; Google shows the site name above the title anyway.
+  const titleCore = `Gutter Cleaning ${city.name} | From £100 | No Ladders`
+  const title = `${titleCore} | WOW Gutters Ltd`.length <= 60 ? `${titleCore} | WOW Gutters Ltd` : titleCore
   const description = `Professional gutter cleaning in ${city.name} from £${city.priceFrom}. Ground-level vacuum system, before & after photos, fully insured. Call WOW Gutters Ltd: 07421 433910.`
   
   return {
-    title,
+    title: { absolute: title },
     description,
     alternates: {
       canonical: url,
@@ -83,7 +86,7 @@ export default async function CityPage({ params }: PageProps) {
   const url = `https://wowgutters.co.uk/gutter-cleaning-${slug}/`
   const priceFrom = city.priceFrom
   const priceTo = landingData.priceTo ?? city.priceTo ?? 140
-  const schemaFaqs = isPrimaryCitySlug(slug)
+  const schemaFaqs = isPrimaryCitySlug(slug) && !landingData.useOwnFaqs
     ? buildCitySchemaFaqs({
         city: landingData.city,
         slug,

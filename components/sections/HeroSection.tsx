@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import HeroVideo from '@/components/media/HeroVideo';
+import Link from 'next/link';
 
 // Keep these outside the component so they are stable in production builds.
 const HERO_VIDEO_PRIMARY = '/gutter-final-video.mp4';
@@ -105,7 +106,7 @@ export default function HeroSection() {
                       <span className="title-highlight">{h.highlight}</span>
                     </>
                   ) : null}
-                  <br />
+                  {' '}{' '}<br />
                   <span className="title-bottom">{h.bottom}</span>
                 </div>
               ))}
@@ -121,7 +122,7 @@ export default function HeroSection() {
                       </span>
                     </>
                   )}
-                  <br />
+                  {' '}<br />
                   <span className="title-bottom">
                     {HERO_HEADLINES[headlineIndex].bottom}
                   </span>
@@ -131,7 +132,8 @@ export default function HeroSection() {
 
             {/* Subtext */}
             <p className="hero-subtitle animate-fade-in-up delay-200">
-              Professional gutter cleaning, downpipe clearing, fascia and soffit cleaning, and roof cleaning. Clean gutters, safer drainage, and reliable service from WOW Gutters Ltd.
+              Gutter cleaning, downpipe clearing, fascia and soffit cleaning and roof cleaning across the West Midlands — from Wolverhampton and Walsall to Solihull and Coventry. In the city? See our{' '}
+              <Link href="/gutter-cleaning-birmingham/" className="underline underline-offset-2 font-bold text-white">gutter cleaning Birmingham</Link> page.
             </p>
 
             {/* CTA Row */}

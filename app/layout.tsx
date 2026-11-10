@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import "./section-styles.css";
 import Navbar from "./navbar/page";
 import Footer from "@/components/Footer";
 import ContactInfoSection from "@/components/sections/ContactInfoSection";

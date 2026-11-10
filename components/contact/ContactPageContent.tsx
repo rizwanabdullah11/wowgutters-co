@@ -31,7 +31,7 @@ export default function ContactPageContent() {
               Fast support from local West Midlands gutter specialists
             </p>
             <h1 className="text-4xl font-black leading-tight text-white sm:text-5xl">
-              Contact <span style={{ color: colors.primary }}>WOW Gutters Ltd</span>
+              Contact <span style={{ color: colors.primary }}>WOW Gutters Ltd</span>{' '}
               <span className="block text-2xl sm:text-3xl text-gray-200 mt-2 font-bold">
                 Get Your Free Instant Quote Today
               </span>

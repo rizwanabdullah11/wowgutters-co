@@ -1,22 +1,15 @@
-import type { GutterCondition, GutterLength, PropertyType } from '@/constants/gutterPricing';
-import { priceForBedrooms } from '@/constants/gutterPricing';
+import type { PropertyType } from '@/constants/gutterPricing';
+import { isPremiumBedrooms, priceForBedrooms } from '@/constants/gutterPricing';
 
-export type { PropertyType, GutterLength, GutterCondition };
+export type { PropertyType };
 
-/** Ballpark estimate from bedroom count (+ small adjustment for heavy blockages). */
-export function estimateGutterCleaningPrice(input: {
-  propertyType: PropertyType;
-  bedrooms: number;
-  gutterLength: GutterLength;
-  condition: GutterCondition;
-}): number {
-  let price = priceForBedrooms(input.bedrooms);
-
-  if (input.gutterLength === 'long') price += 10;
-  else if (input.gutterLength === 'very-long') price += 20;
-
-  if (input.condition === 'moderate') price += 5;
-  else if (input.condition === 'heavy') price += 15;
-
-  return price;
+/**
+ * Ballpark estimate from bedroom count only (Nov 2026, owner request: no surcharges for
+ * gutter length, blockage or height). 4+ bedrooms = Premium Service, shown as "from £200".
+ */
+export function estimateGutterCleaningPrice(input: { propertyType: PropertyType; bedrooms: number }): {
+  price: number;
+  isFrom: boolean;
+} {
+  return { price: priceForBedrooms(input.bedrooms), isFrom: isPremiumBedrooms(input.bedrooms) };
 }

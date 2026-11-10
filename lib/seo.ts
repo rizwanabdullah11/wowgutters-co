@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
+import { dropBirminghamSuffix } from '@/lib/birminghamFocus';
 
 /** Per-town OG images were never created; fall back to the shared one so shares never show a broken image. */
 function resolveOgImage(path?: string): string {
@@ -58,6 +59,8 @@ export function seoTitle(raw: string, opts: { keepSegments?: boolean } = {}): st
     segs.push(part);
   }
   if (segs.length === 0) return BRAND;
+  // Nov 2026: only /gutter-cleaning-birmingham/ targets "gutter cleaning birmingham" (lib/birminghamFocus.ts).
+  segs[0] = dropBirminghamSuffix(segs[0]);
   if (!opts.keepSegments) segs.splice(0, segs.length, ...withPriceHook(segs));
   const compose = (s: string[]) => (brandInCore ? s.join(' | ') : [...s, BRAND].join(' | '));
   if (opts.keepSegments) {
@@ -112,6 +115,8 @@ type BuildMetadataInput = {
   canonicalPath?: string; // e.g. "/services/gutter-cleaning"
   ogImagePath?: string; // default: "/assets/wow-gutter-logo2.png"
   noindex?: boolean; // Prevent search engines from indexing this page
+  /** Keep every title segment (e.g. "From £100 | No Ladders"); drop the brand instead if it would pass 60 chars. */
+  keepTitleSegments?: boolean;
   robots?: Metadata['robots']; // Custom robots configuration (overrides noindex if provided)
 };
 
@@ -140,7 +145,9 @@ export function buildMetadata(input: BuildMetadataInput): Metadata {
   const ogImage = resolveOgImage(input.ogImagePath);
   const canonical = input.canonicalPath ? toAbsoluteUrl(canonicalOverride(input.canonicalPath)) : undefined;
 
-  const titleForTags = seoTitle(input.absoluteTitle ?? input.title ?? 'WOW Gutters Ltd');
+  const titleForTags = seoTitle(input.absoluteTitle ?? input.title ?? 'WOW Gutters Ltd', {
+    keepSegments: input.keepTitleSegments,
+  });
   const titleField: Metadata['title'] = { absolute: titleForTags };
   const description = seoDescription(input.description);
 

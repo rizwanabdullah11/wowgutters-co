@@ -70,7 +70,7 @@ export function renderCityLanding(slug: string) {
   const priceFrom = city?.priceFrom ?? 50;
   const priceTo = data.priceTo ?? city?.priceTo ?? 140;
 
-  const schemaFaqs = isPrimaryCitySlug(slug)
+  const schemaFaqs = isPrimaryCitySlug(slug) && !data.useOwnFaqs
     ? buildCitySchemaFaqs({
         city: data.city,
         slug,

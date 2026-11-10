@@ -67,7 +67,7 @@ export default function AreaPage({ areaName }: AreaPageProps) {
           <h1 className="hero-title animate-fade-in-up delay-100">
             <span className="title-prefix">Gutter Cleaning</span>{' '}
             <span className="title-service" style={{ color: colors.primary }}>{formattedArea}</span>
-            <br />
+            {' '}<br />
             <span className="title-secondary">Professional, Safe &amp; Fully Insured</span>
           </h1>
 

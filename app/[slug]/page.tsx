@@ -127,6 +127,8 @@ function buildGutterMetadata(areaSlug: string): Metadata {
       description: cityLanding.metaDescription,
       canonicalPath: areaPath(areaSlug),
       ogImagePath: `/og/${areaSlug}.jpg`,
+      // Nov 2026: keep the price / "No Ladders" hooks on these town titles instead of cutting them.
+      keepTitleSegments: areaSlug === 'walsall' || areaSlug === 'solihull',
     });
   }
 

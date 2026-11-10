@@ -5,9 +5,9 @@ import { getServiceById } from '@/constants/servicesData';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
-  absoluteTitle: 'Commercial Roof Cleaning Birmingham & West Midlands | WOW Gutters Ltd',
+  absoluteTitle: 'Commercial & Industrial Roof Cleaning | WOW Gutters Ltd',
   description:
-    'Commercial and industrial roof cleaning in Birmingham & the West Midlands — warehouses, offices, schools and retail units. Soft-wash moss removal, photo reports, fully insured. Call 07421 433910.',
+    'Commercial and industrial roof cleaning for warehouses, factories, schools, offices and retail units across the West Midlands. RAMS supplied, fully insured.',
   canonicalPath: '/services/commercial-roof-cleaning/',
 });
 
