@@ -106,7 +106,7 @@ export default function HeroSection() {
                       <span className="title-highlight">{h.highlight}</span>
                     </>
                   ) : null}
-                  <br />
+                  {' '}{' '}<br />
                   <span className="title-bottom">{h.bottom}</span>
                 </div>
               ))}
@@ -122,7 +122,7 @@ export default function HeroSection() {
                       </span>
                     </>
                   )}
-                  <br />
+                  {' '}<br />
                   <span className="title-bottom">
                     {HERO_HEADLINES[headlineIndex].bottom}
                   </span>

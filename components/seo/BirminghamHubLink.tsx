@@ -24,7 +24,7 @@ export default function BirminghamHubLink({ place, className = '' }: { place: st
   return (
     <section className={`px-4 py-6 bg-white ${className}`} aria-label="Gutter cleaning across Birmingham">
       <p className="max-w-3xl mx-auto text-center text-slate-700 text-base leading-relaxed">
-        {pickVariant(place, variants)}
+        {pickVariant(`${place}-hub`, variants)}
       </p>
     </section>
   );

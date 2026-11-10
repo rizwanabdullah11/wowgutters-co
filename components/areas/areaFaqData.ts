@@ -272,10 +272,34 @@ export const COMMERCIAL_ROOF_CLEANING_FAQS = [
     icon: '💳',
   },
   {
+    question: 'Do you provide RAMS and insurance documents?',
+    answer:
+      'Yes. A site-specific risk assessment and method statement is sent before every commercial job, and we can send our insurance certificate with the quote.',
+    icon: '📄',
+  },
+  {
+    question: 'How do you reach high or large roofs?',
+    answer:
+      'From the ground with high-reach poles where we can, from a cherry picker (MEWP) on taller buildings, and from the roof itself only where it is safe and the surface is not fragile.',
+    icon: '🏗️',
+  },
+  {
+    question: 'Can you clean fibre cement roofs that may contain asbestos?',
+    answer:
+      'We check your asbestos register at survey. Suspected asbestos sheets are never scraped or pressure-washed, and we will tell you plainly if a roof should not be cleaned.',
+    icon: '⚠️',
+  },
+  {
     question: 'Can roof cleaning be combined with gutter clearing?',
     answer:
       'Yes. This is strongly recommended on commercial sites — treating the roof and clearing gutters in one visit stops moss debris from blocking channels soon after a gutter clear.',
     icon: '✨',
+  },
+  {
+    question: 'Can you work outside our opening hours?',
+    answer:
+      'Yes. Early mornings, evenings and weekends are available, and school and college roofs are usually booked in the holidays.',
+    icon: '🕒',
   },
   {
     question: 'Do you offer commercial roof maintenance contracts?',
@@ -288,6 +312,12 @@ export const COMMERCIAL_ROOF_CLEANING_FAQS = [
     answer:
       'We plan access routes, timing, and safety zones with your facilities team. Many jobs are completed with minimal disruption, including out-of-hours options where needed.',
     icon: '🏢',
+  },
+  {
+    question: 'How long does the moss stay away after cleaning?',
+    answer:
+      'With biocide treatment, most roofs stay clear noticeably longer than after a simple scrape. Shaded and north-facing roofs grow back fastest, so we suggest a re-treatment interval for your building in the sign-off report.',
+    icon: '🌿',
   },
 ];
 

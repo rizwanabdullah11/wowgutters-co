@@ -88,7 +88,7 @@ export default function CityGutterCleaningPage({
             <span className="title-line">{titleLine1}</span>
             {titleLine2 ? (
               <>
-                <br />
+                {' '}<br />
                 <span className="title-accent" style={{ color: colors.primary }}>
                   {titleLine2}
                 </span>

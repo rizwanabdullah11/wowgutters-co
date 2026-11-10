@@ -143,7 +143,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   walsall: {
     slug: 'walsall',
     city: 'Walsall',
-    titleTag: 'Gutter Cleaning Walsall | From £100, No Ladders | WOW Gutters',
+    titleTag: 'Gutter Cleaning Walsall | From £100 | No Ladders',
     metaDescription:
       'Gutter cleaning across Walsall — Caldmore terraces, Park Hall semis, Streetly and Aldridge detached homes. From £100, cleared from the ground, photos on every job. 07421 433910.',
     h1: 'Gutter Cleaning Walsall — From Caldmore Terraces to Streetly Detached Homes',
@@ -1023,7 +1023,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   solihull: {
     slug: 'solihull',
     city: 'Solihull',
-    titleTag: 'Gutter Cleaning Solihull | From £100 | WOW Gutters Ltd',
+    titleTag: 'Gutter Cleaning Solihull | From £100 | No Ladders',
     metaDescription:
       'Gutter cleaning in Solihull — Knowle and Dorridge detached homes, Shirley and Olton semis, Dickens Heath townhouses. From £100, cleared from the ground, photo proof. 07421 433910.',
     h1: 'Gutter Cleaning Solihull — Knowle, Dorridge, Shirley & Dickens Heath',

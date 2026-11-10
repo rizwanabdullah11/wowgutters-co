@@ -115,6 +115,8 @@ type BuildMetadataInput = {
   canonicalPath?: string; // e.g. "/services/gutter-cleaning"
   ogImagePath?: string; // default: "/assets/wow-gutter-logo2.png"
   noindex?: boolean; // Prevent search engines from indexing this page
+  /** Keep every title segment (e.g. "From £100 | No Ladders"); drop the brand instead if it would pass 60 chars. */
+  keepTitleSegments?: boolean;
   robots?: Metadata['robots']; // Custom robots configuration (overrides noindex if provided)
 };
 
@@ -143,7 +145,9 @@ export function buildMetadata(input: BuildMetadataInput): Metadata {
   const ogImage = resolveOgImage(input.ogImagePath);
   const canonical = input.canonicalPath ? toAbsoluteUrl(canonicalOverride(input.canonicalPath)) : undefined;
 
-  const titleForTags = seoTitle(input.absoluteTitle ?? input.title ?? 'WOW Gutters Ltd');
+  const titleForTags = seoTitle(input.absoluteTitle ?? input.title ?? 'WOW Gutters Ltd', {
+    keepSegments: input.keepTitleSegments,
+  });
   const titleField: Metadata['title'] = { absolute: titleForTags };
   const description = seoDescription(input.description);
 

@@ -56,7 +56,7 @@ export default function InspectionPage() {
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-6 text-white leading-tight">
-                FREE Gutter & Roof<br />
+                FREE Gutter & Roof{' '}<br />
                 <span style={{ color: colors.primary }}>Inspection</span>
               </h1>
 

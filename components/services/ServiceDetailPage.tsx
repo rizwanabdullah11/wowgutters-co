@@ -236,10 +236,15 @@ const COMMERCIAL_GUTTER_RELATED_LINKS = [
 
 const COMMERCIAL_ROOF_RELATED_LINKS = [
   { label: 'Commercial gutter cleaning', href: '/services/commercial-gutter-cleaning/' },
+  { label: 'Gutter cleaning contracts', href: '/services/gutter-cleaning-contracts/' },
   { label: 'Residential roof cleaning', href: '/services/roof-cleaning/' },
   { label: 'Roof inspection', href: '/services/roof-inspection/' },
   { label: 'Gutter cleaning', href: '/services/gutter-cleaning/' },
-  { label: 'Warehouse case study', href: '/blog/warehouse-gutter-clearing/' },
+  { label: 'Warehouse gutter clearing', href: '/blog/warehouse-gutter-clearing/' },
+  { label: 'Warehouse box gutter case study', href: '/blog/warehouse-gutter-case-study/' },
+  { label: 'Offices & schools guide', href: '/blog/offices-schools-gutter-cleaning/' },
+  { label: 'Church & community halls', href: '/blog/church-hall-gutters/' },
+  { label: 'Block management guide', href: '/blog/block-gutter-maintenance/' },
   { label: 'Roof cleaning Birmingham', href: '/roof-cleaning-birmingham/' },
   { label: 'UPVC cleaning', href: '/services/upvc-cleaning/' },
   { label: 'Free quote', href: '/quote/' },
@@ -1208,6 +1213,11 @@ export default function ServiceDetailPage({ service }: ServiceDetailPageProps) {
         jobs={service.id === 'roof-cleaning' ? LIVE_ROOF_JOBS : undefined}
         heading="Our Roof Cleaning Team at Work – Real Job Photos"
         intro="Live photos from our own roof cleaning jobs: clay and concrete tiles, chimneys, and work from a cherry picker. No stock images."
+      />
+      <AreaRecentWork
+        jobs={service.id === 'commercial-roof-cleaning' ? LIVE_ROOF_JOBS : undefined}
+        heading="Our Roof Cleaning Method – Real Job Photos"
+        intro="Photos from our own roof jobs. They show the same hand removal, soft wash and cherry-picker access we use on commercial buildings. No stock images."
       />
       <AreaContactMap />
 

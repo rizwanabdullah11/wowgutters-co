@@ -103,7 +103,7 @@ export default function SuburbGutterCleaningPage({
 
           <h1 className="hero-title animate-fade-in-up delay-100">
             <span className="title-line">{dropBirminghamSuffix(data.heroTitleLine1)}</span>
-            <br />
+            {' '}<br />
             <span className="title-accent" style={{ color: colors.primary }}>
               {data.heroTitleLine2}
             </span>
