@@ -87,3 +87,37 @@ export const REAL_GUTTER_JOBS: RealGutterJob[] = [
     ],
   },
 ];
+
+/**
+ * Real jobs tied to a town page (owner confirmed the location). Shown high on that town page
+ * only, so the photos stay unique to one page.
+ */
+export const REAL_AREA_GUTTER_JOBS: Record<string, RealGutterJob[]> = {
+  walsall: [
+    {
+      id: 'walsall-moss-blocked-gutter-nov-2026',
+      title: 'Moss-packed gutter cleared on a Walsall home',
+      summary:
+        'Thick moss from the concrete roof tiles had filled this gutter run, with leaves and silt underneath, so rainwater was sitting in the gutter instead of reaching the downpipe. We cleared it from the ground with our vacuum and checked it with the pole camera: the after photo shows the same run empty and draining. Before at 12:33, after at 12:46.',
+      area: 'Walsall',
+      date: '9 November 2026',
+      landscape: true,
+      photos: [
+        {
+          src: '/area-pages/walsall-page/walsall-gutter-cleaning-before-moss-blocked-gutter.webp',
+          alt: 'Before gutter cleaning – gutter packed with moss and debris under concrete roof tiles',
+          label: 'Before',
+        },
+        {
+          src: '/area-pages/walsall-page/walsall-gutter-cleaning-after-clear-gutter.webp',
+          alt: 'After gutter cleaning – the same gutter run cleared and draining',
+          label: 'After',
+        },
+      ],
+    },
+  ],
+};
+
+export function realGutterJobsFor(slug: string): RealGutterJob[] | undefined {
+  return REAL_AREA_GUTTER_JOBS[slug];
+}

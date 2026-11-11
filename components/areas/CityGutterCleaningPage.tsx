@@ -8,7 +8,7 @@ import { buildCityPageFaqs, isPrimaryCitySlug } from '@/lib/cityFaqs';
 import { AREA_SERVICE_META, type AreaServiceKind } from '@/lib/areaServiceMeta';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import { liveRoofJobsFor, realRoofJobsFor } from '@/constants/realRoofJobs';
-import type { RealGutterJob } from '@/constants/realGutterJobs';
+import { realGutterJobsFor, type RealGutterJob } from '@/constants/realGutterJobs';
 import type { ReactNode } from 'react';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
@@ -160,6 +160,13 @@ export default function CityGutterCleaningPage({
             <p className="text-slate-700 text-lg leading-relaxed">{data.localSpotlight}</p>
           </div>
         </section>
+      ) : null}
+      {serviceKind === 'gutter' && !recentJobs?.length && realGutterJobsFor(data.slug) ? (
+        <AreaRecentWork
+          jobs={realGutterJobsFor(data.slug)}
+          heading={`Recent Gutter Cleaning in ${data.city} – Real Before & After`}
+          intro={`Unedited photos from a WOW Gutters job in ${data.city}, taken with our pole camera. Every clean comes with photos like these.`}
+        />
       ) : null}
 
       {showGuarantee && data.guarantees.length > 0 ? (
