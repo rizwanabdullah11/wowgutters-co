@@ -14,6 +14,8 @@ type Props = {
  */
 export default function AreaRecentWork({ jobs, heading, intro }: Props) {
   if (!jobs || jobs.length === 0) return null;
+  /** One job: full-width card, landscape photos side by side (before | after). */
+  const single = jobs.length === 1;
 
   return (
     <section className="py-16 md:py-20 px-4 bg-white border-t border-slate-100" aria-labelledby="recent-work-heading">
@@ -26,10 +28,14 @@ export default function AreaRecentWork({ jobs, heading, intro }: Props) {
             'Unedited photos from our own jobs. Every clean comes with before & after photos like these, so you can see exactly what was in your gutters.'}
         </p>
 
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className={`grid gap-8 ${single ? 'max-w-5xl mx-auto' : 'md:grid-cols-2'}`}>
           {jobs.map((job) => (
             <article key={job.id} className="rounded-2xl border border-slate-200 bg-slate-50 overflow-hidden shadow-sm">
-              <div className={`grid gap-1 ${job.photos.length > 1 && !job.landscape ? 'grid-cols-2' : 'grid-cols-1'}`}>
+              <div
+                className={`grid gap-1 ${
+                  job.photos.length > 1 && (!job.landscape || single) ? (job.landscape ? 'grid-cols-1 sm:grid-cols-2' : 'grid-cols-2') : 'grid-cols-1'
+                }`}
+              >
                 {job.photos.map((photo) => (
                   <figure key={photo.src} className="relative m-0">
                     <img
