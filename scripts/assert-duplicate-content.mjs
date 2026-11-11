@@ -37,7 +37,7 @@ if (!aldridge || !brownhills) {
   errors.push('missing sample generated area exports');
 } else {
   const extractSpotlight = (html) => {
-    const m = visibleText(html).match(/Typical jobs in [^.]{30,220}\./i);
+    const m = visibleText(html).match(/Typical jobs in [^.]{30,300}\./i);
     return m ? m[0] : '';
   };
   const aSnip = extractSpotlight(aldridge);
