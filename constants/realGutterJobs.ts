@@ -93,6 +93,29 @@ export const REAL_GUTTER_JOBS: RealGutterJob[] = [
  * only, so the photos stay unique to one page.
  */
 export const REAL_AREA_GUTTER_JOBS: Record<string, RealGutterJob[]> = {
+  birmingham: [
+    {
+      id: 'birmingham-b9-leaf-blocked-gutter-nov-2026',
+      title: 'Leaf-blocked gutter cleared on a B9 Birmingham home',
+      summary:
+        'Autumn leaves had packed this black gutter along its full length, with moss growing from the edge of the concrete roof tiles. We cleared it from the ground with our vacuum and checked it with the pole camera: the after photo shows the same run empty down to the downpipe outlet. Before at 12:07, after at 12:14.',
+      area: 'Birmingham B9',
+      date: '13 November 2026',
+      landscape: true,
+      photos: [
+        {
+          src: '/area-pages/birmingham-page/birmingham-b9-gutter-cleaning-before-leaves-blocked-gutter.webp',
+          alt: 'Before gutter cleaning – black gutter packed with autumn leaves below concrete roof tiles',
+          label: 'Before',
+        },
+        {
+          src: '/area-pages/birmingham-page/birmingham-b9-gutter-cleaning-after-clear-gutter.webp',
+          alt: 'After gutter cleaning – the same gutter run empty down to the downpipe outlet',
+          label: 'After',
+        },
+      ],
+    },
+  ],
   walsall: [
     {
       id: 'walsall-moss-blocked-gutter-nov-2026',

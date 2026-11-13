@@ -10,7 +10,7 @@ import { areaPath } from '@/lib/areaSlugs';
 import BirminghamFAQ from '@/components/areas/BirminghamFAQ';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
-import { REAL_GUTTER_JOBS } from '@/constants/realGutterJobs';
+import { REAL_GUTTER_JOBS, realGutterJobsFor } from '@/constants/realGutterJobs';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
@@ -250,6 +250,13 @@ export default function BirminghamGutterCleaningPage() {
           </div>
         </div>
       </section>
+
+      {/* Real B9 job, owner-supplied photos (Nov 2026) */}
+      <AreaRecentWork
+        jobs={realGutterJobsFor('birmingham')}
+        heading="Recent Gutter Cleaning in Birmingham B9 – Real Before & After"
+        intro="Unedited photos from a WOW Gutters job in B9, taken with our pole camera. Every Birmingham clean comes with photos like these."
+      />
 
       <section className="py-16 px-4 bg-slate-50">
         <div className="max-w-7xl mx-auto">
