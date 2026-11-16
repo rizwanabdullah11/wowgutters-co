@@ -269,6 +269,22 @@ fbq('track', 'PageView');`,
         <script src="/wow-cta-dialog-init.js?v=20260706" defer />
         <script src="/wow-quote-form-init.js?v=20260706" defer />
         <script src="/wow-elfsight-init.js?v=20261016" defer />
+        {/* Tawk.to Live Chat Widget */}
+        <script
+          id="tawk-to"
+          dangerouslySetInnerHTML={{
+            __html: `var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+if (typeof window !== 'undefined' && window.location && /^\\/quote\\/embed/i.test(window.location.pathname)) return;
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/6af62fa9950d783c40df1e11/1k78qkc7g';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();`,
+          }}
+        />
       </body>
     </html>
   );

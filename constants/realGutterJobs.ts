@@ -93,6 +93,29 @@ export const REAL_GUTTER_JOBS: RealGutterJob[] = [
  * only, so the photos stay unique to one page.
  */
 export const REAL_AREA_GUTTER_JOBS: Record<string, RealGutterJob[]> = {
+  rubery: [
+    {
+      id: 'rubery-rednal-b45-silt-moss-gutter-nov-2026',
+      title: 'Silt and moss cleared from a B45 gutter',
+      summary:
+        'Dark silt and moss washed off the concrete interlocking roof tiles had settled along this white gutter, slowing the water before it could reach the downpipe. We cleared it from the ground with our vacuum and checked it with the pole camera: the after photo shows the same run clean and draining. Before at 11:50, after at 11:57.',
+      area: 'Rubery & Rednal B45',
+      date: '16 November 2026',
+      landscape: true,
+      photos: [
+        {
+          src: '/area-pages/rubery-rednal-page/rubery-rednal-b45-gutter-cleaning-before-silt-moss-gutter.webp',
+          alt: 'Before gutter cleaning – silt and moss along a white gutter below concrete interlocking roof tiles',
+          label: 'Before',
+        },
+        {
+          src: '/area-pages/rubery-rednal-page/rubery-rednal-b45-gutter-cleaning-after-clear-gutter.webp',
+          alt: 'After gutter cleaning – the same white gutter run cleared and draining',
+          label: 'After',
+        },
+      ],
+    },
+  ],
   birmingham: [
     {
       id: 'birmingham-b9-leaf-blocked-gutter-nov-2026',
