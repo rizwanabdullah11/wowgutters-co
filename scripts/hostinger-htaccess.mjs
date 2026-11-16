@@ -21,6 +21,8 @@ const AREA_POLICY = require('../lib/area-index-policy.json');
  * Birmingham districts (→ /gutter-cleaning-birmingham/). 'SERVICE' = no local hub (out of area).
  */
 const PARENT_TOWN = {
+  // Nov 2026: Rednal is covered by the Rubery & Rednal B45 page
+  rednal: 'rubery',
   // Walsall
   aldridge: 'walsall', bentley: 'walsall', bloxwich: 'walsall', brownhills: 'walsall', darlaston: 'walsall',
   pelsall: 'walsall', pleck: 'walsall', rushall: 'walsall', shelfield: 'walsall', streetly: 'walsall',

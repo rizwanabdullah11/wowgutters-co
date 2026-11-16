@@ -4255,6 +4255,92 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     faqIntro: 'Answers to the things Brownhills homeowners ask us most.',
     useOwnFaqs: true,
   },
+  rubery: {
+    slug: 'rubery',
+    city: 'Rubery & Rednal',
+    titleTag: 'Gutter Cleaning Rubery & Rednal | From £100 | WOW Gutters Ltd',
+    metaDescription:
+      'Gutter cleaning in Rubery & Rednal B45 from £100. Homes near the Lickey Hills cleared from the ground, downpipes flushed, photos sent. Call 07421 433910.',
+    h1: 'Gutter Cleaning Rubery & Rednal — B45 Homes Near the Lickey Hills',
+    heroIntro:
+      'Rubery and Rednal sit right on the edge of the Lickey and Waseley Hills, so woodland is never more than a few streets away — and neither are leaves, seeds and moss. We clear B45 gutters from the ground with a high-reach vacuum, flush every downpipe and send you before & after photos.',
+    whyTitle: 'Why B45 Gutters Fill Up Faster',
+    whyBody: [
+      'Rubery and Rednal back onto two country parks: the Lickey Hills on the Rednal side and the Waseley Hills behind Rubery. Wind carries leaves, birch seeds and pine needles off the hills onto nearby roofs, and many gardens have mature trees of their own. Gutters here often fill faster than in the middle of Birmingham.',
+      'Many B45 homes have concrete interlocking roof tiles, which hold moss and grit in the ridges between each tile. Rain washes that material down into the gutter, where it settles as a dark sludge that slows the water and eventually blocks the outlet.',
+      'The area has everything from 1930s semis along the Bristol Road to newer estates built on the former Rubery Hill and Hollymoor hospital sites, plus homes on sloping roads up towards the hills. Our vacuum clears all of them from the ground up to four storeys, so there is no ladder on a slope and nothing resting on your gutter.',
+    ],
+    guarantees: [
+      'Cleared with a ground-based vacuum — no ladder ever rests on your guttering',
+      'Reaches up to 4 storeys — houses, flats and commercial buildings',
+      'Before & after photos of every gutter run, sent to you on the day',
+      'Downpipes flushed and tested before we leave',
+      'Fully insured — public liability cover on every visit',
+      'Fixed price agreed before any work starts — no call-out fee',
+    ],
+    propertyTypesTitle: 'Rubery & Rednal Homes We Clean',
+    propertyTypes: [
+      {
+        label: 'Homes near the Lickey Hills and Waseley Hills',
+        detail: 'Leaves, seeds and needles off the hills. Many benefit from a spring clean as well as autumn.',
+      },
+      {
+        label: 'Homes with concrete interlocking tiles',
+        detail: 'Moss and grit wash off the tile ridges into the gutter. Cleared and flushed, with photos of every run.',
+      },
+      {
+        label: '1930s semis (along and off the Bristol Road)',
+        detail: 'Older plastic gutters with loose brackets and dips. Cleared and photographed.',
+      },
+      {
+        label: 'Newer estates (Hollymoor, Rubery Hill)',
+        detail: 'Three-storey town houses reached from the ground with no scaffold.',
+      },
+    ],
+    areasTitle: 'Rubery & Rednal Areas We Cover',
+    areasInline:
+      'B45: Rubery, Rednal, Hollymoor, Rubery Hill, Lickey Hills side, Frankley border, Cofton Hackett border | Nearby: Longbridge, Northfield, Barnt Green, Bromsgrove',
+    faqsTitle: 'Rubery & Rednal Gutter Cleaning — Questions & Answers',
+    faqs: [
+      {
+        question: 'How much is gutter cleaning in Rubery and Rednal?',
+        answer: 'From £100 for a 2-bed and £110 for a 3-bed home, with Premium from £200 for 4+ beds or three storeys. Downpipe flushing and photos are included.',
+      },
+      {
+        question: 'My house backs onto the Lickey Hills — how often should I clean the gutters?',
+        answer: 'Once in late autumn as a minimum. Homes right next to the woodland usually need a second clean in spring as well.',
+      },
+      {
+        question: 'Do you cover both the Birmingham and Bromsgrove sides of Rubery?',
+        answer: 'Yes. We cover all of B45, whichever council it falls under, plus Frankley, Cofton Hackett, Longbridge and Barnt Green.',
+      },
+      {
+        question: 'Can you clean a three-storey town house on the Hollymoor estate?',
+        answer: 'Yes. Our vacuum reaches up to four storeys from the ground, so no scaffold is needed.',
+      },
+    ],
+    geo: { latitude: 52.3967, longitude: -2.0177 },
+    internalLinks: [
+      { label: 'Gutter cleaning Northfield', href: '/gutter-cleaning-northfield/' },
+      { label: 'Gutter cleaning Bromsgrove', href: '/gutter-cleaning-bromsgrove/' },
+      { label: 'Gutter cleaning Kings Norton', href: '/gutter-cleaning-kings-norton/' },
+      { label: 'Gutter repairs', href: '/gutter-repairs/' },
+      { label: 'Gutter cleaning prices', href: '/gutter-cleaning-prices/' },
+    ],
+    ctaHeading: 'Rubery or Rednal Gutters Blocked? Get a Fixed Price Today',
+    priceTo: 135,
+    nearbyAreas: ['Rubery', 'Rednal', 'Hollymoor', 'Frankley', 'Longbridge', 'Cofton Hackett', 'Barnt Green'],
+    postcodes: ['B45'],
+    localSpotlight:
+      'Typical B45 jobs include clearing moss and grit washed off concrete roof tiles, leaf clears for homes backing onto the Lickey and Waseley Hills, and three-storey town houses on the Hollymoor estate reached from the ground.',
+    heroBadge: 'Rubery & Rednal B45 • Homes near the Lickey Hills',
+    standardsTitle: 'Our Promise to Rubery & Rednal Customers',
+    spotlightTitle: 'Typical Jobs in Rubery & Rednal',
+    priceIntro: 'Rubery & Rednal homes are priced the same as everywhere we work: £100 for a 2-bed, £110 for a 3-bed and Premium from £200 for 4+ bed or three-storey homes. Downpipe flushing and before & after photos are always included.',
+    whatsappIntro: 'In Rubery, Rednal or near the Lickey Hills? WhatsApp us your road and we will reply with a price.',
+    faqIntro: 'Answers to the things Rubery & Rednal homeowners ask us most.',
+    useOwnFaqs: true,
+  },
 };
 
 
