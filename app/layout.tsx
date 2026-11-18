@@ -101,6 +101,8 @@ export default function RootLayout({
   const gtmId = (process.env.NEXT_PUBLIC_GTM_ID || "").trim();
   const metaPixelId = (process.env.NEXT_PUBLIC_META_PIXEL_ID || "1108538397342086").trim();
   const clarityProjectId = (process.env.NEXT_PUBLIC_CLARITY_PROJECT_ID || "z9voqi0s5k").trim();
+  const posthogKey = (process.env.NEXT_PUBLIC_POSTHOG_KEY || "phc_wrVkDhzzHbJY6Fgq8W8GLq7gaCptSSPTP3jURgTdwnr3").trim();
+  const posthogHost = (process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://eu.i.posthog.com").trim();
   const analyticsDebug = (process.env.NODE_ENV !== "production") ? "1" : "";
   const ga4ConfigId = JSON.stringify(ga4MeasurementId);
 
@@ -239,6 +241,16 @@ fbq('track', 'PageView');`,
             type="text/javascript"
             dangerouslySetInnerHTML={{
               __html: `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", ${JSON.stringify(clarityProjectId)});`,
+            }}
+          />
+        ) : null}
+        {/* PostHog — product analytics (EU cloud). Plain script required for static export. */}
+        {posthogKey ? (
+          <script
+            id="posthog"
+            type="text/javascript"
+            dangerouslySetInnerHTML={{
+              __html: `(function(w,d,k,h){if(w.posthog&&w.posthog.__loaded)return;w.posthog={__SV:1,_i:[[k,{api_host:h,defaults:'2026-08-30',person_profiles:'identified_only'},'posthog']]};var s=d.createElement('script');s.async=true;s.crossOrigin='anonymous';s.src=h.replace('.i.posthog.com','-assets.i.posthog.com')+'/static/array.js';(d.head||d.body).appendChild(s);})(window,document,${JSON.stringify(posthogKey)},${JSON.stringify(posthogHost)});`,
             }}
           />
         ) : null}
