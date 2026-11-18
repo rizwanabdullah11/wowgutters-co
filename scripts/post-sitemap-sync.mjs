@@ -120,7 +120,19 @@ finalXml = refreshSitemapLastmods(finalXml);
 fs.writeFileSync(SITEMAP, finalXml, 'utf8');
 const finalCount = parseUrls(finalXml).length;
 
+function writeWithRetry(targetPath, content, retries = 5, delayMs = 150) {
+  for (let i = 0; i < retries; i++) {
+    try {
+      fs.writeFileSync(targetPath, content, 'utf8');
+      return;
+    } catch (err) {
+      if (i === retries - 1) throw err;
+      Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, delayMs);
+    }
+  }
+}
+
 // Keep public/ in sync so repo + next build copy match deploy artifact
-fs.writeFileSync(path.join(PUBLIC, 'sitemap.xml'), finalXml, 'utf8');
+writeWithRetry(path.join(PUBLIC, 'sitemap.xml'), finalXml);
 console.log(`post-sitemap-sync: synced public/sitemap.xml from out (${finalCount} URLs)`);
 console.log(`post-sitemap-sync: out/sitemap.xml has ${finalCount} URLs`);
