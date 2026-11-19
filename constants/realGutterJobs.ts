@@ -93,6 +93,28 @@ export const REAL_GUTTER_JOBS: RealGutterJob[] = [
  * only, so the photos stay unique to one page.
  */
 export const REAL_AREA_GUTTER_JOBS: Record<string, RealGutterJob[]> = {
+  evesham: [
+    {
+      id: 'evesham-wr11-leaf-moss-gutter-nov-2026',
+      title: 'Leaves, moss and sludge cleared from a WR11 gutter',
+      summary:
+        'Wet autumn leaves, clumps of moss off the concrete roof tiles and a layer of dark sludge had filled this gutter, with standing water on top. We cleared it from the ground using our high-reach vacuum pole, which you can see resting on the roof. The after photo shows the same run cleared along its length.',
+      area: 'Evesham WR11',
+      date: 'November 2026',
+      photos: [
+        {
+          src: '/area-pages/evesham-page/evesham-wr11-gutter-cleaning-before-leaves-moss-blocked-gutter.webp',
+          alt: 'Before gutter cleaning – gutter filled with wet leaves, moss and sludge below concrete roof tiles',
+          label: 'Before',
+        },
+        {
+          src: '/area-pages/evesham-page/evesham-wr11-gutter-cleaning-after-clear-gutter.webp',
+          alt: 'After gutter cleaning – the same gutter run cleared, with the vacuum pole on the roof',
+          label: 'After',
+        },
+      ],
+    },
+  ],
   rubery: [
     {
       id: 'rubery-rednal-b45-silt-moss-gutter-nov-2026',
