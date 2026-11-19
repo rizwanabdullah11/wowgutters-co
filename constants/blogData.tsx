@@ -1,3 +1,5 @@
+import { guttersBeforeChristmasBlogPost } from './guttersBeforeChristmasBlog';
+import { gutterCleaning2027PlanningGuideBlogPost } from './gutterCleaning2027PlanningGuideBlog';
 import { fasciaSoffitCleaningGuideBlogPost } from './fasciaSoffitCleaningGuideBlog';
 import { highReachGutterVacuumBlogPost } from './highReachGutterVacuumBlog';
 import { gutterMaintenanceScheduleBlogPost } from './gutterMaintenanceScheduleBlog';
@@ -94,6 +96,8 @@ import type { BlogPost } from './blogTypes';
 export type { BlogPost };
 
 export const blogPosts: BlogPost[] = [
+  guttersBeforeChristmasBlogPost,
+  gutterCleaning2027PlanningGuideBlogPost,
   fasciaSoffitCleaningGuideBlogPost,
   highReachGutterVacuumBlogPost,
   gutterMaintenanceScheduleBlogPost,
