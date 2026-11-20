@@ -7,6 +7,7 @@ import { AreaServiceQuoteCard } from '@/components/areas/AreaServiceBlock';
 import AreaBlogSnippet from '@/components/areas/AreaBlogSnippet';
 import AreaRecentWork from '@/components/areas/AreaRecentWork';
 import { liveRoofJobsFor, realRoofJobsFor } from '@/constants/realRoofJobs';
+import { realGutterJobsFor } from '@/constants/realGutterJobs';
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import LocalBoostSection from '@/components/areas/LocalBoostSection';
@@ -162,6 +163,14 @@ export default function SuburbGutterCleaningPage({
           </div>
         </div>
       </section>
+
+      {serviceKind === 'gutter' && areaSlug && realGutterJobsFor(areaSlug) ? (
+        <AreaRecentWork
+          jobs={realGutterJobsFor(areaSlug)}
+          heading={`Recent Gutter Cleaning in ${data.city} – Real Before & After`}
+          intro={`Unedited photos from a WOW Gutters job in ${data.city}, taken with our pole camera. Every clean comes with photos like these.`}
+        />
+      ) : null}
 
       {/* SECTION 2 — GUARANTEES */}
       <section className="py-16 px-4 bg-slate-50">

@@ -93,6 +93,29 @@ export const REAL_GUTTER_JOBS: RealGutterJob[] = [
  * only, so the photos stay unique to one page.
  */
 export const REAL_AREA_GUTTER_JOBS: Record<string, RealGutterJob[]> = {
+  'kings-heath': [
+    {
+      id: 'kings-heath-b14-moss-packed-gutter-nov-2026',
+      title: 'Moss-packed gutter cleared on a Kings Heath home',
+      summary:
+        'Moss growing between the concrete roof tiles had washed down and packed this black gutter solid with moss and soil. We cleared it from the ground with our vacuum and checked it with the pole camera: the after photo shows the same run empty and wet, with the water free to reach the downpipe. Before at 09:26, after at 09:52.',
+      area: 'Kings Heath B14',
+      date: '19 November 2026',
+      landscape: true,
+      photos: [
+        {
+          src: '/area-pages/kings-heath-page/kings-heath-b14-gutter-cleaning-before-moss-packed-gutter.webp',
+          alt: 'Before gutter cleaning – black gutter packed with moss and soil below mossy concrete roof tiles',
+          label: 'Before',
+        },
+        {
+          src: '/area-pages/kings-heath-page/kings-heath-b14-gutter-cleaning-after-clear-gutter.webp',
+          alt: 'After gutter cleaning – the same black gutter run cleared and empty',
+          label: 'After',
+        },
+      ],
+    },
+  ],
   evesham: [
     {
       id: 'evesham-wr11-leaf-moss-gutter-nov-2026',
