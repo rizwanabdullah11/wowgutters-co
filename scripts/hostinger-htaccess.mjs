@@ -358,6 +358,24 @@ ${legacy}
   RewriteCond %{QUERY_STRING} ^[a-z]{2,15}/[a-z]?[0-9]{6,} [NC,OR]
   RewriteCond %{QUERY_STRING} ^[a-z]?[0-9]{8,}/?$ [NC]
   RewriteRule ^$ - [G,L]
+
+  # Nov 23 2026: GSC still shows 1.74M spam variants that slipped past the patterns above
+  # (/?l=ftxgialbya1bcbi  /?cate-6  /?cate-19-1722  /?k18510066232106/m) — they returned
+  # 200 + canonical to /. Allow-list instead: the homepage has no query-string features,
+  # so ANY query on / gets 410 unless it carries a real tracking/ads parameter.
+  RewriteCond %{QUERY_STRING} .
+  RewriteCond %{QUERY_STRING} !(^|&)(utm_[a-z_]+|gclid|gbraid|wbraid|gad_source|gad_campaignid|dclid|fbclid|msclkid|ttclid|li_fat_id|srsltid|_gl|_rsc)= [NC]
+  RewriteRule ^$ - [G,L]
+
+  # Same protection for every other page: no page on this site uses query strings, so
+  # /any-page/?junk 301s to the clean URL instead of creating a duplicate Google must
+  # canonicalise. Tracking/ads params are kept. Trailing "?" drops the query string.
+  RewriteCond %{QUERY_STRING} .
+  RewriteCond %{QUERY_STRING} !(^|&)(utm_[a-z_]+|gclid|gbraid|wbraid|gad_source|gad_campaignid|dclid|fbclid|msclkid|ttclid|li_fat_id|srsltid|_gl|_rsc)= [NC]
+  RewriteRule ^(.+/)$ /$1? [R=301,L]
+
+  # GSC Nov 2026 real 404: misspelt variant of an already-redirected blog URL
+  RewriteRule ^what-happens-if-gutters-arent-cleaned-on-commercial-property/?$ /services/commercial-gutter-cleaning/ [R=301,L]
   RewriteRule ^shop(/.*)?$ - [G,L]
 
   # Cannibalisation + dead URLs found in GSC (Oct 2026)
