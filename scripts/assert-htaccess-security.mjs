@@ -22,6 +22,13 @@ const required = [
   'wow-gutters',
 ];
 
+// Spam-URL protection (GSC Nov 2026: 1.74M spam query URLs). Build fails if removed.
+required.push(
+  'RewriteCond %{QUERY_STRING} !(^|&)(utm_[a-z_]+|gclid|',
+  'RewriteRule ^$ - [G,L]',
+  'RewriteRule ^(.+/)$ /$1? [R=301,L]',
+);
+
 const missing = required.filter((snippet) => !content.includes(snippet));
 
 if (missing.length) {
