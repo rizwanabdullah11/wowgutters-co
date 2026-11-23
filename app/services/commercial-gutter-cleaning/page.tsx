@@ -5,9 +5,9 @@ import { getServiceById } from '@/constants/servicesData';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = buildMetadata({
-  absoluteTitle: 'Commercial Gutter Cleaning West Midlands | WOW Gutters Ltd',
+  absoluteTitle: 'Commercial Gutter Cleaning Birmingham | WOW Gutters Ltd',
   description:
-    'Professional commercial gutter cleaning for offices, warehouses, schools and retail units. Flexible scheduling, maintenance contracts, fully insured. Call 07421 433910.',
+    'Commercial gutter cleaning in Birmingham & the West Midlands for offices, warehouses, schools and retail. Free site survey, fixed quote, fully insured.',
   canonicalPath: '/services/commercial-gutter-cleaning/',
 });
 

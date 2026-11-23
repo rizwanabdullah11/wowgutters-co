@@ -766,7 +766,7 @@ export const servicesData: ServiceDetail[] = [
     icon: '🏢',
     heroImage: '/gutter-cleaning-westmidlands.webp',
     heroVideo: '/gutter-cleaning-video.mp4',
-    heroTitle: 'Commercial Gutter Cleaning',
+    heroTitle: 'Commercial Gutter Cleaning in Birmingham & the West Midlands',
     heroDescription:
       'Professional commercial gutter cleaning for offices, warehouses, schools, retail units, and industrial estates across Birmingham and the West Midlands. Planned maintenance contracts, out-of-hours slots, high-reach vacuum access, and full photographic documentation.',
     sections: [
@@ -838,6 +838,19 @@ export const servicesData: ServiceDetail[] = [
         ],
       },
       {
+        title: 'How Commercial Gutter Cleaning Is Priced',
+        content:
+          'Every commercial site is different, so commercial gutter cleaning is quoted per site rather than from a fixed price list. We start with a free site survey (or a remote quote from photos and a site address), then send a written scope and fixed price before any work is booked. There are no call-out fees and no hidden extras added on the day.',
+        bulletPoints: [
+          'Free site survey or remote quote from photos and your site address',
+          'Written scope and fixed price before work is booked',
+          'Price depends on gutter length, building height, access and blockage level',
+          'Multi-site and planned maintenance contracts quoted as one schedule',
+          'Repairs found during clearing quoted separately — never added without approval',
+          'Fully insured, with paperwork supplied for your maintenance records',
+        ],
+      },
+      {
         title: 'Commercial Gutter Cleaning & Related Services',
         content:
           'Many commercial sites need more than gutter clearing alone. WOW Gutters Ltd can combine commercial gutter cleaning with roof treatment, fascia cleaning, and repairs in one coordinated programme.',
@@ -867,7 +880,7 @@ export const servicesData: ServiceDetail[] = [
     icon: '🏢',
     heroImage: '/roof-cleaning.JPG',
     heroVideo: '/roof-cleaning-video.mp4',
-    heroTitle: 'Commercial & Industrial Roof Cleaning',
+    heroTitle: 'Commercial Roof Cleaning in Birmingham & the West Midlands',
     heroDescription:
       'Moss, algae and lichen removed from warehouse, factory, office, school and retail roofs across Birmingham and the West Midlands. Low-pressure soft wash, biocide treatment, RAMS before we start and a photo report when we finish — fully insured.',
     sections: [
@@ -1004,6 +1017,19 @@ export const servicesData: ServiceDetail[] = [
           'Biocide treatment where appropriate for longer-lasting results',
           'Gutter and outlet clearing so moss debris does not block channels',
           'Before and after photos for your maintenance files',
+        ],
+      },
+      {
+        title: 'How Commercial Roof Cleaning Is Priced',
+        content:
+          'Commercial roof cleaning is quoted per site after a free survey, because roof area, material, pitch and access vary so much between buildings. You get a written scope and fixed price before anything is booked. For smaller buildings, our standard roof cleaning starts from £500; warehouses, factories and multi-unit sites are priced individually.',
+        bulletPoints: [
+          'Free roof survey — on site or from photos and your site address',
+          'Written scope and fixed price before work is booked',
+          'Smaller buildings: roof cleaning from £500',
+          'Warehouses, factories, schools and estates priced per site',
+          'Planned maintenance across several buildings quoted as one schedule',
+          'Fully insured, with a photo report for insurers, landlords or tenants',
         ],
       },
       {
