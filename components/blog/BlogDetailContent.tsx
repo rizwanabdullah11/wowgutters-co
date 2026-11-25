@@ -73,6 +73,13 @@ function normaliseHeading(text: string): string {
 function cleanBlogHtml(html: string, title: string): string {
   if (!html) return html;
   const wanted = normaliseHeading(title);
+  // Nov 25 2026: some posts link the words "West Midlands" / "all West Midlands areas" to the
+  // Birmingham page, which tells Google that page is about the West Midlands. Point those links
+  // at the homepage (the West Midlands page) so /gutter-cleaning-birmingham/ stays about Birmingham.
+  html = html.replace(
+    /<a(\s[^>]*?)href="(?:https:\/\/wowgutters\.co\.uk)?\/gutter-cleaning-birmingham\/?"([^>]*)>(\s*(?:all\s+)?(?:the\s+)?(?:wider\s+)?West Midlands(?:\s+areas)?\s*)<\/a>/gi,
+    '<a$1href="/"$2>$3</a>',
+  );
   return html.replace(/<h1\b([^>]*)>([\s\S]*?)<\/h1>/gi, (_m, attrs: string, inner: string) =>
     normaliseHeading(inner) === wanted ? '' : `<h2${attrs}>${inner}</h2>`,
   );
