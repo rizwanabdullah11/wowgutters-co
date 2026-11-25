@@ -58,7 +58,10 @@ export default function Footer() {
     'Walsall', 'Dudley', 'West Bromwich', 'Sandwell', 'Halesowen',
     'Coventry', 'Worcester',
     'Redditch', 'Bromsgrove', 'Kidderminster', 'Malvern',
-    'Evesham', 'Droitwich Spa'
+    'Evesham', 'Droitwich Spa',
+    // Nov 25 2026: both rank on page 2 for their town searches but had no homepage link
+    // (Hinckley had only 2 internal links site-wide).
+    'Northfield', 'Hinckley'
   ];
 
   // Site-wide links to the main money pages, with exact-match anchors (Oct 2026 SEO:

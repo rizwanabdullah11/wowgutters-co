@@ -145,7 +145,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Walsall',
     titleTag: 'Gutter Cleaning Walsall | From £100 | No Ladders',
     metaDescription:
-      'Gutter cleaning across Walsall — Caldmore terraces, Park Hall semis, Streetly and Aldridge detached homes. From £100, cleared from the ground, photos on every job. 07421 433910.',
+      'Gutter cleaning in Walsall from £100: Caldmore terraces, Park Hall semis, Streetly & Aldridge homes. Cleared from the ground, photo proof. 07421 433910.',
     h1: 'Gutter Cleaning Walsall — From Caldmore Terraces to Streetly Detached Homes',
     heroIntro:
       'Walsall housing changes a lot from one side of the borough to the other: tight Victorian rows in Caldmore and Palfrey, interwar semis around Park Hall, and big detached homes on the Sutton Park side of Streetly. We clear all of them from the pavement or drive, with no ladder against your wall.',
@@ -240,7 +240,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   dudley: {
     slug: 'dudley',
     city: 'Dudley',
-    titleTag: 'Gutter Cleaning Dudley, Sedgley & Kingswinford | WOW Gutters',
+    titleTag: 'Gutter Cleaning Dudley | From £100 | WOW Gutters Ltd',
     metaDescription: 'Gutter cleaning in Dudley, Sedgley, Kingswinford & Brierley Hill from £100. No ladders, before & after photos, fully insured. Call 07421 433910.',
     h1: 'Gutter Cleaning Dudley — Expert Service Across the Black Country',
     heroIntro:
@@ -324,9 +324,11 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
   sandwell: {
     slug: 'sandwell',
     city: 'Sandwell',
-    titleTag: 'Gutter Cleaning West Bromwich & Sandwell | WOW Gutters',
-    metaDescription: 'Gutter cleaning in West Bromwich, Oldbury, Smethwick & Tipton. Ground-level vacuum, photo proof, fully insured, from £100. Call 07421 433910.',
-    h1: 'Gutter Cleaning Sandwell — Professional Service for West Bromwich, Smethwick & Beyond',
+    // Nov 25 2026: West Bromwich now leads only on /gutter-cleaning-west-bromwich/ — this page was
+    // taking "gutter cleaning west bromwich" from it (GSC: Sandwell page ranked for that query).
+    titleTag: 'Gutter Cleaning Sandwell: Oldbury, Smethwick & Tipton',
+    metaDescription: 'Gutter cleaning across Sandwell: Oldbury, Smethwick, Tipton & Wednesbury. Ground-level vacuum, photo proof, from £100. Call 07421 433910.',
+    h1: 'Gutter Cleaning Sandwell — Professional Service for Oldbury, Smethwick & Beyond',
     heroIntro:
       "Sandwell Metropolitan Borough covers a densely populated urban area between Birmingham and Wolverhampton \u2014 including West Bromwich, Smethwick, Oldbury, Tipton, Wednesbury and Rowley Regis. The housing is predominantly Victorian and Edwardian terraces in Smethwick and West Bromwich, with 1930s and post-war semis in Oldbury and Rowley Regis. Properties near West Bromwich Albion FC at The Hawthorns are surrounded by some of the densest terraced housing in the West Midlands. The areas around Sandwell Valley Country Park experience significant leaf fall each autumn.",
     whyTitle: 'Why Sandwell Properties Need Regular Gutter Maintenance',
@@ -1022,7 +1024,7 @@ export const CITY_GUTTER_LANDINGS: Record<string, CityGutterLandingData> = {
     city: 'Solihull',
     titleTag: 'Gutter Cleaning Solihull | From £100 | No Ladders',
     metaDescription:
-      'Gutter cleaning in Solihull — Knowle and Dorridge detached homes, Shirley and Olton semis, Dickens Heath townhouses. From £100, cleared from the ground, photo proof. 07421 433910.',
+      'Gutter cleaning in Solihull from £100: Knowle & Dorridge detached homes, Shirley & Olton semis, Dickens Heath. Cleared from the ground. 07421 433910.',
     h1: 'Gutter Cleaning Solihull — Knowle, Dorridge, Shirley & Dickens Heath',
     heroIntro:
       'Solihull homes tend to have more gutter than most: long runs on Knowle and Dorridge detached houses, three-storey townhouses in Dickens Heath and Monkspath, and bay-fronted semis in Olton and Shirley. We clear them all from the ground with a high-reach vacuum and send you photos of every run.',
