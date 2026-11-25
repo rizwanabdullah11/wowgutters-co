@@ -265,6 +265,37 @@ export default function NeighbourhoodDiscount() {
           </div>
         </div>
       </section>
+
+      {/* Nov 2026 on-page audit: answers to common questions (page was under 600 words) */}
+      <section className="py-16 px-4 bg-white border-t border-slate-100">
+        <div className="max-w-4xl mx-auto">
+          <span className="text-sm font-bold uppercase tracking-wider text-emerald-700">Group bookings</span>
+          <h2 className="text-3xl sm:text-4xl font-black text-slate-900 mt-2 mb-4">Neighbourhood Discount: Common Questions</h2>
+          <p className="text-lg text-slate-600 leading-relaxed mb-8">Group bookings save money because our crew can clean several homes on one street in a single visit instead of travelling back and forth. These are the questions neighbours usually ask before they book together.</p>
+          <div className="space-y-4">
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="text-lg font-bold text-slate-900 mb-2">How many homes do we need?</h3>
+              <p className="text-slate-600 leading-relaxed">Two or more properties on the same street or close can book as a group: 2–3 homes save 10%, 4–5 homes save 15%, and 6 or more save 20%. Tell us how many are interested and we will send one group quote.</p>
+            </div>
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="text-lg font-bold text-slate-900 mb-2">Do we all need to be in on the day?</h3>
+              <p className="text-slate-600 leading-relaxed">Gutter cleaning is done from outside with our ground-level vacuum, so we rarely need to come indoors. Let us know when you book if we need a side gate opened to reach the back gutters. Each household receives its own before and after photos.</p>
+            </div>
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="text-lg font-bold text-slate-900 mb-2">Does every home get the same standard?</h3>
+              <p className="text-slate-600 leading-relaxed">Yes. Every property in the group receives the same full vacuum clean, downpipe check and condition report as a single booking. The discount comes from saved travel time, not from a quicker clean.</p>
+            </div>
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="text-lg font-bold text-slate-900 mb-2">What if our houses share a gutter?</h3>
+              <p className="text-slate-600 leading-relaxed">Semi-detached and terraced homes often share one gutter run. Cleaning the whole run in one visit stops debris from next door washing straight back into your section, which is why shared runs suit group bookings best.</p>
+            </div>
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="text-lg font-bold text-slate-900 mb-2">Can we add other services?</h3>
+              <p className="text-slate-600 leading-relaxed">Yes. Fascia and soffit washing, conservatory roof cleaning and roof moss removal can be added for any household in the group, which can add further street-wide savings.</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

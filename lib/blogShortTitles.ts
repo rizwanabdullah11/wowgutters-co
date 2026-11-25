@@ -66,4 +66,17 @@ export const BLOG_SHORT_TITLES: Record<string, string> = {
   'birmingham-seasonal-gutter-guide': 'Birmingham Gutter Maintenance Calendar by Season',
   'gutter-cleaning-protection': 'How Gutter Cleaning Protects Your Roof & Walls',
   'gutter-clean-duration': 'How Long Does a Professional Gutter Clean Take?',
+  // Nov 25 2026 audit: posts added in November whose headlines ran past 60 characters.
+  'never-clean-gutters-damage': 'Never Cleaned Your Gutters? The Long-Term Damage',
+  'gutters-before-christmas': 'Gutter Cleaning Before Christmas: December Checklist',
+  'gutter-maintenance-schedule': 'Gutter Maintenance Schedule: Month-by-Month Guide',
+  'clogged-gutter-symptoms': 'Clogged Gutter Symptoms: 9 Warning Signs',
+  'landlord-gutter-checklist': 'Landlord Gutter Checklist Between Tenancies',
+  'gutter-repair-or-replace': 'Gutter Repair or Replacement? What Drives the Cost',
+  'church-hall-gutters': 'Church Hall & Community Building Gutter Guide',
+  'damp-external-wall-gutters': 'Damp Outside Wall? Check If Gutters Are the Cause',
+  'birds-nest-in-gutter': 'Birds’ Nests in Gutters: What to Do and Not Do',
+  'is-gutter-cleaning-worth-it': 'Is Gutter Cleaning Worth It? What Neglect Costs',
+  'new-homeowner-gutters': 'New Homeowner’s Gutter Checklist: First Year',
+  'after-storm-gutters': 'Gutter Cleaning After a Storm: Aftermath Checklist',
 };

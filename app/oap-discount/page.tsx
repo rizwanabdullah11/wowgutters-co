@@ -257,6 +257,37 @@ export default function OAPDiscount() {
           </div>
         </div>
       </section>
+
+      {/* Nov 2026 on-page audit: answers to common questions (page was under 600 words) */}
+      <section className="py-16 px-4 bg-white border-t border-slate-100">
+        <div className="max-w-4xl mx-auto">
+          <span className="text-sm font-bold uppercase tracking-wider text-emerald-700">Good to know</span>
+          <h2 className="text-3xl sm:text-4xl font-black text-slate-900 mt-2 mb-4">OAP Discount: Common Questions</h2>
+          <p className="text-lg text-slate-600 leading-relaxed mb-8">Many of our older customers, and the sons and daughters who book for them, ask the same few questions before their first visit. Here are straight answers so you know exactly what to expect.</p>
+          <div className="space-y-4">
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="text-lg font-bold text-slate-900 mb-2">Can a family member book on my behalf?</h3>
+              <p className="text-slate-600 leading-relaxed">Yes. Relatives often arrange the visit for a parent or grandparent. Give us the property address and a contact number on the day, and we will send the before and after photos to whoever made the booking.</p>
+            </div>
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="text-lg font-bold text-slate-900 mb-2">How much is the OAP discount?</h3>
+              <p className="text-slate-600 leading-relaxed">Pensioners save up to 15% on our gutter cleaning and maintenance services. Mention the discount when you request your quote and the saving is shown on the price before you agree to anything.</p>
+            </div>
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="text-lg font-bold text-slate-900 mb-2">Do you need to come inside my home?</h3>
+              <p className="text-slate-600 leading-relaxed">Gutter cleaning is done from outside. Our high-reach vacuum works from the ground, so there are no ladders against your walls and we rarely need to come indoors. If we need a side gate opened to reach the back gutters, we will mention it when we confirm your visit.</p>
+            </div>
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="text-lg font-bold text-slate-900 mb-2">How will I know the job was done properly?</h3>
+              <p className="text-slate-600 leading-relaxed">Every visit ends with before and after photos of your cleared gutters and downpipe outlets. If we spot a cracked joint, a sagging bracket or a leak, we explain it in plain English and quote before doing any repair.</p>
+            </div>
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="text-lg font-bold text-slate-900 mb-2">Which areas do you cover?</h3>
+              <p className="text-slate-600 leading-relaxed">We cover Birmingham, Solihull, Sutton Coldfield, Wolverhampton, Walsall, Dudley, West Bromwich and the surrounding West Midlands towns. Call 07421 433910 if you are not sure whether we reach your street.</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }

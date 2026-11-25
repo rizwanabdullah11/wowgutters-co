@@ -274,6 +274,36 @@ export default function ReviewsPage() {
           to { opacity: 1; transform: translateY(0); }
         }
       `}</style>
+      {/* Nov 2026 on-page audit: answers to common questions (page was under 600 words) */}
+      <section className="py-16 px-4 bg-white border-t border-slate-100">
+        <div className="max-w-4xl mx-auto">
+          <span className="text-sm font-bold uppercase tracking-wider text-emerald-700">Our standard</span>
+          <h2 className="text-3xl sm:text-4xl font-black text-slate-900 mt-2 mb-4">What to Expect When You Book</h2>
+          <p className="text-lg text-slate-600 leading-relaxed mb-8">Reviews tell you what other homeowners thought. This section explains what actually happens on your visit, so you can judge us against the same standard our customers do.</p>
+          <div className="space-y-4">
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="text-lg font-bold text-slate-900 mb-2">Before we arrive</h3>
+              <p className="text-slate-600 leading-relaxed">You get a clear price before the visit, with no hidden extras. We confirm the day and let you know if we need a side gate opened, because the work is done from outside the property.</p>
+            </div>
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="text-lg font-bold text-slate-900 mb-2">During the clean</h3>
+              <p className="text-slate-600 leading-relaxed">Our engineers use a high-reach gutter vacuum that works from the ground, reaching gutters up to four storeys high without ladders against your walls. We clear the full gutter run and check that each downpipe outlet drains.</p>
+            </div>
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="text-lg font-bold text-slate-900 mb-2">After the clean</h3>
+              <p className="text-slate-600 leading-relaxed">Before packing away, we photograph your cleared gutters and send the before and after photos to your phone. If we find damage such as a cracked joint or a loose bracket, we explain it and quote before doing any repair.</p>
+            </div>
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="text-lg font-bold text-slate-900 mb-2">Our guarantee</h3>
+              <p className="text-slate-600 leading-relaxed">Our gutter cleaning comes with a one-year service guarantee for peace of mind all year round. Ask us for the full guarantee terms when you book.</p>
+            </div>
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="text-lg font-bold text-slate-900 mb-2">Something not right?</h3>
+              <p className="text-slate-600 leading-relaxed">Call 07421 433910 or email support@wowgutters.co.uk. We reply to every Google review, and we would always rather hear about a concern directly so we can fix it quickly.</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
