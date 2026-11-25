@@ -57,6 +57,34 @@ function BlogContent({ html }: { html: string }) {
   );
 }
 
+// ── One H1 per page (Nov 2026 on-page audit) ──
+// The hero already renders post.title as the page's only <h1>. Some posts repeat the title
+// as an <h1> inside their content HTML; drop that duplicate and demote any other content
+// <h1> to <h2> so every blog page has exactly one H1.
+function normaliseHeading(text: string): string {
+  return text
+    .replace(/<[^>]+>/g, '')
+    .replace(/&[a-z#0-9]+;/gi, ' ')
+    .replace(/[^a-z0-9]+/gi, ' ')
+    .trim()
+    .toLowerCase();
+}
+
+function cleanBlogHtml(html: string, title: string): string {
+  if (!html) return html;
+  const wanted = normaliseHeading(title);
+  // Nov 25 2026: some posts link the words "West Midlands" / "all West Midlands areas" to the
+  // Birmingham page, which tells Google that page is about the West Midlands. Point those links
+  // at the homepage (the West Midlands page) so /gutter-cleaning-birmingham/ stays about Birmingham.
+  html = html.replace(
+    /<a(\s[^>]*?)href="(?:https:\/\/wowgutters\.co\.uk)?\/gutter-cleaning-birmingham\/?"([^>]*)>(\s*(?:all\s+)?(?:the\s+)?(?:wider\s+)?West Midlands(?:\s+areas)?\s*)<\/a>/gi,
+    '<a$1href="/"$2>$3</a>',
+  );
+  return html.replace(/<h1\b([^>]*)>([\s\S]*?)<\/h1>/gi, (_m, attrs: string, inner: string) =>
+    normaliseHeading(inner) === wanted ? '' : `<h2${attrs}>${inner}</h2>`,
+  );
+}
+
 // ── Split blog content into main body (including FAQs) and full-width bottom CTA ──
 function splitBlogContent(content: string): { mainHtml: string; bottomHtml: string } {
   if (!content) return { mainHtml: '', bottomHtml: '' };
@@ -245,7 +273,8 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
     ]
   };
 
-  const { mainHtml, bottomHtml } = post.content ? splitBlogContent(post.content) : { mainHtml: '', bottomHtml: '' };
+  const contentHtml = post.content ? cleanBlogHtml(post.content, post.title) : '';
+  const { mainHtml, bottomHtml } = contentHtml ? splitBlogContent(contentHtml) : { mainHtml: '', bottomHtml: '' };
 
   return (
     <main className="bg-white blog-detail-wrapper">
@@ -362,8 +391,8 @@ export default function BlogDetailContent({ post, relatedPosts = [] }: BlogDetai
               <div className="prose prose-lg max-w-none blog-content">
                 {mainHtml ? (
                   <BlogContent html={mainHtml} />
-                ) : post.content ? (
-                  <BlogContent html={post.content} />
+                ) : contentHtml ? (
+                  <BlogContent html={contentHtml} />
                 ) : (
                   <div className="space-y-6">
                     <p className="text-lg leading-relaxed text-gray-700">

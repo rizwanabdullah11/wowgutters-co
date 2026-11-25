@@ -14,6 +14,7 @@ import { REAL_GUTTER_JOBS, realGutterJobsFor } from '@/constants/realGutterJobs'
 import AreaContactMap from '@/components/areas/AreaContactMap';
 import AreaServicesHub from '@/components/navigation/AreaServicesHub';
 import GoogleReviewsBlock from '@/components/sections/GoogleReviewsBlock';
+import { GUTTER_PRICING_PACKAGES, GUTTER_ADDON_SERVICES, formatGbp } from '@/constants/gutterPricing';
 
 /** Hero USP tags with icons. */
 const HERO_USP_PILLS: { label: string; Icon: LucideIcon }[] = [
@@ -406,6 +407,74 @@ export default function BirminghamGutterCleaningPage() {
               </tbody>
             </table>
           </div>
+        </div>
+      </section>
+
+      {/* Nov 25 2026: Birmingham price list. Competitors ranking above us (Ben's Gutters, GutterPRO) show
+          prices or instant quotes; this page showed none. Prices come from constants/gutterPricing.ts so
+          they always match the rest of the site. */}
+      <section id="birmingham-gutter-cleaning-prices" className="py-16 md:py-20 px-4 bg-slate-50 border-t border-slate-100">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-black text-slate-900 mb-4 text-center md:text-left">
+            Gutter cleaning prices in Birmingham
+          </h2>
+          <p className="text-slate-600 mb-10 max-w-3xl text-center md:text-left mx-auto md:mx-0">
+            Fixed prices for homes across Birmingham, with no call-out fee. Every clean includes full gutter clearance,
+            a downpipe check and before &amp; after photos sent to your phone. Homes with four or more bedrooms go on
+            our Premium Service.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+            {GUTTER_PRICING_PACKAGES.map((pkg) => (
+              <div
+                key={pkg.title}
+                className={`rounded-2xl bg-white p-6 shadow-sm border ${'popular' in pkg && pkg.popular ? 'border-emerald-500 ring-2 ring-emerald-500/30' : 'border-slate-200'}`}
+              >
+                <h3 className="text-lg font-black text-slate-900">{pkg.title}</h3>
+                <p className="mt-2 text-4xl font-black" style={{ color: colors.primary }}>
+                  {pkg.title === 'Premium Service' ? `from ${formatGbp(pkg.price)}` : formatGbp(pkg.price)}
+                </p>
+                <p className="mt-2 text-sm text-slate-600">{pkg.description}</p>
+                <ul className="mt-4 space-y-2">
+                  {pkg.features.map((f) => (
+                    <li key={f} className="flex items-start gap-2 text-sm text-slate-700">
+                      <Check className="w-4 h-4 mt-0.5 shrink-0" style={{ color: colors.primary }} />
+                      {f}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+          <div className="rounded-2xl border border-slate-200 bg-white overflow-hidden">
+            <table className="w-full text-left text-sm">
+              <caption className="sr-only">Extra services in Birmingham and their prices</caption>
+              <thead>
+                <tr className="bg-slate-100 border-b border-slate-200">
+                  <th className="p-4 font-black text-slate-900">Add-on service in Birmingham</th>
+                  <th className="p-4 font-black text-slate-900">Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                {GUTTER_ADDON_SERVICES.map((s) => (
+                  <tr key={s.title} className="border-b border-slate-100 last:border-0">
+                    <td className="p-4 text-slate-800">
+                      <span className="font-bold">{s.title}</span>
+                      <span className="block text-slate-500">{s.description}</span>
+                    </td>
+                    <td className="p-4 font-black text-slate-900 whitespace-nowrap">
+                      {'startingFrom' in s && s.startingFrom ? `from ${formatGbp(s.price)}` : formatGbp(s.price)}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-6 text-center md:text-left">
+            <Link href="/quote/" className="font-bold underline underline-offset-2" style={{ color: colors.primary }}>
+              Get your exact Birmingham price in 60 seconds
+            </Link>{' '}
+            <span className="text-slate-600">or call 07421 433910.</span>
+          </p>
         </div>
       </section>
 

@@ -25,5 +25,8 @@ export function dropBirminghamSuffix(text: string): string {
   if (!m) return text;
   const place = m[2].trim();
   if (!place || /birmingham/i.test(place)) return text;
+  // "Gutter Cleaning for Offices & Schools in Birmingham": the words before Birmingham are not a
+  // place name, and dropping Birmingham would leave a dangling "in". Keep the text as written.
+  if (/^(for|of|to)\b/i.test(place) || /\b(in|for|across|near|around|of|to|and|&)$/i.test(place)) return text;
   return `${m[1]}${place}${m[3]}`.replace(/\s+/g, ' ').trim();
 }

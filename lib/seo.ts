@@ -74,12 +74,25 @@ export function seoTitle(raw: string, opts: { keepSegments?: boolean } = {}): st
 }
 
 /** Meta descriptions: fix encoding, keep ≤160 chars, cut at a sentence or word boundary. */
+/**
+ * Nov 25 2026 (GSC CTR review): 38 service/area snippets showed no phone number, and pages
+ * ranking #6 (Northfield, the calculator) got zero clicks. When the phone is missing and
+ * fits within 160 characters, end the description with "Call 07421 433910."
+ */
+const PHONE = '07421 433910';
+function withPhoneCta(d: string): string {
+  if (/07421\s?433\s?910/.test(d) || d.endsWith('…')) return d;
+  const base = /[.!?]$/.test(d) ? d : `${d}.`;
+  const out = `${base} Call ${PHONE}.`;
+  return out.length <= 160 ? out : d;
+}
+
 export function seoDescription(raw: string): string {
   const d = raw.replace(/\s*”\s*/g, ' — ').replace(/\s+/g, ' ').trim();
-  if (d.length <= 160) return d;
+  if (d.length <= 160) return withPhoneCta(d);
   const window = d.slice(0, 160);
   const stop = Math.max(window.lastIndexOf('. '), window.lastIndexOf('! '), window.lastIndexOf('? '));
-  if (stop >= 90) return window.slice(0, stop + 1);
+  if (stop >= 90) return withPhoneCta(window.slice(0, stop + 1));
   const cut = d.slice(0, 157);
   return `${cut.slice(0, cut.lastIndexOf(' ')).replace(/[,;:—–-]$/, '')}…`;
 }

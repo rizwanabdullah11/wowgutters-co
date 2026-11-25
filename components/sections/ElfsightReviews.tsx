@@ -62,6 +62,26 @@ function loadElfsightPlatform() {
   document.body.appendChild(script);
 }
 
+const INTERACTION_EVENTS = ['scroll', 'pointerdown', 'touchstart', 'keydown', 'mousemove', 'wheel'] as const;
+
+/** Runs `cb` once, on the visitor's first scroll / tap / key / mouse move. Returns a cancel function. */
+function onFirstInteraction(cb: () => void): () => void {
+  let fired = false;
+  const opts: AddEventListenerOptions = { passive: true, capture: true };
+  const handler = (e: Event) => {
+    // Browsers fire a synthetic zero-distance mousemove while a page loads under a resting
+    // cursor; only count real mouse movement.
+    if (e.type === 'mousemove' && !(e as MouseEvent).movementX && !(e as MouseEvent).movementY) return;
+    if (fired) return;
+    fired = true;
+    remove();
+    cb();
+  };
+  const remove = () => INTERACTION_EVENTS.forEach((e) => window.removeEventListener(e, handler, opts));
+  INTERACTION_EVENTS.forEach((e) => window.addEventListener(e, handler, opts));
+  return remove;
+}
+
 type ElfsightReviewsProps = {
   showSummary?: boolean;
 };
@@ -75,54 +95,51 @@ export default function ElfsightReviews(props: ElfsightReviewsProps) {
   const [widgetEmpty, setWidgetEmpty] = useState(false);
   const widgetId = getWidgetId();
 
+  // Performance (Nov 25 2026): Elfsight ships ~500 KB of script and ~950 ms of main-thread
+  // work. Pages that show reviews straight under the hero (e.g. /gutter-cleaning-birmingham/,
+  // mobile speed 53, LCP 11.3 s) were fetching it during the first paint. It now waits for
+  // the visitor's first interaction (scroll, tap, key, mouse move), then for the block to come
+  // within 400px of view. Visitors still see the reviews; the hero paints first.
+  //
   // Elfsight's free plan stops rendering when its monthly view limit is reached
-  // (console: APP_VIEWS_LIMIT_REACHED) and the section went blank. If the widget
-  // is still empty 8s after it scrolls into view, show the rating card instead.
+  // (console: APP_VIEWS_LIMIT_REACHED). If the widget is still empty 8s after the
+  // script was requested, show the static review cards instead.
   useEffect(() => {
     const el = containerRef.current;
+    if (!el) return;
     let timer: number | undefined;
+    let io: IntersectionObserver | undefined;
+    let done = false;
+
     const check = () => {
       const h = widgetRef.current?.getBoundingClientRect().height ?? 0;
       if (h < 40) setWidgetEmpty(true);
     };
-    if (!el || !('IntersectionObserver' in window)) {
+    const load = () => {
+      if (done) return;
+      done = true;
+      io?.disconnect();
+      loadElfsightPlatform();
       timer = window.setTimeout(check, 8000);
-      return () => window.clearTimeout(timer);
-    }
-    const io = new IntersectionObserver(([entry]) => {
-      if (!entry?.isIntersecting) return;
-      io.disconnect();
-      timer = window.setTimeout(check, 8000);
-    });
-    io.observe(el);
+    };
+    const watch = () => {
+      if (!('IntersectionObserver' in window)) return load();
+      io = new IntersectionObserver(
+        ([entry]) => {
+          if (entry?.isIntersecting) load();
+        },
+        { rootMargin: '400px 0px' }
+      );
+      io.observe(el);
+    };
+    const cancelInteraction = onFirstInteraction(watch);
+
     return () => {
-      io.disconnect();
+      done = true;
+      cancelInteraction();
+      io?.disconnect();
       window.clearTimeout(timer);
     };
-  }, []);
-
-  // Performance (Oct 2026): the Elfsight platform script (~130 ms of main-thread
-  // work) is only fetched when the reviews block comes within 400px of view.
-  useEffect(() => {
-    const el = containerRef.current;
-    if (!el) return;
-
-    if (!('IntersectionObserver' in window)) {
-      loadElfsightPlatform();
-      return;
-    }
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (!entry?.isIntersecting) return;
-        observer.disconnect();
-        loadElfsightPlatform();
-      },
-      { rootMargin: '400px 0px' }
-    );
-
-    observer.observe(el);
-    return () => observer.disconnect();
   }, []);
 
   return (
