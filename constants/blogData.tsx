@@ -1,3 +1,4 @@
+import { castIronVsUpvcGutterCleaningBlogPost } from './castIronVsUpvcGutterCleaningBlog';
 import { cleaningGuttersAboveConservatoryBlogPost } from './cleaningGuttersAboveConservatoryBlog';
 import { gutterGuardsBirminghamBlogPost } from './gutterGuardsBirminghamBlog';
 import { gutterCleaning2027AnnualPlanBlogPost } from './gutterCleaning2027AnnualPlanBlog';
@@ -100,6 +101,7 @@ import type { BlogPost } from './blogTypes';
 export type { BlogPost };
 
 export const blogPosts: BlogPost[] = [
+  castIronVsUpvcGutterCleaningBlogPost,
   cleaningGuttersAboveConservatoryBlogPost,
   gutterGuardsBirminghamBlogPost,
   gutterCleaning2027AnnualPlanBlogPost,
