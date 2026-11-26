@@ -14,7 +14,7 @@ const warn = 'color: #f97316; font-weight: 700; flex-shrink: 0; margin-top: 2px;
 
 export const cleaningGuttersAboveConservatoryBlogPost: BlogPost = {
   id: 'cleaning-gutters-above-conservatory',
-  seoTitle: 'How to Clean Gutters Above a Conservatory: Safe Reach & Box Gutters',
+  seoTitle: 'How to Clean Gutters Above a Conservatory: Safe Reach Guide',
   title: 'How to Clean Gutters Above a Conservatory: Safe Reach & Box Gutters',
   excerpt: 'Have a conservatory or rear extension blocking access to your upper gutters? Learn how box gutters, valley channels and high-reach vacuum poles solve the problem safely without walking on glass.',
   shortSummary: 'How to safely clean gutters above a conservatory or glazed extension in Birmingham — dealing with box gutters, roof moss, safe ground-level access and preventing internal leaks.',
